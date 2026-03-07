@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J-GRID+ Intelligence Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+:root {
+  --bg:        #f0f2f5;
+  --surface:   #ffffff;
+  --surface2:  #f5f6f8;
+  --border:    #ddd;
+  --text:      #333;
+  --muted:     #666;
+  --dim:       #999;
+  --accent:    #283593;
+  --pickup:    #c62828;
+  --pickup-bg: #fce4ec;
+  --watch:     #e65100;
+  --watch-bg:  #fff3e0;
+  --skip:      #2e7d32;
+  --skip-bg:   #e8f5e9;
+  --mono: 'Segoe UI', 'Hiragino Sans', sans-serif;
+  --sans: 'Segoe UI', 'Hiragino Sans', sans-serif;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.5;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ── */
+.header {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.header-left { display: flex; align-items: center; gap: 12px; }
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.logo span { font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.6); }
+.header-stats { display: flex; gap: 20px; }
+.hstat { text-align: right; }
+.hstat-num { font-size: 24px; font-weight: 700; line-height: 1; color: white; }
+.hstat-num.c-total  { color: white; }
+.hstat-num.c-pickup { color: #ff8a80; }
+.hstat-num.c-watch  { color: #ffcc80; }
+.hstat-num.c-skip   { color: #a5d6a7; }
+.hstat-label { font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 2px; }
+
+/* ── Country Tabs ── */
+.country-tabs-wrap {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  padding: 8px 24px;
+}
+.country-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.ctab {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  transition: all 0.2s;
+  color: #555;
+  white-space: nowrap;
+  user-select: none;
+  font-size: 12px;
+}
+.ctab:hover { border-color: var(--accent); color: var(--accent); }
+.ctab.active { background: var(--accent); color: white; border-color: var(--accent); }
+.ctab-flag { font-size: 14px; line-height: 1; }
+.ctab-name { font-size: 12px; font-weight: 500; }
+.ctab-count {
+  font-size: 10px;
+  color: inherit;
+  opacity: 0.7;
+  padding: 0 4px;
+  min-width: 18px;
+  text-align: center;
+}
+.ctab.active .ctab-count { opacity: 0.9; }
+.ctab-dots { display: flex; gap: 2px; align-items: center; }
+.cdot { width: 5px; height: 5px; border-radius: 50%; }
+.cdot-p { background: var(--pickup); }
+.cdot-w { background: var(--watch); }
+.ctab.active .cdot-p { background: #ff8a80; }
+.ctab.active .cdot-w { background: #ffcc80; }
+
+/* ── Sub filters ── */
+.subfilters {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 10px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.filter-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  min-width: 50px;
+  flex-shrink: 0;
+}
+.chip-group { display: flex; gap: 4px; flex-wrap: wrap; }
+.chip {
+  padding: 4px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  color: #555;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip.active { background: var(--accent); color: white; border-color: var(--accent); }
+.chip[data-value="ピックアップ"].active { background: var(--pickup); border-color: var(--pickup); color: white; }
+.chip[data-value="要経過観察"].active  { background: var(--watch);  border-color: var(--watch);  color: white; }
+.chip[data-value="見送り"].active      { background: var(--skip);   border-color: var(--skip);   color: white; }
+
+.sub-inputs { display: flex; gap: 8px; align-items: center; }
+.sub-inputs select,
+.sub-inputs input {
+  background: white;
+  border: 1px solid #ccc;
+  color: var(--text);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.sub-inputs select { min-width: 130px; }
+.sub-inputs input  { width: 200px; }
+.sub-inputs select:focus,
+.sub-inputs input:focus { outline: none; border-color: var(--accent); }
+
+/* ── Main layout ── */
+.main { display: flex; flex: 1; overflow: hidden; }
+.panel-col { flex: 1 1 52%; overflow-y: auto; padding: 16px; min-width: 260px; }
+.resizer { width: 6px; background: #ddd; cursor: col-resize; flex-shrink: 0; transition: background 0.2s; }
+.resizer:hover, .resizer.dragging { background: var(--accent); }
+.detail-col { flex: 1 1 48%; overflow-y: auto; padding: 16px; min-width: 260px; }
+
+/* ── Panel header ── */
+.panel-hdr {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 8px;
+}
+.panel-hdr-title { font-size: 15px; color: #555; }
+.panel-mini-stats { display: flex; gap: 8px; }
+.mini-stat { font-size: 12px; padding: 2px 10px; border-radius: 12px; font-weight: 500; }
+.mini-stat.p { background: var(--pickup-bg); color: var(--pickup); }
+.mini-stat.w { background: var(--watch-bg);  color: var(--watch); }
+.mini-stat.s { background: var(--skip-bg);   color: var(--skip); }
+
+/* ── Cards ── */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 4px solid #1a237e;
+  padding: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+.card.selected { border-left-color: #e53935 !important; box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+.card.vp { border-left-color: var(--pickup); }
+.card.vw { border-left-color: var(--watch); }
+.card.vs { border-left-color: var(--skip); }
+
+.card-top { display: flex; align-items: center; gap: 5px; margin-bottom: 5px; flex-wrap: wrap; }
+.country-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: #f5f5f5;
+  color: var(--muted);
+  font-weight: 500;
+}
+.disease-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: #e8eaf6;
+  color: #283593;
+  font-weight: 500;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vbadge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 12px; margin-left: auto; white-space: nowrap; flex-shrink: 0; }
+.vbadge.bp { background: var(--pickup-bg); color: var(--pickup); }
+.vbadge.bw { background: var(--watch-bg);  color: var(--watch); }
+.vbadge.bs { background: var(--skip-bg);   color: var(--skip); }
+.vbadge.bn { background: #f5f5f5; color: var(--muted); }
+
+.card-title { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-meta { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.card-reason { font-size: 12px; color: #555; line-height: 1.5; margin-bottom: 6px; }
+.card-note { font-size: 12px; color: #777; line-height: 1.5; margin-bottom: 4px; }
+.card-section-label { font-size: 11px; font-weight: 600; color: #444; margin-bottom: 2px; }
+
+/* ── Detail ── */
+.placeholder { color: #999; text-align: center; padding: 60px 20px; font-size: 14px; }
+.placeholder-icon { font-size: 28px; margin-bottom: 10px; }
+.detail-card { background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; max-width: 900px; word-break: break-all; overflow-wrap: break-word; }
+.detail-header-row { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.detail-title { font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 8px; }
+.detail-title-en { font-size: 13px; color: #888; margin-bottom: 12px; line-height: 1.4; }
+.detail-meta { display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: #666; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid #eee; }
+.dsec { margin-bottom: 16px; }
+.dsec-title { font-size: 13px; font-weight: 700; color: #283593; margin-bottom: 4px; border-bottom: 1px solid #e8eaf6; padding-bottom: 4px; }
+.dsec-body { font-size: 13px; color: #444; line-height: 1.6; word-break: break-all; overflow-wrap: break-word; }
+.detail-link { margin-top: 16px; padding-top: 12px; border-top: 1px solid #eee; }
+.detail-link a { font-size: 13px; color: #1565c0; text-decoration: none; }
+.detail-link a:hover { text-decoration: underline; }
+
+/* ── Loading overlay ── */
+.loading-overlay {
+  position: fixed; inset: 0;
+  background: rgba(255,255,255,0.92);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  z-index: 9999;
+  gap: 16px;
+}
+.loading-overlay.hidden { display: none; }
+.spinner {
+  width: 36px; height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: #283593;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text { font-size: 14px; color: #555; }
+
+/* ── Misc ── */
+.no-data { color: #999; text-align: center; padding: 40px; font-size: 14px; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #aaa; }
+body.drag-over::after {
+  content: "ファイルをドロップ";
+  position: fixed; inset: 0;
+  background: rgba(9,105,218,0.08);
+  border: 2px dashed var(--accent);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; font-weight: 600; color: var(--accent);
+  z-index: 9999; pointer-events: none;
+}
+
+/* Hidden file input */
+#fileInput { display: none; }
+</style>
+</head>
+<body>
+
+<!-- Loading -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="spinner"></div>
+  <div class="loading-text">jgrid.xlsx を読み込み中...</div>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <div class="logo">J-GRID+ Intelligence <span>powered by JIHS NIID CEPR</span></div>
+    <input type="file" id="fileInput" accept=".xlsx,.xls">
+  </div>
+  <div class="header-stats">
+    <div class="hstat"><div class="hstat-num c-total"  id="statTotal">—</div><div class="hstat-label">Total</div></div>
+    <div class="hstat"><div class="hstat-num c-pickup" id="statPickup">—</div><div class="hstat-label">ピックアップ</div></div>
+    <div class="hstat"><div class="hstat-num c-watch"  id="statWatch">—</div><div class="hstat-label">要経過観察</div></div>
+    <div class="hstat"><div class="hstat-num c-skip"   id="statSkip">—</div><div class="hstat-label">見送り</div></div>
+  </div>
+</div>
+
+<!-- Country Tabs -->
+<div class="country-tabs-wrap">
+  <div class="country-tabs" id="countryTabs"></div>
+</div>
+
+<!-- Sub-filters -->
+<div class="subfilters">
+  <div class="filter-row">
+    <div class="filter-label">判定:</div>
+    <div class="chip-group" id="verdictChips">
+      <button class="chip active" data-value="">すべて</button>
+      <button class="chip" data-value="ピックアップ">ピックアップ</button>
+      <button class="chip" data-value="要経過観察">要経過観察</button>
+      <button class="chip" data-value="見送り">見送り</button>
+    </div>
+  </div>
+  <div class="filter-row">
+    <div class="filter-label">検知日:</div>
+    <div class="chip-group" id="dateChips">
+      <button class="chip active" data-value="">All</button>
+    </div>
+  </div>
+  <div class="filter-row">
+    <div class="filter-label">疾患:</div>
+    <div class="sub-inputs">
+      <select id="filterDisease"><option value="">すべて</option></select>
+      <input type="text" id="filterSearch" placeholder="キーワード検索...">
+    </div>
+  </div>
+</div>
+
+<!-- Main -->
+<div class="main">
+  <div class="panel-col" id="panelCol">
+    <div class="panel-hdr">
+      <div class="panel-hdr-title" id="panelHdr">案件パネル</div>
+      <div class="panel-mini-stats" id="miniStats"></div>
+    </div>
+    <div class="card-grid" id="cardGrid">
+      <div class="no-data">読み込み中...</div>
+    </div>
+  </div>
+  <div class="resizer" id="resizer"></div>
+  <div class="detail-col" id="detailCol">
+    <div id="detailArea">
+      <div class="placeholder">
+        <div class="placeholder-icon">🔍</div>
+        案件カードをクリックすると詳細が表示されます
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Column indices (0-based): A=0 ... M=12
+const C = {
+  country:  0,
+  title_en: 1,
+  title_ja: 2,
+  date_det: 3,
+  disease:  4,
+  location: 5,
+  date_pub: 6,
+  url:      7,
+  sum_en:   8,
+  sum_ja:   9,
+  verdict:  10,
+  reason:   11,
+  note:     12,
+};
+
+const FLAGS = {
+  'India':'🇮🇳','Brazil':'🇧🇷','Indonesia':'🇮🇩','China':'🇨🇳',
+  'Vietnam':'🇻🇳','Thailand':'🇹🇭','DRC Congo':'🇨🇩','Philippines':'🇵🇭',
+  'Ghana':'🇬🇭','Zambia':'🇿🇲','Myanmar':'🇲🇲','Others':'🌐',
+};
+
+let allData = [];
+let activeCountry = '';
+
+// ── Auto-load jgrid.xlsx from same directory ──
+async function autoLoad() {
+  try {
+    const resp = await fetch('jgrid.xlsx');
+    if (!resp.ok) throw new Error('fetch failed');
+    const buf = await resp.arrayBuffer();
+    processWorkbook(buf, 'jgrid.xlsx');
+  } catch (e) {
+    console.log('Auto-load failed, waiting for drag/drop or file picker:', e.message);
+    document.getElementById('loadingOverlay').classList.add('hidden');
+    document.getElementById('cardGrid').innerHTML = '<div class="no-data">jgrid.xlsx をドラッグ＆ドロップ、またはファイル名をクリックして選択してください</div>';
+  }
+}
+
+function processWorkbook(arrayBuffer, fileName) {
+  const wb = XLSX.read(arrayBuffer, { type: 'array', cellDates: true });
+  const sn = wb.SheetNames.find(n => n.includes('All') || n.includes('全')) || wb.SheetNames[0];
+  const json = XLSX.utils.sheet_to_json(wb.Sheets[sn], { header: 1, defval: '' });
+  allData = json.slice(1).filter(r => r[0] !== '');
+  document.getElementById('loadingOverlay').classList.add('hidden');
+  buildCountryTabs();
+  buildSubFilters();
+  render();
+}
+
+// ── Drag & Drop ──
+document.addEventListener('dragover', e => { e.preventDefault(); document.body.classList.add('drag-over'); });
+document.addEventListener('dragleave', e => { if (!e.relatedTarget) document.body.classList.remove('drag-over'); });
+document.addEventListener('drop', e => {
+  e.preventDefault(); document.body.classList.remove('drag-over');
+  const f = e.dataTransfer.files[0]; if (f) loadFile(f);
+});
+
+// ── File picker ──
+document.getElementById('fileInput').addEventListener('change', e => {
+  const f = e.target.files[0]; if (f) loadFile(f);
+});
+
+function loadFile(file) {
+  document.getElementById('loadingOverlay').classList.remove('hidden');
+  const reader = new FileReader();
+  reader.onload = ev => processWorkbook(ev.target.result, file.name);
+  reader.readAsArrayBuffer(file);
+}
+
+// ── Country Tabs ──
+function buildCountryTabs() {
+  const cnt={}, pcnt={}, wcnt={};
+  allData.forEach(r => {
+    const c = r[C.country]||'Others';
+    cnt[c]  = (cnt[c]||0)+1;
+    if (r[C.verdict]==='ピックアップ') pcnt[c]=(pcnt[c]||0)+1;
+    if (r[C.verdict]==='要経過観察')   wcnt[c]=(wcnt[c]||0)+1;
+  });
+  const sorted = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).map(e=>e[0]);
+
+  const wrap = document.getElementById('countryTabs');
+  wrap.innerHTML = '';
+  const total = allData.length;
+  const tp = allData.filter(r=>r[C.verdict]==='ピックアップ').length;
+  const tw = allData.filter(r=>r[C.verdict]==='要経過観察').length;
+  wrap.appendChild(mkTab('', '🌍', 'ALL', total, tp, tw, true));
+  sorted.forEach(c => wrap.appendChild(mkTab(c, FLAGS[c]||'🌐', c, cnt[c], pcnt[c]||0, wcnt[c]||0, false)));
+}
+
+function mkTab(value, flag, name, count, pickup, watch, active) {
+  const div = document.createElement('div');
+  div.className = 'ctab' + (active ? ' active' : '');
+  div.dataset.value = value;
+  div.onclick = () => switchTab(value);
+  const dots = [
+    pickup > 0 ? '<span class="cdot cdot-p"></span>' : '',
+    watch  > 0 ? '<span class="cdot cdot-w"></span>' : '',
+  ].filter(Boolean).join('');
+  div.innerHTML = `
+    <span class="ctab-flag">${flag}</span>
+    <span class="ctab-name">${esc(name)}</span>
+    ${dots ? `<span class="ctab-dots">${dots}</span>` : ''}
+    <span class="ctab-count">${count}</span>`;
+  return div;
+}
+
+function switchTab(value) {
+  activeCountry = value;
+  document.querySelectorAll('.ctab').forEach(t => t.classList.toggle('active', t.dataset.value === value));
+  const active = document.querySelector('.ctab.active');
+  if (active) active.scrollIntoView({ behavior:'smooth', block:'nearest', inline:'center' });
+  render();
+}
+
+// ── Sub-filters ──
+function buildSubFilters() {
+  const dates = [...new Set(allData.map(r => fmtDate(r[C.date_det])).filter(Boolean))].sort().reverse();
+  const dg = document.getElementById('dateChips');
+  dg.innerHTML = '<button class="chip active" data-value="">ALL</button>';
+  dates.slice(0, 12).forEach(d => { dg.innerHTML += `<button class="chip" data-value="${d}">${d}</button>`; });
+
+  const diseases = [...new Set(allData.flatMap(r => (r[C.disease]||'').split(',').map(s=>s.trim())).filter(Boolean))].sort();
+  const sel = document.getElementById('filterDisease');
+  sel.innerHTML = '<option value="">疾患: すべて</option>';
+  diseases.forEach(d => { sel.innerHTML += `<option value="${esc(d)}">${d}</option>`; });
+}
+
+// ── Filter & Render ──
+function getFiltered() {
+  const v   = document.querySelector('#verdictChips .chip.active')?.dataset.value || '';
+  const dt  = document.querySelector('#dateChips .chip.active')?.dataset.value    || '';
+  const dis = document.getElementById('filterDisease').value;
+  const s   = document.getElementById('filterSearch').value.toLowerCase();
+  return allData.filter(r => {
+    if (activeCountry && r[C.country] !== activeCountry) return false;
+    if (v   && r[C.verdict] !== v) return false;
+    if (dt  && fmtDate(r[C.date_det]) !== dt) return false;
+    if (dis && !(r[C.disease]||'').includes(dis)) return false;
+    if (s   && !r.some(cell => String(cell).toLowerCase().includes(s))) return false;
+    return true;
+  });
+}
+
+function render() {
+  const data   = getFiltered();
+  const pickup = data.filter(r=>r[C.verdict]==='ピックアップ').length;
+  const watch  = data.filter(r=>r[C.verdict]==='要経過観察').length;
+  const skip   = data.filter(r=>r[C.verdict]==='見送り').length;
+
+  document.getElementById('statTotal').textContent  = data.length;
+  document.getElementById('statPickup').textContent = pickup;
+  document.getElementById('statWatch').textContent  = watch;
+  document.getElementById('statSkip').textContent   = skip;
+  document.getElementById('panelHdr').textContent   = `${activeCountry||'ALL'} — ${data.length} 件`;
+  document.getElementById('miniStats').innerHTML    =
+    `<span class="mini-stat p">🔴 ${pickup}</span>
+     <span class="mini-stat w">🟡 ${watch}</span>
+     <span class="mini-stat s">🟢 ${skip}</span>`;
+
+  const grid = document.getElementById('cardGrid');
+  if (!data.length) { grid.innerHTML = '<div class="no-data">該当する案件がありません</div>'; return; }
+
+  const showCountry = !activeCountry;
+
+  // Render max 500 cards for performance; show note in cards
+  const display = data.slice(0, 500);
+  const overflow = data.length > 500 ? `<div class="no-data">表示: 500 / ${data.length} 件（フィルタで絞り込んでください）</div>` : '';
+
+  grid.innerHTML = display.map(r => {
+    const v   = r[C.verdict]||'';
+    const uid = allData.indexOf(r);
+    const dis = (r[C.disease]||'').split(',')[0].trim();
+    const loc = (r[C.location]||'').split(',')[0].trim();
+    const reason = r[C.reason] || '';
+    return `<div class="card ${vcard(v)}" data-uid="${uid}" onclick="showDetail(${uid})">
+      <div class="card-top">
+        ${showCountry ? `<span class="country-tag">${esc(FLAGS[r[C.country]]||'')} ${esc(r[C.country]||'')}</span>` : ''}
+        <span class="disease-tag" title="${esc(r[C.disease]||'')}">${esc(dis)}</span>
+        ${v ? `<span class="vbadge ${vbadge(v)}">${v}</span>` : ''}
+      </div>
+      <div class="card-title">${esc(r[C.title_ja]||r[C.title_en]||'')}</div>
+      <div class="card-meta">${fmtDate(r[C.date_det])}  ·  ${esc(loc)}</div>
+      ${reason ? `<div class="card-reason"><span class="card-section-label">判定理由:</span> ${esc(reason)}</div>` : ''}
+      ${r[C.note] ? `<div class="card-note"><span class="card-section-label">備考:</span> ${esc(r[C.note])}</div>` : ''}
+    </div>`;
+  }).join('') + overflow;
+}
+
+function showDetail(uid) {
+  const r = allData[uid]; if (!r) return;
+  document.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+  document.querySelector(`.card[data-uid="${uid}"]`)?.classList.add('selected');
+
+  const v   = r[C.verdict]||'';
+  const loc = (r[C.location]||'').split(',').slice(0,4).join(', ');
+  const reason = r[C.reason] || '';
+  const note   = r[C.note]   || '';
+
+  document.getElementById('detailArea').innerHTML = `
+    <div class="detail-card">
+      <div class="detail-header-row">
+        <span class="country-tag">${esc(FLAGS[r[C.country]]||'')} ${esc(r[C.country]||'')}</span>
+        <span class="disease-tag">${esc(r[C.disease]||'')}</span>
+        ${v ? `<span class="vbadge ${vbadge(v)}">${v}</span>` : ''}
+      </div>
+      <div class="detail-title">${esc(r[C.title_ja]||'')}</div>
+      <div class="detail-title-en">${esc(r[C.title_en]||'')}</div>
+      <div class="detail-meta">
+        <span>検知日: ${fmtDate(r[C.date_det])}</span>
+        <span>掲載日: ${fmtDate(r[C.date_pub])}</span>
+        <span>場所: ${esc(loc)}</span>
+      </div>
+      ${reason ? `<div class="dsec"><div class="dsec-title">判定理由</div><div class="dsec-body">${esc(reason)}</div></div>` : ''}
+      ${note   ? `<div class="dsec"><div class="dsec-title">備考</div><div class="dsec-body">${esc(note)}</div></div>` : ''}
+      <div class="dsec"><div class="dsec-title">記事要約（日本語）</div><div class="dsec-body">${esc(r[C.sum_ja]||'—')}</div></div>
+      <div class="dsec"><div class="dsec-title">Article Summary</div><div class="dsec-body">${esc(r[C.sum_en]||'—')}</div></div>
+      <div class="detail-link"><a href="${esc(r[C.url]||'#')}" target="_blank">元記事を開く →</a></div>
+    </div>`;
+}
+
+// ── Helpers ──
+function fmtDate(v) {
+  if (v instanceof Date) return v.toISOString().slice(0,10);
+  if (typeof v==='string'&&v.length>=10) return v.slice(0,10);
+  return v||'';
+}
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function vcard(v) { return {ピックアップ:'vp',要経過観察:'vw',見送り:'vs'}[v]||''; }
+function vbadge(v) { return {ピックアップ:'bp',要経過観察:'bw',見送り:'bs'}[v]||'bn'; }
+
+// ── Event bindings ──
+['verdictChips','dateChips'].forEach(id => {
+  document.getElementById(id).addEventListener('click', e => {
+    const btn = e.target.closest('.chip'); if (!btn) return;
+    document.querySelectorAll(`#${id} .chip`).forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active'); render();
+  });
+});
+document.getElementById('filterDisease').addEventListener('change', render);
+document.getElementById('filterSearch').addEventListener('input', render);
+
+// ── Resizer ──
+const resizer=document.getElementById('resizer'), panelCol=document.getElementById('panelCol'), detailCol=document.getElementById('detailCol');
+let resizing=false;
+resizer.addEventListener('mousedown', e => { resizing=true; resizer.classList.add('dragging'); document.body.style.cursor='col-resize'; document.body.style.userSelect='none'; e.preventDefault(); });
+document.addEventListener('mousemove', e => {
+  if (!resizing) return;
+  const r=document.querySelector('.main').getBoundingClientRect(), pct=((e.clientX-r.left)/r.width)*100;
+  if (pct>18&&pct<82) { panelCol.style.flex=`0 0 ${pct}%`; detailCol.style.flex=`0 0 ${100-pct}%`; }
+});
+document.addEventListener('mouseup', () => { if(resizing){resizing=false;resizer.classList.remove('dragging');document.body.style.cursor='';document.body.style.userSelect='';} });
+
+// ── Start ──
+autoLoad();
+</script>
+</body>
+</html>
