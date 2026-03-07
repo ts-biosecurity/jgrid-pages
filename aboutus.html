@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - J-GRID+ Intelligence</title>
+<style>
+:root {
+  --bg:        #f0f2f5;
+  --surface:   #ffffff;
+  --border:    #ddd;
+  --text:      #333;
+  --muted:     #666;
+  --accent:    #283593;
+  --sans: 'Segoe UI', 'Hiragino Sans', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.8;
+}
+.header {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left { display: flex; align-items: center; gap: 12px; flex-direction: column; align-items: flex-start; }
+.logo { font-size: 20px; font-weight: 600; color: white; }
+.logo span { font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.6); }
+.nav-link {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.nav-link:hover { background: rgba(255,255,255,0.15); color: white; }
+.content {
+  max-width: 860px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 32px 36px;
+  margin-bottom: 24px;
+}
+.card h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+}
+.card p, .card li {
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+.card ul li {
+  padding-left: 1.2em;
+  position: relative;
+}
+.card ul li::before {
+  content: '\b7';
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  color: var(--accent);
+}
+.indent {
+  padding-left: 1.2em;
+  margin-bottom: 8px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">J-GRID+ Intelligence <span>powered by JIHS NIID CEPR</span></div>
+  </div>
+  <div>
+    <a class="nav-link" href="dashboard.html">Dashboard</a>
+  </div>
+</div>
+
+<div class="content">
+  <div class="card">
+    <h2>当サイトについて</h2>
+    <p>本レポートは、AMED 新興・再興感染症研究基盤創生事業（海外拠点研究領域）ネットワークコア拠点「モニタリング体制の強化」の事業の一環として、国立健康危機管理研究機構 国立感染症研究所 感染症危機管理研究センター危機管理総括部第１室で作成しています。</p>
+  </div>
+
+  <div class="card">
+    <h2>情報について</h2>
+    <ul>
+      <li>本レポートは、ネットワークコア拠点と各拠点とのコミュニケーションのための話題提供を目的として作成しており、各記事個別の検証、評価を行っているものではありません。</li>
+      <li>本レポートに含まれる情報の一部は、オープンソースインテリジェンスのプラットフォーム「BlueDot(BlueDot.Inc.)」等を用いてピックアップしており、公開されたメディア情報等に基づいています。</li>
+      <li>ピックアップに際しては、海外拠点各国のメディア情報（感染症に関するもの）を前週水曜日～当該週火曜日までの期間に区切って取得し、明らかな重複やそれぞれの国に直接関係のない記事（ピックアップエラー）を除いて掲載しています。
+        <p class="indent">同一のイベントに関して複数の記事がある場合には、そのイベントの影響の大きさを反映していると考え、絞らずにそのまま掲載しています。</p>
+        <p class="indent">拠点各国ではないが、周辺に位置する国のイベントに関する記事（例：コンゴ民主共和国とコンゴ共和国、タイとミャンマー・ラオス等）も参考になると考えますので、ピックアップできた場合には掲載しています。</p>
+        <p class="indent">現地発生ではなく輸入症例等であっても、拠点各国と関係性がある場合には掲載しています。</p>
+        <p class="indent">CRNE（化学・放射性物質・核・爆発物）および自然災害、気候変動等に関するメディア情報はピックアップしておりません。</p>
+      </li>
+      <li>「Date of detection」欄はニュース取得を行った日、「Date of publication」はそれぞれの記事が公開された日を示しています。</li>
+      <li>「Disease」「Location」欄に関しては、各プラットフォームが使用している分類を参考に作成しています。</li>
+      <li>各シートの、記事タイトルと記事概要の日本語訳は自動翻訳により作成しています。また、一部記事に関しては、記事概要が存在しないため空欄となっています。</li>
+      <li>評価とその理由、備考はAIが自動作成したものです。参考情報としてご覧ください。記載事項の真偽はユーザーご自身でご判断ください。</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
