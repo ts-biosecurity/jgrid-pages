@@ -1,1 +1,1 @@
-# jgrid-pages
+jgrid.xlsxファイルがjgridで更新されると自動アップデート。
