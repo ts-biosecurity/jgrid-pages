@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J-GRID+ Signal Triage Dashboard</title>
+<style>
+:root {
+  --bg:        #f0f2f5;
+  --surface:   #ffffff;
+  --surface2:  #f5f6f8;
+  --border:    #ddd;
+  --text:      #333;
+  --muted:     #666;
+  --dim:       #999;
+  --accent:    #283593;
+  --pickup:    #c62828;
+  --pickup-bg: #fce4ec;
+  --watch:     #e65100;
+  --watch-bg:  #fff3e0;
+  --skip:      #2e7d32;
+  --skip-bg:   #e8f5e9;
+  --sans: 'Segoe UI', 'Hiragino Sans', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.5;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.header-left { display: flex; align-items: flex-start; flex-direction: column; gap: 2px; }
+.logo { font-size: 20px; font-weight: 600; color: white; }
+.logo span { font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.6); }
+.updated { font-size: 11px; color: rgba(255,255,255,0.55); margin-top: 2px; }
+.header-stats { display: flex; gap: 20px; }
+.hstat { text-align: right; }
+.hstat-num { font-size: 24px; font-weight: 700; line-height: 1; color: white; }
+.hstat-num.c-pickup { color: #ff8a80; }
+.hstat-num.c-watch  { color: #ffcc80; }
+.hstat-num.c-skip   { color: #a5d6a7; }
+.hstat-label { font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 2px; }
+
+/* Country Tabs */
+.country-tabs-wrap {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  padding: 8px 24px;
+}
+.country-tabs { display: flex; flex-wrap: wrap; gap: 4px; }
+.ctab {
+  display: flex; align-items: center; gap: 4px;
+  padding: 4px 10px; cursor: pointer;
+  border: 1px solid #ccc; border-radius: 20px;
+  background: white; transition: all 0.2s;
+  color: #555; white-space: nowrap; user-select: none; font-size: 12px;
+}
+.ctab:hover { border-color: var(--accent); color: var(--accent); }
+.ctab.active { background: var(--accent); color: white; border-color: var(--accent); }
+.ctab-flag { font-size: 14px; line-height: 1; }
+.ctab-name { font-size: 12px; font-weight: 500; }
+.ctab-count { font-size: 10px; color: inherit; opacity: 0.7; padding: 0 4px; min-width: 18px; text-align: center; }
+.ctab.active .ctab-count { opacity: 0.9; }
+.ctab-dots { display: flex; gap: 2px; align-items: center; }
+.cdot { width: 5px; height: 5px; border-radius: 50%; }
+.cdot-p { background: var(--pickup); }
+.cdot-w { background: var(--watch); }
+.ctab.active .cdot-p { background: #ff8a80; }
+.ctab.active .cdot-w { background: #ffcc80; }
+
+/* Sub-filters */
+.subfilters {
+  background: white; border-bottom: 1px solid var(--border);
+  padding: 10px 24px; display: flex; flex-direction: column; gap: 6px; flex-shrink: 0;
+}
+.filter-row { display: flex; align-items: center; gap: 12px; }
+.filter-label { font-size: 13px; font-weight: 500; color: var(--text); min-width: 50px; flex-shrink: 0; }
+.chip-group { display: flex; gap: 4px; flex-wrap: wrap; }
+.chip {
+  padding: 4px 12px; border: 1px solid #ccc; border-radius: 20px;
+  background: white; color: #555; cursor: pointer; font-size: 12px;
+  transition: all 0.2s; white-space: nowrap;
+}
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip.active { background: var(--accent); color: white; border-color: var(--accent); }
+.chip[data-value="PICKUP"].active { background: var(--pickup); border-color: var(--pickup); color: white; }
+.chip[data-value="WATCH"].active  { background: var(--watch);  border-color: var(--watch);  color: white; }
+.chip[data-value="DISMISS"].active { background: var(--skip);  border-color: var(--skip);   color: white; }
+.sub-inputs { display: flex; gap: 8px; align-items: center; }
+.sub-inputs select,
+.sub-inputs input {
+  background: white; border: 1px solid #ccc; color: var(--text);
+  padding: 6px 10px; border-radius: 6px; font-size: 13px;
+}
+.sub-inputs select { min-width: 130px; }
+.sub-inputs input  { width: 200px; }
+.sub-inputs select:focus,
+.sub-inputs input:focus { outline: none; border-color: var(--accent); }
+
+/* Main layout */
+.main { display: flex; flex: 1; overflow: hidden; }
+.panel-col { flex: 1 1 52%; overflow-y: auto; padding: 16px; min-width: 260px; }
+.resizer { width: 6px; background: #ddd; cursor: col-resize; flex-shrink: 0; transition: background 0.2s; }
+.resizer:hover, .resizer.dragging { background: var(--accent); }
+.detail-col { flex: 1 1 48%; overflow-y: auto; padding: 16px; min-width: 260px; }
+.panel-hdr { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.panel-hdr-title { font-size: 15px; color: #555; }
+.panel-mini-stats { display: flex; gap: 8px; }
+.mini-stat { font-size: 12px; padding: 2px 10px; border-radius: 12px; font-weight: 500; }
+.mini-stat.p { background: var(--pickup-bg); color: var(--pickup); }
+.mini-stat.w { background: var(--watch-bg);  color: var(--watch); }
+.mini-stat.s { background: var(--skip-bg);   color: var(--skip); }
+
+/* Card grid */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.card {
+  background: white; border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 4px solid #1a237e;
+  padding: 16px; cursor: pointer; transition: box-shadow 0.2s;
+}
+.card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+.card.selected { border-left-color: #e53935 !important; box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+.card.vp { border-left-color: var(--pickup); }
+.card.vw { border-left-color: var(--watch); }
+.card.vs { border-left-color: var(--skip); }
+.card-top { display: flex; align-items: center; gap: 5px; margin-bottom: 5px; flex-wrap: wrap; }
+.country-tag { font-size: 11px; padding: 2px 8px; border-radius: 12px; background: #f5f5f5; color: var(--muted); font-weight: 500; }
+.disease-tag {
+  font-size: 11px; padding: 2px 8px; border-radius: 12px;
+  background: #e8eaf6; color: #283593; font-weight: 500;
+  max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.vbadge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 12px; margin-left: auto; white-space: nowrap; flex-shrink: 0; }
+.vbadge.bp { background: var(--pickup-bg); color: var(--pickup); }
+.vbadge.bw { background: var(--watch-bg);  color: var(--watch); }
+.vbadge.bs { background: var(--skip-bg);   color: var(--skip); }
+.vbadge.bn { background: #f5f5f5; color: var(--muted); }
+.card-title { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-meta { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.card-reason { font-size: 12px; color: #555; line-height: 1.5; margin-bottom: 6px; }
+.card-note { font-size: 12px; color: #777; line-height: 1.5; margin-bottom: 4px; }
+.card-section-label { font-size: 11px; font-weight: 600; color: #444; margin-bottom: 2px; }
+
+/* Detail panel */
+.placeholder { color: #999; text-align: center; padding: 60px 20px; font-size: 14px; }
+.placeholder-icon { font-size: 28px; margin-bottom: 10px; }
+.detail-card { background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px; max-width: 900px; word-break: break-all; overflow-wrap: break-word; }
+.detail-header-row { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.detail-title { font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 8px; }
+.detail-title-en { font-size: 13px; color: #888; margin-bottom: 12px; line-height: 1.4; }
+.detail-meta { display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: #666; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid #eee; }
+.dsec { margin-bottom: 16px; }
+.dsec-title { font-size: 13px; font-weight: 700; color: #283593; margin-bottom: 4px; border-bottom: 1px solid #e8eaf6; padding-bottom: 4px; }
+.dsec-body { font-size: 13px; color: #444; line-height: 1.6; word-break: break-all; overflow-wrap: break-word; }
+.criteria-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.criteria-item { padding: 4px 8px; background: var(--surface2); border-radius: 4px; font-size: 12px; }
+.criteria-item .q { color: var(--muted); }
+.criteria-item .a { font-weight: 600; margin-left: 4px; }
+.criteria-item .a.Yes { color: var(--pickup); }
+.criteria-item .a.No { color: var(--skip); }
+.detail-link { margin-top: 16px; padding-top: 12px; border-top: 1px solid #eee; }
+.detail-link a { font-size: 13px; color: #1565c0; text-decoration: none; }
+.detail-link a:hover { text-decoration: underline; }
+.no-data { color: #999; text-align: center; padding: 40px; font-size: 14px; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #aaa; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <div class="logo">J-GRID+ Signal Triage <span>powered by JIHS NIID CEPR</span></div>
+    <div class="updated" id="updated">Loading...</div>
+  </div>
+  <div class="header-stats">
+    <div class="hstat"><div class="hstat-num c-total"  id="statTotal">&mdash;</div><div class="hstat-label">Total</div></div>
+    <div class="hstat"><div class="hstat-num c-pickup" id="statPickup">&mdash;</div><div class="hstat-label">PICKUP</div></div>
+    <div class="hstat"><div class="hstat-num c-watch"  id="statWatch">&mdash;</div><div class="hstat-label">WATCH</div></div>
+    <div class="hstat"><div class="hstat-num c-skip"   id="statSkip">&mdash;</div><div class="hstat-label">DISMISS</div></div>
+  </div>
+</div>
+
+<!-- Country Tabs -->
+<div class="country-tabs-wrap">
+  <div class="country-tabs" id="countryTabs"></div>
+</div>
+
+<!-- Sub-filters -->
+<div class="subfilters">
+  <div class="filter-row">
+    <div class="filter-label">判定:</div>
+    <div class="chip-group" id="verdictChips">
+      <button class="chip active" data-value="">すべて</button>
+      <button class="chip" data-value="PICKUP">PICKUP</button>
+      <button class="chip" data-value="WATCH">WATCH</button>
+      <button class="chip" data-value="DISMISS">DISMISS</button>
+    </div>
+  </div>
+  <div class="filter-row">
+    <div class="filter-label">配信日:</div>
+    <div class="chip-group" id="dateChips">
+      <button class="chip active" data-value="">All</button>
+    </div>
+  </div>
+  <div class="filter-row">
+    <div class="filter-label">疾患:</div>
+    <div class="sub-inputs">
+      <select id="filterDisease"><option value="">すべて</option></select>
+      <input type="text" id="filterSearch" placeholder="キーワード検索...">
+    </div>
+  </div>
+</div>
+
+<!-- Main -->
+<div class="main">
+  <div class="panel-col" id="panelCol">
+    <div class="panel-hdr">
+      <div class="panel-hdr-title" id="panelHdr">案件パネル</div>
+      <div class="panel-mini-stats" id="miniStats"></div>
+    </div>
+    <div class="card-grid" id="cardGrid">
+      <div class="no-data">読み込み中...</div>
+    </div>
+  </div>
+  <div class="resizer" id="resizer"></div>
+  <div class="detail-col" id="detailCol">
+    <div id="detailArea">
+      <div class="placeholder">
+        <div class="placeholder-icon">&#x1F50D;</div>
+        案件カードをクリックすると詳細が表示されます
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA_URL = "data/latest.json";
+
+let allResults = [];
+let activeCountry = "";
+
+// 対象11か国 GeoNames ID → 表示名
+const TARGET_COUNTRIES = {
+  895949:  "Zambia",
+  1694008: "Philippines",
+  1605651: "Thailand",
+  2300660: "Ghana",
+  203312:  "DR Congo",
+  3469034: "Brazil",
+  1643084: "Indonesia",
+  1814991: "China",
+  1327865: "Myanmar",
+  1562822: "Vietnam",
+  1269750: "India",
+};
+const TARGET_IDS = new Set(Object.keys(TARGET_COUNTRIES).map(Number));
+
+// 記事のlocationsから対象国名リストを返す
+function getTargetCountries(r) {
+  const locs = r.article?.locations;
+  if (!Array.isArray(locs)) return [];
+  const matched = [];
+  for (const loc of locs) {
+    const id = loc.id || loc.geonameId;
+    if (id && TARGET_IDS.has(Number(id))) {
+      matched.push(TARGET_COUNTRIES[Number(id)]);
+    }
+  }
+  return [...new Set(matched)];
+}
+
+// ── Data loading ──
+async function loadData() {
+  try {
+    const res = await fetch(DATA_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    allResults = data.results || [];
+
+    document.getElementById("updated").textContent =
+      `最終更新: ${new Date(data.generated_at).toLocaleString("ja-JP")}`;
+
+    const s = data.summary || {};
+    document.getElementById("statTotal").textContent  = data.total || 0;
+    document.getElementById("statPickup").textContent = s.PICKUP || 0;
+    document.getElementById("statWatch").textContent  = s.WATCH || 0;
+    document.getElementById("statSkip").textContent   = s.DISMISS || 0;
+
+    buildCountryTabs();
+    buildSubFilters();
+    render();
+  } catch (e) {
+    document.getElementById("cardGrid").innerHTML =
+      `<div class="no-data">データの読み込みに失敗しました<br><code>${esc(e.message)}</code></div>`;
+  }
+}
+
+// ── Extract helpers ──
+function getLocations(r) {
+  const locs = r.article?.locations;
+  if (!locs) return [];
+  if (Array.isArray(locs)) return locs.map(l => typeof l === "object" ? (l.name || l.displayName || "") : String(l));
+  return [String(locs)];
+}
+
+function getPrimaryLocation(r) {
+  const locs = getLocations(r);
+  return locs[0] || "";
+}
+
+function getDiseases(r) {
+  const d = r.article?.diseases;
+  if (!d) return [];
+  if (Array.isArray(d)) return d.map(v => typeof v === "object" ? (v.name || v.displayName || "") : String(v));
+  return [String(d)];
+}
+
+function getPrimaryDisease(r) {
+  return getDiseases(r)[0] || "";
+}
+
+function getVerdict(r) {
+  return r.triage?.triage_verdict || "";
+}
+
+function getHeadline(r) {
+  return r.article?.articleHeadlineTranslated || r.article?.articleHeadline || "(見出しなし)";
+}
+
+function getDate(r) {
+  return r.article?.publishedTimestamp || "";
+}
+
+// ── Country Tabs ──
+function buildCountryTabs() {
+  const countryMap = {};
+  allResults.forEach(r => {
+    const countries = getTargetCountries(r);
+    countries.forEach(c => {
+      if (!countryMap[c]) countryMap[c] = { total: 0, pickup: 0, watch: 0 };
+      countryMap[c].total++;
+      const v = getVerdict(r);
+      if (v === "PICKUP") countryMap[c].pickup++;
+      if (v === "WATCH") countryMap[c].watch++;
+    });
+  });
+
+  const sorted = Object.entries(countryMap).sort((a, b) => {
+    const pa = a[1].pickup, pb = b[1].pickup;
+    if (pa !== pb) return pb - pa;
+    return b[1].total - a[1].total;
+  });
+
+  const el = document.getElementById("countryTabs");
+  let html = `<div class="ctab ${!activeCountry ? 'active' : ''}" data-country="">
+    <span class="ctab-name">ALL</span>
+    <span class="ctab-count">${allResults.length}</span>
+  </div>`;
+
+  sorted.forEach(([name, info]) => {
+    const dots = (info.pickup > 0 ? '<span class="cdot cdot-p"></span>' : '')
+               + (info.watch > 0 ? '<span class="cdot cdot-w"></span>' : '');
+    html += `<div class="ctab ${activeCountry === name ? 'active' : ''}" data-country="${esc(name)}">
+      <span class="ctab-name">${esc(name)}</span>
+      <span class="ctab-count">${info.total}</span>
+      ${dots ? `<span class="ctab-dots">${dots}</span>` : ''}
+    </div>`;
+  });
+  el.innerHTML = html;
+
+  el.querySelectorAll(".ctab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      activeCountry = tab.dataset.country;
+      buildCountryTabs();
+      render();
+    });
+  });
+}
+
+// ── Sub-filters ──
+function buildSubFilters() {
+  // Date chips
+  const dates = new Set();
+  allResults.forEach(r => {
+    const d = getDate(r);
+    if (d) dates.add(d.slice(0, 10));
+  });
+  const dateEl = document.getElementById("dateChips");
+  let dateHtml = '<button class="chip active" data-value="">All</button>';
+  [...dates].sort().reverse().forEach(d => {
+    dateHtml += `<button class="chip" data-value="${d}">${d}</button>`;
+  });
+  dateEl.innerHTML = dateHtml;
+
+  // Disease dropdown
+  const diseaseSet = new Set();
+  allResults.forEach(r => getDiseases(r).forEach(d => { if (d) diseaseSet.add(d); }));
+  const diseaseEl = document.getElementById("filterDisease");
+  let dOpts = '<option value="">すべて</option>';
+  [...diseaseSet].sort().forEach(d => {
+    dOpts += `<option value="${esc(d)}">${esc(d)}</option>`;
+  });
+  diseaseEl.innerHTML = dOpts;
+}
+
+// ── Render ──
+function render() {
+  const verdictFilter = document.querySelector("#verdictChips .chip.active")?.dataset.value || "";
+  const dateFilter    = document.querySelector("#dateChips .chip.active")?.dataset.value || "";
+  const diseaseFilter = document.getElementById("filterDisease").value;
+  const searchText    = document.getElementById("filterSearch").value.toLowerCase();
+
+  let data = allResults.filter(r => {
+    if (activeCountry && !getTargetCountries(r).includes(activeCountry)) return false;
+    if (verdictFilter && getVerdict(r) !== verdictFilter) return false;
+    if (dateFilter && !getDate(r).startsWith(dateFilter)) return false;
+    if (diseaseFilter && !getDiseases(r).includes(diseaseFilter)) return false;
+    if (searchText) {
+      const text = (getHeadline(r) + " " + getDiseases(r).join(" ") + " " + getLocations(r).join(" ") + " " + (r.triage?.triage_reason || "")).toLowerCase();
+      if (!text.includes(searchText)) return false;
+    }
+    return true;
+  });
+
+  // Sort: PICKUP → WATCH → DISMISS
+  const order = { PICKUP: 0, WATCH: 1, DISMISS: 2 };
+  data.sort((a, b) => (order[getVerdict(a)] ?? 3) - (order[getVerdict(b)] ?? 3));
+
+  const pickup = data.filter(r => getVerdict(r) === "PICKUP").length;
+  const watch  = data.filter(r => getVerdict(r) === "WATCH").length;
+  const skip   = data.filter(r => getVerdict(r) === "DISMISS").length;
+
+  document.getElementById("panelHdr").textContent = `${activeCountry || "ALL"} — ${data.length} 件`;
+  document.getElementById("miniStats").innerHTML =
+    `<span class="mini-stat p">PICKUP ${pickup}</span>
+     <span class="mini-stat w">WATCH ${watch}</span>
+     <span class="mini-stat s">DISMISS ${skip}</span>`;
+
+  const grid = document.getElementById("cardGrid");
+  if (!data.length) { grid.innerHTML = '<div class="no-data">該当する案件がありません</div>'; return; }
+
+  const showCountry = !activeCountry;
+  const display  = data.slice(0, 500);
+  const overflow = data.length > 500
+    ? `<div class="no-data">表示: 500 / ${data.length} 件（フィルタで絞り込んでください）</div>` : '';
+
+  grid.innerHTML = display.map((r, i) => {
+    const v       = getVerdict(r);
+    const uid     = allResults.indexOf(r);
+    const disease = getPrimaryDisease(r);
+    const loc     = getPrimaryLocation(r);
+    const reason  = r.triage?.triage_reason || "";
+    const note    = r.triage?.notes || "";
+    return `<div class="card ${vcard(v)}" data-uid="${uid}" onclick="showDetail(${uid})">
+      <div class="card-top">
+        ${showCountry ? `<span class="country-tag">${esc(loc)}</span>` : ''}
+        <span class="disease-tag" title="${esc(getDiseases(r).join(', '))}">${esc(disease)}</span>
+        ${v ? `<span class="vbadge ${vbadge(v)}">${v}</span>` : ''}
+      </div>
+      <div class="card-title">${esc(getHeadline(r))}</div>
+      <div class="card-meta">${fmtDate(getDate(r))}  ·  ${esc(loc)}</div>
+      ${reason ? `<div class="card-reason"><span class="card-section-label">判定理由:</span> ${esc(reason)}</div>` : ''}
+      ${note ? `<div class="card-note"><span class="card-section-label">備考:</span> ${esc(note)}</div>` : ''}
+    </div>`;
+  }).join('') + overflow;
+}
+
+// ── Detail panel ──
+function showDetail(uid) {
+  const r = allResults[uid]; if (!r) return;
+  document.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+  document.querySelector(`.card[data-uid="${uid}"]`)?.classList.add('selected');
+
+  const art  = r.article || {};
+  const tri  = r.triage || {};
+  const v    = getVerdict(r);
+  const loc  = getLocations(r).slice(0, 4).join(", ");
+
+  // IHR criteria
+  let ihrHtml = "";
+  if (tri.ihr_criteria) {
+    const ihr = tri.ihr_criteria;
+    ihrHtml = `<div class="dsec">
+      <div class="dsec-title">IHR(2005) Annex2 基準 (${ihr.ihr_count || 0}/4)</div>
+      <div class="criteria-grid">
+        <div class="criteria-item"><span class="q">公衆衛生影響:</span><span class="a ${ihr.serious_impact}">${ihr.serious_impact || '—'}</span></div>
+        <div class="criteria-item"><span class="q">異常/予想外:</span><span class="a ${ihr.unusual_unexpected}">${ihr.unusual_unexpected || '—'}</span></div>
+        <div class="criteria-item"><span class="q">国際拡大:</span><span class="a ${ihr.international_spread}">${ihr.international_spread || '—'}</span></div>
+        <div class="criteria-item"><span class="q">渡航貿易制限:</span><span class="a ${ihr.travel_trade_restriction}">${ihr.travel_trade_restriction || '—'}</span></div>
+      </div>
+    </div>`;
+  }
+
+  // WPRO criteria
+  let wproHtml = "";
+  if (tri.wpro_criteria) {
+    const w = tri.wpro_criteria;
+    wproHtml = `<div class="dsec">
+      <div class="dsec-title">WPRO スクリーニング基準 (${w.wpro_count || 0}/5)</div>
+      <div class="criteria-grid">
+        <div class="criteria-item"><span class="q">異常/予想外:</span><span class="a ${w.abnormal_unexpected}">${w.abnormal_unexpected || '—'}</span></div>
+        <div class="criteria-item"><span class="q">重症度:</span><span class="a ${w.severity}">${w.severity || '—'}</span></div>
+        <div class="criteria-item"><span class="q">長期曝露:</span><span class="a ${w.prolonged_exposure}">${w.prolonged_exposure || '—'}</span></div>
+        <div class="criteria-item"><span class="q">流行しやすさ:</span><span class="a ${w.epidemic_prone}">${w.epidemic_prone || '—'}</span></div>
+        <div class="criteria-item"><span class="q">管理可能性:</span><span class="a ${w.manageability}">${w.manageability || '—'}</span></div>
+      </div>
+    </div>`;
+  }
+
+  // Sociopolitical
+  let socHtml = "";
+  if (tri.sociopolitical_concern) {
+    const s = tri.sociopolitical_concern;
+    socHtml = `<div class="dsec">
+      <div class="dsec-title">社会的・政治的関心</div>
+      <div class="criteria-grid">
+        <div class="criteria-item"><span class="q">世間の関心:</span><span class="a ${s.public_attention}">${s.public_attention || '—'}</span></div>
+        <div class="criteria-item"><span class="q">関係省庁の関心:</span><span class="a ${s.government_attention}">${s.government_attention || '—'}</span></div>
+        <div class="criteria-item"><span class="q">国際支援の必要性:</span><span class="a ${s.international_support_needed}">${s.international_support_needed || '—'}</span></div>
+      </div>
+    </div>`;
+  }
+
+  document.getElementById("detailArea").innerHTML = `
+    <div class="detail-card">
+      <div class="detail-header-row">
+        <span class="country-tag">${esc(getPrimaryLocation(r))}</span>
+        <span class="disease-tag">${esc(getDiseases(r).join(", "))}</span>
+        ${v ? `<span class="vbadge ${vbadge(v)}">${v}</span>` : ''}
+      </div>
+      <div class="detail-title">${esc(art.articleHeadlineTranslated || '')}</div>
+      <div class="detail-title-en">${esc(art.articleHeadline || '')}</div>
+      <div class="detail-meta">
+        <span>配信日: ${fmtDate(art.publishedTimestamp)}</span>
+        <span>言語: ${esc(art.originalLanguage || '')}</span>
+        <span>場所: ${esc(loc)}</span>
+      </div>
+      ${tri.triage_reason ? `<div class="dsec"><div class="dsec-title">判定理由</div><div class="dsec-body">${esc(tri.triage_reason)}</div></div>` : ''}
+      ${tri.notes ? `<div class="dsec"><div class="dsec-title">備考</div><div class="dsec-body">${esc(tri.notes)}</div></div>` : ''}
+      ${ihrHtml}
+      ${wproHtml}
+      ${socHtml}
+      ${art.articleSummary ? `<div class="dsec"><div class="dsec-title">記事サマリー</div><div class="dsec-body">${esc(art.articleSummary)}</div></div>` : ''}
+      ${r.error ? `<div class="dsec"><div class="dsec-title">Error</div><div class="dsec-body" style="color:var(--pickup)">${esc(r.error)}</div></div>` : ''}
+      ${art.sourceUrl ? `<div class="detail-link"><a href="${esc(art.sourceUrl)}" target="_blank" rel="noopener">元記事を開く &rarr;</a></div>` : ''}
+    </div>`;
+}
+
+// ── Helpers ──
+function fmtDate(v) {
+  if (!v) return '';
+  return String(v).slice(0, 10);
+}
+function esc(s) {
+  return String(s)
+    .replace(/&/g,'&amp;').replace(/"/g,'&quot;')
+    .replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function vcard(v)  { return { PICKUP:'vp', WATCH:'vw', DISMISS:'vs' }[v] || ''; }
+function vbadge(v) { return { PICKUP:'bp', WATCH:'bw', DISMISS:'bs' }[v] || 'bn'; }
+
+// ── Event bindings ──
+['verdictChips','dateChips'].forEach(id => {
+  document.getElementById(id).addEventListener('click', e => {
+    const btn = e.target.closest('.chip'); if (!btn) return;
+    document.querySelectorAll(`#${id} .chip`).forEach(b => b.classList.remove('active'));
+    btn.classList.add('active'); render();
+  });
+});
+document.getElementById('filterDisease').addEventListener('change', render);
+document.getElementById('filterSearch').addEventListener('input', render);
+
+// ── Resizer ──
+const resizer  = document.getElementById('resizer'),
+      panelCol = document.getElementById('panelCol'),
+      detailCol= document.getElementById('detailCol');
+let resizing = false;
+resizer.addEventListener('mousedown', e => {
+  resizing = true; resizer.classList.add('dragging');
+  document.body.style.cursor = 'col-resize'; document.body.style.userSelect = 'none'; e.preventDefault();
+});
+document.addEventListener('mousemove', e => {
+  if (!resizing) return;
+  const rect = document.querySelector('.main').getBoundingClientRect(),
+        pct  = ((e.clientX - rect.left) / rect.width) * 100;
+  if (pct > 18 && pct < 82) {
+    panelCol.style.flex  = `0 0 ${pct}%`;
+    detailCol.style.flex = `0 0 ${100 - pct}%`;
+  }
+});
+document.addEventListener('mouseup', () => {
+  if (resizing) { resizing = false; resizer.classList.remove('dragging');
+    document.body.style.cursor = ''; document.body.style.userSelect = ''; }
+});
+
+// ── Start ──
+loadData();
+</script>
+</body>
+</html>
