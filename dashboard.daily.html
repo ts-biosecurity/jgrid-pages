@@ -151,7 +151,8 @@ body {
 .vbadge.bw { background: var(--watch-bg);  color: var(--watch); }
 .vbadge.bs { background: var(--skip-bg);   color: var(--skip); }
 .vbadge.bn { background: #f5f5f5; color: var(--muted); }
-.card-title { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-title { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-title-en { font-size: 12px; color: #888; line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
 .card-meta { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
 .card-reason { font-size: 12px; color: #555; line-height: 1.5; margin-bottom: 6px; }
 .card-note { font-size: 12px; color: #777; line-height: 1.5; margin-bottom: 4px; }
@@ -468,6 +469,7 @@ function render() {
   grid.innerHTML = display.map((r, i) => {
     const v       = getVerdict(r);
     const uid     = allResults.indexOf(r);
+    const art     = r.article || {};
     const disease = getPrimaryDisease(r);
     const loc     = getPrimaryLocation(r);
     const reason  = r.triage?.triage_reason || "";
@@ -478,7 +480,8 @@ function render() {
         <span class="disease-tag" title="${esc(getDiseases(r).join(', '))}">${esc(disease)}</span>
         ${v ? `<span class="vbadge ${vbadge(v)}">${v}</span>` : ''}
       </div>
-      <div class="card-title">${esc(getHeadline(r))}</div>
+      <div class="card-title">${esc(art.articleHeadlineTranslated || art.articleHeadline || '(見出しなし)')}</div>
+      ${art.articleHeadline && art.articleHeadlineTranslated ? `<div class="card-title-en">${esc(art.articleHeadline)}</div>` : ''}
       <div class="card-meta">${fmtDate(getDate(r))}  ·  ${esc(loc)}</div>
       ${reason ? `<div class="card-reason"><span class="card-section-label">判定理由:</span> ${esc(reason)}</div>` : ''}
       ${note ? `<div class="card-note"><span class="card-section-label">備考:</span> ${esc(note)}</div>` : ''}
