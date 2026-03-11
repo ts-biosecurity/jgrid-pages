@@ -169,12 +169,6 @@ body {
 .dsec { margin-bottom: 16px; }
 .dsec-title { font-size: 13px; font-weight: 700; color: #283593; margin-bottom: 4px; border-bottom: 1px solid #e8eaf6; padding-bottom: 4px; }
 .dsec-body { font-size: 13px; color: #444; line-height: 1.6; word-break: break-all; overflow-wrap: break-word; }
-.criteria-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
-.criteria-item { padding: 4px 8px; background: var(--surface2); border-radius: 4px; font-size: 12px; }
-.criteria-item .q { color: var(--muted); }
-.criteria-item .a { font-weight: 600; margin-left: 4px; }
-.criteria-item .a.Yes { color: var(--pickup); }
-.criteria-item .a.No { color: var(--skip); }
 .detail-link { margin-top: 16px; padding-top: 12px; border-top: 1px solid #eee; }
 .detail-link a { font-size: 13px; color: #1565c0; text-decoration: none; }
 .detail-link a:hover { text-decoration: underline; }
@@ -500,51 +494,6 @@ function showDetail(uid) {
   const v    = getVerdict(r);
   const loc  = getLocations(r).slice(0, 4).join(", ");
 
-  // IHR criteria
-  let ihrHtml = "";
-  if (tri.ihr_criteria) {
-    const ihr = tri.ihr_criteria;
-    ihrHtml = `<div class="dsec">
-      <div class="dsec-title">IHR(2005) Annex2 基準 (${ihr.ihr_count || 0}/4)</div>
-      <div class="criteria-grid">
-        <div class="criteria-item"><span class="q">公衆衛生影響:</span><span class="a ${ihr.serious_impact}">${ihr.serious_impact || '—'}</span></div>
-        <div class="criteria-item"><span class="q">異常/予想外:</span><span class="a ${ihr.unusual_unexpected}">${ihr.unusual_unexpected || '—'}</span></div>
-        <div class="criteria-item"><span class="q">国際拡大:</span><span class="a ${ihr.international_spread}">${ihr.international_spread || '—'}</span></div>
-        <div class="criteria-item"><span class="q">渡航貿易制限:</span><span class="a ${ihr.travel_trade_restriction}">${ihr.travel_trade_restriction || '—'}</span></div>
-      </div>
-    </div>`;
-  }
-
-  // WPRO criteria
-  let wproHtml = "";
-  if (tri.wpro_criteria) {
-    const w = tri.wpro_criteria;
-    wproHtml = `<div class="dsec">
-      <div class="dsec-title">WPRO スクリーニング基準 (${w.wpro_count || 0}/5)</div>
-      <div class="criteria-grid">
-        <div class="criteria-item"><span class="q">異常/予想外:</span><span class="a ${w.abnormal_unexpected}">${w.abnormal_unexpected || '—'}</span></div>
-        <div class="criteria-item"><span class="q">重症度:</span><span class="a ${w.severity}">${w.severity || '—'}</span></div>
-        <div class="criteria-item"><span class="q">長期曝露:</span><span class="a ${w.prolonged_exposure}">${w.prolonged_exposure || '—'}</span></div>
-        <div class="criteria-item"><span class="q">流行しやすさ:</span><span class="a ${w.epidemic_prone}">${w.epidemic_prone || '—'}</span></div>
-        <div class="criteria-item"><span class="q">管理可能性:</span><span class="a ${w.manageability}">${w.manageability || '—'}</span></div>
-      </div>
-    </div>`;
-  }
-
-  // Sociopolitical
-  let socHtml = "";
-  if (tri.sociopolitical_concern) {
-    const s = tri.sociopolitical_concern;
-    socHtml = `<div class="dsec">
-      <div class="dsec-title">社会的・政治的関心</div>
-      <div class="criteria-grid">
-        <div class="criteria-item"><span class="q">世間の関心:</span><span class="a ${s.public_attention}">${s.public_attention || '—'}</span></div>
-        <div class="criteria-item"><span class="q">関係省庁の関心:</span><span class="a ${s.government_attention}">${s.government_attention || '—'}</span></div>
-        <div class="criteria-item"><span class="q">国際支援の必要性:</span><span class="a ${s.international_support_needed}">${s.international_support_needed || '—'}</span></div>
-      </div>
-    </div>`;
-  }
-
   document.getElementById("detailArea").innerHTML = `
     <div class="detail-card">
       <div class="detail-header-row">
@@ -561,9 +510,6 @@ function showDetail(uid) {
       </div>
       ${tri.triage_reason ? `<div class="dsec"><div class="dsec-title">判定理由</div><div class="dsec-body">${esc(tri.triage_reason)}</div></div>` : ''}
       ${tri.notes ? `<div class="dsec"><div class="dsec-title">備考</div><div class="dsec-body">${esc(tri.notes)}</div></div>` : ''}
-      ${ihrHtml}
-      ${wproHtml}
-      ${socHtml}
       ${art.articleSummary ? `<div class="dsec"><div class="dsec-title">記事サマリー</div><div class="dsec-body">${esc(art.articleSummary)}</div></div>` : ''}
       ${r.error ? `<div class="dsec"><div class="dsec-title">Error</div><div class="dsec-body" style="color:var(--pickup)">${esc(r.error)}</div></div>` : ''}
       ${art.sourceUrl ? `<div class="detail-link"><a href="${esc(art.sourceUrl)}" target="_blank" rel="noopener">元記事を開く &rarr;</a></div>` : ''}
