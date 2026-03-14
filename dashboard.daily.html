@@ -340,7 +340,7 @@ function getVerdict(r) {
 }
 
 function getHeadline(r) {
-  return r.article?.articleHeadlineTranslated || r.article?.articleHeadline || "(見出しなし)";
+  return r.triage?.headline_ja || r.article?.articleHeadlineTranslated || r.article?.articleHeadline || "(見出しなし)";
 }
 
 function getDate(r) {
