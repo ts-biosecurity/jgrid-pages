@@ -21,6 +21,7 @@ https://ts-biosecurity.github.io/jgrid-pages/
 | 国 | パス |
 |---|---|
 | Brazil | `brazil/index.html` |
+| DR Congo | `drc/index.html` |
 | Ghana | `ghana/index.html` |
 | India | `india/index.html` |
 | Indonesia | `indonesia/index.html` |
