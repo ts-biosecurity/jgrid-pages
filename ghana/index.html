@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghana - Infectious Disease Dashboard</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  :root {
+    --bg: #1a1500;
+    --card: #2d2800;
+    --border: #4a4000;
+    --text: #fffde0;
+    --text-dim: #fde68a;
+    --accent: #22c55e;
+    --danger: #f87171;
+    --warning: #fb923c;
+    --success: #4ade80;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .header {
+    background: linear-gradient(135deg, #2d2800 0%, #1a1500 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .header-left { display: flex; align-items: center; gap: 1rem; }
+  .header h1 { font-size: 1.5rem; }
+  .header .meta { color: var(--text-dim); font-size: 0.85rem; text-align: right; }
+
+  .lang-toggle {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .lang-btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: transparent;
+    color: var(--text-dim);
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .lang-btn.active {
+    background: var(--accent);
+    color: #1a1500;
+  }
+  .lang-btn:not(.active):hover {
+    background: var(--border);
+    color: var(--text);
+  }
+
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+  }
+  .stat-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+  }
+  .stat-card .label { color: var(--text-dim); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat-card .value { font-size: 2rem; font-weight: 700; margin-top: 0.25rem; }
+  .stat-card .value.accent { color: var(--accent); }
+  .stat-card .value.danger { color: var(--danger); }
+  .stat-card .value.warning { color: var(--warning); }
+  .stat-card .value.success { color: var(--success); }
+  .split-layout {
+    display: flex;
+    padding: 0 2rem 2rem;
+    gap: 0;
+    height: calc(100vh - 220px);
+    min-height: 500px;
+  }
+  @media (max-width: 900px) {
+    .split-layout { flex-direction: column; height: auto; }
+    .split-layout .panel { width: 100% !important; }
+    .splitter { display: none; }
+  }
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+  }
+  .panel-header {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .panel-body { padding: 1.25rem; overflow-y: auto; flex: 1; }
+  .map-container .panel-body { padding: 0; }
+  #map { height: 100%; width: 100%; min-height: 400px; background: #1a1500; }
+  .leaflet-container { background: #1a1500 !important; }
+
+  .splitter {
+    width: 8px;
+    cursor: col-resize;
+    background: transparent;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 10;
+  }
+  .splitter::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4px;
+    height: 40px;
+    background: var(--border);
+    border-radius: 2px;
+    transition: background 0.2s, height 0.2s;
+  }
+  .splitter:hover::after, .splitter.active::after {
+    background: var(--accent);
+    height: 60px;
+  }
+
+  .legend-bar {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    flex-wrap: wrap;
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.3rem; }
+  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
+
+  .disease-tag {
+    display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px;
+    font-size: 0.7rem; font-weight: 600; margin: 0.15rem;
+  }
+  .disease-tag.malaria { background: #14532d; color: #86efac; }
+  .disease-tag.cholera { background: #1e3a5f; color: #7dd3fc; }
+  .disease-tag.covid { background: #7f1d1d; color: #fca5a5; }
+  .disease-tag.meningitis { background: #4c1d95; color: #c4b5fd; }
+  .disease-tag.yellow-fever { background: #713f12; color: #fde68a; }
+  .disease-tag.ebola { background: #831843; color: #f9a8d4; }
+  .disease-tag.lassa { background: #92400e; color: #fbbf24; }
+  .disease-tag.measles { background: #064e3b; color: #6ee7b7; }
+  .disease-tag.tuberculosis { background: #3b0764; color: #d8b4fe; }
+  .disease-tag.buruli { background: #422006; color: #fdba74; }
+  .disease-tag.default { background: #334155; color: #cbd5e1; }
+
+  .article-list { list-style: none; }
+  .article-item { padding: 0.75rem 0; border-bottom: 1px solid var(--border); }
+  .article-item:last-child { border-bottom: none; }
+  .article-item a { color: var(--accent); text-decoration: none; font-size: 0.85rem; line-height: 1.4; display: block; }
+  .article-item a:hover { text-decoration: underline; }
+  .article-meta {
+    display: flex; gap: 0.75rem; margin-top: 0.3rem;
+    font-size: 0.75rem; color: var(--text-dim); flex-wrap: wrap; align-items: center;
+  }
+  .article-source { font-weight: 600; }
+
+  .filter-bar {
+    padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;
+  }
+  .filter-bar select, .filter-bar input {
+    background: var(--card); color: var(--text); border: 1px solid var(--border);
+    border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.85rem; outline: none;
+  }
+  .filter-bar select:focus, .filter-bar input:focus { border-color: var(--accent); }
+  .filter-bar label { font-size: 0.8rem; color: var(--text-dim); }
+
+  .no-data { text-align: center; padding: 3rem; color: var(--text-dim); }
+
+  .leaflet-popup-content-wrapper {
+    background: #2d2800 !important;
+    color: #fffde0 !important;
+    border: 1px solid #4a4000 !important;
+    border-radius: 0.5rem !important;
+  }
+  .leaflet-popup-tip { background: #2d2800 !important; }
+  .leaflet-popup-content { margin: 0.75rem 1rem !important; font-size: 0.85rem; }
+  .leaflet-popup-content strong { color: #22c55e; }
+  .info-box {
+    padding: 8px 12px;
+    background: rgba(26, 21, 0, 0.92);
+    border: 1px solid #4a4000;
+    border-radius: 6px;
+    color: #fffde0;
+    font-size: 13px;
+    line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+  .info-box h4 { margin: 0 0 4px; color: #22c55e; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <a href="../index.html" style="color:rgba(255,255,255,0.8);text-decoration:none;font-size:13px;">&larr; Top</a>
+    <h1 data-i18n="title"></h1>
+    <div class="lang-toggle">
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ja">JA</button>
+    </div>
+  </div>
+  <div class="meta">
+    <div id="generated-at"></div>
+    <div id="date-range"></div>
+  </div>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-card">
+    <div class="label" data-i18n="statArticles"></div>
+    <div class="value accent" id="total-articles">-</div>
+  </div>
+  <div class="stat-card">
+    <div class="label" data-i18n="statRegions"></div>
+    <div class="value danger" id="total-regions">-</div>
+  </div>
+  <div class="stat-card">
+    <div class="label" data-i18n="statDiseases"></div>
+    <div class="value warning" id="total-diseases">-</div>
+  </div>
+  <div class="stat-card">
+    <div class="label" data-i18n="statSources"></div>
+    <div class="value success" id="total-sources">-</div>
+  </div>
+</div>
+
+<div class="filter-bar">
+  <label data-i18n="filterDisease"></label>
+  <select id="filter-disease"><option value="">-</option></select>
+  <label data-i18n="filterRegion"></label>
+  <select id="filter-region"><option value="">-</option></select>
+  <label data-i18n="filterSearch"></label>
+  <input type="text" id="filter-search" data-i18n-placeholder="filterSearchPlaceholder">
+</div>
+
+<div class="split-layout">
+  <div class="panel map-container" id="panel-map" style="flex: 1 1 50%;">
+    <div class="panel-header">
+      <span data-i18n="mapTitle"></span>
+      <span id="map-subtitle" style="font-weight:400; font-size:0.8rem; color:var(--text-dim)"></span>
+    </div>
+    <div class="legend-bar" id="map-legend"></div>
+    <div class="panel-body">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <div class="splitter" id="splitter"></div>
+
+  <div class="panel" id="panel-articles" style="flex: 1 1 50%;">
+    <div class="panel-header">
+      <span data-i18n="articlesTitle"></span>
+      <span id="article-count" style="font-weight:400; font-size:0.8rem; color:var(--text-dim)"></span>
+    </div>
+    <div class="panel-body" id="article-list"></div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// i18n
+// ============================================================
+const I18N = {
+  en: {
+    title: "Ghana - Infectious Disease Dashboard",
+    statArticles: "Total Articles",
+    statRegions: "Regions with Alerts",
+    statDiseases: "Diseases Detected",
+    statSources: "Data Sources",
+    filterDisease: "Filter by disease:",
+    filterRegion: "Filter by region:",
+    filterSearch: "Search:",
+    filterSearchPlaceholder: "Keyword...",
+    filterAllDiseases: "All",
+    filterAllRegions: "All",
+    mapTitle: "Map by Region",
+    articlesTitle: "Recent Articles",
+    noData: "No articles found",
+    updated: "Updated",
+    period: "Period",
+    articles: "articles",
+    articleSuffix: "article(s)",
+    mapHover: "Hover over a region",
+    noTitle: "No title",
+    legendNone: "0",
+    legendLow: "Low",
+    legendMid: "Medium",
+    legendHigh: "High",
+    legendVeryHigh: "Very high",
+    timeMin: "min",
+    timeH: "h",
+    timeD: "d",
+  },
+  ja: {
+    title: "ガーナ 感染症ダッシュボード",
+    statArticles: "記事総数",
+    statRegions: "アラート発生州",
+    statDiseases: "検出された感染症",
+    statSources: "データソース",
+    filterDisease: "感染症で絞り込み:",
+    filterRegion: "州で絞り込み:",
+    filterSearch: "検索:",
+    filterSearchPlaceholder: "キーワード...",
+    filterAllDiseases: "すべて",
+    filterAllRegions: "すべて",
+    mapTitle: "州別マップ",
+    articlesTitle: "最新記事",
+    noData: "記事が見つかりません",
+    updated: "更新日時",
+    period: "期間",
+    articles: "件",
+    articleSuffix: "件",
+    mapHover: "州にカーソルを合わせてください",
+    noTitle: "タイトルなし",
+    legendNone: "0",
+    legendLow: "少",
+    legendMid: "中",
+    legendHigh: "多",
+    legendVeryHigh: "非常に多",
+    timeMin: "分前",
+    timeH: "時間前",
+    timeD: "日前",
+  },
+};
+
+let lang = localStorage.getItem("dashboard-lang-gh") || "en";
+
+function t(key) { return (I18N[lang] || I18N.en)[key] || key; }
+
+function applyI18nStatic() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    el.textContent = t(el.dataset.i18n);
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    el.placeholder = t(el.dataset.i18nPlaceholder);
+  });
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.lang === lang);
+  });
+  document.documentElement.lang = lang === "ja" ? "ja" : "en";
+}
+
+function setLang(newLang) {
+  lang = newLang;
+  localStorage.setItem("dashboard-lang-gh", lang);
+  applyI18nStatic();
+  if (DATA) renderAll();
+}
+
+document.querySelectorAll(".lang-btn").forEach(btn => {
+  btn.addEventListener("click", () => setLang(btn.dataset.lang));
+});
+
+applyI18nStatic();
+
+// ============================================================
+// GeoJSON name normalization
+// ============================================================
+const REGION_NAME_NORMALIZE = {
+  "Greater Accra": "Greater Accra", "Greater Accra Region": "Greater Accra",
+  "Ashanti": "Ashanti", "Ashanti Region": "Ashanti",
+  "Western": "Western", "Western Region": "Western",
+  "Central": "Central", "Central Region": "Central",
+  "Eastern": "Eastern", "Eastern Region": "Eastern",
+  "Volta": "Volta", "Volta Region": "Volta",
+  "Northern": "Northern", "Northern Region": "Northern",
+  "Upper East": "Upper East", "Upper East Region": "Upper East",
+  "Upper West": "Upper West", "Upper West Region": "Upper West",
+  "Brong-Ahafo": "Brong-Ahafo", "Brong Ahafo": "Brong-Ahafo", "Brong-Ahafo Region": "Brong-Ahafo",
+  "Bono": "Bono", "Bono Region": "Bono",
+  "Bono East": "Bono East", "Bono East Region": "Bono East",
+  "Ahafo": "Ahafo", "Ahafo Region": "Ahafo",
+  "Western North": "Western North", "Western North Region": "Western North",
+  "Oti": "Oti", "Oti Region": "Oti",
+  "Savannah": "Savannah", "Savannah Region": "Savannah",
+  "North East": "North East", "North East Region": "North East", "Northeast": "North East", "North-East": "North East",
+};
+
+const CANONICAL = {};
+for (const [k, v] of Object.entries(REGION_NAME_NORMALIZE)) {
+  CANONICAL[k.toLowerCase()] = v;
+}
+
+function canonicalRegionName(name) {
+  if (!name) return name;
+  return CANONICAL[name.toLowerCase()] || name;
+}
+
+// ============================================================
+// Heat colors
+// ============================================================
+const HEAT = ["#2d2800", "#22c55e", "#facc15", "#f97316", "#ef4444"];
+
+function heatColor(count, max) {
+  if (count === 0) return HEAT[0];
+  const r = count / max;
+  if (r <= 0.25) return HEAT[1];
+  if (r <= 0.5)  return HEAT[2];
+  if (r <= 0.75) return HEAT[3];
+  return HEAT[4];
+}
+
+function getDiseaseClass(name) {
+  const n = name.toLowerCase();
+  if (n.includes("malaria")) return "malaria";
+  if (n.includes("cholera")) return "cholera";
+  if (n.includes("covid")) return "covid";
+  if (n.includes("meningitis")) return "meningitis";
+  if (n.includes("yellow")) return "yellow-fever";
+  if (n.includes("ebola")) return "ebola";
+  if (n.includes("lassa")) return "lassa";
+  if (n.includes("measles")) return "measles";
+  if (n.includes("tuberculosis") || n.includes("tb")) return "tuberculosis";
+  if (n.includes("buruli")) return "buruli";
+  return "default";
+}
+
+function formatDate(iso) {
+  if (!iso) return "";
+  try {
+    const locale = lang === "ja" ? "ja-JP" : "en-US";
+    return new Date(iso).toLocaleString(locale, { dateStyle: "short", timeStyle: "short", timeZone: "Africa/Accra" });
+  } catch { return iso; }
+}
+
+function timeAgo(iso) {
+  if (!iso) return "";
+  const diff = Math.floor((Date.now() - new Date(iso).getTime()) / 60000);
+  if (diff < 60) return `${diff}${t("timeMin")}`;
+  if (diff < 1440) return `${Math.floor(diff / 60)}${t("timeH")}`;
+  return `${Math.floor(diff / 1440)}${t("timeD")}`;
+}
+
+// ============================================================
+// State
+// ============================================================
+let DATA = null;
+let filteredArticles = [];
+let map = null;
+let geoLayer = null;
+let geoData = null;
+let infoControl = null;
+
+// ============================================================
+// Init
+// ============================================================
+async function init() {
+  const [geoResp, dataResp] = await Promise.all([
+    fetch("https://raw.githubusercontent.com/wmgeolab/geoBoundaries/main/releaseData/gbOpen/GHA/ADM1/geoBoundaries-GHA-ADM1.geojson"),
+    fetch("data/ghana_infectious_diseases.json"),
+  ]);
+
+  if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
+  if (!dataResp.ok) { document.getElementById("map").textContent = "Error loading data"; return; }
+
+  geoData = await geoResp.json();
+  DATA = await dataResp.json();
+
+  initMap();
+  applyFilters();
+  renderAll();
+}
+
+function initMap() {
+  map = L.map("map", {
+    zoomControl: true,
+    attributionControl: false,
+    minZoom: 5,
+    maxZoom: 10,
+  }).setView([7.9, -1.0], 7);
+
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
+    subdomains: "abcd",
+    opacity: 0.4,
+  }).addTo(map);
+
+  infoControl = L.control({ position: "topright" });
+  infoControl.onAdd = function () {
+    this._div = L.DomUtil.create("div", "info-box");
+    this.update();
+    return this._div;
+  };
+  infoControl.update = function (name, count) {
+    if (name) {
+      this._div.innerHTML = `<h4>${name}</h4>${count} ${t("articleSuffix")}`;
+    } else {
+      this._div.innerHTML = t("mapHover");
+    }
+  };
+  infoControl.addTo(map);
+}
+
+function renderMap() {
+  const regionCounts = {};
+  filteredArticles.forEach(a => {
+    (a.states || []).forEach(s => {
+      const key = canonicalRegionName(s);
+      regionCounts[key] = (regionCounts[key] || 0) + 1;
+    });
+  });
+  const maxCount = Math.max(1, ...Object.values(regionCounts), 1);
+
+  if (geoLayer) map.removeLayer(geoLayer);
+
+  geoLayer = L.geoJSON(geoData, {
+    style: function (feature) {
+      const name = canonicalRegionName(feature.properties.shapeName);
+      const count = regionCounts[name] || 0;
+      return {
+        fillColor: heatColor(count, maxCount),
+        weight: 1,
+        color: "#4a4000",
+        fillOpacity: 0.85,
+      };
+    },
+    onEachFeature: function (feature, layer) {
+      const name = canonicalRegionName(feature.properties.shapeName);
+      const count = regionCounts[name] || 0;
+
+      layer.on({
+        mouseover: function (e) {
+          e.target.setStyle({ weight: 2, color: "#22c55e" });
+          e.target.bringToFront();
+          infoControl.update(name, count);
+        },
+        mouseout: function (e) {
+          geoLayer.resetStyle(e.target);
+          infoControl.update();
+        },
+        click: function () {
+          const sel = document.getElementById("filter-region");
+          for (const opt of sel.options) {
+            if (canonicalRegionName(opt.value) === name) {
+              sel.value = opt.value;
+              break;
+            }
+          }
+          applyFilters();
+          renderAll();
+        },
+      });
+    },
+  }).addTo(map);
+
+  document.getElementById("map-subtitle").textContent = `(${filteredArticles.length} ${t("articles")})`;
+
+  document.getElementById("map-legend").innerHTML = [
+    { color: HEAT[0], label: t("legendNone") },
+    { color: HEAT[1], label: t("legendLow") },
+    { color: HEAT[2], label: t("legendMid") },
+    { color: HEAT[3], label: t("legendHigh") },
+    { color: HEAT[4], label: t("legendVeryHigh") },
+  ].map(({ color, label }) =>
+    `<div class="legend-item"><div class="legend-swatch" style="background:${color}"></div>${label}</div>`
+  ).join("");
+}
+
+// ============================================================
+// Filters & rendering
+// ============================================================
+function applyFilters() {
+  if (!DATA) return;
+  const df = document.getElementById("filter-disease").value;
+  const rf = document.getElementById("filter-region").value;
+  const kw = document.getElementById("filter-search").value.toLowerCase();
+
+  filteredArticles = DATA.articles.filter(a => {
+    if (df && !(a.diseases || []).includes(df)) return false;
+    if (rf && !(a.states || []).includes(rf)) return false;
+    if (kw) {
+      const text = ((a.headline||"")+" "+(a.headlineTranslated||"")+" "+(a.headlineJa||"")+" "+(a.summary||"")).toLowerCase();
+      if (!text.includes(kw)) return false;
+    }
+    return true;
+  });
+}
+
+function renderAll() {
+  if (!DATA) return;
+  renderHeader();
+  renderStats();
+  renderMap();
+  renderArticles();
+  populateFilters();
+}
+
+function renderHeader() {
+  document.getElementById("generated-at").textContent = `${t("updated")}: ${formatDate(DATA.generated_at)}`;
+  if (DATA.date_range) {
+    document.getElementById("date-range").textContent =
+      `${t("period")}: ${formatDate(DATA.date_range.start)} ~ ${formatDate(DATA.date_range.end)}`;
+  }
+}
+
+function renderStats() {
+  document.getElementById("total-articles").textContent = filteredArticles.length;
+  const regions = new Set(), diseases = new Set(), sources = new Set();
+  filteredArticles.forEach(a => {
+    (a.states || []).forEach(s => { if (!s.includes("not identified")) regions.add(s); });
+    (a.diseases || []).forEach(d => diseases.add(d));
+    sources.add(a.dataSource || "?");
+  });
+  document.getElementById("total-regions").textContent = regions.size;
+  document.getElementById("total-diseases").textContent = diseases.size;
+  document.getElementById("total-sources").textContent = sources.size;
+}
+
+function renderArticles() {
+  const el = document.getElementById("article-list");
+  document.getElementById("article-count").textContent = `(${filteredArticles.length} ${t("articles")})`;
+  if (!filteredArticles.length) { el.innerHTML = `<div class="no-data">${t("noData")}</div>`; return; }
+
+  el.innerHTML = `<ul class="article-list">${filteredArticles.map(a => {
+    const title = lang === "ja"
+      ? (a.headlineJa || a.headline || t("noTitle"))
+      : (a.headline || t("noTitle"));
+    const tags = (a.diseases||[]).map(d => `<span class="disease-tag ${getDiseaseClass(d)}">${d}</span>`).join("");
+    const sts = (a.states||[]).join(", ");
+    return `<li class="article-item">
+      <a href="${a.sourceUrl||'#'}" target="_blank" rel="noopener">${title}</a>
+      <div class="article-meta">
+        <span>${timeAgo(a.publishedTimestamp)}</span>
+        ${a.sourceName ? `<span class="article-source">${a.sourceName}</span>` : ""}
+        <span>${a.dataSource||""}</span>
+        <span>${sts}</span>
+      </div>
+      <div style="margin-top:0.25rem">${tags}</div>
+    </li>`;
+  }).join("")}</ul>`;
+}
+
+function populateFilters() {
+  const ds = document.getElementById("filter-disease");
+  const rs = document.getElementById("filter-region");
+  const cv = ds.value, rv = rs.value;
+  const diseases = new Set(), regions = new Set();
+  DATA.articles.forEach(a => {
+    (a.diseases||[]).forEach(d => diseases.add(d));
+    (a.states||[]).forEach(s => regions.add(s));
+  });
+  ds.innerHTML = `<option value="">${t("filterAllDiseases")}</option>` +
+    [...diseases].sort().map(d => `<option value="${d}" ${d===cv?"selected":""}>${d}</option>`).join("");
+  rs.innerHTML = `<option value="">${t("filterAllRegions")}</option>` +
+    [...regions].sort().map(s => `<option value="${s}" ${s===rv?"selected":""}>${s}</option>`).join("");
+}
+
+document.getElementById("filter-disease").addEventListener("change", () => { applyFilters(); renderAll(); });
+document.getElementById("filter-region").addEventListener("change", () => { applyFilters(); renderAll(); });
+document.getElementById("filter-search").addEventListener("input", () => { applyFilters(); renderAll(); });
+
+// ============================================================
+// Splitter drag to resize
+// ============================================================
+(function () {
+  const splitter = document.getElementById("splitter");
+  const left = document.getElementById("panel-map");
+  const right = document.getElementById("panel-articles");
+  const container = document.querySelector(".split-layout");
+  let dragging = false;
+
+  splitter.addEventListener("mousedown", function (e) {
+    e.preventDefault();
+    dragging = true;
+    splitter.classList.add("active");
+    document.body.style.cursor = "col-resize";
+    document.body.style.userSelect = "none";
+  });
+
+  document.addEventListener("mousemove", function (e) {
+    if (!dragging) return;
+    const rect = container.getBoundingClientRect();
+    const offset = e.clientX - rect.left;
+    const total = rect.width;
+    const splitterW = 8;
+    const minPx = 280;
+
+    let leftW = offset - splitterW / 2;
+    leftW = Math.max(minPx, Math.min(leftW, total - splitterW - minPx));
+    const rightW = total - leftW - splitterW;
+
+    left.style.flex = "0 0 " + leftW + "px";
+    right.style.flex = "0 0 " + rightW + "px";
+
+    if (map) map.invalidateSize();
+  });
+
+  document.addEventListener("mouseup", function () {
+    if (!dragging) return;
+    dragging = false;
+    splitter.classList.remove("active");
+    document.body.style.cursor = "";
+    document.body.style.userSelect = "";
+    if (map) map.invalidateSize();
+  });
+})();
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J-GRID+ Intelligence</title>
+<style>
+:root {
+  --bg:        #f0f2f5;
+  --surface:   #ffffff;
+  --border:    #ddd;
+  --text:      #333;
+  --muted:     #666;
+  --accent:    #283593;
+  --sans: 'Segoe UI', 'Hiragino Sans', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.8;
+}
+.header {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left { display: flex; align-items: flex-start; flex-direction: column; gap: 2px; }
+.logo { font-size: 20px; font-weight: 600; color: white; }
+.logo span { font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.6); }
+.nav-link {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.nav-link:hover { background: rgba(255,255,255,0.15); color: white; }
+.content {
+  max-width: 960px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 36px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: box-shadow 0.2s, border-color 0.2s;
+  display: block;
+}
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-color: var(--accent);
+}
+.card-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.card-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 36px;
+}
+.country-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: box-shadow 0.2s, border-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.country-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-color: var(--accent);
+}
+.country-flag { font-size: 24px; }
+.country-name { font-size: 14px; font-weight: 500; }
+.country-section-note {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">J-GRID+ Intelligence <span>powered by JIHS NIID CEPR</span></div>
+  </div>
+  <div>
+    <a class="nav-link" href="aboutus.html">About</a>
+  </div>
+</div>
+
+<div class="content">
+
+  <h2 class="section-title">Dashboards</h2>
+  <div class="card-grid">
+    <a class="card" href="dashboard.html">
+      <div class="card-icon">&#x1F4CA;</div>
+      <div class="card-title">Intelligence Dashboard</div>
+      <div class="card-desc">全対象国の感染症メディア情報を一覧表示。国別フィルタ・評価ラベル付き。</div>
+    </a>
+    <a class="card" href="dashboard.daily.html">
+      <div class="card-icon">&#x1F4C5;</div>
+      <div class="card-title">Signal Triage (Daily)</div>
+      <div class="card-desc">日次ベースのシグナルトリアージ。新着記事の確認に。</div>
+    </a>
+    <a class="card" href="dashboard.cluster.html">
+      <div class="card-icon">&#x1F517;</div>
+      <div class="card-title">Signal Triage (Clustered)</div>
+      <div class="card-desc">関連記事をクラスタリングして表示。イベント単位での把握に。</div>
+    </a>
+  </div>
+
+  <h2 class="section-title">Country Dashboards</h2>
+  <p class="country-section-note">各拠点国の個別ダッシュボード（順次追加予定）</p>
+  <div class="country-grid">
+    <a class="country-card" href="brazil/index.html">
+      <span class="country-flag">&#x1F1E7;&#x1F1F7;</span>
+      <span class="country-name">Brazil</span>
+    </a>
+    <a class="country-card" href="ghana/index.html">
+      <span class="country-flag">&#x1F1EC;&#x1F1ED;</span>
+      <span class="country-name">Ghana</span>
+    </a>
+    <a class="country-card" href="india/index.html">
+      <span class="country-flag">&#x1F1EE;&#x1F1F3;</span>
+      <span class="country-name">India</span>
+    </a>
+    <a class="country-card" href="indonesia/index.html">
+      <span class="country-flag">&#x1F1EE;&#x1F1E9;</span>
+      <span class="country-name">Indonesia</span>
+    </a>
+    <a class="country-card" href="thailand/index.html">
+      <span class="country-flag">&#x1F1F9;&#x1F1ED;</span>
+      <span class="country-name">Thailand</span>
+    </a>
+    <a class="country-card" href="vietnam/index.html">
+      <span class="country-flag">&#x1F1FB;&#x1F1F3;</span>
+      <span class="country-name">Vietnam</span>
+    </a>
+    <a class="country-card" href="zambia/index.html">
+      <span class="country-flag">&#x1F1FF;&#x1F1F2;</span>
+      <span class="country-name">Zambia</span>
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>
