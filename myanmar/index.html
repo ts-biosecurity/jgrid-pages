@@ -6,6 +6,7 @@
 <title>Myanmar - Infectious Disease Dashboard</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
 <style>
   :root {
     --bg: #052e16;
@@ -379,15 +380,16 @@ let DATA = null, filteredArticles = [], map = null, geoLayer = null, geoData = n
 // Init
 // ============================================================
 async function init() {
-  const [geoResp, dataResp] = await Promise.all([
-    fetch("https://raw.githubusercontent.com/themimu/myanmar-geojson/master/myanmar_regions.geojson"),
+  const [topoResp, dataResp] = await Promise.all([
+    fetch("https://raw.githubusercontent.com/markmarkoh/datamaps/master/src/js/data/mmr.topo.json"),
     fetch("data/myanmar_infectious_diseases.json"),
   ]);
 
-  if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
+  if (!topoResp.ok) { document.getElementById("map").textContent = "Error loading TopoJSON"; return; }
   if (!dataResp.ok) { document.getElementById("map").textContent = "Error loading data"; return; }
 
-  geoData = await geoResp.json();
+  const topoData = await topoResp.json();
+  geoData = topojson.feature(topoData, topoData.objects.mmr);
   DATA = await dataResp.json();
 
   initMap();
