@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中国 - Infectious Disease Dashboard</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  :root {
+    --bg: #052e16;
+    --card: #14532d;
+    --border: #166534;
+    --text: #f0fdf4;
+    --text-dim: #86efac;
+    --accent: #facc15;
+    --danger: #f87171;
+    --warning: #fb923c;
+    --success: #4ade80;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .header {
+    background: linear-gradient(135deg, #14532d 0%, #052e16 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .header-left { display: flex; align-items: center; gap: 1rem; }
+  .header h1 { font-size: 1.5rem; }
+  .header .meta { color: var(--text-dim); font-size: 0.85rem; text-align: right; }
+
+  .lang-toggle {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .lang-btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: transparent;
+    color: var(--text-dim);
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .lang-btn.active {
+    background: var(--accent);
+    color: #052e16;
+  }
+  .lang-btn:not(.active):hover {
+    background: var(--border);
+    color: var(--text);
+  }
+
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+  }
+  .stat-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+  }
+  .stat-card .label { color: var(--text-dim); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat-card .value { font-size: 2rem; font-weight: 700; margin-top: 0.25rem; }
+  .stat-card .value.accent { color: var(--accent); }
+  .stat-card .value.danger { color: var(--danger); }
+  .stat-card .value.warning { color: var(--warning); }
+  .stat-card .value.success { color: var(--success); }
+  .split-layout {
+    display: flex;
+    padding: 0 2rem 2rem;
+    gap: 0;
+    height: calc(100vh - 220px);
+    min-height: 500px;
+  }
+  @media (max-width: 900px) {
+    .split-layout { flex-direction: column; height: auto; }
+    .split-layout .panel { width: 100% !important; }
+    .splitter { display: none; }
+  }
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+  }
+  .panel-header {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .panel-body { padding: 1.25rem; overflow-y: auto; flex: 1; }
+  .map-container .panel-body { padding: 0; }
+  #map { height: 100%; width: 100%; min-height: 400px; background: #052e16; }
+  .leaflet-container { background: #052e16 !important; }
+
+  .splitter {
+    width: 8px;
+    cursor: col-resize;
+    background: transparent;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 10;
+  }
+  .splitter::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4px;
+    height: 40px;
+    background: var(--border);
+    border-radius: 2px;
+    transition: background 0.2s, height 0.2s;
+  }
+  .splitter:hover::after, .splitter.active::after {
+    background: var(--accent);
+    height: 60px;
+  }
+
+  .legend-bar {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    flex-wrap: wrap;
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.3rem; }
+  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
+
+  .disease-tag {
+    display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px;
+    font-size: 0.7rem; font-weight: 600; margin: 0.15rem;
+  }
+  .disease-tag.dengue { background: #92400e; color: #fbbf24; }
+  .disease-tag.covid { background: #7f1d1d; color: #fca5a5; }
+  .disease-tag.influenza { background: #1e3a5f; color: #7dd3fc; }
+  .disease-tag.avian { background: #713f12; color: #fde68a; }
+  .disease-tag.plague { background: #4a0404; color: #fca5a5; }
+  .disease-tag.hfmd { background: #4c1d95; color: #c4b5fd; }
+  .disease-tag.malaria { background: #14532d; color: #86efac; }
+  .disease-tag.default { background: #334155; color: #cbd5e1; }
+
+  .article-list { list-style: none; }
+  .article-item { padding: 0.75rem 0; border-bottom: 1px solid var(--border); }
+  .article-item:last-child { border-bottom: none; }
+  .article-item a { color: var(--accent); text-decoration: none; font-size: 0.85rem; line-height: 1.4; display: block; }
+  .article-item a:hover { text-decoration: underline; }
+  .article-meta {
+    display: flex; gap: 0.75rem; margin-top: 0.3rem;
+    font-size: 0.75rem; color: var(--text-dim); flex-wrap: wrap; align-items: center;
+  }
+  .article-source { font-weight: 600; }
+
+  .filter-bar {
+    padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;
+  }
+  .filter-bar select, .filter-bar input {
+    background: var(--card); color: var(--text); border: 1px solid var(--border);
+    border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.85rem; outline: none;
+  }
+  .filter-bar select:focus, .filter-bar input:focus { border-color: var(--accent); }
+  .filter-bar label { font-size: 0.8rem; color: var(--text-dim); }
+
+  .no-data { text-align: center; padding: 3rem; color: var(--text-dim); }
+
+  .leaflet-popup-content-wrapper {
+    background: #14532d !important;
+    color: #f0fdf4 !important;
+    border: 1px solid #166534 !important;
+    border-radius: 0.5rem !important;
+  }
+  .leaflet-popup-tip { background: #14532d !important; }
+  .leaflet-popup-content { margin: 0.75rem 1rem !important; font-size: 0.85rem; }
+  .leaflet-popup-content strong { color: #facc15; }
+  .info-box {
+    padding: 8px 12px;
+    background: rgba(5, 46, 22, 0.92);
+    border: 1px solid #166534;
+    border-radius: 6px;
+    color: #f0fdf4;
+    font-size: 13px;
+    line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+  .info-box h4 { margin: 0 0 4px; color: #facc15; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <a href="../index.html" style="color:rgba(255,255,255,0.8);text-decoration:none;font-size:13px;">&larr; Top</a>
+    <h1 data-i18n="title"></h1>
+    <div class="lang-toggle">
+      <button class="lang-btn" data-lang="zh">ZH</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ja">JA</button>
+    </div>
+  </div>
+  <div class="meta">
+    <div id="generated-at"></div>
+    <div id="date-range"></div>
+  </div>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-card">
+    <div class="label" data-i18n="statArticles"></div>
+    <div class="value accent" id="total-articles">-</div>
+  </div>
+  <div class="stat-card">
+    <div class="label" data-i18n="statStates"></div>
+    <div class="value danger" id="total-states">-</div>
+  </div>
+  <div class="stat-card">
+    <div class="label" data-i18n="statDiseases"></div>
+    <div class="value warning" id="total-diseases">-</div>
+  </div>
+  <div class="stat-card">
+    <div class="label" data-i18n="statSources"></div>
+    <div class="value success" id="total-sources">-</div>
+  </div>
+</div>
+
+<div class="filter-bar">
+  <label data-i18n="filterDisease"></label>
+  <select id="filter-disease"><option value="">-</option></select>
+  <label data-i18n="filterState"></label>
+  <select id="filter-state"><option value="">-</option></select>
+  <label data-i18n="filterSearch"></label>
+  <input type="text" id="filter-search" data-i18n-placeholder="filterSearchPlaceholder">
+</div>
+
+<div class="split-layout">
+  <div class="panel map-container" id="panel-map" style="flex: 1 1 50%;">
+    <div class="panel-header">
+      <span data-i18n="mapTitle"></span>
+      <span id="map-subtitle" style="font-weight:400; font-size:0.8rem; color:var(--text-dim)"></span>
+    </div>
+    <div class="legend-bar" id="map-legend"></div>
+    <div class="panel-body">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <div class="splitter" id="splitter"></div>
+
+  <div class="panel" id="panel-articles" style="flex: 1 1 50%;">
+    <div class="panel-header">
+      <span data-i18n="articlesTitle"></span>
+      <span id="article-count" style="font-weight:400; font-size:0.8rem; color:var(--text-dim)"></span>
+    </div>
+    <div class="panel-body" id="article-list"></div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// i18n
+// ============================================================
+const I18N = {
+  zh: {
+    title: "中国 - 传染病监测仪表板",
+    statArticles: "文章总数",
+    statStates: "涉及省份",
+    statDiseases: "检出疾病",
+    statSources: "数据来源",
+    filterDisease: "按疾病筛选:",
+    filterState: "按省份筛选:",
+    filterSearch: "搜索:",
+    filterSearchPlaceholder: "关键词...",
+    filterAllDiseases: "全部",
+    filterAllStates: "全部",
+    mapTitle: "省份分布图",
+    articlesTitle: "最新文章",
+    noData: "未找到文章",
+    updated: "更新时间",
+    period: "时间范围",
+    articles: "篇",
+    articleSuffix: "篇",
+    mapHover: "将鼠标悬停在省份上",
+    noTitle: "无标题",
+    legendNone: "0",
+    legendLow: "少",
+    legendMid: "中",
+    legendHigh: "多",
+    legendVeryHigh: "非常多",
+    timeMin: "分钟前",
+    timeH: "小时前",
+    timeD: "天前",
+  },
+  en: {
+    title: "China - Infectious Disease Dashboard",
+    statArticles: "Total Articles",
+    statStates: "Provinces with Alerts",
+    statDiseases: "Diseases Detected",
+    statSources: "Data Sources",
+    filterDisease: "Filter by disease:",
+    filterState: "Filter by province:",
+    filterSearch: "Search:",
+    filterSearchPlaceholder: "Keyword...",
+    filterAllDiseases: "All",
+    filterAllStates: "All",
+    mapTitle: "Map by Province",
+    articlesTitle: "Recent Articles",
+    noData: "No articles found",
+    updated: "Updated",
+    period: "Period",
+    articles: "articles",
+    articleSuffix: "article(s)",
+    mapHover: "Hover over a province",
+    noTitle: "No title",
+    legendNone: "0",
+    legendLow: "Low",
+    legendMid: "Medium",
+    legendHigh: "High",
+    legendVeryHigh: "Very high",
+    timeMin: "min",
+    timeH: "h",
+    timeD: "d",
+  },
+  ja: {
+    title: "中国 感染症ダッシュボード",
+    statArticles: "記事総数",
+    statStates: "アラート発生省",
+    statDiseases: "検出された感染症",
+    statSources: "データソース",
+    filterDisease: "感染症で絞り込み:",
+    filterState: "省で絞り込み:",
+    filterSearch: "検索:",
+    filterSearchPlaceholder: "キーワード...",
+    filterAllDiseases: "すべて",
+    filterAllStates: "すべて",
+    mapTitle: "省別マップ",
+    articlesTitle: "最新記事",
+    noData: "記事が見つかりません",
+    updated: "更新日時",
+    period: "期間",
+    articles: "件",
+    articleSuffix: "件",
+    mapHover: "省にカーソルを合わせてください",
+    noTitle: "タイトルなし",
+    legendNone: "0",
+    legendLow: "少",
+    legendMid: "中",
+    legendHigh: "多",
+    legendVeryHigh: "非常に多",
+    timeMin: "分前",
+    timeH: "時間前",
+    timeD: "日前",
+  },
+};
+
+let lang = localStorage.getItem("dashboard-lang") || "en";
+
+function t(key) { return (I18N[lang] || I18N.en)[key] || key; }
+
+function applyI18nStatic() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    el.textContent = t(el.dataset.i18n);
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    el.placeholder = t(el.dataset.i18nPlaceholder);
+  });
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.lang === lang);
+  });
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : lang === "ja" ? "ja" : "en";
+}
+
+function setLang(newLang) {
+  lang = newLang;
+  localStorage.setItem("dashboard-lang", lang);
+  applyI18nStatic();
+  if (DATA) renderAll();
+}
+
+document.querySelectorAll(".lang-btn").forEach(btn => {
+  btn.addEventListener("click", () => setLang(btn.dataset.lang));
+});
+
+applyI18nStatic();
+
+// ============================================================
+// Province name normalization
+// ============================================================
+const PROVINCE_NAME_NORMALIZE = {};
+// Map Chinese province names and English names to a canonical form
+const PROVINCE_ALIASES = {
+  "北京市": ["北京", "Beijing"],
+  "天津市": ["天津", "Tianjin"],
+  "上海市": ["上海", "Shanghai"],
+  "重庆市": ["重庆", "Chongqing"],
+  "河北省": ["河北", "Hebei"],
+  "山西省": ["山西", "Shanxi"],
+  "辽宁省": ["辽宁", "Liaoning"],
+  "吉林省": ["吉林", "Jilin"],
+  "黑龙江省": ["黑龙江", "Heilongjiang"],
+  "江苏省": ["江苏", "Jiangsu"],
+  "浙江省": ["浙江", "Zhejiang"],
+  "安徽省": ["安徽", "Anhui"],
+  "福建省": ["福建", "Fujian"],
+  "江西省": ["江西", "Jiangxi"],
+  "山东省": ["山东", "Shandong"],
+  "河南省": ["河南", "Henan"],
+  "湖北省": ["湖北", "Hubei"],
+  "湖南省": ["湖南", "Hunan"],
+  "广东省": ["广东", "Guangdong"],
+  "海南省": ["海南", "Hainan"],
+  "四川省": ["四川", "Sichuan"],
+  "贵州省": ["贵州", "Guizhou"],
+  "云南省": ["云南", "Yunnan"],
+  "陕西省": ["陕西", "Shaanxi"],
+  "甘肃省": ["甘肃", "Gansu"],
+  "青海省": ["青海", "Qinghai"],
+  "台湾省": ["台湾", "Taiwan"],
+  "内蒙古自治区": ["内蒙古", "Inner Mongolia", "Nei Mongol"],
+  "广西壮族自治区": ["广西", "Guangxi"],
+  "西藏自治区": ["西藏", "Tibet", "Xizang"],
+  "宁夏回族自治区": ["宁夏", "Ningxia"],
+  "新疆维吾尔自治区": ["新疆", "Xinjiang"],
+  "香港特别行政区": ["香港", "Hong Kong"],
+  "澳门特别行政区": ["澳门", "Macau", "Macao"],
+};
+
+const CANONICAL = {};
+for (const [canonical, aliases] of Object.entries(PROVINCE_ALIASES)) {
+  CANONICAL[canonical.toLowerCase()] = canonical;
+  for (const alias of aliases) {
+    CANONICAL[alias.toLowerCase()] = canonical;
+  }
+}
+
+function canonicalStateName(name) {
+  if (!name) return name;
+  return CANONICAL[name.toLowerCase()] || name;
+}
+
+// ============================================================
+// Heat colors
+// ============================================================
+const HEAT = ["#14532d", "#22c55e", "#facc15", "#f97316", "#ef4444"];
+
+function heatColor(count, max) {
+  if (count === 0) return HEAT[0];
+  const r = count / max;
+  if (r <= 0.25) return HEAT[1];
+  if (r <= 0.5)  return HEAT[2];
+  if (r <= 0.75) return HEAT[3];
+  return HEAT[4];
+}
+
+function getDiseaseClass(name) {
+  const n = name.toLowerCase();
+  if (n.includes("dengue")) return "dengue";
+  if (n.includes("covid")) return "covid";
+  if (n.includes("influenza") || n.includes("flu") || n.includes("流感")) return "influenza";
+  if (n.includes("avian") || n.includes("禽流感") || n.includes("bird")) return "avian";
+  if (n.includes("plague") || n.includes("鼠疫")) return "plague";
+  if (n.includes("hfmd") || n.includes("hand") || n.includes("手足口")) return "hfmd";
+  if (n.includes("malaria") || n.includes("疟疾")) return "malaria";
+  return "default";
+}
+
+function formatDate(iso) {
+  if (!iso) return "";
+  try {
+    const locale = lang === "zh" ? "zh-CN" : lang === "ja" ? "ja-JP" : "en-US";
+    return new Date(iso).toLocaleString(locale, { dateStyle: "short", timeStyle: "short", timeZone: "Asia/Shanghai" });
+  } catch { return iso; }
+}
+
+function timeAgo(iso) {
+  if (!iso) return "";
+  const diff = Math.floor((Date.now() - new Date(iso).getTime()) / 60000);
+  if (diff < 60) return `${diff}${t("timeMin")}`;
+  if (diff < 1440) return `${Math.floor(diff / 60)}${t("timeH")}`;
+  return `${Math.floor(diff / 1440)}${t("timeD")}`;
+}
+
+// ============================================================
+// State
+// ============================================================
+let DATA = null;
+let filteredArticles = [];
+let map = null;
+let geoLayer = null;
+let geoData = null;
+let infoControl = null;
+
+// ============================================================
+// Init
+// ============================================================
+async function init() {
+  const [geoResp, dataResp] = await Promise.all([
+    fetch("https://raw.githubusercontent.com/longwosion/geojson-map-china/master/china.json"),
+    fetch("data/china_infectious_diseases.json"),
+  ]);
+
+  if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
+  if (!dataResp.ok) { document.getElementById("map").textContent = "Error loading data"; return; }
+
+  geoData = await geoResp.json();
+  DATA = await dataResp.json();
+
+  initMap();
+  applyFilters();
+  renderAll();
+}
+
+function initMap() {
+  map = L.map("map", {
+    zoomControl: true,
+    attributionControl: false,
+    minZoom: 3,
+    maxZoom: 8,
+  }).setView([35.0, 105.0], 4);
+
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
+    subdomains: "abcd",
+    opacity: 0.4,
+  }).addTo(map);
+
+  infoControl = L.control({ position: "topright" });
+  infoControl.onAdd = function () {
+    this._div = L.DomUtil.create("div", "info-box");
+    this.update();
+    return this._div;
+  };
+  infoControl.update = function (props, count) {
+    if (props) {
+      this._div.innerHTML = `<h4>${props.name}</h4>${count} ${t("articleSuffix")}`;
+    } else {
+      this._div.innerHTML = t("mapHover");
+    }
+  };
+  infoControl.addTo(map);
+}
+
+function renderMap() {
+  const stateCounts = {};
+  filteredArticles.forEach(a => {
+    (a.states || []).forEach(s => {
+      const key = canonicalStateName(s);
+      stateCounts[key] = (stateCounts[key] || 0) + 1;
+    });
+  });
+  const maxCount = Math.max(1, ...Object.values(stateCounts), 1);
+
+  if (geoLayer) map.removeLayer(geoLayer);
+
+  geoLayer = L.geoJSON(geoData, {
+    style: function (feature) {
+      const name = canonicalStateName(feature.properties.name);
+      const count = stateCounts[name] || 0;
+      return {
+        fillColor: heatColor(count, maxCount),
+        weight: 1,
+        color: "#166534",
+        fillOpacity: 0.85,
+      };
+    },
+    onEachFeature: function (feature, layer) {
+      const name = canonicalStateName(feature.properties.name);
+      const count = stateCounts[name] || 0;
+
+      layer.on({
+        mouseover: function (e) {
+          e.target.setStyle({ weight: 2, color: "#facc15" });
+          e.target.bringToFront();
+          infoControl.update(feature.properties, count);
+        },
+        mouseout: function (e) {
+          geoLayer.resetStyle(e.target);
+          infoControl.update();
+        },
+        click: function () {
+          const sel = document.getElementById("filter-state");
+          for (const opt of sel.options) {
+            if (canonicalStateName(opt.value) === name) {
+              sel.value = opt.value;
+              break;
+            }
+          }
+          applyFilters();
+          renderAll();
+        },
+      });
+    },
+  }).addTo(map);
+
+  document.getElementById("map-subtitle").textContent = `(${filteredArticles.length} ${t("articles")})`;
+
+  document.getElementById("map-legend").innerHTML = [
+    { color: HEAT[0], label: t("legendNone") },
+    { color: HEAT[1], label: t("legendLow") },
+    { color: HEAT[2], label: t("legendMid") },
+    { color: HEAT[3], label: t("legendHigh") },
+    { color: HEAT[4], label: t("legendVeryHigh") },
+  ].map(({ color, label }) =>
+    `<div class="legend-item"><div class="legend-swatch" style="background:${color}"></div>${label}</div>`
+  ).join("");
+}
+
+// ============================================================
+// Filters & rendering
+// ============================================================
+function applyFilters() {
+  if (!DATA) return;
+  const df = document.getElementById("filter-disease").value;
+  const sf = document.getElementById("filter-state").value;
+  const kw = document.getElementById("filter-search").value.toLowerCase();
+
+  filteredArticles = DATA.articles.filter(a => {
+    if (df && !(a.diseases || []).includes(df)) return false;
+    if (sf && !(a.states || []).includes(sf)) return false;
+    if (kw) {
+      const text = ((a.headline||"")+" "+(a.headlineTranslated||"")+" "+(a.headlineJa||"")+" "+(a.summary||"")).toLowerCase();
+      if (!text.includes(kw)) return false;
+    }
+    return true;
+  });
+}
+
+function renderAll() {
+  if (!DATA) return;
+  renderHeader();
+  renderStats();
+  renderMap();
+  renderArticles();
+  populateFilters();
+}
+
+function renderHeader() {
+  document.getElementById("generated-at").textContent = `${t("updated")}: ${formatDate(DATA.generated_at)}`;
+  if (DATA.date_range) {
+    document.getElementById("date-range").textContent =
+      `${t("period")}: ${formatDate(DATA.date_range.start)} ~ ${formatDate(DATA.date_range.end)}`;
+  }
+}
+
+function renderStats() {
+  document.getElementById("total-articles").textContent = filteredArticles.length;
+  const states = new Set(), diseases = new Set(), sources = new Set();
+  filteredArticles.forEach(a => {
+    (a.states || []).forEach(s => { if (!s.includes("未特定") && !s.includes("not identified")) states.add(s); });
+    (a.diseases || []).forEach(d => diseases.add(d));
+    sources.add(a.dataSource || "?");
+  });
+  document.getElementById("total-states").textContent = states.size;
+  document.getElementById("total-diseases").textContent = diseases.size;
+  document.getElementById("total-sources").textContent = sources.size;
+}
+
+function renderArticles() {
+  const el = document.getElementById("article-list");
+  document.getElementById("article-count").textContent = `(${filteredArticles.length} ${t("articles")})`;
+  if (!filteredArticles.length) { el.innerHTML = `<div class="no-data">${t("noData")}</div>`; return; }
+
+  el.innerHTML = `<ul class="article-list">${filteredArticles.map(a => {
+    const title = lang === "ja"
+      ? (a.headlineJa || a.headlineTranslated || a.headline || t("noTitle"))
+      : lang === "en"
+        ? (a.headlineTranslated || a.headline || t("noTitle"))
+        : (a.headline || a.headlineTranslated || t("noTitle"));
+    const tags = (a.diseases||[]).map(d => `<span class="disease-tag ${getDiseaseClass(d)}">${d}</span>`).join("");
+    const sts = (a.states||[]).join(", ");
+    return `<li class="article-item">
+      <a href="${a.sourceUrl||'#'}" target="_blank" rel="noopener">${title}</a>
+      <div class="article-meta">
+        <span>${timeAgo(a.publishedTimestamp)}</span>
+        ${a.sourceName ? `<span class="article-source">${a.sourceName}</span>` : ""}
+        <span>${a.dataSource||""}</span>
+        <span>${sts}</span>
+      </div>
+      <div style="margin-top:0.25rem">${tags}</div>
+    </li>`;
+  }).join("")}</ul>`;
+}
+
+function populateFilters() {
+  const ds = document.getElementById("filter-disease");
+  const ss = document.getElementById("filter-state");
+  const cv = ds.value, sv = ss.value;
+  const diseases = new Set(), states = new Set();
+  DATA.articles.forEach(a => {
+    (a.diseases||[]).forEach(d => diseases.add(d));
+    (a.states||[]).forEach(s => states.add(s));
+  });
+  ds.innerHTML = `<option value="">${t("filterAllDiseases")}</option>` +
+    [...diseases].sort().map(d => `<option value="${d}" ${d===cv?"selected":""}>${d}</option>`).join("");
+  ss.innerHTML = `<option value="">${t("filterAllStates")}</option>` +
+    [...states].sort().map(s => `<option value="${s}" ${s===sv?"selected":""}>${s}</option>`).join("");
+}
+
+document.getElementById("filter-disease").addEventListener("change", () => { applyFilters(); renderAll(); });
+document.getElementById("filter-state").addEventListener("change", () => { applyFilters(); renderAll(); });
+document.getElementById("filter-search").addEventListener("input", () => { applyFilters(); renderAll(); });
+
+// ============================================================
+// Splitter drag to resize
+// ============================================================
+(function () {
+  const splitter = document.getElementById("splitter");
+  const left = document.getElementById("panel-map");
+  const right = document.getElementById("panel-articles");
+  const container = document.querySelector(".split-layout");
+  let dragging = false;
+
+  splitter.addEventListener("mousedown", function (e) {
+    e.preventDefault();
+    dragging = true;
+    splitter.classList.add("active");
+    document.body.style.cursor = "col-resize";
+    document.body.style.userSelect = "none";
+  });
+
+  document.addEventListener("mousemove", function (e) {
+    if (!dragging) return;
+    const rect = container.getBoundingClientRect();
+    const offset = e.clientX - rect.left;
+    const total = rect.width;
+    const splitterW = 8;
+    const minPx = 280;
+
+    let leftW = offset - splitterW / 2;
+    leftW = Math.max(minPx, Math.min(leftW, total - splitterW - minPx));
+    const rightW = total - leftW - splitterW;
+
+    left.style.flex = "0 0 " + leftW + "px";
+    right.style.flex = "0 0 " + rightW + "px";
+
+    if (map) map.invalidateSize();
+  });
+
+  document.addEventListener("mouseup", function () {
+    if (!dragging) return;
+    dragging = false;
+    splitter.classList.remove("active");
+    document.body.style.cursor = "";
+    document.body.style.userSelect = "";
+    if (map) map.invalidateSize();
+  });
+})();
+
+init();
+</script>
+</body>
+</html>
