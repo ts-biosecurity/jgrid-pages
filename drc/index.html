@@ -513,7 +513,7 @@ let infoControl = null;
 // ============================================================
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
-    fetch("https://raw.githubusercontent.com/wmgeolab/geoBoundaries/main/releaseData/gbOpen/COD/ADM1/geoBoundaries-COD-ADM1.geojson"),
+    fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/COD/ADM1/geoBoundaries-COD-ADM1.geojson"),
     fetch("data/drc_infectious_diseases.json"),
   ]);
 

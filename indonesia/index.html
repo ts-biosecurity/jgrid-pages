@@ -536,7 +536,7 @@ let infoControl = null;
 // ============================================================
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
-    fetch("https://raw.githubusercontent.com/ans-4175/indonesia-geojson/master/indonesia-provinces.geojson"),
+    fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/IDN/ADM1/geoBoundaries-IDN-ADM1.geojson"),
     fetch("data/indonesia_infectious_diseases.json"),
   ]);
 
@@ -583,7 +583,7 @@ function initMap() {
 function getProvinceName(feature) {
   // Try multiple property names used by various Indonesia GeoJSON sources
   const props = feature.properties;
-  return props.Propinsi || props.name || props.NAME_1 || props.province || props.PROVINSI || props.state || "";
+  return props.shapeName || props.Propinsi || props.name || props.NAME_1 || props.province || props.PROVINSI || props.state || "";
 }
 
 function renderMap() {

@@ -481,7 +481,7 @@ let infoControl = null;
 async function init() {
   let geoResp;
   try {
-    geoResp = await fetch("https://raw.githubusercontent.com/wmgeolab/geoBoundaries/main/releaseData/gbOpen/ZMB/ADM1/geoBoundaries-ZMB-ADM1.geojson");
+    geoResp = await fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/ZMB/ADM1/geoBoundaries-ZMB-ADM1.geojson");
     if (!geoResp.ok) throw new Error("Primary GeoJSON failed");
   } catch {
     try {

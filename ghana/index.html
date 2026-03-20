@@ -474,7 +474,7 @@ let infoControl = null;
 // ============================================================
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
-    fetch("https://raw.githubusercontent.com/wmgeolab/geoBoundaries/main/releaseData/gbOpen/GHA/ADM1/geoBoundaries-GHA-ADM1.geojson"),
+    fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/GHA/ADM1/geoBoundaries-GHA-ADM1.geojson"),
     fetch("data/ghana_infectious_diseases.json"),
   ]);
 

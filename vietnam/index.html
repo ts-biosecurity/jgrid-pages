@@ -558,7 +558,7 @@ let infoControl = null;
 // ============================================================
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
-    fetch("https://raw.githubusercontent.com/nguyenvanduocit/vietnam-province-geojson/master/vietnam-provinces.geojson"),
+    fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/VNM/ADM1/geoBoundaries-VNM-ADM1.geojson"),
     fetch("data/vietnam_infectious_diseases.json"),
   ]);
 
@@ -605,7 +605,7 @@ function initMap() {
 
 function getFeatureName(feature) {
   const p = feature.properties;
-  return p.name || p.Name || p.NAME || p.ten_tinh || p.VARNAME_1 || "";
+  return p.shapeName || p.name || p.Name || p.NAME || p.ten_tinh || p.VARNAME_1 || "";
 }
 
 function renderMap() {
