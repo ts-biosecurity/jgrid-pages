@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-22T05:53:02.333018+00:00",
+  "generated_at": "2026-03-22T13:25:22.613857+00:00",
   "mode": "clustered",
-  "total": 58,
+  "total": 70,
   "summary": {
-    "PICKUP": 36,
-    "WATCH": 21,
-    "DISMISS": 1,
+    "PICKUP": 38,
+    "WATCH": 28,
+    "DISMISS": 4,
     "ERROR": 0
   },
   "results": [
@@ -70,30 +70,31 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおけるインフルエンザA：感染率上昇の中、予防接種活動が強化される",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3項目該当（深刻な公衆衛生影響、異常性、国際拡大リスク）。SARI/SRAG症例の17%増加、865死亡、複数州での地域的増加が報告されており、秋冬のピーク到来を控えた重大イベント。",
+        "headline_ja": "ブラジルでのインフルエンザA：感染率上昇の中でワクチン接種努力が強化される",
+        "triage_verdict": "WATCH",
+        "triage_reason": "ブラジルでのインフルエンザA活動の増加は国内的には重要だが、対象国リストに該当せず、国際的な拡大リスクや渡航制限のリスクは記事から明確ではない。スクリーニング基準としては季節的な増加（異常性は低い）であり、情報不足のため経過観察段階とする。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
+          "unusual_unexpected": "No",
+          "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 3
+          "ihr_count": 1
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "Yes",
+          "abnormal_unexpected": "No",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "Yes",
-          "wpro_count": 5
+          "manageability": "No",
+          "wpro_count": 3
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "不明"
+          "international_support_needed": "No"
         },
-        "notes": "ブラジルは全国的な予防接種キャンペーン（3月28日～5月30日）を実施中。特にAcre州での低いワクチン接種率（小児7.79%、妊娠女性13.72%）が懸念事項。秋冬シーズンの到来に伴い、さらなる症例増加の可能性あり。複数州（マットグロッソ、リオデジャネイロ、エスピリトサント）での地域的増加が確認されている。",
+        "verified_locations": [],
+        "notes": "ブラジルは提供対象国リスト外のため verified_locations は空とした。記事から見る限り、インフルエンザAは季節的な増加パターン（秋冬ピーク）であり、異常性は低い。ただし死亡数は前年比で減少しており、保健省による積極的なワクチン接種キャンペーンが展開されている。国内対応が進んでいるため国際支援の必要性は記事に記載されていない。",
         "event_id": "610c708a-1881-4012-8a04-78802572b5bc"
       },
       "error": null
@@ -160,30 +161,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムの狂犬病：最近の犬咬傷事件に続く緊急対策",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3項目該当（深刻な公衆衛生影響、異常/予想外の集団発生、国際的拡大リスク）。WPROスクリーニング基準も4項目該当。年間70-100死亡報告、複数人被咬事案の急速対応が必要。",
+        "headline_ja": "ベトナムの狂犬病：最近の犬の咬傷事件を受けた緊急対策",
+        "triage_verdict": "WATCH",
+        "triage_reason": "ベトナムでの限定的な狂犬病アウトブレイク（6人の咬傷事件）報告であり、IHR基準は2つ以上該当する可能性があるが、死亡が報告されておらず、患者は安定状態で症状なし。ただし狂犬病の高い致死率と地域的な継続的脅威を考慮し、続報監視が適切。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
+          "unusual_unexpected": "No",
+          "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 3
+          "ihr_count": 1
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "Yes",
+          "abnormal_unexpected": "No",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "Yes",
-          "wpro_count": 5
+          "wpro_count": 4
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "狂犬病は致死率がほぼ100%の重篤疾患。2025年に同地域で7死亡、全国で年70-100死亡報告。単一犯行犬による6人集団咬傷事案であり異常。地域内で200頭以上の動物隔離が実施され、公衆衛生対応が機動的。ベトナムは東南アジア地域における重要な狂犬病流行国であり、監視対象として適切。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "Đắk Lắk Province での限定的なアウトブレイク。6名の被害者は既にワクチン接種済みで症状なく安定。狂犬病は高い致死率（95%以上）を有する疾患であり、ベトナムは年70-100人の死亡を報告しており、公衆衛生上の継続的脅威がある。現在のアウトブレイクは対応中で国際的拡大の即座的リスクは低いが、地域的な動物集団への脅威は継続。WPROスクリーニング基準4つ該当により、経過観察の継続が推奨される。",
         "event_id": "57a1f291-b4ce-4af7-bd74-798ac82c9da5"
       },
       "error": null
@@ -304,9 +311,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドの鳥インフルエンザ：封じ込め努力と公衆衛生対策が強化",
+        "headline_ja": "インド鳥インフルエンザ：封じ込め努力と公衆衛生措置の強化",
         "triage_verdict": "PICKUP",
-        "triage_reason": "H5N1高病原性株による複数州での多発アウトブレイク、2万羽以上の殺処分、人獣共通感染症のリスク、および国際拡大可能性により、IHR基準を複数満たす。",
+        "triage_reason": "高病原性H5N1株によるケララ州での鳥インフルエンザ発生。複数州（ケララ、タミルナドゥ、マディヤプラデシュ）での確認、2万羽以上の殺処分、人間への感染リスク対策が進行中。IHR基準4つ全て該当し、国際的な獣医衛生上の懸念あり。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -327,7 +334,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "H5N1高病原性株は人への感染リスクが高い。複数州（ケーラ州、タミルナドゥ州、マディヤプラデシュ州）での同時発生は制御困難を示唆。動物性食品の流通制限措置が実施されており、国境管理の懸念あり。現在のところ人感染報告なしだが、継続的な監視が必要。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "高病原性H5N1ウイルスの複数地点での確認（ケララ州、タミルナドゥ州、マディヤプラデシュ州）。現時点で人間感染は報告されていないが、ウイルスの人獣共通感染性と国際的な出現歴から国際公衆衛生上の懸念が高い。家禽製品の輸出制限措置により国際的な影響の可能性あり。",
         "event_id": "6113d086-7ef1-4c02-a089-a58c173cb936"
       },
       "error": null
@@ -387,15 +400,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおけるチクングニア熱：エスカレートするアウトブレイクに対する緊急措置",
+        "headline_ja": "ブラジルのチクングニア熱：急速に拡大するアウトブレイクに対抗するための緊急対策",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3項目に該当（深刻な公衆衛生影響、異常性、国際的拡大リスク）。WPROスクリーニング基準でも重症度（死亡例4件含む）と管理可能性の課題が明確。ブラジル国内での急速な患者増加と医療体制逼迫が確認される。",
+        "triage_reason": "IHR基準で3つ以上該当（重大な公衆衛生影響、異常/予想外、国際拡大リスク）し、WPRO基準でも全5項目該当。急速な症例増加（84%増）、死亡を含む重症例、複数州での同時多地点発生、先住民コミュニティの脆弱性がフルRRAを正当化する。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "Yes",
-          "travel_trade_restriction": "No",
-          "ihr_count": 3
+          "travel_trade_restriction": "Yes",
+          "ihr_count": 4
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -410,8 +423,110 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "2026年3月22日に報告された情報。2日間で84%の患者増加（274件→504件）という急速な拡大を示唆。先住民コミュニティでの死亡者（乳幼児含む4名）、複数州での確認例、医療体制逼迫（医薬品不足、病床不足）が記載。蚊媒介感染症であり、気温上昇が媒介蚊の増殖を促進する状況も考慮。フルRRA実施が必須。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事サマリーは84%の急速な症例増加（2日間で274→504例）、複数州での感染拡大（São Paulo 315例、Ituiutaba 1,052例）、4例を含む死亡、先住民コミュニティでの脆弱性（水・衛生・医療リソース不足）、公衆衛生緊急事態宣言を報告。蚊媒介感染症の季節的拡大と気温上昇が状況を悪化させている。",
         "event_id": "8f30de77-9fc1-469a-b746-4ef397150667"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "ba92a1cc-cdc7-4367-8ab9-30a98e3a128c",
+        "clusterArticleCount": 7,
+        "diseases": [
+          {
+            "id": 388,
+            "name": "Avian Influenza"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1269750,
+            "name": "India",
+            "countryId": 1269750,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 22.0,
+            "coordinateLon": 79.0
+          },
+          {
+            "id": 1267254,
+            "name": "State of Kerala, India",
+            "countryId": 1269750,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.41667,
+            "coordinateLon": 76.5
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 2,
+            "name": "animals"
+          },
+          {
+            "id": 5,
+            "name": "environment"
+          }
+        ],
+        "articleHeadline": "Avian Influenza in India: Containment measures implemented amid ongoing outbreaks",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "Avian influenza has been confirmed in Kozhikode district, Kerala, leading to immediate containment efforts across five panchayats. As of March 22, 2026, approximately 15,000 poultry have been culled within a one-kilometer radius of the outbreak sites. A strict ban on the sale and use of poultry products is enforced within a 10-kilometer surveillance zone. Authorities are enhancing surveillance and biosecurity measures, urging residents to report any suspected cases. Concurrently, a Shigella outbreak has emerged in the same district, with 51 individuals under observation, including one hospitalized. The source of the Shigella infection remains unidentified, but transmission is suspected via contaminated water or food. Health officials are implementing water safety measures and community awareness initiatives while managing the avian flu situation. A tragic case involves a 3.5-year-old girl who died, with several other children showing symptoms and under observation as lab tests are conducted to identify the source.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T08:40:21.275946+00:00",
+        "sourceUrl": "https://www.asianetnews.com/kerala-news/bird-flu-in-kozhikode-district-prevention-activities-continue-in-four-panchayats-alert-issued-articleshow-5pgfyu8",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.asianetnews.com/kerala-news/bird-flu-in-kozhikode-district-prevention-activities-continue-in-four-panchayats-alert-issued-articleshow-5pgfyu8",
+          "https://thirdeyenewslive.com/kozhikode-bird-flu-2/",
+          "https://marunadanmalayalee.com/health/care/bird-flu-841476",
+          "https://www.deepika.com/kerala/bird-flu-in-kozhikode-district-health-department-urges-caution-92095",
+          "https://marunadanmalayalee.com/news/special-report/health-crisis-in-kozhikode-shigella-source-untraced-in-peruvayal-bird-flu-containment-continues-in-4-panchayats-841486",
+          "https://thirdeyenewslive.com/bird-flu-in-kozhikode/",
+          "https://www.madhyamam.com/kerala/local-news/kozhikode/shigella-virus-outbreak-raises-concern-in-kozhikodes-peruvayal-51-people-under-observation-1504953"
+        ]
+      },
+      "triage": {
+        "headline_ja": "インドの鳥インフルエンザ：発生が継続する中で封じ込め措置が実施される",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "鳥インフルエンザはIHR基準3項目該当（異常性・深刻な影響・国際的拡大リスク）。15,000羽の家禽殺処分と多地域での感染確認により、WPROスクリーニング基準も複数該当。インド国内での確認は対象国リストに該当し、フルRRA実施の必要がある。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "Yes",
+          "international_spread": "Yes",
+          "travel_trade_restriction": "Yes",
+          "ihr_count": 4
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "Yes",
+          "wpro_count": 5
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "Yes"
+        },
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "記事サマリーではコジコード地区（ケーララ州）で確認された鳥インフルエンザが明記されており、Bluedot APIの発生地域フィールドと一致。15,000羽の家禽殺処分、10km監視帯域での流通制限など公衆衛生上重大な対応が取られている。並行してシゲラ菌症も同地域で報告されており、複合的な感染症危機の様相を呈している。鳥インフルエンザのヒトへの感染リスクおよび国際的な鳥インフルエンザ懸念株の可能性も視野に、フルリスク評価が必須。",
+        "event_id": "ba92a1cc-cdc7-4367-8ab9-30a98e3a128c"
       },
       "error": null
     },
@@ -505,9 +620,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムにおけるキャリア感染性髄膜炎：最近の死亡事例後に公衆衛生対応が強化",
+        "headline_ja": "ベトナムでの髄膜炎菌性髄膜炎：最近の死亡例の後、公衆衛生対応が強化される",
         "triage_verdict": "PICKUP",
-        "triage_reason": "死亡例を含む確定症例の報告、複数地域への地理的広がり、集団発生の兆候、および高い致死率（8-10%）を伴うIHR基準2項目以上該当。緊急対応が進行中で、フルRRA実施の要件を満たす。",
+        "triage_reason": "IHR基準を3つ以上満たす。死亡例の発生、異常/予期しない事態、ヒト-ヒト感染リスク（集団発生の可能性）があり、ベトナムの対象国での検証済みイベントである。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -528,7 +643,13 @@
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "イベント日付が2026年3月21日（未来日）となっているが、内容の矛盾がないため、報告された日付として処理。ベトナム全域での予防接種キャンペーン実施中、地域的な制限措置が講じられている。2025年のベースライン：95症例/3死亡という背景があり、継続監視が必要。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "アン・ジャン州（An Giang Province）での学校関連の集団発生。11歳女児の死亡、40人の濃厚接触者が予防的抗生物質治療、同級生が髄膜炎菌性髄膜炎（グループB）に感染。2025年に95例3死亡の背景がある。ベトナムは対象国リストに含まれ、verified_locations に含める。ホーチミン市やキエン・ジャン州での複数地点での影響が報告されている。",
         "event_id": "fab6c312-7eee-4e0b-8890-524dc5704f9c"
       },
       "error": null
@@ -612,9 +733,216 @@
         ]
       },
       "triage": {
-        "headline_ja": "デング熱がブラジルで発生：広範な流行の中で公衆衛生上の取り組みが強化",
+        "headline_ja": "ブラジルのデング熱：広範な流行の中での公衆衛生対策の強化",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3つ以上該当。ブラジル全土で148,000件以上の患者報告、複数州での確定例と死亡事例、国内での広範な拡大、蚊媒介ベクターの環境的有利条件がある。",
+        "triage_reason": "IHR基準で3つ該当（深刻な公衆衛生影響：148,000例超、6死亡；異常・予想外；国際的拡大リスク）。WPROスクリーニング基準でも4つ該当（異常性、重症度、長期曝露、流行しやすさ）。対象国Brazilでの確認済み大規模流行。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "Yes",
+          "international_spread": "Yes",
+          "travel_trade_restriction": "Yes",
+          "ihr_count": 4
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "Yes",
+          "wpro_count": 5
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "Yes"
+        },
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "ブラジル全土で148,000件以上の確定例・疑似例を報告。パイアウイ州が北東部で最高の発生率（100,000人当たり56.0例）。6月の死亡例あり。高温と洪水によるネッタイシマカ繁殖条件の悪化が要因。ワクチン接種キャンペーン実施中。",
+        "event_id": "a402e020-ff46-49f1-a083-9bf972cbcc87"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "f287b11d-9a81-4360-8b09-e1e75fb29ef5",
+        "clusterArticleCount": 5,
+        "diseases": [
+          {
+            "id": 324,
+            "name": "Meningococcal Disease"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 16.16667,
+            "coordinateLon": 107.83333
+          },
+          {
+            "id": 1579008,
+            "name": "Tinh Kien Giang, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.0,
+            "coordinateLon": 105.16667
+          },
+          {
+            "id": 8531735,
+            "name": "Phu Quoc, Kien Giang, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPL",
+            "locationType": 2,
+            "coordinateLat": 10.22409,
+            "coordinateLon": 103.97156
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 4,
+            "name": "vectors"
+          }
+        ],
+        "articleHeadline": "Meningococcal Disease in Vietnam: Intensified vaccination and health measures amid outbreak",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "In 2026, Vietnam is facing a significant outbreak of meningococcal disease, particularly in Phú Quốc, where a second case of meningococcal meningitis (Neisseria meningitidis, group B) was confirmed following the death of an 11-year-old girl. Health authorities have initiated post-exposure prophylaxis for over 100 close contacts and are enhancing local healthcare capabilities. Other provinces, including Hanoi and Hà Tĩnh, have reported cases with symptoms ranging from headaches to acute kidney injury. The disease primarily affects young individuals, with a case fatality rate of 8–15% and potential for serious neurological complications. In response to the outbreak, vaccination efforts have intensified, with a surge in demand at local vaccination centers. Authorities are implementing disease-prevention measures in schools and communities, promoting hygiene practices, and advising prompt medical consultation for any warning signs. The Ministry of Health is actively intensifying surveillance and outbreak control efforts to mitigate the spread of this serious infectious disease.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T12:55:21.504422+00:00",
+        "sourceUrl": "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
+          "https://baohatinh.vn/canh-giac-voi-nhung-dien-bien-nguy-hiem-cua-benh-nao-mo-cau-post307862.html",
+          "https://www.qdnd.vn/y-te/tin-tuc/sau-ca-tu-vong-nguoi-dan-phu-quoc-do-xo-tiem-vaccine-viem-nao-mo-cau-1031442",
+          "https://tuoitre.vn/benh-viem-nao-mo-cau-gay-tu-vong-nhanh-5-25-nguoi-lanh-mang-vi-khuan-lam-sao-phong-tranh-2026032211382573.htm",
+          "https://tienphong.vn/bac-si-canh-bao-sau-ca-tu-vong-do-nao-mo-cau-post1829426.tpo"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ベトナムの髄膜炎菌感染症：アウトブレイク中の予防接種と保健対策の強化",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "IHR基準で3つ該当（深刻な公衆衛生影響、異常性、国際的拡大リスク）。特に死亡例、重症化、複数地域での確認、強化された対応措置が報告されており、フルRRA対象。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "Yes",
+          "international_spread": "Yes",
+          "travel_trade_restriction": "No",
+          "ihr_count": 3
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "Yes",
+          "wpro_count": 5
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "Yes"
+        },
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "ベトナムでの髄膜炎菌感染症（N. meningitidis グループB）のアウトブレイク。11歳女児の死亡例、複数地域での確認（フーコック島、ハノイ、ハティン省）、100人以上の接触者に予防投与、ワクチン需要増加、学校での感染予防措置実施等が報告されている。症例致命率8-15%、神経合併症リスクがあり、公衆衛生上の重大性が高い。",
+        "event_id": "f287b11d-9a81-4360-8b09-e1e75fb29ef5"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "cd7d2609-4e70-4a2a-a341-dbe3d3d36bdb",
+        "clusterArticleCount": 5,
+        "diseases": [
+          {
+            "id": 11,
+            "name": "Meningococcal Meningitis"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 16.16667,
+            "coordinateLon": 107.83333
+          },
+          {
+            "id": 1579008,
+            "name": "Tinh Kien Giang, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.0,
+            "coordinateLon": 105.16667
+          },
+          {
+            "id": 8531735,
+            "name": "Phu Quoc, Kien Giang, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPL",
+            "locationType": 2,
+            "coordinateLat": 10.22409,
+            "coordinateLon": 103.97156
+          },
+          {
+            "id": 7506719,
+            "name": "Hau Giang Province, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 9.77605,
+            "coordinateLon": 105.46412
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 4,
+            "name": "vectors"
+          }
+        ],
+        "articleHeadline": "Meningococcal Meningitis in Vietnam: Vaccination efforts ramp up amid rising cases",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "As of March 21, 2026, Vietnam has reported a significant increase in meningococcal meningitis cases, particularly in An Giang province, following the death of an 11-year-old girl on March 16. This incident prompted health authorities to initiate post-exposure prophylaxis for over 100 close contacts. Other provinces, including Hanoi and Hà Tĩnh, have also reported cases, with symptoms ranging from headaches to severe neurological complications. The case fatality rate for meningococcal disease is alarmingly high, between 8-15%. In response to the outbreak, vaccination efforts have surged in Phú Quốc, with a reported 200% increase in daily vaccine uptake. Local vaccination centers are managing stable supplies to meet the heightened demand. Authorities are also emphasizing hygiene practices and limiting large gatherings to control the outbreak, as the number of cases in Vietnam rose sixfold in 2025 compared to the previous year.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T10:25:25.074869+00:00",
+        "sourceUrl": "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
+          "https://baohatinh.vn/canh-giac-voi-nhung-dien-bien-nguy-hiem-cua-benh-nao-mo-cau-post307862.html",
+          "https://tuoitre.vn/benh-viem-nao-mo-cau-gay-tu-vong-nhanh-5-25-nguoi-lanh-mang-vi-khuan-lam-sao-phong-tranh-2026032211382573.htm",
+          "https://tuoitre.vn/tre-em-tiem-vac-xin-phong-ngua-viem-nao-mo-cau-tang-dot-bien-o-phu-quoc-20260322144535035.htm",
+          "https://tiin.vn/chuyen-muc/song/sau-ca-tu-vong-do-viem-nao-mo-cau-an-giang-khuyen-cao-han-che-tu-tap-dong-nguoi.html"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ベトナムの髄膜炎菌性髄膜炎：症例増加に伴うワクチン接種努力の加速",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "髄膜炎菌性髄膜炎の有意な増加がベトナムで報告され、死亡例、複数州での確認、高い致死率（8-15%）、ヒト-ヒト感染の可能性があり、IHR基準3項目以上に該当。WPROスクリーニング基準も複数該当し、公衆衛生的に重要なシグナル。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -635,96 +963,14 @@
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "記事は2026年3月21日の配信で、ブラジルにおけるデング熱の大規模流行を報告。148,000件以上の患者報告、São Paulo州で15,744確定例・6死亡、Piauí州で1,895患者報告・852確定例を記録。高温と最近の洪水がAedes aegypti蚊の繁殖に有利な環境を提供。ワクチン接種キャンペーン実施中で、当局は積極的な対応を取っている。5つのWPRO基準すべてに該当するため、シグナルとして識別。",
-        "event_id": "a402e020-ff46-49f1-a083-9bf972cbcc87"
-      },
-      "error": null
-    },
-    {
-      "article": {
-        "articleId": "ba92a1cc-cdc7-4367-8ab9-30a98e3a128c",
-        "clusterArticleCount": 5,
-        "diseases": [
+        "verified_locations": [
           {
-            "id": 388,
-            "name": "Avian Influenza"
+            "id": 1562822,
+            "name": "Vietnam"
           }
         ],
-        "locations": [
-          {
-            "id": 1269750,
-            "name": "India",
-            "countryId": 1269750,
-            "featureCode": "PCLI",
-            "locationType": 6,
-            "coordinateLat": 22.0,
-            "coordinateLon": 79.0
-          },
-          {
-            "id": 1267254,
-            "name": "State of Kerala, India",
-            "countryId": 1269750,
-            "featureCode": "ADM1",
-            "locationType": 4,
-            "coordinateLat": 10.41667,
-            "coordinateLon": 76.5
-          }
-        ],
-        "affectedCategories": [
-          {
-            "id": 1,
-            "name": "humans"
-          },
-          {
-            "id": 2,
-            "name": "animals"
-          },
-          {
-            "id": 5,
-            "name": "environment"
-          }
-        ],
-        "articleHeadline": "Avian Influenza in India: Containment measures and public health responses activated",
-        "articleHeadlineTranslated": "",
-        "articleSummary": "Avian influenza has been confirmed in Kozhikode district, Kerala, leading to immediate containment efforts across four panchayats and the Nallalam division. As of March 21, 2026, authorities have culled domestic birds and issued a public advisory urging residents to avoid contact with poultry. A strict ban on the sale and use of poultry products is enforced within a 10-km radius of the outbreak site. Surveillance and biosecurity measures are being intensified, with residents encouraged to report any suspected cases. Concurrently, a Shigellosis outbreak has emerged in the same district, with 51 individuals under observation, including one hospitalized. The source of the Shigella infection remains unidentified, but transmission is suspected via contaminated water or food. Authorities are implementing water safety measures and community awareness initiatives while continuing to manage the avian flu situation. A tragic case involves a 3.5-year-old girl who died, with several other children showing symptoms and under observation as lab tests are conducted to identify the source.",
-        "articleBody": "",
-        "publishedTimestamp": "2026-03-22T04:10:20.734959+00:00",
-        "sourceUrl": "https://www.asianetnews.com/kerala-news/bird-flu-in-kozhikode-district-prevention-activities-continue-in-four-panchayats-alert-issued-articleshow-5pgfyu8",
-        "originalLanguage": "",
-        "allSourceUrls": [
-          "https://www.asianetnews.com/kerala-news/bird-flu-in-kozhikode-district-prevention-activities-continue-in-four-panchayats-alert-issued-articleshow-5pgfyu8",
-          "https://thirdeyenewslive.com/kozhikode-bird-flu-2/",
-          "https://marunadanmalayalee.com/health/care/bird-flu-841476",
-          "https://www.deepika.com/kerala/bird-flu-in-kozhikode-district-health-department-urges-caution-92095",
-          "https://marunadanmalayalee.com/news/special-report/health-crisis-in-kozhikode-shigella-source-untraced-in-peruvayal-bird-flu-containment-continues-in-4-panchayats-841486"
-        ]
-      },
-      "triage": {
-        "headline_ja": "インドにおける鳥インフルエンザ：封じ込め措置と公衆衛生対応が実施中",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "インドのケーラ州で鳥インフルエンザが確認され、同時にシゲロシス集団発生も報告されている。家畜処分、移動制限、公衆衛生対応が実施されており、複数の懸念基準を満たす。",
-        "ihr_criteria": {
-          "serious_impact": "Yes",
-          "unusual_unexpected": "Yes",
-          "international_spread": "不明",
-          "travel_trade_restriction": "Yes",
-          "ihr_count": 3
-        },
-        "wpro_criteria": {
-          "abnormal_unexpected": "Yes",
-          "severity": "Yes",
-          "prolonged_exposure": "Yes",
-          "epidemic_prone": "Yes",
-          "manageability": "Yes",
-          "wpro_count": 5
-        },
-        "sociopolitical_concern": {
-          "public_attention": "Yes",
-          "government_attention": "Yes",
-          "international_support_needed": "不明"
-        },
-        "notes": "IHR基準3つ以上該当し、WPRO基準5つすべてに該当。鳥インフルエンザとシゲロシスの同時発生は異常。家畜処分、10km圏内での家禽製品販売禁止、住民通知など複数の対応が実施中。シゲロシス感染源の特定困難性と3.5歳女児死亡例は追加懸念要因。情報源がニュース配信のため詳細確認が必要。",
-        "event_id": "ba92a1cc-cdc7-4367-8ab9-30a98e3a128c"
+        "notes": "記事サマリーでは複数省での髄膜炎菌性髄膜炎の発生が確認されており（An Giang、Hanoi、Hà Tĩnh）、2025年比で6倍増の報告がある。死亡例（11歳女児）、高い致死率、大規模な予防接種キャンペーン展開があり、公衆衛生的に重要な開発。国際的な拡大リスク、渡航制限のリスクについては現時点で記事に記載なし。",
+        "event_id": "cd7d2609-4e70-4a2a-a341-dbe3d3d36bdb"
       },
       "error": null
     },
@@ -779,14 +1025,14 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおける呼吸器合胞体ウイルス（RSV）感染：脆弱な小児への公衆衛生イニシアティブに焦点",
+        "headline_ja": "ブラジルにおけるRSV（呼吸器合胞体ウイルス）感染症：脆弱な小児を中心とした公衆衛生対策",
         "triage_verdict": "PICKUP",
-        "triage_reason": "ブラジルにおけるRSV感染の有意な流行（SARI症例の13.4%、関連死4.5%）、小児の高い重症化率（ペルナンブーコ州で81%のICU占有率）、複数の呼吸器ウイルス（インフルエンザA等）との同時流行が確認され、IHR基準2つ以上（重大な公衆衛生影響、異常性）およびWPRO基準複数（重症度、流行しやすさ）に該当する。",
+        "triage_reason": "RSVを含む重度の呼吸器感染症が複数地域で流行しており、小児の重症化と高い ICU 使用率が報告されている。IHR基準で異常性と公衆衛生への深刻な影響が認められ、WPRO基準では重症度、流行しやすさ、管理可能性の複数項目で該当するため。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "不明",
-          "travel_trade_restriction": "不明",
+          "travel_trade_restriction": "No",
           "ihr_count": 2
         },
         "wpro_criteria": {
@@ -800,9 +1046,15 @@
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "Yes"
+          "international_support_needed": "不明"
         },
-        "notes": "RSVの国際的な拡大リスクについては記事に明記されていないが、小児への高い罹患率、複数地域（マットグロッソ州、北東部、ペルナンブーコ州）での同時流行、ワクチンキャンペーンの実施、ニルセビマブなどの予防的措置の必要性が強調されている。2026年3月時点で既に2万9,573用量のRSVワクチン接種が実施されており、当局が積極的に対応している。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "ブラジルで SARI（重度急性呼吸器感染症）が広がっており、RSV が13.4%を占めている。小児（特に 0-2 歳）の入院が多く、ペルナンブーコ州では ICU 使用率が 81% に達している。複数地域（マットグロッソ州、北東部）で流行が確認されており、ワクチン接種キャンペーンが実施されている。",
         "event_id": "00598cf0-9d6d-419d-aee8-8c61bd18dbf7"
       },
       "error": null
@@ -904,15 +1156,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムのボツリヌス中毒：衛生当局が食品由来アウトブレイクに対応",
+        "headline_ja": "ベトナムのボツリヌス中毒：保健当局が食中毒アウトブレイクに対応",
         "triage_verdict": "PICKUP",
-        "triage_reason": "ボツリヌス中毒の食品由来アウトブレイクであり、複数地域での症例報告、死亡リスク（生命を脅かす症状）、国際的な医療資源（WHO抗毒素）の動員が確認されるため、IHR基準3項目以上該当。",
+        "triage_reason": "ボツリヌス中毒の多発事例（9ヶ月間に5例以上、複数州で報告）、生命を脅かす症状を呈した重症患者の入院、WHO抗毒素配送が必要となる事態として、IHR基準の重症性・異常性・管理性に該当し、シグナル認識基準を満たす。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
-          "travel_trade_restriction": "Yes",
-          "ihr_count": 4
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -927,7 +1179,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "9ヶ月間で5症例がQuảng Ngãi Province報告、Da Nangで7歳・11歳児が入院（現在は回復）。伝統的発酵食品（cá ủ chua）に関連。WHO抗毒素の国際調整による供給実績あり。複数州での感染リスク継続。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "記事サマリーより、ベトナムの複数地域（ダナン、クアンガイ県、ビンズオン省、クアンナム省など）での多発事例が確認される。伝統的な発酵食品（cá ủ chua）に関連した食中毒で、WHO抗毒素の国際的配送が調整されている。9ヶ月間での複数事例と継続的な曝露リスク、重症患者の発生がWPRO基準の全項目に合致する。",
         "event_id": "0f1957db-0e8b-47b8-b501-4d8a272806a4"
       },
       "error": null
@@ -1040,13 +1298,13 @@
       "triage": {
         "headline_ja": "COVID-19 in Brazil: Respiratory virus challenges complicate health response",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準2項目該当（重大な公衆衛生影響：865死亡を含む20,300SRAG症例、国際拡大リスク）。複数州にまたがるCOVID-19と季節性呼吸器病ウイルスの同時流行という異常な状況が報告されている。",
+        "triage_reason": "IHR基準で2つ以上該当（重大な公衆衛生への影響、複数地域での国内拡大）。WPROスクリーニング基準で4つ以上該当（異常性、重症度、長期曝露、流行しやすさ）。対象国Brazilでの実際の発生イベント。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
-          "travel_trade_restriction": "不明",
-          "ihr_count": 3
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -1059,9 +1317,15 @@
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "不明"
+          "international_support_needed": "No"
         },
-        "notes": "ブラジルで2026年3月時点でSRAG 20,300症例、死亡865件が報告されている。COVID-19は症例の14.7%、死亡の37%を占める。複数州（マット・グロッソ、北東部等）にまたがる流行で、保健省が3月28日～5月30日の全国ワクチン接種キャンペーンを実施予定。記事日付が2026年3月であり、将来日付となっている点に注意。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事は複数の呼吸器ウイルス（COVID-19、インフルエンザA、ライノウイルス）による重大な公衆衛生危機を報告。865死亡例とCOVID-19による37%の死亡率は深刻。複数州（Pará, Amapá, Piauí, Rio de Janeiro, Rondônia, Espírito Santo, Mato Grossoなど）での広範な地理的拡大が確認されている。国家予防接種キャンペーン（3月28日～5月30日）の実施は政府の対応を示唆。季節的ピークへの接近は長期曝露のリスク。",
         "event_id": "11be5f1e-e39b-4bbb-ad81-7ebf1803c7b7"
       },
       "error": null
@@ -1125,14 +1389,14 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおけるレプトスピラ症：洪水と疾病拡大の中で衛生警報が発令",
+        "headline_ja": "ブラジルのレプトスピラ症：洪水と病気の拡散の中で保健警報が発令",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準で3項目該当（重篤な影響・異常性・国際拡大リスク）し、WPROスクリーニング基準でも複数該当。死亡者を含む多数の症例、洪水による継続的曝露リスク、および関連する感染症（A型肝炎）の同時多発が認められる。",
+        "triage_reason": "IHR基準で3項目該当（深刻な公衆衛生への影響：1,000件超の症例と5名の死亡、異常/予想外：洪水関連の突発的なアウトブレイク、国際拡大リスク：レプトスピラ症の越境感染可能性）。WPROスクリーニング基準でも複数該当（重症度：死亡例あり、流行しやすさ：洪水による環境汚染で感染拡大中）。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "Yes",
-          "travel_trade_restriction": "不明",
+          "travel_trade_restriction": "No",
           "ihr_count": 3
         },
         "wpro_criteria": {
@@ -1146,16 +1410,22 @@
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "Yes"
+          "international_support_needed": "No"
         },
-        "notes": "レプトスピラ症の確認例5件と疑似例118件、A型肝炎248件（前年比6,100%増）が報告されており、洪水による複合感染症危機が進行中。ブラジル保健省が全国衛生警報を発令し、ワクチン配布及び水質消毒活動を実施。アマゾナス州含む複数地域での同時多発的な流行パターンが確認される。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事はブラジルでのレプトスピラ症アウトブレイクが主題。発生地域フィールドのブラジルが対象国リストに含まれるため verified_locations に含める。洪水による環境汚染が感染拡大の主要因となっており、ヘパチティスAの同時多発も報告されている。保健当局による積極的な対応が実施中。",
         "event_id": "3c2939e8-4c5a-4a5e-8b37-55c023a49886"
       },
       "error": null
     },
     {
       "article": {
-        "articleId": "f287b11d-9a81-4360-8b09-e1e75fb29ef5",
+        "articleId": "e3cefc61-50b7-4340-a1d1-19916d4cc9c7",
         "clusterArticleCount": 3,
         "diseases": [
           {
@@ -1165,22 +1435,13 @@
         ],
         "locations": [
           {
-            "id": 1562822,
-            "name": "Vietnam",
-            "countryId": 1562822,
+            "id": 1605651,
+            "name": "Thailand",
+            "countryId": 1605651,
             "featureCode": "PCLI",
             "locationType": 6,
-            "coordinateLat": 16.16667,
-            "coordinateLon": 107.83333
-          },
-          {
-            "id": 7506719,
-            "name": "Hau Giang Province, Vietnam",
-            "countryId": 1562822,
-            "featureCode": "ADM1",
-            "locationType": 4,
-            "coordinateLat": 9.77605,
-            "coordinateLon": 105.46412
+            "coordinateLat": 15.5,
+            "coordinateLon": 101.0
           }
         ],
         "affectedCategories": [
@@ -1189,45 +1450,152 @@
             "name": "humans"
           }
         ],
-        "articleHeadline": "Meningococcal Disease in Vietnam: Outbreak prompts vaccination and health measures",
+        "articleHeadline": "Meningococcal Disease in Thailand: Monitoring cases and promoting vaccination strategies",
         "articleHeadlineTranslated": "",
-        "articleSummary": "In 2026, Vietnam is facing a significant outbreak of meningococcal disease, particularly in Phú Quốc, where a second case of meningococcal meningitis (Neisseria meningitidis, group B) was confirmed following the death of an 11-year-old girl. Health authorities have initiated post-exposure prophylaxis for over 100 close contacts and are enhancing local healthcare capabilities. Other provinces, including Hanoi and Hà Tĩnh, have reported cases with symptoms ranging from headaches to acute kidney injury. The disease primarily affects young individuals, with a case fatality rate of 8–15% and potential for serious neurological complications. In response to the outbreak, vaccination efforts have intensified, with a surge in demand at local vaccination centers. Authorities are implementing disease-prevention measures in schools and communities, promoting hygiene practices, and advising prompt medical consultation for any warning signs. The Ministry of Health is actively intensifying surveillance and outbreak control efforts to mitigate the spread of this serious infectious disease.",
+        "articleSummary": "As of March 18, 2026, Thailand has reported five cases of meningococcal disease, resulting in three fatalities. These cases are not linked to the ongoing outbreak in the United Kingdom, which has seen approximately 20 cases and two deaths. The Department of Disease Control is actively monitoring the situation, particularly the Neisseria meningitidis serogroup B (MenB) outbreak in the UK. Health authorities in Thailand emphasize the importance of immediate reporting of suspected cases to facilitate rapid investigations and prevent further spread. Symptoms to be aware of include sudden high fever, severe headache, neck stiffness, and potential rash. Vaccination, particularly the MenB vaccine, is highly recommended for travelers, ideally administered at least 10 days prior to travel to high-risk areas. Public health measures include promoting hand hygiene, wearing masks in crowded settings, and avoiding close respiratory contact. For assistance, the public can contact the health hotline at 1422.",
         "articleBody": "",
-        "publishedTimestamp": "2026-03-22T04:55:20.537390+00:00",
-        "sourceUrl": "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
+        "publishedTimestamp": "2026-03-22T11:25:22.178516+00:00",
+        "sourceUrl": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/22/thailand-monitors-uk-meningitis-outbreak-urges-vigilance",
         "originalLanguage": "",
         "allSourceUrls": [
-          "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
-          "https://baohatinh.vn/canh-giac-voi-nhung-dien-bien-nguy-hiem-cua-benh-nao-mo-cau-post307862.html",
-          "https://www.qdnd.vn/y-te/tin-tuc/sau-ca-tu-vong-nguoi-dan-phu-quoc-do-xo-tiem-vaccine-viem-nao-mo-cau-1031442"
+          "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/22/thailand-monitors-uk-meningitis-outbreak-urges-vigilance",
+          "https://www.matichon.co.th/local/quality-life/news_5645088",
+          "https://thethaiger.com/hot-news/government-says-thailand-records-three-meningococcal-deaths"
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムの髄膜炎菌病：アウトブレイクは予防接種と保健措置を促す",
+        "headline_ja": "タイにおける髄膜炎菌感染症：症例の監視とワクチン接種戦略の推進",
         "triage_verdict": "PICKUP",
-        "triage_reason": "髄膜炎菌病の多地域アウトブレイク（ベトナム：Hau Giang, Hanoi, Ha Tinh, Phu Quoc）で複数の確定例と死亡事例を報告。IHR基準3項目以上に該当し、国際的な感染症公衆衛生上の重要な懸念に該当するため。",
+        "triage_reason": "IHR基準で3項目該当（深刻な公衆衛生への影響：死亡例3件、異常性：国内発生クラスター、国際的拡大リスク：UK発生との関連注視）。WPROスクリーニング基準では重症度（死亡率60%）と流行しやすさ（ヒト-ヒト感染性の高い髄膜炎菌）が該当。政府レベル（保健当局）の能動的な監視と国際的関心がある。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "不明",
-          "travel_trade_restriction": "不明",
-          "ihr_count": 2
+          "international_spread": "Yes",
+          "travel_trade_restriction": "No",
+          "ihr_count": 3
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
           "severity": "Yes",
-          "prolonged_exposure": "Yes",
+          "prolonged_exposure": "不明",
           "epidemic_prone": "Yes",
-          "manageability": "Yes",
-          "wpro_count": 5
+          "manageability": "No",
+          "wpro_count": 3
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "髄膜炎菌病(B群)の死亡例(11歳女児)、複数地域での患者報告、100名以上の濃厚接触者への暴露予防投与実施、各地での予防接種需要増加など、アウトブレイク対応が進行中。ただしWHOへの通知状況や国際的な支援要請については記事に明記なし。",
-        "event_id": "f287b11d-9a81-4360-8b09-e1e75fb29ef5"
+        "verified_locations": [
+          {
+            "id": 1605651,
+            "name": "Thailand"
+          }
+        ],
+        "notes": "タイで確認された5症例（死亡3件）はUK発生と無関連とされているが、タイ保健当局がUK MenB発生を積極的に監視していることが記事で明示されている。髄膜炎菌はヒト-ヒト感染の高いリスク病原体であり、死亡率が高い（確認症例中60%）。ワクチン推奨・公衆衛生メッセージの発信が開始されている。",
+        "event_id": "e3cefc61-50b7-4340-a1d1-19916d4cc9c7"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "87f3f88c-f3f4-47f6-bdf2-3dee38824905",
+        "clusterArticleCount": 3,
+        "diseases": [
+          {
+            "id": 325,
+            "name": "Shigellosis"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1269750,
+            "name": "India",
+            "countryId": 1269750,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 22.0,
+            "coordinateLon": 79.0
+          },
+          {
+            "id": 1265873,
+            "name": "Kozhikode, State of Kerala, India",
+            "countryId": 1269750,
+            "featureCode": "PPLA2",
+            "locationType": 2,
+            "coordinateLat": 11.24802,
+            "coordinateLon": 75.7804
+          },
+          {
+            "id": 1267254,
+            "name": "State of Kerala, India",
+            "countryId": 1269750,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.41667,
+            "coordinateLon": 76.5
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 2,
+            "name": "animals"
+          },
+          {
+            "id": 5,
+            "name": "environment"
+          }
+        ],
+        "articleHeadline": "Shigellosis in India: Health authorities implement urgent measures to control spread",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "An outbreak of Shigellosis has emerged in Peruvayal Panchayat, Kozhikode district, Kerala, with 51 individuals currently under observation and one confirmed hospitalization. Tragically, a 3.5-year-old girl has died from suspected Shigella infection, prompting local health officials to intensify surveillance and public health measures. Authorities are conducting community awareness campaigns and enhancing water safety protocols, as the source of the outbreak remains unidentified. Drinking water and food samples are being tested for contamination. Symptoms of Shigellosis include diarrhea, fever, stomach cramps, and fatigue, with severe dehydration being a significant risk without treatment. Residents are advised to boil drinking water and report symptoms to health officials. The outbreak coincides with ongoing avian influenza cases in the region, leading to additional public health challenges. Health officials emphasize the importance of hygiene practices, including proper handwashing and safe food handling, to prevent further transmission, particularly among high-risk groups such as children under five.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T07:10:20.647157+00:00",
+        "sourceUrl": "https://www.asianetnews.com/kerala-news/shigella-outbreak-in-peruvayal-panchayat-51-people-under-observation-with-symptoms-one-in-hospital-articleshow-fhxnxcs",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.asianetnews.com/kerala-news/shigella-outbreak-in-peruvayal-panchayat-51-people-under-observation-with-symptoms-one-in-hospital-articleshow-fhxnxcs",
+          "https://marunadanmalayalee.com/news/special-report/health-crisis-in-kozhikode-shigella-source-untraced-in-peruvayal-bird-flu-containment-continues-in-4-panchayats-841486",
+          "https://www.onmanorama.com/health/healthcare/2026/03/22/shigellosis-shigella-infection-kerala-kozhikode-causes-symptoms.html"
+        ]
+      },
+      "triage": {
+        "headline_ja": "インドのシゲラ症：保健当局が拡大防止への緊急措置を実施",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "IHR基準3つ該当（重篤な影響・異常性・国際拡大リスク）、WPRO基準3つ該当（重症度・長期曝露・流行しやすさ）、死亡例を伴う集団発生事例。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "Yes",
+          "international_spread": "Yes",
+          "travel_trade_restriction": "No",
+          "ihr_count": 3
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "不明",
+          "wpro_count": 4
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "不明"
+        },
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "ケーラ州コージコード地区Peruvayal Panchayatでのシゲラ症集団発生。51人が観察下、1人が入院、3.5歳女児の死亡確認。水源汚染が疑われており、飲料水の煮沸指導が発出。同地域での鳥インフルエンザの同時発生も公衆衛生上の複合課題。",
+        "event_id": "87f3f88c-f3f4-47f6-bdf2-3dee38824905"
       },
       "error": null
     },
@@ -1290,221 +1658,14 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムにおける呼吸器合胞体ウイルス（RSV）感染症：上昇する感染率と脆弱性に対する戦略",
-        "triage_verdict": "WATCH",
-        "triage_reason": "RSVは既知の呼吸器ウイルスであり、ベトナムでの予測的な感染増加は懸念される。しかし、記事は今後の予測と対策方針に焦点があり、現在進行中の異常な流行報告ではなく、情報不足と推測的記述が多いため、フルRRA前の情報収集段階が適切。",
+        "headline_ja": "ベトナムにおける呼吸器合胞体ウイルス(RSV)感染症：上昇する感染率と脆弱性に対処する戦略",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "ベトナムにおけるRSV感染症の大幅な増加予測が報告され、IHR基準（重大な公衆衛生への影響、国際的拡大リスク）を満たす。WPRO基準では重症度（高い死亡率と入院数）と流行しやすさ（易感染性集団への影響）が該当し、シグナルとして識別すべき。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "No",
-          "international_spread": "不明",
+          "unusual_unexpected": "Yes",
+          "international_spread": "Yes",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
-        },
-        "wpro_criteria": {
-          "abnormal_unexpected": "No",
-          "severity": "Yes",
-          "prolonged_exposure": "Yes",
-          "epidemic_prone": "Yes",
-          "manageability": "不明",
-          "wpro_count": 3
-        },
-        "sociopolitical_concern": {
-          "public_attention": "Yes",
-          "government_attention": "Yes",
-          "international_support_needed": "不明"
-        },
-        "notes": "記事は2020-2025年の過去統計と今後の予測を混在させており、現在の流行状況の緊急性が不明確。ベトナム保健省の2026年感染症予防計画に基づく推定値であり、リアルタイムの発生データではない。子ども・高齢者の脆弱性が強調されている点と、慢性疾患保有率の高さ（87.7%）は懸念要因。続報で実際の感染者数・死亡数データが必要。",
-        "event_id": "62b2ff10-9dd4-4c34-a3cd-d4e0cbbd7deb"
-      },
-      "error": null
-    },
-    {
-      "article": {
-        "articleId": "cd7d2609-4e70-4a2a-a341-dbe3d3d36bdb",
-        "clusterArticleCount": 2,
-        "diseases": [
-          {
-            "id": 11,
-            "name": "Meningococcal Meningitis"
-          }
-        ],
-        "locations": [
-          {
-            "id": 1562822,
-            "name": "Vietnam",
-            "countryId": 1562822,
-            "featureCode": "PCLI",
-            "locationType": 6,
-            "coordinateLat": 16.16667,
-            "coordinateLon": 107.83333
-          },
-          {
-            "id": 1579008,
-            "name": "Tinh Kien Giang, Vietnam",
-            "countryId": 1562822,
-            "featureCode": "ADM1",
-            "locationType": 4,
-            "coordinateLat": 10.0,
-            "coordinateLon": 105.16667
-          },
-          {
-            "id": 8531735,
-            "name": "Phu Quoc, Kien Giang, Vietnam",
-            "countryId": 1562822,
-            "featureCode": "PPL",
-            "locationType": 2,
-            "coordinateLat": 10.22409,
-            "coordinateLon": 103.97156
-          },
-          {
-            "id": 1581129,
-            "name": "Thanh Pho Ha Noi, Vietnam",
-            "countryId": 1562822,
-            "featureCode": "ADM1",
-            "locationType": 4,
-            "coordinateLat": 21.0,
-            "coordinateLon": 105.75
-          },
-          {
-            "id": 1581130,
-            "name": "Hanoi, Hanoi, Vietnam",
-            "countryId": 1562822,
-            "featureCode": "PPLC",
-            "locationType": 2,
-            "coordinateLat": 21.0245,
-            "coordinateLon": 105.84117
-          },
-          {
-            "id": 1562412,
-            "name": "Tinh Lao Cai, Vietnam",
-            "countryId": 1562822,
-            "featureCode": "ADM1",
-            "locationType": 4,
-            "coordinateLat": 22.3,
-            "coordinateLon": 104.16667
-          },
-          {
-            "id": 1577882,
-            "name": "Tinh Lam GJong, Vietnam",
-            "countryId": 1562822,
-            "featureCode": "ADM1",
-            "locationType": 4,
-            "coordinateLat": 11.66667,
-            "coordinateLon": 108.08333
-          }
-        ],
-        "affectedCategories": [
-          {
-            "id": 1,
-            "name": "humans"
-          }
-        ],
-        "articleHeadline": "Meningococcal Meningitis in Vietnam: Health authorities enhance response to recent outbreaks",
-        "articleHeadlineTranslated": "",
-        "articleSummary": "As of March 21, 2026, Vietnam has reported multiple cases of meningococcal meningitis, particularly in An Giang, where a second case was confirmed in Phú Quốc following a fatality. The deceased was an 11-year-old girl who exhibited symptoms such as fever and rash before succumbing to the disease. A classmate of the deceased is currently hospitalized but stable. Health authorities have initiated post-exposure prophylaxis for over 100 close contacts and are conducting health surveillance among students and teachers in the area. Other provinces, including Hanoi and Hà Tĩnh, have also reported cases, with symptoms ranging from headache to severe neurological complications. The case fatality rate for meningococcal disease is notably high, between 8-15%. Vaccination remains the most effective preventive measure, with available vaccines covering multiple serogroups. The Ministry of Health is emphasizing hygiene practices, mask-wearing in crowded places, and prompt medical attention to control the outbreak.",
-        "articleBody": "",
-        "publishedTimestamp": "2026-03-22T03:55:20.643407+00:00",
-        "sourceUrl": "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
-        "originalLanguage": "",
-        "allSourceUrls": [
-          "https://vov.vn/xa-hoi/them-mot-hoc-sinh-o-phu-quoc-an-giang-bi-nhiem-viem-nao-mo-cau-post1277615.vov",
-          "https://baohatinh.vn/canh-giac-voi-nhung-dien-bien-nguy-hiem-cua-benh-nao-mo-cau-post307862.html"
-        ]
-      },
-      "triage": {
-        "headline_ja": "ベトナムにおける髄膜炎菌性髄膜炎：保健当局が最近の集団発生への対応を強化",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "髄膜炎菌性髄膜炎の確認された死亡例と複数省での集団発生、高い致命率（8-15%）、および社会的・公衆衛生的影響により、IHR基準2つ以上、WPROスクリーニング基準複数該当。",
-        "ihr_criteria": {
-          "serious_impact": "Yes",
-          "unusual_unexpected": "Yes",
-          "international_spread": "不明",
-          "travel_trade_restriction": "不明",
-          "ihr_count": 2
-        },
-        "wpro_criteria": {
-          "abnormal_unexpected": "Yes",
-          "severity": "Yes",
-          "prolonged_exposure": "Yes",
-          "epidemic_prone": "Yes",
-          "manageability": "Yes",
-          "wpro_count": 5
-        },
-        "sociopolitical_concern": {
-          "public_attention": "Yes",
-          "government_attention": "Yes",
-          "international_support_needed": "不明"
-        },
-        "notes": "ベトナム国内で複数地域（フーコック、ハノイ、ハティン）に報告されている。11歳女児の死亡例確認、濃厚接触者100名以上に対する晒露後予防投与実施、学校での健康監視体制構築など、当局の対応が進行中。国際的拡大リスクについては記事に明記されていないため判定保留。",
-        "event_id": "cd7d2609-4e70-4a2a-a341-dbe3d3d36bdb"
-      },
-      "error": null
-    },
-    {
-      "article": {
-        "articleId": "87f3f88c-f3f4-47f6-bdf2-3dee38824905",
-        "clusterArticleCount": 2,
-        "diseases": [
-          {
-            "id": 325,
-            "name": "Shigellosis"
-          }
-        ],
-        "locations": [
-          {
-            "id": 1269750,
-            "name": "India",
-            "countryId": 1269750,
-            "featureCode": "PCLI",
-            "locationType": 6,
-            "coordinateLat": 22.0,
-            "coordinateLon": 79.0
-          },
-          {
-            "id": 1267254,
-            "name": "State of Kerala, India",
-            "countryId": 1269750,
-            "featureCode": "ADM1",
-            "locationType": 4,
-            "coordinateLat": 10.41667,
-            "coordinateLon": 76.5
-          }
-        ],
-        "affectedCategories": [
-          {
-            "id": 1,
-            "name": "humans"
-          },
-          {
-            "id": 2,
-            "name": "animals"
-          },
-          {
-            "id": 5,
-            "name": "environment"
-          }
-        ],
-        "articleHeadline": "Shigellosis in India: Public health measures intensify amid ongoing outbreak",
-        "articleHeadlineTranslated": "",
-        "articleSummary": "A Shigellosis outbreak has been reported in Peruvayal Panchayat, Kozhikode district, Kerala, with 51 individuals currently under observation for symptoms, and one hospitalization confirmed. The source of the outbreak remains unidentified, leading local health authorities to implement urgent public health measures, including enhanced community awareness campaigns and water safety protocols. Drinking water and food samples have been collected for laboratory testing to identify potential contamination sources. Concurrently, the region is also addressing avian influenza cases, necessitating the culling of poultry within a 1 km radius of affected areas and imposing restrictions on poultry sales within a 10 km radius. Residents are advised to boil drinking water and report any symptoms to health officials promptly. Tragically, a 3.5-year-old girl from Aanakkuzhikkara has died, with additional cases reported among local children. Health officials are working diligently to manage the situation and prevent further transmission.",
-        "articleBody": "",
-        "publishedTimestamp": "2026-03-22T04:10:20.734959+00:00",
-        "sourceUrl": "https://www.asianetnews.com/kerala-news/shigella-outbreak-in-peruvayal-panchayat-51-people-under-observation-with-symptoms-one-in-hospital-articleshow-fhxnxcs",
-        "originalLanguage": "",
-        "allSourceUrls": [
-          "https://www.asianetnews.com/kerala-news/shigella-outbreak-in-peruvayal-panchayat-51-people-under-observation-with-symptoms-one-in-hospital-articleshow-fhxnxcs",
-          "https://marunadanmalayalee.com/news/special-report/health-crisis-in-kozhikode-shigella-source-untraced-in-peruvayal-bird-flu-containment-continues-in-4-panchayats-841486"
-        ]
-      },
-      "triage": {
-        "headline_ja": "インドのシゲラ菌症：発生中の集団発生の中で公衆衛生対策が強化",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "シゲラ菌症の集団発生が報告され、51名が観察下にあり1名が入院、1名の死亡も報告されている。感染源が特定されていない状況での急速な対策実施と、鳥インフルエンザとの同時発生という複合的な脅威を示しており、IHR基準3項目以上、WPRO基準5項目全て該当する。",
-        "ihr_criteria": {
-          "serious_impact": "Yes",
-          "unusual_unexpected": "Yes",
-          "international_spread": "No",
-          "travel_trade_restriction": "Yes",
           "ihr_count": 3
         },
         "wpro_criteria": {
@@ -1520,8 +1681,128 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "ケーラ州Peruvayal Panchayatでの限定的な地理的範囲だが、感染源未特定、死亡事例有、水・食物汚染の可能性があり公衆衛生的リスクは高い。同地域での鳥インフルエンザ同時流行により複雑性が増加。国際的拡大リスクは現段階では限定的だが、監視継続が必要。",
-        "event_id": "87f3f88c-f3f4-47f6-bdf2-3dee38824905"
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "記事サマリーはベトナムにおけるRSV感染症の公衆衛生上の脅威を述べており、ベトナム保健省の2026年感染症予防計画に基づいて推定される感染数（450万件）および入院者数（19万～35万件）は顕著。高齢者と慢性疾患保有者が特に脆弱であり、政府による統合的予防戦略が検討されている。ただし、CDCの予測数はUS向けのものであり、ベトナム固有のデータと混在している点に注意。",
+        "event_id": "62b2ff10-9dd4-4c34-a3cd-d4e0cbbd7deb"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "c9d414c9-6435-4f09-b85c-73209463890c",
+        "clusterArticleCount": 2,
+        "diseases": [
+          {
+            "id": 310,
+            "name": "Influenza A"
+          }
+        ],
+        "locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil",
+            "countryId": 3469034,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": -10.0,
+            "coordinateLon": -55.0
+          },
+          {
+            "id": 3662560,
+            "name": "Roraima, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 2.25,
+            "coordinateLon": -61.25
+          },
+          {
+            "id": 3665361,
+            "name": "Amazonas, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -3.75,
+            "coordinateLon": -64.5
+          },
+          {
+            "id": 3924825,
+            "name": "Rondonia, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -11.0,
+            "coordinateLon": -63.0
+          },
+          {
+            "id": 3393129,
+            "name": "Para, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -4.0,
+            "coordinateLon": -53.0
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 2,
+            "name": "animals"
+          }
+        ],
+        "articleHeadline": "Influenza A in Brazil: Surveillance heightened amid seasonal respiratory infections",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "The H5N2 subtype of Influenza A has been detected in the Brazilian Pantanal, marking the first instance of this avian influenza virus in local bird populations. A study involving 1,108 samples from 157 bird species confirmed the presence of AIV RNA in Charadrius collaris, with genetic analysis showing a 94% similarity to H5N2 strains from Colombia. While no human cases have been reported, this finding emphasizes the need for continued avian influenza monitoring in South America. Concurrently, 20 Brazilian states, including Acre, are on alert for Severe Acute Respiratory Infection (SARI) activity, with influenza A identified as a leading cause of severe illness among vulnerable populations. As of March 2026, Brazil has recorded 20,311 SARI cases, with 21.8% testing positive for influenza A, which has increased to 25.4% in recent weeks. Vaccination efforts for influenza A are set to begin on March 28, targeting priority groups across various regions.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T12:55:21.504422+00:00",
+        "sourceUrl": "https://www.nature.com/articles/s41598-026-42819-y",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.nature.com/articles/s41598-026-42819-y",
+          "https://ac24horas.com/2026/03/22/acre-esta-entre-os-estados-em-alerta-para-aumento-de-srag-aponta-fiocruz/"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ブラジルにおけるインフルエンザA：季節性呼吸器感染症の中での監視体制強化",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "IHR基準で2つ以上該当（異常性・予想外性、国際的拡大リスク）。H5N2鳥インフルエンザの初検出と複数州でのSARI増加が同時に報告されており、動物・ヒト両方への影響がある。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "Yes",
+          "international_spread": "Yes",
+          "travel_trade_restriction": "No",
+          "ihr_count": 3
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "Yes",
+          "wpro_count": 5
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "Yes"
+        },
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "H5N2鳥インフルエンザがブラジルのパンタナル地域で初検出され、コロンビアの株との94%の類似性を示している。同時にSARI患者数が増加（21.8%がインフルエンザA陽性）し、複数州で警戒が敷かれている。人感染はまだ報告されていないが、監視強化とワクチン接種開始（3月28日）が計画されている。南米での鳥インフルエンザ監視体制の強化が求められる段階と判断される。",
+        "event_id": "c9d414c9-6435-4f09-b85c-73209463890c"
       },
       "error": null
     },
@@ -1573,22 +1854,22 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルのインフルエンザ：ワクチン接種キャンペーンが増加する感染症の抑制を目指す",
+        "headline_ja": "ブラジルのインフルエンザ：感染者数の増加に対応するためワクチン接種キャンペーン実施",
         "triage_verdict": "WATCH",
-        "triage_reason": "ブラジル全土での季節性インフルエンザA増加が報告されており、複数州での流行が確認されている。死亡率も相応にあるが、スクリーニング基準の複数項目が該当する一方で、ワクチン接種キャンペーンなどの対策が進行中であり、情報の確実性向上を待つ必要がある。",
+        "triage_reason": "ブラジル全土でインフルエンザA症例が増加しており、異常性と重症度の要素は認められるが、死亡数は前年比で減少しており、国内対応能力が示唆されている。国際的拡大リスクおよび渡航・貿易制限のリスクは現在低いと評価される。継続的な監視が必要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "No",
+          "unusual_unexpected": "Yes",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 2
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "No",
+          "abnormal_unexpected": "Yes",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "Yes",
+          "manageability": "No",
           "wpro_count": 4
         },
         "sociopolitical_concern": {
@@ -1596,7 +1877,13 @@
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "季節性インフルエンザの通常の流行パターンであるが、複数州での同時流行と死亡率（28.6%の死亡がインフルエンザAに関連）が報告されている。ワクチン接種率が低い地域（アクレ州での7.79%～7.01%）が存在し、管理可能性に懸念がある。国際的な拡大リスクは現在のところ低いが、南米地域の他国への波及の可能性を注視する必要がある。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "IHR基準は2つ該当し、WPRO基準は4つ該当している。ブラジル政府がワクチン接種キャンペーンを組織し、Fiocruzが全国戦略を提案するなど、社会的・政治的関心は高い。ただし死亡数が前年比で減少しており、完全なフルRRAには至らないため、継続観察段階として判定した。",
         "event_id": "4804daa1-45dd-49ef-855c-9a3d477d1fe6"
       },
       "error": null
@@ -1659,9 +1946,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "タイにおける結核：AI技術がTB検出と診断を改善",
-        "triage_verdict": "WATCH",
-        "triage_reason": "結核は周知の感染症であり、タイの高負担国分類と診断未把握例の存在は重要だが、本記事は主にAI技術導入の成功事例報告であり、新規の感染症危機信号とは言い難い。ただし未診断例の継続的な曝露リスク存在のため経過観察が妥当。",
+        "headline_ja": "タイの結核：AI技術がTB検出と診断を改善",
+        "triage_verdict": "DISMISS",
+        "triage_reason": "本記事はタイにおける結核の疫学的状況とAI診断技術の導入に関するニュースであり、新たな感染症アウトブレイクやシグナル検知の対象ではない。IHR基準・スクリーニング基準に該当せず、社会的関心も限定的。",
         "ihr_criteria": {
           "serious_impact": "No",
           "unusual_unexpected": "No",
@@ -1671,18 +1958,24 @@
         },
         "wpro_criteria": {
           "abnormal_unexpected": "No",
-          "severity": "Yes",
-          "prolonged_exposure": "Yes",
-          "epidemic_prone": "Yes",
-          "manageability": "不明",
-          "wpro_count": 3
+          "severity": "No",
+          "prolonged_exposure": "No",
+          "epidemic_prone": "No",
+          "manageability": "No",
+          "wpro_count": 0
         },
         "sociopolitical_concern": {
-          "public_attention": "不明",
-          "government_attention": "Yes",
-          "international_support_needed": "不明"
+          "public_attention": "No",
+          "government_attention": "No",
+          "international_support_needed": "No"
         },
-        "notes": "結核はタイにおいて既知の高負担疾患であり、本記事は新規アウトブレイクではなく、AI診断技術導入による既存TB管理の改善報告である。ただし約22,300名の未診断例が継続的に感染源となるリスク、および薬剤耐性結核(MDR-TB)の存在は公衆衛生上の懸念。IHR基準の4つすべてに該当しないため、シグナルとしてのPICKUPは困難だが、WPROスクリーニング基準の重症度・長期曝露・流行性に該当するため要経過観察。",
+        "verified_locations": [
+          {
+            "id": 1605651,
+            "name": "Thailand"
+          }
+        ],
+        "notes": "記事は既知の結核負荷国（タイ）における診断技術の進展を報じたもので、新規アウトブレイク、異常な疫学的変化、または感染症危機の兆候を示すシグナルではない。年間推定10万4000例という数字は常態的な高負荷状況であり、検出率の改善は公衆衛生改善の報告である。",
         "event_id": "ca3fae44-feec-45b9-8527-4cd47c553344"
       },
       "error": null
@@ -1749,15 +2042,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "コンゴ民主共和国のコレラ：複数の流行による保健システムの逼迫",
+        "headline_ja": "コンゴ民主共和国のコレラ：複数の流行で保健システムが逼迫",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3項目（深刻な公衆衛生影響、異常/予想外、国際的拡大リスク）に該当。484人の死亡、5,300確定患者、18,500疑似患者、複合流行による保健システム機能不全の報告があり、フルRRA実施が必要。",
+        "triage_reason": "IHR基準4項目すべてに該当し、複数の流行の並行発生、高い死亡数、限定的な資源環境での継続的な発生が確認される。WPROスクリーニング基準も全て該当。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "Yes",
-          "travel_trade_restriction": "不明",
-          "ihr_count": 3
+          "travel_trade_restriction": "Yes",
+          "ihr_count": 4
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -1772,7 +2065,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "複数の同時流行（コレラ、麻疹、mpox）による複合危機。保健資源の著しい不足、清潔水へのアクセス不足が長期化。アフリカ全体で18,500疑似患者が報告されており、地域的な拡大傾向が認められる。2月25日配信の2026年イベントデータ。",
+        "verified_locations": [
+          {
+            "id": 203312,
+            "name": "Democratic Republic of the Congo"
+          }
+        ],
+        "notes": "2026年3月時点でアフリカ全体で18,500疑似患者、5,300確認患者が報告されており国際的な拡大リスクが高い。リサラ保健圏ではコレラ、麻疹、mpoxの3つの流行が並行発生。2025年7月からの継続的な発生、水へのアクセス不良、保健資源の限界が状況を悪化させている。緊急な国際的支援が必要な段階。",
         "event_id": "36e02b95-4d67-4892-9274-921afd7c5c04"
       },
       "error": null
@@ -1826,30 +2125,31 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルのMpox: 継続的な監視により新規症例と調査が明らかに",
+        "headline_ja": "ブラジルのエムポックス：継続的な監視で新規症例と調査が明らかに",
         "triage_verdict": "WATCH",
-        "triage_reason": "ブラジル・セアラ州でのMpox確認症例が報告されているが、現時点では地域的な限定的発生と見られる。情報が十分でないため経過観察が必要。",
+        "triage_reason": "ブラジルはBluedotの対象国リストに含まれないため verified_locations は空となり、PICKUP基準を満たさない。ただしエムポックスは国際的に重要な感染症であり、継続的な情報収集が必要。",
         "ihr_criteria": {
-          "serious_impact": "不明",
+          "serious_impact": "No",
           "unusual_unexpected": "No",
-          "international_spread": "No",
+          "international_spread": "不明",
           "travel_trade_restriction": "No",
           "ihr_count": 0
         },
         "wpro_criteria": {
           "abnormal_unexpected": "No",
-          "severity": "不明",
-          "prolonged_exposure": "Yes",
+          "severity": "No",
+          "prolonged_exposure": "No",
           "epidemic_prone": "Yes",
-          "manageability": "不明",
-          "wpro_count": 2
+          "manageability": "No",
+          "wpro_count": 1
         },
         "sociopolitical_concern": {
           "public_attention": "不明",
           "government_attention": "Yes",
-          "international_support_needed": "不明"
+          "international_support_needed": "No"
         },
-        "notes": "2026年3月時点でセアラ州確認症例は3件（通知29件中、24件は陰性、2件調査中）と限定的。Mpox既知疾患であり、ブラジル国内でも過去事例がある可能性が高い。ただし症例数の推移、他州への拡大状況、感染経路の詳細情報が不足しており、WATCH段階での継続監視が適切。",
+        "verified_locations": [],
+        "notes": "ブラジルはトリアージ対象国リストに含まれていないため、本シグナルは地域検証段階で除外される。ただし、エムポックスの流行傾向監視という観点からは関心を持つべき情報である。Ceará州で3例確定、29件の通知、24件を除外、2件は調査中という状況が報告されている。",
         "event_id": "584a928d-008c-4cd4-93e9-3711f85054b0"
       },
       "error": null
@@ -1916,15 +2216,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルのA型肝炎：洪水がアウトブレイクと保健課題を悪化させる",
+        "headline_ja": "ブラジルのA型肝炎：洪水が流行と健康課題を悪化させる",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3つ（深刻な公衆衛生影響、異常な増加、国際的拡大リスク）およびWPRO基準4つ（異常性、重症度、長期曝露、流行易行性）に該当。環境災害との複合要因による多剤感染症のアウトブレイク構図を示唆。",
+        "triage_reason": "IHR基準3項目該当（深刻な公衆衛生影響・異常・国際拡大リスク）、WPRO基準4項目該当（重症度・長期曝露・流行性・管理課題）、社会的関心も高い。洪水による衛生環境悪化で急速に拡大するA型肝炎の流行シグナルとして識別される。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
-          "travel_trade_restriction": "Yes",
-          "ihr_count": 4
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -1937,9 +2237,15 @@
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "Yes"
+          "international_support_needed": "No"
         },
-        "notes": "前年同期比6,100%の急増は異常性の証。洪水による水衛生・衛生環境の劣化がA型肝炎の伝播メカニズムと直結。同時にレプトスピラ症118疑似例も報告され、複数の水媒介感染症が並行発生。ブラジルは南米の広域ハブであり国際拡大リスク存在。ワクチン配布・消毒資材の政府対応確認されるが、今後の流行トレンド監視が重要。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "2026年3月21日時点の情報。前年同期比6,100%の急増（4例→248例）は異常値。洪水による衛生悪化が感染拡大の直接的原因。水・食物媒介性とヒト-ヒト感染の両方が存在。政府レベルの対応（ワクチン、衛生物資配付）が開始されており、管理可能性に課題あり。複合災害（洪水+感染症）の文脈であるため、注視の必要性高い。",
         "event_id": "6d68cfb6-7431-40c9-96f5-010f43b52f21"
       },
       "error": null
@@ -1993,14 +2299,14 @@
         ]
       },
       "triage": {
-        "headline_ja": "フィリピンにおける結核：検出および治療戦略の強化に向けた取り組み",
+        "headline_ja": "フィリピンの結核：検出と治療戦略の強化への取り組み",
         "triage_verdict": "WATCH",
-        "triage_reason": "フィリピンのNCRで10万件以上の結核患者が報告されており、公衆衛生上の懸念がある。しかし、新規アウトブレイク、異常な死亡率、国際的拡大リスクの明確な証拠は記事内に記載されていない。既知疾患の既存負荷を扱う公衆衛生イニシアティブであり、続報による情報補充が必要。",
+        "triage_reason": "フィリピンの首都圏で101,807件の結核患者が報告され、異常性と重症度が認められるが、既知の感染症対応中であり国際的拡大リスクの記述が不足しているため、追加情報を注視する必要がある。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "No",
-          "international_spread": "No",
-          "travel_trade_restriction": "No",
+          "international_spread": "不明",
+          "travel_trade_restriction": "不明",
           "ihr_count": 1
         },
         "wpro_criteria": {
@@ -2008,7 +2314,7 @@
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "No",
+          "manageability": "不明",
           "wpro_count": 3
         },
         "sociopolitical_concern": {
@@ -2016,7 +2322,13 @@
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "10万件を超える結核患者数は地域的な重大な公衆衛生課題を示しており、DOHが検出と治療の強化に取り組んでいる。しかし、記事は既知の結核流行への対応キャンペーンを扱っており、新規アウトブレイクやWHO通知基準を満たす異常性の証拠は明確でない。世界結核デー（3月24日）を機に公衆衛生対策が実施されているが、国際的拡大リスクについての言及はない。フルRRAに進む前に、増加傾向、死亡率、他地域への拡大可能性等の追加情報が必要。",
+        "verified_locations": [
+          {
+            "id": 1694008,
+            "name": "Philippines"
+          }
+        ],
+        "notes": "結核は既知の感染症であり通常予想される疾患である。しかし10万件超の患者報告数、地域での持続的曝露、ヒト-ヒト感染の可能性、政府による能動的な公衆衛生対応が確認される。World TB Dayに関連した意識啓発活動も社会的関心を示している。国際的拡大リスクや貿易制限リスクについては記事に記載されていない。",
         "event_id": "ac8d1000-1bce-4275-a264-e26a2b34afa4"
       },
       "error": null
@@ -2061,9 +2373,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドのMpox：新たな変異株が世界的な保健上の懸念を引き起こす",
+        "headline_ja": "インドのMpox：新興変異株が世界的な保健上の警報を引き起こす",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3項目該当（異常性、国際的拡大リスク、流行のしやすさ）、WPRO基準4項目該当。新規組換え変異株の出現、複数国への伝播、既存治療効果の低下が確認され、WHO関心も高い。",
+        "triage_reason": "IHR基準3つ該当（異常性、国際的拡大リスク、国際支援の必要性）、WPRO基準全5つ該当。新規組換え変異株の出現、複数国での検出、従来の診断法の限界、抗ウイルス治療の効果低下などが示唆されている。フルRRAが必要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -2084,7 +2396,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "Mpoxの新規組換え変異株（clades Ib/IIb）がインドで検出され、従来のPCR検査では検出困難で全ゲノム配列解析が必要。主要抗ウイルス薬テコビリマットの有効性低下が報告されている。複数国への伝播が確認され、WHO強化監視体制構築を推奨。予防接種戦略の見直しも急務。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "記事サマリーでインドでの初症例報告（2025年）、UK関連の渡航関連症例、複数国への拡大の可能性が明記されている。新規Ib/IIb組換え変異株、既存PCRでの検出失敗、tecovirimat有効性の低下など、複数の深刻な知見が含まれている。2026年3月21日時点での評価。",
         "event_id": "6bd99328-154e-401c-b233-b2ffcf574783"
       },
       "error": null
@@ -2174,15 +2492,1039 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドにおけるトリインフルエンザA H5N1ヒト感染：封じ込め対策と公衆衛生プロトコルの実施",
+        "headline_ja": "インドにおける鳥インフルエンザA H5N1ヒト感染：封じ込め対策と公衆衛生プロトコールの実施",
         "triage_verdict": "WATCH",
-        "triage_reason": "H5N1は高い懸念病原体であり、複数州での検出と大規模な殺処分実施は異常/予想外の事象である。ただし現時点で確認されたヒト感染がなく、情報が動物での流行に限定されているため、フルRRAの前に続報を注視する必要がある。",
+        "triage_reason": "H5N1の高病原性ウイルスが確認されケララ州で約15,000羽の鳥の処分が実施されている異常事象だが、現時点でヒト感染報告なく重症度基準が未充足。情報充実後の展開監視が必要。",
+        "ihr_criteria": {
+          "serious_impact": "不明",
+          "unusual_unexpected": "Yes",
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 1
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "不明",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "不明",
+          "wpro_count": 3
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "不明"
+        },
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "現在のところヒト感染は報告されていないが、H5N1は高い病原性を持ち、ヒト感染リスクが存在する。ケララ州およびタミル・ナドゥ州での大規模なウイルス検出と防疫措置は社会的関心が高く、今後の感染状況（特にヒト感染の有無）の推移を注視する必要がある。",
+        "event_id": "3ea8f81c-bc08-49a8-a38e-e4e6b7194546"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "2e9b8213-f3cd-4142-960c-5562d7b387d7",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 323,
+            "name": "Respiratory Syncytial Virus (RSV) Infection"
+          }
+        ],
+        "locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil",
+            "countryId": 3469034,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": -10.0,
+            "coordinateLon": -55.0
+          },
+          {
+            "id": 3662560,
+            "name": "Roraima, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 2.25,
+            "coordinateLon": -61.25
+          },
+          {
+            "id": 3665361,
+            "name": "Amazonas, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -3.75,
+            "coordinateLon": -64.5
+          },
+          {
+            "id": 3924825,
+            "name": "Rondonia, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -11.0,
+            "coordinateLon": -63.0
+          },
+          {
+            "id": 3393129,
+            "name": "Para, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -4.0,
+            "coordinateLon": -53.0
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          }
+        ],
+        "articleHeadline": "Respiratory Syncytial Virus (RSV) Infection in Brazil: Increased SARI cases and vaccination efforts underway",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "As of Week 10 (March 8–14), 2026, Acre is one of 20 Brazilian states on alert for Severe Acute Respiratory Infection (SARI) activity, according to Fiocruz InfoGripe. The country has reported a total of 20,311 SARI cases, with 37% testing positive for respiratory viruses. Among these, rhinovirus accounts for 41.9%, influenza A for 21.8%, Covid-19 for 14.7%, and RSV for 13.4%. The rise in influenza A cases, which has increased to 25.4% of positives in the last four weeks, is concerning, especially as RSV continues to contribute to severe cases in children under 2 years old in Acre and other Northern states. Vaccination efforts are set to begin on March 28, targeting priority groups for influenza A, while an RSV vaccine for pregnant women is also being introduced. The situation remains dynamic as Brazil approaches the peak respiratory virus season.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T12:55:21.504422+00:00",
+        "sourceUrl": "https://ac24horas.com/2026/03/22/acre-esta-entre-os-estados-em-alerta-para-aumento-de-srag-aponta-fiocruz/",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://ac24horas.com/2026/03/22/acre-esta-entre-os-estados-em-alerta-para-aumento-de-srag-aponta-fiocruz/"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ブラジルの呼吸器合胞体ウイルス（RSV）感染症：SARI症例の増加とワクチン接種の実施",
+        "triage_verdict": "WATCH",
+        "triage_reason": "季節的なRSVおよびインフルエンザA発生であり、予防対策が進行中。ただし20州でのSARI警報発令と幼児への重症化リスク、情報の詳細度の不足から経過観察が必要。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "No",
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 1
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "No",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "No",
+          "wpro_count": 3
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "No"
+        },
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "RSVおよびインフルエンザAの季節的発生。ブラジル北部地域（Acre、Roraima、Amazonas、Para、Rondonia）で20州がSARI警報下にあり、2歳未満の幼児に重症化リスク。ブラジル政府はワクチン接種キャンペーンを実施中（3月28日開始予定）。国際的な拡大リスクは記事内では言及されていない。",
+        "event_id": "2e9b8213-f3cd-4142-960c-5562d7b387d7"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "73653c65-c741-4fb0-97a6-6e6b071bd5f3",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 200,
+            "name": "COVID-19"
+          }
+        ],
+        "locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil",
+            "countryId": 3469034,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": -10.0,
+            "coordinateLon": -55.0
+          },
+          {
+            "id": 3662560,
+            "name": "Roraima, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 2.25,
+            "coordinateLon": -61.25
+          },
+          {
+            "id": 3665361,
+            "name": "Amazonas, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -3.75,
+            "coordinateLon": -64.5
+          },
+          {
+            "id": 3924825,
+            "name": "Rondonia, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -11.0,
+            "coordinateLon": -63.0
+          },
+          {
+            "id": 3393129,
+            "name": "Para, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -4.0,
+            "coordinateLon": -53.0
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          }
+        ],
+        "articleHeadline": "COVID-19 in Brazil: Monitoring respiratory infections ahead of autumn season",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "Acre is one of 20 Brazilian states currently on alert for Severe Acute Respiratory Infection (SARI) activity, as reported by Fiocruz InfoGripe for Week 10 (March 8–14). The country is witnessing an increase in influenza A cases, which is expected to peak during the autumn season. In Acre and other Northern states, respiratory syncytial virus (RSV) is contributing to severe cases among children under two. The latest data shows that Brazil recorded 20,311 SARI cases in 2026, with 37% testing positive for a respiratory virus. Among the positive cases, rhinovirus accounted for 41.9%, influenza A for 21.8%, and COVID-19 for 14.7%. Although COVID-19 persists at lower levels, it remains concentrated in the Southeast region. Vaccination efforts are set to begin on March 28, targeting priority groups for influenza A and introducing an RSV vaccine for pregnant women.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T12:55:21.504422+00:00",
+        "sourceUrl": "https://ac24horas.com/2026/03/22/acre-esta-entre-os-estados-em-alerta-para-aumento-de-srag-aponta-fiocruz/",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://ac24horas.com/2026/03/22/acre-esta-entre-os-estados-em-alerta-para-aumento-de-srag-aponta-fiocruz/"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ブラジルのCOVID-19：秋季に向けた呼吸器感染症の監視",
+        "triage_verdict": "WATCH",
+        "triage_reason": "ブラジルで複数の呼吸器感染症（SARI）が増加中であり、COVID-19も検出されているが、現在の感染レベルは低く、重症度や国際的拡大の危険性は明確でない。情報不足のため経過観察が適切。",
+        "ihr_criteria": {
+          "serious_impact": "不明",
+          "unusual_unexpected": "No",
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 0
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "不明",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "No",
+          "wpro_count": 3
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "No"
+        },
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事はブラジルの複数州（アクレ、ロライマ、アマゾナス、ロンドニア、パラ）でSARI活動が増加していることを報告。COVID-19は検出されているが全体の14.7%に過ぎず、現在の主要な懸念はインフルエンザAとRSV。ブラジル政府は監視と予防接種対応を行っており、管理能力は十分と判断される。",
+        "event_id": "73653c65-c741-4fb0-97a6-6e6b071bd5f3"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "1c5f1d87-c922-4554-8e18-18f280b4eaca",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 137,
+            "name": "Influenza B"
+          }
+        ],
+        "locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil",
+            "countryId": 3469034,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": -10.0,
+            "coordinateLon": -55.0
+          },
+          {
+            "id": 3662560,
+            "name": "Roraima, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 2.25,
+            "coordinateLon": -61.25
+          },
+          {
+            "id": 3665361,
+            "name": "Amazonas, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -3.75,
+            "coordinateLon": -64.5
+          },
+          {
+            "id": 3924825,
+            "name": "Rondonia, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -11.0,
+            "coordinateLon": -63.0
+          },
+          {
+            "id": 3393129,
+            "name": "Para, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -4.0,
+            "coordinateLon": -53.0
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          }
+        ],
+        "articleHeadline": "Influenza B in Brazil: SARI cases prompt vaccination efforts across the country",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "As of Week 10 (March 8–14), Brazil reports 20,311 cases of Severe Acute Respiratory Infection (SARI), with 37% testing positive for respiratory viruses. Among these, influenza A accounts for 21.8% of positive cases, while influenza B is noted at 1.5%. The data indicates a concerning trend, particularly in Acre and 19 other states, where SARI activity is classified as alert/high risk by Fiocruz InfoGripe. The rise in influenza A cases, which has increased to 25.4% of positives in the last four weeks, is particularly alarming as the country approaches its peak respiratory illness season. Vaccination campaigns are set to begin on March 28, targeting priority groups in various regions, with a specific focus on influenza A and RSV, especially for vulnerable populations such as pregnant women. The ongoing presence of rhinovirus and lower levels of Covid-19 further complicate the respiratory illness landscape in Brazil.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T12:55:21.504422+00:00",
+        "sourceUrl": "https://ac24horas.com/2026/03/22/acre-esta-entre-os-estados-em-alerta-para-aumento-de-srag-aponta-fiocruz/",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://ac24horas.com/2026/03/22/acre-esta-entre-os-estados-em-alerta-para-aumento-de-srag-aponta-fiocruz/"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ブラジルのインフルエンザB：SARI症例が全国の予防接種努力を促す",
+        "triage_verdict": "WATCH",
+        "triage_reason": "インフルエンザBの流行が報告されているが、サマリーではインフルエンザAが主要な懸念（21.8%→25.4%）であり、インフルエンザBは1.5%と低い割合。複数州での高リスク警報が出ているが、国家的な対応（ワクチン接種キャンペーン）が既に計画されており、重大度や国際的拡大の具体的リスクが不明。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "不明",
+          "international_spread": "不明",
+          "travel_trade_restriction": "No",
+          "ihr_count": 1
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "不明",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "不明",
+          "wpro_count": 3
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "不明"
+        },
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事サマリーではインフルエンザAが主要な懸念であり、インフルエンザBは1.5%と低い割合であることに注意。複数州（Acre、Roraima、Amazonas等）での高リスク警報が出ており、呼吸器疾患のシーズンピークに向かっている。政府は既に3月28日のワクチン接種キャンペーンを計画している。国際的拡大のリスクと外部支援の必要性については記事に記載がない。",
+        "event_id": "1c5f1d87-c922-4554-8e18-18f280b4eaca"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "4fa16b18-319a-4441-a385-acf3390f09a3",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 19,
+            "name": "Tuberculosis"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1694008,
+            "name": "Philippines",
+            "countryId": 1694008,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 13.0,
+            "coordinateLon": 122.0
+          },
+          {
+            "id": 7521311,
+            "name": "National Capital Region, Philippines",
+            "countryId": 1694008,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 14.57775,
+            "coordinateLon": 121.04599
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          }
+        ],
+        "articleHeadline": "Tuberculosis in Philippines: Intensified efforts to combat high case numbers",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "As of February 16, 2026, Metro Manila has reported 101,807 tuberculosis cases, according to the Department of Health (DOH) via the Integrated Tuberculosis Information System. In response to this significant public health challenge, the DOH is ramping up efforts for early detection, prompt treatment, and prevention strategies. In 2025, over 3.1 million residents in Metro Manila were screened for TB, highlighting the urgency of addressing this issue. Key symptoms to monitor include a persistent cough lasting two weeks or more, chest pain, fever, weakness, night sweats, and unexplained weight loss. The DOH is promoting TB Preventive Treatment for high-risk groups, particularly children and other vulnerable populations, to prevent the progression to active TB and reduce community transmission. These measures aim to enhance treatment outcomes and curb the spread of the disease.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T10:40:21.147639+00:00",
+        "sourceUrl": "https://www.gmanetwork.com/news/topstories/metro/980952/over-100k-tuberculosis-cases-logged-in-metro-manila-as-of-february-doh/story/",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.gmanetwork.com/news/topstories/metro/980952/over-100k-tuberculosis-cases-logged-in-metro-manila-as-of-february-doh/story/"
+        ]
+      },
+      "triage": {
+        "headline_ja": "フィリピンの結核：高い症例数に対抗するための強化された取り組み",
+        "triage_verdict": "WATCH",
+        "triage_reason": "結核は慢性疾患であり、メトロマニラで10万以上の累積症例が報告されているが、突発的な流行や国際的拡大の直接的な証拠は記事に示されていない。公衆衛生上の課題は明らかだが、IHR基準（特に国際的拡大リスク）の判定に必要な情報が不足している。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "No",
+          "international_spread": "不明",
+          "travel_trade_restriction": "No",
+          "ihr_count": 1
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "No",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "Yes",
+          "wpro_count": 3
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "不明"
+        },
+        "verified_locations": [
+          {
+            "id": 1694008,
+            "name": "Philippines"
+          }
+        ],
+        "notes": "結核は既知の地域的課題であり、新規の異常な流行状況ではない。DOHによる予防戦略の強化は管理可能な対応と判断される。続報で急速な流行拡大や治療耐性株の出現などが報告される場合はピックアップへ昇格の可能性あり。",
+        "event_id": "4fa16b18-319a-4441-a385-acf3390f09a3"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "57c441eb-10b1-4f4e-ac4b-fcaac2b1f351",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 7,
+            "name": "HIV"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1269750,
+            "name": "India",
+            "countryId": 1269750,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 22.0,
+            "coordinateLon": 79.0
+          },
+          {
+            "id": 1270644,
+            "name": "Gurgaon, State of Haryana, India",
+            "countryId": 1269750,
+            "featureCode": "ADM2",
+            "locationType": 2,
+            "coordinateLat": 28.43891,
+            "coordinateLon": 77.00592
+          },
+          {
+            "id": 1270260,
+            "name": "State of Haryana, India",
+            "countryId": 1269750,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 29.25,
+            "coordinateLon": 76.33333
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          }
+        ],
+        "articleHeadline": "HIV in India: Youth infections prompt urgent government intervention",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "Gurugram has been designated a priority area for HIV control by the central government due to a concerning increase in infections among the youth. The National Aids Control Organisation (NACO) has identified Gurugram as one of 11 districts in Haryana and 219 nationwide that require intensified intervention. Currently, 2,770 individuals living with HIV are receiving treatment in the district. The government's strategy includes expanding testing, counselling, and treatment services to effectively reduce transmission rates. Health authorities are focusing on enhancing public health measures and resource allocation to address the rising burden among young people. As of March 22, 2026, efforts are underway to improve prevention, diagnosis, and management of HIV, with plans for increased outreach and linkage-to-care across local clinics.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T10:25:25.074869+00:00",
+        "sourceUrl": "https://www.jagran.com/haryana/gurgaon-gurugram-on-priority-list-as-youth-hiv-cases-rise-40180219.html",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.jagran.com/haryana/gurgaon-gurugram-on-priority-list-as-youth-hiv-cases-rise-40180219.html"
+        ]
+      },
+      "triage": {
+        "headline_ja": "インドのHIV：青年層の感染急増が緊急政府介入を促す",
+        "triage_verdict": "WATCH",
+        "triage_reason": "HIV感染は既知の風土病であり、青年層での増加は重要だが、新規・異常な病原体や急速な国際拡大のリスクは示唆されていない。ただし、政府による優先地域指定と積極的対応の必要性から経過観察の価値がある。",
+        "ihr_criteria": {
+          "serious_impact": "Yes",
+          "unusual_unexpected": "No",
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 1
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "No",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "Yes",
+          "wpro_count": 3
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "No"
+        },
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "HIVは既知の慢性感染症であり、IHR基準の『異常・予想外』には該当しない。ただしWPRO基準で重症度・長期曝露・流行しやすさに該当し、インド政府による正式な優先地域指定と積極的介入戦略が確認されている。2026年時点での時系列は将来の仮定値であるため、現況把握の観点からWATCHレベルが適切。",
+        "event_id": "57c441eb-10b1-4f4e-ac4b-fcaac2b1f351"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "be984300-1b3c-46cd-85d9-74f41c06b093",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 64,
+            "name": "Mpox"
+          }
+        ],
+        "locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil",
+            "countryId": 3469034,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": -10.0,
+            "coordinateLon": -55.0
+          },
+          {
+            "id": 3925227,
+            "name": "Brasileia, Acre, Brazil",
+            "countryId": 3469034,
+            "featureCode": "PPL",
+            "locationType": 2,
+            "coordinateLat": -11.01611,
+            "coordinateLon": -68.74806
+          },
+          {
+            "id": 3665474,
+            "name": "Acre, Brazil",
+            "countryId": 3469034,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": -9.0,
+            "coordinateLon": -70.0
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          }
+        ],
+        "articleHeadline": "Mpox in Brazil: First confirmed case prompts health monitoring efforts",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "The first mpox case of 2026 has been confirmed in Brasiléia, Acre, as reported by Sesacre on March 17. The infection is classified as imported, with no local transmission detected. The patient is currently under health surveillance, and authorities are emphasizing laboratory confirmation, surveillance, and contact tracing to mitigate any potential spread. Health officials are particularly vigilant regarding travel-related mpox cases in northern Brazil. As of the latest updates, no additional cases or deaths have been reported in Acre.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T10:25:25.074869+00:00",
+        "sourceUrl": "https://g1.globo.com/ac/acre/noticia/2026/03/22/voce-viu-paralisacao-no-transporte-publico-1o-caso-de-mpox-ossada-e-achada-eleicoes-da-ufac-e-mais.ghtml",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://g1.globo.com/ac/acre/noticia/2026/03/22/voce-viu-paralisacao-no-transporte-publico-1o-caso-de-mpox-ossada-e-achada-eleicoes-da-ufac-e-mais.ghtml"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ブラジルのエンポックス：最初の確認症例が保健監視活動を促す",
+        "triage_verdict": "WATCH",
+        "triage_reason": "ブラジルにおける2026年初のエンポックス輸入症例が確認されたが、地域内伝播は未検出で死亡なし。情報の確実性と国際的拡大リスクが不明なため、今後の発展を注視する必要がある。",
+        "ihr_criteria": {
+          "serious_impact": "No",
+          "unusual_unexpected": "Yes",
+          "international_spread": "不明",
+          "travel_trade_restriction": "No",
+          "ihr_count": 1
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "No",
+          "prolonged_exposure": "No",
+          "epidemic_prone": "不明",
+          "manageability": "No",
+          "wpro_count": 1
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "No"
+        },
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事サマリーではブラジル（アクレ州ブラジレイア）での輸入症例と明記されており、地域内伝播なし・死亡ゼロとのことで、現時点でのリスク水準は限定的。ただし、北部ブラジルにおける渡航関連症例への警戒が示唆されているため、続報の監視推奨。",
+        "event_id": "be984300-1b3c-46cd-85d9-74f41c06b093"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "1817d618-5a8f-4285-a899-5f437e382358",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 55,
+            "name": "Dengue"
+          }
+        ],
+        "locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil",
+            "countryId": 3469034,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": -10.0,
+            "coordinateLon": -55.0
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 4,
+            "name": "vectors"
+          },
+          {
+            "id": 5,
+            "name": "environment"
+          }
+        ],
+        "articleHeadline": "Dengue in Brazil: Climate conditions heighten outbreak concerns",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "Dengue in Brazil continues to pose a significant threat, with experts cautioning that recent declines in cases do not eliminate the risk of new outbreaks. The potential for increased transmission is heightened by the anticipated return of El Niño conditions, which could create a favorable environment for Aedes aegypti mosquitoes. In 2023, Brazil experienced a notable increase in dengue cases, culminating in the largest burden recorded in 2024. While vaccination efforts are underway, they cannot substitute for essential vector control measures. Authorities stress the importance of preventive actions such as eliminating standing water and maintaining clean environments to mitigate risks. Despite current indicators showing lower case counts, the threat of outbreaks remains, influenced by climate variability and the effectiveness of mosquito control strategies. Ongoing surveillance and vaccination initiatives are critical as Brazil navigates these challenges.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T09:55:21.266479+00:00",
+        "sourceUrl": "https://acontecebotucatu.com.br/geral/risco-de-novo-el-nino-acende-alerta-para-aumento-de-casos-de-dengue-no-brasil/",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://acontecebotucatu.com.br/geral/risco-de-novo-el-nino-acende-alerta-para-aumento-de-casos-de-dengue-no-brasil/"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ブラジルのデング熱：気候条件が感染症流行への懸念を高める",
+        "triage_verdict": "WATCH",
+        "triage_reason": "デング熱は既知の風土病であり、現在の症例数は減少傾向を示している。ただし、エルニーニョ現象の予想される戻りによるリスク増加の可能性があり、予防的監視と情報の追跡が必要。",
+        "ihr_criteria": {
+          "serious_impact": "No",
+          "unusual_unexpected": "No",
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 0
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "No",
+          "severity": "No",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "No",
+          "wpro_count": 2
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "No"
+        },
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "デング熱はブラジルの風土病であり、現在は症例数が低下傾向を示している。記事の焦点は将来のリスク（エルニーニョによる媒介蚊の増加）に関するもので、現在の流行を示すものではない。WPROスクリーニング基準では長期曝露と流行しやすさの2項目が該当するが、IHR基準には該当せず、重大な新規流行シグナルではなく、予防的監視の段階。",
+        "event_id": "1817d618-5a8f-4285-a899-5f437e382358"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "8afd4805-f80c-4847-8744-5419fb102d17",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 113,
+            "name": "Human Infection with Avian Influenza"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1269750,
+            "name": "India",
+            "countryId": 1269750,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 22.0,
+            "coordinateLon": 79.0
+          },
+          {
+            "id": 1267254,
+            "name": "State of Kerala, India",
+            "countryId": 1269750,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.41667,
+            "coordinateLon": 76.5
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 2,
+            "name": "animals"
+          },
+          {
+            "id": 5,
+            "name": "environment"
+          }
+        ],
+        "articleHeadline": "Human Infection with Avian Influenza in India: Public health measures intensify amid ongoing outbreaks",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "As of March 22, 2026, Kozhikode district in Kerala is facing a Shigella infection outbreak, with 51 individuals under observation and one hospitalized. The source of the outbreak remains unknown, prompting public health authorities to implement intensified surveillance and awareness campaigns. Concurrently, the Rapid Response Team (RRT) is expanding preventive measures in areas previously affected by avian influenza, including recent poultry culling in four panchayats and the Nallalam division. The Animal Husbandry Department and the District Collectorate are actively coordinating control efforts, advising those in contact with poultry to remain vigilant and report any symptoms. A prohibition on the sale and use of poultry within a 10-km radius of the outbreak's origin has been established to mitigate further spread.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T08:40:21.275946+00:00",
+        "sourceUrl": "https://www.madhyamam.com/kerala/local-news/kozhikode/shigella-virus-outbreak-raises-concern-in-kozhikodes-peruvayal-51-people-under-observation-1504953",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.madhyamam.com/kerala/local-news/kozhikode/shigella-virus-outbreak-raises-concern-in-kozhikodes-peruvayal-51-people-under-observation-1504953"
+        ]
+      },
+      "triage": {
+        "headline_ja": "インドの鳥インフルエンザ人感染：継続的な流行の中で公衆衛生対策が強化",
+        "triage_verdict": "WATCH",
+        "triage_reason": "記事サマリーの主題はシゲラ感染症のアウトブレイク（51人が観察対象、1人入院）であり、見出しと疾患名（鳥インフルエンザ）との乖離がある。鳥インフルエンザについては過去の影響範囲への予防対策拡大の記述に留まり、現在の人感染事例の詳細が不明。情報整合性の確認と続報の経過観察が必要。",
+        "ihr_criteria": {
+          "serious_impact": "不明",
+          "unusual_unexpected": "Yes",
+          "international_spread": "No",
+          "travel_trade_restriction": "Yes",
+          "ihr_count": 2
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "Yes",
+          "severity": "不明",
+          "prolonged_exposure": "不明",
+          "epidemic_prone": "Yes",
+          "manageability": "不明",
+          "wpro_count": 2
+        },
+        "sociopolitical_concern": {
+          "public_attention": "Yes",
+          "government_attention": "Yes",
+          "international_support_needed": "No"
+        },
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "【重要な不一致】Bluedot APIの疾患名は『鳥インフルエンザ人感染』だが、記事サマリーの主要内容はシゲラ感染症のアウトブレイク（Kozhikode地区、51人観察中）。鳥インフルエンザについてはKerala州での過去の影響範囲における予防対策の拡大（家禽の淘汰、10km以内の家禽販売禁止）として言及されているに過ぎない。記事がシゲラ感染症とも鳥インフルエンザの新規人感染についても不確定な情報を報告している。情報精緻化のため継続的な監視が必要。",
+        "event_id": "8afd4805-f80c-4847-8744-5419fb102d17"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "70f79ec4-d1e3-4569-affb-768d3a7ba6ac",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 55,
+            "name": "Dengue"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 16.16667,
+            "coordinateLon": 107.83333
+          },
+          {
+            "id": 1580578,
+            "name": "Ho Chi Minh City, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.82327,
+            "coordinateLon": 106.62978
+          },
+          {
+            "id": 1566083,
+            "name": "Ho Chi Minh City, Ho Chi Minh City, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPLA",
+            "locationType": 2,
+            "coordinateLat": 10.82302,
+            "coordinateLon": 106.62965
+          },
+          {
+            "id": 1562279,
+            "name": "Xa Long Dien, Tinh Ba Ria-Vung Tau, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPL",
+            "locationType": 2,
+            "coordinateLat": 10.48333,
+            "coordinateLon": 107.21667
+          },
+          {
+            "id": 1584534,
+            "name": "Tinh Ba Ria-Vung Tau, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.58333,
+            "coordinateLon": 107.25
+          },
+          {
+            "id": 1575993,
+            "name": "Lien Huong, Tinh Binh Thuan, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPLA2",
+            "locationType": 2,
+            "coordinateLat": 11.22761,
+            "coordinateLon": 108.72366
+          },
+          {
+            "id": 1581882,
+            "name": "Tinh Binh Thuan, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 11.08333,
+            "coordinateLon": 108.08333
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 4,
+            "name": "vectors"
+          }
+        ],
+        "articleHeadline": "Dengue in Vietnam: Current trends and hotspots in disease transmission",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "Ho Chi Minh City reported a 14.4% decrease in dengue cases during week 11 (March 9–15), with 582 new cases, bringing the cumulative total to 12,202 for the year. Notable hotspots with dengue incidence exceeding 100 per 100,000 residents include An Nhon Tay, Tay Thanh, and Tay Nam. In contrast, hand-foot-mouth disease (HFMD) cases surged by 97.1% to 837 in the same week, with a cumulative total of 7,294 cases for 2026. HFMD primarily affects children under five and is characterized by blister-like lesions. Preventive measures focus on hygiene practices such as regular handwashing and cleaning shared items to curb transmission. The dual challenge of dengue and HFMD highlights the need for continued public health vigilance in the region.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T07:40:20.739217+00:00",
+        "sourceUrl": "https://www.phunuonline.com.vn/tphcm-so-ca-mac-benh-tay-chan-mieng-tang-nhanh-a1578004.html",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.phunuonline.com.vn/tphcm-so-ca-mac-benh-tay-chan-mieng-tang-nhanh-a1578004.html"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ベトナムのデング熱：疾患伝播の現在の傾向とホットスポット",
+        "triage_verdict": "WATCH",
+        "triage_reason": "ベトナムにおけるデング熱の継続的な流行を示唆するシグナルであるが、現在は症例数が減少傾向（14.4%低下）を示しており、深刻な公衆衛生危機または国際的拡大の直接的な証拠は記事から明らかでない。経過観察が必要。",
+        "ihr_criteria": {
+          "serious_impact": "不明",
+          "unusual_unexpected": "No",
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
+          "ihr_count": 0
+        },
+        "wpro_criteria": {
+          "abnormal_unexpected": "No",
+          "severity": "不明",
+          "prolonged_exposure": "Yes",
+          "epidemic_prone": "Yes",
+          "manageability": "不明",
+          "wpro_count": 2
+        },
+        "sociopolitical_concern": {
+          "public_attention": "不明",
+          "government_attention": "Yes",
+          "international_support_needed": "No"
+        },
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "ベトナムはデング熱の流行地帯であり、継続的な曝露とヒト-ヒト感染リスク（ベクター媒介）が存在する。ただし、記事では症例数の減少傾向が報告されており、現段階では深刻な危機の段階にはない。同時に報告されているHFMD（手足口病）の急増（97.1%）も注視が必要。",
+        "event_id": "70f79ec4-d1e3-4569-affb-768d3a7ba6ac"
+      },
+      "error": null
+    },
+    {
+      "article": {
+        "articleId": "a9ddf0c4-5875-4bff-adea-87bdc8126fbe",
+        "clusterArticleCount": 1,
+        "diseases": [
+          {
+            "id": 81,
+            "name": "Enterovirus 71"
+          }
+        ],
+        "locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PCLI",
+            "locationType": 6,
+            "coordinateLat": 16.16667,
+            "coordinateLon": 107.83333
+          },
+          {
+            "id": 1580578,
+            "name": "Ho Chi Minh City, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.82327,
+            "coordinateLon": 106.62978
+          },
+          {
+            "id": 1566083,
+            "name": "Ho Chi Minh City, Ho Chi Minh City, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPLA",
+            "locationType": 2,
+            "coordinateLat": 10.82302,
+            "coordinateLon": 106.62965
+          },
+          {
+            "id": 1562279,
+            "name": "Xa Long Dien, Tinh Ba Ria-Vung Tau, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPL",
+            "locationType": 2,
+            "coordinateLat": 10.48333,
+            "coordinateLon": 107.21667
+          },
+          {
+            "id": 1584534,
+            "name": "Tinh Ba Ria-Vung Tau, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 10.58333,
+            "coordinateLon": 107.25
+          },
+          {
+            "id": 1575993,
+            "name": "Lien Huong, Tinh Binh Thuan, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "PPLA2",
+            "locationType": 2,
+            "coordinateLat": 11.22761,
+            "coordinateLon": 108.72366
+          },
+          {
+            "id": 1581882,
+            "name": "Tinh Binh Thuan, Vietnam",
+            "countryId": 1562822,
+            "featureCode": "ADM1",
+            "locationType": 4,
+            "coordinateLat": 11.08333,
+            "coordinateLon": 108.08333
+          }
+        ],
+        "affectedCategories": [
+          {
+            "id": 1,
+            "name": "humans"
+          },
+          {
+            "id": 4,
+            "name": "vectors"
+          }
+        ],
+        "articleHeadline": "Enterovirus 71 in Vietnam: Significant increase in hand-foot-mouth disease cases",
+        "articleHeadlineTranslated": "",
+        "articleSummary": "In Ho Chi Minh City, hand-foot-mouth disease (HFMD) cases surged by 97.1% in week 11, totaling 837 reported cases, with a cumulative count of 7,294 for the year 2026. The outbreak primarily affects children under five, presenting with blister-like lesions on various body parts. Key hotspots for HFMD include Long Huong, Long Dien, and Thuong Tan. The disease is transmitted through fecal-oral routes and direct contact with infected secretions. Preventive measures are crucial, emphasizing regular handwashing, cleaning of toys and surfaces, and minimizing the sharing of personal items. Parents are advised to keep symptomatic children at home and notify schools to prevent further spread.",
+        "articleBody": "",
+        "publishedTimestamp": "2026-03-22T07:40:20.739217+00:00",
+        "sourceUrl": "https://www.phunuonline.com.vn/tphcm-so-ca-mac-benh-tay-chan-mieng-tang-nhanh-a1578004.html",
+        "originalLanguage": "",
+        "allSourceUrls": [
+          "https://www.phunuonline.com.vn/tphcm-so-ca-mac-benh-tay-chan-mieng-tang-nhanh-a1578004.html"
+        ]
+      },
+      "triage": {
+        "headline_ja": "ベトナムのエンテロウイルス71：手足口病の症例が著しく増加",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "ベトナムでエンテロウイルス71による手足口病が急速に増加（週間97.1%増）。小児を中心とした集団発生の兆候があり、WPROスクリーニング基準（異常性・重症度・流行しやすさ）に複数該当。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "不明",
-          "travel_trade_restriction": "Yes",
-          "ihr_count": 3
+          "travel_trade_restriction": "No",
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -2197,8 +3539,14 @@
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "IHR基準3つ、WPRO基準4つ該当し、トリアージ基準ではPICKUP相当だが、現時点でヒト感染が確認されていないため、ズーノーティック段階での発症評価と情報不足を理由にWATCHに留めた。H5N1の人獣共通感染の可能性、ケーラ州とタミルナドゥ州での同時検出、15,000羽の大規模殺処分は高いリスク信号である。次の報告では、ヒト感染の有無、検査戦略の展開状況、地域的な感染拡大の有無に注視が必要。",
-        "event_id": "3ea8f81c-bc08-49a8-a38e-e4e6b7194546"
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "手足口病は小児に多くみられる感染症であり、集団発生リスクが高い。ホーチミン市を中心とした急速な症例増加（年間累計7,294例）は公衆衛生上の懸念。国際的広がりについては現段階では記載なし。",
+        "event_id": "a9ddf0c4-5875-4bff-adea-87bdc8126fbe"
       },
       "error": null
     },
@@ -2263,9 +3611,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "インド H5N1鳥インフルエンザの人への感染：地域の発生の中での対策強化",
+        "headline_ja": "インドにおけるH5N1鳥インフルエンザのヒト感染：地域の流行に対応した対策強化",
         "triage_verdict": "PICKUP",
-        "triage_reason": "H5N1の人への感染が報告されており、IHR Annex2基準で「異常/予想外」「国際的拡大リスク」に該当。WPROスクリーニング基準でも「重症度」「流行しやすさ」「管理可能性」が懸念され、複数基準を満たすためフルRRA対象。",
+        "triage_reason": "H5N1ウイルスはヒト感染事例を示しており、公衆衛生への影響が深刻で、複数地域での流行確認、および国際的拡大リスクがあり、IHR基準2つ以上に該当。スクリーニング基準でも重症度と流行しやすさが認められ、国際的な関心も高い。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -2286,7 +3634,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "H5N1の人への感染事例が確認されており、ケーララ州コージコーデ地区で複数地域での発生。既に迅速対応チームの配備、家禽の殺処分、10km域の移動制限など積極的な対策が実施されている。国際的な懸念事項としてWHOへの報告対象となる可能性が高い。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "H5N1ヒト感染は極めて致死率が高く、WPRで継続的に監視対象となっている。ケーララ州コージコード地区での複数箇所での同時流行、積極的な対応措置（家禽の殺処分、10km立入禁止区域設定）が実施されている。記事内でヒト感染症状（発熱、体痛、咳、呼吸器症状）が明示されており、パンデミックリスクが懸念される。フルRRA（Rapid Risk Assessment）への進行を強く推奨する。",
         "event_id": "ca729b8c-e83e-4103-92b3-ed2752ece976"
       },
       "error": null
@@ -2352,15 +3706,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムにおける狂犬病：最近の犬の咬傷事件への緊急対応が報告される",
+        "headline_ja": "ベトナムの狂犬病：最近の犬咬傷事件への緊急対応が報告される",
         "triage_verdict": "PICKUP",
-        "triage_reason": "ベトナムのダクラク省で疑わしい狂犬病を持つ犬による複数人への咬傷事件が発生し、緊急対応が展開されている。狂犬病は致死率がほぼ100%であり、公衆衛生上の重大な影響、異常性、国際的拡大リスクが認められるため。",
+        "triage_reason": "ベトナムでの狂犬病集団感染事例であり、6名の被咬傷者、死亡リスクのある重篤疾患、複数の動物咬傷、地域内での継続的な曝露リスク、および公衆衛生当局による積極的な対応が確認される。IHR基準（異常性・予想外性、重症度、国際的拡大の可能性）とWPRO基準（異常性、重症度、継続的曝露、管理対応）の複数項目に該当。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
+          "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 3
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -2375,7 +3729,13 @@
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "狂犬病は発症後の致死率がほぼ100%であるため、複数人の咬傷事件は重大な公衆衛生上の懸念である。既に6名全員がワクチン接種を受けており、当局は監視体制を確立している。2月の別の犬の死亡例も報告されており、地域内での循環の可能性がある。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "記事はダク・ラク州（記事サマリー記載）およびンゲアン省の地域での狂犬病事例を報告している。複数の動物咬傷による集団感染、重篤疾患（狂犬病は発症後ほぼ致死的）、地域内での継続的な動物曝露リスク、および迅速なワクチン接種を含む当局の対応が確認される。ベトナムは対象国に含まれるため、フルRRAへの進行を推奨。",
         "event_id": "cb2ba61f-e1d2-410e-a645-9a4b994d29de"
       },
       "error": null
@@ -2437,18 +3797,18 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルの梅毒：STI予防と治療のための新しい戦略",
+        "headline_ja": "ブラジルの梅毒：STI予防と治療の新戦略",
         "triage_verdict": "WATCH",
-        "triage_reason": "梅毒は既知の疾患であり、記事は主に予防戦略と公衆衛生措置の実施を扱っているが、新規発生状況の詳細情報が不足しており、スクリーニング基準の評価に必要な具体的データが限定的である。",
+        "triage_reason": "梅毒の公衆衛生対応の報道だが、新規の疾病発生クラスターまたは異常な流行の明確な証拠が不明。予防戦略の導入は制度的進展であり、緊急性の高いシグナルには該当しない。",
         "ihr_criteria": {
-          "serious_impact": "No",
+          "serious_impact": "不明",
           "unusual_unexpected": "No",
           "international_spread": "No",
           "travel_trade_restriction": "No",
           "ihr_count": 0
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "不明",
+          "abnormal_unexpected": "No",
           "severity": "不明",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
@@ -2460,7 +3820,8 @@
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "梅毒は既知の性感染症であり、ブラジルでの流行状況の詳細（患者数、増加率、致死率等）が記事には記載されていない。記事は主に政府の予防対策（DoxiPEP導入）と医薬品供給対策に焦点を当てており、新規な異常事象としての特異性に乏しい。病院でのKCP（多剤耐性菌）感染との併記がされているが、梅毒そのものとの関連性は不明確である。スクリーニング基準の「長期曝露」と「流行しやすさ」は該当するが、情報不足のため慎重な評価が必要。",
+        "verified_locations": [],
+        "notes": "記事はブラジルの梅毒対策について報道しており、Campinasでの薬剤耐性菌感染も言及されている。しかし発生地域にBrazilが含まれていながら、verified_locationsが空配列となっている理由：評価対象国リスト（Zambia, Philippines, Thailand, Ghana, DRC, Brazil, Indonesia, China, Myanmar, Vietnam, India）にはBrazilが含まれるが、記事サマリーを詳細に検証すると、この記事の主題は「ブラジルの既存の梅毒流行への制度的対応」であり、新規の異常な疾患クラスターの発生ではなく、むしろ既知の課題に対する予防戦略の導入を報道している。Bluedot APIの「発生地域」フィールドの誤りパターンを考慮し、シグナルトリアージの対象は「新規または異常な感染症イベント」とすべきため、定常的な疾病対応の制度化は対象外と判断した。",
         "event_id": "64b62272-34c5-490a-99ba-aeeccb28271a"
       },
       "error": null
@@ -2522,15 +3883,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "フィリピンの黄熱病：確認症例と予防接種努力の中での衛生上の警告発令",
+        "headline_ja": "フィリピンの黄熱病：確定症例と予防接種活動の中で健康警報が発令",
         "triage_verdict": "PICKUP",
-        "triage_reason": "フィリピンのイロコス地域で過去3週間に36～40例の黄熱病確認症例が報告され、予防接種キャンペーンが実施されている。黄熱病は国際保健規則（IHR）に基づく報告対象疾病であり、国境を越えた感染伝播のリスクがあるため、シグナルとして識別する。",
+        "triage_reason": "黄熱病の確定症例（36～40例）が報告され、IHR基準で異常性・重症性・管理困難性が認められ、公衆衛生上の重大な影響がある。ただし記事本文がベネズエラ（アラグア州）の内容であり、見出しと地域情報の不一致に注意が必要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
-          "travel_trade_restriction": "Yes",
-          "ihr_count": 4
+          "international_spread": "不明",
+          "travel_trade_restriction": "不明",
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -2545,7 +3906,8 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "記事のソースURLはベネズエラのメディア（elsiglo.com.ve）であるが、見出しはフィリピンの黄熱病について記述している。地理的不一致の可能性があるが、フィリピン（イロコス州、ウルダネタなど）で黄熱病が確認されたという情報自体は極めて異常である。黄熱病は国際通報対象疾病であり、過去3週間での複数の確認症例、15～20%の重篤合併症率、および継続的な感染リスクが存在する。フルRRA実施が必須。",
+        "verified_locations": [],
+        "notes": "重大な矛盾あり：見出しと発生地域指定は「フィリピン」を示唆するが、記事本文はアラグア州（ベネズエラ）での黄熱病流行について述べており、サン・セバスティアン、サン・カシミロ、カマタグア、ウルダネタなどはベネズエラの自治体。フィリピンは対象国リストに含まれるが、実際の発生地はベネズエラ（対象国外）である。したがって verified_locations は空配列。記事の信頼性・正確性の確認が必要。",
         "event_id": "291532f7-9cf0-4207-82d4-c23539100b18"
       },
       "error": null
@@ -2593,13 +3955,13 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおけるヒトメタニューモウイルス感染：呼吸器感染症増加の中での低ワクチン接種率",
+        "headline_ja": "ブラジルにおけるヒトメタニューモウイルス感染：呼吸器感染症の増加と低いワクチン接種率",
         "triage_verdict": "WATCH",
-        "triage_reason": "ヒトメタニューモウイルス感染の具体的な患者数や重症度に関する明確な情報が不足しており、報告されている主な病原体はRSVとライノウイルスである。低いワクチン接種率と呼吸器感染症の増加は懸念要因だが、死亡者数は前年比で減少しており、情報不足のため経過観察が妥当である。",
+        "triage_reason": "ブラジル・アクレ州で呼吸器感染症（SRAG）の症例が増加傾向にあり、極めて低いワクチン接種率が懸念される。ただし、死亡数は前年比で減少しており、国際的拡大リスクについては現段階では不明。情報の時間的矛盾（記事日付2026年3月21日に対し、サマリーは2025年11月26日以降の状況報告）があるため、続報確認が必要。",
         "ihr_criteria": {
           "serious_impact": "不明",
-          "unusual_unexpected": "不明",
-          "international_spread": "No",
+          "unusual_unexpected": "No",
+          "international_spread": "不明",
           "travel_trade_restriction": "No",
           "ihr_count": 0
         },
@@ -2612,11 +3974,17 @@
           "wpro_count": 3
         },
         "sociopolitical_concern": {
-          "public_attention": "不明",
+          "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "記事見出しではヒトメタニューモウイルス感染が指摘されているが、本文では主要な病原体としてRSVとライノウイルスが述べられており、ヒトメタニューモウイルスについての具体的な患者数や臨床転帰が記載されていない。Acre州での低いワクチン接種率（特に高齢者7.01%）と脆弱な予防体制が懸念材料である。死亡者数の減少傾向からは現在のリスク評価は低い可能性がある。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事サマリーに時間的矛盾がある（配信日2026年3月21日だが、サマリーは2025年11月26日以降のデータを参照）。疾患名はHuman Metapneumovirusとされているが、サマリー内ではSRAG（重症急性呼吸器症候群）、RSV、ライノウイルスが言及されており、メタニューモウイルスの具体的な患者数や重症度については不明。アクレ州での極めて低いワクチン接種率（子ども7.79%、高齢者7.01%）は公衆衛生上の懸念要因。",
         "event_id": "57a2da22-71a0-426f-aa03-84fb75504554"
       },
       "error": null
@@ -2664,15 +4032,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおけるA型豚インフルエンザH1N1ヒト感染：呼吸器疾患症例増加に伴う低いワクチン接種率",
+        "headline_ja": "ブラジルにおけるブタインフルエンザA H1N1ヒト感染: 呼吸器疾患症例増加の中での低いワクチン接種率",
         "triage_verdict": "PICKUP",
-        "triage_reason": "ブラジル・アクレ州でH1N1を含む急性呼吸器症候群(SRAG)の症例増加、特に低いワクチン接種率という管理可能性の課題が存在。IHR基準2項目以上、WPROスクリーニング3項目以上に該当する。",
+        "triage_reason": "ブラジル・アクレ州でH1N1を含む重症急性呼吸器症候群（SRAG）症例536件が報告され、低いワクチン接種率（小児7.79%、妊婦13.72%、高齢者7.01%）が記録されている。IHR基準（異常性、国際拡大リスク）とWPRO基準（重症度、流行易発性、管理可能性）を複数満たし、フルRRA実施対象となる。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "No",
+          "international_spread": "Yes",
           "travel_trade_restriction": "No",
-          "ihr_count": 2
+          "ihr_count": 3
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -2687,7 +4055,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "記事日付が2026年3月となっており時間軸の確認が必要。アクレ州での536例のSRAG、死亡16例、特に0-9歳と60歳以上での多発。H1N1pdm09を含む複数呼吸器ウイルスの検出。ワクチン接種率（子ども7.79%、妊婦13.72%、高齢者7.01%）が極めて低く、将来の流行リスク高。全国的にはSRAG減少傾向だがアクレ州での増加トレンドは注視が必要。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事日付に矛盾がある（配信日時2026年3月21日、サマリー内では2025年11月26日、2026年の死亡統計参照）。ただしブラジルのアクレ州における重症呼吸器症候群とH1N1の同時報告は確認された。低いワクチン接種率と複数の呼吸器病原体の流行が並行して発生しており、公衆衛生上の懸念が高い。",
         "event_id": "a4cb9f5a-3bdf-4b72-bb28-d612b1c7c3f3"
       },
       "error": null
@@ -2749,9 +4123,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "タイのHIV: ヘルスケア環境におけるAIによる疾病検出の向上",
+        "headline_ja": "タイのHIV：医療現場におけるAIを活用した疾患検出の強化",
         "triage_verdict": "DISMISS",
-        "triage_reason": "記事はタイでのAI技術によるTB検出支援に関するもので、HIVについては言及されていない。既知の感染症対策の技術導入に関する報道であり、新規アウトブレイクや公衆衛生上の緊急事態を示す情報がない。",
+        "triage_reason": "記事の主題はAIツール（Genki AI）を用いた結核検出の技術的進展であり、HIV/結核の新規発生・流行、集団感染、又は危機的状況の報告ではない。疾患管理の改善事例の報告に過ぎず、IHR基準及びWPRO基準に該当しない。",
         "ihr_criteria": {
           "serious_impact": "No",
           "unusual_unexpected": "No",
@@ -2772,7 +4146,13 @@
           "government_attention": "No",
           "international_support_needed": "No"
         },
-        "notes": "疾患名がHIVとなっているが、記事本文のサマリーではTB（結核）とTB-HIV共感染に関するものであり、AIによるヘルスケア技術導入の肯定的なニュース。新規事象の報告ではなく、既存の感染症制御施策の改善に関する情報。シグナルトリアージの対象外。",
+        "verified_locations": [
+          {
+            "id": 1605651,
+            "name": "Thailand"
+          }
+        ],
+        "notes": "記事はタイにおけるAIによる疾患検出の技術的進展についての報道。新規発生、流行拡大、危機的状況の兆候は含まれていない。既存の疾患管理の改善を報告する啓発記事であるため、感染症危機管理シグナルとしての価値はない。",
         "event_id": "3797d2b4-3700-4693-b1c9-39c83a58d351"
       },
       "error": null
@@ -2820,14 +4200,14 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおける鳥インフルエンザヒト感染：H5N1アウトブレイク監視と予防戦略",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "H5N1高病原性鳥インフルエンザによる海生哺乳動物5万頭以上の死亡、ウイルスの非鳥類宿主への変異傾向、複数国への拡大が報告されており、IHR基準（異常性、国際的拡大リスク）およびWPRO基準（重症度、流行しやすさ、管理可能性）を複数満たす。",
+        "headline_ja": "ブラジルにおけるヒトのトリインフルエンザ感染：H5N1アウトブレイクの監視と予防戦略",
+        "triage_verdict": "WATCH",
+        "triage_reason": "H5N1の海洋哺乳類における大規模死亡イベント（50,000以上）は深刻だが、記事サマリーでは現在のところヒト感染は報告されていない。ただし病原体が非鳥類宿主へ変異中であり、将来のヒト感染リスクが指摘されているため経過観察が必要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "Yes",
-          "travel_trade_restriction": "不明",
+          "travel_trade_restriction": "No",
           "ihr_count": 3
         },
         "wpro_criteria": {
@@ -2843,7 +4223,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "記事は「ヒト感染」を標題に含むが、本文サマリーでは海生哺乳動物の大量死と動物間の感染拡大が中心。ヒト感染症例の具体的記述は不明だが、ウイルスの宿主適応進化とヒト感染リスクの潜在性が懸念される。南米5カ国（ブラジル、ペルー、チリ、ウルグアイ、アルゼンチン）にまたがる国際的な広がりが確認されている。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事サマリーはブラジル、ペルー、チリ、ウルグアイ、アルゼンチンにおける海洋哺乳類のH5N1による大量死を報告しているが、対象国リスト内ではブラジルのみが該当。サマリーには現在のヒト感染例の記載がなく、タイトルと内容に不一致がある。病原体の進化とヒト感染リスクの潜在性により、継続的な監視が必要。",
         "event_id": "cca4c64a-5d37-4d6b-88c6-4214a179327b"
       },
       "error": null
@@ -2905,9 +4291,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドにおけるブタインフルエンザA型H1N1ヒト感染：最近の小児症例が公衆衛生上の懸念を生じさせている",
+        "headline_ja": "インドにおけるブタインフルエンザA H1N1ウイルスのヒト感染：最近の小児症例が公衆衛生上の懸念を引き起こしている",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR Annex2基準で2つ以上該当（異常性・国際的拡大リスク）し、WPROスクリーニング基準でも複数該当（重症度・流行しやすさ・管理可能性）。小児死亡例を含む重症H1N1症例が確認されており、フルRRA実施の対象である。",
+        "triage_reason": "IHR基準で3項目該当（深刻な公衆衛生影響、異常/予想外、国際的拡大リスク）。小児を中心とした複数症例の発生、入院・死亡事例、H1N1確認により WPRO基準でも複数該当。社会的・政治的関心も高い。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -2926,9 +4312,15 @@
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "Yes"
+          "international_support_needed": "No"
         },
-        "notes": "2026年3月21日時点でコルカタにおいてH1N1確認例が計5例（入院2例、陽性確認未入院3例）。Charnock Hospitalでは同週にH1N1関連死亡1例報告。小児患者（3～6歳）が中心で、けいれん、高熱、呼吸困難など重症所見を呈している。ただし現在のところ確認されている肺炎症例は報告されていない。地域保健当局による予防接種推奨とアウトブレイク対応が実施中。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "インド西ベンガル州コルカタでH1N1の小児患者が複数確認され、入院患者2名（3歳・6歳）、追加陽性患者3名が報告されている。一部患者は意識障害や呼吸困難を呈しており、1名の死亡も報告されている。実験室検査でH1N1が確認されており、公式な予防接種勧奨と隔離措置が講じられている。シグナルとして優先順位が高い。",
         "event_id": "7658ad61-39de-4f97-af91-7942fffd5230"
       },
       "error": null
@@ -2990,30 +4382,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "インド、特にコルカタでインフルエンザAの小児症例が増加、健康懸念が高まる",
-        "triage_verdict": "WATCH",
-        "triage_reason": "Influenza A (H1N1)の小児集積症例が報告されており、重症度基準（入院・ICU管理・死亡例）に該当するが、地理的範囲が限定的（コルカタ中心）で国際的拡大リスクが明確でないため、追加情報による動向確認が必要。",
+        "headline_ja": "インドのインフルエンザA：最近の小児症例が衛生上の懸念を引き起こしている",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "IHR基準2つ以上該当（異常性、国際拡大リスク）、WPRO基準3つ以上該当（異常性、重症度、流行可能性）、小児を含む複数の重症例と確認死亡が報告されており、公衆衛生当局による対応行動（予防接種勧告、隔離措置）が開始されている。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "不明",
+          "unusual_unexpected": "Yes",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 2
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "不明",
+          "abnormal_unexpected": "Yes",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "不明",
-          "wpro_count": 3
+          "manageability": "Yes",
+          "wpro_count": 5
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "記事は2026年3月21日付けで時系列に違和感がある可能性があるが、提供データとして記録。インドにおけるH1N1の季節的発生は予測可能であり「異常」判定は慎重。ただしICU入院例と死亡例が報告されており、小児への影響が確認されている点は継続監視の根拠となる。さらなる症例数の推移、地理的拡大、年齢層の拡大等を注視すべき。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "コルカタのインフルエンザA (H1N1)クラスター：2名が入院（重症症状、痙攣報告）、3名の追加症例確認、1名の死亡報告。H1N1は実験室で確認済み。公衆衛生対応が実施中（ワクチン推奨、隔離）。小児患者が多く、重症度が高いことが特徴。",
         "event_id": "418ce64a-4ada-4f46-9383-9e4af26aadbd"
       },
       "error": null
@@ -3079,15 +4477,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "コンゴ民主共和国の麻疹：同時流行する複数感染症が保健資源と対応体制を圧迫",
+        "headline_ja": "コンゴ民主共和国の麻疹：複数の流行が保健資源と対応活動を圧迫",
         "triage_verdict": "PICKUP",
-        "triage_reason": "麻疹、コレラ、mpoxの3つの同時流行により、深刻な公衆衛生影響（死亡事例あり、医療資源逼迫）と国際的拡大リスクが明らかであり、IHR基準を複数満たす。",
+        "triage_reason": "IHR基準3項目該当（深刻な公衆衛生影響、異常性、国際的拡大リスク）。複数流行の同時発生、死亡事例、資源不足による対応困難の状況は、フルRRA実施の対象となるシグナルである。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "Yes",
-          "travel_trade_restriction": "Yes",
-          "ihr_count": 4
+          "travel_trade_restriction": "No",
+          "ihr_count": 3
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -3102,7 +4500,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "複数感染症の同時流行は対応能力を著しく低下させる。医療資源の限界と予防接種キャンペーンの停滞により、死亡率が上昇している。コンゴ民主共和国のLisala保健地域は地域的に脆弱であり、国際支援の緊急性が高い。",
+        "verified_locations": [
+          {
+            "id": 203312,
+            "name": "Democratic Republic of the Congo"
+          }
+        ],
+        "notes": "3つの同時流行（麻疹、コレラ、mpox）が報告されており、リソース制約下での対応困難が明記されている。麻疹は2026年1月以降111例、9死亡。コレラは2025年7月以降で20死亡以上。保健システムの崩壊的状況と国際支援の緊急要請が記事から明確である。",
         "event_id": "0377074b-aece-42bd-b88d-560f4f432498"
       },
       "error": null
@@ -3168,9 +4572,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "コンゴ民主共和国のMpox：Lisalaの医療資源を逼迫させる同時流行",
+        "headline_ja": "コンゴ民主共和国のMpox：リサラの医療資源を逼迫させる複合流行",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準で4つ全て該当（深刻な公衆衛生影響、複数感染症の同時流行という異常事態、国際的拡大リスク、渡航制限リスク）。WPRO基準でも全5項目該当。DRCでの複数疾患同時流行と医療体制の崩壊が確認される。",
+        "triage_reason": "コンゴ民主共和国リサラヘルスゾーンで、Mpox、麻疹、コレラの複合流行が同時に発生しており、IHR基準3つ（深刻な公衆衛生影響、異常性、国際的拡大リスク）に該当。医療システムの崩壊寸前の状況は国際支援の必要性を示唆する。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -3191,7 +4595,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "Lisala Health Zone（Mongala Province）で麻疹111例・死亡9例、コレラ20例以上の死亡（2025年7月から継続），Mpoxも流行中。複数の法定感染症の同時流行，医療体制の深刻な逼迫，ワクチン資源不足が報告されている。2026年3月21日配信。緊急の国際支援要請が示唆されている。",
+        "verified_locations": [
+          {
+            "id": 203312,
+            "name": "Democratic Republic of the Congo"
+          }
+        ],
+        "notes": "複合流行（Mpox＋麻疹＋コレラ）によるマルチリスク状況。記事は医療資源の深刻な不足と国際的ロジスティック支援への「緊急の呼びかけ」を明記。Mpoxの予防接種キャンペーン（MVA-BN、LC16m8）が実施されているが、資源不足により不十分。死亡例を含む重症症例が報告されており、高リスク評価が妥当。",
         "event_id": "c6d9cec5-9446-42bd-8db6-fe0943ad8358"
       },
       "error": null
@@ -3253,13 +4663,13 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムにおける肺炎球菌：脆弱な人口への肺炎の影響への対応",
+        "headline_ja": "ベトナムの肺炎球菌：脆弱な集団への肺炎の影響に対処する",
         "triage_verdict": "WATCH",
-        "triage_reason": "肺炎球菌による呼吸器感染症がベトナムで継続的に発生しており、脆弱人口（高齢者・乳幼児）への影響が報告されているが、具体的な新規アウトブレイク・急増の証拠が記事に明記されていない。スクリーニング基準は複数該当するが、情報不足のため経過観察が適切。",
+        "triage_reason": "肺炎球菌によるコミュニティ獲得性肺炎がベトナムで継続的な公衆衛生上の課題であることが報告されているが、新規の集団発生やアウトブレイクを示唆する具体的な情報が不足している。社会的関心はあるものの、国際的拡大リスクの明記がなく、RRAの判断に必要な詳細情報が限定的。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "No",
-          "international_spread": "No",
+          "international_spread": "不明",
           "travel_trade_restriction": "No",
           "ihr_count": 1
         },
@@ -3272,11 +4682,17 @@
           "wpro_count": 3
         },
         "sociopolitical_concern": {
-          "public_attention": "不明",
+          "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "肺炎球菌は周知の風土病であり、記事は既知の疾患負担の説明であって新規事象ではない。ただしホーチミン市での医療会議での重視と脆弱人口への影響が強調されている。RSV関連の統計も混在しており、具体的な現在の患者数増加や新規クラスタの報告が記事に含まれていないため、継続的な監視が必要。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "記事は既知の問題（肺炎球菌による肺炎がベトナムで主要な原因疾患）を取り扱っており、急性の新規アウトブレイク情報ではない。記事内容がRSVに関する予測データも含んでいるため、肺炎球菌に限定した現在の状況把握に情報不足がある。ホーチミン市呼吸器学会の会議開催と対策強化の呼びかけが見られることから社会的・行政的関心は確認できるが、詳細な感染者数や死亡数、新規感染症サーベイランス結果の報告がないため、追加情報の確認が必要。",
         "event_id": "19c593e6-0cb4-4038-8ed4-ed9d2cc528ad"
       },
       "error": null
@@ -3338,30 +4754,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムにおけるStreptococcus感染症：高齢者が慢性呼吸器感染症からの高リスクに直面",
+        "headline_ja": "ベトナムでの連鎖球菌感染症：高齢者が慢性呼吸器感染症によるリスク増加に直面",
         "triage_verdict": "WATCH",
-        "triage_reason": "Streptococcus pneumoniaeによる高齢者の慢性呼吸器感染症が報告されており、地域的な公衆衛生上の懸念がある。しかし、新規の集団発生や異常な増加を明確に示す具体的な情報が不足しているため、続報を注視する段階と判定。",
+        "triage_reason": "Streptococcus pneumoniaeによる呼吸器感染症の高齢者での高い有病率が報告されており、公衆衛生上の関心がある。しかし、現在の急速な流行拡大や緊急的な対応要求の具体的なシグナルは明確でなく、情報不足のため経過観察が適切。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "不明",
+          "unusual_unexpected": "No",
           "international_spread": "No",
           "travel_trade_restriction": "No",
           "ihr_count": 1
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "不明",
+          "abnormal_unexpected": "No",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
-          "epidemic_prone": "Yes",
+          "epidemic_prone": "不明",
           "manageability": "不明",
-          "wpro_count": 3
+          "wpro_count": 2
         },
         "sociopolitical_concern": {
-          "public_attention": "Yes",
+          "public_attention": "不明",
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "記事はベトナムにおける高齢者層でのStreptococcus pneumoniaeと呼吸器感染症の継続的な問題を扱っており、Ministry of Healthが対策を講じていることが示唆されている。しかし、新規の流行発生、異常な増加、または国際的な拡大の具体的証拠が明記されていないため、IHR基準は1つのみ該当。WPROスクリーニング基準は3つ該当（重症度、長期曝露、流行しやすさ）するが、これは既知の公衆衛生上の課題の報道に過ぎず、新規シグナルとしての明確な特性に欠ける。追加情報や増加傾向の確認が必要。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "記事は高齢者における連鎖球菌肺炎の高有病率に関する啓発的な内容であり、新規アウトブレイク報告ではなく、既知のリスク因子についての医学会議での報告。緊急対応が必要な段階ではなく、専門家の管理戦略改善提案レベル。情報不足のため、続報を注視する必要がある。",
         "event_id": "8d93f47f-f934-468a-a062-fa8f764f4da2"
       },
       "error": null
@@ -3423,30 +4845,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドの未知の疾患",
-        "triage_verdict": "WATCH",
-        "triage_reason": "真菌性皮膚感染症の急増という異常な傾向が報告されているが、既知の疾患（真菌感染症）であり、国際的拡大リスクや深刻な公衆衛生影響の証拠が限定的。情報が不足しているため経過観察が適切。",
+        "headline_ja": "インド・ゴラクプルで未知の病気が発症",
+        "triage_verdict": "DISMISS",
+        "triage_reason": "真菌皮膚感染症の季節的増加であり、未知の疾患ではなく、ヒト-ヒト感染の指摘がなく、国際的拡大リスクも低い。医療対応可能な既知の疾患群。",
         "ihr_criteria": {
-          "serious_impact": "不明",
-          "unusual_unexpected": "Yes",
+          "serious_impact": "No",
+          "unusual_unexpected": "No",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 0
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "Yes",
-          "severity": "不明",
-          "prolonged_exposure": "Yes",
-          "epidemic_prone": "Yes",
-          "manageability": "不明",
-          "wpro_count": 3
+          "abnormal_unexpected": "No",
+          "severity": "No",
+          "prolonged_exposure": "No",
+          "epidemic_prone": "No",
+          "manageability": "No",
+          "wpro_count": 0
         },
         "sociopolitical_concern": {
-          "public_attention": "Yes",
+          "public_attention": "No",
           "government_attention": "不明",
           "international_support_needed": "No"
         },
-        "notes": "疾患名が『Unknown Illness』とされているが、本文は既知の真菌性皮膚感染症を説明。Gorakhpur地域での短期間での患者割合急増（19%→41%）は異常。死亡例や重症例の報告なく、国際的な拡大リスクも低い。不適切な薬物使用が原因と報告されており、公衆衛生対策の問題である可能性が高い。続報で患者数、重症度、管理状況の詳細情報が必要。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "疾患名は「Unknown Illness」と標識されているが、記事サマリーは「真菌皮膚感染症」の季節的増加を述べており、真菌感染症は既知の疾患である。気温上昇に伴う予測可能な季節パターンであり、医療ガイダンスの遵守（適正用量・完全治療・医学的監督）で管理可能。未知のあるいは新興の病原体ではない。シグナル化の必要なし。",
         "event_id": "7a1f6ebe-df02-4d07-8798-46b377ee4bf9"
       },
       "error": null
@@ -3508,9 +4936,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルのMpox Clade I: 新型組換えウイルス株が世界的な懸念を引き起こす",
+        "headline_ja": "ブラジルのMpox Clade I：新型組換え株が世界的な保健上の懸念を引き起こす",
         "triage_verdict": "PICKUP",
-        "triage_reason": "Mpoxの新型組換え株（clade Ib由来の高病原性+clade IIb由来）がブラジルで検出され、複数国への渡航関連感染、WHO懸念表明、治療選択肢の限定性が確認されている。IHR基準で最低3項目該当し、国際的拡大リスク明確。",
+        "triage_reason": "Mpoxの新型組換え株（clade Ib/IIb）がブラジルで検出され、高い重症度・死亡率の可能性、複数国への拡大リスク、治療限定性の課題が報告されており、IHR基準3項目以上該当。WHOの懸念表明と国際的な行動が認識されている。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -3531,7 +4959,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "記事日時2026-03-21だが、本文中で「2025年3月時点」「2026年2月検出」と記載されており、時系列に矛盾あり。ただし新型組換え株の出現、UK・インドからの渡航関連感染、tecovirimatの効果限定、WHOの懸念表明が明記されている。フルRRA実施推奨。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事サマリーでブラジル（サンパウロ）での確認が明示されている。UK・インドからの関連症例も言及されているが、サマリーの主題は「ブラジルで検出された新型組換え株」であり、両国は発生地域としてではなく国際的拡大のシグナルの文脈で言及されているため、verified_locationsからは除外。高い重症度（clade Ib由来）、複数国への拡大リスク、治療薬の限定的有効性、WHOの懸念表明などにより、フルRRA対象のシグナルと判定。",
         "event_id": "460d6c99-cad8-4bf5-9b0d-9de23d659bec"
       },
       "error": null
@@ -3611,9 +5045,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムの髄膜炎菌感染症：保健当局が最近の小児症例に対応",
+        "headline_ja": "ベトナムにおける髄膜炎菌疾患：保健当局が最近の小児症例に対応",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準2項目以上該当（重症度・死亡、異常性、国際拡大リスク）。急速な接触者追跡と予防投与が実施された確定症例であり、小児の死亡例と2次症例の可能性がある。",
+        "triage_reason": "髄膜炎菌疾患による小児死亡例が報告され、複数の地域で接触者追跡と予防措置が実施されている。IHR基準3項目（深刻な公衆衛生影響、異常性、国際的拡大リスク）に該当し、ベトナムは対象国として確認されている。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -3632,9 +5066,15 @@
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "Yes"
+          "international_support_needed": "不明"
         },
-        "notes": "小児死亡例（11歳女児）、急速な接触者追跡（70名対象）、2次症例の兆候（同級生が治療中）が確認されている。髄膜炎菌感染症は高い致死率（8-15%）と神経後遺症（10-20%）のリスクがあり、ヒト-ヒト感染が容易であるため、地域内の拡大可能性が懸念される。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "髄膜炎菌疾患（グループB）による小児死亡が確認されており、複数市町村で接触者追跡が進行中。致死率8-15%、神経後遺症10-20%という高いリスク特性を有する。記事は2026年3月21日の報告であり、時系列上の異常がないことを確認。対象国ベトナムでの実在する発生地域（Phu Quoc, Ho Chi Minh City, An Giang）を検証した。",
         "event_id": "3553e816-29e9-4bfa-9787-0569e6c2e25b"
       },
       "error": null
@@ -3678,9 +5118,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドネシアにおける麻疹：複数州で感染拡大",
+        "headline_ja": "インドネシアの麻しん：複数州でアウトブレイク報告",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準で3つ以上該当（深刻な公衆衛生影響、異常・予想外性、国際拡大リスク）、WPROスクリーニング基準でも5つ全て該当。大規模感染症の継続的流行を示している。",
+        "triage_reason": "麻しんの大規模アウトブレイク（2025年に63,769疑い例、2026年も継続）が報告され、IHR基準の4項目全てに該当。公衆衛生への深刻な影響、国内の異常事態、国際的な拡大リスク、および渡航制限の可能性を示唆。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -3701,7 +5141,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "2025年に63,769件の疑似症例、11,094件の確定症例、69死亡を報告。2026年初頭も深刻（週7までに8,224疑似症例、572確定症例、4死亡）。11州17地区に拡大。ワクチン接種率が問題と推察される。西太平洋地域での公衆衛生脅威として注視が必要。",
+        "verified_locations": [
+          {
+            "id": 1643084,
+            "name": "Indonesia"
+          }
+        ],
+        "notes": "麻しんは高い伝播性を持つ疫病管理可能な感染症であり、予防接種キャンペーンが基本的な対応となる。インドネシアは11州17地区に渡る大規模アウトブレイクを経験中。2025年は69死亡、2026年第7週までに4死亡が報告されている。WPRO地域への重要なシグナル。",
         "event_id": "9b5dc279-da3f-42cc-9d2e-4a821d5566c4"
       },
       "error": null
@@ -3808,30 +5254,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおけるインフルエンザB：広範な活動と予防接種の取り組み進行中",
+        "headline_ja": "ブラジルのインフルエンザB：広範な活動と予防接種活動が進行中",
         "triage_verdict": "WATCH",
-        "triage_reason": "インフルエンザBの流行は確認されているが、主流はインフルエンザAであり、B型の割合は限定的（SARI症例の1.5%、死亡の2.7%）。複数州での地理的拡大は認められるが、IHR基準の明確な該当が限定的で、詳細な情報不足のため経過観察が適切。",
+        "triage_reason": "インフルエンザBはSARI陽性の1.5%にとどまり、死亡の2.7%と限定的。ただしブラジル全域での広範な流行活動と政府の対応が進行中であり、情報更新を注視する必要がある。",
         "ihr_criteria": {
-          "serious_impact": "不明",
-          "unusual_unexpected": "Yes",
+          "serious_impact": "No",
+          "unusual_unexpected": "No",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 0
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "Yes",
+          "abnormal_unexpected": "No",
           "severity": "No",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "No",
-          "wpro_count": 3
+          "wpro_count": 2
         },
         "sociopolitical_concern": {
-          "public_attention": "不明",
+          "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "インフルエンザB型は記載されているが、主流はインフルエンザA型であり、B型の重症度・死亡率は相対的に低い。ブラジル保健省による予防接種キャンペーン展開が確認されており、管理体制は整備されている。複数州での同時流行（パラ州、アマパ州、リオデジャネイロ州、ロンドニア州など）は異常性と引き続く曝露リスクを示唆するが、SARI統計等の詳細情報が限定的なため、続報による確認が必要。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "記事ではインフルエンザBが主題だが、実際のサマリーではインフルエンザAが主要な懸念（SARI陽性の21.8%）であり、インフルエンザBの負荷は比較的低い（1.5%）。ただしブラジル保健省による全国予防接種キャンペーン（3月28日～5月30日）が進行中で、複数州での広範な流行が報告されている。目標国外での国際的拡大リスクは記事からは不明。",
         "event_id": "09c8d7b7-11c1-4405-a441-dfda2991642c"
       },
       "error": null
@@ -3875,30 +5327,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ガーナの結核：検出ギャップの対処と治療努力の強化",
-        "triage_verdict": "WATCH",
-        "triage_reason": "結核は既知の疾患であり、ガーナ国内の検出・治療ギャップは重要な公衆衛生課題だが、IHR基準該当が2未満であり、国際的拡大リスクの具体的証拠が不足している。継続的な情報収集が必要。",
+        "headline_ja": "ガーナにおける結核：検出ギャップへの対処と治療努力の強化",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "ガーナで年間約20,000件の未治療結核症例が存在する重大な検出ギャップが報告されており、IHR基準の「深刻な公衆衛生影響」と「異常/予想外」に該当。WPROスクリーニング基準では重症度（未治療症例の多さ）、長期曝露（コミュニティ伝播継続）、管理可能性（容量不足）が該当し、フルRRA進行が必要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "No",
-          "international_spread": "不明",
+          "unusual_unexpected": "Yes",
+          "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 2
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "No",
+          "abnormal_unexpected": "Yes",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "Yes",
-          "wpro_count": 4
+          "wpro_count": 5
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "ガーナにおける結核の検出ギャップ（年間20,000件未検出）と小児結核の低検出率（期待値2,000件に対し700件）は公衆衛生上の懸念。ただし、記事は既知の構造的問題の報道であり、新規アウトブレイクや予想外の疾患拡大の証拠はない。WPROスクリーニング基準で4項目該当することから要経過観察とする。国際的拡大の具体的証拠がない場合はPICKUPに上げない。",
+        "verified_locations": [
+          {
+            "id": 2300660,
+            "name": "Ghana"
+          }
+        ],
+        "notes": "ガーナの国家結核プログラムが公式に報告した検出ギャップ。小児結核検出の異常な低さ（期待値2,000件に対し700件のみ）、HIV患者や糖尿病患者などの高リスク集団への対策強化が進行中。WHO のEnd TB戦略と連動した公式な改善イニシアティブが存在することから、政府レベルでの関心が高い。",
         "event_id": "fe1fc045-7e9c-4643-9eb2-6ad5960ecb07"
       },
       "error": null
@@ -3973,30 +5431,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルのノロウイルス：発生により学校閉鎖と保健対策が実施される",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "ノロウイルスによる集団発生で77例の症例が報告され、学校閉鎖などの公衆衛生的対応が取られている。IHR基準の異常性と重症度、WPROスクリーニング基準の複数項目に該当し、社会的関心も高い。",
+        "headline_ja": "ブラジルのノロウイルス: 集団発生により学校閉鎖と保健措置",
+        "triage_verdict": "WATCH",
+        "triage_reason": "ノロウイルスの学校関連集団発生であり、スクリーニング基準（異常性、流行しやすさ）で2項目該当するが、死亡・重症例の報告がなく、地域的な対応が進行中のため、フルRRA前の情報収集段階が適切。",
         "ihr_criteria": {
-          "serious_impact": "Yes",
+          "serious_impact": "No",
           "unusual_unexpected": "Yes",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 2
+          "ihr_count": 1
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
-          "severity": "Yes",
+          "severity": "No",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "Yes",
-          "wpro_count": 5
+          "manageability": "No",
+          "wpro_count": 3
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "ブラジル南部リオグランデ・ド・スル州ペロタスでのノロウイルス集団発生。学校職員・教職員・児童生徒に77例の症状を認め、特に0-5歳の小児が罹患。当局は施設の徹底的な消毒とサンプル検査を実施中。ノロウイルスは高い伝染性で知られており、主に糞便-経口ルートで感染する。現在のところ国際的拡大のリスク情報は記載されていない。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "ブラジルは対象国リストに含まれるため verified_locations に含める。集団発生規模（77例）と学校閉鎖という対応、ノロウイルスの高い伝播性により、WPROスクリーニング基準を複数満たす。ただし重症度情報の欠落と国内対応が進行中のため、PICKUP昇格前に続報監視が適切。",
         "event_id": "43b4a762-fb75-47af-8908-d77ecc2bc4ac"
       },
       "error": null
@@ -4058,30 +5522,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドの水痘：ケーララ州コジコーデで急増する水痘症例対応を求めNHRC介入",
-        "triage_verdict": "PICKUP",
-        "triage_reason": "ケーララ州での水痘急増（2026年1月の24日間で3,300例、コジコーデで430例）は異常かつ予想外であり、3年連続の年増加傾向を示すため。国家人権委員会の介入と公衆衛生インフラの欠陥指摘により、管理可能性への懸念が認識されている。",
+        "headline_ja": "インドの水痘：NHRCがコージコード地域の急増する水痘症例への対応を要求",
+        "triage_verdict": "WATCH",
+        "triage_reason": "水痘（Varicella）はインドケーラ州で急増傾向を示し、複数のWPRO基準を満たすが、死亡例や重症化の報告がなく、感染症の公衆衛生的深刻度の判断が困難。情報不足のため経過観察が適切。",
         "ihr_criteria": {
-          "serious_impact": "Yes",
+          "serious_impact": "不明",
           "unusual_unexpected": "Yes",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 2
+          "ihr_count": 1
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
-          "severity": "Yes",
+          "severity": "不明",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "Yes",
-          "wpro_count": 5
+          "wpro_count": 4
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "No"
+          "international_support_needed": "不明"
         },
-        "notes": "ケーララ州は水痘の流行地として認識され、公衆衛生インフラの不備が指摘されている。NHRC の介入により国家レベルでの関心が高い。ただし現時点では国際的拡大の直接的証拠なし。今後の動向注視が重要。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "ケーラ州コージコード地域で2026年1月に急速な増加が報告されており（12月の210例から430例へ増加）、年間通じての増加傾向が確認されている（2023年26,390例→2025年29,055例）。NHRCが介入し公衆衛生インフラの欠陥を指摘しているが、死亡例や重症化に関する記述がないため、公衆衛生上の影響度の詳細な評価には情報が不足している。",
         "event_id": "7257fe3c-174b-4b05-bb07-bc6fef85c111"
       },
       "error": null
@@ -4125,13 +5595,13 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドの結核：耐性菌株との闘いにおける課題",
+        "headline_ja": "インドにおける結核：薬剤耐性菌株との戦いの課題",
         "triage_verdict": "WATCH",
-        "triage_reason": "結核は既知の重大疾患であり、インドの多剤耐性結核（MDR-TB）負担は公衆衛生上重要だが、本記事は現在の流行発生を示すニュースソースではなく、既存の課題に関する評論・分析記事である。新規発生イベント情報としての明確なシグナルを示していない。",
+        "triage_reason": "インドの結核負担（世界の25%、MDR-TB患者の約3分の1）は深刻だが、記事は主に政策・システム課題の分析であり、急性の新規アウトブレイクやEBS即時対応が必要なシグナルではない。社会的関心は高いが、IHR基準2つ以上の達成は不明確。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "No",
-          "international_spread": "No",
+          "international_spread": "不明",
           "travel_trade_restriction": "No",
           "ihr_count": 1
         },
@@ -4148,7 +5618,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "インドの結核・MDR-TB問題は既知の慢性的課題であり、本記事は政策的課題分析・提言である。新規発生イベント（アウトブレイク）としてのシグナルではなく、継続的な監視対象疾患の背景情報と判断。IHR基準は1つのみ該当（公衆衛生への深刻な影響）。WPROスクリーニング基準は複数該当するが、『異常性・予想外性』が低く、既知の構造的問題であることが判定の主要因。経過観察で継続的な情報収集を推奨。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "記事はインドの結核対策の構造的課題（MDR-TB管理、診断能力、医療資源）に焦点を当てており、新規の急性流行シグナルではない。既知の慢性的公衆衛生課題の分析・評論的内容。WPROスクリーニング基準では4つ該当するが、異常性が低く、国家プログラム強化を求める政策提言が主題のため、ルーチン監視範囲と判定。続報で新たな耐性株出現やアウトブレイク報告があれば再評価。",
         "event_id": "6cc3c1e7-e1aa-4724-bccb-060b80dfa0d1"
       },
       "error": null
@@ -4228,9 +5704,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "ボツリヌス菌毒素がベトナムで検出：健康当局が食品安全上の懸念に対応",
+        "headline_ja": "ベトナムのボツリヌス毒素：健康当局が食品安全問題に対応",
         "triage_verdict": "PICKUP",
-        "triage_reason": "ボツリヌス毒素中毒による複数の重症患者（入院、ICU対応）、反復的な発生パターン、WHO抗毒素供給の必要性があり、WPROスクリーニング基準（重症度・流行性・管理可能性）で複数該当。",
+        "triage_reason": "ボツリヌス中毒による複数の食中毒事例、入院患者あり、公衆衛生への深刻な影響、WHOの緊急支援が必要な状況であり、IHR基準2つ以上該当。食品安全に関する異常事象として重要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -4251,7 +5727,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "2026年3月単月で計5名の確定・疑い患者。局所的だがボツリヌス毒素は稀少で重篤（死亡リスク高い）。WHO抗毒素の継続供給依存性が管理可能性を示唆。発酵魚製品の家庭製造慣行に起因する環境的リスク継続。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "ボツリヌス毒素による食中毒が2026年3月時点で複数例報告。同月初旬に3児がボツリヌス中毒で入院し、WHO から抗毒素供給を受けている。発酵魚製品（Ca u chua）が感染源と特定。ベトナムでは抗毒素の国内備蓄がなく、国際支援が必須。公衆衛生上の重大な関心事項。",
         "event_id": "6cae579b-e0bf-468d-8d86-e1a5a9f676f6"
       },
       "error": null
@@ -4295,30 +5777,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "タイのインフルエンザ：現在の動向と公衆衛生勧告",
+        "headline_ja": "タイのインフルエンザ：現在の傾向と公衆衛生上の勧告",
         "triage_verdict": "WATCH",
-        "triage_reason": "インフルエンザの季節性流行であり、IHR基準2つ以上は該当しないが、WPROスクリーニング基準（異常性、重症度、管理可能性）で複数該当する可能性があり、継続的な経過観察が必要。",
+        "triage_reason": "タイでのインフルエンザ活動は5年平均を上回るレベルで増加しており、137,276症例と8死亡が報告されている。ただし、週間症例数の減少傾向が見られ、国際的拡大の明示的な証拠は記事に記載されていない。情報不足のため経過観察が必要。",
         "ihr_criteria": {
-          "serious_impact": "No",
-          "unusual_unexpected": "No",
-          "international_spread": "No",
-          "travel_trade_restriction": "No",
-          "ihr_count": 0
+          "serious_impact": "Yes",
+          "unusual_unexpected": "Yes",
+          "international_spread": "不明",
+          "travel_trade_restriction": "不明",
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "No",
+          "manageability": "不明",
           "wpro_count": 4
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "No"
+          "international_support_needed": "不明"
         },
-        "notes": "タイにおけるインフルエンザの2026年の発生状況は、137,276症例（1月1日～3月9日）、死亡8件と報告されており、過去5年平均を上回る水準を示している。地域的に異常な流行パターンと判断され、特に高齢者と基礎疾患保有者での死亡が報告されている。季節性流行の範囲内と思われるが、夏季の再流行予測を含め、地域内での発生動向を注視する必要がある。国際的な拡大リスクや渡航制限につながる要素は現段階では低い。",
+        "verified_locations": [
+          {
+            "id": 1605651,
+            "name": "Thailand"
+          }
+        ],
+        "notes": "IHR基準は2つ該当し、WPROスクリーニング基準は4つ該当している。ただし、記事は季節的インフルエンザの通常の監視レポートの性質が強く、社会的・政治的関心の詳細情報が限定的であるため、WATCH判定とした。週間症例数の減少トレンドは肯定的な兆候であるが、年半の再流行予測があり、引き続き注視が必要。",
         "event_id": "9e4b2a5b-48be-4bef-b545-f351183f8f5e"
       },
       "error": null
@@ -4420,15 +5908,15 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムにおけるエンテロウイルス71：季節ピークによる小児症例の増加",
+        "headline_ja": "ベトナムのエンテロウイルス71：季節性ピークにより小児症例が増加",
         "triage_verdict": "PICKUP",
-        "triage_reason": "IHR基準3項目（深刻な公衆衛生影響、異常性、国際的拡大リスク）に該当し、大規模な小児集団感染と地域的な流行兆候が認められることから、フルRRA進行対象。",
+        "triage_reason": "ベトナムにおいて手足口病（HFMD）の症例が異常な増加を示し、IHR基準2項目（深刻な公衆衛生への影響、異常/予想外性）に該当する。小児を含む多数の患者、重症症例の存在、国内外での急速な拡大が認められ、WPROスクリーニング基準でも複数項目に該当。フルRRAの実施が必要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "Yes",
+          "international_spread": "不明",
           "travel_trade_restriction": "No",
-          "ihr_count": 3
+          "ihr_count": 2
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
@@ -4443,7 +5931,13 @@
           "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "エンテロウイルス71は主に小児の手足口病を引き起こし、ホーチミン市では最新週837症例（97.1%増）、全国では2025年に107,000症例以上（前年比29%増）と報告されている。複数地域への拡散、重症例の報告（46%が重症）、保育園・学校での集団発生リスク、地域保健当局の警告発出が認められ、WPRO全5基準に該当。国際的な監視と情報共有が必要。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "2026年3月時点での報告。ホーチミン市で最新週837例（前年同期比97.1%増）、通年で7,294例。2025年全国では107,000例超（2024年比29%増）と記載。小児病院での46%が重症例。主要な公衆衛生上の懸念として保育園・学校での集団発生リスクが指摘されている。Enterovirus 71は手足口病の主要病原体。",
         "event_id": "8265c0fd-f067-4b21-a5d9-298394cda545"
       },
       "error": null
@@ -4509,9 +6003,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドの疥癬：汚染水が皮膚病の集団発生と関連",
+        "headline_ja": "インドの疥癬：汚染水が皮膚病の集団発生に関連",
         "triage_verdict": "WATCH",
-        "triage_reason": "疥癬の限定的な集団発生（小児20名以上）が報告されており、スクリーニング基準で1つ以上該当の可能性があるが、情報不足（検査確認、感染経路の確実性、拡大リスクの詳細など）が多く、続報観察が必要。",
+        "triage_reason": "マディヤプラデシュ州ベトゥル地区での疥癬集団発生（20人以上の子ども）は地域的には懸念があるが、IHR基準の国際的拡大リスクや渡航・貿易制限リスクは明らかでなく、情報が限定的である。経過観察が適切。",
         "ihr_criteria": {
           "serious_impact": "No",
           "unusual_unexpected": "Yes",
@@ -4524,7 +6018,7 @@
           "severity": "No",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "不明",
+          "manageability": "Yes",
           "wpro_count": 3
         },
         "sociopolitical_concern": {
@@ -4532,7 +6026,13 @@
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "疥癬は通常通知対象疾患ではなく重症度も低いが、同地域で6ヶ月前に致命的な集団発生があった歴史がある点、汚染水という環境要因が背景にある点、地域政治家（Digvijaya Singh）が関与して政治的関心が高い点が注視対象。ただし検査確認診断がない、症例数が限定的、国際拡大リスク低いため、現段階ではWATCHにとどめる。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "疥癬は一般的な皮膚疾患であり、単一の地域での局所的集団発生。ただし過去6ヶ月以内に同地区で致死的集団発生があった点、汚染水が継続的なリスク（prolonged_exposure）である点、政治的関心が高まっている点から、WATCH段階での継続監視を推奨。検査確定診断の詳細が報告されていない。",
         "event_id": "c2c7837e-4f9b-40f2-82d3-4dde88742956"
       },
       "error": null
@@ -4598,9 +6098,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "タイのレビース：感染拡大を制御するためのアウトブレイクゾーン確立",
+        "headline_ja": "タイの狂犬病：感染予防のためのアウトブレイクゾーン確立",
         "triage_verdict": "WATCH",
-        "triage_reason": "犬からのレビース確認とアウトブレイクゾーン設定は異常だが、既に局所的な防御措置（ワクチン接種、接触者管理）が講じられており、死亡報告がなく国際拡大リスクは低い。情報が限定的なため継続監視が適切。",
+        "triage_reason": "タイで狂犬病の確認とアウトブレイク対応が進行中だが、人への感染は限定的で管理下にある。スクリーニング基準では異常性と流行可能性が該当するが、情報不足と対応体制の充実により、現時点ではWATCH段階での経過観察が適切。",
         "ihr_criteria": {
           "serious_impact": "No",
           "unusual_unexpected": "Yes",
@@ -4610,18 +6110,24 @@
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
-          "severity": "不明",
+          "severity": "No",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "No",
           "wpro_count": 3
         },
         "sociopolitical_concern": {
-          "public_attention": "Yes",
+          "public_attention": "不明",
           "government_attention": "Yes",
           "international_support_needed": "No"
         },
-        "notes": "タイ・ヤソートン県パティオ地区における限定的なアウトブレイク。人間側は咬傷者1名（ワクチン接種済み、安定）、高リスク接触者6名（全員ワクチン接種完了）で重症度不明。動物側では約3,100頭の犬猫が影響対象で、既に300頭以上がワクチン接種済み（接種率85%）。レビースは常在性疾患だが、確認例と対応の透明性が確認できた。死亡報告がないため重症度は「不明」と評価。続報による状況確認が必要。",
+        "verified_locations": [
+          {
+            "id": 1605651,
+            "name": "Thailand"
+          }
+        ],
+        "notes": "記事はタイのヤソートン県で犬から確認された狂犬病に関するもので、噛まれた子ども1人と高リスク接触者6人が予防接種を完了している。当局による積極的な対応（5km隔離ゾーン、ワクチン接種キャンペーン）が進行中。人への重症例は報告されていないが、犬・猫約3,100頭が曝露され、人獣共通感染症としての潜在的リスクが存在。続報監視が必要。",
         "event_id": "755d099d-581e-4ad2-8af8-ed34826f4693"
       },
       "error": null
@@ -4674,30 +6180,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムの水痘：新生児が感染から重篤な合併症に直面",
+        "headline_ja": "ベトナムの水痘：新生児が感染による重篤な合併症に直面",
         "triage_verdict": "WATCH",
-        "triage_reason": "水痘は既知疾患であり、単一例の報告であることから直ちにはシグナルとならないが、新生児の重篤化事例と公衆衛生的懸念の記述があり、続報の注視が必要。",
+        "triage_reason": "水痘は既知の感染症であり、単一の重篤症例報告のみ。IHR基準・WPROスクリーニング基準での該当が限定的で、現時点では情報不足のため経過観察対象とする。",
         "ihr_criteria": {
-          "serious_impact": "Yes",
+          "serious_impact": "No",
           "unusual_unexpected": "No",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 0
         },
         "wpro_criteria": {
           "abnormal_unexpected": "No",
           "severity": "Yes",
-          "prolonged_exposure": "No",
-          "epidemic_prone": "No",
+          "prolonged_exposure": "不明",
+          "epidemic_prone": "Yes",
           "manageability": "No",
-          "wpro_count": 1
+          "wpro_count": 2
         },
         "sociopolitical_concern": {
-          "public_attention": "Yes",
+          "public_attention": "No",
           "government_attention": "不明",
           "international_support_needed": "No"
         },
-        "notes": "単一の重篤化事例報告であり、クラスター発生やアウトブレイク宣言ではない。水痘は既知疾患で予防接種が利用可能。記事は保健指導的内容を含むが、流行規模や複数地域への拡大は示唆されていない。新生児への重篤な合併症リスクについては真正な懸念であるが、その他の基準との組み合わせから判定は『WATCH』とした。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "単一の新生児重篤症例の報告であり、流行や集団発生の兆候は記事に記載されていない。水痘は既知の法定感染症であり、ベトナムでの認識・対応体制が存在すると考えられる。症例が重篤であることは確認されるが、複数症例や地域的拡大の証拠がないため、現段階ではWATCH（要経過観察）と判定。続報で集団発生や異常な流行パターンが報告された場合はPICKUPに昇格させる。",
         "event_id": "88098c65-950f-402a-a985-9b0c00ceefc2"
       },
       "error": null
@@ -4741,9 +6253,9 @@
         ]
       },
       "triage": {
-        "headline_ja": "Mpox Clade II in India: New variant prompts global health concerns and monitoring",
+        "headline_ja": "インドのMpox Clade II: 新しい変異株が世界的な懸念と監視を促す",
         "triage_verdict": "PICKUP",
-        "triage_reason": "新しい組換えMpox variantの出現（Ib+IIbの組み合わせ）により、WHOが懸念を表明。インドでの初症例報告、英国での症例確認、治療効果の疑問（tecovirimat有効性低下）、診断・制御上の課題が複数の懸念要素として該当。",
+        "triage_reason": "IHR基準で3つ該当（異常・予想外な新型組み換え変異株、国際的拡大リスク、治療効果低下による対応困難）し、WPROスクリーニング基準でも複数該当。WHO、国際社会の関心が高い。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
@@ -4764,7 +6276,13 @@
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "新型組換えvariantの出現、既知治療薬（tecovirimat）の有効性低下、複数国での検出、診断困難性など、感染症危機管理上の複合的リスク要因が複数存在。WHOの強化サーベイランス呼びかけあり。フルRRA実施推奨。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "新型組み換えMpox変異株（Clade Ib/IIbの組み合わせ）の出現。インドでの初症例は2025年、英国での第2症例報告。現在の標準治療（テコビリマット）の効果が限定的であることが判明し、治療戦略の見直しが必要。WHOが強化された全球的監視を呼び掛けており、国際的な関心・支援必要性が高い。",
         "event_id": "61ff673d-96ab-4a3d-94dc-46f61f1e8cee"
       },
       "error": null
@@ -4808,30 +6326,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドのMpox Clade I：新しい変異体が世界的な健康上の懸念と監視の強化を促す",
+        "headline_ja": "インドのMpox クレード I: 新しい変異体が世界保健上の懸念と監視体制を促進",
         "triage_verdict": "PICKUP",
-        "triage_reason": "Mpox Clade I（Ib/IIb組換え型）の新規出現は、IHR基準の「異常/予想外性」「国際的拡大リスク」に該当し、WHOの懸念と強化監視の呼びかけがあるため、シグナルとして識別される。",
+        "triage_reason": "Mpox Clade I（クレード Ib と IIb の組み換え体）の新規出現で、IHR基準4項目すべてに該当する可能性が高く、WPROスクリーニング基準でも異常性・重症度・流行性で該当。WHO が国際的な監視強化を呼びかけており、シグナルとして識別される。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "Yes",
-          "travel_trade_restriction": "不明",
-          "ihr_count": 3
+          "travel_trade_restriction": "Yes",
+          "ihr_count": 4
         },
         "wpro_criteria": {
           "abnormal_unexpected": "Yes",
-          "severity": "不明",
-          "prolonged_exposure": "不明",
+          "severity": "Yes",
+          "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "Yes",
-          "wpro_count": 3
+          "wpro_count": 5
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
           "international_support_needed": "Yes"
         },
-        "notes": "Mpox Clade I（Ib/IIb組換え型）は2025年にインドで初症例が報告された新規変異体。イギリスでも確認されており複数国での発生。現在のところ連鎖感染は検出されていないが、診断・治療上の課題が指摘されている。既存の抗ウイルス薬（tecovirimat）の効果が免疫能正常患者で限定的であることが報告されており、治療戦略の再検討が必要。WHOが強化監視および研究推進を呼びかけている点から、社会的・政治的関心は高い。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "記事サマリーではインドで 2025 年に第 1 例が報告されたこと、英国でも第 2 例が報告されたこと、診断・治療の課題が存在することが記載されている。英国は対象国リストに含まれないため verified_locations に含めない。tecovirimat の有効性に関する懸念も治療管理の複雑性を示唆している。",
         "event_id": "34fa05a5-4af2-4d0d-8330-887cf098dbd7"
       },
       "error": null
@@ -4901,30 +6425,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ベトナムのデング熱：重症例管理および予防努力における課題",
-        "triage_verdict": "WATCH",
-        "triage_reason": "ベトナム（ホーチミン市）でのデング熱報告であり、重症化率上昇（15%→17-19%）と成人感染の増加が報告されている。しかし記事は啓発・防止記事的性質が強く、新規の大規模流行発表ではなく、具体的な新規患者数・死亡数などの現在進行形の疫学データが不明であるため、フル評価前の情報収集が必要。",
+        "headline_ja": "ベトナムのデング熱：重症例の管理と予防対策における課題",
+        "triage_verdict": "PICKUP",
+        "triage_reason": "ベトナム（対象国）でのデング熱流行で、重症例の増加傾向（15%から17-19%へ）が報告されており、IHR基準で「深刻な公衆衛生への影響」と「異常性」が該当する。WPROスクリーニング基準でも重症度および流行性で該当。フルRRAへ進むべき。",
         "ihr_criteria": {
           "serious_impact": "Yes",
-          "unusual_unexpected": "No",
+          "unusual_unexpected": "Yes",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 2
         },
         "wpro_criteria": {
-          "abnormal_unexpected": "No",
+          "abnormal_unexpected": "Yes",
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "不明",
-          "wpro_count": 3
+          "wpro_count": 4
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
-          "government_attention": "不明",
+          "government_attention": "Yes",
           "international_support_needed": "不明"
         },
-        "notes": "ベトナムではデング熱は地風土病であり『異常/予想外』とは判断できない。記事は重症化率上昇と予防啓発の内容だが、現在進行形の流行規模（新規患者数、死亡者数、確認日）などの具体的疫学データが記事サマリーに含まれていない。続報で疫学的詳細および支援必要性の有無を確認した上で、より詳細なリスク評価への進行を判断する必要がある。",
+        "verified_locations": [
+          {
+            "id": 1562822,
+            "name": "Vietnam"
+          }
+        ],
+        "notes": "記事サマリーより、ホーチミン市を中心にベトナムでのデング熱流行が主題。重症例の割合上昇（15%→17-19%）、通年流行パターン、蚊の営巣地対策の課題が明記されている。成人患者の増加傾向も注目される。ベトナムは対象国リストに含まれるため verified_locations に追加。",
         "event_id": "48dde396-5f87-42bb-a86c-6c18a13b6165"
       },
       "error": null
@@ -4994,14 +6524,14 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルにおける原因不明疾病",
+        "headline_ja": "ブラジルで原因不明の疾患",
         "triage_verdict": "PICKUP",
-        "triage_reason": "食中毒と疑われる集団発症で死亡者1名、118名の患者が発生。多数の公衆衛生的影響、異常性、国際的な関心を持つ食品衛生関連イベントとして、フルRRA対象とする。",
+        "triage_reason": "IHR基準2つ該当（深刻な公衆衛生影響と予想外性）。食中毒様の集団発生で死亡1名・患者118名の大規模事案であり、フルRRA実施が必要。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
-          "international_spread": "不明",
-          "travel_trade_restriction": "不明",
+          "international_spread": "No",
+          "travel_trade_restriction": "No",
           "ihr_count": 2
         },
         "wpro_criteria": {
@@ -5009,15 +6539,21 @@
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "不明",
-          "wpro_count": 4
+          "manageability": "Yes",
+          "wpro_count": 5
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "不明"
+          "international_support_needed": "No"
         },
-        "notes": "食品媒介感染症の可能性が高く、死亡者1名、患者118名という規模の集団発症。原因物質が未確定（Unknown Illness）であり、ベクター（ペスト侵入）と環境汚染が確認されている点が特徴。検査結果待ち（10-15日）であるため、今後の情報開示次第で追加的なリスク評価が必要。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "原因不明疾患であるが、パライーバ州ポンバル市のピッツェリアでの大規模集団発生事案。死亡事例あり、患者118名。ネズミなどの害獣感染の施設衛生問題と関連している可能性。原因特定待ちだが、公衆衛生上の関心が高い。",
         "event_id": "898b0290-533a-4636-956c-67d2e3d1e00d"
       },
       "error": null
@@ -5106,14 +6642,14 @@
         ]
       },
       "triage": {
-        "headline_ja": "インドの鳥インフルエンザ人感染：発生抑制のための殺処分措置が実施される",
+        "headline_ja": "インドの鳥インフルエンザ人間感染：アウトブレーク制御のための淘汰措置が実施される",
         "triage_verdict": "PICKUP",
-        "triage_reason": "鳥インフルエンザの人感染事例がインド（ケーララ州・タミルナド州）で確認され、複数地域での大規模殺処分が実施されている。IHR基準2つ以上該当し、WPRO基準も複数満たす。国際的な影響と伝播リスク評価が必要。",
+        "triage_reason": "鳥インフルエンザの確認と大規模な淘汰措置が実施されており、IHR基準で異常性と国際的拡大リスク、WPRO基準で異常性・長期曝露・流行可能性が該当する。インドは対象国であり、シグナル基準を満たす。",
         "ihr_criteria": {
           "serious_impact": "Yes",
           "unusual_unexpected": "Yes",
           "international_spread": "Yes",
-          "travel_trade_restriction": "不明",
+          "travel_trade_restriction": "No",
           "ihr_count": 3
         },
         "wpro_criteria": {
@@ -5121,15 +6657,21 @@
           "severity": "Yes",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
-          "manageability": "Yes",
-          "wpro_count": 5
+          "manageability": "No",
+          "wpro_count": 4
         },
         "sociopolitical_concern": {
           "public_attention": "Yes",
           "government_attention": "Yes",
-          "international_support_needed": "Yes"
+          "international_support_needed": "No"
         },
-        "notes": "記事見出しは「Human Infection with Avian Influenza」と明記されているが、本文サマリーでは人感染事例の具体的詳細（症例数、重症度、確認検査等）が不開示となっている。ケーララ州コジコデ地区での確認と、5つのパンチャヤット地域での約15,000羽の殺処分が報告されている。鳥インフルエンザの人-ヒト感染可能性、複数州への地理的拡大、家禽・野生鳥類への曝露リスクが存在する。2026年3月という配信日時は将来日付であり、シミュレーション或いは仮想シナリオの可能性は否定できないが、評価対象とする。",
+        "verified_locations": [
+          {
+            "id": 1269750,
+            "name": "India"
+          }
+        ],
+        "notes": "記事サマリーは鳥インフルエンザ（Animal Influenza）の確認と淘汰措置を述べており、主にケララ州コジコデ地区での動物アウトブレークである。人間感染（Human Infection）という疾患名は記事では明示的に述べられていない（見出しは自動生成された可能性がある）が、鳥インフルエンザアウトブレークの継続的監視は重要。対象国はインドのみ。",
         "event_id": "553c94f5-0fcf-48cb-b78a-2fa41f93eec0"
       },
       "error": null
@@ -5182,30 +6724,36 @@
         ]
       },
       "triage": {
-        "headline_ja": "ブラジルの結核：継続的な健康課題に対抗するため早期診断が重要",
-        "triage_verdict": "WATCH",
-        "triage_reason": "ブラジルにおける結核の継続的な流行報告であるが、新規性（2024年データ）が限定的で、国内対応状況が確立している。IHR基準の国際的拡大リスクが明確でないため、情報の更新と地域的拡大傾向の確認が必要。",
+        "headline_ja": "ブラジルの結核：進行中の健康課題に対抗するために初期診断が重要",
+        "triage_verdict": "DISMISS",
+        "triage_reason": "結核は既知の風土病であり、ブラジルにおける継続的な公衆衛生課題の報告である。異常性や予想外性はなく、IHR基準およびWPROスクリーニング基準を満たさない。",
         "ihr_criteria": {
-          "serious_impact": "Yes",
+          "serious_impact": "No",
           "unusual_unexpected": "No",
           "international_spread": "No",
           "travel_trade_restriction": "No",
-          "ihr_count": 1
+          "ihr_count": 0
         },
         "wpro_criteria": {
           "abnormal_unexpected": "No",
-          "severity": "Yes",
+          "severity": "No",
           "prolonged_exposure": "Yes",
           "epidemic_prone": "Yes",
           "manageability": "No",
-          "wpro_count": 3
+          "wpro_count": 2
         },
         "sociopolitical_concern": {
-          "public_attention": "Yes",
-          "government_attention": "Yes",
+          "public_attention": "No",
+          "government_attention": "No",
           "international_support_needed": "No"
         },
-        "notes": "ブラジルは結核対応の国際的な経験と公衆衛生システム（SUS）を有しており、外部支援の必要性は低い。ゴイアス州での死亡率上昇傾向は注視が必要。WPROスクリーニング基準では3項目該当し、公的関心も高いが、IHR基準では国際的拡大リスクが確認できないため、WATCH段階での継続監視が適切。",
+        "verified_locations": [
+          {
+            "id": 3469034,
+            "name": "Brazil"
+          }
+        ],
+        "notes": "結核は周知の感染症であり、ブラジルでの継続的なAEFI（公衆衛生課題）の報告である。記事はGoiás州での症例増加を述べているが、これはブラジル国内の既存問題の強調であり、新規の異常イベント（PHEIC該当）ではない。WPROスクリーニング基準は長期曝露と流行易度で該当するが、社会政治的関心の証拠がなく、シグナルとして識別される基準を満たさない。",
         "event_id": "3a1626c1-e8d0-47ff-ab48-a2645eab9450"
       },
       "error": null
