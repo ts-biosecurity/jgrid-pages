@@ -79,9 +79,19 @@
   .ari-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
   .ari-label { font-size: 0.85rem; font-weight: 600; color: var(--text); }
   .ari-week { font-size: 0.75rem; color: var(--text-dim); }
-  .ari-body { padding: 0.75rem; background: var(--bg); border-radius: 0.5rem; }
-  .ari-sub-label { font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; font-weight: 600; }
-  .ari-text { font-size: 0.9rem; line-height: 1.6; color: var(--text); }
+  .ari-body { font-size: 0.85rem; line-height: 1.7; color: var(--text); }
+  .ari-total { padding: 0.6rem 0.75rem; background: var(--bg); border-radius: 0.5rem; margin-bottom: 0.75rem; }
+  .ari-total .ari-val { font-size: 1.3rem; font-weight: 700; color: var(--accent); }
+  .ari-total .ari-trend { color: var(--text-dim); font-size: 0.8rem; margin-left: 0.25rem; }
+  .ari-disease-section { margin-bottom: 0.75rem; }
+  .ari-disease-heading { font-size: 0.75rem; color: var(--text-dim); font-weight: 600; letter-spacing: 0.05em; margin-bottom: 0.4rem; }
+  .ari-disease-list { list-style: none; padding: 0; margin: 0; }
+  .ari-disease-list li { padding: 0.3rem 0.75rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
+  .ari-disease-list li:last-child { border-bottom: none; }
+  .ari-disease-name { font-weight: 600; white-space: nowrap; }
+  .ari-disease-val { font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .ari-disease-prefs { color: var(--text-dim); font-size: 0.8rem; }
+  .ari-pathogen { padding: 0.6rem 0.75rem; background: var(--bg); border-radius: 0.5rem; font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; }
   .ari-hidden { display: none; }
   .filter-bar { padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
   .filter-bar select, .filter-bar input { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.85rem; outline: none; }
@@ -137,10 +147,7 @@
         <a class="idwr-link" id="ari-link" href="#" target="_blank" rel="noopener" data-i18n="ariLink"></a>
       </span>
     </div>
-    <div class="ari-body">
-      <div class="ari-sub-label" data-i18n="ariSummaryLabel"></div>
-      <div class="ari-text" id="ari-summary-text"></div>
-    </div>
+    <div class="ari-body" id="ari-body"></div>
   </div>
 </div>
 <div class="stats-bar">
@@ -177,7 +184,8 @@ const I18N = {
     mapTitle: "都道府県別マップ", articlesTitle: "最新記事", noData: "記事が見つかりません",
     updated: "更新日時", period: "期間", articles: "件", articleSuffix: "件",
     idwrSouranLabel: "IDWR 感染症週報 — 発生動向総覧", idwrChumokuLabel: "IDWR 感染症週報 — 注目すべき感染症", idwrLink: "PDF を開く",
-    ariTitle: "急性呼吸器感染症（ARI）サーベイランス週報", ariSummaryLabel: "今週の状況（概要）", ariLink: "PDF を開く",
+    ariTitle: "急性呼吸器感染症（ARI）サーベイランス週報", ariLink: "PDF を開く",
+    ariPerSentinel: "定点当たり報告数", ariTrendPrefix: "前週比：", ariDiseaseHeading: "各感染症の定点当たり報告数（カッコ内は上位3都道府県）", ariHosp: "入院", ariPathogenLabel: "病原体検出",
     mapHover: "都道府県にカーソルを合わせてください", noTitle: "タイトルなし",
     legendNone: "0", legendLow: "少", legendMid: "中", legendHigh: "多", legendVeryHigh: "非常に多",
     timeMin: "分前", timeH: "時間前", timeD: "日前",
@@ -190,7 +198,8 @@ const I18N = {
     mapTitle: "Map by Prefecture", articlesTitle: "Recent Articles", noData: "No articles found",
     updated: "Updated", period: "Period", articles: "articles", articleSuffix: "article(s)",
     idwrSouranLabel: "IDWR Weekly Report — Disease Trend Overview", idwrChumokuLabel: "IDWR Weekly Report — Notable Infectious Diseases", idwrLink: "Open PDF",
-    ariTitle: "Acute Respiratory Infection (ARI) Surveillance Weekly Report", ariSummaryLabel: "This Week's Summary", ariLink: "Open PDF",
+    ariTitle: "Acute Respiratory Infection (ARI) Surveillance Weekly Report", ariLink: "Open PDF",
+    ariPerSentinel: "reports per sentinel", ariTrendPrefix: "vs prev. week: ", ariDiseaseHeading: "Per-sentinel reports by disease (top 3 prefectures in parentheses)", ariHosp: "hosp.", ariPathogenLabel: "Pathogen detection",
     mapHover: "Hover over a prefecture", noTitle: "No title",
     legendNone: "0", legendLow: "Low", legendMid: "Medium", legendHigh: "High", legendVeryHigh: "Very high",
     timeMin: "min", timeH: "h", timeD: "d",
@@ -369,16 +378,42 @@ function renderIdwr() {
 
 function renderAri() {
   const section = document.getElementById("ari-section");
-  if (!ARI || !ARI.summary) { section.classList.add("ari-hidden"); return; }
+  if (!ARI || !ARI.diseases) { section.classList.add("ari-hidden"); return; }
   section.classList.remove("ari-hidden");
   const weekInfo = ARI.reporting_period
     ? `${ARI.year}年 第${ARI.week}週（${ARI.reporting_period}）`
     : `${ARI.year}年 第${ARI.week}週`;
   document.getElementById("ari-week").textContent = weekInfo;
-  document.getElementById("ari-summary-text").textContent = ARI.summary;
   const link = document.getElementById("ari-link");
   link.href = ARI.source_url || "#";
   link.textContent = t("ariLink");
+
+  let html = "";
+  // ARI全体
+  if (ARI.ari_per_sentinel != null) {
+    html += `<div class="ari-total">ARI ${t("ariPerSentinel")}：<span class="ari-val">${ARI.ari_per_sentinel}</span>`;
+    if (ARI.ari_total_cases) html += `<span style="font-size:0.8rem;color:var(--text-dim)">（${ARI.ari_total_cases.toLocaleString()} 例）</span>`;
+    if (ARI.ari_trend) html += `<br><span class="ari-trend">${t("ariTrendPrefix")}${ARI.ari_trend}</span>`;
+    html += `</div>`;
+  }
+  // 各感染症
+  if (ARI.diseases.length) {
+    html += `<div class="ari-disease-section"><div class="ari-disease-heading">${t("ariDiseaseHeading")}</div><ul class="ari-disease-list">`;
+    for (const d of ARI.diseases) {
+      const ps = d.per_sentinel != null ? d.per_sentinel : "—";
+      const prefs = d.top_prefectures ? `<span class="ari-disease-prefs">（${d.top_prefectures.join("、")}）</span>` : "";
+      let hospInfo = "";
+      if (d.hospitalizations != null) hospInfo = `<span style="font-size:0.8rem;color:var(--text-dim);margin-left:0.3rem">[${t("ariHosp")} ${d.hospitalizations}例]</span>`;
+      html += `<li><span class="ari-disease-name">${d.name}</span><span><span class="ari-disease-val">${ps}</span>${hospInfo} ${prefs}</span></li>`;
+    }
+    html += `</ul></div>`;
+  }
+  // 病原体
+  if (ARI.pathogens && ARI.pathogens.length) {
+    const items = ARI.pathogens.map(p => `${p.name} ${p.count}件`).join("、");
+    html += `<div class="ari-pathogen">${t("ariPathogenLabel")}：${items}</div>`;
+  }
+  document.getElementById("ari-body").innerHTML = html;
 }
 
 function renderHeader() {
