@@ -59,6 +59,17 @@
   .article-item a:hover { text-decoration: underline; }
   .article-meta { display: flex; gap: 0.75rem; margin-top: 0.3rem; font-size: 0.75rem; color: var(--text-dim); flex-wrap: wrap; align-items: center; }
   .article-source { font-weight: 600; }
+  .idwr-section { padding: 0.75rem 2rem; }
+  .idwr-card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; }
+  .idwr-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+  .idwr-label { font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
+  .idwr-week { font-size: 0.75rem; color: var(--text-dim); }
+  .idwr-text { font-size: 0.9rem; line-height: 1.6; color: var(--text); }
+  .idwr-text .souran { margin-bottom: 0.4rem; }
+  .idwr-text .chumoku { padding-top: 0.4rem; border-top: 1px solid var(--border); }
+  .idwr-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; margin-top: 0.5rem; display: inline-block; }
+  .idwr-link:hover { text-decoration: underline; }
+  .idwr-hidden { display: none; }
   .filter-bar { padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
   .filter-bar select, .filter-bar input { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.85rem; outline: none; }
   .filter-bar select:focus, .filter-bar input:focus { border-color: var(--accent); }
@@ -89,6 +100,16 @@
   <div class="stat-card"><div class="label" data-i18n="statDiseases"></div><div class="value warning" id="total-diseases">-</div></div>
   <div class="stat-card"><div class="label" data-i18n="statSources"></div><div class="value success" id="total-sources">-</div></div>
 </div>
+<div class="idwr-section idwr-hidden" id="idwr-section">
+  <div class="idwr-card">
+    <div class="idwr-header">
+      <span class="idwr-label" data-i18n="idwrLabel"></span>
+      <span class="idwr-week" id="idwr-week"></span>
+    </div>
+    <div class="idwr-text" id="idwr-text"></div>
+    <a class="idwr-link" id="idwr-link" href="#" target="_blank" rel="noopener" data-i18n="idwrLink"></a>
+  </div>
+</div>
 <div class="filter-bar">
   <label data-i18n="filterDisease"></label><select id="filter-disease"><option value="">-</option></select>
   <label data-i18n="filterState"></label><select id="filter-state"><option value="">-</option></select>
@@ -116,6 +137,7 @@ const I18N = {
     filterSearchPlaceholder: "キーワード...", filterAllDiseases: "すべて", filterAllStates: "すべて",
     mapTitle: "都道府県別マップ", articlesTitle: "最新記事", noData: "記事が見つかりません",
     updated: "更新日時", period: "期間", articles: "件", articleSuffix: "件",
+    idwrLabel: "IDWR 感染症週報 — 発生動向総覧", idwrLink: "PDF を開く",
     mapHover: "都道府県にカーソルを合わせてください", noTitle: "タイトルなし",
     legendNone: "0", legendLow: "少", legendMid: "中", legendHigh: "多", legendVeryHigh: "非常に多",
     timeMin: "分前", timeH: "時間前", timeD: "日前",
@@ -127,6 +149,7 @@ const I18N = {
     filterSearchPlaceholder: "Keyword...", filterAllDiseases: "All", filterAllStates: "All",
     mapTitle: "Map by Prefecture", articlesTitle: "Recent Articles", noData: "No articles found",
     updated: "Updated", period: "Period", articles: "articles", articleSuffix: "article(s)",
+    idwrLabel: "IDWR Weekly Report — Disease Trend Overview", idwrLink: "Open PDF",
     mapHover: "Hover over a prefecture", noTitle: "No title",
     legendNone: "0", legendLow: "Low", legendMid: "Medium", legendHigh: "High", legendVeryHigh: "Very high",
     timeMin: "min", timeH: "h", timeD: "d",
@@ -203,17 +226,19 @@ function timeAgo(iso) {
   return `${Math.floor(diff / 1440)}${t("timeD")}`;
 }
 
-let DATA = null, filteredArticles = [], map = null, geoLayer = null, geoData = null, infoControl = null;
+let DATA = null, IDWR = null, filteredArticles = [], map = null, geoLayer = null, geoData = null, infoControl = null;
 
 async function init() {
-  const [geoResp, dataResp] = await Promise.all([
+  const [geoResp, dataResp, idwrResp] = await Promise.all([
     fetch("https://raw.githubusercontent.com/dataofjapan/land/master/japan.geojson"),
     fetch("data/japan_infectious_diseases.json"),
+    fetch("data/japan_idwr_souran.json").catch(() => null),
   ]);
   if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
   if (!dataResp.ok) { document.getElementById("map").textContent = "Error loading data"; return; }
   geoData = await geoResp.json();
   DATA = await dataResp.json();
+  if (idwrResp && idwrResp.ok) { IDWR = await idwrResp.json(); }
   initMap(); applyFilters(); renderAll();
 }
 
@@ -276,7 +301,23 @@ function applyFilters() {
   });
 }
 
-function renderAll() { if (!DATA) return; renderHeader(); renderStats(); renderMap(); renderArticles(); populateFilters(); }
+function renderAll() { if (!DATA) return; renderHeader(); renderIdwr(); renderStats(); renderMap(); renderArticles(); populateFilters(); }
+
+function renderIdwr() {
+  const section = document.getElementById("idwr-section");
+  if (!IDWR || !IDWR.souran) { section.classList.add("idwr-hidden"); return; }
+  section.classList.remove("idwr-hidden");
+  const weekInfo = IDWR.reporting_period
+    ? `${IDWR.year}年 第${IDWR.week}週（${IDWR.reporting_period}）`
+    : `${IDWR.year}年 第${IDWR.week}週`;
+  document.getElementById("idwr-week").textContent = weekInfo;
+  let html = `<div class="souran">${IDWR.souran}</div>`;
+  if (IDWR.chumoku) { html += `<div class="chumoku">${IDWR.chumoku}</div>`; }
+  document.getElementById("idwr-text").innerHTML = html;
+  const link = document.getElementById("idwr-link");
+  link.href = IDWR.source_url || "#";
+  link.textContent = t("idwrLink");
+}
 
 function renderHeader() {
   document.getElementById("generated-at").textContent = `${t("updated")}: ${formatDate(DATA.generated_at)}`;
