@@ -74,6 +74,15 @@
   .idwr-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; }
   .idwr-link:hover { text-decoration: underline; }
   .idwr-hidden { display: none; }
+  .ari-section { padding: 0 2rem 0.75rem; }
+  .ari-card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .ari-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
+  .ari-label { font-size: 0.85rem; font-weight: 600; color: var(--text); }
+  .ari-week { font-size: 0.75rem; color: var(--text-dim); }
+  .ari-body { padding: 0.75rem; background: var(--bg); border-radius: 0.5rem; }
+  .ari-sub-label { font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; font-weight: 600; }
+  .ari-text { font-size: 0.9rem; line-height: 1.6; color: var(--text); }
+  .ari-hidden { display: none; }
   .filter-bar { padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
   .filter-bar select, .filter-bar input { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.85rem; outline: none; }
   .filter-bar select:focus, .filter-bar input:focus { border-color: var(--accent); }
@@ -119,6 +128,21 @@
     </div>
   </div>
 </div>
+<div class="ari-section ari-hidden" id="ari-section">
+  <div class="ari-card">
+    <div class="ari-header">
+      <span class="ari-label" data-i18n="ariTitle"></span>
+      <span style="display:flex;align-items:center;gap:1rem;">
+        <span class="ari-week" id="ari-week"></span>
+        <a class="idwr-link" id="ari-link" href="#" target="_blank" rel="noopener" data-i18n="ariLink"></a>
+      </span>
+    </div>
+    <div class="ari-body">
+      <div class="ari-sub-label" data-i18n="ariSummaryLabel"></div>
+      <div class="ari-text" id="ari-summary-text"></div>
+    </div>
+  </div>
+</div>
 <div class="stats-bar">
   <div class="stat-card"><div class="label" data-i18n="statArticles"></div><div class="value accent" id="total-articles">-</div></div>
   <div class="stat-card"><div class="label" data-i18n="statStates"></div><div class="value danger" id="total-states">-</div></div>
@@ -153,6 +177,7 @@ const I18N = {
     mapTitle: "都道府県別マップ", articlesTitle: "最新記事", noData: "記事が見つかりません",
     updated: "更新日時", period: "期間", articles: "件", articleSuffix: "件",
     idwrSouranLabel: "IDWR 感染症週報 — 発生動向総覧", idwrChumokuLabel: "IDWR 感染症週報 — 注目すべき感染症", idwrLink: "PDF を開く",
+    ariTitle: "急性呼吸器感染症（ARI）サーベイランス週報", ariSummaryLabel: "今週の状況（概要）", ariLink: "PDF を開く",
     mapHover: "都道府県にカーソルを合わせてください", noTitle: "タイトルなし",
     legendNone: "0", legendLow: "少", legendMid: "中", legendHigh: "多", legendVeryHigh: "非常に多",
     timeMin: "分前", timeH: "時間前", timeD: "日前",
@@ -165,6 +190,7 @@ const I18N = {
     mapTitle: "Map by Prefecture", articlesTitle: "Recent Articles", noData: "No articles found",
     updated: "Updated", period: "Period", articles: "articles", articleSuffix: "article(s)",
     idwrSouranLabel: "IDWR Weekly Report — Disease Trend Overview", idwrChumokuLabel: "IDWR Weekly Report — Notable Infectious Diseases", idwrLink: "Open PDF",
+    ariTitle: "Acute Respiratory Infection (ARI) Surveillance Weekly Report", ariSummaryLabel: "This Week's Summary", ariLink: "Open PDF",
     mapHover: "Hover over a prefecture", noTitle: "No title",
     legendNone: "0", legendLow: "Low", legendMid: "Medium", legendHigh: "High", legendVeryHigh: "Very high",
     timeMin: "min", timeH: "h", timeD: "d",
@@ -241,19 +267,21 @@ function timeAgo(iso) {
   return `${Math.floor(diff / 1440)}${t("timeD")}`;
 }
 
-let DATA = null, IDWR = null, filteredArticles = [], map = null, geoLayer = null, geoData = null, infoControl = null;
+let DATA = null, IDWR = null, ARI = null, filteredArticles = [], map = null, geoLayer = null, geoData = null, infoControl = null;
 
 async function init() {
-  const [geoResp, dataResp, idwrResp] = await Promise.all([
+  const [geoResp, dataResp, idwrResp, ariResp] = await Promise.all([
     fetch("https://raw.githubusercontent.com/dataofjapan/land/master/japan.geojson"),
     fetch("data/japan_infectious_diseases.json"),
     fetch("data/japan_idwr_souran.json").catch(() => null),
+    fetch("data/japan_ari_summary.json").catch(() => null),
   ]);
   if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
   if (!dataResp.ok) { document.getElementById("map").textContent = "Error loading data"; return; }
   geoData = await geoResp.json();
   DATA = await dataResp.json();
   if (idwrResp && idwrResp.ok) { IDWR = await idwrResp.json(); }
+  if (ariResp && ariResp.ok) { ARI = await ariResp.json(); }
   initMap(); applyFilters(); renderAll();
 }
 
@@ -316,7 +344,7 @@ function applyFilters() {
   });
 }
 
-function renderAll() { if (!DATA) return; renderHeader(); renderIdwr(); renderStats(); renderMap(); renderArticles(); populateFilters(); }
+function renderAll() { if (!DATA) return; renderHeader(); renderIdwr(); renderAri(); renderStats(); renderMap(); renderArticles(); populateFilters(); }
 
 function renderIdwr() {
   const section = document.getElementById("idwr-section");
@@ -337,6 +365,20 @@ function renderIdwr() {
   const link = document.getElementById("idwr-link");
   link.href = IDWR.source_url || "#";
   link.textContent = t("idwrLink");
+}
+
+function renderAri() {
+  const section = document.getElementById("ari-section");
+  if (!ARI || !ARI.summary) { section.classList.add("ari-hidden"); return; }
+  section.classList.remove("ari-hidden");
+  const weekInfo = ARI.reporting_period
+    ? `${ARI.year}年 第${ARI.week}週（${ARI.reporting_period}）`
+    : `${ARI.year}年 第${ARI.week}週`;
+  document.getElementById("ari-week").textContent = weekInfo;
+  document.getElementById("ari-summary-text").textContent = ARI.summary;
+  const link = document.getElementById("ari-link");
+  link.href = ARI.source_url || "#";
+  link.textContent = t("ariLink");
 }
 
 function renderHeader() {
