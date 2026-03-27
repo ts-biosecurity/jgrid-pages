@@ -60,16 +60,18 @@
   .article-meta { display: flex; gap: 0.75rem; margin-top: 0.3rem; font-size: 0.75rem; color: var(--text-dim); flex-wrap: wrap; align-items: center; }
   .article-source { font-weight: 600; }
   .idwr-section { padding: 0.75rem 2rem; }
+  .idwr-card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .idwr-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
+  .idwr-label { font-size: 0.85rem; font-weight: 600; color: var(--text); }
+  .idwr-week { font-size: 0.75rem; color: var(--text-dim); }
   .idwr-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
   @media (max-width: 900px) { .idwr-row { grid-template-columns: 1fr; } }
-  .idwr-card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-  .idwr-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
-  .idwr-label { font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
-  .idwr-week { font-size: 0.75rem; color: var(--text-dim); }
+  .idwr-sub { padding: 0.75rem; background: var(--bg); border-radius: 0.5rem; }
+  .idwr-sub-label { font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; font-weight: 600; }
   .idwr-text { font-size: 0.9rem; line-height: 1.6; color: var(--text); }
   .idwr-text .souran { margin-bottom: 0; }
   .idwr-text .chumoku { margin-bottom: 0; }
-  .idwr-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; margin-top: 0.5rem; display: inline-block; }
+  .idwr-link { font-size: 0.75rem; color: var(--accent); text-decoration: none; }
   .idwr-link:hover { text-decoration: underline; }
   .idwr-hidden { display: none; }
   .filter-bar { padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
@@ -96,29 +98,32 @@
   </div>
   <div class="meta"><div id="generated-at"></div><div id="date-range"></div></div>
 </div>
+<div class="idwr-section idwr-hidden" id="idwr-section">
+  <div class="idwr-card">
+    <div class="idwr-header">
+      <span class="idwr-label">IDWR 感染症週報</span>
+      <span style="display:flex;align-items:center;gap:1rem;">
+        <span class="idwr-week" id="idwr-week"></span>
+        <a class="idwr-link" id="idwr-link" href="#" target="_blank" rel="noopener" data-i18n="idwrLink"></a>
+      </span>
+    </div>
+    <div class="idwr-row">
+      <div class="idwr-sub">
+        <div class="idwr-sub-label" data-i18n="idwrSouranLabel"></div>
+        <div class="idwr-text" id="idwr-souran-text"></div>
+      </div>
+      <div class="idwr-sub" id="idwr-chumoku-card" style="display:none;">
+        <div class="idwr-sub-label" data-i18n="idwrChumokuLabel"></div>
+        <div class="idwr-text" id="idwr-chumoku-text"></div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="stats-bar">
   <div class="stat-card"><div class="label" data-i18n="statArticles"></div><div class="value accent" id="total-articles">-</div></div>
   <div class="stat-card"><div class="label" data-i18n="statStates"></div><div class="value danger" id="total-states">-</div></div>
   <div class="stat-card"><div class="label" data-i18n="statDiseases"></div><div class="value warning" id="total-diseases">-</div></div>
   <div class="stat-card"><div class="label" data-i18n="statSources"></div><div class="value success" id="total-sources">-</div></div>
-</div>
-<div class="idwr-section idwr-hidden" id="idwr-section">
-  <div class="idwr-row">
-    <div class="idwr-card">
-      <div class="idwr-header">
-        <span class="idwr-label" data-i18n="idwrSouranLabel"></span>
-        <span class="idwr-week" id="idwr-week"></span>
-      </div>
-      <div class="idwr-text" id="idwr-souran-text"></div>
-    </div>
-    <div class="idwr-card" id="idwr-chumoku-card" style="display:none;">
-      <div class="idwr-header">
-        <span class="idwr-label" data-i18n="idwrChumokuLabel"></span>
-      </div>
-      <div class="idwr-text" id="idwr-chumoku-text"></div>
-    </div>
-  </div>
-  <a class="idwr-link" id="idwr-link" href="#" target="_blank" rel="noopener" data-i18n="idwrLink"></a>
 </div>
 <div class="filter-bar">
   <label data-i18n="filterDisease"></label><select id="filter-disease"><option value="">-</option></select>
