@@ -254,9 +254,21 @@
   </div>
 </div>
 
-<div class="don-section" id="don-section">
+<div class="don-section">
   <div class="don-header" data-i18n="donTitle"></div>
-  <div id="don-content"><span class="don-empty" data-i18n="donLoading"></span></div>
+  <div style="display:grid;grid-template-columns:2fr 1fr;gap:0.75rem;">
+    <div id="don-section"><div id="don-content"><span class="don-empty" data-i18n="donLoading"></span></div></div>
+    <div style="display:flex;flex-direction:column;gap:0.75rem;">
+      <a class="extlink-btn" href="https://www.cdc.gov/yellow-book/hcp/americas-caribbean/brazil.html" target="_blank" rel="noopener">
+        <div class="extlink-btn-title" data-i18n="cdcYbTitle"></div>
+        <div class="extlink-btn-desc" data-i18n="cdcYbDesc"></div>
+      </a>
+      <a class="extlink-btn" href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_259.html#ad-image-0" target="_blank" rel="noopener">
+        <div class="extlink-btn-title" data-i18n="mofaTitle"></div>
+        <div class="extlink-btn-desc" data-i18n="mofaDesc"></div>
+      </a>
+    </div>
+  </div>
 </div>
 
 <div class="don-section" id="pe-section">
@@ -362,6 +374,10 @@ const I18N = {
     donLoading: "Carregando...",
     donEmpty: "Nenhuma noticia de surto nas ultimas 2 semanas.",
     donError: "Falha ao carregar os dados.",
+    cdcYbTitle: "CDC Yellow Book — Brasil",
+    cdcYbDesc: "Informações de saúde para viajantes ao Brasil, incluindo vacinas recomendadas e riscos de doenças infecciosas.",
+    mofaTitle: "MOFA Japão — Informações de risco de doenças infecciosas",
+    mofaDesc: "Informações de risco de doenças infecciosas emitidas pelo Ministério das Relações Exteriores do Japão para o Brasil.",
     peTitle: "Informações sobre doenças infecciosas em Pernambuco",
     peEmpty: "Nenhuma noticia no ultimo mes.",
     peError: "Falha ao carregar os dados.",
@@ -403,6 +419,10 @@ const I18N = {
     donLoading: "Loading...",
     donEmpty: "No outbreak news in the last 2 weeks.",
     donError: "Failed to load data.",
+    cdcYbTitle: "CDC Yellow Book — Brazil",
+    cdcYbDesc: "Health information for travelers to Brazil, including recommended vaccines and infectious disease risks.",
+    mofaTitle: "Japan MOFA — Infectious Disease Risk Info",
+    mofaDesc: "Infectious disease risk information issued by Japan's Ministry of Foreign Affairs for Brazil.",
     peTitle: "Infectious Disease Information — Pernambuco",
     peEmpty: "No news in the last month.",
     peError: "Failed to load data.",
@@ -444,6 +464,10 @@ const I18N = {
     donLoading: "読み込み中...",
     donEmpty: "過去2週間のアウトブレイクニュースはありません。",
     donError: "データの読み込みに失敗しました。",
+    cdcYbTitle: "CDC Yellow Book — ブラジル",
+    cdcYbDesc: "ブラジル渡航者向けの健康情報（推奨ワクチン・感染症リスク）",
+    mofaTitle: "外務省 感染症危険情報",
+    mofaDesc: "外務省が発出するブラジルの感染症危険情報を確認できます。",
     peTitle: "ペルナンブッコ州の感染症情報 (Ministério da Saúde)",
     peEmpty: "過去1か月のニュースはありません。",
     peError: "データの読み込みに失敗しました。",
