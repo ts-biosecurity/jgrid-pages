@@ -8,15 +8,15 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
   :root {
-    --bg: #052e16;
-    --card: #14532d;
-    --border: #166534;
-    --text: #f0fdf4;
-    --text-dim: #86efac;
-    --accent: #facc15;
-    --danger: #f87171;
-    --warning: #fb923c;
-    --success: #4ade80;
+    --bg: #f0f7f0;
+    --card: #ffffff;
+    --border: #c8dcc8;
+    --text: #1a3a1a;
+    --text-dim: #5a7a5a;
+    --accent: #1a6b1a;
+    --danger: #c62828;
+    --warning: #e67700;
+    --success: #2e7d32;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -26,7 +26,7 @@
     min-height: 100vh;
   }
   .header {
-    background: linear-gradient(135deg, #14532d 0%, #052e16 100%);
+    background: linear-gradient(135deg, #1a6b1a 0%, #0d5a0d 100%);
     border-bottom: 1px solid var(--border);
     padding: 1.5rem 2rem;
     display: flex;
@@ -36,12 +36,12 @@
     gap: 1rem;
   }
   .header-left { display: flex; align-items: center; gap: 1rem; }
-  .header h1 { font-size: 1.5rem; }
-  .header .meta { color: var(--text-dim); font-size: 0.85rem; text-align: right; }
+  .header h1 { font-size: 1.5rem; color: #ffffff; }
+  .header .meta { color: rgba(255,255,255,0.75); font-size: 0.85rem; text-align: right; }
 
   .lang-toggle {
     display: flex;
-    border: 1px solid var(--border);
+    border: 1px solid rgba(255,255,255,0.3);
     border-radius: 0.5rem;
     overflow: hidden;
     flex-shrink: 0;
@@ -51,18 +51,18 @@
     font-size: 0.8rem;
     font-weight: 600;
     background: transparent;
-    color: var(--text-dim);
+    color: rgba(255,255,255,0.7);
     border: none;
     cursor: pointer;
     transition: background 0.2s, color 0.2s;
   }
   .lang-btn.active {
-    background: var(--accent);
-    color: #052e16;
+    background: #fdd835;
+    color: #1a3a1a;
   }
   .lang-btn:not(.active):hover {
-    background: var(--border);
-    color: var(--text);
+    background: rgba(255,255,255,0.15);
+    color: #ffffff;
   }
 
   .don-section { padding: 1rem 2rem 0; }
@@ -76,7 +76,7 @@
   .don-empty { font-size: 0.8rem; color: var(--text-dim); }
   .extlink-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.75rem; }
   .extlink-btn { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s; cursor: pointer; }
-  .extlink-btn:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(250,204,21,0.15); }
+  .extlink-btn:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(26,107,26,0.15); }
   .extlink-btn-title { font-size: 0.85rem; font-weight: 600; color: var(--accent); }
   .extlink-btn-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 0.3rem; line-height: 1.5; }
   .infodengue-imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
@@ -97,6 +97,7 @@
     border: 1px solid var(--border);
     border-radius: 0.75rem;
     padding: 1.25rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
   }
   .stat-card .label { color: var(--text-dim); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
   .stat-card .value { font-size: 2rem; font-weight: 700; margin-top: 0.25rem; }
@@ -137,8 +138,8 @@
   }
   .panel-body { padding: 1.25rem; overflow-y: auto; flex: 1; }
   .map-container .panel-body { padding: 0; }
-  #map { height: 100%; width: 100%; min-height: 400px; background: #052e16; }
-  .leaflet-container { background: #052e16 !important; }
+  #map { height: 100%; width: 100%; min-height: 400px; background: #e8f0e8; }
+  .leaflet-container { background: #e8f0e8 !important; }
 
   .splitter {
     width: 8px;
@@ -180,14 +181,14 @@
     display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px;
     font-size: 0.7rem; font-weight: 600; margin: 0.15rem;
   }
-  .disease-tag.dengue { background: #92400e; color: #fbbf24; }
-  .disease-tag.covid { background: #7f1d1d; color: #fca5a5; }
-  .disease-tag.zika { background: #064e3b; color: #6ee7b7; }
-  .disease-tag.chikungunya { background: #4c1d95; color: #c4b5fd; }
-  .disease-tag.influenza { background: #1e3a5f; color: #7dd3fc; }
-  .disease-tag.yellow-fever { background: #713f12; color: #fde68a; }
-  .disease-tag.malaria { background: #14532d; color: #86efac; }
-  .disease-tag.default { background: #334155; color: #cbd5e1; }
+  .disease-tag.dengue { background: #fff3cd; color: #7a4f01; }
+  .disease-tag.covid { background: #fde2e2; color: #8b1a1a; }
+  .disease-tag.zika { background: #d4edda; color: #155724; }
+  .disease-tag.chikungunya { background: #e8daf5; color: #4a1d80; }
+  .disease-tag.influenza { background: #dce8f5; color: #1a3a5c; }
+  .disease-tag.yellow-fever { background: #fef3c7; color: #713f12; }
+  .disease-tag.malaria { background: #d1fae5; color: #064e3b; }
+  .disease-tag.default { background: #e4e8ec; color: #3a4550; }
 
   .article-list { list-style: none; }
   .article-item { padding: 0.75rem 0; border-bottom: 1px solid var(--border); }
@@ -213,25 +214,26 @@
   .no-data { text-align: center; padding: 3rem; color: var(--text-dim); }
 
   .leaflet-popup-content-wrapper {
-    background: #14532d !important;
-    color: #f0fdf4 !important;
-    border: 1px solid #166534 !important;
+    background: #ffffff !important;
+    color: #1a3a1a !important;
+    border: 1px solid #c8dcc8 !important;
     border-radius: 0.5rem !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12) !important;
   }
-  .leaflet-popup-tip { background: #14532d !important; }
+  .leaflet-popup-tip { background: #ffffff !important; }
   .leaflet-popup-content { margin: 0.75rem 1rem !important; font-size: 0.85rem; }
-  .leaflet-popup-content strong { color: #facc15; }
+  .leaflet-popup-content strong { color: #1a6b1a; }
   .info-box {
     padding: 8px 12px;
-    background: rgba(5, 46, 22, 0.92);
-    border: 1px solid #166534;
+    background: rgba(255,255,255,0.95);
+    border: 1px solid #c8dcc8;
     border-radius: 6px;
-    color: #f0fdf4;
+    color: #1a3a1a;
     font-size: 13px;
     line-height: 1.5;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
-  .info-box h4 { margin: 0 0 4px; color: #facc15; font-size: 14px; }
+  .info-box h4 { margin: 0 0 4px; color: #1a6b1a; font-size: 14px; }
 </style>
 </head>
 <body>
@@ -590,7 +592,7 @@ function canonicalStateName(name) {
 // ============================================================
 // Heat colors
 // ============================================================
-const HEAT = ["#14532d", "#22c55e", "#facc15", "#f97316", "#ef4444"];
+const HEAT = ["#e8f0e8", "#a8d8a8", "#fdd835", "#f5a623", "#e53935"];
 
 function heatColor(count, max) {
   if (count === 0) return HEAT[0];
@@ -667,7 +669,7 @@ function initMap() {
     maxZoom: 8,
   }).setView([-14.5, -51.0], 4);
 
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
     subdomains: "abcd",
     opacity: 0.4,
   }).addTo(map);
@@ -707,7 +709,7 @@ function renderMap() {
       return {
         fillColor: heatColor(count, maxCount),
         weight: 1,
-        color: "#166534",
+        color: "#9ab89a",
         fillOpacity: 0.85,
       };
     },
@@ -717,7 +719,7 @@ function renderMap() {
 
       layer.on({
         mouseover: function (e) {
-          e.target.setStyle({ weight: 2, color: "#facc15" });
+          e.target.setStyle({ weight: 2, color: "#1a6b1a" });
           e.target.bringToFront();
           infoControl.update(feature.properties, count);
         },
