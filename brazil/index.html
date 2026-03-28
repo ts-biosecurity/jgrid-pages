@@ -246,6 +246,11 @@
   <div id="don-content"><span class="don-empty" data-i18n="donLoading"></span></div>
 </div>
 
+<div class="don-section" id="pe-section">
+  <div class="don-header" data-i18n="peTitle"></div>
+  <div id="pe-content"><span class="don-empty" data-i18n="donLoading"></span></div>
+</div>
+
 <div class="stats-bar">
   <div class="stat-card">
     <div class="label" data-i18n="statArticles"></div>
@@ -326,6 +331,9 @@ const I18N = {
     donLoading: "Carregando...",
     donEmpty: "Nenhuma noticia de surto nas ultimas 2 semanas.",
     donError: "Falha ao carregar os dados.",
+    peTitle: "Informações sobre doenças infecciosas em Pernambuco",
+    peEmpty: "Nenhuma noticia no ultimo mes.",
+    peError: "Falha ao carregar os dados.",
     noTitle: "Sem titulo",
     legendNone: "0",
     legendLow: "Baixo",
@@ -360,6 +368,9 @@ const I18N = {
     donLoading: "Loading...",
     donEmpty: "No outbreak news in the last 2 weeks.",
     donError: "Failed to load data.",
+    peTitle: "Infectious Disease Information — Pernambuco",
+    peEmpty: "No news in the last month.",
+    peError: "Failed to load data.",
     noTitle: "No title",
     legendNone: "0",
     legendLow: "Low",
@@ -394,6 +405,9 @@ const I18N = {
     donLoading: "読み込み中...",
     donEmpty: "過去2週間のアウトブレイクニュースはありません。",
     donError: "データの読み込みに失敗しました。",
+    peTitle: "ペルナンブッコ州の感染症情報",
+    peEmpty: "過去1か月のニュースはありません。",
+    peError: "データの読み込みに失敗しました。",
     noTitle: "タイトルなし",
     legendNone: "0",
     legendLow: "少",
@@ -430,6 +444,7 @@ function setLang(newLang) {
   applyI18nStatic();
   if (DATA) renderAll();
   if (donData !== null) renderDON();
+  if (peData !== null) renderPE();
 }
 
 document.querySelectorAll(".lang-btn").forEach(btn => {
@@ -467,6 +482,51 @@ function renderDON() {
   }).join('') + '</ul>';
 }
 fetchDON();
+
+// ============================================================
+// Pernambuco State Health News (via RSS)
+// ============================================================
+let peData = null;
+function fetchPE() {
+  const rssUrl = "https://www.gov.br/saude/pt-br/assuntos/noticias-para-os-estados/pernambuco/pernambuco/RSS";
+  const proxyUrl = "https://api.allorigins.win/raw?url=" + encodeURIComponent(rssUrl);
+  fetch(proxyUrl).then(r => r.text()).then(text => {
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(text, "application/xml");
+    const items = xml.querySelectorAll("item");
+    const oneMonthAgo = new Date(Date.now() - 30 * 86400000);
+    peData = [];
+    items.forEach(item => {
+      const dateStr = item.getElementsByTagNameNS("http://purl.org/dc/elements/1.1/", "date")[0]?.textContent;
+      if (!dateStr) return;
+      const pubDate = new Date(dateStr);
+      if (pubDate < oneMonthAgo) return;
+      peData.push({
+        title: item.querySelector("title")?.textContent || "",
+        link: item.querySelector("link")?.textContent || "#",
+        description: item.querySelector("description")?.textContent || "",
+        date: pubDate,
+      });
+    });
+    renderPE();
+  }).catch(() => {
+    document.getElementById("pe-content").innerHTML = '<span class="don-empty">' + t("peError") + '</span>';
+  });
+}
+function renderPE() {
+  const el = document.getElementById("pe-content");
+  if (!peData || peData.length === 0) {
+    el.innerHTML = '<span class="don-empty">' + t("peEmpty") + '</span>';
+    return;
+  }
+  const locale = lang === "ja" ? "ja-JP" : lang === "pt" ? "pt-BR" : "en-US";
+  el.innerHTML = '<ul class="don-list">' + peData.map(item => {
+    const dateStr = item.date.toLocaleDateString(locale, { year: "numeric", month: "short", day: "numeric" });
+    const desc = item.description ? '<div class="don-summary">' + item.description + '</div>' : '';
+    return '<li><a href="' + item.link + '" target="_blank" rel="noopener">' + item.title + '</a><div class="don-meta">' + dateStr + '</div>' + desc + '</li>';
+  }).join('') + '</ul>';
+}
+fetchPE();
 
 // ============================================================
 // GeoJSON name normalization
