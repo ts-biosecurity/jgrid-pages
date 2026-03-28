@@ -60,6 +60,16 @@
   .lang-btn.active { background: var(--accent); color: #052e16; }
   .lang-btn:not(.active):hover { background: var(--border); color: var(--text); }
 
+  .don-section { padding: 1rem 2rem 0; }
+  .don-header { font-size: 0.85rem; font-weight: 600; color: var(--text); padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); margin-bottom: 0.75rem; }
+  .don-list { list-style: none; padding: 0; margin: 0; }
+  .don-list li { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 0.75rem 1rem; margin-bottom: 0.5rem; }
+  .don-list li a { color: var(--accent); text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+  .don-list li a:hover { text-decoration: underline; }
+  .don-list .don-meta { font-size: 0.75rem; color: var(--text-dim); margin-top: 0.15rem; }
+  .don-list .don-summary { font-size: 0.8rem; color: var(--text); margin-top: 0.3rem; line-height: 1.5; }
+  .don-empty { font-size: 0.8rem; color: var(--text-dim); }
+
   .stats-bar {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -178,6 +188,11 @@
   </div>
 </div>
 
+<div class="don-section" id="don-section">
+  <div class="don-header" data-i18n="donTitle"></div>
+  <div id="don-content"><span class="don-empty" data-i18n="donLoading"></span></div>
+</div>
+
 <div class="stats-bar">
   <div class="stat-card"><div class="label" data-i18n="statArticles"></div><div class="value accent" id="total-articles">-</div></div>
   <div class="stat-card"><div class="label" data-i18n="statStates"></div><div class="value danger" id="total-states">-</div></div>
@@ -235,6 +250,10 @@ const I18N = {
     articles: "ပုဒ်",
     articleSuffix: "ပုဒ်",
     mapHover: "ပြည်နယ်/တိုင်းပေါ်တွင် မောက်စ်တင်ပါ",
+    donTitle: "WHO ရောဂါဖြစ်ပွားမှု သတင်း (လွန်ခဲ့သော ၂ ပတ်)",
+    donLoading: "ဖတ်နေသည်...",
+    donEmpty: "လွန်ခဲ့သော ၂ ပတ်အတွင်း ရောဂါဖြစ်ပွားမှု သတင်းမရှိပါ။",
+    donError: "ဒေတာဖတ်ရန် မအောင်မြင်ပါ။",
     noTitle: "ခေါင်းစဉ်မရှိ",
     legendNone: "0", legendLow: "နည်း", legendMid: "အလယ်", legendHigh: "များ", legendVeryHigh: "အလွန်များ",
     timeMin: "မိနစ်", timeH: "နာရီ", timeD: "ရက်",
@@ -259,6 +278,10 @@ const I18N = {
     articles: "articles",
     articleSuffix: "article(s)",
     mapHover: "Hover over a region",
+    donTitle: "WHO Disease Outbreak News (Last 2 Weeks)",
+    donLoading: "Loading...",
+    donEmpty: "No outbreak news in the last 2 weeks.",
+    donError: "Failed to load data.",
     noTitle: "No title",
     legendNone: "0", legendLow: "Low", legendMid: "Medium", legendHigh: "High", legendVeryHigh: "Very high",
     timeMin: "min", timeH: "h", timeD: "d",
@@ -283,6 +306,10 @@ const I18N = {
     articles: "件",
     articleSuffix: "件",
     mapHover: "州/管区にカーソルを合わせてください",
+    donTitle: "WHO 疾病アウトブレイクニュース（過去2週間）",
+    donLoading: "読み込み中...",
+    donEmpty: "過去2週間のアウトブレイクニュースはありません。",
+    donError: "データの読み込みに失敗しました。",
     noTitle: "タイトルなし",
     legendNone: "0", legendLow: "少", legendMid: "中", legendHigh: "多", legendVeryHigh: "非常に多",
     timeMin: "分前", timeH: "時間前", timeD: "日前",
@@ -299,9 +326,39 @@ function applyI18nStatic() {
   document.documentElement.lang = lang === "my" ? "my" : lang === "ja" ? "ja" : "en";
 }
 
-function setLang(newLang) { lang = newLang; localStorage.setItem("dashboard-lang", lang); applyI18nStatic(); if (DATA) renderAll(); }
+function setLang(newLang) { lang = newLang; localStorage.setItem("dashboard-lang", lang); applyI18nStatic(); if (DATA) renderAll(); if (donData !== null) renderDON(); }
 document.querySelectorAll(".lang-btn").forEach(btn => { btn.addEventListener("click", () => setLang(btn.dataset.lang)); });
 applyI18nStatic();
+
+// ============================================================
+// WHO Disease Outbreak News
+// ============================================================
+let donData = null;
+function fetchDON() {
+  const url = "https://www.who.int/api/news/diseaseoutbreaknews?$top=20&$orderby=PublicationDateAndTime%20desc";
+  fetch(url).then(r => r.json()).then(json => {
+    const twoWeeksAgo = new Date(Date.now() - 14 * 86400000);
+    donData = (json.value || []).filter(item => new Date(item.PublicationDateAndTime) >= twoWeeksAgo);
+    renderDON();
+  }).catch(() => {
+    document.getElementById("don-content").innerHTML = '<span class="don-empty">' + t("donError") + '</span>';
+  });
+}
+function renderDON() {
+  const el = document.getElementById("don-content");
+  if (!donData || donData.length === 0) {
+    el.innerHTML = '<span class="don-empty">' + t("donEmpty") + '</span>';
+    return;
+  }
+  const baseUrl = "https://www.who.int/emergencies/disease-outbreak-news/item";
+  el.innerHTML = '<ul class="don-list">' + donData.map(item => {
+    const date = new Date(item.PublicationDateAndTime);
+    const dateStr = date.toLocaleDateString(lang === "ja" ? "ja-JP" : lang === "my" ? "my-MM" : "en-US", { year: "numeric", month: "short", day: "numeric" });
+    const summary = item.Summary ? '<div class="don-summary">' + item.Summary + '</div>' : '';
+    return '<li><a href="' + baseUrl + item.ItemDefaultUrl + '" target="_blank" rel="noopener">' + item.Title + '</a><div class="don-meta">' + dateStr + '</div>' + summary + '</li>';
+  }).join('') + '</ul>';
+}
+fetchDON();
 
 // ============================================================
 // Region name normalization

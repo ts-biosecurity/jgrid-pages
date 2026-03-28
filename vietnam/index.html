@@ -3,14 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJGQEB2TTE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-JJGQEB2TTE');
-</script>
 <title>Vietnam - Infectious Disease Dashboard</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -72,6 +64,16 @@
     background: var(--border);
     color: var(--text);
   }
+
+  .don-section { padding: 1rem 2rem 0; }
+  .don-header { font-size: 0.85rem; font-weight: 600; color: var(--text); padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); margin-bottom: 0.75rem; }
+  .don-list { list-style: none; padding: 0; margin: 0; }
+  .don-list li { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 0.75rem 1rem; margin-bottom: 0.5rem; }
+  .don-list li a { color: var(--accent); text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+  .don-list li a:hover { text-decoration: underline; }
+  .don-list .don-meta { font-size: 0.75rem; color: var(--text-dim); margin-top: 0.15rem; }
+  .don-list .don-summary { font-size: 0.8rem; color: var(--text); margin-top: 0.3rem; line-height: 1.5; }
+  .don-empty { font-size: 0.8rem; color: var(--text-dim); }
 
   .stats-bar {
     display: grid;
@@ -240,6 +242,11 @@
   </div>
 </div>
 
+<div class="don-section" id="don-section">
+  <div class="don-header" data-i18n="donTitle"></div>
+  <div id="don-content"><span class="don-empty" data-i18n="donLoading"></span></div>
+</div>
+
 <div class="stats-bar">
   <div class="stat-card">
     <div class="label" data-i18n="statArticles"></div>
@@ -316,6 +323,10 @@ const I18N = {
     articles: "b\u00E0i vi\u1EBFt",
     articleSuffix: "b\u00E0i vi\u1EBFt",
     mapHover: "Di chu\u1ED9t qua t\u1EC9nh",
+    donTitle: "Tin tức dịch bệnh WHO (2 tuần qua)",
+    donLoading: "Đang tải...",
+    donEmpty: "Không có tin tức dịch bệnh trong 2 tuần qua.",
+    donError: "Không thể tải dữ liệu.",
     noTitle: "Kh\u00F4ng c\u00F3 ti\u00EAu \u0111\u1EC1",
     legendNone: "0",
     legendLow: "\u00CDt",
@@ -346,6 +357,10 @@ const I18N = {
     articles: "articles",
     articleSuffix: "article(s)",
     mapHover: "Hover over a province",
+    donTitle: "WHO Disease Outbreak News (Last 2 Weeks)",
+    donLoading: "Loading...",
+    donEmpty: "No outbreak news in the last 2 weeks.",
+    donError: "Failed to load data.",
     noTitle: "No title",
     legendNone: "0",
     legendLow: "Low",
@@ -376,6 +391,10 @@ const I18N = {
     articles: "\u4EF6",
     articleSuffix: "\u4EF6",
     mapHover: "\u7701\u306B\u30AB\u30FC\u30BD\u30EB\u3092\u5408\u308F\u305B\u3066\u304F\u3060\u3055\u3044",
+    donTitle: "WHO 疾病アウトブレイクニュース（過去2週間）",
+    donLoading: "読み込み中...",
+    donEmpty: "過去2週間のアウトブレイクニュースはありません。",
+    donError: "データの読み込みに失敗しました。",
     noTitle: "\u30BF\u30A4\u30C8\u30EB\u306A\u3057",
     legendNone: "0",
     legendLow: "\u5C11",
@@ -417,6 +436,36 @@ document.querySelectorAll(".lang-btn").forEach(btn => {
 });
 
 applyI18nStatic();
+
+// ============================================================
+// WHO Disease Outbreak News
+// ============================================================
+let donData = null;
+function fetchDON() {
+  const url = "https://www.who.int/api/news/diseaseoutbreaknews?$top=20&$orderby=PublicationDateAndTime%20desc";
+  fetch(url).then(r => r.json()).then(json => {
+    const twoWeeksAgo = new Date(Date.now() - 14 * 86400000);
+    donData = (json.value || []).filter(item => new Date(item.PublicationDateAndTime) >= twoWeeksAgo);
+    renderDON();
+  }).catch(() => {
+    document.getElementById("don-content").innerHTML = '<span class="don-empty">' + t("donError") + '</span>';
+  });
+}
+function renderDON() {
+  const el = document.getElementById("don-content");
+  if (!donData || donData.length === 0) {
+    el.innerHTML = '<span class="don-empty">' + t("donEmpty") + '</span>';
+    return;
+  }
+  const baseUrl = "https://www.who.int/emergencies/disease-outbreak-news/item";
+  el.innerHTML = '<ul class="don-list">' + donData.map(item => {
+    const date = new Date(item.PublicationDateAndTime);
+    const dateStr = date.toLocaleDateString(lang === "ja" ? "ja-JP" : lang === "vi" ? "vi-VN" : "en-US", { year: "numeric", month: "short", day: "numeric" });
+    const summary = item.Summary ? '<div class="don-summary">' + item.Summary + '</div>' : '';
+    return '<li><a href="' + baseUrl + item.ItemDefaultUrl + '" target="_blank" rel="noopener">' + item.Title + '</a><div class="don-meta">' + dateStr + '</div>' + summary + '</li>';
+  }).join('') + '</ul>';
+}
+fetchDON();
 
 // ============================================================
 // GeoJSON name normalization
