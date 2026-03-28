@@ -93,6 +93,15 @@
   .ari-disease-prefs { color: var(--text-dim); font-size: 0.8rem; }
   .ari-pathogen { padding: 0.6rem 0.75rem; background: var(--bg); border-radius: 0.5rem; font-size: 0.8rem; color: var(--text-dim); line-height: 1.6; }
   .ari-hidden { display: none; }
+  .extlinks-section { padding: 0 2rem 0.75rem; }
+  .section-title { font-size: 0.85rem; font-weight: 600; color: var(--text); padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); margin-bottom: 0.6rem; }
+  .extlinks-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
+  @media (max-width: 900px) { .extlinks-row { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 500px) { .extlinks-row { grid-template-columns: 1fr; } }
+  .extlink-btn { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s; cursor: pointer; }
+  .extlink-btn:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(184,59,63,0.12); }
+  .extlink-btn-title { font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+  .extlink-btn-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 0.3rem; line-height: 1.5; }
   .filter-bar { padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
   .filter-bar select, .filter-bar input { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 0.5rem; padding: 0.5rem 0.75rem; font-size: 0.85rem; outline: none; }
   .filter-bar select:focus, .filter-bar input:focus { border-color: var(--accent); }
@@ -150,6 +159,30 @@
     <div class="ari-body" id="ari-body"></div>
   </div>
 </div>
+<div class="extlinks-section">
+  <div class="section-title" data-i18n="extlinksTitle"></div>
+  <div class="extlinks-row">
+    <a class="extlink-btn" href="https://www.jihs.go.jp/content10/030/Dashboard.html" target="_blank" rel="noopener">
+      <div class="extlink-btn-title" data-i18n="extlink1Title"></div>
+      <div class="extlink-btn-desc" data-i18n="extlink1Desc"></div>
+    </a>
+    <a class="extlink-btn" href="https://public.tableau.com/app/profile/.41268756/vizzes" target="_blank" rel="noopener">
+      <div class="extlink-btn-title" data-i18n="extlink2Title"></div>
+      <div class="extlink-btn-desc" data-i18n="extlink2Desc"></div>
+    </a>
+    <a class="extlink-btn" href="https://ts-biosecurity.github.io/measlespr/dashboard.html" target="_blank" rel="noopener">
+      <div class="extlink-btn-title" data-i18n="extlink3Title"></div>
+      <div class="extlink-btn-desc" data-i18n="extlink3Desc"></div>
+    </a>
+    <a class="extlink-btn" href="https://ts-biosecurity.github.io/measlespr/measlesnewsjp.html" target="_blank" rel="noopener">
+      <div class="extlink-btn-title" data-i18n="extlink4Title"></div>
+      <div class="extlink-btn-desc" data-i18n="extlink4Desc"></div>
+    </a>
+  </div>
+</div>
+<div style="padding: 0.75rem 2rem 0;">
+  <div class="section-title" data-i18n="newsTitle"></div>
+</div>
 <div class="stats-bar">
   <div class="stat-card"><div class="label" data-i18n="statArticles"></div><div class="value accent" id="total-articles">-</div></div>
   <div class="stat-card"><div class="label" data-i18n="statStates"></div><div class="value danger" id="total-states">-</div></div>
@@ -186,6 +219,8 @@ const I18N = {
     idwrSouranLabel: "IDWR 感染症週報 — 発生動向総覧", idwrChumokuLabel: "IDWR 感染症週報 — 注目すべき感染症", idwrLink: "PDF を開く",
     ariTitle: "急性呼吸器感染症（ARI）サーベイランス週報", ariLink: "PDF を開く",
     ariPerSentinel: "定点当たり報告数", ariTrendPrefix: "前週比：", ariDiseaseHeading: "各感染症の定点当たり報告数（カッコ内は上位3都道府県）", ariHosp: "入院", ariPathogenLabel: "病原体検出",
+    extlinksTitle: "各種用途別ダッシュボード", extlink1Title: "グラフで見る感染症流行状況（9疾患）", extlink1Desc: "インフルエンザ、新型コロナウイルス感染症、RSウイルス感染症、咽頭結膜熱、ヘルパンギーナ、A群溶血性レンサ球菌咽頭炎、手足口病、伝染性紅斑、百日咳の流行状況を視覚的に確認できます。", extlink2Title: "感染症発生動向調査 Tableau ダッシュボード", extlink2Desc: "感染症法上の報告対象疾患がTableauダッシュボードで確認できます。", extlink3Title: "麻しん（はしか）に関するプレスリリース一覧", extlink3Desc: "自治体等から発表された麻しん関連プレスリリースをまとめて確認できます。", extlink4Title: "国内麻しん関連記事一覧", extlink4Desc: "国内の麻しんに関するニュース記事を一覧で確認できます。",
+    newsTitle: "48時間以内の国内感染症関連ニュース",
     mapHover: "都道府県にカーソルを合わせてください", noTitle: "タイトルなし",
     legendNone: "0", legendLow: "少", legendMid: "中", legendHigh: "多", legendVeryHigh: "非常に多",
     timeMin: "分前", timeH: "時間前", timeD: "日前",
@@ -200,6 +235,8 @@ const I18N = {
     idwrSouranLabel: "IDWR Weekly Report — Disease Trend Overview", idwrChumokuLabel: "IDWR Weekly Report — Notable Infectious Diseases", idwrLink: "Open PDF",
     ariTitle: "Acute Respiratory Infection (ARI) Surveillance Weekly Report", ariLink: "Open PDF",
     ariPerSentinel: "reports per sentinel", ariTrendPrefix: "vs prev. week: ", ariDiseaseHeading: "Per-sentinel reports by disease (top 3 prefectures in parentheses)", ariHosp: "hosp.", ariPathogenLabel: "Pathogen detection",
+    extlinksTitle: "Related Dashboards", extlink1Title: "Infectious Disease Trends in Graphs (9 Diseases)", extlink1Desc: "Visual overview of trends for influenza, COVID-19, RS virus, pharyngoconjunctival fever, herpangina, group A streptococcal pharyngitis, hand-foot-and-mouth disease, erythema infectiosum, and pertussis.", extlink2Title: "NESID Tableau Dashboard", extlink2Desc: "Notifiable infectious diseases under the Infectious Diseases Control Law, visualized in a Tableau dashboard.", extlink3Title: "Measles Press Releases", extlink3Desc: "A compiled list of measles-related press releases from local governments and authorities.", extlink4Title: "Domestic Measles News Articles", extlink4Desc: "A list of measles-related news articles in Japan.",
+    newsTitle: "Domestic Infectious Disease News (Last 48 Hours)",
     mapHover: "Hover over a prefecture", noTitle: "No title",
     legendNone: "0", legendLow: "Low", legendMid: "Medium", legendHigh: "High", legendVeryHigh: "Very high",
     timeMin: "min", timeH: "h", timeD: "d",
