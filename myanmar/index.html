@@ -335,10 +335,8 @@ applyI18nStatic();
 // ============================================================
 let donData = null;
 function fetchDON() {
-  const url = "https://www.who.int/api/news/diseaseoutbreaknews?$top=20&$orderby=PublicationDateAndTime%20desc";
-  fetch(url).then(r => r.json()).then(json => {
-    const twoWeeksAgo = new Date(Date.now() - 14 * 86400000);
-    donData = (json.value || []).filter(item => new Date(item.PublicationDateAndTime) >= twoWeeksAgo);
+  fetch("data/who_don.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(json => {
+    donData = json.articles || [];
     renderDON();
   }).catch(() => {
     document.getElementById("don-content").innerHTML = '<span class="don-empty">' + t("donError") + '</span>';
@@ -350,12 +348,11 @@ function renderDON() {
     el.innerHTML = '<span class="don-empty">' + t("donEmpty") + '</span>';
     return;
   }
-  const baseUrl = "https://www.who.int/emergencies/disease-outbreak-news/item";
   el.innerHTML = '<ul class="don-list">' + donData.map(item => {
-    const date = new Date(item.PublicationDateAndTime);
+    const date = new Date(item.date);
     const dateStr = date.toLocaleDateString(lang === "ja" ? "ja-JP" : lang === "my" ? "my-MM" : "en-US", { year: "numeric", month: "short", day: "numeric" });
-    const summary = item.Summary ? '<div class="don-summary">' + item.Summary + '</div>' : '';
-    return '<li><a href="' + baseUrl + item.ItemDefaultUrl + '" target="_blank" rel="noopener">' + item.Title + '</a><div class="don-meta">' + dateStr + '</div>' + summary + '</li>';
+    const summary = item.summary ? '<div class="don-summary">' + item.summary + '</div>' : '';
+    return '<li><a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a><div class="don-meta">' + dateStr + '</div>' + summary + '</li>';
   }).join('') + '</ul>';
 }
 fetchDON();
