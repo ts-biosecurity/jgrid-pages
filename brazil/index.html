@@ -484,30 +484,13 @@ function renderDON() {
 fetchDON();
 
 // ============================================================
-// Pernambuco State Health News (via RSS)
+// Pernambuco State Health News (from pre-fetched JSON)
 // ============================================================
 let peData = null;
 function fetchPE() {
-  const rssUrl = "https://www.gov.br/saude/pt-br/assuntos/noticias-para-os-estados/pernambuco/pernambuco/RSS";
-  const proxyUrl = "https://api.allorigins.win/raw?url=" + encodeURIComponent(rssUrl);
-  fetch(proxyUrl).then(r => r.text()).then(text => {
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(text, "application/xml");
-    const items = xml.querySelectorAll("item");
+  fetch("data/pernambuco_news.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(json => {
     const oneMonthAgo = new Date(Date.now() - 30 * 86400000);
-    peData = [];
-    items.forEach(item => {
-      const dateStr = item.getElementsByTagNameNS("http://purl.org/dc/elements/1.1/", "date")[0]?.textContent;
-      if (!dateStr) return;
-      const pubDate = new Date(dateStr);
-      if (pubDate < oneMonthAgo) return;
-      peData.push({
-        title: item.querySelector("title")?.textContent || "",
-        link: item.querySelector("link")?.textContent || "#",
-        description: item.querySelector("description")?.textContent || "",
-        date: pubDate,
-      });
-    });
+    peData = (json.articles || []).filter(item => new Date(item.date) >= oneMonthAgo);
     renderPE();
   }).catch(() => {
     document.getElementById("pe-content").innerHTML = '<span class="don-empty">' + t("peError") + '</span>';
@@ -521,9 +504,12 @@ function renderPE() {
   }
   const locale = lang === "ja" ? "ja-JP" : lang === "pt" ? "pt-BR" : "en-US";
   el.innerHTML = '<ul class="don-list">' + peData.map(item => {
-    const dateStr = item.date.toLocaleDateString(locale, { year: "numeric", month: "short", day: "numeric" });
-    const desc = item.description ? '<div class="don-summary">' + item.description + '</div>' : '';
-    return '<li><a href="' + item.link + '" target="_blank" rel="noopener">' + item.title + '</a><div class="don-meta">' + dateStr + '</div>' + desc + '</li>';
+    const date = new Date(item.date);
+    const dateStr = date.toLocaleDateString(locale, { year: "numeric", month: "short", day: "numeric" });
+    const title = lang === "ja" ? (item.title_ja || item.title) : lang === "en" ? (item.title_en || item.title) : item.title;
+    const descText = lang === "ja" ? (item.description_ja || item.description || "") : lang === "en" ? (item.description_en || item.description || "") : (item.description || "");
+    const desc = descText ? '<div class="don-summary">' + descText + '</div>' : '';
+    return '<li><a href="' + item.link + '" target="_blank" rel="noopener">' + title + '</a><div class="don-meta">' + dateStr + '</div>' + desc + '</li>';
   }).join('') + '</ul>';
 }
 fetchPE();
