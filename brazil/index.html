@@ -79,6 +79,12 @@
   .extlink-btn:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(250,204,21,0.15); }
   .extlink-btn-title { font-size: 0.85rem; font-weight: 600; color: var(--accent); }
   .extlink-btn-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 0.3rem; line-height: 1.5; }
+  .infodengue-imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  @media (max-width: 700px) { .infodengue-imgs { grid-template-columns: 1fr; } }
+  .infodengue-imgs a { display: block; background: #fff; border: 1px solid var(--border); border-radius: 0.75rem; overflow: hidden; transition: border-color 0.2s; }
+  .infodengue-imgs a:hover { border-color: var(--accent); }
+  .infodengue-imgs img { width: 100%; height: auto; display: block; }
+  .infodengue-caption { font-size: 0.75rem; color: var(--text-dim); padding: 0.4rem 0.75rem; text-align: center; }
 
   .stats-bar {
     display: grid;
@@ -257,11 +263,15 @@
 </div>
 
 <div class="don-section">
-  <div class="don-header" data-i18n="peLinksTitle"></div>
-  <div class="extlink-row">
-    <a class="extlink-btn" href="https://info.dengue.mat.br/report/PE/state" target="_blank" rel="noopener">
-      <div class="extlink-btn-title" data-i18n="peLink1Title"></div>
-      <div class="extlink-btn-desc" data-i18n="peLink1Desc"></div>
+  <div class="don-header"><a href="https://info.dengue.mat.br/report/PE/state" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none;" data-i18n="peLinksTitle"></a></div>
+  <div class="infodengue-imgs">
+    <a href="https://info.dengue.mat.br/" target="_blank" rel="noopener">
+      <img src="data/infodengue_brazil_map.png" alt="InfoDengue Brazil Map" loading="lazy">
+      <div class="infodengue-caption" data-i18n="peMapCaption1"></div>
+    </a>
+    <a href="https://info.dengue.mat.br/report/PE/state" target="_blank" rel="noopener">
+      <img src="data/infodengue_pe_detail.png" alt="InfoDengue PE Detail" loading="lazy">
+      <div class="infodengue-caption" data-i18n="peMapCaption2"></div>
     </a>
   </div>
 </div>
@@ -349,9 +359,9 @@ const I18N = {
     peTitle: "Informações sobre doenças infecciosas em Pernambuco",
     peEmpty: "Nenhuma noticia no ultimo mes.",
     peError: "Falha ao carregar os dados.",
-    peLinksTitle: "Painel epidemiológico de Pernambuco",
-    peLink1Title: "InfoDengue — Pernambuco",
-    peLink1Desc: "Relatório epidemiológico de dengue, chikungunya e Zika com mapa de incidência.",
+    peLinksTitle: "InfoDengue — Situação epidemiológica de Pernambuco",
+    peMapCaption1: "Mapa de incidência estimada — Brasil (clique para abrir)",
+    peMapCaption2: "Situação epidemiológica — Pernambuco (clique para abrir)",
     noTitle: "Sem titulo",
     legendNone: "0",
     legendLow: "Baixo",
@@ -389,9 +399,9 @@ const I18N = {
     peTitle: "Infectious Disease Information — Pernambuco",
     peEmpty: "No news in the last month.",
     peError: "Failed to load data.",
-    peLinksTitle: "Pernambuco Epidemiological Dashboard",
-    peLink1Title: "InfoDengue — Pernambuco",
-    peLink1Desc: "Epidemiological report for dengue, chikungunya, and Zika with incidence map.",
+    peLinksTitle: "InfoDengue — Epidemiological Situation in Pernambuco",
+    peMapCaption1: "Estimated incidence map — Brazil (click to open)",
+    peMapCaption2: "Epidemiological situation — Pernambuco (click to open)",
     noTitle: "No title",
     legendNone: "0",
     legendLow: "Low",
@@ -429,9 +439,9 @@ const I18N = {
     peTitle: "ペルナンブッコ州の感染症情報",
     peEmpty: "過去1か月のニュースはありません。",
     peError: "データの読み込みに失敗しました。",
-    peLinksTitle: "ペルナンブッコ州 疫学ダッシュボード",
-    peLink1Title: "InfoDengue — ペルナンブッコ州",
-    peLink1Desc: "デング熱・チクングニア・ジカ熱の疫学レポート（インシデンスマップ・チャート）",
+    peLinksTitle: "InfoDengue — ペルナンブッコ州の疫学状況",
+    peMapCaption1: "推定インシデンスマップ — ブラジル（クリックで開く）",
+    peMapCaption2: "疫学状況 — ペルナンブッコ州（クリックで開く）",
     noTitle: "タイトルなし",
     legendNone: "0",
     legendLow: "少",
