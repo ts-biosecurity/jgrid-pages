@@ -1,56 +1,1427 @@
 {
-  "generated_at": "2026-03-28T21:52:53.000370+00:00",
+  "generated_at": "2026-03-29T21:54:56.365076+00:00",
   "date_range": {
-    "start": "2026-03-25T21:52:53.000370+00:00",
-    "end": "2026-03-28T21:52:53.000370+00:00"
+    "start": "2026-03-26T21:54:56.365076+00:00",
+    "end": "2026-03-29T21:54:56.365076+00:00"
   },
-  "total_articles": 129,
+  "total_articles": 130,
   "state_summary": {
-    "Ho Chi Minh City": 5,
-    "Vietnam (province not identified)": 93,
-    "Khanh Hoa": 3,
-    "Vinh Long": 2,
-    "Lao Cai": 9,
-    "Da Nang": 1,
+    "Vietnam (province not identified)": 80,
     "Ha Noi": 2,
-    "Phu Tho": 2,
-    "Dong Nai": 1,
-    "Ha Tinh": 4,
-    "Ninh Binh": 1,
-    "Bac Ninh": 1,
-    "Thua Thien Hue": 2,
-    "Quang Ngai": 1,
+    "Gia Lai": 20,
+    "Ho Chi Minh City": 4,
     "Hai Phong": 1,
-    "Dak Lak": 1
+    "Lao Cai": 7,
+    "Quang Ninh": 1,
+    "Lang Son": 1,
+    "Lai Chau": 2,
+    "Binh Dinh": 1,
+    "Nghe An": 1,
+    "Vinh Long": 2,
+    "Ha Tinh": 6,
+    "Phu Tho": 2,
+    "Khanh Hoa": 1,
+    "Thua Thien Hue": 1,
+    "Quang Ngai": 1
   },
   "disease_summary": {
-    "Tuberculosis": 56,
-    "Infectious disease (unspecified)": 56,
-    "Syphilis": 1,
+    "Tuberculosis": 51,
+    "Infectious disease (unspecified)": 53,
+    "Influenza": 1,
+    "Avian Influenza": 1,
+    "COVID-19": 8,
+    "HFMD": 11,
     "Dengue": 11,
-    "HFMD": 9,
-    "COVID-19": 2
+    "Cholera": 1,
+    "Syphilis": 1
   },
   "articles": [
     {
-      "articleId": "gnews_456997933175d4b7",
-      "headline": "Thanh niên xung phong TP.HCM đón nhận Huân chương Lao động hạng nhất - Vietnam.vn",
-      "headlineTranslated": "Ho Chi Minh City Youth Volunteers receive the first-class Labor Medal - Vietnam.vn",
+      "articleId": "gnews_d845fdad37381097",
+      "headline": "Ngày 29/3: Giá tiêu bật tăng mạnh, cà phê tiếp đà lao dốc - Thời báo Tài chính Việt Nam",
+      "headlineTranslated": "March 29: Pepper prices increased sharply, coffee continued to decline - Vietnam Financial Times",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T16:53:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRENCQmllUU1ybWZDZmVObVVkdDNmZzFjTVJ4cFdRY2x2a0Vhc3RVb2dhU3RfV1NSWHZNMEdxdlZSUVFzcmRMZW1CaXpLM2JQbExaRVBacnZ3ZGpFRzJITzhfdWh2RjBaOUs4TVplXzJVNS1SdFVuUW5QY2ZCR3ZESzg0V0FjNk94bzc5cjhhaFdiRjl4bGc?oc=5",
+      "publishedTimestamp": "2026-03-29T21:28:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWhVQUpadmRPWDZOaHE4MEM1XzdRTWh0bkZLSmo3RjI1dXZ5WThnam00SjNzOUJfOTRpN204SHl4X2IwTThGeGYzc1NMVE1ObHJmUFlfanNRSDcyNFZQbXI1T2pfUHVwN05xSS1TcXdtcy11TTRtYnVOQTN3UFhUblRCc0VHRUk4Qmo1eXB1d21TY2tfUU1XZG94VUJ1eXlHOHc?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Tuberculosis"
       ],
       "locations": [],
       "states": [
-        "Ho Chi Minh City"
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thời báo Tài chính Việt Nam",
+      "headlineJa": "3月29日：コショウの価格は急騰、コーヒーは下落し続けた - ベトナムフィナンシャルタイムズ"
+    },
+    {
+      "articleId": "gnews_eb853565bf29622c",
+      "headline": "Mặt trận mới trong chiến sự Trung Đông - Báo Người Lao Động",
+      "headlineTranslated": "New front in the war in the Middle East - Nguoi Lao Dong Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T17:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWkVYRlRzZng1M3RuMjRVMl9EeG5aRUNIWkxIcGliRm5ib29sNkRtUTZaamh4YlRmLWRtbGpnRHFCamR1Z2NPemVwdXZJUHFTWkd0NjZ5ZGY2aHh2Rmx1UHlMd1lQNmlOODF0elZqUWZ5cDlpbDR6am9PbDZRY0xNeElpbkNaTGxZUjJXdEUtSGRaQXZJc3ZMMng0NFo3Mmd6NkJwNTZxNEI1Zw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Người Lao Động",
+      "headlineJa": "中東戦争の新たな戦線 - グオイラオドン新聞"
+    },
+    {
+      "articleId": "gnews_933f9aaa7dc48a56",
+      "headline": "Đến cù lao Thới Sơn trải nghiệm du lịch với trại nấm bào ngư - Vietnam.vn",
+      "headlineTranslated": "Come to Thoi Son island to experience traveling with abalone mushroom farm - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T16:20:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHdydFppZW5kY0lhR281UXhyNGI3ZzZ3dlQ3ZUxMSFBDWnJXbEpGZEdiVTVFeG5lOXRuRTNCWC1tSjJvM2FZS0twajdCSXFQOGY1TEZwYmhQMWtCdUMxNTZES3gtcDIzVFZkSWRWZ2hzOTVDdmpYSE9IZURaYjVVMmtuOXUwNEo5Njln?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
       "sourceName": "Vietnam.vn",
-      "headlineJa": "ホーチミン市の青少年ボランティアが第一級労働勲章を受章 - Vietnam.vn"
+      "headlineJa": "トイソン島に来て、アワビきのこ養殖の旅を体験してみませんか - Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_614eeb91066652a4",
+      "headline": "Thị trường lao động Hà Nội chuyển dịch trước làn sóng chuyển đổi số - Vietnam.vn",
+      "headlineTranslated": "Hanoi's labor market is shifting before the wave of digital transformation - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T15:28:53+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRzAxMlNNcXZFck55MmJjY3c0S25wWkZhbTFnWDd3ZkxobTVvek5uUWFrMmVXUWRmZ192OTFWUEtDU0lPc2RKcGVMRlY0SEVmb21Gdy1VZDc3VnBQNjdZSWp3TTc1TWVEMkZiRDVtZmtDQkc1OVRrYUcxSU9ta3VfbzJNTzB4cERXb2ZndEdFTTVoeEp3?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Ha Noi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn",
+      "headlineJa": "ハノイの労働市場はデジタル変革の波を前に変化している - Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_b2bafcfea2c8ac0a",
+      "headline": "Gia Lai hợp tác với các tỉnh Nam Lào và Đông Bắc Campuchia để cùng phát triển - thuonghieucongluan.com.vn",
+      "headlineTranslated": "Gia Lai cooperates with the provinces of Southern Laos and Northeast Cambodia to develop together - thuonghieucongluan.com.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T14:45:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2dlMGFtNlFBYkF0WloyeWNhSTlhM0szVFVrY29WNzNET2pVZ240WUdNaFJTX1BvRmFCQ3ZWa1E0bEhTcHFpNldvUUR6eDB3bUZ5YWdfRmZDeGxaYmh1Nnd5QkRNYlVTLXB5QmpmbjJGYUlZeUJmSk9fVzhQNl8wYzc5UzNSd19nckZ4enJaTU1zNi10bDBNVmpYYnkzMWdNOWlfdWdDT1JmOGlwVFBtUFFiZ3VWX2JRWXJTMWl0U0NYZw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thuonghieucongluan.com.vn",
+      "headlineJa": "ザライはラオス南部とカンボジア北東部の省と協力して共に発展します - thuonghieucongluan.com.vn"
+    },
+    {
+      "articleId": "gnews_cf703a378c777018",
+      "headline": "Doanh nghiệp chủ động cho người lao động nghỉ đến 9 ngày dịp Giỗ Tổ Hùng Vương, 30-4 và 1-5 - CafeF",
+      "headlineTranslated": "Enterprises proactively give workers up to 9 days off on the occasion of Hung King's death anniversary, April 30 and May 1 - CafeF",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T14:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPblFpOWVYcl9SR0ZweTZPRVQtTVFtajdBUk1rX0wwMnkxTnAyaUVFamtQaWR1TmRoMmRBekNZcUYxQjBmNktLZ2RMMU9iaGZkRkFyMUJxNFJINDl1YTJlR2lPS2VYZTNqazBoNVhHeGRPVmNDLXFTcWlZQ2tjT0pMdjBDczU0MENrVk94QlBDYWFMaGJ5NV8tYTNVeF84cXpTSXJYOW9MWXpZZUhKYVQ5dWt3aGswUWpIbnhvcXFlSi11bFdhRk1RRXdn?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CafeF",
+      "headlineJa": "企業はフン・キン氏の命日である4月30日と5月1日に従業員に最大9日間の休暇を積極的に与える - CafeF"
+    },
+    {
+      "articleId": "gnews_73b515d9cebc97ee",
+      "headline": "Toàn cảnh TNSV quốc tế 29.3: Trường ĐH Lào sẽ 'tất tay' trận sau | Chìa khóa chiến thắng của đội chủ nhà - thanhnien.vn",
+      "headlineTranslated": "Panorama of International Volunteers March 29: Lao University will go 'all in' in the next match | The key to victory for the home team - thanhnien.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T14:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeXR6T2pqdGNVcmt3am1MWktKQVFkNHVHSmtFXzlrdjB0VEpLbDNlV1ZJRmk0SVFsbWNfMXBGWWhncWNFS2tJWEl4QmNnX2RneDdrRGVSa28zcnIwdTRIYVplX2lidW9pbEFuYnphRUdtNVBQUUhRWDRZbHNSU3U5NkhzZmlZR3VyRkpJZlVmOXRoZHdFSkRoYnlIVlY5OVBKb29jWkk5YW9PMWY1Y2Q4V0p1ZW5mMmh2SXN1U0lDTlhJeWk1MlV3TnVmVkE2RkZObUNCcXhyWDI4UQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thanhnien.vn",
+      "headlineJa": "国際ボランティアのパノラマ 3 月 29 日: ラオス大学は次の試合で「全力」で臨む |ホームチームの勝利の鍵 - thanhnien.vn"
+    },
+    {
+      "articleId": "gnews_a714fa62518f2cd7",
+      "headline": "5 kem dưỡng ngừa lão hóa \"made in Vietnam\" phù hợp với làn da người Việt - aFamily",
+      "headlineTranslated": "5 anti-aging creams \"made in Vietnam\" suitable for Vietnamese skin - aFamily",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T14:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSDJCWmdIb25jRGRRTkYzY21QN0tLaUw3dmlFVFdYYlVrVkZ1OXEtNzVQYTVOWjJVTllzd1EtZ1BOTnZTUHVDTmR1Z2hxeW55NnpfUFhzNUhKcUtva2pTSFVCemx6dHlkX1NoVGhPTnRHYVhKa2VJbHN5eU1CdDBDTi1iUUUxc2xXOXZOY1hXNmZXVVlnbDU2NUd3cVlLOXVRN1FpdWJOTVhibHlhUnprSW5n?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "aFamily",
+      "headlineJa": "ベトナム人の肌に合う「ベトナム製」アンチエイジングクリーム5選 - aFamily"
+    },
+    {
+      "articleId": "gnews_72cbf979bd2f1b14",
+      "headline": "Lào đặt mục tiêu đạt tăng trưởng GDP từ 6% trở lên giai đoạn 2026-2030 - Báo Nhân Dân điện tử",
+      "headlineTranslated": "Laos aims to achieve GDP growth of 6% or more in the period 2026-2030 - Nhan Dan Online Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T13:59:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNalhCSEhQTUhpdjBDN3EyWlJLcUxiakE2UGNiUUlPa3BlTHZRZHVrZkdqcnh2LVpuUWpUZ1BCczhTNFl4Mk1aY1RacngyalZiRVIwNGNhY2h3VVZidXludFJJS0MtNzJiTFNZc1hJdkxsRkFVeDZPcTdGU2ZiTE84R0RWaTQ0c2ozU2NUUFdBWUpmazBqTUNiaV9zWnVsNVZEOG1yRlU1Zw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Nhân Dân điện tử",
+      "headlineJa": "ラオス、2026年から2030年までに6％以上のGDP成長を目指す - ニャンダンオンライン新聞"
+    },
+    {
+      "articleId": "gnews_0b8cfadf57284916",
+      "headline": "Sắp có ‘Ngày Văn hóa Việt Nam’, người lao động được nghỉ lễ, hưởng nguyên lương? - nguoiquansat.vn",
+      "headlineTranslated": "'Vietnamese Culture Day' is coming, will workers get holidays and full salary? - nguoiquansat.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T13:58:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY080Y282WmpkVDFoakpPcUpZa3R5eG02Y19oRFZSTzktOEtSSWNndTUyeTUzTkpIUlJBaUR5ODliZjYxMnViZkFoYVoyckM0NFVCNEp5VXZaVkJhMWZVN1NuR3AxTmlQMlphVXdibkpwWllRYUV5bE1IckN1MUpsMkZPSGl1a0w0Q0pORVV4WXZVUmU3aFdPXzRQelE1dUZFaENYWFFZdGJ5Q0dRaWZKNw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "nguoiquansat.vn",
+      "headlineJa": "「ベトナム文化の日」が近づいていますが、労働者は休暇と全額の給料を得ることができますか? - nguoiquansat.vn"
+    },
+    {
+      "articleId": "gnews_7dc582955545ac13",
+      "headline": "Vụ xe khách lao xuống vực ở Tam Đảo: 1 bệnh nhân tiên lượng nặng - vtv.vn",
+      "headlineTranslated": "Passenger bus crash into Tam Dao: 1 patient with severe prognosis - vtv.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T13:44:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHVNa0JsNjAySlBUNDJicEI1RlRRNFdqaDRQbEVyQ0hhRm5jekpBODM4aDJoV2ZIc2RlSWlzbmZ4T0pTOE9acnRaZEx2bllnMGNyS1VubmlmencwekNOelRrYlJ2YV84cDFYWUp3SkZVTmMyTXptd1VYazB6OHFHendrTUNlZHRTRmZoMmplRktkMzhIbmVHd1JPN0xId1BScGVR?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "vtv.vn",
+      "headlineJa": "タムダオに旅客バス衝突：患者1名は重篤な予後 - vtv.vn"
+    },
+    {
+      "articleId": "gnews_c47cf9a027b1c42c",
+      "headline": "Nữ giáo sư lấy trộm hàng loạt mẫu virus cúm A - VnExpress",
+      "headlineTranslated": "Female professor stole a series of influenza A virus samples - VnExpress",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T13:37:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM1pldHhPaXVra3duMXQ0NTRfQVZsWXJlWW1GdzRsT0pqMzFoOGxoYlhoT2VES3ZYeGYtaFNCdkVEODN1cHZvbWVhOVE3LVhmM3dZS2p4OGNGclExRjkwX3JWZVVweEZYUkx4UkxUb05yUUdJaFBoRWhKeWszcmsyX0FoaWFKVm8?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "VnExpress",
+      "headlineJa": "女性教授が一連のA型インフルエンザウイルスサンプルを盗んだ - VnExpress"
+    },
+    {
+      "articleId": "gnews_251c0d67c2917eb5",
+      "headline": "Gia Lai hợp tác với 4 tỉnh Nam Lào, nhiều doanh nghiệp sẽ “rót” vốn đầu tư - congly.vn",
+      "headlineTranslated": "Gia Lai cooperates with 4 southern provinces of Laos, many businesses will \"pour\" investment capital - congly.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T13:20:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ193ZDNfVVE5RjQyTjVGclM2ZC05MnBXLWYxMk9pVTBEd2pYZ1BEc01UU25RSTZqQ3g2SG9wMURhUm9TNGVLTnNNaF9HQlRrS2htUk1xUDdVaW9CSjZpUFlaVTdqSlBXcmNPcEY3Sm5RbjlxbXU3LW5fc015LXE5QVQwRy1WcGdVYnk0eUZKTVhWSFJ6RldFazlIVTVJMGFBTUdB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "congly.vn",
+      "headlineJa": "ザライはラオス南部4県と協力、多くの企業が投資資金を「注ぎ込む」 - congly.vn"
+    },
+    {
+      "articleId": "gnews_fb55fe7548eaf072",
+      "headline": "'Điểm tựa' tinh thần cho người lao động - Vietnam.vn",
+      "headlineTranslated": "Spiritual 'fulcrum' for workers - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T13:18:53+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xMG9PRE0tLWtoMnBSUzZuNzhCYWFwWDdxM1FINExwOW1mcE5xNkZnUElWSjlWazlmQ0JUTkQtYVJkOThWaU85NzU2b09zb2JkV2lGbzhFOEFnOF9RYm1odGhNWDFSWUZFLW1nMQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn",
+      "headlineJa": "労働者にとっての精神的な「支点」 - Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_fb3c1e3b4b2770ce",
+      "headline": "Biến thể COVID-19 'Ve sầu' với hàng chục đột biến lây lan tại Mỹ, nguy cơ gây làn sóng dịch mới - Ngôi Sao VN",
+      "headlineTranslated": "COVID-19 'Cicada' variant with dozens of mutations spreading in the US, threatening to cause a new wave of epidemics - Vietnam Star",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T12:47:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQ0g0Z2s2d0oyUUJyX00xSVRjV1dsSVNSY05jQ2dhYmpNVnBqbk9WLUtiTURLZVNrUjVXUHpnNHN5RFdUM1NuRWg0YXhqUHh5V0dlb1JLdEhwR3Y2M25EYjIyZFhsckd1MDhLLTV1SnRKOW1WRmhDT3VGRlhqVVVETGs1blgteWtvczRLWFBWOWoySkhuMWJhY09wNlVFMGhQR2hRclJZajZkalR4Zlh5NTdxN01ma1V6ZTlmV0tMMEZtTms1ZFZNQ1hHZTFEaGpkMjdpOVV5dUFCVEdONW9vbXhmYkxHLWlJVnp3cGZFb0ZKUnpr?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ngôi Sao VN",
+      "headlineJa": "数十の変異を伴う新型コロナウイルス「セミ」変異種が米国で広がり、新たな流行の波を引き起こす恐れ - ベトナムスター"
+    },
+    {
+      "articleId": "gnews_6fee7db1a768869a",
+      "headline": "“Lỗ hổng” tình cảm khi bạn đời đi xuất khẩu lao động - BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
+      "headlineTranslated": "Emotional \"vulnerability\" when your partner goes abroad to work - ELECTRONIC VIETNAMESE WOMEN'S NEWSPAPER",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T12:44:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMHVkQmdRV2FWdXFNc3V2WkVFRHA5R09obnFqTy0wSzIzQ1FxVlhOc1pudElUSXpaWUNhQ21KR1dCQWJTNjVMaS02N2NxTC1xVnVmbXFCN083bVZMNUFrYTdfSTZuNk1scUJTZHBSVVN4MURXMW1zYTZCcDVUTmNGM2NsbVktQmt1eDZXSVU1bmQ2b2hoZmt0QWo3MGg3Zw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
+      "headlineJa": "パートナーが海外に仕事に行くときの感情的な「脆弱さ」 - 電子ベトナム女性新聞"
+    },
+    {
+      "articleId": "gnews_13efe3a596ace7da",
+      "headline": "Gia Lai tăng tốc hợp tác kinh tế với nam Lào, đông bắc Campuchia - thanhnien.vn",
+      "headlineTranslated": "Gia Lai accelerates economic cooperation with southern Laos and northeastern Cambodia - thanhnien.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T12:32:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOTNEcGxna0l1b1VubGl0STVyNXpIcVg1OHlCTzBsMlpZcENaYmVuLVVtYmduMkNIalljbGtJZ3NWMDBHYVd2RENMOGpIcUxqaEtmRjd4b1p2U2ZiRDB5bWRVSDlEaFRYQXozYmhfR1AtR1cwaERqVTNhVFdHTnExZk1CVnJsdGdyR0lUWWktZ3JEN3lsWHViZW1iTWtEX3RZeXduZGk2TjY3aVE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thanhnien.vn",
+      "headlineJa": "ザライ氏、ラオス南部およびカンボジア北東部との経済協力を加速 - thanhnien.vn"
+    },
+    {
+      "articleId": "gnews_b595bb2d74efe5aa",
+      "headline": "Đồng bào dân tộc thiểu số khu vực Khánh Vĩnh: Hưởng lợi từ chính sách bảo hiểm y tế - Vietnam.vn",
+      "headlineTranslated": "Ethnic minorities in Khanh Vinh area: Benefit from health insurance policy - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T12:24:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQa3VRbU9ZUTh1RUZKcm40TFhUeXpzanRNREp4UE1wdWtfaXgyU0RRZU9QeHpDZGZFRDJJcjJwME5SV1ZLd0lpeWRIMHVOWWZUSl9PbnlYZUdLZUc4ZUo4MGNudXozamJQeVRVNzJaYWFDQVB0dVFSWDJiZm91NUwzdVJUeWNiUXpoZ19mVFVyWWFZdFI2anA2enpLOVJqeWQ2Q2lfYTlkUUY?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn",
+      "headlineJa": "カインビン地域の少数民族: 健康保険の恩恵を受ける - Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_f7b140e9dadda3c4",
+      "headline": "Viettel Global (VGI) đón danh hiệu Anh hùng Lao động từ Đại tướng Phan Văn Giang, tham vọng duy trì tăng trưởng trên 20%/năm - nguoiquansat.vn",
+      "headlineTranslated": "Viettel Global (VGI) receives the title of Hero of Labor from General Phan Van Giang, ambitious to maintain growth of over 20%/year - nguoiquansat.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T12:00:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPT3FnaUxSNUFGMXVzYU42cmRRUFF0cDMtQjJ5aExYcmRRRktKVkxmQ0dfSndFaXJEeTg2VHQwTHRhMmRxWE02WlpxeXNLbFZfUDBIWXVfRkc0R3Q3dzVWdkdvcnptd3lMcnBETWw4WnRVQkNkUE5Wd1dybHF2RkM5SjNYOWx0X1I3UlpnMXNwSVVXWEFYRUYyRWljR25sRVJ2Nkc2MGx6WjN0NkdtX01XcldpTE12b2tTS1NWT09yenROdHp2ZHNId0l5VGNtZWNDUkE3LWwyU09aN2tzYm9kYXo3akl2RUJpdW9qOA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "nguoiquansat.vn",
+      "headlineJa": "ベトテル グローバル (VGI) はファン ヴァン ザン将軍から労働英雄の称号を授与され、年間 20% 以上の成長を維持する野心を持つ - nguoiquansat.vn"
+    },
+    {
+      "articleId": "gnews_45a7a0d7dad49ace",
+      "headline": "Gia Lai và 4 tỉnh Nam Lào tăng cường hợp tác, tập trung đầu tư nông nghiệp, dịch vụ du lịch - Người Đưa Tin",
+      "headlineTranslated": "Gia Lai and 4 Southern Lao provinces strengthen cooperation, focusing on agricultural investment and tourism services - The Messenger",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T11:41:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMHRlc2ZuVWM4cEZYSkpjN3lFRmJHcGZMUG40NXR6ZmNpX19lbmVWSnpaYmtmSWkyYm9HUjU5YWdvODZvbm0tZTR0dnh4UG1aTEV6Q1NrVVdZWHFvVVhrb3VNWXFWVzVUb1lWb0R0bVJJUGF3b3IzWGZ1UV9aUWVIdE1hdFk3MUxYUGJGUTJfUUZ5X2NodkMxUm16RE44TDJucUQ5bFVzeG51d29reXhWTjlXOUM4Yk9ZWHdsMV81cjhnVllma0tTR3V4eW84cVlTeVJadDF3?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Người Đưa Tin",
+      "headlineJa": "ザライとラオス南部4省、農業投資と観光サービスに重点を置いて協力を強化 - メッセンジャー"
+    },
+    {
+      "articleId": "gnews_b6cc0564eca191b2",
+      "headline": "Gia Lai ký kết hợp tác với các tỉnh của Lào - Báo Văn Hóa",
+      "headlineTranslated": "Gia Lai signed a cooperation agreement with Lao provinces - Van Hoa Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T11:38:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOajFLejE1QWNMcS1sWlBTalYzaGhiZzBPLTZ3Q3Awcmx3d1hPVEtULWpwb1lNejVreTZkRk5iSkpkd01GZ2w3a2JsZGV2TEQ2UVRuZWxCUlA3TXU0Y1ZhTFpKdDZKSk56aGdnaEZsaWR6dEZLXzU1MUJGQUZ4NUJYcmh3SktTMHJjQko2YQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Văn Hóa",
+      "headlineJa": "ザライ、ラオス各省と協力協定に署名 - ヴァンホア新聞"
+    },
+    {
+      "articleId": "gnews_3efcab16ac2fc36d",
+      "headline": "Học viện Chiến lược KH&CN tổ chức Hội nghị viên chức, người lao động năm 2026: Thẳng thắn nhìn nhận yêu cầu hoàn thiện cơ chế dân chủ sau hợp nhất - Tạp chí KH&CN Việt Nam",
+      "headlineTranslated": "Academy of Science and Technology Strategy organizes conference of officials and workers in 2026: Frankly recognizing the need to perfect the democratic mechanism after merger - Vietnam Science and Technology Magazine",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T11:06:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZDJ0NXNhcHczXzBtN3ZNOHRCeW9tbmxiZkluR1dpcVVtdDVJQndRRi15QkhkanRrWmlud0w5aFkzNzlfNFp4ZmtjZVVodDd1Z1UyVEFtMkpNZ1VZQ1poNkE5OUNCYzhNeWFjOXJNYkF0U2pKSHR3bDkwYVo4aDRfSHhmN0I2WGxhbmE0Q1VWY0VCbDFEb3hNQTItN1JheDJyQ0FNRjUtX0J5R213WGIyR1V2a3ZUdG5Camw2ZFJyYURyTVNHUUtXdWFveXVxMnp4ZG5McVZDUlBzS2JNbHFscy1EbF9zZWFvOHV3akthdlhXekdFbENZZndHRmtleDZD?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Tạp chí KH&CN Việt Nam",
+      "headlineJa": "科学技術戦略アカデミー、2026年に職員と労働者の会議を開催：合併後の民主的メカニズムを完成させる必要性を率直に認識 - ベトナム科学技術マガジン"
+    },
+    {
+      "articleId": "gnews_218a35f2e335625a",
+      "headline": "Gia Lai ký kết hợp tác với các tỉnh của Lào và Campuchia - BÁO SÀI GÒN GIẢI PHÓNG",
+      "headlineTranslated": "Gia Lai signed a cooperation agreement with the provinces of Laos and Cambodia - SAIGON LIBERATION NEWSPAPER",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T10:50:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVHRWdURzWXRNNkhoODdJQUtvS1VBaXM4SEI4bE82cnhOenk2ck1LRF85TEJRdmhtRWV3QkVaVEZVWElrQUYySUNxbFVkSlZuM2tIOG10QTJ4b3FGa3BOMEtqM1p1R3FjQ21zVUI4aHBMcVlRMElTZExHZVlUaGp5UnMtX2RvVXIxOHdkdHY5clFEOXRYNWRpWkJnYzk?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai",
+        "Ho Chi Minh City"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BÁO SÀI GÒN GIẢI PHÓNG",
+      "headlineJa": "ザライ氏、ラオスおよびカンボジアの各省と協力協定を締結 - サイゴン解放新聞"
+    },
+    {
+      "articleId": "gnews_a8a35c2a24d61e14",
+      "headline": "Gia Lai ký kết giai đoạn hợp tác mới với 4 tỉnh Nam Lào - vtv.vn",
+      "headlineTranslated": "Gia Lai signed a new phase of cooperation with 4 southern provinces of Laos - vtv.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T10:46:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3JJZktMVGg5QlNxT0tXQ05iTloySHlFYjRRc2VWSU00NzgwejBna3lqTFFOdkJfR2tKdXJjQWJFNk5rZ210Sm9aWC1KRk81amRDVGtyeFBBSkF3X2ktZERQQ0FNbWw3bkpTX0xUaGp0NFhhekRvTGZHZTNDNDhLMWxMaC1veV8xcTYxZWU0cV9iVkJnbHVrbQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "vtv.vn",
+      "headlineJa": "ザライ氏、ラオス南部4県と新たな協力段階に署名 - vtv.vn"
+    },
+    {
+      "articleId": "gnews_0bde76d7d41b3217",
+      "headline": "Xe ô tô khách lao xuống vực ở Tam Đảo, ba người bị thương nặng - Vietnam.vn",
+      "headlineTranslated": "Passenger car plunged into a cliff in Tam Dao, three people were seriously injured - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T10:23:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVmxiLVdXYWhpbUJJWVVYYXMtcGQ0bnpERGFXQnJsTVZldEd2VW5KcEp3d0lNSTdIZVl6c0l5UVFZYlZlb19GbFlacWl6elA2YjBPMnFvd0NrOEFKSXZmR2p6TTFhR2JsM3dFRi15QXVUM08xbVgxR2w1cDlBbmd6TUJzVVhFcFlEb0wzRA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn",
+      "headlineJa": "タムダオで乗用車が崖に転落、3人が重軽傷 - Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_87913bac192cb4af",
+      "headline": "Người lao động ở TPHCM vất vả kiếm sống giữa cái nắng oi bức - Laodong.vn",
+      "headlineTranslated": "Workers in Ho Chi Minh City struggle to make a living amid the hot sun - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T10:01:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWExNQXZBV0RtampqNkYzN3E4NXBQdGxQcGNvZnZqa29kcllDc2o0ZnZsVHZ1LUd2SHV3WE1JdUN5eTZrWjRJc2VraDUwdkhheUZfclJqVVR0cHVOVVNBSjcyYVdrRGgxX0o4Q3h2QVpraDROazZ5a05mVF9MeG5XdWMyX1lneFlsMjh2X1NPdDBVdXpTOThTczhPVndDZw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "ホーチミン市の労働者は炎天下で生計を立てるのに苦労している - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_92b15350e926ed19",
+      "headline": "Gia Lai ký kết hợp tác toàn diện với 4 tỉnh Nam Lào - VOV",
+      "headlineTranslated": "Gia Lai signed a comprehensive cooperation agreement with 4 southern provinces of Laos - VOV",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T09:57:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUlY2N05iNThiTjBlaVh1c0E2T1dCbUtJSmd3NVYyaFd5NTA0VWxEbDlkOGlrcGFyR0E5dE96Z19zc1pSNlJXSmxLY1dNSGE1bzM2T1dFRkp0YlVQakJRa0ZVcWlPdXNfTG1YeG1odFJjNE5Ca2ZpLXFMX1ZvVF93V1FwdkVJR0EwUzF3cTNzdnQzYldL?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "VOV",
+      "headlineJa": "ザライ、ラオス南部4県と包括的協力協定を締結 - VOV"
+    },
+    {
+      "articleId": "gnews_37d1d97fdf514924",
+      "headline": "Xe ô tô khách lao xuống vực ở Tam Đảo - Vietnam.vn",
+      "headlineTranslated": "Passenger car plunges into a cliff in Tam Dao - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T09:45:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tdTU4V25YeTdzYjc0YkpGVTZmUUdMVVpjWFN5eXJOQTdLQWRoMTlKaWR6NDFnNk0yVzFITmJyS1dSaFFiM054MFNpT0tvTVEyeTY3eVdnaWxDWWJtN0wzcXVBTW9xc20zdXdaMg?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn",
+      "headlineJa": "タムダオで乗用車が崖に転落 - Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_fd5d738624bab614",
+      "headline": "Bệnh tay chân miệng đang tăng tại TPHCM và các tỉnh phía Nam - Laodong.vn",
+      "headlineTranslated": "Hand, foot and mouth disease is increasing in Ho Chi Minh City and the southern provinces - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T09:07:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDNia1YwLXdkZ1VOS05SaTBzSVgzc2k1M0prZVltUEFjSkZZbVlKOTVhdlpGU2FPa25pRVNmSmhxbGx1bzRoNFhwTk1EbXZqSC1ndDVhbWJPQjUtakp2Z0ZuWjhkUkhpblpnOXBKQ3ZOeldkTmVldzB0cjBfYjNHMlRmNzlKUFhhZkZ0blAyS3hLaTdscUN5bDBNOHhCWGR0VGc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis",
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "手足口病はホーチミン市と南部の省で増加している - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_4e768cc99399d03f",
+      "headline": "Xe ôtô 29 chỗ mất phanh lao xuống vực tại khu vực ở Tam Đảo - BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
+      "headlineTranslated": "29-seat car lost brakes and fell into a cliff in Tam Dao area - VIETNAM WOMEN'S ELECTRONIC NEWSPAPER",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T09:06:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONXMxanVFeGFEVElKSUp1VGlDZjVvLVRRdW50cTloREFxdEJRY2NMR05KVGFjbm53NS0wc1EzaThBNWxmSmVOMWU4dEwtcm5WcHZzczctU3V1ZFlQT2o2ekdyWEI1VWI2ZlFGVzRpRWZKWnlrdVZIWWszSkhHR1V2azg0VGNRbktlRFFBQUJFcVZhNXdwbXlPVUVIcFRsU2VWT2dIckdwOTA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
+      "headlineJa": "タムダオ地区で29人乗り車がブレーキを失い崖に転落 - ベトナム女性電子新聞"
+    },
+    {
+      "articleId": "gnews_2c340d453a9f76c6",
+      "headline": "Hải Phòng: Chỉ ra nhiều tồn tại trong chấp hành pháp luật lao động tại 5 doanh nghiệp FDI - Báo Thanh tra",
+      "headlineTranslated": "Hai Phong: Points out many shortcomings in compliance with labor laws at 5 FDI ​​enterprises - Inspectorate Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T09:05:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUjNhUndiY1Eya25RMHRqU0RqWXNlRXVMS2x5dG9xazU3clM3TVNudnJza1BIWm5qNG4zVFdvS3VNWHBacXJHZnV6RzlLNUdGa0tJdy0xT01PU3NuTGNNUERHNWc0bVcwRG5ob1FOcFk0TU5FUXd2S3VmdjM1ZXFCbzZKbG5tU1VoRnFQZDZqa2RjbWM3OWFLUl9NVFcwVW1BUUVReTU2WnR5MTIwRU8wSVBmRGtBaUMwT2ZTRm5PMmw1Rml1aTYzdm5VM3VSZEN1VG53dllIZEZUekJ0NXJBQkdERldhTU5GTTNqYg?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Hai Phong"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Thanh tra",
+      "headlineJa": "ハイフォン：FDI企業5社の労働法遵守における多くの欠陥を指摘 - 監察新聞"
+    },
+    {
+      "articleId": "gnews_84d1f417cca9afc6",
+      "headline": "Nhanh chóng kiểm soát tình hình dịch bệnh tay chân miệng ở khu vực phía Nam - chinhsachcuocsong.vnanet.vn",
+      "headlineTranslated": "Quickly control the hand, foot and mouth disease situation in the Southern region - chinsachcuocsong.vnanet.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T08:51:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQalRBeml6NEk0X013aFREY0J1MnlpU29uTVpzcmxmcTlkQWFxNWhSTDJJSXYydHZSV1JJclpoOWRlaFhqdFZOQ084THFNWGpNdURNUEZMUEFIWjRVNVVSX3BFMnBxbEM1cEZYWTlRRHhPWnZJYUxfcWF1b3g1czV5ZmZNRDU3bnlncnpyM0pKWDhSYWMzUnRzNlVWaEZFT3dXZ3VVRVhWMktfR20zUERXbkxwMUxLY1VLMlVBYXZLSQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "chinhsachcuocsong.vnanet.vn",
+      "headlineJa": "南部地域における手足口病の状況を迅速に制御する - chinsachcuocsong.vnanet.vn"
+    },
+    {
+      "articleId": "gnews_0825532cb4c30b24",
+      "headline": "Gia Lai đẩy mạnh hợp tác với 4 tỉnh Nam Lào - Báo Giáo dục và Thời đại Online",
+      "headlineTranslated": "Gia Lai promotes cooperation with 4 southern provinces of Laos - Education and Times Online Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T08:46:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOanBWeHZZdi1BS0FDV3poWTRZSEt0dkl6UzdMUHdzWi1GT0FrQjFMdWVGMURmTGlDUHoyRmMxZHFWWC1DM2dGa3BDTm9qazJmVTRfaVVudmpRZTQzM2huQ1JVVVZBaGM4eTlFX0ZxMnFheHhWRDdOVFRFbm1VWHJhWVBNREZXOW9RcC1HZUhB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Giáo dục và Thời đại Online",
+      "headlineJa": "ザライ、ラオス南部4県との協力を促進 - Education and Times Online News"
+    },
+    {
+      "articleId": "gnews_7cecf2741fa9a929",
+      "headline": "Chị Triệu Thị Thim ở Lào Cai bị bỏng lửa nặng đã không qua khỏi - Báo VietNamNet",
+      "headlineTranslated": "Ms. Trieu Thi Thim in Lao Cai suffered severe burns and did not survive - VietNamNet Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T08:42:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObGxaLXVtdHZkUERoaXVnM0l4OUpDdVQ4MzBhbDVDYVV2a3VsSkFPbTd5VHUzOUlBc1dMckgwT19vdHNsNkRuTTNNQ3ZaLTRQNmJaLXp1c05ETnpfZ1pUU05CYnJOQXYteG1vQ2tlQ2tFZThOWkVrRGtZcGR2TGFSdmY5WE9EdkFOb0wwdXd4bF9IVURjTGxoR0IyQ3huMHc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo VietNamNet",
+      "headlineJa": "ラオカイのトリウ・ティ・ティムさん、重度の火傷を負い助からなかった - ベトナムネット新聞"
+    },
+    {
+      "articleId": "gnews_c7aa97d0c8340a3b",
+      "headline": "Công đoàn doanh nghiệp FDI ở Quảng Ninh phát huy dân chủ ở cơ sở - Laodong.vn",
+      "headlineTranslated": "FDI enterprise unions in Quang Ninh promote democracy at the grassroots - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T08:28:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGwwZEhhWFVEYmlER1NLTkRMYV80NUFBMnl4bDJhckFtcG4xempRemo1TTNIeEpOOS0zTFowZDZndWRlc3h3c1RyLTk5Qkw0d0Y3Q1BtRTBnM2cyMENoTV84SkFWc2ZGbFptRU9rbDAtRGJLNFhkcFlIdmFDZ0lHUG50OGpMdTR4dXVvV0lNRmw0eUVUR0xxM0N6WGVzc180dWc1RHRCT08?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Quang Ninh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "クアンニン省のFDI企業組合が草の根で民主主義を推進 - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_04feb9853ccb49e5",
+      "headline": "Gia Lai và 4 tỉnh Nam Lào ký kết hợp tác, hướng tới phát triển thực chất, hiệu quả - Báo Xây dựng",
+      "headlineTranslated": "Gia Lai and 4 Southern Lao provinces sign a cooperation agreement, aiming for practical and effective development - Construction Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T08:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc2p6dGVDMi1maGxSVC03RXp3RWRmV2N6SmVyWTJMYTFfTzFsZWIzTVNndF9JSFJTb0tWQWpmMVZLRDAxcjNpWWRxSUJlVnliV19yOWd2a0I2VzdLNjhMRDZ2Q3VCa0RUYlA3Q3RSZmhuR3BfZTVpbG9ZeTNuNU9tVVNFZ09wdE04cUlxYmpLWEJXdXhxZEhzSWZobE4zWnM5SkF5eG5xTzZRMEdiU2RTQjNUUlhJM0VacXcxVlREa1ZjXzQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Xây dựng",
+      "headlineJa": "ザライとラオス南部４省が協力協定を締結、実践的かつ効果的な発展を目指す - 建設新聞"
+    },
+    {
+      "articleId": "gnews_1c87c86dd67be2e6",
+      "headline": "Lạng Sơn khơi thông “điểm nghẽn” việc làm cho lao động miền núi - BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
+      "headlineTranslated": "Lang Son clears the \"bottleneck\" of jobs for mountainous workers - ELECTRONIC VIETNAMESE WOMEN'S NEWSPAPER",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T08:13:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORTdLVjlSV3FaX0RBVXlxbkQ4MW5SV2RxNVFvSjh4eDN6RmlnOXp0YWJ0TnRLV1U4M2ZfcVI4Q0t1Z3B2MzZ4WW5rSl9MamVOTTg2SFVacGQzS1RoZ1dMbHAtVXNhMDd4RG5DYXQ3RzdhaFN2RDB6em1jZ3NLOWNNWmg0NllDYWR2VC1JdzVOOC1Wb0tzWEFZUDlMOVR2bWNlMGdsWnVCMHdqXzMy?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Lang Son"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
+      "headlineJa": "ランソン氏、山岳労働者の仕事の「ボトルネック」を解消 - 電子ベトナム女性新聞"
+    },
+    {
+      "articleId": "gnews_5b6750e901fb5069",
+      "headline": "Gia Lai ký kết mở rộng hợp tác với 4 tỉnh Nam Lào - Báo VietNamNet",
+      "headlineTranslated": "Gia Lai signed an agreement to expand cooperation with 4 southern provinces of Laos - VietNamNet Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T07:38:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSFRoQUlxZEF3VVNsZm9sYklZV19WYUIwS0sxSnVHeFo5SER4eTdwWFF5cWg3OEozd3Z1bFpQMFVkamFxRFVuRzNLaUxycW9JVnJpNXZXSE40VDI1MWl6NGJGblBHV0lTY2ZfV09vX2hGSXh4LUR6SHQtWnJ2TnYxZVlydDEtejZsT3BsOQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo VietNamNet",
+      "headlineJa": "ザライ氏、ラオス南部4県との協力拡大協定に署名 - ベトナムネット新聞"
+    },
+    {
+      "articleId": "gnews_9453d39b031735dd",
+      "headline": "Gia Lai ký kết giai đoạn hợp tác mới với 4 tỉnh Nam Lào - Laodong.vn",
+      "headlineTranslated": "Gia Lai signed a new phase of cooperation with 4 southern provinces of Laos - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T07:07:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVBRT2RvRWx5VXNDVnhleFhFanVCWlFGWW01dDg2a252SVlId3oxS3NsNi1UT2NieHBkZUNycktXRlRyeDlqdXhjWDhGRFVrMlBOSWRuRFVNVjVOQUxJY0E0WGRYWDJDMkRqSnZyYXRmYzNxbHBEbFlOS3VWZjJJYWoxSUxwdHVjYzZRZDJEakNWdEY5X2tJcXp3bng3eEE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "ザライはラオス南部4県との協力の新段階に署名 - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_437ed1b6a2d3973a",
+      "headline": "Ca tay chân miệng nặng tăng gấp 5 lần, nguy cơ bùng phát dịch - VnExpress",
+      "headlineTranslated": "Severe cases of hand, foot and mouth increased 5 times, risk of outbreak - VnExpress",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T07:02:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZDc1T0N2eXlIYnoxeUU2SWllWkNteFUwQ3RBWFAzUU5ESkRYbDlWcElROGY1c2x6YVkxNEJsRHZQMGp1RU1OQllSc3VWcXExNFgxcENFSlB6NEVaZFFwOVdWa1AySkJWUDM2TkltdEpEOXlrS01EVWNwWDhJeDJLaUlfbGw1LXNoZERHd0QzbzN5MG5tQTUyRVNGcw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "VnExpress",
+      "headlineJa": "手足口の重症例は5倍に増加、集団感染のリスク - VnExpress"
+    },
+    {
+      "articleId": "gnews_f4481879e5a299e8",
+      "headline": "Thắt chặt quan hệ hữu nghị, hợp tác giữa Gia Lai và các tỉnh Nam Lào - Báo Gia Lai điện tử",
+      "headlineTranslated": "Tightening the friendly relationship and cooperation between Gia Lai and the southern provinces of Laos - Gia Lai Electronic Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T06:58:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaXZmZXRzV2htQVFwendoWjliSXBtdl9pcmdxM3VSZnpEQ3g4aVM4REgtXzJoVzJsaEpkNDdzZUdPRFc2Ull5OF9JTFc2cEtteDY0Zy1FUlhyREdBQnVwZlA0T2RXRVpzczhfTV96bEdqTHhQU1NzZ1lkbW9VOThSalo0YXZDbWtUUnFPR3VSbWF1TmVpTkpObV9aSDNfUFJLUXFGTDVLNmVwQkt60gGrAUFVX3lxTFAydEJZUWltUjEyS3AwTFEtNUc5NDhlcjlvYV9mcndWX09hdmRDNGxvVFBOZm1kUkZxd05nVGpLclZ0U2xJUnA4MDhlZW9mTU1lUDczOXJNSEg3OV9LZzBtWGV0eTFMQ1JxOHc4OFQwWGtaY3lnUEJiamVaMnA0V240em1LUGpLRWI3NXR6OVpfVWhDU25NaVRDQkgxSUN5OGMtenN1QldKTmgyZw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Gia Lai điện tử",
+      "headlineJa": "ザライとラオス南部諸州の友好関係と協力を強化 - ザライ電子新聞"
+    },
+    {
+      "articleId": "gnews_2d4ba9659ad44a7a",
+      "headline": "Gia Lai ký kết hợp tác với các tỉnh Nam Lào - Báo Nông nghiệp và Môi trường",
+      "headlineTranslated": "Gia Lai signed a cooperation agreement with the southern provinces of Laos - Agriculture and Environment Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T06:48:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb1RteElpeXRwbnpFdVF1SVN5eFEzSVpaT1c3ZzVscnplX0RYUmVMZnpMZGpJNGY3RW5WelVSbWJNcWZDOFNWQ1R6cEZjaHBfNWYydzdKUkpzc2t2d2Z2TFZmZEpQUEIwRi1xVV9rdlBoV0VjdDZBTk1XT2xoVEZrME5EQW1vcVVNVzZDS0FadU8?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Nông nghiệp và Môi trường",
+      "headlineJa": "ザライ、ラオス南部諸州と協力協定を締結 - 農業環境新聞"
+    },
+    {
+      "articleId": "gnews_724d04d84db8af2e",
+      "headline": "Lễ hội Bun Vốc Nặm – Sắc màu văn hóa dân tộc Lào ở Lai Châu - dantocphattrien.vietnamnet.vn",
+      "headlineTranslated": "Bun Voc Nam Festival - Colors of Lao national culture in Lai Chau - dantocphattrien.vietnamnet.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T06:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTTRuOERpc1VtZktSYUVIbHk3TGNoM3UzSV9lZHhoVU41LVJYRzB5VmI1SXdoTFNVLVZHZi14QUhjTE5KWXNya2R1OHhzeVduNGE0dGxBWnJsRUlueGQzX0lOVDhhRjkwWUUxeUNvZEM4aVlIc3JCS1JRTWo2bzcxcFJoNWRYQWNsUFBzcTgzYWNrTUFOc0E2bVU5dHRfOXJTT28yN1M1MnhiOEJGaXRkX2pTdw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lai Chau"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "dantocphattrien.vietnamnet.vn",
+      "headlineJa": "Bun Voc Nam Festival - ライチャウのラオス民族文化の色彩 - dantocphattrien.vietnamnet.vn"
+    },
+    {
+      "articleId": "gnews_11acf715b56d556c",
+      "headline": "Lão nông ở Măng Đen trở thành triệu phú nhờ cây rau xứ lạnh - Báo VietNamNet",
+      "headlineTranslated": "Old farmer in Mang Den became a millionaire thanks to cold-country vegetables - VietNamNet Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T06:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNclB5SXRxSVJuNXFfeWpETFBfR0NWYXhHQUFBWnY3U0F2STRkekEybUZBVlhBQ1FZbTJnbVpzZHVkaVVrTElhTEFrZmJ2UEdoZUw1SnZoM3pQbTB5TWhMcTZpY3puaWFSV0dKTDlQb1pBUHhnSGNZWjhHZ2tEbndVOXNOcVJvTEdKcVNr?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo VietNamNet",
+      "headlineJa": "マンデンの老農家、寒国の野菜のおかげで億万長者に - ベトナムネット新聞"
+    },
+    {
+      "articleId": "gnews_84603e7983d6b582",
+      "headline": "HLV đội bóng vĩ đại nhất Việt Nam chỉ thắng lý do bị thua 0-3 ở Lào - Thể Thao 247",
+      "headlineTranslated": "The coach of Vietnam's greatest football team only won because they lost 0-3 in Laos - Sports 247",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T06:25:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSTBOZGhZZ3JnaWR4MmJzSzhpZHNIVnZRNlpZcW16emtfd0pDQ2gwaE9mMWJ6cjlPNXJOdjAtcW9CSjc0U0h4YlR1VkFKZ2NHQXVGOHhPb01CTEgyWmFka0taNjgxaTI2SDRkX0k2MGxmQ250d3B3cUI2YXRfT214bU1CZEJXVGdRaU50R3F0MVdoeE9JdlYyODl4Yw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thể Thao 247",
+      "headlineJa": "ベトナム最高のサッカーチームの監督はラオスで0-3で負けたから勝っただけ - スポーツ247"
+    },
+    {
+      "articleId": "gnews_60cd0dbbbf76bb64",
+      "headline": "Ký kết hợp tác giữa tỉnh Gia Lai với 4 tỉnh nam Lào - baotintuc.vn",
+      "headlineTranslated": "Signing a cooperation agreement between Gia Lai province and 4 southern provinces of Laos - baotintuc.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T06:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSUtfNFkzV3Qzdm5tZ0J1WmhoZTFQS0xyWnZWRFJJRVNRQ2ZpN2tHUExaWjdKc0lFQVVPYURQbFhMdUZzb2I2bDhlWlFoc0xTR0hBcUVtRTJTZkpkR1VkLS1iUGFVa0RnUzhnVVNmc1ZheTBWZ2hIZk1ESnl3TlpNWW0yMndEX2Q1emJmVzRuQ2MwMG9Sd2xhZk5yTmFzbEJYTFZWag?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "baotintuc.vn",
+      "headlineJa": "ザライ県とラオス南部4県の間で協力協定を締結 - baotintuc.vn"
+    },
+    {
+      "articleId": "gnews_58efb5fe090d342e",
+      "headline": "Quy định chi tiết về lựa chọn người lao động tham gia việc làm công - Laodong.vn",
+      "headlineTranslated": "Detailed regulations on selecting workers to participate in public employment - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T05:58:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV3E1RzBNLVhuZDhRVVJBYVBDT2JyQmZfZmhIbjNiUjFLTzVkVmx5a21zV09rN0hRTkM4WWxON2Z2a1VyNjZhUGRWQjUtRFktalVkZ19uT2pTTGxhWU0wN1BwR3NZVHhsN29KZmVPS0xxQXFwSDNvaW9IWXFobVZHMUNqQllQMWxMVlNyX1VOajBmTko4bDd2X3VackRQQkIzbVltTmlaRncyc3hP?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "公共雇用に参加する労働者の選択に関する詳細な規制 - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_6d0bba35b14283ea",
+      "headline": "Gia Lai ký kết hợp tác với 4 tỉnh Nam Lào - Báo Quân đội nhân dân",
+      "headlineTranslated": "Gia Lai signed a cooperation agreement with 4 southern provinces of Laos - People's Army Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T05:56:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdE9VQmNKTW9tNHpwekxUdE9QQllSY0pHYWZ2STJZUUVnLXY3Mm1Oa1cwQVJvVlRydzBXZXh5THAydUNWYmtReTNGTmFPRVU5YjUwRDd6emxWMTZvOTJwYnRwd0dRcnRQeFlqaUlPcHVwWTExOVZzMGRCZUhHYmdzdlV5dGxiV05zR2FPUXBn?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Quân đội nhân dân",
+      "headlineJa": "ザライ氏、ラオス南部4県と協力協定を締結 - 人民軍新聞"
+    },
+    {
+      "articleId": "gnews_077a96e90d273fe6",
+      "headline": "Thúc tiến độ tuyến đường gần 50 tỉ đồng lên xã vùng cao Lào Cai - Laodong.vn",
+      "headlineTranslated": "Speeding up the progress of nearly 50 billion VND road to Lao Cai highland commune - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T05:41:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSndvOHZOUU5qc0NQV19iRXlvdGg1NWRqQXVBMm45QWtIVVVPYUtNVnNVZ3MxZGphMTZMTlhGY2RLUnZKZTh2dWhXZHNmSmhWRXpZSGZnZFd5eGI1MUZza05BTmpaMHVRNFNlZU5UWTdWRWcwdmhxaTRNUlV6MTJzMWtVMHkyNkV5dWpYblRqdnpSZWc3LXlYNEVNQ1Z2bDhzNkE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "ラオカイ高原コミューンへの約500億ドンの道路の進捗を加速 - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_97aeab1d4c6708a5",
+      "headline": "Bộ Y tế: 'Không chủ quan với biến thể Covid Ve sầu' - VnExpress",
+      "headlineTranslated": "Ministry of Health: 'Don't be subjective with the Covid Cicada variant' - VnExpress",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T05:32:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYlJHN3JKSVZKNUNHaTJzbmVuOEd2VGFZSFhESXlLblY4RzM4RGVRSDNzeW5vOFBhWkVpZXUtY1U5cVZFSExfUTZzeUlHTkU2UjdxbU83cWVnNTE4bUVnYXpadzhFZE1oczktSE5Ha20yUWxueHJvU2pRcERPR2tFQl9ybWJ1OWNnX3Fv?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "VnExpress",
+      "headlineJa": "保健省：「新型コロナウイルスの蝉の変異種について主観的になってはいけない」 - VnExpress"
+    },
+    {
+      "articleId": "gnews_300713aee9b51920",
+      "headline": "Gia Lai ký kết hợp tác với 4 tỉnh Nam Lào, thúc đẩy phát triển toàn diện - Báo Công luận",
+      "headlineTranslated": "Gia Lai signed a cooperation agreement with 4 southern provinces of Laos, promoting comprehensive development - Cong Luan Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T05:13:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa1ZJYWtBTDhILXZHdTJtcDYyZENSMkJyMUZZZVhUVWl0YzJLTDVPU3VGQ1VPQlNFR242T2tPUEtwUFBJM2EtbTF5Y1pKMWJhdElhYjBpODJEdmUzc2ZvWUdNVjV0NEV3Ylpod09obGNhVXF4ZGkySFVlZFpoREtwUFhnMXd4QU83TFFMUTNsaC1FVmloeV9wZEJ0anpKMnE4MHdkV2NWRGU?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Công luận",
+      "headlineJa": "ザライ、ラオス南部4県と協力協定を締結、包括的発展を促進 - Cong Luan新聞"
+    },
+    {
+      "articleId": "gnews_b92f1717bc545680",
+      "headline": "Hỗ trợ thanh niên ra nước ngoài học tập, lao động - baohaiphong.vn",
+      "headlineTranslated": "Supporting young people to study and work abroad - baohaiphong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T05:00:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNelJfRFR0N0FILUxRamVWZHFlbEY2c1NHdzY1OHh4VUxfbHlhWThENkVtRlFGS3cxdlBGa3hzSl92Z2RmMHdtYTdMRkhvaUZyd29ZTHB1cVoxbFd1X0Yxc25wby1qSGF4djFpT3RoanpXSUNyVi1veDVGWUIzRUhHZTg5MElaeVkxbEE4?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "baohaiphong.vn",
+      "headlineJa": "若者の海外留学と就労を支援 - baohaiphong.vn"
+    },
+    {
+      "articleId": "gnews_74d18cb44b55c4c2",
+      "headline": "Hoàng Anh Gia Lai, PISICO Bình Định đầu tư hàng ngàn tỉ đồng vào Lào - tuoitre.vn",
+      "headlineTranslated": "Hoang Anh Gia Lai, PISICO Binh Dinh invest thousands of billions of dong in Laos - tuoitre.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T04:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMDdUMW9UVXd1OHVHUXJfbTRRbjRVUjRaVjRrYm1tbkpNSXVycUlYSTlZM292NkwtMXJYZ3lVWnJaNmxJSnpTbFR2ZVhVUmtHVmhyTjVnd241cFY1d0pZcmpzd1RjaFB3U1h3RjFxanNybFNUWFRmSFpPczBsbmxiWHdKZTE0NlllMFJETW9NN0hSQnhHZGctVnA2MlJ4VTdVUFd4LUxrVHpHTHkx?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Binh Dinh",
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "tuoitre.vn",
+      "headlineJa": "ホアン・アイン・ザライ氏とピシコ・ビンディン氏がラオスに数千億ドンを投資 - tuoitre.vn"
+    },
+    {
+      "articleId": "gnews_9227c1326d76ba95",
+      "headline": "Gia Lai tăng cường hợp tác với bốn tỉnh nam Lào - Báo Nhân Dân điện tử",
+      "headlineTranslated": "Gia Lai strengthens cooperation with four southern provinces of Laos - Nhan Dan Online",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T04:31:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNlhDSUE1VDJvaVB3U2hXYy1DelExbW85OC1oY3hXLTE3ejRnU2VTVFhVYVhLYjhkU3hEV3RlOUJRSEh3N2NkQ0JnTjB0bnFydUJ0elRuOWdmRlFYanY5SllDNHM4Uy1yOWdFdTFWLXk5YUk4X052NWRfTmtuUXJxeHhNcmFyNkNyT3c?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Nhân Dân điện tử",
+      "headlineJa": "ザライ、ラオス南部4県との協力を強化 - ニャンダンオンライン"
+    },
+    {
+      "articleId": "gnews_dbf81473ed888951",
+      "headline": "Ngày Văn hóa Việt Nam không thể chỉ là ngày nghỉ - Laodong.vn",
+      "headlineTranslated": "Vietnamese Culture Day cannot just be a holiday - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T04:10:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaktudG1nM1h5V2pfQ3I2SWJFRUNUOHFOa1cxeUJBcUl0ZU8yei1BclduMmQ2a21BWlc2U1diWkdhRnNKNkxCQkR0ZVJ5dXVFU1VWWkNIa2plTXFxQVZjb3F5R0xFSHlWSWhaY2FGNTBIakhOdzRiWDVFRmhubVljc0tKdGgyQ25RNGlkVXBzTFZ4Nmh6ZG5zZmp6QlFNUQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "ベトナム文化の日は単なる休日ではありません - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_ec36a0e3366812cf",
+      "headline": "Bộ Y tế ra khuyến cáo về biến thể mới của SARS-CoV-2 - bnews.vn",
+      "headlineTranslated": "Ministry of Health issues recommendations on new variants of SARS-CoV-2 - bnews.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T03:57:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZUlwc1QtNnd0Tm0wUjRuOFZ3TThUcG9LSzhvbmh1bHRNWDhHWnRVX2I5aEF3Z3VkVFc3WFBFYThvVjZmLWlWd00zRGd3cGpnaHZ2WWhqeHdRRDZDTXNIbmZ4cTRnMndNSVJZQm9kakw1NHJNVlMyTGJ6Q0loa01nOXhMZEtBckFv?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "bnews.vn",
+      "headlineJa": "保健省、SARS-CoV-2の新たな変異種に関する勧告を発表 - bnews.vn"
+    },
+    {
+      "articleId": "gnews_74ccb70c1345db02",
+      "headline": "Gia Lai ký kết hợp tác với 4 tỉnh Nam Lào - Báo Pháp Luật TP. Hồ Chí Minh",
+      "headlineTranslated": "Gia Lai signed a cooperation agreement with 4 southern provinces of Laos - City Law Newspaper. Ho Chi Minh",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T03:42:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pZzBBYXFBLWhYb0JxdEdXUzRacGZBT0dfWnMxT2t6Uk9Qa01TY1lqaEdjZEFiMTFiTVZpZi1pYzBFNDRDTHJQUDkzTDNGREtPNURNS09LbUk0cXBIT3ZWa2I1NXN0ZjMxRVZrOTZQd3JYeHhvekc5azM0YVA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Gia Lai",
+        "Ho Chi Minh City"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Pháp Luật TP. Hồ Chí Minh",
+      "headlineJa": "ザライはラオス南部4県と協力協定を締結 - 都市法新聞。ホーチミン"
+    },
+    {
+      "articleId": "gnews_4c8ff6118906b596",
+      "headline": "Số ca sốt xuất huyết và tay chân miệng tăng nhiều lần - Baolangson.vn",
+      "headlineTranslated": "The number of cases of dengue fever and hand, foot and mouth fever has increased many times - Baolangson.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T03:42:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTXRlb045V0syLTJTYUxIaEZMQjhXaWJqbHVOazNNVkV6MXpBLVhOX1AyNDdtWEtTd3hDNDZlT0FtdHV5R2h5U015akR4THA3cGxIbmdZOXp4TGQ1TWVmV19iVkpZUHZhMnVHTS0xY3ZqaEJ2MDlqZ2lheWZfQjhMMFRDalQxN0xHT2JmZ2tTc0UzQQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Baolangson.vn",
+      "headlineJa": "デング熱と手足口熱の症例数は何度も増加している - Baolangson.vn"
+    },
+    {
+      "articleId": "gnews_3cb15b527fff4293",
+      "headline": "Trường ĐH Lào: Thua keo này, ta bày keo khác - thanhnien.vn",
+      "headlineTranslated": "University of Laos: If we lose this glue, we will present another glue - thanhnien.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T03:42:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc2F0dzJuWEpkei1rNy01d0lyc0wxRkQzeFBJQUxwQWc1WEpnMEdHOXFFZ2FwN3k2aXBDdjhPMndtOWxSNGdmTDRMU3J0czBNUnJaUXlYWGlQTkx0SEVpSUhHQXNNOFhqYWRCZlRUc2FLZXk4d0RVMHY4RGk2ZmVlNllMZWkxWXpyaUh4aTNhWQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thanhnien.vn",
+      "headlineJa": "ラオス大学: この接着剤がなくなったら、別の接着剤をプレゼントします - thanhnien.vn"
+    },
+    {
+      "articleId": "gnews_45e71f6ae7535801",
+      "headline": "Biến thể COVID-19 BA.3.2 xuất hiện: Bộ Y tế khuyến cáo gì? - CafeF",
+      "headlineTranslated": "COVID-19 variant BA.3.2 appears: What does the Ministry of Health recommend? - CafeF",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T03:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRi1GTVBMem44cFJNZDdYcUY4SDh6eHNpcUd3dHR6a01FbnhnR2JObW5fQmpmZEtsaVhwM0dOeUpLN3pKUVAzX19HdmhLdW43NE9vNm91LUctMk5tWUdJOHZIMVh0ckdVMlR5cVpkdC1MWkRjRVNqdzhxSWpCQ3hGaUNqYUsteENrQkJ5ZXVtVVBCaHBIeDJGWTlB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CafeF",
+      "headlineJa": "新型コロナウイルス感染症 (COVID-19) の変異種 BA.3.2 が出現: 保健省は何を推奨していますか? - カフェF"
+    },
+    {
+      "articleId": "gnews_8e97ffd7d293b301",
+      "headline": "“Em yêu tiếng Việt” tại Luang Prabang: Vun đắp hữu nghị Việt Nam – Lào - Thời Đại",
+      "headlineTranslated": "“I love Vietnamese” in Luang Prabang: Cultivating friendship between Vietnam and Laos - Times of Vietnam",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T03:26:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORk5nanpvYkJ5VEdiRFVrWE4yMzhxZHpfYVBLZlk5OFlqUndNRWU2dkRWdEpxT2pyTUxsR1RFSkpYZXl2OTBPTWtvRDhVc0RtWDV5aW5xTXhzYUItTkZFWkgzX24tMEZUX0dyQV9lTWMwNm5NYWhvYmlsOEdseDNNSkI5VTgyNkNycFFMOS1DUDNtRjJ3SEd1bHFzX2lVcUpISkE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thời Đại",
+      "headlineJa": "ルアンパバーンの「ベトナム大好き」：ベトナムとラオスの友好を育む - Times of Vietnam"
+    },
+    {
+      "articleId": "gnews_50a36293fcb23742",
+      "headline": "Bộ Y tế thông tin về biến thể mới của Covid-19 - Thời báo Tài chính Việt Nam",
+      "headlineTranslated": "Ministry of Health informs about new variants of Covid-19 - Vietnam Financial Times",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T02:58:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM1p6LXVSRXMtZzl6TGJ0bHlRTWVHZWhBaHNMTm45OUIwaHAzOXE2S2JDSEljRFp5RllucFdXRHhKeGIxQWhOdmFjbFJyUXBsRFhXdWhJU2h5cXFyc0ZsMjI1eDVIWVBzMDNWMnRHN21vc05BM2Uxa0RVRURabUdiSzZpRWRieWgwVzlxX3ZSRWM4YXFFdm5R?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thời báo Tài chính Việt Nam",
+      "headlineJa": "保健省、新型コロナウイルス感染症の新たな変異種について通知 - ベトナム・フィナンシャル・タイムズ"
+    },
+    {
+      "articleId": "gnews_dcb4cd530644c406",
+      "headline": "Shark Tank Việt Nam và chuỗi trượt dài: Điểm danh các \"cá mập\" và startup lùm xùm, vướng vòng lao lý - Nghệ An 24h",
+      "headlineTranslated": "Shark Tank Vietnam and its long slide: List of controversial \"sharks\" and startups, entangled in legal trouble - Nghe An 24h",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T02:21:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOUNCcUxHSUZVRmNNVU5UN3J6elJIUTZTWFc1NnprV25EdVZKcUZySUd2YWpRVDgwUl91NndlaWpaNjlUaWg1NzM3TERFQ0xmUDhJODFuSF9Fc2FyN3lhbXlvWGlTN0FUaVN4TmVvLThPQ1JaT01JNVE0VjNjeUgxVnRMR0NjZ3RmNUozUFdxSTY0X1Fzc05lV3htVkF2ZVJVdkxib2JxWEU4d1BXUHRhanh6a2RLeXc4dGR3MEVGTTZ6NDNROU1NQVJ3?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Nghe An"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Nghệ An 24h",
+      "headlineJa": "シャークタンクベトナムとその長い滑り台：法的トラブルに巻き込まれた物議を醸す「サメ」と新興企業のリスト - ゲアン24h"
+    },
+    {
+      "articleId": "gnews_12bd01326462f437",
+      "headline": "Điều trị thành công nam sinh 15 tuổi bị sốt xuất huyết biến chứng nặng hiếm gặp - Doanh nghiệp Cuộc sống",
+      "headlineTranslated": "Successfully treated a 15-year-old male student with rare severe complications of dengue fever - Life Enterprise",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T01:36:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRjA1WjRyMlYyaVFzbUpLX0hDNUE2b296TEtLN3ZuSzZWNHIxTmVmVjAwR2ZVNDQzb3pGN2plLVlTUnh4MUw5R3h0Q0ZRamlCVWhLSmQ3bDF2WElyX1IxT0hPbUxLZUEtNkFYQkVzMlQ4TVY5dGozRDRfUVZNUTZCOGZYWG45SGtOY0xCeXNja1owdFYyaTJwaldsZnAwcVdBX0dqRGdQeUlROFpobUJnZEZDSngwYjdtTFdoa0NVQkk?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Doanh nghiệp Cuộc sống",
+      "headlineJa": "デング熱の稀な重篤な合併症を患う15歳の男子学生の治療に成功 - ライフエンタープライズ"
+    },
+    {
+      "articleId": "gnews_a189ecf14fff9503",
+      "headline": "Xe bán tải lao đao, các đại lý đuối sức - Báo Người Lao Động",
+      "headlineTranslated": "Pickup trucks are struggling, dealers are exhausted - Nguoi Lao Dong Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T00:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVlRSSFRMZ2FGSERUUzZkanVJRG9qeVdldVY1aWtFem8wUmtxXzZveGk4cnJPdDdTOU41NlJBT0puQmh5MWR5SnN1dUhkM041MU5oVjdPMV82dUc5TGp1bWg5eGFIaXg4NF9LRlFiR2xadU1RS1h1RURoTUpoOFBCZnJFV2dFWUE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis",
+        "Cholera"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Người Lao Động",
+      "headlineJa": "ピックアップトラックは苦戦、ディーラーは疲弊 - グオイラオドン新聞"
+    },
+    {
+      "articleId": "gnews_7a5fac71037fcc5b",
+      "headline": "Tiếng Việt thắt chặt tình hữu nghị đặc biệt Việt Nam-Lào - Thông tấn xã Việt Nam",
+      "headlineTranslated": "Vietnamese tightens the special friendship between Vietnam and Laos - Vietnam News Agency",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-29T00:27:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTjhmeGM2WUFZclZxWFBnNWNrS09yb3VMYnF0WFBheEU1TDZtNEhxYkJ1QnlLNUdoZUZYSFZBNEhwdEo1Zy0tdGVKYndyRF9OZk5TYzJFaFMxLVBMa1BCcGgwYm1Rb294ZVNlV1NsOS1NRklGOFFjTkZIZWVLTTVCTTN6UkZ1ZjFNeUx5NXFtQ21hSDdybzQ5d25uTTloN3M5T3BRS1NIWnhVcXFiUEVaMWFmWQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thông tấn xã Việt Nam",
+      "headlineJa": "ベトナム人、ベトナムとラオスの特別な友好関係を強化 - ベトナム通信社"
+    },
+    {
+      "articleId": "gnews_c61977fcfcf36436",
+      "headline": "Đề xuất 'Ngày văn hoá Việt Nam 24/11', người lao động có thêm ngày nghỉ nguyên lương - Pháp Luật Plus",
+      "headlineTranslated": "Proposing 'Vietnam Cultural Day November 24', workers will have more days off with full pay - Law Plus",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-28T23:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUTFJS0dXNlZHQUhEOE5ObHVPdjBwRTdvd0poRncwNDROVXJTMXZXUGc4NEQ0X2FfMlU5Zzl4RjIxWlVOcFgwSE9fWnVYTWlDY0FqZGEwWnNJUWpLQkNqeFJBX3Atb1l4Z3FIcEd4aVJ1dnBjRmxPRlJvaDVDNW1FcnBjSUowT0J6d1JpdUFRWFlIYUtRdDhtQlp4Z1VKcXA5Yk42dkVPb2JUWHZLTU15SjRwb1YwdE9YTFZGUU1SLW5nMnBWb3YtRmdadw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Pháp Luật Plus",
+      "headlineJa": "「11月24日のベトナム文化の日」を提案、労働者は全額給与でより多くの休日を得る - Law Plus"
+    },
+    {
+      "articleId": "gnews_bfda1a28a35670c9",
+      "headline": "Cảnh báo nguy cơ dịch bệnh bùng phát tại phía Nam - Báo Người Lao Động",
+      "headlineTranslated": "Warning about the risk of disease outbreaks in the South - Nguoi Lao Dong Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-28T22:44:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUTVEcGV4WmNVZ3V6REh6a29sWmhxRWl0dlpfcHA2TUtzQllLZW5vT3EzcnBPS1FUcFdDSEFrdnlhcWlVcmJHU0lIV0pWVUNJaEcwV1Bja3lrSTdWOFRIU0YtdVlKWVVVZUpqYTU1WEdYQ1dxamVOR0pwbGpfcV9la3NKQ293WjR5dnh3M3k3VGMwSEZQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Người Lao Động",
+      "headlineJa": "南部で病気が発生するリスクについて警告 - グオイラオドン新聞"
+    },
+    {
+      "articleId": "gnews_f200fc08bb7cd806",
+      "headline": "Những người không có Tết do sốt xuất huyết Dengue - Doanh nghiệp Cuộc sống",
+      "headlineTranslated": "People who do not have Tet due to dengue hemorrhagic fever - Business Life",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-28T21:40:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaFFBcDlFMXNBTTNkMF9YdkE2MzdoRk5JTnVHT2RlTGJWQzk2cllLNjJ4Q2FZYVd5SXFQWHBUYUZRNXVUOUU5UzFQMUZzRTRteUJjWU5qSXVzenFhMTBLVlAwdko1VzJtaThkRnNsU2J3Q3VyM0NTUU42ZkZ0VUVsc3poMnRVWldoX1BNQ3hXZDJDSlJRQUctRA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Doanh nghiệp Cuộc sống",
+      "headlineJa": "デング出血熱のためテトを迎えていない人 - ビジネスライフ"
     },
     {
       "articleId": "gnews_9a82bfde7209af01",
@@ -73,26 +1444,6 @@
       "headlineJa": "65年にわたるベトナムとラオス警察の友好関係と発展 - CAND Television"
     },
     {
-      "articleId": "gnews_df813211b1de3b2a",
-      "headline": "Ngày Trường ĐH Nha Trang làm lu mờ dàn sao từng khoác áo U.23 Lào - Vietnam.vn",
-      "headlineTranslated": "The day Nha Trang University overshadowed the stars who once played for Laos U.23 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T16:08:34+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWkNQYnlLNC1GYWR4Tkpib0N5S0NUeHhYck5HckJtdm1jQ215Y3dacHhjNXYteFlYb2wtUTFOUmxHVS1HY3dLSFRtNTBEWjFxSUs0TW9MbUtkZkxodG1QSk5QOHlraVpXRkRUSFo2R3h4aUZQbmk0UkVRamdmOWdDTk45U0ZaWmtaelg2d0FPR3pzUQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Khanh Hoa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "ニャチャン大学がかつてラオス U.23 でプレーしたスター選手たちに影を落とした日 - Vietnam.vn"
-    },
-    {
       "articleId": "gnews_93b437afb47eadcd",
       "headline": "Tiếng Việt thắt chặt tình hữu nghị đặc biệt Việt Nam-Lào - baotintuc.vn",
       "headlineTranslated": "Vietnamese tightens the special friendship between Vietnam and Laos - baotintuc.vn",
@@ -111,26 +1462,6 @@
       "dataSource": "Google News",
       "sourceName": "baotintuc.vn",
       "headlineJa": "ベトナム人がベトナムとラオスの特別な友好関係を強化 - baotintuc.vn"
-    },
-    {
-      "articleId": "gnews_53beca1091bfa6fd",
-      "headline": "Liên đoàn Lao động tỉnh tuyên truyền pháp luật cho đoàn viên, công nhân lao động Công ty TNHH MSA YB - Vietnam.vn",
-      "headlineTranslated": "The Provincial Labor Federation propagates the law to union members and workers of MSA YB Co., Ltd. - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T13:56:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOazJ6ZWc4YjRabFpUMUhPSjZaREJhSE5jTVh2VEdqSUl0Qjdlc1g1SWhvNF9qdTFZMVBkdFpxenlVb2ZxMkxWUzNHVnR5YkhpODBLQ0JWOFFnMTRSREJGclR6MndLQU1iWUhiTkRWRXF3c202QVMxb0gtTmI2d0dSLTNnRVVrRVFKVHNSbmc3R0pTem1kVW9ZVE9weDNXRThwMHpKNXNPNkp2LV9JakpaUEY2YmNzYUFxQnhtbEowZw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "省労働連盟は、MSA YB Co., Ltd.の組合員と労働者にこの法律を広める - Vietnam.vn"
     },
     {
       "articleId": "gnews_b44a61210aea07f1",
@@ -153,13 +1484,13 @@
       "headlineJa": "ベトナムと英国が予防医療の経験交流を強化 - Business Life"
     },
     {
-      "articleId": "gnews_95f67cad336ff3ce",
-      "headline": "Đề xuất 'Ngày văn hoá Việt Nam 24/11', người lao động có thêm ngày nghỉ nguyên lương - Báo Pháp luật Việt Nam",
-      "headlineTranslated": "Proposing 'Vietnam Cultural Day November 24', workers will have more days off with full pay - Vietnam Law Newspaper",
+      "articleId": "gnews_331437dacaca89c0",
+      "headline": "Đề xuất \"Ngày Văn hóa Việt Nam\", người lao động được nghỉ, hưởng nguyên lương - vtv.vn",
+      "headlineTranslated": "Proposal for \"Vietnamese Culture Day\", workers will be given time off and receive full salary - vtv.vn",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T13:34:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPXzNIYWp4Njl6ZXR6SWxiYlFvajl1R0M0X1F2ak0xR3Y0QlA0NVJiSUIzYXlZRlozRmNiU0YzVVROWVJSdlYtZy1ueU1KYWpVMV96MEdsd1BJOEdWOEVvYTl2bUwwcnlqSmQxR2JqNDhGRmpWYURPekt5T1hMRXh5OTY0SXV6N0RGX2VXSTc0UTJDTVRQV2owS1M2bk0zb3RpdWE5NjIzVFp3V1hvcUE?oc=5",
+      "publishedTimestamp": "2026-03-28T13:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbFF1RldrWXNnNUJQNlhqb0w1TDZxLUp5SWtFOEdmdXluUFFPRTdaYnVIZDJfSzZDWGlGVnZFQkU1RGJSZGgxbFZBUmhFSGpmbWF3VkFmaTVTQ0c3anVRdmREMkctZHgyY3NpQjZVTUZMSlVFTFJGZGZmZHFNR0h4M1BvaUc4WkVOZmdVSzNIXy0wQ2NseGxVX0VEcTVndnFISC1FcFhTbGxfREo0eVVmdg?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Tuberculosis"
@@ -169,8 +1500,8 @@
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Báo Pháp luật Việt Nam",
-      "headlineJa": "「11月24日ベトナム文化の日」を提案、労働者は全額給与で休日を増やす - ベトナム法新聞"
+      "sourceName": "vtv.vn",
+      "headlineJa": "「ベトナム文化の日」の提案、労働者に休暇と全額給与を与える - vtv.vn"
     },
     {
       "articleId": "gnews_78f45bcc36560bd8",
@@ -193,9 +1524,29 @@
       "headlineJa": "ビン・ロン氏が労働組合の大義のためにメダルを要求するための基本的な手順をガイド - Laodong.vn"
     },
     {
+      "articleId": "gnews_df91c6eee684a783",
+      "headline": "COVID-19 chính thức thành bệnh truyền nhiễm nhóm B từ hôm nay - Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "headlineTranslated": "COVID-19 officially becomes a group B infectious disease from today - Ha Tinh province's electronic information portal",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-28T13:10:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQmhhaWRLalBRTnlCQjM3SnZLTWVGMXNjVEF6bVRJd3UxSENPNWdfV1E5U2pzSmpXNVZyX251LXBQelUxWXQ1bmctTTFZQkVUM1pHVkhEdDJwTVB1R0k3VDl1MDNJV1VuX3NkTmk2dUFta2JsTmxoN0xTZ1hOUmx6NmNUSTc1ZkFRR2szOEp5SUY0NU5aTzJ0UlhQWQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Ha Tinh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "headlineJa": "新型コロナウイルス感染症（COVID-19）は今日から正式にグループB感染症となる - ハティン省の電子情報ポータル"
+    },
+    {
       "articleId": "gnews_dbe5d55c831516b2",
       "headline": "Tin nóng hôm nay: Lào thông qua tuyến đường sắt kết nối Việt Nam | Chính phủ tạm ứng 8.000 tỉ đồng cho Quỹ bình ổn giá xăng dầu |TPHCM tăng 11 bậc trong bảng xếp hạng trung tâm tài chính quốc tế - Tạp chí Kinh tế Sài Gòn",
-      "headlineTranslated": "Hot news today: Laos approves railway connection to Vietnam | The Government advances 8,000 billion VND for the Petroleum Price Stabilization Fund | Ho Chi Minh City rises 11 places in the international financial center ranking - Saigon Economic Journal",
+      "headlineTranslated": "Hot news today: Laos approves railway connecting Vietnam | The Government advances 8,000 billion VND for the Petroleum Price Stabilization Fund | Ho Chi Minh City rises 11 places in the international financial center ranking - Saigon Economic Journal",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-03-28T13:04:24+00:00",
@@ -210,7 +1561,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Tạp chí Kinh tế Sài Gòn",
-      "headlineJa": "今日のホットニュース: ラオス、ベトナムへの鉄道接続を承認 |政府は石油価格安定基金に8兆VNDを助成 |ホーチミン市、国際金融センターランキングで11位上昇 - サイゴン経済ジャーナル"
+      "headlineJa": "今日のホットなニュース: ラオス、ベトナムを結ぶ鉄道を承認 |政府は石油価格安定基金に8兆VNDを助成 |ホーチミン市、国際金融センターランキングで11位上昇 - サイゴン経済ジャーナル"
     },
     {
       "articleId": "gnews_1587b975c945699b",
@@ -233,26 +1584,6 @@
       "headlineJa": "午後8時のニュース：ノイバイ～ラオカイ高速道路の建設不備、事故の危険性増大 - Laodong.vn"
     },
     {
-      "articleId": "gnews_1bcf8e033f4f533c",
-      "headline": "Điểm tin thể thao 28/3: Xuân Son khát khao ghi bàn vào lưới Malaysia - Báo Công luận",
-      "headlineTranslated": "Sports news March 28: Xuan Son longs to score against Malaysia - Cong Luan Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T12:48:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQ0ozd1l2d003bmJ5bF9zckJzeVFUT25vQjFVeUgtTm5MczBxVDg2cDhibkEwQ005dUZNQTJRSi1XcDJWcjVnTGhCUTdhWnBORlhYSVRPcXRqVzdjeTVZTGRjTUd1eHNNa2JhaWhMSUdMYWJxTHNsdExWbDQ0VTd2SW5MZ1AwaHB0dHY2dDNFLXpJRF9QLXo5TjZnaDMxR2duem91S0VVaU1wTkhaNmhwcHp3YW1ab1RFWW9fX3RJOXY3TnRnRXlUN2dSNjl2bjRxUlNPQk1VRm1ibkZ3cWlXU0h0N0p4UEN5Ym5Gb1JQY1ZORDloRXdYVHJwUQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Công luận",
-      "headlineJa": "スポーツニュース 3月28日：スアン・ソン、マレーシア戦で得点を熱望 - Cong Luan新聞"
-    },
-    {
       "articleId": "gnews_14b953a09cb9aff4",
       "headline": "Lào chính thức thông qua tuyến đường sắt nối Việt Nam mở cửa ra biển - Sputnik Việt Nam",
       "headlineTranslated": "Laos officially approved the railway connecting Vietnam to open its doors to the sea - Sputnik Vietnam",
@@ -270,67 +1601,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Sputnik Việt Nam",
-      "headlineJa": "ラオス、ベトナムを結ぶ鉄道の海への扉を正式に承認 - スプートニクベトナム"
-    },
-    {
-      "articleId": "gnews_8be89ba346f90dd1",
-      "headline": "Phát động thi đua đẩy nhanh tiến độ dự án thủy điện Trị An mở rộng - Laodong.vn",
-      "headlineTranslated": "Launching emulation to speed up the progress of the expanded Tri An hydropower project - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T12:26:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZHV2VDlUeDFXN3pGbFBEWEZsaGJfVUU2TE9pVmt2M2FZOG9rV3lEeGJneTlDdERSa2w2Y0FvWkNpbE56Rk1Ocm5SVGdlZHd2SWZHbWFiZndZbjNEVXBTNVNzTDl4R0c3QjVYNlg2SmVQQkNtclozYUp2WDhBVEpSZVZJWGktRXVHeXJ1S25qZlItdERtMXUwUlR0eHVIeU1oSk5oVTllWERzOFk?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "拡張されたトライアン水力発電プロジェクトの進捗を加速するエミュレーションを開始 - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_e179fea27ec464b3",
-      "headline": "Dấu mốc 20 năm toàn cầu, Viettel Global đón nhận danh hiệu Anh hùng Lao động - Vietnam+ (VietnamPlus)",
-      "headlineTranslated": "At 20-year global milestone, Viettel Global receives the title of Hero of Labor - Vietnam+ (VietnamPlus)",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T12:20:10+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYlFiRnM1VVQ1enJlZDNRVnBiSGZhM3VZTmNhME5FRGRka1hxT3J2SktndWhTd2JxU0c2Z3I5cnJheXU5Nm12QWZ4dTVDR0ozZFNfMXl5Nm9YYThNMC1CSm9CSVdIdjUyQ0U1UDl6eHE5SlN0MEZYN2F6Yi1XcFlXd3daaUhzRVM3RFM1UEtkU3VkcktCd0d5NVRHS3N3MDNYWHJuQklDUE1PbUZzTkJLampxelpDak40c1E?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam+ (VietnamPlus)",
-      "headlineJa": "20年の世界的な節目で、Viettel Globalは労働英雄の称号を獲得 - Vietnam+ (ベトナムプラス)"
-    },
-    {
-      "articleId": "gnews_60b613862d8ac6bc",
-      "headline": "Lao động miền núi Đà Nẵng lo mất cơ hội đổi đời vì dừng vốn ưu đãi - Laodong.vn",
-      "headlineTranslated": "Workers in the mountainous areas of Da Nang worry about losing the opportunity to change their lives because of stopping preferential capital - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T12:09:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbzI2cG5qeUg4MUFBZGNMb0MzUXBoZG04cDg1ckNETFFNNU5TQ2ZUNTU4bU5waUZudkp5ZmY4SmZPN1JQRFRTZEw2LUs4ZlJBV0F1Y2FiV19IUm9yWWxEX2N0SGN5bGdwVGF5MjZaVUExRWhVWGd2aXhPV2V6ZVRuSm1Jbk9MRVg2S3RWWUpNMTBkaWhudjF3UzB6QmlCcEpwcXIzdVVjTlZEd1k?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Da Nang"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "ダナンの山岳地帯の労働者は、優遇資本の停止により生活を変える機会を失うことを心配している - Laodong.vn"
+      "headlineJa": "ラオス、ベトナムを結ぶ鉄道が海への扉を開くことを正式承認 - スプートニクベトナム"
     },
     {
       "articleId": "gnews_b375e4074fff146a",
@@ -351,66 +1622,6 @@
       "dataSource": "Google News",
       "sourceName": "The Debrief",
       "headlineJa": "先史時代の骨格の発見は、古代の「梅毒のような」病気に関する過去の仮定に疑問を投げかける - 報告書"
-    },
-    {
-      "articleId": "gnews_5733326b5ffc8420",
-      "headline": "Bắt đối tượng người Lào mang 12.000 viên ma túy vào Việt Nam tiêu thụ - Báo Công luận",
-      "headlineTranslated": "Arrested Laotian subject for bringing 12,000 drug pills into Vietnam for consumption - Cong Luan Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T11:49:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTHJWWFlPUEVfbVpYejMyNlp6WWhJR1JaUWY2WVVnbG5NRlc1d2hKWG1fMlZ4MWxHVTZIdmtjR1dlOFd0eC1BQXhITzl1WWFzX1JKWExwR2xrM05kVzlvYU9VbG43WjR5bWFIM0ZyYkNLUWxsVndMX1RSVXJERk9tT3JNOWJkR3ZVQ3RZM240MWVwdlFJaTVPY3Z0ZDdjTmJhREQwX1dB?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Công luận",
-      "headlineJa": "消費目的で麻薬1万2000錠をベトナムに持ち込んだラオス人容疑者を逮捕 - Cong Luan新聞"
-    },
-    {
-      "articleId": "gnews_aae1d97ee79bb946",
-      "headline": "Thị trường việc làm tại Việt Nam sẽ ra sao trong 2 năm tới? - Znews",
-      "headlineTranslated": "What will the job market in Vietnam be like in the next 2 years? - Znews",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T11:30:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc3FKQlVjeEVXakVObGNXbFZoTWI0bWYwR0xER3owS1lMdlpPVDVnMVRGb1ZsRVM5eThkU3I4dXVOM1ZKcTdYU2RvdGVlTHM1aWxRZ3hHQXBXNzBvUUpUQWFYZU5HcC05azIxOUdqZThMTHZZV3ZMczJFeERNblBxSmZ1WWc5V3d6Y0pJTnpUVWZsdC1iSzZN?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Znews",
-      "headlineJa": "今後 2 年間でベトナムの雇用市場はどうなるでしょうか? - Zニュース"
-    },
-    {
-      "articleId": "gnews_b4c2bb81ba2e01ff",
-      "headline": "Trường ĐH Nha Trang 0-0 Trường ĐH Lào: Trận khai mạc bùng nổ - Vietnam.vn",
-      "headlineTranslated": "Nha Trang University 0-0 Lao University: Explosive opening match - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T11:21:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkZvU0IzX2p6YTBobzh5MGswbUU3V3EwUzI4Z2tDcDI5aDBBZmRGSmtJSWNzRmR0NVNTdnNPYjZ0dlNKZzJSeFRCRUt6Wm9GSTFuYVY3emdjcVJWRFVMb2dpcXVKNVJnWkJjbTh6aUVqaDNVdlVyTVU5aU0wa25mbFNYeFZqQ1BNamc?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Khanh Hoa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "ニャチャン大学 0-0 ラオス大学: 爆発的な開幕戦 - Vietnam.vn"
     },
     {
       "articleId": "gnews_63217073ad80c7ec",
@@ -493,24 +1704,24 @@
       "headlineJa": "Dabaco Vietnam Group、第一級労働勲章を受賞 - baotintuc.vn"
     },
     {
-      "articleId": "gnews_b461f441fc5817a0",
-      "headline": "Kết quả xổ số hôm nay 28.3.2026 - Laodong.vn",
-      "headlineTranslated": "Lottery results today March 28, 2026 - Laodong.vn",
+      "articleId": "gnews_a94d35a050560b41",
+      "headline": "Đề xuất trình Quốc hội quy định Ngày Văn hóa Việt Nam 24/11, lao động được nghỉ lễ - Báo Hà Tĩnh",
+      "headlineTranslated": "Proposal to submit to the National Assembly regulations on Vietnamese Culture Day on November 24, giving workers a holiday - Ha Tinh Newspaper",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T10:01:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12Z0RLdmR0QWluWWs2YnFHVGl2WWpTbXZmWDd0dVJqcWpubG1SUzVia0w3YmlrdmRTbVMwaDFKRTF6V1VrdTdSVGNXUmRyRHRHM1E2V1pUMS1zVmpha0RudXRCTGVXTTlMd2JWSk04VElIemRkNEtpZWZoYw?oc=5",
+      "publishedTimestamp": "2026-03-28T10:24:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVzYwRGgxQmpqa19oZFRZcEhMZUphYjZwbmd3aXltOVByX1hnclhDbVdsNEFCaVk0aWlxV3dhOUFVZFdGZmdzcFFmVzlOVDhjS2diZGNMZkpzZ0J2T1V3ak5BV1NWV1F5UmNKOWVFTmZxeld0U3d6Y3JQalBOOW5oVHBuUmhOOFlMYVFZSmZNWG9rUWU5Q2NteDhRb2gydGZSS3ZDMHVLZ2gzZWQ1T1JhZEZCLVJOdUta0gG3AUFVX3lxTE5mN0RuZ0VheTh6ZmxsZHFYMlp4NHhkSWp2SmJHcXRHbDQwSTRVSFM0N2hHelZIN3V3NFJtZEdWM0tWbVVLeU5rVnF6ZEhvYXktSGZTVExtUUMwOW5FMTB3WUZlZFpDUHZtS0w5dHk1bWRaXzdvYVFhX1JhZnhrZmxPUERycTFyQWhhaEY0UzN5SzZBQ0pmOGZfZU0tUC1taDRqUXlIeXZYbkpySXFIeGY1RUs4ZWlEMA?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Tuberculosis"
       ],
       "locations": [],
       "states": [
-        "Vietnam (province not identified)"
+        "Ha Tinh"
       ],
       "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "今日の宝くじ結果 2026 年 3 月 28 日 - Laodong.vn"
+      "sourceName": "Báo Hà Tĩnh",
+      "headlineJa": "11月24日のベトナム文化の日に労働者に休暇を与える規則を国会に提出する案 - ハティン新聞"
     },
     {
       "articleId": "gnews_eecb8847d25f22e9",
@@ -570,27 +1781,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Laodong.vn",
-      "headlineJa": "フートー労働者の平均給与は月あたり最大1,000万ドン、多くの場所でシャトルバスが運行されている - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_20474a9bb0398f84",
-      "headline": "Trao hỗ trợ từ quỹ \"Kết nối yêu thương\" cho đoàn viên khó khăn ở Đồng Nai - Laodong.vn",
-      "headlineTranslated": "Giving support from the \"Love Connection\" fund to disadvantaged union members in Dong Nai - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T09:18:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQklob0FUNzZVSlJHaHMzN01Ya3BmRDMxNVBZX05zcEVGWU9QTUVjTm1sZ1pSdVlBMC1tdEhnSG1CeHB3YXRxaUd2dlRNSU9IeDZ5Uy1uYWxQSTFZaVdONklKYjFtUnEzcWRrWFJteHpmZzFnc1pGTnR6bHAyUkRxSWkwa053UnJDM3dHZzFJUGJDcEZpZ2NiSURIOGNBUFZ4ZGhZeXM3RjZFZHUwMExZUDJR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Dong Nai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "ドンナイの恵まれない組合員に「Love Connection」基金からの支援を提供 - Laodong.vn"
+      "headlineJa": "フートー労働者の平均給与は月最大1,000万ドン、多くの場所でシャトルバスが運行 - Laodong.vn"
     },
     {
       "articleId": "gnews_d03a70604a8c6e77",
@@ -613,46 +1804,6 @@
       "headlineJa": "ベトナムのガソリン価格は近隣諸国より安い - Laodong.vn"
     },
     {
-      "articleId": "gnews_83afe91e610811b8",
-      "headline": "Nhật Bản tăng cường nhập khẩu tài xế taxi, xe buýt Việt Nam - vneconomy.vn",
-      "headlineTranslated": "Japan increases import of Vietnamese taxi and bus drivers - vneconomy.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T08:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQWE0MnlqN2tVQm1rS3J3T1RYQ0pIXzZDRE9zWU1mcENZVk5KRzVZX091dHJrTjVLeXdmd0hHQjc1ZGNzTmo0SFBDWVo5VENDSVBER3pxSjdlX2RwbXhjZ0p0RDBWYVhKdjNWcThWVEprLWtwbE9feV9KLTdYdzJDNHloeFhYWHo5VjFF?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "vneconomy.vn",
-      "headlineJa": "日本はベトナムのタクシーとバス運転手の輸入を増加 - vneconomy.vn"
-    },
-    {
-      "articleId": "gnews_701e5e1c65b5fa47",
-      "headline": "Tăng cường tình đoàn kết, hữu nghị giữa hai hội CCB Hà Tĩnh và Tỉnh BoliKhămxay ( CHDCND Lào ). - Báo Cựu Chiến Binh Việt Nam",
-      "headlineTranslated": "Strengthen solidarity and friendship between the two civil service associations of Ha Tinh and BoliKhamxay Province (Lao PDR). - Vietnam Veterans Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T08:20:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOVl0OTRyWUpWNGJWaERGY2FBRHFOSTBoczJrcVE3N2NWaXR0S1puT3JpOWJJbk51U1N0Z1FwM3FBMVFRUUdxWXpLcWpzeHJBS3hQdlVQVF84blpuSFk0czBCVUhKcjFFZ09hZ1ZYMmREMFpMd2lqWDR2blB2RmNQOVEwUVI3MTI2OFhaNVdsaVlOSVo2ejJjUHpPUmROMmlibWswU2cxU2tXdmRDSU5CTlZqaDdEbVdueWRJemxhS25rYVU?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Tinh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Cựu Chiến Binh Việt Nam",
-      "headlineJa": "ハティン省とボリーカムサイ省（ラオス）の2つの公務員団体間の連帯と友情を強化する。 - ベトナム退役軍人新聞"
-    },
-    {
       "articleId": "gnews_b9575ae35c237a72",
       "headline": "65 năm chuyên gia Công an Việt Nam tại Lào - Thông tấn xã Việt Nam",
       "headlineTranslated": "65 years of Vietnamese Police experts in Laos - Vietnam News Agency",
@@ -673,9 +1824,49 @@
       "headlineJa": "65年にわたるラオスにおけるベトナム警察の専門家 - ベトナム通信社"
     },
     {
-      "articleId": "gnews_24abe787dff356dc",
-      "headline": "Trường ĐH Nha Trang 2-0 Trường ĐH Lào: Cú sốc đầu tiên - Báo Thanh Niên",
-      "headlineTranslated": "Nha Trang University 2-0 Lao University: The first shock - Thanh Nien Newspaper",
+      "articleId": "gnews_0b60049d076089d9",
+      "headline": "Vì sức khỏe nhân dân nơi biên giới - Báo Lai Châu",
+      "headlineTranslated": "For the health of people at the border - Lai Chau Newspaper",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-28T08:09:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhOUJPM1BLSy0yREZ0VjhZbHNkT1ozdVk2d1dWZnFNdmt5OUJRa3VPZlNnODN1aEZCREVwbWxsVGctQmtIVUlHcDE5OHNDTnlvczQ0YlJKcG5TeEtWaDZVOVFGLUVJMlpmQmJrTEpuTHVXcTdsY1E2Vk9n?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lai Chau"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Lai Châu",
+      "headlineJa": "国境の人々の健康のために - ライチャウ新聞"
+    },
+    {
+      "articleId": "gnews_a715ca17abb877ba",
+      "headline": "Lãi suất Agribank hôm nay, gửi 200 triệu đồng nhận lãi hơn 26 triệu - Laodong.vn",
+      "headlineTranslated": "Agribank interest rate today, deposit 200 million VND to receive interest of more than 26 million - Laodong.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-28T08:00:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR3FwU0Q3STJTaHViaVV5Vm9WdHVxUEtxT1Z0ZHNuOEVWRmVaa3loV3IxTHVUTFc4NVpnOC1Mc3JUUDVkeGs4aVNuc0h3ZWNzdUhIaVZRRThMY3hIaWdNQXBXbHZfS2JmZmxwcHdLekVLb3dzbkRVS2JPdzVxNE5VUlNLNElpS2NLWFpOd1FIUERmdEwzUDFoeTQzNlNnOTNrVWQ0WDl3MmxDaVUweHlweXpR?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn",
+      "headlineJa": "今日のアグリバンクの金利、2億ドンを入金すると2600万以上の利息が受け取れる - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_e102eb2f2f6dadf5",
+      "headline": "Trường ĐH Nha Trang 2-0 Trường ĐH Lào: Cú sốc đầu tiên - thanhnien.vn",
+      "headlineTranslated": "Nha Trang University 2-0 Lao University: The first shock - thanhnien.vn",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-03-28T08:00:00+00:00",
@@ -689,28 +1880,8 @@
         "Khanh Hoa"
       ],
       "dataSource": "Google News",
-      "sourceName": "Báo Thanh Niên",
-      "headlineJa": "ニャチャン大学 2-0 ラオス大学：最初の衝撃 - タイニエン新聞"
-    },
-    {
-      "articleId": "gnews_94792b338f9b2062",
-      "headline": "2.564 lượt công đoàn cơ sở ở Ninh Bình tổ chức các hoạt động văn hóa, văn nghệ - Laodong.vn",
-      "headlineTranslated": "2,564 grassroots trade unions in Ninh Binh organized cultural and artistic activities - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T07:44:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUzVmd2Y5eUZibWdSMnR0MEFFdFNnYUZPcW9NQ0NEZWRnZndyV0w2ai0zaUFra1hmdUpkVm1IMjJFUkF2djZSMzVlb1VaaUkxNkd4bEZFSjJYYnVYRlE0bnMwOVFwYWVMTkU3d3BtMHBBWVVhejR5VjdBcXQwd3gyUWt0V3gxY3BWWmpkVEFEM3BVLWZqTzY0VzBkdG5WUm5ZNmZWOGZVemhjb21QTlFGaVl6bmxveW12?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Ninh Binh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "ニンビンの2,564の草の根労働組合が文化芸術活動を組織 - Laodong.vn"
+      "sourceName": "thanhnien.vn",
+      "headlineJa": "ニャチャン大学 2-0 ラオス大学: 最初の衝撃 - thanhnien.vn"
     },
     {
       "articleId": "gnews_e45e9d9cef11a8ea",
@@ -753,25 +1924,6 @@
       "headlineJa": "「ベトナムの畜産業は今後10年で完全に大きく変わる可能性がある」 - Vietnam+ (ベトナムプラス)"
     },
     {
-      "articleId": "gnews_10db8afcedad6ea7",
-      "headline": "Ấm lòng người lao động nghèo với những suất ăn \"treo\" trên phố - Laodong.vn",
-      "headlineTranslated": "Warm the hearts of poor workers with \"hanging\" meals on the street - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T06:41:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDkwU0wwZkRDWDh5SnFIclg0NXJiMXpQVXRsb2VDR1pMU1Q2T0tDWkFVbXB1cmg1NUZHSWp3YjNIQ3ZtZVFqbnZzcGMzTFZaN0NoSWhPa1J5NlQ3ZUstQ0kzRXBUNXdtbzBHQS15SFlENHdqMU44SnRFWUtmc0xFbmwzcXpnN1lnOW9iRTI2czU5eUtNclRVTmhZNW5TRW5qd1MtcEdqbw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
       "articleId": "gnews_8adfa917d92a39ab",
       "headline": "Cục Thể dục Thể thao Việt Nam nhận Huân chương Lao động hạng Nhất - dantri.com.vn",
       "headlineTranslated": "Vietnam Department of Physical Training and Sports received First Class Labor Medal - dantri.com.vn",
@@ -792,33 +1944,33 @@
       "headlineJa": "ベトナム体育・スポーツ省が第一級労働勲章を受賞 - dantri.com.vn"
     },
     {
-      "articleId": "gnews_53790ea8b7ba827d",
-      "headline": "Khi chính thức có Ngày Văn hóa Việt Nam, người lao động sẽ được nghỉ hưởng lương bao nhiêu ngày trong năm? - Báo Dân Việt",
-      "headlineTranslated": "When there is officially Vietnamese Culture Day, how many days of paid leave will employees receive in a year? - Dan Viet Newspaper",
+      "articleId": "gnews_3836ec2b887931a1",
+      "headline": "Việt Nam – Lào đẩy mạnh hợp tác phòng, chống tội phạm - Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "headlineTranslated": "Vietnam - Laos promote cooperation in crime prevention and combat - Ha Tinh province's electronic information portal",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T06:09:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQkg3WkNSTndaUk5NWldjY0tpSXVPM0FGM042RGYxUnJjWWZzWUVVQXlIU3VHVmxIaDJvSk1LNGF3YWNFMHlsQjI3Q0VKVVYwX3dkYXZmaVc0VloySnR5bUdzM21wTTVLdXhzV2NnR3g1QlJxMWlJSUZxMmRRMXNDLTBmVGpXMlc5ajlUM1FMZE96bFJPcGZmcTRFZDMwbU9TckhoRUlIbmM3MXhOT2RicFpfTEpLYUxFVThOcm9ucjVNc3JFSTByaXgxOW9uNmZ3Y3c?oc=5",
+      "publishedTimestamp": "2026-03-28T05:36:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQjlaZUpTY1FMeUItQjdPSFBMNy1vUjktT190ZVB0T2p1alBqbUh4aVVrTUU0ai1ab3hnY2cxYkFTV2ljbTI5a2Q3Z290YW51T1E0NzNVSU1MaVYyUS1JU2o5dmlrdl81SkthcUpKcW11RFZqV3FsVVlXUVBwOEJ0WTllMTYtUlFQWFFBeg?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
-        "Tuberculosis"
+        "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
-        "Vietnam (province not identified)"
+        "Ha Tinh"
       ],
       "dataSource": "Google News",
-      "sourceName": "Báo Dân Việt",
-      "headlineJa": "正式にベトナム文化の日がある場合、従業員は年間何日の有給休暇を取得できますか? - ダンベト新聞"
+      "sourceName": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "headlineJa": "ベトナム - ラオス、犯罪予防と戦闘における協力を促進 - ハティン省の電子情報ポータル"
     },
     {
-      "articleId": "gnews_d6428dd176bdb721",
-      "headline": "Cần khoảng 9.000 lao động, nhưng mới tuyển được hơn 300 người - Laodong.vn",
-      "headlineTranslated": "Need about 9,000 workers, but only recruited more than 300 people - Laodong.vn",
+      "articleId": "gnews_32c1d11edd4a8328",
+      "headline": "Cục Thể dục Thể thao Việt Nam nhận Huân chương Lao động hạng Nhất dịp kỉ niệm 80 năm ngày truyền thống - Laodong.vn",
+      "headlineTranslated": "Vietnam Department of Physical Training and Sports received the First Class Labor Medal on the occasion of the 80th anniversary of the traditional day - Laodong.vn",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T05:49:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTU1OYTNSc1pQbnBpUXUtRXRGMGsyc3BaVWVsLTlDcENXbFk3NDB0aWFQY3hCS2M3QWg2WXI1QVRVbzdQcUR3TGtCRFRna0pBdW92V1E3MjJnbXlUTVFWRC1jSDg2eXR3b0NGWDh6Zm5CSWlMNE9GWkFLS0JLZmxXdzJMS0ZCUUtBMmZkNDdhZE1iWVJLWmxLNnlLRzFzRFdVRHc?oc=5",
+      "publishedTimestamp": "2026-03-28T05:33:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPanJGd2w1YnhsTXhSSnRtZElGRFNkTjBmbVpQTnF6dUxYQ2FzYUJnSXFGRkJGN3REXzhsRENfVDNyLXlTTUU3RXhzYzllMjNnT0JwTGo1el9vYXQwLVZrUlpLQ0wxQ0FMczk1eFVvZ3RKVUVjVlNXblVUd1MweWg3d0dnWUZPaFk1bEYxaFZBR09Id203OF9XaV9RTk0xOGs0OHJxcVFqMGZQd0Y2by1QUWZCTkVON3BDcWJmTllWSkFNREZMRTUtSmtFTjdtczJCVUUzekdOZFJNQQ?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Tuberculosis"
@@ -829,47 +1981,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Laodong.vn",
-      "headlineJa": "約9,000人の労働者が必要だが、300人以上しか採用できなかった - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_b386b5b17cbb9cbd",
-      "headline": "Tăng cường phối hợp truyền thông phòng, chống dịch bệnh tại các cửa khẩu - Doanh nghiệp Cuộc sống",
-      "headlineTranslated": "Strengthen communication coordination to prevent and control epidemics at border gates - Business Life",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T05:43:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNejFpdDU0TEpkWnZKQ2F2UFNub3lPVGJyc1JmN0dFNWNwRGt4a3pOdnh1SUZxZWo4SHNXOTIzU0R6SFNfLVloZ0tYVXZXdmo5NmZ5aU14U3RhNTV1THlVODd4VG92Ym1EeXhkaFZsTkFzOEM4QXd2UTl4d1lzR05HTWpqRVlXMWx6THljeEFkOHVPMkhRR1MxWmFKaU15dVZYUHUxTFo5WXpMbjhZVmF2b1doaE1Wdw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Doanh nghiệp Cuộc sống",
-      "headlineJa": "国境ゲートでの伝染病の予防と制御のためのコミュニケーション調整を強化 - ビジネスライフ"
-    },
-    {
-      "articleId": "gnews_3c125f6a57857c20",
-      "headline": "Sắp có ‘Ngày Văn hóa Việt Nam’, người lao động được nghỉ lễ, hưởng nguyên lương? - thuonghieusanpham.vn",
-      "headlineTranslated": "'Vietnamese Culture Day' is coming, will workers get holidays and full salary? - thuonghieusanpham.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T05:42:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYmd4VkJZaHhyRTlhWjhZUXc0ZkN4eWpfNktROHRLSUZfN1o1aVpGU2x6ZTZMbU1ORGpsZG5iUnR4M2ZRNmRPaFBWUElUOVBqQW1VS0ZNMjRQNEgyUXdSQmwzM0hBR3RramxJYzlzcDc4bXktVkVaY0JfaXJVUk9hZGpSZ2VhcndwcDNSV2JTaUgyWG04aUhwMmFiYXpBTVViazdxajc0bw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "thuonghieusanpham.vn",
-      "headlineJa": "「ベトナム文化の日」が近づいていますが、労働者は休暇と全額の給料を得ることができますか? - thuonghieusanpham.vn"
+      "headlineJa": "ベトナム体育・スポーツ省が伝統的な日80周年を記念して第1級労働勲章を受賞 - Laodong.vn"
     },
     {
       "articleId": "gnews_b98691ef136634b4",
@@ -892,93 +2004,13 @@
       "headlineJa": "ラオカイが第5回ベトナム読書と読書文化の日を主催し、コミュニティに知識を広める - thuonghieucongluan.com.vn"
     },
     {
-      "articleId": "gnews_376b067ea02ed686",
-      "headline": "Lãnh đạo chủ chốt của HĐND và UBND tỉnh Lào Cai nhiệm kỳ 2026-2031 - BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
-      "headlineTranslated": "Key leaders of the People's Council and People's Committee of Lao Cai province for the 2026-2031 term - ELECTRONIC VIETNAMESE WOMEN'S NEWSPAPER",
+      "articleId": "gnews_535f6e0021cf30c1",
+      "headline": "Lào Cai di dời loạt KCN, tạo mặt bằng sạch đón nhà đầu tư - Laodong.vn",
+      "headlineTranslated": "Lao Cai relocates a series of industrial parks, creating clean premises to welcome investors - Laodong.vn",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T05:27:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVzR3aDZWWHU4emNPUFVKQjZYY1R3ZkZvTEk2UXFQSllFTHpCM3pOR09WaElSZ3lJSWF4SHBqUndnNGU3QWV0RXZLN290eHFHUnhkanVzSkl1ZmcxaUYtY3ZxS1BqOF9zMlVQZ1k5NExIaDBCZUVmUG84bk9QSldrTlJzZTUyTXVkdVhTemNmYmozRkM3SWI3c3RreURQVmdlbTFabjdLT3A5Y2JZd3Y0cGhfZw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
-      "headlineJa": "2026年から2031年任期のラオカイ省人民評議会と人民委員会の主要指導者 - 電子ベトナム女性新聞"
-    },
-    {
-      "articleId": "gnews_28c2528169f1a1fa",
-      "headline": "Quốc hội Lào thông qua dự án đường sắt kết nối với Việt Nam - baohaiphong.vn",
-      "headlineTranslated": "Lao National Assembly approves railway project connecting with Vietnam - baohaiphong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T05:18:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWmZoRElHNXMtdXN1S0staWp5M2VicWc1dmxGRkNhVEpPWFRLNXAtZmVudlJmS2F4RTdyV2k5UWMwUnk0TklYZF92M3VxdHdlMEMyM1lURkUtNU1RRDdjSTZ2cFRNTGwtcno3NTF6Y2hkSXBoRXJZTkJhcHg0WXhhQnNId3dZa1B1ZFBLQTVicUxlNnVCTlBDVnJ3?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "baohaiphong.vn",
-      "headlineJa": "ラオス国会、ベトナムと結ぶ鉄道プロジェクトを承認 - baohaiphong.vn"
-    },
-    {
-      "articleId": "gnews_420e05162bfecdbb",
-      "headline": "Ensuring suitable learning and living conditions for Lao students in Vietnam. - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T04:27:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOW5XdFU2bWYyV1VHbnZOX0dVTHNVcEZLVFFFdzRLNnBaVWJ0b2tGZG1ad0ttM2tQZzN6X3lCU3FMWXJRX0tFRlJtWEg2WGQ1Q29CNmNEdXpRZElDVTNlNDc3eUFxUDdxYTVCRWFGWE1najZpMlMtdTlEN2wwcEFRM2RRdTluSTRiUVFKUkp0eDY5UUREYnVSbGM5NA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "ベトナムのラオス人学生に適切な学習と生活条件を確保する。 - ベトナム.vn"
-    },
-    {
-      "articleId": "gnews_306b32c17c0217de",
-      "headline": "Bảo đảm điều kiện học tập, sinh hoạt cho lưu học sinh Lào tại Việt Nam - Vietnam.vn",
-      "headlineTranslated": "Ensuring learning and living conditions for Lao students in Vietnam - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T04:27:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVFNWTENFcUFzMFRmTkVGMC1TUlBfRUt6VXJwcmFYZWsxLUZiRnRyOWNwdHZsRXhrcHo5ZGVKSVdxak83NklMS3N5dXI4TjJKRGVQU25CMnlOWmR1d3hCV0M3MkloSnltS3pSeVgtNWxOeC1VSGlLb3EwUGJJakYzVkZOX1FNUHRJSDVrQ2R0TVVGWlhmSU00?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "ベトナムのラオス人学生の学習と生活条件を確保 - Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_f3a891d3024c6365",
-      "headline": "Công đoàn Lào Cai đưa văn hóa trở thành “điểm tựa” cho người lao động - Laodong.vn",
-      "headlineTranslated": "Lao Cai Trade Union makes culture a \"fulcrum\" for workers - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T04:24:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkpzV3VPSHFsMEtCZE96Q1J4M0h6bEpMLWxrR3FSaEo4VXpYYW1HWGFIbHNtb0hOM2k2ajRaV0RjYzZ6MEhpSW0yUTZXS0hfbUIyWVpWZmNtZEY5cV9HaXNCelVXdy1LMWFfOVhVdDdPZTRTaGN0Wnd6aHFHcldrQk52RTFQM1J0TGs5dWQ2Z3NadWlwc3B1S1hpYmNJTEJfVzlMWXE3UExmNnRa?oc=5",
+      "publishedTimestamp": "2026-03-28T05:30:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWg3ZVk2MVBucXpVNEtYNW5aU3RJT2Q0OG1UYy1ZUXhrQlI0TEtuTkJFU09US213TW1YZ0oyVXVXRGNScmM4eFk2U0VqVHptdUlLeVd2MDE5UVdGRy1XWFR3bzNIMlVTTWZ1a1ZpaDluVVk2dEEtRHF2cER1dklkczQxZ21kQkp4T25CdFpOUjA3UXFhdHc1Y1lPUkFkbFk?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Tuberculosis"
@@ -989,7 +2021,27 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Laodong.vn",
-      "headlineJa": "ラオカイ労働組合、文化を労働者にとっての「支点」に - Laodong.vn"
+      "headlineJa": "ラオカイ、一連の工業団地を移転し、投資家を歓迎するきれいな敷地を作る - Laodong.vn"
+    },
+    {
+      "articleId": "gnews_23d84000e5d8951d",
+      "headline": "Đếm số ca COVID-19 hàng ngày ở Việt Nam còn phù hợp? - Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "headlineTranslated": "Is counting the daily number of COVID-19 cases in Vietnam still appropriate? - Ha Tinh province electronic information portal",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-03-28T04:34:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd1JDS3R3eUpWeV92bThacjVRb0hLSjE0UXJ6bUlhdEtiWGhzamRkM1NPMnFJUU5WeVE3Y3hEZW1Ldm5EZmprX3hXd1NLUV83TXBsSFJfMDh5c1JVUU56MnlTQVFRZUFiSWxMNmQ0X2RLZEtxZ2U3b2NvWmtBNEY0anZHbWJiMWp6YU1ZN2FR?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Ha Tinh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
+      "headlineJa": "ベトナムにおける毎日の新型コロナウイルス感染者数をカウントすることは依然として適切でしょうか? - ハティン省電子情報ポータル"
     },
     {
       "articleId": "gnews_6e8b91e8b3523275",
@@ -1014,7 +2066,7 @@
     {
       "articleId": "gnews_c932199f3a2a9dd4",
       "headline": "Đề xuất ngày 24.11 là Ngày Văn hóa Việt Nam, người lao động được nghỉ, hưởng nguyên lương - Laodong.vn",
-      "headlineTranslated": "Proposal for November 24 to be Vietnamese Culture Day, workers will have time off and receive full salary - Laodong.vn",
+      "headlineTranslated": "Proposal for November 24 to be Vietnamese Culture Day, workers will be given time off and receive full salary - Laodong.vn",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-03-28T04:19:59+00:00",
@@ -1029,7 +2081,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Laodong.vn",
-      "headlineJa": "11月24日をベトナム文化の日とし、労働者は休暇を取り、給与を全額受け取るよう提案 - Laodong.vn"
+      "headlineJa": "11月24日をベトナム文化の日とし、労働者に休暇を与え、給与を全額受け取るよう提案 - Laodong.vn"
     },
     {
       "articleId": "gnews_7a6f58f41e9f8e2e",
@@ -1052,66 +2104,6 @@
       "headlineJa": "毎年11月24日に従業員に仕事を休み、給料を全額受け取るよう提案 - ティエンフォン電子新聞"
     },
     {
-      "articleId": "gnews_77647fc58bfd6c02",
-      "headline": "Lào Cai tạm dừng hoạt động dù lượn gắn động cơ vì phản án gây ồn - Laodong.vn",
-      "headlineTranslated": "Lao Cai temporarily stops motorized paragliding activities due to noise complaints - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T04:10:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc0c4SDhKQzVQLUQ0Q3lfOGpnN01EQVhmTnhfLUVldy1ub1RPYkZPMEFwa0JMWFh2a1VzekZTR1hSMUFuUWp4UlBTLVhXSnRVQUZTTWJlRFNxRS1fTWlqYW5hWXZIUVQxNU9QMjNXNndNQk9QbGJpTTM5eHFIUi16WllRWkFsSUxIdFZhOS11RzZrVTNGU29SaDZPMlpjSmZMdjhnbg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "ラオカイ、騒音苦情のため電動パラグライダー活動を一時中止 - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_5e14ddf7eb6adec2",
-      "headline": "Giải bài toán dịch bệnh và môi trường bằng mô hình chăn nuôi tuần hoàn - Báo Nông nghiệp và Môi trường",
-      "headlineTranslated": "Solving the problem of diseases and the environment with a circular livestock model - Agriculture and Environment Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T04:01:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVndhdEVjZlVnWkpwZDMwMEppaWVRUktYMm1BOGYzTWdVRl9valVfTjIxaFJZVHQ1V3JNQUpEQ3VwVXRDMlVmc3JVdHdVM2FPNnY3TnhhSFNVLXhWN3kwclhXTUNXbExrUnhVLVNLRUtLeU5IczBIbkdDTkVRTzhQZWdjN0V3RHVaYldJZXIwWXQzZlRJSGNUXzBlZjdEWmFwdDVhZVg2V2NyVkFPUDlDdWFTcnE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Nông nghiệp và Môi trường",
-      "headlineJa": "循環型畜産モデルで病気と環境問題を解決 - 農業環境新聞"
-    },
-    {
-      "articleId": "gnews_37491bdac514ab35",
-      "headline": "Cục TDTT Việt Nam đón nhận Huân chương Lao động hạng Nhất - Báo Văn Hóa",
-      "headlineTranslated": "Vietnam Department of Sports and Sports received the First Class Labor Medal - Van Hoa Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T03:51:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbTVQdnIyUWhvYVpCUTZReW14NWM3ZldSdXBydlpRSURZdjhCa3hKb1NOOE5LNlBubUdHU01aYlBxSy1jYUtvSjQ5RTliaUd4SkRTcVF5a2J5aU9oLVJfeU40STNaVXQ2Nkp1T1V0YVNqLUp0djVhYWcySUNuak5OelNyaXU2VFhUd0h4a1UwdlRvTm9xOVFUaWpzM1pNbGNnTUE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Văn Hóa",
-      "headlineJa": "ベトナム体育省が第一級労働勲章を受章 - ヴァンホア新聞"
-    },
-    {
       "articleId": "gnews_c2707987f56711dc",
       "headline": "Chăn nuôi Việt Nam còn nhiều dư địa bứt tốc - Laodong.vn",
       "headlineTranslated": "Vietnam's livestock industry still has a lot of room to accelerate - Laodong.vn",
@@ -1129,27 +2121,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Laodong.vn",
-      "headlineJa": "ベトナムの畜産業にはまだ加速する余地がたくさんある - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_2d45e278bde80f19",
-      "headline": "Tổng Bí thư dự Lễ kỷ niệm 80 năm Ngày truyền thống ngành Thể dục Thể thao - Vietnam+ (VietnamPlus)",
-      "headlineTranslated": "General Secretary attends the 80th Anniversary of the Traditional Day of the Sports Industry - Vietnam+ (VietnamPlus)",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T03:45:16+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdnJ4dy1Cd093VXNQSGc1UVRhQVVyQ2d6azU5d2xEV09BMTQ1aWxjUmFhWk1EeVdhOGhzX2dsU3VQendkLWxQTm5xZXd0M0Z2VjJYdW9qMzhqeFdvcm9xb3hGZVFEeVJEMkR2Zk1ray1xb3B1bzRGQlJad0I3RVg2RmlxVTBRcS1YYjVFNUgyNUJ2VXV1a1pPeTVaaUUtdlVVQ1MxeTk4b1F5cUFpM0l0N0ZDWG1kTzg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam+ (VietnamPlus)",
-      "headlineJa": "書記長、スポーツ産業の伝統的な日80周年記念式典に出席 - Vietnam+ (ベトナムプラス)"
+      "headlineJa": "ベトナムの畜産業にはまだ加速の余地がたくさんある - Laodong.vn"
     },
     {
       "articleId": "gnews_4c7229caeb7ea1ac",
@@ -1172,66 +2144,6 @@
       "headlineJa": "ラオス国会、ベトナムを結ぶ鉄道の原則を承認 - フート新聞"
     },
     {
-      "articleId": "gnews_d40ec0aed0cc3b95",
-      "headline": "2.330 đoàn viên, người lao động tham gia giải chạy ở Bắc Ninh - Laodong.vn",
-      "headlineTranslated": "2,330 union members and workers participated in the running race in Bac Ninh - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T03:16:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFBROXNEOXhILTBCcllUZFJ1UXByYzZKS1ZWQ3A5RV84OG1kdzBXTEZtV21uMVY4Z0dVWEN1NjdMbFhRV2x3c0VFS0RRWVpiNTNLOFFVYWJFWG9zZjJ0Qk5jblM4NFFLS0xXTHpLQmtwN19pRWtSQTltaGxVTjQzY0JVY3V2bDhjSF82Q1JpaGNNOVgwZnZEMXVSREZLV2lOakppUFNSaw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Bac Ninh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "2,330人の組合員と労働者がバクニンでのランニングレースに参加 - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_01c5e4c653ed2df3",
-      "headline": "Quốc hội Lào xem xét, quyết định nhiều vấn đề quan trọng của đất nước - vov.vn",
-      "headlineTranslated": "The Lao National Assembly considers and decides many important issues of the country - vov.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T03:01:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQW9RYUFlQ2ZWZU5zdXN1aEdYVTNNSUl0cnluZXhVcnRIZ05KZkJOZHJocTlBRXNDSjZLYjlYclYxd1dUS2pKQ29mZUFhTjZzN29abE55MDRkREJPTGRCYWg1eFpUclVBaGk4enl4c3ZJYmZFSzZZRDRYdjVJcUdfdzNIbkhCTU0yNUxRRU9CZU5USnVzVmtSU0hrTDBDaEptZ1RjN3plaTNxdzI2?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "vov.vn",
-      "headlineJa": "ラオス国会は国の多くの重要な問題を検討し、決定します - vov.vn"
-    },
-    {
-      "articleId": "gnews_91e0a4fb01247715",
-      "headline": "Lao động trẻ cần giải pháp đột phá về đào tạo - Laodong.vn",
-      "headlineTranslated": "Young workers need breakthrough solutions in training - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T03:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ1doLXBZYWdNQ1U4RnlrUk5ISjRfQmxsQkczN2R4XzBmTk44NndRTzdaZVNKYkVoLW9fMGxIb0ZoT3JQcE5BZ0pWNGo3ZGVoWHNNelU0UGFEdUNnZzFndWZGVUlOaUlkM0xfbV9WU2ZoTnl0cUE0ZFRjNDk3VHFsRHVpc01nVUNUQmVUZ2VnNA?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "若い労働者には研修における画期的なソリューションが必要 - Laodong.vn"
-    },
-    {
       "articleId": "gnews_44a0f1a4291d2d08",
       "headline": "Cục Đường bộ chấn chỉnh thi công cao tốc Nội Bài - Lào Cai do nguy cơ mất an toàn - Laodong.vn",
       "headlineTranslated": "Department of Roads corrects construction of Noi Bai - Lao Cai expressway due to safety risks - Laodong.vn",
@@ -1252,29 +2164,9 @@
       "headlineJa": "道路局、安全上のリスクを理由にノイバイ～ラオカイ間の高速道路の建設を修正 - Laodong.vn"
     },
     {
-      "articleId": "gnews_e36af016d8c5f54e",
-      "headline": "Đề xuất trình Quốc hội quy định ngày Văn hóa Việt Nam 24/11, lao động được nghỉ lễ - VnExpress",
-      "headlineTranslated": "Proposal to submit to the National Assembly regulations on Vietnamese Culture Day on November 24, giving workers a holiday - VnExpress",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T02:34:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTF9HWkN1ejdybGxmOEU3a3JVT3h3eENNclJaTWVad2dpV2UzYmlTaW5WcnRvcFloeHUtYWxZMFBEcmZVRW1jemxNYVdlZXVEMDJUZVZxOHJzVTZVN1hlLWdKOWtGY3NOelZQZWl2UjJvT3lJaWlKSXhocENncEJSYWNTWnljTkd4SjNjLXBSZ2NGcFpzMk9veG1wNmxmUUt1eWUwTHpHdHM3WHd2SzB4bW10VFZidFE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "VnExpress",
-      "headlineJa": "11月24日のベトナム文化の日に労働者に休暇を与える規則を国会に提出する提案 - VnExpress"
-    },
-    {
-      "articleId": "gnews_d668887bdc0feb2d",
-      "headline": "Nhận thù lao 3 triệu đồng/lần sẽ bị trừ 10% thuế thu nhập cá nhân - Báo Thanh Niên",
-      "headlineTranslated": "Receiving a remuneration of 3 million VND/time will have 10% of personal income tax deducted - Thanh Nien Newspaper",
+      "articleId": "gnews_8608d29c826f96e1",
+      "headline": "Nhận thù lao 3 triệu đồng/lần sẽ bị trừ 10% thuế thu nhập cá nhân - thanhnien.vn",
+      "headlineTranslated": "Receiving a remuneration of 3 million VND/time will have 10% of personal income tax deducted - thanhnien.vn",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-03-28T02:29:00+00:00",
@@ -1288,8 +2180,8 @@
         "Thua Thien Hue"
       ],
       "dataSource": "Google News",
-      "sourceName": "Báo Thanh Niên",
-      "headlineJa": "1回あたり300万ドンの報酬を受け取ると、個人所得税の10％が控除される - タイニエン新聞"
+      "sourceName": "thanhnien.vn",
+      "headlineJa": "1回あたり300万VNDの報酬を受け取ると、個人所得税の10％が控除される - thanhnien.vn"
     },
     {
       "articleId": "gnews_a0daa8e5ea92b703",
@@ -1310,46 +2202,6 @@
       "dataSource": "Google News",
       "sourceName": "Báo Hà Tĩnh",
       "headlineJa": "ラオス、ベトナムと結ぶ鉄道・高速道路プロジェクトを推進 - ハティン新聞"
-    },
-    {
-      "articleId": "gnews_ce731b266b662ada",
-      "headline": "Lao động lắp ghép: Xu hướng mới trong thị trường việc làm - Laodong.vn",
-      "headlineTranslated": "Assembly labor: New trend in the job market - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T01:42:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcEt6cTl1WjlCUERLMGp0YkItMnBZdkQyWmtiTkI2UDlHdm5Gd3Rxa200N01GY09ncTJvcTVmQzg4X3BsV1Y3Z0wwanN5ZGtDR3ZraGNwMEtOMlZ3UXZoWnItbnB1VkZQem51U2wtWTNxdkdiN1VwMHNWb2prZ3YtQkpKaFluWUl4ZEpPMGVrVkhqZWVHdWZhQXZkQUFVdw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "組み立て労働: 雇用市場の新たなトレンド - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_0ed3537d07fe3316",
-      "headline": "Đề xuất mở rộng miễn, giảm thuế cho người lao động - Tạp chí Điện tử Luật sư Việt Nam",
-      "headlineTranslated": "Proposal to expand tax exemptions and reductions for employees - Vietnam Lawyers Electronic Magazine",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T01:38:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlV4OGNhWHJmWlNvWEYtYlNWdWlqS1lyWFZXMzNBUk9pbi1KaFd4YTRWTUJqVjA0YXFzdThfNEdPRHFaM1RhU1lyTUF1T0hIRXZMWTFlRjB1WURVUjFnOXdtSDZkVWFxbWtmcXM3NHpueHYtTjRXTUZwYlpJNFR0ZGluZjM?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Thua Thien Hue"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Tạp chí Điện tử Luật sư Việt Nam",
-      "headlineJa": "従業員に対する免税・減税拡大の提案 - ベトナム弁護士電子マガジン"
     },
     {
       "articleId": "gnews_bb517a8d3570fcdc",
@@ -1389,7 +2241,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Ngôi Sao VN",
-      "headlineJa": "ベトナムの有名な労働英雄の家族：父親は教授、ホーおじさんのボディーガード、子供たちと孫たちは皆よく勉強している - ベトナムスター"
+      "headlineJa": "ベトナムの有名な労働英雄の家族：父親は教授、ホーおじさんのボディガード、子供たちと孫たちは皆よく勉強している - ベトナムスター"
     },
     {
       "articleId": "gnews_7b7e2917ffa38b06",
@@ -1432,66 +2284,6 @@
       "headlineJa": "ベトナムとラオスの警察が協力して歩んだ65年の旅 - Vietnam+ (ベトナムプラス)"
     },
     {
-      "articleId": "gnews_748f4ccd834015ed",
-      "headline": "Não mô cầu ghi nhận các ca mắc mới, người dân cần chủ động phòng bệnh - Doanh nghiệp Cuộc sống",
-      "headlineTranslated": "Meningococcus records new cases, people need to proactively prevent the disease - Life Enterprise",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T00:30:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRVRkSHNCSFNiLUZtU1lKSFJIOGpEZjNNckE5WkxnWGRJNXZSd3c4QUZPRTNWZEJHcmktbUxoM3MtdjB2aDE0QlpnUlNuRTR6dG41cmJKNjdEYWxTVXBCbVYtbEt6Rld1MlhPeDI4RVE4S3ZSNDlmblZsTjdfWkVzbS1fVXdNdE5kYklxeFowLU9BUXcwdHRwWUg2b0tHYm1wd3VlQS1hSGFGNmpDa0FyRGRn?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Doanh nghiệp Cuộc sống",
-      "headlineJa": "髄膜炎菌が新たな症例を記録、人々はこの病気を積極的に予防する必要がある - Life Enterprise"
-    },
-    {
-      "articleId": "gnews_ab5e8d34f0848e6d",
-      "headline": "Bế mạc Chương trình Lãnh đạo cao cấp Lào lần đầu tổ chức tại Việt Nam - Vietnam.vn",
-      "headlineTranslated": "Closing ceremony of the Lao Senior Leadership Program held for the first time in Vietnam - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T00:08:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzMyZ3lKRi1HRXpKbmdTb1JlLXNkb0FWeXhqUVdBTmY4MUd4MW4tSlFvaU9oUU1KR1hCbU9vOU42eG1McUg5bjk2cXU0MTFHbHFrbExwVXc2Y01kd2ZBX3ZjZzEzTmlWOEtraVoxaW5yb3dTUTN1LWc3YjZtYTZETmREdHpzd0MtZDl1RGdMSzkwODFjSUVR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "ラオス・シニア・リーダーシップ・プログラムの閉会式がベトナムで初めて開催 ​​- Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_40ddefbdca37df51",
-      "headline": "Lào phê duyệt dự án chiến lược kết nối đường sắt với Việt Nam - Báo Sài Gòn Đầu Tư Tài Chính",
-      "headlineTranslated": "Laos approves strategic railway connection project with Vietnam - Saigon Investment and Finance Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-28T00:05:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT0lHMy01VVB0blJ6NWhDWFh0NWt1bjBoQXlveHFsU2w0VG9kY0FIb0lIMERCV2g1ZGN0bWw0Sm9vQi1URGRrQnZNNGJuNUlQR1hZbVlnZzFhMWlkZkp4TkhESlQ0Qkppd2FILUYtZHI0QTV3dkhDUU9TczJzbS1YcWZyVnpseHktcUtpQnNyS1NfTGVfWUp1a1BvSmlaSmdJOWV4TQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Ho Chi Minh City"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Sài Gòn Đầu Tư Tài Chính",
-      "headlineJa": "ラオス、ベトナムとの戦略的鉄道接続プロジェクトを承認 - サイゴン投融資新聞"
-    },
-    {
       "articleId": "gnews_6ecb436c56bada9c",
       "headline": "Thi công dàn trải, cao tốc Nội Bài - Lào Cai tiềm ẩn rủi ro tai nạn - Laodong.vn",
       "headlineTranslated": "Spreading construction, Noi Bai - Lao Cai expressway poses potential accident risks - Laodong.vn",
@@ -1510,26 +2302,6 @@
       "dataSource": "Google News",
       "sourceName": "Laodong.vn",
       "headlineJa": "拡大する工事、ノイバイ～ラオカイ高速道路は潜在的な事故リスクをもたらす - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_f1da1c51eb5c2c35",
-      "headline": "Công đoàn Điện lực Việt Nam trang bị kiến thức về chế độ chính sách đối với lao động nữ - Laodong.vn",
-      "headlineTranslated": "Vietnam Electricity Trade Union equips knowledge about policies and regimes for female workers - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T23:33:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcHFXM0FMVXpLS3NUYmNldEpsSEtRaE9qMWttRXowQmoxWmFLeWpoX0JtVEpPejdKQ2V5VHFxUG1kLVljUHJ2amVvemxCTzJFNkJ6dDlIUUstWGZoYUJ0OHM3MUpLd0hUMUgtTEJqbWVKTUxSOFZNeXdlS0dEbmIyRHpYSG95cGhYUXh4YnBNcWdqWTM4TGxoNTA3c0U1QWtqN0p3RDdjaENsczE5WFNBM0JNMURNVU9GRVR2cjFKcjkxWTVTOTVCcUlB?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "ベトナム電力労働組合、女性労働者向けの政策と制度に関する知識を提供 - Laodong.vn"
     },
     {
       "articleId": "gnews_931e6f036f0d4f8b",
@@ -1552,266 +2324,6 @@
       "headlineJa": "感染症の流行には引き続き新たな変異種が出現し、蔓延するリスクが予想される - ハティン省の電子情報ポータル"
     },
     {
-      "articleId": "gnews_d806125dd6077290",
-      "headline": "Người lao động tại TPHCM chật vật mưu sinh dưới thời tiết nắng nóng gay gắt - Báo VietNamNet",
-      "headlineTranslated": "Workers in Ho Chi Minh City struggle to make a living under intense hot weather - VietNamNet Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T23:02:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOUtVTnNZYkVwVHlUTWZFSFNUN1pZSWNpa0RGWEViYmVRckpqTUQ2dlpjeEZ3cUhBUkVnc2dOdjJJUHVERzF2RmFlNXREdk82ZHlxc2RtX0pyeVFIWl8waGk3ZzFHOUlRdTJDQ2F0SjgzOU1uRVBTa19vblN3Z1lqSl8xQ0R5bXJCdU5kdG5aTEFtT3VYc0F0Q21tTE1ab0dxaVN4UnpyeFl2M1dsc2Jz?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo VietNamNet",
-      "headlineJa": "ホーチミン市の労働者、猛暑の中で生計を立てるのに苦労 - ベトナムネット新聞"
-    },
-    {
-      "articleId": "gnews_1696a4abb8ede625",
-      "headline": "Tác động của lương tối thiểu tại Việt Nam - International Labour Organization",
-      "headlineTranslated": "Impact of minimum wage in Vietnam - International Labor Organization",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T21:28:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1STWF0eHZvNC1JT2FxU0dXZmJtN1UyOFA0dzB2SzJUbHVOXzNaUzFsY2E2ZmlnbE4xZVJUdDlrODJfNnJYOW05N3RjdFc5b0V5LVIzZDdoQ2pRVmdNVjZTRzZnTS1KNTV2NzNiS05kNXcxUG8?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "International Labour Organization",
-      "headlineJa": "ベトナムにおける最低賃金の影響 - 国際労働機関"
-    },
-    {
-      "articleId": "gnews_eb52d842ad50a7d9",
-      "headline": "Anh hùng Lao động đầu tiên của Việt Nam nhận giải VinFuture, lấy bằng 'bác sĩ nông học' tại Nhật Bản, được mệnh danh 'phù thủy cây lúa' - nguoiquansat.vn",
-      "headlineTranslated": "Vietnam's first Labor Hero to receive the VinFuture award, earned a 'doctor of agronomy' degree in Japan, was nicknamed the 'rice wizard' - nguoiquansat.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T15:34:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRFA3LWh2WHJMU2lLd21XUnpvaDVibGRTV2x2elRNTHgtVlhzM0QyOEVwaHA5U2FjM28yd0h5dXdfTFNFb2tvYlF2QjFLX25UNnVrQlFGTDRZNzdsaTE1Z0dsak1GM2VWTk9KaFJtdGVqZGVmaHdMUTNhZVd2MGJlUVBxZlk5N1lnT1hLSDYzRUZCQmhnM2VBY19TaE9rSnBQQ1dRaEtyTGtYYmRNbEFKYjY3Q09DNWwwYW9BLWhCXy1Ec0NGS0Y5SHJnc3lYcEpYTzRKR280MV84YWlkU3hWVVVPM3VFM1RZc1ZIMkhjenFzUlFaclcxNg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "nguoiquansat.vn",
-      "headlineJa": "VinFuture賞を受賞したベトナム初の労働英雄、日本で「農学博士」の学位を取得、「稲の魔術師」と呼ばれた - nguoiquansat.vn"
-    },
-    {
-      "articleId": "gnews_184dec7d38ecc7ef",
-      "headline": "Hand, foot and mouth disease cases increase five-fold in Q1 - vietnamnews.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T15:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUVtVFRnQ3ZOSldHTTZyN0J6aUlOTkVyUTJlRVk5UnF4QlZYNldScXltMkJEazFhRjBaYS1vS0k1OS1mMC16UEZjZ0pQTWlxLUlYLUZkbEh4NHA4QnM5NWlSMTFBU2JSdU5fSU5qdXEwelA2QmlqUUdOOEhFbnE3WEJfRUI0bFljZVRhNXMwYzRtM3RucXBzMk1oRjRrX2tRYldxaw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "vietnamnews.vn",
-      "headlineJa": "手足口病の症例は第1四半期に5倍に増加 - vietnamnews.vn"
-    },
-    {
-      "articleId": "gnews_344bf0306163cce6",
-      "headline": "Giải Cầu lông – Pickleball cán bộ, người lao động ngành Văn hoá, Thể thao và Du lịch thành phố Hải Phòng năm 2026 - An ninh Hải Phòng",
-      "headlineTranslated": "Badminton - Pickleball tournament for officials and workers in the Culture, Sports and Tourism sector of Hai Phong city in 2026 - Hai Phong Security",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T14:54:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOEJWbkE1R2JYMjd2cmp0UnViazZkcTIzcjM2bDJxVHBFSzZhX0Zvd3RYbkQxUGRhWEhvSE91TmRnQ3Z4RTZiVU9jWFYzSHRURU5icjR3cEhtLW1wc0ZnTEpRYmZnZkROaWN1T3BoalE0Y015WGNXZXdrNVdZSGstR0JjZjgxWUJEQ1Btb0FvMFBLeXJhUjRvc0NDVkJXekcxV1ZoeUFmQkFJLXVBR3p0MHkzT3g3by0tcnp4OWc0Sm1tdF9mVEVqOWJuR1R4ZUh4YTVPRQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Hai Phong"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "An ninh Hải Phòng",
-      "headlineJa": "バドミントン - 2026年にハイフォン市の文化、スポーツ、観光部門の職員と労働者を対象としたピックルボールトーナメント - ハイフォンセキュリティ"
-    },
-    {
-      "articleId": "gnews_5eb629499a39b5cc",
-      "headline": "Củng cố và nâng tầm hợp tác giáo dục Việt Nam - Lào - baotintuc.vn",
-      "headlineTranslated": "Strengthening and enhancing educational cooperation between Vietnam and Laos - baotintuc.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T14:38:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV3FsQmFfR0pxNVpLWVdWQkNaVFFjZ2RxY29aOUVucmVfNmhWV25JNV9zeXVDVWdGMU84WXloZVZQUGdHdC1vWFIzcGt3MzhOdHdESUEyUmxsUEFxVG9Ec1R4U2RsZDhSclFBRTMyVTNNR3Z4NjdzcWFkaGswZ2JHNGFwNjQ0YkxLc3d3N3FsV0FQQzByMDF5TEh2OElrYUFEc1dR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "baotintuc.vn",
-      "headlineJa": "ベトナムとラオスの教育協力の強化と強化 - baotintuc.vn"
-    },
-    {
-      "articleId": "gnews_7169261c8e9db1f2",
-      "headline": "Loạt lùm xùm của Shark Tank Việt Nam: 4 'cá mập' vướng lao lý, startup cũng không ngoại lệ - nguoiquansat.vn",
-      "headlineTranslated": "Shark Tank Vietnam's scandalous series: 4 'sharks' have legal problems, startups are no exception - nguoiquansat.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T14:04:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZlEyM0ZaeU05Wi1JZ2owcXRaMEg2cmpCdEtFTEd3UXFteEJCbHE2aEJmQ2xYcHBvbmZtdXRBNUV0b2QwTmMxYTE5bEVyRjhUejM4SERaNjU5YWo2a1pXZk9vTTA0VWRHdlNKclVLWThKOHdic2JRcnctV3FBdzloSEdDZG5yS1NDQTdXT1ZhaEUwVVdGUXc5T1gxR0NpNlpYam1TOHBqcjB2X1VRS0dfQXB6ellDN0FVR0NiWDREWQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "nguoiquansat.vn",
-      "headlineJa": "シャークタンクベトナムのスキャンダラスなシリーズ：4つの「サメ」が法的問題を抱えている、スタートアップも例外ではない - nguoiquansat.vn"
-    },
-    {
-      "articleId": "gnews_d1c54a03d584ffd4",
-      "headline": "(Infographic) Thương mại Việt Nam – Lào vượt 331 triệu USD, Việt Nam nhập siêu 151,8 triệu USD - Báo Văn Hóa",
-      "headlineTranslated": "(Infographic) Vietnam - Laos trade exceeds 331 million USD, Vietnam's trade deficit is 151.8 million USD - Van Hoa Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T13:40:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTmVwX2dqdFhMYS13UjJNR1pqYmVodFJ3cWpud0lESGx3cmZZa2x5Sm9HRmFHMDNtSGg3cGtmeWZXbGotX1RNUm5yYkhQeW9BeGNaTTl3SW52dXlwbkE2Vzk4dXl3azJKMmRicVR5Mm5HbkJzdVhLdUtSOFZQamZBZjBzMDVvbVBJQTdIWktSaTM5Q2RGaTZFUFN1UTFYekJiOFI5RTdNRlJLZGRFNGpkSGtlME5yMzJfaXFXWjJlT1NpYXRydVhUSFBvWXU?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Văn Hóa",
-      "headlineJa": "（インフォグラフィック）ベトナムとラオスの貿易は3億3100万ドルを超え、ベトナムの貿易赤字は1億5180万ドル - バンホア新聞"
-    },
-    {
-      "articleId": "gnews_21d7417cffb3b2da",
-      "headline": "Vietnam's Hand, Foot And Mouth Cases Increase Five-fold In Q1 - bernama",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T13:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rQjFsSEhTX1FaMGRlZDF6N19uWGRvdl9sMGJ5Z1pYSzBEdU0wQWFRejZ5Q2FJT2ZaVEp3NXNjWnhhbGtFOFpFdGM1aGtTbHJHdFJpX01rdDZfaXVJZ1E?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "bernama",
-      "headlineJa": "ベトナムの手、足、口の症例は第1四半期に5倍に増加 - bernama"
-    },
-    {
-      "articleId": "gnews_ec85edc3a48a738c",
-      "headline": "Tỉnh Okayama (Nhật Bản) sẵn sàng tiếp nhận thêm lao động Việt Nam - Báo Quân đội nhân dân",
-      "headlineTranslated": "Okayama Province (Japan) is ready to receive more Vietnamese workers - People's Army Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T13:28:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYlRiOHU5SFd0QmVWREE2OW9OeUJfUmljYTdFN25tME1ya3BDS21CZk9hNUJJMHR4N1JyX2NiUmZIc25pYUxmdlpCdmM3NDFaQ2p1dy1hSG1hRFZSZUxITFJqZ0J2bG5tNlNrN2w0a21hSGR5U2toX0ZhZ3ByeXl2RWloMm42THg2amptVFBTTVBPM1BxM0RaTlkxOWFqQjZuaWdpOFA0LWdlSHM?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Quân đội nhân dân",
-      "headlineJa": "岡山県（日本）はベトナム人労働者をさらに受け入れる準備ができている - 人民軍新聞"
-    },
-    {
-      "articleId": "gnews_6fe49ed72ec77b10",
-      "headline": "Trẻ em Lào được giáo dục giới tính thế nào, khác gì Việt Nam? - Báo Thanh Niên",
-      "headlineTranslated": "How do Lao children receive sex education, different from Vietnam? - Thanh Nien Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T13:16:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcUFYZTFwUDgyX0toMmZBeldtZXBPNXVLaTZaUUFvZi1ZU09aQmdBMTdnVEZTajgxUGRfZ3lCamJvamtsU0ZmTFI2UFRwV1UwSW5PZERkaTh1WFB6SWE2ZDBha3hPNjhja0FwVzhUWDJMUlVzM3ZIcXI1QzZ0S2NldGVoR3hEcEtQUVdSUnY3Z1Fpc2VabVlFQVF6bG5qOGd1U05rR3lB?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh Niên",
-      "headlineJa": "ラオスの子どもたちはベトナムとは異なり、どのように性教育を受けているのでしょうか？ - タンニエン新聞"
-    },
-    {
-      "articleId": "gnews_06311719442e2c94",
-      "headline": "Lào Cai bầu Chủ tịch và 5 Phó Chủ tịch UBND tỉnh - Laodong.vn",
-      "headlineTranslated": "Lao Cai elects Chairman and 5 Vice Chairman of Provincial People's Committee - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T12:59:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ1J5QVRSbVRqMXNiakxUejRVT21TTGh4ek9kd2RGV2h1cDdLd3V4TXA3aGd3VEc5bnBJZUJ2Y2JDc0txSU81d251NDk4UHNlTV9ZWkk4eHczT3BWRnJ5cTZIUU1IWU4tY1E1aEctOFpzSjNrbkt5OEN2NUw4ZjdIbjZteWg3b3BYQWY1cFlxdTM?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "老蔡氏、省人民委員会の委員長と5人の副委員長を選出 - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_68131b1b5a958933",
-      "headline": "Viện Y học biển đón nhận Huân chương Lao động hạng Nhất nhân Kỷ niệm 25 năm thành lập - thuonghieucongluan.com.vn",
-      "headlineTranslated": "Institute of Marine Medicine received the First Class Labor Medal on the 25th Anniversary of its establishment - thuonghieucongluan.com.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T12:33:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV1U5TVcxSVdDa05TdjBxbzBQVEhaOElCaUE0aWYtdjlXVDBRZEJ2WWdPWWg3OHJVa3VIRFppOFpoWHltWjEydFdKVVNpOWozd3hhVzk2WXotNkZka0t2Z2xyU05VOHhGZ0xlZFNCS21hb0tjUnBFY2YwckM0eEgzTE16WFNNZUFOMkxYTk5HRGt3TkdkdkZXY0QzY2FWUDBVazZsZlVIaGxvT3oxZDB3SW5FdnlIeld4LUNFUGdsQ2pBZV83UHVUR1ZFeXY?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "thuonghieucongluan.com.vn",
-      "headlineJa": "海洋医学研究所、設立25周年を記念して第一級労働勲章を受賞 - thuonghieucongluan.com.vn"
-    },
-    {
       "articleId": "gnews_3d7b1f0c47cbbe17",
       "headline": "Gần 32.000 ca sốt xuất huyết, Bộ Y tế chỉ đạo khẩn - Vietnam.vn",
       "headlineTranslated": "Nearly 32,000 cases of dengue fever, Ministry of Health directs urgently - Vietnam.vn",
@@ -1832,86 +2344,6 @@
       "headlineJa": "デング熱感染者数約32,000人、保健省が緊急指示 - Vietnam.vn"
     },
     {
-      "articleId": "gnews_3c477fee067c17d8",
-      "headline": "Tỉnh Okayama (Nhật Bản) sẵn sàng tiếp nhận thêm lao động Việt Nam vào làm việc tại các doanh nghiệp - hanoimoi.vn",
-      "headlineTranslated": "Okayama Province (Japan) is ready to receive more Vietnamese workers to work at businesses - hanoimoi.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T12:21:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYzFVZlNxalFOQWdEMmlHczFkNGxmdER4QUM1bzQzbnpNVWVYbk9FbEhoc0NxdE02cS15WWs5WGl0dW5CS0k3aTMxalBuNU1vZ3hZLVFUTjlZdzlqUExtTnpIQUdKSWdBZnRKXzB2YUtDMmdtVi1fa0RoTEJkVW1heWMxcGo2dFBtUkhGVllUVnJzb3NOR1JpS3ZOUEhCazBseFBqeDdYczRTOVhTcmRsdUx5TldsNVM5cC1RTzk0YkZwWjlIY0Q5Vg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Noi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "hanoimoi.vn",
-      "headlineJa": "岡山県（日本）は企業で働くベトナム人労働者をさらに受け入れる準備ができている - hanoimoi.vn"
-    },
-    {
-      "articleId": "gnews_46ea593b9dd79e3e",
-      "headline": "Ngôi sao Trường ĐH Lào từng đối đầu Đình Bắc và U.23 Việt Nam: 'Chúng tôi muốn vô địch' - Báo Thanh Niên",
-      "headlineTranslated": "Lao University star once faced Dinh Bac and U.23 Vietnam: 'We want to win' - Thanh Nien Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T12:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ3JuTGlsdUI0cGhXdEJPa3NnR0VoVVd4MmhHeVBiTjN3WksxVmx2RUprX3ZLR2RGRkd3bnNXa2UtelRwQXg0cXN6Q0ZQZkd2QTlpcGh1elplZkFnQThseHZXWEgxSzlHTmFISVNhZ3FGMW5HUWVJeU1taXd1eU9fb29qa0pxY1FFM01wUVlRVVdOa0J6MnJRdnFUM1FOc0N1TlhTQmp1SUlEdXYtc1VLRlRQS2h3UTU5SWc0MWRBNjBiRGJTYWc?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh Niên",
-      "headlineJa": "ラオス大学のスター選手、かつてディンバクとU.23ベトナムと対戦：「勝ちたい」 - タインニエン新聞"
-    },
-    {
-      "articleId": "gnews_65c9360e6f3b52fd",
-      "headline": "Khai mạc Kỳ họp thứ nhất HĐND tỉnh Lào Cai khóa XVII - thuonghieucongluan.com.vn",
-      "headlineTranslated": "Opening of the first session of the Lao Cai Provincial People's Council, term XVII - thuonghieucongluan.com.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T11:17:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1B0NGdBR2FTb1FPRUlwNm53aGc1WUhpelROVTBwNHQ5SV80VTFPQkgwaG43enppc0JQTXpyZThFTlVnM0M5N09XOXA1VUxJNlNxS0RDeHlQM2dQb2NOYTAwckhfNlA0UzlTT1pUNlhqRkRfMWhHd1dab3FmSl9HTUszNTBrSDF3R012Y3Y0ZWY2cF9vUEZ0cXczOXlNQi1a?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "thuonghieucongluan.com.vn",
-      "headlineJa": "ラオカイ省人民評議会第17期第1回会期の開会 - thuonghieucongluan.com.vn"
-    },
-    {
-      "articleId": "gnews_d316f9f7204aa86a",
-      "headline": "Xã Lũng Cú chủ động phòng, chống dịch bệnh trên đàn vật nuôi - Vietnam.vn",
-      "headlineTranslated": "Lung Cu commune proactively prevents and combats diseases in livestock - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T11:07:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZFhRVEFTNmdIUkg2a2laVi1kWlFfSER6RnBDaG1OWGpLT016LWtFZ0hmRWNaU184WGdFRkM5OG82TXUxdWxhV3RoNEY4dEFmaEZYWFZHdDJ5VExiZ3BaS1lyYVBYeHhWZ3dHMmFMUFpaT1NDbkJTcFhHel9yT3dWanRvSHZ6dnVlOEE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "Lung Cu コミューンは家畜の病気を積極的に予防し、闘う - Vietnam.vn"
-    },
-    {
       "articleId": "gnews_c3fe24dfa45bee16",
       "headline": "Hand, foot, mouth disease surges in major Vietnamese cities amid EV71 virus concerns - Tuoi Tre News | The News Gateway to Vietnam",
       "headlineTranslated": "",
@@ -1930,26 +2362,6 @@
       "dataSource": "Google News",
       "sourceName": "Tuoi Tre News | The News Gateway to Vietnam",
       "headlineJa": "EV71ウイルスの懸念の中、ベトナムの主要都市で手足口病が急増 - Tuoi Tre News |ベトナムへのニュースの玄関口"
-    },
-    {
-      "articleId": "gnews_be69be5d7024c8cb",
-      "headline": "Công ty Tây Nam tổ chức hội nghị đại biểu người lao động năm 2026 - Quân Khu 7 Online",
-      "headlineTranslated": "Tay Nam Company organizes a conference of labor delegates in 2026 - Military Zone 7 Online",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T10:33:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEVtQUpiWG95V0VGTmhMNUZpaUhTR0I2OVAzVDV1RTlmdWstUklrQklBT013bkZpSFFTYlZMM2g5TVV2ZnluMHlRMEM5YVVNSmk0aVJiU1RjZVE1RUpkaWJGMTk4VWZibkVsb1dYdEFKOER2alFOcmw0MmhpNDNNenVyWGVoOHFrRkVnLWE3NzJ3MERGTzJHbW0wbHBVSkIzUHdFRTVJelFkWE12ZkpKdzlSMmZTTHM?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Quân Khu 7 Online",
-      "headlineJa": "Tay Nam Company、2026年に労働代表会議を開催 - Military Zone 7 Online"
     },
     {
       "articleId": "gnews_9584d8cb1c8d9327",
@@ -1981,8 +2393,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbGZNWG9taC16TVgtbFY1QXdrdlpIcHJ0MlItWjk0MjFTaUdVbmg0TWJJMHllX2w1dFE2Uno1OWNRbDhwZ3FyRVhnUkZrWW96M0d0WWVZZEs1NGJlbF92eDdrWkZ2VVhXdXAxU3lSTXZNOXAtNFE0cDJhS3pNek9vRGtBRTVVMHdQNklZbFhTNnljYkt6U0t3dVA4VFN0R09ia2QxSWVoWXRIcmFnV1BKWF9CVWw4UTg?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
-        "Dengue",
-        "HFMD"
+        "HFMD",
+        "Dengue"
       ],
       "locations": [],
       "states": [
@@ -1991,46 +2403,6 @@
       "dataSource": "Google News",
       "sourceName": "BÁO SÀI GÒN GIẢI PHÓNG",
       "headlineJa": "デング熱と手足口病の流行が非常に急増、保健省が緊急指示 - サイゴンGIAPニュース"
-    },
-    {
-      "articleId": "gnews_d13816b074c4d0b2",
-      "headline": "Một nhóm khách Đông Nam Á đang âm thầm tăng hiện diện tại Việt Nam - Znews",
-      "headlineTranslated": "A group of Southeast Asian tourists is quietly increasing their presence in Vietnam - Znews",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T09:00:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcFQ1WF9PUVo4QkRQa045cV9aMWYyZEh3R3lrV0JNeDJMa2R0bUJ2M293WlBnb2llOGNNdGRLSlpURldIRnhGYkxNX21jYkZvaEFuUldNaXh2RENyWG5JUjkxMzlLS0lQVWczbVR1MTBIb0JoUExpenRQUGJ3ZTVsUmxXcmdvOHoxX3pBMHNyV2FmVE9vWVhsSjBfeGUxUHlqRXc?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Znews",
-      "headlineJa": "東南アジアの観光客グループがベトナムでの存在感を静かに高めている - Znews"
-    },
-    {
-      "articleId": "gnews_0e30f1380e79768d",
-      "headline": "Viện Y học biển Việt Nam đón nhận Huân chương Lao động hạng Nhất - baohaiphong.vn",
-      "headlineTranslated": "Vietnam Institute of Marine Medicine receives First Class Labor Medal - baohaiphong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T08:50:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWWZ6UnNsWDgyUUFpTUdIZ0ZCZHBlTjJ5R1FacmNTSlBZYkdvQUxla1ZsQ2pJTTU5LUIzRWw1R0dBR3lnaDI0ZWh0TExIOHBPQmpaMm5uOXVnRUxSUVhhYWszR2RxazBlMG9Ca0FVdTRGSC1uZHVYOFdkVVZhbm5ud2Fzc0xWN0dZbVZ0UkUwdEl1aTBtbTBzRnJBQUNRYVBu?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "baohaiphong.vn",
-      "headlineJa": "ベトナム海洋医学研究所が第一級労働勲章を受章 - baohaiphong.vn"
     },
     {
       "articleId": "gnews_ad8608039e4aeca0",
@@ -2050,27 +2422,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Trung tâm tiêm chủng VNVC",
-      "headlineJa": "デング熱には予測不可能な発症と重篤な合併症があり、国民全体の積極的な予防が必要です - VNVC ワクチン接種センター"
-    },
-    {
-      "articleId": "gnews_c7ab0bc2adc8176c",
-      "headline": "Cảnh báo nhiều trường hợp người lớn mắc thủy đậu rơi vào tình trạng nguy kịch - Vietnam+ (VietnamPlus)",
-      "headlineTranslated": "Warning of many cases of adults with chickenpox falling into critical condition - Vietnam+ (VietnamPlus)",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T08:39:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQTNvM09jZ0N0VlJkNTBPeEdLV1hVZHJ0a3V2Y1Q2TXFTdnRjUmUtQmxVUHVXWk84eHRjam5QMUpTR2tSOVlnVXhlX0czUG90VnRrbkRMUFdqUDJGeEFxWXBOc0FSWUVKcU9NZ1NJUkNSXzAwTUFUcDJkdDZyVkhZN2Y2dXpmRHRYX2lXTUZQaUotUDFpZ1VxSktBOTMwb29lZkg4VzkxYThiY0pDRnlyclg5NTkwa2VVYjYxSQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam+ (VietnamPlus)",
-      "headlineJa": "水痘に罹患した成人の多くが重篤な状態に陥ると警告 - Vietnam+ (ベトナムプラス)"
+      "headlineJa": "デング熱は予期せぬ展開と重篤な合併症を伴うため、国民全体の積極的な予防が必要です - VNVC ワクチン接種センター"
     },
     {
       "articleId": "gnews_d8e3917f63e7fb47",
@@ -2093,26 +2445,6 @@
       "headlineJa": "ベトナムで子ども4人の死亡を記録、手足口の感染者数が5倍に急増 - ベトナムネット新聞"
     },
     {
-      "articleId": "gnews_ca3169366d164637",
-      "headline": "Bệnh viện Thống Nhất và Du lịch Việt Mỹ: “Cú hích” đưa Du lịch Y tế Việt Nam vươn tầm quốc tế - thanhnienviet.vn",
-      "headlineTranslated": "Thong Nhat Hospital and Viet My Tourism: \"Push\" to bring Vietnam Medical Tourism to international level - thanhnienviet.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T08:17:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNX25pX3l1Y0puUXl3TUdYRWVVOXBEZ3hOSS1TQnhBd1pLYmc3V2FCSjJDVTJNVGNHcnpaVFlOcW1JeDdDWDhIWGc4eHAyY1E3Uy1mVGJPWG5KVVl1Nk5NNWhfNnZUT0MxM1VGQ0sydXVnLVNOakdibm05YVM1NHZyMVpfTkExdWt4OXktNmp6VDdrb1Q1WVoyanhqVzNxTkpMTzNqbERKS3VZR3BlWFlaV3BxaTFJWGRZSmJJMkx1eTZjcGE2cThWYTA3MUZRd0xVd3hMVg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "thanhnienviet.vn",
-      "headlineJa": "トンニャット病院とベトマイツーリズム：ベトナム医療ツーリズムを国際レベルに引き上げるために「推進」 - thanhnienviet.vn"
-    },
-    {
       "articleId": "gnews_b27de6b8764eff2e",
       "headline": "Biến thể Covid 'Ve sầu' siêu đột biến lây lan tại Mỹ - VnExpress",
       "headlineTranslated": "Super mutant 'Cicada' Covid variant spreads in the US - VnExpress",
@@ -2133,14 +2465,14 @@
       "headlineJa": "スーパーミュータント「シケイダ」の新型コロナウイルス変異株が米国で感染拡大 - VnExpress"
     },
     {
-      "articleId": "gnews_18a12559bb5620cd",
-      "headline": "Hợp tác giáo dục giữa Việt Nam và Lào ngày càng được củng cố - Vietnam.vn",
-      "headlineTranslated": "Educational cooperation between Vietnam and Laos is increasingly strengthened - Vietnam.vn",
+      "articleId": "gnews_a13e43dd9eeabcfa",
+      "headline": "VIETNAM'S HAND, FOOT AND MOUTH CASES INCREASE FIVE-FOLD IN Q1 - bernama.com",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T07:39:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMHhEN0diS2t0eGtPSnNLdnE2TWNYb1BtazR3RHVEalBna21xR3J6ZnNsWnJsR2FIeE5DUGgtVU1NUUZLU2M4XzJENmxic1daTjhxMDBzQkFSWmhfTWQ4NG9naG5uUE9qU1BIRXlRcW5yNnpIa1VnUmVJMFhueVJOTGh3cEM3ZE5BU3B3?oc=5",
-      "originalLanguage": "VIETNAMESE",
+      "publishedTimestamp": "2026-03-27T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHNTRNSTFRWG9sTDNVWk9FRkhaNmx0aFZ2dU5zTWdPU0g4TDNROHlqVHcyXzRCdUFzaFRwa3lXWFY3bHoxa3NNQV9UcjQwQzg5SVZZYkRSLW1zUFRhVzZ3dkhZTFZ4Zw?oc=5",
+      "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
@@ -2149,68 +2481,8 @@
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "ベトナムとラオスの教育協力はますます強化される - Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_63f194880f2f6fae",
-      "headline": "Việt Nam - Nhật Bản đẩy mạnh hợp tác nâng cao tay nghề lao động - dantri.com.vn",
-      "headlineTranslated": "Vietnam - Japan promote cooperation to improve labor skills - dantri.com.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T07:32:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTUx4Rms3eDF4WEZTZ2x2Z09ZLVVCb2xKRzV6ekYwVDV6OTJpMXBqMlB1TkJxSEdVN0w4UV9wX0F2ODlXSFVZa3RjUXRnRl9fcXJxaFBhUE8zOFpjX2tpRGlOc3pUbEZZM0twX0p5YnFWbU9XVXp1b0dzTnRnQWhYaWRMenYxaGtpTDZuZldKZEtCMjVvMmpQXzU5NnM3SjVFU251OXphUVB4VktyQThxZUxVVndnQVZLQWk3c3h2NlA?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "dantri.com.vn",
-      "headlineJa": "ベトナムと日本、労働技能向上のための協力を促進 - dantri.com.vn"
-    },
-    {
-      "articleId": "gnews_df91c6eee684a783",
-      "headline": "COVID-19 chính thức thành bệnh truyền nhiễm nhóm B từ hôm nay - Cổng thông tin điện tử tỉnh Hà Tĩnh",
-      "headlineTranslated": "COVID-19 officially becomes a group B infectious disease from today - Ha Tinh province's electronic information portal",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T07:24:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQmhhaWRLalBRTnlCQjM3SnZLTWVGMXNjVEF6bVRJd3UxSENPNWdfV1E5U2pzSmpXNVZyX251LXBQelUxWXQ1bmctTTFZQkVUM1pHVkhEdDJwTVB1R0k3VDl1MDNJV1VuX3NkTmk2dUFta2JsTmxoN0xTZ1hOUmx6NmNUSTc1ZkFRR2szOEp5SUY0NU5aTzJ0UlhQWQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Tinh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
-      "headlineJa": "新型コロナウイルス感染症（COVID-19）は今日から正式にグループB感染症となる - ハティン省の電子情報ポータル"
-    },
-    {
-      "articleId": "gnews_58e8ba056cf0341b",
-      "headline": "Giá Bitcoin hôm nay 27.3.2026: BTC lao dốc, Việt Nam bỏ khấu trừ 0,1% trên doanh thu - Báo Thanh Niên",
-      "headlineTranslated": "Bitcoin price today March 27, 2026: BTC plummeted, Vietnam abolished 0.1% deduction on revenue - Thanh Nien Newspaper",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T06:26:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWFuTEVEdFZvWlZIY2hFV2YzdHFhcEZGblNSaVc4Y2xBbDhxSGJHR0lsRGZXcnBWejQ2QXhBLXNZR3lla01qVk5ZUENmZXIyOF9oOXk2aFY3SkJBX2hyRUc4YlpITDZadlByTkFWcUluVG5KVmVwSmptSjdaUVdLRDNzY19pQlJuSThRaUhNOFVMRVpEdXQ5MlBuSDhFempESC1oaEROY192UXVRUzNtcjVIY19CN2w4aW9vdl9JQQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh Niên",
-      "headlineJa": "今日のビットコイン価格、2026年3月27日：BTC急落、ベトナムは歳入の0.1％控除を廃止 - タイニエン新聞"
+      "sourceName": "bernama.com",
+      "headlineJa": "ベトナムの手、足、口の感染者数は第1四半期に5倍に増加 - bernama.com"
     },
     {
       "articleId": "gnews_2525021f65719d3b",
@@ -2233,26 +2505,6 @@
       "headlineJa": "HFMDが4人の命を奪ったことを受け、ベトナム保健省が緊急指令を発行 - Tuoi Tre News |ベトナムへのニュースの玄関口"
     },
     {
-      "articleId": "gnews_d2e5101fd5e02f10",
-      "headline": "Shark Tank Việt Nam và chuỗi trượt dài: Điểm danh các \"cá mập\" và startup lùm xùm, vướng vòng lao lý - CafeF",
-      "headlineTranslated": "Shark Tank Vietnam and its long slide: List of \"sharks\" and startups caught up in legal trouble - CafeF",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T03:50:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZGhWcmVYQXh2dEx1LS1CM0NqY3NfLWt3VmZDOU9YSVFvSTdFMDU4RmxPVnhBYzVZQWJWdDJqdDVFa1FhYjVORTBTR043eVdhdEtYQnAyVFNCNVliWEVUcFN1eDFZSkNKVTdxcWZxclAxZzFZSDN1alBkQ0FpT1k0ZlRfWERrOFBwckQ2LUM1UENoemlsVUJiRUhoM3l3V0xJTFZkdUZkTU5UaFViOF83N21veS1GekVwM2hnOERvUndJNXZOVXhCbnNjM3lMazNwR3c?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CafeF",
-      "headlineJa": "シャークタンクベトナムとその長い滑り台：法的トラブルに巻き込まれた「サメ」とスタートアップのリスト - CafeF"
-    },
-    {
       "articleId": "gnews_32f510ac5bd8647e",
       "headline": "Hơn 25.000 ca mắc tay chân miệng, tăng gấp 5 lần so với cùng kỳ - Thời báo Tài chính Việt Nam",
       "headlineTranslated": "More than 25,000 cases of hand, foot and mouth disease, increasing 5 times over the same period - Vietnam Financial Times",
@@ -2270,7 +2522,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Thời báo Tài chính Việt Nam",
-      "headlineJa": "手足口病の症例数は25,000件以上、同期間で5倍に増加 - ベトナムフィナンシャルタイムズ"
+      "headlineJa": "手足口病の感染者数は25,000人以上、同期間で5倍に増加 - ベトナムフィナンシャルタイムズ"
     },
     {
       "articleId": "gnews_8ba8bc01c3e318aa",
@@ -2290,48 +2542,28 @@
       ],
       "dataSource": "Google News",
       "sourceName": "suckhoedoisong.vn",
-      "headlineJa": "多くの州で32,000人近くの感染者が発生し、デング熱の増加への警告 - suckhoedoisong.vn"
+      "headlineJa": "デング熱の感染者数が多くの州で約3万2000人に達し、増加の警告 - suckhoedoisong.vn"
     },
     {
-      "articleId": "gnews_55baf2aa468491f0",
-      "headline": "Báo Lao Động cùng dòng chảy 80 năm Thể thao Việt Nam - Laodong.vn",
-      "headlineTranslated": "Lao Dong Newspaper with the flow of 80 years of Vietnamese Sports - Laodong.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-27T03:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUXprclBQdG5PX3VLZ1NKVUUyZHVoZDU3ajk5RDRaamM2VXZEWjV3WWw2cnVDTXZMeloxSER1YkwxZGJqbDMtYVlNVEVWTWVCVHY0VEhZSXZKSXdNTTBEanFfc3JKOUotWlQxSDBMVVdZYUplYXpmWnVNUEJJTnNyZHMwaWxzSFlOSEhWbnhzOEdnNWxZNTE0RnBkR1cwOFVScWlNNg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn",
-      "headlineJa": "ベトナムスポーツ80年の流れを伝える老東新聞 - Laodong.vn"
-    },
-    {
-      "articleId": "gnews_7567895c5b4b75a5",
-      "headline": "Tay chân miệng tăng gấp 5 lần, sốt xuất huyết tăng 2,2 lần - Báo Công an Nhân dân điện tử - cand.com.vn",
-      "headlineTranslated": "Hand, foot and mouth disease increased 5 times, dengue fever increased 2.2 times - People's Police Electronic Newspaper - cand.com.vn",
+      "articleId": "gnews_3e41dc719a43bae6",
+      "headline": "Tay chân miệng tăng gấp 5 lần, sốt xuất huyết tăng 2,2 lần - Báo Công an Nhân dân điện tử - Công an Nhân dân",
+      "headlineTranslated": "Hand, foot and mouth disease increased 5 times, dengue fever increased 2.2 times - People's Public Security Electronic Newspaper - People's Public Security",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-03-27T03:03:00+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbGNVXzNyV1h2Wlg3TDlfNzc4NHhzMThKcE9JTGNrMERzeEZLS0FtLUJfV1dwMnFNZ1RRb3JvZ3hCSUJUT3VGbVpleU9TQXpibXBrTFVOLUczYnlTSjFSSmUzQ2k5VUI5cTVxTkp0NE5qX0RZamZxa21rMVVMdnF1eVdrWHNlTEg5NkNfeTF0ODJSR1gtYmVkMXFKZ9IBmwFBVV95cUxQbGNVXzNyV1h2Wlg3TDlfNzc4NHhzMThKcE9JTGNrMERzeEZLS0FtLUJfV1dwMnFNZ1RRb3JvZ3hCSUJUT3VGbVpleU9TQXpibXBrTFVOLUczYnlTSjFSSmUzQ2k5VUI5cTVxTkp0NE5qX0RZamZxa21rMVVMdnF1eVdrWHNlTEg5NkNfeTF0ODJSR1gtYmVkMXFKZw?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
-        "Dengue",
-        "HFMD"
+        "HFMD",
+        "Dengue"
       ],
       "locations": [],
       "states": [
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "cand.com.vn",
-      "headlineJa": "手足口病は5倍、デング熱は2.2倍に増加 - 人民警察電子新聞 - cand.com.vn"
+      "sourceName": "Công an Nhân dân",
+      "headlineJa": "手足口病5倍、デング熱2.2倍 - 人民公安電子新聞 - 人民公安"
     },
     {
       "articleId": "gnews_141120526678d74d",
@@ -2351,7 +2583,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "VnExpress",
-      "headlineJa": "運転手は口論の末、半狂乱で相手の車に突っ込んだ - VnExpress"
+      "headlineJa": "運転手は口論の後、半狂乱で相手の車に突っ込んだ - VnExpress"
     },
     {
       "articleId": "gnews_3bbd613eee4cf78d",
@@ -2363,8 +2595,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeTRac3J0M0xRbjhkZ21UV05oUUZCc0tYU3hvcXBRbTlLTjZRNXJvb2NfenBYN3Z3QTFRX05VSjJ1Qmw5MngyaUpPVE0teTZkNmZPaHY4dU9jZW1xWmdyazdHeVlEUTExdHRDWHR5MmNmSTlkVW4zMXhDMEdIQV9BMmpUbjgwa01xRlk0WHU3MHRxRVJRdTVNdXFSb3REa2lr?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
-        "Dengue",
-        "HFMD"
+        "HFMD",
+        "Dengue"
       ],
       "locations": [],
       "states": [
@@ -2372,12 +2604,12 @@
       ],
       "dataSource": "Google News",
       "sourceName": "baochinhphu.vn",
-      "headlineJa": "デング熱と手足口熱の症例数は何度も増加している - baochinhphu.vn"
+      "headlineJa": "デング熱と手足口熱の症例数は何倍にも増加している - baochinhphu.vn"
     },
     {
-      "articleId": "gnews_cf12549f62690d1b",
-      "headline": "Bệnh tay chân miệng tăng mạnh, bác sĩ lưu ý 6 dấu hiệu cảnh báo bệnh diễn tiến nặng, cần đưa trẻ đến viện ngay - phunumoi.net.vn",
-      "headlineTranslated": "Hand, foot and mouth disease is increasing sharply, doctors note 6 warning signs that the disease is getting worse, children need to be taken to the hospital immediately - phunumoi.net.vn",
+      "articleId": "gnews_dbecc4eb408d137b",
+      "headline": "Bệnh tay chân miệng tăng mạnh, bác sĩ lưu ý 6 dấu hiệu cảnh báo bệnh diễn tiến nặng, cần đưa trẻ đến viện ngay - Phụ nữ Mới",
+      "headlineTranslated": "Hand, foot and mouth disease is increasing sharply, doctors note 6 warning signs that the disease is getting worse, children need to be taken to the hospital immediately - New Women",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-03-27T02:11:00+00:00",
@@ -2391,8 +2623,8 @@
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "phunumoi.net.vn",
-      "headlineJa": "手足口病が急増、医師は病気の悪化を示す6つの警告サインに注目、子供たちはすぐに病院に連れて行く必要がある - phunumoi.net.vn"
+      "sourceName": "Phụ nữ Mới",
+      "headlineJa": "手足口病が急増、医師は病気悪化を示す6つの警告サインに注目、子供たちはすぐに病院に連れて行く必要がある - New Women"
     },
     {
       "articleId": "gnews_f5863e04386e4e3b",
@@ -2404,8 +2636,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObUdBNDEzNzQzR0U5RVhUQXBmY1ZZbTcteDFHdS1LSzB0WktBdWhIdnRBVW5hWWE0WTNkWVBqVjNLZlkxcTZ2STJkWjgyV2NySFZkUnpRczl3eE5Yb2dtUXZiZXpPNVRXeklwc0x2ZlFLc0lTcVBtSzRmeUl4RmtzdFJvRTNRVENCamh1c3h0ZXJmby1MRlZ3?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
-        "Dengue",
-        "HFMD"
+        "HFMD",
+        "Dengue"
       ],
       "locations": [],
       "states": [
@@ -2414,208 +2646,6 @@
       "dataSource": "Google News",
       "sourceName": "Kenh14.vn",
       "headlineJa": "デング熱は2.2倍、手足口病は5倍に増加 - Kenh14.vn"
-    },
-    {
-      "articleId": "gnews_df0452582753ae22",
-      "headline": "5 serum ngừa lão hóa \"made in Vietnam\" giúp ngừa lão hóa hiệu quả - Kenh14.vn",
-      "headlineTranslated": "5 anti-aging serums \"made in Vietnam\" help prevent aging effectively - Kenh14.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T15:11:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSGNkQndGeUlEcW1MWUN2Vnd0cUx6dVRad01pR2J1VWF4WG1SN2pBcUR5eTkwRTBUcmtaWE1mN2E5VUlXZ05WUnVLQWp0ZzhLZ2l5WXRILVFRdXlVcFFhZkFkSUZaTDZLMjhYbWJaVjU1LVhFWGt0aGlTNmtUMGo3YUIwV2poelBlY3B2XzlDME5CTWVHVGc0d0t5V0xGRzN1X1Zjc1NQNA?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Kenh14.vn",
-      "headlineJa": "効果的に老化を防ぐ「ベトナム製」の 5 つのアンチエイジング美容液 - Kenh14.vn"
-    },
-    {
-      "articleId": "gnews_870613a9853a223d",
-      "headline": "ĐBSCL: Số ca sốt xuất huyết và tay chân miệng tăng mạnh, ghi nhận 1 ca tử vong - Vietnam.vn",
-      "headlineTranslated": "Mekong Delta: The number of dengue fever and hand, foot and mouth fever cases increased sharply, recording 1 death - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T12:01:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVk11Q3Y2UFQ1WWJEem95X0w2MktaaXJEanBZcm52cW91UE1LMFZUV0xfdE4tMUp2SmZxbXI3X2owSmdHREFYY3k2V0NLZmhVeEQ2NGV5NUJsdzhHVy13azJ6QkFqdUNpcmhOazZfa0FTRXZldWN0TF92aklERGR6OW5EcnhJRDQ2OTU2cHdRMHZ3STZaWTYxVjE5UnpXRk1a?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue",
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn",
-      "headlineJa": "メコンデルタ：デング熱と手足口熱の感染者数が急増し、死者1名を記録 - Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_eeba5636106143c9",
-      "headline": "ĐBSCL: Số ca sốt xuất huyết và tay chân miệng tăng mạnh, ghi nhận 1 ca tử vong - BÁO SÀI GÒN GIẢI PHÓNG",
-      "headlineTranslated": "Mekong Delta: The number of cases of dengue fever and hand, foot and mouth fever increased sharply, recording 1 death - SAIGON LIBERATION NEWSPAPER",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T11:47:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbnpVc2EwUnpTUWRFWU1jMUlKYzgwWEUtbXNhdnBkVjl0ZkZjbldiUmppYzUtWUFIY0JJZ1Z5a19Fa0ctR2U2X0JGaE5CeVBQMHZLOFBWWmtiQTdIUUp5bmtDMzdNY2VNdmZ2TnhWZ1g5WWZFQjJ1RkhVcDlOUTNKeWxZeGJSeXdkUDlEY1NvYklkd3JGQUYxN3RkYlQyLV9DSU1IWHNkdFhJajVHeTFtMXo3Z1lueVU?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue",
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Ho Chi Minh City"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BÁO SÀI GÒN GIẢI PHÓNG",
-      "headlineJa": "メコンデルタ：デング熱と手足口熱の感染者数が急増、死者1名を記録 - サイゴン解放新聞"
-    },
-    {
-      "articleId": "gnews_09fa194707dff240",
-      "headline": "Three dead in major outbreak of hand, foot and mouth disease in Vietnam - The Independent",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T11:46:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeldIa2MtMlllYk9mZWk5Q2RYN1ZKcXFsbHJtUnZRZTJSTm4wOHFRSlB4NjFRajRpLWF1VUFBR0FoaExNc01jLThzUWVKS2FkWXdGckFlZnRzUWNFWmVOQzNJQ3FJcjlDV09uX1IwRU1rZkNiVjBoR3dSVm1kZVNGb0tqaEZyNnJNM2dndEY0SXRDNTQzVV82TXVndDRGZkRYVjZ0X1VfNVZESTI3UTRyZ25yNA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Independent",
-      "headlineJa": "ベトナムで手足口病が大流行、3人死亡 - インディペンデント"
-    },
-    {
-      "articleId": "gnews_f26a02a11452b9ab",
-      "headline": "Quyền Bộ trưởng Giáo dục tặng bằng khen cho nam sinh lao vào đám cháy cứu người - VnExpress",
-      "headlineTranslated": "Acting Minister of Education awarded a certificate of merit to a male student who rushed into the fire to save people - VnExpress",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T11:25:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQnVDMFBsc19SdXVzNC1kU3l6a3AxQ1B0SVM5aHBZRkhZM3Vja3N1VTEyQTJZb1l3azlmVm9GRi16YnM1cEdBY1UtU2czWlNWU2llUUNpWHNWT09nR1Z1VDRPX2c3QzRHTktVcnNQelI3aU92UjhGY29NSnZCX3NYM0V2cFVZWGdaWGtOS29GUFpNbGp5aC1BY3ZQR3lmcUt3OWRELWgtcW9uSkxpYU5PbUFHRjg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "VnExpress",
-      "headlineJa": "教育大臣代理、人命救助のために火事に飛び込んだ男子学生に賞状を授与 - VnExpress"
-    },
-    {
-      "articleId": "gnews_1ae2d3afec0598af",
-      "headline": "TPHCM ghi nhận ca nhiễm não mô cầu là một sinh viên - Trung tâm tiêm chủng VNVC",
-      "headlineTranslated": "Ho Chi Minh City recorded a case of meningococcal infection in a student - VNVC Vaccination Center",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T07:35:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9falFjTWRoT3I5eWdCa20zX28tMHh1SlR1MmpnSkRnaFFBbnJjX1dOVmU5blpoUGNYVk5SZW80dFA2dVdsSjM3ektmUFlmbzd5VnZIZnVRUkRvaGtTdlBDbzVUalNFOGIxQ25WdmtDSTBFSHJudVRR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Trung tâm tiêm chủng VNVC",
-      "headlineJa": "ホーチミン市は学生の髄膜炎菌感染症の症例を記録 - VNVCワクチン接種センター"
-    },
-    {
-      "articleId": "gnews_92f1f9b122caa0de",
-      "headline": "Giám sát chặt, không để lây lan dịch bệnh trong cộng đồng - baotintuc.vn",
-      "headlineTranslated": "Closely monitor and prevent the disease from spreading in the community - baotintuc.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T05:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2czOFFWWk00QnRpZUh5ZEc3eFhudnQ4R2hYRTg5M0pjb25hZlNMX3VOV3FldDZpSlE4bnUyX044WHo5dlowRldqb1Q2TVNMUHRycFMzMWhQcm0wTVJnLTE0M0p4ZE94MWlZT2hhSU1UZnQzUmpvVXAyc0c1ZVJSbEdDbkVrN1JuZ01qdHhKN3VKekg1eVpieVBOZnZyaS1QMWZBck8wdmpKZ3N2X0E?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "baotintuc.vn",
-      "headlineJa": "地域社会への病気の蔓延を注意深く監視し、防止する - baotintuc.vn"
-    },
-    {
-      "articleId": "gnews_b854fb73f4ae57d1",
-      "headline": "Chủ động phòng bệnh não mô cầu - Dak Lak 24h",
-      "headlineTranslated": "Proactively prevent meningococcal disease - Dak Lak 24h",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T03:07:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxON0s5YzFJenhVeEl5ekFjNnFrVXlyZVI3WlJ5ZE43OEZ6dXlNYlpUSzl6REdtZTBXRmliX3c1MVNVdFNuTmwyX3ktZDAzRGEyWkFlTFhGUzJtWllEb3BmR05uVm9wdXNPTWNaMVdtWWI5NUh1N1BCcWZ1SWdKVEZxdUln?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Dak Lak"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Dak Lak 24h",
-      "headlineJa": "髄膜炎菌性疾患を積極的に予防 - Dak Lak 24h"
-    },
-    {
-      "articleId": "gnews_bee758d9063a26d6",
-      "headline": "Việt Nam bước vào cuộc đua du lịch y tế tỷ USD - baotintuc.vn",
-      "headlineTranslated": "Vietnam enters the billion-dollar medical tourism race - baotintuc.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T02:04:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaXl3QllpRnNNU1paci02dUVnTjM3a19ZUXNiV0k1Yy1RSE12R09OZV95TF9zX3ZKM1R6eTA2YTR0Znp2Smt2MmtjeG5iX2pHMWxTdXQ1UWtxMV9yWE9yTXZuanU0NUoxV2R4RVVfNFlmWC12ekRSamtBTlBOSTQyVlpFcnVRWTIyeW5VdFEtX2RUb2pmVHluSVpB?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "baotintuc.vn",
-      "headlineJa": "ベトナム、10億ドル規模の医療観光競争に参戦 - baotintuc.vn"
-    },
-    {
-      "articleId": "gnews_9dac574af1b0f16e",
-      "headline": "Phát hiện sớm và xử lý kịp thời, triệt để ổ dịch sốt xuất huyết, không để lây lan - Doanh nghiệp Cuộc sống",
-      "headlineTranslated": "Detect early and promptly and thoroughly handle dengue outbreaks to prevent spread - Business Life",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-03-26T00:00:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYjlGRWRScFk4WUZjckpXNUNxLTIyTG9PS0FWcGJLR25zN0lmM0pFV1VORG1nZkgxN0xyUXJiU1E1OUpXQV81aUlaR210SVIxSjhvUlhwa2ZmbmljM1JwQnhURWZxN1lLVXNvUFhxVHQzMWx6aDNsSmtHNlptemNONVdPdnVCQWRjenF1QWRGb0NFcjhCR2wwc3FiemI1Tmd6cjMzY09hbWxiNVdNTS0yQnN2Skthdkk1eE5LS3BOYlg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Doanh nghiệp Cuộc sống",
-      "headlineJa": "デング熱の発生を早期かつ迅速に発見し、蔓延を防ぐために徹底的に対処する - ビジネスライフ"
     }
   ]
 }
