@@ -221,6 +221,10 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.4);
   }
   .info-box h4 { margin: 0 0 4px; color: #facc15; font-size: 14px; }
+  .extlink-btn { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s; cursor: pointer; }
+  .extlink-btn:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(26,107,26,0.15); }
+  .extlink-btn-title { font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+  .extlink-btn-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 0.3rem; line-height: 1.5; }
 </style>
 </head>
 <body>
@@ -241,9 +245,26 @@
   </div>
 </div>
 
-<div class="don-section" id="don-section">
-  <div class="don-header" data-i18n="donTitle"></div>
-  <div id="don-content"><span class="don-empty" data-i18n="donLoading"></span></div>
+<div class="don-section">
+  <div style="display:grid;grid-template-columns:2fr 1fr;gap:0.75rem;">
+    <div>
+      <div class="don-header" data-i18n="donTitle"></div>
+      <div id="don-section"><div id="don-content"><span class="don-empty" data-i18n="donLoading"></span></div></div>
+    </div>
+    <div>
+      <div class="don-header" data-i18n="countryInfoTitle"></div>
+      <div style="display:flex;flex-direction:column;gap:0.75rem;">
+      <a class="extlink-btn" href="https://wwwnc.cdc.gov/travel/destinations/traveler/none/china" target="_blank" rel="noopener">
+        <div class="extlink-btn-title" data-i18n="cdcTravTitle"></div>
+        <div class="extlink-btn-desc" data-i18n="cdcTravDesc"></div>
+      </a>
+      <a class="extlink-btn" href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_009.html#ad-image-0" target="_blank" rel="noopener">
+        <div class="extlink-btn-title" data-i18n="mofaTitle"></div>
+        <div class="extlink-btn-desc" data-i18n="mofaDesc"></div>
+      </a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="stats-bar">
@@ -326,6 +347,11 @@ const I18N = {
     donLoading: "加载中...",
     donEmpty: "过去2周没有疾病暴发新闻。",
     donError: "数据加载失败。",
+    countryInfoTitle: "国家基本信息",
+    cdcTravTitle: "CDC 旅行者健康信息 — 中国",
+    cdcTravDesc: "前往中国的旅行者健康信息，包括推荐疫苗和传染病风险。",
+    mofaTitle: "日本外务省 — 传染病危险信息",
+    mofaDesc: "日本外务省针对中国发出的传染病危险信息。",
     noTitle: "无标题",
     legendNone: "0",
     legendLow: "少",
@@ -360,6 +386,11 @@ const I18N = {
     donLoading: "Loading...",
     donEmpty: "No outbreak news in the last 2 weeks.",
     donError: "Failed to load data.",
+    countryInfoTitle: "Country Basic Information",
+    cdcTravTitle: "CDC Travelers' Health — China",
+    cdcTravDesc: "Health information for travelers to China, including recommended vaccines and infectious disease risks.",
+    mofaTitle: "Japan MOFA — Infectious Disease Risk Info",
+    mofaDesc: "Infectious disease risk information issued by Japan's Ministry of Foreign Affairs for China.",
     noTitle: "No title",
     legendNone: "0",
     legendLow: "Low",
@@ -394,6 +425,11 @@ const I18N = {
     donLoading: "読み込み中...",
     donEmpty: "過去2週間のアウトブレイクニュースはありません。",
     donError: "データの読み込みに失敗しました。",
+    countryInfoTitle: "国別基本情報",
+    cdcTravTitle: "CDC 渡航者向け健康情報 — 中国",
+    cdcTravDesc: "中国渡航者向けの健康情報（推奨ワクチン・感染症リスク）",
+    mofaTitle: "外務省 感染症危険情報",
+    mofaDesc: "外務省が発出する中国の感染症危険情報を確認できます。",
     noTitle: "タイトルなし",
     legendNone: "0",
     legendLow: "少",
