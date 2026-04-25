@@ -1,48 +1,620 @@
 {
-  "generated_at": "2026-04-24T22:05:35.273949+00:00",
+  "generated_at": "2026-04-25T21:56:27.344888+00:00",
   "date_range": {
-    "start": "2026-04-21T22:05:35.273949+00:00",
-    "end": "2026-04-24T22:05:35.273949+00:00"
+    "start": "2026-04-22T21:56:27.344888+00:00",
+    "end": "2026-04-25T21:56:27.344888+00:00"
   },
-  "total_articles": 24,
+  "total_articles": 45,
   "state_summary": {
-    "India (state not identified)": 18,
+    "India (state not identified)": 28,
+    "Gujarat": 1,
+    "Punjab": 2,
+    "Delhi": 3,
+    "Telangana": 3,
+    "Rajasthan": 1,
+    "Jharkhand": 1,
+    "Uttar Pradesh": 2,
+    "Goa": 1,
+    "Odisha": 3,
     "Kerala": 1,
-    "Punjab": 1,
-    "Delhi": 1,
-    "Odisha": 1,
-    "Maharashtra": 1,
-    "Uttar Pradesh": 1
+    "Bihar": 1,
+    "Maharashtra": 1
   },
   "disease_summary": {
-    "Tuberculosis": 4,
-    "Malaria": 5,
-    "Infectious disease (unspecified)": 10,
-    "COVID-19": 2,
-    "Measles": 1,
+    "Malaria": 32,
     "Dengue": 5,
-    "Chikungunya": 1
+    "Infectious disease (unspecified)": 5,
+    "COVID-19": 2,
+    "Tuberculosis": 4,
+    "Measles": 1,
+    "Chikungunya": 1,
+    "Influenza": 1,
+    "Avian Influenza": 1
   },
   "articles": [
     {
-      "articleId": "gnews_b2cdbf47b9f86738",
-      "headline": "India finds new molecular mechanism in mycobacterium tuberculosis: A catalyst to realise the vision of TB Mukt Bharat - Organiser",
-      "headlineTranslated": "",
+      "articleId": "gnews_143e6760816f22cf",
+      "headline": "सावधानी और जागरूकता से समाप्त होगी मलेरिया - Hindustan Hindi News",
+      "headlineTranslated": "Malaria will end with caution and awareness - Hindustan Hindi News",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T16:14:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORWEzTTZLcUdMV2V3THM2MWlIclBtQ29ORkpPUThkaXdKYS1mUFZRRnJvOHlTanhzQVFaU0tGWjV0STFyNlpBb3lULW4yNkRWa0RsNkxOdlJEU3VpNXJqWklWTjdzbTlIbW4tU3pLS2k5R0lZZW4xYVhMdWY0MWs0OVFRb3VxWXdhV1hKbFVMRmZqMXlpX3BqU0RSOTNGY2FaQXo3LVZPUWphdzE3RXREUEpSQ3oyc3ZlXzEteDRxSm80b1RobWsxYWpfQ1BJa2MxZ2xlRWlIR0FUclAxNm1fS2NGQlJWc3JTUGxEaWZNeUdNb3d30gH6AUFVX3lxTE81M0ZmMTQ2N3B0SnF1Y2NRd1NUdllwRXBxNUp5Y29ub2FHRk5yUk9xQ0ZSTENMUG95SG1hdVZNc2dnTUlZRzVoQWZxN0c5UFhxUW9RcWV1MnJGT1ZOZEpoTXBHWXlLMV9jRGZvSXVzNFFZMzJXZFZ0LVlmZVppb3p1Skl0S0JBQ2J5TGVqQW5KZW1pR0E1MDlfWUxoVVN1Mnh2eVZJSWZQTkc3WWl0NVNvdmxYR2prSDl5LVMxbDVSa0stZHZpNjFxWUFMWTF3VEdvU1B5NGNQcThiSl9ZcWd3c1pSdXNEWXFQa0tiQmRWaktrT0hwcHFUN1E?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-04-25T20:36:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcEVZNlVrZkNHUS1xZkpsNkpMMHA4UDduajRRUFhMd3ROYXJoMkdZSmdLOGQxOXoySE9PS0VxaWFiUnZCSW5MMmtMN3dhd1RRMDVIREotVEl2YTNSOTdVejdfSE10SFBZZ01NSFEtd09RV2RKTF94TlN2NVRWSkMxU0JjLWc3UEp1b1pWTzdyZXJsOUVHY0M2ZDVfdE9vVkhGMFlaOEV4bHZnZ09VeWxaM1UyRFlYNkJWanpjWFpVVVF2Wm45UWVKWFk0UUE5R0FxNUtLNVVOMk00RkpiN0VyRW9KcFdKWGg0N1h3S2JOR0JXTEN2dlNMLWpFVmE4RGNsQ3BzU2FzQzVHUdIBjwJBVV95cUxPSGRISkpKRWlPS0ZsdkI3MUY5TE5WVlpuaXRxMVgxWVl6V2tKZnFwUUpETFJRbXo1MHRSbXU1bU9WWkE1UVhpNUh5T095VDdfb1AyN2pnTVRPR0htQ2NXcVYyN0Etb29teTdyRjlobWtnU3hRUENnbTNhYXd1UDN5bkxxY2x0N2pDdzNINUFlTkVkcGs1S2p5ZXMwZVRqSXZ2RVhYcGEzRXBJbDdQRENMQTYzSFI3RFAyYm5acGxPWG5ha1ZrdUFPeEIyOWhHcE9MNEwyb29kU1pVVkFUZEhQR05NWlpIa291eHdzWm9QczI2dzZyaGo2RVNRRDI0Z0ZIVTE4cWR1UUNRcFdhTTBV?oc=5",
+      "originalLanguage": "HINDI",
       "diseases": [
-        "Tuberculosis"
+        "Malaria"
       ],
       "locations": [],
       "states": [
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Organiser",
-      "headlineJa": "インド、結核菌の新たな分子機構を発見：結核のビジョン実現の触媒となる ムクト・バーラト - オーガナイザー"
+      "sourceName": "Hindustan Hindi News",
+      "headlineJa": "マラリアは注意と意識で終息する - ヒンドゥスタン語ニュース"
+    },
+    {
+      "articleId": "gnews_75e5a53c367589fb",
+      "headline": "Experts Urge Stronger Malaria Prevention - Deccan Chronicle",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T19:18:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZF9GYlFJUHVSeHc0STI3dHA1UDRSZFA1Q1N5cmd1QUg4dmU3NXlnQTJNWFVwNTdNbW5BMVY0Z0I1czkxLXIyQkJYUXVvZTY0RWZfN0lpWVVuZEdkMG4wVURJblVpNElGRDhhLUExMTR6T3lHYlNwSFBHaTdweVlTc29BZmpVekFUa3NtY0VqUTg3RUFYOU0tTWFaWUZrVUpnNHFPUlBHMlg4Z9IBrwFBVV95cUxNenJrNE5tWEZSaEs5dnNHYXZMNC1nSi1WRUJKaW9aNmFxNEtyV2VjbWUyZ3dMcVFpTm5jM0Q0eDFXUEIzbmNQS0tjUzRsRGlZdEVHdkJVVjJwWGpqUlJZcWR2MV9pNXNaS1BuMmhWcldZRkh4eGRCQ0ZoRXdHd3RaYklaYjZzamZqc2JLbkt4RVNSTzV6empsUkQ4dEx4VXh0TlZobkJ0Z0tObk9RLU1F?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Deccan Chronicle",
+      "headlineJa": "専門家はマラリア予防の強化を求める - デカンクロニクル"
+    },
+    {
+      "articleId": "gnews_4676b04f02c3d0c9",
+      "headline": "40 मीटर रैली में चल मलेरिया के प्रति किया जागरूक - Hindustan Hindi News",
+      "headlineTranslated": "Raised awareness about malaria by walking in 40 meter rally - Hindustan Hindi News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T17:20:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTFM5eTl2ekdhYWJsVmo3aTF4MXh3Zm5aY3hhWDhuTlEwWDR2R3UzbnlXTGZ6SEZHS1pqTGlJZHVSNV9Ca1JQcmRfZjJZYmVaazY2Y2Jqd2VCbXB6RHVOX1dyUE5ER3VGejU0OEdLTk9VeHdSUE5sSzYyczFkdXBqYnpsV0VfZTRkTnh0VGpKcGw1YjhoN0w4TXdEVEZoc1dlWmdSMC1PX1pmemRWa210cFVPS0xHYlZ4TzFiOHFxNEh0V1VNanRUdlQyaXpsUjlQWFQ3ekw3S3RlRkpENzk5alJn0gHnAUFVX3lxTE95QjdvTlZQVGt1eWFYWVQzd2d5MEJCZkF2YTFHU3B1TlFzX1pwRzhNbnlKcFU1RFRSYk5odXZjMVlOQUNXem8xZjN0aVJZY1M3UDN5TXRyWDlNVmNKbC1BQWcxNTMyRUxWUzVEeF9PZ2ZtOFdPdGhMWEpFcXJBSllJeFgyQlhERGlpdTdRLTh6VnVwVHVjUmM1MVh3OFFiTk5vZGFCcWlJdVRtVnhQcUZuOGVWQzBHS0Nvb1ZjbkhHTUJ2Z1lSWHpuLVQyZHBUemdPSTJjUkRrMjdfZWpoOHc2c2otbVozcw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindustan Hindi News",
+      "headlineJa": "40メートルラリーを歩いてマラリアへの意識を高めた - ヒンドゥスタン語ニュース"
+    },
+    {
+      "articleId": "gnews_e384930ae9d96b07",
+      "headline": "लोगों को जागरूक कर लिया मलेरियामुक्त भारत का संकल्प - Hindustan Hindi News",
+      "headlineTranslated": "Made people aware about the resolution of malaria free India - Hindustan Hindi News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T16:59:49+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdjVJa2JxUzlYckpuV2V6eXdIdVpSOHh0UWo0UGV5SEFPYUpiVUV0Mnc5RlNoNkozQXdCc1BGZUpHcWJDQmRubWJFejVEV3BDZFFKeVNPNC1YNnVrOXpabFFSVWNsV0h4bTRtRWgxdDl2Y1hGU01BQWRKcnBpRkpxNVBvRW1wT2NRVGh5NGM1QmVwdlNLZjVZRUVhZU9YZWJycjFlLVB6di1iVkRlMkpEVlNRaHBZcnd4NmJtM1Q2R1FHNjNTY2NNbkJuTmxZSFliSEZmc3J3NlJ1VzNmVlZrRzkwME5nSTdJMzZv0gHrAUFVX3lxTE52NUlrYnFTOVhySm5XZXp5d0h1WlI4eHRRajRQZXlIQU9hSmJVRXQydzlGU2g2SjNBd0JzUEZlSkdxYkNCZG5tYkV6NURXcENkUUp5U080LVg2dWs5elpsUVJVY2xXSHhtNG1FaDF0OXZjWEZTTUFBZEpycGlGSnE1UG9FbXBPY1FUaHk0YzVCZXB2U0tmNVlFRWFlT1hlYnJyMWUtUHp2LWJWRGUySkRWU1FocFlyd3g2Ym0zVDZHUUc2M1NjY01uQm5ObFlIWWJIRmZzcnc2UnVXM2ZWVmtHOTAwTmdJN0kzNm8?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindustan Hindi News",
+      "headlineJa": "マラリアのないインドの解決について人々に知らせた - ヒンドゥスタン語ニュース"
+    },
+    {
+      "articleId": "gnews_27a72692ff8c85f4",
+      "headline": "Gujarat sees 92 pc fall in malaria cases over decade, records low positivity rate - english.punjabkesari.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T14:37:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTjFDMU53R2JGbTlGaG5XRTJ3bXpiZGpmeW5nTVlFa1NLVzR2eVJpMUpubURWXzlRRzJxZjhHSFZaZ3RkaDdPMl9Pb0dBbGh4c2hZRTRpZVdCYXdtQklvSU5LRnE3T1JCSVRyOVdBalZwa2t3U1JpTTJIaFVscFBnT1EwbHdYVTRLM2l4eGdfMlhxc1NVRzNGSFU1UXo4ck15aFlxcm10cHBKcEoySHRQTG5ZN3Q0MmJyYlZGLdIBwgFBVV95cUxNNkpHYWJPV2xoZ2NlTXZjZ2dja0lPc2hteXVuX1JMT2lrVklFQ0RUYWpEaGgybkN5dHlyU2ZmNFN3eDNZY1R6VjBVR3hyQlNyS2RHRmJQbzA1MnNsVjlxc0VZMEZoMzFVYTZ1U21raFViUDh5S3E4Nk1EUVVLYkplTHVSQW1rTFZTU2ZTNDlUZDBDb2VwVjFDYWxNZERGM3JDR1BXTU9pRnBjZ2l2elpxUm91Y2NZbVNUSDNYbzFnNnBGZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Gujarat",
+        "Punjab"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "english.punjabkesari.com",
+      "headlineJa": "グジャラート州ではマラリア感染者数が10年間で92人減少、低い陽性率を記録 - english.punjabkesari.com"
+    },
+    {
+      "articleId": "gnews_487cf433a708dc9b",
+      "headline": "विश्व मलेरिया दिवस: मलेरिया के खिलाफ जारी जंग के शूरवीरों को सम्मान - ETV Bharat",
+      "headlineTranslated": "World Malaria Day: Honor to the heroes of the ongoing fight against malaria - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T14:30:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNXF3RWVFcXJGNnMxcTVUYjl4YzZYcWpvbVFNc3ZFVE9PZkN0MlNPMHVEUzh2V3RnNU1CSGFCdUNndW5VSTg2azhoRkFjNG85VXZ4MTlXaU9BLVJVaFRhV2Ntdnk5N2F4STJJQnM1ay1iVDNfRHZGTkJIVURveEZfdlpTME5hQnZXR2o0VU1EWUVPeWFyX1p0OVRabjVTVmwzc1BrY0dfQnpJQmg4dzFrY0d0YWVrU0dsYXQ3TWVmaFZ3VEVwVkQwMDB1UF8xWklYcTRTMEIta2hVd19fZGxUenRWR1BuYnpaUmVVTi1UR3lDazhJZzQ4S0RFZE5FbXFjNlpr0gGDAkFVX3lxTE01cXdFZUVxckY2czFxNVRiOXhjNlhxam9tUU1zdkVUT09mQ3QyU08wdURTOHZXdGc1TUJIYUJ1Q2d1blVJODZrOGhGQWM0bzlVdngxOVdpT0EtUlVoVGFXY212eTk3YXhJMklCczVrLWJUM19EdkZOQkhVRG94Rl92WlMwTmFCdldHajRVTURZRU95YXJfWnQ5VFpuNVNWbDNzUGtjR19CeklCaDh3MWtjR3RhZWtTR2xhdDdNZWZoVndURXBWRDAwMHVQXzFaSVhxNFMwQi1raFV3X19kbFR6dFZHUG5ielpSZVVOLVRHeUNrOElnNDhLREVkTkVtcWM2Wms?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "世界マラリアデー: マラリアとの闘いの英雄たちに敬意を表する - ETV バーラト"
+    },
+    {
+      "articleId": "gnews_77d3075690a2b0d9",
+      "headline": "AAP, BJP Play Blame Game Over Rising Dengue, Malaria Cases In Delhi - MSN",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T13:35:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPQXhzczZlNE1nMGdRNGhzR3Q2Y2d2cDBROGVxM2Z1VkpZOE8wbVN6Mk96VGRSYWRtQVlmR1ZDaEhpMDh5TE5lSnlMSmtGVFplbE12Ukl0SFFQWXN3SUJ0ZEctZTh3TjRPSFlSQWpZaXhlM1BmTjFQcl9XVDY0SU9Pc014OW1CWF84VklSMF91V2UwdU5VY1Vhd1IzTmloWmdHekpidzNxZlFvNG5lLTVwdFBlYldGV2YxYTZKYkRaZHoyY0NRWlBWU0Y1RHpZY1p3WEg5VFhya3hNNlZjWUh1SkdLcWtqbzBSdzB5OXhQWmJwbVlkZlNYNEk5c09UVDZ0RjRXOS1qNXN1Rnctd2ZvcDgwZVBRT01KczV6TDFCSWpnazZYVVVHNk4zV0NuOW9SbVBJUGtYYVpUT2NnTlQ5M2JvekxzamdNWENQVjlJcjZwU3R2V2c?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Delhi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "MSN",
+      "headlineJa": "デリーで増加するデング熱とマラリアの感染者を巡り、AAPとインド人民党が非難合戦を展開 - MSN"
+    },
+    {
+      "articleId": "gnews_8a1d52f664084e32",
+      "headline": "विश्व मलेरिया दिवस पर जागरूकता अभियान: शपथ के साथ 'मलेरिया मुक्त भारत' का लिया संकल्प - Dainik Bhaskar",
+      "headlineTranslated": "Awareness campaign on World Malaria Day: Pledge taken for 'Malaria Free India' with oath - Dainik Bhaskar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T13:15:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOVQwb0xlOUVVMlhDWXQwY0N0OC1INTZwckp2cDQySVFaUTR0WjNrSXpqM3NBUUtYcjBNTTB6YnpJdk1yUWwzOFp5WFplU2Fvd2Z4aGxDTy1MTU9fS2lBLXkyNUN5VUY0Y2RmVDdyaGtvZlRWNmdSbGNPX3UzTGphVnFTWWEwX19oZHhyYTVUVjBIdUxRTkRTanJvRUNWYU9GQllybkxZTWNES3JqQ2VmR01ZazlQVVMzYUYzb2hsSTg1Z9IBxwFBVV95cUxNdkJFQ0dIYUkybmUyeS1ucnNkQWJ4V2hmTEZCM01WMzZsa21sckVIQldiYkVaVUxLRGxrSFlzQlRLX1VTSHQwRkZTLWFrYTFLWlJqVWZvcVVKNkdmY3J3RkdrZGFfYThpTllDUW1tUjJHaVU5dG04NF9xMzlkc0lPV0NTSUFTdVprbXpKN3RRWG1Xa2JzSWs0MmVLSXNUSi00NXpXeTBrYVlHR1FoQ2JQZFVtUldkQUlVSFBySlZ0clZoVlc0WW1z?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Bhaskar",
+      "headlineJa": "世界マラリアデーの啓発キャンペーン：宣誓とともに「マラリアのないインド」を誓約 - ダイニク・バスカール"
+    },
+    {
+      "articleId": "gnews_759ff9c3a1688154",
+      "headline": "Focus on ‘last mile’ gaps to achieve malaria elimination by 2030 - Hyderabad Mail",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T13:02:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZGpEWUhzakNBeTJXT0ZxQjdVQ1RkMlVPWjAwd0RKMDBXWThfNWN4eWdWMl9XSE42MjlncWUwTUprNFdjb0xTcTZ1bTJxUlZySDU5ejNNcEhiUXVJRFlHQVhxRUJQNkhmeThfekRiLUF0WjdRTTlfejAyX285UDFwUGxsUVZnSzRPWUE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Telangana"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hyderabad Mail",
+      "headlineJa": "2030年までにマラリア撲滅を達成するために「ラストワンマイル」のギャップに焦点を当てる - ハイデラバードメール"
+    },
+    {
+      "articleId": "gnews_9c65b313c3dc56d9",
+      "headline": "स्वास्थ्य विभाग ने ली 'मलेरिया मुक्त भारत' की शपथ: सुल्तानपुर में विश्व मलेरिया दिवस पर, अब तक कोई पॉजिटिव ... - Dainik Bhaskar",
+      "headlineTranslated": "Health Department took the pledge of 'Malaria Free India': On World Malaria Day in Sultanpur, no positive case till now... - Dainik Bhaskar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T12:31:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMHlMM3pDTjJDYXhCdjhsYkMxN0ZQTXFlaEFKMHd0TzNHMVh1ZTVIUFUzdkJPQmtiU3I3YXpYQTREREJscjlVaHFfcmlFWnp0aC1PeW91VlhleVdwMTFtYkpXYTladDFxNHU4QzBUWUJHaE1qdXowQ01XSXlSSXBDZURHNHBJUnprZ2pZU1Z3X1J0eUJTYkVRUllnTzdQNnZaNURmZ3BYSzdWdU9sSmhEZUZXRDRNUUUwS0k1MHpyNTZWVnRBNmE0d2RpONIB0AFBVV95cUxQRzc0RVFDbW9qa29HNFdSTldYYW80TXVFMWtrVEhQRFNrQjYwSlhEUEN1LVJLTV9mMG9CWkxvUTByNG5Wb3FqNlp4M3RkTVFhLXVfc3RvQW0tc3RIQ1JrWVkyZ2NkUnVhbVpVY2VUdVppNlBtazdTM0JzV2lOTkxzY2VOQnZSMkFmUVNPR01XX2UtS2N4dXdlTmthUlk2NGliQjZzVkI0MjItU0pkYWRiVUxBczAtN1RIbWxwYnBDVGw2VlBSamo4Z2NJSVpaTGhT?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Bhaskar",
+      "headlineJa": "保健省は「マラリアのないインド」を誓約：スルタンプールでの世界マラリアデーには、これまでのところ陽性者は出ていない… - ダイニク・バスカール"
+    },
+    {
+      "articleId": "gnews_0224fa0c412e6690",
+      "headline": "विश्व मलेरिया दिवस : राजस्थान मलेरिया नियंत्रण कैटेगरी-1 राज्यों में शामिल, लेकिन अभी भी सावधानी जरूरी - ETV Bharat",
+      "headlineTranslated": "World Malaria Day: Rajasthan included in Malaria Control Category-1 states, but caution is still necessary - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T12:19:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRV9HUlhweWhGSS13aW1fYVZTTl9TOFpTWGpLLXZBZGd0QXBlR1dkVjdJdkNYNldPUHN2YzY1UDJ0dzR5OXhjS1FmQWxaRTAyckhoanhPa1R0djB0NWN5U1U4cFdzZF9TRkxwVnk4eV8tb2FPMllNak5nVDRJTUtKWkM2THVwWTEtNElfYkMwR2M4VDUwaXMwazRLQ3hSM3p2RmxWLXhkTVlSbnVMRkFlZHJ4TDlJd0ppQmEyblMwM0_SAcABQVVfeXFMT0VfR1JYcHloRkktd2ltX2FWU05fUzhaU1hqSy12QWRndEFwZUdXZFY3SXZDWDZXT1BzdmM2NVAydHc0eTl4Y0tRZkFsWkUwMnJIaGp4T2tUdHYwdDVjeVNVOHBXc2RfU0ZMcFZ5OHlfLW9hTzJZTWpOZ1Q0SU1LSlpDNkx1cFkxLTRJX2JDMEdjOFQ1MGlzMGs0S0N4UjN6dkZsVi14ZE1ZUm51TEZBZWRyeEw5SXdKaUJhMm5TMDNP?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Rajasthan"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "世界マラリアデー：ラジャスタン州はマラリア対策カテゴリー1の州に含まれるが、依然として注意が必要 - ETV Bharat"
+    },
+    {
+      "articleId": "gnews_449231ca1a518617",
+      "headline": "2030 तक मलेरिया मुक्त भारत का संकल्प: सीएचसी स्योहारा में स्वास्थ्य कर्मियों ने ली शपथ - Dainik Bhaskar",
+      "headlineTranslated": "Pledge of malaria free India by 2030: Health workers took oath at CHC Seohara - Dainik Bhaskar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T11:50:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOY0lIV1FFSDZuNS1OWElpTXBLLTh4bjlwV2JyTkVXZGJuRDhpb2hZUE4zYkxaMDBOTlRndTV1M2Y1cG1YZ2N6ZHlIcU5BOG5ZZS1GZGlBUWhQM3AxWVZYQWY5aUxLdlBac0l1NXNjeThpZ0xJZ29LM014a25uSU1wV0FPbkR4bV9kRWJqNlZmM0h0WE1aRHVOOUVSY0pwYWxXOHlfajlDQ2laTmxIOGFLSGFveVhxM05TMkdxd0d6VVRYaHEwamlpNE84MFTSAdIBQVVfeXFMTzl4Zk5ZZVE0cWFMWVp4cUhpVS1ycVRGb0NXdUJNUm8zXzRnRDg4SnAybW5wdy1RZm0xcXFmSkNFal8zb3FUNGFQUVNtSmNyVDJBdXR2UkoxUmZYdl9JSF95a0V2M3JjbXRDZElCdDM2UzMwRFpXWjdaMlB3MGpkaVgxUlVvbEpWUGZLamZ1bFN0bUlwd3g4NWVMeEhoMWVoNERYY0RwdUZycGZEZ0VodUNScXFMazVLUUVRdl9mSXlKbTNmb3hpM2ljbjk3ZllrYTZR?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Bhaskar",
+      "headlineJa": "インドで2030年までにマラリア撲滅を誓約：医療従事者がCHCセオハラで宣誓 - ダイニク・バスカール"
+    },
+    {
+      "articleId": "gnews_2544c68ab7816e57",
+      "headline": "विश्व मलेरिया दिवस पर रेलवे अस्पताल के आडिटोरियम में सेमिनार का आयोजन - Hindustan Hindi News",
+      "headlineTranslated": "Seminar organized in the auditorium of Railway Hospital on World Malaria Day - Hindustan Hindi News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T10:30:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPcXg3d2IxSXg2YjNxemhyRXpxN1llNGNfR1h5aVNCX0Y0aXlZa1AwdWtSb2l2eUZDaERUOG1QYjY1VVpYYzQtV1RuS0JuTUZsYlhnMUFHNzRjR2l0OWxsMjVaNlBpU2tBY1hBblZMeVBaUmZfaDY2QWJkUFp5bGYtT29aRzBqQlRYbERYQjBHVE00eld5TnNOTlg2VnRyWFlTRFRhaFVPaWItenE0cXRpOXZFYkUwWTFiejFtS2VwZG92Y1cxdzBaQjdSWDVOWmRCLXcwc2gtekplcGdxbjB1MVB0bHlHWTlwcG1IZ0tUU2hvbjRuRzVVeHpDN05NRHZVYVUxYVM1TXh4Z0ZyTzhzQ9IBlgJBVV95cUxORks3SGhhd2VlbDMwcUpsS1FTTjB6VEM5TkZSMW9VN1JvMHluVTF4bFFMZkM5MEo3UGlVang2MUh4OU8zblVUOXFqZkJhY1BnUTg4c21Ib0ZEUlI4V0dCV1YxM2pCaEhZVFladTFkb3RObHBFeUtLa0tQWS1jd3I5MS1sTW1pZDZDWGRYdW5IS2p6dzBOLVp2ZUxHTVQyZWZORkVWS3prV3pxdUtmRllfc1BLcnBxWmliem15OGZNVmpTTU1RS0lnUU1Rakt2STE2amtUNlpRbEdHV2p1cTVRU1lzYV8wX2VPWldfR2ZmX2hUQUFXUzYtNHNZY3dXTHo4NjJEYlpocjdVeW9Gcm5xMW54cjNldw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindustan Hindi News",
+      "headlineJa": "世界マラリアデーに鉄道病院の講堂でセミナー開催 - ヒンドゥスタン語ニュース"
+    },
+    {
+      "articleId": "gnews_59910f189b15dd45",
+      "headline": "विश्व मलेरिया दिवस 2026 विशेष: झारखंड के लिए बीमारी का हब बन रहा पश्चिम सिंहभूम जिला! जानें, क्या है बड़ी वजह - ETV Bharat",
+      "headlineTranslated": "World Malaria Day 2026 Special: West Singhbhum district is becoming the hub of the disease for Jharkhand! Know, what is the big reason - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T10:03:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVDlsbkVvM2FGd0huMXB1dVBiTjFVUzNjemdReFo0bVJ6YmpoZzVFTWVRN0hCQm5pb0FHU2VRX085SVliS095QWNrWDh1OURQYk1RR2RVM2t3dkdZSFpDdFZmYi1udVFrYTZYeXF5eTB0VnhfUkRFRDBVSy1WME80UVp5RjV4Y0dob3Z4UHZ2STRKNUFpVlZJNDZ2Qk1VdFN0YkszVkpRN01sM2VPbTNHX3FUa0ItS3R0RkFUd0tibWN5Wm9JM2toSHpPQTXSAcwBQVVfeXFMTVQ5bG5FbzNhRndIbjFwdXVQYk4xVVMzY3pnUXhaNG1SemJqaGc1RU1lUTdIQkJuaW9BR1NlUV9POUlZYktPeUFja1g4dTlEUGJNUUdkVTNrd3ZHWUhaQ3RWZmItbnVRa2E2WHlxeXkwdFZ4X1JERUQwVUstVjBPNFFaeUY1eGNHaG92eFB2dkk0SjVBaVZWSTQ2dkJNVXRTdGJLM1ZKUTdNbDNlT20zR19xVGtCLUt0dEZBVHdLYm1jeVpvSTNraEh6T0E1?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Jharkhand"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "2026 年世界マラリアデー特集: 西シンブム地区がジャールカンド州の病気の中心地になりつつあります!大きな理由は何ですか - ETV バーラト"
+    },
+    {
+      "articleId": "gnews_44d3dd9fb05952be",
+      "headline": "Hyderabad marks World Malaria Day with GHMC awareness drives across city - The Siasat Daily",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T09:19:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1R2Sm1ZNVlqZXVUc2F4M1pnN3FPSl9UNG9NU0YySi1RVE5ua0JMbzhsVjRGdXctSnVoYU5ENlJEVkV3ancwMDdrc2NTSjJZU003MWJYdVU1TkJ1LWMzT1NqOVdiRktGOXgweTBrNHIxUTk5b3R1UE9GcUVjXzcwaXJyOWd2bG80dGYxakJUeW9oOGRjSnFuR2ZDSDk3Q0JqWWhmdjZWONIBrAFBVV95cUxPS2xYRHhVN0ZzQmRoOWg1UGlXb3N3TUIxNkh2dG9zOGdabTBHd3dRWllPYmJYd0VHdDcwaVE0Y0NTVnNBdjRNam81eC1Vc1NjV2dhTGpQRm00LVlyUjkyWldGNUR0M2luSkZLYTNxc0EwMmZHUVVuU3hJVW9ra2R3cjZYczliaDNZdjlScG1RMzE4dlNkSEV1YUJOOTFyaExhVmpKSVhNX1BfeW02?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Telangana"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Siasat Daily",
+      "headlineJa": "ハイデラバード、世界マラリアデーを記念し市内全域でGHMCの啓発活動を実施 - The Siasat Daily"
+    },
+    {
+      "articleId": "gnews_2749149aaf73f6ed",
+      "headline": "World Malaria Day: भारत में पहली बार किस कंपनी ने बनाई स्वदेशी मलेरिया दवा, दुनिया ने माना लोहा! - Jagran",
+      "headlineTranslated": "World Malaria Day: Which company made indigenous malaria medicine for the first time in India, the world accepted it! -Jagran",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T07:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSm5QQ0t3MWUxWXVCM0pWRUp6OEoxTGVJM19XSldVdHF2YnRZVkoxY2FfclpTXzFlVnFsUHMwcXNuU1J6dUpURE5JWDZFY1psQ3pRbDd3Ri1HSE95ZmdKNUtHNmZQU2E2Q3hOUW02STFkUFozRlF5RFlRMi1lNWVoajdxc3YzVGQ1MDNnNXBVMGEzbTd2ZGltNXdBUWYwN0h6Tk14WkNCekFSX2lOSzNBMXhfSkktbDAtUWpFNzdNdFV2RW90dXM3TVl3bw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jagran",
+      "headlineJa": "世界マラリアデー: インドで初めて固有のマラリア薬を製造した企業は、世界に受け入れられました。 -ジャグラン"
+    },
+    {
+      "articleId": "gnews_04b4108f46019117",
+      "headline": "World Malaria Day 2026: सिरदर्द और बार-बार होने वाला बुखार मलेरिया के हो सकते हैं संकेत, 10 गंभीर लक्षणों और बचाव के उपायों के बारे में जानें - ETV Bharat",
+      "headlineTranslated": "World Malaria Day 2026: Headache and frequent fever can be signs of malaria, know about 10 serious symptoms and prevention measures - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T07:46:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZVBKWTNYMGJZSVIxcXlNb2l1Z3NXRHVrR2FSZWdtSV9PQzNjYTVYdGlXNTRRNE8xaWVCLUNpcUlWRlhNcXhxTnUxT1BPQUx4ai1lZlZKdnVIR093V0UxTmpmWV9LVkFNb3c3ZVZmR2FsVmxud1lveVFsSzUzaExFUHRGamt5Q0FfLUh0cC1JMy1UV0JtUENBZ09IVlFBSVExYWl5TFA2LTFweV9XUm95MFZveHhZblJZVkRXVXVlMUhKd1p6YmxacEI2U215ckhQVmlFc2RMMGJWMEI5U3A4eXVNWHRNQkRieEF1d0I3eFBYZXZJQzFXOXQ4OXR2TTjSAf8BQVVfeXFMTmVQSlkzWDBiWUlSMXF5TW9pdWdzV0R1a0dhUmVnbUlfT0MzY2E1WHRpVzU0UTRPMWllQi1DaXFJVkZYTXF4cU51MU9QT0FMeGotZWZWSnZ1SEdPd1dFMU5qZllfS1ZBTW93N2VWZkdhbFZsbndZb3lRbEs1M2hMRVB0RmpreUNBXy1IdHAtSTMtVFdCbVBDQWdPSFZRQUlRMWFpeUxQNi0xcHlfV1JveTBWb3h4WW5SWVZEV1V1ZTFISndaemJsWnBCNlNteXJIUFZpRXNkTDBiVjBCOVNwOHl1TVh0TUJEYnhBdXdCN3hQWGV2SUMxVzl0ODl0dk04?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "2026 年世界マラリアデー: 頭痛と頻繁な発熱はマラリアの兆候である可能性があります。10 の深刻な症状と予防策について知ってください - ETV バーラト"
+    },
+    {
+      "articleId": "gnews_5f41de181efb0b5e",
+      "headline": "Famous Sand Artist Sudarsan Pattnaik Raises Malaria Awareness Through Stunning Sculpture - Ommcom News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T06:23:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVHFrS3djZnNNd2lsS1ItbzRZTFFKUHR1ckdZVm5Ndl9pd2lMeVN4dnBwb1JQR2Y5TXVMaWMxS0RZRFFHMUlBdy16OUpya01sRzQ1TndpdE81b2g5eUpvdHVQN1ZVN0NDN0RoQnJvVHFtSzItODZfZmp2R1k3SzU2LWZLRE9VTERyM2FpMlhqMkxXTVlyUXhRMHJnNE5lbG0xLW91YXlfdlRlVEFYRS1hMWJXQWFqVGVQSzU1ZU5XbGlHdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ommcom News",
+      "headlineJa": "有名なサンドアーティスト、スダルサン・パットナイク氏、見事な彫刻を通じてマラリアへの意識を高める - Ommcom News"
+    },
+    {
+      "articleId": "gnews_ac2b3c11d0378308",
+      "headline": "World Malaria Day 2026: भारत में मलेरिया वैक्सीन की राह नहीं है आसान डॉक्टर ने बताई 5 बड़ी चुनौतियां - TheHealthSite",
+      "headlineTranslated": "World Malaria Day 2026: The path to malaria vaccine in India is not easy. Doctor told 5 big challenges - TheHealthSite",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T05:58:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOY2dSbFhMTTVWRHB3VUp3bE9mX3ktSVdYbFdOWmVXYkt3cTZkRDJ0WTFoQWhnalN6aU9KWm5RZ0hQby1RZ29kbTFBUXhwNDRpUTZjcUNyczBtNFRtSE14Z0c2V3pTUnZMSWd2ODd3WXpmRXJFWWdkZTJMOHRYbGlWSUlCWHJ3THltWUtfSUJfbmU2TkJfRmt6dkUxYmQzZ21YMWpMWXFoXzhDTnpFSEk1b3JrNXVSQVhBVF9wOFVSZUNrck15QUgzeGhTSDfSAdIBQVVfeXFMT2Q0QldvZTFmNHAxZlpqcy1DbVFOR1pQNFNwZTJBdWxFQ2M1d01wRkhjMFpMQm9Femw5eUllWnVWZXd5MHpITDJsY0xTZE1vNVlxcWhZc0YyNWxKSGRxU0U4Tlp5eHRiUmlpV2FfS01MVnprMVduVWpIMTdMWGRMY3Uyc0RpUGpGclNrQU44Wl96dW56dEhCQnl0Zkd3N2RkQTFnTVlna21CeG82R2dkbm11TmlpUnotN210SG9Ldl95djVVVmQzbWFRQ0tlVzhaQ3hn?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TheHealthSite",
+      "headlineJa": "2026 年世界マラリアデー: インドにおけるマラリアワクチンへの道のりは簡単ではありません。医師が語った5つの大きな課題 - TheHealthSite"
+    },
+    {
+      "articleId": "gnews_3c73301a390d7ce1",
+      "headline": "World Malaria Day: जागरूकता, विज्ञान और जनसंकल्प के समन्वय से ‘मलेरिया मुक्त भारत’ की ओर अग्रसर - DD News",
+      "headlineTranslated": "World Malaria Day: Moving towards 'Malaria-free India' with coordination of awareness, science and public resolve - DD News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T05:16:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQlNHZUFsOWYxXzg2UElhNjkzS0JFMDYzUjQyU253QjB3RWdTNUVlLXUyNWF4Y0txX28tdjVhMUhKc21ZUGN3VEI4VW9Pa0stNnR3U3lrbmFaOV9palJvSWtLTVZQeHAtcENvRHV5SkVVRkY4MU5pY1ZWb1R0MmZpa3F0TTJPbVJHVU5KX1RfeVgzeTNacDBuck01RndXMmZrU09iUVR2U1g4QVRldDhYdUJVUHBVYUN5azNpZDZuc3gyRzZSenhfenN3MFk4SnJzcmltaHlBT0kydzg?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "DD News",
+      "headlineJa": "世界マラリアデー：意識、科学、国民の決意を調整して「マラリアのないインド」に向けて - DD News"
+    },
+    {
+      "articleId": "gnews_7065ae73246d2e20",
+      "headline": "सरकार का लक्ष्य: क्या साल 2030 तक मलेरिया मुक्त हो पाएगा भारत? - Down to Earth- Hindi",
+      "headlineTranslated": "Government's target: Will India be malaria free by 2030? - Down to Earth- Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T04:20:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRUlzT2lvRFB4Vm0yZ1o2Q29XUkxUb0JMclItWWI3ekp2eTNIYXFtdTVkbzRQU0MzOVRGSGFxbUVkUTZEeTNkTnhpUFRjYXY0SnQ1M1hZZ3RGZExzUTF5ZzFnc0pIdTRaQTlMaS1Qb3VyVzdmQmRJNWpmNmd5MFpRdlFXRXdTbk1yRklpQTNHN0tXbXQxNkx5eVZHV24teGo50gGuAUFVX3lxTE1hVHN4NG1wTnhLSC1FclE3aV9TS2VHZ3dXMGVxemVTWUtZblM3alhLQUFHVEh5RXhaZDB3bml3SUltOGduSlVQVEdjZzBUNVFkWEZSdW9nUWxuYmhJeWFLb3I0M2o3MjAydFV2SGh0WS1rWnE3Wmg1X096TEFXNEtRNmtDSEZIOFp6YmJVR2ZkcmpyNFZ1WmZsZE1MR1hsNWNYcEJMajdCcG9wRFNydw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Down to Earth- Hindi",
+      "headlineJa": "政府の目標: インドは 2030 年までにマラリアから解放されるでしょうか? - 地に足のついたもの - ヒンディー語"
+    },
+    {
+      "articleId": "gnews_424073185749415f",
+      "headline": "Telangana moves closer to malaria elimination goal - The New Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T04:17:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQekk1RDdkV0hGcVVDLTRLZ3dKTXJ5Y2d3QmRhUTl4Vm1WeHBJc0pUWm9CU2hJYkx3MkVfSXgtU1lzNFFzbFBmN0R4NGhBV1FfYmszMEFWWTFCeVZkUFNpS2lFWXF2SFdCRHdiTWRnTC1qMkdaeUZpQU1HbS1aTG5ULUUwUU8yMmVqWWo5N1A5b3kzQy1qN2kxZGZKWUZ6Mm9FaVh6SktHOVd1TjhvWmZqVjExSV_SAcIBQVVfeXFMTnZvM08yaTRrcDU2bGpkT3NFcWZON25lTGdUNUkyd1U3MklRZzVlVC1LamYxb29EcHNqeG9wQW9QWEFhcExFZFN1R2FObC01RWN4OVE0bU9SMUY1TzczUlZhZHY1UllaQmNCUWtISk5XWlI0NnVXQWt0YlZNZHgyN2hXYmZuZzJfV3RTcDFVOFN5aEFBc1dGdEh4WFJEWF8zSHRIUEF3bVhfNktDRElGRjYxSzhlLU5EQzljMTRnT0w1REE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Goa",
+        "Telangana"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New Indian Express",
+      "headlineJa": "テランガーナ州、マラリア撲滅目標に近づく - The New Indian Express"
+    },
+    {
+      "articleId": "gnews_1e30768946186377",
+      "headline": "गांव नहीं शहर बन रहे हैं मलेरिया का नया हॉटस्पॉट - TheHealthSite",
+      "headlineTranslated": "Cities, not villages, are becoming the new hotspot of malaria - TheHealthSite",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T04:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRDNkN1hERnNpd1BDcEktWEZ6cTZscHQ2NzVWTk1EX3ZLTWJOQnBCLXRSN192eFFwbEtkTzdkb2pmY0w3VVRnY0lxWlFReVhoQXBRLV9GR0lSUlBUVlQwTWd3NnE3cjAzYzVDa2hsckdfUlZrSUl2YnBvM3BFNEFlVTZKUWE4SUV3dUdLdFpQOHQycmhYZlpwd3RzeDBmWC1LSzF3alJuVURSOTJlYXZkUHNxZzBkTnPSAbwBQVVfeXFMUFh2dWpsVmRKOVVHMWM5LUR5X1hUelJTM2tvejkzX0Z0M01OS3dRa1k0b2puZmpoQmtwMjJlNW95Nzk1MnRJaTBSaEd2N1FibFd3S1dVZWR6S2RoYXozc2wxNlBzbk93RVpucUJrLVQtT2VzczZ0T0hqaUtMaTE4dlNJZHBPSm1yREhIanF4WGxINlFyOHRTNlhsS29YeFgxRld6dGFaVkNTNkpJQXJ0MzR3d0ZjQ0R2T2REMmc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TheHealthSite",
+      "headlineJa": "村ではなく都市がマラリアの新たなホットスポットになりつつある - TheHealthSite"
+    },
+    {
+      "articleId": "gnews_17c27cf3948468ff",
+      "headline": "World Malaria Day: Malaria cases rise again in Odisha, health department steps up measures - prameyanews.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T03:53:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTldOR195RDRVenV0UWhpdjhZUWJrem1zOUFINlJhQ2hZQzZHMnF0Ui1aaHZOUU0yM3JxMzkzT2ZSSmlOSzhWVGV4MTFRWGN5TGFZbkpTbFduZDhNNUoyVnBDcEo2MWpGOWJyWWJQUGduNXExUnVZajRxdW5BYk50MGszbnhNeXV2Umdwb05GQ3piY010Sl92ZVN0WW43MmtrelFtWEJqc0xCeHF3anl4c0pjVW9qcUE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Odisha"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "prameyanews.com",
+      "headlineJa": "世界マラリアデー：オリッサ州でマラリア感染者が再び増加、保健当局が対策を強化 - prameyanews.com"
+    },
+    {
+      "articleId": "gnews_993dc222f32c6824",
+      "headline": "कागजों में काबू, जमीन पर कहर; ओडिशा में मलेरिया उन्मूलन सबसे बड़ी चुनौती - Jagran",
+      "headlineTranslated": "Control on paper, havoc on ground; Malaria eradication the biggest challenge in Odisha - Jagran",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T03:35:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ2VlY09QbU15TGVOMHRINDZzQ0RYMmpjT3g2NnNHZ3ZqRndhdjd1cThHN2I0NUo5X2xhTTRWREppMG1KQjJyYk92VUtkdlZBQ21jZ1NCSnRTRWl4N3R1VTBkMlJZekJNYTFpQjJUaTFsNFhHdEJpN0pOUTBEelhJN0RBbU9RMDJHSWgxOXZtVElWSnctX0l2VUkwMjl5S1R3ZHJYdVNkNUpSd2lZdXRfS242d2xNSEk?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh",
+        "Odisha"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jagran",
+      "headlineJa": "紙の上ではコントロール、地上では大混乱。マラリア撲滅はオリッサ州最大の課題 - ジャグラン"
+    },
+    {
+      "articleId": "gnews_4ddf95c073d898ef",
+      "headline": "भारत की पहली स्वदेशी मलेरिया रोधी दवा आज ही बनी थी - mahamedianews",
+      "headlineTranslated": "India's first indigenous anti-malaria drug was made today - mahamedianews",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T03:30:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdmZ1Nmw1NTFHaDR3a3ZYRS1Cd0JoaDRRcUduWDFQemdtRVdIdHFqTGJhVUdobkhyMl8xR1ZGUC13X0ZMRS01SWNGOGJ3cFpOdmV3SWc3YkdHMkFEaGM4UkVpa1FXd0ZRSzhfSjF4TlM3VjItT2I2RWpCZGxIdUFiUUlEVm82WVpjZ253RGJGVkRnRVZVUE5xbnFWQXJtVE84OGc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "mahamedianews",
+      "headlineJa": "インド初の土着の抗マラリア薬が今日製造された - mahamedianews"
+    },
+    {
+      "articleId": "gnews_11fc3c900bacb5ff",
+      "headline": "Delhi govt mulls special task force for concerted efforts to eradicate dengue - ET HealthWorld",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T02:52:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRFh1OU1KekZlZVo5QUZ4dmJJbkpaT1J0ZDVwekloOUEwcmZ0eS1kdFVmWTc5VXpJWlFxSTlGWVdES0tueHhkODhYWkI3NlMyQTRFSy12Mjc2WXRzdWJ0MUlpY1VBR09zbXdOMTFkU3Q4ZnJEN0pHWTRYdXFHc2k0M0x0ZTFkLXAyR3c2NHhndk9uR0NHbVlDbTg4QWFaM3hySmxtMHpaTVdrWUU5VlFkLVJLTjlaTng3d1ZPeE1pLXdQLVN0cVFxNkp0bXdzcnJtYVRCNHhVVlBYZ0HSAeABQVVfeXFMTjNFajB3ZlBtaVJmbFRJenQxYjVybjR6cHRKUmJCWHpaang3NUx1QzYwOV93VUVMcVN1aVRCWG1VZExEVElPak5CZFUzVlNUVWVOQ1hSQ1NjcVh6a2ZmTTlPY3JQUjZfdGNGYXcxVW9rWEFWR0h6SlVmaGZVblFrQUtQVHVzcERUb2ROaWl1OGx3cDBfdmZmWEVBZGRON3IwNjZqMlZreE5EOS03cU81X2VKazNad1k0NG01Y1RrdmFDS0s4YV8tdkZfUUZleUdydlYtTWZ4eGxKOGVoejhWbHA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Delhi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ET HealthWorld",
+      "headlineJa": "デリー政府、デング熱撲滅に向けた共同努力に向けた特別委員会の設置を検討 - ET HealthWorld"
+    },
+    {
+      "articleId": "gnews_4440fcbd82e9efcd",
+      "headline": "SPH in India: Partnering for Progress on Disease, Climate, and Sanitation - Boston University",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T00:30:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTB1RjNTYzFFM3FfQWxFMGRmU3BKWVhQSmFNandsZ0doakVlNXFUTU5vTWdnMm1VajdWeDRVclhuSU5uLXBFWG1oa2FMRGxqYnowYnU3NTN5RjJQNVd3NGxCMjhma05xTE8tdVBuQzVSc2RKODR3U1doOTJHZUxrSjIwcS11V09wSTlWSm83MU1sWXRneXVadWJONEE1UlNIRFgzWVpTME1ZRnlmRUh4TkdaVQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Boston University",
+      "headlineJa": "インドの SPH: 病気、気候、衛生の進歩のための提携 - ボストン大学"
+    },
+    {
+      "articleId": "gnews_c6f8a1c7db17e675",
+      "headline": "World Malaria Day: Asymptomatic Patients Real Challenge To Make MP Malaria-Free - Free Press Journal",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-24T16:42:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPXy1JR3FpYWpDcmViOVFSLUdnMWJWUDktZURDQ2cxaW5hcmdBSWdxdk5KV3RJTXZnVkVidUM5MFhQS0JJU0xQN0Z0R2EwVTJUckxWemJaR2VpUkVBLWhIM2VLUGx5d21Jc2tGMWNlbWtjazBuWUdiQlZhblZINWJ1OTBfQ250ZUhGMjVSRGpHLVNRT0ZCbTEyTmkzRlp0YVk3bi1NbmpzSkI0T3U1X1N3UktSYXlVMENl0gG-AUFVX3lxTE0xSHlsZ0hMX1RHb1c5U2VrWmFDYUlhaWswRmFaVEYyWHc4RUdJdmFlWVF0WTNsa0cwTTFFRFRFN1dqZFgyYlJyMUJjY1lxam91LTJ1QTY1ZHdhTTVVanctSXpwNXUtVlZIbWZLaUhMN0l0eUFSUXBLaU5tNmRpYnhZazB5dG9pOW5kemJCcDdSTWJScmdjNnk0RHVLSnBwdzI5WDlQMDQ3a053b1ZKSHRhdmhDUXJVZU5fZ3NFY1E?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Free Press Journal",
+      "headlineJa": "世界マラリアデー：MPをマラリアから解放するための無症状患者の本当の挑戦 - フリープレスジャーナル"
     },
     {
       "articleId": "gnews_cd674f3496cdf2f0",
@@ -63,26 +635,6 @@
       "dataSource": "Google News",
       "sourceName": "Webvarta News Agency",
       "headlineJa": "4 月 25 日の世界マラリアデー: 予防が最善の解決策 - Webvarta News Agency"
-    },
-    {
-      "articleId": "gnews_e31c43b03a85cab1",
-      "headline": "Stress Epidemic in Urban India Impacting Brain Health, Expert Explains - Health and Me",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T12:02:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVkxEdHIycEhqLWc4cDJURWMzT3Ewdy00b2piYkV5LUpiQnB3ajQ1UGw1Y3dvbTVsYUtydzlYRG5kMHdOZEdVYlNySVdSMTNORjViQ0NabnR5T3h2S0ZxdXlDYkd0ems2N2VIdkM3bzlXQ3FxUkIxckhIN3Z1OEpGUVpTYkJQajExZm1PMGRPeE93SThzSGxMTnBlNGVNZzNOXy1uT1p1TzFQNTUwcXN2TzE1a3VhWFhGODJUWNIBwgFBVV95cUxOaW1jVTdqai1fWVM0Q09IUndDSUt0bzFUVW8tMU9xWm1NdDNaUG1mdUVnRFYyclZTaG9uX05JX3lSdHY1WWV6NW1xRUhWMktoQjltU2ZUcDFaMmx3a2tlSm1ubEQ2U3pQQ29LM21UcjZ5N0gzREpMaUQ0TEEzbXZhaHA3ekhzb2ZyR1M4dmsxU2ozZlM3dXlPTUtiVEpmd3B2MVI4VXhfMGJ6bGEydEFlYVhYSDNWUWdiSE1fb1pjVE5qUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Health and Me",
-      "headlineJa": "インド都市部でのストレスの蔓延が脳の健康に影響、専門家が解説 - 健康と私"
     },
     {
       "articleId": "gnews_f5d295b2a445af33",
@@ -134,8 +686,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQcUpkQUI1ODk3bDc0ai0tbklJenlqbXVXOUx3cE1qOWJwZnk4X0dROTQ1ZEhSS3UyRkdVM2dHaWRHa0ZUWVF1WmphS0dQVVZoMGlfdG5GaWxYa2dMaDVrSDE3RkV4bkpWWi15RjBIamdQX3FoeW1qSUFqODdiRkl0RG9Kel8zbWVIempKQXY3dVFYQllvRkNLTjR1NHJGUFFqbGQyU0ZxSG9wZVFzYWZBcmc2dGlBcTkxWS1lMnFBdkVxVjBwRHRqbTNkUGFDT3h0S3Q1WGR2cWg5eTVlZGpwTTZXM3FXYzVsb1NBWUxRTGhXVW1VZ0IwSC1raDRDZ9IBgwJBVV95cUxPYWNHZGo1Zi1nbWV4TVd5MDlCRVFuOS1zMlFXNGtfM0FNc3B3d20wWUM2XzU2enZWX2wzSm15ekQtOGIwX3hyTHgxbEgyX2lIeTY0ekdvdmlXS1lMVU1uTXh4SV96cEgzZU1LREEzbTFENzNON19GTGlGVG9vbVRkd1ZURFZLRTFPUHd3Mm93OUd0eXhFNnd4ZEZKWlk1cWExaWdiSlpGamV5eHZmMm5JdjFDWnE2N2txZzFxM0I0SS1USDAzS0dZMTBESW9rRkxubGV6WWp2eTh6ZHpMeEdiTnUtWm1zc294d2otU3ZSZ3Q2XzlMdHE5Z242ZGNUcFNESHl3?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
-        "Measles",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Measles"
       ],
       "locations": [],
       "states": [
@@ -195,8 +747,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOU2VmZ09yUm5nZjN4V0VPMUtZcHFiWnc4aHY1dm1JYXBSYm9ob1JFeVF3UU1kcXZxeDRXNHFySkNiUHR3SWFoM1BUOWFndkczUGRCdVNQQ3ZwWFV5WnB1TGFDamZ4dUxGN1ZDZ3NMdG5XcHNJZ1Rmd0xNRmNqZkpLZzRsNS04RjhobmROR2hQTGhKb1VVN3poODlWdXNnWENNTDFwWk9SZ1RpYjNIV1FnMXNfcjRpdVRLbGFVWnRtRTE0SkJaUTZHV3hkeUozRWJ2d3V2a1NUYlc1U01tZllOSk5OMFp0NmhWSGdWbmF5eWdET1M2OFRRWE9yZFBjMXNwQTVpMl9LR2FTUUE4a0J5VDdQTEppUlpzbVF6WUVvRy1kVENGaTJ2REJpdmNEajRJNzlOV3BMU0EwWnRSa3dFZ3dtaTlJQlFt?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Malaria",
         "Chikungunya",
+        "Malaria",
         "Dengue"
       ],
       "locations": [],
@@ -208,24 +760,26 @@
       "headlineJa": "デング熱は2025年に激減するもマラリア、チクングニア熱がデリーを懸念 - MSN"
     },
     {
-      "articleId": "gnews_b04648d79c2b6059",
-      "headline": "Experts meet in India to call for urgent action on dengue treatment gaps - India's News.Net",
+      "articleId": "gnews_8f263db20b5321b9",
+      "headline": "Patna zoo closed till March 7 amid bird flu outbreak - MSN",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-23T16:02:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnBYakJxUTYxZVYzN3VSaDNsTFlkc3hUVFB4ejRrOUdnOEdWY0RXN1NHZEJidU5nR2lEaHFGcXlMSXN1OUxwbTF3SVBwUTd2SHc1aGxQajB0R3RKb2dldzZ4QnVRRnRiYVZRYjBwY3N3R2ZlMDNRQ2JyLWt6am9ndWNPcWVKdXJkelktS09fNmdpMVY4ckZwM3djNUd1VTBxRUp2TDBwMEVoNnBLTDJFN3VmRHI?oc=5",
+      "publishedTimestamp": "2026-04-23T15:27:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxONGxfZ2ZHdXlnLTRVZTBsbTQxLTJta2drYWw3bEE2N1B5TGRUdEdPMU4yd0sxdUxGU05nQnYtckRYQjdWTnN6NFRTdkJRc3pGU1c3R1gxMEFCNXZHVm5vcGg0ZDVaSUVwdlhSZWt0NlhjLWliLWhNQXJlaEZwbWtTWHpnSmNJQ2lSeE9wZzkyWmZkZWNNVDZJQ2prMFdUZlB5Z0hzRU1sYW1PWFZMbFF4WXVTc2g3MU9jdGVCc041R09DanhOVjV4V3JPeGlZcFFYRUhHdGxYUUtFLW9Ma3NaZWhqd3d5MVRiVnhfSjRPQVRJZTJfN3V4YWE1VVVjOGR6N3gwQW1Rb04yR0dENmxRSVg5REtXdkR4Y29VZHNIdmxiMk1HS2NfTkJ2aldUc2Z0QUE4VVFab0RCalVYaTJPcHg5eGtxdVhoMFhsX0JQa1B6a3kzOWNEWEJIWW1Uekw0?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Dengue"
+        "Tuberculosis",
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
-        "India (state not identified)"
+        "Bihar"
       ],
       "dataSource": "Google News",
-      "sourceName": "India's News.Net",
-      "headlineJa": "専門家らがインドで会合、デング熱治療格差への緊急行動を呼びかけ - India's News.Net"
+      "sourceName": "MSN",
+      "headlineJa": "パトナ動物園、鳥インフルエンザ流行で3月7日まで閉鎖 - MSN"
     },
     {
       "articleId": "gnews_3d3c802eaeb8aa0b",
@@ -288,13 +842,13 @@
       "headlineJa": "感染症は減少、心臓病は減少：インドの健康問題に新たな悪役が登場 - India Today"
     },
     {
-      "articleId": "gnews_f98cfef14af24a04",
-      "headline": "Experts meet in India to call for urgent action on dengue treatment gaps - webindia123",
+      "articleId": "gnews_31b78d456e2d7bb1",
+      "headline": "Experts meet in India to call for urgent action on dengue treatment gaps - ANI News",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-23T09:23:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZWEdCZXplVTNZejduVGtMU1dpQUtSRGptYV93ekxJTE1TZ1JhNjVKd2p6bHZFaWhnNExWT3Q0ekpudW81R0Fzd3VYejVxNksxbmhIZVpabmhUVlRHUHp6Njk3YmFmYXVxVkxyb0x2a0pmbHlQZ3FwcFIxMA?oc=5",
+      "publishedTimestamp": "2026-04-23T08:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc2cyWFZpcUNwWDFCVWJRVGZBZE1kRlJJU0dLMUJzQkNKMk9nNVFKcmxSQXNRa19adjh1OFN1STJwa291aFpKSmtzWmdWajRsbXJVY1puYXZTZUxYd3dOQlE4bFdGMGNqRTNrclBIT0l5ZGtVN0xPWDhuNzhZV3RhdkVtU2gxdVRLQlhPcnk4SDBYMV9YT2lJdUhsVE1Lc3BxRk1jYkk3Z1N1dDNuRWlVVFo3UVdrcXJDYVE2Q3VaMEY0RXZSYjRuZmlyRk5hekdCT3c?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Dengue"
@@ -304,8 +858,8 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "webindia123",
-      "headlineJa": "専門家らがインドで会合、デング熱治療ギャップへの緊急行動を呼びかけ - webindia123"
+      "sourceName": "ANI News",
+      "headlineJa": "専門家らがインドで会合、デング熱治療ギャップへの緊急行動を呼びかけ - ANIニュース"
     },
     {
       "articleId": "gnews_29f84d5aa4a164ef",
@@ -326,6 +880,26 @@
       "dataSource": "Google News",
       "sourceName": "Dainik Bhaskar",
       "headlineJa": "世界中でマラリアが減少したのはインドのみ"
+    },
+    {
+      "articleId": "gnews_34e7244761130dd3",
+      "headline": "भारत में जीवनशैली रोगों का बढ़ता खतरा: एक नई स्वास्थ्य चुनौती - GyanHiGyan",
+      "headlineTranslated": "Rising risk of lifestyle diseases in India: A new health challenge - GyanHiGyan",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-23T06:10:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgVBVV95cUxQS0RhWVd4czNrcHd0OGM0cFVvSkNndWwwdVZOVTFEVkQ4SXk5M2RzRWJ6RkkzNUtNa0hocDR3OHp0WWNicE1qSE82NFhjWE05NnNrb0lGZEpMZXIwRUF0cGRZNFFGaVpWVUFacHdUa2Ztd3pHa252UjhaUUx5b19MMEZmS1o1SmJiQUVNSnlOWlJLZXpDQURDS19VcUNmNjNWM3dhNk1RYVh3QnhMcG1XX2JiR0pTdFJsTnpWUFJwSnhqQ21UM2pfb01Na3FWeTMwci1EOGtpcUpZY1c1b3o0eE9CTmlYOC02c3V6aEdpV0NGeHpINjdGZ2ZZVk85Q3VFM2hNbjR2b01Nc3N2SzNwcDZKTklhTHp5Q0k5R0V6SWRHandvTzhwdHlKcTZ1YzU0ZW05UHBfZzNUNmpvZHpzZmJmdDdzZzc2cjE5YW5CelZGMnVrZ2EzekM3OHpkdWRFQzFadnBObXB0bmVKdXNjYzdFZkVHN1lXeUh0c3VmSlZiRWJhaVVIS08tVURhbGFvSHYwZ1dLdy0xUTBITGRrVjV0QmNlbzVhelFUOF81WUJwcnFjRjY1cXlrZlFTaUNqcDZLZnhTX2ZISFdqYWVLcUwzOG5MaUJUZVl6eEwzTEZDdTNoUWFvOHl1WnRWOHBjeGlzVXZ5NWRRZFVyek9Ec1BKdUxIclF2NnF2V2R6S2dXLXNDS1ktUXJlN0RmNkd5X2dleDJ5OUt3eWU4VUxmVUxvelY3a2d6RVFYdHd4MFVhN05MeXNfRWQtSllyRjZaTllZb2tQRTd6dlF3Q1MwWjY4RF9OdjFQNm1MdU5kVktYYkpScHJGRDZPcnY5U0hkdk1TZzA3alNtdUYxdHBoRVVUUWxJZw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "GyanHiGyan",
+      "headlineJa": "インドで生活習慣病のリスクが高まる: 新たな健康課題 - GyanHiGyan"
     },
     {
       "articleId": "gnews_3a19967fd1d1a2bc",
@@ -357,8 +931,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM2MxZVA4Z2NwVWtDR2dEcWJqTzMxeG51ZkE5X2NvUWdpM3pCM1VnR2o3WmNUWTUwYVVJaXZ3V2M3Y2pCVHl5NVpIUVhLd01FTF9zampGXzllaHByN19sLS1zRUQ5a1lSSjYtY1dVS3YxUmc2bUxiV09BdFMwQ0hqV1hRbTJuN21TeVVnUmF6TDNHWGpnT1gzMk5henJFYUlPN0pGZkZQOGJzVVdCUnQxMjBmejBRQzFWRThNWF9SNNIBxAFBVV95cUxNdVUyY0lPc3ZtMVVZZ0VaSjV1T2NsdjAxc0U0T291N3FWcnlxdU1ZN3VGVjVfckdFLVFpLUJjd1FSTXgzTHFJLUJPSjEzY0E1T3RpWXktaF8yR3k3M1NYRVItM0hJMG5sRHFpSmRXNjB6cTRwMlFidkdWLUY4SjVaME1KM3JIMjhZV3pvNkdUNUV0UlpWY1MxZElwSlJrT0x0UFYzUjRhMTJEcG5mSDZhYXJBRUVLNVBLaHR2eHlPcnhPMk5q?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "COVID-19",
-        "Tuberculosis"
+        "Tuberculosis",
+        "COVID-19"
       ],
       "locations": [],
       "states": [
@@ -367,146 +941,6 @@
       "dataSource": "Google News",
       "sourceName": "Mid-day",
       "headlineJa": "コロナウイルス発生：マハラシュトラ州の閣僚が陽性反応 - 正午"
-    },
-    {
-      "articleId": "gnews_82a1bb6ab7079548",
-      "headline": "Zee Business. . #AapkiKhabarAapkaFayda में देखिए... बढ़ा बीमारी का भार,हर 8वां भारतीय लाचार! चौंकाने वाली खबर,सेहत को लगी किसकी नजर ! संक्रमण कम, लाइफस्टाइल ने निकाला दम ! लाइफस्टाइल का खेल, सेहत - facebook.com",
-      "headlineTranslated": "Zee Business. . See in #AapkiKhabarAapkaFayda... Burden of disease has increased, every 8th Indian is helpless! Shocking news, who cares about health? Infection reduced, lifestyle gained momentum! Lifestyle Sports, Health - facebook.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-22T14:56:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gVBVV95cUxPNmJBSENFTmd0cFM5bmNvbmZNQVV1ZFZtRXM0d2RwclR3dkxwVURJb3BNN3lXWnNCNzF6ZWFkakdReFRzd0NYSVRjY1RYTEVVRDZoZGROcjRwLTMxVFdSbnQzMFZuZ2RUeGhFdlZ2S0dRUmJhTmNnLXhubVVfNkVNQjd2czY0UHIwcUhHRnhjSTZ5Tmw4UE53ODBQWWJwbUpnVXQxS3dvYTFqa1VtUHg3UU50aEtfcVZVZi13MldNc2RCeW0zUXBsLXdtSTdMRl9ZNmNOaWxQZy1jMEdUSVV3NmFWWXI3MmpVYkE3Vl91ZU5FZWpHZjNDNmVUbXpCNnFSNVZpOGhXaUxtb1lFNmpWczZyVUZtSlJRcW9OMENCWWprdk5oa2dXTTJlWGNLWU1yMnNPQlQ5blNZMVF0eWp3Nk5ZR3F2OS1sa1diRVpIeE1CaEkwQTcyNFhVdjRSTUlMSkUwWnE4T2lBb3EzY2lTb29EN3NGQWp2NEM2X1lqbU03MlZzX0ZzdmdNYTJPVnNPYWNVUTNQaDgxTkpDalFtSkhWWXl0OGJ4NzJfM3A2aTNXX3g1T1U3VkhDd3VKTkJYOFZVNzdoZU1yM2V5Z0NUb083OENKZnc5REVoSlgxU1czSzdNNWdsMVNzdFVSRHpVZG9hR1l3SHFobTFYWi1HdDRkLUxJNDd4T3ZEUTdRa0ljdi1DWnVzZ1gzMWloOWlnbzA3VjVxamxXZWZZalRfb29jM0dDaGtMM01rZFFoVGE0dTB0bG52UkpPb3RsMG1JREtvaXotdm03bkU3MGkwNlFjOWIwNmVGTEZLZ2JUTXdCRnFkdkVwOEFweWdaX3FZbTVpd2xTWWVsVnJzUW94T1YxampEQkx1MFljZHhWNjVJLUdxaE51Ujc3akJVWUdxS1U0bDhTelY0Yy1xVFlydENmVkF0RUpDeVA0bUhfdFZPY1BKNDhrcVNaT09YVXlFN0E?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "facebook.com",
-      "headlineJa": "ジービジネス。 。 #AapkiKhabarAapkaFayda でご覧ください... 病気の負担は増加し、8 人に 1 人のインド人が無力になっています。衝撃的なニュース、誰が健康を気にするでしょうか？感染が減少し、ライフスタイルが活発になりました！ライフスタイル スポーツ、健康 - facebook.com"
-    },
-    {
-      "articleId": "gnews_29a2917614164934",
-      "headline": "डेंगू पर बड़ी जीत: भारत को मिली पहली वैक्सीन ‘क्यूडेंगा’, जानिए कब लगेगी और कैसे करेगी सुरक्षा - IND24",
-      "headlineTranslated": "Big victory over dengue: India gets its first vaccine 'Qudenga', know when it will be administered and how it will protect - IND24",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-22T10:57:23+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMnFTcVRhcllpcUZhNjRfTHZOa0RmLW4tdHJVZmV5aXFaRHpxRWNyWEczSUJIZVZ1WGU4QlJkZjlJeUZER05mdUluRkQyd18tbkRVZHpmTlEycUJiOVNxTUNIN2VWQWo2TUJsN0hIQUFPRlIzZlF1bVFqRjk3SUdua1puUFE?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "IND24",
-      "headlineJa": "デング熱に対する大勝利：インドが初のワクチン「クデンガ」を入手、いつ投与され、どのように予防できるのかが分かる - IND24"
-    },
-    {
-      "articleId": "gnews_af928aa0c718fd03",
-      "headline": "भारत में संक्रामक बीमारियां घटीं, लेकिन ये 5 साइलेंट किलर बन रही है नई आफत, सर्वे में हुआ खुलासा - Patrika News",
-      "headlineTranslated": "Infectious diseases have decreased in India, but these 5 silent killers are becoming a new trouble, survey revealed - Patrika News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-22T09:51:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMHZVQzZvUGVrUm5aNGVOSzhJS1JCWkljaF9NTVZXTGRQUnJXNWhFZHJfVVUwR09rRzU0Rkx1T0hSUGV0WDRWM0w0dUIzQXBMTTdITzNiaFdPLXNseEU5dy13aE5mdUhadnQtUjZuUUc2RHpzbGJ3TTBIN1dHR2hSNVpYaldjZ1VONzBJN3lyTDZCVzlYa0hEcHlSSHhNS3phRUl0dtIBqgFBVV95cUxPWElGVWFJRjlCN2JQdmJwVHJTVXVzeUZzRWhDTnRpcUZCUmhqcVVMd0F5bHdKWnBzcnNwTmoyVWU4dVVBNG1lODBmRWpGMTNRa3pkSkFaSG13Qlc1RjYweERhNWNyTGttRXE5eHVRbkNhOGpHZkdKc1B2ZnVJNmVSVXdxYjdXU1ZYTVlqc3hJdWVCQ2JPdVNTbUdSTldhTTJwOURNWnBpbTdjZw?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Patrika News",
-      "headlineJa": "インドでは感染症は減少したが、これら5つのサイレントキラーが新たな問題となっていることが調査で判明 - パトリカニュース"
-    },
-    {
-      "articleId": "gnews_440737b6ccfe774c",
-      "headline": "8046KM लंबी प्रचंड गर्मी की लहर ने मचाया था हड़कंप, क्या 149 साल बाद फिर पड़ेगा सूखा फैलेगी महामारी और दम तोड़ेंगे लोग? - News24 Hindi",
-      "headlineTranslated": "The 8046KM long intense heat wave had created a stir, will there be drought again after 149 years, will the epidemic spread and will people die? - News24 Hindi",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-22T08:23:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOTExMN0E4YzI0b0hDdTZEbUVOaXJDZEFKejdxaHQydmFYbm5pbXlDNUdpYWZHTkdMM1l0ZnE0STJfM3lkbU5BODNwZUc1OXNMZFFrc3pQaURGanNLVlBfNnF5RGhrc1Y0Q2hHekxRY0pqWDlVVzNjWm5oeEg0YkR5c3p5TkxPOFBOS2JuRExEaU1DcWNxZTBySWtGUHNYVnN1OEdYMUE3TkozQzBBNUJ5NUFrWWVJRTBSYXN3ZEFuR0ZzNnNsMnNROW5hbTUzYjhvaVJGa2NfYTNINWpXUlJuVmxxdGd6RmNucW9PM25yWnd4MHYzZ1BaQ2NSVkFHdW16c2JxczNPaElzMER0ZGUyeWVLN2tlbzRSZHRRbFdxalo?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News24 Hindi",
-      "headlineJa": "8046KMに及ぶ長時間の猛熱波が世間を騒がせたが、149年ぶりに再び干ばつが起こるのか、疫病は蔓延し、人々は死ぬのか？ - News24 ヒンディー語"
-    },
-    {
-      "articleId": "gnews_ce796e0749ed3610",
-      "headline": "लाइफस्टाइल डिजीज का बढ़ा खतरा, संक्रामक रोगों में राहत, पढ़ें सेहत से जुड़ी चौंकाने वाली रिपोर्ट - Times Now Navbharat",
-      "headlineTranslated": "Increased risk of lifestyle diseases, relief in infectious diseases, read shocking health report - Times Now Navbharat",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-22T03:55:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT1p5MGRMblUxZmI1MXozUE8tSGZ5dVlYQnFYZkxKUHNhX1hJeGxHeklkbU5OZS12Znl4YkcyOUtRZlE1NUJrY3FmaFBCMmxaNzBXZmMtcXF1MVdhdjdUdVp6Sl9OcFFKdFpxem5SRG5WVDlyb0RmSjI1LWhXbkhZV3ZxQVYtT2duTzhQdjg2MFJRWEF4QVp0aWxubmQ0WnpJXzZQM3h6TnctMjBVYWJGdXYzQXF2MnNtQ0pxZzlpeVY4cjIyQkHSAcsBQVVfeXFMUFpFTDczVUFzOTdaZTNTaHFmNUNYQjFZZHhZcEx1bWlqSDk2LW1vdnlRTElnOS1SRU1uMWV1NnJ2bHhvY0s0ZzVtOWxxRHR1QWl2b3dpWjdXS3FNX05SUlFJT0xnbWFWZ0NrcmJNMTFVek50ZVBfcE4xdndTRGtYN1Q0R2RaTU5tZDV0UzU1S3lrX0xUcXltQ1FFc2JsNlBUSEdCOHVERS1zYVRZbmRjbTU2VWVxOHBWMnFuc1RNZVY3RWRoNFE4dVlPMmM?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Times Now Navbharat",
-      "headlineJa": "生活習慣病のリスク増加、感染症の軽減、衝撃的な健康レポートを読む - Times Now Navbharat"
-    },
-    {
-      "articleId": "gnews_843fd470d3f0e8f8",
-      "headline": "भारत में बदलती लाइफस्टाइल से बढ़ीं बीमारियां, हाई बीपी-डायबिटीज ने पसारे पैर; संक्रामक रोगों में आई कमी - lifestyle diseases in india high blood pressure diabetes spread infectious diseases decline - Jagran",
-      "headlineTranslated": "Diseases have increased due to changing lifestyle in India, high BP and diabetes have spread; Decline in infectious diseases - lifestyle diseases in india high blood pressure diabetes spread infectious diseases decline - Jagran",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-22T02:22:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaGRSTWhmVjNVVnRrS1hqTWVuaFVTVm1oQU1keUVLakFxMlhLaU0td3Y3MTNFa0R4QXhwZVhrUVQtbk12MGpjWFpMQll2b28wSjMwQndjbGw2OG12SEg4VHhzdDJDS1dTVndKSFA5M1JPMlFOMDRvOTVkRzAzQlR0ZGhoeUx5NEhvbjBSOW5XcUpJM2h1b0lCc2RNMHZDYXZwaXZaRDI5WjR1cFpKeEVlMWNqenZPeVNRS0pVQVoySjJZdUhOMWFRZHFpQzVzNXJCaGkwT1VOWUhfUQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Uttar Pradesh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jagran",
-      "headlineJa": "インドではライフスタイルの変化により病気が増加し、高血圧や糖尿病が蔓延しています。感染症の減少 - インドの生活習慣病 高血圧 糖尿病の蔓延 感染症の減少 - Jagran"
-    },
-    {
-      "articleId": "gnews_e5428feda9fe9708",
-      "headline": "Lifestyle diseases surge in India, infectious ailments fall: Survey - The Times of India",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-22T01:59:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM3lqNk5XRkE3aGN6X3o4LW9EcTlTajFsX1RzTkhFaWNYT2x1N3lSUDNfb3E3TXF3Q2ZVTllMQ2ppanR4QW1CbmhfUTh0VnEyU1ZOUjd4VU1KTkFzbnNmZmVsRnVQRzNrbGs4OVA3b1RLUzRQWTJNcWpIS1duNjNhNFVLdnN4VFBLclQyUkRqNnBBcEhibVVsVmhURWtHWUs1YTlVZXNYYmxsN0ducTliVGpNM2xhc2dlTDZLUG5iSG1XcEkwSkd4VWtoR1RsUdIB0wFBVV95cUxPeV9jQUh3WmYzQndIRnduaVh0RVJqTXplTlZYRXVudTUzbHhObWtJa3ljMmhnanAzYk1oYl95d3VseVVUZGtTR0RZdE1GNlV2cUhEc3dzQk1XRFhXem9jT1VjNUtqUkM5VWFpLTFuMUo0cURzU2pfTlRJZXBrWEp2N1UwZVE2NU55aTZXUVVFa3RvNWpPYkZHekwwTGtibnJ4ZG1RNGdYNmhScFpZbWNfM21JbUFYU3hnR1ZCa2x5dTVuWVFWdzJrZGZST1p0MjJDZHBJ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Times of India",
-      "headlineJa": "インドで生活習慣病が急増、感染症は減少：調査 - タイムズ・オブ・インディア"
     }
   ]
 }
