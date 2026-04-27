@@ -1,39 +1,690 @@
 {
-  "generated_at": "2026-04-26T21:57:36.382954+00:00",
+  "generated_at": "2026-04-27T22:10:54.874376+00:00",
   "date_range": {
-    "start": "2026-04-23T21:57:36.382954+00:00",
-    "end": "2026-04-26T21:57:36.382954+00:00"
+    "start": "2026-04-24T22:10:54.874376+00:00",
+    "end": "2026-04-27T22:10:54.874376+00:00"
   },
-  "total_articles": 94,
+  "total_articles": 50,
   "state_summary": {
-    "日本 (都道府県未特定)": 45,
-    "千葉県": 5,
-    "北海道": 3,
+    "日本 (都道府県未特定)": 25,
+    "東京都": 9,
+    "愛知県": 5,
+    "神奈川県": 1,
+    "山梨県": 1,
+    "京都府": 1,
+    "佐賀県": 1,
+    "静岡県": 1,
+    "岡山県": 5,
+    "香川県": 1,
+    "埼玉県": 2,
+    "北海道": 1,
     "沖縄県": 2,
-    "東京都": 15,
-    "兵庫県": 1,
-    "広島県": 2,
-    "鹿児島県": 2,
-    "熊本県": 10,
-    "愛知県": 1,
-    "京都府": 2,
-    "新潟県": 3,
-    "秋田県": 1,
-    "埼玉県": 5
+    "兵庫県": 1
   },
   "disease_summary": {
-    "Influenza": 2,
-    "COVID-19": 13,
-    "Measles": 55,
+    "COVID-19": 10,
+    "Measles": 24,
+    "Tuberculosis": 2,
+    "HIV/AIDS": 1,
+    "Norovirus": 1,
+    "Food Poisoning": 1,
+    "SFTS": 2,
+    "感染症 (未特定)": 2,
+    "Hepatitis": 1,
+    "RSV": 1,
+    "E. coli": 5,
+    "Influenza": 3,
     "Whooping Cough": 1,
-    "SFTS": 11,
-    "Malaria": 1,
-    "感染症 (未特定)": 12,
-    "E. coli": 2,
-    "Tuberculosis": 5,
-    "Avian Influenza": 2
+    "Malaria": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_92176c863973b352",
+      "headline": "新型コロナウィルスが遠隔医療に与えた影響｜嗣江建栄 - mbp-japan.com",
+      "headlineTranslated": "Impact of the new coronavirus on telemedicine | Kenei Tsugue - mbp-japan.com",
+      "headlineJa": "新型コロナウィルスが遠隔医療に与えた影響｜嗣江建栄 - mbp-japan.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T22:02:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KbzJrci1Yb0FqLVpuQWF5dHpUUVJ1eGRfaTJkVnJjSUU1R0VhY1RqaWlGQ251RmJ4MTdfWGppSjl3aTVJVFhDTDFYYUJSZTBVM0tvZXpFRkVJSm1VSzM5ZGpYS2xlcDA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "mbp-japan.com"
+    },
+    {
+      "articleId": "gnews_501d88a3c4825ed3",
+      "headline": "「はしか」の感染なぜ爆発的に広がっている？ すでに2025年の年間患者数を超え…専門家が勧める対策は - 東京新聞デジタル",
+      "headlineTranslated": "Why is the measles infection spreading explosively? The number of patients has already exceeded the annual number of patients in 2025... Measures recommended by experts - Tokyo Shimbun Digital",
+      "headlineJa": "「はしか」の感染なぜ爆発的に広がっている？ すでに2025年の年間患者数を超え…専門家が勧める対策は - 東京新聞デジタル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T21:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkR3VabFZwdmQzOTNvdmw4Z2xxdW9fODh3RlJrVDVSNmJPY3ZzRTVOVmN1eXZlTHRYY0JpVkpZZkh5YkxkWFpxVXIwVy1VdTJLWVdV?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "東京新聞デジタル"
+    },
+    {
+      "articleId": "gnews_7afa04f374ad1ca7",
+      "headline": "社説はしか感染／正しく恐れ拡大防ごう - 北日本新聞webunプラス",
+      "headlineTranslated": "Editorial Measles infection/Let's correctly prevent the spread of fear - Kitanihon Shimbun Webun Plus",
+      "headlineJa": "社説はしか感染／正しく恐れ拡大防ごう - 北日本新聞webunプラス",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T20:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9JeTdNbVVpMHJBcjU1QVlPZmFBYTZuYUJpb1dkQ2lfYlJJNUFxTHZNUzlJREZSakNaTVQ5TjFRWWhld2VUYkpMcGRkZw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "北日本新聞webunプラス"
+    },
+    {
+      "articleId": "gnews_d41e66aa04078e77",
+      "headline": "米国のCOVID-19死亡数、過小評価の可能性｜CareNet.com - CareNet.com",
+      "headlineTranslated": "US COVID-19 deaths likely underestimated | CareNet.com - CareNet.com",
+      "headlineJa": "米国のCOVID-19死亡数、過小評価の可能性｜CareNet.com - CareNet.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T19:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tNkF1aFk1OW9pa2l2cmJlMFQ2c05GcTgwaFJxYmNDSzRDeWRMTmczLTVxRkMzUDFsZEFfdlNjVU4yRjJNQllFRHQ0dzZhRWZIM0hmRGhKbWd1UQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CareNet.com"
+    },
+    {
+      "articleId": "gnews_b4119e5c82c9026e",
+      "headline": "愛知県岡崎市の30代男性、はしかに感染 市内での感染確認は今年初 - 中日新聞Web",
+      "headlineTranslated": "A man in his 30s in Okazaki City, Aichi Prefecture, is infected with measles, the first confirmed infection in the city this year - Chunichi Shimbun Web",
+      "headlineJa": "愛知県岡崎市の30代男性、はしかに感染 市内での感染確認は今年初 - 中日新聞Web",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiUU83cFdabDFRR09WekZfVHpwVDZxWlR1blNhR3VTRXVJTTBRLS10ZVRlWks1dlI2Vmx6QzBtUzNKelVfRVVidmZVckJpa2t3dUpZM2FtZ05PSHNrUzN0Ry1R?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "中日新聞Web"
+    },
+    {
+      "articleId": "gnews_6273c7d4fc18a4c6",
+      "headline": "第二部会、ジャスケイドなど承認了承 モデルナの新規コロナワクチンも | 日刊薬業 - 医薬品産業の総合情報サイト - 日刊薬業",
+      "headlineTranslated": "Second Subcommittee approves approval of Juskade, etc., as well as Moderna's new coronavirus vaccine | Nikkan Yakugyo - Comprehensive information site for the pharmaceutical industry - Nikkan Yakugyo",
+      "headlineJa": "第二部会、ジャスケイドなど承認了承 モデルナの新規コロナワクチンも | 日刊薬業 - 医薬品産業の総合情報サイト - 日刊薬業",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T14:44:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VSndvNDQtNUZOVHl4Mjh4aVE0RlNUNy1qOHZCTTZ6U3U0MUYzaGRfOF9KdkgtQzhJSmF2bUZnTklTVXZmNlc0TA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "日刊薬業"
+    },
+    {
+      "articleId": "gnews_74644431690e5573",
+      "headline": "川崎、３０代女性がはしかに感染 ＪＲ南武線や大井町線を利用 - カナロコ",
+      "headlineTranslated": "Kawasaki woman in her 30s infected with measles using JR Nambu Line and Oimachi Line - Kanaroko",
+      "headlineJa": "川崎、３０代女性がはしかに感染 ＪＲ南武線や大井町線を利用 - カナロコ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T13:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UdzJ5Uk53T3dkUDRfVkI1WHYtR1BNTWNKSzU5Q0F3MEk5NzByMnRVSmVLNzdKNjhueFFPZS00cFFkNE5YcHQ4TmQtNk16WmNaX2R2WTRKVTJIb2tINmd0Z0JIeDV5WWQ3NGVNMg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "神奈川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "カナロコ"
+    },
+    {
+      "articleId": "gnews_f3c5eaa0ea54aaad",
+      "headline": "岡崎市の30代男性がはしか感染 感染経路は不明 愛知県内では今年に入り25人が感染 - au Webポータル",
+      "headlineTranslated": "A man in his 30s in Okazaki City is infected with measles. The route of infection is unknown. 25 people have been infected in Aichi Prefecture this year - au Web Portal",
+      "headlineJa": "岡崎市の30代男性がはしか感染 感染経路は不明 愛知県内では今年に入り25人が感染 - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T12:37:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uTjZLb2hCUERBbG1xRkE1VXpmRjhybXFfR1p1UzM1VGRSSnRCNmRyYm5mR0xyTTd6UE83elpfTTFzcEVXRjNNeGFUVVFNcnJBR1prc3RqbWdfTklPSUNnSG93QlpOSloxcmJjbXR5Z01CSXd1SUdoZWJfRQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_b9cd3a9c2dedac0b",
+      "headline": "岡崎市の30代男性がはしか感染 感染経路は不明 愛知県内では今年に入り25人が感染（中京テレビＮＥＷＳ） - Yahoo!ニュース",
+      "headlineTranslated": "A man in his 30s in Okazaki City is infected with measles, the route of infection is unknown, and 25 people have been infected in Aichi Prefecture this year (Chukyo TV NEWS) - Yahoo! News",
+      "headlineJa": "岡崎市の30代男性がはしか感染 感染経路は不明 愛知県内では今年に入り25人が感染（中京テレビＮＥＷＳ） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T12:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjbEYwYjJQT2g4dDE2RTdxc2F3enphbWVnVjFkRGtGQUhmc1BpMGdiazNRTzdrMk9zY3MxOGtHVllIQ0V1dF84Znk4ckQzQlZNdHNEZWdnT3Mzc0VyWUhyM1JFTFJ5Z3RiOGxPYk9jalJjb2tZVzNudVpqZzhnQ1E?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_53f5e344e11c58ab",
+      "headline": "岡崎市の30代男性がはしか感染 感染経路は不明 愛知県内では今年に入り25人が感染 (中京テレビＮＥＷＳ) - Yahoo!ニュース",
+      "headlineTranslated": "A man in his 30s in Okazaki City has measles, the route of infection is unknown, and 25 people have been infected in Aichi Prefecture this year (Chukyo TV NEWS) - Yahoo! News",
+      "headlineJa": "岡崎市の30代男性がはしか感染 感染経路は不明 愛知県内では今年に入り25人が感染 (中京テレビＮＥＷＳ) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T12:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONE14clU3Wm5jUEtQTENsZnVneXFOdjFpekZ6R0loQjlxaHhCVEtJcEtZVmQyckc1V3dLU0ZzLVFPNE9BWTk0M1lhTl9sb2hSZktyMnB3SlJJSVMyT0YtRk5RVVgyZjgzMnZhRmlLd2dWMGtjaUJMLTc0YzlqaFJ0My1tMFA4Skx1blExZkh3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_816b2a28970271b4",
+      "headline": "はしか「発症の1日前から感染力」「風邪のような症状のあとに発疹」26～53歳は特に注意！ワクチン接種歴の確認を【Nスタ解説】 - TBS NEWS DIG",
+      "headlineTranslated": "Measles: ``Infectious from 1 day before onset of symptoms'' ``Rash after cold-like symptoms'' People between 26 and 53 years old should be especially careful! Check your vaccination history [N Star Commentary] - TBS NEWS DIG",
+      "headlineJa": "はしか「発症の1日前から感染力」「風邪のような症状のあとに発疹」26～53歳は特に注意！ワクチン接種歴の確認を【Nスタ解説】 - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T11:45:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MRmc4Z3U5Vm5GbUs5eHdfV2F3X3FkTGE1cFZGdXp0SzdZUEMxcFFaaktMVjl6SlllT09XWjZ5ZWtNNkJPTWNScjVPUHRIYzJoVHNfbG9vcw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_ded268048044c67e",
+      "headline": "はしか 26歳～53歳は特に注意 (2026年4月27日掲載) - ライブドアニュース",
+      "headlineTranslated": "Measles: Special attention for those aged 26 to 53 (posted on April 27, 2026) - Livedoor News",
+      "headlineJa": "はしか 26歳～53歳は特に注意 (2026年4月27日掲載) - ライブドアニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T11:45:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mblVqZW9WN0N5NGQ2aWJwNDNzVGZLdzczcnoxX01IcDN0M3lvWDJpTlRtUktPOVR6QVNYXzZ1bmFwTk44QUFvZ3p4ZW9ZaHp3SjBwX05LV0VmanVrZnc?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ライブドアニュース"
+    },
+    {
+      "articleId": "gnews_30e595bdcd30cb06",
+      "headline": "愛知 岡崎 ３０代男性がはしか感染 海外への渡航歴なし - NHKニュース",
+      "headlineTranslated": "Aichi Okazaki man in his 30s infected with measles, no history of overseas travel - NHK News",
+      "headlineJa": "愛知 岡崎 ３０代男性がはしか感染 海外への渡航歴なし - NHKニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T10:14:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqQkZXa25zaFd4WUNzbUZhX195bmVWOS12QjRqbk9FS1hjSExBWU1GOHVTOEpEMTZjN1FZSDBsUl80Rm9FOUlubDFjd0VXUGRZYVVublJJNl8?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NHKニュース"
+    },
+    {
+      "articleId": "gnews_f542509b0f2b63a8",
+      "headline": "はしかはGWに注意 全国で感染拡大➡県内でも3人が感染 専門家が無料検査呼びかけ 山梨（YBS山梨放送） - Yahoo!ニュース",
+      "headlineTranslated": "Be careful of measles during Golden Week. Infection spread across the country➡3 people infected in prefecture. Experts call for free testing Yamanashi (YBS Yamanashi Broadcasting) - Yahoo! News",
+      "headlineJa": "はしかはGWに注意 全国で感染拡大➡県内でも3人が感染 専門家が無料検査呼びかけ 山梨（YBS山梨放送） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T10:11:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwSV81UGhERXRqOEY3S3piYVpOLWtYRVRZVmIwV2lGUUZXWXEydVBiSE5ybFF4SUJRVWxpcDZsYk4wNU9EckpRMERGX3o5YS12QUo0NVhlUXhfRk9wemp1V1hxN3hfd2ZYT2pPVkh0aFZLNzVyT19rR2RRVGtvdlE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "山梨県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_a76b18283f3cd992",
+      "headline": "エイズ対策で17年ぶりに新指針策定 東京都 - 感染者の受け入れ促進など新目標（医療介護ＣＢニュース） - Yahoo!ニュース",
+      "headlineTranslated": "Tokyo formulates new guidelines for AIDS prevention for the first time in 17 years - New goals including promoting acceptance of infected people (Medical and Nursing Care CB News) - Yahoo! News",
+      "headlineJa": "エイズ対策で17年ぶりに新指針策定 東京都 - 感染者の受け入れ促進など新目標（医療介護ＣＢニュース） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T10:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fODNPQUVRZy1GLTB0X0dnTThmQWE2Wm4yVm42SE1Cdm1UUDJ3RFU3Uk9jM2RZQzgxaFJPQmk3Slo2MjZFZkJkeGxDSk9WTHA4eGR3LWV3MGpkZHNNT1ZKSzRMU3dlLUhPaU8tX3EzWl9NalYzaW5JbHN4TDBnUkU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HIV/AIDS"
+      ],
+      "locations": [],
+      "states": [
+        "東京都",
+        "京都府"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_c80ce008a3482a53",
+      "headline": "居酒屋で【生カキ】食べた『30人発症』　「ノロウイルス」集団食中毒　【加熱不十分なカキ】提供禁止処分に… - ｄメニューニュース",
+      "headlineTranslated": "``30 people sickened'' after eating [raw oysters] at a pub; mass food poisoning caused by norovirus; [undercooked oysters] banned from serving... - d Menu News",
+      "headlineJa": "居酒屋で【生カキ】食べた『30人発症』　「ノロウイルス」集団食中毒　【加熱不十分なカキ】提供禁止処分に… - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T09:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbHgwRzJmS29HSTdIVVhfcnhvNmtjTVRReW1xSDdDN0FXTDVfYkNqallLVVR6clEyU1Nxa0VPTW1SdmJLRGxOOUEwYjNjQmNIaFdjTVVVcDBxSUkza3Q2WlJOckEyZjVqX3JZbWo0M2F0NzFBdTU3MUJMQWkzS24yNjNzbGpyN1BtLXN5VNIBkgFBVV95cUxPeWxWM25MOUxETmhOX044NllUd2NrRHI5TjBORVh4YloyWFQzd3NVS2xlTEE3cjRrTHYxY25rY2xkOGFTNGxsOXRGVms5T0xCajl0VVBRM05WNDZRb1BEdDlyWkZUUTZTTmY1b1B0X2VNODV4RXZWX2lXMk1RdFpsT1FWelkxcjh0OXBSSlhyV1RHQQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_f16f44679f5d4c66",
+      "headline": "アウトドアで注意すべきマダニ感染症 県内でSFTS・日本紅斑熱感染など相次ぐ【佐賀県】 - FNNプライムオンライン",
+      "headlineTranslated": "Tick-infected diseases to be careful about when outdoors SFTS and Japanese spotted fever infections are occurring one after another in the prefecture [Saga Prefecture] - FNN Prime Online",
+      "headlineJa": "アウトドアで注意すべきマダニ感染症 県内でSFTS・日本紅斑熱感染など相次ぐ【佐賀県】 - FNNプライムオンライン",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T07:55:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4R244Z2FKa0FwVU5QTi1ONEpHLXVYQjgtQVNTZ3J0MlZBZGJ0amNwRUI1d3lnWnNXdWI4SGxjN2NZTkJEdkpiN2RUTTl1UQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "SFTS"
+      ],
+      "locations": [],
+      "states": [
+        "佐賀県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "FNNプライムオンライン"
+    },
+    {
+      "articleId": "gnews_7018576ed26ddd7e",
+      "headline": "県内の感染症情報 - city.fujieda.shizuoka.jp",
+      "headlineTranslated": "Infectious disease information in the prefecture - city.fujieda.shizuoka.jp",
+      "headlineJa": "県内の感染症情報 - city.fujieda.shizuoka.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T07:21:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNmdoY2ZmX3BHS3NqNTdRY0VuLWNGQks4NGduLVI3LUlyc1hGWi1RVGpDakVwb01RUmhETWtTejl6Z0pSb3pwdEJwQnZfTkRRTnl3ZWRJM1VDRkdvTzlwTlFEUEZSRWFFN0dQb2ZXb3ZxSkh6QW1NZ2VhTGp0dUVwcGh0Y25HVEl6Ujdna0FR?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "city.fujieda.shizuoka.jp"
+    },
+    {
+      "articleId": "gnews_25a9b2a9c1b90415",
+      "headline": "タイ東部でA型肝炎が流行 著名ウイルス学者が警鐘 - タイランドハイパーリンクス",
+      "headlineTranslated": "Hepatitis A outbreak in eastern Thailand, prominent virologist warns - Thailand Hyperlinks",
+      "headlineJa": "タイ東部でA型肝炎が流行 著名ウイルス学者が警鐘 - タイランドハイパーリンクス",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T06:12:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQamIxbXF2NHJ0Zy14VXpsT1VQMW5BeFZET3VaUXlQSUhkZUxWU3oydHE4NDhPdmZNVnRkVjdIYW1DMnBHQkl0NXladGtINHJ1dTZCUA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Hepatitis"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "タイランドハイパーリンクス"
+    },
+    {
+      "articleId": "gnews_c35a5800eaeaafa8",
+      "headline": "Japan’s measles infection rate increasing due to international travelers, drop in vaccination rate - phnompenhpost.com",
+      "headlineTranslated": "",
+      "headlineJa": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T04:01:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcFNlRTcySmJmanpuZzBQNWtaM09DX1pwZFVJMmdKWjQxNGEzb2lzT1hVSE1DVVAzWmluT093VFdObGhlVnNjMXdYcUMzNWNzUzItVDFjTUZyMVBWNnVxcHhPTnIxdzVRVDZhbkNJQXI3dW9oRThtN1VURkZvSWx3MURBU253b3Z1Z3NqT2daU2xwM25tRUNCcjdScW5vaTBnbThmMEpiT29uRjdjTUxiUXliWEdKcjk2aXZfQkFycXhId3lZazV0b18td0JCX3JLS0xB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "phnompenhpost.com"
+    },
+    {
+      "articleId": "gnews_998a2487d47c5a8a",
+      "headline": "死亡リスクも──“最強クラス”の感染力、「はしか」急増のワケ ほぼ確実に予防できる方法は？ ワクチン接種率は低下 - Yahoo!ニュース",
+      "headlineTranslated": "The risk of death is also high - the reason for the \"strongest class\" infectivity and the rapid increase in measles cases.Is there a way to almost certainly prevent it? Vaccination rate declines - Yahoo! News",
+      "headlineJa": "死亡リスクも──“最強クラス”の感染力、「はしか」急増のワケ ほぼ確実に予防できる方法は？ ワクチン接種率は低下 - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T03:06:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NaUNrN0JuX1dKUEh3eGdRa2VSZVFPUW9DNmMzRDVFZ1B2TFg5M084RTFJMExqV3VrQ2EzQ0xrZWMtS1h2VDJ5RDVmWDRHclZEWUo0RnVOS3JQMzVGeDlpWHVkNHgwZ1lVLThSWVlnSnZNbTd0dEdvVEM5TGNFUVU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_022aea6f1e04dc48",
+      "headline": "RSV診断市場の成長と展望：日本におけるビジネスチャンス - Excite エキサイト",
+      "headlineTranslated": "RSV Diagnostics Market Growth and Prospects: Business Opportunities in Japan - Excite",
+      "headlineJa": "RSV診断市場の成長と展望：日本におけるビジネスチャンス - Excite エキサイト",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T03:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wakJIUXg5T2pSdTRyT2I4cnM4VVR4T0ZiemhhdGFwdjRRYjhDcmpfY2JVNzdIZ3VHcXdLRDAzQm9LclRPbkZOVlV3b0xPZ0dyeGpTNEZkdENoNHRPT1NXSFVIMUMxUzIxYmtF?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "RSV"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Excite エキサイト"
+    },
+    {
+      "articleId": "gnews_bba6d652503a8c91",
+      "headline": "ヤン・サングク、父親がコロナに感染し死亡..「ビニール袋に包まれて旅立ったことが胸に痛む」 [ユークイズ] - 스타뉴스",
+      "headlineTranslated": "Yang Sang-gook's father died after being infected with coronavirus. \"It hurts my heart that he left on a journey wrapped in a plastic bag.\" [You Quiz] - 스타뉴스",
+      "headlineJa": "ヤン・サングク、父親がコロナに感染し死亡..「ビニール袋に包まれて旅立ったことが胸に痛む」 [ユークイズ] - 스타뉴스",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T02:43:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVWpBZEpic0xNX0xTREl3aldGRGJvVzhBVHMtUXdWWnFtMzFtckxndHFJX3hpam9YdjNjVDV2dk95US1oLTJxZkVSa2NVbDRYd1BVMHphakxuR3VlUF8wTklzcEtPVU05X0hKMTdnckZ3QTh6TWFIU09ETVlzWFAtVGlFR0k?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "스타뉴스"
+    },
+    {
+      "articleId": "gnews_9fb8ce9507fc9486",
+      "headline": "腸管出血性大腸菌感染症 岡山県が注意報（山陽新聞デジタル） - Yahoo!ニュース",
+      "headlineTranslated": "Okayama Prefecture issues advisory for enterohemorrhagic E. coli infection (Sanyo Shimbun Digital) - Yahoo! News",
+      "headlineJa": "腸管出血性大腸菌感染症 岡山県が注意報（山陽新聞デジタル） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T01:51:49+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEdWpueFZMR2VRLUstVU0xUzZ0dzFfSFh0UVFRc0pmUEpkdFRJQWsxOHp3d1JSNkFOZmlRakpoN1B6YkJfcU9rdElNM0pyVlRpYXdYLWtQdEFwT05LRkotdE1GVzc3NTNHdjBpWmROVmpaSGptOGN3Y2xGdEl4bnc?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "E. coli"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_12c9f551ae43395e",
+      "headline": "はしかの集団感染、新たに29人確認 学年閉鎖の小学校で計47人に拡大 全員快方に向かう（TOKYO MX） - Yahoo!ニュース",
+      "headlineTranslated": "29 new measles outbreaks confirmed; total of 47 cases at elementary school closed for school year; all are recovering (TOKYO MX) - Yahoo! News",
+      "headlineJa": "はしかの集団感染、新たに29人確認 学年閉鎖の小学校で計47人に拡大 全員快方に向かう（TOKYO MX） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T01:50:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNbml0UEVsZWV1MFdqMTJkTkpmcW04YmRWV3hnS0o3VDZVN0NFbEctNU9HRUl1TnZLYndYV2dDcmdMVWx4LVZtdm96QlVHeHFnSTd3ckc5c1hwUm44MlVzaUdfRDN1SnQyY2xDSDVjTVNhX3Z5R0JWc3F3dnRmZjQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_31e738991fe3da67",
+      "headline": "岡山県が「腸管出血性大腸菌感染症注意報」を27日発表 4月に10人以上を確認 - au Webポータル",
+      "headlineTranslated": "Okayama Prefecture announces \"Enterohemorrhagic Escherichia coli Infection Warning\" on the 27th; 10 or more cases confirmed in April - au Web Portal",
+      "headlineJa": "岡山県が「腸管出血性大腸菌感染症注意報」を27日発表 4月に10人以上を確認 - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T01:37:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWkdMaGVZejM0cHpyZHZwVFZpeGpXUi1seGEyQnJqcmNuUklJOEhNUjk3c1RheTlLN1gyN2pUZ2VzR2NDZkZ4eUJMdjZBdVZnZnFleTV5dzQxTExHYWphbUQzeDc3eUpZNUJ5d0xIM2FNcGRMUFN5TGY3QQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "E. coli"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_8458f1f732bcdda6",
+      "headline": "腸管出血性大腸菌感染症 岡山県が注意報 - 47NEWS",
+      "headlineTranslated": "Okayama Prefecture issues advisory for enterohemorrhagic E. coli infection - 47NEWS",
+      "headlineJa": "腸管出血性大腸菌感染症 岡山県が注意報 - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T01:34:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE80RE1VdnR5OXhlbXU4RG9ESDdhb1NUTkVYNjVHWGFianhweGItcjVmbmFsdEJUYUNVWUpWcENWMEVtb3RpdUpVZkhtWQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "E. coli"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
+      "articleId": "gnews_d4bcd1f7d620f71f",
+      "headline": "岡山県が「腸管出血性大腸菌感染症注意報」を27日発表 4月に10人以上を確認（RSK山陽放送） - Yahoo!ニュース",
+      "headlineTranslated": "Okayama Prefecture announces \"Enterohemorrhagic E. coli infection alert\" on the 27th; 10 or more cases confirmed in April (RSK Sanyo Broadcasting) - Yahoo! News",
+      "headlineJa": "岡山県が「腸管出血性大腸菌感染症注意報」を27日発表 4月に10人以上を確認（RSK山陽放送） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T01:34:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pYlF4YU9ubkhROFhRUmdKbjJBaGVJS2JsazVmeE84ZFp5ZFB4aDhVQjZFTEp1bG1yeE1seTR3Yk00TksyQWt2Q01sbUdrczdNRThld0NCZm1ibWVianZFTVRqaF80Q1pJZGowYlRvY2kyUXdDSER0VE8ybWhfeEU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "E. coli"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_f5f03882d9dad50b",
+      "headline": "岡山県が「腸管出血性大腸菌感染症注意報」を27日発表 4月に10人以上を確認 | 岡山・香川のニュース | 天気 | RSK山陽放送 - TBS NEWS DIG",
+      "headlineTranslated": "Okayama Prefecture announces \"Enterohemorrhagic Escherichia coli Infection Warning\" on the 27th More than 10 cases confirmed in April | Okayama/Kagawa News | Weather | RSK Sanyo Broadcasting - TBS NEWS DIG",
+      "headlineJa": "岡山県が「腸管出血性大腸菌感染症注意報」を27日発表 4月に10人以上を確認 | 岡山・香川のニュース | 天気 | RSK山陽放送 - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-27T01:29:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SY0ZJQ0tRLUF1SWJBcEJHNnh2Wk1Qa05tSTlvekxwd2NLaG13NXVPWVZYbXR6NEpnUUNNRkROMk5ZaEp3OUpuakZEVEYyVDUxaUQ2SktnUmV2dw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis",
+        "E. coli"
+      ],
+      "locations": [],
+      "states": [
+        "香川県",
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_101da0178a770a4e",
+      "headline": "はしかに感染…20代男性が陽性判明前、東武東上線を利用 東京メトロも使って新宿区へ行く 2日間にかけて移動 発熱、発疹、結膜充血、関節痛も (埼玉新聞) - Yahoo!ニュース",
+      "headlineTranslated": "Infected with measles... Before testing positive, a man in his 20s took the Tobu Tojo Line and also used the Tokyo Metro to go to Shinjuku Ward. Traveled for two days. Also suffered from fever, rash, conjunctival congestion, and joint pain (Saitama Shimbun) - Yahoo! News",
+      "headlineJa": "はしかに感染…20代男性が陽性判明前、東武東上線を利用 東京メトロも使って新宿区へ行く 2日間にかけて移動 発熱、発疹、結膜充血、関節痛も (埼玉新聞) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-26T22:19:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZHVMSS1IMTBPbENHVEc1REdNdUV4VVByQ2NwU3JEeTJNUE5FZlRfNnNGaVBsV0czRUVWZzFONkNzVktBOFRTbEFQVU1uUWZwcmRpRDhzbi1sMXppUnUzOFpZbUoxcGZEdWVOaFFpeXhNN251RjJDNWR4eWtjYzM1djBVUkJLbnU0M2NQQWlB?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "東京都",
+        "埼玉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_6843333424bd1ac6",
+      "headline": "はしかに感染…20代男性が陽性判明前、東武東上線を利用 東京メトロも使って新宿区へ行く 2日間にかけて移動 発熱、発疹、結膜充血、関節痛も - 47NEWS",
+      "headlineTranslated": "Infected with measles... Before testing positive, a man in his 20s used the Tobu Tojo Line and also used the Tokyo Metro to go to Shinjuku Ward. Traveled for two days. Also had fever, rash, conjunctival congestion, and joint pain - 47NEWS",
+      "headlineJa": "はしかに感染…20代男性が陽性判明前、東武東上線を利用 東京メトロも使って新宿区へ行く 2日間にかけて移動 発熱、発疹、結膜充血、関節痛も - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-26T22:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WX21XdUVhMW53cEktN1I3b091eFBuMWo1VEdiMmhpY0NIMlhxSDZUa05SWVhodWItNXVWNmJJRnZUSjQzZGc1ZWs0SQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
+      "articleId": "gnews_5d8cbaa3daa41c7c",
+      "headline": "はしかに感染…20代男性が陽性判明前、東武東上線を利用 東京メトロも使って新宿区へ行く 2日間にかけて移動 発熱、発疹、結膜充血、関節痛も - 埼玉新聞",
+      "headlineTranslated": "Infected with measles... Before testing positive, a man in his 20s used the Tobu Tojo Line and also used the Tokyo Metro to go to Shinjuku Ward. Traveled for two days. Also suffered from fever, rash, conjunctival congestion, and joint pain - Saitama Shimbun",
+      "headlineJa": "はしかに感染…20代男性が陽性判明前、東武東上線を利用 東京メトロも使って新宿区へ行く 2日間にかけて移動 発熱、発疹、結膜充血、関節痛も - 埼玉新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-26T22:10:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yZnRQVG5uMl9lcjVLbVRuQW9Pc0o0a2dXYXB6MVZweWtfclNqMnZBN3M4Q1A2WWxDMXhfQUM2bXZkVTNfSkZvUzlPbkRHVmVoNjZBSFVMcnhpUEd4RElYQWNXNmVKdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "東京都",
+        "埼玉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "埼玉新聞"
+    },
     {
       "articleId": "gnews_255bb0a414991e69",
       "headline": "タイでパラインフルエンザ流行拡大中。5歳未満の子どもで感染急増、検査陽性率68.7％。 - タイニュース・クロスボンバー",
@@ -55,14 +706,14 @@
       "sourceName": "タイニュース・クロスボンバー"
     },
     {
-      "articleId": "gnews_83d4b92f23d1036b",
-      "headline": "新型コロナワクチンと突然死に因果関係なし？ カナダの大規模研究 - ｄメニューニュース",
-      "headlineTranslated": "Is there no causal relationship between the new coronavirus vaccine and sudden death? Large-scale research in Canada - dmenu News",
-      "headlineJa": "新型コロナワクチンと突然死に因果関係なし？ カナダの大規模研究 - ｄメニューニュース",
+      "articleId": "gnews_a0fdd8785f02e3a0",
+      "headline": "「ビニールに包まれて旅立った」脳梗塞の後遺症で入院→コロナ感染で亡くなった父への後悔を語る - スマートニュース（SmartNews）",
+      "headlineTranslated": "\"He left wrapped in plastic\" Hospitalized due to after-effects of cerebral infarction → Talks about regrets for his father who passed away due to coronavirus infection - SmartNews",
+      "headlineJa": "「ビニールに包まれて旅立った」脳梗塞の後遺症で入院→コロナ感染で亡くなった父への後悔を語る - スマートニュース（SmartNews）",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-26T09:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeXp5d08zYzJld1d3Q3k0TUoxcHZtZG5sT0ZURTFSVGFueUc0MENVakY2YUlYbWhJZkVzZUpUNFJRcU1YX0dYUS1kdGNkaUxYYjZRcDcwa0U1RkhpTUVsek9SN1JHRGJvOVdubEphdmxyZnBkZHZSbmUzNDlzd2FyZ3RUdUfSAYoBQVVfeXFMT1NyZjRCYnVORWtwajJLOUs2OFlwVW9UVHQ4MGU5a0dtLTY3Z0tlc1BqbTdGZlJKaVJ5eHF3SWJRS2o1b2JLdHRUOGFHVkJqSU04bHRUZHlCU0ptZkJNSzlxUzlyWXVwVVNjZlQtbWtXZ1huYXVDWGZUTmVCdUlGNjFkSWRaV2JPRm5B?oc=5",
+      "publishedTimestamp": "2026-04-26T15:47:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwVBVV95cUxNQldNUUpNNUFGamFvNzNSa0JUcXhmNGZKUHZrV3RLRG9VdHdOVnN0N2R1OVJnWnBDekFEOU93T09XazB2MEVhZ2dzWkJPSC10QWY1cUd4ZFA5cklDUktXMDdyS29KUFd2YUh5YmxjbXRZRXhpRWl3Mmp2aWo2blFPUVBVLXZXbG1Va3Z5TDNhaU9Obkl2X01uNUF6TzRpNW8tQ2RXd20wbkdRS1pnTHJUZEt0YlAzQXgyQnlTcUNfQ1dRbmRLQUF1WmlIbXZ4QXhGcWdaMUtTOElTYXQ4cU51c28tUlh3Ti1CbE5BZHh4UXhENVpaU0RZN1ZSYkVPT3ZrTlY4TmVheHF4Yk9ra1cwc3BVbVBRTjcwc09XYmkwd1VaX2JpbDJKSmZDcnoyR2ZDaVh0WVNLT3ZYT1RxZEtmdHNsbnRMR0stdnBKbkY3UGlPYVZlTktKdm05OEx3dDJKTGN3Q3NIY1VMQ2dwMFlOMTNlMS1CN0I1eXBMTmdzdGY4VTB1QkpzWTcwbUhXUkd4bXpsdkVSSlhUdjdFQjdyQVN3SG1ncFRPV1NHZGpXZU1DeEd1elVsSnVOV216VVh3b1E2QXhycTBCLUdULXRtZjU5aHgwcXo0WG9kNXM1Z1BEUkxCVVRHUmIzLVlnOFlCcm5kZjVtMkEzRUtpbWx4b1NOakpYdjZLb1M3NGxWQ2k1ZzJNZkR6bWhoSm5qRm1yTUtTakZ1UEZpTEZHRnoxdlg0NHpNY2J6THprcUJTcGcwaWJIeDdCTlNnU1hvSGM2U2s5Rnd2X2V6cm5ZRldQdzFKVDh2Z091d3Jzb1BZdVdrN29XUzdTYWxyYXNjcnhQTVd4YVN2WQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "COVID-19"
@@ -72,7 +723,7 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
+      "sourceName": "スマートニュース（SmartNews）"
     },
     {
       "articleId": "gnews_96a1136583ddbc1a",
@@ -125,9 +776,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40SUpvRDR0UWhyR1QwTFNNSmQybkF5VFZLMFZKSjJEd0ZMRFFzRHVzR3RmdlV0cll6Wk1OTlZCV3M0b3drb1Nmc2hXQWlVRm5SZTJWZ2FGb0dScFRuNTRobEs3YkNhRXRzbWVpVU5MUlVkOEFnRkZRSFpCRW1mQUk?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
+        "Whooping Cough",
         "Measles",
-        "Influenza",
-        "Whooping Cough"
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -135,26 +786,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_45820294940dea55",
-      "headline": "日本人出国者、コロナ禍前の7割　25年、全都道府県で下回る | チバテレ＋プラス - 千葉テレビ放送",
-      "headlineTranslated": "The number of Japanese people leaving the country is 70% of the pre-coronavirus level, below 25 years in all prefectures | Ciba TV + Plus - Chiba Television Broadcasting",
-      "headlineJa": "日本人出国者、コロナ禍前の7割　25年、全都道府県で下回る | チバテレ＋プラス - 千葉テレビ放送",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-25T22:55:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GUXdoZVJQRGhWZE9NZWloeDVyaHZMWHNGaEVBWDl5M2xxYTJoSDFVRVEwdkctdEZmR2I5OFQ4MC1jakd0TnlMMEFHSFdCcXlEQkR1Y1d2cDVkZGtNeWQ00gFkQVVfeXFMUDhuMlFHVG5TYXBBYlBjeHF4cTdRdncxOEgxZTBqVXlhX2RDQWt4Tk1uRmIydktKa2dQY2tsLVd1M3ZHeHBlWW02X2luYnBCVENaQ3d1c3U1cnBRcUI1WDlBTGpTcQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "千葉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "千葉テレビ放送"
     },
     {
       "articleId": "gnews_0439277a36f39fdb",
@@ -177,26 +808,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_e73e249ccc9e80a6",
-      "headline": "新型コロナワクチンと突然死に因果関係なし？ カナダの大規模研究｜役に立つオモシロ医学論文 - 日刊ゲンダイDIGITAL",
-      "headlineTranslated": "Is there no causal relationship between the new coronavirus vaccine and sudden death? Large-scale Canadian study | Useful and interesting medical papers - Nikkan Gendai DIGITAL",
-      "headlineJa": "新型コロナワクチンと突然死に因果関係なし？ カナダの大規模研究｜役に立つオモシロ医学論文 - 日刊ゲンダイDIGITAL",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-25T21:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xYUlJREdfUFhiTUI2YU1wM0lDVTh6bGFQZUlRcEZUM0lZWWdQYlcxMUhVSzJvNmpiWUVpSExWMjlCU1J5aFQ3LWZuZHRVNEhCOXVhR1J2VUlWWEg3cGYtYUd6YXh2QzJU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日刊ゲンダイDIGITAL"
-    },
-    {
       "articleId": "gnews_1aad5dac4663bd09",
       "headline": "西日本中心にマダニに注意　東京などでも患者報告、住宅街の茂みにも…マダニが媒介する感染症“SFTS”とは【北海道、東北、関東、北陸、東海、近畿、中国、四国、九州、沖縄】 - ｄメニューニュース",
       "headlineTranslated": "Beware of ticks, especially in western Japan. Cases have been reported in Tokyo and other areas, and they are also found in bushes in residential areas...What is the tick-borne infectious disease \"SFTS\"? [Hokkaido, Tohoku, Kanto, Hokuriku, Tokai, Kinki, Chugoku, Shikoku, Kyushu, Okinawa] - d Menu News",
@@ -211,9 +822,9 @@
       ],
       "locations": [],
       "states": [
+        "東京都",
         "北海道",
-        "沖縄県",
-        "東京都"
+        "沖縄県"
       ],
       "dataSource": "Google News",
       "sourceName": "ｄメニューニュース"
@@ -239,9 +850,29 @@
       "sourceName": "沖縄タイムス社"
     },
     {
+      "articleId": "gnews_1cbf9d2c1e74af4f",
+      "headline": "インフルエンザ、流行目安下回る｜四国新聞WEB朝刊 - 四国新聞",
+      "headlineTranslated": "Influenza falls below epidemic guidelines | Shikoku Shimbun WEB morning edition - Shikoku Shimbun",
+      "headlineJa": "インフルエンザ、流行目安下回る｜四国新聞WEB朝刊 - 四国新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-04-25T16:20:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHajdDaENWYlNNYmljb0owUnY4ZEp1Mnl0MVN3U29KcUpVdmRCNkpYSjRqTmhaUUdQOTVYb3FXc19xOEMteXJEbWc4bXJJRGxyQjd3RXQwaUp1b00zUFdUTEtVVXAxOGhLTzdFUUIxUUVCTERacV9J0gF8QVVfeXFMTTVXMnlWRkhmb1NFM2Z4NV9kZ1haN0dBYUQ1LTVZZ0pkMlE0NEhreTl2OFFYY3czbGRtRVFUR01IeFJuUVViZ1BSMURZMmVuZTZGQzQ1c2ZCajFZQnBBWmc5NGZPNW9ndGVhZFZtOWFXUVY5SG5UdGg3Z0wydg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "四国新聞"
+    },
+    {
       "articleId": "gnews_a9e58299780fb81b",
       "headline": "日本人出国者、コロナ禍前の７割 - 山陰中央新報デジタル",
-      "headlineTranslated": "Japanese people leaving the country 70% of pre-coronavirus levels - San'in Chuo Shimpo Digital",
+      "headlineTranslated": "70% of Japanese people leaving Japan compared to before the coronavirus outbreak - San'in Chuo Shimpo Digital",
       "headlineJa": "日本人出国者、コロナ禍前の７割 - 山陰中央新報デジタル",
       "summary": "",
       "summaryOriginal": "",
@@ -317,26 +948,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "東京報道新聞"
-    },
-    {
-      "articleId": "gnews_51a84ba56ff9d26a",
-      "headline": "日本で接種が「義務＝強制」なのはどのワクチン？【高齢者の正しいクスリとの付き合い方】 - ｄメニューニュース",
-      "headlineTranslated": "Which vaccines are compulsory to vaccinate in Japan? [The correct way to deal with drugs for the elderly] - dmenu news",
-      "headlineJa": "日本で接種が「義務＝強制」なのはどのワクチン？【高齢者の正しいクスリとの付き合い方】 - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-25T09:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWm9KNjFqT2t1a0RZY3luU3pnQzhkUUJIQWUyQlVoRU5hTlhpRXBhZ0NvMTIxdVpRbWJMOHozZGpQOG9xRHhDQUoteXRFWjh2ZFl4ODNscXhxaUU5dlBMcldLaTJQaEYxTFByY2RjbnBZNXlobVN3c3FQRS13X01KbGUxdmvSAYoBQVVfeXFMTlFaaWt0N0NxN2dxTUJWU2RkZkt3S0hOS2JHX1h3MGVwbmZRYjBxdE1hcXFqbFVBNDJCNm1fRC01M2twSmpBNVcwMnc4OTVmNUo2aHJ5WGpPNzBQR01KSUdqLU1PdzZ4V2czOU1xMEJRc1o3Y0Y1aDVrZHRqQnJyeTNyeHd4Q0FmMlRR?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
     },
     {
       "articleId": "gnews_f51745a3a2387bb0",
@@ -419,26 +1030,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_4bdd0da20744e54f",
-      "headline": "はしかワクチン接種を 集団感染小学校さらに急増 - au Webポータル",
-      "headlineTranslated": "Measles vaccination continues to increase in elementary schools with mass infections - au Web Portal",
-      "headlineJa": "はしかワクチン接種を 集団感染小学校さらに急増 - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T23:27:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TNndKclNGUWRDOGV6VVFPNDc4LUJ0eHZVZFNudHNyVW9VUDZFcHloSWlETGxOV1lobnJjY1NHcXp2OEpYUHp6dXpHUlNXSTAzTW95VXVwVFR2SzJkSkNuend5akY0aDFFQlNOTlVnX0tTa0xwU19seUI4dw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
       "articleId": "gnews_3b426e4aea9edf1c",
       "headline": "小学校で はしか集団感染 ワクチン接種を - ABEMA",
       "headlineTranslated": "Measles outbreak vaccination at elementary school - ABEMA",
@@ -457,1475 +1048,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "ABEMA"
-    },
-    {
-      "articleId": "gnews_9b85edcb342118a3",
-      "headline": "小学校ではしか集団感染 47人に急増 東京・新宿区 最新の社会ニュース【随時更新】 - ABEMA",
-      "headlineTranslated": "Measles outbreak at elementary school surges to 47 people Shinjuku Ward, Tokyo Latest social news [updated from time to time] - ABEMA",
-      "headlineJa": "小学校ではしか集団感染 47人に急増 東京・新宿区 最新の社会ニュース【随時更新】 - ABEMA",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T21:53:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qN2I4eUM1YWlRR3RXWXpDclIyX1dPUHZDd3NMZmlZTkZsMVU0S1BrSHlRTU5mcVhIYTFYdzJqaFdHU2Z1U0dPTktTbUR1NWdZeVpfVDRCR0tKTGc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABEMA"
-    },
-    {
-      "articleId": "gnews_7579bdd68b0f0ca5",
-      "headline": "小学校ではしか集団感染 47人に急増 東京・新宿区 - テレ朝NEWS",
-      "headlineTranslated": "Measles outbreak at elementary school surges to 47 people in Shinjuku, Tokyo - TV Asahi NEWS",
-      "headlineJa": "小学校ではしか集団感染 47人に急増 東京・新宿区 - テレ朝NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T21:25:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VTm56QjhiY01FYnBMTmkyeHNOOVZ6bjNlbUsyYXoyWVc1SlRKT19taWxaSEp5cWI4Nzh2REx5bnVwa2FuMU02OGRPcFlDRnlDNnRLb3lnR284WGlreWE3bU1wN1hfNEFleXNRS2owVnlqQQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "テレ朝NEWS"
-    },
-    {
-      "articleId": "gnews_b4d66ce3771a3ef5",
-      "headline": "小学校ではしか集団感染 47人に急増 東京・新宿区 - HOME広島ホームテレビ",
-      "headlineTranslated": "Measles outbreak at elementary school surges to 47 people in Shinjuku, Tokyo - HOME Hiroshima Home TV",
-      "headlineJa": "小学校ではしか集団感染 47人に急増 東京・新宿区 - HOME広島ホームテレビ",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T21:25:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zYkhGa1hrYUg1dmRmYTF3VzdXUmZIMzVNQVJYS2JmN1dnSFVuRGJQS0FNZE9EdjlyNmtkbldXc21jX1ZpemVFemFJcUUwUlREZGZHc09KelAzeklFT1dJeWJXX2NXcHJk?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都",
-        "広島県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "HOME広島ホームテレビ"
-    },
-    {
-      "articleId": "gnews_4ef557f57f15bd8c",
-      "headline": "2歳女児が腸管出血性大腸菌に感染 保健所が感染経路など調査中 鹿児島 - TBS NEWS DIG",
-      "headlineTranslated": "2-year-old girl infected with enterohemorrhagic E. coli; public health center investigating route of infection Kagoshima - TBS NEWS DIG",
-      "headlineJa": "2歳女児が腸管出血性大腸菌に感染 保健所が感染経路など調査中 鹿児島 - TBS NEWS DIG",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T21:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZWTNhY0k2RXk2YU1pc1FxTzgzMEt6V1gtX1NGZzhsR2ZYb2pnTi15Wko1OHMtMFpxYWRGeXBPVTlSV1pHZ1d3enJFTUFocUpBMU5tTXhHQ3Q5dmUxOF9NbjNnVFBnQkE?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "E. coli",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "鹿児島県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TBS NEWS DIG"
-    },
-    {
-      "articleId": "gnews_0d61374452962940",
-      "headline": "2歳女児が腸管出血性大腸菌に感染　保健所が感染経路など調査中　鹿児島 - ｄメニューニュース",
-      "headlineTranslated": "2-year-old girl infected with enterohemorrhagic E. coli; public health center investigating route of infection in Kagoshima - dMenu News",
-      "headlineJa": "2歳女児が腸管出血性大腸菌に感染　保健所が感染経路など調査中　鹿児島 - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T21:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93RU1Wd1BOVWx5YnpJN05oOV9GR2x5TXg4X3ZTZ3Q4MmRpeW5DeXJvd0p4T1dFMUt6YVY1LUpfZ3hsWE5XLWczNWsxdWVQT2lpeVRmeWJtNTI5TTJsRjNDcEJHcTNBYkZfV1BvZi1OQdIBdEFVX3lxTE9sVS1nVGdqTVF1Ni1WQmNVdkVEQk1ob1dqNjB1cGpKUDBjTU5YcUI0WWJaT21XeG90VGhGVmdUR0ZYcVg5cGR4MmVaZTQ2U0Q4TVdjTzlydUFjRUQtbThqNXJGWmRXY1dURFhjWVRZc09VRWlf?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "E. coli"
-      ],
-      "locations": [],
-      "states": [
-        "鹿児島県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_07e75fd001072fb2",
-      "headline": "「はしか」の感染者数増 上野厚労大臣「ワクチン接種検討を」 - FNNプライムオンライン",
-      "headlineTranslated": "Increase in number of measles infections; Minister of Health, Labor and Welfare Ueno ``consider vaccination'' - FNN Prime Online",
-      "headlineJa": "「はしか」の感染者数増 上野厚労大臣「ワクチン接種検討を」 - FNNプライムオンライン",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T15:33:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96VVQ3U2thNENxSWxHU1Z3OTc5bThoczIyZ1VUZUdTVG0yamtqSVNiT1NzeTJsQXREaWhXYTZNM3ZRM2UzVXlndkNfcDN0dw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "FNNプライムオンライン"
-    },
-    {
-      "articleId": "gnews_121a205f2ef9d10c",
-      "headline": "Japan's health minister calls for measles vaccinations - The Japan Times",
-      "headlineTranslated": "",
-      "headlineJa": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T12:52:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaWhHRDF5bkV6elR6ZWdYSGtKV2NRTXVDTHRXN0ZRSmpHSlp1dmV2ZXl2OENTYUFmcjhoTjhrdnJXNm82aFEwV08yVjVxbDBrcGhzLS10MWtoQUdXTDRQc1VaWktEV2F2RlQ5YTlUOWt1aGszTVVCMzloZlNwMjFuQ21nZnNleERQX2NBR3RMV0UwQnM4WUMxVThEelJYSUh4?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Japan Times"
-    },
-    {
-      "articleId": "gnews_1e6ea6646e95043d",
-      "headline": "東京・新宿区の小学校、はしか患者47人に 学年閉鎖は延長せず（毎日新聞） - Yahoo!ニュース",
-      "headlineTranslated": "47 measles cases at elementary school in Tokyo's Shinjuku Ward, school year closure not extended (Mainichi Shimbun) - Yahoo! News",
-      "headlineJa": "東京・新宿区の小学校、はしか患者47人に 学年閉鎖は延長せず（毎日新聞） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T12:23:10+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPdXY1cUtXTWRwYjk1OVBnSGY4YnhqVnktRmJxVzUySldpQnUxQTZkSEVXSTJMamRhZl9rYW5yQW8wWVBHejYyUGRPMzBrYVF3ektzRTl0VEhObG9OTWdURVp4OFBXZTNaLTBQdlFzNXJSancxSm93QTF0NUFkTmc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_277bb768a6de3f72",
-      "headline": "東京・新宿区の小学校、はしか患者47人に 学年閉鎖は延長せず - au Webポータル",
-      "headlineTranslated": "47 measles cases at elementary school in Tokyo's Shinjuku Ward; school year closure not extended - au Web Portal",
-      "headlineJa": "東京・新宿区の小学校、はしか患者47人に 学年閉鎖は延長せず - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T12:22:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CbWFEMjhJVVFRNmg3V1ZaYnZxQ0NUQ3ZzdkR5T2QyeGtDZ1Naa3JZaEtUM05uY2g0alNlZ2U2a0pzSEttdlFIY1BaRXhuNzRmQ3RManR5djRlc21hN05aTEJlT0xnZWRXbjY0bi1LX1dtbkV4QTM0aThNUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_7aa284d82a200231",
-      "headline": "ネコがマダニ感染症 千葉県内で初 人への感染あるとして県が注意呼びかけ（チバテレ） - Yahoo!ニュース",
-      "headlineTranslated": "Chiba Prefecture calls for caution as cat is infected with tick infection for the first time in Chiba Prefecture (Cibatele) - Yahoo! News",
-      "headlineJa": "ネコがマダニ感染症 千葉県内で初 人への感染あるとして県が注意呼びかけ（チバテレ） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T11:54:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oU19kS0FYSWFMaWgyYmxzeGlWRlR5aDNlNFhfcTBSUlZaRUpVcGtRSXNWWUdzRnRUYThrdkFMdDVhTkVLNGdoUjJ6V0hocU9DOXcxUXNpWlB4T1dxMHJNTlNRWFZzN05FMnA0MUR6bkFOZTlFVVRjZHZqRG5XSGs?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "千葉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_95db926b1bcf8120",
-      "headline": "「マダニにかまれ感染」熊本県内で今年初の患者確認 外出時は注意！ (2026年4月24日掲載) - ライブドアニュース",
-      "headlineTranslated": "First case of this year confirmed in Kumamoto Prefecture due to infection caused by tick bite Be careful when going out! (Posted on April 24, 2026) - Livedoor News",
-      "headlineJa": "「マダニにかまれ感染」熊本県内で今年初の患者確認 外出時は注意！ (2026年4月24日掲載) - ライブドアニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T11:35:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QTjFOT2xMalA0c21XdExTV2p6bFJhM3FDN1JZTFBKOVh2bnBRZmhhbG5KdDdJZWhNQ0ZlUlZZdFVSbjdxbl9pNXh4QldMVENzRFZkMjRHeHpqeThYd1E?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ライブドアニュース"
-    },
-    {
-      "articleId": "gnews_2433eeb6b2fed03f",
-      "headline": "スターラックス航空名古屋便の日本人乗客がはしか感染 接触者54人／台湾 - フォーカス台湾",
-      "headlineTranslated": "Japanese passenger on Starlux Airlines flight to Nagoya infected with measles; 54 people in contact with Taiwan - Focus Taiwan",
-      "headlineJa": "スターラックス航空名古屋便の日本人乗客がはしか感染 接触者54人／台湾 - フォーカス台湾",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T10:11:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IeFhfdXFRdTlXMktzbTBMb21BUFB4QzlhSGtYWU9kMnRaaDBBZGM2TTBxbEM5Wl9ZTDFzWGo3T0p2ck44OTZfZmViQzlEUWV5enhBTXMtTEZYbW9tUWc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "愛知県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "フォーカス台湾"
-    },
-    {
-      "articleId": "gnews_cd7265ab23e72fab",
-      "headline": "はしか学年閉鎖の新宿区小学校、感染状況が判明 児童41人、教職員6人 ピークは過ぎたとして登校「再開」 - 東京新聞デジタル",
-      "headlineTranslated": "Shinjuku Ward elementary school closed for measles school year, infection status revealed: 41 children, 6 staff members ``reopening'' school as the peak has passed - Tokyo Shimbun Digital",
-      "headlineJa": "はしか学年閉鎖の新宿区小学校、感染状況が判明 児童41人、教職員6人 ピークは過ぎたとして登校「再開」 - 東京新聞デジタル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:39:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VTlY3LUtWUjRSaU9RT0hsdVBaRTNZZGNLTnBPcmlsRzd6OXlBelk0Q1piTm9RbTBZSjM3OTJiZi0ySXhydzd2Q0RiWkhONEl1VWV3?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "東京新聞デジタル"
-    },
-    {
-      "articleId": "gnews_f7e3b626706cc7e5",
-      "headline": "「マダニにかまれ感染」熊本県内で今年初の患者確認 外出時は注意！（2026年4月24日掲載）｜KKT NEWS NNN - 日テレNEWS NNN",
-      "headlineTranslated": "First case of this year confirmed in Kumamoto Prefecture due to infection caused by tick bite Be careful when going out! (Posted on April 24, 2026) | KKT NEWS NNN - Nippon TV NEWS NNN",
-      "headlineJa": "「マダニにかまれ感染」熊本県内で今年初の患者確認 外出時は注意！（2026年4月24日掲載）｜KKT NEWS NNN - 日テレNEWS NNN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:39:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR256NzhVRElSdTFDLTJCN0N1Ylh0aHdMY2hZRzBxSWVoSmNRQmN1ZkptSk9pMVVaQzZkV0NIWnhFZWZNRVVtcm9nbWVZaVlRUEM0NVNLT1JFTXhLVGVIMjRPY0dsOGpNcVFfaENXWDJFRWJqRHRhM2tpNGdFXzhSR25WZFZTNWs?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_3a13f9f89efdef1f",
-      "headline": "「マダニにかまれ感染」熊本県内で今年初の患者確認 外出時は注意！ (ＫＫＴ熊本県民テレビ) - Yahoo!ニュース",
-      "headlineTranslated": "First case of this year confirmed in Kumamoto Prefecture due to infection caused by tick bite Be careful when going out! (KKT Kumamoto Kenmin Television) - Yahoo! News",
-      "headlineJa": "「マダニにかまれ感染」熊本県内で今年初の患者確認 外出時は注意！ (ＫＫＴ熊本県民テレビ) - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:39:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeV96d05EYXI1VHBvR1NzMDJYbkRKdnhNRVFtRmprb0twYk1ydlUtckJ4RlRnV2tUX0lOSTIyM3lPR2tXVlNvUV9hbGR3TGswdDg4UTVGSXRzY1RzcEpvRkFrWUVJUXJGTlMwMkltc1R5cGVYU08wMHBHT2FQN0VvMGhkYlZBX09VOHc5Nlp3?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_2c6f798a43df35f2",
-      "headline": "「はしか」集団感染の小学校で感染者数がさらに増加 計47人に 東京・新宿区 - TBS NEWS DIG",
-      "headlineTranslated": "Number of infected people at elementary school with measles outbreak increases further to 47 people Shinjuku, Tokyo - TBS NEWS DIG",
-      "headlineJa": "「はしか」集団感染の小学校で感染者数がさらに増加 計47人に 東京・新宿区 - TBS NEWS DIG",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:32:46+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE14eE9RNjNMTG4xd1B1bzNIMXZUZlowd3RYQVRvUE52UDRzRDdRUm4tNEFfdzNHUHpJdnJ1YUYtaTBZdHFoS3JQOG1BMFdqblZyOUtTaldDSQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TBS NEWS DIG"
-    },
-    {
-      "articleId": "gnews_5ffcbb6eafd36917",
-      "headline": "「はしか」集団感染の小学校で感染者数がさらに増加 計47人に 東京・新宿区 - au Webポータル",
-      "headlineTranslated": "The number of infected people at an elementary school with a measles outbreak increases further to 47 people in Shinjuku, Tokyo - au Web Portal",
-      "headlineJa": "「はしか」集団感染の小学校で感染者数がさらに増加 計47人に 東京・新宿区 - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:32:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qaElaVVJiakpaVlBGUmV2TkduWFBLVHZWOGl3b3RlcUQzZFBoN1dNSUh3QVdXazRnMFdma3ItakJDNTNVdy1yemNaUDFfcklQR1d5RmpUVmNRdGF1M2JuZnMwaDVSaFo0cGJPaGVKUlZyOG9yZnNKOE4xZw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_6e0184113c95c18f",
-      "headline": "「はしか」集団感染の小学校で感染者数がさらに増加 計47人に 東京・新宿区（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "headlineTranslated": "The number of infected people at an elementary school with a measles outbreak increases further to 47 people in Shinjuku, Tokyo (TBS NEWS DIG Powered by JNN) - Yahoo! News",
-      "headlineJa": "「はしか」集団感染の小学校で感染者数がさらに増加 計47人に 東京・新宿区（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:31:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HbFFvaVNhSUhGVGlraEJqeE9pYlJqNzFheUhMd2NVTWhGdEVoY0ZMcS1lSEN5ZjcwSy1OQVdVdlpsSV9RbDliUXBFNGRlTzh2cDZNMlJuMnRUaHcweUxZN2NfZTVSRHpvdGRuajNLR2diclNqYnVESV9PeW9TMFU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_50ae00edae2aa00a",
-      "headline": "流行は？早くも「ラン活」スタート 「アドバイザー」が何でもお答え 広島 - HOME広島ホームテレビ",
-      "headlineTranslated": "What's the trend? \"Run activity\" has already started, \"Advisor\" can answer anything Hiroshima - HOME Hiroshima Home TV",
-      "headlineJa": "流行は？早くも「ラン活」スタート 「アドバイザー」が何でもお答え 広島 - HOME広島ホームテレビ",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:31:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zMGxNNFI5N2xIYl9xOWJPLUo3M3VVSmtMRVl5YVJGN2xIa0FqRDc1T1MtYzBWa2JhVzY3RXNZbkJhQ19iZ0RfTzhhby13NE1FeDc1YWdsNjJPbjBFYXVnSUgxSTM5ajhwUkpHVEstQQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "広島県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "HOME広島ホームテレビ"
-    },
-    {
-      "articleId": "gnews_d247ae0473c43e77",
-      "headline": "京都府の西脇隆俊知事、多文化共生推進、感染症対応強化の部署新設へ 新体制5月スタート（産経新聞） - Yahoo!ニュース",
-      "headlineTranslated": "Kyoto Prefecture Governor Takatoshi Nishiwaki to establish new department to promote multicultural coexistence and strengthen response to infectious diseases, new system to start in May (Sankei Shimbun) - Yahoo! News",
-      "headlineJa": "京都府の西脇隆俊知事、多文化共生推進、感染症対応強化の部署新設へ 新体制5月スタート（産経新聞） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:22:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10dllOY2xUeXdGWHRpdlEyNmFqUWx0U2FrU09ZY0JXRk9SVl9ZbHZhNk4wSlJYbXZuZFoxRThhX0dycVA1MEhnMk45clBMeld4cnFQZVJObUM2QzdkclJpMXNrTnVSRl9RQVN6Yjg3by1MSFZpa3p0QjFvLVU4SW8?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "京都府"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_3828dc7340b25a2b",
-      "headline": "【はしか】東京・新宿区の小学校で新たに患者判明、児童・教職員合計47人に 全員快方にむかう、5年生の学年閉鎖今日終了 - Yahoo!ニュース",
-      "headlineTranslated": "[Measles] New cases detected at elementary school in Shinjuku Ward, Tokyo, total of 47 children and staff members are recovering. 5th grade school year closure ends today - Yahoo! News",
-      "headlineJa": "【はしか】東京・新宿区の小学校で新たに患者判明、児童・教職員合計47人に 全員快方にむかう、5年生の学年閉鎖今日終了 - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T09:10:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vSWNhdjlhVTM4UlFpbVo1Sm5nek5MRFYtcGtNSFNPZmdEemtRN0RoNjJOMTVXUVR6UnJpQlVhWDRMMW92ZjZxZncxM2l0QWJwTHV6Nml3N0xkUWJUZDBHREt4TWRCVjkxT2pXQnA0VmUzMjN4VzVxelh0cUtSSUk?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_f9f482dfdd8fc36f",
-      "headline": "はしかで学年閉鎖 東京 新宿区の小学校 感染増えて４７人に - NHKニュース",
-      "headlineTranslated": "School year closed due to measles, Tokyo Shinjuku Ward elementary school infections increase to 47 - NHK News",
-      "headlineJa": "はしかで学年閉鎖 東京 新宿区の小学校 感染増えて４７人に - NHKニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T08:40:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mZ21HeDB0RmVNdURxS21XTHYySDhnVHZoUUV0MjY3Y2RpWksyemVIMWV5V2RIVFczQms1cE5maTJDYkIxdUVPQUJ2Z0FlMG4yRHROOG94OXM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "NHKニュース"
-    },
-    {
-      "articleId": "gnews_dea3db2758783ddb",
-      "headline": "感染力最強クラス はしか急増背景 - Yahoo!ニュース",
-      "headlineTranslated": "The reason behind the rapid increase in measles, which is the most infectious class - Yahoo! News",
-      "headlineJa": "感染力最強クラス はしか急増背景 - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T08:20:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00MFdpVUVmc0tpZVRjZlpBTzdubXU2ek5NcHdhcW13QWVrdkE2Ni1paGRneDByYTBjZGxvYlRuRHpxQ1hjTjJnNmszSGZVcWtP?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_265d70287604806d",
-      "headline": "【学年閉鎖】小学校の児童41人ら計47人に集団感染 わずか数日で2倍以上に急増 全員快方へ 東京・新宿区 - ｄメニューニュース",
-      "headlineTranslated": "[School year closed] Mass infection of 47 people, including 41 elementary school children, the number has more than doubled in just a few days. All are recovering. Shinjuku, Tokyo - d Menu News",
-      "headlineJa": "【学年閉鎖】小学校の児童41人ら計47人に集団感染 わずか数日で2倍以上に急増 全員快方へ 東京・新宿区 - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T08:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5melkwc3FlMWlxY21jSTEwM25sZ095N3lVck5GNlQySmk2dWthcG8xeHBhVmRQeGlPb0o5UFVPdG8wM0pjQlhXajgydzVHQVRzU1dyRFF0ZFJZaXd3MDNrN2VNMVFXSGFpV3NnMTNyUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_93f189d27db55db5",
-      "headline": "Japan Health Chief Calls for Measles Vaccination - nippon.com",
-      "headlineTranslated": "",
-      "headlineJa": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:58:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fZXJmWWprQ0JWazdSMjhVQkNTNUw4ZjBKQkd0ZG5rc3VaSGNCV01YbDFoNnlPN1FKQ1lRTXhoTllwcElSUkw3WVFLa01BY3I3eDdTTGNOM1RfMXRt?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "nippon.com"
-    },
-    {
-      "articleId": "gnews_e4dcd0794814e64a",
-      "headline": "インフル、７カ月ぶり流行下回る 昨年９月以来、厚労省発表 - 中日新聞Web",
-      "headlineTranslated": "Influenza prevalence drops for the first time in seven months, announced by the Ministry of Health, Labor and Welfare - Chunichi Shimbun Web",
-      "headlineJa": "インフル、７カ月ぶり流行下回る 昨年９月以来、厚労省発表 - 中日新聞Web",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:55:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zSGNLVlJJX3ZRcDBYT0FTeUlYXzBYZlR6NFlRRmJsellWeHVOOXJSQU4zWEhOU3Q3SGJXYVFuZnczMUZ4bzhDYzJLTTRPa2xGbGlGbA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "中日新聞Web"
-    },
-    {
-      "articleId": "gnews_92ebeaa703a858b5",
-      "headline": "新宿区の小学校のはしか集団感染、新たに２９人感染確認で計４７人に…ワクチン接種呼びかけ - ｄメニューニュース",
-      "headlineTranslated": "Measles outbreak at an elementary school in Shinjuku Ward, with 29 new infections confirmed, bringing the total to 47... Call for vaccination - d Menu News",
-      "headlineJa": "新宿区の小学校のはしか集団感染、新たに２９人感染確認で計４７人に…ワクチン接種呼びかけ - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TdXczQUN0dXUwRWs2V0FqaFRhWFR0TGllWXV5cFQtcWlhdy1yemhPUTRJdGtwUVBaYzJjV1NjdG84azRYT2NpOHp5TFhmTDFHX0hPajVaMGJnRkdsM0lnQURzVVdFSXVwNDlJaGpfTmUtdEYySW040gF8QVVfeXFMTVRMN0lYdEhyRjRiV1RNMjVTVzBUaDlUMG9XMkNGVTNMVlVtZXM2Tk9RLTBlcFdHckQzZjluYk55WmRnQ1dTcG90UmtpbGxNaVRWNWt0WUFsbTJmbm5FVGJMUi1KZzlYRTByLVN1dUZPclI2NVF1Yk8zRDRsZQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_5701d9ffff27d300",
-      "headline": "新宿区の小学校のはしか集団感染、新たに２９人感染確認で計４７人に…ワクチン接種呼びかけ - 読売新聞",
-      "headlineTranslated": "Measles outbreak at elementary school in Shinjuku Ward, 29 new infections confirmed, bringing the total to 47... Vaccination appeal - Yomiuri Shimbun",
-      "headlineJa": "新宿区の小学校のはしか集団感染、新たに２９人感染確認で計４７人に…ワクチン接種呼びかけ - 読売新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EMVBaRVJGZDM4TzJPd0gxVnQwT1BycWx6ZEd1eFdwdEZRV09KQU5lVmJoc3RMUXN3MnplN3dad08tallHaE9HWm90UURsOE5KZUswMVpNdlgwWDlQQTRiemp5OE5ZQQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "読売新聞"
-    },
-    {
-      "articleId": "gnews_d80ae400ee23b8b9",
-      "headline": "【解説】インフルの“10倍”感染力 「はしか」流行 マスクや手洗いでは予防難しく…ワクチンの2回接種が有効 - FNNプライムオンライン",
-      "headlineTranslated": "[Commentary] Measles epidemic is 10 times more contagious than influenza, difficult to prevent with masks and hand washing... Two doses of vaccine are effective - FNN Prime Online",
-      "headlineJa": "【解説】インフルの“10倍”感染力 「はしか」流行 マスクや手洗いでは予防難しく…ワクチンの2回接種が有効 - FNNプライムオンライン",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ydDJOd2k1VkFrLUI5ZXE0b0FOODlnUlN1bW00b0JWOWgwSVlvU3JlMF84enhLMXk0bzA5RkhsbXY0LTluVElBT0k4SmJGdw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "FNNプライムオンライン"
-    },
-    {
-      "articleId": "gnews_dc000cbf5e3265a0",
-      "headline": "はしかの感染拡大 4月中旬時点で去年1年を上回る 厚生労働大臣がワクチン接種を呼びかけ - FNNプライムオンライン",
-      "headlineTranslated": "Measles infection spread exceeds last year's rate as of mid-April, Minister of Health, Labor and Welfare calls for vaccination - FNN Prime Online",
-      "headlineJa": "はしかの感染拡大 4月中旬時点で去年1年を上回る 厚生労働大臣がワクチン接種を呼びかけ - FNNプライムオンライン",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:40:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5mZ25UcktnQlNwcWdCRVIySFM4enZjMnhaMGZFSGtmZnVQS2tzcWM2aV94LWE1RmpLakVaUEVCbS0yVmx4YTJkS1BrWGZSZw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "FNNプライムオンライン"
-    },
-    {
-      "articleId": "gnews_5389e9f71d01ecd4",
-      "headline": "インフル、7カ月ぶり流行下回る 昨年9月以来、厚労省発表 - 西日本新聞me",
-      "headlineTranslated": "Influenza prevalence drops for the first time in seven months, announced by the Ministry of Health, Labor and Welfare - Nishinippon Shimbun me",
-      "headlineJa": "インフル、7カ月ぶり流行下回る 昨年9月以来、厚労省発表 - 西日本新聞me",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:26:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85MFlDSzUzMm9wYV9fZmxHQnoweVJKX3N5T1FfZ3F3Tnhwb1draHhlZVRudWxqSHVUNVNwSEJfa2tsVENuSkI2WmNCYjkza3RqckV4U0Zn?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "西日本新聞me"
-    },
-    {
-      "articleId": "gnews_9201cf3e6205d809",
-      "headline": "インフル、７カ月ぶり流行下回る - 京都新聞デジタル",
-      "headlineTranslated": "Influenza prevalence drops for first time in 7 months - Kyoto Shimbun Digital",
-      "headlineJa": "インフル、７カ月ぶり流行下回る - 京都新聞デジタル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:26:23+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5Q0pVY09Dbi1fdEhtOVlacVlldEdlUkJMd09NNFZQeFFSMS1nUHI3NnBlRDZkang1Vk92WHFXaUpMZDA3VmpnZzkwa1NYSVZ5R0NJbUs3Qkc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "京都府"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "京都新聞デジタル"
-    },
-    {
-      "articleId": "gnews_b1df3d9395adc9e9",
-      "headline": "北海道千歳市の高病原性鳥インフル、新たな感染なければ26日に「移動制限区域」解除へ 監視は継続 - au Webポータル",
-      "headlineTranslated": "If there are no new infections of highly pathogenic avian influenza in Chitose City, Hokkaido, the ``restricted movement zone'' will be lifted on the 26th. Monitoring continues - au Web Portal",
-      "headlineJa": "北海道千歳市の高病原性鳥インフル、新たな感染なければ26日に「移動制限区域」解除へ 監視は継続 - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:04:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLOGkyWVFrMnQ1N2QxZ25uQnFUeWdMc3llQ3VESm45Z25qYjlybU5GMGlJcnBEWFdOLU1fMU4waUJvbmFGX3NXVHFaSlhubUFZR2VwRXRxekQxTzZYWENjR0ZLcHhHZU5tSlI4ZkRfVkRsNEtmMjVvTXloUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "北海道"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_b69fb944c432a3c7",
-      "headline": "下水モニタリング - city.komatsu.lg.jp",
-      "headlineTranslated": "Sewage monitoring - city.komatsu.lg.jp",
-      "headlineJa": "下水モニタリング - city.komatsu.lg.jp",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80blA0LWNucVY0RHB2S2dZY1hxMTF4aTFDdmdHbVhQV0U2M1BxTUZ2VTY4MkN5cHRZZExCWGhnU2dUTmdDSHFyOTgzVkhTWnA4eVpJVDBON3ZKOWtBNWRDTG80MFhoM21lQ2hOVlFiWFpyWjR2UHc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "city.komatsu.lg.jp"
-    },
-    {
-      "articleId": "gnews_1f2c01a92f4fbafd",
-      "headline": "北海道千歳市の高病原性鳥インフル、新たな感染なければ26日に「移動制限区域」解除へ 監視は継続 - HTB 北海道テレビ",
-      "headlineTranslated": "If there are no new infections of highly pathogenic avian influenza in Chitose City, Hokkaido, the ``restricted movement zone'' will be lifted on the 26th. Monitoring will continue - HTB Hokkaido Television",
-      "headlineJa": "北海道千歳市の高病原性鳥インフル、新たな感染なければ26日に「移動制限区域」解除へ 監視は継続 - HTB 北海道テレビ",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:50:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RXzl6TmFMQkY1Yk5vSnVwZjJSV0hxN0trSVN3aU8zU21HVFFaODRacHR2R3BDOWxkX3BNTFlMMk1yYnFzUGtBNk1WTEhmczFGdmk3QlFvSFZKUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Avian Influenza",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "北海道"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "HTB 北海道テレビ"
-    },
-    {
-      "articleId": "gnews_23a6b38a628e15ee",
-      "headline": "“はしか”流行続く 厚労大臣がワクチン接種呼びかけ（ABEMA TIMES） - Yahoo!ニュース",
-      "headlineTranslated": "“Measles” epidemic continues, Minister of Health, Labor and Welfare calls for vaccination (ABEMA TIMES) - Yahoo! News",
-      "headlineJa": "“はしか”流行続く 厚労大臣がワクチン接種呼びかけ（ABEMA TIMES） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:42:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJbmRfekp1Q202Vkc4UlVBWEhEWUZMcXBydk5nM3l3X0toSzRCR2U0YWt0SDN5ZTFOc0Y0ZnI5OFU4RE1sU25fa2lUWXlzeFVyNEpzOUxzWUdaUmRqZElOeUJtcDZLWWNvajRselFnRUJtcWt0SHNtNVB2cW5Ham8?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_8c74f6ae159bce78",
-      "headline": "【速報】インフル、7カ月ぶりに流行目安下回る - 47NEWS",
-      "headlineTranslated": "[Breaking News] Influenza drops below the epidemic standard for the first time in 7 months - 47NEWS",
-      "headlineJa": "【速報】インフル、7カ月ぶりに流行目安下回る - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:31:18+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MLVFUR0p0WXA0MDhQOVd4SHB4NXlvYlloQ0ozZHR1V1BZZFIxaWdTbGkwWTJfZmZlN2JKX1k5YmFnTDRObjdScW1ENA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
-      "articleId": "gnews_bf70cd5a6f0a2ff5",
-      "headline": "インフル、7カ月ぶりに流行目安下回る - ｄメニューニュース",
-      "headlineTranslated": "Influenza drops below epidemic level for first time in 7 months - dmenu News",
-      "headlineJa": "インフル、7カ月ぶりに流行目安下回る - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:31:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeTB6VUtMTUc2OXpnUUk0TXJRelZrLTNPWXlNRllBS0dOeHBHaFhpZjBwZTFtbndoSEpZbmZKTW9ES1Z6Z0Via01kYjRuQ09PTUthdkRHZlFLMmNsNE5vbkdJWE1GYm9yNlY5MFY3NzBJNkU5TGpsU3Z5NVBSTVRrSUVYSUpHRFllb2fSAY8BQVVfeXFMTUFDWnBtRXduWkFFUWNudWxiQXJmZXpGRTA2VW4zMmJURGFVcmg2c1RIbktLTG1tckxmN2V3M25TN1NQbEVzcnpxaVlOQ0tycWFrQWtIeFhQYkdBajlKMTFzempRRXFuekMwV2g4VzRxa3UwNmRYVnRGX2hBTkRUZExzcEZpOGE1MjRheTRSWjg?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_034aedf2fb2908dc",
-      "headline": "インフル、7カ月ぶりに流行目安下回る - Excite エキサイト",
-      "headlineTranslated": "Influenza drops below epidemic level for first time in 7 months - Excite",
-      "headlineJa": "インフル、7カ月ぶりに流行目安下回る - Excite エキサイト",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:31:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RdXhFNEZpcU02NEJ5MHpGdDl6alBrY2N1cmFybWgzeEIxTkpRbGQtbWtxLXFldTN4anZiX2F0ZkRVX3pqZFp5M2t5TnVRcXpXWGRpM0RCQ2tqT1cxaWdseFo2bFJJcmxXMV9TUEpETnliUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Excite エキサイト"
-    },
-    {
-      "articleId": "gnews_c6e0d692327feefa",
-      "headline": "全国的に流行中「はしか」に注意を 熊本県感染症情報 - 47NEWS",
-      "headlineTranslated": "Be careful of measles, which is prevalent nationwide Kumamoto Prefecture infectious disease information - 47NEWS",
-      "headlineJa": "全国的に流行中「はしか」に注意を 熊本県感染症情報 - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:19:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Obi1XRERXTkxueVY4QzA1ejBXU25fQkpyNWN6aXg1MW1OOXRVM1NYQWNQa241c19rMm5LT2pES2tFSXJXSzNVU1RQbw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
-      "articleId": "gnews_e07df2be5e24070f",
-      "headline": "全国的に流行中「はしか」に注意を 熊本県感染症情報（熊本日日新聞） - Yahoo!ニュース",
-      "headlineTranslated": "Be careful of the nationwide measles epidemic: Kumamoto Prefecture infectious disease information (Kumamoto Nichinichi Shimbun) - Yahoo! News",
-      "headlineJa": "全国的に流行中「はしか」に注意を 熊本県感染症情報（熊本日日新聞） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:19:23+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15STJPS01JSWJPV0hQbnl0ck9pRlBYS1IxTmtENVRvSTlCVld1T1M1Ql85bG1OVW1YbFdhYU9UZnJqVDZPR05iRHY3akhWN3MxeXBxeUFsZXFWUzhNRmdXNGt6cjhLNGtuQmFMLTBYZzFFMVJSaHhCU0xuLUJoX2c?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_cbb892f8d48db7c4",
-      "headline": "すでに去年超え…\"はしか\"流行続く 厚労大臣がワクチン接種呼びかけ - ABEMA",
-      "headlineTranslated": "Already surpassed last year...\"Measles\" epidemic continues; Minister of Health, Labor and Welfare calls for vaccination - ABEMA",
-      "headlineJa": "すでに去年超え…\"はしか\"流行続く 厚労大臣がワクチン接種呼びかけ - ABEMA",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T06:00:34+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PSTZHWmdWWDZoMk5XQmFMVXhGRUl2NXBDNUpZR3ljdVQ3LTViVFZfc0w2VTlDV0RxTzNuWEx3M0Ftcm8wYWZBMTI4QTU2bkRzaVd5YUxlcXBUUGc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABEMA"
-    },
-    {
-      "articleId": "gnews_c5b1b5efe72bf0d0",
-      "headline": "【解説】すでに去年の3.5倍 流行する「はしか」原因は「列車の同じ車両にいたら感染」“強い感染力”と「副反応の怖さ」からワクチン接種率落ち“集団免疫低下”と感染症の専門家が指摘（FNNプライムオンライン） - Yahoo!ニュース",
-      "headlineTranslated": "[Commentary] Infectious disease experts point out that the cause of the measles outbreak, which is already 3.5 times more prevalent than last year, is \"lower herd immunity\" due to \"strong infectivity\" and \"fear of side effects,\" \"strong contagiousness,\" and \"fear of side effects\" (FNN Prime Online) - Yahoo! News",
-      "headlineJa": "【解説】すでに去年の3.5倍 流行する「はしか」原因は「列車の同じ車両にいたら感染」“強い感染力”と「副反応の怖さ」からワクチン接種率落ち“集団免疫低下”と感染症の専門家が指摘（FNNプライムオンライン） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T04:21:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VRWE3MU9LLTRINjhkMGI1QVl5a2lhdmRObkgxVkEyak9KN0VWRFRBWUpiUHVicUtfM1QzcEpMOTVhSnYzRWJNZnlKNFFwUE5Kc2pvQ0Y2SWZUckFlRW9rdWJvTWdtaTZWRkhoRGhKOWx1S2FvTzBGMTlySEtnVWs?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_c67876490f23f194",
-      "headline": "はしかの感染拡大 海外渡航者は予防徹底を 社説(4/24) - 河北新報オンライン",
-      "headlineTranslated": "Measles infection spread; overseas travelers should take thorough precautions Editorial (4/24) - Kahoku Shimpo Online",
-      "headlineJa": "はしかの感染拡大 海外渡航者は予防徹底を 社説(4/24) - 河北新報オンライン",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T04:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oOGRMTmZlc0kyYkd6M3JRNWZXMXlyQjB3cGd0ckhrTU1TX3BieW9lanlKWmU1MTI4ekQzLU44cEVLUml4clFxVHFsNkFDUEhZYmR5UVZBeldzMmVZZnRITA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "河北新報オンライン"
-    },
-    {
-      "articleId": "gnews_12942231d6b080d8",
-      "headline": "マダニが媒介する感染症「日本紅斑熱」患者が熊本県内で今年初めて確認 - au Webポータル",
-      "headlineTranslated": "The first case of Japanese spotted fever, an infectious disease transmitted by ticks, is confirmed in Kumamoto Prefecture this year - au Web Portal",
-      "headlineJa": "マダニが媒介する感染症「日本紅斑熱」患者が熊本県内で今年初めて確認 - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T03:44:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50YmV4WW9FQjF4dG5uM09WNjFwRjBKMUR0X0pGSXJ0NUxmbENfY3hXVHFia2ZSVkwtZlI2cG5sWWRKU3NiSnJNVUJnSC1LZFdEM1lHTFNxR0ZLSTdJZ0o4dGh1bTFBTmJ1S0JNSjUzSkFlN21uQlFDTUFSNA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_608bb6a2d48ecfd7",
-      "headline": "[TKUニュース 26.04.24 12:00 ] マダニが媒介する感染症「日本紅斑熱」患者が熊本県内で今年初めて確認 - TKU テレビ熊本",
-      "headlineTranslated": "[TKU News 26.04.24 12:00] The first case of Japanese spotted fever, an infectious disease transmitted by ticks, is confirmed in Kumamoto Prefecture this year - TKU TV Kumamoto",
-      "headlineJa": "[TKUニュース 26.04.24 12:00 ] マダニが媒介する感染症「日本紅斑熱」患者が熊本県内で今年初めて確認 - TKU テレビ熊本",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T03:39:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00ZW9sQW1rbHExT2ozVW5lY1ZBZGVWX3p4TDZ4UW5FQnJvNVZDNTJLYzVhdF9WRWxfZGI0VnRtQzFoTDgwVk1TWHpkVzlaTTYtbHlBVU1VRVA0cWZ0MGJwelV0bw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TKU テレビ熊本"
-    },
-    {
-      "articleId": "gnews_9db0eab788c6f3ae",
-      "headline": "マダニが媒介する感染症「日本紅斑熱」患者が熊本県内で今年初めて確認（TKUテレビ熊本） - Yahoo!ニュース",
-      "headlineTranslated": "The first case of Japanese spotted fever, an infectious disease transmitted by ticks, is confirmed in Kumamoto Prefecture this year (TKU TV Kumamoto) - Yahoo! News",
-      "headlineJa": "マダニが媒介する感染症「日本紅斑熱」患者が熊本県内で今年初めて確認（TKUテレビ熊本） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T03:38:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yVzhvRkJjb0p1QmRSY3J1MWktREpXaHFxRldMY3VTcjNrVEUyc0FIN3Q3WnpJWVJ1elNOakpTVVluOXBnOEVyYWhHQnJibEQ0UGhrQndxbU5vc09KMzN4elN2RlpiOVAwMGhOb3BQZ2U4U2dzNFBIeVl4VWZNXzA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_4a4b8bc3ad2216b8",
-      "headline": "麻疹拡大、昨年累計数超える 上野厚労相、感染防止へ関係機関と連携 | 日刊薬業 - 医薬品産業の総合情報サイト - 日刊薬業",
-      "headlineTranslated": "Measles spread exceeds last year's total, Minister of Health, Labor and Welfare Ueno collaborates with related organizations to prevent infection | Nikkan Yakugyo - Comprehensive information site for the pharmaceutical industry - Nikkan Yakugyo",
-      "headlineJa": "麻疹拡大、昨年累計数超える 上野厚労相、感染防止へ関係機関と連携 | 日刊薬業 - 医薬品産業の総合情報サイト - 日刊薬業",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T03:22:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNZUpkdU0wNWdYR0ZickFpZWRjVmtuY1Nob3ZEdjhTTF90d3BaT1BXUnJIdW1wX2JIajFFaktfTXBGNkVCemxxcA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日刊薬業"
-    },
-    {
-      "articleId": "gnews_553e33ba40f96f9d",
-      "headline": "「はしか」に注意 九州や関東で報告増加…予防接種など検討を - KAB 熊本朝日放送",
-      "headlineTranslated": "Beware of \"Measles\" Reports increasing in Kyushu and Kanto... Consider vaccination - KAB Kumamoto Asahi Broadcasting",
-      "headlineJa": "「はしか」に注意 九州や関東で報告増加…予防接種など検討を - KAB 熊本朝日放送",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T03:16:32+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sa3VCWGxmTnB6TXVlbHNVZThQZmhsUmZXMU82MktxTlNlM3pzcVpubWN6NDBTR3J3Z3lpZ1QtNmwtVURhUFlZWHc0cW5fU1pDZ3h4Slh3?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "KAB 熊本朝日放送"
-    },
-    {
-      "articleId": "gnews_529dc63d70a00f01",
-      "headline": "【千葉県内初】猫マダニ媒介のウイルス・SFTSに感染 飼い主も危険？命守る対策とは #エキスパートトピ - Yahoo!ニュース",
-      "headlineTranslated": "[First in Chiba Prefecture] Cats infected with SFTS, a tick-borne virus, are their owners at risk too? What are life-saving measures? #Expert Topic - Yahoo! News",
-      "headlineJa": "【千葉県内初】猫マダニ媒介のウイルス・SFTSに感染 飼い主も危険？命守る対策とは #エキスパートトピ - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T03:01:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc0tFNzBBNk4xMHFudHdGMkRtbjd2NkRFY2VXR3ZxVGVERVhSY2FIYTN1akRzRUdYZUJkUkdKcFAwLWUzZmV2S05GeDZNZ3I1MWN0a2RfQk1Qd1dldElYOGpzLTRQUllJWXJZNXBQcWN4U1NBbGdRNGt3bFNMWHlIcWJuVXdSN0Rs?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "千葉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_1a90326fd10bcb49",
-      "headline": "はしか全国で56件 前週比1.4倍、県がGW期間中の帰省や旅行などで注意喚起【新潟】 - UX新潟テレビ21",
-      "headlineTranslated": "56 cases of measles nationwide, 1.4 times more than the previous week, prefecture issues caution when returning home or traveling during Golden Week [Niigata] - UX Niigata TV 21",
-      "headlineJa": "はしか全国で56件 前週比1.4倍、県がGW期間中の帰省や旅行などで注意喚起【新潟】 - UX新潟テレビ21",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T02:56:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNa1lMcU8yQ2ZRaXQ1WnVTTkZGUlY4c3FRZnA3U05uY0ZSazFCbjQ2ZUZ2VkpNNFVaOEl1VldjUEFhRVpUWEh3N0w5am13UVhwRjk2ek5GQ0JfdkFSQnBaOVZjSkpHVHdyZ1ZqWHQ5RkdtT0lDRzY4YzlyWmlJeVFDekhJczF1Q2txbzVvbG1nZHZPQXhqLVBQTnlHaERVS2x4a1hFZ1IycFhQUExWQllleWQyUHNfbEFVX2ZlMVdfR3NuMUtCczhkR3hmTHBJZjM1YUEyZUR0cUp1Rm1wQXZ5UkVTRkhBUENuQnU3NC01QzdYeVprUm9IaV9FRG5xSW40QXVoTmthWmdxM2JHRmJkNGFod01hb0Q4Y1F0LXRUYV9WQ3ZkRkN6U19sdjIxOGtiVHFkcEQycUYyaEczaENERUpXeC14SEZU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "新潟県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "UX新潟テレビ21"
-    },
-    {
-      "articleId": "gnews_f7bcfed18a755b76",
-      "headline": "はしか全国で56件 前週比1.4倍、県がGW期間中の帰省や旅行などで注意喚起【新潟】（UX新潟テレビ21） - Yahoo!ニュース",
-      "headlineTranslated": "56 cases of measles nationwide, 1.4 times more than the previous week, prefecture issues caution when returning home or traveling during Golden Week [Niigata] (UX Niigata TV 21) - Yahoo! News",
-      "headlineJa": "はしか全国で56件 前週比1.4倍、県がGW期間中の帰省や旅行などで注意喚起【新潟】（UX新潟テレビ21） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T02:53:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yVnBZcDlCQlZ4cWxwYUFsNGh2Vy1LRVB5aDRaYVRwdjR1c2doZXM4M2dyXzhRUWs5c3JjM01CYTV5dl9vdXFHQXN6YURYaEYzS0QxR19GOG1xekZ4ZHBXQmlLYkVLRE9IV19pOG9GUmowUkhzb2xQc2xGMng0M0k?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "新潟県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_99e5feae5881f5ff",
-      "headline": "はしか感染、4月で25年の通年上回る 厚労相がワクチン接種呼びかけ - 日本経済新聞",
-      "headlineTranslated": "Measles infections in April exceed all of 25 years; Minister of Health, Labor and Welfare urges vaccination - Nihon Keizai Shimbun",
-      "headlineJa": "はしか感染、4月で25年の通年上回る 厚労相がワクチン接種呼びかけ - 日本経済新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T02:31:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NWklWN0FVRi1PcXljM1oydXB0Q2VUQ0toY2JmdEU0d251YzEyWWI3TXlXSkNkMTl1d09COXo4bGJnZXJZaXBYX1ktb3BQVVhQVW9ZM1FkMlVXREdjTUJQMDd1aENmNUVZSFVVVg?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日本経済新聞"
-    },
-    {
-      "articleId": "gnews_a8634e23946bd307",
-      "headline": "全国の『はしか』感染者数 1週間で1.4倍に急増 新潟県も注意呼びかけ - TBS NEWS DIG",
-      "headlineTranslated": "Number of measles infections nationwide surges 1.4 times in one week Niigata Prefecture also urges caution - TBS NEWS DIG",
-      "headlineJa": "全国の『はしか』感染者数 1週間で1.4倍に急増 新潟県も注意呼びかけ - TBS NEWS DIG",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T02:24:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42SnNHUDRNcmtBdU1OU25rWEJjQWRUTlo4NzlnMTFuZnNXVFl6QV9HT1VHc2tHakdQQWpVMlVFY3oxV0NJT2V2RHZlT1JkbzdLQTAzcWhVZzliWHdzcFFOQk82X1FTOU0?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "新潟県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TBS NEWS DIG"
-    },
-    {
-      "articleId": "gnews_6eae84813eb824fb",
-      "headline": "秋田県内の新型コロナ感染者数 ２週連続で減少 - NHKニュース",
-      "headlineTranslated": "Number of new coronavirus infections in Akita Prefecture decreases for two consecutive weeks - NHK News",
-      "headlineJa": "秋田県内の新型コロナ感染者数 ２週連続で減少 - NHKニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T02:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoNmo0UHlkNW1pNF9wX19KMGNQYjhUYWZEcHN6Y1p5NEhKVE9EazBFNk53Mkc2VTVhcHdMdWF6S2dQTmg1ZEVsOGNFTW8ybVBYbXFKOUdtS3o?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "秋田県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "NHKニュース"
-    },
-    {
-      "articleId": "gnews_59287b78a8ead1bf",
-      "headline": "死亡リスクも──“最強クラス”の感染力、「はしか」急増のワケ ほぼ確実に予防できる方法は？ ワクチン接種率は低下 - au Webポータル",
-      "headlineTranslated": "The risk of death is also high - the reason for the \"strongest class\" infectivity and the rapid increase in measles cases.Is there a way to almost certainly prevent it? Vaccination rate is declining - au web portal",
-      "headlineJa": "死亡リスクも──“最強クラス”の感染力、「はしか」急増のワケ ほぼ確実に予防できる方法は？ ワクチン接種率は低下 - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T02:01:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xc09JcGlDOXlrVkVNc0o1SktKUmM4R3RlVEtnampOTjB2MnNpb2ZJNE1FRDUxR2N6dGE1NHRFMGwzYUZIOXRNRkZPdUd0bGstdjlzVUEwc2M1VTQyTTJCeFJwTmxMaFJJRFdvdzN3cmU0emdBcjFrdzNPQQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_998a2487d47c5a8a",
-      "headline": "死亡リスクも──“最強クラス”の感染力、「はしか」急増のワケ ほぼ確実に予防できる方法は？ ワクチン接種率は低下 - Yahoo!ニュース",
-      "headlineTranslated": "The risk of death is also high - the reason for the \"strongest class\" infectivity and the rapid increase in measles cases.Is there a way to almost certainly prevent it? Vaccination rate declines - Yahoo! News",
-      "headlineJa": "死亡リスクも──“最強クラス”の感染力、「はしか」急増のワケ ほぼ確実に予防できる方法は？ ワクチン接種率は低下 - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T02:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NaUNrN0JuX1dKUEh3eGdRa2VSZVFPUW9DNmMzRDVFZ1B2TFg5M084RTFJMExqV3VrQ2EzQ0xrZWMtS1h2VDJ5RDVmWDRHclZEWUo0RnVOS3JQMzVGeDlpWHVkNHgwZ1lVLThSWVlnSnZNbTd0dEdvVEM5TGNFUVU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_181942eddfb5b3f5",
-      "headline": "流行続く「はしか」 コロナ以降最多ペース すでに去年超え ワクチン接種呼びかけ - khb東日本放送",
-      "headlineTranslated": "\"Measles\" continues to be prevalent at the highest pace since the coronavirus, already surpassing last year, calling for vaccination - KHB East Japan Broadcasting",
-      "headlineJa": "流行続く「はしか」 コロナ以降最多ペース すでに去年超え ワクチン接種呼びかけ - khb東日本放送",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:57:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3R1BHQnVvMTdBdGV4NW9wVklzM09jVHZGeElLTERrZXVCV2FjMUxfVnNkRHdOUng2VFQ1UEdNNGpUaC1VNTgyZDR4bnVXc1k?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles",
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "khb東日本放送"
-    },
-    {
-      "articleId": "gnews_7e7d55c376e4f05d",
-      "headline": "流行続く「はしか」 コロナ以降最多ペース すでに去年超え ワクチン接種呼びかけ - テレ朝NEWS",
-      "headlineTranslated": "Measles continues to spread at the highest pace since the coronavirus, already surpassing last year, calling for vaccination - TV Asahi NEWS",
-      "headlineJa": "流行続く「はしか」 コロナ以降最多ペース すでに去年超え ワクチン接種呼びかけ - テレ朝NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:57:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFByQmRyelBKZThOaEk5cXZ3S3JvLUh3T3Z1dk5ucUQ5T0pmZW1EamozRmdkVzhaUGJ0QklLNG40OVNBVGxpMElkNjRXckJpYkV5VzVwN01NdjhtNmlWSzFYaEktZWM3YnRTaWlTaXM4bWhTUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles",
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "テレ朝NEWS"
-    },
-    {
-      "articleId": "gnews_144aa32da4e33585",
-      "headline": "流行続く「はしか」 コロナ以降最多ペース すでに去年超え ワクチン接種呼びかけ - KAB 熊本朝日放送",
-      "headlineTranslated": "Measles continues to spread at the highest pace since the coronavirus, already surpassing last year, calling for vaccination - KAB Kumamoto Asahi Broadcasting",
-      "headlineJa": "流行続く「はしか」 コロナ以降最多ペース すでに去年超え ワクチン接種呼びかけ - KAB 熊本朝日放送",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:57:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56ZTdKSFVvYjlHdDR5ZTU1LW1lRGJkUm5pUkFibWcxbXQ3OVZsNXYzRHB2ZTVVOUd5ckRUYlFudDdONXZrYXljS1dNRVFFZmk5cF8yd3Jn?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles",
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "KAB 熊本朝日放送"
-    },
-    {
-      "articleId": "gnews_0ff91b9d429c504a",
-      "headline": "はしかに感染…30代男性が陽性判明前、JR新宿駅へ行く 蕨駅も利用 ドラッグストアに来店、翌日に医療センターを受診 発熱や発疹、結膜充血も（埼玉新聞） - Yahoo!ニュース",
-      "headlineTranslated": "Infected with measles... A man in his 30s went to JR Shinjuku Station before testing positive. He also used Warabi Station. He visited a drug store and visited a medical center the next day. He also had fever, rash, and conjunctival congestion (Saitama Shimbun) - Yahoo! News",
-      "headlineJa": "はしかに感染…30代男性が陽性判明前、JR新宿駅へ行く 蕨駅も利用 ドラッグストアに来店、翌日に医療センターを受診 発熱や発疹、結膜充血も（埼玉新聞） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:46:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94dWI4VGFablA0c0RKQkxuT0xpa1BSRXlqRHp0Q1lGVnkxb0xpUWo4cXJfUHlNWndOSzBMcGxYZ0thMXZLajdTWFlYZE1hUmh0X01xQzlvZWNRbjN3RnFUbFpVRmVmYW1FRXBDNW5JZDVXcTRVcXlGSk56VXNPLU0?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "埼玉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_849ed459b69f039c",
-      "headline": "感染力インフルの10倍「はしか」ワクチン接種など呼びかけ 感染者すでに去年超え 2020年以降で最多ペース - Yahoo!ニュース",
-      "headlineTranslated": "Call for vaccination against measles, which is 10 times more contagious than the flu, with cases already exceeding last year's, highest pace since 2020 - Yahoo! News",
-      "headlineJa": "感染力インフルの10倍「はしか」ワクチン接種など呼びかけ 感染者すでに去年超え 2020年以降で最多ペース - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:45:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtV0ZaRHMwTEhja2N1T3ZwQ25CMGgxSEc0NzZycTZVM3A0RkdfbF9lUkx2M09IMTR1TGVvZ0xTX0ZMbEtaemVkb2d1OElTOFNrRFp4NVhtbjVKdF9qbXhtUkRZSXNQQ0c5NzlvSTZEWkJsbDZCR1F3dWxCMHdjVnM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_866fa04ace2cbe65",
-      "headline": "はしかに感染…30代男性が陽性判明前、JR新宿駅へ行く 蕨駅も利用 ドラッグストアに来店、翌日に医療センターを受診 発熱や発疹、結膜充血も - 47NEWS",
-      "headlineTranslated": "Infected with measles... Before testing positive, a man in his 30s went to JR Shinjuku Station. He also used Warabi Station. He visited a drug store and visited a medical center the next day. He also had fever, rash, and conjunctival congestion. - 47NEWS",
-      "headlineJa": "はしかに感染…30代男性が陽性判明前、JR新宿駅へ行く 蕨駅も利用 ドラッグストアに来店、翌日に医療センターを受診 発熱や発疹、結膜充血も - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:40:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5oZ0JjeVVSdDhHNmlKcFJTN20yVU1oOFhFRUpFVXk2VUdUUHAyUnJGYUFnSEh4UnVTZElFZHJWTi1YbDNkWlh5X29jRQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
-      "articleId": "gnews_2b86e409720d0cab",
-      "headline": "はしか急増、自治体に緊急説明会 ワクチン接種呼び掛け―上野厚労相 - 時事ドットコム",
-      "headlineTranslated": "Emergency briefing held for local governments as measles surge calls for vaccination - Minister of Health, Labor and Welfare Ueno - Jiji.com",
-      "headlineJa": "はしか急増、自治体に緊急説明会 ワクチン接種呼び掛け―上野厚労相 - 時事ドットコム",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:32:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kMlpDMFlmNVg5UlhoclhHTjM2VU1FVTF3RTBORnN3OTZQeURmcDFieEJOMWpvNU03MThQOUtMZ0ZqZ2dnTVVoTzYzcTd1NVEtU0F6ZFlIRWhxTGF1dkVSUGhyZw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "時事ドットコム"
-    },
-    {
-      "articleId": "gnews_47fa58d42b884121",
-      "headline": "ネコがマダニ感染症　千葉県内で初　人への感染あるとして県が注意呼びかけ | チバテレ＋プラス - 千葉テレビ放送",
-      "headlineTranslated": "Chiba Prefecture calls for caution after tick-infected cat infects humans for the first time in Chiba Prefecture | Ciba TV + Plus - Chiba Television Broadcasting",
-      "headlineJa": "ネコがマダニ感染症　千葉県内で初　人への感染あるとして県が注意呼びかけ | チバテレ＋プラス - 千葉テレビ放送",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T01:02:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IN2hMYlFjcUMxcGZmUklvRzhDczhMXzVsSU5ONXVZNm5vVHFBd3F2cmVBeklPS184cEU1VDNWMzBhbDVZYTlnenhKTGZIenNrbVozR25Xc3JLeDBjYUZn0gFkQVVfeXFMTXRIUy1JY2ZMSXRMeVlBaVRMUUwwNzdaSkltV21kN1pHa1hwWEZsNGNLWGZRSndiMUgzMC1Kd1lFa3VqRHV2SmxoeVU5Y2VKQWNDU2w1RXBwRXdROWlWOERnZXF2aA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "千葉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "千葉テレビ放送"
-    },
-    {
-      "articleId": "gnews_74bc559d44c6ea99",
-      "headline": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」（埼玉新聞） - Yahoo!ニュース",
-      "headlineTranslated": "Infected with measles...A man in his 20s visited a 7-Eleven store before testing positive.He visited two stores on the 18th, 20th, and 21st.Fever followed by a rash.``Infections are common in the Tokyo metropolitan area.'' (Saitama Shimbun) - Yahoo! News",
-      "headlineJa": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」（埼玉新聞） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T00:57:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JMWQ4LW4zcnIyMGdYOThDRzNxYVVST3VMTmN0OWgybzFrRHljMEdaeUxVdFBIc0llajgtOFhkNEtzZGIxUUFsU1RqNm5pdGNtZG1nX0R6OENFWTFxNXBybmFRXzZDVUx3aVFvajhma0N4bDFHcGJGTEhPLTkwY1k?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "埼玉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_455781d9c4b83af6",
-      "headline": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 (埼玉新聞) - Yahoo!ニュース",
-      "headlineTranslated": "Infected with measles...A man in his 20s visited a 7-Eleven store before testing positive.He visited two stores on the 18th, 20th, and 21st.Fever followed by a rash.``Infections are common in the Tokyo metropolitan area.'' (Saitama Shimbun) - Yahoo! News",
-      "headlineJa": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 (埼玉新聞) - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T00:57:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR0FCc1hRY3FwNDZlWjRjR1RNdEZWWm1NMkliaTI5YkgwdkFvd0JJYVAzZXVpTzNKc3UzRzU5NHZvWHdwaWo5Tlc1MGlNSl9vMVBXbWxndXIzdTVEX2FjMldLVDYzN0thMXpxX3FNLWRzWkc4cjZSc0U0WFVQa1V6OHNvVWdXc3EtTVIzTFVn?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "埼玉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_8241597a07df58bb",
-      "headline": "はしか集団発生、新宿区の小学校で児童・教職員18人感染（リセマム） - Yahoo!ニュース",
-      "headlineTranslated": "Measles outbreak, 18 children and teachers infected at elementary school in Shinjuku Ward (Risemam) - Yahoo! News",
-      "headlineJa": "はしか集団発生、新宿区の小学校で児童・教職員18人感染（リセマム） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T00:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXR0poOEJ4Nnc5dWxlR2hFYzVfTjFFMUphU3dndjNJeHZSb3Jpa0taeV8yR0s1cnZhbk9Zc0FTMG0zSHpCbUhBOGhKZVRlclpQa0tIakU0NTYwSkNhVUh4X21UeWpLY2tmWE9XLXk0VUR0UUtsNVd1VU92bXNOLTQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_1fa35536020fd1c9",
-      "headline": "十勝管内 新型コロナ「ゼロ」５ 類移行後初 - 十勝毎日新聞",
-      "headlineTranslated": "First case of new coronavirus in Tokachi jurisdiction after transition to Category 5 - Tokachi Mainichi Shimbun",
-      "headlineJa": "十勝管内 新型コロナ「ゼロ」５ 類移行後初 - 十勝毎日新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T00:17:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nVnZhaTR5cjB0dm1jM2FKaW5KTWtDZy1xQUtrSFpiYWppWHdtTjFVNk5rSmhicFFoSG1NVWtRY2lHVjljOGV4MWltYkRLMzVjT0UySWI0dzFDaTloQnVoOGtBY0M?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "十勝毎日新聞"
-    },
-    {
-      "articleId": "gnews_a9fdf9fa2a60a528",
-      "headline": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 - 47NEWS",
-      "headlineTranslated": "Infected with measles...A man in his 20s visited a 7-Eleven store before testing positive He visited two stores on the 18th, 20th, and 21st Symptoms of rash after fever ``Infections are common in the Tokyo metropolitan area'' - 47NEWS",
-      "headlineJa": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T00:10:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5EQ0cxMlptRDlLLWhWQWRCVVl5Y0Yzczc5eEVyc1JCUDNUaWVSMmJ5ME5HdGFEbVFnWGk4aTFuck5sbFZpdFZHclBQOA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
-      "articleId": "gnews_86fb7af5e905fcad",
-      "headline": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 - 埼玉新聞",
-      "headlineTranslated": "Infected with measles...A man in his 20s visited a 7-Eleven store before he was found to be positive.He visited two stores on the 18th, 20th, and 21st.Fever followed by a rash.``Infections are common in the Tokyo metropolitan area.'' - Saitama Shimbun",
-      "headlineJa": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 - 埼玉新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T00:08:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5obmVuNjFReXRZWG5PWEU0S0wzRTB4QjlkVTRaV2RBdzViSzFaXzdKTTZNY1VDWkNfeU81TUhOdHdSNG8weU5LQkluTE0yWXdWNXFXUUVfSzE3YWRfc29ydV9RWmZyUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "埼玉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "埼玉新聞"
-    },
-    {
-      "articleId": "gnews_a70499cf846e95f1",
-      "headline": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 - 埼玉新聞",
-      "headlineTranslated": "Infected with measles...A man in his 20s visited a 7-Eleven store before he was found to be positive.He visited two stores on the 18th, 20th, and 21st.Fever followed by a rash.``Infections are common in the Tokyo metropolitan area.'' - Saitama Shimbun",
-      "headlineJa": "はしかに感染…20代男性が陽性判明前、セブンイレブンに来店 18、20、21日にかけて2店舗に訪れた 発熱後に発疹の症状「首都圏で感染多い」 - 埼玉新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-24T00:08:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ETDRDOENqTFExaUFiRTczX0RKbWM1cGlDZ1FNcmZjbmZ0dV9GZEpMMHlEZlBaTEREQ3loWFNRVGFEM1paWVQtZXJOWGtOYVdLZDBUNmVYUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "埼玉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "埼玉新聞"
-    },
-    {
-      "articleId": "gnews_b13d1bfea366b61a",
-      "headline": "千葉県　猫のSFTS感染を初確認 - ｄメニューニュース",
-      "headlineTranslated": "Chiba Prefecture: First confirmed SFTS infection in cat - dmenu News",
-      "headlineJa": "千葉県　猫のSFTS感染を初確認 - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-04-23T22:57:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OUG0zaGl1eThsdERMNXJfaklJc2JRNWk1YW1xWk5uZTRyQlFVTlVXcVc2VUNVcUhsMVNqb0V2emQ3TFRZOWFqSnlCMTN1OXNtb2RzQk5fZmN0Y3o4UXEwcDZJcGNpOXVFd3N5SUp4RldVV3fSAXhBVV95cUxNYUFqQVJnWVdjSXBTYWQwdVFRYWNla0ctcHM5YVdPaHB1UG5xOG1XWHB2UFZ5NmxiTHFYRzE0bHB6TkgydGJxazQwM2tvRkxvdEpOZnhVeWQ2MENkNHFpckwtd1QyTkZLV1Y4T3NSR3hOVll0cFJpdEc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "SFTS"
-      ],
-      "locations": [],
-      "states": [
-        "千葉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
     }
   ]
 }
