@@ -9,15 +9,16 @@
 <script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
 <style>
   :root {
-    --bg: #052e16;
-    --card: #14532d;
-    --border: #166534;
-    --text: #f0fdf4;
-    --text-dim: #86efac;
-    --accent: #facc15;
-    --danger: #f87171;
-    --warning: #fb923c;
-    --success: #4ade80;
+    --bg: #fdfdf5;
+    --card: #ffffff;
+    --border: #e5e7eb;
+    --text: #1f2937;
+    --text-dim: #6b7280;
+    --accent: #FECB00;
+    --accent-text: #b45309;
+    --danger: #EA2839;
+    --warning: #f97316;
+    --success: #34B233;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -27,9 +28,10 @@
     min-height: 100vh;
   }
   .header {
-    background: linear-gradient(135deg, #14532d 0%, #052e16 100%);
-    border-bottom: 1px solid var(--border);
-    padding: 1.5rem 2rem;
+    background:
+      linear-gradient(to right, #FECB00 0 33.33%, #34B233 33.33% 66.66%, #EA2839 66.66% 100%) bottom / 100% 4px no-repeat,
+      #ffffff;
+    padding: 1.5rem 2rem 1.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,14 +59,14 @@
     cursor: pointer;
     transition: background 0.2s, color 0.2s;
   }
-  .lang-btn.active { background: var(--accent); color: #052e16; }
-  .lang-btn:not(.active):hover { background: var(--border); color: var(--text); }
+  .lang-btn.active { background: var(--accent); color: #1f2937; }
+  .lang-btn:not(.active):hover { background: #f3f4f6; color: var(--text); }
 
   .don-section { padding: 1rem 2rem 0; }
   .don-header { font-size: 0.85rem; font-weight: 600; color: var(--text); padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); margin-bottom: 0.75rem; }
   .don-list { list-style: none; padding: 0; margin: 0; }
   .don-list li { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 0.75rem 1rem; margin-bottom: 0.5rem; }
-  .don-list li a { color: var(--accent); text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+  .don-list li a { color: var(--accent-text); text-decoration: none; font-size: 0.85rem; font-weight: 600; }
   .don-list li a:hover { text-decoration: underline; }
   .don-list .don-meta { font-size: 0.75rem; color: var(--text-dim); margin-top: 0.15rem; }
   .don-list .don-summary { font-size: 0.8rem; color: var(--text); margin-top: 0.3rem; line-height: 1.5; }
@@ -81,10 +83,11 @@
     border: 1px solid var(--border);
     border-radius: 0.75rem;
     padding: 1.25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
   }
   .stat-card .label { color: var(--text-dim); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
   .stat-card .value { font-size: 2rem; font-weight: 700; margin-top: 0.25rem; }
-  .stat-card .value.accent { color: var(--accent); }
+  .stat-card .value.accent { color: var(--accent-text); }
   .stat-card .value.danger { color: var(--danger); }
   .stat-card .value.warning { color: var(--warning); }
   .stat-card .value.success { color: var(--success); }
@@ -100,6 +103,7 @@
   .panel {
     background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem;
     overflow: hidden; display: flex; flex-direction: column; min-width: 280px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
   }
   .panel-header {
     padding: 1rem 1.25rem; border-bottom: 1px solid var(--border);
@@ -108,8 +112,8 @@
   }
   .panel-body { padding: 1.25rem; overflow-y: auto; flex: 1; }
   .map-container .panel-body { padding: 0; }
-  #map { height: 100%; width: 100%; min-height: 400px; background: #052e16; }
-  .leaflet-container { background: #052e16 !important; }
+  #map { height: 100%; width: 100%; min-height: 400px; background: #f3f4f6; }
+  .leaflet-container { background: #f3f4f6 !important; }
 
   .splitter {
     width: 8px; cursor: col-resize; background: transparent; flex-shrink: 0;
@@ -125,23 +129,23 @@
 
   .legend-bar { display: flex; gap: 1rem; padding: 0.5rem 1.25rem; font-size: 0.75rem; color: var(--text-dim); flex-wrap: wrap; }
   .legend-item { display: flex; align-items: center; gap: 0.3rem; }
-  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
+  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--border); }
 
   .disease-tag {
     display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px;
     font-size: 0.7rem; font-weight: 600; margin: 0.15rem;
   }
-  .disease-tag.dengue { background: #92400e; color: #fbbf24; }
-  .disease-tag.covid { background: #7f1d1d; color: #fca5a5; }
-  .disease-tag.influenza { background: #1e3a5f; color: #7dd3fc; }
-  .disease-tag.malaria { background: #14532d; color: #86efac; }
-  .disease-tag.tb { background: #713f12; color: #fde68a; }
-  .disease-tag.default { background: #334155; color: #cbd5e1; }
+  .disease-tag.dengue { background: #fed7aa; color: #9a3412; }
+  .disease-tag.covid { background: #fecaca; color: #991b1b; }
+  .disease-tag.influenza { background: #bfdbfe; color: #1e3a8a; }
+  .disease-tag.malaria { background: #bbf7d0; color: #14532d; }
+  .disease-tag.tb { background: #fef08a; color: #713f12; }
+  .disease-tag.default { background: #e5e7eb; color: #374151; }
 
   .article-list { list-style: none; }
   .article-item { padding: 0.75rem 0; border-bottom: 1px solid var(--border); }
   .article-item:last-child { border-bottom: none; }
-  .article-item a { color: var(--accent); text-decoration: none; font-size: 0.85rem; line-height: 1.4; display: block; }
+  .article-item a { color: var(--accent-text); text-decoration: none; font-size: 0.85rem; line-height: 1.4; display: block; }
   .article-item a:hover { text-decoration: underline; }
   .article-meta {
     display: flex; gap: 0.75rem; margin-top: 0.3rem;
@@ -158,19 +162,19 @@
   .filter-bar label { font-size: 0.8rem; color: var(--text-dim); }
   .no-data { text-align: center; padding: 3rem; color: var(--text-dim); }
 
-  .leaflet-popup-content-wrapper { background: #14532d !important; color: #f0fdf4 !important; border: 1px solid #166534 !important; border-radius: 0.5rem !important; }
-  .leaflet-popup-tip { background: #14532d !important; }
+  .leaflet-popup-content-wrapper { background: #ffffff !important; color: #1f2937 !important; border: 1px solid #e5e7eb !important; border-radius: 0.5rem !important; }
+  .leaflet-popup-tip { background: #ffffff !important; }
   .leaflet-popup-content { margin: 0.75rem 1rem !important; font-size: 0.85rem; }
-  .leaflet-popup-content strong { color: #facc15; }
+  .leaflet-popup-content strong { color: #b45309; }
   .info-box {
-    padding: 8px 12px; background: rgba(5, 46, 22, 0.92); border: 1px solid #166534;
-    border-radius: 6px; color: #f0fdf4; font-size: 13px; line-height: 1.5;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    padding: 8px 12px; background: rgba(255, 255, 255, 0.95); border: 1px solid #e5e7eb;
+    border-radius: 6px; color: #1f2937; font-size: 13px; line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
-  .info-box h4 { margin: 0 0 4px; color: #facc15; font-size: 14px; }
-  .extlink-btn { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s; cursor: pointer; }
-  .extlink-btn:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(26,107,26,0.15); }
-  .extlink-btn-title { font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+  .info-box h4 { margin: 0 0 4px; color: #b45309; font-size: 14px; }
+  .extlink-btn { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1rem 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.04); text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s; cursor: pointer; }
+  .extlink-btn:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(180,83,9,0.15); }
+  .extlink-btn-title { font-size: 0.85rem; font-weight: 600; color: var(--accent-text); }
   .extlink-btn-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 0.3rem; line-height: 1.5; }
 </style>
 </head>
@@ -178,7 +182,7 @@
 
 <div class="header">
   <div class="header-left">
-    <a href="../index.html" style="color:rgba(255,255,255,0.8);text-decoration:none;font-size:13px;">&larr; Top</a>
+    <a href="../index.html" style="color:#6b7280;text-decoration:none;font-size:13px;">&larr; Top</a>
     <h1 data-i18n="title"></h1>
     <div class="lang-toggle">
       <button class="lang-btn" data-lang="my">MY</button>
@@ -428,7 +432,7 @@ function canonicalStateName(name) {
 // ============================================================
 // Heat colors & helpers
 // ============================================================
-const HEAT = ["#14532d", "#22c55e", "#facc15", "#f97316", "#ef4444"];
+const HEAT = ["#e5e7eb", "#86efac", "#FECB00", "#f97316", "#EA2839"];
 function heatColor(count, max) {
   if (count === 0) return HEAT[0];
   const r = count / max;
@@ -489,7 +493,7 @@ async function init() {
 
 function initMap() {
   map = L.map("map", { zoomControl: true, attributionControl: false, minZoom: 4, maxZoom: 9 }).setView([19.5, 96.5], 5);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", { subdomains: "abcd", opacity: 0.4 }).addTo(map);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", { subdomains: "abcd", opacity: 0.7 }).addTo(map);
 
   infoControl = L.control({ position: "topright" });
   infoControl.onAdd = function () { this._div = L.DomUtil.create("div", "info-box"); this.update(); return this._div; };
@@ -517,13 +521,13 @@ function renderMap() {
     style: function (feature) {
       const name = canonicalStateName(getFeatureName(feature));
       const count = stateCounts[name] || 0;
-      return { fillColor: heatColor(count, maxCount), weight: 1, color: "#166534", fillOpacity: 0.85 };
+      return { fillColor: heatColor(count, maxCount), weight: 1, color: "#9ca3af", fillOpacity: 0.85 };
     },
     onEachFeature: function (feature, layer) {
       const name = canonicalStateName(getFeatureName(feature));
       const count = stateCounts[name] || 0;
       layer.on({
-        mouseover: function (e) { e.target.setStyle({ weight: 2, color: "#facc15" }); e.target.bringToFront(); infoControl.update(feature.properties, count); },
+        mouseover: function (e) { e.target.setStyle({ weight: 2.5, color: "#EA2839" }); e.target.bringToFront(); infoControl.update(feature.properties, count); },
         mouseout: function (e) { geoLayer.resetStyle(e.target); infoControl.update(); },
         click: function () {
           const sel = document.getElementById("filter-state");
