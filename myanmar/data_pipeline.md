@@ -46,7 +46,7 @@
 | ④ | **WHO Disease Outbreak News** | 公式アウトブレイク報告 | EN | 稼働中（全国共通） | `who_don.json` | — |
 | ⑤ | **WHO SEARO Epidemiological Bulletin** | 隔週疫学速報 (PDF) | EN | **2026-05-01 追加 (frontend 実装済、jgrid-fetch 投入待ち)** | `who_searo_epi.json` | — |
 | ⑥ | **Eleven Myanmar (Eleven Media Group)** | 民間紙（Drupal サイト） | EN | **2026-05-02 追加 (frontend 実装済、jgrid-fetch 投入待ち)** | `myanmar_eleven.json` | `"Eleven Myanmar"` |
-| ⑦ | **RFA / BBC Burmese (国際放送)** | 国際放送局のビルマ語サービス RSS | MY | **jgrid-fetch 稼働中・2026-05-02 frontend 統合**（直近 0 件続きで未表示） | `myanmar_intl_burmese.json` | `"RFA Burmese"` / `"BBC Burmese"` |
+| ⑦ | **RFA / BBC / VOA / Mizzima Burmese** | ビルマ語ニュース媒体 4 種の RSS | MY | **2026-05-02 拡張（VOA + Mizzima 追加）／RFA / BBC は 2026-05-01 から稼働**（直近 0 件続きで未表示） | `myanmar_intl_burmese.json` | `"RFA Burmese"` / `"BBC Burmese"` / `"VOA Burmese"` / `"Mizzima Burmese"` |
 | ⑧ | CDC Travelers' Health (Myanmar/Burma) | 外部リンクのみ | EN | リンクのみ | — | — |
 | ⑨ | 外務省 感染症危険情報 | 外部リンクのみ | JA | リンクのみ | — | — |
 
@@ -131,21 +131,27 @@
 
 > **注**: SEARO Epi Bulletin は SEAR 全域 11 か国の疾患状況を集約した PDF で、Myanmar 個別記事ではない。Myanmar ダッシュボードでは WHO DON と並ぶ「公式レポート」枠として上部に独立表示し、**最新 3 号についてはミャンマー関連記述のみを抜き出してカード形式で表示**する設計。
 
-### ⑦ RFA / BBC Burmese（国際放送ビルマ語サービス）
+### ⑦ RFA / BBC / VOA / Mizzima Burmese（ビルマ語 4 媒体）
 
-- ファイル: `jgrid-fetch/myanmar/fetch_intl_burmese.py`（既存、2026-05-01 投入）
+- ファイル: `jgrid-fetch/myanmar/fetch_intl_burmese.py`（2026-05-01 RFA/BBC、2026-05-02 VOA/Mizzima 追加）
 - 取得元 RSS:
-  - RFA Burmese: `https://www.rfa.org/burmese/rss2.xml`
-  - BBC Burmese: `https://feeds.bbci.co.uk/burmese/rss.xml`
-  - VOA Burmese は USAGM 予算削減（2025-03）影響で実質停止 → 対象外
-- 取得期間: 過去 **72 時間**（`fetch_intl_burmese(hours=72)` 固定値）
+  - RFA Burmese:    `https://www.rfa.org/burmese/rss2.xml`
+  - BBC Burmese:    `https://feeds.bbci.co.uk/burmese/rss.xml`
+  - VOA Burmese:    `https://burmese.voanews.com/api/zb_u_l-vomx-tpeqrjy`（USAGM 予算削減で 2025-03 以降停止中だがサービス再開時に自動復旧する設計）
+  - Mizzima Burmese: `https://bur.mizzima.com/feed`
+- 取得期間: 過去 **168 時間（7日）**（`INTL_BURMESE_LOOKBACK_HOURS` で env 上書き可）
 - フィルタ:
   - 疾患キーワード（英語＋ビルマ語）または汎用健康語（`outbreak` / `vaccination` / `ကူးစက်ရောဂါ` 等）にマッチ
   - 単語境界マッチ（英数）／ビルマ文字は部分一致（`_word_match()`）
 - 翻訳: `deep_translator` で MY→EN → MY→JA（ビルマ文字検出時）／ EN→JA
-- 出力: `dataSource: "RFA Burmese"` または `"BBC Burmese"`、`originalLanguage: "BURMESE"`
-- `articleId` プレフィックス: `rfa_<sha256[:16]>` / `bbc_<sha256[:16]>`
-- **観察される挙動**: 政治・軍事報道中心の媒体のため、72時間ウィンドウでは感染症記事が 0 件で終わる週が多い。ローカル実行では RFA 30件 / BBC 34件取得 → 全件「古い記事」or「非健康記事」フィルタで除外、というパターンが続いている。**`fetch_intl_burmese(hours=...)` の引数を 72 → 168 (7日) や 336 (14日) に伸ばすと採用率が上がる可能性あり**。
+- 出力: `dataSource: "RFA Burmese"` / `"BBC Burmese"` / `"VOA Burmese"` / `"Mizzima Burmese"`、`originalLanguage: "BURMESE"`
+- `articleId` プレフィックス: `rfa_` / `bbc_` / `voa_` / `mizzima_` ＋ `<sha256[:16]>`
+- **観察される挙動**（2026-05-02 ローカル実行、168h ウィンドウ）:
+  - RFA: 30件取得 → 4 件期限切れ / 26 件健康ノイズ / 0 件採用
+  - BBC: 34件取得 → 16 件期限切れ / 18 件健康ノイズ / 0 件採用
+  - VOA: 20件取得 → 全件期限切れ（最終更新 2025-03-15）
+  - Mizzima: 10件取得 → 0 件期限切れ / 10 件健康ノイズ / 0 件採用
+  - いずれも政治・軍事報道中心で、感染症記事は 1 週間に 0〜1 件。Mizzima は更新頻度が高いので長期的には拾える見込み
 
 ### ⑥ Eleven Myanmar（2026-05-02 追加）
 - ファイル: `jgrid-fetch/myanmar/fetch_eleven_myanmar.py`（本リポジトリ `myanmar/scripts/fetch_eleven_myanmar.py` に staging）
@@ -203,7 +209,7 @@ schedule:
 | **WHO Myanmar 記事の表示** | `data/myanmar_who.json` | ✅ **2026-05-01 実装** |
 | **Eleven Myanmar 記事の表示** | `data/myanmar_eleven.json` | ✅ **2026-05-02 実装** |
 | **RFA / BBC Burmese 記事の表示** | `data/myanmar_intl_burmese.json` | ✅ **2026-05-02 実装**（fetcher 自体は 2026-05-01 から稼働） |
-| データソースバッジ（記事カード） | 各記事の `dataSource` フィールド | ✅ Google News（青）/ GNLM（黄）/ WHO（シアン）/ Eleven（ピンク）/ RFA（緑）/ BBC（赤） |
+| データソースバッジ（記事カード） | 各記事の `dataSource` フィールド | ✅ Google News（青）/ GNLM（黄）/ WHO（シアン）/ Eleven（ピンク）/ RFA（緑）/ BBC（赤）/ VOA（水色）/ Mizzima（橙） |
 | データソースフィルタ | `dataSource` 値で絞り込み | ✅ |
 | 記事サマリ表示 | `summary` / `summaryJa`（GNLM・WHO のみ提供） | ✅ 3行 line-clamp |
 | CDC / 外務省 ボタン | ハードコード URL | ✅ |
@@ -268,6 +274,8 @@ GNLM 連携の **狙い**（と推測）:
 - Eleven Myanmar (Eleven Media Group): https://elevenmyanmar.com/
 - RFA Burmese RSS: https://www.rfa.org/burmese/rss2.xml
 - BBC Burmese RSS: https://feeds.bbci.co.uk/burmese/rss.xml
+- VOA Burmese RSS: https://burmese.voanews.com/api/zb_u_l-vomx-tpeqrjy
+- Mizzima Burmese RSS: https://bur.mizzima.com/feed
 - WHO SEARO Epi Bulletin 一覧: https://www.who.int/southeastasia/outbreaks-and-emergencies/surveillance-and-alert/sear-epi-bulletins
 - WHO DON: https://www.who.int/emergencies/disease-outbreak-news
 - CDC Travelers' Health (Myanmar/Burma): https://wwwnc.cdc.gov/travel/destinations/traveler/none/burma

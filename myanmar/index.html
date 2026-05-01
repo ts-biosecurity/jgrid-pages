@@ -167,6 +167,8 @@
   .source-badge.eleven { background: #fce7f3; color: #9d174d; border: 1px solid #f9a8d4; }
   .source-badge.rfa { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
   .source-badge.bbc { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+  .source-badge.voa { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+  .source-badge.mizzima { background: #fed7aa; color: #9a3412; border: 1px solid #fdba74; }
   .source-badge.default { background: #e5e7eb; color: #374151; }
 
   .searo-epi-section { padding: 0 2rem; }
@@ -771,6 +773,8 @@ function getSourceClass(name) {
   if (n.startsWith("eleven")) return "eleven";
   if (n.startsWith("rfa")) return "rfa";
   if (n.startsWith("bbc")) return "bbc";
+  if (n.startsWith("voa")) return "voa";
+  if (n.startsWith("mizzima")) return "mizzima";
   return "default";
 }
 
