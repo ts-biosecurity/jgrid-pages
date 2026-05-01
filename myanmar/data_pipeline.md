@@ -117,9 +117,17 @@
   - 説明: `.sf-publications-item__description`
 - 取得件数: 最新 24 号（`WHO_SEARO_EPI_MAX` で調整可）。隔週刊行のため約 1 年分
 - 翻訳: 直近 6 号のみ EN→JA 翻訳（タイトル + 説明）、それ以前は英語表示のまま
+- **PDF からの Myanmar 記述抜粋（2026-05-01 追加）**:
+  - 最新 `EXCERPT_TOP_N`（既定 3）号の PDF を `iris.who.int` からダウンロード
+  - `pdfminer.six` でテキスト抽出 → ページごとに `Influenza` / `COVID-19` / `mpox` / `Dengue` などのトップレベルセクションを検出
+  - `•` トップレベル箇条書き / `Notes:` / `Figure N.` 単位で論理ブロックに分割
+  - "Myanmar" を含むブロック内の **文単位** で抽出（同言及の重複は先頭 80 文字のキーで除外）
+  - 引用文献番号（`Myanmar13` 等）の除去、リファレンスリスト行・URL 単独行の除外
+  - `deep_translator` で各 excerpt を EN→JA 翻訳
+  - 出力: 各 bulletin の `myanmarExcerpts[]`（`section` / `page` / `text` / `textJa`）
 - 出力: `bulletins[]` 配列、`dataSource` フィールドは持たず（記事リストには統合せず別セクション表示）
 
-> **注**: SEARO Epi Bulletin は SEAR 全域 11 か国の疾患状況を集約した PDF で、Myanmar 個別記事ではない。Myanmar ダッシュボードでは WHO DON と並ぶ「公式レポート」枠として上部に独立表示する設計。
+> **注**: SEARO Epi Bulletin は SEAR 全域 11 か国の疾患状況を集約した PDF で、Myanmar 個別記事ではない。Myanmar ダッシュボードでは WHO DON と並ぶ「公式レポート」枠として上部に独立表示し、**最新 3 号についてはミャンマー関連記述のみを抜き出してカード形式で表示**する設計。
 
 ---
 

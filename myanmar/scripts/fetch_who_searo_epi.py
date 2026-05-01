@@ -25,12 +25,23 @@ Output schema (consumed by index.html ``renderSearoEpi``)::
                 "pageUrl": str,         # /southeastasia/publications/i/item/<id>
                 "pdfUrl": str | None,   # iris.who.int/.../content
                 "description": str,     # marketing blurb
-                "descriptionJa": str
+                "descriptionJa": str,
+                # Top-3 issues only: Myanmar-specific excerpts pulled from the PDF
+                "myanmarExcerpts": [
+                    {
+                        "section": "Influenza",          # nearest top-level section
+                        "page": 8,                       # page number in the PDF
+                        "text": "...",                   # English excerpt
+                        "textJa": "..."                  # Japanese translation
+                    }, ...
+                ]
             }, ...
         ]
     }
 
 The bulletin is biweekly so we keep the latest 24 issues by default (~1 year).
+Myanmar excerpts are extracted from the latest ``EXCERPT_TOP_N`` (default 3)
+PDFs only, to bound run-time and download volume.
 """
 from __future__ import annotations
 
@@ -51,6 +62,11 @@ try:
 except ImportError:
     GoogleTranslator = None  # type: ignore[assignment]
 
+try:
+    from pdfminer.high_level import extract_text as pdf_extract_text  # type: ignore[import]
+except ImportError:
+    pdf_extract_text = None  # type: ignore[assignment]
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("fetch_who_searo_epi")
 
@@ -64,6 +80,7 @@ USER_AGENT = (
 )
 REQUEST_TIMEOUT = 30
 MAX_BULLETINS = int(os.environ.get("WHO_SEARO_EPI_MAX", "24"))
+EXCERPT_TOP_N = int(os.environ.get("WHO_SEARO_EPI_EXCERPT_TOP_N", "3"))
 
 DATE_FORMATS = ("%d %B %Y", "%d %b %Y")
 
@@ -120,6 +137,131 @@ def _fetch_page(url: str) -> str | None:
     except Exception as exc:
         log.warning("Failed to fetch %s: %s", url, exc)
         return None
+
+
+def _fetch_pdf(url: str) -> bytes | None:
+    try:
+        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT * 2)
+        r.raise_for_status()
+        return r.content
+    except Exception as exc:
+        log.warning("Failed to download PDF %s: %s", url, exc)
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Myanmar excerpt extraction from bulletin PDFs
+# ---------------------------------------------------------------------------
+
+_SECTION_RE = re.compile(
+    r"^(Key events and updates|Influenza|COVID-19|mpox|Dengue|Measles|Cholera|"
+    r"Diphtheria|Chikungunya|Zika|Avian Influenza|Tuberculosis|Malaria|"
+    r"Japanese Encephalitis|Leptospirosis|Acute Respiratory|Acute Diarrhea)\b",
+    re.IGNORECASE,
+)
+_CITATION_RE = re.compile(r"(?<=[A-Za-z])(\d{1,2})(?=[\s,\.\)\]])")
+_BULLET_PREFIX_RE = re.compile(r"^[o•·∙•]\s+")
+_REF_LINE_RE = re.compile(
+    r"^\d+\s+(Ministry|World Health|Available|Republic|Government|MoH|WHO)",
+    re.IGNORECASE,
+)
+_UNIT_SPLIT_RE = re.compile(r"(?m)(?=^\s*(?:•|Notes:|Figure \d+\.))")
+
+
+def _normalize_unit(s: str) -> str:
+    s = re.sub(r"-\n", "", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    s = _CITATION_RE.sub("", s)
+    s = _BULLET_PREFIX_RE.sub("", s)
+    return s
+
+
+def _detect_section(page_text: str) -> str | None:
+    for line in page_text.split("\n")[:8]:
+        s = line.strip()
+        if not s or len(s) >= 80:
+            continue
+        m = _SECTION_RE.match(s)
+        if m:
+            return m.group(1)
+    return None
+
+
+def extract_myanmar_excerpts(pdf_bytes: bytes) -> list[dict]:
+    """Return a list of Myanmar-specific excerpts from a SEARO Epi PDF."""
+    if pdf_extract_text is None:
+        log.warning("pdfminer.six is not installed; skipping excerpt extraction")
+        return []
+    from io import BytesIO
+    try:
+        text = pdf_extract_text(BytesIO(pdf_bytes))
+    except Exception as exc:
+        log.warning("PDF text extraction failed: %s", exc)
+        return []
+
+    pages = text.split("\f")
+    current_section: str | None = None
+    out: list[dict] = []
+    seen: set[str] = set()
+
+    for page_num, page_text in enumerate(pages, start=1):
+        detected = _detect_section(page_text)
+        if detected:
+            current_section = detected
+
+        flat = re.sub(r"-\n", "", page_text)
+        flat = re.sub(r"\n+", "\n", flat)
+        for unit in _UNIT_SPLIT_RE.split(flat):
+            u_clean = _normalize_unit(unit)
+            if "myanmar" not in u_clean.lower():
+                continue
+            if _REF_LINE_RE.match(u_clean):
+                continue
+
+            sentences = re.split(r"(?<=[.!?])\s+", u_clean)
+            kept: list[str] = []
+            for sent in sentences:
+                if "myanmar" not in sent.lower():
+                    continue
+                if re.match(r"^\d+\s+\w+", sent) and "http" in sent.lower():
+                    continue
+                sl = sent.lower().strip()
+                if sl.startswith("available from") or sl.startswith("https://") or sl.startswith("http://"):
+                    continue
+                kept.append(_BULLET_PREFIX_RE.sub("", sent.strip()))
+            if not kept:
+                continue
+
+            text_out = " ".join(kept)
+            text_out = re.sub(r"\s+", " ", text_out).strip(" •.,;")
+            if len(text_out) < 15:
+                continue
+            if not text_out.endswith((".", "!", "?")):
+                text_out += "."
+
+            key = text_out[:80].lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append({
+                "section": current_section or "Unknown",
+                "page": page_num,
+                "text": text_out,
+            })
+    return out
+
+
+def _translate_excerpts(excerpts: list[dict]) -> list[dict]:
+    if not excerpts or GoogleTranslator is None:
+        return excerpts
+    translator = GoogleTranslator(source="en", target="ja")
+    for ex in excerpts:
+        try:
+            ex["textJa"] = translator.translate(ex["text"]) or ""
+        except Exception as exc:
+            log.warning("Excerpt translation failed: %s", exc)
+            ex["textJa"] = ""
+    return excerpts
 
 
 def _extract_bulletins(html: str) -> list[dict]:
@@ -179,6 +321,22 @@ def main() -> int:
         b["titleJa"] = _translate(b["title"])
         if b.get("description"):
             b["descriptionJa"] = _translate(b["description"])
+
+    # Extract Myanmar-specific excerpts from the latest EXCERPT_TOP_N PDFs.
+    for b in items[:EXCERPT_TOP_N]:
+        pdf_url = b.get("pdfUrl")
+        if not pdf_url:
+            b["myanmarExcerpts"] = []
+            continue
+        log.info("Downloading PDF for Myanmar excerpts: %s", pdf_url)
+        pdf_bytes = _fetch_pdf(pdf_url)
+        if not pdf_bytes:
+            b["myanmarExcerpts"] = []
+            continue
+        excerpts = extract_myanmar_excerpts(pdf_bytes)
+        excerpts = _translate_excerpts(excerpts)
+        b["myanmarExcerpts"] = excerpts
+        log.info("  edition %s: %d Myanmar excerpts", b.get("edition"), len(excerpts))
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),

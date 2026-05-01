@@ -167,13 +167,23 @@
   .source-badge.default { background: #e5e7eb; color: #374151; }
 
   .searo-epi-section { padding: 0 2rem; }
-  .searo-epi-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.6rem; list-style: none; padding: 0; margin: 0; }
-  .searo-epi-list li { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 0.75rem 1rem; }
-  .searo-epi-list li a { color: #155e75; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
-  .searo-epi-list li a:hover { text-decoration: underline; }
-  .searo-epi-list .searo-epi-meta { font-size: 0.72rem; color: var(--text-dim); margin-top: 0.2rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
-  .searo-epi-list .searo-epi-pdf { background: #cffafe; color: #155e75; padding: 0.05rem 0.4rem; border-radius: 0.25rem; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
-  .searo-epi-list .searo-epi-summary { font-size: 0.75rem; color: var(--text); margin-top: 0.3rem; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .searo-epi-cards { display: flex; flex-direction: column; gap: 0.6rem; list-style: none; padding: 0; margin: 0; }
+  .searo-epi-card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 0.85rem 1rem; }
+  .searo-epi-card-head { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem 0.75rem; }
+  .searo-epi-card-head .edition { font-weight: 700; color: #155e75; font-size: 0.85rem; }
+  .searo-epi-card-head .date { font-size: 0.75rem; color: var(--text-dim); }
+  .searo-epi-card-head a { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.1rem 0.45rem; border-radius: 0.3rem; text-decoration: none; }
+  .searo-epi-card-head a.page { background: #e5e7eb; color: #374151; }
+  .searo-epi-card-head a.pdf { background: #cffafe; color: #155e75; border: 1px solid #67e8f0; }
+  .searo-epi-card-head a:hover { filter: brightness(0.95); }
+  .searo-epi-card .empty-note { font-size: 0.75rem; color: var(--text-dim); font-style: italic; margin-top: 0.4rem; }
+  .searo-epi-excerpt-list { list-style: none; padding: 0; margin: 0.5rem 0 0; display: flex; flex-direction: column; gap: 0.45rem; }
+  .searo-epi-excerpt { padding: 0.45rem 0.6rem; border-left: 3px solid #67e8f0; background: #f0fdff; border-radius: 0.25rem; }
+  .searo-epi-excerpt-meta { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.2rem; }
+  .searo-epi-excerpt-section { display: inline-block; background: #cffafe; color: #155e75; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.05rem 0.4rem; border-radius: 0.25rem; }
+  .searo-epi-excerpt-page { font-size: 0.7rem; color: var(--text-dim); }
+  .searo-epi-excerpt-text { font-size: 0.78rem; line-height: 1.5; color: var(--text); }
+  .searo-epi-excerpt-text-en { font-size: 0.75rem; line-height: 1.45; color: var(--text-dim); margin-top: 0.2rem; font-style: italic; }
 
   .filter-bar { padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; }
   .filter-bar select, .filter-bar input {
@@ -315,9 +325,13 @@ const I18N = {
     donLoading: "ဖတ်နေသည်...",
     donEmpty: "လွန်ခဲ့သော ၂ ပတ်အတွင်း ရောဂါဖြစ်ပွားမှု သတင်းမရှိပါ။",
     donError: "ဒေတာဖတ်ရန် မအောင်မြင်ပါ။",
-    searoEpiTitle: "WHO SEARO ကပ်ရောဂါသိပ္ပံ နှစ်ပတ်တစ်ကြိမ် ရာစုစာစောင်",
+    searoEpiTitle: "WHO SEARO ကပ်ရောဂါသိပ္ပံ နှစ်ပတ်တစ်ကြိမ် ရာစုစာစောင် — နောက်ဆုံး ၃ ဆောင်းပါး မြန်မာဆိုင်ရာ ထုတ်နုတ်ချက်များ",
     searoEpiEmpty: "လတ်တလော ထုတ်ပြန်မှုမရှိပါ။",
     searoEpiError: "ဒေတာဖတ်ရန် မအောင်မြင်ပါ။",
+    searoEpiNoMyanmar: "ဤထုတ်ဝေမှုတွင် မြန်မာနှင့်ပတ်သက်သော အချက်အလက်မရှိပါ။",
+    searoEpiPage: "စာမျက်နှာ",
+    searoEpiViewPage: "စာမျက်နှာ",
+    searoEpiViewPdf: "PDF",
     countryInfoTitle: "နိုင်ငံအခြေခံအချက်အလက်",
     cdcTravTitle: "CDC ခရီးသွားကျန်းမာရေး — မြန်မာ",
     cdcTravDesc: "မြန်မာနိုင်ငံသို့ ခရီးသွားများအတွက် ကျန်းမာရေးအချက်အလက်များ၊ အကြံပြုကာကွယ်ဆေးများနှင့် ကူးစက်ရောဂါအန္တရာယ်များ။",
@@ -355,9 +369,13 @@ const I18N = {
     donLoading: "Loading...",
     donEmpty: "No outbreak news in the last 2 weeks.",
     donError: "Failed to load data.",
-    searoEpiTitle: "WHO SEARO Epidemiological Bulletin (Biweekly)",
+    searoEpiTitle: "WHO SEARO Epidemiological Bulletin — Myanmar excerpts from the latest 3 issues",
     searoEpiEmpty: "No recent issues.",
     searoEpiError: "Failed to load data.",
+    searoEpiNoMyanmar: "No Myanmar-specific content in this issue.",
+    searoEpiPage: "p.",
+    searoEpiViewPage: "Page",
+    searoEpiViewPdf: "PDF",
     countryInfoTitle: "Country Basic Information",
     cdcTravTitle: "CDC Travelers' Health — Myanmar",
     cdcTravDesc: "Health information for travelers to Myanmar, including recommended vaccines and infectious disease risks.",
@@ -395,9 +413,13 @@ const I18N = {
     donLoading: "読み込み中...",
     donEmpty: "過去2週間のアウトブレイクニュースはありません。",
     donError: "データの読み込みに失敗しました。",
-    searoEpiTitle: "WHO SEARO 疫学速報（隔週）",
+    searoEpiTitle: "WHO SEARO 疫学速報（隔週） — 最新3報のミャンマー関連抜粋",
     searoEpiEmpty: "最近の発行はありません。",
     searoEpiError: "データの読み込みに失敗しました。",
+    searoEpiNoMyanmar: "この号にはミャンマーに関する記述はありません。",
+    searoEpiPage: "p.",
+    searoEpiViewPage: "ページ",
+    searoEpiViewPdf: "PDF",
     countryInfoTitle: "国別基本情報",
     cdcTravTitle: "CDC 渡航者向け健康情報 — ミャンマー",
     cdcTravDesc: "ミャンマー渡航者向けの健康情報（推奨ワクチン・感染症リスク）",
@@ -470,16 +492,51 @@ function renderSearoEpi() {
     el.innerHTML = '<span class="don-empty">' + t("searoEpiEmpty") + '</span>';
     return;
   }
-  const items = searoEpiData.slice(0, 6);
-  el.innerHTML = '<ul class="searo-epi-list">' + items.map(b => {
+  const items = searoEpiData.slice(0, 3);
+  const dateLocale = lang === "ja" ? "ja-JP" : lang === "my" ? "my-MM" : "en-US";
+
+  const renderExcerpt = (ex) => {
+    const en = ex.text || "";
+    const ja = ex.textJa || "";
+    const primary = lang === "ja" ? (ja || en) : en;
+    const secondary = lang === "ja" && ja && en && ja !== en ? en : "";
+    const secondaryHtml = secondary
+      ? '<div class="searo-epi-excerpt-text-en">' + escapeHtml(secondary) + '</div>'
+      : "";
+    const section = ex.section || "";
+    const pageStr = ex.page ? (t("searoEpiPage") + ex.page) : "";
+    return '<li class="searo-epi-excerpt">'
+      + '<div class="searo-epi-excerpt-meta">'
+      +   (section ? '<span class="searo-epi-excerpt-section">' + escapeHtml(section) + '</span>' : "")
+      +   (pageStr ? '<span class="searo-epi-excerpt-page">' + escapeHtml(pageStr) + '</span>' : "")
+      + '</div>'
+      + '<div class="searo-epi-excerpt-text">' + escapeHtml(primary) + '</div>'
+      + secondaryHtml
+      + '</li>';
+  };
+
+  el.innerHTML = '<ul class="searo-epi-cards">' + items.map(b => {
     const date = b.date ? new Date(b.date) : null;
-    const dateStr = date ? date.toLocaleDateString(lang === "ja" ? "ja-JP" : lang === "my" ? "my-MM" : "en-US", { year: "numeric", month: "short", day: "numeric" }) : "";
-    const link = b.pageUrl || b.pdfUrl || "#";
-    const title = lang === "ja" ? (b.titleJa || b.title || "") : (b.title || "");
-    const summary = lang === "ja" ? (b.descriptionJa || b.description || "") : (b.description || "");
-    const summaryHtml = summary ? '<div class="searo-epi-summary">' + escapeHtml(summary) + '</div>' : "";
-    const pdfBadge = b.pdfUrl ? '<a class="searo-epi-pdf" href="' + b.pdfUrl + '" target="_blank" rel="noopener">PDF</a>' : "";
-    return '<li><a href="' + link + '" target="_blank" rel="noopener">' + escapeHtml(title) + '</a><div class="searo-epi-meta"><span>' + dateStr + '</span>' + pdfBadge + '</div>' + summaryHtml + '</li>';
+    const dateStr = date ? date.toLocaleDateString(dateLocale, { year: "numeric", month: "short", day: "numeric" }) : "";
+    const editionLabel = b.edition ? ("Ed. " + b.edition + (b.year ? "/" + b.year : "")) : "";
+    const pageUrl = b.pageUrl || "";
+    const pdfUrl = b.pdfUrl || "";
+    const links = [
+      pageUrl ? '<a class="page" href="' + pageUrl + '" target="_blank" rel="noopener">' + t("searoEpiViewPage") + '</a>' : "",
+      pdfUrl  ? '<a class="pdf" href="'  + pdfUrl  + '" target="_blank" rel="noopener">' + t("searoEpiViewPdf")  + '</a>' : "",
+    ].filter(Boolean).join("");
+    const excerpts = Array.isArray(b.myanmarExcerpts) ? b.myanmarExcerpts : [];
+    const body = excerpts.length
+      ? '<ul class="searo-epi-excerpt-list">' + excerpts.map(renderExcerpt).join("") + '</ul>'
+      : '<div class="empty-note">' + t("searoEpiNoMyanmar") + '</div>';
+    return '<li class="searo-epi-card">'
+      + '<div class="searo-epi-card-head">'
+      +   (editionLabel ? '<span class="edition">' + escapeHtml(editionLabel) + '</span>' : "")
+      +   (dateStr ? '<span class="date">' + escapeHtml(dateStr) + '</span>' : "")
+      +   links
+      + '</div>'
+      + body
+      + '</li>';
   }).join('') + '</ul>';
 }
 fetchSearoEpi();
