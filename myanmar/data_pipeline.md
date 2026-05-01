@@ -45,8 +45,10 @@
 | ③ | **WHO Myanmar / SEARO ニュース** | WHO 公式国別＋地域 | EN | **2026-05-01 追加 (frontend 実装済、jgrid-fetch 投入待ち)** | `myanmar_who.json` | `"WHO Myanmar"` |
 | ④ | **WHO Disease Outbreak News** | 公式アウトブレイク報告 | EN | 稼働中（全国共通） | `who_don.json` | — |
 | ⑤ | **WHO SEARO Epidemiological Bulletin** | 隔週疫学速報 (PDF) | EN | **2026-05-01 追加 (frontend 実装済、jgrid-fetch 投入待ち)** | `who_searo_epi.json` | — |
-| ⑥ | CDC Travelers' Health (Myanmar/Burma) | 外部リンクのみ | EN | リンクのみ | — | — |
-| ⑦ | 外務省 感染症危険情報 | 外部リンクのみ | JA | リンクのみ | — | — |
+| ⑥ | **Eleven Myanmar (Eleven Media Group)** | 民間紙（Drupal サイト） | EN | **2026-05-02 追加 (frontend 実装済、jgrid-fetch 投入待ち)** | `myanmar_eleven.json` | `"Eleven Myanmar"` |
+| ⑦ | **RFA / BBC Burmese (国際放送)** | 国際放送局のビルマ語サービス RSS | MY | **jgrid-fetch 稼働中・2026-05-02 frontend 統合**（直近 0 件続きで未表示） | `myanmar_intl_burmese.json` | `"RFA Burmese"` / `"BBC Burmese"` |
+| ⑧ | CDC Travelers' Health (Myanmar/Burma) | 外部リンクのみ | EN | リンクのみ | — | — |
+| ⑨ | 外務省 感染症危険情報 | 外部リンクのみ | JA | リンクのみ | — | — |
 
 > ⚠️ **訂正**: 当初版の資料では BlueDot API も収集源として挙げたが、これは `jgrid-pages/README.md` の記載のみで、`jgrid-fetch` のコードには BlueDot 連携の実装が存在しない（`grep -ri bluedot` で 0 件）。実運用ではミャンマーは **Google News + GNLM + WHO DON** の 3 経路。
 
@@ -129,6 +131,40 @@
 
 > **注**: SEARO Epi Bulletin は SEAR 全域 11 か国の疾患状況を集約した PDF で、Myanmar 個別記事ではない。Myanmar ダッシュボードでは WHO DON と並ぶ「公式レポート」枠として上部に独立表示し、**最新 3 号についてはミャンマー関連記述のみを抜き出してカード形式で表示**する設計。
 
+### ⑦ RFA / BBC Burmese（国際放送ビルマ語サービス）
+
+- ファイル: `jgrid-fetch/myanmar/fetch_intl_burmese.py`（既存、2026-05-01 投入）
+- 取得元 RSS:
+  - RFA Burmese: `https://www.rfa.org/burmese/rss2.xml`
+  - BBC Burmese: `https://feeds.bbci.co.uk/burmese/rss.xml`
+  - VOA Burmese は USAGM 予算削減（2025-03）影響で実質停止 → 対象外
+- 取得期間: 過去 **72 時間**（`fetch_intl_burmese(hours=72)` 固定値）
+- フィルタ:
+  - 疾患キーワード（英語＋ビルマ語）または汎用健康語（`outbreak` / `vaccination` / `ကူးစက်ရောဂါ` 等）にマッチ
+  - 単語境界マッチ（英数）／ビルマ文字は部分一致（`_word_match()`）
+- 翻訳: `deep_translator` で MY→EN → MY→JA（ビルマ文字検出時）／ EN→JA
+- 出力: `dataSource: "RFA Burmese"` または `"BBC Burmese"`、`originalLanguage: "BURMESE"`
+- `articleId` プレフィックス: `rfa_<sha256[:16]>` / `bbc_<sha256[:16]>`
+- **観察される挙動**: 政治・軍事報道中心の媒体のため、72時間ウィンドウでは感染症記事が 0 件で終わる週が多い。ローカル実行では RFA 30件 / BBC 34件取得 → 全件「古い記事」or「非健康記事」フィルタで除外、というパターンが続いている。**`fetch_intl_burmese(hours=...)` の引数を 72 → 168 (7日) や 336 (14日) に伸ばすと採用率が上がる可能性あり**。
+
+### ⑥ Eleven Myanmar（2026-05-02 追加）
+- ファイル: `jgrid-fetch/myanmar/fetch_eleven_myanmar.py`（本リポジトリ `myanmar/scripts/fetch_eleven_myanmar.py` に staging）
+- 公式サイト: https://elevenmyanmar.com/ （Drupal ベース、英語版）
+- **取得経路**: サイト全体 RSS (`/rss.xml`) は最新でも 2022 年で実質停止しているため、Drupal 標準の **キーワード検索 `/search/node/<keyword>`** を使う
+  - 検索語 31 種（疾患名 + `outbreak` / `epidemic` / `vaccination` / `infectious` / `respiratory infection` / `acute diarrhoea`）
+  - 各検索の 1 ページ目（最大 10 件）から `div.search-result > div.search-title a` を抽出 → 詳細ページへ
+- 詳細ページから:
+  - タイトル: `div.news-detail-title`（og:title はサイト名 "Eleven Media Group Co., Ltd" を返すケースがあるためフォールバック扱い）
+  - 発行日時: `<span class="date-display-single" content="ISO8601">` の `content` 属性
+  - 先頭段落: `div.field-name-body div.field-item p` ＞ `div.news-detail-content p` ＞ `article p` のフォールバック
+- フィルタ:
+  - 過去 180 日（環境変数 `ELEVEN_LOOKBACK_DAYS` で調整可）
+  - GNLM/WHO Myanmar と同じ疾患語彙で再分類（検索結果は "outbreak" 等の汎用語で関係ない記事も拾うため）
+- 翻訳: `deep_translator` (Google Translate) で headline / summary を EN→JA
+- 出力: `dataSource: "Eleven Myanmar"`, `sourceName: "Eleven Myanmar"`
+- `articleId` プレフィックス: `eleven_<sha1[:16]>`
+- 実行時間目安: 約 200 秒（174 候補 URL × 詳細取得 + 翻訳）
+
 ---
 
 ## 4. 自動更新ワークフロー
@@ -162,10 +198,12 @@ schedule:
 |---|---|---|
 | WHO DON リスト（過去2週間） | `data/who_don.json` | ✅ 表示中 |
 | **SEARO Epi Bulletin リスト（最新6号）** | `data/who_searo_epi.json` | ✅ **2026-05-01 実装** (DON の下、左カラム) |
-| 統計バー / フィルタ / 州ヒートマップ / 記事リスト | `data/myanmar_infectious_diseases.json` + `data/myanmar_gnlm.json` + `data/myanmar_who.json` を `mergeSources(...sources)` でマージ | ✅ 表示中 |
+| 統計バー / フィルタ / 州ヒートマップ / 記事リスト | `data/myanmar_infectious_diseases.json` + `data/myanmar_gnlm.json` + `data/myanmar_who.json` + `data/myanmar_eleven.json` + `data/myanmar_intl_burmese.json` を `mergeSources(...sources)` でマージ | ✅ 表示中 |
 | GNLM 記事の表示 | `data/myanmar_gnlm.json` | ✅ **2026-05-01 実装** |
 | **WHO Myanmar 記事の表示** | `data/myanmar_who.json` | ✅ **2026-05-01 実装** |
-| データソースバッジ（記事カード） | 各記事の `dataSource` フィールド | ✅ Google News（青）/ GNLM（黄）/ WHO（シアン） |
+| **Eleven Myanmar 記事の表示** | `data/myanmar_eleven.json` | ✅ **2026-05-02 実装** |
+| **RFA / BBC Burmese 記事の表示** | `data/myanmar_intl_burmese.json` | ✅ **2026-05-02 実装**（fetcher 自体は 2026-05-01 から稼働） |
+| データソースバッジ（記事カード） | 各記事の `dataSource` フィールド | ✅ Google News（青）/ GNLM（黄）/ WHO（シアン）/ Eleven（ピンク）/ RFA（緑）/ BBC（赤） |
 | データソースフィルタ | `dataSource` 値で絞り込み | ✅ |
 | 記事サマリ表示 | `summary` / `summaryJa`（GNLM・WHO のみ提供） | ✅ 3行 line-clamp |
 | CDC / 外務省 ボタン | ハードコード URL | ✅ |
@@ -207,10 +245,13 @@ GNLM 連携の **狙い**（と推測）:
 | `jgrid-pages/myanmar/data/myanmar_infectious_diseases.json` | Google News 由来記事 | 自動（fetch.py） |
 | `jgrid-pages/myanmar/data/myanmar_gnlm.json` ★ | GNLM 由来記事（次回反映） | 自動（fetch_gnlm.py） |
 | `jgrid-pages/myanmar/data/myanmar_who.json` ★★ | WHO Myanmar/SEARO 由来記事（2026-05-01 追加） | 自動（fetch_who_myanmar.py） |
+| `jgrid-pages/myanmar/data/myanmar_eleven.json` ★★★ | Eleven Myanmar 由来記事（2026-05-02 追加） | 自動（fetch_eleven_myanmar.py） |
+| `jgrid-pages/myanmar/data/myanmar_intl_burmese.json` | RFA / BBC ビルマ語放送記事（2026-05-01 fetcher、2026-05-02 frontend 統合） | 自動（fetch_intl_burmese.py） |
 | `jgrid-pages/myanmar/data/who_don.json` | WHO DON（全国共通） | 自動（fetch_who_don.py） |
 | `jgrid-pages/myanmar/data/who_searo_epi.json` ★★ | SEARO Epi Bulletin（隔週、2026-05-01 追加） | 自動（fetch_who_searo_epi.py） |
 | `jgrid-pages/myanmar/scripts/fetch_who_myanmar.py` ★★ | **staging** — `jgrid-fetch/myanmar/` へ移動 | 手動 |
 | `jgrid-pages/myanmar/scripts/fetch_who_searo_epi.py` ★★ | **staging** — `jgrid-fetch/myanmar/` へ移動 | 手動 |
+| `jgrid-pages/myanmar/scripts/fetch_eleven_myanmar.py` ★★★ | **staging** — `jgrid-fetch/myanmar/` へ移動 | 手動 |
 | `jgrid-fetch/myanmar/fetch.py` | Google News 収集 ETL | 手動 |
 | `jgrid-fetch/myanmar/fetch_gnlm.py` ★ | GNLM 収集 ETL（2026-04-30 追加） | 手動 |
 | `jgrid-fetch/.github/workflows/myanmar.yml` | 日次ワークフロー（cron） | 手動 |
@@ -224,6 +265,9 @@ GNLM 連携の **狙い**（と推測）:
 - GNLM 公式: https://www.gnlm.com.mm/
 - WHO Myanmar 国別ページ: https://www.who.int/myanmar
 - WHO Myanmar ニュース: https://www.who.int/myanmar/news
+- Eleven Myanmar (Eleven Media Group): https://elevenmyanmar.com/
+- RFA Burmese RSS: https://www.rfa.org/burmese/rss2.xml
+- BBC Burmese RSS: https://feeds.bbci.co.uk/burmese/rss.xml
 - WHO SEARO Epi Bulletin 一覧: https://www.who.int/southeastasia/outbreaks-and-emergencies/surveillance-and-alert/sear-epi-bulletins
 - WHO DON: https://www.who.int/emergencies/disease-outbreak-news
 - CDC Travelers' Health (Myanmar/Burma): https://wwwnc.cdc.gov/travel/destinations/traveler/none/burma
@@ -258,6 +302,7 @@ b40ea90  fix(myanmar): Try multiple impersonation profiles for GNLM
 # jgrid-fetch リポジトリで
 cp ../jgrid-pages/myanmar/scripts/fetch_who_myanmar.py     myanmar/
 cp ../jgrid-pages/myanmar/scripts/fetch_who_searo_epi.py   myanmar/
+cp ../jgrid-pages/myanmar/scripts/fetch_eleven_myanmar.py  myanmar/
 ```
 
 依存追加 (requirements.txt):
@@ -275,6 +320,9 @@ cp ../jgrid-pages/myanmar/scripts/fetch_who_searo_epi.py   myanmar/
 
 - name: Fetch SEARO Epi Bulletin
   run: python myanmar/fetch_who_searo_epi.py jgrid-pages/myanmar/data/
+
+- name: Fetch Eleven Myanmar
+  run: python myanmar/fetch_eleven_myanmar.py jgrid-pages/myanmar/data/
 ```
 
 `pip install` ステップに `beautifulsoup4` を追加:
@@ -289,8 +337,9 @@ run: pip install feedparser python-dotenv deep-translator curl_cffi requests bea
 
 ```bash
 cd jgrid-pages/myanmar
-python3 scripts/fetch_who_searo_epi.py data/   # ~10秒、24件取得
-python3 scripts/fetch_who_myanmar.py   data/   # ~60秒、~10件取得
+python3 scripts/fetch_who_searo_epi.py    data/   # ~10秒、24件取得
+python3 scripts/fetch_who_myanmar.py      data/   # ~60秒、~10件取得
+python3 scripts/fetch_eleven_myanmar.py   data/   # ~200秒（174 候補 → 約8件、180日 lookback デフォルト）
 ```
 
 `data/who_searo_epi.json` と `data/myanmar_who.json` が生成され、ブラウザで `index.html` を開くと:

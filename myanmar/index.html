@@ -164,6 +164,9 @@
   .source-badge.gnews { background: #e0e7ff; color: #3730a3; }
   .source-badge.gnlm { background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; }
   .source-badge.who { background: #cffafe; color: #155e75; border: 1px solid #67e8f0; }
+  .source-badge.eleven { background: #fce7f3; color: #9d174d; border: 1px solid #f9a8d4; }
+  .source-badge.rfa { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+  .source-badge.bbc { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
   .source-badge.default { background: #e5e7eb; color: #374151; }
 
   .searo-epi-section { padding: 0 2rem; }
@@ -325,7 +328,7 @@ const I18N = {
     donLoading: "ဖတ်နေသည်...",
     donEmpty: "လွန်ခဲ့သော ၂ ပတ်အတွင်း ရောဂါဖြစ်ပွားမှု သတင်းမရှိပါ။",
     donError: "ဒေတာဖတ်ရန် မအောင်မြင်ပါ။",
-    searoEpiTitle: "WHO SEARO ကပ်ရောဂါသိပ္ပံ နှစ်ပတ်တစ်ကြိမ် ရာစုစာစောင် — နောက်ဆုံး ၃ ဆောင်းပါး မြန်မာဆိုင်ရာ ထုတ်နုတ်ချက်များ",
+    searoEpiTitle: "WHO SEARO ကပ်ရောဂါသိပ္ပံ နှစ်ပတ်တစ်ကြိမ် ရာစုစာစောင် — နောက်ဆုံး ထုတ်ဝေမှု မြန်မာဆိုင်ရာ ထုတ်နုတ်ချက်များ",
     searoEpiEmpty: "လတ်တလော ထုတ်ပြန်မှုမရှိပါ။",
     searoEpiError: "ဒေတာဖတ်ရန် မအောင်မြင်ပါ။",
     searoEpiNoMyanmar: "ဤထုတ်ဝေမှုတွင် မြန်မာနှင့်ပတ်သက်သော အချက်အလက်မရှိပါ။",
@@ -369,7 +372,7 @@ const I18N = {
     donLoading: "Loading...",
     donEmpty: "No outbreak news in the last 2 weeks.",
     donError: "Failed to load data.",
-    searoEpiTitle: "WHO SEARO Epidemiological Bulletin — Myanmar excerpts from the latest 3 issues",
+    searoEpiTitle: "WHO SEARO Epidemiological Bulletin — Myanmar excerpts from the latest issue",
     searoEpiEmpty: "No recent issues.",
     searoEpiError: "Failed to load data.",
     searoEpiNoMyanmar: "No Myanmar-specific content in this issue.",
@@ -413,7 +416,7 @@ const I18N = {
     donLoading: "読み込み中...",
     donEmpty: "過去2週間のアウトブレイクニュースはありません。",
     donError: "データの読み込みに失敗しました。",
-    searoEpiTitle: "WHO SEARO 疫学速報（隔週） — 最新3報のミャンマー関連抜粋",
+    searoEpiTitle: "WHO SEARO 疫学速報（隔週） — 最新報のミャンマー関連抜粋",
     searoEpiEmpty: "最近の発行はありません。",
     searoEpiError: "データの読み込みに失敗しました。",
     searoEpiNoMyanmar: "この号にはミャンマーに関する記述はありません。",
@@ -492,7 +495,7 @@ function renderSearoEpi() {
     el.innerHTML = '<span class="don-empty">' + t("searoEpiEmpty") + '</span>';
     return;
   }
-  const items = searoEpiData.slice(0, 3);
+  const items = searoEpiData.slice(0, 1);
   const dateLocale = lang === "ja" ? "ja-JP" : lang === "my" ? "my-MM" : "en-US";
 
   const renderExcerpt = (ex) => {
@@ -649,19 +652,21 @@ function mergeSources(...sources) {
 }
 
 async function init() {
-  const [topoResp, gnewsData, gnlmData, whoData] = await Promise.all([
+  const [topoResp, gnewsData, gnlmData, whoData, elevenData, intlBurmeseData] = await Promise.all([
     fetch("https://raw.githubusercontent.com/markmarkoh/datamaps/master/src/js/data/mmr.topo.json"),
     fetchJsonOrNull("data/myanmar_infectious_diseases.json"),
     fetchJsonOrNull("data/myanmar_gnlm.json"),
     fetchJsonOrNull("data/myanmar_who.json"),
+    fetchJsonOrNull("data/myanmar_eleven.json"),
+    fetchJsonOrNull("data/myanmar_intl_burmese.json"),
   ]);
 
   if (!topoResp.ok) { document.getElementById("map").textContent = "Error loading TopoJSON"; return; }
-  if (!gnewsData && !gnlmData && !whoData) { document.getElementById("map").textContent = "Error loading data"; return; }
+  if (!gnewsData && !gnlmData && !whoData && !elevenData && !intlBurmeseData) { document.getElementById("map").textContent = "Error loading data"; return; }
 
   const topoData = await topoResp.json();
   geoData = topojson.feature(topoData, topoData.objects.mmr);
-  DATA = mergeSources(gnewsData, gnlmData, whoData);
+  DATA = mergeSources(gnewsData, gnlmData, whoData, elevenData, intlBurmeseData);
 
   initMap();
   applyFilters();
@@ -763,6 +768,9 @@ function getSourceClass(name) {
   if (n === "gnlm") return "gnlm";
   if (n === "google news" || n.startsWith("gnews")) return "gnews";
   if (n.startsWith("who")) return "who";
+  if (n.startsWith("eleven")) return "eleven";
+  if (n.startsWith("rfa")) return "rfa";
+  if (n.startsWith("bbc")) return "bbc";
   return "default";
 }
 
