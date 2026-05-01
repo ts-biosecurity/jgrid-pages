@@ -300,7 +300,10 @@ def _extract_bulletins(html: str) -> list[dict]:
 
 
 def main() -> int:
-    out_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("data")
+    if len(sys.argv) > 1:
+        out_dir = Path(sys.argv[1])
+    else:
+        out_dir = Path(__file__).resolve().parent / "output"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "who_searo_epi.json"
 
