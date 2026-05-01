@@ -51,13 +51,13 @@ https://ts-biosecurity.github.io/jgrid-pages/
 
 | 国 | 共通 | 国別追加ソース | データファイル |
 |---|---|---|---|
-| Myanmar | Google News, WHO DON | **GNLM**（国営紙 Global New Light Of Myanmar の RSS）<br>**Eleven Myanmar**（民間紙 Eleven Media Group の Drupal サイト検索 `/search/node/<keyword>`）<br>**RFA / BBC / VOA / Mizzima Burmese**（ビルマ語ニュース 4 媒体の RSS、過去 168 時間ウィンドウ。VOA は USAGM 予算削減で 2025-03 以降停止中だがサービス再開時に自動復旧する設計）<br>**WHO Myanmar / SEARO ニュース**（who.int/myanmar 系を HTML スクレイプ）<br>**WHO SEARO Epidemiological Bulletin**（隔週 PDF 速報、最新1号は PDF からミャンマー個別記述をセクション/ページ単位で抽出し EN→JA 翻訳） | `myanmar_infectious_diseases.json`<br>`myanmar_gnlm.json`<br>`myanmar_eleven.json`<br>`myanmar_intl_burmese.json`<br>`myanmar_who.json`<br>`who_searo_epi.json`<br>`who_don.json` |
+| Myanmar | Google News, WHO DON | **GNLM**（国営紙 Global New Light Of Myanmar の RSS）<br>**Eleven Myanmar**（民間紙 Eleven Media Group の Drupal サイト検索 `/search/node/<keyword>`）<br>**Myanmar Now**（独立紙 myanmar-now.org の WP REST API 経由でキーワード検索）<br>**RFA / BBC / VOA / Mizzima Burmese**（ビルマ語ニュース 4 媒体の RSS、過去 168 時間ウィンドウ。VOA は USAGM 予算削減で 2025-03 以降停止中だがサービス再開時に自動復旧する設計）<br>**WHO Myanmar / SEARO ニュース**（who.int/myanmar 系を HTML スクレイプ）<br>**WHO SEARO Epidemiological Bulletin**（隔週 PDF 速報、最新1号は PDF からミャンマー個別記述をセクション/ページ単位で抽出し EN→JA 翻訳） | `myanmar_infectious_diseases.json`<br>`myanmar_gnlm.json`<br>`myanmar_eleven.json`<br>`myanmar_now.json`<br>`myanmar_intl_burmese.json`<br>`myanmar_who.json`<br>`who_searo_epi.json`<br>`who_don.json` |
 | Brazil | Google News, WHO DON | **InfoDengue**（FIOCRUZ のデング熱可視化サービスから地図画像と Pernambuco 州詳細を取得） | `brazil_infectious_diseases.json`<br>`pernambuco_news.json`<br>`infodengue_brazil_map.png`<br>`infodengue_pe_detail.png`<br>`who_don.json` |
 | Japan | — | **IDWR 感染症発生動向調査週報（疫学情報）**<br>**ARI（急性呼吸器感染症）サマリ** | `japan_infectious_diseases.json`<br>`japan_idwr_souran.json`<br>`japan_ari_summary.json` |
 | Vietnam | Google News, WHO DON | 省境界 GeoJSON（地図描画用） | `vietnam_infectious_diseases.json`<br>`vietnam_provinces.geojson`<br>`who_don.json` |
 | その他 | Google News, WHO DON | — | `<country>_infectious_diseases.json`<br>`who_don.json` |
 
-各記事には `dataSource` フィールド（例: `"Google News"`, `"GNLM"`, `"Eleven Myanmar"`, `"RFA Burmese"`, `"BBC Burmese"`, `"VOA Burmese"`, `"Mizzima Burmese"`, `"WHO Myanmar"`）が付与されており、フロントエンド側ではこの値でソースバッジを色分けしフィルタを提供する。
+各記事には `dataSource` フィールド（例: `"Google News"`, `"GNLM"`, `"Eleven Myanmar"`, `"Myanmar Now"`, `"RFA Burmese"`, `"BBC Burmese"`, `"VOA Burmese"`, `"Mizzima Burmese"`, `"WHO Myanmar"`）が付与されており、フロントエンド側ではこの値でソースバッジを色分けしフィルタを提供する。
 
 ## 更新の仕組み
 
@@ -89,7 +89,7 @@ https://ts-biosecurity.github.io/jgrid-pages/
 - ヒートマップ階調 `const HEAT = [...]`（5段階）
 - マップ州境界の `color`（GeoJSON style／mouseover）
 - 病名タグ `.disease-tag.*` の bg/color
-- データソースバッジ `.source-badge.*`（`gnews` / `gnlm` / `who` / `eleven` / `rfa` / `bbc` / `voa` / `mizzima` / `default`）の bg/color
+- データソースバッジ `.source-badge.*`（`gnews` / `gnlm` / `who` / `eleven` / `now` / `rfa` / `bbc` / `voa` / `mizzima` / `default`）の bg/color
 - Leafletポップアップ・info-box の bg/color
 
 を国旗等に合わせて差し替える。Myanmar ページがライトテーマ＋国旗3色のリファレンス実装。

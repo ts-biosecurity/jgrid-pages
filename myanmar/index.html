@@ -169,6 +169,7 @@
   .source-badge.bbc { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
   .source-badge.voa { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
   .source-badge.mizzima { background: #fed7aa; color: #9a3412; border: 1px solid #fdba74; }
+  .source-badge.now { background: #ede9fe; color: #5b21b6; border: 1px solid #c4b5fd; }
   .source-badge.default { background: #e5e7eb; color: #374151; }
 
   .searo-epi-section { padding: 0 2rem; }
@@ -654,21 +655,22 @@ function mergeSources(...sources) {
 }
 
 async function init() {
-  const [topoResp, gnewsData, gnlmData, whoData, elevenData, intlBurmeseData] = await Promise.all([
+  const [topoResp, gnewsData, gnlmData, whoData, elevenData, intlBurmeseData, myanmarNowData] = await Promise.all([
     fetch("https://raw.githubusercontent.com/markmarkoh/datamaps/master/src/js/data/mmr.topo.json"),
     fetchJsonOrNull("data/myanmar_infectious_diseases.json"),
     fetchJsonOrNull("data/myanmar_gnlm.json"),
     fetchJsonOrNull("data/myanmar_who.json"),
     fetchJsonOrNull("data/myanmar_eleven.json"),
     fetchJsonOrNull("data/myanmar_intl_burmese.json"),
+    fetchJsonOrNull("data/myanmar_now.json"),
   ]);
 
   if (!topoResp.ok) { document.getElementById("map").textContent = "Error loading TopoJSON"; return; }
-  if (!gnewsData && !gnlmData && !whoData && !elevenData && !intlBurmeseData) { document.getElementById("map").textContent = "Error loading data"; return; }
+  if (!gnewsData && !gnlmData && !whoData && !elevenData && !intlBurmeseData && !myanmarNowData) { document.getElementById("map").textContent = "Error loading data"; return; }
 
   const topoData = await topoResp.json();
   geoData = topojson.feature(topoData, topoData.objects.mmr);
-  DATA = mergeSources(gnewsData, gnlmData, whoData, elevenData, intlBurmeseData);
+  DATA = mergeSources(gnewsData, gnlmData, whoData, elevenData, intlBurmeseData, myanmarNowData);
 
   initMap();
   applyFilters();
@@ -775,6 +777,7 @@ function getSourceClass(name) {
   if (n.startsWith("bbc")) return "bbc";
   if (n.startsWith("voa")) return "voa";
   if (n.startsWith("mizzima")) return "mizzima";
+  if (n.startsWith("myanmar now")) return "now";
   return "default";
 }
 
