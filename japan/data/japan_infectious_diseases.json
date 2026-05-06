@@ -1,38 +1,860 @@
 {
-  "generated_at": "2026-05-05T22:16:58.091048+00:00",
+  "generated_at": "2026-05-06T22:11:59.886065+00:00",
   "date_range": {
-    "start": "2026-05-02T22:16:58.091048+00:00",
-    "end": "2026-05-05T22:16:58.091048+00:00"
+    "start": "2026-05-03T22:11:59.886065+00:00",
+    "end": "2026-05-06T22:11:59.886065+00:00"
   },
-  "total_articles": 73,
+  "total_articles": 89,
   "state_summary": {
-    "日本 (都道府県未特定)": 44,
-    "北海道": 1,
-    "沖縄県": 2,
-    "静岡県": 5,
+    "東京都": 6,
     "京都府": 3,
-    "新潟県": 1,
+    "福島県": 2,
+    "日本 (都道府県未特定)": 52,
+    "佐賀県": 2,
+    "新潟県": 2,
+    "静岡県": 13,
+    "広島県": 2,
+    "岡山県": 3,
+    "和歌山県": 1,
+    "沖縄県": 1,
     "宮城県": 1,
     "三重県": 1,
-    "福島県": 1,
-    "佐賀県": 1,
-    "広島県": 2,
-    "岡山県": 1,
+    "大阪府": 1,
     "岩手県": 1,
     "千葉県": 1,
-    "東京都": 6,
-    "埼玉県": 4,
-    "神奈川県": 2,
-    "長野県": 2
+    "埼玉県": 2
   },
   "disease_summary": {
-    "Tuberculosis": 3,
-    "感染症 (未特定)": 36,
-    "COVID-19": 7,
-    "Measles": 27,
-    "Norovirus": 1
+    "Measles": 14,
+    "感染症 (未特定)": 57,
+    "COVID-19": 12,
+    "Tuberculosis": 5,
+    "Norovirus": 1,
+    "Food Poisoning": 1,
+    "Influenza": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_2e0d4f29335b5e5d",
+      "headline": "はしか気を付けて GWの人流増踏まえ注意喚起 東京・豊島区 2026.5.7付 - 公明新聞電子版プラス",
+      "headlineTranslated": "Be careful of measles: Alert due to increase in number of people during Golden Week Toshima Ward, Tokyo, dated May 7, 2026 - Komei Shimbun Electronic Edition Plus",
+      "headlineJa": "はしか気を付けて GWの人流増踏まえ注意喚起 東京・豊島区 2026.5.7付 - 公明新聞電子版プラス",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T20:50:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50UUxVSDJZb3c4QkItRHlSbk41Z1oyYlpoVkhnQ3h4cThtOUhzaVl4YldVRzlhRVlVU3FvejB1aHZBUmx0QlgycEVOdDZGQks4RUxkN3Y3VzFBLWhoU0JjbUJZVjNVYjRyanlOM1h3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "公明新聞電子版プラス"
+    },
+    {
+      "articleId": "gnews_baad157d35182fcd",
+      "headline": "ヒトから感染の「アンデス型」 - 京都新聞デジタル",
+      "headlineTranslated": "\"Andes-type\" infection from humans - Kyoto Shimbun Digital",
+      "headlineJa": "ヒトから感染の「アンデス型」 - 京都新聞デジタル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T20:06:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fY0JsTVZ3SGxYRVZ2OHZvOWMxXzg4OWRUNG1YTFRzc2ZpWFZualVaTU00S001dG85bFktTlVSZFpYZjNDVzZ0Z2NyODdUR0x4OGJ2cHRCRlg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "京都府"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "京都新聞デジタル"
+    },
+    {
+      "articleId": "gnews_f4d2a6aa6753423e",
+      "headline": "ヒトから感染の「アンデス型」 - 福島民報デジタル",
+      "headlineTranslated": "\"Andes-type\" infection transmitted from humans - Fukushima Minpo Digital",
+      "headlineJa": "ヒトから感染の「アンデス型」 - 福島民報デジタル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T20:06:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQTzE4a0s5YkpLWFFfOWpQd01iTlI3SUN3bzQ4c0FVQ21RUlFJaXpaajUxMS1ndEhIaUxnSlN0RmNLYWl2bTZaalhISU9ZRU0?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "福島県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "福島民報デジタル"
+    },
+    {
+      "articleId": "gnews_170e553b8d9cc54b",
+      "headline": "【甘口辛口】「ハンタウイルス」の集団感染の報は日本に無縁ともいえないはず…散々苦しめられたコロナの教訓を忘れずに身を守るしかない - サンスポ",
+      "headlineTranslated": "[Sweet and Dry] Reports of mass infection of \"Hantavirus\" should not be unrelated to Japan... We have no choice but to protect ourselves without forgetting the lessons of the corona that has caused us so much suffering - Sun Sports",
+      "headlineJa": "【甘口辛口】「ハンタウイルス」の集団感染の報は日本に無縁ともいえないはず…散々苦しめられたコロナの教訓を忘れずに身を守るしかない - サンスポ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T20:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UWFdFcnU2dkR1T0NUT3BpU29na1k4bWZvVmstR2p4QjNZTmxzQnBnYXVYS1c2cWF6dTAtTlF0ZmV4Uzh5d0pHOUoxQ3BwM0NJVVk4YXdHcFJnbmp0anlycU92bHhocXkzWmJDQ0FjYjFjQXlSX2fSAYoBQVVfeXFMTmxQSmw5dkVxbzhPT01xdTA0Uko5ZXNmV0NqMF9pVlB6QjBRZldKR1Ztbk54M3N5VUp4V3BuM0xIM3llR2ZOWlBZdDYycS1RN1c1Y0M5NHV1NHV1MFNob3RYVVdnYWZ2N3NLVzF1d094cWg5MFpjaDhNLXZyTEdhMHFSN3hPWWpuM1p3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "サンスポ"
+    },
+    {
+      "articleId": "gnews_f2855e2c467655ef",
+      "headline": "Japan reports 4th swine fever outbreak this year - Eastern Mirror",
+      "headlineTranslated": "",
+      "headlineJa": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T17:45:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQS1yeWNodmdTZGdqa3BMMFdkZnlzdmt2SWJUVDl0MVl0clJRbjlHTGdSNUJZaUxKOUVTMVNJSG45RXlvZzRXUUd5cV9tRGk1T19ab3FWd2E4TW43TnpDa0RXaWN1VTBxaWN4cEdUck9xZkNRbERmd1hJNVlFRi1CeE5PSUFWQkZpa2JFMnU0NA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Eastern Mirror"
+    },
+    {
+      "articleId": "gnews_522475b41d628b10",
+      "headline": "近縁コロナ、アジア大規模移動か　タイコウモリから未発見ウイルス - ｄメニューニュース",
+      "headlineTranslated": "Closely related coronavirus may be migrating on a large scale to Asia; undiscovered virus found in northern bats - dmenu News",
+      "headlineJa": "近縁コロナ、アジア大規模移動か　タイコウモリから未発見ウイルス - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T15:30:53+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX3d1T0hmMF9IS2p5MWtWTUxhWjJDbkNQYV81MVQ3c1otWG9PSDJlV3lTMEE0S2V0ZFR5eWVyRVpWMHJIclZoOWUwZFNmMm94b0h0Y2tkRW1ldGowMXdfQ1lzQndScGRXVHl5THNaalNGNnFPTXM4WG0tQXBBV2xaM1BtR040SXhmNHfSAY8BQVVfeXFMTXVaRjQ3ZDU2bmRiZUstd0JiNHpZZmlwbDdEdGFCSWpOTnp2RWFRcEYxUUw5YVh1Ml9jQV9GVW5XX3A3QWNuOVRMYUpVcEdYSmdwTll0Tld0bjhsd3FkbG9VZnYwRFZsTE1xODBOLVdrQ2lZVEZIa3FvR1lrWFJDcmUxM1l4YmtsclJBUTZCLVU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_e344492a1a831fc9",
+      "headline": "タイで新型コロナ類似ウイルス発見、人への感染能力ありか 東大など - 日本経済新聞",
+      "headlineTranslated": "New coronavirus-like virus discovered in Thailand, is it capable of infecting humans? University of Tokyo, etc. - Nihon Keizai Shimbun",
+      "headlineJa": "タイで新型コロナ類似ウイルス発見、人への感染能力ありか 東大など - 日本経済新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MdzJJWHNqV0tvRXJ0T2ZDQ08tX1dURXJrSWNtMEJZVGt2Ti1fME5yZUdPV3R3YndlWDV4SG4xUkhFY2FOeXhWbUlWV3F5a2ZmbHBfSDM2Q3lKTG9wRDdCb2JHQkZ3Q2xPYmRkUQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "日本経済新聞"
+    },
+    {
+      "articleId": "gnews_d3d26c7fe01c90ba",
+      "headline": "タイのコウモリから新型コロナの近縁種見つける 東大医科研など - 毎日新聞",
+      "headlineTranslated": "University of Tokyo Medical Research Institute finds species closely related to the new coronavirus in Thai bats - Mainichi Shimbun",
+      "headlineJa": "タイのコウモリから新型コロナの近縁種見つける 東大医科研など - 毎日新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84SjNFaFFSNkMxMnNVYzJWeEpQYmJJY2tOYXYzeWZ1dm9YS0F3d1gwVWpmRHRSak5KWTdISlI5aHdMUjFQY1dCcnFEbC05NUZHZGVSak5qN0RTVkdQd1NPVFJQOHRUU0I3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "毎日新聞"
+    },
+    {
+      "articleId": "gnews_f420b17d526be29f",
+      "headline": "近縁コロナ、アジア大規模移動か タイコウモリから未発見ウイルス | | 全国のニュース - 佐賀新聞",
+      "headlineTranslated": "Closely related coronavirus may be migrating to Asia on a large scale? Undiscovered virus found in northern bats | | Nationwide news - Saga Shimbun",
+      "headlineJa": "近縁コロナ、アジア大規模移動か タイコウモリから未発見ウイルス | | 全国のニュース - 佐賀新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TX2I1aUI4VHhhOXRhLVlWdmpvY2xnX1hqaEUwaUYxNUgtcklfQ2xnRFM5MFAwOHE3RHFiUThFNHN5ckowZlJPb0dlRExkdGUzcXRnY19n?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "佐賀県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "佐賀新聞"
+    },
+    {
+      "articleId": "gnews_29385e620baabd11",
+      "headline": "近縁コロナ、アジア大規模移動か タイコウモリから未発見ウイルス | | 全国のニュース - 佐賀新聞",
+      "headlineTranslated": "Closely related coronavirus may be migrating to Asia on a large scale? Undiscovered virus found in northern bats | | Nationwide news - Saga Shimbun",
+      "headlineJa": "近縁コロナ、アジア大規模移動か タイコウモリから未発見ウイルス | | 全国のニュース - 佐賀新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tYl9GTjNMdmRKTFNwcWRCVndhMmVfakladFQtMDhETFBCT09vYzNRY3YtOGtXaFJlMlM5YXc0SS03bVZxdGpMYTdBNk5WU3hTOXNsSnF3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "佐賀県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "佐賀新聞"
+    },
+    {
+      "articleId": "gnews_489005d6cd89d5ee",
+      "headline": "近縁コロナ、アジア大規模移動か タイコウモリから未発見ウイルス - Excite エキサイト",
+      "headlineTranslated": "Closely related coronavirus may be migrating to Asia on a large scale, an undiscovered virus found in bats - Excite Excite",
+      "headlineJa": "近縁コロナ、アジア大規模移動か タイコウモリから未発見ウイルス - Excite エキサイト",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Ha0x4UHVVRGdYQnBzVXhFR2NDdGxFdjhGYzRwZmpPQTBybGNrOWdXRVRNNFBmQzJFNnBjdk15aE9xS2M4UF9yZWJUMGZCNjU0dEplaHEyU2Z6S0VpZEIxZmJ0OVVtZ29mTzg3SWViU2pZQQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Excite エキサイト"
+    },
+    {
+      "articleId": "gnews_0c74784e4f6505c9",
+      "headline": "カナリア諸島で受け入れへ ハンタウイルス感染疑いの船 - 新潟日報",
+      "headlineTranslated": "Ship suspected of being infected with hantavirus to be accepted in Canary Islands - Niigata Nippo",
+      "headlineJa": "カナリア諸島で受け入れへ ハンタウイルス感染疑いの船 - 新潟日報",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T12:40:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4WXRuZUFMY1pGdXhUbHkzeFpVcGhmR2F6eWNmMThMbjBDWDRMUGp6TVFyMktZcGY3UjNzZkZQOGhiVnhRWGpyTDlJSzlPWDZlZzgyb3lDZUlsQjRlTkE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "新潟県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新潟日報"
+    },
+    {
+      "articleId": "gnews_3a6998f700a00746",
+      "headline": "日本人乗船のクルーズ船でハンタウイルス集団感染疑い 3人死亡と発表 - coki.jp",
+      "headlineTranslated": "Suspected mass infection of hantavirus on cruise ship with Japanese passengers onboard; 3 people reported dead - coki.jp",
+      "headlineJa": "日本人乗船のクルーズ船でハンタウイルス集団感染疑い 3人死亡と発表 - coki.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T10:58:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiRktPZllZN3NlS3pzR0Y5SUhRYmp0UUgxV0x0dEhSYlljNGFTUG9jQ3NTdVUxMWgyZm9aRVdqNGdya0s0dzBHUXdjeDNYdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "coki.jp"
+    },
+    {
+      "articleId": "gnews_16db96f208d99498",
+      "headline": "“ヒトからヒトへ”感染か ハンタウイルスで3人死亡 致死率約40％の型も…日本での流行リスクは【Nスタ解説】 - Yahoo!ニュース",
+      "headlineTranslated": "Is it a “human-to-human” infection? 3 people die from hantavirus, a type with a mortality rate of about 40%... What is the risk of an epidemic in Japan [N Star Commentary] - Yahoo! News",
+      "headlineJa": "“ヒトからヒトへ”感染か ハンタウイルスで3人死亡 致死率約40％の型も…日本での流行リスクは【Nスタ解説】 - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T10:54:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UbVFoeGgxSWJ5V3YyRHhpOUNPcTI1U211WmNsTGdWckhpcUZlV3JwUk9XTmlnS2Q5THBWX2pvb29KQXg2Wm90YnhsX1FMT0dUdUdYNTd0eG9zM1VIR3ljZDJ5a05tYW1iQlF4ZVBFdnpzM0V6T1N0ZUdZc0tjQ00?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_736c5b64cd17da42",
+      "headline": "“ヒトからヒトへ”感染か ハンタウイルスで3人死亡 致死率約40％の型も…日本での流行リスクは【Nスタ解説】 - TBS NEWS DIG",
+      "headlineTranslated": "Is it a “human-to-human” infection? 3 people die from hantavirus, a type with a mortality rate of about 40%... What is the risk of an epidemic in Japan [N Star Commentary] - TBS NEWS DIG",
+      "headlineJa": "“ヒトからヒトへ”感染か ハンタウイルスで3人死亡 致死率約40％の型も…日本での流行リスクは【Nスタ解説】 - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T10:50:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5sZzNlRzlZd0tHZV84WExQWjBPSjVQZGVKSjNVNzhJejljN0Q1dnB6c0F1blJfd2NRTmZmRHM3cVlKT2tCVWVqdTVJbkozaXNTS25sTHRRZw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_cc567b90a9e16844",
+      "headline": "「ハンタウイルス」集団感染疑いのクルーズ船 “受け入れ”をスペイン・カナリア諸島が拒否…医師「ヒトヒト感染は極めてまれ」 - au Webポータル",
+      "headlineTranslated": "Spain's Canary Islands refuses to accept cruise ship suspected of mass infection of hantavirus...Doctor: ``Human-to-human transmission is extremely rare'' - au Web Portal",
+      "headlineJa": "「ハンタウイルス」集団感染疑いのクルーズ船 “受け入れ”をスペイン・カナリア諸島が拒否…医師「ヒトヒト感染は極めてまれ」 - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T10:14:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6Z1JOOU95Nm53YW9XRWVuUHMzcHNsWjNDZFFFWk9ieGlTN20tWUpDdDNzbC1tMV9lWXlROEdHdFBBQ1ZiNlRNSktxR05rMUR5NU5EekZuZE1OWjA1cEw2bEk5NlN4ckM4a0stck9jN3l5d0F2bHdrUnNjdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_9a909f4518b6cb05",
+      "headline": "「複数の子豚が死んだ」養豚場で「豚熱」の感染確認 3730頭を殺処分へ 県内では2026年2例目=静岡 - TBS NEWS DIG",
+      "headlineTranslated": "``Swine fever'' infection confirmed at pig farm where ``multiple piglets died''; 3,730 pigs to be culled; 2nd case in the prefecture in 2026 = Shizuoka - TBS NEWS DIG",
+      "headlineJa": "「複数の子豚が死んだ」養豚場で「豚熱」の感染確認 3730頭を殺処分へ 県内では2026年2例目=静岡 - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T10:03:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfUktENVNjN0UwVFJlY3pOSjVpZE5qMlhVakVMX1cxd25FSGRNSFk0SG5WZVJPMWRTVGxIZkRaV3VQVkQ4OG1jYjhXNEZvaVhsYzNoTGgtd3QxZw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_e5c7ff8f2304380c",
+      "headline": "「人への感染はない」と冷静な対応を呼びかける 静岡・富士宮市の養豚場で「豚熱」の感染を確認 - LOOK 静岡朝日テレビ",
+      "headlineTranslated": "``Swine fever'' infection confirmed at a pig farm in Fujinomiya City, Shizuoka Prefecture - LOOK Shizuoka Asahi TV",
+      "headlineJa": "「人への感染はない」と冷静な対応を呼びかける 静岡・富士宮市の養豚場で「豚熱」の感染を確認 - LOOK 静岡朝日テレビ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T09:51:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fLXdGWXJ4elA0Ti1TMUp1d25FUDhKR2VTWVJtSkpuMktVOUFCQ3FKWk4wYlFla1Q1amZ4YkxmOHFfTHBRR19WQktiWk9ybnVvNHVCakNyd3BQUWdmMXhuVW5IRHFLOXlFM2pfYg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "LOOK 静岡朝日テレビ"
+    },
+    {
+      "articleId": "gnews_3184fb7489be0db2",
+      "headline": "ハンタウイルス「日本国内でヒトーヒト感染の拡大リスク低い」JIHSが評価 - khb東日本放送",
+      "headlineTranslated": "JIHS evaluates hantavirus as ``low risk of spread of human-to-human infection in Japan'' - KHB East Japan Broadcasting System",
+      "headlineJa": "ハンタウイルス「日本国内でヒトーヒト感染の拡大リスク低い」JIHSが評価 - khb東日本放送",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T09:02:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SMWd6aGlIbDNnWExZb0dQM3ZnbFpuS1FwODJsV043MmFha0pxdTUxQ3JvVm5wSnNnRnBmQUQxYV83a0huaUxGQURVS3ppQnc?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "khb東日本放送"
+    },
+    {
+      "articleId": "gnews_4f6d70ade3d1d0cd",
+      "headline": "ハンタウイルス「日本国内でヒトーヒト感染の拡大リスク低い」JIHSが評価 - HOME広島ホームテレビ",
+      "headlineTranslated": "JIHS evaluates hantavirus as ``low risk of spread of human-to-human infection in Japan'' - HOME Hiroshima Home TV",
+      "headlineJa": "ハンタウイルス「日本国内でヒトーヒト感染の拡大リスク低い」JIHSが評価 - HOME広島ホームテレビ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T09:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83VmVmTV9aLUczX0pKTnZzUERjdDNTMi1QRHpoa2d0NHF2N2ZFNGRNdnZRVHdUTkwxbkVJQWpiV0ZtUkxldjJ1VXdJTEtZQkRWZ3BVYU5LTzNHQXZ0NW00X0tSMDJuM2Zt?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "広島県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "HOME広島ホームテレビ"
+    },
+    {
+      "articleId": "gnews_0d7b91ad56a50a77",
+      "headline": "【岡山大学】オミクロン期のコロナ後遺症診療におけるウイルス抗体価測定の有用性～ブレインフォグ症状やQOLの低下が抗体価と関連～ - PR TIMES",
+      "headlineTranslated": "[Okayama University] The usefulness of measuring virus antibody titers in the treatment of coronavirus sequelae during the Omicron period - Brain fog symptoms and decline in QOL are associated with antibody titers - PR TIMES",
+      "headlineJa": "【岡山大学】オミクロン期のコロナ後遺症診療におけるウイルス抗体価測定の有用性～ブレインフォグ症状やQOLの低下が抗体価と関連～ - PR TIMES",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T08:51:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRNlo3bkZZa0RQQ3hBOVhCYW54QmN4WmNaV0ttaWhpVFB2X2lDVW84RV83NUNoTVgzODRVQVQzT0lJTlNsUHFYamcxX1l1TXJsQzA0N2lkdkVRc0JtZEkzLUNsbzJJaUY4RFE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "PR TIMES"
+    },
+    {
+      "articleId": "gnews_6c67baf0b38bbab7",
+      "headline": "静岡県、豚397頭を殺処分 豚熱感染のあった富士宮市の養豚場で - 中日新聞Web",
+      "headlineTranslated": "Shizuoka Prefecture culls 397 pigs at Fujinomiya pig farm infected with swine fever - Chunichi Shimbun Web",
+      "headlineJa": "静岡県、豚397頭を殺処分 豚熱感染のあった富士宮市の養豚場で - 中日新聞Web",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T08:35:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tRlB5QTB2WDYweVgtRElRRjhyeXJzWHVueEFCV3h6UVZwV2pid1ZBdnJ2WnNVcnZ3cGp1QkQ2RjU3WjdfVjNNdlJhR1NCaUQtekphNA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "中日新聞Web"
+    },
+    {
+      "articleId": "gnews_7daf4f4ad0954488",
+      "headline": "静岡県、豚397頭を殺処分 豚熱感染のあった富士宮市の養豚場で - 47NEWS",
+      "headlineTranslated": "Shizuoka Prefecture culls 397 pigs at Fujinomiya pig farm infected with swine fever - 47NEWS",
+      "headlineJa": "静岡県、豚397頭を殺処分 豚熱感染のあった富士宮市の養豚場で - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T08:35:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9oUmk2OUUzYzdsQkFHMFdRaklPSHpSbElfTXlYbFRtV1RScndFbmlTZTNBamx3UW53ZlFaaThwcUl6dmdZLTNpMm9jNA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
+      "articleId": "gnews_e5c2e48e818b1aa8",
+      "headline": "【解説】ハンタウイルス…ワクチンなし致死率最大50％ ヒトヒト感染想定も「集団感染はまれ」「国内感染拡大の可能性低い」 - Yahoo!ニュース",
+      "headlineTranslated": "[Commentary] Hantavirus... Fatality rate up to 50% without vaccine, human-to-human infection assumed, \"mass infection is rare\" \"domestic spread of infection is unlikely\" - Yahoo! News",
+      "headlineJa": "【解説】ハンタウイルス…ワクチンなし致死率最大50％ ヒトヒト感染想定も「集団感染はまれ」「国内感染拡大の可能性低い」 - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T08:23:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2R3h3T2l2VW5SN3BUV2JFMGx2c2h2X01YSmV2YWxIYzBpdzhyR1VfNHRxblJ2eTZqbUJkSjJqa0h3bnpMeUh3NG5GSlg3clVDWllCS2hzNmI1NmNjLWxWLVFPN3JCbGZaREhGeEYwWnpaa1RFVWU2TFNHUFB5YjA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_082d3b3f5e88a660",
+      "headline": "日本人含むクルーズ船のハンタウイルス感染、現地で適切対応と厚労省（Bloomberg） - Yahoo!ニュース",
+      "headlineTranslated": "Ministry of Health, Labor and Welfare responds appropriately to hantavirus infection on cruise ship involving Japanese nationals (Bloomberg) - Yahoo! News",
+      "headlineJa": "日本人含むクルーズ船のハンタウイルス感染、現地で適切対応と厚労省（Bloomberg） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T07:31:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yMUFvNkZlZHEyaU1rV05IZUxCa05EbWFUVEZVbzdRSVloeTJEbUhwRFVmUVJoZ0I5ZEMzSGlkalBtQzBPUDNtVU10UnY5WDIxR1QzNlVEekd2eDVnZXNjYTdaXzZwRkRKQndLRmwtajhxV1pCOFJ5ZXlsWElzY3M?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_816013746602d703",
+      "headline": "【ノロウイルス】10人が食中毒の症状訴える 温浴施設内の飲食店で従業員から感染か 和歌山・橋本市 - 日テレNEWS NNN",
+      "headlineTranslated": "[Norovirus] 10 people complain of food poisoning symptoms, possibly infected by employees at restaurants in hot spring facilities Wakayama/Hashimoto City - NTV NEWS NNN",
+      "headlineJa": "【ノロウイルス】10人が食中毒の症状訴える 温浴施設内の飲食店で従業員から感染か 和歌山・橋本市 - 日テレNEWS NNN",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T05:31:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZURNY3lRLVg2MDY5eWJlR0ZPNC1FSjZUbjNDLURvLWNNWlV5ZThpSmxZUXYzdVRyb1BHZHM4emxJMGtiQ1BuUFpDcFJsbER5d21mSmkzcG15T3QxSG9ZaDlCclFUTXA2TUN0VlQ0SXNHSldkai1kS1RzYXFCQkFTMVBfN3Y2Nm8?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "和歌山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "日テレNEWS NNN"
+    },
+    {
+      "articleId": "gnews_9fbd7cefeb328fff",
+      "headline": "クルーズ船で“集団感染”か「ハンタウイルス」とは 専門家「日本国内で広がる可能性は低い」【ひるおび】 - Yahoo!ニュース",
+      "headlineTranslated": "Is there a \"mass infection\" or \"hantavirus\" on a cruise ship? Expert: \"It is unlikely to spread within Japan\" [Hiruobi] - Yahoo! News",
+      "headlineJa": "クルーズ船で“集団感染”か「ハンタウイルス」とは 専門家「日本国内で広がる可能性は低い」【ひるおび】 - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T05:30:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX1RVd1dfaWVPYnBMRk5ubl8zeHNmR3BhdGYzaGh5Snk5Rl9XcmlUVmtEZ2pfbW1WenNEUER2ZVU4SDJRMmFpeC1EbDJEaVR3eFNIM3o2M1N4QTlJbGhlYVJfSm9ZeEdxcnl1T1lRWVRxMl9oZ1FHNkt6TGN0MW1SeHpySmc2WDd5?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_0d94dd2ceb8e36aa",
+      "headline": "クルーズ船で“集団感染”か「ハンタウイルス」とは　専門家「日本国内で広がる可能性は低い」【ひるおび】 - ｄメニューニュース",
+      "headlineTranslated": "What is \"mass infection\" or \"hantavirus\" on cruise ships? Expert: \"It is unlikely to spread within Japan\" [Hiruobi] - dmenu News",
+      "headlineJa": "クルーズ船で“集団感染”か「ハンタウイルス」とは　専門家「日本国内で広がる可能性は低い」【ひるおび】 - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T05:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjWDNzcGZxZTZPMXllTmROYW9PbU9VZ2VKcVIycFpSbGRkS3YxNXc3TjB1c0RyMTQyZk5HajdXTWZMOTNBS0h0ZVBwNlZzM3l3Tl91REM0UGJEeDlaZnc0ZFk4VWVTclZyOVhYTFJ1ONIBdEFVX3lxTE5hcTZ6YnhSaHZPbWZ4TXJLSzU3dkJNWkgwVEpZN2d0T2p6eUFGd0dGSjU2VlZidVpSYXZJalladG1naXg5Zk5vY2wwOGlueFhjeDJmLVdza0t2c09QN3p4YW41d2x6S3NVYmIyZVJidzROVm01?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_492815e5e6e05541",
+      "headline": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内” (テレビ朝日系（ANN）) - Yahoo!ニュース",
+      "headlineTranslated": "Passengers talk about the ``tense situation'' on the ship as Japanese also board the ship due to hantavirus infection (TV Asahi (ANN)) - Yahoo! News",
+      "headlineJa": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内” (テレビ朝日系（ANN）) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T05:27:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLWxpcjdQMml5QjFWbktXWXVmalZxLWFjSlRwdS1ZVkgxSzRfamtzX3JZWlZpRndSUzV0WXE3cnJ1YklmcjFLYzBGby1RRHJJbHRyUEpsZWN2dFZ0MXh0Rkt0dUFlbTRVRTdWdW5qeGlTUGlPMllzX0ktelhUU2lyclN5TmxYVVBtY0JUb1d3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_9ba4ace2fa257dbb",
+      "headline": "クルーズ船でハンタウイルス集団感染か 治療法なく対症療法 日本も1980年代まで確認 - ABEMA",
+      "headlineTranslated": "Hantavirus outbreak on cruise ship? No cure, symptomatic treatment Confirmed in Japan as far back as 1980s - ABEMA",
+      "headlineJa": "クルーズ船でハンタウイルス集団感染か 治療法なく対症療法 日本も1980年代まで確認 - ABEMA",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T05:21:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KVXJfWTdHTXRQZDhCTWRQZTQxcXNfak1QVFR4dndsS2NWWTREUmhfYkFiQTYycTdCN1BHRGZoY3hVNjhrU0dvWUsxSWFZaGJGZ2VLZ3U0M2VjOGM?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ABEMA"
+    },
+    {
+      "articleId": "gnews_32f014e4538a38d1",
+      "headline": "はしかの患者急増 - 毎日新聞",
+      "headlineTranslated": "Rapid increase in measles cases - Mainichi Shimbun",
+      "headlineJa": "はしかの患者急増 - 毎日新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T04:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16Y2g4Tmx6NXZWSGlHWkJpMWFBVl9FOGExb1JVTWZfbklCSjBFcGZmTmRLbmZzNkdDUnJXNHBwVFdBZVhZNm1xVGFEUjl0dlI0NG1rNXI4T015NWZSMFNGVDRhem9QVE5PT2w4dEFULWo?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "毎日新聞"
+    },
+    {
+      "articleId": "gnews_5a57dae4a5882e4b",
+      "headline": "静岡・富士宮市の養豚場で「豚熱」感染確認される…約3000頭を殺処分へ (2026年5月6日掲載) - ライブドアニュース",
+      "headlineTranslated": "``Swine fever'' infection confirmed at a pig farm in Fujinomiya City, Shizuoka... Approximately 3,000 pigs to be culled (Posted on May 6, 2026) - Livedoor News",
+      "headlineJa": "静岡・富士宮市の養豚場で「豚熱」感染確認される…約3000頭を殺処分へ (2026年5月6日掲載) - ライブドアニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T03:20:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZQVdHU2NQNzBZNEZmY0JaNk5wVnNzVjFqcE13d2VtMzV2YV93cTlTNldEblBrVmpfZE9nUDJFUHA2eFVvNW5rdl9KTzVCTk9UR0l6Sjdobi1sTTlWY1E?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ライブドアニュース"
+    },
+    {
+      "articleId": "gnews_715d5a7bd8e2d70e",
+      "headline": "今年2例目となる豚熱 3月に別の施設でも感染確認も潜伏期間から「影響しているとは考えづらい」 静岡・富士宮 - ｄメニューニュース",
+      "headlineTranslated": "Second case of swine fever this year. Infection was confirmed at another facility in March, but given the incubation period, it's \"hard to think it's having an impact\" Shizuoka/Fujinomiya - dmenu News",
+      "headlineJa": "今年2例目となる豚熱 3月に別の施設でも感染確認も潜伏期間から「影響しているとは考えづらい」 静岡・富士宮 - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T03:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDLTFkRU5Ha2xsV1RxNkJJYTl3a0owUWZBNEp4czJwa3BPaEV2d0V4SEp1Nlc0dWZFeVo3Rzk0aEtWZmhnakxEb3R1ZXB4MDF4NW5JTnd2VEVFa2xMdDhjbW1Qb2hOVHJxN2pvbDZEaTREQQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_491fe831d640c9ed",
+      "headline": "コロナで広がった面会制限、今もなお 問われる「患者の権利」とは？ - 朝日新聞",
+      "headlineTranslated": "What are the \"patient rights\" that are still being questioned as visitation restrictions spread due to the coronavirus? - Asahi Shimbun",
+      "headlineJa": "コロナで広がった面会制限、今もなお 問われる「患者の権利」とは？ - 朝日新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T03:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1WlZRQ3laaEZpdkNBY21TekxINnlFSUpmQndrS3hia2t1cUFtcDRyOHVSaTB6anhoZHlsMHFFdkFaNXYyTHcxQ1IzZGRCUUhEdFNRSDdqTl9pbmU4TGk4UmtqeVAzUFk?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "朝日新聞"
+    },
+    {
+      "articleId": "gnews_3a0cbf4b40c75b87",
+      "headline": "家畜伝染病に指定される豚熱の感染が確認 静岡・富士宮市の養豚場 ２９３０頭を殺処分 - LOOK 静岡朝日テレビ",
+      "headlineTranslated": "Infection with swine fever, which is designated as a domestic animal infectious disease, is confirmed. 2,930 pigs are culled at a pig farm in Fujinomiya City, Shizuoka - LOOK Shizuoka Asahi TV",
+      "headlineJa": "家畜伝染病に指定される豚熱の感染が確認 静岡・富士宮市の養豚場 ２９３０頭を殺処分 - LOOK 静岡朝日テレビ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T02:58:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2ZVI4Ny1LR1oyVHFtUUFaSVZWQkFJUVFnUHQ0VGFFdjU1UmFjZlI5VWFZbnRDSVhqVnVSTTRVRXBORTM1MThVSTVVOFV1Vl90bkV6MVZIZnR2R2ZIYmE4S0FmMVRTZm03REJ3Vw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "LOOK 静岡朝日テレビ"
+    },
+    {
+      "articleId": "gnews_36ff465c09baa43c",
+      "headline": "季節性インフルエンザは例年より早く流行し、基礎疾患のある患者では重症例が多く見られる。AI（インフルエンザ様疾患）を「自己診断」する際には注意が必要である。 - Vietnam.vn",
+      "headlineTranslated": "Seasonal influenza is prevalent earlier than usual, and severe cases are often seen in patients with underlying illnesses. Care must be taken when \"self-diagnosing\" AI (influenza-like illness). - Vietnam.vn",
+      "headlineJa": "季節性インフルエンザは例年より早く流行し、基礎疾患のある患者では重症例が多く見られる。AI（インフルエンザ様疾患）を「自己診断」する際には注意が必要である。 - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T02:41:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUWk4ZWVYYjN5V0RPVWtwaWtfZHBPVFZ0b2gxZDRrRmVRSkV5SlB0cTktZGhMLVRpRDQza0cxU1dnQ2tUMGFuRkNVOW9QUGhuRlA0OUZJVEw2MXRlOWdmdnNzZ0dLUDRkVzJCYmZvU3hVYWlROW9lX2t3bUxJWXlaZ29rY0RKQklNX0doNzhKNzlZS1ZvMTFpRXV6RlFadnByazR5cWJQSDRuZw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_808512baf10ea4df",
+      "headline": "クルーズ船でハンタウイルス集団感染か 治療法なく対症療法 日本も1980年代まで確認 - テレ朝NEWS",
+      "headlineTranslated": "Hantavirus outbreak on cruise ship? No cure, symptomatic treatment Confirmed in Japan as far back as 1980s - TV Asahi NEWS",
+      "headlineJa": "クルーズ船でハンタウイルス集団感染か 治療法なく対症療法 日本も1980年代まで確認 - テレ朝NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T02:12:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sMlF6TmNjZ3g0RDUzX3pNUFFmNXVOVnhCcGVzWnY1WU9FQm1qbVNoUW83Z05WeWFFZ3dYTm9yUXUzUHRVTjBYQnMybl82UFpYZHZ3NG9Sbjc1NERkR0V6dW4tRHZkREVvNkxEVUphajE1QjdrbzRZWXhB?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "テレ朝NEWS"
+    },
+    {
+      "articleId": "gnews_c13cd60b49b22a75",
+      "headline": "ハンタウイルス集団感染の船から3人避難、船はカナリア諸島へ（CNN.co.jp） - Yahoo!ニュース",
+      "headlineTranslated": "Three people evacuated from ship infected with hantavirus, ship headed for Canary Islands (CNN.co.jp) - Yahoo! News",
+      "headlineJa": "ハンタウイルス集団感染の船から3人避難、船はカナリア諸島へ（CNN.co.jp） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T01:52:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RUHJLdXhLaDZvcmJOS1RUeGJhVlVydF9YMzZZVnVyZzJhZlN0UW1qUmNsTzBuWlJYbGdZS3d2TzVpR3dENmh3eTJESzdraW5rYnB1UW5lNTdkMWRCcFJEemJJd3VKWWs2bU9rRVhZZ2pxcFhESm9ZNmRmNmdoV2c?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_7f012e361ad5cb50",
+      "headline": "ハンタウイルス集団感染の船から3人避難、船はカナリア諸島へ(1/2) - CNN",
+      "headlineTranslated": "Three people evacuated from ship infected with hantavirus, ship headed for Canary Islands (1/2) - CNN",
+      "headlineJa": "ハンタウイルス集団感染の船から3人避難、船はカナリア諸島へ(1/2) - CNN",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T01:52:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlRERwNnMzTUFwN3hYOFFZZEtueUE5dzhoV2tWS1VpVjBwOGNpZnFYMGlwS0xBQnFZYWx0UGIyWmRoLWNUT0VkX2V2Y25RMlU3Wjkw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN"
+    },
+    {
+      "articleId": "gnews_cffe594fd52726b6",
+      "headline": "ハンタウイルスがクルーズ船内で感染、3人死亡 「日本に入ってくるリスクは低い」と専門家...中韓では同種ウイルス感染例 - au Webポータル",
+      "headlineTranslated": "Hantavirus infected on cruise ship, kills 3 people; experts say the risk of it entering Japan is low... Cases of similar virus infection in China and South Korea - au Web Portal",
+      "headlineJa": "ハンタウイルスがクルーズ船内で感染、3人死亡 「日本に入ってくるリスクは低い」と専門家...中韓では同種ウイルス感染例 - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T01:41:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Dek5IQ1VYYVR1dHg2ZHhEOWU1WGNuQVJ3SmtPVnVKN2pDVGRncTVVYVctQnIzLUNwdlppZEpLZkJfNjU2ZjQzME50TlY0a1VYdVpoX21mTEhIQ1lJU3ZSaGJHZndLWkJKVDdVdTBNUGFFN1RMc0RvSzJ1QQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_6c43bc5461fd9a94",
+      "headline": "WHO「大西洋クルーズ船、ハンタウイルスで乗客3人死亡…ヒトからヒトに感染の疑い」（中央日報日本語版） - Yahoo!ニュース",
+      "headlineTranslated": "WHO \"Three passengers on Atlantic cruise ship die from hantavirus... Suspected human-to-human transmission\" (JoongAng Ilbo Japanese version) - Yahoo! News",
+      "headlineJa": "WHO「大西洋クルーズ船、ハンタウイルスで乗客3人死亡…ヒトからヒトに感染の疑い」（中央日報日本語版） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-06T00:42:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56bkpZMGpLaWdHZXJoejBKNU9LNXpJRnJiRGprT1JjWkRiUnBxM2h2YmdDS2FQZGhsQ1VyQ0ZBa2o0SWNfNHl2WW9kQ0p5RXV4VnhZUnM2SHYwNnJOY3dqN0FhSm1tc3NNbHN0Z3VReFNnUTNsbnJEcXBGOGZyVzA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
     {
       "articleId": "gnews_4b9aa3e3ed63a86a",
       "headline": "Japanese Passenger Aboard Cruise Ship Suspected of Hantavirus Outbreak - News On Japan",
@@ -40,7 +862,7 @@
       "headlineJa": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T22:14:50+00:00",
+      "publishedTimestamp": "2026-05-05T22:14:43+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95NWpLdktkNi15bUtzUW1MZE84dEtzVVJxeU9xRWM4WXY0aV9vdWVJQzh3aTNiTzJ3Y0lhS01aeXJqRjNWOFdsdFNHRkJfbm9pSkRZVDBDejFmdw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
@@ -54,24 +876,24 @@
       "sourceName": "News On Japan"
     },
     {
-      "articleId": "gnews_cdb54ce1b541fd89",
-      "headline": "タクシー業界の未来と「選ばれるサービス」への挑戦 「互信ホールディングス」平島誉久さん - UHB 北海道文化放送",
-      "headlineTranslated": "The future of the taxi industry and the challenge of becoming the “service of choice” Mr. Takahisa Hirashima of “Soshin Holdings” - UHB Hokkaido Cultural Broadcasting",
-      "headlineJa": "タクシー業界の未来と「選ばれるサービス」への挑戦 「互信ホールディングス」平島誉久さん - UHB 北海道文化放送",
+      "articleId": "gnews_3eef0d9872d12e63",
+      "headline": "日本人含む約150人船内に ハンタウイルス、WHO｢乗船前感染の可能性｣ - 日本経済新聞",
+      "headlineTranslated": "Approximately 150 people, including Japanese, were infected with hantavirus on board, WHO says ``possibility of infection before boarding'' - Nihon Keizai Shimbun",
+      "headlineJa": "日本人含む約150人船内に ハンタウイルス、WHO｢乗船前感染の可能性｣ - 日本経済新聞",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T21:04:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtaWhSSjRaZ0hIVUVsZnlBNDFIVVpjN01GQmhqVkpnUEJxMXNzMm54V1dGYkN4b19KQ1NxaHFFSnAyY1Z0ZjFla1BvRzl0N3h6RVJYRjhEbw?oc=5",
+      "publishedTimestamp": "2026-05-05T19:32:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0td2VEZVZjb2RXeFMwQUxWSnYzTUtXbHo5LWlnM0dISHJOaFlyU3BjR3R6ZnRwRVM1T29ncTdYUlQ3UlRkSjlzNnh4aXBMNzZ5X3RIaHNmNUFYWXlzSzVGWXM5Qk9YZk5tclZjSw?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "感染症 (未特定)"
       ],
       "locations": [],
       "states": [
-        "北海道"
+        "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "UHB 北海道文化放送"
+      "sourceName": "日本経済新聞"
     },
     {
       "articleId": "gnews_3bc51c4da6ef4826",
@@ -94,14 +916,14 @@
       "sourceName": "沖縄タイムス社"
     },
     {
-      "articleId": "gnews_466d30992c193d11",
-      "headline": "【報ステ解説】日本に拡大の可能性は？“ハンタウイルス”クルーズ船で集団感染か（テレ朝NEWS） - ｄメニューニュース",
-      "headlineTranslated": "[News commentary] Is there a possibility of expansion to Japan? “Hantavirus” outbreak on cruise ship? (TV Asahi NEWS) - dmenu News",
-      "headlineJa": "【報ステ解説】日本に拡大の可能性は？“ハンタウイルス”クルーズ船で集団感染か（テレ朝NEWS） - ｄメニューニュース",
+      "articleId": "gnews_df5486a5dbf9c2d1",
+      "headline": "【報ステ解説】日本に拡大の可能性は？“ハンタウイルス”クルーズ船で集団感染か（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "headlineTranslated": "[News commentary] Is there a possibility of expansion to Japan? “Hantavirus” outbreak on cruise ship? (TV Asahi (ANN)) - Yahoo! News",
+      "headlineJa": "【報ステ解説】日本に拡大の可能性は？“ハンタウイルス”クルーズ船で集団感染か（テレビ朝日系（ANN）） - Yahoo!ニュース",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T17:24:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3RadGp2dUFuXzQxdTJ3ZUZSQjhvRWNFS0xVaW92NjEyWTdmMVdLZFJ3a3RhaU9Bcjc4bXJEQzN3dUEwTC03VW1fQlBMUGJTdlVIajEzVkM3eERCN2xuY2FSZzI0WFdvalFjbVhJUmcxSXh0dk1Ra0FldnJLNXZoMm5mTmptSXhqQU5WWUlaTQ?oc=5",
+      "publishedTimestamp": "2026-05-05T16:24:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15MXAzamNFeFB1RzF5eGM3RDhQc2FjQy16QTZfd3ZqWUl3WXhYVGU5SUlvcE1VWVMyZUhsckIxRDM0TDcxNXlRcXA5R1NPMlZRWVQzOTA1dHBjakdXa3J0alpmbG1hLXBVT0x2OG5YSWNWTWtmeF9TOVFPWDZtalE?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "感染症 (未特定)"
@@ -111,7 +933,7 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
+      "sourceName": "Yahoo!ニュース"
     },
     {
       "articleId": "gnews_c1ffc972974f9131",
@@ -134,6 +956,26 @@
       "sourceName": "テレ朝NEWS"
     },
     {
+      "articleId": "gnews_8b374c0f01232bcb",
+      "headline": "【報ステ解説】日本に拡大の可能性は？“ハンタウイルス”クルーズ船で集団感染か（テレ朝NEWS） - ｄメニューニュース",
+      "headlineTranslated": "[News commentary] Is there a possibility of expansion to Japan? “Hantavirus” outbreak on cruise ship? (TV Asahi NEWS) - dmenu News",
+      "headlineJa": "【報ステ解説】日本に拡大の可能性は？“ハンタウイルス”クルーズ船で集団感染か（テレ朝NEWS） - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-05T16:21:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVzE3NVR0eVpDcmNITENNanp0MW80ODJnQ2pQTG1YZElZTXdnY0tkU3ktTTlMQ0w5Uk5mSnJYbDVydTllVzZlcnJnUm9sTHF4VE1RaDBnVHBRcUlKTmtDQ2FBWWQwZW03TmlYeU1EODdiWTUzOXBQd2hVdlM0d280STd0TjNSLUhNVU1Wc1RvOA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
       "articleId": "gnews_53978e89328a2402",
       "headline": "【画像まとめ】【報ステ解説】日本に拡大の可能性は？“ハンタウイルス”クルーズ船で集団感染か - テレ朝NEWS",
       "headlineTranslated": "[Image summary] [News commentary] Is there a possibility of expansion in Japan? “Hantavirus” outbreak on cruise ship? - TV Asahi NEWS",
@@ -154,34 +996,14 @@
       "sourceName": "テレ朝NEWS"
     },
     {
-      "articleId": "gnews_ed6b64d040c960ab",
-      "headline": "「ハンタウイルス」日本人1人が集団感染疑いのクルーズ船に乗船 これまでに3人が死亡 - ｄメニューニュース",
-      "headlineTranslated": "``Hantavirus'' 1 Japanese person boarded cruise ship suspected of mass infection; 3 people have died so far - dmenu News",
-      "headlineJa": "「ハンタウイルス」日本人1人が集団感染疑いのクルーズ船に乗船 これまでに3人が死亡 - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T14:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DX2hVc1UzbVk5dHpSczJ4ZWpubWgyQThnYVgyNDM3MHM5Q0NNUVhYMnR6b0x4M2ROblZVelFnOGFqM3AtcjRkeG1BQmFid1d0QXNDZXhoY2c1dUtjeUFNYWprOUVlZFBFOFdEX1Zn0gFzQVVfeXFMTnV5TjFma2ljZmtTaEFldmpUcGRFNGlPU3NZNFprY2ozV3ZtemVsNWNHZkVEVzRCS0pINWJRYXp4aTdqUGNtUnlLZ1RXSmNoVmNmZ1RlLUYzZjFCd1UtYVBBbnlUanprYzNrNFg3bnlzUHBqTQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_b925f062f58e4a55",
-      "headline": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 (2026年5月5日掲載) - ライブドアニュース",
-      "headlineTranslated": "Germany's BioNTech to close bases as demand for coronavirus vaccine declines (Posted on May 5, 2026) - Livedoor News",
-      "headlineJa": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 (2026年5月5日掲載) - ライブドアニュース",
+      "articleId": "gnews_3f30ce1f61baae1f",
+      "headline": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 - 47NEWS",
+      "headlineTranslated": "Germany's BioNTech to close base as demand for coronavirus vaccine declines - 47NEWS",
+      "headlineJa": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 - 47NEWS",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-05-05T13:43:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YOEZ6UmVacDYzd193M01oTzJYWmI5UnlMc2p4aUhYWlFCakdtSTJGUkI2UzQzcmItUGE0VTBCRlBWQ3NoYWNQVkNybVJxT3VYOFhvRzlzb0xUR3dHOGc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwV1d2ZEpibkY0NkxjN3REbk0yZmlnOUtfZEhUZ1U0YUNFZU1sdnZHTDBFZ1B1dm5wSWZRRkRzcWY4WTVqLTBRc2hZUQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "COVID-19"
@@ -191,47 +1013,27 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "ライブドアニュース"
+      "sourceName": "47NEWS"
     },
     {
-      "articleId": "gnews_719b981ee511b196",
-      "headline": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 - 西日本新聞me",
-      "headlineTranslated": "Germany's BioNTech to close base as demand for coronavirus vaccine declines - Nishinippon Shimbun me",
-      "headlineJa": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 - 西日本新聞me",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T13:42:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84NUc3dVk2SzZqUnhEcGg0dzBGQk1RUzhnNEI1SV8zeEVTS2p4a0hYT3ZzeXpjNTEwenkya0pmNjRrMHVCWTNiRTE1cTZSdmJTbzFwbTdB?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "西日本新聞me"
-    },
-    {
-      "articleId": "gnews_1080022b6e4da156",
-      "headline": "独ビオンテック、拠点閉鎖へ　コロナワクチン需要減少 - ｄメニューニュース",
-      "headlineTranslated": "Germany's BioNTech to close base as demand for coronavirus vaccine declines - dmenu News",
-      "headlineJa": "独ビオンテック、拠点閉鎖へ　コロナワクチン需要減少 - ｄメニューニュース",
+      "articleId": "gnews_119cb864feb36359",
+      "headline": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 - 静岡新聞DIGITAL",
+      "headlineTranslated": "Germany's BioNTech to close base as demand for coronavirus vaccine declines - Shizuoka Shimbun DIGITAL",
+      "headlineJa": "独ビオンテック、拠点閉鎖へ コロナワクチン需要減少 - 静岡新聞DIGITAL",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-05-05T13:42:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRUFFb29Zbkx4cGlvSURONE1LSFZBWDlhUWE2NGp1d1ZzeVVBOVFJR09NQVlnN0V4VENhRHUzbHdOY2hOeDE3bVZ5ZDZEX25aRkxJWFdvQXZIck9IeFVYUnotQkUxRXRhTDhDclpfU0UyNGF1bmN4WU1iajFfZk1oMnVCeXVkVnVxemfSAY8BQVVfeXFMTW9MQ1ZzQ3Vhd0JkSkZLX1RINm14N0twcnlxS3ZzVkNVWDZaSzRJNkw5XzdJZE9Ia010TXg0RDFsSUlIQ2E1ZEQyYWhMcVctWHNhUUEzc1prM3A4cGM3Y2ttTDNwaW4xQlhSbVlzam5nbjBPRHdVa3o5eC0tYVFwOFIxZXRJNnRvanI3ZFFJajA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YTkNPVmc1MzlKUk5hT1EyMDh3QVJjX1hXUTNnQnR6YjZGWTRDQ1p1YTZ5NjdMWk55Wkp6ZzQxWnZuejd5dEdZLUxMdW01Zw?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "COVID-19"
       ],
       "locations": [],
       "states": [
-        "日本 (都道府県未特定)"
+        "静岡県"
       ],
       "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
+      "sourceName": "静岡新聞DIGITAL"
     },
     {
       "articleId": "gnews_5de12ca15fde0b67",
@@ -314,6 +1116,26 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
+      "articleId": "gnews_cfb26e25e898ed66",
+      "headline": "富士宮市で今年２例目となる「豚熱」への感染を確認　市内の養豚場で飼育されている豚から　静岡県は豚の殺処分を迅速に進める方針 - ｄメニューニュース",
+      "headlineTranslated": "The second case of ``swine fever'' this year has been confirmed in Fujinomiya City, from pigs raised at a pig farm in the city. Shizuoka Prefecture plans to expedite the slaughter of pigs - d Menu News",
+      "headlineJa": "富士宮市で今年２例目となる「豚熱」への感染を確認　市内の養豚場で飼育されている豚から　静岡県は豚の殺処分を迅速に進める方針 - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-05T12:10:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZWHJtUmhtQ3JhN0g0by10UHV3X1N3TlR1TUxiWmZhZGF3ZTFMY2VxeDVUNC1VdlJFcVpTNkE0Vkt3Q3FmVnllMXVSdFpTX3Z5SFkyekV2YXhDMGlxdTc2YXlGd3YzaHczQTFOOGhNeGpkd9IBd0FVX3lxTE83VjYtdzV0V2I4emVwU2NiWFdabXJKQXRHVjk2amhYYXE5ZHVNMGJrOTROMkhnMmtUY1Jqa1dXZ1kzNUpoT0ZsWU1OdFVzTzZvRWxFQndpS3FydFF5QVZJME1WV3QxTktsM2ZLanJxY3RKNFFPNWNz?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
       "articleId": "gnews_6a1ed3fb1db4d8ad",
       "headline": "【速報】静岡県で豚熱感染を確認 約3000頭を殺処分に（静岡朝日テレビ） - Yahoo!ニュース",
       "headlineTranslated": "[Breaking News] Swine fever infection confirmed in Shizuoka Prefecture; approximately 3,000 animals culled (Shizuoka Asahi TV) - Yahoo! News",
@@ -334,174 +1156,14 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_ef852ceeb7e40366",
-      "headline": "【速報】静岡県で豚熱感染を確認 - ｄメニューニュース",
-      "headlineTranslated": "[Breaking News] Swine fever infection confirmed in Shizuoka Prefecture - dmenu News",
-      "headlineJa": "【速報】静岡県で豚熱感染を確認 - ｄメニューニュース",
+      "articleId": "gnews_7d2e7de443f373e6",
+      "headline": "住宅街にハクビシン 都市環境に高い適応能力 住宅設備をかみちぎる被害や感染症のリスクも〈仙台市〉（仙台放送） - Yahoo!ニュース",
+      "headlineTranslated": "Palm civets in residential areas Highly adaptable to urban environments, risk of chewing through housing equipment and infectious diseases (Sendai City) (Sendai Broadcasting) - Yahoo! News",
+      "headlineJa": "住宅街にハクビシン 都市環境に高い適応能力 住宅設備をかみちぎる被害や感染症のリスクも〈仙台市〉（仙台放送） - Yahoo!ニュース",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T12:07:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOQTVKUFJDbV9vZzQ5aUh5Mi0zbXAzR0lPUVVEd3Z5c25ldmx6OG50aWtzbXh3cUZUck1UaUJhUHRyZmRKc3ZwUnNBRGhoWExfdGN0QkR3bzhiU1dUdzdia2xKMm51cy1HengzeW1wb9IBdEFVX3lxTE42QjQ0Q1RjMUhGSFFkUnVjUklRT3B5eGpfelhWa0ZOckxwZjVKR1ZweWpTZ0RIYWFOQzNIZ0Q5WkkwQmVBY20zT1U3Sm9QSkZhaWlwTmNJNjJTY3RQM1VyX0VISFM2UWc5S3h4ZmlpYVNTZktE?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_9c74732b00342412",
-      "headline": "「ハンタウイルス」か…3人死亡 集団感染疑いの船に日本人も（2026年5月5日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-      "headlineTranslated": "“Hantavirus”? 3 people dead, Japanese on board suspected of mass infection (posted on May 5, 2026) | NTV NEWS NNN - NTV NEWS NNN",
-      "headlineJa": "「ハンタウイルス」か…3人死亡 集団感染疑いの船に日本人も（2026年5月5日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T10:59:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSTh6OTV2TEVtME1Vd1RUR0NPbU9XdERUeDNrdkpZa2tGc0EyRTBWM0RsZzcweDFTT19Qdk5HR3czY0MxN2d1STJqUTc5d1RWeHh3eko1c0VuZWExNXZteTVqV3pNLWM3U19YdUhTX1BPa2I5TFExdjZ4LWo0MDkwR2RkbXk?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_492815e5e6e05541",
-      "headline": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内” (テレビ朝日系（ANN）) - Yahoo!ニュース",
-      "headlineTranslated": "Passengers talk about the ``tense situation'' on the ship as Japanese also board the ship due to hantavirus infection (TV Asahi (ANN)) - Yahoo! News",
-      "headlineJa": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内” (テレビ朝日系（ANN）) - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T10:21:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLWxpcjdQMml5QjFWbktXWXVmalZxLWFjSlRwdS1ZVkgxSzRfamtzX3JZWlZpRndSUzV0WXE3cnJ1YklmcjFLYzBGby1RRHJJbHRyUEpsZWN2dFZ0MXh0Rkt0dUFlbTRVRTdWdW5qeGlTUGlPMllzX0ktelhUU2lyclN5TmxYVVBtY0JUb1d3?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_a75bf9ce4b0878e6",
-      "headline": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内” - テレ朝NEWS",
-      "headlineTranslated": "Japanese people on board the ship may have been infected with hantavirus, passengers say ``tense situation'' on board - TV Asahi NEWS",
-      "headlineJa": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内” - テレ朝NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T10:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tbFY1MHhpX2dES1Z2dENGSVJJUm1BM3JQdGlIV1JQdFF0Mk1vZGE3TXJ2V1o2LS1ROTdtUnlER2pxTUFlb3pEZDhwZmo1TE13M1hVampiZ0VUeXBTZUxRSV9UdVNYUk1DN2RJbmxzMGtNXzNKUThIV2ZB?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "テレ朝NEWS"
-    },
-    {
-      "articleId": "gnews_adec9cc1ec607151",
-      "headline": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内”（テレ朝NEWS） - ｄメニューニュース",
-      "headlineTranslated": "Japanese people also on board the ship ``Hantavirus'' outbreak? Passengers talk about ``tense situation'' on the ship (TV Asahi NEWS) - d Menu News",
-      "headlineJa": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内”（テレ朝NEWS） - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T10:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU21zWlF1eDRCelZqNkFJN2NuQTJEeXdZeWRSazNyYkRCZVRmR3hLa0ZTa3JTbjlVY2FqcXRhNXhEZFI1dHhubk5Kbl9tNzU4X1EzV0M4d1lUd2lEa3VtdXpmUnVEdXRKS1hkSmJIRjBKdjFDRUtVNXdzcGo0R2otZ0hwRkVJcEVUWms1U3hfWQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_af330151a7fa5d5c",
-      "headline": "ヒトからヒト感染可能性含め調査とＷＨＯ - 京都新聞デジタル",
-      "headlineTranslated": "Investigation and WHO including the possibility of human-to-human transmission - Kyoto Shimbun Digital",
-      "headlineJa": "ヒトからヒト感染可能性含め調査とＷＨＯ - 京都新聞デジタル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T10:07:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FSzc1b3FZVi1DbFdidlllbWFGSGNjOGtHeHhTVGRIclJoeUhrNGk3SWh1bjRCeHJvVDVDeUYtci1VcGI3R1hBTko3SEJhSmZIU1FCcnhpdk0?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "京都府"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "京都新聞デジタル"
-    },
-    {
-      "articleId": "gnews_fad18471edee118e",
-      "headline": "「家に帰ることが望み」3人死亡ハンタウイルス“感染”クルーズ船に日本人1人も乗船 WHO「船外に拡大しない」 - Yahoo!ニュース",
-      "headlineTranslated": "``Hope is to go home.'' 3 killed, 1 Japanese aboard cruise ship infected with hantavirus; WHO ``It won't spread beyond the ship.'' - Yahoo! News",
-      "headlineJa": "「家に帰ることが望み」3人死亡ハンタウイルス“感染”クルーズ船に日本人1人も乗船 WHO「船外に拡大しない」 - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T09:50:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DdWY1ZWdHN2ZJN1ZvaDdNOFZENjVVazZnZ1lTcFMxSkF3aHFPa25lbkplNW1kcURESlVENGpkajdEVDVaeWZSVlNnTko3Z082U0picHBuUE9OdGxQVDVvZG50S2NyUnhzZzFYZkpKSDdWaGpNSV9BWVlraU9MOEU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_4aa4ade5da7bf425",
-      "headline": "新潟空港の利用者数、感染禍前を上回る 2025年度115万人で2・4％増、関西方面の利用増加 - 新潟日報",
-      "headlineTranslated": "Number of users at Niigata Airport exceeds pre-infection level to 1.15 million in 2025, an increase of 2.4%, with an increase in usage in the Kansai area - Niigata Nippo",
-      "headlineJa": "新潟空港の利用者数、感染禍前を上回る 2025年度115万人で2・4％増、関西方面の利用増加 - 新潟日報",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T09:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mcmJ4Tkhjeks2ZF9QQ0VQYU52OFVJZHhndWRwNlpJNjV0enZLbDhrRl91QTRUWThWQVVtNEFCd3lCVDhBSkJqMndiRklockM5UzQ5czNTSG9mdngya2c?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "新潟県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "新潟日報"
-    },
-    {
-      "articleId": "gnews_4f4fe07bc71b11ad",
-      "headline": "住宅街にハクビシン　都市環境に高い適応能力　住宅設備をかみちぎる被害や感染症のリスクも〈仙台市〉 - ｄメニューニュース",
-      "headlineTranslated": "Palm civets in residential areas Highly adaptable to the urban environment Risk of chewing through housing equipment and infectious diseases (Sendai City) - dmenu News",
-      "headlineJa": "住宅街にハクビシン　都市環境に高い適応能力　住宅設備をかみちぎる被害や感染症のリスクも〈仙台市〉 - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T09:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZZUxYalp6T2hQSE9sMVBheHJrcVVOa1dGaHZUVmNmOVBsM0pKeFR2Y2JWbkpPOFBpWDNxMkpYcTBDSXZPdF9qdGVOdDh6RDdOTlJWRk0zdzVTQ1Q3THQ3VW94ZWxjd25rR25peXl5UdIBdEFVX3lxTE9ad3lmYzNrUmJkMU1tcVpmcTN6RGhSakRjUGNvMjFHWHNZVV9VSjhGeEI0eTNxd2g4a28tQmxzQ1VnUE12UUpBUVNyZlFUa0EzV2k1eEtyemdEQ0VsblNLbTRGVHlRaXh0Tkg4VXBCNDd4RGR5?oc=5",
+      "publishedTimestamp": "2026-05-05T10:24:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81Z3A0VWtXTEZuYW9MLUxlaFd3V2kzU1VoeGZzbzRLM3B5RXpNcXczNDBJRUtCa0ZUbElmSmJ0Vm8tT0VGZ3pjR1EwMHRmbWI5NXFFUG9OQWc0QjhhaUUzWTRINUU2U3QwWTVtbmMyZUItZlliOFV3Q0o4VDlXUjA?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "感染症 (未特定)"
@@ -511,7 +1173,47 @@
         "宮城県"
       ],
       "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_aed8151361331be2",
+      "headline": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内”（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "headlineTranslated": "Japanese also board the ship, possibly infected with hantavirus? Passengers talk about the \"tense situation\" on the ship (TV Asahi (ANN)) - Yahoo! News",
+      "headlineJa": "日本人も乗船「ハンタウイルス」集団感染か 乗客語る”緊迫の船内”（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-05T10:21:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkX3l6SlZjTXVyeFppRVExS2N4c280eXhMczVIanNvdWt6RzBneUE5am9mUkE2STVFdmZZWVk2N2RScDU5djQ3NllQX2IwRnd1a05FY215T3NxOVhueENtbkpkWkNjb0UxbXZsRjhrb3R3LTdibDh4VlFUcjVXb1U?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_3259b37d63941ffb",
+      "headline": "新潟空港の利用者数、感染禍前を上回る 2025年度115万人で2・4％増、関西方面の利用増加 - 47NEWS",
+      "headlineTranslated": "Number of users at Niigata Airport exceeds pre-infection level, reaching 1.15 million people in 2025, an increase of 2.4%, with an increase in usage towards Kansai - 47NEWS",
+      "headlineJa": "新潟空港の利用者数、感染禍前を上回る 2025年度115万人で2・4％増、関西方面の利用増加 - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-05T09:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1iRDVGZzlhOXl4NkNGaDlMeUFFQ2xNS3dvRmtBaUNJelZNZVFRSWQ1OFpyRXRMdkNranRsdnc1OHFKQ0dvUTZjX1dSdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "新潟県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
     },
     {
       "articleId": "gnews_25e767d55710b5be",
@@ -572,26 +1274,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "朝日新聞"
-    },
-    {
-      "articleId": "gnews_f19b0786e6f88dae",
-      "headline": "北部クアンナム地域総合病院に感染症・結核科が開設されました。 - Vietnam.vn",
-      "headlineTranslated": "The Department of Infectious Diseases and Tuberculosis has been opened at the Northern Quang Nam Regional General Hospital. - Vietnam.vn",
-      "headlineJa": "北部クアンナム地域総合病院に感染症・結核科が開設されました。 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T06:23:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdGJkelZZZ3c4dnVBM3QzaEt5M21XQVF0bG8tT3NfSnJoMFE5Slg4Smd5bTFaMnN4dWppcjVYcFdsdTNkRXNmQzM1TTg4REs0ZUY3VUd6djBvR0c5SlplaDZ0U1BqSlZrSnJuWEZscWJuVmQ2Z3ZGTi1LZkRRY1lIQTdEczd6QWp6WERTWlo2Sm9qanJWRUpheGFXUnZTOEpYU0tIemJHbnhjY2p0VFU4RjVqSDNpeG1NTHJ6WGxB?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
     },
     {
       "articleId": "gnews_00bcfb9864d092fe",
@@ -655,26 +1337,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_f1ca315022acf948",
-      "headline": "【感染急増のはしか】治療薬は？ 妊婦は？ 街で聞かれたギモン、専門家に聞きました【バンキシャ！】 - au Webポータル",
-      "headlineTranslated": "[Measles infections are increasing rapidly] What is the cure? What about pregnant women? We asked an expert about the questions asked on the street [Bankisha! ] - au Web Portal",
-      "headlineJa": "【感染急増のはしか】治療薬は？ 妊婦は？ 街で聞かれたギモン、専門家に聞きました【バンキシャ！】 - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T03:37:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rRDZrc0dSeUxFN2VCUW11Y04yWUNsTGVLNFBxR3prTHJiRERGTlVsNUpWMmdXcXJ3UFhsRVhwM2taMkFjSzRvU29scmFYZklHNjRyMV9XaXFSbUw2U2hsTXZidHd3Sk1mWFVDcUxUakNoUGhsOVpCc2hIOA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
       "articleId": "gnews_0cc5666e976b58bc",
       "headline": "【感染急増のはしか】治療薬は？ 妊婦は？ 街で聞かれたギモン、専門家に聞きました【バンキシャ！】 - 日テレNEWS NNN",
       "headlineTranslated": "[Measles infections are increasing rapidly] What is the cure? What about pregnant women? We asked an expert about the questions asked on the street [Bankisha! ] - Nippon TV NEWS NNN",
@@ -693,26 +1355,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_a19135c40f3d7f49",
-      "headline": "【感染急増のはしか】治療薬は？ 妊婦は？ 街で聞かれたギモン、専門家に聞きました【バンキシャ！】 (2026年5月5日掲載) - ライブドアニュース",
-      "headlineTranslated": "[Measles infections are increasing rapidly] What is the cure? What about pregnant women? We asked an expert about the questions asked on the street [Bankisha! ] (Posted on May 5, 2026) - Livedoor News",
-      "headlineJa": "【感染急増のはしか】治療薬は？ 妊婦は？ 街で聞かれたギモン、専門家に聞きました【バンキシャ！】 (2026年5月5日掲載) - ライブドアニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-05T03:36:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1VGNabm1PQWs5LWdzMVpRMzVRMFVIRmtvdXR6ZzRXZGxBQksxMVVOenNOM1RWUmQ4MGV0OFhyeUMxZDRpaHZGZzRuWFVoaVh3WTZZN1QydXpUZHdxNHc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ライブドアニュース"
     },
     {
       "articleId": "gnews_d8191b9b22bbb741",
@@ -755,14 +1397,14 @@
       "sourceName": "読売新聞"
     },
     {
-      "articleId": "gnews_c5bf57abb10f0d31",
-      "headline": "【独自検証】空気感染も…はしか感染力は“最強クラス” 空気の流れを可視化し検証 対策は…【バンキシャ！】 - au Webポータル",
-      "headlineTranslated": "[Independent Verification] Airborne Transmission... Measles Infectivity Is \"The Strongest Class\" Visualizing and Verifying Air Flow Countermeasures... [Vanquisha! ] - au Web Portal",
-      "headlineJa": "【独自検証】空気感染も…はしか感染力は“最強クラス” 空気の流れを可視化し検証 対策は…【バンキシャ！】 - au Webポータル",
+      "articleId": "gnews_1ccf3223d5d9af0e",
+      "headline": "【独自検証】空気感染も…はしか感染力は“最強クラス” 空気の流れを可視化し検証 対策は…【バンキシャ！】 - ｄメニューニュース",
+      "headlineTranslated": "[Independent Verification] Airborne Transmission... Measles Infectivity Is \"The Strongest Class\" Visualizing and Verifying Air Flow Countermeasures... [Vanquisha! ] - dmenu news",
+      "headlineJa": "【独自検証】空気感染も…はしか感染力は“最強クラス” 空気の流れを可視化し検証 対策は…【バンキシャ！】 - ｄメニューニュース",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-04T22:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtOGw2SW9DQXpRRzZIaTY0OEFpUE1DZUM3WHllY1lZVURMQWl6OHV3TWZFR05FaXVybS1URWJEOEs2Q1VRRmMxYmNiRFFqWkJGZUEtWEVMSFppRy1LTXpsLW45UkxtTzU1a0RGUTJtbjNkM3dTOHA0U0pJMA?oc=5",
+      "publishedTimestamp": "2026-05-04T22:13:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmFSdWVrTDZfWV9GQVNpMzcyalR2OGJqS3d5bmdFSEZMSmZtTHAyaVo1X1BXTVNoNGRGenpwUlU4U2N3eW1XWFVWVWl1aG0tZzMtSlhRS0lwRk56bmdodTFJZjBtRXE1Ry02N3FxY0t6emVTa0V0SWZmbEYxd25TOHhaUENVbEZtWUtvSFVB?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "Measles"
@@ -772,27 +1414,7 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_a15429dc6b0768f0",
-      "headline": "【独自検証】空気感染も…はしか感染力は“最強クラス” 空気の流れを可視化し検証 対策は…【バンキシャ！】 - 日テレNEWS NNN",
-      "headlineTranslated": "[Independent Verification] Airborne Transmission... Measles Infectivity Is \"The Strongest Class\" Visualizing and Verifying Air Flow Countermeasures... [Vanquisha! ] - Nippon TV NEWS NNN",
-      "headlineJa": "【独自検証】空気感染も…はしか感染力は“最強クラス” 空気の流れを可視化し検証 対策は…【バンキシャ！】 - 日テレNEWS NNN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-04T22:10:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Md3FxMDlkNDRKSnFEZWJWZG9TZU42V3k2b1VjNm1JM1ViYUdoX0s5Z3hrcFU2Yks4elJVYmhpN2FzLU02c1pmMm1YeXpFZzZzUWlacU9LRWlHQmZrbFBaVXJaMXlydUo3X1BMVHk5V00zQTdyQVBJR1JobVo?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
+      "sourceName": "ｄメニューニュース"
     },
     {
       "articleId": "gnews_a55dbf9bba83f77f",
@@ -815,46 +1437,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_f3a86ca0dab15288",
-      "headline": "GW中に激しい下痢、嘔吐…もしかしてノロウイルス？ すぐに「救急車」呼ぶべき“危険な5つの症状”とは（オトナンサー） - Yahoo!ニュース",
-      "headlineTranslated": "Severe diarrhea and vomiting during Golden Week...maybe norovirus? What are the “5 dangerous symptoms” that should call an “ambulance” immediately? (Otonancer) - Yahoo! News",
-      "headlineJa": "GW中に激しい下痢、嘔吐…もしかしてノロウイルス？ すぐに「救急車」呼ぶべき“危険な5つの症状”とは（オトナンサー） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-04T21:58:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Za1NYZVFBeFByTm5RTk5xSXNYR25DNkFVdWQ5cUhBYmIwZXplTlhIY0Njbk9TRDBUcUZPa2QwdDMtQUxuZEQtRjRGOWt4N1ROUUFFY09nc3Bra1A1TVh1SnlaVVFYaVlaQTRqeVpCM1paZmZ4YjZmcG55NHpGWEU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Norovirus"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_7aa70cd314d33500",
-      "headline": "緑茶カテキン、新型コロナの感染防ぐ 佐賀大・光武教授らメカニズム解明 英国の学術誌に掲載 飲用やうがい、効果に期待 - 佐賀新聞",
-      "headlineTranslated": "Green tea catechins prevent the infection of the new coronavirus, elucidating the mechanism by Professor Mitsutake of Saga University Published in a British academic journal Expectations for effectiveness in drinking and gargling - Saga Shimbun",
-      "headlineJa": "緑茶カテキン、新型コロナの感染防ぐ 佐賀大・光武教授らメカニズム解明 英国の学術誌に掲載 飲用やうがい、効果に期待 - 佐賀新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-04T21:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQQ0RZdmpDRzlkeDRIdDBGdE5BTjhJTGFTc0ViRkJoWERKeG5hSC1MZVNmUW10R1dkWUVNWUtYM1h4dTBGcjlxUUpLZ3owN1ZNTGtSZFNR?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "佐賀県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "佐賀新聞"
-    },
-    {
       "articleId": "gnews_2c34c0e5c27da615",
       "headline": "はしか患者、昨年の4倍に急増 感染力はインフルの10倍…GW中の拡大懸念（産経新聞） - Yahoo!ニュース",
       "headlineTranslated": "Measles cases increase four times compared to last year, 10 times more infectious than influenza... Concerns about spread during Golden Week (Sankei Shimbun) - Yahoo! News",
@@ -875,26 +1457,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_21d694491ff43ff2",
-      "headline": "Elderly people still cautioned against Covid during Golden Week - Philippine News Agency",
-      "headlineTranslated": "",
-      "headlineJa": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-04T12:00:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NTVl6QTlLNU9PRmNHazJjb3hhMlRDMG9sN3BDOGxCNW54bThHdG0xYzhZWGtid25CVlY4SFlnZWtfbXVkdDBwZW5XaldOQ1BF?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Philippine News Agency"
-    },
-    {
       "articleId": "gnews_2011050766f6e847",
       "headline": "272 クルーズ船で集団感染…「ハンタウイルス」とは｜キキコミ｜news zero - 日本テレビ",
       "headlineTranslated": "272 Mass infection on cruise ship...What is \"hantavirus\" | Kikikomi | news zero - Nippon Television",
@@ -913,6 +1475,26 @@
       ],
       "dataSource": "Google News",
       "sourceName": "日本テレビ"
+    },
+    {
+      "articleId": "gnews_627932f23086949e",
+      "headline": "3人死亡 WHOが注意…日本は1999年以降感染なし - ABEMA",
+      "headlineTranslated": "3 people dead, WHO warns... Japan has no infection since 1999 - ABEMA",
+      "headlineJa": "3人死亡 WHOが注意…日本は1999年以降感染なし - ABEMA",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-04T10:22:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zeHJKektyMHBDYUVGQ3RHQVAyaFlUS3FEUGNWYTVFQXNiQmR2ZHFJazFyWWo0bFZNWVNFbTh1eW9PQmZoeE5TNHI1czc5R3ZZcThvaDZmbVBPWnM?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ABEMA"
     },
     {
       "articleId": "gnews_beddaf48e7c7197d",
@@ -945,8 +1527,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZUk1rRkRMRW5aM2h5ZjRkVjVvVS1tR3lIZzRScXpXclVOV3d6TzFRTVZxX2hoWFNZMW5jLXJYZzE0R1Q2V09La3dxdFZEek02bmo5MXJzX1dQYlFqWVZRVUdYRFhoMFJMMHJFUUdzckVqb0Vt?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Measles",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Measles"
       ],
       "locations": [],
       "states": [
@@ -956,24 +1538,24 @@
       "sourceName": "TBS NEWS DIG"
     },
     {
-      "articleId": "gnews_26a8b287aae188dc",
-      "headline": "3人死亡 WHOが注意…日本は1999年以降感染なし - HOME広島ホームテレビ",
-      "headlineTranslated": "3 people dead, WHO warns... Japan has no infection since 1999 - HOME Hiroshima Home TV",
-      "headlineJa": "3人死亡 WHOが注意…日本は1999年以降感染なし - HOME広島ホームテレビ",
+      "articleId": "gnews_e2ac3a3ddfba95c9",
+      "headline": "3人死亡 WHOが注意…日本は1999年以降感染なし - テレ朝NEWS",
+      "headlineTranslated": "3 people dead, WHO warns... Japan has no infection since 1999 - TV Asahi NEWS",
+      "headlineJa": "3人死亡 WHOが注意…日本は1999年以降感染なし - テレ朝NEWS",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-04T08:22:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83eWk2OHpXbldUMWNNeTgzcjdzVXBZd3VaUF9Kdm9GUFh4bk5HOGdhUHozby12QWJzMmRQSUJxODBLT0RTV2VFS3kyZ2c5cWFaeEtGYzZkalhaN1RlNmJHdW1ZcUo4N1NX?oc=5",
+      "publishedTimestamp": "2026-05-04T08:22:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tTjFIUEZPVFY5dG5YOEQ1T0dWbHdpWThUc0ZuMkRFWEZxWDVrMHlENHVmZE14TXZxRzMwUE9VckN5SHFCemlza2ZIVjFSamFEMHVaOWdKS19YeXh3TnU2T2tnMjhkS2VnUUxpY0pVVERPTGdwSDhuQXVB?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "感染症 (未特定)"
       ],
       "locations": [],
       "states": [
-        "広島県"
+        "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "HOME広島ホームテレビ"
+      "sourceName": "テレ朝NEWS"
     },
     {
       "articleId": "gnews_f0d7fecfff42e792",
@@ -994,6 +1576,27 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_8c3bd285856c1795",
+      "headline": "【岡山大学】岡山県内の感染状況・医療提供体制の分析について（2026年4月20日現在） - 大阪ベイ経済新聞",
+      "headlineTranslated": "[Okayama University] Analysis of the infection situation and medical provision system in Okayama Prefecture (as of April 20, 2026) - Osaka Bay Keizai Shimbun",
+      "headlineJa": "【岡山大学】岡山県内の感染状況・医療提供体制の分析について（2026年4月20日現在） - 大阪ベイ経済新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-04T06:30:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45dUpHVFB1cWVhYlhyaFQ3emttcndSbUZsbjVQQm9lYUVEQmV0VUctaWNXbXdSaTJIbnVMQ09SMU55dmlsVGwwVElCRzluZU02akMtR2d3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県",
+        "大阪府"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "大阪ベイ経済新聞"
     },
     {
       "articleId": "gnews_c477c943d1121d81",
@@ -1110,8 +1713,8 @@
       ],
       "locations": [],
       "states": [
-        "千葉県",
-        "東京都"
+        "東京都",
+        "千葉県"
       ],
       "dataSource": "Google News",
       "sourceName": "千葉テレビ放送"
@@ -1131,8 +1734,8 @@
       ],
       "locations": [],
       "states": [
-        "東京都",
-        "埼玉県"
+        "埼玉県",
+        "東京都"
       ],
       "dataSource": "Google News",
       "sourceName": "Yahoo!ニュース"
@@ -1152,8 +1755,8 @@
       ],
       "locations": [],
       "states": [
-        "東京都",
-        "埼玉県"
+        "埼玉県",
+        "東京都"
       ],
       "dataSource": "Google News",
       "sourceName": "埼玉新聞"
@@ -1217,288 +1820,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_f9ae4599c887d33e",
-      "headline": "「はしか」異例の流行 感染力はインフルの“10倍”…感染しやすい理由を“レーザー”で可視化【バンキシャ！】 - 日テレNEWS NNN",
-      "headlineTranslated": "Unprecedented measles outbreak - 10 times more contagious than influenza...Laser visualizes why people are more likely to get infected [Bankisha! ] - Nippon TV NEWS NNN",
-      "headlineJa": "「はしか」異例の流行 感染力はインフルの“10倍”…感染しやすい理由を“レーザー”で可視化【バンキシャ！】 - 日テレNEWS NNN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T11:40:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OTnhoRzB3SmMySnA0T2tUU19nY0ltQVhtTkwyckJ4dENZZjY2STUwenhVY3JKMEpJYWtkbUpyX19YRm53S2lQUTdiZWRYR01hbVhXdG5uNENlLTJydXJBOTd2N093SUk3NXZPMmoxWkR5UUpvc0IySmJBd28?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_81fe6fd0926117c9",
-      "headline": "【解説】「はしか」異例の流行…「感染対策」や「妊婦への影響」は？ 東邦大学・小林寅喆教授が解説【バンキシャ！】 - 日テレNEWS NNN",
-      "headlineTranslated": "[Commentary] Unprecedented measles outbreak...What are the infection control measures and impact on pregnant women? Toho University Professor Toranaka Kobayashi explains [Bankisha! ] - Nippon TV NEWS NNN",
-      "headlineJa": "【解説】「はしか」異例の流行…「感染対策」や「妊婦への影響」は？ 東邦大学・小林寅喆教授が解説【バンキシャ！】 - 日テレNEWS NNN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T11:28:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Dam5oNW9BYmNwWTA5YVBxdWV3eWQwQllGZFdral9EaWxVYmFaNHhXSmtYdVVCdXVjTUdyWmI1Z3o5OHlzZmhlQ2FOSDNCcFpqZlgwem9EVkNtc3FjVDNRS0pFcDFWS1EyOFFUS3A3emd3M3llOEM5ZkpKdjM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_0a9425bdcf2057c1",
-      "headline": "はしか患者、昨年の4倍に急増 感染力はインフルの10倍…GW中の拡大懸念 - Yahoo!ニュース",
-      "headlineTranslated": "Measles cases soar 4 times compared to last year, 10 times more contagious than influenza... Concerns about spread during Golden Week - Yahoo! News",
-      "headlineJa": "はしか患者、昨年の4倍に急増 感染力はインフルの10倍…GW中の拡大懸念 - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T10:30:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2ZllxY2RWUFo2YTNmQjJyZTJ2aVRrQkdhMFpFY1QzNnRlNFRMSlhONUtTMzlQd3BuVy15T0RVWGlPeEtBOUhFaHgtYVpUb09E?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_8457adc0a8e505db",
-      "headline": "東京のはしか患者、昨年1年間の5倍に 12年ぶりに学年閉鎖も 目立つワクチン接種不明（産経新聞） - Yahoo!ニュース",
-      "headlineTranslated": "The number of measles cases in Tokyo is five times that of last year, the school year is closed for the first time in 12 years, and vaccinations are unknown (Sankei Shimbun) - Yahoo! News",
-      "headlineJa": "東京のはしか患者、昨年1年間の5倍に 12年ぶりに学年閉鎖も 目立つワクチン接種不明（産経新聞） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T10:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15bFdXc2w0WEQ0RHRIMzRRelYtdWQwMkhqal9YM3dOcnE5eXBadXN1X2RWUXQ3NlNfWHVkS1BWemhCYWthTC1oNk1GTFpZRWx3NjZyOUJTNW9hY0JGRl95OWJGSVB0OFZzd0J2aGVSVnZGX3NiejJHaE40bHNORXM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_b14ed5be60888661",
-      "headline": "平塚市の10代男性がはしか感染 神奈川県内や都内の鉄道を複数利用（tvkニュース（テレビ神奈川）） - Yahoo!ニュース",
-      "headlineTranslated": "A teenage male in Hiratsuka City is infected with measles and uses multiple trains in Kanagawa Prefecture and Tokyo (TVK News (TV Kanagawa)) - Yahoo! News",
-      "headlineJa": "平塚市の10代男性がはしか感染 神奈川県内や都内の鉄道を複数利用（tvkニュース（テレビ神奈川）） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T09:30:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1XzhHX05UZ0s2LThsOXRjYnU1eDd5TGxxZGw4eWlySTJjMEVRenRVRzBZN1VQME5ZbzF2cFR0YVFvQjFLZ2plbkJnS3ZuSlRLeU5PVEdvVzdybUZTaVhFTE45WnIwTEctZDJMdl95d3ZGci0tbWs5VF8yTDVPVHM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "神奈川県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_02a6fde7a8f515d4",
-      "headline": "神奈川・平塚市在住の１０代男性がはしか感染 小田急小田原線やＪＲ山手線など利用 - 47NEWS",
-      "headlineTranslated": "A teenage male living in Hiratsuka City, Kanagawa, was infected with measles while using the Odakyu Odawara Line and JR Yamanote Line - 47NEWS",
-      "headlineJa": "神奈川・平塚市在住の１０代男性がはしか感染 小田急小田原線やＪＲ山手線など利用 - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T09:03:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kcEc3QTFMZWVWdlVFaGlCTVp2WXFaWlYydTlqcjNTd3pFVjNhTEJDYlk3VHlsaFp6RUF4bmN1ZVZqT1FpWTVmXzliSQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "神奈川県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
-      "articleId": "gnews_ed3755ad6176fe68",
-      "headline": "平塚市在住の１０代男性がはしか感染 小田急小田原線やＪＲ山手線など利用 - カナロコ",
-      "headlineTranslated": "A teenage male living in Hiratsuka City was infected with measles while using the Odakyu Odawara Line and JR Yamanote Line - Kanaroko",
-      "headlineJa": "平塚市在住の１０代男性がはしか感染 小田急小田原線やＪＲ山手線など利用 - カナロコ",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T09:03:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9waGE2by1raTBadEhLcjdXS3FBQ3NHRElGbHFoSlRzeTlMRk8yeTdMZjhsTlNLdzFFRk1kZmVkem1LNFdLZmpFVnIyUlBGQ1FVd25MQlRRVHl1OThHQVlCd2hhOWxMXzMxa2tqbw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "カナロコ"
-    },
-    {
-      "articleId": "gnews_8262773f835f992a",
-      "headline": "平塚市在住の10代男性がはしかに感染 小田原線や井の頭線、山手線など利用 (2026年5月3日掲載) - ライブドアニュース",
-      "headlineTranslated": "A teenage male living in Hiratsuka City was infected with measles while using the Odawara Line, Inokashira Line, and Yamanote Line (Posted on May 3, 2026) - Livedoor News",
-      "headlineJa": "平塚市在住の10代男性がはしかに感染 小田原線や井の頭線、山手線など利用 (2026年5月3日掲載) - ライブドアニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T09:03:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lNjlVQlJ1aWZDLWdhWHJmaVYtS2V1dlNTZ1dXUzQtNXl0eDhJZ3lybGRONnNXdDBxRlN5NGdhdGF2Qmx2NTYzRDc4cnlsX1VmdUhGLUpjdFdQQWEwaWc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ライブドアニュース"
-    },
-    {
-      "articleId": "gnews_430c7973910f39bb",
-      "headline": "＜5/3のバンキシャ！＞ GW各地で大荒れ“警報級大雨”関東へ▼感染力“インフルの10倍”はしか猛威 - 日テレNEWS NNN",
-      "headlineTranslated": "<5/3 Bankisha! > Severe storms in various parts of Golden Week, “alarm-level heavy rain” hits Kanto ▼Measles outbreak “10 times more infectious than influenza” - Nippon TV NEWS NNN",
-      "headlineJa": "＜5/3のバンキシャ！＞ GW各地で大荒れ“警報級大雨”関東へ▼感染力“インフルの10倍”はしか猛威 - 日テレNEWS NNN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T08:52:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zZFU0bFJYVDE3UUtmZFdxTlNNcXZPRWlqaEt3QXgzb01lTkxHMnkySTJUbU9qVVVmTjZoNUJkcFp3bjJsSnVram1MTGZyNDUzU2p1ZGJxd3Y1UlM1VU9OajlwdHQxcERZN3FsdVI3YUxva1pib1lmbEpiWjY?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_923aa1d6d14d66ab",
-      "headline": "はしか患者、昨年の4倍に急増 感染力はインフルの10倍…GW中の拡大懸念 - 産経ニュース",
-      "headlineTranslated": "Measles cases soar 4 times compared to last year, 10 times more infectious than influenza... Concerns about spread during Golden Week - Sankei News",
-      "headlineJa": "はしか患者、昨年の4倍に急増 感染力はインフルの10倍…GW中の拡大懸念 - 産経ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T07:48:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2OTU2Yml4VEJQcTZDRURIVXRrdWVPUmhtX2hidGdtZ3hLV1R6bVpOQUtOWjgzTkdKTlNMaDB4ZFdxRFo2LUprR3dqT0xPcU9uY0JOMGhFclRXWEJPVXBpMGtYRm15Ujl6RUYxLVBGZGdnaFJCM2c?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "産経ニュース"
-    },
-    {
-      "articleId": "gnews_e4520b4caeba77e2",
-      "headline": "はしかの感染者が長野に滞在　4月25日から26日　埼玉県川口市の男性　症状出た場合は医療機関に速やかに連絡を - ｄメニューニュース",
-      "headlineTranslated": "Measles infected person stayed in Nagano from April 25th to 26th, man from Kawaguchi City, Saitama Prefecture. If you develop symptoms, contact a medical institution immediately - d Menu News",
-      "headlineJa": "はしかの感染者が長野に滞在　4月25日から26日　埼玉県川口市の男性　症状出た場合は医療機関に速やかに連絡を - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T00:12:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xRG92TFdtOXZuU1p4SkhHZlNIdWdxUTc2Vm0wbFRHeXcxR0RFbXNwRzFTSmVDa2Zxd20ySXR1VWp6UVNnRkdKNEk5c2R3VHU1NnJVYm91RC1OMEwzM295Nm5fUUlib2ZtTkVSU9IBckFVX3lxTE5EVzZyM0xlTVpyeTY1M1VidnhHQ1VjbVBPbTZrNjBxOEpFM0xVWFRnWnZGSHdVOXFNMlZ3RmdWQXFjOVozT2pSWG5KekZmSDl4djN3SE9wR1ZSdG1NdUdDSFc0am5KWVUyUjJvSUZYS2Y0Zw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "長野県",
-        "埼玉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_3ca84ac0d2993e85",
-      "headline": "はしかの感染者が長野に滞在 4月25日から26日 埼玉県川口市の男性 症状出た場合は医療機関に速やかに連絡を - Yahoo!ニュース",
-      "headlineTranslated": "Measles infected person stayed in Nagano from April 25th to 26th Man in Kawaguchi City, Saitama Prefecture If you develop symptoms, contact a medical institution immediately - Yahoo! News",
-      "headlineJa": "はしかの感染者が長野に滞在 4月25日から26日 埼玉県川口市の男性 症状出た場合は医療機関に速やかに連絡を - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-03T00:04:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wdUUzMzd0b0hhN29DcnNBbkpNNk40bWFhZ0hxYkZDR215eFRGQ2hTNFJGa3JCNzdLdjUySm1Na2Z5aTJEZy0zU1N1ak03RXlzeXZIQURZLTFWLUtMUHoxcFd2c0Z1OFpudXhPSEktdUVvNWN0cXpPZ0wxV3RLeVU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "長野県",
-        "埼玉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_25e87051734b55f1",
-      "headline": "コロナ激減 多数が免疫獲得と分析 - Yahoo!ニュース",
-      "headlineTranslated": "Dramatic decline in coronavirus, analysis suggests many have acquired immunity - Yahoo! News",
-      "headlineJa": "コロナ激減 多数が免疫獲得と分析 - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-02T23:56:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CVktibGlsQVB6UmF0c0dsOGd0OHRfVVhYSS16VGVENmI4OFJFeHVld0VUX2FNbVhoMTNLWktIZzhreE04ZFM3U0x4RTk5OGNO?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_ad1570a638ac9c83",
-      "headline": "沖縄県がハブ咬症注意報 6月末まで発令 暖かくなるこの時期は活発に - au Webポータル",
-      "headlineTranslated": "Okinawa Prefecture issues warning for spider bites until end of June, active as the weather gets warmer - au Web Portal",
-      "headlineJa": "沖縄県がハブ咬症注意報 6月末まで発令 暖かくなるこの時期は活発に - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-02T23:08:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55TGNRU014U2YyS3N4ZWVKV0F5OFRPdEZDdWh0MDd4em9TX09OTzhLa2pBVG1mWlUxdDdCQkdBa0xmRkVvbXJrUU8wTXQtTTRlVjdaeDdZOFY4NE5TaERqWWZ3c1RieERYaXFwRjdwV19hNGpjWG83Mm1qYw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "沖縄県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
     }
   ]
 }
