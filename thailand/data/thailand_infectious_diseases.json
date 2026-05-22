@@ -1,24 +1,487 @@
 {
-  "generated_at": "2026-05-21T22:44:51.645541+00:00",
+  "generated_at": "2026-05-22T22:19:31.635871+00:00",
   "date_range": {
-    "start": "2026-05-18T22:44:51.645541+00:00",
-    "end": "2026-05-21T22:44:51.645541+00:00"
+    "start": "2026-05-19T22:19:31.635871+00:00",
+    "end": "2026-05-22T22:19:31.635871+00:00"
   },
-  "total_articles": 29,
+  "total_articles": 47,
   "state_summary": {
-    "Bangkok": 2,
-    "Thailand (province not identified)": 25,
-    "Saraburi": 1,
-    "Phrae": 1
+    "Phrae": 4,
+    "Bangkok": 4,
+    "Thailand (province not identified)": 37,
+    "Tak": 1,
+    "Chiang Mai": 1,
+    "Ratchaburi": 1
   },
   "disease_summary": {
-    "Ebola": 21,
-    "Infectious disease (unspecified)": 6,
-    "Influenza": 1,
-    "Mpox": 1,
-    "COVID-19": 2
+    "Infectious disease (unspecified)": 11,
+    "Ebola": 32,
+    "Dengue": 1,
+    "COVID-19": 2,
+    "Influenza": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_c08be6a27b1c3f58",
+      "headline": "'ไวรัสฮันตา' โอกาสแพร่กระจายข้ามประเทศยาก ไทยยังไม่มีสัญญาณเสี่ยงสูง - bangkokbiznews",
+      "headlineTranslated": "'Hantavirus' has a difficult chance of spreading across countries. Thailand still has no high risk signals - bangkokbiznews",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T19:39:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zX2FNWUJkb0VsdzBfVEN5eFNRMHhfY01DUmp1dUx2ZU1OcEtYbkFxcUppdGdXaHFrRE44dEwtMFRBZ21qRU9XWE5yWHhRUF94Q2Y3RHYxbjhvY2YzNXRINW1Jc1Y5eUN4VklF?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Phrae",
+        "Bangkok"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "bangkokbiznews",
+      "headlineJa": "「ハンタウイルス」が国を越えて広がる可能性は低い。タイには依然として高リスクの兆候はない - バンコクニュース"
+    },
+    {
+      "articleId": "gnews_f075505c5dc85e9d",
+      "headline": "กรมควบคุมโรคยืนยันไทยยังไม่พบผู้ป่วยอีโบลา ยกระดับเฝ้าระวังเข้ม | The Reporters - LINE TODAY",
+      "headlineTranslated": "The Department of Disease Control confirms that Thailand has not yet found any Ebola patients. Raise the level of strict surveillance | The Reporters - LINE TODAY",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T14:07:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PSmdJaWdZa0FRN0sybF9HNHl2RThYdi1DeVZXY0xsWHlWYzR0TU5jNUwtTXlacktiZVdEbDRJUEMybTJybTRaSmtyZ1lDV3hSR2MzYTBR?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "LINE TODAY",
+      "headlineJa": "疾病管理省は、タイではまだエボラ出血熱患者が見つかっていないことを確認した。厳格な監視レベルを引き上げる |ザ・レポーターズ - LINE TODAY"
+    },
+    {
+      "articleId": "gnews_9d42bb93bceefd7a",
+      "headline": "\"เจสสิก้า\" ส่งข้อความสุขอบอุ่นถึง Golden Stars ไทย ชวนทุกคนมาสร้างความทรงจำสุดพิเศษ - Thairath.co.th",
+      "headlineTranslated": "\"Jessica\" sends a warm message to Golden Stars Thailand, inviting everyone to create special memories - Thairath.co.th",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T13:06:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SeVA4b3BjbG9pLWRZMTdjZTdmVnZmUzBuVmRaQk8tSGVYU0U1V3plQ3N3Z05GRFlSY3pmX3NvSzk2Q3dRUFBaYUNidWptenBiZzJ6OTluazNwbDlaNHc?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thairath.co.th",
+      "headlineJa": "「ジェシカ」がゴールデンスターズ・タイランドに温かいメッセージを送り、特別な思い出作りにみんなを招待します - Thairath.co.th"
+    },
+    {
+      "articleId": "gnews_6bef2e4557611fb2",
+      "headline": "กรมควบคุมโรค ยกระดับมาตรการคุมเข้มคัดกรองนทท.จากพื้นที่ระบาด 'อีโบลา' - thansettakij",
+      "headlineTranslated": "Department of Disease Control raises strict control measures to screen tourists from 'Ebola' outbreak areas - thansettakij",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T10:50:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVZWVQV2hQMll0d2w2LVdVdkF0MGMwYUdqRTZfQUpqUWFxNEczV2doekhNWWJ6Q3cxMmZybEtzVjY1eFkxdFdVTWxxbVVQX2w2NmR5NWsxRTIzanh0T1oyaFY3U3FGTi1OSEhXZmF3?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Tak"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thansettakij",
+      "headlineJa": "疾病管理省、「エボラ出血熱」流行地域からの観光客を選別するための厳格な管理措置を講じる - thansettakij"
+    },
+    {
+      "articleId": "gnews_54e67f11c26f932f",
+      "headline": "ควีนเจสสิก้าส่งคลิปทักทายแฟนไทย Reflections Tour เจอกันแน่นอน! - สถานีวิทยุโทรทัศน์กองทัพบก",
+      "headlineTranslated": "Queen Jessica sends a greeting clip to Thai fans on Reflections Tour. See you for sure! - Royal Thai Army Radio and Television Station",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T10:36:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11VG03a0tGdUU1Q0xuMURpOXBmc2Q1SjNfVkEwVGdSM0QtaHdfd1pCalBFQ293U2hwa3lpY3NVYld0aVg3T1FRRWxxVXRZTXpreldpXzZIeWtaUQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "สถานีวิทยุโทรทัศน์กองทัพบก",
+      "headlineJa": "女王ジェシカがリフレクションズツアー中のタイのファンにグリーティングクリップを送信。必ずお会いしましょう！ - タイ王国陸軍ラジオテレビ局"
+    },
+    {
+      "articleId": "gnews_0f595f36f8149def",
+      "headline": "ผลสำรวจเผย 'คนไทย' มองประเทศกำลังเดินทาง 'ผิด' มากกว่าถูก - Brand Inside",
+      "headlineTranslated": "Survey results reveal 'Thai people' view the country where traveling is 'wrong' more than right - Brand Inside",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T09:13:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mc0EyNmdTRTJncmk2M2E1QTFBU2VSdnhiYjN6bHZwM3U4dWpfaEhHSnlaOVNvZzhMZjhWM0UyZHd5amt0dzNBNlRLMFdneWcxbG5pSHRBM0drUnFKcjBMY2VNb0wyUQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Brand Inside",
+      "headlineJa": "調査結果、「タイ人」は旅行が正しいというよりも「間違っている」国だと考えていることが明らかに - Brand Inside"
+    },
+    {
+      "articleId": "gnews_6d8299aefbf44958",
+      "headline": "กรมควบคุมโรค เดินหน้า คัดกรองชาวต่างชาติกลุ่มเสี่ยงติดเชื้อ อีโบลาเข้าไทย - js100.com",
+      "headlineTranslated": "The Department of Disease Control moves forward with screening foreigners in groups at risk of infection. Ebola enters Thailand - js100.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T08:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XbUh3RmRfZlBxZTg1OHdob3pndlZIUXVhS3FDVUhxT094QkE1VEtZLU5JOFJsM2pXSENEdU1JWmFoQWFzazFKUXBsSGxGbWtBQklkQUxaQ3cyQQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "js100.com",
+      "headlineJa": "疾病管理省は、感染のリスクがある外国人を集団で検査する取り組みを進めている。エボラ出血熱がタイに侵入 - js100.com"
+    },
+    {
+      "articleId": "gnews_8906c37c8e7d3ebf",
+      "headline": "Thailand tightens Ebola checks for DRC and Uganda arrivals - Nation Thailand",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T08:08:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PWi1ETzlydFdCQWdCTmZJbml0T0NwLUNmWXZPcnYxMXdrUzRLUTRsQUs1Z2NCUkdCZnlGekNFNmNnREpSRC1Ea1FKbENTLXNBcHdWOUFmY3hGQnBHY2RzemN0UVQyZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Nation Thailand",
+      "headlineJa": "タイ、コンゴ民主共和国とウガンダからの入国者に対するエボラ出血熱検査を強化 - ネイション・タイランド"
+    },
+    {
+      "articleId": "gnews_220ddaf7dcf6ced7",
+      "headline": "สธ. รับมือ \"อีโบลา\" ได้ หลังพบคนจาก คองโก-อูกันดา 126 ราย สั่งสังเกตอาการแล้ว . นพ.โรม บัวทอง รักษาการนายแพทย์ทรงคุณวุฒิ และผู้อำนวยการกองด่านควบคุมโรคติดต่อระหว่างประเทศและกักกันโรค กล่าวว่า เมื่อวันที่ 21 พ.ค. มีผู้เดินทางจาก 2 ประเทศรวม 5 คน แบ่งเป็นจากอูกันดา 4 ค - facebook.com",
+      "headlineTranslated": "The Ministry of Public Health is able to deal with \"Ebola\" after finding 126 people from Congo-Uganda who have ordered observation. Dr. Rome Buathong, acting highly qualified doctor. and the Director of the International Communicable Disease Control and Quarantine Division said that on May 21, there were a total of 5 people traveling from two countries, divided into 4 from Uganda - facebook.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T08:07:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgdBVV95cUxQVy1qaUgxNUk4d3hvY29YR294UTBiai1jajlrMjY2NGpEVG5uUFBlVjFqVGd5WkdKSi15OVhZTmxpalVYR0R2TS1oQjlpVUcybjVadUtfTFo3SmR3RjhUT3dqLTE5RXdINmtrNWdtNGk1dzB4MWZ0WEFBTFNCa1JPWFc1bXBuekFtclBqc25Jd0R0ZzZzZUNaT00wX2xDV3JoWHhaUW4wX1lNa1RKcWJyV08xZkJxazhuc1BnX2dLeUJxbW5SU1BXVWJweDdPY2dRSU5IdXVZd25JaXVDdFpjYzhBWmliVkx3NFF1WmtCT3dNeFhzTXI1Yl93UDY0RmxwSEhsT3YtandwQmVhS1ZRZnl1VGtFRjdKdlMtOGM1SUs5UXZUZ1QxMUN2ZDJRMGtfNFh5SW5SQ0RnM0s2OG5lWG43TmhvdVhJWmlQVjA0eXBrXzIyaDljZlBJMnhkcHhjRmJ6eFJZa09sNWIxdDl6NjEyWG9kWS15OGo3VzRYdm9TZ3ZmeEstRkhwcTE5RXZFbUdBTUpsQ21nU0gweEttXzFoQnp3dDdQcEVJQkhoSnl5WTl0WmJVOE9vdjY4U25pclNZYnNCYjhkV0JMYjBxTHBZaTAtaVRfS0FEUHhOck9kdGIzNzI4aW5iZkMtWW84a3JiYUlkaGtEeG5PSTY5TlRVSHpjUmJkQmdzV0h5VkNvSlV1dWdLMWVZQXFEZ2laVkFGMG1URzFlOXRzeGd4Z21kQlktdkdhN1JiS3VxQUM3SW5EbGJ6UzBMZWdPd0Jna09Ja2FsN1hnMVU4a28zYlNQdEdhN1BuRTd1M2lsU0RzRDIxMGNlb0FzbkRoQ1R5ejE0cnplVHlDQTFub0xadkppX0lyT1BfQVpma3NXZS10alFfWkpBTlEySHRTTEhkYjJwN0sySW1yc2ZCdTFick5TYlUxN1ZNcHVhOXVRT2xRSTFJc18wOHNybkFnT0JzejBIRU1DOUl3aGlsWFlhWUZaS2RaZ2F0b1g4MVlrSGcxUExnajJna2NkZWp0SmdwZUpiZUNZbk5JMTJKX3VEZUJEWWw5OFRKOW1BQU5BUkMwRWZMTnJfRmlaVHRNYS04ZWFtMVQ4Z0Uwanc0U2FTVHp5MFRqeEwyNmNqQ2NDT0JKTHk2SmpzdXhzeGdsRUM4aXo4bmtac00ydmhIN1U1YTRUYXpHeXV3bW1QdnRqb3h5ZFo5OHc3UEh2aDNlRmhHalc4Wnln?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "facebook.com",
+      "headlineJa": "保健省は、観察を命じたコンゴ・ウガンダ出身者126人を発見し、「エボラ出血熱」に対処できるようになった。ローマ・ブアトン博士、高度な資格を持つ医師代理。国際感染症対策・検疫部門の責任者は、5月21日には2カ国から計5人が旅行し、ウガンダからは4人に分かれたと発表した - facebook.com"
+    },
+    {
+      "articleId": "gnews_375d0a511ba3bd31",
+      "headline": "สธ. ยกระดับเฝ้าระวัง \"อีโบลา\" จากปท.เสี่ยงแม้ไม่พบเชื้อในไทย ชี้สายพันธุ์ระบาดยังไร้วัคซีน : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+      "headlineTranslated": "Ministry of Public Health raises surveillance level for \"Ebola\" from countries at risk even though no infection has been found in Thailand. Pointing out that the epidemic strain still doesn't have a vaccine: InfoQuest - InfoQuest News Agency",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T07:33:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBicl9nWXZIWmFmajMtZVJ4dDBFMUozMlNzeTI4c3BfMTlNRUo2YUhxRUctZy01bDF6RkpUT3F3NjRfa1VBaGZwaWZ1Z241cTdv?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "สำนักข่าวอินโฟเควสท์",
+      "headlineJa": "タイでは感染が確認されていないにもかかわらず、公衆衛生省は危険国からの「エボラ出血熱」の監視レベルを引き上げた。流行株にはまだワクチンがないことを指摘: InfoQuest - InfoQuest News Agency"
+    },
+    {
+      "articleId": "gnews_d353ed7ed641456d",
+      "headline": "‘ซอฟเฟล’ เดินหน้าภารกิจสู้ภัยจากไข้เลือดออก จัดกิจกรรมส่งต่อความห่วงใยสู่คนไทยทั่วประเทศ - แนวหน้า",
+      "headlineTranslated": "'Zoffel' moves forward with his mission to fight the dangers of dengue fever. Organize activities to pass on concern to Thai people all over the country - Vanguard",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T07:17:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBZeWd0QW5fd1dVQXpBTXVoV2RtZkpYMmtJdUF1ZXFEVExsakRlXzRSSUdqWjdXaGxHaDFPb1dUVnNJcWhQT0NnNF9B?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "แนวหน้า",
+      "headlineJa": "「ゾッフェル」はデング熱の危険と戦うという使命を前進させます。全国のタイ人に懸念を伝える活動を組織する - バンガード"
+    },
+    {
+      "articleId": "gnews_dd630598e2f63567",
+      "headline": "เฝ้าระวังอีโบลา 'บันดิบูเกียว' ยังไร้วัคซีน พบผู้เดินทางจากพื้นที่เสี่ยง 5 ราย - springnews",
+      "headlineTranslated": "Watch out for Ebola 'Bandibukyo' still has no vaccine, 5 cases found in travelers from high-risk areas - springnews",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T07:04:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jcTk3alc0NzYyaElhb0psUmZHc1g4aTJvQmZ6bmxHaURnMThpMV8wU1NhMkpKUi1RR1RTTWk2X3haUkV0aEFJQW8wcnAyamxIRkdwS2d1Rl9rY2lYRVhB?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "springnews",
+      "headlineJa": "エボラ出血熱に注意 「バンディブキョ」にはまだワクチンがなく、高リスク地域からの旅行者で5人の感染者が判明 - springnews"
+    },
+    {
+      "articleId": "gnews_7e54d84651edd170",
+      "headline": "อัปเกรดมาตรการคุม ‘อีโบลา’ ทุกสายการบิน จาก ‘ดิอาร์คองโก-ยูกันดา’ - Hfocus.org",
+      "headlineTranslated": "Upgrading measures to control 'Ebola' on all airlines from 'The Congo-Uganda' - Hfocus.org",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T06:54:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GcDQ2OC0xT3ZZZmFKblY0SXYtYTdGRVk2ZVFtX2pBWFVLZVpLZzhWZXc5bTRoWUZ1Q1FVSDVmNmpOUHR0YXdCTF9xNEM2cHc0Yk5nb0JLQQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hfocus.org",
+      "headlineJa": "「コンゴ・ウガンダ」からのすべての航空会社における「エボラ出血熱」対策の強化 - Hfocus.org"
+    },
+    {
+      "articleId": "gnews_50b8c469fe824122",
+      "headline": "สธ.จับตา อีโบลา ยันรับมือได้ พบคนจาก คองโก-อูกันดา 126 ราย สั่งสังเกตอาการแล้ว - ข่าวสด",
+      "headlineTranslated": "Ministry of Public Health keeps an eye on Ebola, insists it can handle it, found 126 people from Congo-Uganda, orders for observation - Khaosod",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T06:48:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qLU9JclBXVWVUZjdNYV9FTm1ZWkRoenJ5TEM2SGlBSEZWcWUwTk9FNWFBcWZSeHpWRTRYbXBLR2pBXzNaTWdoZ3d0MFlqaFo3SXAyd19QMkQ5NXM5RW5FSHZhNA?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ข่าวสด",
+      "headlineJa": "公衆衛生省はエボラ出血熱に監視、対処できると主張、コンゴ・ウガンダ出身者126人発見、観察命令 - カオソド"
+    },
+    {
+      "articleId": "gnews_b1d075f999b8bfe9",
+      "headline": "สาธารณสุข ยกระดับคัดกรองผู้เดินทางจากพื้นที่เสี่ยง “อีโบลา” ยืนยัน “ไทย” ยังไม่พบผู้ป่วย - CH3Plus.com",
+      "headlineTranslated": "Public Health raises the level of screening for travelers from \"Ebola\" risk areas, confirming \"Thailand\" has not yet found any patients - CH3Plus.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T06:34:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lVVRfekt6ajlxeld6VXFwcmhBU0ZQMEZuV1ltZ3lib1BKSDdsQ09lXzYtamJxdWNJM216UnZLMEd2N1QyLWRYZjJKNFFSVnplRkZxZkxuZHNzQQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CH3Plus.com",
+      "headlineJa": "公衆衛生局、「エボラ出血熱」リスク地域からの旅行者に対する検査レベルを引き上げ、「タイ」ではまだ患者が見つかっていないことを確認 - CH3Plus.com"
+    },
+    {
+      "articleId": "gnews_fe0c89192d3d948a",
+      "headline": "“สธ.ไทย” แลกเปลี่ยน WHO บทเรียนโควิด 19 การสื่อสารข้อมูลที่ถูกต้องสำคัญสุด การบิดเบือนกระทบงานสาธารณสุข - Hfocus.org",
+      "headlineTranslated": "“Thai Ministry of Public Health” exchanges WHO lessons on COVID-19, communicating accurate information is the most important. Distortion affects public health - Hfocus.org",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T06:10:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13UlZiWXBJaXI5Y0FIMzRBWmZNMS1oNzJWQXhoc3pEZkRvZXNWTUpvYWxxX0JyT0FQdFFCLXdkRmRPUDB0NldWSnRXbERBa0U1Q3gzOVBlcw?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hfocus.org",
+      "headlineJa": "「タイ公衆衛生省」は新型コロナウイルス感染症に関するWHOの教訓を交換し、正確な情報を伝えることが最も重要だ。歪みは公衆衛生に影響を与える - Hfocus.org"
+    },
+    {
+      "articleId": "gnews_8e67f26e555184ab",
+      "headline": "สกัด 'โรคอีโบลา' เข้าไทย สกรีนเข้มทุกคนต้นทางจาก 2 ประเทศเขตติดโรค - bangkokbiznews",
+      "headlineTranslated": "Preventing 'Ebola disease' from entering Thailand, strict screening of everyone originating from two countries infected with the disease - bangkokbiznews",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T05:50:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kNmRfSFJWWFpPMTVoWjBOQVRVQnFIdjEyQ2VaSGRPRENkSFV4M0pNQWNvN2x4Z1Z2dUdjcW5VOFFvZWFWbWd4V0lBaTE0V002ajVPRWxxRHFoMGZhOUZlaW5uVHhrX0NUeWZF?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Bangkok"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "bangkokbiznews",
+      "headlineJa": "「エボラ出血熱」のタイへの流入を阻止、この病気に感染した2カ国出身者全員を厳格に検査 - バンコクニュース"
+    },
+    {
+      "articleId": "gnews_46266d4de2ed2e8a",
+      "headline": "คุมเข้ม ‘อีโบลา’ ยกระดับคัดกรองผู้เดินทางจากพื้นที่เสี่ยง ‘คองโก-ยูกันดา’ - The Bangkok Insight",
+      "headlineTranslated": "Strict control over 'Ebola', enhancing screening of travelers from high-risk areas 'Congo-Uganda' - The Bangkok Insight",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T04:36:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yeTZXeUZUcHlCeFJFWkMyNDhvaDhXRFhSZ3FXNnFTZ2RqQlBIekFxZUE3UkZROFpsdnlVUzl2Mk1GT3ZrUG9Dd2lGeUZMa2Fua1RvUTg5VlVDTUF5SjhCTnhETHh5QXJvQ0dLTERLUGdFOVAxWTVOdVg2OV8?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Bangkok"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Bangkok Insight",
+      "headlineJa": "「エボラ出血熱」を厳格に管理、高リスク地域「コンゴ・ウガンダ」からの旅行者の検査を強化 - バンコク・インサイト"
+    },
+    {
+      "articleId": "gnews_7ba02f13cf35a536",
+      "headline": "พบนักเดินทางจากประเทศต้นตอ \"อีโบลา\" สะสม 126 คน ยันไม่พบผู้ป่วยสงสัยในไทย - posttoday",
+      "headlineTranslated": "A total of 126 travelers from the originating country of \"Ebola\" were found, confirming that no suspected patients were found in Thailand - posttoday",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T04:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UHgwdHpYckZvZ3g4XzhOTWVhSldUci1XLXVYTEV2Z2hVMWJhWlZ1VEdLUFBmLW1taWgwRlU2QjVoZ1R6a1NGNDBENnBmRnpUTmYtRXVn?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "posttoday",
+      "headlineJa": "「エボラ出血熱」発生国からの旅行者計126人が発見され、タイ国内で感染の疑いのある患者は見つかっていないことが確認された"
+    },
+    {
+      "articleId": "gnews_8332aaacd2320c88",
+      "headline": "“อีโบลา” ยังระบาดในแอฟริกา แพทย์ มช.ชี้ ไทยยังเสี่ยงต่ำ แต่ควรระวังเฝ้าระวัง - chiangmainews.co.th",
+      "headlineTranslated": "“Ebola” is still spreading in Africa. CMU doctors point out that Thailand is still at low risk. But you should be careful and watch out - chiangmainews.co.th",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T04:16:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11aXAxbGtSTEF3REhiZ3JNYW1RbTlQMzM1cGM3cVdqRGt0YVFMTUhJYkN1ZGtrbHRwSEwtYnNzRGg2d1RzckJUQUcwdkJidHV0QlI2Njc2QmQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Chiang Mai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "chiangmainews.co.th",
+      "headlineJa": "アフリカでは今も感染が拡大している「エボラ出血熱」。 CMUの医師らは、タイのリスクは依然として低いと指摘する。しかし、注意して気をつけるべきです - chiangmainews.co.th"
+    },
+    {
+      "articleId": "gnews_e9814bc8ffed94e9",
+      "headline": "สธ. ยกระดับ ฮันตาไวรัส โรคติดต่อร้ายแรง เจอสงสัยต้องรายงานใน 3 ชั่วโมง - Matichon Online",
+      "headlineTranslated": "Ministry of Public Health raises the level of hantavirus as a serious contagious disease. If you find something suspicious, you must report it within 3 hours - Matichon Online",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T04:11:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUd05HRjV2Z2psZmU4UE1aUlBPRFJzRDFia2NIUXFLNHVXYlZUMEYyUy1wRUlwNjl2aVA0dmpsN3N3WHJtbEUzZ2RLendKRG9LWGlXcEVYS0VYNkh6NXp6blVFN2xHUzNsLXc?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Matichon Online",
+      "headlineJa": "公衆衛生省はハンタウイルスのレベルを重篤な伝染病として引き上げました。何か不審なものを見つけた場合は、3 時間以内に報告する必要があります - Matichon Online"
+    },
+    {
+      "articleId": "gnews_7ba3155235dc0ba1",
+      "headline": "รัฐบาลประกาศ ‘คองโก-ยูกันดา’ เป็นเขตโรคติดต่อ ‘อีโบลา’ วางระบบกันแพร่ระบาด ‘ข้ามแดน’ - TheCoverage.info",
+      "headlineTranslated": "The government announces 'Congo-Uganda' as 'Ebola' infectious disease zones, setting up a system to prevent the spread 'across the border' - TheCoverage.info",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T03:21:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxMVdmWHNFY0JPNWN6YWZaSVVodVZJcXY2ZmlMMUhOb05QX0V1THY3ZndsYktpcDQ1TEsydGw4eVMtbUIyOHRZT3EteXAwdlJNNzdhSFUxdlFubEU?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Phrae"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TheCoverage.info",
+      "headlineJa": "政府、「コンゴ・ウガンダ」を「エボラ出血熱」感染症地域として発表、「国境を越えた」感染拡大を防ぐシステムを構築 - TheCoverage.info"
+    },
+    {
+      "articleId": "gnews_838b878dcf4acb49",
+      "headline": "มีสัญญาณที่ต้องระวัง ‘ภัยเชื้อโรครีเทิร์น’ ไทยไม่ซ้ำรอยยุคโควิด? - เดลินิวส์",
+      "headlineTranslated": "There are signs to watch out for. 'Danger of germs returns': Thailand won't repeat the Covid era? - Daily News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-22T01:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZeC05RE1ZSEtCb2k4cVRQa3Bja09PLUZwSHFNVTFWRUNOempqWk1nc1hxb0ZYUUVCVDlGSkM5V0tKck9fb2pKQ2FxNTVWU2VwMm5JSF92VEI?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "เดลินิวส์",
+      "headlineJa": "注意すべき兆候があります。 「細菌の危険が再び」：タイはコロナ時代を繰り返さないのか？ - 毎日のニュース"
+    },
     {
       "articleId": "gnews_c688aa1278e2ece9",
       "headline": "‘อีโบลา’ จะระบาดมาถึงไทยไหม ‘หมอยง’ มีคำตอบ | The Bangkok Insight - LINE TODAY",
@@ -38,6 +501,26 @@
       "dataSource": "Google News",
       "sourceName": "LINE TODAY",
       "headlineJa": "「エボラ出血熱」はタイにも広がるのか？ 「ドクター・ヨン」が答えを持っています |バンコク インサイト - LINE TODAY"
+    },
+    {
+      "articleId": "gnews_10d6910af1e3651f",
+      "headline": "ฟังเสียงสะท้อน นทท. ต่างชาติที่หนุนฟรีวีซ่า 60 วัน ในวันที่ไทยเตรียมยกเลิก - BBC",
+      "headlineTranslated": "Listen to the echo of foreign tourists who support free 60-day visas on the day Thailand prepares to cancel them - BBC",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-21T11:33:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OMlByekwyZ2ZUbVRyWTVXQUh1eDhPQ0poMy1PbkZhRU40blljLVF0TEZuN0RRMHNwMk5LdElELWNvY0ZCZ253N2d2a3Z3TzFzSGM0MTBGaXJxQdIBX0FVX3lxTE03LUd2MS1Jb2NMWkE1Q2VuMnRoNVl5NndXbEU1cWdMUHJGQUJkVUpDbE4zZWszOFV0THhYcVlJRGNpVkFqOVA5a3Z4Zk9OcFkwWEdPMlFzMExodGo5SXBz?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BBC",
+      "headlineJa": "タイが60日間のビザを取り消す準備をしている日に、無料の60日間ビザを支持する外国人観光客の反響に耳を傾けてください - BBC"
     },
     {
       "articleId": "gnews_fb88d42f7bcda160",
@@ -60,6 +543,26 @@
       "headlineJa": "タイのバジュラキティヤバ王子、重度の感染症と合併症を患っている - Vietnam.vn"
     },
     {
+      "articleId": "gnews_ab53cddd26b191f8",
+      "headline": "ไทยเพิ่มมาตรการป้องกัน \"อีโบลา\" สนามบิน-สายการบิน เข้มคัดกรองผู้โดยสาร - Thai PBS",
+      "headlineTranslated": "Thailand increases measures to prevent \"Ebola\" at airports and airlines Strict screening of passengers - Thai PBS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-21T05:47:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15U0ZUTEJhMVh5WFNKU2gyRFN4WUJ2VnhQLWEwYkdjVWFVaG01a084dEdlX2kxdnNtY0lRanJWNklsVkxLWkxxeEJndWJ3Yi04cTBqa3RiaU8?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thai PBS",
+      "headlineJa": "タイ、空港や航空会社で「エボラ出血熱」対策を強化 乗客の検査を厳格化 - タイPBS"
+    },
+    {
       "articleId": "gnews_ec952322641c1e86",
       "headline": "เจาะลึกไวรัสฮันตา โรคอุบัติซ้ำ ที่คนไทยต้องจับตาในปี 2026 - TrueID",
       "headlineTranslated": "In-depth look at Hantavirus, a re-emerging disease that Thai people must keep an eye on in 2026 - TrueID",
@@ -80,6 +583,26 @@
       "headlineJa": "2026 年にタイ国民が注意しなければならない再興感染症、ハンタウイルスについて詳しく見る - TrueID"
     },
     {
+      "articleId": "gnews_0ea09ebf95d4b51d",
+      "headline": "สธ.ประกาศเฝ้าระวัง 'อีโบลา' คุม 'คองโก-ยูกันดา' เข้าไทย หวั่นเกิดการแพร่ระบาด - SondhiX",
+      "headlineTranslated": "Ministry of Public Health announces surveillance of 'Ebola', controlling 'Congolese-Uganda' entering Thailand, fearing an outbreak - SondhiX",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-21T03:08:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zS1p2UWhSOGRpcHdZSkJXdExWU1FFVEwxWm9SVENvU2pVWXM0d1Q3bVlRTk9zNm9hNkxDU1lNUWlIM2Jub2huZVVwNUZxNlZLNmtYT3h3?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Phrae"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "SondhiX",
+      "headlineJa": "公衆衛生省が「エボラ出血熱」の監視を発表、流行を懸念してタイに入国する「コンゴ・ウガンダ人」を規制 - SondhiX"
+    },
+    {
       "articleId": "gnews_0eac580da4cfe611",
       "headline": "สธ. เข้ม! ยกระดับคัดกรอง “ผู้เดินทางจากคองโกและยูกันดา” ป้องกัน “อีโบลา” - posttoday",
       "headlineTranslated": "Ministry of Public Health is strict! Raise the level of screening “Travellers from Congo and Uganda” protect against “Ebola” - posttoday",
@@ -98,26 +621,6 @@
       "dataSource": "Google News",
       "sourceName": "posttoday",
       "headlineJa": "保健省は厳しい！検査レベル引き上げ「コンゴとウガンダからの旅行者」を「エボラ出血熱」から守る - ポストトゥデイ"
-    },
-    {
-      "articleId": "gnews_5081a44e378d885d",
-      "headline": "การบินพลเรือน ยกระดับ เฝ้าระวัง ป้องกัน งัดมาตรการสาธารณสุข 3 ด้าน สกัด ไวรัสอีโบลา - ข่าวสด",
-      "headlineTranslated": "Civil Aviation upgrades surveillance, prevention, and uses public health measures in 3 areas to contain the Ebola virus - Khaosod",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-21T02:03:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKQmwxeWRxOXFyc0RNQlZibUgxdnhiNV9MaVFHUVpoYWh4RUd2SlV1MnNtaVMwRVR1WTc1TExPSkJPb1Y5Q0NBR2pBUFdwQ09YdkJrLUlVSmt5T05iZGhaTXlENzFPdw?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Thailand (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ข่าวสด",
-      "headlineJa": "民間航空はエボラウイルス封じ込めのために監視と予防を強化し、3つの地域で公衆衛生対策を講じている - カオソド"
     },
     {
       "articleId": "gnews_693a088ec8f17dba",
@@ -160,26 +663,6 @@
       "headlineJa": "保健省が緊急発表！エボラ流行後、タイ国民に高リスク２カ国への旅行を控えるよう警告 - サイアムニュース"
     },
     {
-      "articleId": "gnews_3aeed66f57de62ee",
-      "headline": "WHO ประกาศ “คองโก-ยูกันดา” เป็นเขตติดโรคติดต่ออันตราย “ไวรัสอีโบลา” ไทยเฝ้าระวังเข้ม | สวพ.FM91 - LINE TODAY",
-      "headlineTranslated": "WHO declares \"Congo-Uganda\" as zones infected with dangerous infectious diseases. \"Ebola virus\" Thailand strictly monitors | FM91 - LINE TODAY",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-20T14:28:43+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kWlo5U25mYVVqY0thaEdIdHJPd091d0JCckZLUzVjaFd3V1Vfc0NGWjN2bjVrWk5iY3I1bjI0czFTNjJoemVJU25HWUp6RG1HZHlXU2V3?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Thailand (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "LINE TODAY",
-      "headlineJa": "WHOは「コンゴ・ウガンダ」を危険な感染症の感染地域に指定。 「エボラウイルス」タイが厳重監視 | FM91 - 今日のLINE"
-    },
-    {
       "articleId": "gnews_6eea8da6eea44077",
       "headline": "ประกาศ “คองโก-ยูกันดา” เป็นเขตติดโรคติดต่ออันตราย “ไวรัสอีโบลา” ไทยเฝ้าระวังเข้ม - Thairath.co.th",
       "headlineTranslated": "Declaration of \"Congo-Uganda\" as zones infected with dangerous infectious diseases. \"Ebola virus\" Thailand strictly monitors - Thairath.co.th",
@@ -200,6 +683,26 @@
       "headlineJa": "「コンゴ・ウガンダ」を危険な感染症の感染地域として宣言。 「エボラウイルス」タイが厳しく監視 - Thairath.co.th"
     },
     {
+      "articleId": "gnews_dba9f50e29327811",
+      "headline": "ราชบุรี พร้อมสู้ \"ปากเท้าเปื่อย\" หลังพบระบาดในจีน-ปศุสัตว์ มั่นใจไม่เกิน 2 เดือนผลิตวัคซีนเองได้ - thaitabloid.com",
+      "headlineTranslated": "Ratchaburi ready to fight \"foot-and-mouth disease\" after outbreak found in China and livestock Confident that in no more than 2 months we can produce our own vaccine - thaitabloid.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-20T13:24:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmMFJXT0FmTGtvWnRfX3BOczdtQTVvaVRhd0VZWUc1bm5lX0lMbUh1WndTRThGX0ZzTE9aX25yU3VCSk80c2FIMXdZcnhWbEwz?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Ratchaburi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thaitabloid.com",
+      "headlineJa": "ラーチャブリー市、中国と家畜で発生が確認された「口蹄疫」と戦う準備ができている 2か月以内に独自のワクチンを製造できると自信 - thaitabloid.com"
+    },
+    {
       "articleId": "gnews_6bd72b6db62218e2",
       "headline": "อีโบลาน่าห่วง! สธ. ประกาศ “คองโก-ยูกันดา” เป็นเขตติดต่อโรคอันตราย - TNN Thailand",
       "headlineTranslated": "Ebola is worrying! Ministry of Public Health announces \"Congo-Uganda\" as a dangerous disease transmission zone - TNN Thailand",
@@ -218,26 +721,6 @@
       "dataSource": "Google News",
       "sourceName": "TNN Thailand",
       "headlineJa": "エボラ出血熱が心配です！保健省、「コンゴ・ウガンダ」を危険な疾病伝播地域として発表 - TNNタイ"
-    },
-    {
-      "articleId": "gnews_2dc6106e2e29d0ab",
-      "headline": "นายก อบต.มิตรภาพ มวกเหล็ก สระบุรี นำเจ้าหน้าที่ฉีดพ่นหมอกควัน-หยอดทรายอเบทป้องกันยุงลายในชุมชน - ทอล์คนิวส์ ออนไลน์",
-      "headlineTranslated": "Mayor of Mittraphap Muak Lek Subdistrict Administrative Organization, Saraburi, leads officials to spray fog and drop Abate sand to prevent Aedes mosquitoes in the community - Talk News Online",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-20T12:05:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsa3h2R2t5b3BMYmQ1aWhkOHgzYWtmWlNEeU1ZNDViNUdOeTdIMkdUU0FxZ1pNVG5MUXZPekVmZnJMM3pLUTBYUW01a3hIZ19tb2JKZQ?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Saraburi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ทอล์คนิวส์ ออนไลน์",
-      "headlineJa": "サラブリ市ミトラパープ・ムアクレック副地区行政組織の市長は、地域のネッタイシマカを防ぐために職員に霧を噴霧し、アバーテ砂を投下させるよう指導 - トークニュースオンライン"
     },
     {
       "articleId": "gnews_544c9ae6e25530e5",
@@ -360,24 +843,24 @@
       "headlineJa": "ミス・エコ・インターナショナル2026「ジェシカ・クリスティーナ」の民族衣装をご紹介 |ダラデイリー - LINE TODAY"
     },
     {
-      "articleId": "gnews_634865464dac340b",
-      "headline": "ออสเตรเลียเผชิญการระบาดของโรคคอตีบรุนแรงที่สุดในรอบหลายทศวรรษ - SBS Australia",
-      "headlineTranslated": "Australia faces worst diphtheria outbreak in decades - SBS Australia",
+      "articleId": "gnews_7990f001e7196a58",
+      "headline": "สธ.เฝ้าระวัง “อีโบลา” เข้ม ไทยยังไม่พบผู้ติดเชื้อ - TNN Thailand",
+      "headlineTranslated": "Ministry of Public Health strictly monitors \"Ebola\". Thailand has not yet found any infected people - TNN Thailand",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-20T05:52:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPem4tQ3hNemoyVnN5YzlodHlCUER6R0U4c1dxRDhIeFB4QWR3VUdZbUF2QXBzYmhEZWxIR2dSbVJEUno4SDZlemlsZUNWWmJvdXV1T3dnZ0ZPcnRCM0g0eVNVZzc4R1kzRWVTb1dNakQ5Ujh2Q3lBYUZDX3VIaTExVEVLbnowMTVMb2c?oc=5",
+      "publishedTimestamp": "2026-05-20T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PQUtyaEJ5cWVXbVl0ajlZLWxYYmlvNXljWm5OdzU0TnJTSml3MkZvVnVlQjAwd0lUXzRPX2JPM3ZVdWYyZVFybEdSZTdVYUNEeTdJWA?oc=5",
       "originalLanguage": "THAI",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Ebola"
       ],
       "locations": [],
       "states": [
         "Thailand (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "SBS Australia",
-      "headlineJa": "オーストラリアはここ数十年で最悪のジフテリア流行に直面している - SBS Australia"
+      "sourceName": "TNN Thailand",
+      "headlineJa": "保健省は「エボラ出血熱」を厳しく監視している。タイではまだ感染者は出ていない - TNNタイ"
     },
     {
       "articleId": "gnews_5e02f94814016603",
@@ -460,13 +943,13 @@
       "headlineJa": "コンゴにおける「エボラ出血熱」の流行状況に注目してください。そしてタイはどれほど危険なのでしょうか？ - 今日のポスト"
     },
     {
-      "articleId": "gnews_17b910f8a18618db",
-      "headline": "รัฐบาลกำชับ สธ. ติดตามการระบาดโรค “อีโบลา” อย่างใกล้ชิด ย้ำยังไม่พบระบาดในไทย ขอประชาชนอย่าตื่นตระหนก - Thaigov",
-      "headlineTranslated": "The government has instructed the Ministry of Public Health to closely monitor the Ebola outbreak, emphasizing that it has not yet been found in Thailand. Asking people not to panic - Thaigov",
+      "articleId": "gnews_e10f9fe0fbc49ffd",
+      "headline": "รัฐบาล กำชับ สธ. ติดตามการระบาด-เฝ้าระวัง 'อีโบลา' แจ้ง ยังไม่พบในไทย ขอปชช.อย่าตื่นตระหนก - ข่าวสด",
+      "headlineTranslated": "The government instructs the Ministry of Public Health to monitor the outbreak and monitor 'Ebola', noting that it has not yet been found in Thailand. Asking people not to panic - Khaosod",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-19T11:47:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16MmFGdWpyNnBFNDRUb1pMT0xqczR5dDlyZ0hjbEhoalpxTUNRdV9nUERqemdzdFREd3V0M2pVeEZycXYxRS1ZTXhMTmExU1Y4Nnc?oc=5",
+      "publishedTimestamp": "2026-05-20T02:45:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmUTBEUmxWZTYtVS1kdnVHLWFuUkFXV0t3MTY3V0Q3LVZyOXZXOWl5WWNHSnVBLVc5UURYX2NsenBuTGMySXdZSjk1LTZHamxHUnpobklfMExkUXpt?oc=5",
       "originalLanguage": "THAI",
       "diseases": [
         "Ebola"
@@ -476,130 +959,8 @@
         "Thailand (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Thaigov",
-      "headlineJa": "政府は公衆衛生省に対し、エボラ出血熱の流行を注意深く監視するよう指示し、タイではまだエボラ出血熱は見つかっていないことを強調した。パニックにならないよう人々に呼びかけ－タイゴフ"
-    },
-    {
-      "articleId": "gnews_67a3c5275cf38e9d",
-      "headline": "Mpox still a concern in Thailand, mainly among men - Bangkok Post",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-19T08:01:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcE9uWXVWa0RYNlpfb0lGcWNSWHpQMTAxV25wdGNxNTRuTU1oWFFTT05GbHF4UEQwS1JFYlJsaFA2VnNDZUU4ajl0eldjZFdMeHZRNU9ESF8ya3drT3BBeWZMOXdYdTd5N1pfV2xCN0dCLVFSR2czdkIyYjNscE1jdE1fVGdheEY2aWo2MVZtQkZxaTQ4RFRyUVRrTHNJZ2lrYWlPMQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Mpox"
-      ],
-      "locations": [],
-      "states": [
-        "Bangkok"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bangkok Post",
-      "headlineJa": "タイでは依然としてMPOXが主に男性の間で懸念されている - バンコク・ポスト"
-    },
-    {
-      "articleId": "gnews_0bb0cc784e09dac7",
-      "headline": "ไขข้อสงสัย “อีโบลา” จะระบาดถึงไทยไหม - ทำไมเชื้อรุนแรงแต่ไม่กระจายเหมือนโควิด? - TNN Thailand",
-      "headlineTranslated": "Solving doubts: Will Ebola spread to Thailand - why is the infection severe but not spreading like COVID? - TNN Thailand",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-19T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0aUJGcVZVTGVtYkM5WVowandQbnNPYmoxZU1TaXZLOW4zek9LSkFGbXozUHc5ejZ6THpJZm5kNlpBYVpVSm40NkpGUGEtTlcxdEdnRUU4VldqcVVr?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "COVID-19",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Thailand (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TNN Thailand",
-      "headlineJa": "疑問の解決: エボラ出血熱はタイに広がるのか - なぜ感染は深刻であるのに、新型コロナウイルスのように広がっていないのか? - TNNタイ"
-    },
-    {
-      "articleId": "gnews_9bfa9d6764aaba16",
-      "headline": "สธ.ยืนยันไทย ยังปลอด \"อีโบลา\" ตั้งการ์ดสูงคัดกรอง 21 วัน - TNN Thailand",
-      "headlineTranslated": "Ministry of Public Health confirms Thailand is still free from \"Ebola\", setting high guard for screening for 21 days - TNN Thailand",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-19T05:14:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MMkFrcFYtcGRUbVprV0g0c3FoVHRrT2hnVXJ3MkxZcTI3Nk1hc2dhUHpULTgtWDNMX1hTeDZwakI0T2pVQmlac0lQemxnbnAwdEYxNg?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Thailand (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TNN Thailand",
-      "headlineJa": "保健省、タイではまだ「エボラ出血熱」に感染していないことを確認、21日間の検査に厳戒態勢 - TNNタイ"
-    },
-    {
-      "articleId": "gnews_27b856d3de40b854",
-      "headline": "อีโบลาระบาดถึงไทยไหม? หมอยงตอบชัด เหมือนหรือต่างจากโควิด เตือนอย่าวิตก - Thaiger",
-      "headlineTranslated": "Has the Ebola outbreak reached Thailand? Doctor Yong answered clearly, is it similar or different from COVID? Warning: Don't worry - Thaiger",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-19T04:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Hd0pBYkZ6b01FM0NwNHlXdW4wQ0NGMEt5UFUwMGZxMXpEazFMMVkxb3BwcFk4Zkx1MmZZNzNSVXBGV09hRFU2N01wMk9CeTF1?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "COVID-19",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Thailand (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Thaiger",
-      "headlineJa": "エボラ出血熱の流行はタイにも及んでいるのか？ヨン医師は、新型コロナウイルスと似ているのか、それとも違うのか、と明確に答えた。警告: 心配しないでください - タイガー"
-    },
-    {
-      "articleId": "gnews_efc71952de886a00",
-      "headline": "Ebola virus: Thailand tracks travellers from high-risk areas, puts hospitals on alert - The Straits Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-19T04:10:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRTE4bS1tbVZPOGxTVjFQVG1VU0lta21pUWh0ZnJFN1FmRUQwVGEyYmRkQlpEc28zZzVTTXc0WDM0bnlNWVhGUzBiYk9KbUxaSVFIODhqaEdqQXZIb1BnT0dfVVpON19uSmNJS0RiSW5INTV6VkIxRTF3czlsZ0ZGN3NDR2twYzhnWVBhQ0dJLTZuRTZKbV9RTmptVHFhalhHR1pYLUdrWmM4N05MT0VZR3I1UkRkaUdueXNmelk1ckxyUExRcWprcmZteHJNbWpmRlJTamtFLTh4ekFtcGVF?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Thailand (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Straits Times",
-      "headlineJa": "エボラウイルス：タイ、高リスク地域からの旅行者を追跡、病院に警戒態勢 - ストレーツ・タイムズ"
-    },
-    {
-      "articleId": "gnews_6925a85691a3a6a2",
-      "headline": "“โรคติดเชื้อไวรัสอีโบลา” รุนแรงมากแค่ไหนและจะระบาดมาถึงไทยหรือไม่? - TNN Thailand",
-      "headlineTranslated": "How serious is “Ebola Virus Disease” and will it spread to Thailand? - TNN Thailand",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-19T00:45:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42cG1WcjQ3YU5GczN5UklFSjZNSTU4b3dFd3VWVWtvSmJ6Q1hHQWZZbEV5eWlSWlptYXVGQThqdW53NUxtc1RDVlAwbWFhQnBrbklXZ3RBSlVVZ3M0?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Thailand (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TNN Thailand",
-      "headlineJa": "「エボラ出血熱」はどれほど深刻で、タイにも広がるのでしょうか？ - TNNタイ"
+      "sourceName": "ข่าวสด",
+      "headlineJa": "政府は保健省に対し、タイではまだ「エボラ出血熱」が見つかっていないとして、感染状況を監視し監視するよう指示した。パニックにならないよう人々に呼びかける - カオソド"
     }
   ]
 }
