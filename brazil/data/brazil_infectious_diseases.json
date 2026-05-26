@@ -1,37 +1,475 @@
 {
-  "generated_at": "2026-05-25T22:33:00.796985+00:00",
+  "generated_at": "2026-05-26T22:45:11.929150+00:00",
   "date_range": {
-    "start": "2026-05-22T22:33:00.796985+00:00",
-    "end": "2026-05-25T22:33:00.796985+00:00"
+    "start": "2026-05-23T22:45:11.929150+00:00",
+    "end": "2026-05-26T22:45:11.929150+00:00"
   },
-  "total_articles": 35,
+  "total_articles": 48,
   "state_summary": {
-    "Piauí": 3,
+    "Brasil (estado não identificado)": 20,
+    "Piauí": 11,
+    "Goiás": 1,
+    "Alagoas": 2,
+    "Pará": 7,
+    "Sergipe": 4,
     "Tocantins": 4,
-    "Sergipe": 3,
-    "Brasil (estado não identificado)": 10,
-    "Pará": 12,
     "Espírito Santo": 1,
     "Santa Catarina": 1,
-    "Paraná": 1,
-    "Alagoas": 2,
-    "Mato Grosso": 2,
-    "Mato Grosso do Sul": 2,
-    "Bahia": 2,
-    "Amazonas": 1,
-    "Paraíba": 1
+    "Paraná": 1
   },
   "disease_summary": {
-    "Dengue": 15,
-    "Doença infecciosa (não especificada)": 3,
-    "Chikungunya": 2,
+    "Dengue": 30,
+    "Doença infecciosa (não especificada)": 5,
+    "Measles": 5,
+    "Ebola": 4,
+    "COVID-19": 1,
+    "Chikungunya": 3,
+    "Zika": 1,
     "Influenza": 2,
-    "Measles": 11,
-    "Ebola": 2,
-    "Meningitis": 1,
-    "Avian Influenza": 1
+    "Meningitis": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_aa422b758fdae24e",
+      "headline": "Instituto Natan Portela solicita volta de exames de dengue suspensos no PI - CidadeVerde.com",
+      "headlineTranslated": "Instituto Natan Portela requests the return of dengue exams suspended in PI - CidadeVerde.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T22:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYW4yM1RyOVZJaDRCeG5SWnNncHdTRDdUbkc2VkczcGhKUll3TGNvVDF5TGxFS0RhR1hUSjY2XzlyZGpPWEF2UVlibFMxUmltQkZOOTJ0WGZ2aHRHV0xRZ2lHdm0wR0x4ZXVENEo3WFpUY01vOXJoTzJwS1RXaVJrUW52Mm1GUTFPdFc4UklyR3BHbVVSaURXekphWDI4YWlJbVdfY3J2a0dBckNRMktCbGNSNHI?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CidadeVerde.com",
+      "headlineJa": "ナタン・ポルテラ研究所、PIで一時停止されていたデング熱検査の返還を要請 - CidadeVerde.com"
+    },
+    {
+      "articleId": "gnews_082738ff9e1995b5",
+      "headline": "Mulher de 49 anos morre de dengue em Teresina; 5ª morte no Piauí - Portal Piauí Hoje",
+      "headlineTranslated": "49-year-old woman dies of dengue fever in Teresina; 5th death in Piauí - Portal Piauí Hoje",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T19:11:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaVFkTlFZanZJc2hOZmViS2lEbDQ4d05sTEhyU2YxamFmaEtrT1U1RkxqUHlWUkJ0YkNDcWVIMHFob002c2s2QldOU0FtR2Z0d19uRVd6cGFUZXB6ZmlDYWFaS0t5c3JkX1pJRVNqTTZVUnAwcGU5cFN5MXdPSjI4Q1oyR3R1ZWpuV2E3MDJmMDF3NWtTUnJlUkJWNWw5ZTlpam1fVzd1dW1Val8zek1nVjY1QUJ4dG8?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal Piauí Hoje",
+      "headlineJa": "テレシナで49歳女性がデング熱で死亡。ピアウイで5人目の死亡 - Portal Piauí Hoje"
+    },
+    {
+      "articleId": "gnews_4c1c855125fbefae",
+      "headline": "Mulher de 49 anos morre em Teresina vítima da dengue; quinto óbito no Piauí - CidadeVerde.com",
+      "headlineTranslated": "49-year-old woman dies in Teresina from dengue fever; fifth death in Piauí - CidadeVerde.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T19:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVVFod2hiNHU5OXZOU25ycjQwbGU1RDlkM2VxNEV4VzBRQUFCSUhNM0RPa1FlVW0tc05zSFVEUWw5NXRleEUtZERleUdhMkNiUVNJZ0V1TUo3SHQ4YmtwVXFQejhOTjN0X2N2WmpETzVZRmtmVlFoQWdsQ1pnTjlYOEpUdVpILXV2eW9NSnJrRGZlcy1xWjQ5THhmRl80Zkg5cnlfaDdoVGNudUp2TjBqU0tNZUE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CidadeVerde.com",
+      "headlineJa": "テレジナで49歳女性がデング熱で死亡。ピアウイ州で5人目の死亡 - CidadeVerde.com"
+    },
+    {
+      "articleId": "gnews_84ab239ffbd2b283",
+      "headline": "Mulher morre por dengue em Teresina; capital registra 1° óbito pela doença em 2026 - Portal Clube News",
+      "headlineTranslated": "Woman dies from dengue in Teresina; capital records 1st death from the disease in 2026 - Portal Clube News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T17:38:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGY1d0hReUYxMGJBUlQ2Y1M5RFVCT3J5VkhFR19wMkFPX19vUkhmSTZzV0VEM0lDelJNS2N4d1M4amREcTNmV1dOUndxMWU1Q2tqblRnSFVneGNEbXk1TFJmRUFJN29yaTNmTzh3azl5X1QtMEN2cVo5cFNfdHNYU0Jhb0RCZ0xCVkZlWlRWeXFUemNHUUx1Z0c4S3h4RVhPSmxXUmN1Y1lOUDZrcVJ4TDZfSWJkTTJVTFNBWQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal Clube News",
+      "headlineJa": "テレシナで女性がデング熱で死亡。首都、2026年にこの病気による初の死亡者を記録 - Portal Clubeニュース"
+    },
+    {
+      "articleId": "gnews_96764b0c22f9f4a5",
+      "headline": "Mulher de 49 anos morre vítima de dengue em Teresina - G1",
+      "headlineTranslated": "49-year-old woman dies from dengue fever in Teresina - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T15:48:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV3FLUWhBQzZfc1hOMEVlc05tMzV6RUhDQ3hKQU9adDhORFZsRGVhd1k4NjlCVmpPQnFvbC1MQnJaWHpTb0JZWVV6TU16bWlWNzRsdnF4b05yZVRmTmRXaldhbTRTV1AzNmxyVy1FekZrMkVmUXJBbkhJYWVNTlB0akVjRdIBkgFBVV95cUxQbndPWWlMd0pTV1JRWDNpWC1rLWRnbjdHR3l0Ujh2NUUzZkk0Zm8zWXNBNEk4SjNXRFRueTRKMV9KTzBTSDRiUkFVQlpmM2MwS1pYWTVMSWpHbFpKMVFoMUZUbUJmYnlXdndqT1M3d3BuVjI3RVpzVHhVcURTcHdFM0cxZFcxWTRZUlZpc2FNVUFKQQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "テレシナで49歳女性がデング熱で死亡 - G1"
+    },
+    {
+      "articleId": "gnews_da925925469a33ad",
+      "headline": "Diretoria Municipal da Saúde registra queda no índice larvário em Bariri - band.com.br",
+      "headlineTranslated": "Municipal Health Directorate records a drop in the larval index in Bariri - band.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T15:25:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0NUWjZZcFRyQjhKbE9zRndXRzhhbWdXOWo0dXFUVXdxOVlJZVljLW5MQmg5V3Axc0Vpc20zNTdETjVxMzQxNE5uems4eGlaVDlncE45alJaLUdVMk13Um95UEYyYndyNHlqNS05VmVfbVVKdjliUWRLOFB6REhpTXNsLXc2enU0SE9VSWpDcWZDbkptMHVVb2djdUtGZGRjeDNiNUdYMXBxMERXODl0S1B3MnpITDIySlNRZlh1Z2RrcEZwZVc4ZXVfUWw0WHgySmhjZjlzV3FsMldGR1E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "band.com.br",
+      "headlineJa": "市保健総局、バリリの幼虫指数の低下を記録 -band.com.br"
+    },
+    {
+      "articleId": "gnews_6d9e0d04da43d06d",
+      "headline": "Dengue no Piauí: menina de 7 anos morreu vítima da doença em São Raimundo Nonato - G1",
+      "headlineTranslated": "Dengue in Piauí: 7-year-old girl died from the disease in São Raimundo Nonato - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T14:53:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcGFlYk5xLUdoRGZSaUdsYk9OTHVuT3p4VWlScHA3alFkazREMU00RnkyTDFCUi1mR3hPVUlIMnhfZUtscndGVV9iWTJ4UTZrdHA3MWRrajRCTUN0UGt3LVA2eEpHT243WUc2bF9JUXpxbEhCc0tCMkhaUmlIcGVUakNJcWdFLV9CSC1oRktiQjV0bktvamJIVHVUU0dZbURpb0Z1UVdadTJsc0Nzbnhoa0d1WnJmR21IRldXR0FzQUM1Rm1ETUM1blc2aWdYTDA3T25hd0I2Wnl2RGZaNVpjamo4RmRnUdIB9AFBVV95cUxPempCY203eXYwNVBaTDhDcXhHRkZYOG9lMk9ZMWc1dVVMeVNpUkpoM0hFeXAxc0FxN3psenVZaGZSYTFuZlFkUmZDdDlqSExISWlFWFp4RzJhanhwYUc3allOZXp1WnljeWh2N0VHQ1RtNzJXZ1BQTkFKdXg4TkkwWEhyMG5zcVZlX1ZjWHRjd3ZxcW9ySUVWNDNLcHZlVE9KUTFNSU1Pdkltd1BXMEZUdGsyY2RXYnJTN0ZLMDVxYWVfYkxQcDNkbXVuVFdoRFRlWW5EMlJ0U01BNWVOSWNJenhxWndjSzZmNTFuaTV3bXFaaVJM?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "ピアウイ州でデング熱：サン・ライムンド・ノナトで7歳女児が死亡 - G1"
+    },
+    {
+      "articleId": "gnews_89fc5c0ac962a68d",
+      "headline": "Menino morre com dengue em Goiás - G1",
+      "headlineTranslated": "Boy dies from dengue in Goiás - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T14:27:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmY4Q09PRUxEdmpDQmNXOG9HRVJuZm53VTZ3UE1fbTB5Wm5sTi1KRFczTnByMHlQTWRDWUMwRk00ZmJ5azBaVHZxOUxaeVRPRG9tSWMzemhDOU5FOWxYTmJpYmQ2SXhwaUZ3S1F2TTRCVHlMYmEwQ25XdU5nb1huQWV3SDVLaW9yZU5TclZEaWxWa1pMdXFob3ZPS3ptQUHSAZ8BQVVfeXFMTlZmOENPT0VMRHZqQ0JjVzhvR0VSbmZud1U2d1BNX20weVpubE4tSkRXM05wcjB5UE1kQ1lDMEZNNGZieWswWlR2cTlMWnlUT0RvbUljM3poQzlORTlsWE5iaWJkNkl4cGlGd0tRdk00QlR5TGJhMENuV3VOZ29YbkFld0g1S2lvcmVOU3JWRGlsVmtaTHVxaG92T0t6bUFB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Goiás"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "ゴイアス州で少年がデング熱で死亡 - G1"
+    },
+    {
+      "articleId": "gnews_1e04256dc46af162",
+      "headline": "Dengue avança no Piauí e cuidados dentro de casa entram em alerta - Assembleia Legislativa do Piauí",
+      "headlineTranslated": "Dengue is advancing in Piauí and care at home is on alert - Legislative Assembly of Piauí",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T12:14:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQzh0WTJUSlRrLThIa1lZbU1UTFhxcjNoRGI5dmdWTDRNV1Z0d2tXYUFNdnFfWjVTLU45dnhfRHdBUTNLNFRLQTFnRG0zTDNuZm94OG1VYVZudkN5YU9ON2lzbjZlNktxNVFheGNuNzJxUTd2aFJ5bGhjd2tHS3k3YnVnbTRHQ2EzUURza3ZoaEZQM0FUMmhMNmN1Q1JqV0tFTUgyNV9PZC1LekdfaGN1LUE4dDE2LVZIOFpjLVNnZ1lyTm91LWRj?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Assembleia Legislativa do Piauí",
+      "headlineJa": "ピアウイ州でデング熱が進行しており、自宅でのケアに警戒が必要 - ピアウイ州議会"
+    },
+    {
+      "articleId": "gnews_00ce6e0d5458a72d",
+      "headline": "Mulher em surto é atendida pela PM e levada para unidade de saúde - Alagoas 24 Horas",
+      "headlineTranslated": "Woman in outbreak is treated by PM and taken to health unit - Alagoas 24 Horas",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T12:11:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZGNIZlIwRmlLcVR6Q2dENGFkaTZkbEM2MEhrVDN1UjhfeURBZzFLMldaWVRMRDFtb09KdGtITGhtemcyQmZqeG9veGRJeFdEV2FXYTNOcHp6QXpkNlZiVWdZMW1McE85V1RsZkVjaXNWd29wcFJqSUtfakEzZzh1OXVnbG1XdUxaaVRPS1N3UHdtTWk4cW1pck1sbTN0dkJLOHdSTERJQzJyU3NRajhGN3l30gGyAUFVX3lxTE5kY0hmUjBGaUtxVHpDZ0Q0YWRpNmRsQzYwSGtUM3VSOF95REFnMUsyV1pZVExEMW1vT0p0a0hMaG16ZzJCZmp4b294ZEl4V0RXYVdhM05wenpBemQ2VmJVZ1kxbUxwTzlXVGxmRWNpc1Z3b3BwUmpJS19qQTNnOHU5dWdsbVd1TFppVE9LU3dQd21NaThxbWlyTWxtM3R2Qks4d1JMRElDMnJTc1FqOEY3eXc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Alagoas",
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Alagoas 24 Horas",
+      "headlineJa": "感染爆発の女性、首相の治療を受け保健室へ搬送 - アラゴアス24ホラス"
+    },
+    {
+      "articleId": "gnews_8ffbf8e3f7cda519",
+      "headline": "Torcedores rumo à Copa devem tomar vacina do sarampo - Diamante Online",
+      "headlineTranslated": "Fans heading to the World Cup must take the measles vaccine - Diamante Online",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T11:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNU1NGVDFXdnlQYlVfMjVzSk1EVXI4dUpwbk1LOWVKX1hxeTFRQm55ZkpHU0h6dTNNdXAzb2pSOFJkSFAyZ2EwMGM3M0ZDOFhyeXdFRlBGakQzSUtidzg1S1RJaFpKVDl3WENVS1RETEZVaXdVLWdqLXNKcFN6OXkwRjdGal9EU09VT3Q2TUp5bWhQeGhJeXFMYkZNXy00TE9iaERWbDJuQjhTZ0thaVE0T1M4aVExRUVzR014WkE1bw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Diamante Online",
+      "headlineJa": "ワールドカップに向かうファンは麻疹ワクチンを受けるべき - Diamante Online"
+    },
+    {
+      "articleId": "gnews_c0814d0eb32ba513",
+      "headline": "Professora morre com suspeita de dengue no Sul do Piauí - Portal R10",
+      "headlineTranslated": "Teacher dies due to suspected dengue fever in the south of Piauí - Portal R10",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T11:25:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdkY1MjI5akdDQTljUkprb1FiSHRKczFlUm5oNVBHZUxrZmZRQzhsREJMSTZKOW5FYnRpYkhXMkFlQjR6V1NiNVlnWWIyM2pFNGpBdDJXZXE5VmRZaEtYc3UyV3V4aXJRRW5ia1dkZWhsUnh3ZDlOX0pkcTNVZzIyeGpvUHJiV2Z5akQ5N19CNnl5R0dUekxPYmt4MFlxTDRGeDhGR2gzdV_SAa4BQVVfeXFMUFp2UHozYnZkTlVNRmtfLVFLdnVpS3lJU1JSYklreUstMmpqSDNaQU5WQ2phYmhYeGJ4VENyNWNyc3pSOTFHQ2JabWdfX0R6a1lIUmw0X0xKTlBqMkprNnJ3UEM4LVNoNUYxY21IVThXMjZkc3NoVXV0SlM5YkVZSFF5Q3c1czd5NGhaWFBGWUFvaFF2WmVuVlNnZjk0X0VMcWltbnJzVlhRZFVTRUNB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal R10",
+      "headlineJa": "ピアウイ南部で教師がデング熱の疑いで死亡 - Portal R10"
+    },
+    {
+      "articleId": "gnews_c4bc2287a99246e8",
+      "headline": "Minas registra 23 mortes por dengue e 29.116 casos confirmados - Rádio Itatiaia",
+      "headlineTranslated": "Minas records 23 deaths from dengue and 29,116 confirmed cases - Rádio Itatiaia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T11:25:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcmpOdHZudUFBOUlRamZ5UHNVN1hnakhXdDQ1VW5NbWdINW1jR0N5YU9uejYxTWtEbEkza21FRVl3NTFycEtFODRmR0dON3JDTVBEcF9nRjJaUXJoSDlaTVVWSlV0Z01aamhXZDNKRkJHd2xybFBDbnJHbERwblRsRmRBc0tsbDFVQ0kwNXhuN293T2ZRZlhxc3Q4VTNTR0M5U0hxUFBpaTgwZHZ4U2c?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rádio Itatiaia",
+      "headlineJa": "ミナス州、デング熱による死亡者23人、感染者29,116人を記録 - Radio Itatiaia"
+    },
+    {
+      "articleId": "gnews_68484d99a6f04ecd",
+      "headline": "Surto de Ebola: há riscos para o Brasil? Especialistas respondem - A Gazeta",
+      "headlineTranslated": "Ebola outbreak: are there risks for Brazil? Experts respond - A Gazeta",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T11:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcUJPY2dCQmJmWExiT05jWmthaExoVGNYRU5KaFVaWlBrWHhYcFdZek45SFRVWVBMM24xdnd6Q2h4eExCb0ZRNEFHZTYxSzFXTUJkSWJrZm44RVdreWxlenpfVDlEMWs2X3haQXVDa0RFMHBJN2wwVXVER1ZtakVsS3Z2eUtqcWxLcGNpeGRrU0ZmYmtMX2pSOExtWFNGSHhHWV8xWEJR?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "A Gazeta",
+      "headlineJa": "エボラ出血熱の流行：ブラジルにリスクはあるのか？専門家が答える - A Gazeta"
+    },
+    {
+      "articleId": "gnews_0a52ced48bb987d5",
+      "headline": "Menino de 7 anos é primeira vítima fatal da dengue confirmada em Anápolis em 2026 - Diário do Município Anápolis",
+      "headlineTranslated": "7-year-old boy is the first fatal victim of dengue fever confirmed in Anápolis in 2026 - Diário do Município Anápolis",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T11:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU1dTak0zLTZFT1p6b1FZTzlmQ0YzQnZXUDJhQXplSjkyN2N0TnJTSk1wNGx1ZERLc2ZYTXkwOHJFRHlTSWpkeHhoN1VoR1ZhRG1Wal8xY0FWYXQ0OVFUdEFaMjlKcnRBd3ZINGlkOTh3SThBcU14Ukdfa3FzejZvWUtKNXFnSUdMQ0NKdjd5THpNS1BxUERXLWd4cldQTlhlS3paYkxLb09Odzl6S1FQNEdqWmpCcDk0Skh2cGY0dzZBb00?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Diário do Município Anápolis",
+      "headlineJa": "2026年アナポリスで確認されたデング熱による初の死亡者は7歳男児 - アナポリス市ディアリオ"
+    },
+    {
+      "articleId": "gnews_25bcc5f1458078f9",
+      "headline": "Professora morre com suspeita de dengue em Santa Luz; escola suspendeu aulas - Portal O Dia",
+      "headlineTranslated": "Teacher dies from suspected dengue fever in Santa Luz; school suspended classes - Portal O Dia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T10:39:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWmg4RmtPelFfOGkzSGJNOGdubzNYVTZWSGRkQWRScTg1ZWN0cmQ3S1AwVmlORlFNLWJWUEhwcU9oMHc5bGtNT1d6bDRIc2pTWk9DQkx0Qnpka0VmLU9wMmQ4YUhCOEQ0Z1BVRWU4WU5MZElWcWtFb2JlNUhFV1d4ZGtITGxLZ0M5YUJ4Q29OUHVpT2hGckJDbHhCV2Q0dmFtQTJjSlI5R0Z6OF9hWmRSejRvTE9wVVA4clRTcjgtNzI1djkySGpNTjg2MTM?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal O Dia",
+      "headlineJa": "サンタ・ルスで教師がデング熱の疑いで死亡。学校の休講 - Portal O Dia"
+    },
+    {
+      "articleId": "gnews_3145d7195e12af61",
+      "headline": "Surto de sarampo em países da Copa alerta sobre importância da vacinação no Brasil - O TEMPO",
+      "headlineTranslated": "Measles outbreak in World Cup countries warns about the importance of vaccination in Brazil - O TEMPO",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T10:31:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmVvWENlWS1wMnh0VWJTeDNYejlGTGIzSXAzVjB4dW1raHVwWG9OT291R0RidmFNeU5pM29MX3hoblFEVDlMUlU1TllabUIxWC1Va1dfWWlhU1p3cnlTRFVTZ0xVVDhaRGdnWDRuNlpwM3B1LXU5OTBJWkJ6Nmx6TzFjZWJZd2VEN2Z2aFJ2LXpGcXRZYnljcUNwZnRBSjd1dllWVkhyaGEzczg4bDBPY1NjTUhid3VFLXVUaEl4bXp0RnRNR1dBR0IwYmRQcFpyRmc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "O TEMPO",
+      "headlineJa": "ワールドカップ出場国での麻疹流行、ブラジルでのワクチン接種の重要性を警告 - O TEMPO"
+    },
+    {
+      "articleId": "gnews_409c58ae34ef4119",
+      "headline": "Menino de 7 anos morre vítima de dengue, em Anápolis - Daqui",
+      "headlineTranslated": "7-year-old boy dies from dengue fever in Anápolis - Daqui",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T10:15:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcmx5WG5nMi1sQ1l0TERScnVVWG04ZTZwOVpmVWdJdHFwUEZ6THFRZTdQTGowdnB6N1ZORlZwN3ZONGZKQ0Y0bGNzOHJyUXQ5X2VvNE10TDlPTkhhVV9wMmJ0eWR6bUJWVkdabjlhVG5GRHN5NG9obFc1MUprU1B2Sm9EdmllUnc2dktXVVZmTjFWUldyUDRxdFFtUkhXdw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Daqui",
+      "headlineJa": "アナポリスで7歳男児がデング熱で死亡＝ダキ"
+    },
+    {
+      "articleId": "gnews_81e9ca58f83c9357",
+      "headline": "Surtos cobram de Flávio Bolsonaro a conta da Covid - Blog do Esmael",
+      "headlineTranslated": "Outbreaks cost Flávio Bolsonaro the Covid bill - Esmael's Blog",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T09:49:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kNzlLc1pCSTJtZFN4MkR2bHotLXFkMVZBbllKME50SXN4ek9ZWEJWcjhiMFMxbHRNYzdsa0F0Y3MyZDJXdkdPX2lpczRKU0huRHd1TlN1MGs4OElrTkxNOE41N08wTG03N2tqa1lNR0JCQjVYS0E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Blog do Esmael",
+      "headlineJa": "アウトブレイクによりフラヴィオ・ボルソナロ氏はコロナ法案を犠牲に - Esmael's Blog"
+    },
+    {
+      "articleId": "gnews_a36935ba9ff9f46b",
+      "headline": "Mosquito da dengue infesta sete municípios de Sergipe - Destaque Noticias",
+      "headlineTranslated": "Dengue mosquito infests seven municipalities in Sergipe - Highlight News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T07:36:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUGptbDFNS19pd3c1Sk9TbjBSbWNCOWFEVW5DRUdLMUZ3NXI1MGRQSzlHd2hPNjRiSkVLbDcwVDRyeDJweHRSa1FILUZIQnJrT0pHcTJveFZvOG9qSTlmRlMtNjRScFBEUm1NV2ItY085aEJQanFHcmc4dFhHVl8yWlhyZENXbTZ4R1BMaWlYMUpzOXJvNUI1QW9MaFZLUQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Sergipe"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Destaque Noticias",
+      "headlineJa": "セルジッペ州の7つの自治体にデング熱蚊が出没 - ハイライトニュース"
+    },
+    {
+      "articleId": "gnews_62f38830e9bc1cbd",
+      "headline": "Combatamos a dengue - Jornal do Brás",
+      "headlineTranslated": "Let's fight dengue - Jornal do Brás",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T04:30:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nZHlTc1NHdDFuV3JyZDMzWlRXaUtxdm1lOThtZklwdWRLODctRjE5bFAzQlNBU0UySFN1aG13V3NzZnBoSXh3RW44d2VrR21tOEl2QzVqSWpmZ0NZY3ByanZySFMyTHdvek03bEQ4Yw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jornal do Brás",
+      "headlineJa": "デング熱と闘いましょう - ジョナル・ド・ブラス"
+    },
+    {
+      "articleId": "gnews_b6ba7d0e0acbe0f8",
+      "headline": "Professora morre com suspeita de dengue em Santa Luz, Sul do Piauí - Portal Ponto X",
+      "headlineTranslated": "Teacher dies due to suspected dengue fever in Santa Luz, South of Piauí - Portal Ponto",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-26T00:51:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcnlJMXN1Zk81OGR4YmhDS1RNcDVtcUZQb0J1N0dMSUxUQ09NZW9jMDU1blI3YUdTRTdEdUFBWUZwcW5fcDhuMFNuWXl6TFBta0Zlcnh3OVBuT3NtaS1TSms0QzY2U3RIY0ljeHNfQXdDaF9mRXBCWHZuZU1lV3BKUWpsUHFOdko4aEw3ck5wcFRrMlJnMkhYYWtCZ01pSExFeERmSU9OSFk?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal Ponto X",
+      "headlineJa": "ピアウイ南部サンタ・ルスで教師がデング熱の疑いで死亡 - Portal Ponto"
+    },
     {
       "articleId": "gnews_aaa7a7e26a413763",
       "headline": "Professora morre com suspeita de dengue no Sul do Piauí - G1",
@@ -53,6 +491,28 @@
       "headlineJa": "ピアウイ南部で教師がデング熱の疑いで死亡 - G1"
     },
     {
+      "articleId": "gnews_99325b933c128e4f",
+      "headline": "Anápolis é escolhida para receber tecnologia inédita contra dengue, Zika e chikungunya - Diário do Município Anápolis",
+      "headlineTranslated": "Anápolis is chosen to receive unprecedented technology against dengue, Zika and chikungunya - Diário do Município Anápolis",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-25T21:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb1A5b2FHYUdUeDZZZTFOUk1RU1lJR01kQkppZVVfdFNNYnJQMXludmczUTh0c0k2dXJ5NFc3a2hKbEs3THRGMmZzdWZTV211LXRqUVViZFVjWWtyOW5rVHVLd0wzRHp5LVNBclFKYTgzTUloREZCOGl2aEg4R0tXYkZHalROMDlSODZrbmZkRDY5XzNTLWxwb3ZZX0ZrdUNqTDFMV1A2UklLODJvRVVGM280TmxaOUdTcVJITXg0U3Izd2VNZlctNA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya",
+        "Zika",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Diário do Município Anápolis",
+      "headlineJa": "アナポリスは、デング熱、ジカ熱、チクングニア熱に対する前例のない技術の導入に選ばれました - Diário do Municipio Anápolis"
+    },
+    {
       "articleId": "gnews_9bd8caf311dc16d8",
       "headline": "Menino de 7 anos morre vítima de dengue, em Anápolis - Jornal do Tocantins",
       "headlineTranslated": "7-year-old boy dies from dengue fever in Anápolis - Jornal do Tocantins",
@@ -70,7 +530,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Jornal do Tocantins",
-      "headlineJa": "アナポリスで7歳男児がデング熱で死亡 - Jornal do Tocantins"
+      "headlineJa": "アナポリスで7歳男児がデング熱で死亡 写真1枚 国際ニュース：AFPBB News"
     },
     {
       "articleId": "gnews_aa68e0f114398a43",
@@ -147,32 +607,32 @@
       ],
       "locations": [],
       "states": [
-        "Pará",
-        "Espírito Santo"
+        "Espírito Santo",
+        "Pará"
       ],
       "dataSource": "Google News",
       "sourceName": "Jornal Espírito Santo Notícias",
       "headlineJa": "保健省、カショエイロでデング熱診断のためのRT-PCR収集を拡大 - Jornal Espírito Santo Notícias"
     },
     {
-      "articleId": "gnews_62c78e091f861545",
-      "headline": "Anápolis recebe tecnologia inovadora no combate ao Aedes aegypti - Notícia Toda Hora",
-      "headlineTranslated": "Anápolis receives innovative technology to combat Aedes aegypti - Notícia Toda Hora",
+      "articleId": "gnews_9b14f170ae3e7ef0",
+      "headline": "Anápolis é escolhida para aplicar tecnologia inovadora no combate ao Aedes Aegypti | Notícias | Saúde - Prefeitura de Anápolis",
+      "headlineTranslated": "Anápolis is chosen to apply innovative technology to combat Aedes Aegypti | News | Health - Anápolis City Hall",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-25T17:32:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdHluYVhGUjFEZWh5c2VKYVY0V2lCRWZtTXdRWklUdWxueS05LTUwVXNnQ0NhSHpLaVBReFVLNWFjS25vY3Q2ckV6WmdSUklzTDdsMDdKTWVFbHZOcTlEY0NPTF9Ycktfak8wVlh0Nl8xSkcyMGs4dzdxa0xQWkRrQmFWakFzZURnWTZLMEFHcUJBaDVCRVhmWldQVXU?oc=5",
+      "publishedTimestamp": "2026-05-25T18:06:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVk1mVi1abWtLVThFbGR0aXFwMk1vdEM3TXdtTkdYaGlJM0ZoTWJIOVpsVTNaU2VkY1NjOUlPMkR6aElOV3cwV3BiUk1HZ2FlNTBKREJYdkI3NGZCSXNJRGxoU3I0RlhWSEM3aFBocE90MTJEdURiX1BoeVNGYUVGSjQ5UEp4MGRTSDJRQzdQZkVRNTBBaGtWeHhRWlVfLXBGeGZRY2pLbmRWQmI5LWUzX1VkQnc?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Doença infecciosa (não especificada)"
       ],
       "locations": [],
       "states": [
-        "Brasil (estado não identificado)"
+        "Pará"
       ],
       "dataSource": "Google News",
-      "sourceName": "Notícia Toda Hora",
-      "headlineJa": "アナポリス、ネッタイシマカと戦うための革新的な技術を受け取る - Notícia Toda Hora"
+      "sourceName": "Prefeitura de Anápolis",
+      "headlineJa": "アナポリスは、ネッタイシマカと戦うために革新的な技術を適用するために選ばれました |ニュース |健康 - アナポリス市庁舎"
     },
     {
       "articleId": "gnews_9fc711a5e1e9f79a",
@@ -275,9 +735,9 @@
       "headlineJa": "アナポリス、2026年にデング熱による初の死亡者を記録 - Portal Agora Tocantins"
     },
     {
-      "articleId": "gnews_53d82ba6debeca18",
-      "headline": "Mais de 500 crianças morrem em surto de sarampo em Bangladesh; saiba os sintomas e como a doença é transmitida - O GLOBO",
-      "headlineTranslated": "More than 500 children die in measles outbreak in Bangladesh; find out the symptoms and how the disease is transmitted - O GLOBO",
+      "articleId": "gnews_c0d7887d528cfd1d",
+      "headline": "Mais de 500 crianças morrem em surto de sarampo em Bangladesh; saiba os sintomas e como a doença é transmitida - O Globo",
+      "headlineTranslated": "More than 500 children die in measles outbreak in Bangladesh; find out the symptoms and how the disease is transmitted - O Globo",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-05-25T13:54:36+00:00",
@@ -291,8 +751,8 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "O GLOBO",
-      "headlineJa": "バングラデシュではしかの流行で500人以上の子供が死亡。症状と病気の感染経路を調べる - O GLOBO"
+      "sourceName": "O Globo",
+      "headlineJa": "バングラデシュではしかの流行で500人以上の子供が死亡。症状と病気の感染経路を調べる - O Globo"
     },
     {
       "articleId": "gnews_0120e0615130d263",
@@ -376,6 +836,26 @@
       "headlineJa": "2026年のチクングニア熱感染者の5%、死亡者の38%は先住民族が占める - Poder360"
     },
     {
+      "articleId": "gnews_09914dcc4ab9ce2f",
+      "headline": "Ministro do STJ dá mata-leão em passageiro em surto e evita tragédia em voo - Migalhas",
+      "headlineTranslated": "Minister of the STJ gives a rear-naked choke to a passenger in an outbreak and avoids a tragedy on a flight - Migalhas",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-25T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGVHbzhsWE9xdlNvdjUtc0QxdzJGMHJUdnJzeFpRcUVwaWN2SnZPMkVnZG5ZRmJnYzY3aXh2TXFQWXdaQjFZQUtkSWRuNGk0dnF2Q3hwY1JmQTVidTJwVlhYQ2FSTU5kN0RDVWh6LUVpT3o0NHYwa2E4LXpCYXJIT0dSUXdPeV9wSjk5SXUyY244SWxlU2pUZ3pHckkzZmFoSnRCN3RNOXlNQmZ3cXJNNw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Migalhas",
+      "headlineJa": "STJ大臣、感染爆発で乗客にリアネイキッドチョークを施し、飛行機内での悲劇は回避 - ミガリャス"
+    },
+    {
       "articleId": "gnews_2f30d9cdc68f150f",
       "headline": "Ebola cresce e cruza fronteiras, mas risco de pandemia é baixo, diz médica - CNN Brasil",
       "headlineTranslated": "Ebola grows and crosses borders, but risk of pandemic is low, says doctor - CNN Brasil",
@@ -394,27 +874,6 @@
       "dataSource": "Google News",
       "sourceName": "CNN Brasil",
       "headlineJa": "エボラ出血熱は拡大して国境を越えるが、パンデミックのリスクは低いと医師が語る - CNN ブラジル"
-    },
-    {
-      "articleId": "gnews_2e70fc125dbef8e6",
-      "headline": "Mato Grosso do Sul amplia controle sobre arbovirose rara no Estado - capitalnews.com.br",
-      "headlineTranslated": "Mato Grosso do Sul expands control over rare arboviruses in the state - capitalnews.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-24T17:09:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObTlPVDJRdDVzT1g3QkhFOHdkNzNhNEJ6NFY0b3JlNFF4OXpOblZvUnV6aFhmd29sMUwwNW44SW9GN0lNWkFKdngwZWtZNnY3dndzZmN2Q1lkdnNua2JtQ1ZPRlBJcnZpd3pWd2dveWEtUVdqN3ZXT20xYkU1Y3B2eEJVb0xnRk1IRFNCeFYzY3ktZTZBVUpPVEJwYXRQenVlaUhNYjQ0WklhS1lSdF9RZWZQa1BzajVtZzUwd2tuNXp3OTBLZkNBLU9EUTQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Mato Grosso",
-        "Mato Grosso do Sul"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "capitalnews.com.br",
-      "headlineJa": "マトグロッソ・ド・スル州、州内の希少アルボウイルスの管理を拡大 - Capitalnews.com.br"
     },
     {
       "articleId": "gnews_45ad10a72ac87ac7",
@@ -457,13 +916,34 @@
       "headlineJa": "髄膜炎に注目 - CNN ブラジル"
     },
     {
-      "articleId": "gnews_2d988979d37385f2",
+      "articleId": "gnews_974de31487857c1e",
+      "headline": "Ebola, hantavírus, Influenza A e mais: quais os vírus mais perigosos hoje e como eles podem afetar sua rotina? - G1",
+      "headlineTranslated": "Ebola, hantavirus, Influenza A and more: which are the most dangerous viruses today and how can they affect your routine? - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-24T07:01:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZ2ZDTlJyYmdqbkwwdjBua3U5ZnpqYjhVbEhhME1kRHdBVU83NEppb0o4R0JBbWZaZk5Yc001SW1LaGFoMVVvS2tvYkozajdKNl9PU0VTekRuZWphcnVKZDhJSDljY2FYcHZJVWRpUHVMWUs0WDYwOGZEZVRwcGFDYWJTZFpYWnJEbWUzRENSN1oyVXljM2xLSV82ZkRXSk84Y3ZjaFVaQzBEa3dWdXREM2NxU3hVWjlIbU44OVdrWGFkY3FoN2U4RjljOHMweURoMFdpWTZGaG5nYlpJZ2RaWi00cWVRSzhrQ1lGUU9nQdIB_gFBVV95cUxNWTd2UXN6QXdfVkVFV0Zoc20zb0doUDhnVkhtWVg0MW9EU1U0amVlbmpfNXpMeF9FMDB4X2dxZE5EOHl3VkJ4Wi10Nk80cjhBSVQ3b1BFUUtqQ1dYN3daa3pfQkFkWVFMY0NFcEl1U3Z5dlJ4LTVZV0VfZlFzMEFJeWFSdG0xUGtsWmRROXIwNmc1LXJkSWZJVWNBNmJDR2dGOTZFUk5sMUw2SGphc2xGbFNCbmk1RG83bE1mQzl6YzN0SU5fSlpMSm1UREtlRXowalZjNmN4ZzZIMlpTc2tQYVNwN0Z2cWt2QnJjZ3pUMno2MEZva0VVT1FueFpjUQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "エボラ出血熱、ハンタウイルス、インフルエンザ A など: 現在最も危険なウイルスはどれですか?また、それらはあなたの日常生活にどのような影響を及ぼしますか? - G1"
+    },
+    {
+      "articleId": "gnews_d344cc6e822e2b1b",
       "headline": "Casos de dengue disparam em Goías e no Tocantins - G1",
       "headlineTranslated": "Dengue cases soar in Goías and Tocantins - G1",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-05-23T23:44:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR3k5S2Y1S1lhVGhoQmVoRzNSWmlvWlVlQnd0cUVpR3l0RVplb3hscjQ3ak1kU0NGVDdwS1V2WkxJeDNkamVJOWl2QTVZTHFhTFdxc0NBa3dJUVJEVzctam9hUk80dGdlWllqcFlRLXdPMGNRcVlVb2ZHUFJKUGNNUkNpQmVkZ3MtNURaQmVEa1N2OGxWYjJrcjF0NVhudmFONUFHQWpXdzdkUWNRRlJrNDRTWGNVRTIz0gG4AUFVX3lxTFBHeTlLZjVLWWFUaGhCZWhHM1JaaW9aVWVCd3RxRWlHeXRFWmVveGxyNDdqTWRTQ0ZUN3BLVXZaTEl4M2RqZUk5aXZBNVlMcWFMV3FzQ0Frd0lRUkRXNy1qb2FSTzR0Z2VaWWpwWVEtd08wY1FxWVVvZkdQUkpQY01SQ2lCZWRncy01RFpCZURrU3Y4bFZiMmtyMXQ1WG52YU41QUdBald3N2RRY1FGUms0NFNYY1VFMjM?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQejVDMjRqNzFJU2JEUXhYeHFNZ0pGWTRwMkQxcTZCaDFmWldiRVY2OThCb1FldHRucWlFUE1wQmIxMHI5c2JjNU9wcTE2cF92LXNpWnQxUGRqemF6M1NJSGxKWnJoRm9VT2hmbndZQjcxN0hPT3hYVzRsUV93LVA4X01xTml3UDFTNjg0ZGlvdEZEODY2SEZRNDlteDRiUWZLamljR0VXU2R4d9IBuAFBVV95cUxQR3k5S2Y1S1lhVGhoQmVoRzNSWmlvWlVlQnd0cUVpR3l0RVplb3hscjQ3ak1kU0NGVDdwS1V2WkxJeDNkamVJOWl2QTVZTHFhTFdxc0NBa3dJUVJEVzctam9hUk80dGdlWllqcFlRLXdPMGNRcVlVb2ZHUFJKUGNNUkNpQmVkZ3MtNURaQmVEa1N2OGxWYjJrcjF0NVhudmFONUFHQWpXdzdkUWNRRlJrNDRTWGNVRTIz?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Dengue"
@@ -516,233 +996,6 @@
       "dataSource": "Google News",
       "sourceName": "G1",
       "headlineJa": "デング熱に対する共同取り組みがアラカジュで開催 - G1"
-    },
-    {
-      "articleId": "gnews_7f0f3a63bd0aaad2",
-      "headline": "Mortes suspeitas e confirmadas por sarampo em Bangladesh superam 500 - CNN Brasil",
-      "headlineTranslated": "Suspected and confirmed measles deaths in Bangladesh exceed 500 - CNN Brasil",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T18:22:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNmxOZXA4aVA3NjdjaGxhQnFpMjM4ZUQ2SWlteHNFN0RudENmV3B0blpEaWVxUVpxNHlVSTRNUUhRNEdoTjdIMWx0d2pBRVkxWDNZbXFJNkY5dkw4NEFaVmV3a3Zoc3dEdkN5aFBWT3kwS1VHb2RmWkRrQVQxUF80blFCVmUwdm14bW5YRE5sZjdtSE9rOW1obXlsLUhfZEkyLWRTaFZhQkl1RllIU0NzTlNR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNN Brasil",
-      "headlineJa": "バングラデシュで麻しんによる死亡疑い、確認された人が500人超 - CNNブラジル"
-    },
-    {
-      "articleId": "gnews_e275c4e95e753bfb",
-      "headline": "Turistas rumo à Copa devem estar alerta para vacina do sarampo - Alagoas Alerta",
-      "headlineTranslated": "Tourists heading to the World Cup must be alert to the measles vaccine - Alagoas Alerta",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T17:18:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTVZfRFYwa2RjT2FtTjAxOFpuSTVoN2diUGtGdHFHclBzUUFSUWtKS2dzYmltSU5mUDVtcndDcUpSZDhJZ3UtZUZObTB2WlNJaFJsZmp2dXMxaUZTZzFlVzBhX2dLY1p1X01QRDhydTZQQnpBMG11SDF6d1BtVmx1SjNPWWo5dDVGZno4SG5CbmRwNEhXVUhNQ3FQbXh1NHJfTGFGZmlR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará",
-        "Alagoas"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Alagoas Alerta",
-      "headlineJa": "ワールドカップに向かう観光客は麻疹ワクチンに注意する必要がある - アラゴアスアラルタ"
-    },
-    {
-      "articleId": "gnews_5f66305c72cdca62",
-      "headline": "Torcedores que vão à Copa de 2026 devem reforçar vacinação contra sarampo - Folha do Estado da Bahia",
-      "headlineTranslated": "Fans going to the 2026 World Cup must reinforce their measles vaccination - Folha do Estado da Bahia",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T15:42:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLVFWMWEwTGNtdm0zOXlHRmI2QTJ6ZXVVazRPY00zcFF5NXI4VFQxaFlpdzkxY1pNNTF5TEdGbTEwVVJpVFBrcnAyeExPRzRQekM3SktVdWh4SXlTd2E1QXdpVEVCUUQ4Wk04R181bWRYZVRZNkJ1R1Z2bWVMYUNQdnBENWpxWGU0a25OMkgtdm9jZG43TGZKUmZ6ZG95RTFJdENxOG5weEFuQ3Y1ckYxcWtZZE85anh2?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha do Estado da Bahia",
-      "headlineJa": "2026年ワールドカップに行くファンは麻疹ワクチン接種を強化する必要がある - Folha do Estado da Bahia"
-    },
-    {
-      "articleId": "gnews_261af823f3eac10b",
-      "headline": "Torcedores que viajam para a Copa do Mundo de 2026 devem atualizar vacinação contra o sarampo - Bahia.Ba",
-      "headlineTranslated": "Fans traveling to the 2026 World Cup must update their measles vaccination - Bahia.Ba",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T14:59:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVE5ETlJGcnRUVHQxRW1rRzdzcG11TE81U25rS1lweEF2S2pvVTdQN2JvY2s4SUswckdsNEFwajRNRkpOdm92aXllclBjeHEtd3pJU1k4dUItVVp0YXJJeHd4YXhkNlE4STRuaWE1bGZNSkp4QzZpa24zMGlybldlYXpSWno5V3huc2FuQUtNTS1sa3dzT291b0huaVYwMjdUWmtTNE1uVThhUGVEMUJjdHJkeXJ0Q015bnc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará",
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bahia.Ba",
-      "headlineJa": "2026年ワールドカップに旅行するファンは麻疹ワクチン接種を更新する必要がある - Bahia.Ba"
-    },
-    {
-      "articleId": "gnews_e0798adde22e4d9c",
-      "headline": "Quem vai viajar para Copa deve estar alerta para vacina do sarampo - portal do amazonas",
-      "headlineTranslated": "Anyone traveling to the World Cup should be aware of the measles vaccine - Amazonas portal",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T13:54:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR2ZveEtRZGhxMVVVei16Y3N3bXA0TnZnS2xTbjJybDJPRzBTbEw2VzJ1VVdKWDJKNnQwT1lGOXNXbEZGNUU2c3NjbTNZM29VX0Npdkh0djdueWxfZ0E3QVB1QjFiX3hIYmRpMFlZMDRmUE5zRFdJcUZYcnBxbEp3TXRBWDgwY0dnalhpSVMzcVcwSm9FR0JleERacWQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Amazonas",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "portal do amazonas",
-      "headlineJa": "ワールドカップに旅行する人は麻疹ワクチンについて注意する必要があります - アマゾナスポータル"
-    },
-    {
-      "articleId": "gnews_2f071df6e88c5a26",
-      "headline": "Mato Grosso do Sul amplia vacinação contra dengue para todos os profissionais da saúde - diariodigital.com.br",
-      "headlineTranslated": "Mato Grosso do Sul expands dengue vaccination to all health professionals - diariodigital.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T13:44:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSHpUTmItcldOTVZCc3g4ZU9tR2tyXzY1WVZKMjRDUWtBb3AxVjJMZi13M1pCcTNyVXhDRnZuUXVKOHB1Z19NUGphY0F3bFlOMEFrTFh6MEVXaTIzUk5jQUNKMTNBRmhjaVdoaFl0UWd4Z0c0T1ROdW5KVU54R2NXNDJlUHpCSl92aTJ5RGdITi02R1hqRXlnbHluNWRRc1hEc3h2MzJudXdCdER6OG5CMjZkT0NiWXhZMHVn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Mato Grosso",
-        "Pará",
-        "Mato Grosso do Sul"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "diariodigital.com.br",
-      "headlineJa": "マトグロッソ・ド・スル州、デング熱ワクチン接種をすべての医療専門家に拡大 - diariodigital.com.br"
-    },
-    {
-      "articleId": "gnews_30145ca2fc6763ac",
-      "headline": "Brasil adota medidas de vacinação para conter entrada de sarampo durante a Copa do Mundo 2026 - O Liberal",
-      "headlineTranslated": "Brazil adopts vaccination measures to contain the entry of measles during the 2026 World Cup - O Liberal",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T13:20:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaFpoa3dmeUl1T2oxdUJkdS1ZYjZCc05HclZ1NEJEU1VTQ3JoemN3Q1U5dUkyNkZfRlVfdlQwVU1ybWhPREJUWFJyWFJwVzNIamVsV3NiV1dyYXFacjhHN0xXeHFxSVlfSThGS09aYjhYYVBVcFFfNXREWl9VV2ZNZnUxb1RmUmZ5NWpldzFjSFRPM19vNkZrWHBaMEY2WjVUU0lXNU14cmd2OWlwblozVUhudGZ0Nlhvd0JVOUVuT0dJWjYySjJxYzB4UjVZUQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O Liberal",
-      "headlineJa": "ブラジル、2026年ワールドカップ期間中に麻疹の侵入を阻止するためワクチン接種措置を導入 - Oリベラル"
-    },
-    {
-      "articleId": "gnews_85820bd18bda2367",
-      "headline": "Turistas rumo à Copa devem estar alertas para vacina do sarampo - Agência Brasil",
-      "headlineTranslated": "Tourists heading to the World Cup should be alert to the measles vaccine - Agência Brasil",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T13:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM1dObGRXenV2cW9uY21WZlpMSHVYazdfckNIWnVJSlpVTHNnTHZXUTRtYVpTb3BoeEF1bmtKclhBMVIwQlkyRnE3djZxQkFFM0d0LWxBQXQxRHR3V1ZqZkJZV1RNZkNYbVo3YXA1QU02Q0o0dmVSM0g0ZXh4NU1ueHhFeXp4dUVuT2R5LWJ5WWxqSUhIYVVNdGNOTkdjWUJNRF96bHBTenNjSVlSM2QxZXNodmFBZ3p3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Agência Brasil",
-      "headlineJa": "ワールドカップに向かう観光客は麻疹ワクチンに注意すべき - Agência Brasil"
-    },
-    {
-      "articleId": "gnews_4a645595a1e51e43",
-      "headline": "Vai viajar para a Copa? Saúde recomenda vacinação contra sarampo - Midiamax",
-      "headlineTranslated": "Are you going to travel to the World Cup? Health recommends measles vaccination - Midiamax",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T12:57:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZUpEQWkyZWtVOWxLN05kZ1IyTWNuN1hTQWJqSEVSN3c0OXlmSmRfeHp3OFpRRDlBMGNYOXBnNGxfanROTWYtOEdHSFd4dVdfMWMtM1BVTzZBTzJuSThZNk1CWER3bXJqczZaUjNKN0FNZ3UzaHRwYXotUGZXZFo0bnpCNGhjbDFxckJsRHVWdVFIQjJOYXlESQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Midiamax",
-      "headlineJa": "ワールドカップに行くつもりですか？保健省は麻疹ワクチン接種を推奨 - Midiamax"
-    },
-    {
-      "articleId": "gnews_06b6597c6cb98e95",
-      "headline": "Hospital de João Pessoa alerta para os sinais de dengue em crianças - ParaibaOnline",
-      "headlineTranslated": "João Pessoa Hospital warns of signs of dengue in children - ParaibaOnline",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-23T12:27:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdnpadS0yUG1zR3JtY182NnhDNlVPdzFWNmhPVTZYWEsyUjNYeGtwVDBYc1dpbnc1LVZNelMzR1AwM0d1dk9tYWFZbEhWemdvQ2UzczRrWDlVQUQ5LS1LOWcwNzVzeFZEaHVnVTBhRlhKNWRsRGtXR3JoY3pLLVZhWjZxVHduRzEyU2hXTEhqNFlEdTdsZFFkZ0lGeDhJdUVGWm1JQTlJTmNwdEhBNHRPYjA2WlpaRG8?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Paraíba",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ParaibaOnline",
-      "headlineJa": "ジョアンペソア病院、小児のデング熱の兆候を警告 - ParaibaOnline"
-    },
-    {
-      "articleId": "gnews_f07332fcea465fbd",
-      "headline": "Subsecretária alerta para período de risco de gripe aviária - Correio Braziliense",
-      "headlineTranslated": "Undersecretary warns of period of risk of bird flu - Correio Braziliense",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-22T23:29:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTFhMOXowdkZ6RFBnVnQ0cUdPbGs2MDdNU0FCZVJGOGFoZEJac3hsUFo5UFVTTEFrYUYyRXA2RVA0QUZlVC1ZMGFWRUNTOHBwc1hDQjE3U1oxQks5MVZseHBRMnpMRHpxbWhSLUxKekpwODdCUThSNGxQcjdGVzJuVDByYkJIbG55LUY2dVZNU0pSSEdnd3dKeGZsTE93SkpsR3hKZklOMVVTREhWUVdhMWVzeTNKc2J1aXFSMkFESjVJcURmSU5RM9IBzgFBVV95cUxPWHd0bzJNajQ0aUZLUTZLcm1PU3ZnaXppcUNxM0c3T2d6eFJWamlCTkJSNGV5NVlkcm9DeC1PYjhZNUZXN0RtMW00X192YVJrZjFrOHFNa3NGVTloc0ZBbVFLVDIyaVprVEg0X0NsM1dUakNIZkRGNnMwYnh1RFhNQkRYRzcyMWFoRU1IMnRXOG0wS29MLXY0TXV5YzR6bTBDSmJHWjhIQ21HOHpuNVc0LU9GUjBsLVpYUHNwRzkwcEF0LU52bWZVY1c2RzQxQQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Correio Braziliense",
-      "headlineJa": "次官、鳥インフルエンザの危険期間について警告 - コレイオ・ブラジリアンセ"
     }
   ]
 }
