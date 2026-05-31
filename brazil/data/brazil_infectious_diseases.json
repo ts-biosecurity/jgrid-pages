@@ -1,43 +1,710 @@
 {
-  "generated_at": "2026-05-30T22:18:28.773159+00:00",
+  "generated_at": "2026-05-31T22:31:25.385417+00:00",
   "date_range": {
-    "start": "2026-05-27T22:18:28.773159+00:00",
-    "end": "2026-05-30T22:18:28.773159+00:00"
+    "start": "2026-05-28T22:31:25.385417+00:00",
+    "end": "2026-05-31T22:31:25.385417+00:00"
   },
-  "total_articles": 61,
+  "total_articles": 69,
   "state_summary": {
+    "Pará": 9,
+    "Brasil (estado não identificado)": 36,
+    "São Paulo": 5,
+    "Distrito Federal": 1,
+    "Bahia": 6,
     "Maranhão": 1,
-    "Distrito Federal": 2,
-    "Brasil (estado não identificado)": 30,
-    "Bahia": 7,
-    "Mato Grosso": 3,
     "Mato Grosso do Sul": 3,
-    "Ceará": 8,
+    "Mato Grosso": 3,
+    "Ceará": 9,
     "Rio de Janeiro": 1,
-    "Pará": 5,
-    "Piauí": 3,
-    "Sergipe": 1,
-    "São Paulo": 3
+    "Piauí": 1,
+    "Sergipe": 1
   },
   "disease_summary": {
-    "Doença infecciosa (não especificada)": 9,
-    "Measles": 19,
-    "Meningitis": 4,
-    "Dengue": 13,
-    "Chikungunya": 8,
-    "Influenza": 3,
-    "Oropouche": 1,
-    "Yellow Fever": 8,
-    "Avian Influenza": 1
+    "Ebola": 30,
+    "Meningitis": 23,
+    "Doença infecciosa (não especificada)": 6,
+    "Malaria": 5,
+    "Measles": 16,
+    "Dengue": 9,
+    "Chikungunya": 7,
+    "Influenza": 2
   },
   "articles": [
+    {
+      "articleId": "gnews_d7ba2275a763df33",
+      "headline": "Paciente investigado por Ebola em SP testa positivo para meningite; caso segue em análise - Times Brasil | CNBC",
+      "headlineTranslated": "Patient investigated for Ebola in SP tests positive for meningitis; case remains under analysis - Times Brasil | CNBC",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T21:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamFzMTRKTjdIWl9xWF90M3JCdkNTTWJNTzZuXzhRZ3NfcnBCN1F3UFlNdFQ1Q1J6UUtJUU4zYm81cmNGTHF5U0I1VHpJMnFHcXAtREd0Q01yVEJnR0tyOF9MZ3RVUG1CYnNEdkl1d0lxV09xR29yRmM1MkxoN0hmekxUQWNXdkVRc3VqTUVDdWJMd1ZtdVE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Times Brasil | CNBC",
+      "headlineJa": "SP検査でエボラ出血熱の検査を受けた患者は髄膜炎陽性。事件はまだ分析中 - Times Brasil | CNBC"
+    },
+    {
+      "articleId": "gnews_be19715e6862c3b4",
+      "headline": "Fiocruz monitora viajante vindo de Uganda com sintomas compatíveis com infecção viral - Diário da Guanabara",
+      "headlineTranslated": "Fiocruz monitors travelers coming from Uganda with symptoms compatible with viral infection - Diário da Guanabara",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T21:09:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOUNHbGtFOUVIcTV4UThKOFRBLXZNQ2xLTG16X0hVeDBJT25zVGVXZV9PZW5GUy10LVUyVHdEemp6Uzkta2FKZXZsZUlBelA2WWVYcjU5TjcxODdGYnRRRWdsZGtTWlBDMzVkVUdVb3VHczh4dXZhQTg0dUVic0lja2JmUnpOWFViYkYtZXNPZmYtVmhKZERHVnZYQ1NiMWpneThsa2dDN3h0aFNIakRKWkZwa1lhcDd6Wnc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Diário da Guanabara",
+      "headlineJa": "フィオクルス氏、ウイルス感染と一致する症状のあるウガンダからの旅行者を監視 - ディアリオ・ダ・グアナバラ"
+    },
+    {
+      "articleId": "gnews_62f64da812d001a2",
+      "headline": "Paciente com suspeita de ebola em SP está com meningite - Poder360",
+      "headlineTranslated": "Patient suspected of having Ebola in SP has meningitis - Poder360",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T20:01:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjBtSlRoTU9oekQ0TTVpcnJIQ2d5RHlpbVJUUWN2a2F0cS1Ya181OHRUSWVDRWJOR24tQkZkR0VIRVNNeWE1OTFIdGRaS2p4VVFFTmJ3Q2pwQzYxaGdTd3FydHpNUm9ocmo3NTd1ZzNsMU4wRUprdXVWN3ozQkppaGYyMWdrRTFrOGFTelgyc0VtVUhXT3V5NEFQZVc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Poder360",
+      "headlineJa": "SPのエボラ出血熱が疑われる患者は髄膜炎を患っている - Poder360"
+    },
+    {
+      "articleId": "gnews_8ee31a34e4cfcff9",
+      "headline": "Two patients with Ebola-like symptoms in isolation in Brazil - Daily Tribune",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T19:45:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUTkxX013QVh6eGtFMGppangweGw5VU44SF9ac2VsaTcyRzN5NGRNWUZzR25Wd3ZrcjdHLWFOMlBuZDVrZ0ZieHZXZDdRWlViLV9YaXh3RnROOTNKTS1DUGcwam5zMlZxZV9HaUlnbzJRWVRKTzczQ2stUlZKTDZzdmlHTW9Gc0dISjAyamlqa2xxbmx4Q041YkxB0gGnAUFVX3lxTE9zSkpjaXJjNklHZzZGVk8yVmRrX2JSTzAwV1gyQmMtU0QxYkZkb3FLSmxZaWpTLVVFZE9RNGhvWmlrLWd4OHNwXzRmUENLX0dTZ0dZbExfTEc0dVZqMWxCaU5JU0NQNFlMM1JNVVpyb0JIeVgtd2RjUEd4by1qWlBiZzdDRDdaTDg2MTYzYXdRZ0wzczlpc1djS2tmUnhkR0Zjb2xsaFlN?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Daily Tribune",
+      "headlineJa": "ブラジルでエボラ出血熱のような症状を示す2人の患者が隔離中 - デイリートリビューン"
+    },
+    {
+      "articleId": "gnews_fd2f2512b3c0fcd1",
+      "headline": "Brazil authorities investigate two possible Ebola cases as outbreak grows - Australian Broadcasting Corporation",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T19:12:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFZvLW15dm1GNmc0dlA3YXc3OXM0SFFGSTNuZVdHVlRBNXE1TkNnX0R6d3ZhQ25NQlladjB6T3ZUZ2REVUNnMG14aDZkMXVVa2dlR3FuQWV2U200Nno5Ui1hcG5XLXlPZ3FuU3k5OVJISDNKZHlOZTBEZ2dKVWZ0MjRZUXA2Q2VWMWVyTTF4Q2JhckFwTWVtbWVDa0d3cnpFTndqbUtYZElOdw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Australian Broadcasting Corporation",
+      "headlineJa": "ブラジル当局は感染拡大に伴いエボラ出血熱感染の可能性2例を調査 - オーストラリア放送協会"
+    },
+    {
+      "articleId": "gnews_fd4a65b241ede357",
+      "headline": "Brazil monitors two patients for possible Ebola infection - AOL.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T18:28:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFFlTk9YQ0xwdnVKQ3Y3bHBPR05SbTdjcGpiZ2ktc2dTb2ZoY2EzN1pzeGZDakF6WktaMUYtcF9CMXBvNU45QkJTYW1vNTlDeFpkdFdBeWFINzQyUmJFcEd5c01JZ09uSzlZWjRNNF9wZ2xVTEx3RjI0UVBmWm5MS0MxSU8zb3ZD?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AOL.com",
+      "headlineJa": "ブラジル、エボラ出血熱感染の可能性がないか患者２人を監視 - AOL.com"
+    },
+    {
+      "articleId": "gnews_01b1fa21d068aabf",
+      "headline": "Meningite: sintomas podem ser confundidos com Ebola? - CNN Brasil",
+      "headlineTranslated": "Meningitis: can symptoms be confused with Ebola? - CNN Brazil",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T16:10:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdWVRTDBTNDg5bjNyaEV1MEc1X29WOS00bmJuMFk1UHpDU2VZd1gzQllUZ0dvYmdFcGE0cl9saHRFRVpic19KR3lFNVFhVUlZZ051WndNTzU1d0F1WTVKby1sWEpBQnBxU3FrZDdwSkZobmRjd0p0ZWF4bnpuYkhYRy1mUjJhNjZZLWZEZzhTMA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN Brasil",
+      "headlineJa": "髄膜炎: 症状がエボラ出血熱と混同される可能性はありますか? - CNN ブラジル"
+    },
+    {
+      "articleId": "gnews_92f809bea4a3d6d7",
+      "headline": "Brazil investigates two possible Ebola cases - RTE.ie",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:53:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aZUdQNHZueFlKZ1FfUWNsdzlCQ2VEYWNVQWI5b1ZSdXRNY0tKX1ZvWlpsZGo1a1U1QVI3UE9mNjI1cnp2SFhoS2E4UVRLUG5PQXlGNUFqUjhjNlNNTEJjZjRfQjJaa1pnSUo3eDZB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RTE.ie",
+      "headlineJa": "ブラジル、エボラ出血熱の可能性のある2件の症例を調査 - RTE.ie"
+    },
+    {
+      "articleId": "gnews_152e6ef951539125",
+      "headline": "O que sabemos até agora sobre os dois casos de suspeita de Ebola no Brasil - CNN Brasil",
+      "headlineTranslated": "What we know so far about the two suspected cases of Ebola in Brazil - CNN Brasil",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:48:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSTc5cWNrOFlfeUF1T1ByaXF2SkIweV94NDFkSjVud2dXOE10V2Y5RktsRVY5RFV5dWFWLVUwSHFmZVRoaHFoeGpITXUxNGk3OTBYb0dxOERmdmZPRDlpVWptWkxmeTI1Yl9VcjJvSjRHVlNIc0ktQnhaNGhJZFFnMTN1SFpmcWVwMVRSV3ZLempoTU9jRFVkRF9wV1V3Z0E1Z0psQnk5S1VIYWoyejg4?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN Brasil",
+      "headlineJa": "ブラジルでのエボラ出血熱疑い症例2件についてこれまでに分かっていること - CNN Brasil"
+    },
+    {
+      "articleId": "gnews_360e4c5b445e0622",
+      "headline": "Paciente em SP com suspeita de ebola testa positivo para meningite - O Dia",
+      "headlineTranslated": "Patient in SP suspected of having Ebola tests positive for meningitis - O Dia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:34:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZmpCWjRyNlRPbXJEUFB0S3Ixcnk1THBIX1FyYXJfZGd4QnAtaS1PZ2tSUHp1YUxVZVNIRHhrQ2p2VExSTFp3ZFMyLUxyQUw4RG5SX0dzNzlHdG5NTUhpVUpobHZlandndFBpRU5lOFNMbFJ6NElsNnZhcWFzWU5VbmltWlVQTzdkU09uOUc1eUZtTU8xZ1FHWWNzRW5EUHhBRThjZXdDS2RLbXhoWUhDTE9MM2NORmE10gG-AUFVX3lxTE9GVEZPdEs4clFtQ210bklyR3ZlZ3dXclRxNV80M1Y0anU0YUlhQ2l6bE9CU21CSUdOOTh3REZkSXBkS0hJVmtJVUNhU0RpaXZybW55Y1N1S2dJYjF4cnpybkxqb1JPZXhWVTFNdkM2aHgwS2xhVDJkN3NqNHQtZE9HZEdhOWt5ZUlaSXdjMzNnd2VJX2hiNWZWQ3FSQ2pub0lORGpVdmE3Y0FEV0dhMVQ1a2pnWFlWdnowRGUxZ0E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "O Dia",
+      "headlineJa": "エボラ出血熱の疑いがあるSPの患者、髄膜炎検査で陽性反応 - O Dia"
+    },
+    {
+      "articleId": "gnews_353e70e1464d7f36",
+      "headline": "Paciente suspeito de ebola em SP tem diagnóstico confirmado de meningite - correiodobrasil.com.br",
+      "headlineTranslated": "Suspected Ebola patient in SP has confirmed diagnosis of meningitis - maildobrasil.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:33:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTgzd2RsQXFlUm1EX0ppOUhRdmlZdk44d2pWOVA2OE1ET3E5TGppbm9JVUo4VXo2YjZDeDlNUkE0Z3BVWmlSdHNoMGtmLV96X0ppbHFPbC16ZnpNeVNqdTlkaFdaeERNTWM4a2tGMTJfQUpLY2x4blVpTXAtMVJxZi0zaWc1NnlEWjdCWktpVkdDN0dCcUdUWkFEcjY?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "correiodobrasil.com.br",
+      "headlineJa": "SPのエボラ出血熱疑い患者が髄膜炎の診断を確認 - maildobrasil.com.br"
+    },
+    {
+      "articleId": "gnews_50bd28428684f3c7",
+      "headline": "Paciente suspeito de Ebola em SP testa positivo para meningite - Terra",
+      "headlineTranslated": "Suspected Ebola patient in SP tests positive for meningitis - Terra",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWkZmUXN0UVNkWllRcHhrNHM1b0w2dWJXSl9pNmVKUkpQNWExZHJSa0JNaDlJdF9uS0JHaFFPcTBMdDF3N1dZZ0pEMG4yN1BVRzlROHIzRU52RjV5MlRQa21pek1KSW5mUm92US1DeGJxQWsxSV9jRmgyR1lYdi0xVF95NFEzTXA3WVpqWmJZQUo0ODNwME1vbjVtaXB1Y0V0WFNLakFucHNUaXhOQWZhMlowYlRhVkNVQkZWaV9ieEl4VE4tWHZkbWE1Vm5IODJCY2ZjbG1xdTd3RzRXUU1CRlptTQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Terra",
+      "headlineJa": "SP検査でエボラ出血熱疑い患者、髄膜炎陽性 - Terra"
+    },
+    {
+      "articleId": "gnews_8121e793e655aa72",
+      "headline": "Paciente com suspeita de Ebola testa positivo para meningite em São Paulo - Brasil 247",
+      "headlineTranslated": "Patient suspected of having Ebola tests positive for meningitis in São Paulo - Brazil 247",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:27:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUmt2U2dzNkM2OVRyOGd0TFdCWDZQTnJBSndyYnJabEg5RFFUaTRkclhPWEd0bDJoY3ctTVlKaDNNaGpUdklwNHQ0TF9oUzFvVmxhVHhvck12S2NKMTFEa1JpQVpMRi1nWGRCOWVhUzVSeng3TGJHS29rU3dMOGNpNjJFR3BiZjRJcTQxdG11YWZoMDhsbVB0cjlmS1dyTGEzVTYxRWtSejY?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo",
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Brasil 247",
+      "headlineJa": "サンパウロでエボラ出血熱の疑いのある患者が髄膜炎検査で陽性反応 - ブラジル 247"
+    },
+    {
+      "articleId": "gnews_c8fc01cf31f75389",
+      "headline": "Brazil investigates two possible Ebola cases - The Straits Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:11:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNczhvWmNzRkxnQ1BQSTRGc0dWMlR6YlU0VjlBUDA3aHQtZjM3aWhXYll6ekJYdjZuNmVuQkFKVjR1bGg1c2RfS2NKNXB6V0pYb1hWRHhTS0QzT2RScTc0ZlA2dVd6aENpM3QwaVpsYWRIV3NHTGV5N2wtQjRIem1BckRkdjBLdw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Straits Times",
+      "headlineJa": "ブラジル、エボラ熱感染の可能性2例を調査 - ストレーツ・タイムズ"
+    },
+    {
+      "articleId": "gnews_9161b1e6eba5b045",
+      "headline": "Casos suspeitos de ebola no Brasil têm diagnóstico de meningite e malária, mas investigação continua - MundoBA",
+      "headlineTranslated": "Suspected cases of Ebola in Brazil have been diagnosed with meningitis and malaria, but investigation continues - MundoBA",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQzhIMjh2bHJTT01tNk16YThabE5DQVEyTnVpRjBoek5ZWHdtWkZVdTZNQWFwenBEMmVpVVFsQS11TWVkcXI4YlVyVkNrV2t5b2VINzc1YzkxMFdlZjFHaS12UlhKYzZpUjhZVUpvcjZBcEVqWFBSNEk5UmpSc1J5V3N2NENtakpFUGxDRE1Zb0hoU0YzX3gxUzZXMmRaeFRSQWJ2bXNDbGRFRjFmZExSUkhiZFFhbDRxcW9ZTUZiblhOWmZKZXk2TQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis",
+        "Ebola",
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "MundoBA",
+      "headlineJa": "ブラジルのエボラ出血熱の疑い患者は髄膜炎とマラリアと診断されたが、調査は続いている - MundoBA"
+    },
+    {
+      "articleId": "gnews_9926c6dc004e91f6",
+      "headline": "Saúde de SP confirma meningite em paciente internado na capital com suspeita do vírus Ebola - Todo Dia",
+      "headlineTranslated": "Health in SP confirms meningitis in a patient hospitalized in the capital with suspected Ebola virus - Todo Dia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T14:56:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOG1NY3M5b0hkdkVqWnhCTHpJMmQ1SzRVQ0kzN0FlZElnS2xVX3NaRS1QeG11T2tZc2dMaDBuSkJvX2dNSm84SlVyQzhCOWEtWlQ1OXA4bE9lRHZPa0hXaHNUYVN3cjVHVmZWZFFTdWNQNVhfTlo0QU5mNi05N2JTeHhHVXdfY2lXWjM2THA4dFJHVUdsNFREQ1JjcVl6emZOWlZSMlVPQWtWdXJMOFdIZ1JaY3BTaWtyS0R6MjJBOHFEUkZSMmlz?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Todo Dia",
+      "headlineJa": "SPの保健当局は、エボラ出血熱の疑いで首都に入院した患者の髄膜炎を確認 - Todo Dia"
+    },
+    {
+      "articleId": "gnews_1d44f312dc301f71",
+      "headline": "Paciente com suspeita de ebola em São Paulo tem meningite, diz secretaria - Vitrine do Cariri",
+      "headlineTranslated": "Patient suspected of having Ebola in São Paulo has meningitis, says secretariat - Vitrine do Cariri",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T14:34:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSi1EUlF1azJIWEhUNk9CZWpJcUV2LWo0NHp6QUlnWEhnVXc2Zm1xRlNmbU96UUdZZXcydTlISWNGZUliY0FSVHpzM1BKSkNTdi1CRjJmYVgzcmM3YVZoM3NJZl9HWTFMcTVvU0VQZkdJOUFmVFp5clhtRG9Gb1Y0RVBPREtON3Q2czhBUGc5M0xsbkVsQmktNlBVQzhKcjVWT0c4RFZMcmpzWExaWHRueFpQbk1BaENsdlFz?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vitrine do Cariri",
+      "headlineJa": "サンパウロのエボラ出血熱疑い患者は髄膜炎だと事務局が発表 - Vitrine do Cariri"
+    },
+    {
+      "articleId": "gnews_095a7b98fea9ea87",
+      "headline": "Paciente com suspeita de Ebola em São Paulo testa positivo para meningite; investigação continua - Exame",
+      "headlineTranslated": "Patient suspected of having Ebola in São Paulo tests positive for meningitis; investigation continues - Exam",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T13:22:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmd6TVVzTTNtRzMzcW5ReW5WZndybVpDQ245TnZZU2UwZmdEX0JzX1Y1T0F4YkE5WVZHZXk5Vm9OY1RhNlVwU1dUTnRzeFgtZnRhOE9lNU5fcnlDQV9CNXNLLWx0YTlMVV93WWZxZE1ndkRUTU5WRURxUmROSHpDc3ZjQnYtSjdWU2p5MTN6QTdhRlZlQ3hGT1FFWmI5QzVTUTFMc1VBekZ5aW81U05nTUFnbGJVUWhWMEQyenZR?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo",
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Exame",
+      "headlineJa": "サンパウロでエボラ出血熱の疑いのある患者が髄膜炎検査で陽性反応。捜査は続く - 試験"
+    },
+    {
+      "articleId": "gnews_1b4b74f8ec18f7e0",
+      "headline": "Paciente internado com suspeita de Ebola em SP testa positivo para meningite - InfoMoney",
+      "headlineTranslated": "Patient hospitalized with suspected Ebola in SP tests positive for meningitis - InfoMoney",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T13:12:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaVZGZDE1a1ZRZTdOa2hNVW5Iei1DNUlzTE5xM1NhbjdpWWI4Y0NLRWZ0RU1hemNMa2FjWTZHNnFyOGNUbHliU0JGQnRpam1ZTDBOOEYwdmx5RGk1WVdhMkJtR3MzWmVQT0VzZTlPREUzYVRVOEJiTEFScU9CM3BqNmMtVndKa1RvUTd6NHpPMzJzQmc4OWUzd0pQYnd5WC1pQ1FRSGRwbFVYaXltd01XOHpMVdIBuAFBVV95cUxOeHo5NlB6N2R2cjA1VjMxSjJaYUQzYnBzY1NIM0hYcDh0bmJxWnhKNWFQbHBFYktBcGIydnhLOTQydG81QWlXRm40dmZITlVoZjl4eUQtdXFIRnRmNmlSeERVeU1zMThRaVYyVnRGLVBkOW9MUXVqZ29tRGg2UkxDSl9RZEhaOFYtMm5rOXRLb1B5Y3JaSndvVmdyWjFVRjhVMDFxeWpySG1HZXh3andiczAxMUM3by01?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "InfoMoney",
+      "headlineJa": "SP検査でエボラ出血熱の疑いで入院した患者が髄膜炎陽性 - InfoMoney"
+    },
+    {
+      "articleId": "gnews_8015329104afd03e",
+      "headline": "Casos suspeitos de ebola no Brasil recebem diagnóstico de meningite e malária - A TARDE",
+      "headlineTranslated": "Suspected cases of Ebola in Brazil are diagnosed with meningitis and malaria - A AFTERNOON",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T12:39:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOand4enhTdVRjNGE2VVhMVTlTUTlDQktRdFlyb0Fqb1FhRnBITGNZQ0MyUlVhUUd5WkhFQm14d3AwRkJndVdCY2M2YnpxajhRcXRMd1NBVGVuTEpQSGZDdERnZVhNcWx3TWU1TlQtdHFRYlBrdmlScC1HZXVwRk1ldnRPcTFQLXQ0M21fSXYtVG5YWVpMNi1GS0JaQ2RTVkFmc2xBZTVNOUxZMDQ5YXBCV1FvTdIBuwFBVV95cUxNNEpZWVBtRzBJdW9BcHRNV3V6UjNFYkRyNkMxaXBoSWozamV2Zy1KZGt1dWpXYjk2V0hrMF9GajhFUElzaU5nTWdubE96ZnlBT0pqcG8xWjlNN19sWTJ6VlNBQXg2SnVXNm9rZzlrUE0xVzBUNEd1MkRYRWtXYnlGVXliSGlLTlhDbUpQZHp4aTljWUFEOU91RmpNR2pzYmVtandqLURybFptSjNhQ01MNnlxZXhxa3NtNnh3?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis",
+        "Ebola",
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "A TARDE",
+      "headlineJa": "ブラジルのエボラ出血熱疑い患者、髄膜炎とマラリアと診断 - 午後"
+    },
+    {
+      "articleId": "gnews_7ba0995e76885461",
+      "headline": "Brazil identifies 2 possible Ebola patients, as WHO reports some recoveries in Congo - CBS News",
+      "headlineTranslated": "Brazil identifies 2 Ebola patients, as WHO reports some recoveries in Congo - CBS News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T12:38:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWRDT2NTX2paUGlpMk9QU3VvdE5uTTdMc01qQmFBWWEybTdqdDN2cHJRRGZRNjJtZmZWSk5GLW53aHdQU25naVdxYVNTT0FqUnJWY28ySXJWVG04QkJmbERrZVFKSVFBSTRpY3ZhSkVNc2lNOHVTMC13SnpCNlFaZ1pKdTR6SDRIYXR0VTQ2MVd6OVQtSlZrMTdMaHVYbFliZjJLYmJB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CBS News",
+      "headlineJa": "コンゴで一部回復者が出たとWHOが報告、ブラジルでエボラ出血熱患者2人を確認 - CBSニュース"
+    },
+    {
+      "articleId": "gnews_769029d30604c518",
+      "headline": "O que se sabe sobre os casos suspeitos de ebola em SP e no Rio - G1",
+      "headlineTranslated": "What is known about suspected cases of Ebola in SP and Rio - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T12:26:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUkzdzVIVkFjckFXdndBVDcydnlWNTFscFFXbFVSLUtlVU1sQjd3T2gxQ3pac01kZndxQklmOFMwZlkxdFIyOHdtNWE0X1o2dXBDRjUyMXloUk5aZm9MSXpTOUFqeHpoVVp4YWNMSGNJTTl3OHJQc2sxYTQ2Qmtqb3pjMG5sSVFUdmJZVTNoMmpLSWVPcERjMU5JOXZfcnl4R0c3ZWJwdlNHYmVvQ04wME41ZmrSAcMBQVVfeXFMT1E5bEZZSjlUOTB4OE9qNU5ua1BldW05Zmc5Y3p1X3ViQU1VY29yMnlINUN6dGtkWE5aWS1iY0hOUjNBZ0NteXlObHY1dExxSUx0T1ZkYzc5dW56RWNwNC1xR1dRdUI4XzF4LXBVclN5U293a2I1cENkWVJlOTVDZzZqSWN2dktvb0UxcnFFaGtFMjdyeWk1WUR4bGVXN1hMRVdMWnJXd0ZLLTVfR3gzbm5YOTBJclJMZWM2dnl0NTV2OFlJ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "SPとリオにおけるエボラ出血熱の疑いのある症例について分かっていること - G1"
+    },
+    {
+      "articleId": "gnews_8d394460ef478445",
+      "headline": "Paciente com suspeita de Ebola em SP é diagnosticado com meningite, mas caso segue sob investigação - Grande Ponto",
+      "headlineTranslated": "Patient suspected of having Ebola in SP is diagnosed with meningitis, but case remains under investigation - Grande Ponto",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T11:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeV9xOG1WUllWTVBNcUw0Ty14X3ZISl83NjZHLXROQWNtWVo5OUV1R1ZZbUhoTDN3M05uVUZSNWxrNU53cFQxNW91TThIQTFnQU5udUJqOXJaNmE2Nl9hM0IyNE96SWVrQ081emEwNWZndDBaY3FFemphYmJvSGdhUkhtTEs0M1dtZ0NLamlPa3BLN25XUHpOLWtGV3ZfcWt3NkFraTNnaWNXUkh4TVFVazEwOGJsbU56UHNfU1p6V0NDZ0VsQ2RIeGxPejB0eTI4RjA0?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Grande Ponto",
+      "headlineJa": "SPのエボラ出血熱の疑いのある患者は髄膜炎と診断されるが、症例はまだ調査中 - グランデ・ポント"
+    },
+    {
+      "articleId": "gnews_eef53629e9fc3cc5",
+      "headline": "Homem com suspeita de Ebola em SP tem meningite meningocócica confirmada - GPS Brasília Portal de Notícias do DF",
+      "headlineTranslated": "Man with suspected Ebola in SP has confirmed meningococcal meningitis - GPS Brasília DF News Portal",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T11:18:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnBwRW1QcS1JQTBCU1Bib0JibkxHN003dnVsbUNiV2xaYl9IZVdWZENPVEVTWGlMZ2JhTDVWRmtGNHhoa1NKUUpjNU1WblBnNEQ3bzFzX2tDdU90OEFNdkNzWVpGWkFjekJuTEM2MEh4enBrd1Z0VjJIblA1c1dXOEg0dGY5ekVqRTNIQTM2WQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Distrito Federal"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "GPS Brasília Portal de Notícias do DF",
+      "headlineJa": "SPでエボラ出血熱の疑いのある男性、髄膜炎菌性髄膜炎を確認 - GPS Brasília DF News Portal"
+    },
+    {
+      "articleId": "gnews_1c0a1493bb400c78",
+      "headline": "Casos suspeitos de ebola no Brasil têm diagnósticos de meningite e malária, mas investigação continua - Metro 1",
+      "headlineTranslated": "Suspected cases of Ebola in Brazil have diagnoses of meningitis and malaria, but investigation continues - Metro 1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T11:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdHNWR0syU0M1aGRKbFhSM0lmR1NoY01BNkdmbVR5TlhCVEJ5T2oxc0xsMm8zZnQ3MUlkNmEtZjRWWGhXeFRzZFc5MVVlT0pGemZXc0xob21GcnMwXzlxV2tkNlI2WmpLR2ItaFJMNnpMTkNzaWdOYVNOdHhpMWRCZkFxUjNfdWd3bVpWYTBVUm1INDRHczJKcjh2c01faHBsTHJ6cFBhS19UaVhjYnItd1EzR0l3alVJRldJenhmeEVsUWFlb05MbURBMFBhMW9jS25SY3lVQkNxSHZaeC1PTXN3?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis",
+        "Ebola",
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Metro 1",
+      "headlineJa": "ブラジルのエボラ出血熱の疑い例は髄膜炎とマラリアの診断を受けるも調査は続く - Metro 1"
+    },
+    {
+      "articleId": "gnews_576660af6a2791a3",
+      "headline": "Brasil investiga se dois pacientes com meningite e malária estão com ebola - UOL Notícias",
+      "headlineTranslated": "Brazil investigates whether two patients with meningitis and malaria have Ebola - UOL Notícias",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T09:38:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcFhhTld2YmVscV81dWxCZVFtTDVrdE05cURKN1MybHpidkNsMnVyLWRTN016dGxDX2RhVHpudE52bTFNU0EybjduQ1lVQ3dkeXk4bUx0Z3c0TmJQMlJydEJTR21jcFQ2MjNpU215OUpUZ0tUUF9NYzFGcTJyZU1ZRDgtMkJ5QkZ2TDBJN0xxdVgyYXhoa2V6MnU2cldFTUxicDFjYUliZXNOdjFJZXlVc0gyS1hWaGFhcG9kNlU2SnEtTnBIUkVLaVROVkI?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis",
+        "Ebola",
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "UOL Notícias",
+      "headlineJa": "ブラジル、髄膜炎とマラリアの患者2人がエボラ出血熱に感染していないか調査 - UOL Notícias"
+    },
+    {
+      "articleId": "gnews_a3116171df8672a1",
+      "headline": "Palmeiras se une ao Ministério da Saúde em campanha de vacinação contra o sarampo às vésperas da Copa — Ministério da Saúde - Grupo Portal de Notícias",
+      "headlineTranslated": "Palmeiras joins the Ministry of Health in a measles vaccination campaign on the eve of the World Cup — Ministry of Health - Grupo Portal de Notícias",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T07:39:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSDBodTVPbWVieGJXbE1kcl9XcnFMeS1pbDlkT0tHOE1JNjM5Y3ZvaUFKNDlYdkpjWHE1UXUxNG1aZEd4LXdIY2RTdUZNaVJpUTlsNHNYOWxYRGJxdXhSSV8wTU1wTWxheEpDbE9IeVA1MFF0NzNFVVRqRHR1eW5LMVZPdWZtVGFid2xQeEdQbUljRFVMNDNYeS1vR3lBNVhDUGJocEdJWWFWUHByYVpYQThtSlM1MFRONGhVTEZ2NVB0ZG9VR0FPWGRncHE4YUloTU1TYVhXd0d5LWhucGpoS2tlc1RZWnN4M2dMbGo3Qm8?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Grupo Portal de Notícias",
+      "headlineJa": "パルメイラス、ワールドカップ前夜に保健省の麻疹ワクチン接種キャンペーンに参加 — 保健省 - Grupo Portal de Notícias"
+    },
+    {
+      "articleId": "gnews_fdfd0eea9b63cb30",
+      "headline": "Casos suspeitos de ebola em SP e no Rio têm diagnóstico de meningite e malária, mas doença segue sob investigação - G1",
+      "headlineTranslated": "Suspected cases of Ebola in SP and Rio have been diagnosed with meningitis and malaria, but the disease remains under investigation - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T03:00:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRXh0YzBvbVFZcHZCbmdXN01oQ1JfSHdPc2xrS0dKOV9jclBVWEhmSWRwem1NWUJIZDNFdE44TTlNSzRpSHJMUFR0NWlvcFNOOEliOGt0RldDUV96ZEFCVUU3ZFcyZlZid3VxLW9uazFpZ2pGWUFLUkdPZExBLXVrd3FYNTRrN1BYdjlkVDZKVkZYZlEzX3fSAaQBQVVfeXFMT2hHMTJzNFFYNWd1b28zZEZhWHctS01wbU9WOG1vM3Z1VXkzVmxMME85OGRQYVNlZVd0QjF4UWhZeFkyMTBGNURudGZGdWdZSHEtWmJJalBTc0JJc0VqSU16dE1tU3MwZG1NeWdocXRyQzhEejZpNFUwbm9EWnBxVTFicWtJM2duMmFvbkJYNnFaWktzVWZxdDJZWVc3SDhrMmJDeVY?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis",
+        "Ebola",
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "SPとリオのエボラ出血熱の疑い例は髄膜炎とマラリアと診断されているが、この病気は依然として調査中である - G1"
+    },
+    {
+      "articleId": "gnews_da6ae95db46a4937",
+      "headline": "Paciente com suspeita de Ebola testa positivo para meningite em SP - CNN Brasil",
+      "headlineTranslated": "Patient suspected of having Ebola tests positive for meningitis in SP - CNN Brasil",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-31T01:30:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMkd6TEZYRG92dEpNaGFFbTZPWDgyRDlUNWhIbHh5X2xyXzI2a2tWZkNWUFlTWGtHblRFdFRBRHcwMTdJQ0ZaWVZMQmt5TnJ1WGRVY3U2RmxXTWU0TXFCS0s5elZNSTJnbHlUeUFlZ0dEQ05HX3BucWZpdllLS3dqUGJFSkZxaXZZTGU3RHpJaTJybkdzNGhXemFpRFVaWVhTbWNRaw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN Brasil",
+      "headlineJa": "エボラ出血熱の疑いのある患者、SPで髄膜炎陽性 - CNNブラジル"
+    },
+    {
+      "articleId": "gnews_70c81f9bb1a13845",
+      "headline": "Homem com suspeita de ebola em São Paulo é diagnosticado com meningite, mas doença não está descartada - tmc.com.br",
+      "headlineTranslated": "Man suspected of having Ebola in São Paulo is diagnosed with meningitis, but the disease has not been ruled out - tmc.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-30T23:34:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTDluV0FNYktFbXF0a0RSbUZPUUxJdWw0SUpPY1NMZTF3aE1Qd2cwVVV3OENtTm9STTNmUEVaOEwxS3h5dl81Ukd3RnFaZzJVaDlWbDhtUHU1Skk2UmdrZUxvNEYtYnRyQzBXUHA0aElySmtjZi1UcW92dDA0WFFzbkpWYlRIcG1rd2FOTHNYSlZXV3QybGRqQmQ1Wl95alFhdEFFdHZVb3BSUVRFYjRwLXAybXpJUU1Dc183TmhOeVdMNUpYem1R?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "tmc.com.br",
+      "headlineJa": "サンパウロでエボラ出血熱の疑いのある男性、髄膜炎と診断されるも病気の可能性は否定されていない - tmc.com.br"
+    },
+    {
+      "articleId": "gnews_aa27e8fe08ebac3d",
+      "headline": "Exame aponta meningite em paciente internado no Emílio Ribas, em SP, mas ebola não está descartada - G1",
+      "headlineTranslated": "Examination shows meningitis in a patient hospitalized at Emílio Ribas, in SP, but Ebola has not been ruled out - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-30T22:58:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRWpaSmQ0ZTZCV01oY05RX01hZkdDRTdEZm1nMk1kMW81N3JhR25YZDhOdzZ2a3NyVG5vSFkzNE0wcDVMbFdHZ0wzdTAyTUpyQWxNWGJPdmtUNTJWWDV1QlFaOVdQbTRtajk3R05zMkhfU0hxeFRnTnE0Y2ZQSWZObER0U0ZrZ0Z0ZU1GNHNjTS1VNUlrajlNNldPc0RaYlU4S3JJWUpPQ2N0RGNFdzZIZ1dPSXlXZGlqZ0FULTcyWFJaZlZPNnNON2RjWkpGMjkwSGN2RWlrVnJMVTRlQnRLbGNYTFRaR3JuUkpr0gH6AUFVX3lxTE5aeWQwdGhJVVlZMkxzSTNuamRFcjF4OFdFZ3hSSHcyY2hvaHlFcnZtbW5HemZYWlBwbGRUSlB1aE9fazNnY1pDaFNtUnZqRmxnNFFuYWxhZTYzQ1h5eUplbUhyT3dfbGwtNGViM1VCWDcwMW5LemkzSmJFNGQxeUtNemd1aHZlVS1KclRETExZc1JHSG41ZEo5RGdGT2V4d2N5enlPRU5yT1hhR01yV0JBbFhHTk5BZHVidHM5UFBGVnJvWVNJbC03dGxNdEpSN3lwdy1EdXFwUGVrZTQ4TkFYWDRZVGxtTnFpZmNkZ2RfU19qZzZQc05QYUE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "検査の結果、SPのエミリオ・リバスに入院した患者に髄膜炎が判明したが、エボラ出血熱の可能性は否定されていない - G1"
+    },
+    {
+      "articleId": "gnews_701bc521563ef16c",
+      "headline": "São João de Uauá é cancelado após epidemia de dengue - Se Ligue Bahia",
+      "headlineTranslated": "São João de Uauá is canceled after dengue epidemic - Se Ligue Bahia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-30T21:13:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObWQtODYtTlVndkg1RGZ3OXZxbUZDN0NmT0F2Uko5S014YU9tZUVqZFQ0QzgzVGZjcXdoTUVBY0JZaUZ2UjRrbW1nZHhBUDJNeXJVTmVRUTRIWDV3NWdkVnBvcUNNR1lGQjlOdG9SbE9RSW9UamZYZWNZQ1VpMEZ3alRHSnk2X2RZRURuRWZSNk4?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Bahia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Se Ligue Bahia",
+      "headlineJa": "デング熱流行を受け、サン・ジョアン・デ・ウアウアが中止に - セ・リーグ・バイーア"
+    },
     {
       "articleId": "gnews_cd8343782409e7bb",
       "headline": "Homem condenado por matar a própria esposa é visto nu e em surto psicótico pelas ruas de São Luís. VEJA VÍDEO - portaldozacarias.com.br",
       "headlineTranslated": "Man convicted of killing his own wife is seen naked and in a psychotic episode on the streets of São Luís. WATCH VIDEO - portaldozacarias.com.br",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-30T19:39:06+00:00",
+      "publishedTimestamp": "2026-05-30T19:40:11+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVjI0X3FyZzhTX1hYV3E4QlFROVZBS3Bma3lfSi01bkxiWVI2cTVPZ2pvaE1vRzMxQkNyeHJhWDFDTFdoSkdLeXhtTEpzUDc5TW5PZnpsUUR6VXFoaWFQck9YYy13NnNBdFBqaExMVFowaXVqQ282OVk1NVVEUzZBSkNXQ3pMc0ZuUEZLNm5CaWNXcktkdXRMR0FDMVZiakMyM1VmYWR3eWUwaUZhb2NwZUU1aVpGTUZpajZ2SUFROHpKN29GYnpTWXJrNVZWeDlrVTVrajhRcUJ5bmw3QUtPSjJEUFhxNnRQZUNJ?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
@@ -50,26 +717,6 @@
       "dataSource": "Google News",
       "sourceName": "portaldozacarias.com.br",
       "headlineJa": "サンルイスの路上で、自分の妻を殺害した罪で有罪判決を受けた男性が裸で精神異常に陥る場面が目撃されている。ビデオを見る - portaldozacarias.com.br"
-    },
-    {
-      "articleId": "gnews_ceb0a9eec2b99497",
-      "headline": "Palmeiras se une ao Ministério da Saúde em campanha de vacinação contra o sarampo às vésperas da Copa - RADAR DIGITAL BRASÍLIA",
-      "headlineTranslated": "Palmeiras joins the Ministry of Health in a measles vaccination campaign on the eve of the World Cup - RADAR DIGITAL BRASÍLIA",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-30T19:37:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOb1FndDFhN0xqOFdwbmdqbUtoeUhWaVZrMkVZZXhjeW9YU2NQV3NyaFhXblNDOXRVc3NXaEdlVUxLLTk0Vm5HX0NrZVZwVGdRT1ctYnZVc0FNQ0tIeGc0dk56OTczeFRKakZ6LVNZYXVWRHM4WV9RQUt0ckNGMHoxZF9WTjA5dmZPTUVVQ2xXX0tpUVVZQUlwR1U2RVptcElnYnJDX1BiREx2a0gzU1JLeS1leGk3enc0NFRiN0pWYUdZdUwyT2Y0c0h4M3E4eG45SzRCSHcwWHVWcjBZ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Distrito Federal"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RADAR DIGITAL BRASÍLIA",
-      "headlineJa": "パルメイラス、ワールドカップ前夜に保健省の麻疹ワクチン接種キャンペーンに参加 - レーダーデジタルブラジリア"
     },
     {
       "articleId": "gnews_c0bd9fb5b424f119",
@@ -112,9 +759,31 @@
       "headlineJa": "警告！梅雨、デング熱も間近！ - ガゼータ バイア"
     },
     {
-      "articleId": "gnews_ee9b5ea975fdbefd",
-      "headline": "Mato Grosso do Sul registra nova morte por chikungunya e total chega a 21 vítimas - Dourados Informa",
-      "headlineTranslated": "Mato Grosso do Sul records new death from chikungunya and total reaches 21 victims - Dourados Informa",
+      "articleId": "gnews_0d510e631dd96e07",
+      "headline": "Homem com suspeita de ebola internado em São Paulo testa positivo para meningite - Estadão",
+      "headlineTranslated": "Man with suspected Ebola hospitalized in São Paulo tests positive for meningitis - Estadão",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-30T15:11:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUnBlaEI3djExb1VfWjlPMm1ybE5ZaFBPOW5XcHM1VjA2VUstYmwyOUpmUkxZMm1oeWlTZy1LRkQxSGhZeDZyekJTbHc4YlV3b2xPSC1yVHVMd3BwZllqR1J4YkpERFk4NUJ6R3o2YVpPWFZZQjJsc0pBRVVKSFdUMEhRNGbSAYoBQVVfeXFMT3FYdFpjUmJpYjB6WmJETmR5dFJvbWIzMFNPdEUwY3phOUdYTGVlblZLa1ozdURnMWJJeFNXQVdibVRQX2c5cVRtZDNHemNxVUFzX1RIYUFZZXg2Rnp4TnFqdEk0YVhJOUhmY1RXT3JEUEdPSV90U2E2MUMyd0hUdW1WOGxLcVduWE9B?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Ebola",
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo",
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Estadão",
+      "headlineJa": "サンパウロでエボラ出血熱の疑いで入院した男性、髄膜炎陽性＝エスタダン"
+    },
+    {
+      "articleId": "gnews_3833f8eb4d79dcd4",
+      "headline": "Mato Grosso do Sul registra nova morte por chikungunya e total chega a 21 vítimas - douradosinforma.com.br",
+      "headlineTranslated": "Mato Grosso do Sul records new death from chikungunya and total reaches 21 victims",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-05-30T14:31:00+00:00",
@@ -125,12 +794,12 @@
       ],
       "locations": [],
       "states": [
-        "Mato Grosso",
-        "Mato Grosso do Sul"
+        "Mato Grosso do Sul",
+        "Mato Grosso"
       ],
       "dataSource": "Google News",
-      "sourceName": "Dourados Informa",
-      "headlineJa": "マットグロッソ・ド・スル州、チクングニア熱による新たな死亡者を記録、犠牲者は計21人に達 - Dourados Informa"
+      "sourceName": "douradosinforma.com.br",
+      "headlineJa": "マットグロッソ・ド・スル州、チクングニア熱による新たな死亡者を記録、犠牲者は計21人に達"
     },
     {
       "articleId": "gnews_029b9d1ce91e50fa",
@@ -202,8 +871,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZk1KQUVjVnJ0aEtlV2ExZ29iaFktaDF4aGdDVGhBUzlyVGtqNnp6SWoxcXJKZzRRMnpZdkZicTI1MTl2Yk1kSnpmaENUUXFJQVlwQjBudWZiaDJvYlN2MTZESzNfU2FxWWZNOTNXZ3plMS1idW1GanV1SlZkWXQyclFYd1dmNi14RUcxYmM2c2xxNnlUVEY5Z1o3NGNXQmtkNHVhbldadUxIdlR6RHoybE5yQXlqbWM3ZUt2ZlFTWEtlQXdadklz0gHMAUFVX3lxTE01azNod3FYUVBJMVUxVk9FRGQyYUhlLVpGb19hMzBCeGZJa1RXaDZxSGQtMGtnNUJBRDIzT3NVVTVOZ2JuWGxjNkVVT1dJM1lKcE1qZmN6eFBweU5aaVRnZTFKQWZpTVlIQVd6TThJb0x1OU5HUmY5TF9jOXgyNWQ1TW9wR0lmZTZGd0I5V0g1b3JSTEw1SHR1eTVNMEZUX0pnQWxSUkg4TzBoaXFIVUdMREpSLTV4enhpRHhGdU91Uk9BVzU1WDd0LUdRNQ?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Dengue"
+        "Dengue",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -212,46 +881,6 @@
       "dataSource": "Google News",
       "sourceName": "PDNews",
       "headlineJa": "デング熱、インフルエンザ、定期接種の予防接種は年齢と優先グループに応じて適用 - PDNews"
-    },
-    {
-      "articleId": "gnews_dd428fe5b57b4cca",
-      "headline": "Ministério da Saúde leva campanha de vacinação contra o sarampo ao Maracanã em véspera da Copa - CONEXÃO MT",
-      "headlineTranslated": "Ministry of Health takes measles vaccination campaign to Maracanã on the eve of the World Cup - CONEXÃO MT",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-30T00:04:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSWJ5Wk1ITWN3blVyYlV5bXNqOUxpUFFzeWdpNmJTTlhZQ1hJdTBxQUNPM25aenJJM1Jua1Mwbjd0cmxab2hIR0NEVFV5ODV1MFdJd1h1bzFsRXJvN3FNWVdWTFRHUHNZZ21OcGtEN0pDYTVpOWhCcFNjb3JNc0lHR3Y0NVcwYkoyX0s5eFRMX1NOUnR3MmlicjVpTWxRaHhkZWowem16VHBGMVFzRU5IaVpSdUVQWkVfUzlYVGdMc2c?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CONEXÃO MT",
-      "headlineJa": "保健省、ワールドカップ前夜にマラカナンで麻疹ワクチン接種キャンペーンを実施 - CONEXÃO MT"
-    },
-    {
-      "articleId": "gnews_aad6e34590877875",
-      "headline": "Rodoviário sobe em teto de ônibus após surto e causa lentidão na região de Narandiba; vídeo - MundoBA",
-      "headlineTranslated": "Bus worker goes up on the roof of buses after an outbreak and causes slowdowns in the Narandiba region; video - MundoBA",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-29T23:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWXZKdTRJWlZzaEd5b01SdGJkaUI0NWhDc2p5VXd6MFctTFl2RGFVMG44SWNONkk2QWcyOFdtT1hhTmVNbGJBU2ZiaEtORXFLMWJ3bWhLc2FScEpPeHQ3RmE4RVc0TlNlb0UweUt0TmwwYUtiMTRlS2xmTHdPZWQ2T1B2bF9lOHNMb0FYT3NqVnZJbnlET2tyMi1GVTdVX3NmNnhDY2t3LXRwbDBNY1pHTnZCNmdJNEI1?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "MundoBA",
-      "headlineJa": "ナランディバ地域で集団発生後にバスの従業員がバスの屋根に上がり、渋滞を引き起こす。ビデオ - MundoBA"
     },
     {
       "articleId": "gnews_365eec3b7613e7ef",
@@ -383,8 +1012,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcVVacDZxZ0ljTGxsQmEzOUczdWtBeVdCOUU3VFVCeXRSM05qa0o1dXllUnlfMU1HOE1Dc2JyVTVkcUpPc3VIelg4SlhCaEMzUFQ1OVZKTE5JQlkwakNNMm9qS2FhWGNxVFNYSFhkUWY1dmZNOGp0cUdRMDFpREczaHFzZmtZUHBWSzFnaUpvdWtRUUtFSWNlV1BMbw?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Measles"
+        "Measles",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -393,26 +1022,6 @@
       "dataSource": "Google News",
       "sourceName": "Prefeitura da Cidade do Rio de Janeiro",
       "headlineJa": "マラカナン、ブラジル戦で麻疹とインフルエンザのワクチン接種へ＝リオデジャネイロ市庁舎"
-    },
-    {
-      "articleId": "gnews_5081d5ae3bf4833a",
-      "headline": "MS Registra 6.360 Casos Confirmados De Chikungunya - Folha do MS",
-      "headlineTranslated": "MS Records 6,360 Confirmed Cases of Chikungunya - MS Sheet",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-29T20:35:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPclRkRDdRNGZxS3MzWGtmQ1RrRXBaVkt1WVMzeW9PMmxrZ3hHSzlkTHBxbzY0dURMeTZjS1NiZXdLVlVkUzVjRDNRS2NIdndyeWtUeWgzNWlzS05RMjA2dkFZU2ZydWVxMjlaSWxHeVQzLVkwVkpLNXpMRTJRMWZON09B?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha do MS",
-      "headlineJa": "MS がチクングニア熱感染確認患者 6,360 人を記録 - MS シート"
     },
     {
       "articleId": "gnews_0b4cfde64c769bbe",
@@ -495,26 +1104,6 @@
       "headlineJa": "コスタリカはチクングニア熱の可能性のある症例を94人記録し、MSで警報を発令 - MS Everyday"
     },
     {
-      "articleId": "gnews_2fd2016bfbb3a30d",
-      "headline": "Corumbá vai receber método Wolbachia contra a dengue - G1",
-      "headlineTranslated": "Corumbá will receive Wolbachia method against dengue - G1",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-29T20:02:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWG54alRsdTZOQ21xN0g2MWpISFhPUXJSaHI5S3UxRWJrd1lQWDBQTUdzNko5ejJwM1pKQkt3b1lvNjRuZklDRDJCM1UtX1ZVZDFjVEN0NnpFSlBfQzlWS3pDakg3SEZhdkNaUzdUcWZOc0RtY1RUSXBkSDMzZzZ2M1Z6dTJVQll4ejlTNThreGVvcVREWThZUmFPeVRrN0huYlVGSzgzSDFRbS1FYkRicnZyb256SHY3S1dQTm9oOTFJZXYxc3NTbTRaVThJOGJjRlNUV0tUUTVOVFo3RzBnakFHZG1sZHVIVGNRVNIB7AFBVV95cUxQWG54alRsdTZOQ21xN0g2MWpISFhPUXJSaHI5S3UxRWJrd1lQWDBQTUdzNko5ejJwM1pKQkt3b1lvNjRuZklDRDJCM1UtX1ZVZDFjVEN0NnpFSlBfQzlWS3pDakg3SEZhdkNaUzdUcWZOc0RtY1RUSXBkSDMzZzZ2M1Z6dTJVQll4ejlTNThreGVvcVREWThZUmFPeVRrN0huYlVGSzgzSDFRbS1FYkRicnZyb256SHY3S1dQTm9oOTFJZXYxc3NTbTRaVThJOGJjRlNUV0tUUTVOVFo3RzBnakFHZG1sZHVIVGNRVA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "G1",
-      "headlineJa": "コルンバ、デング熱対策にボルバキア法を受ける - G1"
-    },
-    {
       "articleId": "gnews_2654e94ac2873f2d",
       "headline": "Palmeiras se une ao Ministério da Saúde e fortalece campanha de vacinação contra sarampo - SE Palmeiras",
       "headlineTranslated": "Palmeiras joins the Ministry of Health and strengthens measles vaccination campaign - SE Palmeiras",
@@ -555,6 +1144,26 @@
       "headlineJa": "ウアウア、デング熱と収入減のため2026年サンジョアン大会を中止―新聞大声"
     },
     {
+      "articleId": "gnews_c1abc636712f5fb5",
+      "headline": "Com 21 mortes, chikungunya ultrapassa 6 mil casos confirmados em MS - Midiamax",
+      "headlineTranslated": "With 21 deaths, chikungunya exceeds 6 thousand confirmed cases in MS - Midiamax",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-29T19:04:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWGM4ZmVTMGdxX1FTeWRNblhtTEp6V0ZpNkNhQWtHWDJ5NFNOZXg4SkxUODZXdVpBY1NrUElONG0wbXQzSjNpMWdKc2RsbzNlVlZGYTJSWFlGWEVvVDF1VUZOWS1Wa2dTSVJ1NzZraWFvNmhDdXpPSC1sVF93Z2pPMjFEOUhBaGRXMVNibGpxSlRQRnpTcVJQaG9XSDUtVnUy?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Midiamax",
+      "headlineJa": "21人の死亡により、チクングニア熱のMS感染者数は6,000人を超える - Midiamax"
+    },
+    {
       "articleId": "gnews_cad142e1d9104c55",
       "headline": "Chikungunya avança em Mato Grosso do Sul - Hojemais.com.br",
       "headlineTranslated": "Chikungunya advances in Mato Grosso do Sul - Hojemais.com.br",
@@ -568,8 +1177,8 @@
       ],
       "locations": [],
       "states": [
-        "Mato Grosso",
-        "Mato Grosso do Sul"
+        "Mato Grosso do Sul",
+        "Mato Grosso"
       ],
       "dataSource": "Google News",
       "sourceName": "Hojemais.com.br",
@@ -629,8 +1238,8 @@
       ],
       "locations": [],
       "states": [
-        "Mato Grosso",
-        "Mato Grosso do Sul"
+        "Mato Grosso do Sul",
+        "Mato Grosso"
       ],
       "dataSource": "Google News",
       "sourceName": "A Crítica de Campo Grande",
@@ -657,13 +1266,13 @@
       "headlineJa": "疫学速報：MSはチクングニア熱の確定症例6,360人を記録 - agenciadenoticias.ms.gov.br"
     },
     {
-      "articleId": "gnews_a4573751326cb935",
-      "headline": "Sesa promove imunização contra sarampo no Aeroporto de Fortaleza a partir do dia 1º de junho - Ceará Agora",
-      "headlineTranslated": "Sesa promotes immunization against measles at Fortaleza Airport from June 1st - Ceará Agora",
+      "articleId": "gnews_2e6bf51e68d09f20",
+      "headline": "Sesa realiza vacinação contra o sarampo no Aeroporto Internacional de Fortaleza - Governo do Estado do Ceará",
+      "headlineTranslated": "Sesa carries out measles vaccination at Fortaleza International Airport - Government of the State of Ceará",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-29T16:24:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdmdpRXBaRHNIRmdEWjVNOXRnaXR5NGFpRDRMcGlpckRfV3M4MUlZakJrWmFNVWt5OG1tNHZleUxyVmgzcjRsblNwelRnV0VzSFE2N1A4TXRUNU9SS0tObVhreXNoU3pHUVBxTEt2X3J0dmIzNEN0TTBjaTYtU2daU2dPZ01HRTRSQmlYRlc3VnFNZjVSYUEya2lJci15RGsyaXZLRml6ZU5ZaGdJSUJtNHRNUU43MlFtZnJj?oc=5",
+      "publishedTimestamp": "2026-05-29T14:54:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMHNNN0U1S2NYbEFUVHFYM1pPaW94SkZwQktVcUVoNFc2elhxQk11bkFhLUdGX3VBZWgtanhSOFdtaXRKWTg2U3MxdE5wSHRxT0dKa2dCYVBFWjRkMjR2djd3SFlfT2VOMm1fTnloT3pjeDUzOHliU2VSLUZHaWJubFVGd0lJQWRDU0Q2ZHo0T2NWNEd3c29jWVd3R0ZsTklhYzB6d05taVQ3TTNqODZuVFhKaw?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Measles"
@@ -673,8 +1282,8 @@
         "Ceará"
       ],
       "dataSource": "Google News",
-      "sourceName": "Ceará Agora",
-      "headlineJa": "セサ、6月1日からフォルタレザ空港で麻疹の予防接種を促進 - Ceará Agora"
+      "sourceName": "Governo do Estado do Ceará",
+      "headlineJa": "セサ、フォルタレザ国際空港で麻疹予防接種を実施 - セアラ州政府"
     },
     {
       "articleId": "gnews_f6a04608f820b27d",
@@ -710,8 +1319,8 @@
       ],
       "locations": [],
       "states": [
-        "Pará",
-        "Ceará"
+        "Ceará",
+        "Pará"
       ],
       "dataSource": "Google News",
       "sourceName": "Ceará Agora",
@@ -738,6 +1347,26 @@
       "headlineJa": "セアラ州保健局、フォルタレザ国際空港で麻疹ワクチン接種を実施 - セアラ州保健局"
     },
     {
+      "articleId": "gnews_d72bb748d07b46c9",
+      "headline": "Copa do Mundo 2026: vacina contra sarampo será ofertada no Aeroporto Internacional de Fortaleza - O POVO",
+      "headlineTranslated": "2026 World Cup: measles vaccine will be offered at Fortaleza International Airport - O POVO",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-05-29T13:36:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHJhUG94azh6Yzdkay1Uanh6VURTSThkY0wtNE1ZTHVlTjZUamI5Ymc4LUp4SDFjTl9DdU1XQThXWEFlSEZNbWpWYllzbHBfWVAxQzJpVTZYcmVYT0VTdFVfYmZuTXU1ZEllWkhpRkY0X1ZkWTRia294TVRFdi1EYjVEcmFkelFkSXUyMEpqTUJjZHpXNmcwRnN1UGtmOTdKZF91V0dNQ0FvU3NTTWNxSWxEMzV3RjZQa05lb2QxSEp2dw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Ceará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "O POVO",
+      "headlineJa": "2026年ワールドカップ：フォルタレザ国際空港で麻疹ワクチンが提供される - O POVO"
+    },
+    {
       "articleId": "gnews_58253a444e68e7de",
       "headline": "Copa do Mundo 2026: Vacinação contra o sarampo será intensificada no Aeroporto de Fortaleza - Prefeitura de Fortaleza",
       "headlineTranslated": "2026 World Cup: Measles vaccination will be intensified at Fortaleza Airport - Fortaleza City Hall",
@@ -756,27 +1385,6 @@
       "dataSource": "Google News",
       "sourceName": "Prefeitura de Fortaleza",
       "headlineJa": "2026 年ワールドカップ: フォルタレザ空港では麻疹ワクチン接種が強化されます - フォルタレザ市庁舎"
-    },
-    {
-      "articleId": "gnews_02fea9fa11b4162a",
-      "headline": "FMS convoca crianças e adolescentes de 10 a 14 anos para vacinação contra a dengue em Teresina - GP1",
-      "headlineTranslated": "FMS invites children and adolescents aged 10 to 14 for vaccination against dengue in Teresina - GP1",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-29T12:21:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZ2FfZHJJdk94SjBieVBNMVpsVVk1cE9UM1VkRFh4UHdzb0FhRjEzNU9CWk1NaDh6REdqd3NJZ01KX0dGRE5jamx6OGRjWGJhUDJObl9GWHlRSk9jcHpfbHpDM2lPdXBwVlRJY212U00yOWhlQ0syWEo0TENoU1gwLS1fbHVtT2Ntd3piQU44YTlNYzV4aE1UR0hFV09rVGFJVlJNUkdFa3k0eUZOOWtrN2dvdEtCZlVRSkFuZ0xXS25EV2ZPYUNTZW5rcEF4b3l1cWpOVWNiVTNfTHphVVVaTUpVYTFuMnk5SHhFQ9IB8gFBVV95cUxQOWhjUUdVblpydUhTaFA4N3VMMnpTbVlvRWlPN0h5MGhaSlVmbVFnZTg1Zm0zNkRwX090LXJBWFFGNFhZNDcxTTJvUnNtM3BXQ0FnV3FaQ0ZZM1JpdDlENnpWbkRzRnFrVHBjV1lmeXVPNVp0R1VGQ3dJcHVBOTdraDcyMFhNUlo0TFFjMF9FVVJGemw3RGlJYjAtVmVjaEY1dGJ0ZkttTzJkdFM4YmdsR3NoTzVRSnMxcVNSTjI0b3U5ZmVKX0ZKcWdpSU8xUk5pQV9xc3l3X0pXTG9ib1pXc3lSSzdaa2FQRnJEc0lLdl9MZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Piauí",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "GP1",
-      "headlineJa": "FMS、テレシナで10歳から14歳の子供と青少年にデング熱ワクチン接種を呼びかけ - GP1"
     },
     {
       "articleId": "gnews_2414af5d8f521c99",
@@ -804,7 +1412,7 @@
       "headlineTranslated": "With a focus on measles prevention, PJF promotes vaccination at Halfeld Park this Saturday, 30th - PJF - Juiz de Fora City Hall",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-29T12:00:31+00:00",
+      "publishedTimestamp": "2026-05-29T12:00:00+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tWnBEcWdTbkpiY2N2LVQzRE10X3pEOGthTlk5anZYV0FxUHhLb2lCd3ZKWHFoVHIta19SbTlDTjQwajF1eTIwNG5GMEs3aVlkUUpJVWZBUFI1Q056Q081b1JQdGx5RGlSY0tDdTBNYVFRM0NtSWgybTg1SQ?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
@@ -837,430 +1445,6 @@
       "dataSource": "Google News",
       "sourceName": "F5 News",
       "headlineJa": "セルジッペ州でのポリオと麻疹ワクチン接種の D-Day がどのようなものになるかを見てみましょう - F5 ニュース"
-    },
-    {
-      "articleId": "gnews_8eb5d66d22a3cd9c",
-      "headline": "Dor de cabeça intensa com náusea pode não ser dengue: o alerta da febre do Oropouche no Brasil - Tua Saúde",
-      "headlineTranslated": "Severe headache with nausea may not be dengue: the Oropouche fever warning in Brazil - Tua Saúde",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T21:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVFhtd0NEVWtybFRpWUJ0MHhKSHdzWW5DRTZtam9KdklGQ0NoOFJrTXdPSnI2SC1hY0ZUSElMX2RIRWU5WGd0Ylp5c0Z2aUVMQ3E4TW13VTd3dFFWeDAtYVkyTEtGYXFpM0txRlZYVGpGR0RiaklFV2RiMkM4dW16SEdHVjh4NE9JaEI2SFp6dDFsVEVPUHJyT0dzX1dob3FlamRwUWNhSXhRVHB6MFNib0hTX3F3Qkt2eGRMbWhNdU9zakFvYzFPZTZGaHR0anZk?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Oropouche",
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Tua Saúde",
-      "headlineJa": "吐き気を伴う激しい頭痛はデング熱ではない可能性がある：ブラジルでオロポーチ熱への警告 - Tua Saúde"
-    },
-    {
-      "articleId": "gnews_8bd8ff0f3778ad5f",
-      "headline": "Secretaria Municipal de Saúde orienta população de Diamantino sobre meningite - MINUTO MT",
-      "headlineTranslated": "Municipal Health Department guides the population of Diamantino about meningitis - MINUTO MT",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T21:05:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2Y3SldzSnlyMUowQXh6dV9TcUpUdUd6UmxNN3FCaFJ3dWU4eXlkbWN5eEhOYTRoZzBFTVg4LUZobTR1WDlLdDVLVndRUjhid1U3R2MtNTYzS08tNEZlTFd5c2ZLMEFvcHUtT2ZSVnhPQkdLSW1kaTdLWkNHdUdfUTdhYzNwSklGc0ljb0FjbG94aXVwM0o1T3FaS2lsbjhYNnk0S1cwbW5OSGVram11NHVtTjBDRVN3a05zb253?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Meningitis"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "MINUTO MT",
-      "headlineJa": "市保健局がディアマンティーノ住民に髄膜炎について指導 - MINUTO MT"
-    },
-    {
-      "articleId": "gnews_741b659dc7fcbbaa",
-      "headline": "SUS vai oferecer nova vacina contra pneumonia e meningite para bebês - THMais",
-      "headlineTranslated": "SUS will offer new vaccine against pneumonia and meningitis for babies - THMore",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T19:52:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSENqMXRmaXQ5V2ROMzhVUWRqME9salhaNU9iak1td1RfX25UZEppTklZZ0pnQ3FwbmpscWNPT0dTSkNRd3pvZzZsX2VNci0zeHlwaTVmVk1TeUNQa1FIcHRlUW1nakFMUnJFYTZfc2RSUkNzOXl5Y2ZVclR1VHpBQ3Z1Rm9WWFVRS0hpMjI3Y1NrdERFbGpheF9jM052bUpKN0FhYVhkWGtlVGpLLTFPRXZ0RXBzdw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Meningitis"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "THMais",
-      "headlineJa": "SUSは乳児向けの肺炎と髄膜炎に対する新しいワクチンを提供する - THMore"
-    },
-    {
-      "articleId": "gnews_ee1399230b360c08",
-      "headline": "SUS começa a aplicar vacina pneumocócica mais moderna e amplia proteção infantil no Brasil - Diário da Guanabara",
-      "headlineTranslated": "SUS begins to apply more modern pneumococcal vaccine and expands child protection in Brazil - Diário da Guanabara",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T19:44:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXQ2VUJUbWJiQkFKOTJhUTRfUzdLbFNBbkdMcjhZeE1DbmlEcDhHaktSWDRFc3J0S2VsMGRUaVptM182amxMbXVuZFpjeVJwZHZORVA5Zi14UHcyVXZtQWtVRkJPMXBDcVg5MWxrMGNfaEdzREJ4TFk1T2RjRWptRTZ5UTIyeFAtM0VkdHFyaEZscHZEYmZYZlpqaHRWM3l6UXpKVThiSVdnQnozZ29vQ2xlcFBIcGVZdHlRSEhXXy0?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Diário da Guanabara",
-      "headlineJa": "SUS、ブラジルでより最新の肺炎球菌ワクチンの適用を開始し、児童保護を拡大 - ディアリオ・ダ・グアナバラ"
-    },
-    {
-      "articleId": "gnews_e1137ad0dbd1f6a4",
-      "headline": "Febre amarela: vacinação é reforçada no ABC após registro de caso em macaco em Santo André - Terra",
-      "headlineTranslated": "Yellow fever: vaccination is reinforced in ABC after case recorded in a monkey in Santo André - Terra",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T17:53:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQaGdmVFR3TkJSWXJaSjlXMi1QTndVZUZscURkVmJ6alVEZC1QaDRZZlNLcG54LWptY0wtbGtLaUtqS0hCNHliYkVsRV9namNpd0lybVFGNURxajQtWWcydWxod2ZWUXBqYWM1NEQxR0JFbmZ5bk5YMEN6RTNJZGdNcmp5VzlZR19HVHNmbEJDOGZTTkxZVU1weGctVUZrbFRBMFJnNWowd3FUQzNFckpzRUxXVnZUemNmR3dNdzJ2azZ3LXIyS0hBZG1vM3M1a3NEaW9RSkRHd3FPSmpnS21aVjVFNFp3R2Jub3FtaVFIbm9qRGFDel8wU2tFM1M1TFR3cEl0TlhmQXRuNjNmVktENmV3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Terra",
-      "headlineJa": "黄熱病：サントアンドレのサルで感染者が記録されたことを受け、ABC州ではワクチン接種が強化されている - Terra"
-    },
-    {
-      "articleId": "gnews_95973ffb2b829bd7",
-      "headline": "Campanha reforça vacinação contra sarampo; imunização está disponível nas unidades de saúde - Destaque1",
-      "headlineTranslated": "Campaign reinforces measles vaccination; immunization is available in health units - Highlight1",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T17:30:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMk9RUnU2ZjYxOWR3bEo3UGNGazRHbW80eTNFSHJfaWY5cUpaTTFlX0tOSDRqcU9lR1I4ZmNLUTJSYW82RXFLcm5ucURuc0FGWUJOSWlYdW94MmcwbzJYZmZEMUlWRWFjMEhaeU9hcXRwQ253NGlkZlgxdXpLdXhCRmJ5aUEzY3lFOVFTVmR6eU5wM1JPdDFldXRDeW11WWprdzdLM2Q3R29PVXVUcU4xYkJ0cw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Destaque1",
-      "headlineJa": "麻疹ワクチン接種を強化するキャンペーン。予防接種は保健室で受けられます - ハイライト 1"
-    },
-    {
-      "articleId": "gnews_858c7cf9237aad21",
-      "headline": "SUS amplia vacinação contra meningite e pneumonia - Hojemais.com.br",
-      "headlineTranslated": "SUS expands vaccination against meningitis and pneumonia - Hojemais.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T17:20:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM0FTUGFwdm5pQ2w4UVVFWnItNmFxWHBES0RXRGFOLUlqOFBjN2tKVE11TW1oemtPQmt1Qk9MakRya3RCUlg1V0tHcGp6MGdFR2JkZERjM1E5dk1IN0Q5cTdhR2RkTW45NzFpSXhhZ2MzaW9sSmg0OG44QkxUU3pBNjR4cDZ3ODhRSEFGeG1ZRmZidHJwNEcxcEpRUDlwREgwWkd5c2tR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Meningitis"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Hojemais.com.br",
-      "headlineJa": "SUS、髄膜炎と肺炎に対するワクチン接種を拡大 - Hojemais.com.br"
-    },
-    {
-      "articleId": "gnews_8e5c40885f67300b",
-      "headline": "Salvador registra aumento nos casos de dengue e chikungunya em 2026 - Tribuna do Recôncavo",
-      "headlineTranslated": "Salvador records an increase in dengue and chikungunya cases in 2026 - Tribuna do Recôncavo",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T15:58:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRDlNMmJGd2xCSjRfc2Q4dDVMd25zWHR2N0pkZTBJcEpMQjhzMGJsVk9fUjlrdmNzelhnaXdzczRJN24wRlM0dmdZaUdoeWlPNW0zRndkdmhhMjU2cGNlZjZnSEpzMGhIcFZVQzRoSmU4S1BYT1ByZjRCcXNtRWQ2ZA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya",
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Tribuna do Recôncavo",
-      "headlineJa": "サルバドール、2026年にデング熱とチクングニア熱の感染者数増加を記録 - Tribuna do Recôncavo"
-    },
-    {
-      "articleId": "gnews_550d8e7753562894",
-      "headline": "Campanha \"Vacinar é muito Brasil\" reforça proteção contra sarampo em Camaçari - Panorama da Bahia",
-      "headlineTranslated": "\"Vaccination is a lot of Brazil\" campaign reinforces protection against measles in Camaçari - Panorama da Bahia",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T15:16:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOazNJZ2o3REJhcm5OMnpxZThPTmNpZTNmSV84MUMwLVhuTm1Yc3RGUHczZHdVdUExZF9DR1RNRmtJQmhidHhVTXZZdUZKbHN0Nm9NUmI2TER2N0FNMjNVeDFCQlljMDlHUURfa3I2UGNpdFhaX1p1QlR2RlVpMTNYdUpZUGo3ZktwNUZIeHU5YjdqZ3RqT2VDSkIzYnF3VGc4bFlaY0gzQUdYY203aTN3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Panorama da Bahia",
-      "headlineJa": "「ブラジルではワクチン接種が盛ん」キャンペーンでカマサリの麻疹予防強化 - パノラマ・ダ・バイア"
-    },
-    {
-      "articleId": "gnews_41251a3c4f66270d",
-      "headline": "Vacinação perde força no Brasil e hesitação cresce após pandemia, mostra pesquisa - CBN",
-      "headlineTranslated": "Vaccination loses momentum in Brazil and hesitancy grows after pandemic, research shows - CBN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T13:40:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSWF0ajRKRXI4ZnNNQXVjNTJraHllYkhZNjlJMm9yTTFUaVhGOVBVcExPc0dSUTRPSWVSYTJvQUxxamhpaDV1UHNTbFREVUMwX09KYUVSTmFDUjRrZTZ5cHZCc0o1czlXb2Z1ZW1xbHBJQTJDMERzWHpjelJuQ3JfVTh3bmVOZlVxTlk4UG5DSG0xNHdWR0p6SXZBWUVHbDhDc0R1OEhiS1lfT3o0WUdMYVBmRjFXQW92TU9NUjRFUFFfSDlacnVpbFF3eGE1VFhOc2lleDlvaUkxTTFnNlpsZmNpVGN4TnZjLXfSAfgBQVVfeXFMUGV5V0hHc3QxTXRRb05DOENsWGRJNjAzdlVLOUxSYjFzSUxPSTV6cXZDTDNpdkpmOHp4aVowdE04QXN4T3JsbXJwM2VPQmozVHBycXBLbFRHSHJSM210TnN4UFRIajhTbVQ2SFVXalJMMENMclRrLW9OVHRrcm9CNjZfUW1lcVQwY3BYUmFqZURWdERudG93ZkgtT2c0NGpfU3paMkQ1b1h0Mk1YQzRlRnFhUVRfYTZSdmlwNUNMTThzZlVZd3pmNE90TXFfeUpoLUJQYjBrX0xDaU1VUnExdG9TN0FPaWdVMkxkV1hUaGdqMFdXQVkzdkg?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CBN",
-      "headlineJa": "ブラジルでワクチン接種の勢いが失われ、パンデミック後はためらいが強まることが調査で判明 - CBN"
-    },
-    {
-      "articleId": "gnews_d6726d4f133053b2",
-      "headline": "Turistas que vão à Copa devem ficar atentos à vacina contra o sarampo - Rádio Super FM 99,9",
-      "headlineTranslated": "Tourists going to the World Cup should pay attention to the measles vaccine - Rádio Super FM 99.9",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T12:19:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSURiQXVBUlhQbnV6ZE5UVkZqNmExcnI5WWFlUDZpWC10MzUya2phcHdSdTQ5ZWl3Ym9jbGJKMmQxNk5OSWhpVnBKZFhfWm9Kd3dBMWI2bzlqU095V0xraVA0QVB3b2NCVTNnTzFYWU1WQjBtV3hMYWtGV0dXUy15czNvVlV5ZWtRbW5oc05Kck00aFhfNGtRdHRCS2RuaXQyWUc1MWZjNXo?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rádio Super FM 99,9",
-      "headlineJa": "ワールドカップに行く観光客は麻疹ワクチンに注意 - ラジオ スーパー FM 99.9"
-    },
-    {
-      "articleId": "gnews_615a80419f34a055",
-      "headline": "DF deverá distribuir de graça repelentes contra mosquito - - Misto Brasil",
-      "headlineTranslated": "DF should distribute free mosquito repellents - - Misto Brasil",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T12:05:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX3hzX1pSOTU1Q21mXzJDUnpIcHRKVHdSWVJrcHJ6N1hUXzZib3FyRlJWQWh3QXJIUzVXQ0Yyakp4YzR1dG5IRTN1LVJCY0ktbGRHUEJ2ckh2UzlMWkZial9TQkZKSXQ5ZmR6dTNxTXh3Y0p5SzUzc1pndVFRY3Q5OGV2WFNJVXJDeGl2c0VCNDg2SjUtU1VJ0gGfAUFVX3lxTFA1WmRUVTBUbUhxaHdaZ0pTcFF3U3d6Ny15SFk4RXFTNUVHU09oOWUxOTFtX2dPX0pmMWtqbDJoTFhSSHk3em5vZkRrMUdVSzF6V1lYRGhtbGZvZGxtNmk3MDNwUXBvWlM1U0JCMk9aRFpoaUJIWldRaTI5bzVfQTQ0YVRCMnNuQXNMbTFENlJVT0pEQW1EUnB0NDBnUmJVWQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Distrito Federal"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "- Misto Brasil",
-      "headlineJa": "DFは無料の蚊よけを配布すべき - - Misto Brasil"
-    },
-    {
-      "articleId": "gnews_b989ec21057c1e47",
-      "headline": "São Paulo intensifica vacinação contra febre amarela após vírus ser identificado no Grande ABC - Diário da Guanabara",
-      "headlineTranslated": "São Paulo intensifies vaccination against yellow fever after virus is identified in Greater ABC - Diário da Guanabara",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T11:27:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRm5ONjBSMERQY3ZuSUZVWEhRMTUtX0V1b1JXSmNCRVdiNnZDZXVfN1p0WHo5Z3FCRWlGeGxXbnN0em12b082V19mQWd1OHllRWZYNHZsVU9FYmFUcFVaM2Q5Smw0LUZEZjJjQ2hWcWYzUWk5M0lLMjVyTEdCZGhpa2V4RHF6YzBqTzNjSnBicWFNcVBOUmQzRXNSbU5sRTl1RU1kT0lnN3c4S3lCUWM3QXNqWWpWdGt4VmVoLVZYeGR4V196OGc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "São Paulo"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Diário da Guanabara",
-      "headlineJa": "サンパウロ、ABC大都市圏でウイルス確認後、黄熱病のワクチン接種を強化 - ディアリオ・ダ・グアナバラ"
-    },
-    {
-      "articleId": "gnews_57efbccbbbf38291",
-      "headline": "SP reforça vacinação contra febre amarela no ABC após caso em macaco - CNN Brasil",
-      "headlineTranslated": "SP reinforces vaccination against yellow fever in ABC after monkey case - CNN Brasil",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T11:04:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSmxjOEhGTmw1NXM3X1cwY0d5dm1lVWdqUGdlb3NzVDd1Vm8ybXZ6dzRFMlluc0J4Rk5qaFdfWTVydkNvb3Y5T0NZMlJyLS02RUxPRmN6SjFIMEd4c0VfejlUcG10LTZhd3BPRXdCVmVXbGlJZjBNalhYb2tJSEVaa1FjaDFNSmV1Qy1vQ0JPTjlDYVNja0dVemFRZHdqQmtQRk1tVWtzYw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNN Brasil",
-      "headlineJa": "SP、猿の症例を受けABCで黄熱病のワクチン接種を強化 - CNNブラジル"
-    },
-    {
-      "articleId": "gnews_871a89f9b595d276",
-      "headline": "Governo holandês avança para a vacinação obrigatória contra a gripe aviária - Feed&Food",
-      "headlineTranslated": "Dutch government moves towards mandatory vaccination against bird flu - Feed&Food",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T09:06:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSVVjM3hZc2FLWDZoXzd4WDZrWkVXeFhOcjM3M3pFLURoVXVBQWpKMkhOeFlYRXhpNG9hQTR4MnRZNnBsUFBkRnBUVjBrNzNDOU5UMUZDbElCbk5Od1I3cFRDSUU3M19Sbk1FRDRMZW9MbW85RGpJeHN4Y3B0OXRuNlUxYkNfRnlodjc3eUZsaE5KVUlYYV9Zd0VnT2FJakl3VVE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Feed&Food",
-      "headlineJa": "オランダ政府、鳥インフルエンザワクチン接種の義務化に向けて動き出す - Feed&Food"
-    },
-    {
-      "articleId": "gnews_033f7747c6467208",
-      "headline": "Governo de São Paulo amplia vacinação contra febre amarela no ABC paulista - Fato Paulista",
-      "headlineTranslated": "Government of São Paulo expands vaccination against yellow fever in ABC São Paulo - Fato Paulista",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T02:38:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXY19RUlQ3TTZmMWtZdjFGVDVEMWZWazJhV3FGeW1SN2Znc0JwX1BIYWRQUTVRYnk4NkZwajFsMnVpUHdiRkdzc0YzX1RFaFhrcVNRQkZzdzlJcnp1UEdJT1R6WjBVR1FnN0p2dklpTQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "São Paulo"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Fato Paulista",
-      "headlineJa": "サンパウロ政府、ABCサンパウロで黄熱病ワクチン接種を拡大 - ファト・パウリスタ"
-    },
-    {
-      "articleId": "gnews_4a4a2b89ca8de20c",
-      "headline": "Governo de São Paulo intensifica vacinação contra febre amarela no Grande ABC após morte de macaco - Pagina1mt",
-      "headlineTranslated": "Government of São Paulo intensifies vaccination against yellow fever in Greater ABC after monkey death - Pagina1mt",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T01:31:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcDhGdHZZclJmS2prX19NQUJHYmtCTEtwRlRiaktSWFlyQWVfbVMzMEFyelBoWThGeXJvWUhMaUwwV1BDa1ZsclI2WjhzT1hrVWNtZE1MNVFKTHZVMUc4dGVFWTFmNjVpVHhxbDFLLUdQUWVpNVd2d3dIWThORDhUaHZ5bzEybHNBWVF0UnIzVHpiOHc3VVRyUkVnWDlmMEFqOFBOa1J3bzRSWERhd0JaNXVmb0tLOS1XQXgzQVFBWDNicjZhQUx5X1d0aUxIZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "São Paulo"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Pagina1mt",
-      "headlineJa": "サンパウロ政府、サルの死亡を受けABC大都市圏で黄熱病のワクチン接種を強化 - Pagina1mt"
-    },
-    {
-      "articleId": "gnews_b958a6516837b69d",
-      "headline": "Governo de SP reforça vacina contra febre amarela na região do ABC - Agência Brasil",
-      "headlineTranslated": "Government of SP reinforces yellow fever vaccine in the ABC region - Agência Brasil",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T01:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNUlWQlFuanVLekZGN09tOV95UjNjbWZxOWZ1SUpSM3RDZlZWZlczLXJzVndZSXFMNVA4cGt1QWIyaTBzT1NtMVlUWHVrUFAtSzZxRGZvRFV2X0VNZFBXVHEzQUpEZEtMS3hDT2ljbTBFSTM1QzNXaXN5LVREU3JkXzNHd2ZTX2tra1pSeVZzMmpmdTBYMElDa3VMWDJJOWlSdVNVOVdTbG1WbmxmbWlBMkhjckpVb1VPQk9wSnFR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Agência Brasil",
-      "headlineJa": "SP政府、ABC地域での黄熱ワクチンを強化 - Agência Brasil"
-    },
-    {
-      "articleId": "gnews_47734dd57187f21c",
-      "headline": "Governo de SP reforça vacinação contra febre amarela no Grande ABC - Tribuna do Sertão",
-      "headlineTranslated": "Government of SP reinforces vaccination against yellow fever in Greater ABC - Tribuna do Sertão",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-28T01:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0NCWXhaUE5Ea3ZBWUtUU2h1Y3NjTWZKR2w0Q1U2TjAwQWFYZ2lQV255RlZLRjY4cVljMHRoSFFpSkp2RzlxVjFJTHp0ZlowbFI5blI0ZXE4cGt5V0gxdk5XOThEdlB2WGc4bE9DSGdwUkVPdUN2ZE0yWWFsNE1TV3RjeVBtTFQzR3c3aXJobERkWFRFdXUzTWhSN3FTV1ZyZ3VHSzFEWlVGSW9KNnl4elR1MGlBSVRKeG9jUzBrb0lONG8?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Tribuna do Sertão",
-      "headlineJa": "SP政府、ABC圏で黄熱病のワクチン接種を強化 - Tribuna do Sertão"
-    },
-    {
-      "articleId": "gnews_0be01022ce5e946c",
-      "headline": "Público de 10 a 14 anos é convocado para se vacinar contra a dengue em Teresina - parlamentopiaui.com.br",
-      "headlineTranslated": "People aged 10 to 14 are invited to get vaccinated against dengue in Teresina - parliamentpiaui.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-27T23:03:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk5UYWJYM0tWdnAwQlh4czBUYnl6dmg4al9VOHEyR2xIN3JWZklJbUloVmk1Q1FGQ3k2WHRmVTNQWENOZExCMF90Yk82bWlERFI5V01HVXlGNGxPSDRqOUlLSjE1U240ZWNmV3Nob01aS2tBVHNBa3dPd0NkTlBBckIwbi1yVUxfNmNiR1RIQ3VWU3NEdmJqSWxxMDF3a095czhfaGp6QktFenVTTGcwZmhPd3V1Z2VmY1BSQ005SQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Piauí",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "parlamentopiaui.com.br",
-      "headlineJa": "テレジナでは10歳から14歳までの人々がデング熱のワクチン接種を受けるよう勧められています - Congresspiaui.com.br"
-    },
-    {
-      "articleId": "gnews_8c59398bf8540565",
-      "headline": "SP amplia vacinação contra febre amarela após confirmação do vírus em Santo André - Folha de S.Paulo",
-      "headlineTranslated": "SP expands vaccination against yellow fever after confirmation of the virus in Santo André - Folha de S.Paulo",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-27T22:53:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMHlJTUtVX1huRlBtOFl4YlFTQUdJbXIweVBndXlSOEI5dmpQX0FkVklYNy1oMnZaTGt0MG1zdGd4NTRRUWdlalNkc3VrOTV6TE83SVhzUWV1Tzc1RWdqZzBjWXc5YjYyM2djcVFNR1VkSHNITTJJZzlNbkRPR1dwNjNwcWxMRVN4WmQ0bTdsa0xOZVRhcmhBN1NYeVBnODN5WG9PZkZod3RLUl80aHI3c0R3aGFjb2RKR1l1U29OUXFsdzlFdHdjTGlaaG1xUi00akFfbGZCMFQ1UUdp?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha de S.Paulo",
-      "headlineJa": "サントアンドレでウイルス確認後、SP、黄熱病のワクチン接種を拡大 - フォーリャ・デ・サンパウロ"
     }
   ]
 }
