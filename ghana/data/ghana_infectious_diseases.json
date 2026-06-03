@@ -1,20 +1,40 @@
 {
-  "generated_at": "2026-06-02T23:11:06.558294+00:00",
+  "generated_at": "2026-06-03T23:15:13.969011+00:00",
   "date_range": {
-    "start": "2026-05-30T23:11:06.558294+00:00",
-    "end": "2026-06-02T23:11:06.558294+00:00"
+    "start": "2026-05-31T23:15:13.969011+00:00",
+    "end": "2026-06-03T23:15:13.969011+00:00"
   },
-  "total_articles": 7,
+  "total_articles": 5,
   "state_summary": {
-    "Ghana (region not identified)": 7
+    "Ghana (region not identified)": 5
   },
   "disease_summary": {
     "Ebola": 3,
-    "Dengue": 1,
     "Tuberculosis": 1,
-    "Malaria": 3
+    "Malaria": 1,
+    "Mpox": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_ca9a76fed92edac2",
+      "headline": "WHO donates critical supplies as Ghana intensifies Ebola preparedness efforts - WHO | Regional Office for Africa",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-06-03T12:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ2tadXhydEdYU0NsNlBTOXZPOWFUMS0tZW1uRTNZekdCWmhkeVZJdVZDb0RYbTh5cl9Zd2I2RGx3X3RpQm9ySGVybWRmQ0dWSG9mLUthN1JXd1NVV1B5R0JwNnZwWjFPZ09VMzVVQnUtT3VEOXZhZEpZRUNFN1ZtQzZaRUV6Y0huaERPN1JnSFBoT19fWWNNbGs5ZkZZbnNIMFRPaG0tNldTSml3LWhuMW96ZERLWEVzaXJ6QQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Ghana (region not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "WHO | Regional Office for Africa",
+      "headlineJa": "ガーナがエボラ出血熱への備えを強化する中、WHOが重要物資を寄付 - WHO |アフリカ地域事務所"
+    },
     {
       "articleId": "gnews_cdacbbe52618114b",
       "headline": "Ghana's Ebola Readiness, Health Sector Reforms & Agenda 111: Health Minister Speaks |The Big Stories - Modern Ghana",
@@ -33,27 +53,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Modern Ghana",
-      "headlineJa": "ガーナのエボラ出血熱への備え、保健部門の改革、アジェンダ 111: 保健大臣が語る |ビッグストーリー - 現代ガーナ"
-    },
-    {
-      "articleId": "gnews_5fc550a3887481fe",
-      "headline": "KNUST joins global consortium to advance dengue vaccine dev’t in Africa - CitiNewsroom.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-02T05:10:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPalhCMGNXYnRadVgyM29IWmJtMl9rVGhUZGtLNGxDNVh2UkwwbzNkaVgyYzFOQ05ESFRRZi1MX1AwWXF3MFhEUGhzd2p0QTRva25BRjh4VGxwdnhEX2FBOXdETFhiYUFneFRfWExzT2M5azV0TDZQUmR1QldiODE3cDlNR1AyRXRCVm1zYXRkM3B0a2lnRFEyYlVWMS1lMDRiRGp5OXhLa21DOFlY?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Ghana (region not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CitiNewsroom.com",
-      "headlineJa": "KNUST、アフリカでのデング熱ワクチン開発を推進する世界的コンソーシアムに参加 - CitiNewsroom.com"
+      "headlineJa": "ガーナのエボラ出血熱への備え、保健部門改革、アジェンダ 111: 保健大臣が語る |ビッグストーリー - 現代ガーナ"
     },
     {
       "articleId": "gnews_ca64c2a1b5ba335d",
@@ -65,8 +65,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEwtR2x5ZmE3am9kMkdYWjJzYzgwOHFGaDl1emU3MzdjUXYzODZGQm1hVFJjWXFHbzEwYjNzMlZqY3hoNGZWNTd3R3pwV2lQZzdfeXBPWmt5WldyM1RIZFZpcXRGcnhVOXZOWmpWenhYYXFpdmZ0cGE0WVp3RDJFdGdlYlZjRjUxRm50M21TSGxyQlJMUFd4NjZhWGxaN1U?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Tuberculosis",
-        "Ebola"
+        "Ebola",
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
@@ -97,64 +97,24 @@
       "headlineJa": "新しいマラリアワクチンが数千人を救うと約束され、ガーナがアフリカをリード - 現代ガーナ"
     },
     {
-      "articleId": "gnews_51b4817b55cf731c",
-      "headline": "Ghana among first countries to roll out new malaria drug for babies under 6 months - Modern Ghana",
+      "articleId": "gnews_a53ca65ab70df13d",
+      "headline": "Monkeypox in the United States and Around the World: Current Situation - Centers for Disease Control and Prevention | CDC (.gov)",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-31T14:23:31+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lQmJDM2FLMHVLa1M5VERVYWpuRWVLSFY5OHd3c3p6NWFrOG14OXNOZkVQRHZRbFZTNW1xbGNraFZzYW1iOW5iaW1WM0VtSXJFU2l6S0djUjY3bTRTMVhWajdycE9qZ2tQ0gFcQVVfeXFMTjFqMVpZOHZXcUJ5WHpEMkJQNlZ1dzRHdHZmeHVLMlhfcFBzOUNDYVo4S0JDMVVUMThQY3cxWVlLTHF1bkZhTWxwaVZyV0RIMERtN0E5Wm5QRUtrQ2o?oc=5",
+      "publishedTimestamp": "2026-06-01T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hN2FwbDA2U3VfUENnOFJ0LTNvTUs2U3VWbzlKYnJpMElxZ05qLVhwRDJBMUxjVGhucGNMa042ODJrVll2bjdOWXlFZ3FHMXA1SVVxSVJqYmlPem5nZnh6WHN4LXF2YmlIelE?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Malaria"
+        "Mpox"
       ],
       "locations": [],
       "states": [
         "Ghana (region not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Modern Ghana",
-      "headlineJa": "ガーナ、生後6か月未満の乳児向けの新しいマラリア薬を最初に発売 - 現代ガーナ"
-    },
-    {
-      "articleId": "gnews_7d79a76d442d7a25",
-      "headline": "Ghana among first countries to roll out new malaria drug for babies under 6 months - Modern Ghana",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-31T11:15:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xajFaWTh2V3FCeVh6RDJCUDZWdXc0R3R2Znh1SzJYX3BQczlDQ2FaOEtCQzFVVDE4UGN3MVlZS0xxdW5GYU1scGlWcldESDBEbTdBOVpuUEVLa0Nq0gFcQVVfeXFMTjFqMVpZOHZXcUJ5WHpEMkJQNlZ1dzRHdHZmeHVLMlhfcFBzOUNDYVo4S0JDMVVUMThQY3cxWVlLTHF1bkZhTWxwaVZyV0RIMERtN0E5Wm5QRUtrQ2o?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "Ghana (region not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Modern Ghana",
-      "headlineJa": "ガーナ、生後6か月未満の乳児向けの新しいマラリア薬を最初に発売 - 現代ガーナ"
-    },
-    {
-      "articleId": "gnews_2858494327c703df",
-      "headline": "Ebola spread in DR Congo 'deeply alarming', MSF warns - BBC",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-05-31T06:47:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGVEJsMmpFdEpTUVBFM3dTU1Q4QjgxNkZEX3ZYcDhRYXl0WEM0Z1B2N1plaGM0eTVfdUlYUmhUYWR3ZVhNMTN0NC11NTNzdVk4T1I5V1RZemVYdw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Ghana (region not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BBC",
-      "headlineJa": "コンゴ民主共和国でのエボラ出血熱の蔓延は「非常に憂慮すべきこと」、MSFが警告 - BBC"
+      "sourceName": "Centers for Disease Control and Prevention | CDC (.gov)",
+      "headlineJa": "米国および世界中のサル痘：現状 - 疾病管理予防センター | CDC (.gov)"
     }
   ]
 }
