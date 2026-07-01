@@ -1,40 +1,633 @@
 {
-  "generated_at": "2026-06-30T21:52:08.682462+00:00",
+  "generated_at": "2026-07-01T21:53:53.444251+00:00",
   "date_range": {
-    "start": "2026-06-27T21:52:08.682462+00:00",
-    "end": "2026-06-30T21:52:08.682462+00:00"
+    "start": "2026-06-28T21:53:53.444251+00:00",
+    "end": "2026-07-01T21:53:53.444251+00:00"
   },
-  "total_articles": 54,
+  "total_articles": 74,
   "state_summary": {
-    "日本 (都道府県未特定)": 16,
-    "福井県": 4,
-    "東京都": 15,
-    "千葉県": 2,
-    "大阪府": 7,
-    "愛知県": 3,
+    "千葉県": 7,
+    "日本 (都道府県未特定)": 19,
+    "富山県": 5,
+    "山口県": 1,
+    "岩手県": 1,
+    "大分県": 2,
+    "長野県": 2,
+    "埼玉県": 3,
+    "宮崎県": 1,
+    "大阪府": 8,
+    "岡山県": 1,
+    "東京都": 16,
+    "愛知県": 2,
     "神奈川県": 1,
+    "福井県": 4,
     "静岡県": 1,
-    "北海道": 1,
-    "兵庫県": 1,
-    "京都府": 1,
-    "山形県": 1,
-    "佐賀県": 1,
-    "富山県": 1
+    "北海道": 1
   },
   "disease_summary": {
-    "感染症 (未特定)": 18,
+    "HFMD": 12,
+    "Influenza": 3,
+    "Measles": 8,
+    "Tuberculosis": 7,
+    "COVID-19": 12,
+    "Streptococcus": 1,
+    "感染症 (未特定)": 17,
+    "Norovirus": 22,
+    "Food Poisoning": 6,
+    "Dengue": 1,
     "RSV": 1,
-    "Food Poisoning": 5,
-    "Norovirus": 20,
-    "COVID-19": 4,
-    "HFMD": 3,
     "E. coli": 3,
-    "Influenza": 2,
-    "Tuberculosis": 4,
-    "Measles": 4,
     "Avian Influenza": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_cb65592332e3627c",
+      "headline": "手足口病、県内流行入り 国の警報基準超える - 千葉日報オンライン",
+      "headlineTranslated": "Hand-foot-and-mouth disease outbreak in the prefecture exceeds national warning standards - Chiba Nippo Online",
+      "headlineJa": "手足口病、県内流行入り 国の警報基準超える - 千葉日報オンライン",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T20:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5GdGdueVNfYU5ocVN1dHliY0FhY3ZFYlJzb25NbjY5MmhMdGVqRlBuWmpNMG50bjhOa2UzRUw4dVdoOFBHU3BtNzQ3eENBZmQtMkt4NlYxZU8?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "千葉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "千葉日報オンライン"
+    },
+    {
+      "articleId": "gnews_892682fe9653c938",
+      "headline": "世界保健機関（WHO）が季節性インフルエンザワクチンから特定の株を除去すると、ワクチンの予防効果は低下するのだろうか？ - Vietnam.vn",
+      "headlineTranslated": "If the World Health Organization (WHO) removes certain strains from seasonal influenza vaccines, will the vaccines become less protective? - Vietnam.vn",
+      "headlineJa": "世界保健機関（WHO）が季節性インフルエンザワクチンから特定の株を除去すると、ワクチンの予防効果は低下するのだろうか？ - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T16:07:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjVUdy1CRzJ2OVlaenlucjJNRG5oZmtlMm9oeHV6WTZsS2ZxalRkY2xqM01tdjhoajBVa2xuUkE2VTExeHZoT3BMVXNkQ1hyaFU2UF9paFdSdklwdUl0X3pMNWk5Zm5JajhkTmlnMTdZcFUzUXQ3cTZtNjlqSkFxWXBXc2RDaWV1R0hFVG1WUlpqa0NucTdj?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_de3b81fbf0ebd174",
+      "headline": "40代男女2人がはしか感染…富山県内の患者は7人に 発熱などの症状訴え、検査し感染を確認 富山（チューリップテレビ） - Yahoo!ニュース",
+      "headlineTranslated": "Two men and women in their 40s are infected with measles...The number of patients in Toyama Prefecture is now 7. They complained of symptoms such as fever, were tested and confirmed to be infected. Toyama (Tulip TV) - Yahoo! News",
+      "headlineJa": "40代男女2人がはしか感染…富山県内の患者は7人に 発熱などの症状訴え、検査し感染を確認 富山（チューリップテレビ） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T10:44:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5VDRiUWNhWHZmdnJvSmFfYXRSa1drS08zOExOYjBLQzBXUWt2VWJkYjNXU0VOX1RtUERTRFhaSE9UNEtWdjJjZERpaGpGUXZFNFBxSEVRNFZlZk5pakFaZlA1RWJBbEd4ZE9rNlVfYUh0UTg5SnNZemhIYVg3YzA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "富山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_76dc41d7ef8f0229",
+      "headline": "富山県内で「はしか」感染者 新たに２人判明 今年に入って７人目 - Excite エキサイト",
+      "headlineTranslated": "Two new measles cases found in Toyama Prefecture, seventh this year - Excite",
+      "headlineJa": "富山県内で「はしか」感染者 新たに２人判明 今年に入って７人目 - Excite エキサイト",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T10:42:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oTGV2MlpTa05HdlZ1Ti1PNVBCY2drOGJaQnBxcjJ3LXZ2MUF0ZUFKM01zOTRqZ0lUc29ORDJyT1Q4ejJjLUg3bHFwX0tCa3FSaXJZa1RYejNJTEF3a05MNFJNUG9TU19GRDg3c1R3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "富山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Excite エキサイト"
+    },
+    {
+      "articleId": "gnews_b28f74dd70889912",
+      "headline": "富山県内で「はしか」感染者 新たに２人判明 今年に入って７人目（2026年7月1日掲載）｜KNB NEWS NNN - 日テレNEWS NNN",
+      "headlineTranslated": "Two new measles cases found in Toyama Prefecture, 7th this year (posted on July 1, 2026) | KNB NEWS NNN - Nippon TV NEWS NNN",
+      "headlineJa": "富山県内で「はしか」感染者 新たに２人判明 今年に入って７人目（2026年7月1日掲載）｜KNB NEWS NNN - 日テレNEWS NNN",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T10:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRGJnUkducmZJMmV3V1Q3bUhNdTVZbXhPT0k5S1dJQkJ4cVR1SjY5Q2l5c1JacGVZaDVxNUlpV3c0ajIxMHd6VFFmdG1UT3dsZDRaREhROEEzcjZsODdUREFUaXo0U3c0bkM1Y0xiTktWQWxnZEZqLTM1TTBBSjItUFVlUzNfQVk?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "富山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "日テレNEWS NNN"
+    },
+    {
+      "articleId": "gnews_77585592270d47a9",
+      "headline": "40代男女2人がはしか感染…富山県内の患者は7人に 発熱などの症状訴え、検査し感染を確認 富山 - TBS NEWS DIG",
+      "headlineTranslated": "Two men and women in their 40s are infected with measles...The number of patients in Toyama Prefecture is now 7. They complained of symptoms such as fever, were tested and confirmed to be infected. Toyama - TBS NEWS DIG",
+      "headlineJa": "40代男女2人がはしか感染…富山県内の患者は7人に 発熱などの症状訴え、検査し感染を確認 富山 - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T10:35:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ja0ZmWnh1WXpwUlJDOVVZV1ZUNjhNX0EwWFlkYnRlbTkxWnJWc1hsdzh0cjJGSFBvNjdZWXBDUnN2OVUtcUE1SFJXY0hJZE5aRHRCUmFnZVVsZw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis",
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "富山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_199c6f4344a3cb57",
+      "headline": "手足口病の患者数 前週比１.４倍 流行発生警報継続 山口 - NHKニュース",
+      "headlineTranslated": "Number of patients with hand, foot and mouth disease 1.4 times higher than last week, epidemic warning continues Yamaguchi - NHK News",
+      "headlineJa": "手足口病の患者数 前週比１.４倍 流行発生警報継続 山口 - NHKニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T10:07:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03UEU4NGNDdG1SS2lRMm5SNFlRSDMxWjY2LUFiVFJ4T2RWRGJiaWtZS0V1TERIcWk2Nk15Q3FHZlFLLWNIaTNFNi1NeVRHV3J4Y2J0QzRUQkg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "山口県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NHKニュース"
+    },
+    {
+      "articleId": "gnews_ce2330d660f2f87b",
+      "headline": "【新型コロナ】新規感染者２人、２週連続で前週下回る／岩手県内 - デーリー東北",
+      "headlineTranslated": "[New Corona] 2 new infections, lower than last week for 2nd consecutive week / Iwate Prefecture - Daily Tohoku",
+      "headlineJa": "【新型コロナ】新規感染者２人、２週連続で前週下回る／岩手県内 - デーリー東北",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T10:00:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DOHJfMFZSX2RLeGFHTWM2bEJKVHFwYmEtVHdPcmFNMzRTVjR0MkFNSjZ1Qk8xQzREQ0k4YW5TekJDQjAwZHpoMjRCdUFMS3FYemg0aF9ZVW5ZTnFLUWZxR3UwUDFveG8?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "岩手県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "デーリー東北"
+    },
+    {
+      "articleId": "gnews_6187e81e4ea8e6c2",
+      "headline": "新型コロナ2年ぶりに夏に流行か 前週の2倍以上に増加 手足口病も依然警報レベル上回る 大分 - tosonline.jp",
+      "headlineTranslated": "The new coronavirus is likely to be prevalent in the summer for the first time in two years, more than double the number from the previous week, and hand-foot-and-mouth disease remains above the warning level in Oita - tosonline.jp",
+      "headlineJa": "新型コロナ2年ぶりに夏に流行か 前週の2倍以上に増加 手足口病も依然警報レベル上回る 大分 - tosonline.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T10:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VMC1wcHpXWTFqcDdCUV80RmZtQVMxTmROOGNlb21Kby13U25JN1N2X29WTXJfX2hEYU9lRjN6N0NIZl9fbUdYUXduTF95NnVmeGpFcG15bW5XM3Rp?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD",
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "大分県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "tosonline.jp"
+    },
+    {
+      "articleId": "gnews_e6072fdd7bf54449",
+      "headline": "40代男女２人がはしか感染 県内の患者は７人に 発熱などの症状訴え、検査し感染を確認 富山 - TBS NEWS DIG",
+      "headlineTranslated": "Two men and women in their 40s are infected with measles, bringing the number of patients in the prefecture to seven. They complained of symptoms such as fever, were tested, and were confirmed to be infected. Toyama - TBS NEWS DIG",
+      "headlineJa": "40代男女２人がはしか感染 県内の患者は７人に 発熱などの症状訴え、検査し感染を確認 富山 - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T09:34:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13T00wTWFzaGctWS1rSjNxRmpjb0RuYzE1d3MwQXgzbDNlMk9RWXpGdlRHYklkYURKWmRLbGtNekg5SUFyQVlDMzNDTWl2aGJaSHB5OFVIRW9DRFkxcWhIeFFUSWxyS1U?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis",
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "富山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_2e7da3fb7fed9b36",
+      "headline": "大分県内 新型コロナの感染者が１か月で７.６倍に急増 - NHKニュース",
+      "headlineTranslated": "In Oita Prefecture, the number of people infected with the new coronavirus has increased 7.6 times in one month - NHK News",
+      "headlineJa": "大分県内 新型コロナの感染者が１か月で７.６倍に急増 - NHKニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T09:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10bTU2SVp6RmdDaDJKM2tRSV9EQzVtamZqeWF1Mkl3WV9yazFZQ2hId2U1VEljMnQ5VmNvSlRrNTZBb09aYVM5OFNwcTNmbHF4NHUtTXZld3E?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "大分県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NHKニュース"
+    },
+    {
+      "articleId": "gnews_71a27c8d078b1136",
+      "headline": "県西部の２人がはしか感染 １人はこれまでの感染者と接触なし - NHKニュース",
+      "headlineTranslated": "Two people in the western part of the prefecture are infected with measles, one has no contact with previous infected people - NHK News",
+      "headlineJa": "県西部の２人がはしか感染 １人はこれまでの感染者と接触なし - NHKニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T09:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RTUxlZlJRYUpfUGptUlUwZmFNanBwb2FONmhtYmd3WlV6bHBjOTRDcWtXeDVrMHU0QXNwbXJSVk1nbzNIbDJialZHbVlaTGFia0w0MHFkZzA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NHKニュース"
+    },
+    {
+      "articleId": "gnews_8ee0561b68822c70",
+      "headline": "長野県「新型コロナ」減 「手足口病」は増 2026年第26週 - 東信ジャーナル",
+      "headlineTranslated": "Nagano Prefecture ``New Corona'' decrease, ``Hand-foot-and-mouth disease'' increase 26th week of 2026 - Toshin Journal",
+      "headlineJa": "長野県「新型コロナ」減 「手足口病」は増 2026年第26週 - 東信ジャーナル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T09:24:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vT1BZTlVmXzNWV3lhTnZydnIweEl4c3dZMUpES1JnM3VvdU1vR2ZKMk1BSFhpNVVWbTh1LVlsQ1RhS291VnpyOUJuX09HbndhTzlKUQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD",
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "長野県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "東信ジャーナル"
+    },
+    {
+      "articleId": "gnews_a01f7d5d9b913025",
+      "headline": "手足口病の流行警報 ２０２４年以来 埼玉県 - NHKニュース",
+      "headlineTranslated": "Hand, foot and mouth disease epidemic warning from 2024 in Saitama Prefecture - NHK News",
+      "headlineJa": "手足口病の流行警報 ２０２４年以来 埼玉県 - NHKニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T08:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE50WmUtNUVUUG5HbFlkRGJPeGdKeEFNZ3RNM3FYazdPN0NkX2Z5cEc1dHdMR08xZkNtRE9IRk9vcDZCZ1kxVWpNeC1uV0Z5a25PcDJCTk5XeUQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "埼玉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NHKニュース"
+    },
+    {
+      "articleId": "gnews_ffdc35f31d112780",
+      "headline": "長野県内の手足口病感染者は増加 感染性胃腸炎と溶連菌感染者数は減少 - 47NEWS",
+      "headlineTranslated": "The number of people infected with hand, foot and mouth disease in Nagano Prefecture is increasing, and the number of people infected with infectious gastroenteritis and streptococcus is decreasing - 47NEWS",
+      "headlineJa": "長野県内の手足口病感染者は増加 感染性胃腸炎と溶連菌感染者数は減少 - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T08:43:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoN0RlRjhhck1pSnYtTFVTYU5xMmExVlRZMzVFbF9uVDROSzdDQTZaeTVLWnhpaDdmTFdyMEdBcXlBVWx3aUFaeVZOWQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD",
+        "Streptococcus"
+      ],
+      "locations": [],
+      "states": [
+        "長野県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
+      "articleId": "gnews_af2bb9b3f962f2d3",
+      "headline": "Pfizer Grant for Advancing Preventive Expertise in Pediatric Infectious Diseases (Japan) - fundsforNGOs",
+      "headlineTranslated": "",
+      "headlineJa": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T07:32:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDFWSmdOWVN1cHQ3b1c0U0UzVGk3dGxuNlg4dGc5c0MxNnlqZUIxaV9VUWhoa3BRb3p3YjdwaGp2bGFzenp6VjRoNGJaamUwY0FLaFNhaHNJQlRzZnpVWjYzRWxKcUp5V09wWW95Vk9weUhFMk1xSE40akVLNTNOd2lZeWNhakJMNDhXX0VSZENvcUxxOHpQZVRDSEp4R2NiWE55S1pEbWpOUEpMdGhRajE1M29remU4dUVUZjZsM1oxTFhqTWQxUzZoODFDd2wtaHNkQ0p4c23SAd4BQVVfeXFMUENoaTIzMlN1LWNJTVVvMlE2OGhkdHZkWHNmbDc4YVprMlY1WEJKU2lYaG9SYl9tU1FaU29pLUZuRDkzaDJ4bXBvYUdxWGFXSjFiOHk1aWlTQTQ1UXFWOUdleEhrdGlVUXJTclpIdGYtVXNHV2E0eGxJd2ZnVVZWWGw4VVJNZGlDT0Jhd2Rydk0zU2pzeDQwRzFXUTBUSTZodTlncGV1V000elMyMXFrLU1md0ZqQjNtTTRPaktKZVVWQUgwMEk5R3BBRVlVTnlLYk90dnJZTUJmekJUMmh3?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "fundsforNGOs"
+    },
+    {
+      "articleId": "gnews_6fc22c9832bc0904",
+      "headline": "【新型コロナ速報】千葉県内、感染者１・０４倍に ６月２２～２８日 １医療機関当たり０・６９人 - 47NEWS",
+      "headlineTranslated": "[New Coronavirus Breaking News] In Chiba Prefecture, the number of infected people has increased by 1.04 times from June 22nd to 28th, 0.69 people per medical institution - 47NEWS",
+      "headlineJa": "【新型コロナ速報】千葉県内、感染者１・０４倍に ６月２２～２８日 １医療機関当たり０・６９人 - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T07:25:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tekJ3TXNVZlRrUUFxZmJ0a0gtYTNkYzczRWdIZ3FzQWNlR2NsM0RkSzZZMDNkdXRhZW1QWDBsd29td1FVdnFjSHFvcw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "千葉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
+      "articleId": "gnews_77784171d6ab58d9",
+      "headline": "【新型コロナ速報】千葉県内、感染者１・０４倍に ６月２２～２８日 １医療機関当たり０・６９人 - 千葉日報オンライン",
+      "headlineTranslated": "[New Coronavirus Breaking News] Number of infected people in Chiba Prefecture increases by 1.04 times from June 22nd to 28th, 0.69 people per medical institution - Chiba Nippo Online",
+      "headlineJa": "【新型コロナ速報】千葉県内、感染者１・０４倍に ６月２２～２８日 １医療機関当たり０・６９人 - 千葉日報オンライン",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T07:25:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10OHZDS2ZkMmI0c1RXcUJESUYwNlhocm0tdjYyMzdJbG5Ud3JmbkpuVWdsRXh5VzVRc0tNSlpqemVrVDFISkpsVkNud2FqT3F5cFhXSmhYSjk?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "千葉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "千葉日報オンライン"
+    },
+    {
+      "articleId": "gnews_4ce0f8882adbc84b",
+      "headline": "【新型コロナ速報】千葉県内、感染者1.04倍に 6月22～28日 1医療機関当たり0.69人 - au Webポータル",
+      "headlineTranslated": "[New Coronavirus Breaking News] Infections in Chiba Prefecture increase by 1.04 times June 22-28, 0.69 people per medical institution - au Web Portal",
+      "headlineJa": "【新型コロナ速報】千葉県内、感染者1.04倍に 6月22～28日 1医療機関当たり0.69人 - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T07:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94Nm1PaU13RHczWU0xUmVTRVRsNTA2cGdEc1JTVGlJVEJSWHZEZ3dtZkZSRG9MSVVkWnZJTFRkY1VVVzBHY2poei11d3lQZUJ3UXM4ekVjUkhiQUt1b1BTR3VuSHk4RVExUEdzdm9nOHZzRW1hak4xVGxnQQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "千葉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_e7c226ddd1268a3d",
+      "headline": "手足口病の流行について（令和8年7月1日） - pref.chiba.lg.jp",
+      "headlineTranslated": "Regarding the outbreak of hand, foot and mouth disease (July 1, 2020) - pref.chiba.lg.jp",
+      "headlineJa": "手足口病の流行について（令和8年7月1日） - pref.chiba.lg.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T07:05:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DbzRoeXMwWXNwQlZtNFFCNnR1SjBpTWhJa3AtRlFmWnhLYjVXMlNTaHlXaGl4aG40N0pYVWYyYjdPeXg2ZEVpUENHWGhhVmVVakhualN0V0R6ejdKWlhNN3hYRWo0eWp5bUJHeG9ack1uNUZYdVd2U19VY1dMeFU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "千葉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "pref.chiba.lg.jp"
+    },
+    {
+      "articleId": "gnews_18c72640d3152f8a",
+      "headline": "《接種開始から5年》新型コロナウイルスワクチンは、私たちの生活をどう変えたのか…無視できない「副反応疑い」データ - ｄメニューニュース",
+      "headlineTranslated": "[5 years since vaccination began] How has the new coronavirus vaccine changed our lives? Data on \"suspected side effects\" that cannot be ignored - d Menu News",
+      "headlineJa": "《接種開始から5年》新型コロナウイルスワクチンは、私たちの生活をどう変えたのか…無視できない「副反応疑い」データ - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QRTVWVjh3Y1hqdUl5V3hzYXBZT1R3NTZMNFFHVkFfa2ZzeWVLY0ZOd3lVWjF4eWFESnNtZFlXbnUwTWdoQ1Y5RWNlUVA4UU5WQWcwUm5QOFlkM0MzWkFXbmJCTTF1Ml9iSzhj0gFwQVVfeXFMT3B2M1dkVlhWQnZ0WTlzZ0lxcXpqeU1reUlNZHVYVEdYOUFOLVBtSVBWV3FUTFQyam1hNnRJbDVLYWpTZzNGdFhiTkN2YWZIOEdCNTBHWGFoMG9ndmF0U3NiNXNIaWVLeHluUDBzT2ZPSg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_51fd32769573736f",
+      "headline": "ケンブリッジ大学、AI設計ワクチンの臨床試験を完了。パンデミック予防は新時代へ - TABI LABO",
+      "headlineTranslated": "University of Cambridge completes clinical trials of AI-designed vaccine. A new era in pandemic prevention - TABI LABO",
+      "headlineJa": "ケンブリッジ大学、AI設計ワクチンの臨床試験を完了。パンデミック予防は新時代へ - TABI LABO",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T06:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVdDZKV2plaFlVb0M3RGE5MVpYTUwxTEw0SHhiTTZQLUZadFIwZ1BhYjF6cUhULVNHTFM4RFdLMllEZnNVUE5ZZjRzZzA4UzVsOFFCUk04eXhwNXpyRVdjMEcxRUp1NTlrWXJR?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TABI LABO"
+    },
+    {
+      "articleId": "gnews_9f89976ad040c4be",
+      "headline": "感染症の流行状況 2026年 第26週 - pref.saitama.lg.jp",
+      "headlineTranslated": "Infectious disease epidemic status 26th week of 2026 - pref.saitama.lg.jp",
+      "headlineJa": "感染症の流行状況 2026年 第26週 - pref.saitama.lg.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T05:05:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0cTgwOGFELWZSb2Z3TWFWRENUMGZ1ZVlHNmlZRFBOdUg2SjU5OUFyT2JTblE0ckgzbWNPSTl4aHE0MFBhZTZ2UnF0dkxYTGw1U25CRkptdTk2SmNCLU90U0hNUDNFZGZEQXhfa2pMM2s5VDFEVVE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "埼玉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "pref.saitama.lg.jp"
+    },
+    {
+      "articleId": "gnews_15c5f504792f6a97",
+      "headline": "「ステーキ・ハンバーグ弁当」など食べた15人が食中毒 原因はノロウイルス 宮崎市の弁当店を3日間営業停止処分 - Yahoo!ニュース",
+      "headlineTranslated": "15 people who ate \"steak/hamburger bento\" suffered food poisoning caused by norovirus. Bento shop in Miyazaki city suspended for 3 days - Yahoo! News",
+      "headlineJa": "「ステーキ・ハンバーグ弁当」など食べた15人が食中毒 原因はノロウイルス 宮崎市の弁当店を3日間営業停止処分 - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T05:00:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mdVd2eDlqX096N20zUzFEd2JmM2Rpek5sSzJDX1BiRWVxOTJpN0FoNnIycmVJd2tiSzgyQW9OU3FMaUpwQUktWklaNTZuOE1zRGtTWnloYmxwSmJRdlFILU9oNHlpaFVhSWhpcWozUGM1Ym5aSmtWdzNMQURES0k?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "宮崎県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_6fbdedacfef10d87",
+      "headline": "手足口病の流行警報を発令します ～しっかりと手洗いをして感染予防に努めましょう～ - pref.saitama.lg.jp",
+      "headlineTranslated": "We issue an epidemic alert for hand-foot-and-mouth disease ~Let's wash our hands thoroughly to prevent infection~ - pref.saitama.lg.jp",
+      "headlineJa": "手足口病の流行警報を発令します ～しっかりと手洗いをして感染予防に努めましょう～ - pref.saitama.lg.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T05:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oclhBYUhqRmhhbXhZOHNNclllbzBRVGp3c0dRbVc0MWwzN3dPNGxpdWVFV2JmZzczVkRkX1ozR1drcE1adTlSUmhTQ2VtbVlqdDZCVzNPbWF1ZlZha2lqMnlIX3lYT1RybGhkRTVDd19zRlVi?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "埼玉県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "pref.saitama.lg.jp"
+    },
+    {
+      "articleId": "gnews_ab71b79a2b9b2a35",
+      "headline": "大阪の小学校でＯ１５７の集団感染が発生…同じクラスを含む１２人 - 読売新聞",
+      "headlineTranslated": "Mass infection of O157 occurs at an elementary school in Osaka... 12 people, including those in the same class - Yomiuri Shimbun",
+      "headlineJa": "大阪の小学校でＯ１５７の集団感染が発生…同じクラスを含む１２人 - 読売新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T02:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hXzF0Nmd4WHR2bjNLY05EN2VkcDB3eWlWd0ttbFd2V0w2OHZQTFN0SUM0OWZ2NThIUjZ5Q3g5azh2YVk5V0twdnNmRTliM1FlcGpTTURwSV9RZERVZXZoZ0lxQ01jWE1PdEtQdTRoSTNMdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "大阪府"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "読売新聞"
+    },
+    {
+      "articleId": "gnews_ea0c8525fdefd6a7",
+      "headline": "デング熱と手足口病の症例数は増加している一方、COVID-19の症例数は減少している。 - Vietnam.vn",
+      "headlineTranslated": "The number of dengue fever and hand, foot and mouth disease cases is increasing, while the number of COVID-19 cases is decreasing. - Vietnam.vn",
+      "headlineJa": "デング熱と手足口病の症例数は増加している一方、COVID-19の症例数は減少している。 - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T02:32:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV0JoX2p4NUoxbnd4dmdldDFRMVdRXzJlOUFhT25vbmZGbFVOeWd2WW9LS1l4QW5obFdKY2h4WkRETVUzbzhTSlk5dGNLZnZka3FkcTZuM0FfakJZMlpPa0JOdU9tYy1kaWNlVU5NOTMzSDFCZy1hem9xVlJ6bXlxNGF0VVRRRUx6WDl1REV3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD",
+        "Dengue",
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_8b7661ba33206638",
+      "headline": "NEWS 新型コロナ新規報告数4週連続増加―定点0.85［感染症発生動向調査2026年第24週（6月8日～6月14日）］ - 日本医事新報社",
+      "headlineTranslated": "NEWS Number of new coronavirus reports increasing for 4 consecutive weeks - sentinel 0.85 [Infectious disease outbreak trend survey 24th week of 2026 (June 8th to June 14th)] - Nippon Medical Shinposha",
+      "headlineJa": "NEWS 新型コロナ新規報告数4週連続増加―定点0.85［感染症発生動向調査2026年第24週（6月8日～6月14日）］ - 日本医事新報社",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T00:53:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1udmxLMTBVUEduYTduRlFGcFRrbTQ5cGNYZmFGUTlxbXZBUlNkeVRHb05mbWVwa2xvdWJORWt4bWgyeUhtUGw0OGpONjBHX3I0YTkzcmNxZVloUU1mRzg0TA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "日本医事新報社"
+    },
+    {
+      "articleId": "gnews_1950a0c930ef7e10",
+      "headline": "カプセルトイ専門店 新店続々 全国で流行、岡山でも増加中 - 山陽新聞",
+      "headlineTranslated": "Capsule toy specialty stores are opening new stores one after another, becoming popular nationwide and increasing in Okayama - Sanyo Shimbun",
+      "headlineJa": "カプセルトイ専門店 新店続々 全国で流行、岡山でも増加中 - 山陽新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-01T00:19:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsLTVudUduMFRURHlqMEhFaF9tbTQ0Vy0tWnV3ZXM2RGxzZjdoUXlaTGh4WVZ4TE9BQmZ5UF8yUUVaUEtXbkV2aTF0YnptS0FjekdTdHpjZVpDYTAzTUx0LUJlZnFrT1M4bHlycTlPVkVvZ1dUWXZB?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "山陽新聞"
+    },
     {
       "articleId": "gnews_a44632f65722b720",
       "headline": "2021年11～12月、変異株はフェンスを越えて - 日経メディカル",
@@ -76,27 +669,6 @@
       "sourceName": "日経メディカル"
     },
     {
-      "articleId": "gnews_5f04f9b3fd696d03",
-      "headline": "福井市のそば店でノロウイルスによる集団食中毒 飲食した12人が嘔吐や下痢の症状訴える 従業員から感染拡大か - 福井テレビ",
-      "headlineTranslated": "Mass food poisoning caused by norovirus at a soba restaurant in Fukui City. 12 people who ate and drank complained of symptoms of vomiting and diarrhea. Is the infection spreading from employees? - Fukui TV",
-      "headlineJa": "福井市のそば店でノロウイルスによる集団食中毒 飲食した12人が嘔吐や下痢の症状訴える 従業員から感染拡大か - 福井テレビ",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-30T11:22:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOWG9oWDJEOU9jYndnM2N4SVlxUkpkSWZZRVFzQ2M4YnlYVVRpYWp4X2JXQTNfOGZrYVMtOXVKVFZQYThFMHBtazl3aGVTV1Vta2hGOV9iMVhtREl3SlBranljMzlRV1VXR0R5NmhTNnFoeGJMelluV2hXNERoMXBtTU9aRWVWTDdNYUdwM3c5YlM1MVE1WkZYX3gydVFLamVvN09HS1BYQ2R1a2Fnb05MeUpzLWl0bmNSV0NvMTdJTThhVDdCTlByUEJncWdPQnNZUjJLTl9GSUVKWGhfQkFyLVFsM1JKTUJoU1hpYndIM0cxX01QWGZIZDRJSUJ2Q0JTLTVqWmR4Y3I4Rk91elAwVXlpTEQ0b09XWHlDYXYzdlk3U3FuYy1taU14eGtpTnZianN3Z05VZEZ1RkRDU0h0OXpMSnlfNVRXSzdqQjlEOUJ3ZWE1VUg1YQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Food Poisoning",
-        "Norovirus"
-      ],
-      "locations": [],
-      "states": [
-        "福井県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "福井テレビ"
-    },
-    {
       "articleId": "gnews_1f704c26b23a5574",
       "headline": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区 - 千葉テレビ放送",
       "headlineTranslated": "Norovirus outbreak? 139 children suffer from diarrhea and vomiting in Adachi Ward, Tokyo - Chiba Television Broadcasting",
@@ -111,31 +683,11 @@
       ],
       "locations": [],
       "states": [
-        "東京都",
-        "千葉県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "千葉テレビ放送"
-    },
-    {
-      "articleId": "gnews_e83bdc1880e3818b",
-      "headline": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区 - Excite エキサイト",
-      "headlineTranslated": "Norovirus mass infection? 139 children suffer from diarrhea and vomiting in Adachi Ward, Tokyo - Excite Excite",
-      "headlineJa": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区 - Excite エキサイト",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-30T10:39:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rVlpUWVlqWE1pZlhKdUZfZnFjV2g4cmlreXVpd0pnZVowR3hGRXVRVXVSZ0NVSnM5X2FuYnJJQWkzVEFWYTJMYS02RXhpN1RfeU5hQ21yb3VKWXY4dW5Hc0JVdFJoQ3BfbzlkUkxR?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Norovirus"
-      ],
-      "locations": [],
-      "states": [
+        "千葉県",
         "東京都"
       ],
       "dataSource": "Google News",
-      "sourceName": "Excite エキサイト"
+      "sourceName": "千葉テレビ放送"
     },
     {
       "articleId": "gnews_99c4e460e6d1afbc",
@@ -158,14 +710,14 @@
       "sourceName": "au Webポータル"
     },
     {
-      "articleId": "gnews_914e37310d92d24b",
-      "headline": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区（2026年6月30日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-      "headlineTranslated": "Norovirus mass infection? 139 children suffer from diarrhea and vomiting in Adachi Ward, Tokyo (posted on June 30, 2026) | NTV NEWS NNN - NTV NEWS NNN",
-      "headlineJa": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区（2026年6月30日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
+      "articleId": "gnews_305df990030eb0a1",
+      "headline": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区 - Excite エキサイト",
+      "headlineTranslated": "Norovirus mass infection? 139 children suffer from diarrhea and vomiting in Adachi Ward, Tokyo - Excite Excite",
+      "headlineJa": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区 - Excite エキサイト",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-30T10:37:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94TGxFYTlibk9ySEd6V3F6NElEdW5vcUdUV3NyMmIxUXp3Y1EtT1ROTzgydTh5WC1CeTJxZTloeVEwcU94Y2RwZHQ3cS1xS0VkNGVBbkJMa2VyZHRlSjJfQ0hNdzVWX3JRVHVrRmxpVXJDX0tNOGlHWnM0OS0?oc=5",
+      "publishedTimestamp": "2026-06-30T10:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53MDFXSjFZSjEyT2ZROUZzVnNZdEczQ0hUYTltemVsSXo0TEQxQ2Vvc3ZMOG1ZajJacl9laEpHNEFZb0tFVUEtU3NPZ0JJNGt3U1VkVDIwZmE5dFNJaVR5dGhXeFMzdUtOam9aSFFFN0FyY0NyU21KbXF3?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "Norovirus"
@@ -175,7 +727,27 @@
         "東京都"
       ],
       "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
+      "sourceName": "Excite エキサイト"
+    },
+    {
+      "articleId": "gnews_c291e7d23c9ec950",
+      "headline": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区（日テレNEWS NNN） - Yahoo!ニュース",
+      "headlineTranslated": "Norovirus mass infection? 139 children suffer from diarrhea and vomiting in Adachi Ward, Tokyo (NTV NEWS NNN) - Yahoo! News",
+      "headlineJa": "ノロウイルス集団感染か 児童139人が下痢・おう吐 東京・足立区（日テレNEWS NNN） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-06-30T10:37:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zUFliaDJuUFRxM09Xc0kzTk5hNEUycF9BTldoWXRHcTdnTkx3c3dRX09NRGRIOVBqTHhDZzQzTHo1cEVTTnZsZ3F6YXl0OVpwZWxOUXQ4VWl5LTRVTXExRlRSY0FBNDhlRDZ4SGdNdk4ydU5mUGU1SThaUUkyOFU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
     },
     {
       "articleId": "gnews_ee5a7904936cc707",
@@ -238,6 +810,26 @@
       "sourceName": "CNET Japan"
     },
     {
+      "articleId": "gnews_5c0afca6452f7d3f",
+      "headline": "手術後の感染予防にパパイア？ 名古屋市立大整形外科など共同研究へ - 47NEWS",
+      "headlineTranslated": "Papaya to prevent infection after surgery? Collaborative research with Nagoya City University Orthopedics - 47NEWS",
+      "headlineJa": "手術後の感染予防にパパイア？ 名古屋市立大整形外科など共同研究へ - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-06-30T08:16:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9FdHlVbUNDSkpuaWxhUjlJb3NqUW4yS0I5RGF4OW1YQWtXQTF3cm9IbHFVTWZOc2hRdE9lekNkekltenJsT2dnVVF5MA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
       "articleId": "gnews_89a548a976034a47",
       "headline": "マンションインターホンを通じたくらし情報サービス「まちベル」で、感染症流行予測コンテンツ配信の実証を開始 - PR TIMES",
       "headlineTranslated": "Demonstration of distribution of infectious disease epidemic prediction content started using the lifestyle information service \"Machi Bell\" through condominium intercoms - PR TIMES",
@@ -256,26 +848,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "PR TIMES"
-    },
-    {
-      "articleId": "gnews_5aa60d972b4bc4a8",
-      "headline": "見坂センター長が栄転 コロナ禍活躍の感染症専門医 「教育で医療再生」貢献 - 丹波新聞",
-      "headlineTranslated": "Center director Misaka is promoted as an infectious disease specialist who is active during the coronavirus pandemic and contributes to “medical revitalization through education” - Tamba Shimbun",
-      "headlineJa": "見坂センター長が栄転 コロナ禍活躍の感染症専門医 「教育で医療再生」貢献 - 丹波新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-30T06:34:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPOU5uY00yWG83bFBOdEl4b3d2MHNaUFh1Rk9qZnYxM2hCdzFOMXpTVUJzVUNHVldxdGNaSGZtMU9MRDh1OUl1cFYyUWhjRGdZSzcwM1R2Z2xkelJ5dG9VUTlNSHdNLXdubGh3QWptYTNIY2tnV01ENjBKUHpyN1pJbTBNVjJSWmhOb1NVR2FrRGNzRHN4dFViaGZaYjZyQTZ5YURkc3BDN1VrNUdfZ1ZPSnB4U1ROVU9QT0dWbksycmlOeVN6N1ZWQ2ZUWVU2QzhSdnJIdDZfVVRQbkpqYWRLWG5nUU9vOEdsbVBYOEptMXItd2VkRzB0RnpTb3ktekZIcUcteWI2d0RhWUkwR2UwUUdkOFlrUWIyekdIZTFZQ3ZlX3pOTHFuR3duS3RwU0wxOVAtQkZtOFIzb1lYcm1iZHdYekdsWmM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "丹波新聞"
     },
     {
       "articleId": "gnews_6dfe6a491d3beeb5",
@@ -318,14 +890,14 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_8e2d822f0e8e44d6",
-      "headline": "【速報】大阪・天王寺区の小学校でO157の集団感染　児童12人の感染判明も重症者や入院している人はなし　給食が原因ではなく手洗いの励行呼び掛け - ｄメニューニュース",
-      "headlineTranslated": "[Breaking News] Mass infection of O157 at an elementary school in Osaka's Tennoji Ward. 12 children were found to be infected, but no one was seriously ill or hospitalized. School lunches were not the cause; calls for hand-washing are encouraged - d Menu News",
-      "headlineJa": "【速報】大阪・天王寺区の小学校でO157の集団感染　児童12人の感染判明も重症者や入院している人はなし　給食が原因ではなく手洗いの励行呼び掛け - ｄメニューニュース",
+      "articleId": "gnews_ead53ce4cb1a448c",
+      "headline": "【速報】大阪・天王寺区の小学校でO157の集団感染 児童12人の感染判明も重症者や入院している人はなし 給食が原因ではなく手洗いの励行呼び掛け - FNNプライムオンライン",
+      "headlineTranslated": "[Breaking news] Mass infection of O157 at an elementary school in Tennoji Ward, Osaka. 12 children were found to be infected, but no one was seriously ill or hospitalized. School lunches are not the cause, call for enforcement of hand washing - FNN Prime Online",
+      "headlineJa": "【速報】大阪・天王寺区の小学校でO157の集団感染 児童12人の感染判明も重症者や入院している人はなし 給食が原因ではなく手洗いの励行呼び掛け - FNNプライムオンライン",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-06-30T05:54:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTcElDOGJoa0VReGp3ZmstQjNXeUp3RVRLQWhxbDl5NWZiZlV2RFJuaGZhSFp3ZXN2Ymw4ZEI0RUFHeHJRTy13WUp4c2dJQi00YkFLWHg1MUMwZ0lkemljYXROSGlGbkctS0xzN0Q5T2V2d0FGYjdhU1pR0gF_QVVfeXFMTWlIS3BObGg0cENjYlhTQmlUcllVeXVYTkIxVXQwRF8yZnJiUXBBTWQwYURHeUJsUGJXSUs0anEzNDZyc3owc3FwamR4a2VDZmJSMjFrVDBtRlpuOF9JQ0F0b2I1cnVpUUtCYnc2WVJlLWF4U0t5dktlVU1xdU96QQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jTGZQa2JZdVB1bW1iY1RFRXhmdTlqZzFWbk9nMFdhUEJMdkRJdTVUaURiQ2VoMkdjWEpJcURKSXJjRzVMYmJBMVNzd3RFUQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "E. coli"
@@ -335,7 +907,7 @@
         "大阪府"
       ],
       "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
+      "sourceName": "FNNプライムオンライン"
     },
     {
       "articleId": "gnews_1fe4d1e5811c6299",
@@ -439,26 +1011,6 @@
       "sourceName": "47NEWS"
     },
     {
-      "articleId": "gnews_01f02a3261386406",
-      "headline": "Newly built royal centre inaugurated to strengthen infectious disease control in Bhutan - Asia News Network",
-      "headlineTranslated": "",
-      "headlineJa": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-30T01:51:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdHJTbTctamRBajhqa2lxdy0zNnlEaUVmcXgtZWdSLUdpWGZNWjRWQUVFUjRySldUc2pCYXBXT0FVWWhJcmlrSGVZXzRLTDdOcktZQlRWY1c5WF91R29UZ04tTXVrR1VNSUNFMURmTnNHWDVFLTIxSXVLaFM2NndOSEpJaDJTUWc0X2QtNU9GOXhZNVpOSEpnTU1XbWdQV2o0TnhvQnAwM0ViRC03YWkyUE1FSQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Asia News Network"
-    },
-    {
       "articleId": "gnews_c90be926f440fcd4",
       "headline": "POCT市場に関する調査を実施（2025年） - yano.co.jp",
       "headlineTranslated": "Conducted research on POCT market (2025) - yano.co.jp",
@@ -499,26 +1051,6 @@
       "sourceName": "中日新聞Web"
     },
     {
-      "articleId": "gnews_5c0afca6452f7d3f",
-      "headline": "手術後の感染予防にパパイア？ 名古屋市立大整形外科など共同研究へ - 47NEWS",
-      "headlineTranslated": "Papaya to prevent infection after surgery? Collaborative research with Nagoya City University Orthopedics - 47NEWS",
-      "headlineJa": "手術後の感染予防にパパイア？ 名古屋市立大整形外科など共同研究へ - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-29T20:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9FdHlVbUNDSkpuaWxhUjlJb3NqUW4yS0I5RGF4OW1YQWtXQTF3cm9IbHFVTWZOc2hRdE9lekNkekltenJsT2dnVVF5MA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "愛知県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
       "articleId": "gnews_5e6a1b4be8c1f881",
       "headline": "東京・足立区の小学校でノロウイルス集団感染か 児童139人に下痢・嘔吐の症状 区「給食が原因ではない」として原因を調査 - TBS NEWS DIG",
       "headlineTranslated": "Norovirus outbreak at an elementary school in Tokyo's Adachi Ward. 139 children have symptoms of diarrhea and vomiting. The ward investigates the cause, saying the school lunch was not the cause - TBS NEWS DIG",
@@ -529,8 +1061,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yNm5wVDZMaXdfZ1IyS0FEOWVHaEcwbU1DT05rMVNjT1ZsU1FFXzMwOXdtSEhPMzVoV25aTF9GYmJmMmdVNzJQeVM2VlRwUFRXQk9hcHZLWmQ0ZWZz?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Tuberculosis",
-        "Norovirus"
+        "Norovirus",
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
@@ -570,8 +1102,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3QVBiSU1FejZyZVBwVEN1Rm52aHd6bE9BSXNpQ0htVkFIeVExSHJlQjVnY0VzSDgtcXQ4cTJfNVJ1THBfSnY5VUJvYjdtaUVZZ3RwM3ZYQQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Tuberculosis",
-        "Norovirus"
+        "Norovirus",
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
@@ -621,10 +1153,10 @@
       "sourceName": "au Webポータル"
     },
     {
-      "articleId": "gnews_3b08f901d1e78c08",
-      "headline": "【感染症制御への警鐘】ワクチン政策の混乱と、生物学が示す「持続性」の教訓——ファージとノロウイルスの最新研究が浮き彫りにするリスク - finance.biggo.jp",
-      "headlineTranslated": "[Warning for infectious disease control] Confusion in vaccine policy and the lessons of \"persistence\" shown by biology—risks highlighted by the latest research on phages and norovirus - finance.biggo.jp",
-      "headlineJa": "【感染症制御への警鐘】ワクチン政策の混乱と、生物学が示す「持続性」の教訓——ファージとノロウイルスの最新研究が浮き彫りにするリスク - finance.biggo.jp",
+      "articleId": "gnews_8c36fc6ab0a03eeb",
+      "headline": "【感染症制御への警鐘】ワクチン政策の混乱と、生物学が示す「持続性」の教訓——ファージとノロウイルスの最新研究が浮き彫りにするリスク - BigGo ファイナンス",
+      "headlineTranslated": "[Warning for infectious disease control] Confusion in vaccine policy and the lessons of “persistence” shown by biology—Risks highlighted by the latest research on phages and norovirus - BigGo Finance",
+      "headlineJa": "【感染症制御への警鐘】ワクチン政策の混乱と、生物学が示す「持続性」の教訓——ファージとノロウイルスの最新研究が浮き彫りにするリスク - BigGo ファイナンス",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-06-29T17:09:00+00:00",
@@ -638,7 +1170,7 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "finance.biggo.jp"
+      "sourceName": "BigGo ファイナンス"
     },
     {
       "articleId": "gnews_fe14f5372b57ddab",
@@ -691,8 +1223,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtREhySkhkUFhsRm5rXzRnNmhwaExlMFR3SVBydC1qczVGYktNMmM4MTUyUVNiOE9VWVg3WXBtQW5HWFFDb3pCM3BHZ1VYcWJ4QVpQYlh6MA?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Tuberculosis",
-        "Norovirus"
+        "Norovirus",
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
@@ -722,6 +1254,27 @@
       "sourceName": "ｄメニューニュース"
     },
     {
+      "articleId": "gnews_4e23cf599e7857af",
+      "headline": "東京・足立区の区立小学校でノロウイルス集団感染か 全校児童574人のうち139人が下痢・嘔吐の症状 保健所が調査「給食が原因ではない」 (TBS NEWS DIG Powered by JNN) - Yahoo!ニュース",
+      "headlineTranslated": "Is there a norovirus outbreak at a public elementary school in Tokyo's Adachi Ward? 139 out of 574 children in the school have diarrhea and vomiting. Public health center investigates, ``School lunch is not the cause.'' (TBS NEWS DIG Powered by JNN) - Yahoo! News",
+      "headlineJa": "東京・足立区の区立小学校でノロウイルス集団感染か 全校児童574人のうち139人が下痢・嘔吐の症状 保健所が調査「給食が原因ではない」 (TBS NEWS DIG Powered by JNN) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-06-29T12:16:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQndNTzFpSUNmTlE2Nll6VTdJbTM1dVFPcE9BOHpta2pDaG5FTkE0NWNiRFpkTWoxM1JCLUxkcmtJY053QnU3czBEMkd1eDVsVVotdzMxMlRPMGlfUTJKSmJMeFB3emc5QVJDTnhFcWVjdnE4M2ZBUHQyenpjaHMxc1hBajI0X2FkZUZsQUtn?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
       "articleId": "gnews_10e7e7d1f7ac9498",
       "headline": "東京・足立区の区立小学校でノロウイルス集団感染か 全校児童574人のうち139人が下痢・嘔吐の症状 保健所が調査「給食が原因ではない」（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
       "headlineTranslated": "Is there a norovirus outbreak at a public elementary school in Tokyo's Adachi Ward? 139 out of 574 children in the school have symptoms of diarrhea and vomiting. Public health center investigates, ``School lunch is not the cause.'' (TBS NEWS DIG Powered by JNN) - Yahoo! News",
@@ -732,8 +1285,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ldllSUENETm41cHJtZnBrclRMRUpaZlhQU0ZpcUhtc1ljV01XYzJldk43M2ZxbE5TQkZNaDBLRFhxYndMTUhXR0t1TklvWnNRTXRmdTdDMldpLTJjUkVnYzhlVlZBRUFWRUJGNWQyeUh3M1MxalVfMDAzOVBQUjg?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Tuberculosis",
-        "Norovirus"
+        "Norovirus",
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
@@ -741,6 +1294,27 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_5f04f9b3fd696d03",
+      "headline": "福井市のそば店でノロウイルスによる集団食中毒 飲食した12人が嘔吐や下痢の症状訴える 従業員から感染拡大か - 福井テレビ",
+      "headlineTranslated": "Mass food poisoning caused by norovirus at a soba restaurant in Fukui City. 12 people who ate and drank complained of symptoms of vomiting and diarrhea. Is the infection spreading from employees? - Fukui TV",
+      "headlineJa": "福井市のそば店でノロウイルスによる集団食中毒 飲食した12人が嘔吐や下痢の症状訴える 従業員から感染拡大か - 福井テレビ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-06-29T12:03:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOWG9oWDJEOU9jYndnM2N4SVlxUkpkSWZZRVFzQ2M4YnlYVVRpYWp4X2JXQTNfOGZrYVMtOXVKVFZQYThFMHBtazl3aGVTV1Vta2hGOV9iMVhtREl3SlBranljMzlRV1VXR0R5NmhTNnFoeGJMelluV2hXNERoMXBtTU9aRWVWTDdNYUdwM3c5YlM1MVE1WkZYX3gydVFLamVvN09HS1BYQ2R1a2Fnb05MeUpzLWl0bmNSV0NvMTdJTThhVDdCTlByUEJncWdPQnNZUjJLTl9GSUVKWGhfQkFyLVFsM1JKTUJoU1hpYndIM0cxX01QWGZIZDRJSUJ2Q0JTLTVqWmR4Y3I4Rk91elAwVXlpTEQ0b09XWHlDYXYzdlk3U3FuYy1taU14eGtpTnZianN3Z05VZEZ1RkRDU0h0OXpMSnlfNVRXSzdqQjlEOUJ3ZWE1VUg1YQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "福井県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "福井テレビ"
     },
     {
       "articleId": "gnews_b1dfba7f033a831a",
@@ -763,25 +1337,45 @@
       "sourceName": "NHKニュース"
     },
     {
-      "articleId": "gnews_0e04cb35a9149f85",
-      "headline": "西オーストラリア州で確認の鳥インフルエンザ、感染拡大（オーストラリアワイド） - SBS",
-      "headlineTranslated": "Bird influenza confirmed in Western Australia, spread of infection (Australia Wide) - SBS",
-      "headlineJa": "西オーストラリア州で確認の鳥インフルエンザ、感染拡大（オーストラリアワイド） - SBS",
+      "articleId": "gnews_997fe36bf1accf96",
+      "headline": "【速報】足立区の小学校で胃腸炎の症状 児童139人が欠席・早退…嘔吐や下痢の症状訴える 原因特定できず - au Webポータル",
+      "headlineTranslated": "[Breaking News] 139 children with gastroenteritis symptoms were absent or left early at an elementary school in Adachi Ward...The cause of the symptoms of vomiting and diarrhea could not be determined - au Web Portal",
+      "headlineJa": "【速報】足立区の小学校で胃腸炎の症状 児童139人が欠席・早退…嘔吐や下痢の症状訴える 原因特定できず - au Webポータル",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-29T09:03:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNDl2OEpPak5TcE5jeDVRMHJiekx4Vm1jcm92am1ZR1UycXRSUWZPczRRWEstYW10Zm55NTQ2dm4wQU1mQ3JTQURYXzlybmpYVXFUdmdTZmpDdFIyazJPMHdURU5QTnhvdFJEc1M2Vi1BdmFhb1dqM2p1c0htSVkxQ0tGLWdCcFhKcWR0SHdXbFZWaEU5NnhNM3MyZ2ZBWjlUenBicHZ2VGhpT0N0aXYzT19XclFmZ28?oc=5",
+      "publishedTimestamp": "2026-06-29T10:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5za1JtQTA2ZnAyX2JnRGZLSEtSVmJIMFJpb1BSWTJKOTk1WUpqcXhrVm16bC1Qd05hUnpEMzB4Qnl6TmlDU0ZDZkZneXI0bWFheWE3blM5OU9CNlVrVW9uWnFOZmJiWl9zeGVDZ3R5ZE4yOGtEY3RyZHBYdw?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "感染症 (未特定)"
       ],
       "locations": [],
       "states": [
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "SBS"
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_c42ee00a6d0ba35a",
+      "headline": "西オーストラリア州で確認の鳥インフルエンザ、感染拡大（オーストラリアワイド） - SBS Australia",
+      "headlineTranslated": "Bird influenza confirmed in Western Australia, spread of infection (Australia Wide) - SBS Australia",
+      "headlineJa": "西オーストラリア州で確認の鳥インフルエンザ、感染拡大（オーストラリアワイド） - SBS Australia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-06-29T09:03:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNDl2OEpPak5TcE5jeDVRMHJiekx4Vm1jcm92am1ZR1UycXRSUWZPczRRWEstYW10Zm55NTQ2dm4wQU1mQ3JTQURYXzlybmpYVXFUdmdTZmpDdFIyazJPMHdURU5QTnhvdFJEc1M2Vi1BdmFhb1dqM2p1c0htSVkxQ0tGLWdCcFhKcWR0SHdXbFZWaEU5NnhNM3MyZ2ZBWjlUenBicHZ2VGhpT0N0aXYzT19XclFmZ28?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "SBS Australia"
     },
     {
       "articleId": "gnews_e168a471ac602a7e",
@@ -794,8 +1388,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQY3lDSUxLbERNOWNuSmJKTFpSZzI4SERmeGg4VzFfMFVfb1k3N0J4aUlqbkFtbW1EZUQtcEZBRmpfV0NVQk90SG83Vng0VUhaYjBWR2FyZEp3c0hLN3MwYUx2eDdtaGhpaUF6by1fWW9wVV9zcHpRbm5aOXRaV1dBU2N2ZWpVOVBmMTNPZTRn?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Food Poisoning",
-        "Norovirus"
+        "Norovirus",
+        "Food Poisoning"
       ],
       "locations": [],
       "states": [
@@ -815,8 +1409,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VdWhQTy1DZFJkWm9mdWotVDU4R3ZsaGMtTldsa1Q5enU4Q3g2RjlWaUI5RnlvTnZIQjlraHhLSVhXSUd5Ui1GUExIZFExUQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Food Poisoning",
-        "Norovirus"
+        "Norovirus",
+        "Food Poisoning"
       ],
       "locations": [],
       "states": [
@@ -836,8 +1430,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR1NfUGxzdElRbkFqbElrS2pLc2J3a19lc01ETTlTSXBNOXhLQU5FSFhnU3I2RHlwcHJJa0dtSlYxNXBuWVo5aUZpT0N5N3QybXVFYWpESEVYN2R1VE03cWFfaFlUN0ZRMXFXU0Z6dFJSalZYcTVvWF9BRi1fdFFHZGhMaXFZTjQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Food Poisoning",
-        "Norovirus"
+        "Norovirus",
+        "Food Poisoning"
       ],
       "locations": [],
       "states": [
@@ -897,8 +1491,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CNHE4aGhNdFdRUTJPS0VUMEFMd2hsdnJ3M2JBV3hlUGtCU0M2SEJBNlAyRlFxWlE5N1lDdDB1el9OcUM1MXlIQ1FmakRJSDlYc3VpdXQ5eEhWR3h1dkRUSEZVOTZaLXdTWTNKWnZoaGNmYThfQVRsaktyYWsxRDQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Food Poisoning",
-        "Norovirus"
+        "Norovirus",
+        "Food Poisoning"
       ],
       "locations": [],
       "states": [
@@ -943,186 +1537,6 @@
       "locations": [],
       "states": [
         "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
-      "articleId": "gnews_7c9b31a2bf74227c",
-      "headline": "社説＞はしか感染増／社会全体で予防の徹底を|オピニオン - 神戸新聞",
-      "headlineTranslated": "Editorial > Increase in measles infections/ Thorough prevention throughout society | Opinion - Kobe Shimbun",
-      "headlineJa": "社説＞はしか感染増／社会全体で予防の徹底を|オピニオン - 神戸新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-28T20:10:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sZXREdFJXaWY1ZEpFYll0NTJnQmtGTTBaWUphb2FTa1VGeC1PUXJKM1c0enRlbWZtVnJkNWlibVJUdlo4V29rdDJBbVk5ZDBrSVhPOEJmRmZEdWMyWUVvREdyTGpFZEU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "兵庫県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "神戸新聞"
-    },
-    {
-      "articleId": "gnews_0e6d466b52b6c5c5",
-      "headline": "ブータンに王立感染症センター - 京都新聞デジタル",
-      "headlineTranslated": "Royal Infectious Disease Center in Bhutan - Kyoto Shimbun Digital",
-      "headlineJa": "ブータンに王立感染症センター - 京都新聞デジタル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-28T08:45:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxN296OENkaFdQXy1weVZoVkNwU0NyRG90SktiNVZGMnM2WVd1MWtRY1duTEFZZmlXWGhqRWk3VndsMEhQQmFQcm5seW1RemRVYlZsVzJGTG0?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "京都府"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "京都新聞デジタル"
-    },
-    {
-      "articleId": "gnews_b466dde1f12e32aa",
-      "headline": "ブータンに王立感染症センター 日本政府が支援、対策拠点 (共同通信) - Yahoo!ニュース",
-      "headlineTranslated": "Royal Infectious Diseases Center in Bhutan, supported by the Japanese government, becomes a countermeasure base (Kyodo News) - Yahoo! News",
-      "headlineJa": "ブータンに王立感染症センター 日本政府が支援、対策拠点 (共同通信) - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-28T08:45:34+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOE5YdFNidnd2SDFfMnJKSk5QTk13NmZHSGZTS1kxTzB4VG0xZlpaMjFyNnVURTlNQ1pPUXluQnpHU0UzYzVxS1lOU3luX0tLMjlGLW9LMzVHX3g5RnBfMExZbzQ4RTRDVFJ5WndaTzg5RGVPWjFSN3VJWGhmWmtoUUFid0ZqWHVCMHN0SW1n?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_18d3a367a2f6c3ef",
-      "headline": "ブータンに王立感染症センター 日本政府が支援、対策拠点 - 山形新聞",
-      "headlineTranslated": "Royal Center for Infectious Diseases in Bhutan supported by Japanese government as countermeasure base - Yamagata Shimbun",
-      "headlineJa": "ブータンに王立感染症センター 日本政府が支援、対策拠点 - 山形新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-28T08:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRzVCNjZOdnI4eEMzb0d0eW05TFFXR3BsRmxxa21ubE9zRTEzRXFCcERWeGRKRld6ZUNWejlGUFQ0UExReVlXS2FUWjBtWHZGVkdnOGtVNE1zNkhNX3VQZVFjNW4yX3piaVA3bThZRVg0dDdpTFBscklaZ19Ra2FqX25BSDE2X0k?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "山形県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "山形新聞"
-    },
-    {
-      "articleId": "gnews_0a775ff733d02852",
-      "headline": "ブータンに王立感染症センター 日本政府が支援、対策拠点 | | 全国のニュース - 佐賀新聞",
-      "headlineTranslated": "Royal Center for Infectious Diseases in Bhutan, supported by the Japanese government, becomes a countermeasure base | | News from across the country - Saga Shimbun",
-      "headlineJa": "ブータンに王立感染症センター 日本政府が支援、対策拠点 | | 全国のニュース - 佐賀新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-28T08:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yb1JmLUU4MDQ3WDRyOGRmdWxpUk9KZHl4bGhjSHpqZzBwSEd1NGp1SE5NLVAwZmhxZ1VoZEllaGp4a0poOUxkSHk5UHVlTEhlWjBwaElB?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "佐賀県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "佐賀新聞"
-    },
-    {
-      "articleId": "gnews_ca2ea64107fc89d2",
-      "headline": "ブータンに王立感染症センター 日本政府が支援、対策拠点 - au Webポータル",
-      "headlineTranslated": "Royal Center for Infectious Diseases in Bhutan Supported by the Japanese government as a countermeasure base - au Web Portal",
-      "headlineJa": "ブータンに王立感染症センター 日本政府が支援、対策拠点 - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-28T08:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OWHpETGo3d3VzeW5BWFBVc0VUeWY0cVdCTjNwMEFHa1JZeE45dGpMWkp1YzBZUXhfRFdja1Y2SE1IeHlBLTY0Zk9yMXZma0tIdm5TbklOYnF1SUswemtCOGRrbEhOMkl2bTRtY0ZQVkxrRVd0aWVIYTNUbw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_18504c7e7af21eda",
-      "headline": "「流行発信地に」「映画館うれしい」 ザ・ランドマーク名古屋栄開業で喜びの声続々：ニュース - 中日BIZナビ",
-      "headlineTranslated": "``Becoming a trendsetting destination'' ``I'm happy about movie theaters'' The Landmark Nagoya Sakae opens with many voices of joy: News - Chunichi BIZ Navi",
-      "headlineJa": "「流行発信地に」「映画館うれしい」 ザ・ランドマーク名古屋栄開業で喜びの声続々：ニュース - 中日BIZナビ",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-28T00:50:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qOGFPLURtYk9lMGRIZHd3aTFjSzI5Zm1lenoyNUlfMWFPTldGSzV3MGRJS3h1VFIyS014OVM3SFo1a0JQdjZ5Rng2ZWRzVFRQRU1uWGREUk5Wa01oOHpF?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "愛知県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "中日BIZナビ"
-    },
-    {
-      "articleId": "gnews_314a951e23511d24",
-      "headline": "「なぜ自分が…」 苦悩の5年 ワクチン接種後に2か月間意識不明 車椅子生活の男性 “新型コロナワクチンの副反応問題” 当事者の今（CBCテレビ） - Yahoo!ニュース",
-      "headlineTranslated": "\"Why me...\" 5 years of agony: Man in wheelchair unconscious for 2 months after vaccination \"Adverse reactions to the new coronavirus vaccine\" Now for those affected (CBC TV) - Yahoo! News",
-      "headlineJa": "「なぜ自分が…」 苦悩の5年 ワクチン接種後に2か月間意識不明 車椅子生活の男性 “新型コロナワクチンの副反応問題” 当事者の今（CBCテレビ） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-27T23:30:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWxLaXNOaHV3SDZQY2NRSV8tdnVvRWZOcHRzd2V5dlFiX1dOVENPNUlJak9TbmRPMXU4VkxPT0RTZVJWZVgxQnVlUjZQRm1IdUdLRVdTaVFYYWNUMzJYSElpSkoweF9wZjJUb2F5UEtxS2FCcnUyT3VOTndtdVU?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_e2bfd2bb22859b74",
-      "headline": "富山県内はしか５人目 感染者と接触 - 47NEWS",
-      "headlineTranslated": "5th person infected with measles in Toyama Prefecture came in contact with infected person - 47NEWS",
-      "headlineJa": "富山県内はしか５人目 感染者と接触 - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-06-27T22:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE04MEJvMGR2Nm55UE5Ybkd4WERyWnB3T2VPYVZINzVQUWRhYkRDaUhlbUtkQnR3d0JZUFMzYmlrZUJXVl9mT1N3SnVmdw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "富山県"
       ],
       "dataSource": "Google News",
       "sourceName": "47NEWS"
