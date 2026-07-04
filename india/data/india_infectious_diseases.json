@@ -1,26 +1,227 @@
 {
-  "generated_at": "2026-07-03T21:44:07.579946+00:00",
+  "generated_at": "2026-07-04T21:41:04.975438+00:00",
   "date_range": {
-    "start": "2026-06-30T21:44:07.579946+00:00",
-    "end": "2026-07-03T21:44:07.579946+00:00"
+    "start": "2026-07-01T21:41:04.975438+00:00",
+    "end": "2026-07-04T21:41:04.975438+00:00"
   },
-  "total_articles": 28,
+  "total_articles": 21,
   "state_summary": {
-    "India (state not identified)": 12,
-    "Haryana": 1,
-    "Rajasthan": 1,
+    "India (state not identified)": 10,
+    "Uttar Pradesh": 1,
+    "Assam": 3,
+    "Delhi": 4,
     "Telangana": 2,
-    "Jharkhand": 2,
-    "Delhi": 10
+    "Jharkhand": 1
   },
   "disease_summary": {
-    "Infectious disease (unspecified)": 8,
-    "Ebola": 1,
-    "Dengue": 15,
+    "Dengue": 7,
+    "Avian Influenza": 1,
+    "Tuberculosis": 4,
+    "Infectious disease (unspecified)": 4,
     "Malaria": 4,
-    "Tuberculosis": 5
+    "Nipah": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_b92176073156e7c2",
+      "headline": "Officials on alert with rise in dengue cases - The Hindu",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T17:44:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZnp6YTJUMU1jdk9BVzU0ck9RMU1OSkJmYnVXeGluaG1PV3JWSE5yQVpydWQwMUs0bzduNHRhYnU3QVA1YzRVQ2xsNXVYZUx4bDEyQ2I3eE5QVlVLYnBQOXh5NThsZkpRdHhNcnBvMUNadFpvNTBVeHNGTzd2TEJLejI4SUpsV1J1V2lfenFNVnRvS1lrRHNycHVCUGl2RDE2V1ZHcTlDRXZJdXYyOHdvbHY1R0NKQmRsUmfSAboBQVVfeXFMT2Z6emEyVDFNY3ZPQVc1NHJPUTFNTkpCZmJ1V3hpbmhtT1dyVkhOckFacnVkMDFLNG83bjR0YWJ1N0FQNWM0VUNsbDV1WGVMeGwxMkNiN3hOUFZVS2JwUDl4eTU4bGZKUXR4TXJwbzFDWnRabzUwVXhzRk83dkxCS3oyOElKbFdSdVdpX3pxTVZ0b0tZa0RzcnB1QlBpdkQxNldWR3E5Q0V2SXV2Mjh3b2x2NUdDSkJkbFJn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Hindu",
+      "headlineJa": "デング熱感染者の増加に当局が警戒 - The Hindu"
+    },
+    {
+      "articleId": "gnews_ff97808f94918e46",
+      "headline": "चिकन का मजा लेने वाले सावधान! नेपाल में बर्ड फ्लू का कहर, मुर्गा-मुर्गियों के आयात पर लगी रोक - Jagran",
+      "headlineTranslated": "Those who enjoy chicken, beware! Bird flu wreaks havoc in Nepal, ban on import of chickens - Jagran",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T13:51:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZnJGLTZRcldzWU4xeTBKZlNSVUxJR0EtdXJLUmxxcGRmc1EtZVRRajFWSllaVDZZSlg4akpOVGhjZlN5ZXluRWNDbDFaQ0ZmMGU5YmQ0eFQ4eVA3emRXbTNuV0cteVYwYnU5NV92YklPb1ZqSl9PZTlreUlyQXQzaktubk5sdHRXYnNMUGlSbGNDTnFQWWUzemNMRHQ5R3pqTDJVY2RzTlE3VGZyS2lmaDF6UHFES0ZLZHdTWm1KTjVVY3c?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jagran",
+      "headlineJa": "鶏肉が好きな人は要注意！ネパールで鳥インフルエンザ大混乱、鶏の輸入禁止 - Jagran"
+    },
+    {
+      "articleId": "gnews_00ba3dce3b561c03",
+      "headline": "55 pigs culled after African Swine Fever outbreak in Assam's Nagaon - India Today NE",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T13:46:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYVBtN0FGckxpVG5vMUNjeHpKTWd5N0FEODd1N0ZMT0twMERfdmNXaUI2Q0wySV9TOFRPdFI1VGZxMlVSV3JTYXVJWHk0WG53WkNkTTY0YjFHOWtQLUpiRTFhdUF1ZldtVmRSLTZKZTZOSjlrek9tVWR3TXhFUEg1TmFqRDdncFlzZjJ4NldjcFczclRkYjNsSnNweURuVGZFSzdLZFZVa1g5QkNkbjA5N1R0cFZFNXRfZHJDZTRhNVJSMUhUNkExNtIByAFBVV95cUxQYVBtN0FGckxpVG5vMUNjeHpKTWd5N0FEODd1N0ZMT0twMERfdmNXaUI2Q0wySV9TOFRPdFI1VGZxMlVSV3JTYXVJWHk0WG53WkNkTTY0YjFHOWtQLUpiRTFhdUF1ZldtVmRSLTZKZTZOSjlrek9tVWR3TXhFUEg1TmFqRDdncFlzZjJ4NldjcFczclRkYjNsSnNweURuVGZFSzdLZFZVa1g5QkNkbjA5N1R0cFZFNXRfZHJDZTRhNVJSMUhUNkExNg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Assam"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India Today NE",
+      "headlineJa": "アッサム州ナガオンでアフリカ豚コレラ発生後、豚55頭殺処分 - India Today NE"
+    },
+    {
+      "articleId": "gnews_7726e4c028975d93",
+      "headline": "Lumpy Skin Disease Outbreak Devastates Cattle Farmers in Assam - newire.in",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T12:50:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbGpIWjYweTVRdDgtdzRJNGI0YjZCb3VwVVJlY0RLX3Y3TTE3YzZ1dlhCbzlxMFU0RmZvZDVza2xNaVdNdm8zakZUUzY2ZnBjZF9RREdnRVhwclRBZFh1NkRxNDZ3akloWWxJdWtXZFZnUGU0ZXRNWTlMQi1fWVRMc2JuVXZtcVJMS1dpYWJRR1dLYWc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Assam"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "newire.in",
+      "headlineJa": "しこり状皮膚病の発生でアッサム州の畜産農家が大打撃 - newire.in"
+    },
+    {
+      "articleId": "gnews_6ea45d112c74f9fb",
+      "headline": "India’s Liver Epidemic, Diabetes Surge Part of a Larger Metabolic Nexus; Calls for Mission-Mode Public Awareness: Dr Jitendra Singh – Hindudayashankar - Hindudayashankar",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T11:51:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWGhHSXFzYjg5Y2xiNjdzbW1JbXp6MjlzZVZWMTBuem9Rb2VyR1Z1M0JnVGRqemVLanM1a21iT1dtNmNoS2tNaTJtWDZFSzNuY3Y0bHZTOGU2UWFhZ2xab3lxUzN5aVluVExhSXUtOUMyaUp0bGhadnNfeVlQeWtPLThkeHdieThLWVIzeVM1MGhNbXNRZE1MemxROFRpVGtOcFpHY1hXNU9XWTJZdjVQUHBueGpkNG04MUFCT19hbXYtblZJSzZtUElkcVFZdkU5THB4QXdBQy1OcDZ5UjM5ZWg3RmkzQVVVeEZkejcyUlAtaG9ITzdtMlVqUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindudayashankar",
+      "headlineJa": "インドの肝臓の流行と糖尿病の急増はより大きな代謝のつながりの一部。ミッションモードでの国民の意識向上を呼びかける: ジテンドラ・シン博士 – ヒンドゥーダヤシャンカール - ヒンドゥーダヤシャンカール"
+    },
+    {
+      "articleId": "gnews_c6e5465202b0c7b1",
+      "headline": "Assam: Lumpy skin disease outbreak in Chhaygaon inflicts heavy losses on livestock farmers - India Today NE",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T10:03:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOa29tckFHeGNYRm4wVEN0SUNDcFdQaDFKaGREN2ZZSkNHd0xGWGlITk1KaHpVUURFbXhmdVAyREVUM05Ia0o4anlLMk5mUGJNcnBZWUh3QXo5YTNGM3U0V1FhWGFQY1dWUWdua2tvcl9kT0VMZnA3bFlNbVl4VWpSVDhSYzJpcHpOcmNIaVRjb3l1enliT1FLLU9yT0dTSnVQZTh0UV9zZGhoRElRRG0xdzlyRlJfYnF5VGRPZVpjWXFDdU1lV3NTR3cyY0dRcGhmZXlaWG15N2xwblBobmdmZERGNkg0cEHSAecBQVVfeXFMTmtvbXJBR3hjWEZuMFRDdElDQ3BXUGgxSmhkRDdmWUpDR3dMRlhpSE5NSmh6VVFERW14ZnVQMkRFVDNOSGtKOGp5SzJOZlBiTXJwWVlId0F6OWEzRjN1NFdRYVhhUGNXVlFnbmtrb3JfZE9FTGZwN2xZTW1ZeFVqUlQ4UmMyaXB6TnJjSGlUY295dXp5Yk9RSy1Pck9HU0p1UGU4dFFfc2RoaERJUURtMXc5ckZSX2JxeVRkT2VaY1lxQ3VNZVdzU0d3MmNHUXBoZmV5WlhteTdscG5QaG5nZmRERjZINHBB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Assam"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India Today NE",
+      "headlineJa": "アッサム州：チャイガオンでのしこり性皮膚病の発生で畜産農家に多大な損失 - India Today NE"
+    },
+    {
+      "articleId": "gnews_2e8f05ae24254553",
+      "headline": "तमाड़ के बेलबेड़ा में मलेरिया का बढ़ता प्रकोप, 336 जांच में 160 संक्रमित, स्वास्थ्य विभाग ने तेज की निगरानी - ETV Bharat",
+      "headlineTranslated": "Increasing outbreak of malaria in Belbeda of Tamar, 160 infected in 336 tests, health department intensified monitoring - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T07:30:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZlJRSGdQNTRoZGdKV19KeDZhSXFsZ0xaZ0NMSUVTWDBySnpQT193OTd0OEpKdXJUWURwODlYVXlNZllwTTBjUU1XRHE0Nm8tT1ZpYzFXODNjN1piRzhEc0lMVkRwLXl0djdwc0tpU2JYejhOS3FRM0RTSmdYUUYxa2JxbnlTVlYxbThtdVNhZFBNczhkWUVPQXRmSzAzLWZVQVpMRXhCZlFJNHg4U3NFazlhNEsyNmphNUY0WUJxNNIBvwFBVV95cUxNZlJRSGdQNTRoZGdKV19KeDZhSXFsZ0xaZ0NMSUVTWDBySnpQT193OTd0OEpKdXJUWURwODlYVXlNZllwTTBjUU1XRHE0Nm8tT1ZpYzFXODNjN1piRzhEc0lMVkRwLXl0djdwc0tpU2JYejhOS3FRM0RTSmdYUUYxa2JxbnlTVlYxbThtdVNhZFBNczhkWUVPQXRmSzAzLWZVQVpMRXhCZlFJNHg4U3NFazlhNEsyNmphNUY0WUJxNA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "タマールのベルベダでマラリアの発生が増加、336回の検査で160人が感染、保健当局は監視を強化 - ETVバーラト"
+    },
+    {
+      "articleId": "gnews_9fd174143c7a361b",
+      "headline": "Nadda Reviews Delhi’s Dengue Preparedness, Pushes Hospitals to Stay Ahead of Peak Season - boldnewsonline.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T05:24:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnJubGNQSkY2WjRmTlptY3JNRnV6eXdyVFZlMFVhRGJPMlFLN0huUkQ1LVF5OENRRXp5VjI5SzI1UGs0QXNEOVlkd3RZMGhxNGFXMlg1R2ZyeVgzcEFNVEFzRVJ4WEVBeUNVOEMwSUwzSlRma0dMdDdRamxDVmtzNE0wTmwyeTFKaE1wM0ZzQm9QNndEbndBWTBWNXp4NklhMDVScDVzbGgxbkJxb2cyLVIzeTjSAboBQVVfeXFMTVhQeVBYSFpVRVNvNWU4U1BUa05KVTlILUZKWWNsem5ZcUktY0JQSkhUN3F5ck1EbWxpV1Y4Vkl0T1dDRWZqV2J6ZGJwaWZIdGxjRHVvRkdDQW5PdENTOWJVd3ZGN2JCbVpjdHFxb0FoTWNIWU9FaDZadGR4TnNYcjdxRlRLeWFXZVZMMk5EM000Nll4SnVVU1F5NnlJaGRkU2lZTTNZU1EwSVBuMWdXeWZVbGs4SDNlMGdn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Delhi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "boldnewsonline.com",
+      "headlineJa": "ナッダ氏、デリーのデング熱への備えを見直し、病院はピークシーズンに先駆けて対応を推進 - ボールドニュースソンライン.com"
+    },
+    {
+      "articleId": "gnews_979a06371221bad4",
+      "headline": "Nipah virus infection - World Health Organization (WHO)",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-04T04:52:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMnc1aXM2em5tT0thSVBjcDNNZnJFUjBzUUUtWjROOXgwNmE1am8zMXFjTjMtQjctWmg5Y09pM0ZUTTJlR1J4dzBwZzdtVEJXSHh4WHdCQUF6ZW92LWJ4dGl6Q2lTQjYzWGNKSlp0Q2lhbVFRZThBNnBOSlFHSFg1ZkFia3RuS3RrNGwzZGJobnVWU0ZX?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Nipah"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "World Health Organization (WHO)",
+      "headlineJa": "ニパウイルス感染症 - 世界保健機関 (WHO)"
+    },
+    {
+      "articleId": "gnews_7e023fd3e5f57d9f",
+      "headline": "केन्द्रीय मंत्री जितेंद्र सिंह ने भारत में लिवर की महामारी और टाइप | आकाशवाणी न्यूज़ - News On AIR",
+      "headlineTranslated": "Union Minister Jitendra Singh spoke about the epidemic and types of liver disease in India. Akashvani News - News On AIR",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-03T23:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTktvOXkzRTVYWm1FTzRySFRHVExqUzdGc2VLRzZCTFJsd0IxcFl3dmptWjh6Wnc4cV9TMmxLYmZHajcyWmlMWW1OYldHaFNyM2hmb3VxWGx3RG5wTENpU1BlZHRkYm5hMnJIQTRjOUQ5WVNUV09JNWYxZkkyMFBqS1JNb0pfMXZzM1BXaVJ3Wkx3ZG1GT0ZXbVB6NFZ3YkFncVFfdDVqTW8xSk5LYTQ1ZzV5bVMySzBpbVRNWDNiWUZWWC1FQVJJdnpDenU3OWEyRGwwakVxUGppY2IyalZGb0s4UGZlMmtnSmZyaFlld0FlUQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "News On AIR",
+      "headlineJa": "ジテンドラ・シン大臣は、インドにおける肝疾患の流行とその種類について語った。アカシュヴァニ ニュース - News On AIR"
+    },
     {
       "articleId": "gnews_af045ea2478413e5",
       "headline": "Explosive Diarrhoea Parasite Detected In US: Could Cyclospora Spread In India? - NDTV",
@@ -40,46 +241,6 @@
       "dataSource": "Google News",
       "sourceName": "NDTV",
       "headlineJa": "米国で爆発性下痢原虫が検出：インドでもシクロスポラが蔓延する可能性はあるのか？ - NDTV"
-    },
-    {
-      "articleId": "gnews_4e03ae4e6aa3a1ca",
-      "headline": "Deficient rainfall and Fiji virus fear slow paddy transplantation in Haryana - The Tribune",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T14:04:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzB1czZTTmNLTVJPNVBPTTY4YkgyWkpUcFNhLWRvNkUtWE05RUpEWGNtbmpadjFFMVN5aTY5dGJMOGxlcmdYbTVTczU3RVBtbXhvNm5MdlMyR3RFX0p3d2U0Z0hfaUFzR0NHWG1mNHlXWUcxV2dudlJIX1NQaVN0TGRwbThiRDl0OUVSY2ZiQ0pJSUQtSWF2c3BKbEZDSlpXWVNLX1c3UGRVWGJnMzIyeTI5UHFIa0ZTSTZJ0gG_AUFVX3lxTE9Ub0FfNURreWdYOHpCcEZzVEVpWDd5b0tzanpzcV8xMXlwSmpUTmJnYU9pMmYxX2FsdFVydFp0ekpRSTM5X1BNc1JlbjloVlppV3AzMjNueWpKaU1ILV92NDdRTWpZc0E3UzBlMThpY2pBWUJHUzd5eXFHQ2tIVkIwYVBFcjU1VFhaVW1iWUM2blFsXzF2cGYyQ0JyMlNQbTZuVV9rdEZmN1hJWUJhck0wMWE5MDdDWkZJN0dtTWxR?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Haryana"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Tribune",
-      "headlineJa": "降雨量不足とフィジーウイルスでハリヤナ州の水田移植の遅れを懸念 - トリビューン"
-    },
-    {
-      "articleId": "gnews_ecf75be4c6e84d90",
-      "headline": "Ugandan tourist in Rajasthan tests negative for Ebola virus - The News Mill",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T09:38:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0dNNWF2Q1E5cGt6d1NONXU5NGRkb3dRZnFab1RNN2RRNWVtUGw4OUNDX2VBb283T3R3M3N5ZmlwZm1DNFhqdk5CNFdlcDkxME1Pc1kyb3F6Q0xHYjBtdzk4bUVpVUFIcFdZWHU3NDU2UkxrWlpiVndxeUdkYURIOThHV01rLWZ0WGRaUEl5T0EwaF8teFNV?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Rajasthan"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The News Mill",
-      "headlineJa": "ラジャスタン州のウガンダ人観光客、エボラ出血熱検査で陰性 - ニュースミル"
     },
     {
       "articleId": "gnews_8fb3faa15b5a8c27",
@@ -122,24 +283,24 @@
       "headlineJa": "蚊の行動の変化により従来の防除対策が困難になり、ハイデラバードがデング熱に警戒 - Telangana Today"
     },
     {
-      "articleId": "gnews_92a40de150f2c05e",
-      "headline": "Jamshedpur rural malaria – पोटका में रौद्र रूप धारण कर रहा मलेरिया, 1175 की जांच में 124 मिले पॉजिटिव - Sharp Bharat News",
-      "headlineTranslated": "Jamshedpur rural malaria – Malaria is taking fierce form in Potka, out of 1175 tested, 124 found positive - Sharp Bharat News",
+      "articleId": "gnews_d7f2f86322de9852",
+      "headline": "विश्व क्षय रोग दिवस: टीबी के खिलाफ भारत के संकल्प से बदलेगी तस्वीर - DD News",
+      "headlineTranslated": "World Tuberculosis Day: India's resolve against TB will change the picture - DD News",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T06:08:18+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOVFHWUZqMWlKQWttSU9DVUtwVVpIU3dXWjRMOHNPZ2dlQTNzUU5WRG9hdWM4cnZ5Um1xekNBSUNnY2R5b0JfQmFubjIyTGN3NWMwSTdqYWExQmZkLU95eDhkRC1JLUtVY1k3MVc0aDE4LUZWTmxSR0dVcU9iZ2U3UkZlZXZoVEdCak9fbnVUT01sMDVkaTFjUkdHbkpkeWZ0cVFHOTFWVDlkT1otcWRjZ2t0d1Y4Q3E0dWxLVUR3X0NaSm42TVE?oc=5",
+      "publishedTimestamp": "2026-07-03T03:41:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMmhLY0J6eXoxNTZNMVNhcWVRQldhSm05Ui1ZdzlLYU42Q0RhbmI4eWswcXQxQ0VIYmxFWHA5Wm5LQ1VlN0ZYaTJGUGFUejZtTVcyaU5XRmRtb3BFbWxQUEx5RTluQkhTbHdyQzh2dEpReDFCS1FNcWdxTnVwZlVzLTJmYllhWFQ2OUNqanpjUXZBMzZKcVAwUWtwYWdfa0d2cWc?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
-        "Malaria"
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
-        "Jharkhand"
+        "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Sharp Bharat News",
-      "headlineJa": "ジャムシェドプールの農村マラリア – ポトカでマラリアが猛威を振るっている、検査を受けた1175人のうち124人が陽性と判明 - シャープバーラトニュース"
+      "sourceName": "DD News",
+      "headlineJa": "世界結核デー：結核に対するインドの決意が状況を変える - DD News"
     },
     {
       "articleId": "gnews_afb1b4147843bff3",
@@ -162,26 +323,6 @@
       "headlineJa": "東シンブムに続き、今度はランチのタマルでマラリアが大発生！検査で17人が陽性判明 - ETV Bharat"
     },
     {
-      "articleId": "gnews_29210746b429c0a1",
-      "headline": "Got 38 parasites in brain after India visit, says UK woman. 3 facts and a question - India Today",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-02T12:01:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMEtUX2djTGZMWGFYbFprNmlNZU5fd2FTb1dicVMtNGZGLUcxaV9VemwxZTVhU19XbGk5RFJDUDNfMzF6NjdXcDEtVVlEOTA1YkZlUDZtemZpMXBua0dMNzZLZjl0djRWZUZSd1llQlZfQ0VTQ3AzYzdmckZ5S2xFSUpLS0VWNF9QckYyN0Q1YlhPZnZTME16ajQ3QVBVX3RVU2R2bmNtNjdkbl81SlRRRDVIVXZhTlpqY0dycC1aNW5YRUlJM1VnaGpSeFNaZzhJOWYyTzBsVjBuTXZTTXNqY09OX1pVOFIyWnFQTNIB8gFBVV95cUxORHpramNpN1lvY1RITmUzOFRDcWY5SllPMmNockJ6UnFnLUZidVVxRnZtYW9LVFNtMHlSVEMyOVVteEFEbWQyamJXWlVMM0FGZU43dVdDV1d4Ty1kNlVIdHBEN1RlQWxCQjhuZEhqRzRhOEtpNWRoTmRiYUFQajlIWk1HdllsNW5NX3hXdGJJYnk5dFh6ZkFvQThiMkV6dDF3SFA2RHRWSTJ5WE5CSlZuelV0UjcyQlhWLUluMmc4WEZ2WTlnX21KQmxySEU1VmxMY1FITkI3eW4xNjJEaWJEOU5GbThSdE9pb3QtSWF2OXZ5Zw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "India Today",
-      "headlineJa": "インド訪問後、脳に38個の寄生虫ができた、イギリス人女性が語る。 3 つの事実と質問 - India Today"
-    },
-    {
       "articleId": "gnews_d3d8cd5140f03a4e",
       "headline": "स्वास्थ्य विभाग अलर्ट: पूर्वी सिंहभूम में ब्रेन मलेरिया से मौत के बाद सभी उपायुक्तों को सख्त निर्देश - ETV Bharat",
       "headlineTranslated": "Health Department Alert: Strict instructions to all Deputy Commissioners after death due to brain malaria in East Singhbhum - ETV Bharat",
@@ -200,6 +341,26 @@
       "dataSource": "Google News",
       "sourceName": "ETV Bharat",
       "headlineJa": "保健省の警告：東シンブム州の脳マラリアによる死亡後、すべての副長官に厳格な指示 - ETV Bharat"
+    },
+    {
+      "articleId": "gnews_b9c7dfd458b1c180",
+      "headline": "हवाई में एवियन मलेरिया का कहर: भारत के लिए जैव विविधता के खतरे की घंटी! - Whalesbook",
+      "headlineTranslated": "Avian malaria havoc in Hawaii: Biodiversity alarm bell for India! - Whalesbook",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-02T07:25:49+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMWc4WG1ub1l2MC12MUtmdWJyUTB1dld4bGxnOHluUUdhZlFEbTNya09VWmt6NDFPbmNLQlctNWhQb1NOUHFBLTFnNEpiNHJ4aDhkVjhXYmNzU2lDeThZMkFvNkYtVW5pZEktVndmM1VNQklDWkE2VVdQbnRaeEFVbzdhNGNtRnZMUHljZkMzeDJ4aUxsTEQzNnYwbE9nVTl2NDF6ZDBra2xtQVR0dk41N3phWjM4SmppQTVVRldrd19fZXNMOHlFVDY3RTEtNlhqak5EaHVkeGdiZ0pfbFE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Whalesbook",
+      "headlineJa": "ハワイの鳥マラリア大惨事：インドの生物多様性に警鐘！ - ホエールズブック"
     },
     {
       "articleId": "gnews_45aed59bfe80f304",
@@ -262,26 +423,6 @@
       "headlineJa": "「インド旅行で脳に38匹の寄生虫が残った」イギリス人女性、インド料理で元気になったと主張 - タイムズ・オブ・インディア"
     },
     {
-      "articleId": "gnews_2b63144bfbdcd804",
-      "headline": "पूर्वी सिंहभूम में मलेरिया से 5 मौतें, पूरे जिले में मचा हड़कंप; स्वास्थ्य विभाग का अलर्ट - Live Hindustan",
-      "headlineTranslated": "5 deaths due to malaria in East Singhbhum, panic in the entire district; Health department alert - Live Hindustan",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-02T02:27:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONjQycjBJckFPc3EwS0NRNVp4ZDhpY3BSQ2x6eEo1NlN4dFJCMF9IVE1ucXYzV0drV0l1clgwT1hCRkFjVWdRZ0Z3STlGMmNEdmlsUEtLTUZ6LWhFcEdIclFsZzRPS1hLRWh0V0k0MktWN2hXYk5vN1Rrblp3dFJ0ckxiUWxuOFBqTEJ0SlhDMThsQ1U4WUtFZnhTU2JGa2toQm1OYmZJNUNWdTdJbm1MaUxnaDV6akgtVWw2eWtjT01Od9IBxwFBVV95cUxNaWN3SGc0OEs1RVJveG9CN1Z5SW55QWZlV0UwS05vbXRmY2EzVlk2dHBUUnhRaG0teElkSWdkb19ld3FGcWNUVHA2RFRUcnFacHN3X296TUhrQ0J5N1Rlbk14MG5taGZJS0VxTnJEY1A1Q3NxYjM5VXVuZWcxbmRNOUpJYWhhRXFUc2xXV2dPMHBhWm1aeXN4LVV1R3JQZDRabEhkZG9KRDlfVWFyd2pGMVg2UlZVSVdZQ2lkbWtMaFJmYUVNQjU4?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Live Hindustan",
-      "headlineJa": "東シンブムでマラリアで5人死亡、地区全体がパニックに。保健局の警告 - Live Hindustan"
-    },
-    {
       "articleId": "gnews_0ec3102f5f90c62a",
       "headline": "JP Nadda reviews dengue preparedness in Delhi ahead of peak season - ET HealthWorld",
       "headlineTranslated": "",
@@ -300,291 +441,6 @@
       "dataSource": "Google News",
       "sourceName": "ET HealthWorld",
       "headlineJa": "JPナッダ氏、ピークシーズンを前にデリーでのデング熱への備えを見直す - ET HealthWorld"
-    },
-    {
-      "articleId": "gnews_9614fe2f032991d2",
-      "headline": "'Carry out special dengue awareness drives in schools, markets': Minister Nadda to Delhi government - The New Indian Express",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T16:35:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMVdsSjZhT3pSR0pkd1F6bmZaVHVNYm5vcklBbXV6OWFLX1BYUzctNk5FaE5fbFhoWVl1X3JBVE9oVGw3a1RfcDFQN3RRTHVua1pjUHJrbWQzdVNka1pZNFRFMm5OUzZUbUpzaGlaVzBiU2R4bHdfX293anE3N25BTUc3RzdIVnhCYkdoY2pQWlBVNzAyemJnOUI4cEtzUEhGWkd0QXJaVzhscWJlX2RMN3pWb3BRTXZGcHJNSXJUTWFFZjJwZ1JDRG14Uk5lc1ZhdHZvbXFId2xqSDNSWU82MTU0Q29WY21p0gH2AUFVX3lxTE5PLU9OM0E3QVBCT3F4RWtWWS1HOHI5MWNSblFFWHpOeHlNZWoxOHo0ZXUtb0hSS285ZGFQdHpSb19lVF9XTWlqbzJRLXFXWjhPd3JsdlJZel9qNUZVZnFQNlVRS0wySEpSNzB5VzFpazhEcjBMcG1fMEVXYzNqNHZUYXRIY0dBUFBUYnY4NThEYmFzWGJDSFNqOFFleUsxNHBFei1hZzc0SHRxOVMtdW5lUWlVRTI2bDNtOUZZdGtuNmZOdXFQTnVudHdSTnFVTnJEMHNHYlkzVkZSYmh6WkVfdHRDUXpGdlFIX1d1SVdrV1cyTmI1UQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The New Indian Express",
-      "headlineJa": "「学校や市場で特別なデング熱啓発活動を実施」：ナッダ大臣がデリー政府に - The New Indian Express"
-    },
-    {
-      "articleId": "gnews_6e3a87e3703f73bd",
-      "headline": "Review Confirms mRNA Vaccines Protect Against Severe Infectious Diseases - The Indian Practitioner",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T16:11:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR3JoeVU5V2JkYjNELVVNWE5QWDVKVzFqUEpQYWRfb1ZpMnNMNUdudFJtWUZxUEVRZGtVVWdGaUs4YkJ6UkhTaEcwOWl2QVhXdWxIQWVUelpfY2FramFXZ2JTRW9tdE1fWkVDVDdDVE5XUDl6SEJIb004SzkyY2w3VURpY0trM01wUWRudXVxWktHRERoLUF3MWhSWVBDMUFNMGxaLXdKb3M3ZHc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Indian Practitioner",
-      "headlineJa": "mRNAワクチンが重篤な感染症を防ぐことがレビューで確認 - インドの医師"
-    },
-    {
-      "articleId": "gnews_2ef887944b8be78d",
-      "headline": "स्वास्थ्य मंत्री ने टीबी मुक्त भारत अभियान, डेंगू की तैयारियों पर प्रमुख बैठकों की अध्यक्षता की - bhaskarhindi.com",
-      "headlineTranslated": "Health Minister presides over key meetings on TB-free India campaign, dengue preparedness - bhaskarhindi.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T15:09:49+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcm5OQzNSeVFpVTRCVXdWbDYzaHNZdm15X0ZJZXZJYng3MmdRaUlqQy1ZWmZDbjVfTEZST0FObmZ4c0w5TDN4LWRpeWRtVUdwMGlEck4zM2VUanFlbUNGekQ4QVZqR1pmWjUtLTlXUjNHbUhlYTBUajlqZGw5ZU96anY3VmxBdWhLOG5EcnM5Z0FvZE85TzQxWFMtbDNGeHlYM0R6NFFrblFGcGl4cDRlbUdhMzlKTG9oakhWWl9jVUVlNHpITEVTd3NNd0lweUtOLWRJbDQ4ZkpJX092bTlv?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "bhaskarhindi.com",
-      "headlineJa": "保健大臣、結核撲滅インドキャンペーン、デング熱への備えに関する主要会議を主宰 - bhaskarhindi.com"
-    },
-    {
-      "articleId": "gnews_6b45b9a7e0aec4b7",
-      "headline": "स्वास्थ्य मंत्री ने टीबी मुक्त भारत अभियान, डेंगू की तैयारियों पर प्रमुख बैठकों की अध्यक्षता की - Samacharnama",
-      "headlineTranslated": "Health Minister chairs key meetings on TB-free India campaign, dengue preparedness - Samacharnama",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T14:54:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFVVUFhmNi1iYkM1UzBMQTAyZGQxb1N5Y0p1ZlZuYVdld2hsOFgxcFM4cDBJQVlpWWxxRlJhMThiMFJCaEVBWXpJZV9NbEV3VFhidDRUekYyaE5NVzNLMDB3b0gzZjVjOVFuaWJMb0RGbEhMVHB4RGlCZjFMT21qZkZQY3lnT25uZjVITGtMSWFmNDdjaXh4NjNsQXNJMDhZZU5PajFwWFJ4VVU?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Samacharnama",
-      "headlineJa": "保健大臣、結核撲滅インドキャンペーン、デング熱への備えに関する主要会議の議長を務める＝サマチャルナマ"
-    },
-    {
-      "articleId": "gnews_e09144b82c1d9456",
-      "headline": "Union Health Minister Shri J. P. Nadda Chairs High-Level Review Meeting on Dengue Preparedness in Delhi - PIB",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T12:35:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QYlNXbUJQVTJnNmlBNllXZGFKeVhIekM0dlJUSmlMb3ZBYmlzY0U1V0VFVmFUNUthZUtLbFl3Y1FyZHBtaFBPTXRmeWJKU1dwVHFFMjdsaTQxc0tVZ1hrV2lYTVo3alV1?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "PIB",
-      "headlineJa": "シュリ・JP・ナッダ保健大臣がデリーでのデング熱対策に関するハイレベル検討会議の議長を務める - PIB"
-    },
-    {
-      "articleId": "gnews_94543cb929bc7444",
-      "headline": "Technological change means women in India are now increasingly outliving men - LSE Business Review - The London School of Economics and Political Science",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T12:15:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOHRyclFlQ2xHOVh3VzJIaURsaldjdmpWbHdheDZPcUxKTDFEaGZxRzVwYzh3RHh4OWdPc1dLcE5rSVVWQUhnNUI4Y3R1cm1Lb2J6MnZhYV9uMmRDS3htNjFpcGxTYlF2VGtCVVpCWGJBMXZza3lKRENUbnBUbWFCT01qMTNPZFpqSDJJUzhRN29ja1FBeVJwVk03Ykc5cTB5TjdmWVBvbDlhazRybUVfbjFwaVRpM0NwZkdUeWc4ejFveTNXV3c?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The London School of Economics and Political Science",
-      "headlineJa": "テクノロジーの変化により、インドでは女性の寿命がますます男性より長くなっています - LSE Business Review - The London School of Economy and Political Science"
-    },
-    {
-      "articleId": "gnews_eee67e548ad9dbf1",
-      "headline": "Strengthening India's Fight Against TB and Dengue in Delhi - Devdiscourse",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T11:40:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMnBpb0Y1a0hJdzVaeFRRMGFnQ3ctV0NvTE5MOE5jakI4Q0NZMkg3eDdhUjc1LWhzUU03TnFrNEhUZW8zUUVfYlhLVmJPZ1hVNGNnRy1xc3Y0WEd6a1R0aG1BM2VrcE0wclgtWWZEOTZZay03Zy1zOTQyNGVKMUk2SVdoakJ1QjJtUDNBTmF1VlItZ1N2bW5SOEZpLXhzY0RjdVloSHd1eUhvLWhMS3dlVFh30gG3AUFVX3lxTE1Va0gybHg3RDRXLWlrdnpZVWlXQTdmYloxZUhpbEQtVGxqN2hxUFA1RzduVFo4VkctNVNMSS1EUENya1FOZ0lONHdHMmFhWmlOcUtUNENxUTJrTUlDc203SkxQNDRSNzlvNXB2bWM4WThnTTk5SVl2dDNMR01yQzU0X0xBanRoNjBrMm1XYmsyMGJOZEtaUWJDZmstS25PaFcyQV9oSlIwSllvMkFoSElrd2lzdmtWbw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Devdiscourse",
-      "headlineJa": "デリーで結核とデング熱に対するインドの闘いを強化 - Devdiscourse"
-    },
-    {
-      "articleId": "gnews_0203b596c0c3d62e",
-      "headline": "टीबी मुक्त भारत अभियान को जनभागीदारी से दें नई गति, डेंगू से निपटने के लिए भी व्यापक तैयारी करें: जे.पी. नड्डा - DD News",
-      "headlineTranslated": "Give new momentum to TB-free India campaign through public participation, also make comprehensive preparations to deal with dengue: J.P. Nadda - DD News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T11:14:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPY0NqWWZSazZrSjF4bWN1TldOVjFKYWI0V2hpUkFTWGx2aDlUd1d4bk9SWmVGSnU0a21rQW5LS2hDQ2NUdl9JR0hKUUlrMlRTTnE0RzRDNGFHTGJUTlBHWktKSWdjcTA2WkdodE1EYlNMdkRjelF5VldYTUlucUZNVm16Wlg3RUc0SmNjQVlKUFJ4NXZmRkhlbDUwakdmNnl6N3F4Skc5MnRoTjUwQ1NtcFdmRG16VzMtQm9lc1c4MmZVbmlBSkNEaWFYVGlRcDluaGJILWNsdHBsWDNjdXpqWElXU0tLQy02cE5FNU1mc040NG1VZTYzRXd3?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DD News",
-      "headlineJa": "インドの結核撲滅キャンペーンに国民参加を通じて新たな勢いを与え、デング熱対策の包括的な準備も行う：J.P. ナッダ - DD News"
-    },
-    {
-      "articleId": "gnews_8f0738d0c23c3d2b",
-      "headline": "टीवी मुक्त भारत अभियान और डेंगू को लेकर केन्द्र की दिल्ली सरकार के साथ समीक्षा बैठक - Vocal TV",
-      "headlineTranslated": "Review meeting of Center with Delhi Government regarding TV Free India Campaign and Dengue - Vocal TV",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T11:12:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNTdWZDJOUThBc0duUTFjZ3Bwc2ZlNFU2V3ZlWnJKcVFBOHI1Wk9UUVF0RE4xVkRZWjdoU2NZSUgzckpVLU5xSUlnbk1VbE5ndl9RUGRfWEVBT0V1aW94em0xNjQ2aU5NRXNhSzlvd0c3dTUxaTZidlV1RUwtOHNOek16bw?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vocal TV",
-      "headlineJa": "テレビ無料インドキャンペーンとデング熱に関するセンターとデリー政府との検討会議 - Vocal TV"
-    },
-    {
-      "articleId": "gnews_61322364f3a80e9c",
-      "headline": "टीवी मुक्त भारत अभियान और डेंगू को लेकर केन्द्र की दिल्ली सरकार के साथ समीक्षा बैठक - Livevns.news",
-      "headlineTranslated": "Review meeting of Center with Delhi government regarding TV Free India campaign and dengue - Livevns.news",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T11:12:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRlhhNEZVbXBLcGZ6T2hfdXZkYVRVR1lSanVqWGJXZV94SHFNQWlhTjk3b1Q0aHpwejFRdzR6Ml81aFV4QWpNc1kzdS1IUER4N3I5TUg4c0RMUk95eVpqSDlWTFlkWlFvdmxsVnM0Tnc4eV9OWTlzY2FYVE9KWXViaGlEYjFMQQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Livevns.news",
-      "headlineJa": "TV Free Indiaキャンペーンとデング熱に関するセンターとデリー政府との検討会議 - Livevns.news"
-    },
-    {
-      "articleId": "gnews_53277f97f2f77433",
-      "headline": "A trip to India left me with 38 parasites in my brain - BBC",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T08:40:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55UHZoZFh4OExueUoxcEJuZ1hXdDhuYTlJcVd2R3VzMEo1TnlLQmhSVTk5VUNIeVRvVXFMMEstZDR2Z0Zfb2VEcFNPWTdJMFZYTXNFTmp5ay1Xdw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BBC",
-      "headlineJa": "インド旅行で脳に38匹の寄生虫が残った - BBC"
-    },
-    {
-      "articleId": "gnews_cef190afede33d64",
-      "headline": "मेडटेक लैब में तैयार की जाएगी स्वदेशी डेंगू किट - Magzter",
-      "headlineTranslated": "Indigenous dengue kit will be prepared in Medtech lab - Magzter",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T06:19:20+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZkd3TGt3dGlUQVZfcjdhTzhxZlRIM2VwTkFOWnFZXzlGeTRtR3hpcW9uZGFMbFpOSm1WaFU4VnE5WTFnU3hJWnJINjRRQzN4OHJkVVhadlpaeGNkNzFBMkZjYWVwM3dZRTRCbnJ5WEJxRnBCLTJzMi0wdEJicG5jeGRoRQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Magzter",
-      "headlineJa": "先住民族のデング熱キットはメッドテック研究所で準備されます - Magzter"
-    },
-    {
-      "articleId": "gnews_27b54edb523b6d04",
-      "headline": "Preventive Healthcare Key To Fighting Infectious And Non-Communicable Diseases: Doctors - Health and Me",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T05:12:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdGlLUU1uVDd1NXE3N3FBTjcydTBQbE9EWnJlYjZ0dnJsVHNpZFZuRm9SM2ZSZFdLZ3FBeVlvaEt5blg4SUlqWHJhRjhwbHRGOVVPMGNRTjM4SnpDc1ROeWlNMzVKeTRwcjQ3LTlOUWQyYThadFhpRUZHRWg3c25Id1djVEVraU5od3AwZS01dDAwSUQ1MkMtaVI0bllOVS1nTjE1cV9LUzJaejhQMW8xUGtZeW9QYW9DczFZeV9lUDFfUVhJUFVxTUFrRGF4TmZWMWV3bnhjaF9waml4VWF2S0Vn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Health and Me",
-      "headlineJa": "感染症および非感染性疾患と闘うための予防医療の鍵: 医師 - 健康と私"
-    },
-    {
-      "articleId": "gnews_58879698b2f45223",
-      "headline": "स्वास्थ्य मंत्री जगत प्रकाश नड्डा ने दिल्ली सरकार के साथ टीबी मुक्त भारत अभियान और डेंगू की तैयारियों पर समीक्षा बैठक की - News On AIR",
-      "headlineTranslated": "Health Minister Jagat Prakash Nadda held a review meeting with Delhi Government on TB-free India campaign and dengue preparedness - News On AIR",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-01T00:39:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPWTFWTHNzOUh5d1BldFljS014QjlvcGFIMHE2OUJXcmJwZld2N2NSWGN5NHRlRlhqbHJKVkFzeXFjUVozNHNtRVN1RzcweE1JNXFZNVhnOVA1aDducUN5RHROMzA1X1hKZnd1UXVVbEU1bzRBQ2k5MXVybXFFZDU4WHhHdDh4SXBfbjNYc0RnWkZwT2NUQnhRQkRrZWk2MFN3R0JaUWhfT01TMndxeFdXMmhES3ZMcUJrODFFQXp2azNja0FQdjZ4VXViX0dkWTlwM05sSEJQYk9iS1dyX1F1RzBidGFnUUo3U3ZVWjJHWm5ja3ZtMVBaSExn?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News On AIR",
-      "headlineJa": "ジャガット・プラカシュ・ナッダ保健大臣は、結核撲滅インドキャンペーンとデング熱への備えについてデリー政府と検討会議を開催 - News On AIR"
     }
   ]
 }
