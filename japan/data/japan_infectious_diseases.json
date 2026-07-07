@@ -1,36 +1,564 @@
 {
-  "generated_at": "2026-07-06T21:53:03.953136+00:00",
+  "generated_at": "2026-07-07T21:51:13.702911+00:00",
   "date_range": {
-    "start": "2026-07-03T21:53:03.953136+00:00",
-    "end": "2026-07-06T21:53:03.953136+00:00"
+    "start": "2026-07-04T21:51:13.702911+00:00",
+    "end": "2026-07-07T21:51:13.702911+00:00"
   },
-  "total_articles": 56,
+  "total_articles": 52,
   "state_summary": {
-    "日本 (都道府県未特定)": 19,
+    "日本 (都道府県未特定)": 20,
+    "三重県": 4,
+    "静岡県": 20,
+    "神奈川県": 4,
+    "東京都": 4,
+    "島根県": 2,
+    "福岡県": 2,
     "福井県": 1,
-    "静岡県": 22,
     "沖縄県": 1,
     "京都府": 1,
-    "島根県": 6,
-    "東京都": 8,
-    "岐阜県": 1,
-    "愛媛県": 3,
-    "岡山県": 1,
-    "神奈川県": 1,
-    "富山県": 1
+    "岐阜県": 1
   },
   "disease_summary": {
-    "COVID-19": 7,
-    "Avian Influenza": 1,
-    "HFMD": 8,
-    "感染症 (未特定)": 25,
-    "Hepatitis": 1,
-    "Measles": 4,
+    "Food Poisoning": 5,
     "Norovirus": 4,
-    "Tuberculosis": 2,
-    "Food Poisoning": 4
+    "HFMD": 16,
+    "COVID-19": 6,
+    "Japanese Encephalitis": 1,
+    "感染症 (未特定)": 20,
+    "Measles": 1,
+    "Tuberculosis": 1,
+    "Avian Influenza": 1,
+    "Hepatitis": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_1b778a0b95e91a97",
+      "headline": "ウクライナ西部のホテルで集団食中毒が発生、検察が捜査 - Межа. Новини України.",
+      "headlineTranslated": "Mass food poisoning outbreak at hotel in western Ukraine, prosecutors investigate - Межа. Новини України.",
+      "headlineJa": "ウクライナ西部のホテルで集団食中毒が発生、検察が捜査 - Межа. Новини України.",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T15:20:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GSi1nb0hQR0cxVjNjc0duSXpfZEVMTUJBNlVLUU9ZRW05UEJUZ2tkclVta3N3YjFPaGVYcXRfVVlCbV83RzlMU2l2VXgwU0duTkVyZVBfZG9qUzBuSzY2RzZMQnZ5eGpVUk9ucWhoNWJ5TlU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Межа. Новини України."
+    },
+    {
+      "articleId": "gnews_f7c0adea0d4f42d9",
+      "headline": "【速報】居酒屋で集団食中毒 刺身などを食べた男女12人に下痢や嘔吐の症状 従業員からノロウイルス検出 営業禁止命令処分 静岡・焼津市 - Excite エキサイト",
+      "headlineTranslated": "[Breaking News] Mass food poisoning at an izakaya; 12 men and women who ate sashimi showed symptoms of diarrhea and vomiting; norovirus detected in employees; business ban ordered; Yaizu City, Shizuoka - Excite Excite",
+      "headlineJa": "【速報】居酒屋で集団食中毒 刺身などを食べた男女12人に下痢や嘔吐の症状 従業員からノロウイルス検出 営業禁止命令処分 静岡・焼津市 - Excite エキサイト",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T15:18:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90cXo3dWRlOV9IcXRUdkJQRUJsUUhnY1JwUWQ5RXJnRFdZLWg0X0QzaExKRmZCVTl2MlQxT3RxakVWTVFIOUJ2TVgzVXNXZzRSbzNfS1gxOEZpcTBwWGhReGhiUWVsdF9SU0FzTlEtOA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "三重県",
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Excite エキサイト"
+    },
+    {
+      "articleId": "gnews_4511424ce1c35e19",
+      "headline": "特効薬なし…乳幼児に多い「手足口病」流行 小学生の感染や“脳炎”のケースも、防ぐ方法とは (オトナンサー) - Yahoo!ニュース",
+      "headlineTranslated": "There is no specific drug...The ``hand, foot, and mouth disease'' epidemic that is common among infants and young children.How to prevent infection and cases of ``encephalitis'' among elementary school students (Otonancer) - Yahoo! News",
+      "headlineJa": "特効薬なし…乳幼児に多い「手足口病」流行 小学生の感染や“脳炎”のケースも、防ぐ方法とは (オトナンサー) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T13:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPanZmQm93ZUtRalNPVXlMS0NoUmFlcHZzdTBOSmVUSlk5QlUxd1hrRDlRazliMV9MMXhwQXBqd3I5V3ZqN3J5VzJZc3BVWGFKUzVBYWhfQ3NaeUFRSXpuVHFzR1l0cndwV0NkMFlJUm03S1NobXlqV2Rfc0w0WHNBSnFnYjZRdmU4d2RXSThR?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_b8ea0864da48fccf",
+      "headline": "特効薬なし…乳幼児に多い「手足口病」流行 小学生の感染や“脳炎”のケースも、防ぐ方法とは - オトナンサー",
+      "headlineTranslated": "There is no specific drug... \"Hand-foot-and-mouth disease\" is prevalent in infants. How to prevent infections and \"encephalitis\" cases among elementary school students - Otonancer",
+      "headlineJa": "特効薬なし…乳幼児に多い「手足口病」流行 小学生の感染や“脳炎”のケースも、防ぐ方法とは - オトナンサー",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T13:03:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE93VWN4TndtUWFrbkJCQ2dJdXpWeXYzeVZuRkRxMEt0Sy1sU3pHcXNFS09oQWd6VC04YU9id0RGZGxEcFFkOHlEWmFn?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "オトナンサー"
+    },
+    {
+      "articleId": "gnews_206c5098ed5675e3",
+      "headline": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 - Yahoo!ニュース",
+      "headlineTranslated": "``Hand, foot and mouth disease'' outbreak for the first time in two years, alert level in 15 prefectures... Expert: ``It is likely to continue until autumn'' - Yahoo! News",
+      "headlineJa": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T12:27:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16WnU2TF9hRXNxczUyNmgwc1J5S2tqeThSaUNlTkZnU2stZGVTbHlRem1sRUh5VEFLT1ZwcGVVdlhrR05fR194TmsxbWFyc2t1?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_44618ebe6e85b3a1",
+      "headline": "川崎市が手足口病の流行発生警報発令、2年ぶり 乳幼児中心、手洗いの励行呼びかけ - Excite エキサイト",
+      "headlineTranslated": "Kawasaki City issues outbreak alert for hand-foot-and-mouth disease for the first time in two years, calling on infants and young children to wash their hands - Excite",
+      "headlineJa": "川崎市が手足口病の流行発生警報発令、2年ぶり 乳幼児中心、手洗いの励行呼びかけ - Excite エキサイト",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T11:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sTjVoc2NSVGcwcFRlTDNZN0dCNkx4S1JLM0JTd3dWazlCalVhSkVOM185a05WSU5SSFJnRHN3VlFvV3I1VlkyMHlneXFxRkFlWk1MN25TOXNLdzU5Z1pEQkUyTUdJNnFVM0hrWG5hSE92UlYw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "神奈川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Excite エキサイト"
+    },
+    {
+      "articleId": "gnews_044e02cd0bf4c0ff",
+      "headline": "川崎市が手足口病の流行発生警報 ２年ぶりに発令、手洗いの励行呼びかけ - カナロコ",
+      "headlineTranslated": "Kawasaki City issues outbreak warning for hand-foot-and-mouth disease for the first time in two years, urging people to wash their hands - Kanaroko",
+      "headlineJa": "川崎市が手足口病の流行発生警報 ２年ぶりに発令、手洗いの励行呼びかけ - カナロコ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T11:32:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mdVpLeVlOYmZCMWxQNjV5X21EVGFtcGpvdWVxYnpPcTVaM2Y5N1BuMlVpaUNZd2NfcnNlMkhpb05BS2NTbGFrY3F4ZHlBblVFTG9qa3VLV2I2M2lFSHJ0a2ZRNDMwRHVsRWR1bg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "神奈川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "カナロコ"
+    },
+    {
+      "articleId": "gnews_d22728317da844e0",
+      "headline": "川崎市が手足口病の流行発生警報発令、2年ぶり 乳幼児中心、手洗いの励行呼びかけ - 47NEWS",
+      "headlineTranslated": "Kawasaki City issues outbreak warning for hand-foot-and-mouth disease for the first time in two years, with a focus on infants and young children, urging people to wash their hands - 47NEWS",
+      "headlineJa": "川崎市が手足口病の流行発生警報発令、2年ぶり 乳幼児中心、手洗いの励行呼びかけ - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T11:32:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DQWoxMzZLX0NQQnNUcXJGbS1MWFZ4VlUzTzRSaWxWNWN6RkhZcE50bVpSeWUtbG03VVRlbUxkcGxMdl95bXJMVV96OA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "神奈川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
+      "articleId": "gnews_e49c4d5d8ea1f9e1",
+      "headline": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 (読売新聞オンライン) - Yahoo!ニュース",
+      "headlineTranslated": "``Hand-foot-and-mouth disease'' outbreak for the first time in two years, alert level in 15 prefectures... Expert: ``It is likely to continue until autumn'' (Yomiuri Shimbun Online) - Yahoo! News",
+      "headlineJa": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 (読売新聞オンライン) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T10:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHB2d3A2d1ozd1A2ZklYSEFWNkdQemJJMFFiQ09EUXZJWU94QVdKcGEzT1I1VTRaSnJGQUpvT1hFeGQ4dFVEOURBQ3lrMWZWODlkQ3lham80V19qU1o0TTNOR0NBMWVqci1ZWkNZVDVCcFZxd1ZsNmszZy1fa0t0eFZROHdRVWNVV3Y0cU9B?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_9dd1408b707df023",
+      "headline": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 - 読売新聞",
+      "headlineTranslated": "``Hand-foot-and-mouth disease'' outbreak for the first time in two years, alert level in 15 prefectures... Expert: ``It is likely to continue until autumn'' - Yomiuri Shimbun",
+      "headlineJa": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 - 読売新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T10:26:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVOU1kMEdyU1RiWjctNXEzQ18wdDlER3pDTktiZGFzelJDWE9RNFBlRlZqWncybDZEZUFGMmdQOGs1eGpSZkltOFF6RVZnd3U0bGVUcGZuVmhWUnV6S2FyOWJOSFg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "読売新聞"
+    },
+    {
+      "articleId": "gnews_1d26fe344ca58dda",
+      "headline": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 - ｄメニューニュース",
+      "headlineTranslated": "``Hand, foot and mouth disease'' outbreak for the first time in two years, alert level in 15 prefectures... Expert ``It is likely to continue until autumn'' - dmenu News",
+      "headlineJa": "「手足口病」が２年ぶりの流行、１５都県で警報レベル…専門家「秋まで続く可能性」 - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T10:26:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVUx5LTU0RU5sN2gteDd3WDhScV9UaktZRmR3QVQ4WW9yTXhubHdkYWtsQThobVUyTWZldnVITk1vNzV3Ykp4dmRzUHd3QW1GMzJaX09XVzRGNENVRW56b2gwZFJsMFFfZERTWFZEWVlaMy1MaWhZRUE1d3g1dHdSRVoxdjNPaUMtbVHSAYoBQVVfeXFMTlVMeS01NEVObDdoLXg3d1g4UnFfVGpLWUZkd0FUOFlvck14bmx3ZGFrbEE4aG1VMk1mZXZ1SE5Nbzc1d2JKeHZkc1B3d0FtRjMyWl9PV1c0RjRDVUVuem9oMGRSbDBRX2REU1hWRFlZWjMtTGloWUVBNXd4NXR3UkVaMXYzT2lDLW1R?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_765c23fbfc11b379",
+      "headline": "【咳嗽・喀痰の診療ガイドライン2025】原因疾患としてのCOVID-19を含めた感染症疾患［ガイドライン・インフォメーション］ - 日本医事新報社",
+      "headlineTranslated": "[Cough and sputum treatment guidelines 2025] Infectious diseases including COVID-19 as a causative disease [Guidelines/Information] - Nippon Medical Shinposha",
+      "headlineJa": "【咳嗽・喀痰の診療ガイドライン2025】原因疾患としてのCOVID-19を含めた感染症疾患［ガイドライン・インフォメーション］ - 日本医事新報社",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T10:24:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83SDFzWHBCVUdXMnRPb3dPS2ZjQUlRMFF1WFd0OGtSVmozbkNjQ0taQkw0MWt5UEFKNGhQUl8zQ0I5X0lmUFA5MmFCQWJCLVBnXzl2WG9UT19tek0zTkQtUA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "日本医事新報社"
+    },
+    {
+      "articleId": "gnews_8e13fa7c7eaf3b88",
+      "headline": "厚生労働省は、日本脳炎をはじめとするいくつかの疾患をB群感染症のリストに追加した。 - Vietnam.vn",
+      "headlineTranslated": "The Ministry of Health, Labor and Welfare has added several diseases, including Japanese encephalitis, to the list of group B infectious diseases. - Vietnam.vn",
+      "headlineJa": "厚生労働省は、日本脳炎をはじめとするいくつかの疾患をB群感染症のリストに追加した。 - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T09:29:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWktHZE14cmNxN05JTkRqRG9PWlpJSFZuajZZNUpkQ3dfc3hZVklFVWdyeVlzZ2pGaUJZanE2MDFVZ3FpNTRxM0VHLVQzamtSQ0pjdVdJYmRQcFlhNkdvUFNGRl82Y1NGOWpmTC1EOGlWa1llbUZnUTlubTV1dWItbUlTcHo5YU5rNTlWcTNhcmJvbFRzVXEtRl9NRmFlNGJEOHgwM3h2MGRGdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Japanese Encephalitis"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_de406085d7bc8dcc",
+      "headline": "手足口病が流行中！ - city.nishitokyo.lg.jp",
+      "headlineTranslated": "Hand, foot and mouth disease is on the rise! - city.nishitokyo.lg.jp",
+      "headlineJa": "手足口病が流行中！ - city.nishitokyo.lg.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T09:19:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQnlRUTRXZ1cyTkdjaXZNTGtZaEd0ZU9BZzZfOERWVHpTMGI5eXhPX0lUdEU1QWM2U250amdpd1ROalZ6UEtyQmxBd0VtTjhjTjFSV2FpZE04TXZveWdSLXNMTVRDNDk0OXJKaVd6UWRDamhUWWw2Z2J2enZlWmpnSEx4a0ZsbFdoNXEyNk1iUGVlaGpGTmtlMDRtSXdBUQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "city.nishitokyo.lg.jp"
+    },
+    {
+      "articleId": "gnews_677688c57a22e460",
+      "headline": "2026神奈川県 手足口病情報（1）26週｜神奈川県衛生研究所 - pref.kanagawa.jp",
+      "headlineTranslated": "2026 Kanagawa Prefecture Hand, Foot and Mouth Disease Information (1) 26 weeks | Kanagawa Prefectural Institute of Health - pref.kanagawa.jp",
+      "headlineJa": "2026神奈川県 手足口病情報（1）26週｜神奈川県衛生研究所 - pref.kanagawa.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T08:04:49+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQnpDeEx6TWxHNHU3YlBFTXZKbTFBZXZYRW5fQkM1cjFCZjZiNW5QcGYyeUl4b2ZPMkRWQlY3SEhFc2FGeXJVc0JRbGQ2MldTVjRVTktBbVRBWG9VTjVWQ01kUWRTY0NZN1F4eXlfbnlLVktTMWExY2kxT1c0Zk50MjFqYkNlSGpBb0xhM013NA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "神奈川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "pref.kanagawa.jp"
+    },
+    {
+      "articleId": "gnews_8012d15d0bbf793c",
+      "headline": "Japan’s Health Ministry Eyes Designating New Hubs to Treat Ebola, Other Severe Disease Cases to Strengthen Medical Care System - The Japan News",
+      "headlineTranslated": "",
+      "headlineJa": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T07:10:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoX1FjNnEwYzlfQ2JzbjBuQkRQRkJycXI1MklZQXJIWFRIVmxiU21Sd3hLXzJieEMxMWpBbVlabWJsbnhmUDMySWFJSE84ZjJ5c3dCRkptaVRoM00wbHV0UHpqNUViUUo1ZVN2Q1FvOWdQOF9NQV9GQg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Japan News"
+    },
+    {
+      "articleId": "gnews_8fae4a1fd9ff17a3",
+      "headline": "米国は、過去35年間で最悪の麻疹流行に見舞われる危険性に直面している。 - Vietnam.vn",
+      "headlineTranslated": "The United States is at risk of experiencing the worst measles outbreak in 35 years. - Vietnam.vn",
+      "headlineJa": "米国は、過去35年間で最悪の麻疹流行に見舞われる危険性に直面している。 - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T06:58:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVWFEbXAzWExpeVp1MktCY3daaU5NWjR0SnVtT2RuYkptak9QZ3NHX0FjME1tREwxYmh1cUtXdXdpY19pV0dJT1BTVE5EMVo4YkdkTmJYbmd5cmJ1YVpHV0VGTUdLdjFRODNvRE81dktJb291cUYxQzJEa2JoV25XZ0wxWUQ3RklCTWF3dUY5cw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_5ffc7b228399a6c2",
+      "headline": "【速報】居酒屋で集団食中毒 刺身などを食べた男女12人に下痢や嘔吐の症状 従業員からノロウイルス検出 営業禁止命令処分 静岡・焼津市（静岡朝日テレビ） - Yahoo!ニュース",
+      "headlineTranslated": "[Breaking News] Mass food poisoning at an izakaya; 12 men and women who ate sashimi showed symptoms of diarrhea and vomiting; norovirus detected in employees; business ban ordered; Yaizu City, Shizuoka (Shizuoka Asahi TV) - Yahoo! News",
+      "headlineJa": "【速報】居酒屋で集団食中毒 刺身などを食べた男女12人に下痢や嘔吐の症状 従業員からノロウイルス検出 営業禁止命令処分 静岡・焼津市（静岡朝日テレビ） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T06:57:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EVlZaZ1g3RVc5WXgxcTF0ejVDS0podVVIQkNBUC04M1NScXFyQjZXNVRkZy0xVEJ6V1RrXzFxV2E0UFVkeGVOcHJ3d0hIeUQ5RGplRXZKN0s3SGhxdFJuTlhTcVBkUk9zWkR6bU1tcTJpeU1VMFRSeFFSalpXSnM?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "三重県",
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_5c40698c53be70a4",
+      "headline": "【速報】居酒屋で集団食中毒 刺身などを食べた男女12人に下痢や嘔吐の症状 従業員からノロウイルス検出 営業禁止命令処分 静岡・焼津市 (静岡朝日テレビ) - Yahoo!ニュース",
+      "headlineTranslated": "[Breaking News] Mass food poisoning at an izakaya; 12 men and women who ate sashimi showed symptoms of diarrhea and vomiting; norovirus detected in employees; business ban ordered; Shizuoka/Yaizu City (Shizuoka Asahi TV) - Yahoo! News",
+      "headlineJa": "【速報】居酒屋で集団食中毒 刺身などを食べた男女12人に下痢や嘔吐の症状 従業員からノロウイルス検出 営業禁止命令処分 静岡・焼津市 (静岡朝日テレビ) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T06:57:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUzBIbzhfNjZHNzBlUmxjZXpDNGFhUTdQODFxa2RkRWtIdHlUTVhJRDVLcmlYNmEwWGtUblUxQ21QT1JjZm5jblZJNFJjaEJlWFpFWFNhR2diR3RnN3JUWktmXy1zcGdEQ2FVTEt6bFkyZXUyWlowbGVaX05HLTgtdlRYTEhYZHRzYnZWN1JB?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "三重県",
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_b350cf15205e27f0",
+      "headline": "【食中毒】焼津市内の居酒屋で食事した男女客12人が下痢･おう吐症状…ノロウイルスによる食中毒と発表（静岡県中部保健所） - ｄメニューニュース",
+      "headlineTranslated": "[Food poisoning] 12 male and female customers who ate at an izakaya in Yaizu city showed symptoms of diarrhea and vomiting... food poisoning caused by norovirus announced (Shizuoka Prefecture Chubu Public Health Center) - d Menu News",
+      "headlineJa": "【食中毒】焼津市内の居酒屋で食事した男女客12人が下痢･おう吐症状…ノロウイルスによる食中毒と発表（静岡県中部保健所） - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T06:54:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNajNhQXVGcWZia1Z5YmxKZm9qeHgzUktvdldrTU1FdzloSHpycmJJdUNxdTMyYl9Ja25PYnJtbjI4NkxLeDRnQ1hTVzczcmVGaVBlWWRiLURMa25pazQtRzZOUjdNWGxORWhyZWhJR3JkOTJvdmRrdTNmRkFoaWpxMdIBhgFBVV95cUxPRHQwSGJOb2N3S3c4U2RMenRhYmZidVA2TGV3YlFhWGdMajljOWdQZmMzNzdTa0VIOUxVOFpCclBVaTc3dHhYU2VpZkwzbDNJQkxKLTZhRFhlbzBfT1dIaXBrMHV1bExMMFRCZzNyWktYZlNpWVpQc3VsTkRvRVFLMkY0Y0ctUQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Norovirus",
+        "Food Poisoning"
+      ],
+      "locations": [],
+      "states": [
+        "三重県",
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_d5fa99f84cc1c38c",
+      "headline": "手足口病の「警報レベル」は首都圏含む15都県 島根は警報基準値の4倍に JIHS - 医療介護CBnews",
+      "headlineTranslated": "The \"warning level\" for hand, foot and mouth disease in 15 prefectures including the Tokyo metropolitan area, Shimane is four times the warning standard JIHS - Medical Care CBnews",
+      "headlineJa": "手足口病の「警報レベル」は首都圏含む15都県 島根は警報基準値の4倍に JIHS - 医療介護CBnews",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T05:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YM3VDOFJLbHczbWtJR212bk9JdjA0WWE4eDhLdHhIZURmd0ZWSi05WDJ0TUFhVW9ORzZ5MTBiNk9ITWpRU1NZSzVqTTlfSFhJLUpKX280QUxTR1k?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "島根県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "医療介護CBnews"
+    },
+    {
+      "articleId": "gnews_b709530c241766f4",
+      "headline": "ご臨席（日本感染症学会創立100周年記念式典）（東京国際フォーラム（千代田区）） - kunaicho.go.jp",
+      "headlineTranslated": "Present (Celebration commemorating the 100th anniversary of the founding of the Japanese Society of Infectious Diseases) (Tokyo International Forum (Chiyoda Ward)) - kunaicho.go.jp",
+      "headlineJa": "ご臨席（日本感染症学会創立100周年記念式典）（東京国際フォーラム（千代田区）） - kunaicho.go.jp",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T02:20:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdkVEa2JlMVJSSktTRGZhTmVXaVpmRWdNdWJSUllTRjNyZHRFeVRSQUZna1QwTFZNVi1tenRPNy15dUNqenBzMmpjVHBvNG12YUoxaEMxVktkUzRRZ2hud1gtVkhlc0tONnppV0d2RHdhOUlrNHMwTkozZ3ZqS25mSDB3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "東京都"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "kunaicho.go.jp"
+    },
+    {
+      "articleId": "gnews_f7ce04741bb9e07d",
+      "headline": "結核治療薬市場の最新展望：2035年までに47億米ドル規模へ拡大、CAGR 9.55％で革新治療・新薬開発が加速 - アットプレス",
+      "headlineTranslated": "Latest outlook for tuberculosis drug market: Expansion to USD 4.7 billion by 2035, innovative treatments and new drug development accelerating at a CAGR of 9.55% - AtPress",
+      "headlineJa": "結核治療薬市場の最新展望：2035年までに47億米ドル規模へ拡大、CAGR 9.55％で革新治療・新薬開発が加速 - アットプレス",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-07T02:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16QXA3ajJUQmtibW5XbGI3Qnl6OFdLc291QUxvRGVncDh6dTdUb2dael9XMlU3ckxkRV9NUkpYRjJVZHZCV3JQbDZmampRRjQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "アットプレス"
+    },
+    {
+      "articleId": "gnews_dc0e0b82910d5421",
+      "headline": "【独自】福岡市がコロナワクチン接種助成引き上げへ 自己負担8千円程度に - au Webポータル",
+      "headlineTranslated": "[Unique] Fukuoka City increases subsidies for coronavirus vaccinations to around 8,000 yen - au Web Portal",
+      "headlineJa": "【独自】福岡市がコロナワクチン接種助成引き上げへ 自己負担8千円程度に - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-06T22:29:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XRXhNeEJRSzFXOGxOU2FvOTRKUm1YWi1TU2ROUENLaDBUSEF5aF83QVhOZHUzOUkzOTNwelROZjFlZ3JMYzhKMTctd2pZWjVzektoc19KQWoyVFIzV1RxMlI2bXBGRlNycGlEZVJrY0FVNS02M2htR0xNRQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_f152ada5c74979e4",
+      "headline": "千頭を選択的殺処分 豚熱感染で静岡の養豚場｜朝刊・夕刊ニュース｜下野新聞デジタル - 下野新聞社",
+      "headlineTranslated": "Selective culling of 1,000 pigs at Shizuoka pig farm due to swine fever | Morning/evening news | Shimono Shimbun Digital - Shimono Shimbun",
+      "headlineJa": "千頭を選択的殺処分 豚熱感染で静岡の養豚場｜朝刊・夕刊ニュース｜下野新聞デジタル - 下野新聞社",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-06T21:18:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LVHQ1MjEwZmlWQV9HS1hOdVMybVZlR3hqWTJIbkxjaGwwQVF4cDhrbGtyTEhVVGxnVzJzVmJsSlZPRXU5dFdXbkd5dWlJYzdMU1VUa3R4STU4aUE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "下野新聞社"
+    },
+    {
+      "articleId": "gnews_20c9fa9beb25460a",
+      "headline": "【独自】福岡市がコロナワクチン接種助成引き上げへ 自己負担8千円程度に - 47NEWS",
+      "headlineTranslated": "[Unique] Fukuoka City to raise subsidies for coronavirus vaccinations to around 8,000 yen - 47NEWS",
+      "headlineJa": "【独自】福岡市がコロナワクチン接種助成引き上げへ 自己負担8千円程度に - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-06T21:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvXzFSWWtnTXNMS0hvUlZ2Yk5ZYlNSVlI2X01aV0JROGdfWktZWmdwWlpOODY4cDJhY2V0ZWdLMHg3bzBFNzlUVUlCdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
     {
       "articleId": "gnews_75e93315d6816074",
       "headline": "2026年3月の健保組合医療費、コロナ影響が出始めた2020年3月比で7.0％増、影響が深刻な21年3月比で17.6％増—健保連 - GemMed",
@@ -72,9 +600,29 @@
       "sourceName": "日本農業新聞"
     },
     {
+      "articleId": "gnews_59272aeca3483006",
+      "headline": "乳幼児に手足口病が流行／「育児短歌」親世代に人気【子育て応援！役立つ記事インデックス】（6月30日～7月6日） - 北日本新聞webunプラス",
+      "headlineTranslated": "Hand, foot and mouth disease is prevalent among infants/Childcare Tanka is popular among parents [Childcare support! Useful Article Index] (June 30th to July 6th) - Kitanihon Shimbun Webun Plus",
+      "headlineJa": "乳幼児に手足口病が流行／「育児短歌」親世代に人気【子育て応援！役立つ記事インデックス】（6月30日～7月6日） - 北日本新聞webunプラス",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-06T20:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1JWS16QlpBdXhDRldDZUJrZWJHMFJxYzBmNFlONE9qNlhielJoUF96aEh6UW5IbHg5MzY1Zk1URWRWdm9IOEpVbGduTQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "北日本新聞webunプラス"
+    },
+    {
       "articleId": "gnews_7f835b664039fa83",
       "headline": "手足口病、流行 都内で2年ぶり警報基準超える 都が感染予防のポイント説明「徹底をお願いします」 - 福井新聞社",
-      "headlineTranslated": "Hand, foot and mouth disease outbreak exceeds warning standard for first time in 2 years in Tokyo; metropolitan government explains key points for infection prevention: ``Please be thorough'' - Fukui Shimbun",
+      "headlineTranslated": "Hand, foot and mouth disease outbreak exceeds warning standards for first time in two years; Tokyo Metropolitan Government explains key points for infection prevention: ``Please be thorough'' - Fukui Shimbun",
       "headlineJa": "手足口病、流行 都内で2年ぶり警報基準超える 都が感染予防のポイント説明「徹底をお願いします」 - 福井新聞社",
       "summary": "",
       "summaryOriginal": "",
@@ -90,66 +638,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "福井新聞社"
-    },
-    {
-      "articleId": "gnews_7aa145687d313584",
-      "headline": "インフル流行、下水で監視 型別に１週間早く予測 - 47NEWS",
-      "headlineTranslated": "Influenza outbreak monitored in sewage, predicted one week early by type - 47NEWS",
-      "headlineJa": "インフル流行、下水で監視 型別に１週間早く予測 - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-06T15:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB4RTh1NjhqV05IeE1HaEFtMlJIbU1xUnktS05SNVRoRkJfQ2NlV1hDRVVsSU9NcXJNdTJ6WHZlMTAxdWNnOVQzbzJTbw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
-      "articleId": "gnews_155ddad6cb564722",
-      "headline": "新型コロナウイルス感染症に対するmRNAワクチンに関する結論の発表。 - Vietnam.vn",
-      "headlineTranslated": "Announcement of conclusions regarding mRNA vaccines against the new coronavirus infection. - Vietnam.vn",
-      "headlineJa": "新型コロナウイルス感染症に対するmRNAワクチンに関する結論の発表。 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-06T14:17:51+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zSHdvVUtCNnpwREs4ZGp3WmRVMUoydXY1R0tYMGlCenZ4U3g3WTEzMTVYRzRfYW50LVQtOVNYU1FlS3VEWnNRdWthd2VCSENUVWJSa01kZjFnMU12Rld2Y3N0Q0N0NTBsOExPZ1otaW5mRWQ0SVlRbWhRWTc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_f44bce815614d973",
-      "headline": "人工知能によって設計されたワクチンが、初めて人体での臨床試験にかけられている。 - Vietnam.vn",
-      "headlineTranslated": "A vaccine designed using artificial intelligence is undergoing human clinical trials for the first time. - Vietnam.vn",
-      "headlineJa": "人工知能によって設計されたワクチンが、初めて人体での臨床試験にかけられている。 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-06T07:01:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeVh3d3lSTl91MkMzcTV2WjhUTzRZNkY5OC1KZ0t3UUpsY2dmQnNKbGJtczluMEdyLVFxZDNzVXFLaFlnZF82SUxUT1RGVS1ZQXUxRHlyeFNqTUduQlFOeG0wTkM4TnQxQW1ON3paUFJSWndwaHpUMW9SWERfRUJyeWdXSURoQ29QblhmUXlLLWQyMzhteHpqWGI0cVpNdWVuN0pONW0tN1Q3Zw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
     },
     {
       "articleId": "gnews_021f68ba156caf95",
@@ -192,6 +680,26 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
+      "articleId": "gnews_e0efec77f70f5af3",
+      "headline": "【速報】静岡県、豚熱感染の約千頭を選択的殺処分 - 47NEWS",
+      "headlineTranslated": "[Breaking News] Shizuoka Prefecture selectively culles approximately 1,000 animals infected with swine fever - 47NEWS",
+      "headlineJa": "【速報】静岡県、豚熱感染の約千頭を選択的殺処分 - 47NEWS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-06T06:38:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0eDJDQ0tCOWF3bFpaVDFodVRiOXNTcGM5OEprSFZSRDBleTNOZkFpV0VXMHllektNb3F4a1BuRWFrSkl1aE1JVkw5WQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "47NEWS"
+    },
+    {
       "articleId": "gnews_1e32ccf82c31749f",
       "headline": "静岡県、豚熱感染の約千頭を選択的殺処分 - 沖縄タイムス社",
       "headlineTranslated": "Shizuoka Prefecture selectively culles approximately 1,000 pigs infected with swine fever - Okinawa Times",
@@ -213,26 +721,6 @@
       "sourceName": "沖縄タイムス社"
     },
     {
-      "articleId": "gnews_e0efec77f70f5af3",
-      "headline": "【速報】静岡県、豚熱感染の約千頭を選択的殺処分 - 47NEWS",
-      "headlineTranslated": "[Breaking News] Shizuoka Prefecture selectively culles approximately 1,000 animals infected with swine fever - 47NEWS",
-      "headlineJa": "【速報】静岡県、豚熱感染の約千頭を選択的殺処分 - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-06T06:38:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0eDJDQ0tCOWF3bFpaVDFodVRiOXNTcGM5OEprSFZSRDBleTNOZkFpV0VXMHllektNb3F4a1BuRWFrSkl1aE1JVkw5WQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
-    },
-    {
       "articleId": "gnews_b992f8cffdec324b",
       "headline": "静岡県、豚熱感染の約千頭を選択的殺処分 - 京都新聞デジタル",
       "headlineTranslated": "Shizuoka Prefecture selectively culles approximately 1,000 animals infected with swine fever - Kyoto Shimbun Digital",
@@ -247,8 +735,8 @@
       ],
       "locations": [],
       "states": [
-        "京都府",
-        "静岡県"
+        "静岡県",
+        "京都府"
       ],
       "dataSource": "Google News",
       "sourceName": "京都新聞デジタル"
@@ -315,26 +803,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_9ff5d5558956f775",
-      "headline": "コロナ後遺症による熟眠障害と多夢が徐々に改善した一例｜中田和宏 - mbp-japan.com",
-      "headlineTranslated": "An example of gradual improvement in deep sleep disorder and frequent dreams due to the after-effects of the coronavirus | Kazuhiro Nakata - mbp-japan.com",
-      "headlineJa": "コロナ後遺症による熟眠障害と多夢が徐々に改善した一例｜中田和宏 - mbp-japan.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-06T02:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FX2xIckIwa2JKNlVaWUdtWWd0TjZoTTZURmM4cGVQVVlCeXdxVGxmWXFDeEpzSk04TUZkSURKZkx3ZnlUMXdSWXFRaDB0YW84X01NQzlPRXkyLTFnaUhZbzI1NEliTDl0?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "mbp-japan.com"
-    },
-    {
       "articleId": "gnews_0500d138756bf63e",
       "headline": "手足口病が2年ぶり警報レベル「子どもの病気」は夏に流行、大人も注意 #エキスパートトピ（なかのかおり） - エキスパート - Yahoo!ニュース",
       "headlineTranslated": "Hand, foot and mouth disease reaches alarm level for the first time in 2 years as a ``children's disease'' will be prevalent in the summer, adults also need to be careful #Expert Topic (Kaori Naka) - Expert - Yahoo! News",
@@ -357,7 +825,7 @@
     {
       "articleId": "gnews_b9e069992ba0131d",
       "headline": "新型コロナに有効とされた「アビガン」調査 全面黒塗りの公開拒否から一転、情報の開示命令 事の顛末は… - 東京新聞デジタル",
-      "headlineTranslated": "Investigation of ``Avigan'', which was said to be effective against the new coronavirus, changed from a complete blackout refusal to release to an order to disclose information.What happened... - Tokyo Shimbun Digital",
+      "headlineTranslated": "Investigation of ``Avigan'', which was said to be effective against the new coronavirus, changed from a complete denial of publication to an order to disclose information.What happened... - Tokyo Shimbun Digital",
       "headlineJa": "新型コロナに有効とされた「アビガン」調査 全面黒塗りの公開拒否から一転、情報の開示命令 事の顛末は… - 東京新聞デジタル",
       "summary": "",
       "summaryOriginal": "",
@@ -409,8 +877,8 @@
       ],
       "locations": [],
       "states": [
-        "静岡県",
-        "岐阜県"
+        "岐阜県",
+        "静岡県"
       ],
       "dataSource": "Google News",
       "sourceName": "岐阜新聞デジタル"
@@ -438,32 +906,12 @@
     {
       "articleId": "gnews_38af0b3c34cd1fb9",
       "headline": "静岡・富士宮市の養豚場で豚熱の感染を確認 「選択的殺処分」を全国で初めて実施へ 静岡県 - Excite エキサイト",
-      "headlineTranslated": "Swine fever infection confirmed at a pig farm in Fujinomiya City, Shizuoka; \"selective culling\" to be carried out for the first time in the nation Shizuoka Prefecture - Excite",
+      "headlineTranslated": "Swine fever infection confirmed at a pig farm in Fujinomiya City, Shizuoka; \"selective culling\" to be carried out for the first time in the country Shizuoka Prefecture - Excite",
       "headlineJa": "静岡・富士宮市の養豚場で豚熱の感染を確認 「選択的殺処分」を全国で初めて実施へ 静岡県 - Excite エキサイト",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-07-05T15:06:00+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3bXpzRmJNakxhMHpYRE5ORFRNRklaSUs3MDk4MHRQODBnb1p4ejNYRjlLTXdQbnc3cEVtQURNM25sTXVLTEo2anlVUlFqU0dhQVpXLVVmczNjVk9LY2RFcXhtMjAtY1RjMDVUYm9EOA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Excite エキサイト"
-    },
-    {
-      "articleId": "gnews_01896424ad11952d",
-      "headline": "豚熱、静岡で初の選択的殺処分 法改正、未感染対象外に - Excite エキサイト",
-      "headlineTranslated": "Shizuoka's first selective culling of swine fever law revised to exclude uninfected subjects - Excite Excite",
-      "headlineJa": "豚熱、静岡で初の選択的殺処分 法改正、未感染対象外に - Excite エキサイト",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-05T14:17:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kYlNmZXp0MDNRaDdwY0JXT0poM3dQU0FFZnNBbjBjMXI4ZW81cWhEVUt4LU9EYjQxb1l3TFRDN25nRk9vc2lDVjFya2ZCM0RSWUxOaGpBME41Qk5qRVU0RW9LNk5zMzNXVUc0UVFIclQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "感染症 (未特定)"
@@ -498,7 +946,7 @@
     {
       "articleId": "gnews_9218f8cb314be3e6",
       "headline": "豚熱、静岡で初の選択的殺処分 法改正、未感染対象外に - NEWSjp",
-      "headlineTranslated": "First selective culling in Shizuoka due to swine fever, law revised to exclude uninfected subjects - NEWSjp",
+      "headlineTranslated": "Shizuoka's first selective culling of swine fever law revised, excluding uninfected subjects - NEWSjp",
       "headlineJa": "豚熱、静岡で初の選択的殺処分 法改正、未感染対象外に - NEWSjp",
       "summary": "",
       "summaryOriginal": "",
@@ -536,6 +984,26 @@
       "sourceName": "中日新聞Web"
     },
     {
+      "articleId": "gnews_6acc41486df56a34",
+      "headline": "銀座リプロ外科、梅雨・夏に注意したい足の感染症を調査 むくみを経験する女性の52％が「蜂窩織炎」を知らない - ｄメニューニュース",
+      "headlineTranslated": "Ginza Repro Surgery investigates foot infections to be careful of during the rainy season and summer 52% of women who experience swelling do not know about \"cellulitis\" - d Menu News",
+      "headlineJa": "銀座リプロ外科、梅雨・夏に注意したい足の感染症を調査 むくみを経験する女性の52％が「蜂窩織炎」を知らない - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-05T05:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfZldKMGtncmtja3MtX1ZicHlYUE9fX2c2Qko2bVlMWTlEWnpkbzNGa0RHZnJCVWxsbllKLVp1VGRLeG9uVXFLNTZuaG9NVjdkeUZ6WG5xcHdINkMxaXBxS2ljVmRhcGR4d3FlU1BNdlVBUVBvQkRIMDQ1LVl6SWfSAYQBQVVfeXFMUGo3NGMtMkdxMS1xQ1hnVWdzRjJINDNqYl9UUHNycHdXV1NYWTJPMFpZOUVybGlQVlVSOTYxdlJtNXRvdDdDazIyRU9jTjVxTWtLQWw2NUxTS3ZTWjItUlI0RDNzNU9VVGVJZHVFXzVORUlZSnVYbDZVOU5pbHB2amVGakRQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
       "articleId": "gnews_c8d7b87cd6bb6f8b",
       "headline": "「選択的殺処分」全国初適用へ 飼育頭数約1200頭中 殺処分は最大1000頭か 富士宮市の養豚場で豚熱感染（静岡） - TVer",
       "headlineTranslated": "\"Selective culling\" will be applied for the first time in the country Out of approximately 1,200 pigs, up to 1,000 may be culled Swine fever infection at Fujinomiya pig farm (Shizuoka) - TVer",
@@ -554,6 +1022,26 @@
       ],
       "dataSource": "Google News",
       "sourceName": "TVer"
+    },
+    {
+      "articleId": "gnews_2faa9bd54928aa93",
+      "headline": "健康ニュースをお届けする新しい一日：透析が必要になるかもしれない意外な理由。 - Vietnam.vn",
+      "headlineTranslated": "A new day of health news: Surprising reasons why you may need dialysis. - Vietnam.vn",
+      "headlineJa": "健康ニュースをお届けする新しい一日：透析が必要になるかもしれない意外な理由。 - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-05T03:20:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSnR4X3lMZ2ZEcDZjWVNQUkVVdFpUU0ROS093NHhCYy00dmZMUkRvd0h3NEpsQ3BsaG13eF95dzF4M2hObW5ORUR6eGMyRXdYNWtWUHpYRU1zSWZpcFZnaUZIU2lSYmZIU2phR0VodjBaN1dPcFlXbjN3ZTNrcy1jWk5ETzRYNnRVUVp6SEttRXJEeE9vVkd0cGFSdnJEODBKRlVTamRaSkVyYk9O?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
     },
     {
       "articleId": "gnews_f008a89bb59dbcdb",
@@ -594,571 +1082,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_f7cfcf2b38756d81",
-      "headline": "【医師解説】麻しん（はしか）が国内外で流行？わずかな予防接種率の低下が招く感染拡大の盲点 - 東京報道新聞",
-      "headlineTranslated": "[Doctor's commentary] Is measles an epidemic in Japan and abroad? A blind spot in the spread of infection caused by a slight decline in vaccination rates - Tokyo Press Newspaper",
-      "headlineJa": "【医師解説】麻しん（はしか）が国内外で流行？わずかな予防接種率の低下が招く感染拡大の盲点 - 東京報道新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-05T00:00:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sTmlHVnNvV296NUdaNjRuVGtpU0didmU2QWphSVUtU3BEcFBkQXBGb29PR2RMMVFJZ2d0azNTMHJGZkxkQjNvT0kxS2ZULWhWNE9F?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "東京報道新聞"
-    },
-    {
-      "articleId": "gnews_421a8f3f5b47aba2",
-      "headline": "クルーズ船でノロウイルス集団感染 アラスカ、カナダ巡る20日間の航海中 – Quebee キュエビー - QAB 琉球朝日放送",
-      "headlineTranslated": "Norovirus outbreak on cruise ship during 20-day voyage to Alaska and Canada – Quebee - QAB Ryukyu Asahi Broadcasting",
-      "headlineJa": "クルーズ船でノロウイルス集団感染 アラスカ、カナダ巡る20日間の航海中 – Quebee キュエビー - QAB 琉球朝日放送",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T14:55:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xNmdUbHdtTV9IU2RtV2RrQ0JDTW00R2kxSEd5OWJEUDg4SkFLcHBXZ0xpZFNkRGpnQ2xtaXRCQ3QtY1AxOGs0cTRCN19NbXJHNWs3a25TWDc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Norovirus"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "QAB 琉球朝日放送"
-    },
-    {
-      "articleId": "gnews_d70d92be89299926",
-      "headline": "また豚熱の感染確認…静岡県内で2026年に入り3例目 全国で初めて「選択的殺処分」実施へ 1200頭のうち1000頭ほどが対象か - Excite エキサイト",
-      "headlineTranslated": "Another swine fever infection confirmed... 3rd case in Shizuoka Prefecture in 2026; first in the country to carry out \"selective culling\"; approximately 1,000 of 1,200 pigs will be targeted - Excite Excite",
-      "headlineJa": "また豚熱の感染確認…静岡県内で2026年に入り3例目 全国で初めて「選択的殺処分」実施へ 1200頭のうち1000頭ほどが対象か - Excite エキサイト",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T12:25:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rRm9NZG1wX3FtdllqVW54ck13d2ZESkdmOHNNUTNTNjNUUEZXc2R5djJBWjJ4MkZPQ245QUdBX0p4SHZSZS1kWlJidlliY0c5OXVIenZnZzdDTkZzVmw0VFBpamZjaFdpc3ZuNDh3?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Excite エキサイト"
-    },
-    {
-      "articleId": "gnews_c4c513a3aded78b0",
-      "headline": "また豚熱の感染確認…静岡県内で2026年に入り3例目 全国で初めて「選択的殺処分」実施へ 1200頭のうち1000頭ほどが対象か - FNNプライムオンライン",
-      "headlineTranslated": "Another swine fever infection confirmed... 3rd case in Shizuoka Prefecture in 2026. First ``selective culling'' in the country to be carried out - Approximately 1,000 out of 1,200 pigs will be targeted - FNN Prime Online",
-      "headlineJa": "また豚熱の感染確認…静岡県内で2026年に入り3例目 全国で初めて「選択的殺処分」実施へ 1200頭のうち1000頭ほどが対象か - FNNプライムオンライン",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T11:55:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzcnZhTl91NUF6NWhZZHJEdzdzUzFreUJ6OGJQaGowdjlDTmhYQ2daNXBrS0RmU3F6ZE9DUDV3ZFRJR3hpdlRZbDZkcFRVUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "FNNプライムオンライン"
-    },
-    {
-      "articleId": "gnews_1cf3fcc57e67cbd6",
-      "headline": "富士宮市の養豚場で家畜伝染病「豚熱」の感染確認 最大約1000頭を処分へ 2026年で3例目=静岡県（静岡放送（SBS）） - Yahoo!ニュース",
-      "headlineTranslated": "Infection of livestock infectious disease \"swine fever\" confirmed at a pig farm in Fujinomiya City. Up to about 1,000 pigs to be culled Third case in 2026 = Shizuoka Prefecture (Shizuoka Broadcasting System (SBS)) - Yahoo! News",
-      "headlineJa": "富士宮市の養豚場で家畜伝染病「豚熱」の感染確認 最大約1000頭を処分へ 2026年で3例目=静岡県（静岡放送（SBS）） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T11:52:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3bVNuUVNqWVpGT0NTNXBjZldoemVTdTQteGRIZDlxRlMtbnJ4YWRGVnhpRDVYUnBOa2xyQzBPMlVQcjBDZjNNM2FuQmxyMTF1bFk2Sk0tVTN4T3JuYl9WSUdzR0k1SUY1UEFrNGxSNHR1TVpMSE5uUTljZlJlaGM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_80ab88bc68b3ec31",
-      "headline": "静岡の養豚場で豚熱確認 「選択的殺処分」初実施か - au Webポータル",
-      "headlineTranslated": "Swine fever confirmed at Shizuoka pig farm; first implementation of \"selective culling\" - au Web Portal",
-      "headlineJa": "静岡の養豚場で豚熱確認 「選択的殺処分」初実施か - au Webポータル",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T11:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PWWNDaFU4dzdtRUZPX1FtbUFBTmpYdTlPY2JKWHB5NGJLUThtdnhFUi1ya0g5Y2RrX3VNWGNYaDlMRlZpcm9oSHgzZzZDcVNLaHljeVBXLWRMTnFMZGpnVTlwd2Z3RFZMWFlnbnlmbmZGN2ttZU44VTYzTQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "au Webポータル"
-    },
-    {
-      "articleId": "gnews_e9b9127276ea71a8",
-      "headline": "富士宮市の養豚場で家畜伝染病「豚熱」の感染確認 最大約1000頭を処分へ 2026年で3例目＝静岡県 - TBS NEWS DIG",
-      "headlineTranslated": "Infection of livestock infectious disease \"swine fever\" confirmed at a pig farm in Fujinomiya City. Up to about 1,000 pigs to be culled Third case in 2026 = Shizuoka Prefecture - TBS NEWS DIG",
-      "headlineJa": "富士宮市の養豚場で家畜伝染病「豚熱」の感染確認 最大約1000頭を処分へ 2026年で3例目＝静岡県 - TBS NEWS DIG",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T10:03:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IMnduZlNxMFY3TDFvdnFodTY1cVlCWFIxREZaQ3EyTXBwLXdkQkprcXlQbmpFX0FCVVFDcHB5Z1ZLOWxpOXlNaFljUm5vMGZURG9ZR01peVJLUQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TBS NEWS DIG"
-    },
-    {
-      "articleId": "gnews_83f4ceebb01b357a",
-      "headline": "新たな豚熱確認 静岡県富士宮市の農場 殺処分などの防疫措置実施へ（テレビ静岡NEWS） - Yahoo!ニュース",
-      "headlineTranslated": "New case of swine fever confirmed; farm in Fujinomiya City, Shizuoka Prefecture to implement epidemic prevention measures such as culling (TV Shizuoka NEWS) - Yahoo! News",
-      "headlineJa": "新たな豚熱確認 静岡県富士宮市の農場 殺処分などの防疫措置実施へ（テレビ静岡NEWS） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T09:21:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GZUpGS2k4SjloRk1iYnMwLXJTSTlRYkMwR2pRM2EzMWVUYy16RTRkd1c5a2hydV9hYjYySjhjUDN6VDRkZFU3M3B1eF9lbTdUY1ZLdmh1bi14YURmZE1WRnpwal83YlZiUngxNV9NWGJpUnNLR3pNVmlQaXd3RFk?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "静岡県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_bfb587e46b00ff41",
-      "headline": "クルーズ船でノロウイルス集団感染 アラスカ、カナダ巡る20日間の航海中 - ABEMA",
-      "headlineTranslated": "Norovirus outbreak on cruise ship during 20-day voyage to Alaska and Canada - ABEMA",
-      "headlineJa": "クルーズ船でノロウイルス集団感染 アラスカ、カナダ巡る20日間の航海中 - ABEMA",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93emVoeHI5T290VEgtNzlUbGJ1X1c2c2xfMFZkWjJJRlFwZWFEQkdRc0JUcmp4R2twNkFscno4LTR3R3kxNS1hSF91Y1ZHN0RkbnNiLUl5ZmN4ak0?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Norovirus"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABEMA"
-    },
-    {
-      "articleId": "gnews_27fa98e46caba843",
-      "headline": "アメリカの豪華客船で、120人以上がノロウイルスに感染した。 - Vietnam.vn",
-      "headlineTranslated": "More than 120 people have been infected with norovirus on a luxury cruise ship in the United States. - Vietnam.vn",
-      "headlineJa": "アメリカの豪華客船で、120人以上がノロウイルスに感染した。 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T06:57:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcDJ5RWhBX3ZXVF9QamxheU5fRDd0Rk9Wb1MwV0QxYjQ2c0hHaURTTXg4bC1vSHhiRmhGaVJsLThOS0N3NlZidGxqN2FxaEd6dmYxTzdKdTRIa0tNV0VIRVVqRGdpSlc0WU9NWUMzZ0hUeklWWFdyUE1fVmc2MHJwQlotdFRILXVwWlZCMDdnc3JmRnNKcnktcjg0bw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Norovirus"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_5376ca2e9f4d7ef0",
-      "headline": "米国のクルーズ船でノロウイルスが発生し、120人以上が発症した。 - Vietnam.vn",
-      "headlineTranslated": "An outbreak of norovirus on a cruise ship in the United States has sickened more than 120 people. - Vietnam.vn",
-      "headlineJa": "米国のクルーズ船でノロウイルスが発生し、120人以上が発症した。 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T06:32:27+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcHFRMFVhTmlRQkg1SXFGMGJxMV8td0wwSTZBaUxVcG9mbTFvZnlWdWprNDc1ZWsxUzJQUklId2hLV25hRGg0cGphdWpLRS1Sb3dRSURieloyREYxX1VJWHQydWZiQUJyeXVQNXNhLTEwQlQzQTRrOTloUHItVUFhMmV1d3paNzJkX0hR?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Norovirus"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_fa3ef659cb10f569",
-      "headline": "ハイフォン市は、結核感染源の削減に努めている。 - Vietnam.vn",
-      "headlineTranslated": "Haiphong City is working to reduce sources of tuberculosis infection. - Vietnam.vn",
-      "headlineJa": "ハイフォン市は、結核感染源の削減に努めている。 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T03:41:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZNFo3SS1nTFptRkVqSmtFN2h2cFd6ajg3bXY2ZHh2NlIzQTRJLWtwX0pURTNWalZmU1p1YTVkdzlCUHF2d1ZrM085VzZrVDNianh3RjJkQndBWjZ2cHJ4TEk1a01PaDh4UWFFLUJvX1o3UGxnZVRsZg?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_e765472f255e98f6",
-      "headline": "県内の最新ニュース - テレビ愛媛",
-      "headlineTranslated": "Latest news in the prefecture - TV Ehime",
-      "headlineJa": "県内の最新ニュース - テレビ愛媛",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T03:08:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VQlk4cWMyM1BFRlI0R2xRbWpPd0hzQjZzRmRRUjJMbFpTaVJoRkotWXkzbnU4TFNLbU5GNGYtaVNGZGlfcm9uNzZhOXRHQlg0SFl6U2ZWNjFiWWNEWTVTNzhB?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "愛媛県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "テレビ愛媛"
-    },
-    {
-      "articleId": "gnews_af6f3da4037ba880",
-      "headline": "カプセルトイ専門店 新店続々 全国で流行、岡山でも増加中 - 山陽新聞",
-      "headlineTranslated": "Capsule toy specialty store new stores are trending all over the country, and the number is increasing in Okayama - Sanyo Shimbun",
-      "headlineJa": "カプセルトイ専門店 新店続々 全国で流行、岡山でも増加中 - 山陽新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:34:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FWFFTS0F6bVZ0R2NhaHU5V0pVMEZRTjR6UGxDUlQza2pHaTdRZGpYUTV0ZU9kX0IyRGZwQUh2ekRuc1E2djhGajNJR0NrUll5LXlhMjF3MFYxTmZNTXpobzNUN0N5a0NEOFpiczRVSQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "岡山県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "山陽新聞"
-    },
-    {
-      "articleId": "gnews_dfe06c4d4b34065a",
-      "headline": "新型コロナ感染 西条・今治・八幡浜の保健所エリア“注意報”レベルに 中予も急増し予防呼びかけ【愛媛】 - FNNプライムオンライン",
-      "headlineTranslated": "New coronavirus infections reach “advisory” level in Saijo, Imabari, and Yawatahama public health centers, with central government rapidly increasing and calling for prevention [Ehime] - FNN Prime Online",
-      "headlineJa": "新型コロナ感染 西条・今治・八幡浜の保健所エリア“注意報”レベルに 中予も急増し予防呼びかけ【愛媛】 - FNNプライムオンライン",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:29:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jLUQzRXFZS2lXY0IwcGxVMXJLVER2al9jVXpCMnZzTmh2a1lFSzhwS3hDZUlRYXp6LU5WUV9iSWNaV0ZaQXJHeEdLNHNFZw?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "愛媛県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "FNNプライムオンライン"
-    },
-    {
-      "articleId": "gnews_518785637d9d1cab",
-      "headline": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】 - Excite エキサイト",
-      "headlineTranslated": "Hand, foot and mouth disease is spreading across the country, Tokyo is at alert level for the first time in two years, and in Shimane, the number of patients per medical institution exceeds 20 per week [#Everyone's Gimon] - Excite",
-      "headlineJa": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】 - Excite エキサイト",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:21:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96NnFoTVBuQnczOWRxeENnVHI5cUNVMjktSzJWM3F1ZnVqdXhZaTMtbzNya0lHc3hiYWRPcGZ5bWZnNF93UXZWdTY1bmhEUnUtcWpjMTV5ZG9abEc2Ym8zbjgxU05OQW9LaDlLRHVn?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "島根県",
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Excite エキサイト"
-    },
-    {
-      "articleId": "gnews_483552dfd6125c21",
-      "headline": "新型コロナ感染 西条・今治・八幡浜の保健所エリア“注意報”レベルに 中予も急増し予防呼びかけ【愛媛】 - Excite エキサイト",
-      "headlineTranslated": "New coronavirus infections have reached “advisory” level in Saijo, Imabari, and Yawatahama public health centers, and central health authorities are rapidly increasing and calling for prevention [Ehime] - Excite Excite",
-      "headlineJa": "新型コロナ感染 西条・今治・八幡浜の保健所エリア“注意報”レベルに 中予も急増し予防呼びかけ【愛媛】 - Excite エキサイト",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:21:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DRVlWNjFkejhrS0dEeDVKOTlSVFhVTl9oSGhIME5YTUlEcVBaQ3dnNFk0cGFUVEp6Ty1rdXJkN2dHVmhEUW5YTkp1TWE1ZU40cjZueHQwT2UwdDFyRHVJcGpEZUFDNnduTWZncmV3?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "愛媛県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Excite エキサイト"
-    },
-    {
-      "articleId": "gnews_e53ffa0d1a1081aa",
-      "headline": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】 (日テレNEWS NNN) - Yahoo!ニュース",
-      "headlineTranslated": "Hand, foot and mouth disease is spreading across the country, Tokyo is at alert level for the first time in two years, and in Shimane, the number of patients per medical institution exceeds 20 per week [#Everyone's Gimon] (NTV NEWS NNN) - Yahoo! News",
-      "headlineJa": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】 (日テレNEWS NNN) - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMWk0UGlFZEphb0Nac0xoTVNuTDU4Y29QSE4zcUtmT3gzd3dkOEREZ2xBRFpkZFdOTy14aVVXTG5pMEFJNTcxZkdpX1ZJUzhxa3l4NVdqTDhBeHhGblF5Mnc0V3Jya242UV9vdWgzUXdYSjF4dHNSWDJsVS04TjJ3bnhDTlJkcEJ3MTRJaU9n?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "島根県",
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_922233cd587343c5",
-      "headline": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】（日テレNEWS NNN） - ｄメニューニュース",
-      "headlineTranslated": "Hand, foot and mouth disease is spreading across the country, Tokyo is at alert level for the first time in two years, and in Shimane, the number of patients per medical institution exceeds 20 per week [#Everyone's Gimon] (Nippon TV NEWS NNN) - d Menu News",
-      "headlineJa": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】（日テレNEWS NNN） - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONERlNUxPMVdydnpycFZKa3Y1YU5GZ21SRjJzMk5VbjZnOTNaR2p5RFpVbS1Cak5Nd0tSN29ENks1SE9vdldfN2Q5UUpVSzNmWkZKbGpCdUpHcEE1enBId2kzWDZHcTlPVTJRYk1vcWc0UEpza05mZFV3Y2NEZ2tRWTFZd1RuOXhmbS1MUTFGQTI4THZS?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "島根県",
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_456d96a8170c9da9",
-      "headline": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】（日テレNEWS NNN） - ｄメニューニュース",
-      "headlineTranslated": "Hand, foot and mouth disease is spreading across the country, Tokyo is at alert level for the first time in two years, and in Shimane, the number of patients per medical institution exceeds 20 per week [#Everyone's Gimon] (Nippon TV NEWS NNN) - d Menu News",
-      "headlineJa": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】（日テレNEWS NNN） - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb01sNTRHNXhhU1ZRSnpReHF6MEliREh3Y2wyeG9JV2pWLXppeFU3emlfdzBuUG4xdjJSTE04YnVNVk5HTW16UWdlcEJGaENUX2lJQXY3bU4xTTFSVTg5RG5CN05VWHFpREkwX2lMTHJmaVA3OGlfSHdyVHNXRENHNGx5a0Zudm9PdmhWUlVITGI3al9GdFhZ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "島根県",
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_c1cd203572c44734",
-      "headline": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】（2026年7月3日掲載） - 日テレNEWS NNN",
-      "headlineTranslated": "Hand, foot and mouth disease is spreading across the country, and Tokyo is at alert level for the first time in two years. In Shimane, the number of patients per medical institution exceeds 20 per week [#Everyone's Gimon] (Posted on July 3, 2026) - NTV NEWS NNN",
-      "headlineJa": "全国で手足口病が大流行、東京は2年ぶりの警報レベル 島根では1医療機関あたり1週間で20人超の患者数に【#みんなのギモン】（2026年7月3日掲載） - 日テレNEWS NNN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-04T02:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQjdRVDVmUkMyNmFuZGRvN0FJOV8tM3F0SU5qU1NCSUJFazYzVXBRcXU1dmVpbEFmWEJYR2tkcVptalNLeDktY1VlX2J4dFZ2RGEyRXY2czRxNzhhNFphSHVDaDBaQ2lzMkd1MGVmNHJadEF6M3Y3dzg2Slp4YlBFNnpR?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "島根県",
-        "東京都"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "日テレNEWS NNN"
-    },
-    {
-      "articleId": "gnews_ca36beab4da805ea",
-      "headline": "アフリカでは、エボラ出血熱と麻疹による死亡者数が憂慮すべきほど増加し続けている。 - Vietnam.vn",
-      "headlineTranslated": "Deaths from Ebola and measles continue to rise alarmingly in Africa. - Vietnam.vn",
-      "headlineJa": "アフリカでは、エボラ出血熱と麻疹による死亡者数が憂慮すべきほど増加し続けている。 - Vietnam.vn",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T23:46:20+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb0Uyd1hkMzUtODhLNDUxOHRueHF0NVlCYlpBaFZDVmVVSXFVNWJSdXJ0U2JZRjZvTzQwa0tLZ2N6ckhLeHhvbWJUU2FLV05YY3FUOGFIVnlwZ2FTanRlVk1zcmhWcXB2NnFnWFByR3h4Y243ZktLTEZfZC0xWFQyRlZXUGJhZm1WaGpLNEM3NzhibXlJX2NOcA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_ceda01f05ea57ace",
-      "headline": "川崎市　麻疹の予防対策を強化　ワクチンや検査を助成〈川崎市宮前区〉 - ｄメニューニュース",
-      "headlineTranslated": "Kawasaki City strengthens measles prevention measures, subsidizes vaccines and testing <Miyamae Ward, Kawasaki City> - dmenu News",
-      "headlineJa": "川崎市　麻疹の予防対策を強化　ワクチンや検査を助成〈川崎市宮前区〉 - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T23:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TWmRnaWI0UjlxNXQwMWxEUDJVSHczdjRpTjFpbDkxaF9KRVpwSzVnVlhOTkdMbEpmOTJKTko3TlMwTDF6U01VTk0zMWh3NHg3MlN5cFNwWnJMbmN0NFBpXzVSVHJqWGFuNkJBNnhQRUpqeE15OGc5a2ZWMNIBgAFBVV95cUxNdUpmWk9uMHExcV91SlFIUEVtRFpSZzJMeGhqTldJWFhzMU15U0c3RWJqUTlvUHcxU1RXZWtmZnNLLW42dG9ZZWN4V0I0V3V5Ylh0ekdWRjJzWHRibVdIcjBXS3NDTWV1eHhJcXlqZ0RaaWg5U1ctRmZESkoxU0lXdg?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "神奈川県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_0552ad4e04582546",
-      "headline": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？ 熱に強い“恐ろしい菌”の正体とは（オトナンサー） - Yahoo!ニュース",
-      "headlineTranslated": "More than 100 people suffered from diarrhea...Why are there so many cases of mass food poisoning at hotels? What is the true nature of the “terrifying bacteria” that are resistant to heat? (Otonancer) - Yahoo! News",
-      "headlineJa": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？ 熱に強い“恐ろしい菌”の正体とは（オトナンサー） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T22:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rVVFRU0l2THZmUERqWkx1dVRMbllxQnl4dDFLTnBQYzBNV0RnR2poSjY0bmNUa0Jxa01pQ3kwcnZPMV9vRVNJNVBjR2tHMU1QTnRaNnFCUVhfT0FaVG1IOTBHOWNJY3VHZFpHQXRpRGUwNWhvQTFhMGtKT3Q1dUk?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Food Poisoning"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_e91122d1d21134ac",
-      "headline": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？　熱に強い“恐ろしい菌”の正体とは - ｄメニューニュース",
-      "headlineTranslated": "More than 100 people suffered from diarrhea...Why are there so many cases of mass food poisoning at hotels? What is the true nature of the heat-resistant “terrifying bacteria”? - dmenu News",
-      "headlineJa": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？　熱に強い“恐ろしい菌”の正体とは - ｄメニューニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T22:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWjhSSlRaaTQ0MmxOelJDbFVWRUlBeVNZTk93RTlTVVJsRm16WHU4djY4QzcxcE1EVFRiM0RPS1FXOEhHSWp0S3YyUFZEN1huWUJsdG9Wc0JDNFJWX2ZDOVRkRUwzS3NVdGNuRm44Rm9SNUFiZWJXUjBKUER1bFdpbEVHWHFOTHPSAYMBQVVfeXFMTTd6RWJFLTgxZnRiUHJrczhjWktIQ2Y0cjNhZm13bGtULVB2UXAzZE15UTkyVlM1dTJhLWFXaGZPc19KUkhIVFFtS1RVOWhuaW9OcHk3X2FVOUVaSlNOdFhYa09Za3dDSFRZRFcxMTZ1RlYzNUNSMXhvVUFlRi1KUTc0aFk?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Food Poisoning"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ｄメニューニュース"
-    },
-    {
-      "articleId": "gnews_175d2280f76ceaeb",
-      "headline": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？ 熱に強い“恐ろしい菌”の正体とは (オトナンサー) - Yahoo!ニュース",
-      "headlineTranslated": "More than 100 people suffered from diarrhea...Why are there so many cases of mass food poisoning at hotels? What is the true nature of the “terrifying bacteria” that are resistant to heat? (Otonancer) - Yahoo! News",
-      "headlineJa": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？ 熱に強い“恐ろしい菌”の正体とは (オトナンサー) - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T22:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVGVYWnlicW1sZVlPX3VUd2NqTWR1aHZwVkEwSnlNMjVSNkMxdnpKdWtRX3ItcV93RTA5NWl2azlLOVc5UWlGNlJfVGtCOEw0UkJ0VjdoTjkxZlUzckdCUm84LXNkS0Z0amxMUzVOeE15YW02SVM0bzRxdkNyQWFFODEyN24teFFYTWl2Y0NR?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Food Poisoning"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_d70ce3afb5b40f14",
-      "headline": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？ 熱に強い“恐ろしい菌”の正体とは - オトナンサー",
-      "headlineTranslated": "More than 100 people suffered from diarrhea...Why are there so many cases of mass food poisoning at hotels? What is the true nature of the “terrifying bacteria” that are resistant to heat? - Otonancer",
-      "headlineJa": "100人超が下痢も…ホテルで「集団食中毒」相次ぐのはなぜ？ 熱に強い“恐ろしい菌”の正体とは - オトナンサー",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T22:03:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yTUNEYl9LSUxhUENtX2pnaUU3OWM3UTc0Y1IweVdMRWNTUlU5RkFRYXlpMHJKbmYwZ2thUzF4YXNxVkd4US1jdEJ3?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Food Poisoning"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "オトナンサー"
-    },
-    {
-      "articleId": "gnews_04a69baa501dc8ed",
-      "headline": "はしか１人感染 富山県内２６年８人目 - 47NEWS",
-      "headlineTranslated": "1 person infected with measles, 8th person in Toyama Prefecture in 2016 - 47NEWS",
-      "headlineJa": "はしか１人感染 富山県内２６年８人目 - 47NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-03T22:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqLVR2ZC1pelV1cTA4aW40dVU0VnZLUHZwcWxQa19mR0NsVkFnUVp5bFNBOElBa2xzbl9iYTU3Y0JoOTFKRkJwTENPNA?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "富山県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "47NEWS"
     }
   ]
 }
