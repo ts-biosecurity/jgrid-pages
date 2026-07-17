@@ -1,32 +1,385 @@
 {
-  "generated_at": "2026-07-16T21:45:52.762146+00:00",
+  "generated_at": "2026-07-17T21:39:39.181856+00:00",
   "date_range": {
-    "start": "2026-07-13T21:45:52.762146+00:00",
-    "end": "2026-07-16T21:45:52.762146+00:00"
+    "start": "2026-07-14T21:39:39.181856+00:00",
+    "end": "2026-07-17T21:39:39.181856+00:00"
   },
-  "total_articles": 40,
+  "total_articles": 52,
   "state_summary": {
-    "São Paulo": 2,
-    "Brasil (estado não identificado)": 20,
+    "Brasil (estado não identificado)": 24,
+    "Paraíba": 1,
+    "Espírito Santo": 5,
+    "São Paulo": 8,
+    "Amazonas": 1,
+    "Bahia": 1,
+    "Pará": 6,
     "Alagoas": 3,
     "Mato Grosso": 1,
     "Mato Grosso do Sul": 2,
-    "Espírito Santo": 1,
-    "Pará": 7,
     "Ceará": 1,
-    "Maranhão": 1,
-    "Piauí": 4,
-    "Paraíba": 1
+    "Maranhão": 1
   },
   "disease_summary": {
-    "Influenza": 14,
-    "Avian Influenza": 13,
+    "Influenza": 25,
+    "Avian Influenza": 24,
     "Dengue": 16,
-    "Chikungunya": 3,
-    "Doença infecciosa (não especificada)": 6,
+    "Rabies": 1,
+    "Yellow Fever": 1,
+    "Doença infecciosa (não especificada)": 7,
+    "Chikungunya": 2,
     "Measles": 2
   },
   "articles": [
+    {
+      "articleId": "gnews_28547429fddc3c5e",
+      "headline": "Primeiro caso de gripe aviária em 2026 é detectado em ave silvestre em SP - vtvnews.com.br",
+      "headlineTranslated": "First case of bird flu in 2026 detected in wild bird in SP - vtvnews.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T18:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ3djeElyYWYwV0lPYkJ4VDI5ZE5IcU9ZS3BhZDJuYnI0YlhJaVRmODhRbENMd1dUdDFEV2JyYldNbllPdHpzMFlLVDJCdlI4ZXk0TWFGdWlVZnpfZ1FMUFhlQjNCY3BHdm4tNl96bU1UbHBkX3RXRmNOUnN0ZlU1aENHVW4?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "vtvnews.com.br",
+      "headlineJa": "2026年に初の鳥インフルエンザの症例がSPの野鳥で検出 - vtvnews.com.br"
+    },
+    {
+      "articleId": "gnews_0e98482e9833c7ae",
+      "headline": "João Pessoa ultrapassa 2,2 mil casos de dengue e faz alerta sobre medicamentos contraindicados - THMais",
+      "headlineTranslated": "João Pessoa exceeds 2,200 cases of dengue fever and warns about contraindicated medications - THMore",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T16:49:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORnRGdTVmblljelA2MEJfRGQwRlRVS0huUW85TS1IREJhNlJGcFQ2ZWgxMXRkUXY3THBpMFoySUxuYkZBbEpWZjZ5UTl5MmVET09hb3duZ0l4aFp6VHU4Y3RMX0FoMjRXRG9MN1dvWGVLVTRWM0p0cnZoQ09QRVRsbGx3bXdyemtvb2xiYllQbnpoNGpMUDJJeGRabW0tZmdlTFI1bkNkekcxWEpGOGFGRHZQeDRhZldWMU52RHdtNEl1MTNwaV9Yb0JremNPUWZ2N1E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Paraíba"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "THMais",
+      "headlineJa": "ジョアン・ペソア大統領、デング熱の感染者数が2,200人を超え、禁忌薬について警告 - THMore"
+    },
+    {
+      "articleId": "gnews_88e3df7d775ecaec",
+      "headline": "Laudos descartam dengue e confirmam febre maculosa como causa da morte de jovem de 28 anos em Iconha - Jornal Espírito Santo Notícias",
+      "headlineTranslated": "Reports rule out dengue fever and confirm spotted fever as the cause of death of a 28-year-old in Iconha - Jornal Espírito Santo Notícias",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T16:20:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdlY4Rm5NeWFvckIyUEQ5aVAxaE51VVRlVnBGajdhQWo4LW10OThDMXpWU1FnOFdOTERFTFNlU1k3c05xN1B2dk91YmZvNm1qTEZTVTNCR0oxRHE4dkpteTBFcTNfQmJMam40RENjenNoYjVFQVZHZElKa0I5NkhWN0FPbkZ4ZUJyUGdnY09aTWRtYmVqNlc3YWQxSExwa05DNGdDWHdZQTZNS1VVSFlwandUUWdENU9aSFdPN1lLTDZFc2tFVE9jbUNBLWFTSndMdHBlRDVGUDJXUQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Espírito Santo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jornal Espírito Santo Notícias",
+      "headlineJa": "報告書はデング熱の可能性を否定し、イコニャの28歳の死因が紅斑熱であることを確認 - Jornal Espírito Santo Notícias"
+    },
+    {
+      "articleId": "gnews_e0de36c03eecaa78",
+      "headline": "Frederico Westphalen reúne 26 municípios em treinamento sobre raiva e febre amarela - O Alto Uruguai",
+      "headlineTranslated": "Frederico Westphalen brings together 26 municipalities in training on rabies and yellow fever - O Alto Uruguai",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T15:54:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRVBaT2tMd2l2c0F3NWZQVWlOTVVBUVVUc3RUSWNQb29pRHFxbENjM1htNlJ2ekpnajlBY1JfMnFiaGtXbEVHT1JQOURHaV84QmotbmROY28yTHNVenRwRXp4MmplRFd1aHlya3dzMXo3cnNkZG9IWWhPaXJha2VyM29Ma2FRd0VjY3lYNk94Z3VjS3lPcnlBY0ZoX3FaUzQ1REJDdG1pYXV3cFFoN2JFRUQ0MHVjOHh5SlN6M3pnV0N0dw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Rabies",
+        "Yellow Fever"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "O Alto Uruguai",
+      "headlineJa": "フレデリコ・ヴェストファーレン氏、狂犬病と黄熱病に関する訓練で26の自治体を結集 - オ・アルト・ウルグアイ"
+    },
+    {
+      "articleId": "gnews_e98ed5159f86af1c",
+      "headline": "Calor do El Niño pode agravar casos de dengue no Espírito Santo, alerta Defesa Civil - Portal 27",
+      "headlineTranslated": "Heat from El Niño could worsen dengue cases in Espírito Santo, warns Civil Defense - Portal 27",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T15:23:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNXA1eXMyNzRUS3NyQ1RTMExZN3lzWFluOG1GY1J5a292ZWNNSEkxUDZmcE1DQmMyM0tNX3hBa3ZOSVVGV1FEVENvYUZzM0d2UXp4ZkI1a0VXS2dRbXBxeGItbnpKdzFYZUpqLXVkT1BjSGh6REQ2SFJBY2o5Mmx6STFTbE85aVhDV0JocDJoSDdWNXJnSmRRODFLNG1QOXprVDJHaFBDa3luM3F5TGxHZGhB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Espírito Santo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal 27",
+      "headlineJa": "エルニーニョによる熱でエスピリトサント州のデング熱症例が悪化する可能性があると民間防衛局が警告 - Portal 27"
+    },
+    {
+      "articleId": "gnews_3ea138323d94b201",
+      "headline": "Primeiro caso de gripe aviária em ave silvestre é confirmado em São Paulo em 2026 - avinews.com",
+      "headlineTranslated": "First case of avian flu in wild birds confirmed in São Paulo in 2026 - avinews.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T15:10:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ1BkRzR1Y195THNxcnF0UmdBMDl6OFlqMWNISHM5QzRtZTYyNTY3dzJzWWlSUVdMZnJycDBNbktJTXYxSURDdnNtbmtWV0l3emRIR1BBbW9Lb2F5dVY2MHFJTGlKU19RS1RNRHgxc1A4US1ybDd3RUVVQUlBU2Z3VDdn?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "avinews.com",
+      "headlineJa": "2026年にサンパウロで鳥インフルエンザ初の野鳥感染が確認 - avinews.com"
+    },
+    {
+      "articleId": "gnews_bbe038ed4de86b84",
+      "headline": "São Paulo registra primeiro caso de gripe aviária em ave silvestre em 2026 - Globo Rural",
+      "headlineTranslated": "São Paulo records first case of avian flu in wild birds in 2026 - Globo Rural",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T14:33:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOXRwRHdwS0FRNmlXQ2twbHpkaUZ3b0lsYUdwNW0yLWI3cm1Zbm9EUGh5b2FDU1ZPZUNlWGpwX3BSc3RzU2RsSkgyc3d3R1pKTEV0NmtwOVRkb05fSjlKODFPUWxBQnBVNWNjY0RxeHJLZkJHdDhaQ19GMUxYN2d4TWJELS03bzZ0T1NDckV1Smo4NUlCZS1LUDVtNjBqZ2dRMUZPTElOZVVlTVQwbC1tcU1GQ1NMWkpUbDh6OWlFcy0yOVZ3UC1uUjdtODZvd9IB3AFBVV95cUxNTnZNVlBDTFlTX0t3VUJJdVBrNHE1ejhXYURKRFR5U3o0YXozSHpfWXZTelhqZDcwNXI3bUlVZ1cwX05BV09HM0ljYnlhQ0RYS0kzMDd2TUlFc091U3lFTVdpV1p0OUR1cmFrY2MyQmpvWGRqZ0ViZmN4NTNjWTBkOXRxZy1JLVpyVjh1NHRROGMzbUV3MWpfem1pSk5lUE9ycy14OFRFNVZoN1Y3LUdxTlFBbWpXYjZ2V2lnWG5aUXJGUC1sWHpUNEhUOGgzdldwTjRRMFRVNm5ucHAz?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Globo Rural",
+      "headlineJa": "サンパウロ、2026年に野鳥における鳥インフルエンザ初の感染者を記録 - Globo Rural"
+    },
+    {
+      "articleId": "gnews_b623c003bc37ae26",
+      "headline": "VÍDEOS: homem em aparente surto entra em bueiro e mobiliza polícia em Manaus - D24AM",
+      "headlineTranslated": "VIDEOS: man in apparent outbreak enters manhole and mobilizes police in Manaus - D24AM",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T13:32:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORUdGb2dReVNMbVhhcEZfczZSekQzV2hiODVjMFc5b2tuaXhQejdvbjNyYjRLN05uejFMaUZKYV9ibU5CZWpmbnR5bmZaRFNwc196ZTJzMEI5WGlqM1lVTGoxSnBWdHNZRzV6YUpQQTRFRjlyUDhGZmNyenBFMlRNYnJnNjFtcENXa1FrNF9Rb2x5aHo0d2kzNDFST1VpbDJhckRYNTV3?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Amazonas"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "D24AM",
+      "headlineJa": "動画：マナウスで集団感染とみられる男性がマンホールに入り警察出動 - D24AM"
+    },
+    {
+      "articleId": "gnews_fa546b5d08d3b828",
+      "headline": "SP confirma primeiro caso de gripe aviária em ave silvestre em 2026 - viva.com.br",
+      "headlineTranslated": "SP confirms first case of avian flu in wild birds in 2026 - viva.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T12:26:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV3d2SWJaU0sxX1FLZW03MmNsZUpDWFl5b19xOHlldklJSllldWxhc24zT0dpZWxhRm4xMGFURmFURHFWYzVEdTI4RkZVUW0ybkZWRzU4bzFJamotRFlXeWJkZUk3ZnVqeU9qUjBiSHJ2SWc1VU1Kc0VTYWZjTHZkZnkxQ2ZXWEdjRDVUMHF3NXhYSmdxUS01TFhTUXRVSVplSXkw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "viva.com.br",
+      "headlineJa": "SP、2026年に野鳥における鳥インフルエンザの初症例を確認 - viva.com.br"
+    },
+    {
+      "articleId": "gnews_8baddf994cc2fa43",
+      "headline": "Super El Niño pode provocar aumento da dengue e incêndios no Espírito Santo, alerta Defesa Civil - conexaoes.com.br",
+      "headlineTranslated": "Super El Niño could cause an increase in dengue fever and fires in Espírito Santo, warns Civil Defense - conexaoes.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T11:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemVHLWYyQ1dMUjRDOFJ1QTNRREtGZnc0TVRneEY0V0JnZ1REMkVUbHZBSVV1RUlfV0xXSU5wcVJtZzdacERtU05lRW81UnlOOVExa2xzd1FrQjBfSDc4djgxejRWNnVDYUJad29MeUMtVVVaaDMxVkRHdnZEY2lvWklubDROX1B4Tmsxa3k0SC14OEl5Y3Rnb2N3dDFJeVAwLXNnMV9YcjR3dlhjRjk3bmpzbzRxNFByMVp1UVA0RXNOdHBGeG1QUUtnaXQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Espírito Santo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "conexaoes.com.br",
+      "headlineJa": "スーパーエルニーニョはエスピリトサント島でデング熱と火災の増加を引き起こす可能性があると民間防衛機関が警告 - conexaoes.com.br"
+    },
+    {
+      "articleId": "gnews_d2f699d305062ef0",
+      "headline": "São Paulo registra primeiro caso de gripe aviária em ave silvestre em 2026 - CBN",
+      "headlineTranslated": "São Paulo records first case of avian flu in wild birds in 2026 - CBN",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T11:44:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYnFRRmdkYVVycXRKcjFRQWpFN2hfNC1oQ0hPYWZmSDhud2ROTXJ5X0ZfUzRGQjRsVmd3T2lnMTJxY3cxY2tFa3hhbzlXaDIzUmVFNUhUOHBUWjE3SlNEVDF1anJZdWZ3ZWJsZDcySk01Z3ZxUGlFR3RaMHFkdjMwVVVvUU5MTFE4bVJWSlRCUHRoMy1oUzdrdmswenZJaFlCWlhZQ3JPQkNodUZQWS1FMGFMVktuVVpVVnhFLWo4bDdPNzVwM0hhZ29YY9IB2gFBVV95cUxNNnN2R19lX2NGeHZDUjdCZDlIUUx1NHpGMm5ram9QQ3YxQXUwQUg5cUpEaXVkRS1yRDV1N0FiUGhrSjA3UkxkWlZab1lCYWZCWlVKc0xOYXA3ZDFIYW5xWDdrcWZ0dlZVYzVCa29UYlM5UFJwb1NRU1E0VW9BY1JTeE1xRUVId2dqVTRiWFNYSFRyNHJsZklxZG85SkM3THdoREpwUUhsVllmejIyZG5Nb2NKeGNPVVRFQnBhd05CMkh0ako2UE1FZG1mdjlpUEtUYUFUXzM0VGM3Zw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CBN",
+      "headlineJa": "サンパウロ、2026年に野鳥における鳥インフルエンザ初の感染者を記録 - CBN"
+    },
+    {
+      "articleId": "gnews_de8f1310ae39c326",
+      "headline": "Guaíra (SP) confirma caso isolado de gripe aviária em ave silvestre - Agrimidia",
+      "headlineTranslated": "Guaíra (SP) confirms an isolated case of avian influenza in a wild bird - Agrimidia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T11:28:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV2wzSTZRSGRjYWJLTUdzNWJFNzFMaFhRZUlRc29oelpNTTYzc0M5bnp6QXFxUG0xSUt1bmExYlVEcC1aWXZZdmdYbWI3RkR2d0xUNlhRVncwR09aVjBJX3RwdVdjdmNGS3hURUdVcl9pYl9WNHVmNnRMTzdfUXVPNWpELTdoLU0tcUd5THpiOUR4cVhtekRWYjJueFU0bUxXRWFjZ2c4ODNDT2EzTm90dllHajYtaXlkbWJ0LVhReWdLZw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Agrimidia",
+      "headlineJa": "グアイラ（SP）、野鳥における鳥インフルエンザの孤立例を確認 - アグリミディア"
+    },
+    {
+      "articleId": "gnews_29bf7430702bf6e1",
+      "headline": "Super El Niño: fenômeno pode aumentar casos de dengue no ES - Folha Vitória",
+      "headlineTranslated": "Super El Niño: phenomenon could increase dengue cases in ES - Folha Vitória",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T11:04:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeDB3by1UcUZiNEdYS09TZ2ZHcTBNN0JBWk5LSG1qV0hodERSazk5UjFFOXhFZWpTa2RtQ2dVUFE2a25tTS1la2ZxUUlySXFsVWNQQmNVVnJGNTAybkV1MWZPUkNIcHdsUUhsd0J5bUdZS3lzaUY4c2dsM01kYVpQNGE2dlRDTGd3dVFJbmo4MV9wblIxeXltVU5acV91dw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Espírito Santo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Folha Vitória",
+      "headlineJa": "スーパーエルニーニョ：ES州でのデング熱症例増加の可能性 - Folha Vitória"
+    },
+    {
+      "articleId": "gnews_b009123ca385d01b",
+      "headline": "São Paulo confirma primeiro caso de gripe aviária em ave silvestre em 2026 - Rádio Itatiaia",
+      "headlineTranslated": "São Paulo confirms first case of avian flu in wild birds in 2026 - Rádio Itatiaia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-17T09:19:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNT0NBUHhKQUhMOHdJLUdQSGl2TFhldUtGdEM1YmpHT2pUT1J2dEZLSTZzc3oxeEFkTi1NYUg5OUFFa1Q1TVRJVUN2ZXRRT0tEcThSS0t5c3NXSEFrMFY5Sm9ORnd0aDVmLXFHQTZmQldCS0l6cG9YU2RKQ0R5VUlpTFJmd2h4RlJGVWJJUGttTXBiYzZJYjdCc2RFUjN3bm1RbDE1WkJtVEd2R3F4S21ETmtTeHpNbnE5S241N1VB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rádio Itatiaia",
+      "headlineJa": "サンパウロ、2026年に野鳥で初の鳥インフルエンザ感染者を確認 - ラジオ・イタチアイア"
+    },
+    {
+      "articleId": "gnews_35ad201b7d5e4f5f",
+      "headline": "Dengue cai 75% e o próximo verão vira o teste real: ovitrampas, insetos estéreis e Wolbachia explicados sem jargão - Tua Saúde",
+      "headlineTranslated": "Dengue falls by 75% and next summer becomes the real test: ovitraps, sterile insects and Wolbachia explained without jargon - Tua Saúde",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T22:50:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVGJOa1FKSU9TdWktc3BDZENpcUxNQjlOaDExSTk2Mm0xQU1Mc1N6UUV0ZTd0OTQ0LW1zMjhDWm9kQjJMcXZqN051Ymx2Tkl4RWdsaEtmOHdJR2xtYmdTZXZOa0xzaWhNZ0pqM1FuMlh1akJ2dnBFdXg2bEMzTmVRT2RhOVdMRVYtamZwWDJENnBxVjZIWlBKMlhETF8zQi1LaE5wcWtzc1RTZWxia0g1V0M5bDcxMXRnd1hYSVRtNGtRV3pfREIyOE1MQ1h3UV8tdDB2X1lSMTk4VVVPV2JqcV9oUEVBTmJB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Tua Saúde",
+      "headlineJa": "デング熱は75%減少し、来年の夏が本当の試練となる：オビトラップ、不妊昆虫、ボルバキアを専門用語なしで説明 - Tua Saúde"
+    },
+    {
+      "articleId": "gnews_52dd19aa7eed92b1",
+      "headline": "São Paulo confirma primeiro caso de gripe aviária em ave silvestre em 2026 - Revista Oeste",
+      "headlineTranslated": "São Paulo confirms first case of avian flu in wild birds in 2026 - Revista Oeste",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T22:09:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT2pTeUZEZDY3Yl9lTlNzMmdMT0dkbEVKU1NoVzh6YmtyS01PTVBieks0WFdKdURCNHJ2aHZuSWRhUkJfZnNzSU16X1prTzFDMndEUnFyRXNaUUhsWnhWaHN3bGVnc2U2cnQ2dnNqZU1sNl94N1VxaW5zdUc5dndGb3UxNkpNZG80TmV0LUc0c0wzUGN1cHNnNVdMRkRmRDJ4VmZBRXFQbUhHWFA0TXZCbWdR?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Revista Oeste",
+      "headlineJa": "サンパウロ、2026年に野鳥で初の鳥インフルエンザ感染者を確認 - Revista Oeste"
+    },
+    {
+      "articleId": "gnews_1d86a9498636d7a3",
+      "headline": "São Paulo confirma caso de gripe aviária em ave silvestre - O Presente Rural",
+      "headlineTranslated": "São Paulo confirms case of avian flu in wild birds - O Presente Rural",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T21:10:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS050REo2aGtWWVlwX1VxR2dLVmd1Ymw5RHMxNFdrUkdzUEE0UVl6MDRhcFZ1U0JqcVJndTMwaFpfd0diTXJvbFp1STl2anduR3EtdEUwZ3dOTDVxdUZmQTNDM2NCLTdhUE40V05hZ1pOd2hhMDFzLTFJSUY3d1E4ZkhYYXBhMDhSTUxUeTlCM25uUQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "O Presente Rural",
+      "headlineJa": "サンパウロ、野鳥の鳥インフルエンザ感染を確認 - O Presente Rural"
+    },
     {
       "articleId": "gnews_230829af224cefb6",
       "headline": "São Paulo confirma primeiro caso de gripe aviária em ave silvestre em 2026 - Francês News",
@@ -49,6 +402,26 @@
       "headlineJa": "サンパウロ、2026年に野鳥で初の鳥インフルエンザ感染者を確認 - フランスニュース"
     },
     {
+      "articleId": "gnews_4c001cfb3330f853",
+      "headline": "SMS de Feira de Santana intensifica combate ao Aedes aegypti na Queimadinha com força-tarefa de mais de 30 agentes - Jornal Grande Bahia",
+      "headlineTranslated": "SMS from Feira de Santana intensifies the fight against Aedes aegypti in Queimadinha with a task force of more than 30 agents - Jornal Grande Bahia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T20:40:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPckg0SVhwSEN6TE03aExiT09SNWlKVVBkcy1XVllJVldLS3RXVEItWlFoREh0S0dNeWstY0tIYzF4OVA1a2JnY1NkUWlVRHBFaDRUUUdiMlM3N3l4eW1mZ1hobFlpcHRsajhtemkxM0hxaEc1cUtSeHhtZDZvRnNVMDBBanhVVWQtRXpyLUFxLUNLclIyeUdKSG1wVkRUclQ2dFJjTmRWcGxDZmRaX0t4SXNlUlRsaTJzVXVjRG9PcjVWczlyUUd5bE5JYXR3cU5ndzNNY21GSEw4OV8yXzc4M2pqWW1rUXo2bVJfYw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Bahia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jornal Grande Bahia",
+      "headlineJa": "フェイラ・デ・サンタナからのSMSで、30人以上の隊員からなる機動部隊がケイマディーニャでネッタイシマカとの戦いを激化 - ジョルナル・グランデ・バイア"
+    },
+    {
       "articleId": "gnews_c6df21bbb2e890cc",
       "headline": "Mortes por dengue sobem 18% no inverno, em MG - tmc.com.br",
       "headlineTranslated": "Dengue deaths rise 18% in winter, in MG - tmc.com.br",
@@ -69,13 +442,33 @@
       "headlineJa": "MGでデング熱による死亡者が冬に18%増加 - tmc.com.br"
     },
     {
-      "articleId": "gnews_12b20eeac5a4ce6f",
-      "headline": "SP confirma primeiro caso de gripe aviária em ave silvestre em 2026 - Correio do Povo",
-      "headlineTranslated": "SP confirms first case of avian flu in wild birds in 2026 - Correio do Povo",
+      "articleId": "gnews_e7dff60fcd6ef5ae",
+      "headline": "FMS convoca pais para atualizar vacinação de crianças e adolescentes nas férias - CidadeVerde.com",
+      "headlineTranslated": "FMS calls on parents to update vaccinations for children and adolescents on vacation - CidadeVerde.com",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-16T19:52:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWklwSmpfcmFuRklyVWJFY2QtMnl0RkpHNzBtVXJZYU9hdUc2OE9fZXpfUm9ERzNGRGpPVlFnX1lfdnBXWTJhV3JhblJIaXhLUlJIMjVsUV8yTWJwS0g0SVNzekEtLUE4NlY4Y2czNHFuM2xZZ0s4NlcySmZsNXg2eHpPS09Tc3psUHh6UjZEMk9ZWEtBUWJHT3hCRzU4S0k4X1ptYk9OcUlFaVlFYXBpS25NS3NQbUppSThYTUtoUW9mY3ZSNWwxZU93?oc=5",
+      "publishedTimestamp": "2026-07-16T19:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX2JTYllaUE9iRy0zRHFRazN2LW02ckJWcWlqUENMSGo4b1dBaHNYd3NtUTFfU0hjdmlUbDNJLWszMjdORzVicmxUVVF5MklOZDd0aV93LUY1eXVBQlN2LWxobjJxamZzLTJpc2twZWxKd044MFpLUVQtTVkycEJqRzNOTFR6dnVGVm9YcnR1WDhMZFdRNmNRYjVoZXl4REJiUHlRWXpCaFVIOXFzdzRyb1BOem93dVVmMnRZ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CidadeVerde.com",
+      "headlineJa": "FMS、保護者に対し、休暇中の子供や青少年への予防接種を更新するよう呼びかけ - CidadeVerde.com"
+    },
+    {
+      "articleId": "gnews_5be9d11d70c2665b",
+      "headline": "SP confirma primeiro caso de gripe aviária em ave silvestre em 2026 - Estadão",
+      "headlineTranslated": "SP confirms first case of avian flu in wild birds in 2026 - Estadão",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T19:03:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSTVfRFdEOTZTNDM0a0lPcFk4T2VkYnRBclltYTc3SmxETFdjRERsNlVnWENZYXVtY0R0V1laQ25NWU1VTFEzRVl1T1YxWDIyenFuYVlQdWxVVktTY0NUdWFxSEpTV0xnM0JfMEhmMnppRnNpOEtmczlLMGx1SGg0QS1DQURLN094WjJLUEJqNXQwSkxheThaNDVaOVNXN0I0TndGNDlrNnFRTFJB?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Influenza",
@@ -86,8 +479,8 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Correio do Povo",
-      "headlineJa": "SP、2026年に野鳥における鳥インフルエンザ初の感染者を確認 - コレイオ・ド・ポヴォ"
+      "sourceName": "Estadão",
+      "headlineJa": "SP、2026年に野鳥における鳥インフルエンザ初の感染者を確認 写真1枚 国際ニュース：AFPBB News"
     },
     {
       "articleId": "gnews_8d8a4ef15222ed34",
@@ -107,7 +500,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Guia da Farmácia",
-      "headlineJa": "ユーロファーマがチクングニア熱ワクチンをブラジルに導入 - 薬局ガイド"
+      "headlineJa": "ユーロファーマ、チクングニア熱ワクチンをブラジルに導入 - 薬局ガイド"
     },
     {
       "articleId": "gnews_78f36fe049766910",
@@ -213,6 +606,47 @@
       "headlineJa": "チクングニア熱感染者数が9,000人を超え、マトグロッソ・ド・スル州当局を懸念 - Capitalnews.com.br"
     },
     {
+      "articleId": "gnews_bde1844eead5e705",
+      "headline": "SP confirma primeiro caso de gripe aviária em ave silvestre em 2026 em Guaíra - G1",
+      "headlineTranslated": "SP confirms first case of avian flu in wild birds in 2026 in Guaíra - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T13:43:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdVhHN2dDdUNDcUI4UTdfNG5UZU9TdU9WeTJhRWo1MDJIOV9TeWg3ZW14bUVicjIwYXpuRjloY2otWUpBQmFuekxxYXFxaE5ESXliYWhhYlIzYmc1ZlhzRGJaUEs1elVmSktBdXZvTFN6TW1GTTcyam9xVU5Zb3ZoTTFQWmlYNkE0dnFZT2JtQkpDQXFQb1hHd2RTdVBLdkFEYU5DS0ZVN2IxZlhtTUtSUHBoNTNvR0Rqb3VIMGJDc2JxeGptWDlJZGVtRdIB2gFBVV95cUxNaG9KckdKMU5xSllTZDltVFMtYWRqV2JsUmdnVF94ZWNMZ1JIdW41Y2NpTFJJYlp6Q1had1pSOHlON1lxLUVIUTJLeUJuWDh4QzRNV0tPdWFmLWRNMlMyS0traGV6SjQtajBKa1pvaHd4ZEtrdG9HVVpONnZoWjhTSm92VWtsVzh6N2xMelBqX0dlSVR3V3FlTExTaW12QjMtQ0R5MTItbGRZQUVmM1FNUW9rZ2pRNUFyNUFTN2J6Zm12dG5SQ041b0Y4YjJEUG9fbTlGclFFSWJ5Zw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "SP、グアイラで2026年に野鳥における鳥インフルエンザ初の感染者を確認 - G1"
+    },
+    {
+      "articleId": "gnews_0ee1a71e71268daf",
+      "headline": "Araçatuba compartilha experiência exitosa no combate à dengue em congresso nacional de saúde - BOM DIA GUARULHOS",
+      "headlineTranslated": "Araçatuba shares successful experience in combating dengue at national health congress - GOOD MORNING GUARULHOS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T12:41:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV25MUndrWU5VYjd1OEE0dWg3Zy1hU2xyOVJidkdBcXR3ei15MzRJc1BxWi1ORXpTOG56QVlmaWE1QnNoY3pLNEJHck16VHRLVlVfYnBPVmNmZ2J6bHRNZWFBamFwMmNFMXJXZEtKTEE3Z0JOV1luUmlPQkdfV1NWcHZqRlRzdUhzMFFWQWF1cjZSbXQ2eGtfbF9BeUZ4QUR2THN0WjFxZ0c0X2ZYbFN4OWhndXZHY09XVlFYcGpPZDczWWFadno3UEF2V1JXbTAtRHpn?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BOM DIA GUARULHOS",
+      "headlineJa": "アラサトゥバ氏、全国保健会議でデング熱との闘いで成功した経験を共有 - おはようグアルーリョス"
+    },
+    {
       "articleId": "gnews_5e2f59c0b0fb5aec",
       "headline": "Família procura jovem de 26 anos desaparecido após surto em Lusitânia - Jornal Espírito Santo Notícias",
       "headlineTranslated": "Family searches for 26-year-old missing after outbreak in Lusitânia - Jornal Espírito Santo Notícias",
@@ -311,7 +745,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Correio Braziliense",
-      "headlineJa": "ブラジルで何百万もの改変された蚊が放たれる可能性があり、それらがデング熱にどのように役立つかを科学が説明する - Correio Brasiliense"
+      "headlineJa": "ブラジルで何百万もの改変蚊が放たれる可能性、科学がデング熱対策にどう役立つかを説明 - Correio Brasiliense"
     },
     {
       "articleId": "gnews_3942c9df71a2dcd6",
@@ -353,7 +787,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "G1",
-      "headlineJa": "SP州は2026年に野鳥における鳥インフルエンザの初症例を記録 - G1"
+      "headlineJa": "SP州、2026年に野鳥における鳥インフルエンザ初の感染者を記録 - G1"
     },
     {
       "articleId": "gnews_e45768a78a24be62",
@@ -376,6 +810,26 @@
       "headlineJa": "MSは1,500人のデング熱確定症例を記録し、この病気による死亡者なしで継続中 - Midiamax"
     },
     {
+      "articleId": "gnews_cf4a553c5e10f63e",
+      "headline": "Prefeitura de Mogi alerta para risco de transmissão de sarampo e reforça vacinação - Portal News",
+      "headlineTranslated": "Mogi City Hall warns of risk of measles transmission and reinforces vaccination - Portal News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-15T20:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclgtR2V6dU01NERIV2VjZEF6NlZmM0xEQ09OQkV3S2Z2czQwT0JsODY5Qk04LXoxNnFyVmN2YVRxMmtKTEN0SmRLbW01OFNkR3lEOWtDZVM0eHNzZE5CNDctRXppbVhHVmdNMXp3MU03SDB2Vzl3OTVHam1BSmhhSXhVdl9DTUgtYlllU0dwY3hwQlVFaTdNMWp4RVQ0ZkVVcFNzblBxMWVSMWZucGQ2RnVVY1UzVkVRZURoN05KTEk5dw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal News",
+      "headlineJa": "茂木市役所、麻疹感染リスク警告 ワクチン接種強化 - ポータルニュース"
+    },
+    {
       "articleId": "gnews_3eb87a20237fa650",
       "headline": "SAMU Aeromédico transfere idosa com dengue hemorrágica de São Miguel dos Campos para o HGE - AlagoasWeb",
       "headlineTranslated": "SAMU Aeromedical transfers elderly woman with dengue hemorrhagic fever from São Miguel dos Campos to HGE - AlagoasWeb",
@@ -389,8 +843,8 @@
       ],
       "locations": [],
       "states": [
-        "Pará",
-        "Alagoas"
+        "Alagoas",
+        "Pará"
       ],
       "dataSource": "Google News",
       "sourceName": "AlagoasWeb",
@@ -435,6 +889,27 @@
       "dataSource": "Google News",
       "sourceName": "Campo Grande News",
       "headlineJa": "司法当局、コルンバのボート上でデング熱と闘うよう組合に命令 - カンポ・グランデ・ニュース"
+    },
+    {
+      "articleId": "gnews_54949c9c676d8bae",
+      "headline": "Inspetoria Veterinária reforça orientações para notificação de suspeitas de Gripe Aviária em Teutônia - Independente",
+      "headlineTranslated": "Veterinary Inspectorate reinforces guidelines for reporting suspected Avian Flu in Teutônia - Independent",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-15T13:32:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd3lieC1JYjBvQTBldnRDUVp0U0R6UHVmaTl0SXk3Wlo3NkMyeXVaRnl2bG5YSXFUU3ZBZEVMeWV2cVBWSHlETGVYTndTWEJIcjFYQTVtNVNKYl9XM2MwbTJ3MEJBNXl2V1dkbHJZQXdMRWxBb0tiTVF3bE1KeWFoRWdKOHRPWmtoR1pidU5pX0ZnVEtVckh3djM2Y3dKREVCbzUzM2JvUlZnenl6LWxzbUdrQ0V5RmlBRkFSNkJXUm95amhydnhydFFRSnAzdmkwdzVyU3lNSQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Independente",
+      "headlineJa": "獣医監察局、テウトニア州で鳥インフルエンザの疑いを報告するためのガイドラインを強化 - 独立"
     },
     {
       "articleId": "gnews_47b46686ee64a349",
@@ -579,7 +1054,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "CNN Brasil",
-      "headlineJa": "ニュージーランド、海鳥におけるH5N1型鳥インフルエンザの初症例を記録 - CNNブラジル"
+      "headlineJa": "ニュージーランド、海鳥におけるH5N1型鳥インフルエンザの初症例を記録 - CNN Brasil"
     },
     {
       "articleId": "gnews_1fd0b3ee303ccb5a",
@@ -622,227 +1097,6 @@
       "dataSource": "Google News",
       "sourceName": "G1",
       "headlineJa": "ニュージーランド、初の鳥インフルエンザ感染者を確認 - G1"
-    },
-    {
-      "articleId": "gnews_3966c80cb789ab57",
-      "headline": "Técnica de enfermagem presa por tentar sequestrar recém-nascida estava em 'surto', alega defesa - Rádio Itatiaia",
-      "headlineTranslated": "Nursing technician arrested for trying to kidnap newborn was in 'outbreak', claims defense - Rádio Itatiaia",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T21:18:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcjdmMFN5M3ZDS0xDeXNqRnB2aFFrdldfUlpUdjFpTGM5b3hmTlJEM3VXdFk0YmlidlQ5TE1icjFiV2hqeXhLNzZvbVE1QU1rMHdKTEpMOEwtU0FoWW9HMG5PNWY3dUxhcG10UWpxeVJnSHRSS2o0cnUyVE1JYTB5ZmRFQlRuZ29ILWZneTcySlZXQ1BJQzM0Yk1FQU9ISEV4X0x5LVMzWEhudzdFSElRRjY2cERGQjV0NW5UX3hLME9WUERYWDZtTjFGbmMtVjhBQllTQzhzdw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rádio Itatiaia",
-      "headlineJa": "新生児誘拐未遂で逮捕された看護技術者、弁護側が「感染爆発」中と主張 - Radio Itatiaia"
-    },
-    {
-      "articleId": "gnews_f383665b97485fd1",
-      "headline": "Eurofarma firma parceria para trazer vacina contra chikungunya ao Brasil - InfoMoney",
-      "headlineTranslated": "Eurofarma signs partnership to bring chikungunya vaccine to Brazil - InfoMoney",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T20:29:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUlQc3dBS3hnLXJOWnNOWkU2TF9PVU84MjN5amtZb3hSY3B6TE9yRzBsTmZwX2ZjWDRqTmtUNENJX2p4VVFQa3RHV0RDazVDaWtzMmFDTXpkNVpQbV9BTFEzd0NiMGJYclBDU0tTODdnVFZ6ZEFwbUdsekQ5bWhPamZXTDBmTUtiOXpKVlNDZTZSR2Nwa1Q3SFo0RjFYZDBCcDM4MVVxSFpkekZhWW9PSNIBtgFBVV95cUxNZVVQVVg2Zm5sWi0ya1ZRdGtaSnB5SExQZzRzbTJkdjhzUjFuN2JCZ0NtRFNsM0NCMWsyaExTUW5aeXBSWVhMaFN1ekc5RGpvb2FEbFhReG1xV1o0UlVaN0Z6czF0WW1qRGZvVG9LU19QM095eGYyaWFhLVBrVnBldExNVWltTlZSUUhKUU8zeVMyMGYwdHNrM2ZWLXpuTk5kQnVrTXZGdmdNdzFXaDB2UWhTNTBldw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "InfoMoney",
-      "headlineJa": "ユーロファーマ、チクングニア熱ワクチンをブラジルに導入するためのパートナーシップに署名 - InfoMoney"
-    },
-    {
-      "articleId": "gnews_9b8e9e4c0162dd25",
-      "headline": "Vai viajar? Veja como evitar focos da dengue antes de sair de casa | Belém | O Liberal - O Liberal",
-      "headlineTranslated": "Are you going to travel? See how to avoid dengue outbreaks before leaving home | Belém | The Liberal - The Liberal",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T19:33:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVV9xTTlUYXpaeVFGbWc2RjZ4cUdUc1N0YWRlbDFxYnh4NU5ESG42OS1QMDhFN1hiMHZPY21VLUVEalJ0UWtTYUhodXluckFraG5SUTdJclY4enhndjUxWUM2RDZhWkJoVUlLM2lDYXQ1eHFKVE1RYlhJNnZHdDhhcVFyZjhGNXhmMWhMSTMtMHJydmtHUnpHaFVWUmJRZmt3dU9QalNTdDZrQdIBrwFBVV95cUxPWmZ1YU5LUVNTbEhQLWRadzN4S0F6a3V2V3ZUaGs3eVlnaTRKZEF5T2kyc05vTnlFSG96aE54VHhWd2xYU2FoeFJNa1JHOVNFV2FsQ1cxMDlpUE9qNlc1RWN5OXFKNVBGQmxpRnU3S2kwUnNvM1lIeXpTZ0pualdBZXhxWFRXbVFNRi1LcTRpUTJRcFk2bnlJUWlIaklEWDNLX1I5N2U3Y3JvbmlOOHdj?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O Liberal",
-      "headlineJa": "旅行に行きますか？家を出る前にデング熱の流行を避ける方法をご覧ください |ベレン |リベラル - リベラル"
-    },
-    {
-      "articleId": "gnews_3728de493d5d1b94",
-      "headline": "Piauí registra 11 mortes por dengue em 2026 e mais de 14 mil casos prováveis - ipiaui.com",
-      "headlineTranslated": "Piauí records 11 deaths from dengue in 2026 and more than 14 thousand probable cases - ipiaui.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T18:46:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWWRua0QxMWhOSV9ObWFZQzMyUFN4OE5wWExuZDJnaFpnRjdfbV9OcDF6a29GSWtsbVRHOF9RTksxYWM2azJHaGtYdTVTWl9UeWNGY1JWMnlrYVhfY2d5SUZKMUY1T0l2NDdSdlJ2YmxyMTZPOXVlU1J2b0ItZ05ha1VfQk4xcnZUZXN5ZFNONlhsOTg4VGE2cFVWbFpUazlLM2l4MVlTd2cyUlRwT3Fqcmo5dm5GUFJsNnc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Piauí"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ipiaui.com",
-      "headlineJa": "ピアウイ州、2026年にデング熱による死亡者11人、感染確率1万4千人以上を記録 - ipiaui.com"
-    },
-    {
-      "articleId": "gnews_82375a161756c11f",
-      "headline": "Dengue cresce no Piauí com 11 mortos e 14,5 mil casos em seis meses - Portal Piauí Hoje",
-      "headlineTranslated": "Dengue fever grows in Piauí with 11 deaths and 14,500 cases in six months - Portal Piauí Hoje",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T16:14:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR0ZoQkVGRG5zN19KZl9fMG5DRGRWLVpiYzRoNEJ0SWdONEFiVGt5N2dvQWxQT1lWeEhTekdTNEhkRkNkNE9KdnhPVVhEd2IzUk52c1o1RkhNcjFxQnFGcVFGOE51THNONDVGMklLenlpVUxYeUpBMkxkRjRxd3phNWVZZjNEN2NuZzVpd1pHdnNKeHA0Z0owT1BXUWk2cjBzTEVtNDNQMXk1b1A4bFM0d2E0TnRaYknSAbwBQVVfeXFMTkJVS3RxSW9xUldzR0E0eHJPY1RVZXYwQU5xQ0YtVW1ZcGhiWjY3V3lGaWdESW1Rd1dkYklQbnZmTHQ0MEF3MUk2dUZiQVRyVUVPdnhZbTJONGpsXzQ4NThTSzU3ZXluV29wZEwzWHJMWmlINzMtaHd3clhKMDZvWlIyWTdqcEpjTFBGbnN5czc1bVNsQmx4ZFdGdThWdlZ4MUNQMEFhdlVUX3ZUU1pTR2MtMjNUNzVDY09nbEQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Piauí"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal Piauí Hoje",
-      "headlineJa": "ピアウイでデング熱が拡大、6か月で11人が死亡、14,500人が感染 - Portal Piauí Hoje"
-    },
-    {
-      "articleId": "gnews_a2f65da67f83c42a",
-      "headline": "Férias sem dengue: Prefeitura lista cuidados básicos antes de viajar - Inteligência Brasil Imprensa",
-      "headlineTranslated": "Dengue-free holidays: City Hall lists basic precautions before traveling - Intelligence Brasil Imprensa",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T16:06:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMm1zT1gtVDgxOUJWdm5YUzBDR253akFLUzNzUEVCLXNhc09DTUc0Y3cxMGNrUHViOXhLT3BQZGx4REpNNlJGc1Mxb2RDdi14czc3UUczcEEwWG1KMU1iTVQwU2xZbm8zY2pxeFctRWRsZ0V2ZS1iNjV2Z3NLRDFwaUY0RmJ5YUdDazdwSE1zdy1NVHFvRHBmOG1NSlRRdHp6cHNz?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Inteligência Brasil Imprensa",
-      "headlineJa": "デング熱のない休暇：市役所が旅行前の基本的な予防策をリスト - Intelligence Brasil Imprensa"
-    },
-    {
-      "articleId": "gnews_eacc487422335b03",
-      "headline": "Secretaria da Saúde reforça vacinação contra o sarampo após registro de casos em São Paulo - cbnribeirao.com.br",
-      "headlineTranslated": "Health Department reinforces vaccination against measles after cases recorded in São Paulo - cbnribeirao.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T15:20:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORWVFcmVXVEpOaWtYQzkySWczU2xSYjVLSGQzellkQ1VkZ01BdW1ycGZTWFpWa3lrZXlIdkxYenp3TlJ3UHZjSUZQQXMtU3NzT0JYSHhXVUdKbmVBMkdFc0VBbXRPQ2JzbnVHYWJlTzZQWl9qZ0UtMmUxbzVPcjVzYTNSYWdna0hKek90THFRN2d6alEwb0pMS2hoa0lNUUEtb0I3MkRXaUtRZzFwd2dDWU1xNXppTzB5c2c?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "São Paulo"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "cbnribeirao.com.br",
-      "headlineJa": "サンパウロで麻疹の感染者が記録されたことを受け、保健省が麻疹ワクチン接種を強化 - cbnribeirao.com.br"
-    },
-    {
-      "articleId": "gnews_ef40282f7e2677cd",
-      "headline": "Belém. A Autarquia Federal. O Diretor e o Surto Automobilístico. Os Importados Reluzentes e os Pagamentos em Cash - O Antagônico",
-      "headlineTranslated": "Belém. The Federal Authority. The Director and the Automobile Outbreak. Shiny Imports and Cash Payments - The Antagonist",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T14:39:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQzFKWmxEV2xGRWZ2d3dmdnp1VWRBYlJpNzNiaDNRY3NWWjd2Y3ZJazg2U0NuVWM0Q1pzTVF4NGVsWXllZGZId0hxYTNqWDJrdmd2OWdUd1JqeTlrYnhUOS1aSHkyNnR0dzl5aTNZbDFVQWtNMm1JSGg0VzRyRERkcW0xbGUzZU13ejBWWnB5Z0ZmNnNrU3owM0R4VnF5bXZxY0p3X1BqZ2Z0dkZPSXowdlJCZFNVVW1oU2NIYjdnZ196anduelQ4SXNwQ3NfMkFEcV9Xdw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O Antagônico",
-      "headlineJa": "ベレン。連邦当局。監督と自動車アウトブレイク。光沢のある輸入と現金支払い - 敵対者"
-    },
-    {
-      "articleId": "gnews_a7ba20711123bcf9",
-      "headline": "Piauí registra 11 mortes por dengue; confira - GP1",
-      "headlineTranslated": "Piauí records 11 deaths from dengue; check it out - GP1",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T08:05:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ05VSG1ETHVIUldoa2lJV21SdDNfTGFtWndXWFgzMTBsaHNsTWJBNTRGY2t4Q3FqRTBBU1dqODRZWlZrMzlad2ZLcjNCckV3TnFZcEhFbjdYZWs2RUIzM2ZNVjVKUDlrdTl5R1U5d2pza21IT3JERjRfUWRObG1YTlFPXzQxMkd6MDg1S3A0MGpzMnlZOTVBdWJqTGJfNWFwZzNMMXY1eE9JX2RHVy1BaWVNV19tSUFtTUo4VXdzRlpQS1I5TlBxSDd30gHKAUFVX3lxTE9nTlVIbURMdUhSV2hraUlXbVJ0M19MYW1ad1dYWDMxMGxoc2xNYkE1NEZja3hDcWpFMEFTV2o4NFlaVmszOVp3ZktyM0JyRXdOcVlwSEVuN1hlazZFQjMzZk1WNUpQOWt1OXlHVTl3anNrbUhPckRGNF9RZE5sbVhOUU9fNDEyR3owODVLcDQwanMyeVk5NUF1YmpMYl81YXBnM0wxdjV4T0lfZEdXLUFpZU1XX21JQW1NSjhVd3NGWlBLUjlOUHFIN3c?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Piauí"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "GP1",
-      "headlineJa": "ピアウイではデング熱による11人の死亡が記録されている。チェックしてみてください - GP1"
-    },
-    {
-      "articleId": "gnews_15ec47b3ab8d7709",
-      "headline": "Dengue na Paraíba: estado registra mais de 4,2 mil casos e seis óbitos no primeiro semestre de 2026 - Portal Sertão da Paraíba",
-      "headlineTranslated": "Dengue in Paraíba: state records more than 4,200 cases and six deaths in the first half of 2026 - Portal Sertão da Paraíba",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-14T07:25:34+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWnNPVjNjRjVBUnlSSE9icDJodUZmRUlOdWo4U19qRVV2OXRuSVA4N3dhX1llc3pDNXBqeWxZR1h0dk9FMWZ4RkR2R2dOM3JiRE82M2NSdUFhZW5OQ3ZCMHl1UWQyZlFYUHFoYUkzNWF0TGtXRDlYdWlKbnJ6eDBiWEdmdWRsaTVOSXJmd2NmeFNNdE1tNTh6SDdQUGVYd1VkcDNvM2YtRDR3SVhiUWhfcm1FWEpDZ2ZQUDhmZ09sRVJFMTRsOHBzM2RuM18zbjdjRkdaZ3ZlUTA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Paraíba",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal Sertão da Paraíba",
-      "headlineJa": "パライバ州のデング熱：州は2026年上半期に4,200人以上の症例と6人の死亡を記録 - Portal Sertão da Paraíba"
-    },
-    {
-      "articleId": "gnews_420ad62bdfad1f8e",
-      "headline": "Piauí registra 11 mortes por dengue em 2026; estado tem mais de 14 mil casos prováveis - G1",
-      "headlineTranslated": "Piauí records 11 deaths from dengue in 2026; state has more than 14 thousand probable cases - G1",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-13T23:22:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TRHNPQUZXX01TdkcydDhuQWluZllTWGlFSmRyTWVveTN4MHpXY3ZMZUhvRS1kMjNFaGNfLUJuMEZZaTlDY2FVbjRzb2E5Q3poc1EyVVJMTGZaUEdfY0JSNVBJT1I5cWh2RllVMHhVVTEzSUkzOGwtUjlzVmRJcHPSAY4BQVVfeXFMTzhnNURId3ZvSWIwYUR5ZzBNX0ZVSUM5dmxabmdhMFlfOHVGTWJWLTdFdzZZOHZYYkZScUxROHBSRjJPbGxiU3ZFejRCbnpUTVJvWkl2YjA5Z0gzTlFNakJDUkJRYWFaekRvQl9IX2NleHlWdG1VZHZpdnMtZVJuZW9pYmxfbG90UFhqNFdFZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Piauí"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "G1",
-      "headlineJa": "ピアウイでは2026年にデング熱による11人の死亡を記録している。州には14,000人以上の感染者がいる可能性がある - G1"
     }
   ]
 }
