@@ -1,20 +1,22 @@
 {
-  "generated_at": "2026-07-17T21:40:01.775466+00:00",
+  "generated_at": "2026-07-18T21:39:49.757241+00:00",
   "date_range": {
-    "start": "2026-07-14T21:40:01.775466+00:00",
-    "end": "2026-07-17T21:40:01.775466+00:00"
+    "start": "2026-07-15T21:39:49.757241+00:00",
+    "end": "2026-07-18T21:39:49.757241+00:00"
   },
-  "total_articles": 4,
+  "total_articles": 5,
   "state_summary": {
     "Sulawesi Tenggara": 1,
-    "Nusa Tenggara Barat": 1,
     "Jawa Barat": 1,
+    "Nusa Tenggara Barat": 1,
     "DI Yogyakarta": 1,
+    "Indonesia (province not identified)": 1,
     "Sumatera Selatan": 1
   },
   "disease_summary": {
     "Dengue": 4,
-    "Tuberculosis": 1
+    "Tuberculosis": 1,
+    "Chikungunya": 1
   },
   "articles": [
     {
@@ -35,7 +37,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Kendari News",
-      "headlineJa": "デング熱の蚊を防ぐために、PT Vale IGP Pomalaa がタンベア村での PHBS 教育を強化 - Kendari News"
+      "headlineJa": "デング熱の蚊を防ぐため、PT Vale IGP Pomalaa がタンベア村での PHBS 教育を強化 - Kendari News"
     },
     {
       "articleId": "gnews_9a8804637c06393b",
@@ -47,13 +49,13 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNGozN2VyWFJkLVo3SDJ0bXZjMHJOWmxEbGtKLTd5VC1JbEx0V0tiMTBaZWhYXzk4TlJtb2FOd1JxWDNmNDNEVUhkWUFLdWZkTUxickVjQXZBbU5objJBbUhYN1NyTEExdGNCZlhwVk1TczdOc05jZUZqaGJURUJIanRrdEU2TEZ5MFl3Z0RRaHN1bnJsR0ttOFc1ZklwT2t2NmlpTw?oc=5",
       "originalLanguage": "INDONESIAN",
       "diseases": [
-        "Dengue",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Dengue"
       ],
       "locations": [],
       "states": [
-        "Nusa Tenggara Barat",
-        "Jawa Barat"
+        "Jawa Barat",
+        "Nusa Tenggara Barat"
       ],
       "dataSource": "Google News",
       "sourceName": "Gaya Bekasi",
@@ -80,13 +82,33 @@
       "headlineJa": "デング熱と闘うマサラン 2 地域保健センターが住民に「デング熱と闘う」よう呼びかけ - クルジョグジャ - Kr Jogja"
     },
     {
-      "articleId": "gnews_a587ff93847e04d2",
+      "articleId": "gnews_5c9bda15a58e1db0",
+      "headline": "Areas at Risk for Chikungunya - Centers for Disease Control and Prevention | CDC (.gov)",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-16T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1tOGJoLU93S2lCRzJ0NmFsd3lKaVI5cmR1aDZxell6NzUwUXB1OWFtR3pMRVRRRlZNalllUVBFY244Szh1NTVUZ3hWR19WQklNTEV1c3Y3QkxES3dVZ0tQVzZB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Indonesia (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Centers for Disease Control and Prevention | CDC (.gov)",
+      "headlineJa": "チクングニア熱のリスクのある地域 - アメリカ疾病予防管理センター | CDC (.gov)"
+    },
+    {
+      "articleId": "gnews_bf4756562e2f0d1d",
       "headline": "Demam Berdarah di Sumsel Capai 2.149 Kasus, 15 Orang Meninggal - detikcom",
       "headlineTranslated": "Dengue Fever in South Sumatra Reaches 2,149 Cases, 15 People Die - detikcom",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-07-16T03:00:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2lNZUtGak5UMUhCMjExb0pyNHJHTlVKaE9HMk1YaXJ1aHRsbDNqRlN1anY5bTQ2LVlKekxqcmNpaVJVbUwzYmd6RHVuaW1pSlRtZmstY05ZMUNxZ2FXZ1VsdFdwSExZU1NhMjNzenlvVzVYV3IzcXp0dG5LYm9FVkZHSERVT0R2UDZGNl9FUlpCbXVsWC00S1JEQm5sZFhHaURpRXdBZkpjV0tLMkg4WUNsS0PSAbQBQVVfeXFMTWNpTWVLRmpOVDFIQjIxMW9KcjRyR05VSmhPRzJNWGlydWh0bGwzakZTdWp2OW00Ni1ZSnpManJjaWlSVW1MM2JnekR1bmltaUpUbWZrLWNOWTFDcWdhV2dVbHRXcEhMWVNTYTIzc3p5b1c1WFdyM3F6dHRuS2JvRVZGR0hEVU9EdlA2RjZfRVJaQm11bFgtNEtSREJubGRYR2lEaUV3QWZKY1dLSzJIOFlDbEtD?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONUdYWUE3Q2t0Mjl4OUFlV0VWRzBPMGJMSlZPWnBoWmFicDV6RjRIMlc1dXVMdHNBZUxEMVN5dVg2X2k0WVBtR3RoSHhLdkJsTTJwS3VSMHczT2xHdDNTZ2VINjNSZU1pTWxmZEUyUExVRlZId1ZUWFl5RUp5QXdJNTNhdTYybnF5al9xRjZVdnZPYjVDSFM1b0UzSktPRDAya1ZsWV9fb19qekZrLWRz0gG0AUFVX3lxTE1jaU1lS0ZqTlQxSEIyMTFvSnI0ckdOVUpoT0cyTVhpcnVodGxsM2pGU3VqdjltNDYtWUp6TGpyY2lpUlVtTDNiZ3pEdW5pbWlKVG1may1jTlkxQ3FnYVdnVWx0V3BITFlTU2EyM3N6eW9XNVhXcjNxenR0bktib0VWRkdIRFVPRHZQNkY2X0VSWkJtdWxYLTRLUkRCbmxkWEdpRGlFd0FmSmNXS0sySDhZQ2xLQw?oc=5",
       "originalLanguage": "INDONESIAN",
       "diseases": [
         "Dengue"
