@@ -1,30 +1,1503 @@
 {
-  "generated_at": "2026-07-19T21:38:54.490048+00:00",
+  "generated_at": "2026-07-20T21:48:09.526398+00:00",
   "date_range": {
-    "start": "2026-07-16T21:38:54.490048+00:00",
-    "end": "2026-07-19T21:38:54.490048+00:00"
+    "start": "2026-07-17T21:48:09.526398+00:00",
+    "end": "2026-07-20T21:48:09.526398+00:00"
   },
-  "total_articles": 33,
+  "total_articles": 86,
   "state_summary": {
+    "India (state not identified)": 72,
+    "Uttar Pradesh": 1,
+    "Jharkhand": 1,
+    "Rajasthan": 2,
+    "Chandigarh": 1,
+    "Delhi": 1,
+    "Punjab": 1,
+    "Haryana": 1,
+    "Madhya Pradesh": 1,
+    "Bihar": 1,
+    "Uttarakhand": 1,
     "Telangana": 1,
-    "India (state not identified)": 20,
-    "Andhra Pradesh": 7,
-    "Gujarat": 4,
-    "Maharashtra": 2,
-    "Karnataka": 1,
-    "Kerala": 1,
-    "Punjab": 1
+    "Andhra Pradesh": 4,
+    "Odisha": 1,
+    "Gujarat": 1,
+    "Maharashtra": 2
   },
   "disease_summary": {
-    "Dengue": 6,
+    "Dengue": 69,
+    "COVID-19": 9,
     "Infectious disease (unspecified)": 6,
-    "COVID-19": 12,
-    "Malaria": 4,
-    "Measles": 3,
-    "Tuberculosis": 3,
-    "Influenza": 1
+    "Malaria": 2,
+    "Tuberculosis": 1,
+    "Measles": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_7347e2ca67af682d",
+      "headline": "1st dengue vaccine gets DCGI nod, set to hit market next year - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T21:06:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdnF4YWtGZXVndU5mWm5pVU9MWFU1RVVPVXdKdnBGNS1uQWwwSF9ZNFdhNDJuUWl1VDlEMGkxMml6STFjczdtWlkwMzQ3c1dpTERTYUprN0ZGeXhFODhWcmQ5dUludDAxdk9WR3JtZHFPX05Bd1lLTTZKb1BKY3psSXRuZHJ3Ry1FNi1KOEpwenlqV1c3bWYxdUJIdFJGSTRPcVRTZVBTZV9vY2RqeVV4WXBMYXlEdG9vSlFXMjVjaEE3NUNPRUxz0gHMAUFVX3lxTE4zYkpkT2paMDRUU2VyZGNSUHpVZDVNd3k3bVBVS1NaTDB0SDZoeGllV3RBdlVjY2RuNEFZY3NReHBWLTFEVlpzWmpjYWdsaWVXMi1RWVVlbWU2NkVQRGxIUnVwLW9PbkF1TUN1VFlCWUZ3akxSNERfQ1pPUFZUSzliS0dvQUs1LXpmeXkwSUkzTWhpeXRzTEhIMlBOU0c3b21RcGZQd1drNlo4cUE1aXZaQ0k0eFliV2xOZ3NxWkZNU0NqdW50T0tjUldPTw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India",
+      "headlineJa": "初のデング熱ワクチンがDCGIの承認、来年市場投入予定 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_c2c578709b0bbd95",
+      "headline": "Agra News: वृद्धा की रिपोर्ट निगेटिव, पुत्रवधू में\nहुई कोरोना वायरस की पुष्टि - Amar Ujala",
+      "headlineTranslated": "Agra News: Old lady's report negative, daughter-in-law's\nCorona virus confirmed - Amar Ujala",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T21:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNX0lwcERxajRZTmsyelUzNXNrTHFTeGh0a2ZYR1FlaUFVUzFmX0NMN3M0S1BsdVo5RWstbnpEVmVnT3hWOXFFZ20tY0tUamF1MEY4LTFnSWJUOWg4UEtjLWdEdE9nRWVRTzFtdHhScU5tdnNHcFJnLTF2Ml9Lc0p3cHNNTFBOQXVrT0xYRWh6bWZLdy1DYjlUVFJiMFJwdGg2bXlSOHJvLUt0ZnY4NnRoOUhmU0sycXI3SldqellOLWo4VUNUU3NDaHpHdTBEbE9JUmU3OW12cDJKOFYyT2k5M2RuenZtRHFVUVJmYnh4TUpLdS1oOTU3WGs2UdIBgAJBVV95cUxPWFVHbHBaNU16OHVoNmR5SF9SMlJieTZ4Z09OSlMxdHhxOURlUkIyeFFKUlFaVzZtekw0R0lMeEJfNXNvNG5xSDlIYTNsY0R2Y3RSeUFva0hEOUR4aEx1RnhzZ2lWNVNmSVZ0SEpxbkFEbkNXM1Rjd2F4NG9zVGJ1T1pqemFMbEVIM0JkbzdyLVo2b0lJcDdJNVFuY0RkTnp3WHdqZHVkMHZxTmdUMWRwc0Vkbl9BbHFNZG1mNWRjMi1TTUhKdVN2NHZld3J1YTVCQ0RGVHhDNDN4Qy1xaE9MSGNUTFV3ei0wdGNIa3NrU1ZJMzRucXBVWWlpWHdsX210?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amar Ujala",
+      "headlineJa": "アグラニュース：老婦人の報告書は否定的、義理の娘の報告書は否定的\nコロナウイルスが確認された - アマール・ウジャラ"
+    },
+    {
+      "articleId": "gnews_1a706d0c7ddbd9a3",
+      "headline": "Japanese drugmaker Takeda’s Qdenga becomes first dengue vaccine approved in India - The Straits Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T19:05:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFptelV3NE53a3BHVUtVMzhYTTd1SU5iRHkxMFFFaElXX1VzQUxNbUNIUVFCQTdCWUZ1RlZyUjFDajNUdHM2QlZWY2J1TnpyT3lkeHMxLVROanA1WU5rOHp3YlJXYTZMbkVxUG1Pa19lSFp6VGtfMXBtWENGS2dGN1BhcGlHUWFmN0JtMGRBUGN5M0VZVERfdEl1YmpNS2FwbHlhVFdCbXhnRGxPT25LUXdaX2o?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Straits Times",
+      "headlineJa": "日本の製薬会社武田薬品のQdengaがインドで初めて承認されたデング熱ワクチンとなる - ストレーツ・タイムズ"
+    },
+    {
+      "articleId": "gnews_4a4243e5bb50e6d7",
+      "headline": "India Grants Marketing Approval for Takeda’s Qdenga Dengue Vaccine - India News Network",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T18:55:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZDN5UHMxclB6SGF3UUd2TEJoUEFEbHFkN29hcHY3cVhTRFBVb29Zc3FpVW9MNXlJd0N3V3hXOWdqUTVVT1Y0MXdUblZoVVhCMHFRc2ZpR00wNVpFRm9jYnlfbjM5ekx4RV9oaXBaRExpeHUydmVRUGhPZnNkcVdPRVpOeXpLY1BOVUtqTTNRa1hRSnFGQno0X2lVbEI2Z0o4OHdBRGg0d3E1dw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India News Network",
+      "headlineJa": "インド、武田薬品のクデンガ・デング熱ワクチンの販売承認を取得 - India News Network"
+    },
+    {
+      "articleId": "gnews_c133b005f86cbd20",
+      "headline": "City-based pvt varsity conducted dengue vaccine’s clinical trial - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T18:47:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUDA3QVJNZmFUdWpNSE5sMGNSdWMta2p0eENqbXR4WmxXWkJtZnh1d05WT2RCWjNZU040MjZYOTZyd2x5U3VaazgyUnRkYlFTSWd4dUdtQ0MxQkdFNUdrbzZxVHZEd1pRdXVLSDhpMWpqcUdZTDVzNTRQNkh2d05BYkFqRmxlcjRsZVpULW9ZanVLa25UdlpUTzVHZ1dPci00enRmWUxOdENBWnpHMW96ci1NOHdsOEo4RmZiUWdHV0Z4cWlxeG1HU3N4VU1wR1JZWDhDYVRsUFN4cXFRemk40gHfAUFVX3lxTE1QMDdBUk1mYVR1ak1ITmwwY1J1Yy1ranR4Q2ptdHhabFdaQm1meHV3TlZPZEJaM1lTTjQyNlg5NnJ3bHlTdVprODJSdGRiUVNJZ3h1R21DQzFCR0U1R2tvNnFUdkR3WlF1dUtIOGkxampxR1lMNXM1NFA2SHZ3TkFiQWpGbGVyNGxlWlQtb1lqdUtrblR2WlRPNUdnV09yLTR6dGZZTE50Q0Faekcxb3pyLU04d2w4SjhGZmJRZ0dXRnhxaXF4bUdTc3hVTXBHUllYOENhVGxQU3hxcVF6aTg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India",
+      "headlineJa": "都市に拠点を置く私立大学がデング熱ワクチンの臨床試験を実施 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_20cfa688c56e3fb2",
+      "headline": "रांची शहरी क्षेत्र में डेंगू-चिकुनगुनिया की रोकथाम की पहल, स्वास्थ्यकर्मियों को दिया गया विशेष प्रशिक्षण - ETV Bharat",
+      "headlineTranslated": "Initiative to prevent dengue-chikungunya in Ranchi urban area, special training given to health workers - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T18:01:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi0yS3BDb0dFcnpGbzZSLXd6MGQyRkZBSnpGbk5GaV9EWENTaFVTNklpWVBnNHJtYncteVE2Ujc4ZC12VWx5bmNUZmNFOTFVZElRbmV6T1hJcU80V1F6RHAtSnc3TmloSm84MGFULXNSU0VVdVEzRV9FNkduRTluWldpQ2NNblhqRnAydm9lX0tKM043NWlkRUtHMlctVXZXWVBsR3lPdGpadjhOUHpKNlFNREV4LU84cV8xaWZOWEUzWjJfcDAtZ0VFeWZDYzJ5YmM4SnY4Y3hTSEXSAdsBQVVfeXFMTlItMktwQ29HRXJ6Rm82Ui13ejBkMkZGQUp6Rm5ORmlfRFhDU2hVUzZJaVlQZzRybWJ3LXlRNlI3OGQtdlVseW5jVGZjRTkxVWRJUW5lek9YSXFPNFdRekRwLUp3N05paEpvODBhVC1zUlNFVXVRM0VfRTZHbkU5blpXaUNjTW5YakZwMnZvZV9LSjNONzVpZEVLRzJXLVV2V1lQbEd5T3RqWnY4TlB6SjZRTURFeC1POHFfMWlmTlhFM1oyX3AwLWdFRXlmQ2MyeWJjOEp2OGN4U0hF?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Jharkhand"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "ランチ都市部におけるデング熱チクングニア熱予防の取り組み、医療従事者に特別訓練を実施 - ETV バーラト"
+    },
+    {
+      "articleId": "gnews_f33bc02d8cdee8bf",
+      "headline": "20 से 23 जुलाई के बीच दिल्ली, यूपी, हरियाणा, पंजाब और चंडीगढ़ में बारिश के आसार, पूर्वी राजस्थान में भी मानसून होगा सक्रिय - gnttv.com",
+      "headlineTranslated": "Chances of rain in Delhi, UP, Haryana, Punjab and Chandigarh between July 20 and 23, monsoon will also be active in East Rajasthan - gnttv.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T17:37:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxQMkZnMHdoZUYyZV9kUkEyc2xVMDZTLTBKeHlQVC1pa1FuQnFIdkNDVXhLV1B2bEZ6UnROd1YybUJ2THgtc0k2cHE1S21PVXYxb1FqX01pY1NvcjZGaUFkSFhybnYxVjJXUDNGWkpfWDk3OVRJSV9lX0h0UENuTkNXaWJvWkRhNHFSVDZoeWd1Mm5WVGFneGRwU0dQRVg5aVhyQ2JLZGNjcHFBeDBrUWplUjNKTHVON0hsbzBNVDNRWVhnMUltV1FPU295OUtDTlBJNV9xLU5ZMlB3aHk0dGVhekdwT0thSkEtOWd3Yjhzdk9ocl9OdjlfcWs3ampEYzdGcHhWWkhWWHVBZkw3cHVEajgtWld5SG1XMGhJQnpR0gGjAkFVX3lxTE1JWlYya1VmQVhWanBmcmZ6SXlFazlkNklGSkFfZUxuMHVIM3RpWDVoeTI1ZzEtZ3hxeFViZDBWcHhHNnJNMVJlMEpYTDlEbVNGc1BUbXFqdXM0U2FPMXhqRHZBbFlSTEU0VEdpUExUdU1ESUZ1Ti0wVGtEUFB4cVdzWVJaSTB5X0I2V2hZQ1dxckdpVW42RjRQUWN5T3dGNlVfQ3NlWFZQdjU3ai1ZaG5rN0VjMkw5SXBkMVoxdU03T2k2bFdleEpoZHlLY2xaWXpnNmF3RTBvSFNxQm84Vk5LNVhfa1p5enBFRWtKbVBjMDM1SmR3c1U2a3ZlNEw4V0RuTElmVG5fVVRzY0kwSnprYV9JLVNCa0tNamlCVlFOZGt4VQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Rajasthan",
+        "Chandigarh",
+        "Delhi",
+        "Punjab",
+        "Haryana"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "gnttv.com",
+      "headlineJa": "7月20日から23日にかけてデリー、UP、ハリアナ州、パンジャブ州、チャンディーガルで雨が降る可能性があり、東ラジャスタン州でもモンスーンが活発になるでしょう - gnttv.com"
+    },
+    {
+      "articleId": "gnews_9eebc3cc08178e15",
+      "headline": "भारत में पहली डेंगू वैक्सीन को मंजूरी, जापान की बायोफार्मास्युटिकल कंपनी का टीका - ETV Bharat",
+      "headlineTranslated": "First dengue vaccine approved in India, vaccine from Japanese biopharmaceutical company - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T17:12:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTWk5UV9XZWRsd3JSVTc0ZDJlU1dhNmxuMERzMzNvTTVZREFVOW5PR0QtYngxZGdraDdrTExmRWphcXFmYXJ0emdiOE1PMzAxVTlaZ0lhLWFqaTBIRDlHWlp3Q0M1czhuSm5tWHhjWS14OFFrVnR4VmpQSnFhNGx2eHJlYm1vRHRNVlo2QkI2a1BCTnN4Nm9rTEwtOXkwZ9IBowFBVV95cUxPUFdpVnBqQ2c4T2hyT3JhZTVaQ056dFdCWU9XWW82ZzJYX2FLLVZyRENaeDFXc2tBRTYwMVFJZ1B4ZEU3VVhKb3owekg3UF9XZXlUUTF6NU5yZHB5RTVueDNGcDhQRkJqc0hQN0Z5ak13cVpINWN1LTlEYl9MU3k0YkZYS2Q1UGdYWXZ1S0JKaXBwMmRuNENlTHgzSVZ2d096eGNN?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "インドで初のデング熱ワクチン承認、日本のバイオ医薬品会社のワクチン - ETV Bharat"
+    },
+    {
+      "articleId": "gnews_2c79be8c162d5bf7",
+      "headline": "India approves first dengue vaccine as cases surge in South Asia - The Telegraph",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T16:44:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUDZfUlozMF9ramk2OUo1NnBRQi1MN1ptcktRVUh6aFZXczN1bmFNTm03cGIwN0dKd0o1ZVlvNmhTTGNoTXNTa0NncGZWdEFLdjl1QkY4S3lrQXN1UExMR2JsNVQtOGM0OUNkazU3ZER2WU90cFZ2U2l3dEwzVlJKY0ladTlEcEpSc3R3OGFuV0lzOURhb1NLMFlWaFFLTnpkS0IxRGhFMExfekJnVy1hMC1rX2FOR0VReTJaWmh5QQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Telegraph",
+      "headlineJa": "南アジアで感染者急増中、インドが初のデング熱ワクチンを承認 - テレグラフ"
+    },
+    {
+      "articleId": "gnews_aa1dcf35269d67a1",
+      "headline": "भारत में डेंगू के पहले टीके ‘क्यूडेंगा’ को मिली मंजूरी - Hindustan",
+      "headlineTranslated": "India's first dengue vaccine 'Qudenga' gets approval - Hindustan",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T16:22:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTJFR2FWcktJRUpINkFBbTdDeXljejloM0p3Yl9FbTc4eVJBLThCRk9zZjBTWkJBaC1VQzVLcGRMaldqVTlRNGtuQWMzcGFvN25pR1p0Ymp6SDZLOS1JTmt1VGQ0RTV0WTJKaWd0VXhlSENLVllxeWVrS2hucEJrWkVnSzc4TENwTXJkanU1Z1FGMW9pNnVITVBiQVlxUHBNb0tqR3RRajBScUZ1N1lfM0dBbkJPaVJlekFUUXlGZy02eTBMSkgwdTVubWTSAdIBQVVfeXFMTlRLWEpsOURCY255VGM0YnNzZFQyU3d6a1J1azRnYXZMOGgtTkFkdDNvT25zbXFza0o1TE5TbFhZaDZ2WkJUSklGZVR4X3ozSmRuWDJCUDl1aHJwMUZWYnVRMHU0ak5LU0N6TFNObmpCM0M3RWdkQjFLNzhKMVNyOGdRd0VvOXZ0OVNFbW5DbWpYM2tWVDlCMUNQNkZvbXVvOWlEbHoyV09aX3R0QXUtS2MtSV8yY0dzZ3ZEWEZEd3NDbGN5SE4yRTdvek10OS04RFVR?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindustan",
+      "headlineJa": "インド初のデング熱ワクチン「クデンガ」が承認される - ヒンドゥスタン"
+    },
+    {
+      "articleId": "gnews_cd2f83043008ae6e",
+      "headline": "वाराणसी में 2 साल के बच्चे में मिला कोरोना वायरस, तेज बुखार आने पर प्राइवेट अस्पताल में किया गया भर्ती - ETV Bharat",
+      "headlineTranslated": "Corona virus found in 2 year old child in Varanasi, admitted to private hospital due to high fever - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T16:22:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVkZaMTBoWFZhOURMMWNlWTdjbkFUVHRubGhDc2h4Zm5ZVjdnRlFDT1MySVc4bEhBNjRhWlhuNEIxdnhtQi02N0VGUGNwTG14akJnZXM5ZHBNZVhEV3UyWE82MGVZR29VQnpVZkM2MFJfdzhTQXg0OEEyY3FnT1NCNWlYUFBBNEloeVFvdDdLREtMMllqd1VvQXFteGRDWGFmY2xTMWpzaGNxd0hn0gGsAUFVX3lxTE1WRloxMGhYVmE5REwxY2VZN2NuQVRUdG5saENzaHhmbllWN2dGUUNPUzJJVzhsSEE2NGFaWG40QjF2eG1CLTY3RUZQY3BMbXhqQmdlczlkcE1lWERXdTJYTzYwZVlHb1VCelVmQzYwUl93OFNBeDQ4QTJjcWdPU0I1aVhQUEE0SWh5UW90N0tES0wyWWp3VW9BcW14ZENYYWZjbFMxanNoY3F3SGc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "バラナシの2歳児からコロナウイルスが見つかり、高熱のため私立病院に入院 - ETVバーラト"
+    },
+    {
+      "articleId": "gnews_092dc6bb16a64c53",
+      "headline": "जयपुर भारत में पहली डेंगू वैक्सीन QDENGA को मंजूरी, बिना किसी जांच के 4 से 60 साल तक के लोग ले सकेंगे डोज - First India News",
+      "headlineTranslated": "Jaipur: India's first dengue vaccine QDENGA approved, people aged between 4 to 60 years will be able to take the dose without any test - First India News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T15:52:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQTNPelRLRV8yY2lFc1JQVEtKNVo0Vk1ScEQ1c3g2WU5HS0ktNTlNUVlDRmVmZ0NycloyRkY2SW5fV0Vqckl6NlptNHNhUzdySm8wR01SQzhJUl9IMjJvTG1CYVA1ZzZQM2FjRy1qZDFTQXFQSUF2WVZDM2NSYktuODZhMTlEVXZKRl9YUHdMQ3Q5ZXNhN1RWX1RMak9SSzg4VG9wMmM4YkZ2RW51RUJ4Z2NicC1XbmxMTGx3ZUxVQW5KbDhGc3pZN2tvNTVaV3UtUzhsNVVUb1VVYzd6Zlg4ekUxMlo1bHRlS2hrcVF3?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Rajasthan"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "First India News",
+      "headlineJa": "ジャイプール：インド初のデング熱ワクチンQDENGAが承認、4歳から60歳までの人は検査なしで接種できるようになる - First India News"
+    },
+    {
+      "articleId": "gnews_b5fb27556c3b3e5a",
+      "headline": "India's First Dengue Vaccine: भारत में डेंगू की पहली वैक्सीन QDENGA को DCGI की मंजूरी, जानिए किसे लगेगी और कितनी मिलेगी सुरक्षा - gnttv.com",
+      "headlineTranslated": "India's First Dengue Vaccine: India's first dengue vaccine QDENGA gets DCGI approval, know who will get it and how much protection they will get - gnttv.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T15:51:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWFRyYnJ2V1haU0MtNXdoOGdKTXBWakFYbkozQ3k1cWFaTEdTUTdTTEtlS1llWEd4amh2VU5PVDhNNjBkSkg1RmhWbjBkZU1oVUZOZjdhRnJMUDBwY2hCRGhCbUxxbWZud3JuaXhmQURqdm0zSUVyQnQ5TV9xNjRXVE8wOC1OdE5abW5PdmhlZ0RqN01GSnEtN21rRDhZMHlkbU5QYkRiUlF2SGMxdnN5UG1QNkNESGNGWUlXSEJScWQ1TEgzT3RiU0twMC1nZm9FcG5v0gHYAUFVX3lxTE90OWhhRmVkSGMyTVQ1d3U1RzNuQVRpOFlwbHVFR3hPbUtaY09WT0NrR0lkQnVnMjlFc3RxVTNXNWRRRjJrcEg3aTFIb2xuTE9mRVdSeHRWdW1NRjNZOURwbUhYbVFPMHhZZE5kVEg3Q2w5ZGZza01lU0dFb2hnc1pObVZVWWVFQVJwUDM0RWtFZmdWeWNWREZhcFplTGZ2M3YwVlY3UU1hQ0tCNUFpNEE1SWptUldsaVRISmdob1BkQWVyTERfbmV3YVNRUnpwNjJHOTV5bURiWA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "gnttv.com",
+      "headlineJa": "インド初のデング熱ワクチン: インド初のデング熱ワクチン QDENGA が DCGI の承認を取得、誰が接種するのか、どの程度の予防効果が得られるのかがわかる - gnttv.com"
+    },
+    {
+      "articleId": "gnews_a0f820292f670f74",
+      "headline": "देश को मिली पहली डेंगू वैक्सीन ‘क्यूडेंगा’, सीडीएससीओ ने दी मंजूरी - युगवार्ता",
+      "headlineTranslated": "The country got its first dengue vaccine 'Qudenga', CDSCO approved - Yugvarta",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T15:45:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUURnc2ExZzBSc0Zvdlk4eFoxNU83YkdlVFFoWWsxei11Nzd0U1pQMFZhcGJSVTA5MEs4dU9MenVzVFZlR2NiRGxwZ0FqdWdEQmpJYVRTdXNWODBOalFqZGJ4R0twTmhhNEJ4SnRzNHU4S1UzWnpXVFJYV3FTNktnd3BB0gGHAUFVX3lxTE1sR0NuUGVRTnNVdlRhT0c3ZERsTmhOQTU1Q1VpUzljVmJ1SmFrbC1PMVJNNXh6azFhd085SU43VmdTQWhieEpRLVRlVUtOaWowM01HSzJlejdoNlZVcEVfNGRCQ29kejVZYmtaalpxdHE2NWhFeXpDbjlLRGlyaE82c0VQUXljWQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "युगवार्ता",
+      "headlineJa": "国が初のデング熱ワクチン「クデンガ」を入手、CDSCOが承認 - ユグヴァルタ"
+    },
+    {
+      "articleId": "gnews_8a5f51638f201ba1",
+      "headline": "जगन्नाथ रथयात्रा के पांचवें दिन पुरी में हेरा पंचमी की परंपरा निभाई गई, गुंडिचा मंदिर में दर्शन के लिए उमड़ा श्रद्धालुओं का सैलाब - gnttv.com",
+      "headlineTranslated": "The tradition of Hera Panchami was performed in Puri on the fifth day of Jagannath Rath Yatra, a crowd of devotees gathered for darshan at Gundicha temple - gnttv.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T15:36:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPRld3NFl1T1AtNlN4RVZwVFdUbUNoeE9zeGJSM3NRNHUydk93MTdsMk9yMENFQmpHaTlJbEVBRlcxclM4N2x0bGwzYktSRjBfOVh5SWdOUFBsa2ZxRkpQQk96RFJsb2RrWmVTdURxY2JIZDBVRDlKM0MxekotOFc2WmJXUGlzMEdEcks3dVpYU01xTk5FQ1B3QTJJNlpmT0JNR21lSzExS1Uwb191a002cWZMeU1fcVk4ZlNkWkZFV0trc0NHRWo1dlpxcXhDSGdKckxsejJQeFN1Rlgwejc3anZBRzZrXzNZdEM4d0kzNGxWQVBpbF91QTczY1FLdjVJ0gGGAkFVX3lxTE1fLUZLcUJSTlpjMXE3cEhPc2xfaEl3QTI3eC12RUVoN0lIOGxsSU1tZVhjREZ3S0poUVdIcW5KY1dzNzRHbDBIem84Y3BHZmNXZDU2X2JRQUJXYnR6ZFdFaF9XTlA2Z1J0UklRcGN4OERjaWJmcWtlb3c1Y1FmeHBaaXZRN09uLWdmN1I1ZVJOcWhZMGlKVGRYNXFSUTY4WlBoeWp6UldWZ1NfZ2hHZ1VjNFpiVG52MU5uQTRoOWdtWHJRd3laS3VzUEtiN2JEZFlHdmxEOWt2NVRBSjhuV0l4X3ZrNlZKTWlvd3Z6bU9YcEJNamtMQTJVNTZyQ19ZTE5mZzNBakE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "gnttv.com",
+      "headlineJa": "ヘラ・パンチャミの伝統は、ジャガンナート・ラート・ヤトラの5日目にプリで行われ、多くの信者がグンディチャ寺院でダルシャンのために集まった - gnttv.com"
+    },
+    {
+      "articleId": "gnews_3667449b696272ae",
+      "headline": "Mosquito Diseases: आ गई डेंगू की वैक्सीन, पर मच्छरों से होने वाली इन बीमारियों की अब तक नहीं है कोई दवा - Amar Ujala",
+      "headlineTranslated": "Mosquito Diseases: Dengue vaccine has arrived, but there is no medicine yet for these diseases caused by mosquitoes - Amar Ujala",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T13:38:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNc1dmcUg1OWtlaGozNUVtM2kwTUVIUGc3Ykp2WGc5NzRoSFZiWFpJQ2FvV2RpNkVTWEt2Tl9CVGtTeFN1aHZEMGxiYlhBOXBjOUhZUHdzM1pLelVjcGVLOU14VnA0OEtfcmc4V2l1UWE5SFlpVWJYdmprMnpLbGpUQ05paVdjbnVCb3JqbEctZndhTnhVOE9kd3FjS2ZIcEpDSENJVC1QeC1SdW54VlA2TDQtWktrb01YTVlITG9qZnRSZ0pHUlFIR2c0dUZzdEt3YzkyTW0tWmFsdms1emxsN0JSNzMtT3lKOVJsQjlra090Y3RzOWpEUdIB_gFBVV95cUxQWUVoeVpzNXppSVJaSjNnZWkxSEtveVRCc1JuYXpDZk5ic2M4akN0MjBnc3M4M3dlbUV1QTVGVEZ4S2VuQWVPcXExOTBpMHIxX180XzlGTWV5c2RZR250dFVyNTJSV25OVzhHOEVoNWtMeHNYR29wbHZkM09SbGktbmgyQ2RnMXBSb1hxaVlPeXE3ZjQtSzR6bHhDTGFXUW5XVUdMSXVENEtOQ0ZwRGlrQmlRRGVxRWpRbWg0eUx1SmhJSEFES1NIdV9QS1g1SGZqSF9nMEt3bnMxRWFZVndNeUI3bWwwbDc0aWVpTkJVaG01Zm5FaERwTkhES09kUQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amar Ujala",
+      "headlineJa": "蚊の病気：デング熱ワクチンは到着しましたが、蚊によって引き起こされるこれらの病気に対する薬はまだありません - アマール・ウジャラ"
+    },
+    {
+      "articleId": "gnews_d651b628747429a6",
+      "headline": "India approves first dengue vaccine for individuals aged between 4 to 60 - The New Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T13:19:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGl5RXVra1AyVThIanlmSDdxeTQ4UjMyQXBSOG9RYVd4STBRWkg5NFYyal9fWGVCajlMY0htU0lnNFhqRTl0dXZSaWd1MUxVUWpTWjZLRnMyel9qQTVjbHJEWWl1VTVVbkxObDhsbFdoZWJjbVhHNGVUMUpaT3U2OExoZnp2dTk4YWxxM2NiakRYQUhIbEdnS3pRZWsyUUZQbHN4LVZlWVlCdi1LcWtqUnhjVG1QRHJiNDNyUEFMNm7SAc4BQVVfeXFMTlpKVmRYYU96VFdxZ09PNTNaX0lDN2pFeWt1Z1ZqMHBQTF9fSW96ZkFqRVVBRlVWM3hFX1pRZ2VaSWZjNDgyTG9YN0w1QkN2YUVIZWE4UTIyUFF4b3ZIeGVfdW5ic0NYcWlHV0xvdjFRc3NVSGJCUHBMR2prVFJEb2FqZnE1Z2dIaDdUaXR2bFV0b2c3LUJNcG05Uy1uNGM1enhrTlRlWVFSTXBjNXQ4UGRpNlNLTlUtN3dXVVZvdzR0UVJEUW1pMDZDOVdxekE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New Indian Express",
+      "headlineJa": "インド、4歳から60歳までの個人向け初のデング熱ワクチンを承認 - The New Indian Express"
+    },
+    {
+      "articleId": "gnews_6f4df65d7eb4cc12",
+      "headline": "डेंगू का पहला टीका QDENGA भारत में मंजूर - Prabhat Khabar",
+      "headlineTranslated": "First dengue vaccine QDENGA approved in India - Prabhat Khabar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T13:18:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUd0NGZoemxhVHdTRXpWU2xJZW8zS0hQTnZYSS1uVUp6RWFocm50S3UwR3Fua3BwQVg3SkJpNnVTMHZwTkVLVWtITHlLVGpXUDItRFdieXEwcDVUMmgyZG40dDZnbkdEckVmVExxWURualFRYi1xaHI3ejBsdVd4dnAxcllnY3VkYVdIcDhQOWFoZjBy0gGUAUFVX3lxTE5hR3Q0Zmh6bGFUd1NFelZTbEllbzNLSFBOdlhJLW5VSnpFYWhybnRLdTBHcW5rcHBBWDdKQmk2dVMwdnBORUtVa0hMeUtUaldQMi1EV2J5cTBwNVQyaDJkbjR0NmduR0RyRWZUTHFZRG5qUVFiLXFocjd6MGx1V3h2cDFyWWdjdWRhV0hwOFA5YWhmMHI?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Prabhat Khabar",
+      "headlineJa": "インドで初のデング熱ワクチンQDENGAが承認 - Prabhat Khabar"
+    },
+    {
+      "articleId": "gnews_6e9d777aa1f9cbb3",
+      "headline": "AIIMS Bhopal Organises Dengue, Malaria Awareness Drive For School Students - Free Press Journal",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T13:08:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcDNTUlBWdnZINkl4TDF2OExDOFF5bjZ6V2UwX09laDFDZTNIQWtsaU9tQVZkLVBHSy1UTEhzbnRNQ0tqR3ZCeHVPREZmdEJwVVNNX3BaUnNPbHdHSGN0aVgzdFFhbU9IZkZ0ZVNLN2NZT1dBMVFLTWtfeV82UE95OUctc1k3NlVEQUE0bkNRRjRmR3VFNFBjcF9oWFJwRFh1STg0WmdCYVhiaDlzWGVlOUhwdmxydGfSAbcBQVVfeXFMTnAzU1JQVnZ2SDZJeEwxdjhMQzhReW42eldlMF9PZWgxQ2UzSEFrbGlPbUFWZC1QR0stVExIc250TUNLakd2Qnh1T0RGZnRCcFVTTV9wWlJzT2x3R0hjdGlYM3RRYW1PSGZGdGVTSzdjWU9XQTFRS01rX3lfNlBPeTlHLXNZNzZVREFBNG5DUUY0Zkd1RTRQY3BfaFhScERYdUk4NFpnQmFYYmg5c1hlZTlIcHZscnRn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue",
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Free Press Journal",
+      "headlineJa": "AIIMSボパールが学校の生徒向けにデング熱とマラリアの啓発活動を開催 - フリープレスジャーナル"
+    },
+    {
+      "articleId": "gnews_224c80491f802f27",
+      "headline": "Can Better Training Prevent the Next Health Crisis? AIIMS Patna Begins Emergency Preparedness Programme for District Officers - Patna Press",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T13:07:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXIwZUtFTEVDZ2REeWRUdVdmUzdLLWVwWXJ3NGVlaUFGV3hXV2Y5VkFXSXZ4Yi1rUVhpdG91TDN4c2lvQVZ5WXZJSjk2OHV3dHZkWGxZQmlvcFFoX3BBclM3UE5lS2VpZUhDLXJWWDZhV2dNbk4tQ01Cck1uSm5yWWc1OHNrRDVNRWlEdFF4aWdsSy1QcDMzUA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Bihar"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Patna Press",
+      "headlineJa": "より良いトレーニングで次の健康危機を防ぐことができるか? AIIMS パトナ、地区職員向けの緊急事態対策プログラムを開始 - パトナプレス"
+    },
+    {
+      "articleId": "gnews_9678a765a9f2894a",
+      "headline": "भारत में डेंगू की वैक्सीन आ गई, जानें कौन लगवा पाएगा QDENGA | The Lallantop - The Lallantop",
+      "headlineTranslated": "Dengue vaccine has arrived in India, know who will be able to get it QDENGA. The Lallantop - The Lallantop",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T12:40:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEViaGlSYXNVQzc4TkdaOWZWME90Y29tdGNKMUdTdjdPZGpKcExaTDl4VEdxcmdOWDlvYUpNZDNRSlVnbHJTajdvT2pJQ0ItNjA5OGpnSjJrV0pJdjg1b3VLd2RxSE5valVnVi1iRkw4aDFEcWVyX25HSk56VTFIRUpOT0phQmxaNVZrbGtDanluem93Qk9CTE00V3RVTXVYNWlZcVJ3ckFORzc3LUl4THl2QjREU0Vw0gG-AUFVX3lxTFBZdDI3U1c3bEhEWjAwOFZXZFA0Qnl0dWx3Sk1FUDhldjloQUx6V09kZFlwZFZNa1U0OEx5MzFvcGVVcF9SOGxDRUMtMjVjYWRmeEZ2YlhEV2lOYUxVRDdudUZaTXd3Nk16YVBFaGxid0QxQnJaLVFtUXk4dHE5WWxUUDA1cUExNGotRWJ4cFJVVFZrbmxoOHo2RE1oRng4c3Z6SUVsaTRwU2ZLVzlsRkpVQTI2Z1h6VHVYZTR5d3c?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Lallantop",
+      "headlineJa": "デング熱ワクチンがインドに到着しました。誰がそれを接種できるか知りましょう。QDENGA。ザ ララントップ - ザ ララントップ"
+    },
+    {
+      "articleId": "gnews_7587f9af42153d05",
+      "headline": "India Clears First Dengue Vaccine; Here's What You Need to Know - outlookbusiness.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T12:25:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa3Jka0p2eV8taVhfUjRJLVEtLVlzZnpCMS1ZU1FtVzlvQUtuSGp1eFlldzJ4bmlkRXRLRFg3VVVZRmk0cjVfYTVZX1N4eWNYdnEwUE1vOVBxeHMzOVFXajRLSUxqNDN4UEpVNXVNXzhqXy1FVUJfdVVOOEJXOG0tWGViYkE5V1pGbkptY1o3WjQ1MWJtT0dnX1BKbHFWN3ZYMWRNbGFn0gGzAUFVX3lxTFAtdWpGckxKM1JfZUhlMXJtZDZPZl9YaGdzalIxbnJwTVlfNnpIR1FzUXk1UHR6ZWhrUzY0VDB4bVk0MWJwbHBxekNrZ1dyYlljeDBvQmxGM0tLQW1VMlVZLUswQUtKSDEzck5oTDJwcUd1eHNPby0yeEZnS0lJS3pFb1ZPbHMteTZZWGd1elRXZU1Rd2kxaVM1Mjk4dUxqa2xEaVJnOV9pVTZlMjBaQjRSOXZN?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "outlookbusiness.com",
+      "headlineJa": "インド、初のデング熱ワクチンを承認。知っておくべきこと - Outlookbusiness.com"
+    },
+    {
+      "articleId": "gnews_c2103ce95f9b8a0c",
+      "headline": "India Approves First Dengue Vaccine As Takeda's QDENGA Gets Nod - NDTV Profit",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T12:05:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb1pZWjNrZE9TMkhBbksxdkI3RExJaHhfSUVzSC0xNmxXN1k5bjZZNXJfdVJpR3RUVk1Uc0hzS3UtV3U0ZDZ6a1ZBcGR3djZ5cEx6VXFxZUxtS0JYWU1uZ2NsLWt0eXcyZnVwQ0JLVi1TbG1qZXVORjg2b09rbF9sem1lcGo2eG5TSHZKQjI4cWN3X1EwdE55cmdORFJ0R3hQOWJtVnA0VXg2X1XSAbMBQVVfeXFMT0xQRFB1SnBnQThoZE04T2NrMVZqQnpWMzlPSXVZRllEd3pyaHR3LXZGOXM3dGhWVmNnekR6anQzZGJoa0tLdFROeE1WNXFfa0dzN2pMUUx5Q3RxM1pwdmpFTkc2dUlpQTFndjVCRXhqczNmaFFvVFdlOXE4T1cteUlwYVFHLWVMYXJPWGFwb3ZPTXVQaEt5U3Nta1FNUnR0VHpGV0JQYk1FWDFpN0QwZFVFdVE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV Profit",
+      "headlineJa": "インドが初のデング熱ワクチンを承認、武田薬品のQDENGAが承認 - NDTVの利益"
+    },
+    {
+      "articleId": "gnews_383057d919a73f8d",
+      "headline": "“भारत में डेंगू की पहली वैक्सीन को मंजूरी, 4 से 60 साल के लोगों को लगेगा टीका” - gnttv.com",
+      "headlineTranslated": "“First dengue vaccine approved in India, people between 4 to 60 years will get vaccinated” - gnttv.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T11:53:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNUEtxcTJWVmFIREhWVV8tQmU3LWdrck1jYVd3ZnBvQTNhSDFOd05uOFNKQmk3NG5pWDVfVzNJRHNfcGpGdWpUU0ljaUZKRnJqNEE5S2R1VGxSMnpCTjVHR1JBM3ZjbFVEbTNseWluR0N0Ym1OOEpKbHIxdEowcEhjU2NZYU95bGhjdjJtenJkVG0zVW1udXdrUWJrQlVkS2RyTEZRLTZocjVJZWh3ZGxxOXFtUDhweUl0T0IzWUdrMEtjdkpuZ3c3ODQwT1BiMFNDWXpyYWFJZkpQYlJRNTZzZUdMdHhoMmFuVHhLUG1UVUVZcmp6M3FGaE9YZVctM2QzTlN6Qmd5WmxmXzJIZi1wYWlIOG9kYmU4Y2VlY3M5SkZSd9IBogJBVV95cUxNUEtxcTJWVmFIREhWVV8tQmU3LWdrck1jYVd3ZnBvQTNhSDFOd05uOFNKQmk3NG5pWDVfVzNJRHNfcGpGdWpUU0ljaUZKRnJqNEE5S2R1VGxSMnpCTjVHR1JBM3ZjbFVEbTNseWluR0N0Ym1OOEpKbHIxdEowcEhjU2NZYU95bGhjdjJtenJkVG0zVW1udXdrUWJrQlVkS2RyTEZRLTZocjVJZWh3ZGxxOXFtUDhweUl0T0IzWUdrMEtjdkpuZ3c3ODQwT1BiMFNDWXpyYWFJZkpQYlJRNTZzZUdMdHhoMmFuVHhLUG1UVUVZcmp6M3FGaE9YZVctM2QzTlN6Qmd5WmxmXzJIZi1wYWlIOG9kYmU4Y2VlY3M5SkZSdw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "gnttv.com",
+      "headlineJa": "「インドで初めてデング熱ワクチンが承認、4歳から60歳までの人々が接種を受けることになる」 - gnttv.com"
+    },
+    {
+      "articleId": "gnews_f6d393c89da0b8d5",
+      "headline": "India gets its first dengue vaccine QDENGA: Who can take it, how it works and why it matters - nktv.in",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T11:39:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ0hwcmhFUEhaNUl1X3Z1d1dtRXhaRXZBMTRYS0c4cVRVSDFoTi1WaTNRdXhUd3dJOVV0aEVKbXh4a0Y2VEp6RTktdDNKT0RBZWVZU1FRS0lKRTRQS0FyRGNFQmMtRlZEbE1nNXhQZEJoVERxSk5qcmNRdURxWjJaZzZIaTJWbTNaeDFBVklMZXFsQkVZRTJuZ3JYWWZIaVNZSzF3QkpYSUdyX1VFQXJ6eg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "nktv.in",
+      "headlineJa": "インド、初のデング熱ワクチンQDENGAを取得：誰が接種できるのか、どのように作用するのか、なぜ重要なのか - nktv.in"
+    },
+    {
+      "articleId": "gnews_672a63e32756a20c",
+      "headline": "भारत की पहली डेंगू वैक्सीन: DCGI ने Takeda की QDENGA को दी मंजूरी - The CSR Journal",
+      "headlineTranslated": "India's first dengue vaccine: DCGI approves Takeda's QDENGA - The CSR Journal",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T11:39:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVRPNVoxX2c2RjYxdm93aC1RQnI0anowVjJUYVluUHZTbnF2NkQ4ZnpQNHpuQjJuakEzR2tiVGhIYmQyNTNSYVByUmFvYzdZM3dnRG44VFI5N3JYb2NKbktXc3Vic2I4VG9qeXdRSFJkQ19hVk5oOXdtTzdveTd4VllhdjJzdlhfU1ZsMmxSbHVZa3hXZkNUeHdWZFh1cGtE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The CSR Journal",
+      "headlineJa": "インド初のデング熱ワクチン：DCGIが武田薬品のQDENGAを承認 - CSRジャーナル"
+    },
+    {
+      "articleId": "gnews_dae5bab22d5afc68",
+      "headline": "Explainer: भारत को मिली पहली डेंगू वैक्सीन, क्या है QDENGA, कैसे काम करती है और किन लोगों को लगाई जाएगी? - Amar Ujala",
+      "headlineTranslated": "Explainer: India got its first dengue vaccine, what is QDENGA, how does it work and to whom will it be administered? - Amar Ujala",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T11:34:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZTBFaVhXVmlobmtpcDZmZE13Qm51SXdVWVBuWF9Ucm9lRXd3eWtSdXF6UUp0bjYyYmU5Um0wYUdhQ0tYbWFSc3RkUW9zaVhUdkY2dlVUSXhhTjZUWDdQYkdlalJZWGZMR3dfc2g5UVVmMWQ4M055em10OXVLakE4ZUF2UGxZMFZRdEUwaGRvWWszd1VXYWhSRDRDVVdJbXpYc3ZqZ3hHTGE2MDNmT1dETFVjQUxpVEJFc2pzSlZJNkZNcVE3RDM3b3I5TjVzbEdPVUhOWNIB1AFBVV95cUxOZTBFaVhXVmlobmtpcDZmZE13Qm51SXdVWVBuWF9Ucm9lRXd3eWtSdXF6UUp0bjYyYmU5Um0wYUdhQ0tYbWFSc3RkUW9zaVhUdkY2dlVUSXhhTjZUWDdQYkdlalJZWGZMR3dfc2g5UVVmMWQ4M055em10OXVLakE4ZUF2UGxZMFZRdEUwaGRvWWszd1VXYWhSRDRDVVdJbXpYc3ZqZ3hHTGE2MDNmT1dETFVjQUxpVEJFc2pzSlZJNkZNcVE3RDM3b3I5TjVzbEdPVUhOWA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amar Ujala",
+      "headlineJa": "説明者: インドは最初のデング熱ワクチンを入手しました。QDENGA とは何ですか。どのように作用し、誰に投与されるのですか? - アマール・ウジャラ"
+    },
+    {
+      "articleId": "gnews_6153f00e0aeadccf",
+      "headline": "DCGI grants approval for QDENGA dengue vaccine in India - The News Mill",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T11:32:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUW5fNkVqc1ZXdVRnSUlMazBRT05HU3NqNlJkYUs1Rm42X0xVQWVpcTVHRTRPSGxQd3RVRHNmYWRqZjBKdVNNWWMwTXhZT1JjVk8xZVl1UkRxb253WnBUY05teld0MHRneUN5Z21BZDJwMHV1dnV6czBoWERjWTlGdkEwNVRCdElzSlNSVzhQc0pidk5XOXRZ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The News Mill",
+      "headlineJa": "DCGI、インドでQDENGAデング熱ワクチンの承認を与える - ニュースミル"
+    },
+    {
+      "articleId": "gnews_49f1f7f0f52633e5",
+      "headline": "Japanese firm’s dengue vaccine becomes first to get regulatory approval in India - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T11:32:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSjJyeUU2eDNIQWtLbmJBTjJhNmF4T2Q1YkZNSk5BeEt5clh5THRhZ3Q3alRCOUZLd2gxbG1KN040TWRlSXU0Y3JJWUxHRzQxLUgxVUFRaEZLcnhfbkx2dnFHTXFadUYxNEdnSHpOZVhXR2JTVUExYU1JbWdrRGdtLVlhQTUyeDdtZHBPbE1NQXFDUkNpYzF5U3hObUZSdEIzeGJscHYtLVRBMUNEUDVvTzBjdU4xd2VQX09rMDg1TnZTNmJYMVIyVUVQRUE0S085Q0dyUGVSdk9IazZGZnN3TDVyVWtSdGt5RXNEQ3lRdGN4aG1UNmJPaNIB_gFBVV95cUxQcGUxbkVsQmpmdDBvSUZMWk95dFJRTTE5cG1LMlVYUEhDVTZQaGpiVGpPU1FkSFY1WnRYazZFb1BmS1ZBS1dkeUIwaTY1Qy1MN1RmS2o1SEdmY1ZGNDZQeEdWVVlITHdQTkx6TWZ0WmVOMGRGOUZyM0FValJPQkpYSy1HcGU4LXNCY3p4dWF2ZjBzaGZOTndQc1haeVN2ZHhGNjlyWnVYVExDZlVwNy1ISDJLRGJoY3NRRFJhbE0tcXo4WUs1MXFxSUdJdmp6VGwzRmRHMl9tTzNGQzRfNjVaMkppSi1TTTRTVjVLNFZhSGVqS2FmOWJtNlRPN0JFUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India",
+      "headlineJa": "日本企業のデング熱ワクチンがインドで初めて規制当局の承認を取得 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_779785c53464809a",
+      "headline": "QDENGA: भारत में लॉन्च हुआ पहला डेंगू वैक्सीन QDENGA, जानें किसे लगवानी चाहिए और कितनी डोज लगेगी - ndtv.in",
+      "headlineTranslated": "QDENGA: QDENGA, the first dengue vaccine launched in India, know who should get it and how many doses it will take - ndtv.in",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T11:08:49+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYS1HX2JkaU5RVWplZEZVRVJyTGpqR1AwV0tHS2lESGtGMzd4Z2ZsX0VQU214V3JhLThIQVhlMU5XLThuVTFZb0xKWm1GekNrU1diR3V3ZVVoWGJsbVBnUFlsWFdrY2RTU2ExQUFIaWlEV2lOSjg2U0I4WTRzS1huNTNpajlXdnNQb1Y1TGJhOFJWamJUQWJNQmo5Vm1LdXRsZ2ZXNGNBYzRGNGRFaFUzcHlJbzlxNERmY1Z0UEtxWFJGMklTcE5rbUVnbk9SbldhRmh2eVpvcmllcDlOT2xYYg?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ndtv.in",
+      "headlineJa": "QDENGA: インドで発売された最初のデング熱ワクチンである QDENGA は、誰が接種すべきか、何回接種する必要があるかがわかっています - ndtv.in"
+    },
+    {
+      "articleId": "gnews_4357e206ec58db60",
+      "headline": "भारत में डेंगू की पहली वैक्सीन मंजूर QDENGA को भारत सरकार से मंजूरी 4 से 60 साल वालों को लगेंगी 2 डोज 3 महीने के अंतराल पर लगेंगी 2 डोज #DengueVaccine #QDENGA #Dengue #DenguePrevention #DengueNew - facebook.com",
+      "headlineTranslated": "First dengue vaccine approved in India QDENGA approved by Government of India People aged 4 to 60 years will be given 2 doses 2 doses will be given at an interval of 3 months #DengueVaccine #QDENGA #Dengue #DenguePrevention #DengueNew - facebook.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T10:47:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwZBVV95cUxNNERBbmFOQW9FT25XQUhtRVN3TUVEaHlQTG1sc2tuczhESWF1Q1dmVmRBSHJGWFI0MnhFa2hlUFk4OTZ6RzV1TnBvUnF5cllqOXJocW50T0hlOV8zYWFra3ljWm9kUmhIYm0xSE91ZXhCaUxxSkdVOGtmby01X1A5Z3pYR0pQYlUtc3F5TVAtdWdURFBWNzJxQXhKQ1hIOW5CUE1ZMGllQk1uRGZIUXFYZTdMUGhTbGplMkczVllPdzN4aGRpY0p3UURsWkhKUElIWXhDb1ktX0ZQQWVhd1JXbG1LU19qZklPdVJMcW9GWUpuUE4wVmxLUVdlRTUydm5DNGw2UmJybXk2bHkwTmhneWVwUmQxRkZZRHhFRmdKUk5FOVJLM0NvUG5yeXlKUUVKYTkwREU0NWlWX1N1OXJqby0xMjNYaTZpQTBYNGRzLXZSYmROb183QWhRamNlSHQwNWdaZzZVVTJHSTlMLTBybmJabVl0aWJrT19jZTlEeEhRYkdER1hINFVKQVdDQnVXOTRCcFhpMUJkMl9PZ1gyUmFDTm5aTlUyVnUyQUhBLUNDSzBzRlIwZG1BUzVnZm9qbzhLajEtSng4bGU5azhvaVJCUDhSb3dySW9JVFlhNzJ6RDlBeGpIc0VfRHRtQ01fVXY3Z2xMVFcyRE1vUEkwM1pEcnc2UFByZFo3SmQ3SVRXc29ZVXg4RHl3eUYxOGU1TWVGVVFaLWRwZlNrUmRaQTJtdXIxOGQ4Y1o3NUVLdHR2Y0dxNXRYcGtwSldoSjVEczhJTEZpd2ktVlNpUzlybUZJb3p0UE1vemVWeGtPLVF6a2N6ZmFOTkQ5TFpUbUhnSE9PVkRTYURsalpPUHRJX3hObkVXOTNITjFmVDJQOUozbldHd3dTd3RyYzZLTmxYXy1nYzNWS2VVZ25wZG1PZ05qY3UxM0RybkZlVjVkaGl6RjltdTJUaDV0NF9YYzhPM0VBSjJ5bGJXeGVWU0xRaDQ0WHhrRC0wcjY5RFFtUXlaTXdNc2FwdUExRklYZnBJQzVOT0ptNGJ0LXhJM2pTYnROd0R3ZG1TRDhzYW15ZnlTazhqVGlz?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "facebook.com",
+      "headlineJa": "インドで初のデング熱ワクチンが承認 QDENGAがインド政府により承認 4歳から60歳までの人に2回接種 3か月間隔で2回接種 #DengueVaccine #QDENGA #Dengue #DenguePrevention #DengueNew - facebook.com"
+    },
+    {
+      "articleId": "gnews_cdd133b8930adbfe",
+      "headline": "भारत ने 4 से 60 साल की उम्र के लोगों के लिए पहली डेंगू वैक्सीन 'क्यूडेंगा' को दी मंजूरी - bhaskarhindi.com",
+      "headlineTranslated": "India approves first dengue vaccine 'Qudenga' for people aged 4 to 60 years - bhaskarhindi.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T10:35:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ1NwcGdKcS1GX242ZlJzTVJwYUZLaW9xT005VG1UVFNnb09zT2JVbko0azNEeUhJZUk3R0h5M2NJZXI3MENDc0JkSjRiZTNGaUVDa2JEOE45cUY5eWhoa0pJaThtbmwwUlFZcVFLQkZ3bDlUMFVfUnRmdVdHZXVaR19qOXVsVld4R2tfeUVLaWw1V0F5Sk9UM2lBTmRXWkFyWmYzTHhmSzFnY2k3ckVzYkZVcHRKY2pMSHdPQmQ4V2dOQjB2LUVkN2swa3h5QQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "bhaskarhindi.com",
+      "headlineJa": "インド、4～60歳向け初のデング熱ワクチン「クデンガ」を承認 - bhaskarhindi.com"
+    },
+    {
+      "articleId": "gnews_20d9da8881b38ab3",
+      "headline": "Dengue Vaccine: भारत में डेंगू वैक्सीन को DCGI की हरी झंडी, 4 से 60 साल के लोगों के लिए सिफारिश; जानिए एक्सपर्ट्स की राय - Jansatta",
+      "headlineTranslated": "Dengue Vaccine: DCGI gives green signal to dengue vaccine in India, recommended for people between 4 to 60 years; Know the opinion of experts - Jansatta",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T10:23:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc3NMOTdVY0gxaVBKd0ZhQjhTUERaWl83TncxbzdkTmtyeGJiQnExY3NPX2hUMnl4ZGx4dFVGM3JvTWNIOEthSzM3S0JLTFktOUF3WjZJcHY4LVZldHJIclJVNFN6RTg3aTQyZXNoVEV5eDk4VXBsT2JTUW50d3dvbVVyUnBqQ1IwbnRvOFl3cEUycDJsQkI3ZER1T1ZBUDBjZGlNTjFPTC1SU1Rib0RqSkFiY19EOFVzM3JyNmFueFZkbEx1QjRPeGJqSnFFLS1yQTVOd0lB0gHcAUFVX3lxTE92TzZYSEh0OFJVRGx6RjVPZVBzb3lkZElxOEZVcERnQ3J2SWhRSnhrRzM5Sk0xbFFDczc4amx5QUVNOWsySmNwb2xlb1UwZUhUUVFBSUFfNEZDRjllNDdGMEt1WFFIaGN0cFZRUF9VTVJ1cjMxR2k5U0dpcWZQUWlvQ0hicFF0RkJPcnFaU0pZSlI5bklqYVVLOS15MDNOMUh6aXVXOGItR19ubGwyemRRRXo4eThKZG5iZlJrWUtHWUwxMTNWenZ6TGc1UTBiR0s1YXZYUlNJTnJhdVc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jansatta",
+      "headlineJa": "デング熱ワクチン：DCGIはインドのデング熱ワクチンに青信号を出し、4～60歳の人々に推奨。専門家の意見を知る - Jansatta"
+    },
+    {
+      "articleId": "gnews_0c23edfefda4a8c5",
+      "headline": "Dengue Vaccine: भारत में डेंगू वैक्सीन को DCGI की हरी झंडी, 4 से 60 साल के लोगों के लिए सिफारिश; जानिए एक्सपर्ट्स की राय - Jansatta",
+      "headlineTranslated": "Dengue Vaccine: DCGI gives green signal to dengue vaccine in India, recommended for people between 4 to 60 years; Know the opinion of experts - Jansatta",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T10:23:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbXlDUkJTVVhtRlNZNmVQdTk1SWR4S3lKRlZlbnZmc20xNWNzVkhvS0Fob0t1UU53LVJkVFNWUVozMnVndWJ0OHZPcVd6OFZjbFVBOTZtLXFac3ppOVdjcWVvWjRiM1BwQmR3QmFSQUhmZU9mMTN4ZUdnbElpZU1JOWN3M2FwY3VxcERpYUduZWpkc1Fid1dseWNOcmQ1LWhrVHBoX1h2Wm8ydzJWZ3hjb0FkSTZSeXVQVkVyUVFjTDZuSlI4dXB6WWJvQnFKQjQ2UExSVdIB3AFBVV95cUxPdk82WEhIdDhSVURsekY1T2VQc295ZGRJcThGVXBEZ0NydkloUUp4a0czOUpNMWxRQ3M3OGpseUFFTTlrMkpjcG9sZW9VMGVIVFFRQUlBXzRGQ0Y5ZTQ3RjBLdVhRSGhjdHBWUVBfVU1SdXIzMUdpOVNHaXFmUFFpb0NIYnBRdEZCT3JxWlNKWUpSOW5JamFVSzkteTAzTjFIeml1VzhiLUdfbmxsMnpkUUV6OHk4SmRuYmZSa1lLR1lMMTEzVnp2ekxnNVEwYkdLNWF2WFJTSU5yYXVX?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jansatta",
+      "headlineJa": "デング熱ワクチン：DCGIはインドのデング熱ワクチンに青信号を出し、4～60歳の人々に推奨。専門家の意見を知る - Jansatta"
+    },
+    {
+      "articleId": "gnews_6935698779db3b17",
+      "headline": "Dengue Vaccine: डेंगू के खिलाफ भारत की बड़ी जीत, पहली वैक्सीन को मिली मंजूरी; जानिए विस्तार से - Amar Ujala",
+      "headlineTranslated": "Dengue Vaccine: India's big victory against dengue, first vaccine approved; Know in detail - Amar Ujala",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T10:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTUhBandqeGtwczV6YUFHTGRQMTVqQkdBSXhwcXV5SnM3UVVrU3ViUksyemItSkNfb28yWnRMZG5ac3R4b0dWbVVKMUNDRWZkbmNkOE4zSlhVNTV0b2pYQVh5dkRwUUM3MnZEWWE1dmF1T2EtWnNfbFMzYXBNUXBsTjBDc254enZybGlQNjEtUm5ibGh3UHJoZGNkazdaWTBOU3piYkJ0OXhOeERVVXluWFFWTElIUG5EYmR4aWVRMWZoSWlhRThWb1Jsbl9mb0F0RElVNdIB2gFBVV95cUxQdWhMYmF4R3h0dnFreFBKN2pOUlR1RHRxMDVLZHhtSUNFUmJ1RGJQYUdRNUZKVUwxeGNjSVJxajlQQm9lM1AzcXJ6VU1ldGEtTnJrOUVrNDRTc1VLVURxWnZ1T1JRTjVZLUotQTVUUkhnRmhWRzhlckFjbVdWb0RmclI3UEVaZU9KeTJSdUVpa3h3Ymx6UzJlSVhyeHBaWFY4dWdBRHNnY3FzYUx5clhrSVR6UWZYUmtRV2xnQnZQMXFma0RqRktCQk9Ya2ZsZ3lPdlBYRmN3cG5YQQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amar Ujala",
+      "headlineJa": "デング熱ワクチン：インドがデング熱に対して大勝利、初のワクチン承認。詳しく知る - アマール・ウジャラ"
+    },
+    {
+      "articleId": "gnews_a7735201e1d29ca8",
+      "headline": "भारत की पहली डेंगू वैक्सीन QDENGA को मंजूरी; जानिए कीमत और फायदे - aazad.com",
+      "headlineTranslated": "India's first dengue vaccine QDENGA approved; Know the price and benefits - aazad.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T10:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOamRoa2VJVGN2MWUyaHc4OGR3ZkJTczFKVjNDdFlXYmNDeHpyejlfX2pseV9Lak91S1dDVE02TXhRT0pQM042QVExTHdGM2pvOGNyaklBSTB3LXlYb0JScS1hNWxWUUx3a0VnMkNtU2RwX0F2cElzMFZaaXpOWk8waDNSQXN2aE5TYkx6SVRYVVBkWmVoaVA3Z2FsY3pXcV9vcTVVTkpPclVBTEdF?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "aazad.com",
+      "headlineJa": "インド初のデング熱ワクチンQDENGAが承認。価格とメリットを知る - aazad.com"
+    },
+    {
+      "articleId": "gnews_3d05aaf98261eaca",
+      "headline": "DCGI ने Takeda की QDENGA को मंज़ूरी दी, भारत को मिली पहली डेंगू वैक्सीन - Prabhasakshi",
+      "headlineTranslated": "DCGI approves Takeda's QDENGA, India gets first dengue vaccine - Prabhasakshi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:58:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTGhJcUlfU3RXRU1uWjRoc1dOdjR6b2Rjd05Bc2NKVVFCQ3FfUHctT0NORlI0X01KbVJ3UjlHMDhxc05idGw4Ujk2TDREMzAtOHk3UHVobm5yVFNOZmIyZ29KZWFOVF9SSVhmTmw4NUk4aDJId2gwNThScHpLLUphMWxBUE5xbldoZzI1MTBkNzlvUm1XWmdfS0EwQTJKaDREcmJr0gGjAUFVX3lxTE9MaElxSV9TdFdFTW5aNGhzV052NHpvZGN3TkFzY0pVUUJDcV9Qdy1PQ05GUjRfTUptUndSOUcwOHFzTmJ0bDhSOTZMNEQzMC04eTdQdWhubnJUU05mYjJnb0plYU5UX1JJWGZObDg1SThoMkh3aDA1OFJwekstSmExbEFQTnFuV2hnMjUxMGQ3OW9SbVdaZ19LQTBBMkpoNERyYms?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Prabhasakshi",
+      "headlineJa": "DCGIが武田薬品のQDENGAを承認、インドが初のデング熱ワクチンを取得 - プラバーサクシ"
+    },
+    {
+      "articleId": "gnews_964b930b573dad60",
+      "headline": "DCGI ने Takeda की QDENGA को मंज़ूरी दी, भारत को मिली पहली डेंगू वैक्सीन - Prabhasakshi",
+      "headlineTranslated": "DCGI approves Takeda's QDENGA, India gets first dengue vaccine - Prabhasakshi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:58:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUFk3cFRyRHFlQnFoWnpGeDFDMGNQVFA2RVVZNTVTYkw0a1NSajBmVE1PUU1OcWg4SmVnQlNGbXFUOFJHZUxqRXptYVlxMTVOWW9rWUxSZFNYQmR6bVlCS24wMTktZE1aVmNOOVJNZGFoMEhVcEJSUGRmeXhDTlZkbjlVT3FpT2x3RW5zbVpjQjJRZlpIbjM2Z1ZyX3A4Y2JaVFZBb1hR?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Prabhasakshi",
+      "headlineJa": "DCGIが武田薬品のQDENGAを承認、インドが初のデング熱ワクチンを取得 - プラバーサクシ"
+    },
+    {
+      "articleId": "gnews_c4a220e949106459",
+      "headline": "भारत को मिली पहली डेंगू वैक्सीन, DCGI ने दी मंजूरी; जानें कौन लगा सकता है QDENGA - Khabar Fast",
+      "headlineTranslated": "India gets its first dengue vaccine, DCGI approves; Know who can apply QDENGA - Khabar Fast",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:52:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNODVFaUhaeDgyUWstbEsxeW5wbzNybnNhX2huRjBHeVdGRzZIWkVrRjc1X0UzYVhSRkVIT3cyMk85MVhzd3NtWTBZend5M3JoREYydnZhUjBjd0R2NTVta19aLVRobWV0ZEl4T1VWalViYTIydHEwMDhLcW52QU42S2tB?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Khabar Fast",
+      "headlineJa": "インドが初のデング熱ワクチンを取得、DCGIが承認。 QDENGA - Khabar Fast を適用できる人を知る"
+    },
+    {
+      "articleId": "gnews_20820906d8765fb0",
+      "headline": "भारत को डेंगू के खिलाफ मिली पहली वैक्सीन 'क्यूडेंगा', जानिए कीमत और प्रभावशीलता - NewsBytes",
+      "headlineTranslated": "India gets its first vaccine against dengue 'Qudenga', know the price and effectiveness - NewsBytes",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:49:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMC1yNk9aenRTZTFXYktBQVkzNDZadmd4QVJhazFFLWdJY3ZvN05JckJPSENuWHVFRW1vWlpzWmZ1NDIyTmtPVHRoTndqZ3J6UVFvX0xXRDhJSEVYdm81SEF3c1F4LXFhSHdJZi1GRW9EcTYwLVlfeTZxMWtkWm1MUnJDT1Fvd0FVSUNUVXJsakF3VWw4?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NewsBytes",
+      "headlineJa": "インドがデング熱に対する初のワクチン「クデンガ」を入手、価格と有効性を知る - NewsBytes"
+    },
+    {
+      "articleId": "gnews_3ce2f479d4a0068c",
+      "headline": "भारत में पहली डेंगू वैक्सीन QDENGA को मंजूरी: बिना किसी जांच के 4 से 60 साल तक के लोग ले सकेंगे डोज, देश में ही बनेगी - Dainik Bhaskar",
+      "headlineTranslated": "India's first dengue vaccine QDENGA approved: People aged between 4 to 60 years will be able to take the dose without any test, it will be made in the country - Dainik Bhaskar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:34:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNUUzT1ZHWTBPY3RPbUJReHY2MmdXMWpLMjhsaFU0bTRkODQ1eldQUk9FcDQwOG94eXpjY052dVJ0ZTRIRGd1SXYtdjc1S1RtcGo3bUxJSlhBTFpLTG5zMndfMWJKem5iOHhPVG9SQk9ubWRPNmY1Sm9UMWJVeWY2a2g0elJwWVZYNS16ZXpjbndId1lheTZHWDNFcEZEcHE4V2NFZHNYZmYtQ21jRUdzNVJqTzk2YkxHRlhtYnFmeWRsbC1jZ0JJOEhn?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Bhaskar",
+      "headlineJa": "インド初のデング熱ワクチンQDENGAが承認：4～60歳の人は検査なしで接種可能、国内で製造される - ダイニク・バスカール"
+    },
+    {
+      "articleId": "gnews_fa31c92518eaa6f5",
+      "headline": "भारत में पहली डेंगू वैक्सीन QDENGA को मंजूरी: 4 से 60 साल तक के लोगों को बिना किसी पूर्व जांच के लगेगी - Dainik Bhaskar",
+      "headlineTranslated": "India's first dengue vaccine QDENGA approved: People aged between 4 to 60 years will be given the vaccine without any prior testing - Dainik Bhaskar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:34:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVzBFcU9DVEJPcncyRnF5Z0QyM3c0WHE3UTBlYm44VTJTX3JPMEVUTk5xVWcyZlhKUnFjWG9ZQVhBY1Y3cVFwUFBYNzN4aTBNQkFaUU55Y3Y2NVowSm9nN1dpVENNb2M0Z2FyWERWYXVYX0xjUzRzMkN3b2NMbklDYTdwSjZ6ZnNWY3F0U3cyeHVMMVc4a19oN2RpU1RlTnQ5UjdrVUVQTFI3b1J6SzJkcEIyYjBtR2vSAbwBQVVfeXFMTnJqa0pzREhJeXIxOURjOElKWkVKbkFLZkhaUGpnVUdNM3psbzhzcXNDVDZkX21TdWE4UlZzd0Q5VWZNVmlMUlFiSEFGVk16QS1DSHlTb2ROb05TaHVRczh2bTdSeTRzXzFiYVRRZXJRaHZhbHdpYlNxMV9uMWt0REUwdWU0Szd4a2hqajI3ZVIzM0x1YUwzNTF2YkxxSG9UM0NKNklVT1ZKbktnZHlSNjcwQjBuX1Fxd2E5RUo?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Bhaskar",
+      "headlineJa": "インド初のデング熱ワクチンQDENGAが承認：4歳から60歳までの人々は事前の検査なしでワクチン接種を受ける - Dainik Bhaskar"
+    },
+    {
+      "articleId": "gnews_0e3319ee175447bd",
+      "headline": "India’s first dengue vaccine approved: DCGI clears Takeda’s Qdenga for those aged 4 to 60 - The Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:26:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZEhXMkQ5dXJWQjVFdGRpZV9qYzhiVXcyN2s4NVZURFhiWVBZc2p3RUlNQkJHMktCZkNoZ0Z5SmRtbjM4S2VGRlFxZW1SSjJkMjQzcnFUd0dxaXRfSmptcTZBSV9nd3dma2x3Qmc2MGhvMkttSndXMExZWUc5OGJzd2dPRHNZOWlEb0lmOWtwUEo0QjA2WF9qTXh2d2RIQVU3WTE4X2c2cEo2NGRxMXd5VNIBtwFBVV95cUxNVmNnTERELW1wZmRGampDM091LWsxSi1JMWV1bmd1ekgzRWM5RjlWQU9VSWxtejBodTJJTXNkeWN1dG9aVkpkeHJqZXlOX3R1aDMxWUF2MmE3dHBvN3JiNmJSVm50RVNzSjgxVXM0Q2JXNk92RjVMeVdlN2VQOXNOSkliRXBDU1Q4djFudVQxM3pEZDNnY3J4SGh1ck15LU8yRG9fbnc5Q0Y5alZwa25MU0tfYUNhRzg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Indian Express",
+      "headlineJa": "インド初のデング熱ワクチン承認：DCGI、4～60歳向け武田薬品のQdengaを認可 - The Indian Express"
+    },
+    {
+      "articleId": "gnews_4afc41565553b4de",
+      "headline": "How effective is QDENGA? India approves its first dengue vaccine by Japanese drugmaker for ages 4-60 - theweek.in",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:23:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSmpvT3c0ZkZ1YndCTDhIS21LRi1pQVNGR29mNkpJaURIbTdxdFpRUWNZXzVXRDhwZkxwa3dybjM5OHpDWEdBNElkYTdBQ3hGS1JFUzBndWh3QW52S28wUWpwTWNnbGtwU05laVhNamVXUmMzUlNkUklBSjFnMzR4RWZYMDdLcmJtYXR1dTZlVGhzOW5pak1CVUZ1VVRoZEJXQ2Y2NDhxUExNQm9ERW5UYWQzNWJrRlN6X0UwRTRLZjVUSFc5dDhvTlUxWHpTNXVMSVA1ZklPd2pWTW1JblRr0gHkAUFVX3lxTE4wZF84R1F6TFNlVmN0QXRXYzBac0E5cEY5Mmh3NmZHWFRTNVIzZGx5NGFKcTNzZFAwU215d1pVcWRKaGsydmQ2NDZXSE1aQTFpSWVWWmdRbUZYbkRXTlBQN0s4QTBjTkRTTEtlME51dW9JVHhtWEJkTWZuc2lheTB2Y1lVejdqOXBrdlUzUGRpRC1rcE5BTndnMm1DcGZkNmtQR2tUZ0ZvaHkyQlFsNFg1dUtyV1JKdEtXeE5tSm11N0JzU29ibjY1Y2lFSGFKN0ZCSzFmMXJsZjF1ZEdNTmZ4NUE5aA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "theweek.in",
+      "headlineJa": "QDENGAの効果はどれくらいですか？インド、日本の製薬会社による初のデング熱ワクチンを4～60歳対象に承認 - theweek.in"
+    },
+    {
+      "articleId": "gnews_2e51f2c9795e2a23",
+      "headline": "भारत को मिली पहली डेंगू वैक्सीन, 4 से 60 साल तक के लोगों के लिए मंजूरी - DD News",
+      "headlineTranslated": "India gets first dengue vaccine, approved for people between 4 to 60 years - DD News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:22:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcFhxY3hRVWI3bXlZQ1ZMTHI5bTJQVlZ1NS14UUNVNEMwV1JGTkdZZ0NyRS1zZGo3aTNVR1E5MnUwMTM1QVVhNXMtOTBQM05TU0NnZlZKWFFmenBtWW1DOVNyS3NPVU41T2RFczNOTDljUDhXMmdrQzgyM29WM0JfRlRjTUVkbVNEdms3NHd5VzJsZE92c0E?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "DD News",
+      "headlineJa": "インド初のデング熱ワクチン、4～60歳向けに承認 - DDニュース"
+    },
+    {
+      "articleId": "gnews_2fb9ed091cfe94cb",
+      "headline": "देश को मिली पहली एंटी-डेंगू वैक्सीन, DCGI ने 'Qdenga' को दी मंजूरी - India TV Hindi",
+      "headlineTranslated": "The country got its first anti-dengue vaccine, DCGI approved 'Qdenga' - India TV Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:19:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcnRiWkxXYTZVT2VtNzE2a241Y1BoVk0zdEo0RmNmM0x0Q0xDVmJWZFgzNmExUTZBMWJOMzFzT2EtSktmM3lQcUdWX1F1bVdtZHdRM3RHUlAzUEdLN3hnOFNUVXMwTDdTckJPT1FpR2NqWExNc0FxalhxVHFVRFVOWHlmQWdwUThpQVhkcDFJdW5pelVHV00xNllacWdlWENJWTFrX3RUbXJyMnlSN0w3Ykd3TldUU2NGSHI2N9IBwgFBVV95cUxOYUItZDcwbTV4a2o5a0hlajZUUXY4TmNOX0JYVm9sV0EwazdJSkVGWl9zRUhxc1d5dkxmdnlrUU1LbmtJWkdYcXJPR0l5alBTR2pxZHZZd3pvNkJmcVhYYzJ6Y0czMVJsMHlQZTFGdW4wcnpBbXlhXzBKRXBmdHZIWmd5ZDZiaTd3OGhBd0VqaldCWHZQN01JZVpINWJwcElZaUNLeGZ1akItMlo1NUtNNHJkZG5EYkYyZ2s4MTNqbjRFZw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India TV Hindi",
+      "headlineJa": "この国が初の抗デング熱ワクチン、DCGI承認の「クデンガ」を入手 - インドTVヒンディー語"
+    },
+    {
+      "articleId": "gnews_bf1da2b3f30c2b2b",
+      "headline": "भारत में पहली डेंगू वैक्सीन QDENGA को मंजूरी, रोकथाम की दिशा में बड़ा कदम - GK Today",
+      "headlineTranslated": "India's first dengue vaccine QDENGA approved, a big step towards prevention - GK Today",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:04:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPbE8wX3ZRX2RhRlduLUxmb0E0dkFhOGZKV0hrVUJ1LThuRGsyeUVhZ2RxWWhDQVA5SHNFbnNLc0U4ZHVDT1hKSFB5d05BQ29VdW93SUdWZUtBY3ZkMU5oLWxoeTZ0ck9SUnVEMEZSc2dDYWhnU0U4czhWaW40MjBNWEVmZ0VmdjRDV0FVSi0xSjJkc3ZlZ3dzU1Zhd2FuWWVfcC0weG53T0ZUQ2FNRkp0TS10cmpFMXNrVmdKa3VqckJoMnpNWUNlaFI4ZUZBVks0VkYyUTQ4eUlUMklCTXhCdld5SEFEcGw1X3FRU25oYnRRa3NiUnhScTFJVGVEQU1ycmF4SXZCUVdHdDE4VG93d1l3OThteklrSXhpNWZPUnA4MEZ5MVcyTDU1Y0huZVZ1OUdTeGZCcGJDdGNBUzhWRjlkSGpQZw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "GK Today",
+      "headlineJa": "インド初のデング熱ワクチンQDENGAが承認、予防への大きな一歩 - GK Today"
+    },
+    {
+      "articleId": "gnews_c97ee57d17b928dc",
+      "headline": "भारत में पहली डेंगू वैक्सीन को मिली मंजूरी, अब डेंगू से लड़ाई होगी और भी मजबूत, जानिए पूरी डिटेल #India #DengueVaccine #Vaccine https://www.india.com/hindi-news/health/india-first-dengue-vaccine-qdenga-approves-kno - facebook.com",
+      "headlineTranslated": "The first dengue vaccine gets approval in India, now the fight against dengue will become even stronger, know the complete details #India #DengueVaccine #Vaccine https://www.india.com/hindi-news/health/india-first-dengue-vaccine-qdenga-approves-kno - facebook.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:04:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgdBVV95cUxPN0g3WmMtWmNyZGVPZENDX0dYTzJ0UE41cUd1S0cxbXVTelZvTWZPeWk4ZGZmVHZlbWcwTmRLQ2dkTjJyTUV3RXZmYkVqVEpQbm1DckRYRVhVS19mdzI0d296bElTT3o3SUMxVjlpNS05cUc2MmN2a2ozWUpVQ002TUlFSFU3SnM4SkRzdnRzQXFTRlVtXzUwT21DMS1HZ1REaUIxRFczM3pId2gtV05VSHhQVjFNYmpKQWR2c3plMF9lQlNldmk1MlJsOEhLV3phdE1rcDlBOVdJdEI4VWpRSnY1TnRqcXlQalR4TnBHZDRpRXdNZzU0ckFmbm1FQ2liaHhfd0xuQnZST3dURDQ2SWRCUkpIWXhVZ3RTbTBfQlBucUUtN1RuUDRaOEFLSTNQMExIcDVCV25JSWhaZVJwN3hRUUtxcHFMVDNoZE9GSTVIc1hrQlYyZUYxZ0tNTk9HWDJHYjVNRFc2R3lXZVdmYmRKTE5GQ3c1RFJLNWJiWVVUd3dmUDl2dE5pZFpud09URzU4cFhYT1RvQ1BMQ0VUYnd1VkpnMGdPVVpTZ0VGZkpwR01nUnJfb3IwU0xBYVBiOTZZSWlpUDNqcTRtR3dTejVReUF0N0ZwUlp1QUJSUnM0MklPYjhReE5iZjdGNVpsNm5wM0RvalNGaE1YUGdzT3dwRFVhWlNXclhXZkZsZGlHeHpkMWVyTWhkSW5UTlB2WFFDU3JGSVRTTE5FM2NFblNCeklqWHVLdFRVRDhiTXV5c1BCRHg3RldJZ2p6LXhjQVR1ZzNSOWt1d09sZHZlQzFCZjNldmZVNnpQd3I0Um1WY3hNVlJnaTNZcjJMN3JvZFdMekwxanhyUjJGT2JPczFxRi1QZTIxWHZLVUg1RzNNckg3M0luWDNrV0ZZRHptMWx4WmktYjNTZFpVVnN0WjBUbndnQTcxUy1iZUpJOHZ3ZFRZSldfaHpveUQ1TEZwTUhyTW1MSXZaSzl1cWVGUi1VNXFVWTFxZ0dYRWNubm16LWhqUnh2alRKR3luWm5hMzNMUFBkSkkzQ1dpczEzNElKbTVHbVNXUDRnUlFpZEF0TlJWYXhaaE13YXFFWFoyVUtfM0p0X21MNXVHQzAyeno0WlZrUjNZTjZ3T1d5cjJtQjJJa2lFQmJfUFQ1dWk4bm1iQ3QyR2VRTU8xXy1nVjMtMTQyUQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "facebook.com",
+      "headlineJa": "最初のデング熱ワクチンがインドで承認され、デング熱との戦いはさらに強化されることになります。詳細をご確認ください #インド #デング熱ワクチン #ワクチン https://www.india.com/hindi-news/health/india-first-dengue-vaccine-qdenga-approves-kno - facebook.com"
+    },
+    {
+      "articleId": "gnews_8f69072d2a891232",
+      "headline": "Dengue vaccine: डेंगू के खिलाफ भारत की बड़ी जीत, पहली वैक्सीन को मिली मंजूरी; जानिए विस्तार से - MSN",
+      "headlineTranslated": "Dengue vaccine: India's big victory against dengue, first vaccine approved; Know in detail - MSN",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T09:02:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gVBVV95cUxPWTRGMkNqR2JrQ2dKSzd6U0x2WjBvWFA0T3Ixb0I1dHdhZUxXbXl3ZzdCNml6SUplRGt5RTJnRHZYemt0SEtoMEttZ1dpQWg1b2huZ0V2dVpUeVM5eTluOXdmQTFlaGtHQ2JMV1dtYUY2bzAxSDJzWEdhMllqWkhLZkQ0T0RjbkUxTnhkSFhRVmJiM19HZk5zTlR0a2FSRm5sSDdaeWM5bmUyQS1OS3owV3p4S2tIaWpGQ2NuTEpjTk5jdjVkdjh3TFRfZEU5dGExVVhza0JwdUE4WUx3SHFBSE5tZzhRVXFkMW1PYVFuTGdtMENvYXdEeWk0ZGFaM2M1MENnLW5FUTYtT3hVUTBsbzlyOUY2dmJHNnVUVG56MDV3SGtUTnkxSm1uOVpZSF9hOFVIV1lMVFNNNW5IZnNFZm5pZUZzS3FXMFVCUGZ6RjhEbzByVVNGeHVzZEtTZllGRG9SNzh6cTNFVUZiVUFMUjdYZmtMNnpDbXhJcEdxRENCZTlscUNkZ1p2VVZ5eGVrSXNRN2NwZEVoalJ6WUFuUUN2UUtzdF9DbTFLVnl4QTk1ai1uN21IcjRFTnBIMU5rVS1sQlJZVDJKMUVvdUJvSDBBb3owbWFzaDdrWU5oeV9aeVBBMnp1Vm9JTTRFTFU1UTN5ZzNOZG13NWlsUnAtZW9aN2dGZ1JUS29wVFROQjEtQ1d5QWFjaDY2a3lVOTVROHFHVnZwcWdia3BKa3lUTFRXR3hzd1ItQW9wamF5RUNxcnNmcTJIRUpOZ05ldmRMazVFbVhUOE5oNGJvQklsLWNnM3FlY0pqVXFOVkhvaVhWYVpUU29FX2lQaWlFZVlSN3duZGR3Sk1fcXY1VUwwX2w2eDNmRm9pSzZSbVpwcmNEcmdBS3FOQlpCb0RVVWt1d25pcFp3Z24xOXBFN0xTYTJCcVFnc3JXSkRQYkhBR3RlS09TQVh0TmV4S0ZIRVdPQ19UZVh3?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "MSN",
+      "headlineJa": "デング熱ワクチン：インドがデング熱に対して大勝利、初のワクチン承認。詳しく知る - MSN"
+    },
+    {
+      "articleId": "gnews_5c975d7ef02d3d03",
+      "headline": "Takeda QDENGA Becomes India’s First Approved Dengue Vaccine - Passionate In Marketing",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:52:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYTZlRERjNVk2eFdGMk9yMU9OS0dmOHE5QjFtWFE4b04yLTQ0NG5lMEFmSW5zOVk1VFlNZUsyaVFKalZPLWdXcUdQSHBPdUxsLUFRTVZaTnY3N3pCQ2NLNlhOWlh4SU5mdEdmUWRSOHdncjBVMTdkUmc4TWZqN3BybGhXT256ZlZxT1lvRmpBWHVDLXZHLWF2TFdQVkZqaERnME41RkVhcFJEaUlBNGF5cDlmQXg0MTlDaEVlZ2UtV1dIcWpsbTVscmRKZ1pGRkhlSUo2cHRNbU9CcENmVlZPbEVvUnNtZmFZYjJmdDZB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Passionate In Marketing",
+      "headlineJa": "武田QDENGA、インド初のデング熱ワクチン承認 - マーケティングに情熱"
+    },
+    {
+      "articleId": "gnews_e63acd7befb11935",
+      "headline": "भारत में पहली डेंगू वैक्सीन को मिली मंजूरी, अब डेंगू से लड़ाई होगी और भी मजबूत, जानिए पूरी डिटेल - India.Com",
+      "headlineTranslated": "The first dengue vaccine got approval in India, now the fight against dengue will be even stronger, know the complete details - India.Com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:51:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUmVtY0NvbHJfaGtobmtXWEN6U0xVcm9PVTlhVzZxeEMwMWZoOHBuc1RSUXRGZHNCU09lbjRhOE9SMjFIdWJ1WkhzZzBKc1MzaEZEQ3drMEZYZ1QzYnpidU1wbXpoYWM3NXZMZFpHcDhQSFJvMXFERmxFcjNmMHhqX3NRRzRsVzhDUkhXeVNsbnM1QnpZUllpR1Z4UGJxcDZGRXp2RnVfUlRYRUZiNmxiY1NJWVdaX0Fx0gG4AUFVX3lxTE9SZW1jQ29scl9oa2hua1dYQ3pTTFVyb09VOWFXNnF4QzAxZmg4cG5zVFJRdEZkc0JTT2VuNGE4T1IyMUh1YnVaSHNnMEpzUzNoRkRDd2swRlhnVDNiemJ1TXBtemhhYzc1dkxkWkdwOFBIUm8xcURGbEVyM2YweGpfc1FHNGxXOENSSFd5U2xuczVCellSWWlHVnhQYnFwNkZFenZGdV9SVFhFRmI2bGJjU0lZV1pfQXE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India.Com",
+      "headlineJa": "最初のデング熱ワクチンがインドで承認された。デング熱との戦いはさらに強化されるだろう、全容を知る - India.Com"
+    },
+    {
+      "articleId": "gnews_93193f8d7e15ea05",
+      "headline": "भारत में पहली डेंगू वैक्सीन को मिली मंजूरी! 4 से 60 साल तक के लोग लगवा सकेंगे QDENGA, WHO भी कर चुका है सिफारिश - AajTak",
+      "headlineTranslated": "First dengue vaccine approved in India! People aged between 4 to 60 years will be able to get QDENGA installed, WHO has also recommended - AajTak",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:37:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYmdQYnNad3cydFltc0U1ekxNYU1RcDdzd01EcWVsVjFRT1VuOUpJZ0E4bHVJbmtVWkdIWkhGRE9YWndUTS11dTNxT3pLckRHNWx4WGRYVGhuQXQ3RlE0MmI5ME1TcjByQy1TN3JpS3JrRFlRaGJ5Z1Rhd2RnQ2F2azZMVWNSdDQyZkR1T2pfUUtFZ0xjaHpLaWc4Y1JkTHgwMWJWMnpHLTZodk1BN1hIa2hhckZDTXdmU0hGQ3EwdllLY2JILVhnQUo0NTMtY3U4dGYzYnBmY0xlenFjOWVkNXUwcFVXOENOMkxSS3NR0gHzAUFVX3lxTE05UlM1VUdKR0Q0X1FNQUVVSG1SMlFXX0xuLUlHdnpoaHE1SG13amdsOUtrTVphUE85SFQzUWloYi1GUXVpVmtPb191aEZicmxMZFU5c3hsZHUyRDMzLXhwMDlXd0xjMkp0eUNCSTRXcVV2ZnRONC1TTUVnbU85OU9MMkpUWmVIQV9qNzFmUmNscTFXdnM4NW9RZFQxQmNCUDVhR1NLbWgyV3FSVHBEc3UzUW5VRVMwUXBKNGpjWmpEdGZYcG1CUXZWdXpaZGNlWHFLdzdQelJzTjRNR0NzajlBUm1SVlJ3VmtXNUUzNjZwYS1CUQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AajTak",
+      "headlineJa": "インドで初めてデング熱ワクチンが承認されました！ 4歳から60歳までの人がQDENGAをインストールできるようになり、WHOも推奨している - AajTak"
+    },
+    {
+      "articleId": "gnews_14616f49e68151a2",
+      "headline": "भारत में पहली डेंगू वैक्सीन को मिली मंजूरी! 4 से 60 साल तक के लोग लगवा सकेंगे QDENGA, WHO भी कर चुका है सिफारिश - AajTak",
+      "headlineTranslated": "First dengue vaccine approved in India! People aged between 4 to 60 years will be able to get QDENGA installed, WHO has also recommended - AajTak",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:37:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOVJTNVVHSkdENF9RTUFFVUhtUjJRV19Mbi1JR3Z6aGhxNUhtd2pnbDlLa01aYVBPOUhUM1FpaGItRlF1aVZrT29fdWhGYnJsTGRVOXN4bGR1MkQzMy14cDA5V3dMYzJKdHlDQkk0V3FVdmZ0TjQtU01FZ21POTlPTDJKVFplSEFfajcxZlJjbHExV3ZzODVvUWRUMUJjQlA1YUdTS21oMldxUlRwRHN1M1FuVUVTMFFwSjRqY1pqRHRmWHBtQlF2VnV6WmRjZVhxS3c3UHpSc040TUdDc2o5QVJtUlZSd1ZrVzVFMzY2cGEtQlHSAfMBQVVfeXFMTTlSUzVVR0pHRDRfUU1BRVVIbVIyUVdfTG4tSUd2emhocTVIbXdqZ2w5S2tNWmFQTzlIVDNRaWhiLUZRdWlWa09vX3VoRmJybExkVTlzeGxkdTJEMzMteHAwOVd3TGMySnR5Q0JJNFdxVXZmdE40LVNNRWdtTzk5T0wySlRaZUhBX2o3MWZSY2xxMVd2czg1b1FkVDFCY0JQNWFHU0ttaDJXcVJUcERzdTNRblVFUzBRcEo0amNaakR0ZlhwbUJRdlZ1elpkY2VYcUt3N1B6UnNONE1HQ3NqOUFSbVJWUndWa1c1RTM2NnBhLUJR?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AajTak",
+      "headlineJa": "インドで初めてデング熱ワクチンが承認されました！ 4歳から60歳までの人がQDENGAをインストールできるようになり、WHOも推奨している - AajTak"
+    },
+    {
+      "articleId": "gnews_b705c4bf0f54bb38",
+      "headline": "भारत ने अपनी पहली डेंगू वैक्सीन QDENGA को दी मंज़ूरी, डेंगू के ख़िलाफ़ लड़ाई में एक बड़ा कदम - Lokmat News Hindi",
+      "headlineTranslated": "India approves its first dengue vaccine QDENGA, a big step in the fight against dengue - Lokmat News Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:37:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVGhhSEpiVC1BdW9xOFNXcnZiempOUndoUk1RNmZCYV9henN6dkFSYWJwV3hVblhuUWJaVGhfcExOR3J6MWwyM0hWVkxvUi1LWmN2VDJrTW11aDh5MkxLM3NVQ0FwalJCUm1QcDF6VDE5b3d3b0RaV1hGV3ZTZzExM1RURW15eDNydHlEdEZvWDBHbWNkWTV0ekR4MDRVZGNWeFlWcTdkM1F0cjYyVzJfQ01JU0JEY3lpZ2pKXzU0bTNOUWvSAcgBQVVfeXFMTUZZYzY0YmljLUFaR2RsSlQyemcxRzZDb0R4cTNXVUZTQ0k0X1dvLTBJNGxhLWtSLXp0d1hnRWkwc2ZTX0xlTnZLTFlxWXBlYm8wdWdZUTYyY3JsbnUyV0pDaDVYc0loMXVKeUc0eDFHYTlCMzlRQ3FVS0FpN21aWFNialV3dE54ckZENjdqZ2NIelh3R2d3aURuMk8yeW94T0dadEg0VzZmN0FvT3RhU1RsVVZxZXNVTE5XTS1DUkE1MndGcFJ1SEI?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Lokmat News Hindi",
+      "headlineJa": "インド、初のデング熱ワクチンQDENGAを承認、デング熱との闘いにおける大きな一歩となる - ロクマットニュースヒンディー語"
+    },
+    {
+      "articleId": "gnews_52a864a7931045e3",
+      "headline": "Govt approves first dengue vaccine for ages 4-60 by Japanese drugmaker Takeda - Business Today",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:18:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbmd4VXNubTduVFJHUjBWa2g2S0hzRnpMLUF4em12U093ZVhIb1pLbEhMbWNPWVV4NHpuSlJwTFppZlY5SnRWWHNhbUtUR2lKWkpBZ3J1RURIMmI5UTFhN3ZBT1V2bXByZFpmSjVLQXZfRjRqdzZCNUYycVdENFZ6a2xjdkhxT1lFSkRqWFFxT2RVX1YzOWZtNUR1RW11enItM0hYR2JCdkJ2b1FfUkU2MkNCTC10LVJlNDBOR05pSzk0MG1Kdld6MmtkNE9ZaHdnOFd3Zzh0Y2FjeE1uSWE5MkptZ9IB6AFBVV95cUxPbDFvLXVQeG1VY0YzVXJJRnVDektGeHhDbjNQc3ZrdzBJYzh5N1dNUkdhdWdPZXBVaEdjWm83RTcyaGNiN3dwWmJ5enVFV3hpbFF1SnJQVFpMeXpPcGJ6UmYxbFhFc0xHWGkwNU4zVGVTWnpBQTJLWHFmZVkxQ05kdzJMdW10TERMTTh0cHFub2swLUxtVkdrZ2ZGdEVSN0UzWUZVVjA2SmhpbkhVcXJhWG56cFlscDhfOXJPc1dSTFFoel9HTlBwZVk5eDdJNEhnLW01WjNFNkxBUU0wUFZ0bGRIb2pfXzJ6?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Business Today",
+      "headlineJa": "政府、日本の製薬会社武田薬品による4～60歳向け初のデング熱ワクチンを承認 - Business Today"
+    },
+    {
+      "articleId": "gnews_6760502aee57c964",
+      "headline": "बड़ी कामयाबी: इस भयावह बीमारी की आ गई पहली वैक्सीन, बिना टेस्ट के लग सकेगी खुराक - Hindustan",
+      "headlineTranslated": "Big success: The first vaccine for this dreadful disease has arrived, the dose can be administered without test - Hindustan",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:17:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYV9LN1JQMEVpQ0ZyVTJweDJhYzIxVTA3OWVVaHJYSEJxRjlJTHhWZ2NkVnhNb2pCWTlLM3BGQ3R5UnNYYmt5dlhhdWpEdFg1WTFzUnZCR0dnN0hFUWEyckd5UVgxSW12V2FHaVlZWWcxVUUyeFpGMXBIQ2FPc3lxWm1WdU1UZ2czRUgwR0V6ZWZSNjl3cjhkZkExNm91RHJGZE10UUp3NVJqcklIZVdGQm9Ra1pqdXNPZ2s1UGdoSE9vLTJ50gHKAUFVX3lxTE1GdExCR25rVzVCLXQ5N2VvZ2g3ZjJvV0luQjR1OEVDbXBBTjlQNkdCTVF4cXZRR0RTVnhGM1p3cUhxbmFMbE5RNEtwQmlWRTcyM2UyVDQ5UkdEcHFhVU4tbVBsaGVzdTBEd3dfdy05UDk1Vy1NNm0xY3JsVkJzWk1FQWc4ejJRbTB3WE9TenhWQnlLU29TRmI2TXpKSlk2UXlNbWRTbldVUDZnVXpJUFB3Zk9JemlmZ3N1ZkJZUjN1eTFnb3VOYnlMUVE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindustan",
+      "headlineJa": "大成功：この恐ろしい病気に対する最初のワクチンが到着、検査なしで投与可能 - ヒンドゥスタン"
+    },
+    {
+      "articleId": "gnews_36455654bc3303df",
+      "headline": "अब डेंगू से मिलेगी परमानेंट मुक्ति, सरकार ने मंजूर की जापानी वैक्सीन, लगाने से नहीं होगी बीमारी - News18 Hindi",
+      "headlineTranslated": "Now you will get permanent relief from dengue, government approved Japanese vaccine, applying it will not cause disease - News18 Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:03:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZlVxSkU4SVVGYjlFMFlaTkR3TkhiT29rZFBPRGg5ZWJQN3lrRjRyVzVtMlZicnNqaFBZZ1Y1Z3ZNN1lVOUM3aDBpZVNDZkRITjZfXzE3VXpLT3U3OXQzbmFuc1ZrY21URGZvRnNtMG5JbEw3Mkp0S1ltRjV1blVtMkprbGN5N0YtYk9xdlBuRFpLR1Y1N0xTTzdiREE2QjR3S3AtdmpzaWZkQk9CY0hRcktFajZ0U0RyMkZn0gG7AUFVX3lxTE5mVXFKRThJVUZiOUUwWVpORHdOSGJPb2tkUE9EaDllYlA3eWtGNHJXNW0yVmJyc2poUFlnVjVndk03WVU5QzdoMGllU0NmREhONl9fMTdVektPdTc5dDNuYW5zVmtjbVREZm9Gc20wbklsTDcySnRLWW1GNXVuVW0ySmtsY3k3Ri1iT3F2UG5EWktHVjU3TFNPN2JEQTZCNHdLcC12anNpZmRCT0JjSFFyS0VqNnRTRHIyRmc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "News18 Hindi",
+      "headlineJa": "これでデング熱からの永久的な救済が得られます。政府が承認した日本のワクチン、それを適用しても病気は引き起こされません - News18 ヒンディー語"
+    },
+    {
+      "articleId": "gnews_d682a6c7f2d98ca2",
+      "headline": "अब डेंगू से मिलेगी परमानेंट मुक्ति, सरकार ने मंजूर की जापानी वैक्सीन, लगाने से नहीं होगी बीमारी - News18 Hindi",
+      "headlineTranslated": "Now you will get permanent relief from dengue, government approved Japanese vaccine, applying it will not cause disease - News18 Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T08:03:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbGM5SlNSOGxYQkZBM0lPSEZJdEg3bjNNTXhEXzZJMjNvQTJlTWNSblN6WmlhMG9kcHJGWDBMTEhMSXNhQXJJbnM4d3JLYkJuSGhiQS1lTGV1aFg2Szl1ZTlsd185eUIyQ2JjM1pveHVFMUMwTXFoTG5XNHVoMVJiMXZfbzF6NEZzVkFLbDd1blBFaWNsSm9UY1JDSGtsUi1xRTRPOG1yVmNibU9RMFpjd18wanBOQdIBuwFBVV95cUxOZlVxSkU4SVVGYjlFMFlaTkR3TkhiT29rZFBPRGg5ZWJQN3lrRjRyVzVtMlZicnNqaFBZZ1Y1Z3ZNN1lVOUM3aDBpZVNDZkRITjZfXzE3VXpLT3U3OXQzbmFuc1ZrY21URGZvRnNtMG5JbEw3Mkp0S1ltRjV1blVtMkprbGN5N0YtYk9xdlBuRFpLR1Y1N0xTTzdiREE2QjR3S3AtdmpzaWZkQk9CY0hRcktFajZ0U0RyMkZn?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "News18 Hindi",
+      "headlineJa": "これでデング熱からの永久的な救済が得られます。政府が承認した日本のワクチン、それを適用しても病気は引き起こされません - News18 ヒンディー語"
+    },
+    {
+      "articleId": "gnews_e6b7dfb0e328b183",
+      "headline": "टाइप 2 डायबिटीज से पीड़ित लोगों को गंभीर और जानलेवा डेंगू होने का ज्यादा खतरा, अध्ययन में खुलासा, विशेषज्ञों से जानिए कारण - ETV Bharat",
+      "headlineTranslated": "People suffering from type 2 diabetes are at higher risk of severe and fatal dengue, study reveals, know the reason from experts - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:55:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOb202a0lYb1E4OE9BNTQzdEphSUhlNU5IOFEyYnBaeEI1ZldsRVhQVlQtaGRhM1FoN0FzWl9heUJ4Vnl5U241YzNZcEd0YUM5MVNnZHR0YkdWQU9iOU93LXJGME1vWS1mQTd3OGQ4ZFc5MEpBMC1GcUNhRkNlVExjeS1jX0pXSnNHM2JCRFJ3dG1QbWtEb1d5S01jYkRjSndzdGxmcXc4V2psY3RlVFZJVGV3T3M3c3RMYlNZTEo5U011cHhtNXdGYU5FUlEtU2JpMGJCU3Vxb1jSAdgBQVVfeXFMTm9tNmtJWG9RODhPQTU0M3RKYUlIZTVOSDhRMmJwWnhCNWZXbEVYUFZULWhkYTNRaDdBc1pfYXlCeFZ5eVNuNWMzWXBHdGFDOTFTZ2R0dGJHVkFPYjlPdy1yRjBNb1ktZkE3dzhkOGRXOTBKQTAtRnFDYUZDZVRMY3ktY19KV0pzRzNiQkRSd3RtUG1rRG9XeUtNY2JEY0p3c3RsZnF3OFdqbGN0ZVRWSVRld09zN3N0TGJTWUxKOVNNdXB4bTV3RmFORVJRLVNiaTBiQlN1cW9Y?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "2型糖尿病に苦しむ人は重症かつ致死的なデング熱のリスクが高いことが研究で判明、その理由は専門家からわかる - ETV Bharat"
+    },
+    {
+      "articleId": "gnews_c1869cd6240a40c5",
+      "headline": "Is Omicron RF.5 more severe than other Covid strains in India? Here's what to know - India Today",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:46:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVG5TQkU1bFdhbkdYNDlLSGVsNnE4TVU0QzZYSnVnaS1BX0xFd0RJemV5dkVtTkhCUWRzVlUyemZPSEZMd2FoeXFTVllwS243OUQ1NHB4OUNKeUpkY3pUUlVsY2NJd2w3ZVZqMjQzam8yQ2ZteWJSRGVTeWZReXRXY1k3RFJZQjRiS0FXeF9IN0Fmbi12NmI1bEE2NFAyUHZieTNRM21RanppbDZ3QlR5c0RaZjRLRUJiVkhpNFJ2Q2dwQS1aSGI2d0NR0gHPAUFVX3lxTE1ocUpESFBtc1VFeTJFNXZiYUhHSktSNmtnbzBad3ZuT2ZzSFZkdFFfaVY1NXYzVFZlV0xpUVpOZkwtcmp4QkJidWZtWjljVWhQcXN1OFhveXRVUVVtUngtdDVybXI5azQ1aHh1TVlRbGtpb0U1ckZQc2dJVkRkemZMSFJiejZacDRqajE1bXZ2MU82aXh5cHlmSG5adm1ZNjdUVlIxdUdjb09PT0hJbHNhZGZxd204REdVRHBmWmtIUk9COVh6WS15Qm1hV0lzSQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India Today",
+      "headlineJa": "オミクロン RF.5 はインドの他の新型コロナウイルス株よりも重症ですか?知っておくべきことは次のとおりです - 今日のインド"
+    },
+    {
+      "articleId": "gnews_11c1db161834387a",
+      "headline": "भारत को मिली पहली डेंगू वैक्सीन: DCGI ने QDENGA को दी मंजूरी - Uttaranchal Today",
+      "headlineTranslated": "India gets first dengue vaccine: DCGI approves QDENGA - Uttaranchal Today",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:44:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZjhwVUMwX19nQTVScmlEWE9hOUhXcTk1UnUtQk9fR29zRzBxVjVmcUc0VUNQOExWX3ctV01JcXFuN2hXaHAzRFRpamZkVGZ1OHB2bVVhbElQNGJMbWhSYTRjVGRDOFp2bUExY3FwbUlBMmxkWEdEN2hjQUxaU0xra2stVUdrOFpvR1FZSTZET3dvTFRySk1qcmViUUNfcE9LcWczX3Z30gGmAUFVX3lxTE9mOHBVQzBfX2dBNVJyaURYT2E5SFdxOTVSdS1CT19Hb3NHMHFWNWZxRzRVQ1A4TFZfdy1XTUlxcW43aFdocDNEVGlqZmRUZnU4cHZtVWFsSVA0YkxtaFJhNGNUZEM4WnZtQTFjcXBtSUEybGRYR0Q3aGNBTFpTTGtray1VR2s4Wm9HUVlJNkRPd29MVHJKTWpyZWJRQ19wT0txZzNfdnc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Uttarakhand"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Uttaranchal Today",
+      "headlineJa": "インドが初のデング熱ワクチンを取得：DCGIがQDENGAを承認 - ウッタランチャル・トゥデイ"
+    },
+    {
+      "articleId": "gnews_fdab7a36b7dc078b",
+      "headline": "India Gets Its First Dengue Vaccine, QDENGA: Effectiveness, Doses, Eligibility Explained - NDTV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:31:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd3JSampGbXJRY0VRMjlnLW1fd2xTLUM3RzR5a2RyazRnb2JKaTFna1FKcnNrMlYwR3pQVGNvOFlTTjdfbkFXajlHcC1mWk5tSkVyRE1qNzFQeHd6Z3VfY1d1S0YxYURVSEk1czAyWWpxNHRqTjNJVnZGM1M1T1ctVXJSUUNIOGpHbGQ5VFVvb0dEbWFObFB6MkxWYW9aX2l0VkZhM2lad01SbDV0c19ibmQtQm1NQmZhUzJnc01B?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV",
+      "headlineJa": "インドが初のデング熱ワクチンQDENGAを取得：有効性、投与量、資格について説明 - NDTV"
+    },
+    {
+      "articleId": "gnews_b78482c41dac6a8c",
+      "headline": "India approves its first dengue vaccine QDENGA after DCGI clearance - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:31:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTVdacVdWYkRnWmpldFl1OVFDYXBOdVZQa2c5MklER3VySjdRVmVUa3RrV2p6czRyazBfTzFjY3VDRGxEY0s2QTc3eFB1elExSHVKV3lFWDdWR2U0YVZQaEdwdmlOYzUtVFJJWThqZ2prOFJRUzNyWDVFMDgxejk3ZWNNSENoNXJpTEI3V3EzMjVVMUE1WUxkc2R2bmZGeXNoOG5Db2N1RFY0S1ZhenF0RzA3WDJPVzA5RXFRTy1fWHJrRkoycFpLdTJYNjd1VlZO0gHWAUFVX3lxTFBCaXJDY0JKbXhGY2Fwb0pWck1iZDNxUUpTRWtPdkxUc3hZTWhzb1JnMF9UaXhDMWcwbGc2eGhMVkFFSG14Y0VWam52VFJ1MlFRZHJ3ZldUXzhraUdBTWFLeGhFTko5dUhWUTNHSWJDN1F0ZG1ZWU5VQjgyNVhLWEtwOUU3NG81NzY4Z1luVGVDLWZ0X05uMXhhN2VBZ1A0UlNuWlp0Y1B6eFZLOTg3WDFDZVZIdkNMaW1qSmd2VUNTejlEcWFVbGdwTWljSGRzcmFaaVdvZ2c?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India",
+      "headlineJa": "インド、DCGI認可を受けて初のデング熱ワクチンQDENGAを承認 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_f2c60b533d325e08",
+      "headline": "India approves first dengue vaccine QDENGA for people aged 4-60 years - India Today",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:21:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNkRHWkI4M1YwVmlHTFkycERCX3J0WG9uMXZTRDdESEc3QWQ5THNiYVFtSURaSGhkdTNKc1M3cGVia2E2bUtrVWphUjkyVXo3UFVSUnVBcmNldGVSSnlZeTNBa2J2Y2h6Q0NsNk1WZkFUQ3RPSS1jVGlQMngzb2JTNXF1a3B4OXdXaW9nXzItYzlkQzNYQkl6aHNJWk1GMm1zQTBFU3dMQjRONDdCNl9zRjY3dWFySThNWUt1RG9ZQmQwODRMRnUwUDN5US1hZmZVMG9BcVZkZHZYZ2Q5VkVSM0QybXg2cEcydHRHX1FtZ3ZVWEF2Sm1QZEhB0gH_AUFVX3lxTFBYbG85V2NWWjlGR3NfZVhvM0JEZFBJVUM5cUg1M2F0Wm1Zcmg4eXpHZUlYcFZfZGNsUDA0QWpnNTlITkNGeHFmWDZ5eWJyUkVnc290QUoxLVRKX3JfYmVXQndkM2xfTEFhbXUxcjBnby14elQ2dEgzRjc4bTRDallXQmRBWnlYc2pMZzRDRThZenRwRjNYZVBpZm5LZVJVdnNjd2lsa0RIMHdlQTZoTHlvc0NJWWR3eDlESklMVWZEX3VIdTNDUHM2MGFxa1ppMW8wOW8xaFF0M2ZtdGtPVTJzZG8wak5PODFLVk5hWlB0S1hId0JKODdGS2h4TmlwVQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India Today",
+      "headlineJa": "インド、初のデング熱ワクチンQDENGAを4～60歳向けに承認 - India Today"
+    },
+    {
+      "articleId": "gnews_1363454ab2835691",
+      "headline": "India’s First Approved Dengue Vaccine: Takeda’s QDENGA Protects Against All Four Virus Serotypes - Health and Me",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:17:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS1BvRlFZQnJKRXJsYk1NLTRGNVQ5NHJaR2xjTnI3cE9qaXJNMWlySmtCX1FFVFlzcTV0QjF6eGE5R3VFaEJDdXVYVm9VRUJ4M1d2Y2k3OWtaMWRpMFhldV9pbFhOMTlpNUctdllYT0drXzdKSklsb0lvVXpVb1hYTnVveEk2U04wRUhzcmVfVV9SbzdMcXVyc3piNlF5NWRNekw0eFh2dlhhT0thNXpIRGg1b0VReFJySUJoNndNSm5GT3M4aUFmdW8wUlRkR2RMLTdSbHNkM01LZG5EVUo3UW0yMDZUdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Health and Me",
+      "headlineJa": "インド初承認のデング熱ワクチン：武田薬品の QDENGA は 4 つのウイルス血清型すべてから保護します - Health and Me"
+    },
+    {
+      "articleId": "gnews_11f4d77a409ba66c",
+      "headline": "Why India's Multi-Strain Dengue Outbreaks Are Dangerous - NDTV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T07:02:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWUFxbUgyY2V5VEFkdXZnWm9sUlgtWUZmZ1JaNURPcmx1dElOMDEzZE4zUGxqSWo5QUFkSmw4LThHTjVfRXZiWU9PQjBDQnM4MG1xMTZUdHdCVlRPMWh4NENnbXJNbXVoVzJ4TlJTSjQwRjRES3g2N3psX0V4TnFqVGpQaTRRbVB1T1F6aFExQXlfMzJKY2xidlBSWHJqUFgtcHYtOG03czEzWTNHc0hNNmk1bUtLTFM1Y3Rv?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV",
+      "headlineJa": "インドの複数株のデング熱流行が危険な理由 - NDTV"
+    },
+    {
+      "articleId": "gnews_a08c2b06c3ab7210",
+      "headline": "Japanese drugmaker Takeda's QDENGA becomes first dengue vaccine approved in India - CNBC TV18",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T06:52:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQkRJcmlNTXI4eC1RNmtnM1VpZnpDVFMtd1VURm9kSVlzY2FCWE5oRGNRMjRPMmN2RWtabXR5dEs0ZUlvWXp4MWR3QkZPU2ZVdzhpblVPUEszUVl1elUyQmxaekszeFVUdjdmdFJGcVhVZ25CYnN2Q2R5UER0Sk0xbkw4MlI0UkNHQU9XdFM1Ujg4cjlsd2ZkaWZ6cUNaRngyVDJJVUM4MHdLR2EzT3oxX2tBSzN3d1pSZGRiUWxGVUw5QdIBxwFBVV95cUxNZEhkQ25ZbzhTZWJwZkR2UVV0bVdIV2xhc3g0SkJYSkM5bEpFdlhHaXBnc1NESUVXOEpjMTFiWVNVRmhXZWFoN0FGM1BQWFRUb2Z4YmhJTFJ2X2o5NEpNODRDUmtIS2liaFp4eC0xUVJpeTBvcko3VWs2Q2EtTW1Cb3pEdFdfUGptUy1zRHFCcWZNc1ExZFdQd051UlpNQ0U1WkpOQzk4NmJHQVkwR1FPX0lUSklOT2tvU3ZiTDF3c21kbDhOVTJj?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNBC TV18",
+      "headlineJa": "日本の製薬会社武田薬品のQDENGAがインドで初めて承認されたデング熱ワクチンとなる - CNBC TV18"
+    },
+    {
+      "articleId": "gnews_ffa2ff5c68117437",
+      "headline": "टाकेडा को डेंगू-रोधी टीका ‘क्यूडेंगा’ के लिए डीसीजीआई की मंजूरी मिली - ThePrint Hindi",
+      "headlineTranslated": "Takeda gets DCGI approval for anti-dengue vaccine 'Qudenga' - ThePrint Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T06:33:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb1F1XzY4cDdPUjB4TXpFaDVVcGJ6SVNJQjdjTjVnb1FpaTQ5WmZXUXRLMFp5UmhLX0VIbFBKSWkzVzdXSG04cWg4cFVEanZwZFUyY3RrdkRrdE05R1VZcjBxSGhzWGVVa09sVms5YlhGQXF0OG9iUm9uaEFvcXpfMXoyY0dpaHlYMHRfYVlfWnp6Z3dGRGRiM2NkM3g3SFN1cDV0UlRLTklCN2FhNEFHeFZqT2_SAbQBQVVfeXFMT29RdV82OHA3T1IweE16RWg1VXBieklTSUI3Y041Z29RaWk0OVpmV1F0SzBaeVJoS19FSGxQSklpM1c3V0htOHFoOHBVRGp2cGRVMmN0a3ZEa3RNOUdVWXIwcUhoc1hlVWtPbFZrOWJYRkFxdDhvYlJvbmhBb3F6XzF6MmNHaWh5WDB0X2FZX1p6emd3RkRkYjNjZDN4N0hTdXA1dFJUS05JQjdhYTRBR3hWak9v?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ThePrint Hindi",
+      "headlineJa": "武田薬品、抗デング熱ワクチン「クデンガ」のDCGI承認を取得 - ThePrint Hindi"
+    },
+    {
+      "articleId": "gnews_480355ca55dea74a",
+      "headline": "Japanese drugmaker Takeda's Qdenga becomes first dengue vaccine approved in India - Reuters",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T06:01:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaVEtNHhvZmVTNG5tOWFEdTVaQTVUdUZKYmNoOXFMVFBSYkVDNjdpSFIxcFR6U3NUUnJ4VFA1a3Z5REg2MFFjTWZUSEhDSU5EMkVvdDZmdkNMZW0tbG05YklMMXA0ZWZWd2U5TmdpNWx0TDdXUF9KM3BkczcxZjlMOVBVNGtjWTVxZUVoaTlVUlFIa0RYemRnX3dEMmFzWGRsTkU1QkhONzZHZzZBM3NGWWExLTlxbjBrNTc4dFlJZm9BSURvSks1R3R3?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Reuters",
+      "headlineJa": "日本の製薬会社武田薬品のQdengaがインドで初めて承認されたデング熱ワクチンとなる - ロイター"
+    },
+    {
+      "articleId": "gnews_ac200585107604ec",
+      "headline": "Takeda QDENGA Dengue Vaccine Approved in India by DCGI - Rediff MoneyWiz",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T05:40:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdWE4MkVHQkxicE1rSGN4RWE3U3ltWldpQWlMYzlsZlBmbUpzdnV4eThvZGhPM2x5ZDh5Wl8xcTN5OC0zSjVZUktSTHVMQjdfTkhtVFFaN1lxWlFlNlNlZ09Zd3VQZDRpRjk2d0RPaUdTMExLQmZQaGpkZG5nbk12ODRxR21mRlFfUld2eHdDc3hBR2NJQ0lIU3dDYU1hVXJUNGRNc2VORmZSd9IBrwFBVV95cUxQVFE2T0VZbkIwdHZQeXNqU09MN3pKOXRvd0hVZFdvTjNmRnphM1pnR2NZNGZjVUJiYVpSa3FMWkd2VWZ5Zm5BVUV0ZjhxTzN3TG5NdkROdXFTajBhUENNQmlkMzBRWC13bWY5RHlSbVY4NDN4SnF1dFpQSkZ2Qnlqdl9CUnFQTkpVaTF6ZHB6bXNxQ2ZKQm1pVzdUd1NnRnRyaUlIOHVKbXZYbXFFUUxB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rediff MoneyWiz",
+      "headlineJa": "武田薬品QDENGAデング熱ワクチンがインドでDCGIにより承認 - Rediff MoneyWiz"
+    },
+    {
+      "articleId": "gnews_c58422ac96ebb0d3",
+      "headline": "कोरोना का नया वैरिएंट कितना है खतरनाक? 4 नए मामलों ने बढ़ाई चिंता, जानिए लक्षण और बचाव के 5 तरीके - India.Com",
+      "headlineTranslated": "How dangerous is the new variant of Corona? 4 new cases increase concern, know the symptoms and 5 ways of prevention - India.Com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T04:32:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNU2VVRE95ZUp5Wlk4UExEc1JQcDZWUXY1UzhYby1oYjV3ejU3RXd1cDUxdklMMVVDNVpqVWhNMFR1NlZfNnZhSnVKbTgwR2xOYUVqY1BTb0ItUDdWV1VGNzNTTC11ei1GaHZNMERlS0xFZm96VXl5cjB2OEJoU3F5Q054MVp6c1B5YldUbDZDWlZ4WFdEQlZYblVfSGhveDJPaWZxTldUYk9FS002UkRxajJncC1qZUZrVVZTSmhvYmFxQTQwY3ljNHYzNkhKZ1c0VGVzazdaMHlCeG83Nm5RLTN0UlhtM2Y3NHfSAe8BQVVfeXFMUHdjamhZYW5TOVZxczBlQ2NnaGVtbHkzdXNicml2bk5zMEJvRXUyR0c0WHR3Z2pfclVVSy11eVJDOTRVUWNIdmtXYS0xOVBzaGZ0d0NwZDNFLUdQSml4a2VTTjRaNEh2X3RZWE5Vc2FBdGFKZTVKdDFzUGZEME9DSkdYSHJpUWJQUWhrbnlQWHNhT2x0Y2ZMVTM1SXVjREhCMW8wV2hmY3hnZktuNmxPanZnYTNDZ2RINFFjZFphNlNCMWtrY0ZJdlk0d2E4NkVqa0lxTVA3aVJXNHZ5RDVWTV9qVE8tRVdJeVR1bzg0NWc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India.Com",
+      "headlineJa": "コロナの新型変異種はどれくらい危険なのか？新たな感染者4人で懸念高まる、症状と5つの予防法を知ろう - India.Com"
+    },
+    {
+      "articleId": "gnews_29828ccf3f7f4c4e",
+      "headline": "भारत में पहली डेंगू वैक्सीन को अनुमति मिली - mahamedianews",
+      "headlineTranslated": "First dengue vaccine approved in India - mahamedianews",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T04:30:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZGU1UVlfaHZSRmFqNzR0TjEwRENUTzB0RXYzcV8wbXlSLVFzZGo3SDhPQXVIa09lWEFFTEFJb0FKX1FHaDVHVTJaZHdpUUhiSTZZZ0VCTjh2eUVPYmFSYmNPY3U3LWtBaXNlTVlNZGgxWmEyZm1GNUZUWC1HdUtfdVZVdExoQ054VW5mYUtB?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "mahamedianews",
+      "headlineJa": "インドで初のデング熱ワクチンが承認 - mahamedianews"
+    },
+    {
+      "articleId": "gnews_6c4bdbd90a31545c",
+      "headline": "Diabetes patients face higher risk of severe dengue, says study - The New Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-20T02:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS295ekJEbTkwNGdEUFhucU1LNUVQYlU2SG1obUxGOXZpY1VsRE90OWw1bHBFSVQxU2gxMVpJR2JCSm0wYUczMGFZclFKMFl6RjdzNlNnRENBRHNiNldZWGlhd28xSjJEd1N2dHpfRjB3NVhwVi05Z0VnTWNsQXpYZ2dqSnVGbDMxT3JPZ2xKZ3pTMy1mNlRXeTIzdHFPc3k2MHl5SDhSbXNUWFlOdkdJMUZwT0FsV2xzdFJQcndzcm9sMXdFNlk0a2VJZ9IBywFBVV95cUxOS295ekJEbTkwNGdEUFhucU1LNUVQYlU2SG1obUxGOXZpY1VsRE90OWw1bHBFSVQxU2gxMVpJR2JCSm0wYUczMGFZclFKMFl6RjdzNlNnRENBRHNiNldZWGlhd28xSjJEd1N2dHpfRjB3NVhwVi05Z0VnTWNsQXpYZ2dqSnVGbDMxT3JPZ2xKZ3pTMy1mNlRXeTIzdHFPc3k2MHl5SDhSbXNUWFlOdkdJMUZwT0FsV2xzdFJQcndzcm9sMXdFNlk0a2VJZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New Indian Express",
+      "headlineJa": "糖尿病患者は重篤なデング熱のリスクが高いと研究報告 - The New Indian Express"
+    },
     {
       "articleId": "gnews_5248d38380ca3f33",
       "headline": "Type 2 diabetes raises risk of severe dengue complications: Review - Telangana Today",
@@ -106,6 +1579,26 @@
       "headlineJa": "雨前にPMCH警報、20床の特別病棟でデング熱患者の受け入れ準備完了 - ETVバーラト"
     },
     {
+      "articleId": "gnews_935af0e0fabc51d4",
+      "headline": "Covid-19 Alert: भारत में फिर बढ़ी कोरोना की चिंता, आंध्र प्रदेश में मिला ओमिक्रॉन का नया RF.5 वैरिएंट - AIMA Media",
+      "headlineTranslated": "Covid-19 Alert: Corona concerns increased again in India, Omicron's new RF.5 variant found in Andhra Pradesh - AIMA Media",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-19T10:54:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd29uUzRQSzJsUG01ajF5Wnowd3pYM0ZYVzF2MVRLaHJsTVlmSTVnQUgwcE1vU2psLURQVmRlMzFPemJ5aDJpY3VIaHgxRUYxTUVIM0FlTUR6MTVQNFA3SEFpdHAteDh5UXVNakswck8wZjlyX2lGMGZsMUZzYTBQZkJZQmsyMDZuR181d0hlNGt3RHdmYkZzam9xMlMyLWpEeThzYkU0S3duZUliNURHemRvaGtNNGdXU3lISGZn?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AIMA Media",
+      "headlineJa": "Covid-19警告：インドでコロナへの懸念が再び高まる、アンドラプラデーシュ州でオミクロンの新しいRF.5亜種が発見 - AIMAメディア"
+    },
+    {
       "articleId": "gnews_e32190009bd7285d",
       "headline": "Covid-19: भारत में कोरोना के RF.5 वैरिएंट ने बढ़ाई चिंता, जानिए ये पहले वाले ओमिक्रॉन से कितना खतरनाक - Amar Ujala",
       "headlineTranslated": "Covid-19: RF.5 variant of Corona increases concern in India, know how dangerous it is than the earlier Omicron - Amar Ujala",
@@ -126,44 +1619,24 @@
       "headlineJa": "新型コロナウイルス感染症（Covid-19）：コロナのRF.5亜種はインドで懸念を増大、初期のオミクロンよりもどれほど危険かを知っている - アマール・ウジャラ"
     },
     {
-      "articleId": "gnews_f9bfc41feb436f6c",
-      "headline": "आंध्र प्रदेश में कोविड-19 के मामलों में 'ओमिक्रॉन RF.5' वैरिएंट का पता चला - ETV Bharat",
-      "headlineTranslated": "'Omicron RF.5' variant detected in COVID-19 cases in Andhra Pradesh - ETV Bharat",
+      "articleId": "gnews_ddcd4bc272315615",
+      "headline": "BMC intensifies anti-dengue drive - orissapost.com",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-19T04:57:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSmx2UVhhclh2cGpFUW1RWUtmdm1BRXlPSFBkZWp6R0lWbkZVVm5zZzJWWUwtaU1Zc0stZ0pqWDhJV21OUVJaNUNHX2s5ZlJFS3ExZWQ1Vml4MTFZRmt2MHhoemVTcHZaZnBrczhaMUFzeHdzZTNES2QwYlFXaVR4VHA5czYtSmxnemlaalI3TUNyWnlUbUZUNDI1LTkzdG0yWGwyQVFZNkU4dzJwODVyNUtwVkxRaWhod3JMV3FBUm13WmphTU9zY1JTOFdlM3Nkc29XMWVsRGw3WGxEeW9KYmx0Rzg2VWvSAewBQVVfeXFMTnQxU1Q4Sk1sUnNFeXdsb2U5LV9HMFhJaEdpbG9MT3hrcHJZSW8wN0dhTC14TndYRVBWSU5XWjNtdmUzRTgxbVpNSDNBMElNclUxOTBNTkRyTGhrSUNuWXZ2ejZ5cURzdnZvMGREU1FKNmRfS1JBdENtanhrZ1NpNDVHNzdaZThXSVI5Sm53UmhWUUhHWGFoMFFPMTJrTTR4TzFFLUV5eGdDVkg5Q0djeXFpeUlIOXM0MGVzZTRaUDE1VXVoZE1Kblo3OTIwN0w3YXFnVWlBMHJ4YVBIUzFFQmlyckJYblQzWk1PMEQ?oc=5",
-      "originalLanguage": "HINDI",
+      "publishedTimestamp": "2026-07-19T04:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQODNtRDhDWjNwcnA4RjNUYWhwWWpDYTNtQjRNWTkta09VVE1uVHBrUzR4MUg3ZGpxaE9wOVdfUHB3MHVOWjJwTFNEZjVuOVdEdnRub3ZKcDFfdFZ0S0JyaExsQ09LQ2d2bDVtWEZB0gFuQVVfeXFMUFA4M21EOENaM3BycDhGM1RhaHBZakNhM21CNE1ZOS1rT1VUTW5UcGtTNHgxSDdkanFoT3A5V19QcHcwdU5aMnBMU0RmNW45V0R2dG5vdkpwMV90VnRLQnJoTGxDT0tDZ3ZsNW1YRkE?oc=5",
+      "originalLanguage": "ENGLISH",
       "diseases": [
-        "COVID-19"
+        "Dengue"
       ],
       "locations": [],
       "states": [
-        "Andhra Pradesh"
+        "Odisha"
       ],
       "dataSource": "Google News",
-      "sourceName": "ETV Bharat",
-      "headlineJa": "アーンドラ・プラデーシュ州の新型コロナウイルス感染症患者から「オミクロンRF.5」亜種が検出 - ETVバーラト"
-    },
-    {
-      "articleId": "gnews_b865f1c2e1b3e297",
-      "headline": "देश में अगली महामारी से पहले तैयारी: नए टेस्ट, AI आधारित इलाज के लिए इनोवेशन और चीन के ‘थाउज़ेंड टैलेंट्स प... - Dainik Bhaskar",
-      "headlineTranslated": "Preparation before the next epidemic in the country: New tests, innovations for AI based treatment and China's 'Thousand Talents... - Dainik Bhaskar",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-19T00:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQelZVUHpIMzRma3VQNXg4YlYxR0lIUFdIZm1mNXVSUUg0NFNVS2IyQXVQM080eGkzaFZkMUNnTG9zcnpEeE5DQTNBNG1BNUNtSlpDcERVcGprOHBXNENVMHp5Nk1aTEFqSG1HMU9nTjViX2IyMjlLU0kxRThjMmlyRUtybTJCN2FRWTZlTW5hRGtBTFpCcnhDaUk5MDBYczAwZ1R2ejVneDNFSGRzY0prQjE5TTlBQ1Q5RjgyaU5QRkjSAcYBQVVfeXFMUFhyeVlZWVFBaHhoSHdURDRBWVpyRmVVem9OQjI2RTB4MFZzNGxFeW5XUmVRaVdWYVhRUmhzSGs4WmpCOWIySDd4cmV4MzFZcmpjUExPdEFQWkZ6dEpqRW1OOHpJcGZ0czk0TFRPV0I5cTB0NUFBQVJrLXg3aGRNbWotZUVmZGw3TkhyN21DeGtmM29Gei1nUXFCN0xXWXVId3BYbE9saFVuc2ZKNDBUa3U5MVh0OENYS05sdUVvTzdjUG1FUnZB?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Dainik Bhaskar",
-      "headlineJa": "国内での次の感染症流行前の準備: 新しい検査、AI ベースの治療のためのイノベーション、そして中国の「千の才能」... - Dainik Bhaskar"
+      "sourceName": "orissapost.com",
+      "headlineJa": "BMC、反デング熱運動を強化 - orissapost.com"
     },
     {
       "articleId": "gnews_c0fee55f13c10ec7",
@@ -184,26 +1657,6 @@
       "dataSource": "Google News",
       "sourceName": "Inshorts",
       "headlineJa": "グジャラート州は940万件のマラリア検査を実施 |タップして詳細を確認 |インショーツ - インショーツ"
-    },
-    {
-      "articleId": "gnews_45c2b8dc0b07097e",
-      "headline": "भारत में खसरे का प्रकोप, 12 महीनों में सामने आए 26,000 से ज्यादा मामले - NewsBytes",
-      "headlineTranslated": "Measles outbreak in India, more than 26,000 cases reported in 12 months - NewsBytes",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-18T14:22:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVnFzaVA5bG40V2Jtd21VbHNxVldpdzdNUnBlZVpzN2E1Ylo3Ui01WDRKSHhTdDRHZEtzMEdXQUhPQ2dsSVo2SVVYRkhyS2VlM2RMaklMTjNtU1dpdWhkZHFXbks2SDl6N1JZN29Sck1GZlZzUS0wUUNrQnNIdVR0UkdrUFRJRTRPQmE3RllaTVJjZXJpZ2xnd0cxcExsOUJpbGhzaElJaUFoT1JqemM0TzltX2pIcUgwdnpUQ2lLeG5HRGNf?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "NewsBytes",
-      "headlineJa": "インドで麻疹流行、12カ月で2万6000人以上の症例報告 - NewsBytes"
     },
     {
       "articleId": "gnews_a0f99f2669ba445f",
@@ -306,390 +1759,6 @@
       "dataSource": "Google News",
       "sourceName": "The Indian Express",
       "headlineJa": "デング熱と心臓の健康：専門家が注意すべき隠れた心臓リスクに警告 - The Indian Express"
-    },
-    {
-      "articleId": "gnews_9f0934e3b87d2379",
-      "headline": "Bengaluru North City Corporation intensifies measures to curb dengue - Deccan Herald",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T21:02:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbGtnZ0cwV2Exd0w0UEUydlZ6RmZBRGREY0V1SFctUmVhRWpiZGtiWVVlRUpCZUFGdllEZDlGV1BsMG5oYkJncklydDRYTFlpdnRySEJIRjlGSkNCc2JaRGFtQnowRGVzT0dmUW5wSjVtek1wVERVSEhSZDE5QkhTbVZSUlFTNGtLaXU5b3hlN2lKdGZmbnJsMHNpUFZVbGxSUWpJUzFOVWJPSjEtLWxtUU9XaDB0LUVScUdZOVNMVDlLS1JyQjlZaGwtZm5Rbl83M0pvUjJfdndxZ3F5Vy1UYQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Karnataka"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Deccan Herald",
-      "headlineJa": "バンガロール北部市公社、デング熱抑制策を強化 - Deccan Herald"
-    },
-    {
-      "articleId": "gnews_310ba7e4eee00177",
-      "headline": "‘देश में फिर दिखे कोविड के मामले’, केरल और आंध्र प्रदेश में मरीजों की स्थिति पर - ABP News",
-      "headlineTranslated": "'Covid cases seen again in the country', on the condition of patients in Kerala and Andhra Pradesh - ABP News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T18:17:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLWt4SUZCQ1lrLVY1cnl6RlRra3dWZjhtR2lmZzUzU0k2QjZjWkxjeW13UktHOEZqcmtVbWxaRGlvYWRpbWp1eGdyUjBaMmJPOHYwdFR2dW5zdUtqaEhDaDNGWk11SENhT0xhQ1VwcTEtNnhZaEFwRjIzeTVSdkxlaF80N05yZm5rdXZLaWlSc2EyODNxeVBMY1RNOHp0T0JFa3NlWGpOZl9Pc19JdXdUNWt4MnFIbFRPX0Z3TmNQYXRlVXI0cVRsVTdrUGRiQkFKX1p4UXh6MnFGM2RGZ2YwT2RWcUY2VlRoaVhad0J30gHzAUFVX3lxTFBWcjBFT3ZfY3cxZ09EVmJ1YmxuNndTT1F3cjVYR2hFQVloLTlCaU0wSExjWEtqUmVkd09YalNRLVlMR0tTZHVGc3d5SmNLMzZPaGNTSGJhWkVpVERnY1o5WkUtMG9VUFFtanhfck00dU5ESUVrVHU4a2FIeXNSVFRoSGdENGRlRUNJZWZKWWlZRGtETVBlNXpGbk9SV244ZlBPYmZwN0x1THI3MkhULU5UcFhBZGFoLTVXUENvWUtONUUydXdyb1Y3M1RrMjl6ajBWZUFEWUYwSGtkNDcyeFdMcUFXR1Z1dUQ1TGVaSkN5eWo4NA?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "Kerala",
-        "Andhra Pradesh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABP News",
-      "headlineJa": "「国内で再び新型コロナウイルス感染者が確認」、ケーララ州とアーンドラプラデーシュ州の患者の状況について - ABPニュース"
-    },
-    {
-      "articleId": "gnews_7c509e4422615d32",
-      "headline": "डेंगू से निपटने को PMCH तैयार, 20 बेड का विशेष वार्ड शुरू - inextlive",
-      "headlineTranslated": "PMCH ready to deal with dengue, special ward of 20 beds started - inextlive",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T13:40:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ0I4X2pkSVA3TnhtNks1aEdpTFpsbWxmSm54OEFvNVJEWWozRDFZZzZUZzk5aXpKdFE0N2lPN1JmczFqZGZLamhXLUJMZ2NtclJaUENJRUNvdkVKYnZPZ09CbWJ3cDA2SWQxcDd3NWhtM0NKVVVjUXRQNy1LcmFUWVRmUmJNd2tOU2Y4dmhDVWRxUS1uWHRUeE9kN0o4Wk1kNVNQRU9odTAtVE0?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "inextlive",
-      "headlineJa": "PMCHはデング熱に対処する準備ができており、20床の特別病棟が開始されました - inextlive"
-    },
-    {
-      "articleId": "gnews_86f8e60be5086914",
-      "headline": "Heart and Lung Diseases Account for Half of Medically Certified Deaths in India - The Policy Edge",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T12:20:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLWljMTRfeFNGREhsa2lYTnRQWHlPdU5TTzlYYl9hamxTOGNCOUZVR01pRzI1ZUVXZW8zczhZNmpOYmFkZTBLUUl3SU5DSHlGdVAtQWRsTXlBWFhncG1GZUhMR25BcVZkRWdlQUl5ZW1iakw1a1FfczdwOVBZRDJjX3FrSFZ6eFFMTFY1Mk9uTkNXWkpxd0w4S2w4RW1DMGZRd1dINTZmNEw2dG8?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Policy Edge",
-      "headlineJa": "インドで医学的に認定された死亡の半数は心臓と肺の病気が原因 - The Policy Edge"
-    },
-    {
-      "articleId": "gnews_80d222186c10b487",
-      "headline": "Century after last TB vaccine, India’s Serum Institute partners with Gates MRI for novel jab - ThePrint",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T11:28:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYTB2X0R4Y0RwLU1oNjY1NkI3Z0VzOE5xRGhsVndqeDlUaFpNS0NkaEF5SFo1S2dibDVSNHlIQ01DQU02TVBheEhyME1kQTFITTFGZWlDRndWVkdKZUhDNndYY3k3TlAxSVdkenVteENkbFdQTEZMbFBuNmxsQjhGZFdSelRJdXdxczZXMkRaQ0w2TWQ3WksyeUFVODVlME9hR0x5d1N3eGdFOHlycndwaWEwRW9wZ3NTWWNsVUdPTlQ2Mlo50gHKAUFVX3lxTFBqYXQ2VjJaYmdnZ0gwSHdMZzJMcldnQ0dCQ2FwRU5GRTRXRXlGcEREZmx4ejQzRDMtaFRucmdDRXNDcXp2MGhMZzhmWER5d2NrZDdjSVVrcVh5NlhxUjRzVjVuVXI2ZUV3NlZjNXhoTUUwTC01X1BzWWNwUnEtd01VUTNRTjZzeGRxeE1yeWl6UjkyS0UyTmdGdm5CdGxYZFRCakFWMnB6NE41NFRTTFVLMWoyUjBFY1JSMmtJbV9KRlk0Q1lHR1Y0RWc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ThePrint",
-      "headlineJa": "前回の結核ワクチンから一世紀後、インドの血清研究所がゲイツMRIと提携して新規ワクチン開発 - ThePrint"
-    },
-    {
-      "articleId": "gnews_c8445dac364b8310",
-      "headline": "Gujarat conducts record 94 lakh malaria tests as monsoon vector-borne disease surveillance intensifies - DD News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T11:23:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSnRPd2d1N3BIaHpHRTFRV2FGbTItemhnZWgyLWVaVENWbEdzR1ZyS3NIaE1Rb2NwRWEyeTBYR0RteGM2clJGV1QweEhyNjFTcXNINDNWMmw2dklyai1WWWIwY0JnRFpWRF9WMXNuSGw1bm1mWEhlSm12czhTX01lMDJRQTRWQ2ZXYy1ZbjRNbl8xTDM0Qi1tTENQNXlDaVF1SjU4a2s0RU5pSEF6Q1ZsWGhEc0Q3RjJOM1QxbkFWZUtGZmduV1RB?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "Gujarat"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DD News",
-      "headlineJa": "モンスーン媒介疾患の監視が強化される中、グジャラート州が記録的な940万件のマラリア検査を実施 - DDニュース"
-    },
-    {
-      "articleId": "gnews_7226c5f5d95de438",
-      "headline": "Cyclospora Outbreak In US: What Is Food-Borne Parasite And Does It Pose Risk In India? - Outlook India",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T11:20:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUFNXUndKR1FPaXlRLUc5ejZ4bkc5RGd1dy1UVk9rUHlMRU1SY184cmwyRV9fTkVtdmJMVTNJRWJGdXJiYWhyUjJuX0IxeG5OUmlOLXR0Ynp0cVBZREhqa3NyX2JYbFBzOWRuVzJobGRnbjNEMl9teFhvcUFCelEyNTcxOU5mdWQ4b2ZmMTFsR2Q3cGh1NFpmdlV5SEl0bGZuRVIyRVBKM3ZkQy1vWWRTM2c4dGs5ek9OQS1IR05PUdIBzAFBVV95cUxPN1NRQ0g4em1pV2lmV21QMVJnQ25MU3MwWEhCTDNpc1FDOEIxdVJzdUEybHBqMkdlLW12V0xQWlBYeWgxS3FXNFE5b1RnWklNY2JEdEhrbEg1emVLUkxlM2pkVFR1ZmVRcV9kNU03T3VOMElOWnFHc29WaWViaW5zZ21ydWxlYmlGSlBvNFNZdnN6Y0FOVG40REZxb09sM25tT2VUa2JlakxOOWxSVFVLaHdzUmRIZVUyQXBMWm5GMUt1QWNSdHFraGxlZU0?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Outlook India",
-      "headlineJa": "米国でのシクロスポラの発生: 食品媒介寄生虫とは何ですか? インドではリスクをもたらしますか? - インドの展望"
-    },
-    {
-      "articleId": "gnews_e6e4bb9f79bcacf6",
-      "headline": "Climate Change: Dengue And Flu Are No Longer Just Seasonal Threats In India - NDTV",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T10:17:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaGg3c3EwcDFhb2JkWk5mRldQeVljWDhFX3ZRaTFiZExmaUVGQWY5NndnNmF6QllaUGxUcVBVcE5YY0N5dGJud19xSUUxeU5nR0ZDZG00VTNIb0RtUktGTlNOdXI1Z3R2dDhGUDdSV0VxVkhhemEyM0Y4ZmJaNDdZUkt3Qi1IU3NSWmJXVDNUaU9HRy1WbmNUY21KSmRLSDJfbDFORWI2NFg1RU9OeXpsS3p1QWtEUGM3MHVreWlpbzcteEE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "NDTV",
-      "headlineJa": "気候変動：インドにおけるデング熱とインフルエンザはもはや単なる季節的な脅威ではない - NDTV"
-    },
-    {
-      "articleId": "gnews_827b8b14a7cd1467",
-      "headline": "Measles outbreak: India reporting over 26,000 cases - Firstpost",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T09:31:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVDRBTDFkUHFLUUhGWU9ablNFbTV3dmhITnZ0UHRnOTJJbWZFSHRJSFVFTjM2blZYS2IwME41Vlc3bFNmRnltdVB5ZEZfLUZpTDNqUml5bzR2QUVxUGJ6OWUxYzMtQXpnWkNET3JiNjBkbkhKcWt1UU9YWThBNDgwQkJJa3Z3d0NXTWZDMjlaTUxBMURpd1NWYlFpXzFvUngtMkhRQmhn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Measles",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Firstpost",
-      "headlineJa": "麻疹流行：インドで26,000人以上の症例報告 - Firstpost"
-    },
-    {
-      "articleId": "gnews_b8eafc7d9f57eecd",
-      "headline": "How India hit 95% measles vaccine coverage: The inside story - The Indian Express",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T09:25:20+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUmUxTENWdVN6QXd6aVZrUzhYVlZJc2NGOTVGUWRjc2hxSDdseDVhNHpuSDNLUVRSUWl4WFBiUjg0ZHo4cWpVZlBDNmI1ZUlNV05pdFhENWxrQ081bUxhMXBkWGNOam9TZ2o4eUhpV1R3Ml9LUXFacXM2WHJyWXZVd0ZRc1VOY1NXV294dE9KZFk0dFZRR1BVd2Exa0YwVm1ReVBhY284VEEwaUgw0gGzAUFVX3lxTE8zb25OeWJLWXJhSDlsd1ktRjFNbzgtS3hnaHM3OF9hb3ZNYkQwYTZ4QzdxZG9vNDBuTWhPZ0F6SGdhQlUySDFkNFhFd1FOM3hqZ0pkVDBaODFJcXBCYmtYc2ZELUZIQ0QtLV9sZHA5QUtJV1VFUkNidU82UncyZEp3MngxQVRRc1RrMmNQb0JRWnV3RTE0TzVsd3pHN1BvTjZ2XzYxRXRmcmwycGs3WEFiQ3Aw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Indian Express",
-      "headlineJa": "インドが麻疹ワクチン接種率95%を達成した経緯: 裏話 - The Indian Express"
-    },
-    {
-      "articleId": "gnews_bfc18bb240c61394",
-      "headline": "फिर डराने लगा कोरोना! इस राज्य में 12 नए केस, 4 मौतों ने बढ़ाई चिंता, जानिए कितनी गंभीर है स्थिति - India.Com",
-      "headlineTranslated": "Corona started scaring again! 12 new cases, 4 deaths increase concern in this state, know how serious the situation is - India.Com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T07:59:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaGQzOUU2V3ljdE5GREtvWEZIVXM3WXctcG9iRFk4UHZSVHZ3ZjR3NTQxR0xYWDN5cWxldC00dno0cUF5UlZXaUc2SzJfRmNadVp4LVA5dXp2al92QWFqVXA1ekFJYWd3T3Nyb2xIS2dUdk54ak81U1VVOEU1aTd0TnpNMzFVNEl2MW4wbE5ORExIOTVqdEZmZVVUaWM2RnFEZjY3TnY1YVhySm13Sl9KemlBN1F3aWluWEhwNS15TzU3aVdIMzFJZ3h1SkFmQV9m0gHWAUFVX3lxTE5HNjNrYUdUSS11TmdaRjB4Q2V6ZmFaUE5DZ3VoSDdLUlJIcGdpQTdiX2pYay1VaExnazVDY0xiRG5pQ2NsZ0pCN1Y4ZDFnekF6U2F5QlNLN0JpRndJcWRKaG5pZWx1Nkp2c05reG9wZE5PTGNpdnhxclRYMEJldlFtSTJkaUJWbl9GS0llaTNseDRGbzVoY2NrdkZpMWRTUHV0ZG81cDhCT0J0YjVPbnU2R0NOQXRKQjEwelk5d3pkdmNSUVliT1h4Rkozc0hpVTdjNDIyQXc?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "India.Com",
-      "headlineJa": "またコロナが怖くなってきましたね！新たな感染者12人、死亡者4人でこの州の懸念が高まる、状況がいかに深刻かを知る - India.Com"
-    },
-    {
-      "articleId": "gnews_d605c0a4f3947a22",
-      "headline": "Overdiagnosis Syndrome: India’s Silent Healthcare Epidemic - Countercurrents",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T07:39:51+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnlBQ3hYMEhtX29WSTJMc1NuVjVOeE16VTJ6aUNPX3M4aFktSFkyUnV5ZWtzN2dFUE1qU3hYWHhkY0RPQ3NJeXEyMDcyUzE1am5IZFhtVDVGWDktNFloRjNfNGZKanZ1ZGs0b2F0N2VoSGtHY2JEd1BLa0tPaG9VaWRfMVdKcFB1TFpNLVZ1cVBwSGJleVlFdQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Countercurrents",
-      "headlineJa": "過剰診断症候群: インドの静かな医療流行 - 逆流"
-    },
-    {
-      "articleId": "gnews_ecd9dff8b3a2c88b",
-      "headline": "Gujarat conducts record 94 lakh malaria tests as monsoon vector-borne disease surveillance intensifies - lokmattimes.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T07:13:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbGRKMmVqQUZVVWtINXdkZTdvUDBPMDlkZDduNi0zeUFZWW9ZMVhuRjlwR1VrU1hlRVJWYnJrS3JmMmFCX2pic2FsYTB1dmFLMVJUdFB5dlRQRVIwaS1ySmdSdFN3a1ptQXZYWlNWR3ZFclFib0ljdk9EWjBkcmR4WG9DNF9ZZXZZeV9IaEktWWtXbUJCc09aOFdzRHBKWXAwRlRHc3FCUnJtMGZTQldTUnJLSjJuYnRRMDBHSTVQMS1UcmowNDViV0xvT1NiLTNkdHBRT291cw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "Gujarat"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "lokmattimes.com",
-      "headlineJa": "モンスーン媒介疾患の監視が強化される中、グジャラート州は記録的な940万件のマラリア検査を実施 - lokmattimes.com"
-    },
-    {
-      "articleId": "gnews_e37a28e055aff659",
-      "headline": "Gujarat conducts record 94 lakh malaria tests as monsoon vector-borne disease surveillance intensifies - Punjab Kesari English",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T06:38:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaWpBbXplWS1qcmFHb21FRWpJa210NE9zRkF1VkRUTVN0M3J0MzRkNVZnYmpqOFNSdjhySzljNjNELU9TZW9rRDhRbEluaERPUS1lUmFFTmI0ZS1GTTVkcXZyN19YWEtMcG90X3E5cGJxbmtMaURJdVpOYXpLcjVDTlZibnRoTmJ4VFAtSm5EUDRBSzJpQkM5ZkZldGNTbEYzbVI3eGZ4aVUxWm9xOC1DMU8tb3R0TTFfNnZJS0JWUmhQS1VZb19nX3k4eWVMemdVV1dpUGpqY0Vfd9IB3wFBVV95cUxOV293Ui01WmJUbGZGWm8zNFlUcGc5VzcwMExLQzVFWWpqNjc4Z3hGVUw2ZEZKMVZEbERQSy02ZzZVOWJjTm1ucWxDZTFMTFZUcFVPaXk2Wl9lYjFmN1RLLUhFeTA4cDFIMkhPY0JMQ0c4M1dBcEVRaGtPQ0cwQnJwT2djVVBRa2N0Tkk5dFBYa1lFcHVpOXBwTUlhZVkyS1BKa0QxVVJwTFQ5b1NLQTNnMzF4ZFozX21icF9QLUVQaTAydVNlcDlBRzBGWVBfai1aQkw3VlJ0N2ZnQ0c0azV3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "Punjab",
-        "Gujarat"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Punjab Kesari English",
-      "headlineJa": "モンスーン媒介疾患の監視が強化される中、グジャラート州が記録的な940万件のマラリア検査を実施 - パンジャブ・ケサリ"
-    },
-    {
-      "articleId": "gnews_d4717e4de5c21ad6",
-      "headline": "Covid Cases Update: देश के इस राज्य में कोविड ने दी दस्तक! 20 दिनों में 12 केस, 4 मौतें, स्वास्थ्य - ABP News",
-      "headlineTranslated": "Covid Cases Update: Covid knocked in this state of the country! 12 cases, 4 deaths in 20 days, Health - ABP News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T06:04:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPS3UwN1Y2MnVHcVNoeXB6RjBnYmliYzJuejFCei1ONF9oMHFJYWNJaU1wR1dXNzcyZUlUTHNRRjZmcHRrU09BRURKZzVDTmI5RWtCLUxrVHhoY1V4U0x5cVVib2tyTHRqTTZ0QmR5UTlPRFJTRXRFd3hnSUF1YTRSUFZmdnpjR0U1U1FocUFJaDZyTWhJVTkyOVA3MTlZdHNvdHdUNGtRQndJdkxrVVpvT0Y1T3E4eTFMa1BwUS1oT21XaU9rX0NWNXlTdGxabExHU3ZIenRnZkYtSER0Wmk1TzYyVmhKWnlMTVFkTEI2RC1QUVRNc09V0gH8AUFVX3lxTE9NZFg3ZHlGQWlpa08xWXRJak44ZS00QU1rYTg0R2wySUdqRnBTbGMxdWM2XzJ6Q0lUS0VhZ004VUEwQldZMld1bm9hVl9tUUtGeGlsb0g0TGhFaURBTjJaTk9xZTB1elBnYUVTc196NmJPSGI2MVlSMVFxWWItT3VvSUF2Y19fQ1lTUHdYaEVqUUR5WFdWVlFZZURaYnZMWnJNMFpPVk9yTW5KZXdFQmxFTzE3V3BBUFF5dEZDYTJLWFdrZjZtM0Jsc3lVSXh1SXBra2hzOHpGX1ByY3pXc0EzdzJmam1RMGpVUmV5b0RVb3UyWmlQSHEtcVo0cw?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABP News",
-      "headlineJa": "新型コロナウイルス感染症の最新情報: この国のこの州でも新型コロナウイルスが感染しました! 20日間で感染者12人、死亡者4人、健康 - ABPニュース"
-    },
-    {
-      "articleId": "gnews_b0e368f4dbdb7517",
-      "headline": "आंध्र प्रदेश में कोरोना के बढ़ रहे मामले, 12 नए केस, 4 मरीजों की मौत, प्रशासन अलर्ट - ETV Bharat",
-      "headlineTranslated": "Corona cases are increasing in Andhra Pradesh, 12 new cases, 4 patients died, administration alert - ETV Bharat",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T05:11:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdnYweXEyX3FLdkpvLUdlNVByM3hjQ0tlcVdjeXhFbjRKLWlXX3B5MnJhU29fMFloNFNkZVBsTkVqelo2NXBPdlU3OGpzVU1hNVVyUVBmd3NDMU1ZQXpSdDc1Z2FoYTlQMUlGRDczOUkxU3VZZThnWV8ybFJDVnNfQkRwZG5sNXpXV0JfM3VjNm5ySlZuY0FQQmh5Qmp0WHNaUVBUOG11TnNHUlpsUUppV2lKSDZwYmFCYXFoejJselhFT2ExNUtiQm1ncnRZTjTSAdQBQVVfeXFMT0lMbFJ2LWpGX1ZXTkV3LVZ2eEYxOW1FZWhVYUQwUGFfRjZ3Xy13VlE3XzF2TE80NXppX0FJSzJ0NFNMdFBfY09KNmRyeW1rVmVjU2xfZVdEdmx0XzI3NGtDMkJRMENKWUpMOUNDTGJiQl9oUDkyVkNpQjk2Umd2UzcyWEtFcG1COHYxNGtxTENwNjVMUVhEVTNWRV9zS3JaODJnQ0lvbjhNWmJfQThNVFZWLWliaXVJY0NxbjBLUmZ2WThxdWtCNTBJdnJPam14V2lmU0k?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "Andhra Pradesh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat",
-      "headlineJa": "アーンドラプラデーシュ州でコロナ感染者増加、新規感染者12人、患者4人死亡、行政警告 - ETVバーラト"
-    },
-    {
-      "articleId": "gnews_4e464d5768d860a4",
-      "headline": "भारत में कोरोना रिटर्न! 4 मौतों और 12 नए केस से हड़कंप, क्या मास्क पहनने का वक्त आ गया, अब कितना बड़ा खतरा?... - News18 Hindi",
-      "headlineTranslated": "Corona returns in India! Panic due to 4 deaths and 12 new cases, has the time come to wear masks, how big is the danger now?... - News18 Hindi",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T04:31:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQZHhwM1Zsa3BIMGVYa2lfbVdxRHpLN1JtaHZUNDByYkJzQzdWOEhKbmU1WW1yRVluVFdaMVpmRk5oaHFhb3F6SVhSUWZOOTZhRENaVGJ0TGtzNjRod3pJcTBSSjlzcTYzb0JMamxBVF9Bbi1OWVo0dEQwMjNidUR1VDJYNElKejlHX3d4QjdMbGhhcE55cVk4YjR5SGlrc0xqUkNvQUM5SndWZ3RSeUFzQzE1ZEJpOVJxRHF6RGxvaFFab1ZjSk9yNWgzSlBoWllFSjJUU05EaDBWcS1GbVFjUk4xLXltSmxtYUR3bnhxN0ZERC1Qel9pVnZxbWFoUDJla0lJTWdSd0FaMG1GZEROUUtIbFZBWnfSAZwCQVVfeXFMTkl1OUFtdEtIc1o2RFZ2XzE0MWxCbU9JMWpEUm4xTWd5ZUpVYTdzbm9tMklnVlRxWXpYQlliclNWV09uaU5NdFZXUWhPZnpYV0dVMVdRWU1pN1lPQXptMWxiWGc1LUllRVd3YzJNVmFzdmRVUWI3aWh3Z2RDQUpBNDZHZXF4SE5SLW5MUlg0b0NnSlNIOE1CcGtQRXNmYjlKd3NPODR4RVB3ekg4S0NIMnRMUk8tdV9XUERicjRubk12RDc4WllpWnRKVFBUUF9wcy1DeXR2anhMem4tSW9tSGZZdU0ycnA4cERDNWM1VzQzWmQ3QjBnQXJpUkNlNUVqejNyYmdSaHUzWHJxY2hmUHlLbktZTVNiLXRjbS0?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News18 Hindi",
-      "headlineJa": "インドでコロナが再発！死者4名、新規感染者12名でパニック、マスクを着用する時期が来たのか、今の危険はどれほど大きいのか... - News18 ヒンディー語"
-    },
-    {
-      "articleId": "gnews_3fb893cf21b0e2f6",
-      "headline": "आंध्र प्रदेश में कोरोना के 12 नए मरीज मिले, 4 की मौत, अलर्ट पर स्वास्थ्य विभाग - ndtv.in",
-      "headlineTranslated": "12 new corona patients found in Andhra Pradesh, 4 died, health department on alert - ndtv.in",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-17T03:04:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSXRZalJvYjhXQVpPclpYUXN0ZkFNUkVuVmJMVGxxYkFkNl9ielRBdm8zWXdLUERyZ1M0bVRuMzNrMGtMWktSalQ4cGdKNV9yeXZvWWNoRGs3OXlKSWhab0lTQzFyRFQ0YlZmWTk2TktTSVZwcldVZXZCdzFPRkN2LXJIT3VuaGtJMmZsalkwNHB1MUpTNUJDYTZHNm9Ebm5lMmpXWEEtMG5vMU1aV1VaR3J2T2VvLVFZV1JONENB?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "Andhra Pradesh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ndtv.in",
-      "headlineJa": "アーンドラプラデシュ州で新たに12人のコロナ感染者発見、4人死亡、保健当局が警戒 - ndtv.in"
-    },
-    {
-      "articleId": "gnews_5eaa66a127e1fbe6",
-      "headline": "Covid-19: भारत में कोविड की टेंशन, चीन में एक महीने में मिले 79 हजार मामले; क्या फिर लौट रही है महामारी? - MSN",
-      "headlineTranslated": "Covid-19: Covid tension in India, 79 thousand cases found in China in a month; Is the epidemic returning again? -MSN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-16T23:08:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gVBVV95cUxPeEZnT1RORG5fb0RzbjFmSkF3X0VNelJXNnpDNlFUTXEzMVd2WkgwUjBmenZKdGt1QUJCMzc1cy04MW9yWmpHdFZIN1NiMVN5a3J1aTF1UUNtMWNYb2lBclZLQ3diSWtfWnZDLVRfX0UtaGx3bkZtM0kwQndNTVAyRXZweGRzVWJUUkVqWWZtUW1rS2E4NnJaMnF5aEkxRHg3c284QjlmaHU1OVowZHhqbWQ0N2ZDemwyWXhKRGhyQU9kWTJwdDFzS1VlOGVxeVZkWTRnX29YRVNEcnZiZVNBcUxFeTAzNk5qdTVWWDJXVW40akwwTkJCV21MMnk2clVfeVJKNUJXMTFWRWVtanB3LU1abHBYSGU0MVpuSk9iMUNMSmFMMjlvU1pvMGtNSXhFcVp3TnJLOG4wNnMtNXkxNGxXS1AyNGpCR2oyNGxOS1p0OFF0TDM1b1lhOUk4RzJRZ28wdFNiV0w0dmN4em9YZElURmpPa0RZMzFzM2dhT0p2NmVDYVRfUDdEM2hGVWx4aWw1ZWZkVkdfZnYybEM0cG1NUnBjOVNMeUs2eTFWdTFzWjNYXzAxM2U1SDl0ZGNMdWxtQU5sVE9uN2wtZHJTemh5blRSWnFWUDJRMDNCNWdwTTBIZFJIX3JfeUU5MVNrU3AzdDhUbUUwVzNMNFY4QWdGd2t3UlE4OVA5T1FVcFBQY3NaWnNrZGFwdGxPZHhCOE0tRUluR2dHZEhuOG93cmZ5V2Q3amVVMmpZdmdHRVVBVUVUdlFqN0s4Rlh0Mjg2YmNrU1FNSzdMUTJ2Wjlpd3Y5NEFBcEpSSUlQRXpvZm1wOHRhMXNsTmN6bVZsb01SWklfd180UXlCOGE5dEFiR1piaUFQbDhtNGZ6Q3dZUnloNVVEeklDSUgtQzRaUVRaOVlBVndmRGtZdC1VS0JRQW1fTVVPbFpSbC0waFJkZktEc0ZLTmc?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "MSN",
-      "headlineJa": "新型コロナウイルス感染症（Covid-19）：インドで新型コロナウイルスの緊張が高まり、中国では1カ月で7万9千人の感染者が判明。流行がまた再発するのか？ -MSN"
     }
   ]
 }
