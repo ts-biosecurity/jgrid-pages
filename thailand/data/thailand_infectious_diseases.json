@@ -1,20 +1,83 @@
 {
-  "generated_at": "2026-07-30T21:46:19.593797+00:00",
+  "generated_at": "2026-07-31T21:43:46.295536+00:00",
   "date_range": {
-    "start": "2026-07-27T21:46:19.593797+00:00",
-    "end": "2026-07-30T21:46:19.593797+00:00"
+    "start": "2026-07-28T21:43:46.295536+00:00",
+    "end": "2026-07-31T21:43:46.295536+00:00"
   },
-  "total_articles": 3,
+  "total_articles": 5,
   "state_summary": {
-    "Songkhla": 1,
-    "Thailand (province not identified)": 1,
-    "Nakhon Ratchasima": 1
+    "Ubon Ratchathani": 1,
+    "Thailand (province not identified)": 2,
+    "Chiang Mai": 1,
+    "Songkhla": 1
   },
   "disease_summary": {
-    "Dengue": 1,
-    "Measles": 2
+    "Dengue": 2,
+    "COVID-19": 1,
+    "HIV/AIDS": 1,
+    "Measles": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_aa2955e82ed9b238",
+      "headline": "สา‘สุขอุบลฯ เข้าร่วมกิจกรรมประเมินโครงการโรงเรียนปลอดไข้เลือดออก พื้นที่อำเภอน้ำยืน จังหวัดอุบลราชธานี - สำนัก สารนิเทศ",
+      "headlineTranslated": "Sa'Suk Ubon participated in the evaluation activity for the Dengue Fever Free School Project. Nam Yuen District area Ubon Ratchathani Province - Information Bureau",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-31T07:29:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzNnZNeWhXQUhmUlhQOTd6UmIwRWFNSGtQVThNa0xVbTFpdmM0S0s0VVQ1d2tqUTJIZXFDRldTZnM2QS13eFB5STI3WGpTX2cxMXVsc056NnV6QQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Ubon Ratchathani"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "สำนัก สารนิเทศ",
+      "headlineJa": "サスック・ウボンさんは、デング熱フリースクールプロジェクトの評価活動に参加しました。ナムユエン地区エリア ウボンラーチャターニー県 - 情報局"
+    },
+    {
+      "articleId": "gnews_edf5fda2710e719b",
+      "headline": "ภาพยนตร์ไทย “หอแต๋วแตกแหกโควิดปังปุริเย่” - Ch7.com",
+      "headlineTranslated": "Thai movie \"Ho Taew Taek Haek Covid Bang Puri Ye\" - Ch7.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-30T12:29:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZR0pKcmpQU2RBWHJiOWdKS3VhYm5mYlFMRzlGdEJuSUtIbzNKdDF4N3F0eXlHTkFOWkl6M19FM0NUdnBEVUcyNkgyeE55ZklZMHhtd3JhQVA?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Thailand (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ch7.com",
+      "headlineJa": "タイ映画「Ho Taew Taek Haek Covid Bang Puri Ye」 - Ch7.com"
+    },
+    {
+      "articleId": "gnews_9014945e20809821",
+      "headline": "สาธารณสุขเชียงใหม่ยัน ผู้ป่วยเอดส์ในเชียงใหม่ สะสมทะลุ 23,000 คน - Thai PBS",
+      "headlineTranslated": "Chiang Mai Public Health confirms AIDS patients in Chiang Mai accumulate to over 23,000 people - Thai PBS",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-30T03:14:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NLU84b0hPN0FYc0xYVzBVb2JxQ0tsZUdweUctRWc5RGl5Yl91NTgxb09xWURsdHF0RGpRUkRIMkx6cW02WF93VjR6UUVERWt3OVV0NloyS2lpQQ?oc=5",
+      "originalLanguage": "THAI",
+      "diseases": [
+        "HIV/AIDS"
+      ],
+      "locations": [],
+      "states": [
+        "Chiang Mai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thai PBS",
+      "headlineJa": "チェンマイ公衆衛生局、チェンマイのエイズ患者数が23,000人以上に達していることを確認 - タイPBS"
+    },
     {
       "articleId": "gnews_1069d1764434aa39",
       "headline": "โรงพยาบาลสงขลา ร่วมรณรงค์ ASEAN DANGUE DAY 2026 (วันไข้เลือดออกอาเซียน) - สำนัก สารนิเทศ",
@@ -54,26 +117,6 @@
       "dataSource": "Google News",
       "sourceName": "topnews.co.th",
       "headlineJa": "「Theking」は、ティアン・ミミの歌を歌ったことを「アヌティン首相」に謝罪したばかりの「常軌を逸した大使」を捕まえた。前向きに考えるためのアドバイス 「タイと中国の関係」はほぼ千年にわたって存在してきた - topnews.co.th"
-    },
-    {
-      "articleId": "gnews_c192d0d004b51200",
-      "headline": "สอนเด็กนักเรียนหัดดำนา จ.นครราชสีมา - bugaboo.tv",
-      "headlineTranslated": "Teach students how to plant rice in Nakhon Ratchasima Province - bugaboo.tv",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-28T17:24:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90Nm9rT3BnQ3BYM1c3WEdEQ2JWbzRMVm5OMFdJcEJMVHRsRWlNcV9mRVd2SnhDSUJWMTltMzFPcEVxc2toaHk5engxM1JuWXc?oc=5",
-      "originalLanguage": "THAI",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Nakhon Ratchasima"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "bugaboo.tv",
-      "headlineJa": "ナコーンラーチャシーマー県で生徒たちに田植えの方法を教える - bugaboo.tv"
     }
   ]
 }
