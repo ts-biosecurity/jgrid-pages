@@ -1,34 +1,96 @@
 {
-  "generated_at": "2026-08-01T21:39:36.620270+00:00",
+  "generated_at": "2026-08-02T21:39:32.880004+00:00",
   "date_range": {
-    "start": "2026-07-29T21:39:36.620270+00:00",
-    "end": "2026-08-01T21:39:36.620270+00:00"
+    "start": "2026-07-30T21:39:32.880004+00:00",
+    "end": "2026-08-02T21:39:32.880004+00:00"
   },
-  "total_articles": 24,
+  "total_articles": 15,
   "state_summary": {
-    "India (state not identified)": 14,
-    "Tamil Nadu": 1,
-    "Kerala": 2,
-    "Chhattisgarh": 1,
-    "Uttar Pradesh": 2,
+    "India (state not identified)": 10,
+    "Telangana": 1,
     "Rajasthan": 1,
-    "Karnataka": 1,
-    "Delhi": 3
+    "Tamil Nadu": 1,
+    "Kerala": 1,
+    "Uttar Pradesh": 1,
+    "Karnataka": 1
   },
   "disease_summary": {
-    "Malaria": 5,
+    "Tuberculosis": 1,
+    "Dengue": 7,
+    "Ebola": 1,
+    "Malaria": 2,
     "Avian Influenza": 1,
     "Influenza": 1,
-    "Dengue": 11,
-    "Infectious disease (unspecified)": 6,
-    "Ebola": 1,
-    "COVID-19": 1
+    "Nipah": 1,
+    "COVID-19": 2,
+    "Infectious disease (unspecified)": 2
   },
   "articles": [
     {
+      "articleId": "gnews_c5e0815ce34fd0ec",
+      "headline": "Centre steps up dengue surveillance as monsoon raises outbreak risk - livemint.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-02T11:41:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjRLSkEyUE04Q3FOOTM5MUZmUDd4N1ZZYzU2Y2RoRHYzVHV3dUpWN1dWUnpTRG9XQVdhckxzRlZXRUdhOWt3d21TNmhVVmd3a0FhaVQzV0hWZ3NmaVpIVzczZkV5bGxka0M4eWgxeVNsTzhpbURIZF84dFJtbWhpU3lCVGV1UTh4emZKN1haaGNuSnR0ZVk5Rk5XY1d1YmtjMFBMaUx3VFpGVzVUVk13QW1n0gG3AUFVX3lxTE1XYUxzVXd5UXZJWlV6Z2pvZDVwMWhOZUVKbFB2UktuUjZFUWFnYVM2akdwU0JIbVNlRFMzeVBDZWp5OGxyYkZMcDRlT0JaYVJNMzZHckcxWHJTNTNIWmtGaXh5LUJ6ODg0SXFGUE9xbWNSclBjY056RWJxQm9wbGt2SEFabU0zb2FZV0tVck1xRTVoUi0wT053NFhvYkxla18tVjlVVm9iU0NsR0ZiNDNoSFhsVWhmdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "livemint.com",
+      "headlineJa": "モンスーンで発生リスクが高まる中、センターがデング熱の監視を強化 - livemint.com"
+    },
+    {
+      "articleId": "gnews_b0bb197658401835",
+      "headline": "DENV-2 caused nearly 65% of dengue cases in Telangana between 2023 and 2025: Study - Hyderabad Mail",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-02T04:18:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GSTdyWGh5NEwzNXlELWJuS2laWi1CdnV3dmozbjVIV3E1WlNOOFlUSzd0TFBqMTVoZWhSMmtwZXlBckl6VlFwQzllX3pIRDNvSlJUZHRJTHg3NXgzMVNMZlBIc0VEU1M4TU5xOEpnQVh3R2F1U0VlaFdn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Telangana"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hyderabad Mail",
+      "headlineJa": "DENV-2は、2023年から2025年の間にテランガーナ州のデング熱症例のほぼ65％を引き起こした：研究 - ハイデラバードメール"
+    },
+    {
+      "articleId": "gnews_ecf75be4c6e84d90",
+      "headline": "Ugandan tourist in Rajasthan tests negative for Ebola virus - The News Mill",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-01T17:22:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0dNNWF2Q1E5cGt6d1NONXU5NGRkb3dRZnFab1RNN2RRNWVtUGw4OUNDX2VBb283T3R3M3N5ZmlwZm1DNFhqdk5CNFdlcDkxME1Pc1kyb3F6Q0xHYjBtdzk4bUVpVUFIcFdZWHU3NDU2UkxrWlpiVndxeUdkYURIOThHV01rLWZ0WGRaUEl5T0EwaF8teFNV?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Rajasthan"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The News Mill",
+      "headlineJa": "ラジャスタン州のウガンダ人観光客、エボラ出血熱検査で陰性 - ニュースミル"
+    },
+    {
       "articleId": "gnews_59c6508051e74dc6",
       "headline": "मानसून में मलेरिया का खतरा बढ़ा, कोरिया कलेक्टर रोक्तिमा यादव सख्त - ETV Bharat",
-      "headlineTranslated": "Danger of malaria increases in monsoon, Korea Collector Roktima Yadav is strict - ETV Bharat",
+      "headlineTranslated": "Danger of malaria increases in monsoon, Korea Collector Roktima Yadav strict - ETV Bharat",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-01T08:01:28+00:00",
@@ -43,7 +105,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "ETV Bharat",
-      "headlineJa": "モンスーンでマラリアの危険性が高まる、韓国コレクターのロクティマ・ヤダブ氏は厳しい - ETVバーラト"
+      "headlineJa": "モンスーンでマラリアの危険性が高まる韓国コレクター、ロクティマ・ヤダブ氏厳格 - ETVバーラト"
     },
     {
       "articleId": "gnews_b57721db1ec66e41",
@@ -128,44 +190,44 @@
       "headlineJa": "インドのワクチン展開に先立ってデング熱4株すべてが検出 - BW Healthcare World"
     },
     {
-      "articleId": "gnews_bfd47d691b85cdb5",
-      "headline": "छत्तीसगढ़ में मलेरिया मुक्त प्रदेश के दावों पर सवाल, बढ़ते केस और मौत के आंकड़ों से घिरा स्वास्थ्य विभाग - ETV Bharat",
-      "headlineTranslated": "Questions on the claims of malaria free state in Chhattisgarh, health department surrounded by increasing cases and death figures - ETV Bharat",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-31T15:36:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeHk3b1dLNFRHbmtiTDRFaUJ6X1JlWmhoQUtjYS1ZLVRPSEIwNVQxUHdxc2RxN2M4MGMwVGhld19zNGtoQ2s1d21PZVMwUjhENG5ZUjQyWVN4M0RaTjgyNkhaRnlGWE1TbHNYT0Z5LTlGTkF5dnd2aDlwQ19RSWlSSm0wRWFJemJ4anh1NmNoMW9QM3NoLW9jTldqLXU0T3AxTVNNRjFYTTlSMWlXX2F4NE84MTVhMlBqdmp1MEtyWW5Jc2vSAcMBQVVfeXFMUHh5N29XSzRUR25rYkw0RWlCel9SZVpoaEFLY2EtWS1UT0hCMDVUMVB3cXNkcTdjODBjMFRoZXdfczRraENrNXdtT2VTMFI4RDRuWVI0MllTeDNEWk44MjZIWkZ5RlhNU2xzWE9GeS05Rk5BeXZ3dmg5cENfUUlpUkptMEVhSXpieGp4dTZjaDFvUDNzaC1vY05Xai11NE9wMU1TTUYxWE05UjFpV19heDRPODE1YTJQanZqdTBLclluSXNr?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "Chhattisgarh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat",
-      "headlineJa": "チャッティースガル州のマラリア撲滅州の主張に疑問、感染者数と死亡者数の増加に囲まれた保健局 - ETV バーラト"
-    },
-    {
-      "articleId": "gnews_b4bd502efcd0f49f",
-      "headline": "Even Hospitals launch ₹299 Fever & Dengue Package and 24/7 Dengue Hotline - Passionate In Marketing",
+      "articleId": "gnews_0f044ebd1e11fac6",
+      "headline": "Nipah patient’s condition improves, shifted to ward - The Times of India",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-31T13:09:23+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUWc5QmRiMGl0SEV2RUFzSnRfamJvRG9xajhjMlJCT0ZjYUdiUFZYRklaZGpNaEoycmMydWZuN2lreFliNmdVX19ZRDlfaEZvb2hpNk1SX3RDc2Fvb1F6dndrakNKOWxBajIySU9tOTlsWkJJU3lBZGJSbUo0QXNnQ0Q3VXVxcWdvbjltejdVSkVUeGdoYzVKUFVyVE9CNy0yeHBMWHRCMzdIc1hvY0VfUmt6N2w0T0tEamc?oc=5",
+      "publishedTimestamp": "2026-07-31T16:38:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMmE1aGdaS25pY1RLWUQzMWJMSTlKTVJRLWNnVlNua3oyWVdQQjh4NDdoNlZZcmZkNW9vT2xqNGNWdy12NHBFQmFnZ2VWbXh2aVJNQnZudi1vWnBCU3Yxa0VTeThwbnFvUC1uRzlLZHk3UDJTLXRsaFMwb1BXNTlYamNfUXdLelJ2cDhfMWFneFVlLUtoSlVkREhSQ09fVFpmRFB0czJrTUVUMXRodE44TFhEeFVqWVVxYnZMNnltTdIBxAFBVV95cUxQMDRXNFBabDBNVGQ2R1lrZjFRZGMxbnJVSkRhcjJfV2Z1U1liWEVsUHpDLUU5d0ZvZ1NZQWxtQVppR3RJUi1LaVVpRjVOSU12R3ZBN2YzRE8zcTVaWmV3REJnWnpXQXZFWkUxeG5oVy1LWC1vd2JsWm5ZVDZhaVoxRHBxakVCakx3TWc5SzF4aV9vRGZtMkNQZFpsMWl0endpeVZyTFRITTVQWnBTaGhfcmxjd2M5aUJYbWpsSl9PdGlmUUVB?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Dengue"
+        "Nipah"
       ],
       "locations": [],
       "states": [
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Passionate In Marketing",
-      "headlineJa": "病院でも ₹299 の発熱およびデング熱パッケージと 24 時間年中無休のデング熱ホットラインを開始 - マーケティングに情熱"
+      "sourceName": "The Times of India",
+      "headlineJa": "ニパ患者の状態が改善、病棟に移る - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_f75ca9dc16aad6bb",
+      "headline": "July Health Wrap: Explosive Diarrhea To Covid Surge, 10 Stories That Defined The Month - NDTV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-07-31T11:58:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWWJ1b2UxaUpRRHUwcU9GNXNtVEowRFhwQVdmRGNkY3BwdTVKd2VrUWZ4WjBodG13N3RsakFYVUc3OUhvSi1sbVlCdy1MLUFlV2ZORmUtOHBfbU9OcmVyYVRxLWdHSUlCcnBNaWhKMlluN1dHYjltN2pfakxLdTdOVzUwaVAtdVJnXzZscDRKLTZkeWpkODZ0QzdTdER0eDQ3Q2V3MjlxaEl0aDAzeXdQVlQ0Y3dEVW1Zc0FlY1lR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV",
+      "headlineJa": "7 月のヘルスラップ: 爆発性下痢から新型コロナウイルス感染症急増まで、この月を特徴づけた 10 のストーリー - NDTV"
     },
     {
       "articleId": "gnews_6ef0562472dfd84a",
@@ -208,17 +270,17 @@
       "headlineJa": "インドの家禽産業は圧力にさらされているが、成長の準備は整っている - アグロスペクトラム・インディア"
     },
     {
-      "articleId": "gnews_f73494f9572b108d",
+      "articleId": "gnews_88beab516a6207a9",
       "headline": "लखनऊ में बारिश के मौसम में डेंगू, मलेरिया और डायरिया से निपटने की तैयारी पूरी, नगर निगम ने बनाई विशेष टीम - ETV Bharat",
       "headlineTranslated": "Preparations completed to deal with dengue, malaria and diarrhea in the rainy season in Lucknow, Municipal Corporation formed a special team - ETV Bharat",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-07-31T07:40:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSTJoT1p2VW5HNXZZZ3JVYWdmZnZMOFRCSkNzLW14OUZDeXh3Y2ZHNG1vV2IyejFfUVRPQlUyempRVHNsV1JLWl96TE9NZHk2a0V3OTVCTHR3Y0lwcUVNbThUZm9IRnZqM1ZoNU5wR211OUhVTzdNS1dYejIxOXZBSHJObGpORFk1WGZQMDVqN1NZMktaVDlZYlpXUHdSakNBcnBuTXhxbU5pQ3o3MHVRVklac3A0LWFtamRrWnhWMmJjTzdsdkdqOGtIdUF3OGxvUnlvc1htSVc0QdIB2gFBVV95cUxQSTJoT1p2VW5HNXZZZ3JVYWdmZnZMOFRCSkNzLW14OUZDeXh3Y2ZHNG1vV2IyejFfUVRPQlUyempRVHNsV1JLWl96TE9NZHk2a0V3OTVCTHR3Y0lwcUVNbThUZm9IRnZqM1ZoNU5wR211OUhVTzdNS1dYejIxOXZBSHJObGpORFk1WGZQMDVqN1NZMktaVDlZYlpXUHdSakNBcnBuTXhxbU5pQ3o3MHVRVklac3A0LWFtamRrWnhWMmJjTzdsdkdqOGtIdUF3OGxvUnlvc1htSVc0QQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNFF5b3J1YjlWU3FtYVJ4Z24xbnZJdlJDQS1sMENoY2J5V21RRUF6eVhpT3RVYWs5Sm9LT2k0NTRGMGJOLTFPVTgyZVdhbm9yeXdrYy1IaFNNT3JmTE1zS0FudjMxUUxpZ05kdVljaGtZbjZZMmNuNXBNNXhaTUpCelFBcjQyTWJuM1h0RUVTQU9LMXpFcGRTaFJCN0MzSTNrMlBZUDFNcTJkejNRV0tZbXhMcXpoeW5QbVVUNzVOMk91X1FRbk5UWmxuWVJBalpEaFZUQdIB2gFBVV95cUxQSTJoT1p2VW5HNXZZZ3JVYWdmZnZMOFRCSkNzLW14OUZDeXh3Y2ZHNG1vV2IyejFfUVRPQlUyempRVHNsV1JLWl96TE9NZHk2a0V3OTVCTHR3Y0lwcUVNbThUZm9IRnZqM1ZoNU5wR211OUhVTzdNS1dYejIxOXZBSHJObGpORFk1WGZQMDVqN1NZMktaVDlZYlpXUHdSakNBcnBuTXhxbU5pQ3o3MHVRVklac3A0LWFtamRrWnhWMmJjTzdsdkdqOGtIdUF3OGxvUnlvc1htSVc0QQ?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
-        "Dengue",
-        "Malaria"
+        "Malaria",
+        "Dengue"
       ],
       "locations": [],
       "states": [
@@ -227,26 +289,6 @@
       "dataSource": "Google News",
       "sourceName": "ETV Bharat",
       "headlineJa": "ラクナウ市、雨季のデング熱、マラリア、下痢に対処する準備完了、市営企業が特別チーム結成 - ETV バーラト"
-    },
-    {
-      "articleId": "gnews_ecf75be4c6e84d90",
-      "headline": "Ugandan tourist in Rajasthan tests negative for Ebola virus - The News Mill",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-31T07:17:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0dNNWF2Q1E5cGt6d1NONXU5NGRkb3dRZnFab1RNN2RRNWVtUGw4OUNDX2VBb283T3R3M3N5ZmlwZm1DNFhqdk5CNFdlcDkxME1Pc1kyb3F6Q0xHYjBtdzk4bUVpVUFIcFdZWHU3NDU2UkxrWlpiVndxeUdkYURIOThHV01rLWZ0WGRaUEl5T0EwaF8teFNV?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Rajasthan"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The News Mill",
-      "headlineJa": "ラジャスタン州のウガンダ人観光客、エボラ出血熱検査で陰性 - ニュースミル"
     },
     {
       "articleId": "gnews_9232bf1ce4b7dab3",
@@ -269,13 +311,13 @@
       "headlineJa": "新型コロナウイルスの起源の謎は続く：CIAの研究所の漏洩評価はどのようにして再び脚光を浴びるのか？インドでの最近の死亡 - Bhaskar English"
     },
     {
-      "articleId": "gnews_1dcae0fdc9d5f6eb",
+      "articleId": "gnews_2a7c98063039a677",
       "headline": "Will dengue vaccine curb the next monsoon surge? - Bangalore Mirror",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-07-31T00:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOekw0c1M5ZU02V2lXWnRqV3ptVlpvRVdCUEd4YVZCWHVLTTNBdm5QcWVnWEJYOTNFQkloX2RpSTVXRTJjVXZVMFhXd3pLaW5veXU4ejlCaWs1Vzg4a3B0SkJfTHJXWmdUZzdXaldCOFdXemV4YXU0VF9BWkktd3RCZUZlanhZTVhnanNtbzd6RVJ2SlFfU0JKQkFWaEttdWQ0N2tZWmFBSUVaMnQ0ajdjTFhtWGMwTGU5SEI1Njd6WDlFYzZ4SnJtZDhMcWhLd9IBzgFBVV95cUxOekw0c1M5ZU02V2lXWnRqV3ptVlpvRVdCUEd4YVZCWHVLTTNBdm5QcWVnWEJYOTNFQkloX2RpSTVXRTJjVXZVMFhXd3pLaW5veXU4ejlCaWs1Vzg4a3B0SkJfTHJXWmdUZzdXaldCOFdXemV4YXU0VF9BWkktd3RCZUZlanhZTVhnanNtbzd6RVJ2SlFfU0JKQkFWaEttdWQ0N2tZWmFBSUVaMnQ0ajdjTFhtWGMwTGU5SEI1Njd6WDlFYzZ4SnJtZDhMcWhLdw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVVk3aEgwR3hGUi1xZkF5TEFIVmNCYXVsN1BPcHJ0Nlh1Uzc3WThEbW9LMjdoSVA4ZXhCZ25MVjBkUkFJeHV0aDltZFQxam5LdlFTMG8zaXhOdEE1ZVliZ0FfX0pLOW1BWk92bVZSRUZSOTdGdkRvR3l4d2JsUGx2ZUpwZUVUcHR6ekRQS1lDdy1Sa2dpLTQwRm9vbWpaSGFQUnB2TjdEYUYyODg1RzRvUmp4S21EREdmb0QwcUc2ZUVPckdwMU5LQ9IBzgFBVV95cUxOekw0c1M5ZU02V2lXWnRqV3ptVlpvRVdCUEd4YVZCWHVLTTNBdm5QcWVnWEJYOTNFQkloX2RpSTVXRTJjVXZVMFhXd3pLaW5veXU4ejlCaWs1Vzg4a3B0SkJfTHJXWmdUZzdXaldCOFdXemV4YXU0VF9BWkktd3RCZUZlanhZTVhnanNtbzd6RVJ2SlFfU0JKQkFWaEttdWQ0N2tZWmFBSUVaMnQ0ajdjTFhtWGMwTGU5SEI1Njd6WDlFYzZ4SnJtZDhMcWhLdw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Dengue"
@@ -287,226 +329,6 @@
       "dataSource": "Google News",
       "sourceName": "Bangalore Mirror",
       "headlineJa": "デング熱ワクチンは次のモンスーンサージを抑制できるでしょうか? - バンガロールミラー"
-    },
-    {
-      "articleId": "gnews_4178f02b9d92d706",
-      "headline": "कांकेर मलेरिया अपडेट: रावघाट में प्रभावित लोगों से कांग्रेस ने की मुलाकात, कलेक्टर को सौंपा ज्ञापन - ETV Bharat",
-      "headlineTranslated": "Kanker Malaria Update: Congress met the affected people in Raoghat, submitted memorandum to the Collector - ETV Bharat",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T16:30:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVU85TzhxNzY2R1RqNkJySmJwSHoxYW1ZaGRvVXJQTjlLWk1xUFdTb19MU0xSdVdZa3pfNXJRQl81OGI0RFJYbElvaVZ6eGhSR2JKaWtZM0pSVi12czFESm1kSVZHdEN1aU9aTGpHR3dRWEJNa2pQZjNoUzhtdXJEbWZtR3N4WHJHbUI3NlFWc3FwSzQwQzBxSC1EMVZXaGVZbkdGS21FaURQb3l0c3JydkNnZmdSd01LUXV2a3NVU0pMS3VSQmx3Uk9aMjRTOTZuUW80S0ExOFBZTGdsdUxlZm1Yb9IB4wFBVV95cUxNVU85TzhxNzY2R1RqNkJySmJwSHoxYW1ZaGRvVXJQTjlLWk1xUFdTb19MU0xSdVdZa3pfNXJRQl81OGI0RFJYbElvaVZ6eGhSR2JKaWtZM0pSVi12czFESm1kSVZHdEN1aU9aTGpHR3dRWEJNa2pQZjNoUzhtdXJEbWZtR3N4WHJHbUI3NlFWc3FwSzQwQzBxSC1EMVZXaGVZbkdGS21FaURQb3l0c3JydkNnZmdSd01LUXV2a3NVU0pMS3VSQmx3Uk9aMjRTOTZuUW80S0ExOFBZTGdsdUxlZm1Ybw?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat",
-      "headlineJa": "カンケルマラリア最新情報：議会はラオガートで影響を受けた人々と面会し、コレクターに覚書を提出 - ETV Bharat"
-    },
-    {
-      "articleId": "gnews_078af31b8bec7007",
-      "headline": "Increasing Cases of Dengue Virus: महामारी बनेगा डेंगू! देश में एक साथ एक्टिव हुए चारों स्ट्रेन - ABP News",
-      "headlineTranslated": "Increasing Cases of Dengue Virus: Dengue will become an epidemic! All four strains became active simultaneously in the country - ABP News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T13:35:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZjBEZFNiRV90TEp0N0NlcjI4Z0ZITTZoOGpnRmRsYjNkbW9TcW9VcG5QbTVGb0JqVkQ2N19zdUVnR2NHOExENzRkSnFpS0kxTXdZZWVzTU5CUkIyOU9GUmFBTkhDU2VsWnNIcDhUTnFFajVCU2VuTGRPcEJYTXNzLW9MYWl0WE5yd0NZZlhmdWp1OUZYMmh2VDhJU05QNWd5T01MeTQ0NndOa3ViS2gtRGMtU1NmcFFuS3VDWUlR0gG-AUFVX3lxTFBmMERkU2JFX3RMSnQ3Q2VyMjhnRkhNNmg4amdGZGxiM2Rtb1Nxb1VwblBtNUZvQmpWRDY3X3N1RWdHY0c4TEQ3NGRKcWlLSTFNd1llZXNNTkJSQjI5T0ZSYUFOSENTZWxac0hwOFROcUVqNUJTZW5MZE9wQlhNc3Mtb0xhaXRYTnJ3Q1lmWGZ1anU5RlgyaHZUOElTTlA1Z3lPTUx5NDQ2d05rdWJLaC1EYy1TU2ZwUW5LdUNZSVE?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABP News",
-      "headlineJa": "デング熱ウイルスの感染者が増加: デング熱は流行病になるでしょう! 4つの株すべてが国内で同時に活動を始めた - ABPニュース"
-    },
-    {
-      "articleId": "gnews_545e75451a1c85e3",
-      "headline": "Increasing Cases of Dengue Virus: महामारी बनेगा डेंगू! देश में एक साथ एक्टिव हुए चारों स्ट्रेन - ABP News",
-      "headlineTranslated": "Increasing Cases of Dengue Virus: Dengue will become an epidemic! All four strains became active simultaneously in the country - ABP News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T13:35:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSkdhaUxDc2NqOFZTeHlDNW1BRXFIaHJRZDh3OHFxMVpPdUxRdjA5V2tXbjJ2Nld6Q3pQQzN3X1hRMW42dDhYV1R3NkIwMkRtX2NybWo4XzdkY0d2ZE9fbERlVGYwWk1QZ1lpaUh2cjZybmJMdGUyVTRPblduZVk5ejVpSDBpSVR6aXR6eVFnQjdtY0NwSS1aOUJGS3pFU3EyckFTNElmS29lMFA1OWVmNUhFMk9Dai1p0gG-AUFVX3lxTFBmMERkU2JFX3RMSnQ3Q2VyMjhnRkhNNmg4amdGZGxiM2Rtb1Nxb1VwblBtNUZvQmpWRDY3X3N1RWdHY0c4TEQ3NGRKcWlLSTFNd1llZXNNTkJSQjI5T0ZSYUFOSENTZWxac0hwOFROcUVqNUJTZW5MZE9wQlhNc3Mtb0xhaXRYTnJ3Q1lmWGZ1anU5RlgyaHZUOElTTlA1Z3lPTUx5NDQ2d05rdWJLaC1EYy1TU2ZwUW5LdUNZSVE?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABP News",
-      "headlineJa": "デング熱ウイルスの感染者が増加: デング熱は流行病になるでしょう! 4つの株すべてが国内で同時に活動を始めた - ABPニュース"
-    },
-    {
-      "articleId": "gnews_a5614eedef1d1d35",
-      "headline": "ICMR maps dengue strains nationwide as India eyes vaccine rollout - The Economic Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T12:29:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcVVBY0I1N2JHN05RM3pVUmlZNG1nUER2Uk1oN2diR21JQUVtNV9yMlNtY1hINWlMRUtBdi1CY0RteUxmSjZzcDR2NGtZZjhjc1lmTlBBeXNNOVdrYjNJQUpNRng5QXlEamhQODQ5VzVIaTJFQkt3RWZlR0Y0ejFiMzdPZTNfeHFMZEkxR1E1QmVBdkR5U3BKQUdNd2ppTFRfc2lBUGFNNmtDc2ZIWEpUbjllYVFvS281VDI0S2xwOVBQOUVKTVhoM2xLUFFMSWktM2VZWTBDVnRvSG5iQWFwXy1aWlZwY01vR1JCMTdKTFbSAfYBQVVfeXFMUGYtbVY3b0wyWVprMVBVTlg0VExBelhUcUJqWjBQYXM1ZU5Da3ZFR2lHMnY3SU9MU0stNWNxWHc3M0JFeEN1ZnRza2E3TUQ0R25Cb20zaXFhd2FlY21XcTZ0aVE3cEVoV1JLUGVvNnlxUnZtdU5ldW5LUmx1THV6THJMYnVNelNTZlhXRGVHb1FsU3FQU1FuckM3dmRWTHU2Q2tQdk1aWjhudE1qWXM3WThUYlpWUWQxUC0tVzhudGljaHBJMFJfalhTN2FidXROYXVBNF9JMVhIaWJlc3JJS1dzSE5rTHNqbGlBU3ZDOWplTEhuQ2xn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Economic Times",
-      "headlineJa": "インドがワクチン普及に注目、ICMRが全国のデング熱株をマッピング - エコノミック・タイムズ"
-    },
-    {
-      "articleId": "gnews_6ff6a7c6664b243e",
-      "headline": "ICMR warns as all 4 dengue virus strains spread across 8 Indian states - indiatoday.in",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T11:09:49+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSFoyOUNlNkpKRjZqOE5lUUE1eWVQVlB3NFA4WkY3LUY3VUdndGV3cWF4NDFvQ1ZCNS1kS0lYYjdUa3M3MEg2d19rN0NXUFMyZzZyMnFoUm1VSERWWUhXSjR1UGFDd2VpY05iZEx4SmJaZEdMUXZiam41Qks1cEZHSG9iNWI0d05GMHMwTFNZa2dqUnJBQU1yaVpfU3g2SnpldEpPSlV4dldfYVJ6NEpwSlpLR2ZVemp0azA5eXViMnVqcnlKYks5NnE4X2JUNHVPakdV0gHYAUFVX3lxTE5UNEhIMy1MeEtXZU9sdkw4Q1dxc2p4bUwzbXdFTlpkS1U4ck9zVzNoeEZzclhwT2NOUUV1MHM0dUNBUzNzV2JaQ3FZX1N4Z0ItbVBUaTRqVnNpNi1DcVJjbGI3MlFWUVg4ZW8xeENwTjQ4S1dIbWNFb1B2clBCakI4SFFTR3pSVWdYT1ItbU80WEtkT0tPbEhhVGJuUmVGcnpHa2pENnAwdGJyak1YWDIza0U2aWQxY0tTYU90eEt0YmFkWENXV0VLNFhSQXBURHl0dUU0UGRzTw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "indiatoday.in",
-      "headlineJa": "デング熱ウイルスの4つの株すべてがインドの8つの州に広がっているとしてICMRが警告 - indiatoday.in"
-    },
-    {
-      "articleId": "gnews_f71a1c26820ae2d2",
-      "headline": "कवर्धा के गांवों में मलेरिया का प्रकोप, अबतक 20 हजार ग्रामीणों की जांच, करीब 45 मरीज - ETV Bharat",
-      "headlineTranslated": "Malaria outbreak in Kawardha villages, 20 thousand villagers examined so far, about 45 patients - ETV Bharat",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T08:17:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT21BTTNXcUlKX0lucUl2dFdzTkw0SmF3ZWtPMFU5Szk2NExYcGQ2UWtJOEd1dnNjQm1TczJIcEFpbmd1dUQ5X2NSdE00MHA0SUVRZmFvbFRkTEk5U2MxeWNqSF9IS00yRFNFQ0Z5VktWNG1vWDA1UzlXUlQ4bllVN2VwbjczTmJMVXpud01BSlFESGsyd202Y3B4RDlBdlpaVFA3QU1TcTJ5VGxjOWsyVmV4RkZINF9EenZ5Y2R4dXFCUjJyYlFZR0JCczhTY1ZV0gHQAUFVX3lxTFBPbUFNM1dxSUpfSW5xSXZ0V3NOTDRKYXdla08wVTlLOTY0TFhwZDZRa0k4R3V2c2NCbVNzMkhwQWluZ3V1RDlfY1J0TTQwcDRJRVFmYW9sVGRMSTlTYzF5Y2pIX0hLTTJEU0VDRnlWS1Y0bW9YMDVTOVdSVDhuWVU3ZXBuNzNOYkxVem53TUFKUURIazJ3bTZjcHhEOUF2WlpUUDdBTVNxMnlUbGM5azJWZXhGRkg0X0R6dnljZHh1cUJSMnJiUVlHQkJzOFNjVlU?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat",
-      "headlineJa": "カワルダ村でマラリア発生、これまでに村民2万人が検査、患者約45人 - ETVバーラト"
-    },
-    {
-      "articleId": "gnews_02382bda216327ea",
-      "headline": "भारत में डेंगू के 4 स्ट्रेन एक साथ, 8 राज्यों में अलर्ट; अगले साल तक आ सकती है वैक्सीन - Jagran",
-      "headlineTranslated": "4 strains of dengue together in India, alert in 8 states; Vaccine may arrive by next year - Jagran",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T03:50:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWW9JU0txVDR0c3lMZ0dIT0h5MExlZ1lxZW84eVQxVnhScnl3c3ZkUHZyTnNHOHVObFppV28zUm9zb0dJamR4UDhmbUw0cmRHRlVtMTFLRWVyN3RzM043dVd1QU5YcWFTOXJuWXRxZzRaeFRJb2R6ZnhiUFFZRE1qb05Yc3JPQkhPNFlCWXpwSXUxakNrVkxyY0VOSVBIZF9ucXl4SlFabnFpTF9nNTcwdjhUSjE1WlpZclZIc0tn?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Uttar Pradesh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jagran",
-      "headlineJa": "インドで4つのデング熱株が同時に発生、8つの州で警戒。ワクチンは来年までに到着する可能性がある - Jagran"
-    },
-    {
-      "articleId": "gnews_c3a7256a5f63d70c",
-      "headline": "Vector-borne disease cases in Delhi log lower than 2025 - The New Indian Express",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T03:27:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVVFlbU5fMS0yaXY5LVJpTmRNY3ZwSTl2Sm11dkR0d21FZmdITmcxc1RFV2tmVUtaTFpRZy1HS0NyVTdhQkdNQjVFOFo5aWFsdXFsNHdkRVNnUUtaa0stQk5CWmt4bXhZSzlCUlVab3lxa0EzREVRQVRfWS1MUGwwSDgxSjFoRmxKNkFOWERxSXRjNmhTb3p4SVBlOUU5Q1BPbkQ5WmpOTURUTG90T1VtUEJyd9IBwAFBVV95cUxNZEo0d19icUpjdzRpVThXMG00Zmw3LXc0TjF1MjVtVXFBd2xhSXk0ZmM0VHYxXzV2MTdGdEQ2Z3RPQXpkOTgwbE1XZ2JHNy03bG1DekNmS0k5Q1FhNlV4bEdDNWRDVW1SbThZQXBmNzdwaWhzNkloN3dZS1NuVW0yclowbFFMQXdOeUN4UkFETks0VG1YbEhhVjZDWjRfdzE4NkE2UXB6V0QtTEoxeWJjcUl6bXJILUt4a0NPOTlNZGo?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The New Indian Express",
-      "headlineJa": "デリーにおけるベクター媒介疾患の感染者数は2025年よりも低い - The New Indian Express"
-    },
-    {
-      "articleId": "gnews_724b791f7ca21633",
-      "headline": "Planning for the unknown: Kerala aims to stay ahead of epidemics and pandemics, but gaps remain - The South First",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T01:35:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb3ZTR01tZnVLajFrdU55MmotV2t3ZzJ5ZktYYWdIQmx3NHpCY242My1QXzNmLUZCX3h3bnFOTjk0cDZUWWl1WS1YRm1QU2pnR2FiNGgzSS1OaDc0T0JvWVNpY0lWUjllYmozVFFLOEQzUVpQaS1rbGJWczZyU21lczlNYkxGYm1JYk5TcXdXS2cxUC0yY2puc2xxUGZQalcwQ05EYV9vaE93UXBobkhsLTBPcy1OTGFyejhUcWNzbkRJNnc2Qmc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Kerala"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The South First",
-      "headlineJa": "未知への計画: ケーララ州は疫病やパンデミックに先んじることを目指しているが、ギャップは依然としてある - The South First"
-    },
-    {
-      "articleId": "gnews_a77ecc0331c2079c",
-      "headline": "On antibiotics, problem isn’t just overprescribing - The Indian Express",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T01:00:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcWtPQTkyVHU2T2t1c1YxWW1RWHRDcjdEdFpsZm9hR1p6RXZFbjVHNjB2djdINFlUN1dEWE9FX3pCT0szdThKYUtrTkdsbzNFRGJTajF3N1Z6LWJqcjllRXp0ejJScU5WZDgydzUtMU9ydnBmTFVFb0lhR19UX1hvSFlfX0YwQVVvdmlqVVBwYkU1QWFsX25ZWmpYRHc0VDBsc0diekJkTW1NazFRZF9MTXpINjBFeDNTMTMxX3J1YndsOFN5RFRpaGJUTdIB0gFBVV95cUxPSklsX1o0dzJFMFlJRVAyUlFwLVdHWjRYVEFPWFlQTDNHVm9IQmZ6U3lPVFd2ZjVlblMtU2RZYXNIVFlvbUJ6eEhwX2wwaW9iWWFtaGJqYzJOYm53SGVqVFBCbXZmOTFIUjEtZEJETXZxOTJJb2sxdVA5emdDUEM0NEhKbDJOWmZWQ0xRU2xFcHFQYXRfTGdEWUJjZ1A4X08xUy1WVmxVclBXY0VZZ1NFZDJJTFo3LTdsZTNuYTRseEdwaGFmWDJ0OXpobUY2QlBwT3c?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Indian Express",
-      "headlineJa": "抗生物質に関しては、問題は過剰処方だけではない - The Indian Express"
-    },
-    {
-      "articleId": "gnews_f6ef28fc817d8603",
-      "headline": "Bridal make-up banned at weddings!: UP farmer sells 4 mangoes for ₹2 lakh | Top 5 interesting stories - Bhaskar English",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-07-30T00:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdlZTVUN1RFlkcGJiWEVMRjVJX3RwWnI4WTd5dV9oT19zYUwyQzBwZlNsRmQtc2FfeHhVNnlhREc4Zm5QRFhkemxrX2dyMnVYRC02S0I4Q1JuUGRUYzBSRWxLQUVuWDYwZzhVMW9OOVpKUUt3dFZkMFVMWFdOazdiTUR6WkhWTWtXLUZ5UVY0blRGbUJsc2FJTDFYTGdJU0lHV3NSdkZQb0E3STZQUDFCYjZ6RdIBuAFBVV95cUxObFdfWTkydHRQSUFYZFVUZlNGMnBucHMtOGhUbGpIZ09IemsyS25iVG85OGtLejhXRHhFRU16VGNQd0xIVHpDQm1wV0cyWFpnSXo5VDhsN191bml1aWdueUZuYTNhS3Z4Zm41ajBKWlB2WEhuSGsxclFid0ZiMVpKY3Q4TWZidFhXYWFaNWt1SFpOSmsyRFlRZ25OQmpkSjRodURwNkowZHY2X2RQVG90Q2YwWHlWRW4w?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bhaskar English",
-      "headlineJa": "結婚式でのブライダルメイクは禁止!: UP 農家がマンゴー 4 個を ₹20 万で販売 |興味深いストーリー トップ 5 - Bhaskar English"
     }
   ]
 }
