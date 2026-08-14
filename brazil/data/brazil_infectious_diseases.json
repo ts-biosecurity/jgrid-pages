@@ -1,63 +1,498 @@
 {
-  "generated_at": "2026-08-13T22:09:15.351564+00:00",
+  "generated_at": "2026-08-14T21:46:55.038899+00:00",
   "date_range": {
-    "start": "2026-08-10T22:09:15.351564+00:00",
-    "end": "2026-08-13T22:09:15.351564+00:00"
+    "start": "2026-08-11T21:46:55.038899+00:00",
+    "end": "2026-08-14T21:46:55.038899+00:00"
   },
-  "total_articles": 102,
+  "total_articles": 76,
   "state_summary": {
-    "Paraíba": 1,
-    "Brasil (estado não identificado)": 58,
-    "Pará": 14,
-    "Minas Gerais": 1,
-    "Santa Catarina": 2,
-    "Acre": 4,
-    "Bahia": 5,
+    "Brasil (estado não identificado)": 40,
+    "Santa Catarina": 5,
+    "Pará": 16,
+    "Acre": 5,
     "Amazonas": 2,
-    "Ceará": 4,
-    "São Paulo": 5,
-    "Sergipe": 2,
+    "Ceará": 2,
+    "Paraíba": 2,
+    "Bahia": 3,
+    "São Paulo": 4,
+    "Rondônia": 2,
+    "Minas Gerais": 1,
+    "Sergipe": 1,
     "Distrito Federal": 1,
-    "Mato Grosso": 2,
-    "Tocantins": 1,
-    "Goiás": 2,
-    "Rio Grande do Norte": 2,
+    "Rio Grande do Norte": 1,
     "Roraima": 1,
-    "Rondônia": 1,
-    "Espírito Santo": 1,
-    "Alagoas": 1,
-    "Mato Grosso do Sul": 1
+    "Espírito Santo": 1
   },
   "disease_summary": {
-    "Meningitis": 1,
-    "Measles": 76,
-    "Doença infecciosa (não especificada)": 7,
-    "Dengue": 13,
-    "Chikungunya": 3,
-    "HIV/AIDS": 1,
+    "Meningitis": 3,
+    "Measles": 56,
+    "Doença infecciosa (não especificada)": 6,
+    "Dengue": 7,
+    "Chikungunya": 2,
     "Avian Influenza": 2,
-    "Influenza": 2
+    "Influenza": 2,
+    "HIV/AIDS": 1
   },
   "articles": [
     {
-      "articleId": "gnews_d3d5a97372417ba3",
-      "headline": "João Pessoa investiga três casos suspeitos de meningite em crianças - Grupo Jota Sidney",
-      "headlineTranslated": "João Pessoa investigates three suspected cases of meningitis in children - Grupo Jota Sidney",
+      "articleId": "gnews_c666faad77fd61f5",
+      "headline": "Meningite meningocócica: informação ajuda a proteger famílias - Estadão",
+      "headlineTranslated": "Meningococcal meningitis: information helps protect families - Estadão",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T22:02:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaG55UU5IeldjUlZsTmZCcjQwc21Tck52aVRQS3RzRkNBdi1xTmQyUnBrTUtrUnFvdGdVM1NfTmJSZV9fY1ZoazNXTE9vRXdoNzgtcnhTNkw5X2o0c2ZaWlRqeEpzWHhpQ1lvTG1wdjNLZ1VjRUtNYXVvZ3VES0tCZjRvNTVQNUZyaXB2NTd0ZHF2VnZoWG9zVWVQdDBHV3lMT1ZuNjhSb0xpc3ZxcEUyLXZOUVE0ZVJYcGhvWURZemhGVWxadWx0Rk1YSjNidEFONnVpZXZOc3NZamRXXzZtTGpvbS3SAeoBQVVfeXFMT1oyNllLbGlYRWtlYVB0QUpuU284OTRaN09Cc2piWThRaEVpUDFUOWdpUDctZTlOMTkwbTR2cXFobVk1RTlnNkZnTXVPZWY1R0MyRERvUFhmRWd2eE8tWC1FTDRJYTAwbTlfUXZiSkhmbS10SEoybUJRek0xbVB3VTY1bzhaX3F4dGJZaWJIMDBQWEVOT0FRZGw3SDVRWFZ5LUdOZGp2Y00zZXJWejB1TG0wOURRMmhxeXYwdVpSUV8wa3ZDclFwWFd5dVp2dGNFdkxiVlE2bmpaaktzYkJCOG1Yd09rM001RnRB?oc=5",
+      "publishedTimestamp": "2026-08-14T19:47:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRkFIY01YaEdwUjFZcXJ0RnRvdzVWQng0bWQ4RkMzTjNIY21WQUx2SDhzZ1IwWVhBX1ZvMFBadEZEd3BJMGUzWVJJVy15MG9vOVBhLUEzSWhiNTQwMW9RRHVyVzQ1eWpQQnc0TU9kemU2QmNWY1ZxTW5MSmE5OFRBeEZEVTVQRERrcHg4VV83b3dpcUtoelpSNTZR0gGfAUFVX3lxTE5OSHU1RW5WQ3U5WWZ6OXR6cXVVeTN5bGdVM1pWZlYyUll6emgwdkZ1VVhBVjhlMnh6RW4xQWFjal9vanhVZ1FwVjZDUklnMW40d1R6Q3ZVT2V6b0tFeC1tR0szTF9IS2lTcXpXZUx3YWFJckFjVlZmcWZfNXRTekdEbWJfTlNIWHZSZTkyTFIxTVVDUEFpRFl1NzM4dHNGOA?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Meningitis"
       ],
       "locations": [],
       "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Estadão",
+      "headlineJa": "髄膜炎菌性髄膜炎: 情報は家族を守るのに役立ちます - Estadão"
+    },
+    {
+      "articleId": "gnews_dc7aa5f6e0738110",
+      "headline": "Com alerta de sarampo em outros países, Anvisa pede que a população se vacine - Midiamax",
+      "headlineTranslated": "With measles alert in other countries, Anvisa asks the population to get vaccinated - Midiamax",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T19:46:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd0V2cTA0OEVOM2E0ckM5dUxQVmtQLTQyUFZ5QVdudkdycDc3Vm8zN20wbVFwejlDYXF1ZFNEdHZHV3V1Z1FrSmhyNS0xdVR3cVQxaExMdmdYUERoQk1LT2xzNWlwRTNMMDZTWEZDZTE4UkdaT3loLTVlRERoSkVjSVJEYVB5b3RvUEliUDNSb2p3UkFydks1UFRZSWtDSTdaVk9Za0RwZjIzR2tzLUR5R3ZqQXZiWVVRMXZscXJqTnA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Midiamax"
+    },
+    {
+      "articleId": "gnews_d1c6dbbb07838cb8",
+      "headline": "Sarampo: Anvisa rebate fake news sobre vacina; Brasil soma 24 casos da doença - VEJA",
+      "headlineTranslated": "Measles: Anvisa refutes fake news about the vaccine; Brazil has 24 cases of the disease - SEE",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T19:10:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd0ZYczFfTHpfUnExT2dBclE4bWM1SzIzZlhyOVE2MFU4SEFmbHlwVGM0ZjFUcV9DbmVtX2FOa3d2TDZHQmNhMDFibURLbzBoQUV0VDQ3b1FKSjVXTnVXNUsybU9nOGpsakpvQmluMnlwN3dHc0JJMmd1WlhNUzNhMkNSRmIzNEJkY2ZhVVpxak41aGdZbjVLY05ERnFZaGNYS3k1QVpndFFBT29m?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "VEJA",
+      "headlineJa": "麻疹：Anvisaはワクチンに関するフェイクニュースに反論。ブラジルでは24人の感染者が発生 - SEE"
+    },
+    {
+      "articleId": "gnews_d5d834a3341884c0",
+      "headline": "Radar Econômico| Sarampo acende a luz vermelha: a desinformação também tem custo econômico - portalmakingof.com.br",
+      "headlineTranslated": "Economic Radar | Measles turns on the red light: misinformation also has an economic cost - portalmakingof.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T18:47:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82d0RUenN0RjRGdnpKalFZQkRWaG5NVGV6d01oUWVSdkJxMl8yN1M4dE1fajRraC03TDVodWdDT19kQXczemJERHU0VGFsR0xYeF9meTRZTWphclpoWUNyaDFQNlFIX2hu?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "portalmakingof.com.br",
+      "headlineJa": "経済レーダー |麻疹は赤信号を灯す：誤った情報は経済的損失ももたらす - portalmakingof.com.br"
+    },
+    {
+      "articleId": "gnews_d96781fa8b992842",
+      "headline": "Ejaculação/sêmen no olho pode causar doenças? - PFARMA.com.br",
+      "headlineTranslated": "Can ejaculation/semen in the eye cause illness? - PFARMA.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T16:20:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWUEtTDFsdHJGVDF1WUt3VmxhY1BBZnZrMEZsVUhfTWZyaFQzcjI4WDJrRVNxbng3YWNQMXlLMmJWMWdoQWd2WHZiVloyYU12ZHM3QjhrWTFtNmhENm1ZNFlGcUI3UU1jWDA1b0Fzb3JNV0ZpdVByWnFIM1Y1MjF1Rlc4b01Fak5lU2xnY0xjSWtFZlFvRF9rOWhOMm5vVFh4TVIxSURMbGlDUkJzaUladWJSTmt3YV9tSXZPaUlqSjhIOEJvMXRTWnRDdjkwRW0zeWNwSV9Lbnp5dkw1NGdGRTAtUjYzMEc1bmc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "PFARMA.com.br",
+      "headlineJa": "射精や精液が目に入ると病気の原因になることがありますか? - PFARMA.com.br"
+    },
+    {
+      "articleId": "gnews_6300e220309e79ba",
+      "headline": "Casos de sarampo aumentam e Brasil reforça vacinação - hojemais.com.br",
+      "headlineTranslated": "Measles cases increase and Brazil reinforces vaccination - Hojemais.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T15:38:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYm9SRHd0V2xXYVk3X28xUTNITzdkTWczTnV1UmRNNGZPalhsaHhkMzdHT0VIZW12NnlxYkZtZEZBLVRLc3FtWlU4TUo2WkNpUzNlZENYRWMxQVdsVjZvcE5yTEFyMUJjdTNCWUZ0MVc3RExsNzA2Mmp1cV82RUx0LUM2ajRfNS15eUpBUEYyRWRncGZlUlFIQk9BS1hHbzBmaF9oWTBTZ1pVQQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "hojemais.com.br",
+      "headlineJa": "麻疹症例増加、ブラジルはワクチン接種を強化 - Hojemais.com.br"
+    },
+    {
+      "articleId": "gnews_8484fa285e720d27",
+      "headline": "Santa Catarina reforça alerta contra o sarampo e vacinação - ND Mais",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T15:16:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcTNSOTk2VUJmdlNsTnZJWFo0QnZJY1Z3c1IyWEhNcnB5UVZvRXZBa2pYeG41NkMwaS0zSXFVWHBuMFota2RNYTdXNHFWUk1Zc05vVmtMajNWeFhhaExJM1Y1Sy1aRUZlT1RuUkxOenVxeUNYNWpMaWxBQl80MWR2QUt1eFhUbWlvRzEteEF4c28?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Santa Catarina"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ND Mais",
+      "headlineJa": "サンタカタリーナ州、麻疹とワクチン接種に対する警戒を強化 - ND"
+    },
+    {
+      "articleId": "gnews_fa1115bef3aacb06",
+      "headline": "Sarampo volta a preocupar o Brasil e médicos alertam para riscos neurológicos - uai.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T12:48:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYWFOUWpCaHR3bmJEUVlMc0JHMnk0R0g2dGRRcDB4QnNGQl9MNXdzM3pYblNhVmYxZDdPbnFtT25saTRkOWVJbGV4VzlSaE5YMWE4cHBTQnRtTmNNY2hzQ016WXV5QTZBMnk4dlBXV3NoUnpwcWtBbjlDQzBlSmcyeWNxMGpfUGZVMUxqaWdvb3VheFItREN4QVVkQ3Q2MDFSUGdJZWk2dDhUUTRYRUZ4cklLTk8tWC1KQkVtSnNmZjVmTHB3ZDJiYmRGSEVZcXc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "uai.com.br",
+      "headlineJa": "麻疹はブラジルで再び懸念されており、医師は神経学的リスクを警告 - uai.com.br"
+    },
+    {
+      "articleId": "gnews_5c2f0eaa4806f92f",
+      "headline": "Sarampo volta a preocupar o Brasil e médicos alertam para riscos neurológicos - O GLOBO",
+      "headlineTranslated": "Measles is once again a concern in Brazil and doctors warn of neurological risks - O GLOBO",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T12:47:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWC1CR3ZJRlNjd2pmM19wM2dDYmg0d3FwOWRwbm42TGM1bVRCMlhxZTdKT0RsQ3lfSFFzNHkxZEx5NnJYMnI4MmtlekhGSFJaRjZJQ1FXVVB0TGRrcWtuZFFsenpFUEg2VjJzNC1hQzVGVVJHNWloQkh0RTc1Yi0xQTZ3cG15TFYzTXVhS2pjUC1BX3Z6MTR6a1hUQ3FPaGxKV09DN0ZWeDZsTDBzeWFXWml3c3lUTENhc3JsRWZqU25nOXp6NE1vS2VoVjh4N0wtZnVlbmRZZmN4VGI5MWlaVHVwQ0FkU1hxU2EtbDUzR1A2Y0hPNmNj0gH3AUFVX3lxTE9YLUJHdklGU2N3amYzX3AzZ0NiaDR3cXA5ZHBubjZMYzVtVEIyWHFlN0pPRGxDeV9IUXM0eTFkTHk2clgycjgya2V6SEZIUlpGNklDUVdVUHRMZGtxa25kUWx6ekVQSDZWMnM0LWFDNUZVUkc1aWhCSHRFNzViLTFBNndwbXlMVjNNdWFLamNQLUFfdnoxNHprWFRDcU9obEpXT0M3RlZ4NmxMMHN5YVdaaXdzeVRMQ2FzcmxFZmpTbmc5eno0TW9LZWhWOHg3TC1mdWVuZFlmY3hUYjkxaVpUdXBDQWRTWHFTYS1sNTNHUDZjSE82Y2M?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "O GLOBO",
+      "headlineJa": "麻疹はブラジルで再び懸念されており、医師は神経学的リスクを警告 - O GLOBO"
+    },
+    {
+      "articleId": "gnews_2022a389ea1ff8d1",
+      "headline": "Alerta sobre surto de sarampo nos EUA reforça convocação para vacinação no Acre - Acre Jornal",
+      "headlineTranslated": "Alert about measles outbreak in the USA reinforces call for vaccination in Acre - Acre Jornal",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T12:28:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSHA5cnd4MnptU1pYYzBtTEpIUkYwQ05VczlBYlBPLXZnTzNjSHJyMWNBV2VibXdpMzk1ZnhSRzVSWUlWQ1VBRWlUa1NNQjVQa1NFeS1Ka3pCXzJ6OTRxblYzUHJFakoyd0ZVam01MVRiWkotdGJLQlBYZ2EyZ2QyZXdiUG9RS1V2YWkzQ2VVb2RFZExMeURUY3FGemVnd3RsNkd4X2dPbm1OQQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará",
+        "Acre"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Acre Jornal",
+      "headlineJa": "米国での麻疹流行に関する警告、アクレでのワクチン接種の呼びかけを強化 - Acre Jornal"
+    },
+    {
+      "articleId": "gnews_cf53e9351438ea97",
+      "headline": "Casos de sarampo no Brasil acionam alerta no Amazonas - Rádio Rio Mar",
+      "headlineTranslated": "Measles cases in Brazil trigger alert in Amazonas - Rádio Rio Mar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T12:17:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQVFDVGVyRmlXMkIyR2hUbXUwUko0cW1OMUkydGlXMHd3a21aRHhmeGMtdjdqM01YVTRQd2U3bm1YdzQxS1N3Zk4wQ1ZQc3dlMzM1Qnhzd08teEdGbWZOSGR6X2hud3Z2R2NBNXZPa0NjcU53U0NnOEhUalgxTjYxRktFYnNqeUswUms4?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Amazonas"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rádio Rio Mar"
+    },
+    {
+      "articleId": "gnews_31433e6ca5a1807b",
+      "headline": "Tv Atende - O médico pediatra Rodolfo Pereira faria fala sobre os casos de sarampo no Brasil. - tvandradas.com.br",
+      "headlineTranslated": "Tv Atende - Pediatrician Rodolfo Pereira would speak about measles cases in Brazil. - tvandradas.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T11:47:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVUJ3djdpUjFJSW96SG5WOE5Rc1BzVWY5MzlSUXFsT1VCMVhzOVJXSnNXS2dTR2ZIMi1CV2U0MEtjS3ROUVJpNUI1N1p2dU9zb3lqSG0wakI3ckMwczhDTjlyWmhCX2F2OTluYWpPMFo4cEw5UlM1WkxXcUczRDZVSGdCMVVEZzJGNFpaSWxaVHBLanJTYnlsbG9KS1REN2l6aGZZOXU5a2lYaFVCeVd4R0k5SEczRkJEWVZlbUM3ajU5OWNRYmU4c3gzOEI?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "tvandradas.com.br",
+      "headlineJa": "テレビ アテンデ - 小児科医のロドルフォ ペレイラがブラジルの麻疹症例について講演します。 - tvandradas.com.br"
+    },
+    {
+      "articleId": "gnews_eab7624b8fd2e488",
+      "headline": "Surto de sarampo nos EUA gera alerta de casos importados no Acre e no Brasil - ContilNet",
+      "headlineTranslated": "Measles outbreak in the USA generates alert of imported cases in Acre and Brazil - ContilNet",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T11:40:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMzMtajItSy1EYk9CdkZlWFVCVXdoQk5rYmdwMFBBWWNqRjRDRlJWazMxUTFhcWlzSHJuc1cyQkExN0J6dG9SdExyVUd1OVd5X2FyaVVVYnhFc3NqSzZFeUROclB1YU9lLUhvVVVSTlRQeEg0N2RHaGhzNjhYMi1BQkdsWUxVNWc5VGFoSlVtZXJvTTBSNE1lVmZUU1FTQWRyV042R2R1MkRFdW9UdFBPcWRoR2VQSG14b0t4UNIBwgFBVV95cUxPTlVURDRPeWJZSFhFTnN5czZvWUpzd09fd3NNbHRxMlltM1pLWUhvUjdaYklmQU9NcmV1UDRLeEtSQkNpTm1SWmp5Q1g5eVBzTVUtaTg5cWJ4YTlqNGxUMFpQUXhYSUxhQWhXQm1sa0R5bkNKN3JEbGlUdnhpZTRVWXRkeUVqWjA0RWk4YUZRY1VrVm9GbDJFMHU3SnlpVERvMG5TOUFpQi1FWGw1bURMdG1yTDYwejBxTmJXU2l1TzVGZw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Acre"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ContilNet",
+      "headlineJa": "米国での麻疹の流行により、アクレとブラジルでの輸入症例の警告が発生 - ContilNet"
+    },
+    {
+      "articleId": "gnews_6d6223bce67bf233",
+      "headline": "Alerta sobre sarampo nas Américas reforça importância de intensificar vacinação no Brasil; Ceará não registrou casos em 2026 - cearaagora.com.br",
+      "headlineTranslated": "Alert about measles in the Americas reinforces the importance of intensifying vaccination in Brazil; Ceará recorded no cases in 2026 - cearaagora.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T11:30:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWk41X1Q3RktoOEVQRC1OcjYyV19IVE42cWhBbVpqQUV4dUg4bU5IYkN1NGFvdTZ1T2I1Sklqei1qT3F1ZGVsajd4ZHBEMXZsQWNNY19FVDlPS1E2ZS1EQ29OYWtmb2JyMnV6cVNuQlNfMlpPT2NUY1k1ekttZ0JUTml1TUNjR2VQdW95UHREazNNZ3hncTVWTkJoNXpSa2FTbDBNZWF1a1llNG8xRzBTRHZmRkFHR1l0d1o0QzkzMV91RVJwbXdnVFBCR2NJdC1RT3k1cFlpa1hRRjVQU2kwYzZxQ3I?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Ceará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "cearaagora.com.br",
+      "headlineJa": "アメリカ大陸における麻疹に関する警戒は、ブラジルにおけるワクチン接種を強化する重要性を強化しています。セアラ州では2026年に感染者は記録されていない - cearaagora.com.br"
+    },
+    {
+      "articleId": "gnews_06b151882cc56563",
+      "headline": "Paraíba confirma 38 casos de meningite e 11 mortes neste ano; vacinação é principal forma de prevenção - Portal Ponto PB",
+      "headlineTranslated": "Paraíba confirms 38 cases of meningitis and 11 deaths this year; Vaccination is the main form of prevention - Portal Ponto PB",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T11:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQS2otZmVVNzdzcWlSeFg5TU5LLXRwclVsRzVaM0FKNEtHVmtwUzRId3VzRF8yV0YwRmhKM0Fzc0ZJS3A4dklDMWxlVEZ1elQ4SUsxR2tVVXFicjB2aHNlUHJkdnJaMVM4eW1ma2JDUGltUHotSms2QXVuTHZLNU1NVUhtMnZvTE1UekxpdTczaW9uWlZkUVRYczNHUFpiWVBuQTJUZV83RXJUblNIZklkVEN1Sk9teTl3MDV5ajlBS3NiOHg2VjBJWXJpdzRxSXdvNmg0WkJlSjBRREhRaVhfdXhfRU9sVXJpS3gxS1VwVk0?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Pará",
         "Paraíba"
       ],
       "dataSource": "Google News",
-      "sourceName": "Grupo Jota Sidney",
-      "headlineJa": "ジョアン・ペソア氏、小児髄膜炎の疑いのある症例3件を調査 - Grupo Jota Sidney"
+      "sourceName": "Portal Ponto PB",
+      "headlineJa": "パライバ州では今年、38人の髄膜炎患者と11人の死亡が確認されている。予防接種は主な予防法です - Portal Ponto PB"
+    },
+    {
+      "articleId": "gnews_6d1bab6927a80be2",
+      "headline": "Sarampo: entenda sintomas, riscos e quando se vacinar - D24AM",
+      "headlineTranslated": "Measles: understand symptoms, risks and when to get vaccinated - D24AM",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T11:15:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdXdHQ1RkbUdna1JZVzR2QnkybkNfVGVrV0FUQXYtbnpGVEo3dUtCVjlGd3ZmdHI0c3I5NzFsMUhLYXczU0hNZUI2cDhQaTVMamJsQmZvbWVmcUN5dFlBN2dyQWtCeDVfUU9LcWFmNy1KY3VZa253RlZ6ZVpPU3J0RXhR?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "D24AM",
+      "headlineJa": "麻疹：症状、リスク、ワクチン接種のタイミングを理解する - D24AM"
+    },
+    {
+      "articleId": "gnews_a4d077687cf231ea",
+      "headline": "Campanha de multivacinação ganha reforço diante do aumento de casos de sarampo - Portal R10",
+      "headlineTranslated": "Multivaccination campaign is reinforced in light of the increase in measles cases - Portal R10",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T11:09:53+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNekJsUWlESS00ZjVNZGhRalNCS3hQRFJYbmdKWXVzOXdqRGZxS2JHMS1oZ0JSOW5VbjVnTWFhN2d6VUFfdTdnWEc5Z2VuNXp1dHJueldRTjZjNnBtQzVybzNTQnQwNGtMUjJLd3lCcUktckhoWHlsc3p4QVVETlMzWVBTcWpRSTFiTjVnY0RSejU4SEJydnhKX0pza3FpTHlwMTktQ2tpcVVwSWFsVXprSkVqdkwzSEQyS3FRZ0ZpeGRvcVJudEdF0gHMAUFVX3lxTE9LLUxnZml3REFZTE5nd3kwSEJPVVZQWGF4LVZqXzdFaDd1MWlDRzJmQkJGemRWbE1MUnZYazhDa0VsYUZDSVp4VWtzVXY0a3J3OTUtN3AzVWd3b09MMGJ1ZzkxOHgzM2lpbnozVFctamtLTk5KclBQN3pIdm9vclNJN3cybGY5WFU0MW8xalVXT1lhNjNvbnhXcmFfNGZJSzBac1lEcXVvS3JCVU1oWUtwSzN4QlR1QXNwSVJTZW5MY2xrVm5aaTVpNUhlTA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal R10"
+    },
+    {
+      "articleId": "gnews_806bf6e89bf73991",
+      "headline": "Joinville amplia Método Wolbachia para toda a área urbana no combate à dengue - Santa Catarina em Pauta",
+      "headlineTranslated": "Joinville expands the Wolbachia Method to the entire urban area to combat dengue - Santa Catarina on the agenda",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T09:45:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYTRPSkJMd1hKN3pWckE2VXdFRzJ4djgwRE1XUGNvYXIxaTB1RTc3dUNwTld2bnVOS3dmTkp3ZThtblJkNGI3UFdRLXNucWpqZGFrbHUwM3BnUXFOaVBQN1hxT1AyWkpENUN1ekM0SzZBMVF6aHQ5RFVkSzhMWHJLLUFITjIxWU9rLTdJVjhDZjBlYXFoWG5nZ0dxZjBIMWFVenhBdGtDVXE5TUxxVjVBbERhbFlpSjg5S29Ob3ZyT3o1RzFGZ0lkdA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Santa Catarina",
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Santa Catarina em Pauta",
+      "headlineJa": "ジョインビレ、デング熱と戦うためにウォルバキア法を都市部全体に拡大 - サンタカタリーナ州が議題"
+    },
+    {
+      "articleId": "gnews_dc19137cf2bdcd2a",
+      "headline": "CB.Saúde: 'O risco do sarampo é real', alerta infectologista da UnB - correiobraziliense.com.br",
+      "headlineTranslated": "CB.Saúde: 'The risk of measles is real', warns UnB infectious disease specialist - postalbraziliense.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T08:32:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWDRfb284bjFZWFpzN3NOeS1DNXFPVnlUWmw3eUdBaFNncWg4LWZhOExpZ1VLa3g0VktBZEdoSUF6UzdPQXUwTGxKNFBaZjZPTXFLSWZpak10WUVyOUE5bE1FTWl5MV90eHlJRTVEb2x3WnRjSGhWdHA2dnZLbnFUbjIzUXpqR2NUMGwwMlVKVVVqYjd4OUpRUTF3WDQ0UVN0VDNtZ0Znbi1tU21wdTNGMXZndzdzUnIwTkRkdmdHWEwtUmxoZFZyeFdLbFVYd9IB0wFBVV95cUxPakt1aFM5X0p6em8xQWVJX2tuRzROTW5tcTRjOVRValhwWTkyeE12MGlmY2R3bUlJNHN3XzhObGh1MUs1c1FwN0Z4b0dnbm1Rcl8wT09ycklxMDBQdFpHdWl3bjRrbU4zd2g2QXZZR3R3N3dhR0ZoOHlzVFZuUkdpX0xXYlBDX0N5NklPM2J1VHdoV01MUEl0c0FIS0dXemoyLVZPeUh0dmtyREg3VFBLWXpDN0h4VEtlQjh4bFI1MnI3SEoyejU1NnlVM2FmWmc2WG9B?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "correiobraziliense.com.br",
+      "headlineJa": "CB.サウデ氏:「麻疹のリスクは現実である」と国連B感染症専門家が警告 - postalbraziliense.com.br"
+    },
+    {
+      "articleId": "gnews_e76192ccbfad9038",
+      "headline": "Sarampo volta a preocupar e Santa Catarina reforça alerta para vacinação - topelegance.com.br",
+      "headlineTranslated": "Measles is a concern again and Santa Catarina reinforces vaccination alert - topelegance.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T01:14:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcFRMdm1EMlprbmI0NkFoOFRiUi1QdnBibllLT1JFUWFOSDVDc3NpRlpOSFhhR3hDX1FTT1lEbVZhS19Kc0RjcUl2eHZkNXVMNkdIZUhhSkFtUlc0dUhHQ21laGRPbHpJUHhrTlJlVjByVkRvc2RiM1BBcE1ZNklvZzFsTDZqdGZBd2lxM0xDVGxQeWhLSmJIeUxQR1Z4emZfWDFFdllWX0ZOZjI1bExsTGJ0M1gzVzdDX2dWUjZTS0hOUUk?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Santa Catarina",
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "topelegance.com.br",
+      "headlineJa": "麻疹が再び懸念され、サンタカタリーナ州はワクチン接種の警戒を強化 - topelegance.com.br"
+    },
+    {
+      "articleId": "gnews_8570dfaf05e34012",
+      "headline": "Chikungunya cresce na Bahia em 2026 e casos aumentam mais de 280% em relação ao mesmo período do ano anterior - G1",
+      "headlineTranslated": "Chikungunya grows in Bahia in 2026 and cases increase by more than 280% compared to the same period of the previous year - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T23:01:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekNCNDhrS0R4Ui0yeXN6R3M3a1dKdUVwNXhDT2o5Y2hVRVpJaTJmMW9RZ3F1M2taa21vTVZSRmxXZHdDWW1PWnYwWVBFMGkzZlN1THptc2JWelVHbzNIcnNwVERCazZuRFBxUHl6ZUgyb2RabGxNWHpRY2hYMmNVMk9Iam7SAZMBQVVfeXFMUDBwcTd1Nng5aG42NG4yb0daNDZtWktKbkZCbjF6dnhLdHpjX0JoenZHSjlFemFuLXRiR2NybE9BLTA3Tl9ON0ZKbEYwN2ctQ2NseFNTVm9iLXRVUlBiVnVXdUh0Nl9xVWQ0WlFpVnR4Wm1OcFVXTlFEclF4X3RaUjQ5T1NTX3lJZHRNSTY0VndaRExn?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Bahia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "2026 年にバイーア州でチクングニア熱が増加、感染者数は前年同期比 280% 以上増加 - G1"
+    },
+    {
+      "articleId": "gnews_f1603470f63cc57a",
+      "headline": "Casos de sarampo em São Paulo acendem alerta no RS - Jornal do Comércio",
+      "headlineTranslated": "Measles cases in São Paulo spark alert in RS - Jornal do Comércio",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T22:37:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjVBR2pGZklTQ29nWm5MbjNjZllTV3I4RUpKdFkwckpTckxBYXAxZkNENWxkUldCbzBwSGRma19QbG14bjRBZzZwTTF6WHBqRTdTTmY4NzU1SFVsX01mOTV4cHY0cVI3SHVtWjhhX0RuLXVjY2w2ODlLc01QT0ZLMFcxa0VQMzhmX2RsWnMwLXF1aFA1MGl6N3JrOENkWXd3UndITzJtN3p5OGY0RjNj?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jornal do Comércio"
+    },
+    {
+      "articleId": "gnews_951a3bb95c9e7bcd",
+      "headline": "Ministério da Saúde reforça vacinação de crianças e adolescentes em Rondônia - Tudo Rondônia",
+      "headlineTranslated": "Ministry of Health reinforces vaccination of children and adolescents in Rondônia - Tudo Rondônia",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T22:36:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVW5HSUtIS0hEQm5Xd1Nlb3pMb09BSFhZQ3NBZV8yMnpjWVMzQk5ET09CQlVlcU40YmpCamo4aVlKeFJTRGh6Uk9Od1BJMXFHYlh3Nmd6LVBISVZpSC1aY1lHOXVKcWlwNHVOWDZhZmppREU5aVctaXlTWU9IRHNmak5KcHoxYmdwREM3SlBxaS1Id25zQXZobnZ1NFBJWFdkd0lka1JIS2YyRFhSTnZ6ZkxIR3ZEZUZLWHJGOUN2aGVtOGJjVVE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Rondônia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Tudo Rondônia",
+      "headlineJa": "保健省、ロンドニア州の子供と青少年へのワクチン接種を強化 - Tudo Rondônia"
     },
     {
       "articleId": "gnews_9d3eba5da890b703",
@@ -80,9 +515,50 @@
       "headlineJa": "アメリカ大陸の麻疹でブラジルはワクチン接種を強化 - Jornal Extra SC"
     },
     {
-      "articleId": "gnews_e14ed1b33aaf6a63",
-      "headline": "Infectologista fala sobre importância da vacina para evitar o sarampo - Correio Braziliense",
-      "headlineTranslated": "Infectious disease specialist talks about the importance of the vaccine to prevent measles - Correio Braziliense",
+      "articleId": "gnews_adf609779c216522",
+      "headline": "João Pessoa investiga três casos suspeitos de meningite em crianças - G1",
+      "headlineTranslated": "João Pessoa investigates three suspected cases of meningitis in children - G1",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T21:19:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVG93RHR5SnFkN09IYjJYTkJpRk5mY1pkN3dmX1FuSUVaVm5leU95UndUUEp0MW80cGo2dnR0eV9YcFBuMGU0NWtScEIzNVJVOWFVczk4bFUzTXN0bXNLb2dtQk43S0doeGlra2pkTVFqVm9fYTdFTFZ3Y0o4NTRzUUladjUzYmdCU1pxNTFwQlFyQzEwVmhnR2ZrWEVKNlFwNWdUSkZoUEFXdGN5LWxyUjJJX3pod3FqbzREdHV4VnNlUdIB0AFBVV95cUxPa3dQMGhPbFpsTmlnTVV4UzFrZFUwWFhXUld5VXEzUVdZTVVoNk5BZG5WLVQ2aTJ6TXU2ZFVuMDhDb2hnM1J6RTkzRnI3VHVqMGtLMVJ0QnZvQ1Y2SUE4QmhEZlFwVGp6TkJ0MlJlaTlLaFNCSGl2VC0wa3k0V2JUUldzT0RxOTFnVmsxbEp4YUtvckVnNXZpUW5FUl9HMUlJaWxkR001Ul9LWTdJclRwTmN3NWYzamUzX3JlNktRX1E1VFU4amZjbnF3VE1YTzA2?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Paraíba"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1",
+      "headlineJa": "ジョアン・ペソア、小児髄膜炎の疑いのある症例3件を調査 - G1"
+    },
+    {
+      "articleId": "gnews_610855c82b031ac9",
+      "headline": "Vacina brasileira contra gripe aviária inicia testes em humanos - correiobraziliense.com.br",
+      "headlineTranslated": "Brazilian vaccine against bird flu starts testing on humans - mailbraziliense.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T21:14:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc2dqX3k3aW9DY21nU3k4Qm9kamRudlB6TzdkbTZCUC1zcHJ5eGVGaHhmQVRZVjhfOFFkTVNKNURBSGtlSGdtTWhvSEZvbE12dFoybFdDaUtfakhiV0dkdGhRWjVwdjBxd0F6cExrRHNhNUR5ZkZZM2lIN1lEN2o0Ulp1N09ITmVkNDNFNmJJQXNlSjBFVVBSalF2UU1uX0VvZkhJd2dyaWZYbmx3U2Z0bk41U1V2YmNTeEE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "correiobraziliense.com.br",
+      "headlineJa": "ブラジルの鳥インフルエンザワクチン、人体実験を開始 - mailbraziliense.com.br"
+    },
+    {
+      "articleId": "gnews_4b00bd056ce43656",
+      "headline": "Infectologista fala sobre importância da vacina para evitar o sarampo - correiobraziliense.com.br",
+      "headlineTranslated": "Infectious disease specialist talks about the importance of the vaccine to prevent measles - postalbraziliense.com.br",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T20:32:00+00:00",
@@ -96,8 +572,8 @@
         "Pará"
       ],
       "dataSource": "Google News",
-      "sourceName": "Correio Braziliense",
-      "headlineJa": "感染症の専門家が麻疹予防のためのワクチンの重要性について語る - コレイオ・ブラジルリエンス"
+      "sourceName": "correiobraziliense.com.br",
+      "headlineJa": "感染症の専門家が麻疹予防のためのワクチンの重要性について語る - postalbraziliense.com.br"
     },
     {
       "articleId": "gnews_282bd085a81ac02f",
@@ -120,6 +596,26 @@
       "headlineJa": "トランプとボルソナロが反ワクチン演説を広める一方で、ブラジルは予防接種を強化 - 労働党"
     },
     {
+      "articleId": "gnews_96dbdb49b57afc6a",
+      "headline": "CRF/PR divulga nota sobre venda de medicamentos em Marketplaces - PFARMA.com.br",
+      "headlineTranslated": "CRF/PR publishes note on sale of medicines on Marketplaces - PFARMA.com.br",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T18:48:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSUlRVmtDYWUtWUxSWEFwcXBock1OWDBqYlF5Q3BJOWN5R29FM0FSaEVVZmxlSXR0eDZGQnVsaXBLQmFXMTN0b05sLURqRHBJLVJxazc3bzRVa2JrUEJMekFLN2RyOVJoQmk5Zm96ZUZPNmxaRVJaalVFTkNXSkJQT1d4dkt2QTVReWhEYjMzR0QwYlNYV1RaU1RGb0pvVzZld3I0ejdESXVGVVRMYU9qYlJOTVpQSjAzei1TR28xV0dyQVRFTWFLWlRjSkE3cnJoS3RjMVJ0QzBIb3FsNkwyU0ozOFBRRjR1bHhMUWxkaGJqR1NEUTJCclVKd0JDTmhQNzlvNVV3UTM5QQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "PFARMA.com.br",
+      "headlineJa": "CRF/PR がマーケットプレイスでの医薬品販売に関するメモを公開 - PFARMA.com.br"
+    },
+    {
       "articleId": "gnews_2cba59d79e0f6f6e",
       "headline": "Alerta sobre sarampo nas Américas reforça importância de intensificar vacinação no Brasil — Ministério da Saúde - www.gov.br",
       "headlineTranslated": "Alert about measles in the Americas reinforces the importance of intensifying vaccination in Brazil — Ministry of Health - www.gov.br",
@@ -137,27 +633,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "www.gov.br",
-      "headlineJa": "アメリカ大陸における麻疹に関する警告により、ブラジルにおける予防接種強化の重要性が改めて確認される — 保健省 - www.gov.br"
-    },
-    {
-      "articleId": "gnews_079df2d4686d1160",
-      "headline": "Sarampo: pediatra explica cuidados e prevenção contra doença - Portal O Dia",
-      "headlineTranslated": "Measles: pediatrician explains care and prevention against the disease - Portal O Dia",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T17:41:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTHNXU1JxUXV5dTViS0IzWVhyX1M5RHBpMHJBQU5KVzIzSVlBWTNfbWNkVVB1VWdVRWJ2WTktQnUyT2ZRQ0pfZmN0SE9BTWMyVHZPMy1FZHkzSTBlbWFOV0ZwaC1aSnUta0hZLWVveXFDRHlpY3kyV3E1WW5CdXZ5cXZNYW9iZUdiMDU0emVqa0NQbUF1eGd1VVcxTkRCTm1HWlVkdXpwQ2JvRFc2UFBCTEVXRQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal O Dia",
-      "headlineJa": "麻疹：小児科医が病気のケアと予防について説明 - Portal O Dia"
+      "headlineJa": "アメリカ大陸における麻疹に関する警告により、ブラジルでのワクチン接種強化の重要性が強調される — 保健省 - www.gov.br"
     },
     {
       "articleId": "gnews_ea38dba7cb92b698",
@@ -178,26 +654,6 @@
       "dataSource": "Google News",
       "sourceName": "Rádio Itatiaia",
       "headlineJa": "干ばつでもベロオリゾンテのデング熱への警戒は弱まらない - Rádio Itatiaia"
-    },
-    {
-      "articleId": "gnews_3afb72a98988e645",
-      "headline": "El Niño aumenta risco de chikungunya em MS - Boca do Povo News",
-      "headlineTranslated": "El Niño increases risk of chikungunya in MS - Boca do Povo News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T17:19:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXbHRwV1NkaUJMMmE5bk5wM1l1Z2MxUDZWb3hjbHI5c3NMS1BLY050XzA2ZjBNb09rZGZlanZ5Ty1jN1dEQ0F3dlE1NUFBN05NR2dYOXpOUU9MWWQtajQ3OFZCekZ5ZmpxWUFsZkl3anZvcmRvSW8yX3ZGdXZWQQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Boca do Povo News",
-      "headlineJa": "エルニーニョによりMSのチクングニア熱リスクが増加 - ボカ・ド・ポヴォニュース"
     },
     {
       "articleId": "gnews_972d429675c858fc",
@@ -240,9 +696,9 @@
       "headlineJa": "危険にさらされている健康：反ワクチン論議がブラジルで麻疹への扉をいかに開くか - 上院PT"
     },
     {
-      "articleId": "gnews_9d505acba79e4b8d",
-      "headline": "Santa Catarina reforça vigilância contra sarampo e alerta para vacinação - Rede Peperi",
-      "headlineTranslated": "Santa Catarina reinforces surveillance against measles and alerts for vaccination - Rede Peperi",
+      "articleId": "gnews_1a838fc41a2782ec",
+      "headline": "Santa Catarina reforça vigilância contra sarampo e alerta para vacinação - peperi.com.br",
+      "headlineTranslated": "Santa Catarina reinforces surveillance against measles and warns about vaccination - peperi.com.br",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T14:45:00+00:00",
@@ -257,8 +713,8 @@
         "Pará"
       ],
       "dataSource": "Google News",
-      "sourceName": "Rede Peperi",
-      "headlineJa": "サンタカタリーナ州は麻疹に対する監視を強化し、ワクチン接種を警告 - レデ・ペペリ"
+      "sourceName": "peperi.com.br",
+      "headlineJa": "サンタカタリーナ州、麻疹に対する監視を強化し、ワクチン接種について警告 - peperi.com.br"
     },
     {
       "articleId": "gnews_248eb5ab67897263",
@@ -290,8 +746,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQndTcDJEbVU4TWR1eWxKSmlaZlhFY0xsSDlhSDNSakJuMDJtbFhULU9UbkJvMlFoVlctd21BSWVwWE13Z3pGd1dNTDJ6V2FOc01xNmFFV3dBenFpRkwwTGt3cXlfa2x0VHBkQlRYcng2SVpLNDhET3lubWh1UnJ1ZldoU3FVZ3FLS25zSG81LWYyRHpQN2JWMmNULTBkTGVfQVZsYjVIajhuUXF3WHBtNA?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "HIV/AIDS",
-        "Measles"
+        "Measles",
+        "HIV/AIDS"
       ],
       "locations": [],
       "states": [
@@ -315,8 +771,8 @@
       ],
       "locations": [],
       "states": [
-        "Bahia",
-        "Pará"
+        "Pará",
+        "Bahia"
       ],
       "dataSource": "Google News",
       "sourceName": "- Bahia Economica",
@@ -381,45 +837,6 @@
       "dataSource": "Google News",
       "sourceName": "O GLOBO",
       "headlineJa": "麻疹：ブラジルでの流行中、Google でのこの病気の検索数は 910% 急増しました。上位 10 の質問をご覧ください - O GLOBO"
-    },
-    {
-      "articleId": "gnews_aea29d2acd764912",
-      "headline": "Baixa cobertura vacinal contra sarampo acende alerta no RN - BNews RN",
-      "headlineTranslated": "Low measles vaccination coverage sparks alert in RN - BNews RN",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T09:04:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTkpIdVVqc1F4aEFzWGdBak5MbTBWNGFwZlJYMnFscFFxcm1za29fTVJ3MmRCemYxYjVlLUVOc3lCSFRNR3RuS0ViRzE5OVFzaFZOaTduZTYtcE5zZ0VZU0JIdURSaG5la1FkeVBDcDN4b0RDZ19VRmpfYjJJejB4aWtOcDZ0OTVNY29YSm1kbjlLc1JjRDRDWWFIaFpMUFpWRVpZUVBLSzYwNDjSAbABQVVfeXFMUEVsY0xidjZQY3lURXdBUWxObFFOUHhTVXlydXEzZnJUMDF0bGExR3RxVFBXUEppRnNyU1d2aFQtQnpWNmtpMWRYSkxlMW1pTFRPSGI1MUdZU0Z5dFdMQWRqVDNkQnFtSkNxOFpybVd2dVFEZnctTW5yTkdxMkVxSUQyQjVUQ0w5NWlKV1VpclNZTVRvcUV4b2QzZ1VWODBYQUd1WDRxbEJidkdEMzg2dk0?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BNews RN"
-    },
-    {
-      "articleId": "gnews_a0150e86ee05cd9a",
-      "headline": "Tarcísio afirma que vídeo antivacina de Eduardo Bolsonaro não atrapalhou campanha contra sarampo - Terra",
-      "headlineTranslated": "Tarcísio claims that Eduardo Bolsonaro's anti-vaccine video did not hinder the campaign against measles - Terra",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T01:14:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNXzF1SXhSZmdQdFpLRUdsc0lENEtRTnFaVURpYm5jb3lsbGRRZlFNdHI3WUlRZ2dKb0ZaR3AtX0xkVjZUYVlycUFRRERkWW4wOFpTQ1k2ajVZTVNNZTZiZ3ctOUhOWlU4RERfQ20xSlFuVEtWemNnZzRMZUFYSWdmaEVwMjBYUkx6amdlc1BITzNrUE1BMlI4UTZlVkswc0h1dVhLYm9LSjAyVnVPakV0Z0FLMzlOcDl4X1QtRTcyLS1Yd1I0MFZ2elEwOU5qcUlaNWZoU0k3WUlFNWhqNUFVOFBLdmNpdGM0QmJoR0lzUGV0MVhyaVBkVE5lbUdacXc2QWVxUFMtaGlkYlZEcHpJS1hsX1RWdU1zNTVMbw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Terra",
-      "headlineJa": "タルシーシオ、エドゥアルド・ボルソナロの反ワクチンビデオは麻疹撲滅運動の妨げにはならなかったと主張 - Terra"
     },
     {
       "articleId": "gnews_c08366a700b902de",
@@ -504,24 +921,44 @@
       "headlineJa": "フォルタレザがデング熱感染者数の減少を記録 - G1"
     },
     {
-      "articleId": "gnews_adf257351a7c434e",
-      "headline": "Estado de São Paulo reforça necessidade de vacinação contra o sarampo - Diário do Grande ABC",
-      "headlineTranslated": "State of São Paulo reinforces the need for vaccination against measles - Diário do Grande ABC",
+      "articleId": "gnews_087db57fdcee8623",
+      "headline": "Sarampo: por que quem tem 60 anos ou mais não faz parte do público-alvo do reforço da vacinação? - Terra",
+      "headlineTranslated": "Measles: why are those aged 60 or over not part of the target audience for booster vaccination? - Earth",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T22:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVEM4aFJZaE5BbzNoc0psaWpZMDhkOXgzMkJMUHdSNFZKbGxuMDF2emUxZG1pbmpxelh1aDFMVWItQ1dJQkhGY0ZyaHVrcUdfcUg5Mi1PTVJCUkxYZTFpQ2JiY0pGS2J3eTR5bWQ3OGhwWGJFel9uZ3JndkJHYWt6WVVvWEJyajhmZnZSSjF6S3E0bmZuTHZGd21lMm43WHNka0ZpNmJZMGxpczVGVWs0?oc=5",
+      "publishedTimestamp": "2026-08-12T22:35:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQb0V2V1JJdmFtSzNEYzBNMlZ3M081UnU3MzY3YW1rZGtFSmM3NEQ3bm56bUxJd1NTZnpJUjVIeFZlX2JmdXpVclI5Z0NqaVROQ0ZNWUJsY0dIcmFUTXZRWGh4cjNsdHkwNkdZb2FFekpmRGtQXzZrLTFhbkZDVHpHU1hHYjJyRE0wUi1CbGRtVjhWcFg3TDBsVEtPQmRoUVlTaU9oUzhWUVdBbjh1RVhCd3hEVHZCeFpKdFpaTmRCSGxWMHhGSEM1RTZpSlR0V01BUk1kS1l2dXhrbnp5eEFRZHpwMVdJRTRWNEdsekM0b1poaWxzRFhnMExQMFZrQ2FWenZDSklBQldia2RieXN5a0NZczBvbXJF?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Measles"
       ],
       "locations": [],
       "states": [
-        "São Paulo"
+        "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Diário do Grande ABC",
-      "headlineJa": "サンパウロ州、麻疹ワクチン接種の必要性を強化 - Diário do Grande ABC"
+      "sourceName": "Terra",
+      "headlineJa": "麻疹：60歳以上の人が追加ワクチン接種の対象者に含まれていないのはなぜですか? - 地球"
+    },
+    {
+      "articleId": "gnews_4e8655dfc5b10671",
+      "headline": "Sarampo: 15 dúvidas respondidas sobre a vacinação e o risco da doença - Globo",
+      "headlineTranslated": "Measles: 15 questions answered about vaccination and the risk of the disease - Globo",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-12T21:30:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaklDZXRGWkFwNk9uREJnbHd6eDBIM3o3ME9nSkpIa3RoeHhJVnpaSVZpcVE3Qkp6V0J5SjdLd3dfR1lnMXVxRWhuM2UxX2ZzeEd3b3lhVHhzaGpnSkJ3bE0zc3pOdGNlM1pqeE1fNTc4MHFVSUg3Z2hSS21kMk5Jb2d1TkdiNS1BVTV4TV9OdGRRN0hvXzZIMDRIOXdJS0FkZTZ1cW5OZzhYdkE2dUNMUFhvd01hZVQwbmg4aVY2MFNyaDJoSmNKSkFDaXRRcHVnbFRjaUxha9IB1wFBVV95cUxOaklDZXRGWkFwNk9uREJnbHd6eDBIM3o3ME9nSkpIa3RoeHhJVnpaSVZpcVE3Qkp6V0J5SjdLd3dfR1lnMXVxRWhuM2UxX2ZzeEd3b3lhVHhzaGpnSkJ3bE0zc3pOdGNlM1pqeE1fNTc4MHFVSUg3Z2hSS21kMk5Jb2d1TkdiNS1BVTV4TV9OdGRRN0hvXzZIMDRIOXdJS0FkZTZ1cW5OZzhYdkE2dUNMUFhvd01hZVQwbmg4aVY2MFNyaDJoSmNKSkFDaXRRcHVnbFRjaUxhaw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Globo",
+      "headlineJa": "麻疹：ワクチン接種と病気のリスクに関する15の質問に回答 - Globo"
     },
     {
       "articleId": "gnews_ebe8ca18a11c0a7c",
@@ -544,9 +981,9 @@
       "headlineJa": "麻疹患者がSPで再び増加する一方、アクレでは麻疹の記録が無いまま26年間を終える - A Gazeta do Acre"
     },
     {
-      "articleId": "gnews_c5946a82ccedd556",
-      "headline": "RN tem cobertura vacinal contra sarampo abaixo da meta de 95% - agorarn.com.br",
-      "headlineTranslated": "RN has measles vaccination coverage below the target of 95% - agorarn.com.br",
+      "articleId": "gnews_83470f366082f949",
+      "headline": "RN tem cobertura vacinal contra sarampo abaixo da meta de 95% - Agora RN",
+      "headlineTranslated": "RN has measles vaccination coverage below the target of 95% - Agora RN",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-12T20:36:11+00:00",
@@ -560,8 +997,8 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "agorarn.com.br",
-      "headlineJa": "RN の麻疹ワクチン接種率は目標の 95% を下回っている - agorarn.com.br"
+      "sourceName": "Agora RN",
+      "headlineJa": "RN の麻疹ワクチン接種率は目標の 95% を下回る - Agora RN"
     },
     {
       "articleId": "gnews_5e4857d56100020b",
@@ -585,9 +1022,29 @@
       "headlineJa": "サンパウロ州、麻疹ワクチン接種の必要性を強化 - アラカジュマガジン"
     },
     {
-      "articleId": "gnews_ac1a0095d36ad9d3",
-      "headline": "Casos de Sarampo no Brasil: entenda os sintomas, riscos e como se proteger - agazeta.com.br",
-      "headlineTranslated": "Measles cases in Brazil: understand the symptoms, risks and how to protect yourself - agazeta.com.br",
+      "articleId": "gnews_16728447f5bc2d63",
+      "headline": "Sarampo: por que quem tem 60 anos ou mais não está no grupo de risco? - Metrópoles",
+      "headlineTranslated": "Measles: why are people aged 60 or over not in the risk group? - Metropolises",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-12T19:45:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMUNGLUx2WjRMck1DanVDUjdjeThmLVJJSjI2WXE5akwtNWJ2T292XzdvQWM3ZDNhZG1BN0xocU5GT2J3bEM5c194ZzZuM1BxWTRjWXRlYnQzd1dETWZHbTNwSjRDX0pjSG8tWk9UNDE4NTU1Z3pjNHBOcHl3cVUxbHpwc25JY3BoNUhya01LZ1hJNzhmNFZrb2dxZnRwWGJfRkV3SEM4VQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Metrópoles",
+      "headlineJa": "麻疹：なぜ60歳以上の人がリスクグループに含まれていないのでしょうか？ - 大都市"
+    },
+    {
+      "articleId": "gnews_96a0b6de57fa83b3",
+      "headline": "Casos de Sarampo no Brasil: entenda os sintomas, riscos e como se proteger - A Gazeta",
+      "headlineTranslated": "Measles cases in Brazil: understand the symptoms, risks and how to protect yourself - A Gazeta",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-12T19:22:00+00:00",
@@ -601,8 +1058,8 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "agazeta.com.br",
-      "headlineJa": "ブラジルにおける麻疹患者：症状、リスク、身を守る方法を理解する - agazeta.com.br"
+      "sourceName": "A Gazeta",
+      "headlineJa": "ブラジルの麻疹患者：症状、リスク、身を守る方法を理解する - A Gazeta"
     },
     {
       "articleId": "gnews_a6451303657e59b0",
@@ -639,8 +1096,8 @@
       ],
       "locations": [],
       "states": [
-        "Distrito Federal",
-        "São Paulo"
+        "São Paulo",
+        "Distrito Federal"
       ],
       "dataSource": "Google News",
       "sourceName": "Jornal de Brasília",
@@ -667,13 +1124,13 @@
       "headlineJa": "麻疹がSPで急増し、ブラジルに警戒を呼びかける。重篤な病気の症状を参照 - abcmais.com"
     },
     {
-      "articleId": "gnews_1e8fbfdecf10c4ca",
+      "articleId": "gnews_5daa17610557d010",
       "headline": "Casos de Sarampo no Brasil: FVS alerta sobre vacinação e como identificar sintomas - G1",
       "headlineTranslated": "Measles cases in Brazil: FVS warns about vaccination and how to identify symptoms - G1",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-12T18:07:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObmt1aFN5VmZsTW1rZlM0QWV5NVQ4Um5hb1EwRmNpQ3V1NFBLU2JtSTNCZWVXdUJGRUptOGtacjZ6S0wtbmVIdTdVVXVHYzZ0U2FzWjRXMW5zNDh3QVdoNG5GbHpMdVlKdFdpMXYzTkl3Uy1DX2d3SEYwWF80WFFLY3VmeExJTE85UnBibDFzRzZKSGFtQjNaRTEwM3lpNDk2UllmRHJiVjE5YklicTUyaEd3TUpma3A4WXIxeFhVY3dhMzJ0TWNsb1d2RjZSR3dtM2RoU3ZLaVdUV2l4Sk5aak1sUE90dEg0NXMySlNmdjEyVHZMeUN4ZnZn0gH6AUFVX3lxTE5ua3VoU3lWZmxNbWtmUzRBZXk1VDhSbmFvUTBGY2lDdXU0UEtTYm1JM0JlZVd1QkZFSm04a1pyNnpLTC1uZUh1N1VVdUdjNnRTYXNaNFcxbnM0OHdBV2g0bkZsekx1WUp0V2kxdjNOSXdTLUNfZ3dIRjBYXzRYUUtjdWZ4TElMTzlScGJsMXNHNkpIYW1CM1pFMTAzeWk0OTZSWWZEcmJWMTliSWJxNTJoR3dNSmZrcDhZcjF4WFVjd2EzMnRNY2xvV3ZGNlJHd20zZGhTdktpV1RXaXhKTlpqTWxQT3R0SDQ1czJKU2Z2MTJUdkx5Q3hmdmc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZzluTXdNSzlqOWJjMkdUSWJqdjAyMU9VcWlZX2MxSXpqZF9ReWZOQ29RTkdvRDFtaEFIa2tNb2VkRUVfWEpVZDR6eUR5WXJlcGxPQTJCUk1fdmF6ZEhoQ0RCV3d2S3kzaUpXRUFpa2NtVUQ3NUxCMF80OTdEd2hDSnZlaDl1WEpEYWljbzFveVIzSzdBakpOQl8yNTlieWtGSjJNd2dUa0ZoNWdDaldORmZKUFUzRWFOQWNsN2ZPaGRSczRwdnN4cE5LeUgzejJEdWdhQ0lyVGVFR2cyNkRrZUVqLTFTcmdLRDhJ0gH6AUFVX3lxTE5ua3VoU3lWZmxNbWtmUzRBZXk1VDhSbmFvUTBGY2lDdXU0UEtTYm1JM0JlZVd1QkZFSm04a1pyNnpLTC1uZUh1N1VVdUdjNnRTYXNaNFcxbnM0OHdBV2g0bkZsekx1WUp0V2kxdjNOSXdTLUNfZ3dIRjBYXzRYUUtjdWZ4TElMTzlScGJsMXNHNkpIYW1CM1pFMTAzeWk0OTZSWWZEcmJWMTliSWJxNTJoR3dNSmZrcDhZcjF4WFVjd2EzMnRNY2xvV3ZGNlJHd20zZGhTdktpV1RXaXhKTlpqTWxQT3R0SDQ1czJKU2Z2MTJUdkx5Q3hmdmc?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Measles"
@@ -687,49 +1144,9 @@
       "headlineJa": "ブラジルにおける麻疹症例：FVSはワクチン接種と症状の特定方法について警告 - G1"
     },
     {
-      "articleId": "gnews_d38622c829c8bbfc",
-      "headline": "Sarampo: entenda os sintomas, os riscos e quando tomar a vacina - RO Acontece",
-      "headlineTranslated": "Measles: understand the symptoms, risks and when to get the vaccine - RO Happens",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T17:50:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaV9rSjA3Q21yQ2UxSGRDZXVwQlRLV3FfcmtRRldENDNZRW5mOWNaaXkyejZ1WFpJcllrcjl2VHZuRGJFb1ViejNTUGw0eWhTT2NiWjhuWWltY0hCLTRHNnctbUhuNmQ3NFlSUlc0VkluM1czNlN5dG9fNWlJcldXWFViUTloZkFhZDJTSW90NDVRQ1ItOENTZlQ0VTF3aFFP?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RO Acontece",
-      "headlineJa": "麻疹：症状、リスク、ワクチン接種のタイミングを理解する - RO Happens"
-    },
-    {
-      "articleId": "gnews_3206115d7fd9db4b",
-      "headline": "Dengue tipo 3: cidade de Mato Grosso confirma 9 casos da variante rara - bra1.com.br",
-      "headlineTranslated": "Dengue type 3: city of Mato Grosso confirms 9 cases of the rare variant - bra1.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T17:23:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbVdjSXNBUWhhckQ2a0h1LVByRURXUk10cm5Ba3V5N0Vsdm14eEtIWG1HUUF3RDFhbmVhSHNlUmJxX2JvM2lZMm9TLXBMU3BUZWJ2RVhKSWo2OHpQaU56Ynp6RjFXVHBSd1JSOG1DT0tnUUZieEZVRDZBMy1yWElFMW9IUjd0ajNUM2RwSTkzSW8yNmxQOEhNWWJDS2UwS2c0dXBRd253OTlza05uZzFr?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Mato Grosso"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "bra1.com.br",
-      "headlineJa": "デング熱 3 型：マトグロッソ市、稀な変異種の 9 例を確認 - bra1.com.br"
-    },
-    {
-      "articleId": "gnews_eb3b16a9c551e51b",
-      "headline": "Sarampo: novos casos no Brasil reforçam importância da vacinação - Tudo ok Notícias",
-      "headlineTranslated": "Measles: new cases in Brazil reinforce the importance of vaccination - Everything ok News",
+      "articleId": "gnews_7f0da323990a921d",
+      "headline": "Sarampo: novos casos no Brasil reforçam importância da vacinação - tudooknoticias.com.br",
+      "headlineTranslated": "Measles: new cases in Brazil reinforce the importance of vaccination - tudooknoticias.com.br",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-12T16:29:03+00:00",
@@ -743,8 +1160,8 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Tudo ok Notícias",
-      "headlineJa": "麻疹：ブラジルで新たな感染者が発生、ワクチン接種の重要性が改めてわかる - 大丈夫 ニュース"
+      "sourceName": "tudooknoticias.com.br",
+      "headlineJa": "麻疹：ブラジルでの新たな症例でワクチン接種の重要性が改めてわかる - tudooknoticias.com.br"
     },
     {
       "articleId": "gnews_e0c7002c5dd3c32a",
@@ -763,33 +1180,12 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "O GLOBO",
-      "headlineJa": "ブラジルで1973年以来定期的に使用されている麻疹ワクチンの仕組みとそれが安全で効果的である理由 - O GLOBO"
-    },
-    {
-      "articleId": "gnews_70e08549d6f17269",
-      "headline": "Sarampo volta a registrar casos no Brasil e RN reforça vacinação - TCM Notícia",
-      "headlineTranslated": "Measles records cases again in Brazil and RN reinforces vaccination - TCM Notícia",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T15:47:49+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcldiWWNrZ2xhRG1GdVpwUmY4VVpMQmJiTHlYVTFzc1h6QjBlZ0JtTEhLX2pLbU10R1FkWG1NM1ZMd3gtX1JQbUJYRXVYS2hQYU5sYjFSczBHRFEyaVA0S2c1c2JMQnZZRzlDVDNEdlNOXzV0ZkNmWmdCSVNqTmNSa2pzd3gxLTE4UzlEUnpPZ3pwaHh5WHp0V1BpdHBXXzA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TCM Notícia",
-      "headlineJa": "ブラジルで麻疹の感染者が再び記録され、RNはワクチン接種を強化 - TCM Notícia"
+      "sourceName": "O GLOBO"
     },
     {
       "articleId": "gnews_0af7c4f901d9d626",
       "headline": "Dengue tipo 3: cidade de MT confirma 9 casos do sorotipo raro que voltou a circular no Brasil - Primeira Página",
-      "headlineTranslated": "Dengue type 3: city of MT confirms 9 cases of the rare serotype that has returned to circulation in Brazil - Front Page",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-12T15:34:58+00:00",
@@ -805,26 +1201,6 @@
       "dataSource": "Google News",
       "sourceName": "Primeira Página",
       "headlineJa": "デング熱 3 型: モンタナ州市、ブラジルで再び流通している稀な血清型の 9 例を確認 - フロントページ"
-    },
-    {
-      "articleId": "gnews_ea3dd8f02f097a17",
-      "headline": "Sarampo: sintomas, riscos e importância da vacinação - A Cidade Costa Verde",
-      "headlineTranslated": "Measles: symptoms, risks and importance of vaccination - A Cidade Costa Verde",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T13:48:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWGJsUmJzMzNldEk1di1CZEtiei01X3ZOQTgtNTRsNFZXeW5VQlNFVVpfdGR3V1BQM20xd0JGd2ktZ3FOQzcxdFZMT3N3V0VETEhEVkxnZnppaEhKektMR2VVd0NFME5XbnVFREliWkNNdFR1d0sycVN5elRtOWlPVUtqa1dQMlZWellySHExcUtSV3h5UlE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "A Cidade Costa Verde",
-      "headlineJa": "麻疹：症状、リスク、ワクチン接種の重要性 - A Cidade Costa Verde"
     },
     {
       "articleId": "gnews_ed1c8c55f2b2c656",
@@ -847,24 +1223,24 @@
       "headlineJa": "麻疹が再びブラジルを脅かす。サンパウロで感染者が確認された - TNH1"
     },
     {
-      "articleId": "gnews_33adf550a4e1370f",
-      "headline": "Febre alta e manchas vermelhas? Saiba quando suspeitar de sarampo - Costa Norte",
-      "headlineTranslated": "High fever and red spots? Know when to suspect measles - North Coast",
+      "articleId": "gnews_8b6a6f2e9f103e79",
+      "headline": "Brasil registra novos casos de Sarampo e RN reforça orientação para vacinação - O POTI",
+      "headlineTranslated": "Brazil records new cases of Measles and RN reinforces guidance for vaccination - POTI",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T13:26:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeF9OSTFjVkstTmVMNGRQS1pzQll1R2wzallLbG5rTkdzNXBrRG1FdGZuNExMYUE4a2puSmZ3TVVUVUlIVEFkNmZzZ0R6Q0hiREFXdjhTckJ3ZlJEbnYxZ2h1WGpBLVFtN0RPdFdxQ3NXeTFHZEIycERjS0drUGxidVMxU25yQnVvM0o3X3R1RE5yVlNPNWJNV0djQXVwYjZvbUNR0gGoAUFVX3lxTE56MS12elY1a2psS0VqQ05PSVpYUXE1bjJrMllDS2VocndJU0Z6cWV5bmg2YVNqcTZXUTc5SXBXYVo2eHhnemstMWdSOThwb3BMRGVJY3lrOXBRQlJWWmtlQjFSNFByNlNFSUtXQ2xDU0xEQ1RDT1dwV2hfeEtHaDRaZERUQXMzdzhFTmVFWXNKLXl2amFiOTYyV1hvM003WWEtLXJaTXVleQ?oc=5",
+      "publishedTimestamp": "2026-08-12T13:10:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVHZHXzdKVnlrdW5kSDdoSGI5VkZDaHV3RnRBVTd4RWlNY3h1OTNyU0U4MUphNTZzQ1dZWjFtanMyQ1RYQmdUekhFb1hIZXc4RWhPdkdfYVNJZm5hQk83aWJweEJScG5qVFU1a0pjRHJGa0xTZkp4U0tTSVpkMEpFaDlTOUxVY09hSjZ1M2NxRkRoTkUxM2REYmdZRkczdnVi?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Measles"
       ],
       "locations": [],
       "states": [
-        "Brasil (estado não identificado)"
+        "Pará"
       ],
       "dataSource": "Google News",
-      "sourceName": "Costa Norte",
-      "headlineJa": "高熱と赤い斑点？麻疹を疑う時期を知る - ノースコースト"
+      "sourceName": "O POTI",
+      "headlineJa": "ブラジル、麻疹の新規感染者を記録、RNはワクチン接種の指導を強化 - POTI"
     },
     {
       "articleId": "gnews_c35c94c3956b3cbf",
@@ -947,26 +1323,6 @@
       "headlineJa": "ベレンでは麻疹ワクチン接種率が目標を下回っている - G1"
     },
     {
-      "articleId": "gnews_c888ebd17dbab560",
-      "headline": "Crescimento de casos de sarampo em 2026 reforça importância da vacinação - Conexão Tocantins",
-      "headlineTranslated": "Growth in measles cases in 2026 reinforces the importance of vaccination - Conexão Tocantins",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T11:59:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPclFOMFAyTVlZYzVzNFo3UFlBbzBCQW9FZUNrMG4zSC1rMnd4allfNVJ1azN2dVVqSVpEOFUtS0ZVZHh1bml5bE5CbmpsNWZjSDduVnhHUGpINEZNQ2hnbkdsVDU1clFhc0pHTk9YZjlxbDB3T0dNLVROM3h1R3JDVUtiWnBDeHUwWkdwR3hHVGxBSmtFSVhBS3VRNVNYQmlnZnpDYXVsVzJHYkpo?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Tocantins"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Conexão Tocantins",
-      "headlineJa": "2026年の麻疹症例数の増加はワクチン接種の重要性を強化 - Conexão Tocantins"
-    },
-    {
       "articleId": "gnews_1a783d9a928490b1",
       "headline": "Chikungunya já matou 30 pessoas em nove cidades de MS neste ano - diariodigital.com.br",
       "headlineTranslated": "Chikungunya has already killed 30 people in nine cities in MS this year - diariodigital.com.br",
@@ -987,9 +1343,9 @@
       "headlineJa": "チクングニア熱は今年すでにミシシッピ州の9都市で30人を殺害している - diariodigital.com.br"
     },
     {
-      "articleId": "gnews_63d84be811165259",
-      "headline": "Doença que muitos acreditavam estar extinta volta com força no Brasil em 2026 - Diário do Comércio",
-      "headlineTranslated": "Disease that many believed to be extinct returns with force in Brazil in 2026 - Diário do Comércio",
+      "articleId": "gnews_9d687c9275525156",
+      "headline": "Doença que muitos acreditavam estar extinta volta com força no Brasil em 2026 - diariodocomercio.com.br",
+      "headlineTranslated": "Disease that many believed to be extinct returns with force in Brazil in 2026 - diariodocomercio.com.br",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-12T11:49:00+00:00",
@@ -1003,28 +1359,8 @@
         "Acre"
       ],
       "dataSource": "Google News",
-      "sourceName": "Diário do Comércio",
-      "headlineJa": "多くの人が絶滅したと信じていた病気が2026年にブラジルで猛復活 - Diário do Comércio"
-    },
-    {
-      "articleId": "gnews_25369752385f6cf9",
-      "headline": "Doença que muitos acreditavam estar extinta volta com força no Brasil em 2026 - Diário do Comércio",
-      "headlineTranslated": "Disease that many believed to be extinct returns with force in Brazil in 2026 - Diário do Comércio",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T11:49:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTTI0SlRIRlB2VUlsTnM1VU0xMjY2TXNyN0h0dC1PRzBUd3RmMzRaQ3BVdVY1MHIzbkZDbm9vdkpKMEVERk1nbjFsMDdjZ0RNOU1IbVF5V0FqbmFpYVB0TU5DRWhTQWppekVKV2l5VExuUHMzb0o4a1kyLV9TVUwxNS05eTlBeEdReHRLWU9kXzFjNGVseXczUHlFTnJCdUtNNlIxM1REcGtLVTA4RkdITHdDbUM?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Acre"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Diário do Comércio",
-      "headlineJa": "多くの人が絶滅したと信じていた病気が2026年にブラジルで猛復活 - Diário do Comércio"
+      "sourceName": "diariodocomercio.com.br",
+      "headlineJa": "多くの人が絶滅したと信じていた病気が2026年にブラジルで猛威を振るう - diariodocomercio.com.br"
     },
     {
       "articleId": "gnews_39b757fcfb91db7a",
@@ -1045,26 +1381,6 @@
       "dataSource": "Google News",
       "sourceName": "Sociedade ON",
       "headlineJa": "麻疹、再びブラジル当局を悩ませている - Sociedade ON"
-    },
-    {
-      "articleId": "gnews_a6e64f4a26a35d3d",
-      "headline": "Entenda o que é o sarampo, sua transmissão e prevenção e onde se vacinar em Goiânia e Aparecida - Jornal Onze de Maio",
-      "headlineTranslated": "Understand what measles is, its transmission and prevention and where to get vaccinated in Goiânia and Aparecida - Jornal Onze de Maio",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T11:48:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWWhYV2h3bmFMRVM5NlNjTWI3M01mRFB6SDlHWTB2OEQwOXVQeEotUi0tUC1vYlJHeWQyd3RaTDdqeWxzWUEtSU9ZS0dfYzJ5VnIycWwtOGZ6OHNlUmltdFJ1c09xYnZWREZMNzlHUU5UYjZETDY1M19rc2RXcUpPOURVYzRiZWFQMG5uV0hDNXhyb3VzWEcxY1FxNmZVMDdYNnBVd1lMTGVaYWtfNFRGUWFkYl9sa2FvYmtKRC1B?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Goiás"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jornal Onze de Maio",
-      "headlineJa": "麻疹とは何か、その伝播と予防、ゴイアニアとアパレシーダでどこで予防接種を受けられるかを理解する - Jornal Onze de Maio"
     },
     {
       "articleId": "gnews_c369a4c437aca75d",
@@ -1183,33 +1499,12 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Tribuna do Norte",
-      "headlineJa": "麻疹ワクチン接種率を懸念 RN - Tribuna do Norte"
-    },
-    {
-      "articleId": "gnews_0c6e506841edf895",
-      "headline": "Vacina contra sarampo precisa de reforço? Veja quando tomar - O POVO",
-      "headlineTranslated": "Does the measles vaccine need a booster? See when to take it - THE PEOPLE",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T02:29:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTRZVk5Ic1ZQU21zcnJhcHZiMjVUYVJGSnVpeng2ZG5ZQkNoS01HOHB1R1Z3VkV2cFpzY2UtY3R3SjlnOHA0bm5tNFBNd05VYVFWLUFFOXFISUU0Y0NkUG1aeS1XVS00YzRfZC0xQV9jeGliN3d6bTlGd2hRUm5WUzRnQ29qZ1hQMXMwN18ydThKRm01U2pEOGRac1pmcDNhNDRVbng2dHdKS0pQc2NVMkUtZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O POVO",
-      "headlineJa": "麻疹ワクチンには追加免疫が必要ですか?いつ服用するかを確認する - THE PEOPLE"
+      "sourceName": "Tribuna do Norte"
     },
     {
       "articleId": "gnews_4ac9f72e68e3fc34",
       "headline": "Roraima entra em alerta para dengue com possível chegada de El Niño em 2027 - G1",
-      "headlineTranslated": "Roraima goes on alert for dengue with possible arrival of El Niño in 2027 - G1",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-12T02:21:30+00:00",
@@ -1228,29 +1523,9 @@
       "headlineJa": "ロライマ、2027年にエルニーニョ到来の可能性でデング熱に警戒 - G1"
     },
     {
-      "articleId": "gnews_6294763fb6133364",
-      "headline": "Sarampo Acende Alerta No Brasil; Veja Os Sintomas Que Exigem Atenção - Taktá No AR",
-      "headlineTranslated": "Measles Sparks Alert in Brazil; See the symptoms that require attention - Taktá No AR",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T00:30:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVzgxZGxDLVZXWkx0ZVBISEVMaVJBMHFVcjdMb214NXNBRWxDaHlXMGFiWER3dmY0eENSZlRRS3R3Z1dNSnE0Q1dSVGVjWGFyRUloWjg3MUdhMkVVTTFXdnV3cWI0MnJ3LV94dVdsVUs5VW1KbXZoLWwyNlNZWlpPaVBrYjctcG5xa3hTdnJacjVEY3BhR1lSa0RKZWY?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Taktá No AR",
-      "headlineJa": "ブラジルで麻疹警報発令。注意が必要な症状を確認 - Taktá No AR"
-    },
-    {
       "articleId": "gnews_204569fecafa74ed",
       "headline": "Sarampo: entenda sintomas, riscos e quando se vacinar - Tudo Rondônia",
-      "headlineTranslated": "Measles: understand symptoms, risks and when to get vaccinated - Tudo Rondônia",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-11T22:27:00+00:00",
@@ -1270,7 +1545,7 @@
     {
       "articleId": "gnews_d30268e4ddcaa334",
       "headline": "Sarampo avança nas Américas e ES tem cobertura da vacina abaixo da meta - Folha Vitória",
-      "headlineTranslated": "Measles advances in the Americas and ES has vaccine coverage below target - Folha Vitória",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-11T21:47:54+00:00",
@@ -1286,808 +1561,6 @@
       "dataSource": "Google News",
       "sourceName": "Folha Vitória",
       "headlineJa": "アメリカ大陸で麻疹が進行、ESのワクチン接種率は目標を下回る - Folha Vitória"
-    },
-    {
-      "articleId": "gnews_c3dddefef67d9ac2",
-      "headline": "Sarampo: entenda sinais e sintomas, riscos e quando se vacinar - Aracaju Magazine",
-      "headlineTranslated": "Measles: understand signs and symptoms, risks and when to get vaccinated - Aracaju Magazine",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T21:29:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTW13aENQY3Y4OHNIMnNKOHF4ZW5SX3Axejhxc2wwS20zSGdnMjhWV0lxaHpDd05GS2xtSzFNMkJlbGQ5WXF4UFVaUmoyZEF1TVc4eVgxWjFXeC1GOFNQeEROa0tuM0tqOHNKcWRzZ2x0bmlLOU9iUHBVbUpFTXVvMVBfZDhZWC1oUnY1Vk5uVEZGd2JZZVBv?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Sergipe"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Aracaju Magazine",
-      "headlineJa": "麻疹：兆候と症状、リスク、そしていつワクチン接種を受けるかを理解する - Aracaju Magazine"
-    },
-    {
-      "articleId": "gnews_1bf6120b192ba217",
-      "headline": "Sarampo: entenda sintomas, riscos e quando se vacinar - Folha PE",
-      "headlineTranslated": "Measles: understand symptoms, risks and when to get vaccinated - Folha PE",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T21:20:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN2dBR2xjcVRUbkpOckJnQzNkaldRUGtqdHowdWdEVFhWMURkLXYtRTF1SEFVSW55WkcwdXI4SVRnWlhkNS13MF9ZVGZ1YXc5cEd4a1pPSml4UTZQM2xzYnowNE1ZSlhzaUZId3lqUHpFM2pDVkVkQW9QMUpYV3l3MlNZQnFXZXhPQ0pDc1dqU055M1h4UHBmSi1CcHZyVU3SAZ8BQVVfeXFMUDdnQUdsY3FUVG5KTnJCZ0MzZGpXUVBranR6MHVnRFRYVjFEZC12LUUxdUhBVUlueVpHMHVyOElUZ1pYZDUtdzBfWVRmdWF3OXBHeGtaT0ppeFE2UDNsc2J6MDRNWUpYc2lGSHd5alB6RTNqQ1ZFZEFvUDFKWFd5dzJTWUJxV2V4T0NKQ3NXalNOeTNYeFBwZkotQnB2clVN?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha PE",
-      "headlineJa": "麻疹：症状、リスク、ワクチン接種のタイミングを理解する - Folha PE"
-    },
-    {
-      "articleId": "gnews_00c101462b0c5c9f",
-      "headline": "Prefeitura intensifica ações de combate ao mosquito da dengue em Salvador - Bahia Notícias",
-      "headlineTranslated": "City Hall intensifies actions to combat the dengue mosquito in Salvador - Bahia Notícias",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T21:20:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcVZnQlpBOXZpTVBiR0hyR3lUZ1F2QW5xUjNtZGN3VWhZbF9PckZEM2dCVHhla09zQUdSYnFvZUJOeTJzZ0NlLU9XR25PX3dtWFctTDdFeUJ4N21kWGEteXVZVFh2Ui1qWFlxcjIxWHkwVVhyY2h2eTk5OXFKX1dsOHhsSmh4bURLejQ5LV8xNEpQenZRSFhpWW5lYzZuV0F0Y19UYmQzbVlOalNhS29fc3l0enc3RUlyQVBUeVh3NWpILXpV?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bahia Notícias",
-      "headlineJa": "市役所、サルバドールでデング熱蚊と闘う活動を強化 - Bahia Notícias"
-    },
-    {
-      "articleId": "gnews_48cced4854c0b935",
-      "headline": "Sarampo: entenda sintomas, riscos e quando se vacinar - portal do amazonas",
-      "headlineTranslated": "Measles: understand symptoms, risks and when to get vaccinated - amazonas portal",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T21:14:31+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQk5YcEszdFZqd3RlWTBEbXJtRGVBTkZ6N0w3b2daTnltSzdFSmEtZDdoS0NpZVh4YVQ1ZVZnNUFjRzVfNDhXY2IyeGNsR2RnbmRMOFE5bG9kbGc0RWtPd2dJdUhtRl9Qc3JuZzdVMGxEZnFjZ1JFZGdGNC1xangydVJJRU14NDZl?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Amazonas"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "portal do amazonas",
-      "headlineJa": "麻疹：症状、リスク、ワクチン接種のタイミングを理解する - アマゾナスポータル"
-    },
-    {
-      "articleId": "gnews_a42d27725afa109f",
-      "headline": "Sarampo: entenda sintomas, riscos e quando se vacinar - cearaagora.com.br",
-      "headlineTranslated": "Measles: understand symptoms, risks and when to get vaccinated - cearaagora.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:56:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaFp2SVpGb2VZYzVCNWZ3NktTcmc2LXVtMEdzSUdNRUhoRkJjM0dvQTBGdWp4UTZpMkVrYUhIMDhsZkE5bHRHTXYxdmtEMEJpS25saFpRTnVlenRiNjVJUjVqbHEwczBGd3pCMVpVNmUwXzhUR2gtN1VuZVhBazBIcG42M04?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Ceará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "cearaagora.com.br",
-      "headlineJa": "麻疹：症状、リスク、ワクチン接種のタイミングを理解する - cearaagora.com.br"
-    },
-    {
-      "articleId": "gnews_e6af2a46098d31bb",
-      "headline": "Casos de sarampo aumentam e reforçam alerta sobre vacinação no Brasil - Jornalismo - Sistema Opinião - tvguararapes.com.br",
-      "headlineTranslated": "Measles cases increase and reinforce warning about vaccination in Brazil - Journalism - Sistema Opinião - tvguararapes.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:45:32+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOanFRbWNndm5tWTV4UnM5Y0ZTOFZoU1FGWlczTkZhbnM3TmtCSVE1bTJmeUg1OThJdW81S2ItMkx1SFRiaDhicEM0SERUWlJyYndZaGFUZVBTXzRJZmFISmJfcXU0RTR2RHRCMEkzVVdQdVJvRE9zWWxPQkxDVDNvLU9NMWtXU2RxN3ppdDVwenp3LWtGZ2ttVUNLM0hlV09panFFdEhkbkdvNl9qaS1IUFF3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "tvguararapes.com.br",
-      "headlineJa": "麻疹症例増加、ブラジルでワクチン接種への警告強化 - ジャーナリズム - システマ・オピニアン - tvguararapes.com.br"
-    },
-    {
-      "articleId": "gnews_7b5a20e061b253e6",
-      "headline": "Sarampo volta a acender alerta no Brasil e RN reforça importância da vacinação - Portal 96FM",
-      "headlineTranslated": "Measles raises alarms again in Brazil and RN reinforces the importance of vaccination - Portal 96FM",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:43:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcUhaUUZrOTFnZmlpeU5IYTNFS0RJR2d0MVFhUUNXNFJLWnE2VHVQRDRydDlfSUtycTVFWHBrNkhpNm9pNkIwa3BadzRkYlJjY1c3TDlPWGd3VlI3NkJxU21iWUVQSjl4bXdGT0VvaDFGZ2s0UHpkSFZSN05xZ21XU0M4b2h2R3J3TXhoakNPREZuT0pQYWR6UUdVclU0TU9vaVdudE9BQ3g0UU0?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal 96FM",
-      "headlineJa": "ブラジルで麻疹が再び警報を発令、RNはワクチン接種の重要性を強調 - Portal 96FM"
-    },
-    {
-      "articleId": "gnews_53292fde1c222a7b",
-      "headline": "Sarampo volta a preocupar e RN reforça importância da vacinação após surto em SP - O Potiguar",
-      "headlineTranslated": "Measles is a concern again and RN reinforces the importance of vaccination after an outbreak in SP - O Potiguar",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:29:04+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU3ZDS04yV3V5OFpzdm9sVGRieFkzRE0wRlowMHAteElvZnZQRXBxVGlNcXFwUFotM2FHMVNjRnhDYk1pRHFMUUZ3LURLb0xZbUFxc0hOaHBYdFlpQXlFeFVpenljRDJtWTZCOTA1ckNUUWx5bVlPZmJlQlhYVE5la3FqbjJjbW8zM1NES2pSYmUtd0liTGR3cHg3aVAwMEMycWlRX1ZBMlFEOUFLZlE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O Potiguar",
-      "headlineJa": "麻疹が再び懸念されており、SPでの流行を受けRNはワクチン接種の重要性を強調 - O Potiguar"
-    },
-    {
-      "articleId": "gnews_5d694b344f066d93",
-      "headline": "Onde tomar a vacina contra o sarampo em Santos - juicysantos.com.br",
-      "headlineTranslated": "Where to get the measles vaccine in Santos - juicysantos.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:29:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemVDei1LaVlONHl5dEgzOGxkYWxfeGVxNkpUNWtveWVFNm92Z2Y3bmdPWFZZZzJ3bU5NeXBKNl9yTTVzbkFhYXJXM3pUZTlaOFhBVVBhcGxXX3I2WEYzUmpxREVyXzFLZmRueExlZTlVbGJBSVVDN0xmdkRscS1xaUtZalFxdFZEZE5vQ3didk9aU3JZcUE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "São Paulo"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "juicysantos.com.br",
-      "headlineJa": "サントスで麻疹ワクチンを接種できる場所 - juicysantos.com.br"
-    },
-    {
-      "articleId": "gnews_da30baefde49e6a6",
-      "headline": "Sarampo: entenda sintomas, riscos e quando se vacinar - panoramagocomunicacao.com.br",
-      "headlineTranslated": "Measles: understand symptoms, risks and when to get vaccinated - panoramagocomunicacao.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:16:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcVVMampHMXNKYmRQTGdFYXhlZmZnblR3WWg2cThKQjhzTGd1akV5cnpoMVMxdUxDM2pHcGpYMGdPZmlxTXVLMkRkaHI3Y2JFV1JVaTRMR1lHTUZBNmJPZ0tOVGJVNEw1TWZYdzF0YWNzVU5LUE5Pa1pGVE53dWVjWE1yWmZFODB3YVFMSWpfRUU2MzQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "panoramagocomunicacao.com.br",
-      "headlineJa": "麻疹：症状、リスク、ワクチン接種のタイミングを理解する - panoramagocomunicacao.com.br"
-    },
-    {
-      "articleId": "gnews_325aad6be9f6a048",
-      "headline": "Sarampo no Brasil: risco de reintrodução e alerta do MS - ISTOÉ Independente",
-      "headlineTranslated": "Measles in Brazil: risk of reintroduction and warning from the MS - ISTOÉ Independente",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:07:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rNndrWTdNWFdSZk0xYjcxakRfaW1hLU5SWGZZRVFTb1RKbGktSWJGc1owdS1aNEwwNmF1V19BUjBsVjN4Sm1HTTBNbU9lcFdaMGdVVnRVNmFhMm1uQ1VLdTlON25KSjBsVVZKS3dHMExfdw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ISTOÉ Independente",
-      "headlineJa": "ブラジルにおける麻疹：再導入のリスクとMSからの警告 - ISTOÉ Independente"
-    },
-    {
-      "articleId": "gnews_b11a50473d3540e6",
-      "headline": "Sarampo volta a acender alerta no Brasil: quem precisa se vacinar? Veja perguntas e respostas sobre a doença - Clube FM Brasil",
-      "headlineTranslated": "Measles raises alarms again in Brazil: who needs to be vaccinated? See questions and answers about the disease - Clube FM Brasil",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:03:43+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdmU5LWRJcjBndTByVHAxRnNOcVl1SjI2eHVXTjVyOTVLc0dEdTJDY0JyVzUybHMya29UOVRnT0ZRTkhjWXFZbHFlUGRHQU52dXBmb1B0bkd5YTEwMDlTTGh6bHdXdHUwSjh1WnZ2ZkNIZGZZYUk3V0p2ZFY2cWRLYjJVOEFjM0NqeFY3OC1BYWRBWlNiWHhPVjJIaVpVaW5mM3JQSTlpRE1XX2R0RU1sVHZUbW82VGtWaXlpWU5PR1c5b3dUbERaZkpjMA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Clube FM Brasil",
-      "headlineJa": "ブラジルではしかが再び警戒を呼び掛ける：誰がワクチン接種を必要としているのか？この病気に関する質問と回答を見る - Clube FM Brasil"
-    },
-    {
-      "articleId": "gnews_e8a85772bfb8999a",
-      "headline": "Vacinação contra sarampo em SP acontece até em estações, shoppings e supermercados; veja lista completa - G1",
-      "headlineTranslated": "Measles vaccination in SP even takes place at stations, shopping malls and supermarkets; see full list - G1",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T20:02:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQcXgybVlTbWYzSUJMRVlxLWtkbTdCMktVMFlyOENkMGFGc3k3OEdyLTdHMW1Hd0NnYkdrVWhrRng2RnVuSm56b3IzZUUwajJ1elB5WXpzR1JyUVRPdUEyUUt2Rk9oQ0dSRlVMb1RuTEQ1SVJDemJTSkgtQk42X3hhWFFtQ0x4S1dGcnl5S2NQcm5TT0dpRlkxcldMZjNUYmFfZXZ4RFZtdVFFLWE3RWlGY0M4M2JvbVR4U1VoSElObnNjaUZ6Z05Qck1DWmwzcTZHSTR3WXhBOFNEUjA0c1dqOXg2S0VFbFFnS2NWYTI0anVfUdIBgAJBVV95cUxOdGpBcy1ZZGJ5ZlNtX0F0V1VwYnNlMkg0Z1pDMi12VmJKdnRLTzNNTWpWNi00TWllZGNoTTJnQ3p6djFUdFJnZ2lwdVdzdjFncm84V1Q2a3dVVTlOd0xUV1FuOGdHYUo3Szh1NngwUUZDNlhSTC12ZjJjTjY0NDlkVlNMVVRjNzRzN0xxTlBVMktZRlU0dkdWb2p2cm9EVHNPa0RPT3JLZ19wUUQ1ajl0Zmw2bzRfU0ppa091S21ER1d3N2c0Tmw4Q3ZwZ2Nod2xpUlJxOW1qTmo1d21wUTFwcTNPRW1OMGNWOUR6djQwUXNNc1o3WHFfWFV4LW5iNzVl?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "G1",
-      "headlineJa": "SP では麻疹の予防接種が駅、ショッピングモール、スーパーマーケットでも行われています。完全なリストを見る - G1"
-    },
-    {
-      "articleId": "gnews_d0525822dd01a9b9",
-      "headline": "Segunda quinzena do mês acende alerta sobre cuidados com Aedes aegypti - AMM | Associação Mineira de Municípios",
-      "headlineTranslated": "Second half of the month raises alert about care for Aedes aegypti - AMM | Minas Gerais Association of Municipalities",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T19:38:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYm9XRHZ6LXVmMDcxX0t6eWxhNndySUJqQmJPLW53YzFlU3ROMkF0Q1JRZ2JCTHBqLWJLYlJ4LXFTazhrazgxZTF6X3ZOUnRXOXJVUE1qa2RScmFGTGQ5VFVaLVFXX25YTHRVSUVhckpabmkwYTM1U3UySXI2bnMzcGdnX24ybk95OC1wZFN3dmhjZ1NtUE04ZVppa1RnbWk0RGhyRzZKTQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "AMM | Associação Mineira de Municípios",
-      "headlineJa": "月の後半、ネッタイシマカのケアについて警戒が高まる - AMM |ミナスジェライス州地方自治体協会"
-    },
-    {
-      "articleId": "gnews_de212a9d5f03cf52",
-      "headline": "Sarampo está de volta? Entenda por que doença voltou a preocupar e quem precisa se vacinar - Jornal Correio",
-      "headlineTranslated": "Is measles back? Understand why the disease is a concern again and who needs to be vaccinated - Jornal Correio",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T18:23:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeTR0RVNUVzh4MURfbTAzbzZBcTBQT21MSUVRLWtzTkVCNXlFaWVwdFRYa3N5VTkyTURJa2tCSVdVdkpzV3lFa0ljN09KSC1HakVoQ0NLNktjTEE1eWxrQm9SeXh4N01ZNnBHdnJ0b3VWTXRRbmZheDhxUVlxSlR3UHJuanU4RXRXWWVKQk1QSksxSnJncGZZaXlpRFpBUm42UURQb3NHUk1wUUhoX3JKeUFqQUMzejhnSlVTUHo5M3lZekFJTFVWeWZIbllqd3M?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jornal Correio",
-      "headlineJa": "麻疹が再発した？なぜこの病気が再び懸念されるのか、そして誰がワクチン接種を受ける必要があるのか​​を理解する - ジョルナル・コレイオ"
-    },
-    {
-      "articleId": "gnews_cc086be38f9dc460",
-      "headline": "CINCO REGIÕES DE SALVADOR REGISTRAM MAIOR CONCENTRAÇÃO DE FOCOS DO MOSQUITO DA DENGUE. - - Bahia Economica",
-      "headlineTranslated": "FIVE REGIONS OF SALVADOR RECORD A HIGHER CONCENTRATION OF DENGUE MOSQUITO FOCUS. - - Bahia Economica",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T18:09:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTDh0bW9MNWN5TTk1YzJ5ejhZejBKeVpJTGFwQ3B4cUcyS1FzNkJiMnFNVWFvTW9xUk5aektlcHVndjhiSEZzcF85WUpsZEpySmktUnUxNXhhQm5DY0x3dlI5NnlPclU4ak5WVDBUTldKNnhsQTRKWXMwcDg3RmdJRElDaUZRSzJNSUwyeldiUy1qT0gyN2Y2WVhiamk1V0tTN3EtUmtwMDc1ZEJ6SHlSc1c5alpRVkZ3dER3LXVidHN5dG1oYk5Rd0p3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "- Bahia Economica",
-      "headlineJa": "サルバドールの 5 つの地域で、デング熱蚊の集中度が高くなっていることが記録されています。 - - バイーア・エコノミカ"
-    },
-    {
-      "articleId": "gnews_3bcaf43cd64af65d",
-      "headline": "Sarampo: vacinas, sintomas e o que mais você precisa saber sobre a doença - Médicos Sem Fronteiras",
-      "headlineTranslated": "Measles: vaccines, symptoms and what else you need to know about the disease - Doctors Without Borders",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T17:45:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQjJvTUxqQllmdS00dmgwUGo5eDVXdzR3bXhDallCVEo4VXdDY2V6b1NGVFdxd0NKM2hCbWEyWG5HVWNQSjk3dVBYd2ZyWVAzaVE4TEowaHVzRnFxdVRBWHhjQ09seGFXcWFOZUZLN1VSV3RfX2k3Zl9SeF9xNy01eHNfNnpOZEI2N1p5MmFTV3g4ZFI5czZaM1hNNXNLaS16NjRndjV4SQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Médicos Sem Fronteiras",
-      "headlineJa": "麻疹：ワクチン、症状、この病気について知っておくべきこと - 国境なき医師団"
-    },
-    {
-      "articleId": "gnews_2a3c1143e31dea9a",
-      "headline": "Novos casos de sarampo no Brasil reforçam alerta para vacinação no RN - Portal 98 FM Natal",
-      "headlineTranslated": "New cases of measles in Brazil reinforce alert for vaccination in RN - Portal 98 FM Natal",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T17:38:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVmpldTllWHY5bUtvQVhHMlhDQy00TnZ0N1o2YkhSb21BLWtRNnZGdHVGTGFNTnJYZndLQ3NhMTJ2MjRnWUZ5SHJacGxsdW1vQmFvdVBKNTBmMmF3U1lVRDhJLWVIXzNnb1hrTDZ2Q2dob2prRzZoMGpHSHRqVmdZTmNRSWJ1V2JpUHhBOHFpRUFNYkdPcHc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Rio Grande do Norte",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal 98 FM Natal",
-      "headlineJa": "ブラジルでの新たな麻疹患者、RNでのワクチン接種への警戒を強化 - Portal 98 FM Natal"
-    },
-    {
-      "articleId": "gnews_026292bf09a1d9e9",
-      "headline": "Surto de sarampo em SP exige vacinação e rede de vigilância ativa - Terra",
-      "headlineTranslated": "Measles outbreak in SP requires vaccination and active surveillance network - Terra",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T17:10:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTHJJLWw4VzQwa2RUamRTeWZ4M2VLcFRyZkRtWTFlLWtDSGNiemlDTUptamstenU2TFFubUlvOWhDV3VUWnB2T2l1cVhuN2hHekY3YWxIWUFsQ0xyX2E2Zm1uQlhFVnVtX2RaQ0hqZk85YkJnWVh1TzNsdlZ5U1hfdExJVF9lcTRaYmJsZzBUTEI3MFVsUHZ6ZHd4c2hQQ3VRSmx3QnlJdGszRW45TkV6ZEV5cmFOVVdyczZGTGVLb2ZLdGN1NDFFMzJlTzFDZHU4MEVsVmVjZnRtSHRiUWc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Terra",
-      "headlineJa": "SPでの麻疹の流行にはワクチン接種と積極的な監視ネットワークが必要 - Terra"
-    },
-    {
-      "articleId": "gnews_e1d63f84ee08b697",
-      "headline": "SP: Vacina contra sarampo chega a shopping, padaria e metrô - SBT News",
-      "headlineTranslated": "SP: Measles vaccine arrives at shopping malls, bakeries and subways - SBT News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T16:30:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTTJiYnV6WkNYVTZzaERVVUZkVmhfVHpiNHRwVW1iclJRQjl4RFM4cTRnZkVZUmFUbmxuREtYbEJ2bEFQVzZSTU52dmRWSktGNENRbzZPdFVGaU5uRjlzQ3RGcTZ6eEpXdzFiZ0Q0eDExRExweXFVTjlsc1hwcHVsektoWUpHcjhDdHJidmlRQ3dFRjkta1pvYlRPaDMxUDR3R1E?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "SBT News",
-      "headlineJa": "SP: 麻疹ワクチンがショッピングモール、パン屋、地下鉄に到着 - SBTニュース"
-    },
-    {
-      "articleId": "gnews_19d802e0b454e5f9",
-      "headline": "Sobe para 43 o número de mortes em decorrência da dengue em 2026 em Minas - Rede 98",
-      "headlineTranslated": "The number of deaths due to dengue fever rises to 43 in 2026 in Minas - Rede 98",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T14:29:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdlp5MGgwczNmUGxHOHpEQXFhakI5SFc5U2ZTRUg1NjFDUllBTGk4NjQ3X1lkdjFXRW12SVRlRUk2U1IyWDNLaUJQRi0yek1xYzhVSUdWQkNOM01YcEJuT0hYNFA5MmRCTG5Ua3hTcW53cmRxQXdzXy1UZnR6cFJXbDlKNXAyNzZWSG1nY1k1c0FOSExndVU4eFBqUk10TUktRzRBbm0zWkw3X1o5a0NVQ3NCSFdTUQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rede 98",
-      "headlineJa": "ミナス州でデング熱による死亡者数は2026年に43人に増加 - Rede 98"
-    },
-    {
-      "articleId": "gnews_ea029a838d3514c1",
-      "headline": "Caso confirmado de sarampo no Brasil e surto em países vizinhos acendem alerta sobre cobertura vacinal - Sou Patos",
-      "headlineTranslated": "Confirmed case of measles in Brazil and outbreak in neighboring countries raise alert about vaccination coverage - Sou Patos",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T14:21:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUWZ3ZzRDMXNCbkotQXdMd1hPRXBfR0pCRlhrbTJMNk9qdzJ1cGQyMFhzOWpaYVZpSFluV3hQOHQ4SHBtWktyWEFNbWxTRzJvbWVyYjY1UVJDZVdnVlBlVmNRbDF0N1VoNzNpZmhoY1JYY3M4RTlraUFUckM2b29zZk4wOW9GeUFaOGVQWXN5dG9CV29KTDNTREhodDh4VGJoRXlPUlZaTGZYZHRYQ3VUeHRra05COFQtNkFvTnd6ZVk5RGZFWEdXQ2hRR2xZamE5eFgyYWRXRTRRcjBUUTZaRUpyZ1BLYTVXbHZ6RFI2NnJ0UUJo?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sou Patos",
-      "headlineJa": "ブラジルで麻疹の感染者が確認され、近隣諸国でも流行しているため、ワクチン接種の対象について警戒が高まっている - Sou Patos"
-    },
-    {
-      "articleId": "gnews_d8bc13bf25308679",
-      "headline": "Vacinação contra o sarampo: saiba quem deve tomar a dose e onde encontrar atendimento - CSB Central dos Sindicatos Brasileiros",
-      "headlineTranslated": "Measles vaccination: find out who should take the dose and where to find care - CSB Central dos Sindicatos Brasileiros",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T14:09:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jcDJNTmd4WVd4WE1fQWJmV1RJZUo1MXg1Mks0SGp0YWRCVTJOTnFLVDJsenlNaXJ2TGtsbTl2UUFSYlVybHRwdTNURFYycHFWSzNHa0NTRmt0Mi1EVjE0azJGdTRwaWlQOHBGZm1SX1dMT2RmWm0w?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CSB Central dos Sindicatos Brasileiros",
-      "headlineJa": "麻疹ワクチン接種：誰が接種すべきか、どこで治療を受けられるかを調べる - CSB Central dos Sindicatos Brasileiros"
-    },
-    {
-      "articleId": "gnews_45e76ba87935fb62",
-      "headline": "SP intensifica vacinação contra sarampo com ação em supermercados e padarias - InfoMoney",
-      "headlineTranslated": "SP intensifies measles vaccination with action in supermarkets and bakeries - InfoMoney",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T14:06:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcFl5RUhwa2JWcHprUXpWSFhkS2RrcFVGdDRjT0lVeUxGdkJfakd4YnNXMDJrVDBfRDBvT25SbndkdjJGRzhIbWZmaTFuZ1EyWDhRZ0E0V2xBLTN2SFBlNlVldU5sQnMxMDd1WlNRTFRJaWFCNnBJZ0NROFhnTXkxMy01aDl0NGRBdnZQVFBLRUozQnJRYkpRNTVuT3lmZEhMS2JZQ2RrU0JrcWxKVjg4Wklqb9IBuAFBVV95cUxOX0JBb05uTjFGRm9YWDdTbXpzb2NOc2I2NVA4NXFBSm4tQ0luR3kyVFFqd1NUYnpncEJ1aVN5V2JQaERrMXg0enZWWF9lRENoamhmUXNrNGhZeklUUVBfUDJKcllxZmFZMEFkWmJKcllrdzJ1XzM5SGVKUUJENnVDSGhhOFlEZFI5YlI4WHlIUHhYZjFhOC1ZOFJyUzVnWmt4c2VzNl9IOS1lREdtOG9sN0lWUmZlTVF5?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "InfoMoney",
-      "headlineJa": "SP、スーパーマーケットやパン屋で麻疹ワクチン接種を強化 - InfoMoney"
-    },
-    {
-      "articleId": "gnews_8a26118c300f40f2",
-      "headline": "Fortaleza registra queda de 62% nos casos de dengue, mas alerta permanece - cearaagora.com.br",
-      "headlineTranslated": "Fortaleza records a 62% drop in dengue cases, but alert remains - cearaagora.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T14:05:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbkt3TjNOckZvc2F4WjRVVzFBeEVYUWlWRExSMUJkTTZpSzlGWjBvVFo1YmhOMnpWb1JBY0xNTVVDbzNuakMzV2NDdmVMc05FT1pPRkpiYmVGalF3MHdpRDZZNlZNeEFmVkk0cU40MVhKLXlLVHkyT3l3YkFXZGdLRTFlZkJLSzJIZkFvXzFNb3NGdGlDRU5jYXVCX29zWVk?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Ceará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "cearaagora.com.br",
-      "headlineJa": "フォルタレザではデング熱感染者数が62%減少したと記録しているが、依然として警戒は続いている - cearaagora.com.br"
-    },
-    {
-      "articleId": "gnews_8e1761794e2c0cb5",
-      "headline": "Sarampo avança no Brasil e aumenta risco em condomínios - SíndicoNet",
-      "headlineTranslated": "Measles advances in Brazil and increases risk in condominiums - SíndicoNet",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T14:01:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdnY0c0N4U3VGZW81SGRKR2dSaTIyNlN1VFZvM3RfZFdiSFBlYnlkLUVKUXpReXRpZmVXTnF0TFB1MVh1b29JRWVCQkRoYUlIUEF3V21id0RCd3laeFV0OTRuLWU3TGpTTXJaUFhyWVB1Mm5ZbEtBekJZSGo0Wkk5dQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "SíndicoNet",
-      "headlineJa": "ブラジルで麻疹が蔓延、集合住宅でのリスク増加 - SíndicoNet"
-    },
-    {
-      "articleId": "gnews_de8a544165de9dba",
-      "headline": "Foco De Dengue? Veja Quais Regiões De Salvador Concentram Mais Focos Do Aedes Aegypti - Taktá No AR",
-      "headlineTranslated": "Dengue Focus? See Which Regions of Salvador Concentrate the Most Outbreaks of Aedes Aegypti - Taktá No AR",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T14:01:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0ZONk1FS0NSODBLMnZ2cVV0ZzVLUVFzRnZSeUhIcThob3Q5T2NEcXowMVhUQWZPZjhpeHp6S3Rna2dTSVhuX1FYS0ZydWNNQXBiZS1EeHBnRFJyckg3RGVneTVUcDNxcGtNZ0w5MDByU2htaFE5NF91WnpQZk4zblJsWEVMRTdxX0RlQnBmUjlMZ0FrN1oyZFpzZW9pNkJfRDZ1UTNUdDZiZGdBS0tMZVlCTTd3eW1S?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Taktá No AR",
-      "headlineJa": "デング熱に注目？サルバドールのどの地域でネッタイシマカが最も多く発生しているかを見る - Taktá No AR"
-    },
-    {
-      "articleId": "gnews_05452e61a9c568a9",
-      "headline": "Casos de sarampo aumentam em SP: veja quem precisa se vacinar - record.r7.com",
-      "headlineTranslated": "Measles cases increase in SP: see who needs to be vaccinated - record.r7.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T13:04:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOEtFaG9ZZ0s0VlhKREdQY0hsbndzVDdvSVdpeEtoeU8zenFCcEdPbEREWEFJMmRKUVJLRFdIdE5pcmpWallQWXM5WmQxNkh6endpYXZBbnJFOEYtRU10Y2xHOEhxWl9Hb0Z6dUlTT0xjNTZydGthX1RFVHpDTVhiMk9adzF1MEt0VUVJejBBeUduUVFyZ0RWVzlLOEFha2h5QlpGRm1NTm5wT1lnaldV?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "record.r7.com",
-      "headlineJa": "SPで麻疹症例が増加：ワクチン接種が必要な人を確認 - Record.r7.com"
-    },
-    {
-      "articleId": "gnews_e43613a1be226607",
-      "headline": "Metrô de SP tem vacinação contra sarampo; saiba estações - SBT News",
-      "headlineTranslated": "SP subway has measles vaccination; find out stations - SBT News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T12:54:18+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbGJHQXVBWkNELS1lakhmV1ZTM3drWk9kU2Utem51QW5uVXVLeXRlUlFSM2VpclVqU01FLUZLNGJNNUVPZGI1bkM4MGtxbmF4VDVhWmliX2FIb2oyanV2d3M3dkJpcFVuRG8ybkU5Wi1QNHlkUzNNRGk0US12SzF0TEFySVBxSmo1R0FPQkZyclFDMlRiYmdJS0dGVk8?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "SBT News",
-      "headlineJa": "SP地下鉄では麻疹ワクチン接種が行われています。駅を調べる - SBT ニュース"
-    },
-    {
-      "articleId": "gnews_4e6013fbac702a7f",
-      "headline": "SC mantém monitoramento reforçado contra o sarampo - G1",
-      "headlineTranslated": "SC maintains reinforced monitoring against measles - G1",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T12:36:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbVRuWG1VMEVhMVNfSU1aRHpTcWpWbmgwTzgzbUhXUkxTUWVxU2tXQWcxRTRzb0thTVFlR001OGxBMXY3RUFoUEFkY3Y1ZFBnQ2JVbEdHNDlneG84SF9uVHdHV0traVZMOHB3el9YOHJyeXo4NVR1alRNUkNwUlV6NDhLOUx6ZGRJeVNkbWgwbi13M05haG9zVmFHSWxOdUNqb29YU3QtVUxsbnladTY3VlpVOU1RWlIwM29Vc2FqMnpyS1dLMmEyVWlnWGh2U09uMHFCQmNsZnAtdUtvUGFIc0dpYWkwd9IB5gFBVV95cUxPbVRuWG1VMEVhMVNfSU1aRHpTcWpWbmgwTzgzbUhXUkxTUWVxU2tXQWcxRTRzb0thTVFlR001OGxBMXY3RUFoUEFkY3Y1ZFBnQ2JVbEdHNDlneG84SF9uVHdHV0traVZMOHB3el9YOHJyeXo4NVR1alRNUkNwUlV6NDhLOUx6ZGRJeVNkbWgwbi13M05haG9zVmFHSWxOdUNqb29YU3QtVUxsbnladTY3VlpVOU1RWlIwM29Vc2FqMnpyS1dLMmEyVWlnWGh2U09uMHFCQmNsZnAtdUtvUGFIc0dpYWkwdw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "G1",
-      "headlineJa": "SCは麻疹に対する監視を強化し続ける - G1"
-    },
-    {
-      "articleId": "gnews_f3caded6e4c51ded",
-      "headline": "Lembra dela? Maryeva Oliveira realiza sonho do filho de conhecer a neve: ‘Surto de felicidade’ - alagoas24horas.com.br",
-      "headlineTranslated": "Do you remember her? Maryeva Oliveira makes her son’s dream of seeing snow come true: ‘Outbreak of happiness’ - alagoas24horas.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T12:02:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ3hEeTY5c25KOHRDYXZTajZreDNrcFV5bG1Xb0JTZG1Bd2dRa1N0dWhWaEFZUTVKd2w1UUlMMkVUdmVlakZoeE5XQWRQOUtMNkZGN240SGVGNW1lMDM5dVRCLVgzckFTTlNEVzBuRHpHeWZSM3BIalpCNWFVUFIwOVR1ei1VMU55Qk9LYUhXaGcwQ25oblY5WkJCZ1ZTb1FMX2VXdExmQWRaakUxTVoyYWVXWUxhV05BY2xGXzF4ZHEwSlEzc0h5LURSWEdJTGpSSTE00gHTAUFVX3lxTFBDeER5Njlzbko4dENhdlNqNmt4M2twVXlsbVdvQlNkbUF3Z1FrU3R1aFZoQVlRNUp3bDVRSUwyRVR2ZWVqRmh4TldBZFA5S0w2RkY3bjRIZUY1bWUwMzl1VEItWDNyQVNOU0RXMG5Eekd5ZlIzcEhqWkI1YVVQUjA5VHV6LVUxTnlCT0thSFdoZzBDbmhuVjlaQkJnVlNvUUxfZVd0TGZBZFpqRTFNWjJhZVdZTGFXTkFjbEZfMXhkcTBKUTNzSHktRFJYR0lMalJJMTQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Alagoas"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "alagoas24horas.com.br"
-    },
-    {
-      "articleId": "gnews_925e9538785527dd",
-      "headline": "A luta para manter o brasil fora do mapa do sarampo - A Crítica",
-      "headlineTranslated": "The fight to keep Brazil off the measles map - The Critic",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T11:51:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVUIxWFNnVDdTZ210bi10WWNsSi1vYlVxZ1c0MjBnVUQzTUhpcll0T2pIZ0ZzQ2tmNmR5bU5GSzBiNmlqRVRFS1lUSk5RNHRJdlRzNi1yanVGTWJpQzlNcThHVzN2S1ZTOEFRUUNwUDBzU0J3U2laWUhLRXpUREdMLWRWQkZaZkE2Qm81TFRYV01HV2hoeFkyQtIBmAFBVV95cUxQVUIxWFNnVDdTZ210bi10WWNsSi1vYlVxZ1c0MjBnVUQzTUhpcll0T2pIZ0ZzQ2tmNmR5bU5GSzBiNmlqRVRFS1lUSk5RNHRJdlRzNi1yanVGTWJpQzlNcThHVzN2S1ZTOEFRUUNwUDBzU0J3U2laWUhLRXpUREdMLWRWQkZaZkE2Qm81TFRYV01HV2hoeFkyQg?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "A Crítica",
-      "headlineJa": "ブラジルを麻疹地図から排除するための戦い - The Critic"
-    },
-    {
-      "articleId": "gnews_628c492ef44966c4",
-      "headline": "Mato Grosso do Sul chega a 30 mortes e quase 10 mil casos de chikungunya - capitalnews.com.br",
-      "headlineTranslated": "Mato Grosso do Sul reaches 30 deaths and almost 10 thousand cases of chikungunya - capitalnews.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T11:24:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZlJpVHlBdjg2WW1neW9MTWhuajFPSUJLTFAxQjFSR0lSa0ZGbEw2REpuR3ZzcUE2clZHd2Fab1d4VHJUUzk3MkllYnlmQ2wwWGUxaDU4MVZLa2wyUHJRTmdOanc4YVhmREFkWkFpcVpPd1l2ZlE1NUhqQ1Mtekw4R3JhRmIwVXdsZ0FBWVFseWx3d1hUcEdCRXlfd1BRRUZjWHgwR3hOaUoyRGZUQ2NIZEJmX2JlN0Q0WjFWNFJuUHVhLU9yU2NXbnUzQTNVUEszZWNPXw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya"
-      ],
-      "locations": [],
-      "states": [
-        "Mato Grosso",
-        "Mato Grosso do Sul"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "capitalnews.com.br",
-      "headlineJa": "マットグロッソ・ド・スル州で30人が死亡、チクングニア熱感染者が約1万人に達 - Capitalnews.com.br"
-    },
-    {
-      "articleId": "gnews_8c0a5de29a4e492f",
-      "headline": "Rede de vigilância é essencial para evitar propagação de sarampo em SP - Poder360",
-      "headlineTranslated": "Surveillance network is essential to prevent the spread of measles in SP - Poder360",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T11:02:32+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaUFXLVJDTE44ai1SajdDamVPcFFwWWhuNmp1cGRRZHU0ai1FbGRyMkJuSVBHbGw1bzA2M2t6c0tHNjZEbTM3LUlhcEtXQ0QzTmpBbTB2c2FGdEEtVGhHZ1lYX0l2aU9Ya2tiZTcyQ1hkYXJDOEpxNHVsdDRlZXdxNTRZSlduTXNKdEtyR3E0Wk9NVWlvWUJXRzFwOUtZNnhQSEQ3Zm1EcXJLa2VqNVdvQQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Poder360",
-      "headlineJa": "SPにおける麻疹の蔓延を防ぐには監視ネットワークが不可欠 - Poder360"
-    },
-    {
-      "articleId": "gnews_68d7c642e1e36bbf",
-      "headline": "Haddad atribui crise de sarampo em SP à 'turma do Tarcísio' - O Dia",
-      "headlineTranslated": "Haddad blames the measles crisis in SP on 'Tarcísio's gang' - O Dia",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T10:57:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYXJKcmlHZTAwMXgtRGhuSU5uOUhMd3RYVE1VQTFXWUFzMm9HbWIxWjJYVERnQS1ELVo4Y3JxTGdNZmw2ZHRHLVpXdTFock5QeC0tWC0tSlJmb1BacERlS09YaVZFYU95YXQ2c1lKZEpKb0ZPZVhDbjlPaFR5dGxhcm5WSUxZM2d3OVlyM05leGMwN3lINjZSWnhsMkNhN3NCc1M4YW10WTJCU2Iy0gGyAUFVX3lxTE9LbVZTZkFiWElYaENKQ2l5UlhnU0Z4TWF3dHA3WFRpLS05NnJQMlEwWTU4a3RnQTlzSi1lc2psQkxoZkZzajNJZ3JlSVRZRnk3X1ROTTdqUTRMRzBYRUdsVXFTZ2N0VFpkc0VpQ25zaXhxdzM0UERTQkd1MmhBSDBwb3JYVmZvMGYwcklrcmllNGwtdnUydGRqNzJSTEY5WEctR2pxMFVIWHVjWFBJaEhjWnc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O Dia",
-      "headlineJa": "ハダド氏、SPでの麻疹危機は「タルシシオの一味」のせいと非難 - O Dia"
-    },
-    {
-      "articleId": "gnews_180095589d8987cc",
-      "headline": "Austrália vacina aves contra gripe aviária H5 - brasilemfolhas.com.br",
-      "headlineTranslated": "Australia vaccinates birds against H5 bird flu - brasilemfolhas.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T06:40:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNVl5QlNpamRTWGJ3cnp4dnJtWnIzZjlRUzg1aERmZXcyZ1V4R3NaRDZ0eG05Z3A5NXJzQ0N4VXF4cDFYQWJXSENtSWRQZFdnRlJsLVpEd3E5Wkk0cHAwWW0tMm9iX19Sb0FDS3NVRkFlc1hPRjEzbUw3UXNVZGFkR0tIY2UzeWloSzJ1R0pSYTlMdw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "brasilemfolhas.com.br",
-      "headlineJa": "オーストラリア、H5鳥インフルエンザの鳥にワクチン接種 - brasilemfolhas.com.br"
-    },
-    {
-      "articleId": "gnews_9e7c953c7e403be7",
-      "headline": "Infestação do mosquito da dengue diminui em Fortaleza - O POVO+",
-      "headlineTranslated": "Dengue mosquito infestation decreases in Fortaleza - O POVO+",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T04:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNampvTDNMTkIxNnJKNFYtcHd6T2MyTDlJSnFzamlNdTlaZ1BXRFo5UWtHYWJNcHpNWVRVcE84SEJ6X0RXTmhMOExoU0dZSWE0NXlJWU1IYzBmTWFjYk1KUEVKMVpmYmpmYTdzUGFpdlFTUERVRWdROC1lckRpUndqQVl4VFlfUTJhUTJCN2pMQVE1ek1CdWFmUGswQjUta29CQTFveGkzY2J3dG94YlBn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Ceará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O POVO+",
-      "headlineJa": "フォルタレザでデング熱蚊の蔓延が減少 - O POVO+"
-    },
-    {
-      "articleId": "gnews_4efe0c47f6361b0e",
-      "headline": "Sarampo no Brasil: entenda quem precisa se vacinar e os riscos atuais - jornaluniao.com.br",
-      "headlineTranslated": "Measles in Brazil: understand who needs to be vaccinated and the current risks - Jornaluniao.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T01:40:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdGxRUFBiMng5TE5GdlY4MXJ4WnFpSEFnYkYxZkJKWFRfbXFQaEZCeG1FVXo0blNUTHVCUm5sUWpHUWRtQ1lfTVdGTy1iRXVhb05qOENzdkx1bFYwaElGdVZNaDVRcVJxTjgzZFBZblVvU29yaG5fdmxHYXUzUk9aTk9NalFqQ0FFclMyRkNKS3VzZTlJcTNNZDgtNHRjN3F1NW5UbEdPVERmeTc4ZVpLMFZaTmtrWlJlQWx6MmZhWVI?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "jornaluniao.com.br",
-      "headlineJa": "ブラジルの麻疹：ワクチン接種が必要な人と現在のリスクを理解する - Jornaluniao.com.br"
-    },
-    {
-      "articleId": "gnews_9f65f85ebdb5c333",
-      "headline": "Vacinação infantil: Trump assina decreto para alterar imunização com vacina tríplice viral - BBC",
-      "headlineTranslated": "Childhood vaccination: Trump signs decree to change immunization with MMR vaccine - BBC",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T01:31:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nSnFrd0tQSEdWdVhjaGY3Y3F5bHNfU2FIUDY1dmNXbDk5Tjh3bHVqTEE2VzA2WHh3NjRuVm10SEU5VDhuSXp1MkR5NTNZMXZrVDB2bVdWTTFwWmxuVE9EZGln0gFnQVVfeXFMTTVTSmk5am11RGJfX2dyQlhWZ2FyQmFBWVcxSWZmU3kyblJyWGRyNXVpal9UYjdpS0xmRUlvdDBwU1BnRzVRNnZ2NlhMQUdvRGFNQXVNU2R0Nm9BcElIRzN1TWtXS0xIWQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BBC",
-      "headlineJa": "小児予防接種：トランプ大統領、MMRワクチンの予防接種変更の法令に署名 - BBC"
-    },
-    {
-      "articleId": "gnews_149fdb47c3854fcd",
-      "headline": "Aumento de casos de sarampo em SP acende alerta no país; Goiás tem vacinação abaixo da meta - cbngoiania.com.br",
-      "headlineTranslated": "Increase in measles cases in SP raises alert in the country; Goiás has vaccination below target - cbngoiania.com.br",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-11T01:12:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbHVNVUtzd0JYMm5rQ0o5d0IteHVuUnBtUG9Gc0dEcDMtTWhRbE9BYjdLYWwyczZtbW5WZVprcmhkMlJfa0tUVHdMUnBCNm9GcEUzV2VObGNrY1hMeU1BNlpwdGY3ZkhWSGRadFVfeWxiOUNYMUhKcVJjRDg0R1RTSnpHclRRTXBTcEpFZDdwUHNZN0ZWZ3hwRWVNVHhBM0dLR0l3N1N4eFkzNGZ4aEhsZE5FSlhaQUtLaHZ6bE52NVNPSmZ4Y25PYm1CQzRDdUFzV2c?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Goiás"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "cbngoiania.com.br",
-      "headlineJa": "SPにおける麻疹症例の増加により、国内で警戒が高まっている。ゴイアス州のワクチン接種は目標を下回っている - cbngoiania.com.br"
     }
   ]
 }
