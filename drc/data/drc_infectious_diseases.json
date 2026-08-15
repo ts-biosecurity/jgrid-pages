@@ -1,24 +1,553 @@
 {
-  "generated_at": "2026-08-14T21:45:41.271871+00:00",
+  "generated_at": "2026-08-15T21:41:37.450264+00:00",
   "date_range": {
-    "start": "2026-08-11T21:45:41.271871+00:00",
-    "end": "2026-08-14T21:45:41.271871+00:00"
+    "start": "2026-08-12T21:41:37.450264+00:00",
+    "end": "2026-08-15T21:41:37.450264+00:00"
   },
-  "total_articles": 102,
+  "total_articles": 86,
   "state_summary": {
-    "RDC (province non identifiée)": 90,
-    "Bas-Uélé": 2,
+    "RDC (province non identifiée)": 78,
+    "Nord-Kivu": 2,
     "Ituri": 2,
-    "Sud-Kivu": 2,
-    "Kinshasa": 6
+    "Bas-Uélé": 1,
+    "Sud-Kivu": 1,
+    "Kinshasa": 2
   },
   "disease_summary": {
-    "Ebola": 97,
-    "Tuberculosis": 36,
-    "Infectious disease (unspecified)": 2,
-    "Cholera": 2
+    "Malaria": 1,
+    "Measles": 2,
+    "Polio": 2,
+    "Ebola": 82,
+    "Tuberculosis": 26,
+    "Cholera": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_8b538444a91c6c8e",
+      "headline": "RDC : plus de 26 millions de cas de paludisme enregistrés - aa.com.tr",
+      "headlineTranslated": "DRC: more than 26 million cases of malaria recorded - aa.com.tr",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T20:15:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEFhd3pRNGlHVW5pN3I2OE9yWDNyZ1UxejdCbDJubEcyQ20teE94VVR3ZnJKblp4OW5ULVI1cHd2bXFBZEJrUTZQdElVaVpreVBRcGtrVWxydVlVWXNtMmt6a3RZeWlQNmlPbms5OURfS1NOTi14QldILTNlLWowRjNrSW4tdWhQOHBBXzFXamJXSWR0MzM4dUN6VG5kYWh5?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "aa.com.tr",
+      "headlineJa": "コンゴ民主共和国：2,600万人以上のマラリア感染者が記録 - aa.com.tr"
+    },
+    {
+      "articleId": "gnews_e5d689e6b1482769",
+      "headline": "Publireportage | Nord-Kivu : vaccination contre la rougeole, la rubéole et la polio du 21 au 25 août - mediacongo.net",
+      "headlineTranslated": "Advertorial | North Kivu: vaccination against measles, rubella and polio from August 21 to 25 - mediacongo.net",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T18:21:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUTFjeUhVTzVpNTZsRGUtR3hka2QzcFQ4eTVVR1B2aUFwNk1NWlBoNkRWYlBsaHVEaWZjS01qU3JsdHRJcEpHSmxWYlhjNUhsUzItak4zdHBERlhYbWVteEkzZFpvbTd0d0FzMWhWblpuSkZrOFhIZDhwMW9HLWxqc2d6VGNZdENIalk5bkpCWEc3OTFkRXBzNml0aVlqb3R5bFZ1N0p6bE5qMFFIa3IzSWtXWDFMNjJtYUU3OUZaVjh2NlhFOEZZRk5lM2UwMF84QW42NC03Q3NURnh2?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Measles",
+        "Polio"
+      ],
+      "locations": [],
+      "states": [
+        "Nord-Kivu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "mediacongo.net",
+      "headlineJa": "広告 |北キブ州: 8月21日から25日まで麻疹、風疹、ポリオの予防接種 - mediacongo.net"
+    },
+    {
+      "articleId": "gnews_06177fbca538e601",
+      "headline": "Actualité | Nord-Kivu : vaccination contre la rougeole, la rubéole et la polio du 21 au 25 août - mediacongo.net",
+      "headlineTranslated": "News | North Kivu: vaccination against measles, rubella and polio from August 21 to 25 - mediacongo.net",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T17:40:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUEhQVHFLekZPeUVDdVJCVG1EZTBfNjhvSUJJMUFoWmhVX0l0cDgtOXhTOUZXb2FCMTloTExnWTR4S29TbXI1a3dnLWRnRW9kMXZuY0plYXB2dEZRMkdnN3luNG1WelQ5QXhFVjdKZ0ZYdW8xQ0s3cDZaYXE2ZEpUX3hBT2tTMFRoSEQ3RERaRkRYTlFNTWFWS01PMHpzYnQyTkI4MEE1NHZfTW1zSThHTDE3aFZhUm5jYlQxMzZzNEU5c2d2dVFOMzFRVklTVHIzOFVR?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Measles",
+        "Polio"
+      ],
+      "locations": [],
+      "states": [
+        "Nord-Kivu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "mediacongo.net",
+      "headlineJa": "ニュース |北キブ州: 8月21日から25日まで麻疹、風疹、ポリオの予防接種 - mediacongo.net"
+    },
+    {
+      "articleId": "gnews_dbe0e4158e26b9ca",
+      "headline": "Une nouvelle zone de santé touchée par Ebola en RDC alors que les infections augmentent - aa.com.tr",
+      "headlineTranslated": "New health zone hit by Ebola in DRC as infections rise - aa.com.tr",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T17:26:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN01LYTRmLVJxM0VBMkRUTzhWaTZVX0VEaUc3aGVHMmx5ZG9OdWVFX3BNSzA3SDdRcTl6aXdmM2F0bGVOSzdvR1ZsRFZRZmQ3VEVEaGJTVWdwSnpwamdXbjQ3cGdReE5Jd1VUSmVES2tPSGtDekoyRkk3WmloNDVHaXRPZ1Q4S3owdUNjXzdTQUZ4aTNTVnZ5N3J6QVpxZ0NPNlhwTTgwRnpIRjZRTnY0VURrQkhVQkZWMlBOZE1VaU9vRjYyMzF4WndSOVdqcEtnMnc?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "aa.com.tr",
+      "headlineJa": "コンゴ民主共和国で感染者が増加、エボラ出血熱に見舞われた新たな保健区域 - aa.com.tr"
+    },
+    {
+      "articleId": "gnews_bdee06d362f65a3e",
+      "headline": "New Congolese health zone affected by Ebola as infections surge - Anadolu Ajansı",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T17:14:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdDMtMU9TWEV4ZTMwWi1odGtRVlN5SVBLVlFSclRnRkNaTE0xOVMzZHEzY1M4d0RCcHd0REYtZzBOemh5UXVIZnBpek9DU3FDeFFxV3FkNHdSMTRDY2pYR1FQX2JmVTNRa3lkMi1WTHMwbEdoWXNUX0htUTFwdHJkcHFEcG1EeUQzWVRlVmt2RDNEXzU5azVJRWRibHEwUzRaN1hmVW9B?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Anadolu Ajansı",
+      "headlineJa": "感染者急増でエボラ出血熱の影響を受けるコンゴの新たな保健圏 - アナドル・アジャンス"
+    },
+    {
+      "articleId": "gnews_d92e1c2c4fc1c746",
+      "headline": "Ebola/RDC : cinq pays renforcent leur coordination face au risque de propagation transfrontalière - Actualite.cd",
+      "headlineTranslated": "Ebola/DRC: five countries strengthen their coordination in the face of the risk of cross-border spread - Actualite.cd",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T16:18:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTRuaWFGTkRTelgtSHVhYmt1UF9Qc2Z4M29rLUFHeG9lMjBxbkYyd2tMNW1EMUFfZlc3QmRsb0c1R0s2SHJ2WVRLMHN0eHl5bzhkUVM1TTl3a05FdWtSRlZqQUI4ZUVPX0J2VUFDWF9tOEIxbjhud0RkdGFTRnE0VzExRkM5VHM3ZGRIemJNZVdlTFYwLXpxZ2d1alpKaV9Nb3k0U2owQUk1dXlkQVE?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Actualite.cd",
+      "headlineJa": "エボラ出血熱/コンゴ民主共和国：国境を越えた感染拡大のリスクに直面して5カ国が連携を強化 - Actualite.cd"
+    },
+    {
+      "articleId": "gnews_39247e788e9fa5ae",
+      "headline": "Ebola outbreak in DR Congo: One death every 30 minutes - France 24",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T14:36:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObTFZc1JSNTR4YURDS0NLNjlGUEJTMlEzc05qN1hsd3NNalJxdlYtbHFJOEo5V2l1ZUZfa1lQZGhSdmFKemdGM1RLQ2pmalItbXAzSDI5eW1fR3dfMmNDeWVkTXBUYU5tYnBCcTE1U0xIaklZb1ppa1pxdUIxMjJ5VEdnRmxNWGwz?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "France 24",
+      "headlineJa": "コンゴ民主共和国でエボラ出血熱流行：30分に1人死亡－フランス24"
+    },
+    {
+      "articleId": "gnews_a4c921f3a51978ea",
+      "headline": "Face à la progression d’Ebola en RDC, l’ONU débloque 30,5 millions de dollars supplémentaires - Actualite.cd",
+      "headlineTranslated": "Faced with the progression of Ebola in the DRC, the UN releases an additional $30.5 million - Actualite.cd",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T13:35:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTkt6MnctRFZSOVBYSnU1VTU2LV93Mlgtc3pRck5KSE1KN2d4cXpNbXRqOF90S3pTbkpJdlNaaFlQY2xmQl83aTNqaWFOcXpULUFyaGE5Y2pwMWkyLTRHMlRxbldYdllkTDRBUU13MWotd0xuRkxaM2NZQlpob2ZMdlZTUXhWRUh1bVI4Z0szR3pYMXNCU2NrQTk5cDU5N0VvMGZTZWFMQUFuZEFGOHkwS2l1bXR2YmNLUFdB?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Actualite.cd",
+      "headlineJa": "DRC でのエボラ出血熱の進行に直面して、国連は追加の 3,050 万ドルを放出 - Actualite.cd"
+    },
+    {
+      "articleId": "gnews_8af2033c9b41574b",
+      "headline": "République Démocratique du Congo - Zones affectées ou à risque d’Ebola vs Zones couvertes par le plan de réponse (HNRP) - au 15 Août 2026 - ReliefWeb",
+      "headlineTranslated": "Democratic Republic of Congo - Areas affected or at risk of Ebola vs Areas covered by the response plan (HNRP) - as of August 15, 2026 - ReliefWeb",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T11:42:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSWtHUng1YUJ2ek9LWEw5djBmMVhydmJQSl9VWXd6YlYxYTR5Q29TUldUVF9NNDVrOXBQMFVVRFBrUWpxazRNcDVGdzdldHJ5Y3ZhZVQxYUZwcTd2TkQwR2NxTVlNTFVwNUIwRE95UXlybjdkNXBMQjlWOUVBMi1mcXdBOWx3dThHLVBpZDdfV3gzX0RJNmdsN18wSFhMMDU5YUxEanJsNll4NVRNQW5BV1gyZnlKdnJEUlVRWkNNdjFNNzVQTVRHZnBJR1FkRnYyNTNKSUVSamtwNmFoQk9PaFJPckc5aVJ2ZzhlejdFckIxS01kbEVYMzI3ejk2NllqcHkyQ1ZfeldQWTJ0?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ReliefWeb",
+      "headlineJa": "コンゴ民主共和国 - エボラ出血熱の影響を受けた地域またはその危険がある地域と対応計画（HNRP）の対象地域 - 2026 年 8 月 15 日現在 - ReliefWeb"
+    },
+    {
+      "articleId": "gnews_db1030be5e8e4181",
+      "headline": "Un décès du virus Ebola toutes les 30 minutes en RD Congo - horizons.dz",
+      "headlineTranslated": "One death from the Ebola virus every 30 minutes in DR Congo - horizons.dz",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T10:03:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOckJtQThBbDZLSFZXUi1BZ20tVU9Sc05mam1fbmFTX3lSQWJiU0pFRC1URWVvdmNEREs5eTIyMm8wRmhFQThueW01OEFGaVpkazNUZDZ3LWs2a0UzQUxHYkpvQ2ZuaGxOb0tRWm1JYXh1SDVEZkpnODlLeEdZbEl0U1MydmpZamxRb1BiREdEXzZ5VVZW?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "horizons.dz",
+      "headlineJa": "コンゴ民主共和国では30分に1人がエボラウイルスによる死亡者 - Horizo​​ns.dz"
+    },
+    {
+      "articleId": "gnews_1620b92baa5ffd06",
+      "headline": "Former rebel fighters join campaign against Ebola in the DR Congo - UN News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T10:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1xRVRSM3UyMDRKSkpMcUI5M0lubi10RGduRDBmT2xiVUdmTkdrMF9wLTc0UFNZMkRodFdnX0dDYVZzS3VHVGs4TXY3VVZuWWkxR0VQdU1tRQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "UN News",
+      "headlineJa": "元反政府勢力戦士らがコンゴ民主共和国でのエボラ出血熱対策に参加 - 国連ニュース"
+    },
+    {
+      "articleId": "gnews_1a27bbbc9ed3b97d",
+      "headline": "Ebola en RD Congo: l'épidémie fait un mort toutes les 30 minutes, l'ONU appelle à la 'solidarité' - tv5monde",
+      "headlineTranslated": "Ebola in DR Congo: the epidemic kills one person every 30 minutes, the UN calls for 'solidarity' - tv5monde",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T09:35:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcHFaLUNmVktnNVE2ZXNHQjh6U3QtSGhvNVY3R0dRN25ZYWhWUFhBM09iMXNZYUJkc0h3XzdfcWpWY2VFY05XMTRBMTM5Zk1CR0I1b2ZPQXVkeUlsYTYtTXpKMV9EZjFhbVczdUR0MWR2NTBvRUwteUVoZ2tFdW9ya19CMWdVMmp4Z21Rako3YnNOcnRuWnhoM3dPVFVnX1VNNDQtM2FvdWduY21XS1FyM2RxV2EyT2xaOEhoOXNMM0ZVYVZoWmROeF92N1ZYcndnUlpleg?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "tv5monde",
+      "headlineJa": "コンゴ民主共和国のエボラ出血熱：流行により30分に1人が死亡、国連は「連帯」を呼びかけ - tv5monde"
+    },
+    {
+      "articleId": "gnews_42362413f6bdfffb",
+      "headline": "Ebola : un décès toutes les 30 minutes en RD Congo (ONU) - lecourrier.vn",
+      "headlineTranslated": "Ebola: one death every 30 minutes in DR Congo (UN) - lecourrier.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T09:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMWJSQy1jRWh4QzdMaEhWaVlweG56Y2g3RDl6dGs4OVVwR1dOeU95QmF0NE9JN1NkTnN0M3JsZjNtMks1aGJrQTBfUER1QUVPUXlCYURDTzhJcnhFaWxtazRXdFRPUDh1aXFBTmp6aHVCYmZIVk9yY0pGdTEzVWxaZlRSeWpOaUczZmZwSE9sZkw?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "lecourrier.vn",
+      "headlineJa": "エボラ出血熱：コンゴ民主共和国（国連）で30分に1人の死亡 - lecourrier.vn"
+    },
+    {
+      "articleId": "gnews_bb7d9e9e0aafb5b9",
+      "headline": "Ebola kills a victim every 30 minutes in DR Congo: UN - Medical Xpress",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T09:00:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sRXptdHpIZHppbjVlbHg1d1lFNlpaYmVNNmRYaFZGcEFFaEpyN3l6czBRNTV2OGx2LTYtR0pXZ3pobGJLSDNUaU4xeVlQTGx4ckg1Zm9NMFExZEJBMzhvMkZ2UDZRUzVmLW9sS3hrUWpTMGZTbzB2V1RfaHNoQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Medical Xpress",
+      "headlineJa": "コンゴ民主共和国でエボラ出血熱、30分ごとに犠牲者死亡：国連 - Medical Xpress"
+    },
+    {
+      "articleId": "gnews_a705372bb6fac013",
+      "headline": "Ebola en RDC: un décès toutes les 30 minutes - lareleve.ma",
+      "headlineTranslated": "Ebola in the DRC: one death every 30 minutes - lareleve.ma",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T08:30:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1qRHZ5OEVUWXc4cmplTUtIdEFxOFJSR2lFZ3JsXzdSbkxIaDB6TWozdS1aV2d1dnJEanBoV1VsSmY?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "lareleve.ma",
+      "headlineJa": "コンゴ民主共和国のエボラ出血熱：30分に1人の死亡 - larelev.ma"
+    },
+    {
+      "articleId": "gnews_4a37237fdc4b679e",
+      "headline": "WHO warns of Ebola outbreak spreading in Congo, vaccine trials make new progress - VOV World",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T08:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWW9UOHo5RkVzaUxmVzg5ZXJjZVk3b3d5RTRKb0dMLXNzT3pTYWM4Z3p1aU5IYUFpdUlPRlVFR0tYbjNudVNGWGdfQUFPOWFQUVcwcDk5bjVySW9tN3ZQalBMVEZ0U0t4b0RuOWxXNi14UDJoWms1QTBIb1U2R3BFdnAtY3k1clAyU2g1dEgzSE43Um1WLUtWRExvRFRINmFEY2tsay03NkFqaldpNXVzWndOMFBNdXlh?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "VOV World",
+      "headlineJa": "コンゴでのエボラ出血熱流行拡大をWHOが警告、ワクチン治験で新たな進展 - VOV World"
+    },
+    {
+      "articleId": "gnews_dbddba2a0c548454",
+      "headline": "Congo: Ebola cases rising at record pace - dw.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T07:40:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbTQ3dVZhUmJ2ZE5aanJ1clFRNXY3eWJUQm5CdGM0Z092OFNKQi1wMEp0WWJIaHA0b3dzUFhXbmNJdFk5NzJCMkF1WENxelVydEsyamRGM2VPeGZmeHJ1Wkw3Uzc0MjlMTV9uRTNNNDkycFRmejB5aENtZUt3bmdsZEJR0gGCAUFVX3lxTE41SmFWUkFTWTl1Zjl4M0VpLVgxdW80SFptT1dialJjTDcyRjdPbzFia0ZhNzJaeWhUZFNkc2pFZmo3cm90WEEwbzZIMFRjbVFwMmNiSkI4a3RIMl8xeXNkTGhSSGc0cmVWckpnRWpHaGE0NGlaQmliWG9VU08yR1lzLXc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "dw.com",
+      "headlineJa": "コンゴ：エボラ出血熱感染者が記録的なペースで増加 - dw.com"
+    },
+    {
+      "articleId": "gnews_bd7e7481cc029a18",
+      "headline": "Ebola en RDC: un décès toutes les 30 minutes, alerte l'ONU - RFI",
+      "headlineTranslated": "Ebola in the DRC: one death every 30 minutes, warns the UN - RFI",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T07:31:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY1U3anZ5aERhMG1HRHIxaEtiM3RWcW1sQmdQQU1xNWtGWG5nNHN5ZlR3ZnlBZE5Na0RxYjV3dWhtZERCOEh6WVRnUnFPZmJ6c0xwTjNsN0J2SHZlZ09ZNWFHNlVIUE9CZkgyUUdEaE41T3NpT1lrcHc4czNkdkNSdnVpc180aUZlbDJQTDBmcmFzLUwyQng2N0NHWVlBRFNWV1BLMVlLR1g?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RFI",
+      "headlineJa": "コンゴ民主共和国のエボラ出血熱：30分に1人の死亡、国連が警告 - RFI"
+    },
+    {
+      "articleId": "gnews_92607ee33d25fc2d",
+      "headline": "(Multimédia) RDC/Ebola : l'épidémie s'étend à une sixième province sur fond de risque de transmission prolongée (PAPIER GENERAL) - 新华网",
+      "headlineTranslated": "(Multimedia) DRC/Ebola: the epidemic spreads to a sixth province amid risk of prolonged transmission (GENERAL PAPER) - 新华网",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T07:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GSXoxdDhOd0RLMmFLVHVfbllmejRfMnBnQlBmcXo5a3BqZEwwMmhjcTVRYWpCZVpVbE9uQUx5NGFqc3l3RjRzMnF4TDE1dk5FMGpHNVN0Qk5TdUtCMTVWcUJkNDlHWlRPU3hpYnlqMHNtdWJrc3M3V0lscw?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新华网",
+      "headlineJa": "(マルチメディア) DRC/エボラ出血熱: 感染長期化のリスクの中、流行は 6 番目の州に拡大 (一般紙) - 新华网"
+    },
+    {
+      "articleId": "gnews_564368b4197b6b74",
+      "headline": "RD Congo : un décès du virus Ebola toutes les 30 minutes, une sixième province touchée - France 24",
+      "headlineTranslated": "DR Congo: one death from the Ebola virus every 30 minutes, a sixth province affected - France 24",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T05:56:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZUY5VXdYUG1OTTJwMU0tSmhJeUVyYlA1UHhCeDJZd3pOYmdWRVRyM3o1SmpfUXR0YXFva05CZHAwd050a2dkaUxwYzBQYnFySUNyM3hUQ0lHV1pCTmNrMzBvb2ZreDZxZURac3Y5ejZpMVByZnFrQ3N0cTZ4VmRhSzdoZDFUYmZra3RHLWV3ZVc1RG8xLUlZWHpERDNuZnUyRVMwalFzWHJBbXpMUFY2RGp6cmkzcV9Qenh1Wi1ITEwzUExHb0ZDUjhKcTBBNkJ6WmtQeGgyUUxTU05DdTFqNkNNODhnSU1UVWwzTmp6RTlOVjItQ3ItdWpn?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "France 24",
+      "headlineJa": "コンゴ民主共和国：30分ごとに1人がエボラ出血熱で死亡、6番目の州が影響を受ける－フランス24"
+    },
+    {
+      "articleId": "gnews_2e79663d868edc09",
+      "headline": "Ebola Outbreak Reaches Sixth Province In DR Congo As Cases Top 4,600: Official - NDTV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T05:53:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlhCeEhtTkdDWVFWYjJoUVYtX2RRT19SQWI3d3FCclB3anNucGlQVU1EdEViZk1MOGRUdkhHSS13RWY4bGJNVzBaanYwcUNZWUZqUFBEaDU2RnQ0VVEtQWRqNDR6elR5WTJHZ3dHNDExU2FKQkFlb1prRUtnMmk3ZDlhSk96dGpCN0JTUll2YmsxckxMUF9LcGppU0ZWYUgtQnp3RFFEQ2lNcjloa2hTaGFmTEk?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV",
+      "headlineJa": "エボラ出血熱の流行、コンゴ民主共和国の6番目の州に感染者数トップ4,600に：公式 - NDTV"
+    },
+    {
+      "articleId": "gnews_da686624da8ac6c0",
+      "headline": "Virus Ebola en RD Congo : un décès toutes les 30 minutes, l'épidémie s'étend à une 6e province - France 24",
+      "headlineTranslated": "Ebola virus in DR Congo: one death every 30 minutes, the epidemic extends to a 6th province - France 24",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T05:47:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRHZsN1lQcW9rQ250WXVUNmFieHdNcmlzWkwwQUszbklHSi1mQ0lURlVWX3ZEMENxbnFjQ3BFWVdBaVo0OTZIR0VVMFQ4VndVM1paQ1BnS0ZRUkdHV0NPRHZCOVktTDRMU1l1MXlDMy1KLXhaWkxrYjNKWGtIUkt6V1pzOUt2X2pMUlk2d25TYkpaR0NYckxSbkFVcUxuU2pRTkY1clRfbk5tWDhYc2lqQTlUT3JobThQZjY0RXNmdXVYX2tKanJsVGF1ZUtBczNaMllSN2ZtLVhpcFFiMVg2bEdlMkN5TDNXSUhTbjZNVmk0NUxXT09FTmhFdzNPQQ?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "France 24",
+      "headlineJa": "コンゴ民主共和国のエボラ出血熱：30分に1人の死亡、流行は6番目の州に拡大―フランス24"
+    },
+    {
+      "articleId": "gnews_522160d9c5aa55b7",
+      "headline": "Exhausted health workers in Congo struggle to keep up as Ebola outpaces contact tracing - The Seattle Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T05:35:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbDllODZkWXViaW5MTDFnRHpabXB0d2E5NkVNWDZ6WGE1QlZ2VEs2S3J1S016Nlg0YTQtdmF0ZG50RFNQQUQ2OGozRlNRcmwyQ3ZVV3VSZllCMGQ3dzhHa2RlMXlaSmhzYVJnZ2l5dDhBc2U2TGpuTEE5RnpvNjQ2dGY1MmpZbEpJN2ktT203Q1huNVEtcmphUVVVZXQ0X2dNZ1dlVjZCNlhackVZYkxWc2RmY09pbWg1cWpiMEpqc1FrdFRMaEVBVWxtczEyTEJvNEFN?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Seattle Times",
+      "headlineJa": "エボラ熱が接触者追跡を上回るペースでコンゴの疲弊した医療従事者が対応に苦戦 - シアトル・タイムズ"
+    },
+    {
+      "articleId": "gnews_295a7190c4f2771c",
+      "headline": "Ituri : une campagne antipaludique lancée pour soutenir la riposte contre Ebola - radiookapi.net",
+      "headlineTranslated": "Ituri: an anti-malaria campaign launched to support the response against Ebola - radiookapi.net",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T05:28:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ2hUc0tuQ0hIOVN5dzdyU3BHWGEzbExKT29DNW13dWxuWGlzN3JfXzh4WmstcU1fT3B2czAxU3hBaDJRaDVDWkc1SE5icFZXU0M5ZzNyTnZQam9WSS1WWHJPSjZKVkp3NEV1OFVRNVdoYmJ4aWlnenNKSjMzSFlfRmViQTcyT1VxUlBWbWZPUy1HZzVpS0ZBQXY4NWtCQ3ZscEhURE84NFdLXzFKUG5VaEF6UVZoVWZ6dHJpNy1kVWdMQzQ?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Ituri"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "radiookapi.net",
+      "headlineJa": "イトゥリ：エボラ出血熱への対応を支援するために立ち上げられた抗マラリアキャンペーン - radiookapi.net"
+    },
+    {
+      "articleId": "gnews_3da4bf7b453d530a",
+      "headline": "Africa CDC urges vaccine deployment for Ebola outbreak in DR Congo - news.cgtn.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-15T03:05:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLVZILXItNjAzNWZfYVM3ZE1FVkQxcDc2LXE2Nk1mcGVoWTV3UjdSdW52TUxGVmVnLXlaZDhJN3BwMDlTNzlSRjlGWDRSQzhnbk10YWFwOUNiak8zU2Y5RE1vN2VrTjhnUzVWcmp3WDhKdWNNanBVQXZKQjhtMjlsYXRMUnVxeEsxZEYzd0pra0FFbWl1SXByTTBGNlR5cktDRFN0TEptZDBOSkREeVBBd3d0aWRZVlFoZlc1NWd1X2g?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "news.cgtn.com",
+      "headlineJa": "アフリカCDC、コンゴ民主共和国でのエボラ出血熱流行にワクチン配備を要請 - news.cgtn.com"
+    },
+    {
+      "articleId": "gnews_e9a82640cd878112",
+      "headline": "Un décès \"toutes les 30 minutes\" : l'ONU appelle le monde à \"se réveiller\" face à l'épidémie d'Ebola en République démocratique du Congo - franceinfo",
+      "headlineTranslated": "A death “every 30 minutes”: the UN calls on the world to “wake up” to the Ebola epidemic in the Democratic Republic of Congo - franceinfo",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T21:58:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNVW45WWlaalhUbXpPbi1BXzJUTWlBY3FsWXNZRmtzbHczRXRCV3Rqd3FVNEpCRnV0cm1ZN25WaXd1ZWNkc0IxXzh3Rk1lMklNdzZ0SVNuNU1rUXRZZ2pPeGxMdTRaRUVoeWlZLXFjUm9Gb2hGSXpnT3pMRkJtSGl0ZnFsVHVwQXREWVlqdE1mVFlRNVFrNmVsQ0JHUzBYa3JjSm1xQUxGMnJQZlJkV2RRYkM4NnhGaHNnYmhGeWIxTldQOVo0N3J1STBhUWdSNXJUeExQUjRwcVlmTjhnT3F5Smd3Q2x2dUlleVlEOHNmWGxaTWtxNFdUSGMxWDREN015aUlHcmwtUkU1VUEwM3BiamVZTEgxU0xF?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "franceinfo",
+      "headlineJa": "「30分ごとに」死亡：コンゴ民主共和国でのエボラ出血熱流行に国連が世界に「目を覚ます」よう呼びかけ - franceinfo"
+    },
     {
       "articleId": "gnews_e56680e729f50a06",
       "headline": "Eye on Africa - DR Congo Ebola outbreak spreads to sixth province - France 24",
@@ -29,8 +558,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYzhSazE0MEV4MzBoX2RGckY5YjZGUm9xSGZvajFLbUFENG5CeE1KQ1EzQ2hQQ1J4NF9Nc1U0d29LOTVpWXhaamZxd3NCNGU4Zkx1cklEcy1tSlJlRmVJakNuRGN2ZHV3Yzg2T2dBcHBXSU5LX19YSUJnbk51b2Z0RjJIWk5nMGhqYkdQZHl3OGs0b3JYZkZ0SFFSa1FYZk03c2QzclBtNVFObnRLT0E?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -41,9 +570,9 @@
       "headlineJa": "アフリカに目を向ける - コンゴ民主共和国でエボラ出血熱の流行が6番目の州に拡大 - フランス24"
     },
     {
-      "articleId": "gnews_364118c65927110f",
-      "headline": "Ebola : un décès toutes les 30 minutes en RDC, alerte l’ONU - Radio-Canada",
-      "headlineTranslated": "Ebola: one death every 30 minutes in the DRC, warns the UN - Radio-Canada",
+      "articleId": "gnews_5ae11139ba20f383",
+      "headline": "Ebola : un décès toutes les 30 minutes en RDC, alerte l’ONU - ici.radio-canada.ca",
+      "headlineTranslated": "Ebola: one death every 30 minutes in the DRC, warns the UN - ici.radio-canada.ca",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T20:52:28+00:00",
@@ -57,7 +586,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Radio-Canada"
+      "sourceName": "ici.radio-canada.ca",
+      "headlineJa": "エボラ出血熱：コンゴ民主共和国では30分に1人の死亡、国連に警告 - ici.radio-canada.ca"
     },
     {
       "articleId": "gnews_c5be725f96c60e24",
@@ -100,13 +630,13 @@
       "headlineJa": "コンゴ民主共和国でのエボラ出血熱流行：30分に1人の死亡、国連人道問題責任者が警告－西フランス"
     },
     {
-      "articleId": "gnews_e151dcbfda4f2ecd",
+      "articleId": "gnews_9b191584b7266041",
       "headline": "Épidémie d’Ebola en RDC : un décès toutes les 30 minutes, alerte le chef des affaires humanitaires de l’Onu - MaVille.com",
       "headlineTranslated": "Ebola epidemic in the DRC: one death every 30 minutes, warns the head of UN humanitarian affairs - MaVille.com",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T19:53:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbVQ5Mk9SVTgwRmZfS3YxTHNLX2c1WktwUnA1Y3Raclo5aVpJYlNnaTdZcEVfUE9Ba3NlSWR1ZGpuZkRjQkcxRXpncmRLVnZ2YkVpS01wWXNtMV9LZzZZOV9ncnd4M0M4RHdybkIzd0FKaGxQbDcwdVhaQjV4Z19kQndwaWxxWDQybkRYZkhfd3ZkM0Vpd0hWbG96SXBYemE0aW1KQzloMTdkb19EUzgwSExiSVdxcVdlNXJHd0ZrUHN5NzMyaHVuYUpBX29FMmk4NW85VDJNMmxDOVZ5VTdjcHliN1NiZXprc05UWU92NjJydFRrdVptZlI5N0JHZWlI?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcU55NFpWelhKLVNuV0R6REE0eF9XRURfR2d6VHpJWnBkemg2TUpGTTNVMGJ4S0tqc0lnWlVIanZlRmM5aDU0RjBYc0hyb1ptNlFMZ3VOV1JkVWNzQU9vY1FzQ2xTTkpVaDY1dHNIejAzV3FNYUl2VUpUMzRYeXVBYldacDRmYnNTVDVULWdiMmdUTWFtS3pudGJhcWNoRXR3bDhXMXVnaGVoSE90NkJFYlI1aXdRSU1EWWFRbi1OUDNadWZ2TlktdDBVLWNPaUpOZl91R21VQ0hvU2NSZFRQNF9PbkJtNERmZ19LNjZLZTA0VUdZRnU4?oc=5",
       "originalLanguage": "FRENCH",
       "diseases": [
         "Ebola"
@@ -120,32 +650,12 @@
       "headlineJa": "コンゴ民主共和国におけるエボラ出血熱流行：30分に1人の死亡、国連人道問題責任者が警告 - MaVille.com"
     },
     {
-      "articleId": "gnews_b6476d4639df3b42",
-      "headline": "Ebola winning in Democratic Republic of Congo, says UN relief chief - Anadolu Ajansı",
+      "articleId": "gnews_7a18668aac0c7c2d",
+      "headline": "UN relief chief warns Ebola is outpacing the response in DRC - CareerOneStop",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T19:35:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOODFaTVp3SV9HTTFsWHZ6bWtSYWprSWtROXdfbE5RTVlIX3BzazhNTVAtX0pISDRObjR5bmpKN0hoWDAxZ3ZQVlh4Y1Z3UmtfaFVNZFJobEVjTkdGVjlqVDBtNnNndTFlSnctcmVSTHNJYTFrMUFrLVBBSF85dkhtZHdVakkzalRQR2NJcnN5MXM1a0ZWRy15UHZ2NU5MTVZuS0VMdHkwZkFEUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı",
-      "headlineJa": "コンゴ民主共和国でエボラ出血熱が勝利、国連救援主任が語る - アナドル・アジャンス"
-    },
-    {
-      "articleId": "gnews_7b3725b6d687281a",
-      "headline": "UN Relief Chief warns Ebola is outpacing the response in DRC - OCHA",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T18:32:07+00:00",
+      "publishedTimestamp": "2026-08-14T18:51:15+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeEpUXzRwakpfRGlhekwzM2RnTEZ3ZHBTQ2NnS1hOWDJITlByUW9RNU5PdmlvYmJFQzR2LUpTYzVNLXZGTXRZSGFNWGZySDczSjBmeVRCQ3lUNDU0b1NnU0MweFBadmdMM0JsZ2d1QllGcHNuMG4xVDVNSWRBVU1aRnVENFc?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
@@ -156,89 +666,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "OCHA",
-      "headlineJa": "国連救援局長、エボラ出血熱がコンゴ民主共和国の対応を上回っていると警告 - OCHA"
-    },
-    {
-      "articleId": "gnews_6543cda07d093510",
-      "headline": "Ebola Outbreak 2026: Three Months into the Response - Direct Relief",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T18:07:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMlF2WnZfamRPemViSl9uSlhCbmNpYllCenlVbFVuZVFCVVFHRXJIX0hBR2szYkdraWNFSzFHNUpMSkFVYzFjQlJYcWRKM3B6a09PNVVPb0dYMDdxNGNva29YUk5YZEVnZ3NSRGFzbUxLUGZNMGF3VlR2SXF6Vzc1UEt6bUV6LS1iZThja0s2RktoTm01ZzI2ZFZJZ1l2Z1hoekc4T004eGZjTWc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Direct Relief",
-      "headlineJa": "2026 年のエボラ出血熱流行: 対応開始から 3 か月 - 直接救済"
-    },
-    {
-      "articleId": "gnews_5222cee489606936",
-      "headline": "Congo says Ebola outbreak spreads to northeastern Bas-Uele province - CNBC Africa",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T17:51:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVlVKM19yZTZVM3lsbWFfSk9qcC1TSDZWdkFuRmNHWFhTRE9FU0ItQ3ZRSUZVYU05NVYxVzdzNGVta0w3N1N4c1pZQXUtRjh2REFKVHJzVjNNeGdKc0VNNUhrZzlnZWh6TXprMlVxMGtrdkxFZXB3REw2d0hnNkZzeFFpOU0xbXNnRW9iQV9MSHdyZDBGdDMzYU9RZzhLSldv?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Bas-Uélé"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNBC Africa"
-    },
-    {
-      "articleId": "gnews_dbddba2a0c548454",
-      "headline": "Congo: Ebola cases rising at record pace - dw.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T17:41:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbTQ3dVZhUmJ2ZE5aanJ1clFRNXY3eWJUQm5CdGM0Z092OFNKQi1wMEp0WWJIaHA0b3dzUFhXbmNJdFk5NzJCMkF1WENxelVydEsyamRGM2VPeGZmeHJ1Wkw3Uzc0MjlMTV9uRTNNNDkycFRmejB5aENtZUt3bmdsZEJR0gGCAUFVX3lxTE41SmFWUkFTWTl1Zjl4M0VpLVgxdW80SFptT1dialJjTDcyRjdPbzFia0ZhNzJaeWhUZFNkc2pFZmo3cm90WEEwbzZIMFRjbVFwMmNiSkI4a3RIMl8xeXNkTGhSSGc0cmVWckpnRWpHaGE0NGlaQmliWG9VU08yR1lzLXc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "dw.com",
-      "headlineJa": "コンゴ：エボラ出血熱感染者が記録的なペースで増加 - dw.com"
-    },
-    {
-      "articleId": "gnews_7c863ac1b9382f67",
-      "headline": "Today's top news: Democratic Republic of the Congo, Ukraine, Occupied Palestinian Territory, Cameroon - OCHA",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T17:06:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM0xRWmp4TFVwb3dLbVlFeTNHMkxIQ294S1gtU3dfMmFXRkJrcDdVbWtONTBLeUR6X2ZJUVN5RTZWcWMtSjV2ZDRXS0dZMGtyMmExbk5MeGI0Q0F3T2RrUk1Jc3lMeEFKU1NYUF9NTk5mRFdIUEtJX01pdlZBQVNxd21iVjUyU3loY2dWZXZDaHFrbWpvQW9ETmpHQmxrRHBLaExQdk5sSVMxLVhUTEtXSnNtcnd3d09B?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "OCHA",
-      "headlineJa": "今日のトップニュース: コンゴ民主共和国、ウクライナ、パレスチナ占領地、カメルーン - OCHA"
+      "sourceName": "CareerOneStop",
+      "headlineJa": "国連救援責任者、エボラ出血熱がコンゴ民主共和国の対応を上回っていると警告 - CareerOneStop"
     },
     {
       "articleId": "gnews_95f80dbc15c55f1a",
@@ -250,8 +679,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWGNHVjlHelF2M0lRRGZCTHJDYkVpc1FUZGgyRU0tV3JnVjRFSU5uajhOei13U01KSFhEXy1sc1Myc0J0N1hqczROY19pSEphaS1FLVY2QjJSNndGakt2TWtPUG1oaDRvYk8zTGRramZnVG5KY00yUlV1U3RuempCM05xVkEzamhZZzMtUmRoTlpLSXNpcFUyNkg2VllCamZ1Wjg1UnVkQ0RycEtoM2hSa2JmUl8xcVN6WDFDM0Npbk83X0MtYmRPR0VIWHBXcWJVWHUySV9n?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -284,7 +713,7 @@
     {
       "articleId": "gnews_ebbd6a6ef9aa25af",
       "headline": "Ebola en RDC : une sixième province touchée, l’OMS renforce la riposte régionale - UN News",
-      "headlineTranslated": "Ebola in the DRC: sixth province affected, WHO strengthens regional response - UN News",
+      "headlineTranslated": "Ebola in DRC: sixth province affected, WHO strengthens regional response - UN News",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T14:01:50+00:00",
@@ -318,7 +747,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Sud Ouest"
+      "sourceName": "Sud Ouest",
+      "headlineJa": "エボラ出血熱：コンゴ民主共和国南西部の最前線で活躍する介護者への給与を求める国際看護師評議会の呼びかけ"
     },
     {
       "articleId": "gnews_d8b6fdc2c30b174f",
@@ -330,15 +760,16 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNzYyLXJkRnRhS2dsMGh1ZjFzeDZoQ1UwY09mR1R2Q1h0YVZYck02aHlYTld5dGV0NFZwSEVGcklUMENxeDVEV21adTUyZGJIVnE3ME1Ud3c2RVEtTm1KUDZBME82bVVqNnNUTEFsdkNNdlV3VTJYNXJJUHJtN05ILXRKckRzckFOdV9LT29adklhaEY3dWs2cDFYazExQVZqRW1vVUctNnF2UGtiY0tScUpfOHRrZw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "IFRC"
+      "sourceName": "IFRC",
+      "headlineJa": "DRC エボラ流行から 3 か月、ウイルスの蔓延を阻止するには地域社会の信頼が引き続き重要 - IFRC"
     },
     {
       "articleId": "gnews_edae5a9ed3b2283e",
@@ -361,29 +792,9 @@
       "headlineJa": "DRC：エボラ出血熱の流行が6番目の州に達し、南スーダンを脅かす - 20分"
     },
     {
-      "articleId": "gnews_de88b18a634789a5",
-      "headline": "Live Q&A: What Congo’s Ebola Battle Means for Africa and the World - Bloomberg.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T12:35:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUXRkc0RsY0lKLVZtSk1iaTF3QUYwTFZmbk5YUXFYT2h3VzJBYmxYUTJ1cW9TVjNYdmZ4VXRLT3psN09UTmRQVktsZVBteGNUVU9nVWtyaW54dEIxMjR2Y1gxOWplMTF3WEcwcFV1bTB2WDdsaTdJeFpPLVYzdUdHZnNybG5KYVpSZndMY1NITDVmREFKUW9FdVppS25oOENSTi1qWFRkQktSMFdWNjNpYkt2UFJ5UQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bloomberg.com",
-      "headlineJa": "ライブQ&A：コンゴのエボラ出血熱との戦いがアフリカと世界に何を意味するか - Bloomberg.com"
-    },
-    {
       "articleId": "gnews_155687e9ada75ca7",
       "headline": "(Multimédia) RDC/Ebola : l'épidémie s'étend à une 6e province, avec plus de 4.600 cas confirmés (officiel) - 新华网",
-      "headlineTranslated": "",
+      "headlineTranslated": "(Multimedia) DRC/Ebola: the epidemic extends to a 6th province, with more than 4,600 confirmed cases (official) - 新华网",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T12:03:00+00:00",
@@ -397,12 +808,13 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "新华网"
+      "sourceName": "新华网",
+      "headlineJa": "(マルチメディア) コンゴ民主共和国/エボラ出血熱: 流行は6番目の州に拡大、感染者は4,600人以上(公式) - 新华网"
     },
     {
-      "articleId": "gnews_3263c72fc6bd2e26",
-      "headline": "RDC : face à l’épidémie d’Ebola, les autres urgences sanitaires ne doivent pas être négligées dans l’est du pays - MSF - Médecins Sans Frontières",
-      "headlineTranslated": "DRC: faced with the Ebola epidemic, other health emergencies must not be neglected in the east of the country - MSF - Médecins Sans Frontières",
+      "articleId": "gnews_9028c160f500f88c",
+      "headline": "RDC : face à l’épidémie d’Ebola, les autres urgences sanitaires ne doivent pas être négligées dans l’est du pays - msf.org",
+      "headlineTranslated": "DRC: faced with the Ebola epidemic, other health emergencies must not be neglected in the east of the country - msf.org",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T10:56:55+00:00",
@@ -416,8 +828,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "MSF - Médecins Sans Frontières",
-      "headlineJa": "コンゴ民主共和国：エボラ出血熱の流行に直面しているが、国の東部では他の健康上の緊急事態を無視してはならない - MSF - 国境なき医師団"
+      "sourceName": "msf.org",
+      "headlineJa": "コンゴ民主共和国：エボラ出血熱の流行に直面しているが、国の東部では他の健康上の緊急事態を無視してはならない - msf.org"
     },
     {
       "articleId": "gnews_6b94ec9970f21513",
@@ -429,8 +841,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTWJOZ3hoT05Fd2RKN29fN09iZHlBVE5hQWk0OWlCQm9fWWhxVzk1SnZuQ05jSjJiRHdGVTRWT0g0a3N4YzltZUt2ZDhTNGpJU0xiRmlBT0IzZ0hQeHR4YWNILWpQUzZ1U0pzcFliS005MC05eWxORFJ1Y3hFQ1Azcm8wckR2SEw5dzhhYkZhLW1QTlVHNDdOSA?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -439,6 +851,26 @@
       "dataSource": "Google News",
       "sourceName": "Semafor",
       "headlineJa": "エボラ出血熱の流行がコンゴ民主共和国の新たな州に拡大 - セマフォー"
+    },
+    {
+      "articleId": "gnews_c17884c80646f5d4",
+      "headline": "The Ebola virus is outpacing the international response - Le Monde.fr",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-14T10:45:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUkY3NE44QmozWkhNTU1lRzVwaUlRcDVNZklCdWZKTFB1VEt2TFNDMmh4bjVJMjFRbXZQeGp6VHg2bXRQaHYxR0JEOS1iTjZWdGZqeTd0alNHdG9oQVdCanU0NTA3VzBqVExkd2lqR3h5TGx0NlZ0ckxDOFZtdzRmTW1lM1hnSnkzc2cyelFiZkJpUHFnQzRpbkxZdWNMbl91NFZyckJ0S19OZDFGZEZzWkJBSmowcGE2QmRWODh0RkhSZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Le Monde.fr",
+      "headlineJa": "エボラウイルスは国際的な対応を上回っている - Le Monde.fr"
     },
     {
       "articleId": "gnews_4135598de55538a3",
@@ -461,9 +893,9 @@
       "headlineJa": "アントレティエン。 « Pas facile de mener un essai clinique en Ituri » : マリー・ジャスパールのエボラ出血熱検査 - 西部フランス"
     },
     {
-      "articleId": "gnews_66ded6127011698e",
-      "headline": "Ebola en RDC: l'épidémie touche une sixième province, un essai clinique sur une centaine de patients - rfi.fr",
-      "headlineTranslated": "Ebola in the DRC: the epidemic affects a sixth province, a clinical trial on around a hundred patients - rfi.fr",
+      "articleId": "gnews_55e1d8ca9ecc8bfb",
+      "headline": "Ebola en RDC: l'épidémie touche une sixième province, un essai clinique sur une centaine de patients - RFI",
+      "headlineTranslated": "Ebola in the DRC: the epidemic affects a sixth province, a clinical trial on around a hundred patients - RFI",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T09:47:51+00:00",
@@ -477,32 +909,13 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "rfi.fr"
-    },
-    {
-      "articleId": "gnews_6e47e32f4fb5c1e6",
-      "headline": "Ebola en RDC: l'épidémie touche une sixième province, un essai clinique sur une centaine de patients - Yahoo Actualités",
-      "headlineTranslated": "Ebola in the DRC: the epidemic affects a sixth province, a clinical trial on around a hundred patients - Yahoo News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T09:47:51+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMFZ6c2I0b1g3MHR5MUE3ZWxOemtqZDBSNGk1blhKeGVDdFlsbmJiQ0M2MER4VlVQRS0tcDk5YzVNOEhaZXllZGdUaC02SFZKQl93TVdxV0tyX3VMNi1vRzJscjhfdFp1dXlKM2VEajRpeW5WZGpONmU0X2hKdC1kQ3drODJScXBqS1h1VVZfYWdKVVFW?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo Actualités",
-      "headlineJa": "コンゴ民主共和国のエボラ出血熱：6番目の州に影響、約100人の患者を対象に臨床試験 - Yahooニュース"
+      "sourceName": "RFI",
+      "headlineJa": "コンゴ民主共和国のエボラ出血熱：流行は6番目の州に影響、約100人の患者を対象とした臨床試験 - RFI"
     },
     {
       "articleId": "gnews_ae5a34dfe7107b66",
       "headline": "Ebola en RD Congo, agent français gracié au Mali, présidentielle en Zambie : l'hebdo Afrique - France 24",
-      "headlineTranslated": "",
+      "headlineTranslated": "Ebola in DR Congo, French agent pardoned in Mali, presidential election in Zambia: Africa weekly - France 24",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T09:37:01+00:00",
@@ -522,7 +935,7 @@
     {
       "articleId": "gnews_a7033e1e8f9131c4",
       "headline": "Ebola en RDC : l’épidémie gagne du terrain et menace le Soudan du Sud - Regards protestants",
-      "headlineTranslated": "Ebola in the DRC: the epidemic is gaining ground and threatens South Sudan - Regards protestants",
+      "headlineTranslated": "Ebola in the DRC: the epidemic is gaining ground and threatens South Sudan - Regards protestantes",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T09:35:30+00:00",
@@ -540,28 +953,9 @@
       "headlineJa": "コンゴ民主共和国におけるエボラ出血熱：流行は拡大し南スーダンを脅かしている - プロテスタントに敬意を表する"
     },
     {
-      "articleId": "gnews_90a8999d9c671e15",
-      "headline": "Barça Foundation contributes to the fight against the ebola epidemic in the Democratic Republic of the Congo - FC Barcelona",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T09:35:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUHh4UUJ6amJENVl6aGpwa3hVQnJqWHg0SEV5RjlaQVBlMWlwektNcldaZDlLQkNXRmFVS0VJSU1xMkZJY3hfQVNNdVMxU3dNekIwcElsTmpGVVJQdUltajRVTWQ2N29BeVJIanJKSmZSdFdnYkhKcDJMamtOdVdsVHViaFR2WFZ4c0tFRnI5SmZoTGxhQnlUdVZETDZWYUtWVEY3RzYwN0ZkTFNqSm1yWUF3cHY0TlN5U3NYbkxkeFlqT1FvekFZOWFvWl9yMXhVdEkxeFFpb0VCaHdpZzVIbEQ2Wm9Idms?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "FC Barcelona"
-    },
-    {
       "articleId": "gnews_5998f6a42337487e",
       "headline": "VIDÉO. Ebola en RD Congo: les morgues, zones à risque - tv5monde",
-      "headlineTranslated": "",
+      "headlineTranslated": "VIDEO. Ebola in DR Congo: morgues, risk areas - tv5monde",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-14T09:21:35+00:00",
@@ -575,7 +969,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "tv5monde"
+      "sourceName": "tv5monde",
+      "headlineJa": "ビデオ。コンゴ民主共和国のエボラ出血熱：遺体安置所、危険地域 - tv5monde"
     },
     {
       "articleId": "gnews_e4fcb52d59041cce",
@@ -594,7 +989,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "dw.com"
+      "sourceName": "dw.com",
+      "headlineJa": "エボラ出血熱：感染による感染拡大の共同体 - dw.com"
     },
     {
       "articleId": "gnews_6bb8a1db7f68213c",
@@ -626,8 +1022,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQUd0QlJOTFRtTm9qRUtLemJaY2p0UXhyNHd0NFp3MU9yZ0tiRjZmQWt5MFlWa3FBNkZmOWlJdDU3Z3BZTW81eHU4SzVvOF9GWmFlbFJjLXpmZy1LYTNnZGlhRDdHWUs0WHVIekw0OGZGb0FabDJFMVRCNHJibnJrcV80WHpUems5Y3lvZDFPV3hkWkNRMllUN0lKOFpyRnQ0QnE00gGoAUFVX3lxTE9CQkZkVGZqaDB5MEZyV3NXbW9yU2NSZjk1cHhlVGhiRHJ1QnYycnBLdjNBWGZDbVBvOXVSU2NiX2dRUmZBUjNiWlExUjlLWkRBNEdUWGllOEFJUHlhUjBvREY4Y0x1RVh2bjF5LVFDS1RxYUxFRzdQb0YzU0ZxdkhBZHE3UVNucFN0Ung4ZEJLaG1waGEtdVFyMWJfYXJjSUM3Q3JabGhPVA?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -636,45 +1032,6 @@
       "dataSource": "Google News",
       "sourceName": "Daily Sabah",
       "headlineJa": "コンゴ民主共和国のエボラ出血熱流行が6番目の州に影響、死者数は2,100人を突破 |デイリーサバ - デイリーサバ"
-    },
-    {
-      "articleId": "gnews_399c1364244a3f17",
-      "headline": "Outbreak spreads to 6th Congo province - The Arkansas Democrat-Gazette",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T07:49:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcnB0TnZDRl9lS3YyZ0lNbUItMFp6QkRKUEh3VWFCakpqdzYybnZPeHhNQjNSRm9fS0czUWtFRndEWDZJMEYtbUNQQ2NfdHpqeXM1RjkyOUtqQmNIemZFU09uUTdyM041dk85dlJGV2lPN1BjNFdPVEVlck42MUdybGF3eGpIckJxUkpxcXotVHc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Arkansas Democrat-Gazette",
-      "headlineJa": "感染拡大、コンゴ6州に拡大 - アーカンソー民主党官報"
-    },
-    {
-      "articleId": "gnews_cb924149d460bf35",
-      "headline": "République Démocratique du Congo - Épidémie de maladie à virus Ebola - Aperçu de la situation, semaine 32 - à la date du 14 août 2026 - ReliefWeb",
-      "headlineTranslated": "Democratic Republic of Congo - Ebola virus disease outbreak - Situation overview, week 32 - as of August 14, 2026 - ReliefWeb",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T07:26:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQLWRRNlNFYnU4ZWFzZ2xRam1IXzEzSk1adVFCTlJDMFJ0YUVucUtKbk5GekVQNWlUeERycHZuUkFoNHkyWEhwVjQ1ek01NE9DaENCcWh6UElkSENhMWdneG84MTNsWnFwVXhUYlc0Wnc3SE1mYzRTUmtjdTI4QmlvSDlQQkFlQlVfVVJYYmpoVVlIc21pVEhwZVBpWXA4ZEZZMXlxaXNPWVBPanRvMEZJd1BFN3RFWjNmaV9leExqaGVtbFNxLXdnSWx1YXNmcWI0QkE2RlJyUms5R1BkN1A0d3hkd2VqLS1qbGIyTHl5MjdZN0hrcmxMUFFCYl91VlBqcVcxa2hxRnI?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ReliefWeb"
     },
     {
       "articleId": "gnews_bd65332ec29df511",
@@ -693,53 +1050,13 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "africaradio.com"
+      "sourceName": "africaradio.com",
+      "headlineJa": "コンゴ民主共和国：エボラ出血熱の流行は6番目の州に達し、南スーダンを憂慮している - africarradio.com"
     },
     {
-      "articleId": "gnews_7a103b4a71c6a9b5",
-      "headline": "Oxfam warns of 'lack of resources' in Ebola outbreak - bbc.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T05:08:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FUjNjLXM4R1JJdXBERktfRDFqRUlSZmhPazhIZTBNM0dBMEFsQkhnZ2R4VTlBUW04QVVxV3VFQ0J2NGhyZ3MwdTFXb011TVJ4d0lrV0lKZ0o3QQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "bbc.com",
-      "headlineJa": "オックスファム、エボラ出血熱流行で「資源不足」を警告 - bbc.com"
-    },
-    {
-      "articleId": "gnews_ea0ed465ae212629",
-      "headline": "Ebola is driving up maternal deaths as pregnant women in Congo avoid hospitals - The Japan Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-14T02:52:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGF5YmpvM3IyczV3T3p1X1FXcU1qQkFaN0p4UmwzZFpnNUc4M1NOZ0dZc3YteXowalBENUp5ZkwzbjZSRjZWMEViYV84cFBsVGtfSnhPckhIWTZ0ZzMyV1piZl9mSFgwb0Fja0pwRGFUSlRGam8ta1pYU1lzX3hEQUs3YmltZ1l0dGlrbk1GQTl6dGNxTzlIamdvbFFpV2RZVEk4NjlwNA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Japan Times",
-      "headlineJa": "コンゴの妊婦が病院を避け、エボラ出血熱で妊産婦死亡が増加 - ジャパンタイムズ"
-    },
-    {
-      "articleId": "gnews_9dd2f3f332d5e887",
-      "headline": "RDC : une sixième province touchée par l'épidémie d'Ebola - fr.africanews.com",
-      "headlineTranslated": "DRC: a sixth province affected by the Ebola epidemic - fr.africanews.com",
+      "articleId": "gnews_6e199fbb74f2033e",
+      "headline": "RDC : une sixième province touchée par l'épidémie d'Ebola - Africanews",
+      "headlineTranslated": "DRC: a sixth province affected by the Ebola epidemic - Africanews",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T21:49:15+00:00",
@@ -753,7 +1070,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "fr.africanews.com"
+      "sourceName": "Africanews",
+      "headlineJa": "コンゴ民主共和国：エボラ流行の影響を受ける6番目の州 - Africanews"
     },
     {
       "articleId": "gnews_78058c5311f07a2b",
@@ -765,8 +1083,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0p0M1Vkb1AtcVZ6TW1iTVBhbzF4amFNSnBSaXJzT0VFNC1xZk5EdDVzTnRzNXlPZDVmaEF4UU40NnpSNERwV084RlhCWGFmNE1BdEI4SS10YVI1T25FTDVQUTN0Ti1jWDdjSFRUNTBpN1daZzg5UWRvSDg5d21vZ1k1MFVGZmFuSGJSandtczhEMjRMdnpiZldmaTNnV3hEZU9kb2pqMUzSAa4BQVVfeXFMTXZiWEZaNnpnVVNSak5jbk8wRXJLYkxhV2syZkVOOU5YQWo3REY4ZmJhSVQ2ZE84VHRfZDNnWHQ5SV9rWjdjV2NkamQyYWdpc3JkNVJTazB4d0ZSdHlQMF9Ga0JObXRrb1FIQ0ViWkpqU2t5M05KYVBuLVJJR1gxWHd2MUdVZFFqdm13UzVBbVo2MHFMTUpmYVVmdHRHMWUzQlZCOWVtZ3JuaDNnSk5B?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -786,8 +1104,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNamxYQkEzenpIRzJwX2lvdFVNUXRlN2wyTVRMTlVSVmN0QTlpWFc3ZFpSRE12ZWY0Y21QSERzM3UtMEZLcVgyZHc3X1BBV1p1M2ppWk1NT09OcDBOZUhQb2haLVY0UUZDM3MzYTlhaUtYZ2d4MzlZdnJOQ3lNdGFOTWhJcUFSdw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -827,8 +1145,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTXdwMk8xYWd2X0U1ME9sbVl2dkRCTnJaQ3Voa2x4ZlVHVHNld2JvUXJSNC1UUUhOZk5Hc1FycVc0Z2FJTVFkeXAyeDVJUFZERFlVbURLeThkV3ZxcGpuWk5qXzhJNXNLc2xHT1B5d0ZGU2JOdEhCMmttWW5zay1ZUHQ5ejNRTEtsa2F2T2oxXzdBN3hBWUc5YmdrVWhOdm9rYlo0?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -848,20 +1166,41 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdlUtc2pVekVzb2tSZXV4VnpwNzlMWDFKbXc4ZmR4TDhfbnNGb2JRS2tDc2JhMm1WQUh2VGZxRml5dFF0UHV0RnpPWnlRLU01WHQzT2dnZDltRENqY0RocE9yeVhVbl9BQzQ3UVhYa2ltYWV1VmQyVXAzdVFGLWtIUEh0ZzdVaWptMmdJbzltamdfWGRUSXBhZlIxZmNBNDVX?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "EMJ"
+      "sourceName": "EMJ",
+      "headlineJa": "WHO事務局長「コンゴのエボラ出血熱流行は史上最悪」 - EMJ"
     },
     {
-      "articleId": "gnews_08400bb25193ace4",
-      "headline": "L’épidémie d’Ebola s’étend à une sixième province en République démocratique du Congo - Anadolu Ajansı",
-      "headlineTranslated": "Ebola outbreak spreads to sixth province in Democratic Republic of Congo - Anadolu Ajansı",
+      "articleId": "gnews_bf1ce88b83d119d4",
+      "headline": "Ebola tracing improves in DR Congo – but the virus is still winning the race - UN News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T19:56:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5nZS1FMTRfX0p3bm9SOTFIcjBiRUpPdzBLOUM0UlJGNkNEUXUybVhNd215QlJYOVZVZmJwR3hYRkhieVBTTFNiUmYtQWhOZzBjbDc5TG94SQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "UN News",
+      "headlineJa": "コンゴ民主共和国でのエボラ出血熱追跡は改善 – しかしウイルスは依然として競争に勝利している - 国連ニュース"
+    },
+    {
+      "articleId": "gnews_f13f774d610813b4",
+      "headline": "L’épidémie d’Ebola s’étend à une sixième province en République démocratique du Congo - aa.com.tr",
+      "headlineTranslated": "Ebola epidemic spreads to sixth province in Democratic Republic of Congo - aa.com.tr",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T19:42:21+00:00",
@@ -875,61 +1214,20 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı",
-      "headlineJa": "エボラ出血熱の流行がコンゴ民主共和国の6番目の州に拡大 - アナドル・アジャンス"
+      "sourceName": "aa.com.tr",
+      "headlineJa": "エボラ出血熱の流行がコンゴ民主共和国の6番目の州に拡大 - aa.com.tr"
     },
     {
-      "articleId": "gnews_08f7a2e53665f994",
-      "headline": "Ebola outbreak spreads to sixth DR Congo province, Africa CDC says - Euronews.com",
+      "articleId": "gnews_b9ea6daea01a1845",
+      "headline": "Ebola Outbreak: Current Situation - Centers for Disease Control and Prevention | CDC (.gov)",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T19:13:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQWhkM3pTNm9Temc5UVN4U3FrVE40b05rdEZQTkpKb01HMUNVNksweEhBOF9lLUxLcUFOVk1qTG92Z3BjclNOak1iRWNYLU9ieU1KTklGa0xzSnp3dTlKUk1RMDJJMGhrR1g2Mm5iU2k3TjdaeGZxdmdwTVBINTdyRHhPempyMGoyalRpU3BtSnhDQUFORWZENGgzdV9QNnhqMWhhQkpqYmNFSGp0Q1RvRExOel94ZXRWb2JmSVc5N3JaMHNwVkhB?oc=5",
+      "publishedTimestamp": "2026-08-13T19:01:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Xb2M3MTlzZjZoNFc5QlFXTkhpcDIxTFBQc050QnBtQkQwczJnM2daRUZGQzFfcl80RmZGYy1qLXRXeUF0Y1hmejlfemVQVk5uNldZclZscUpiQ1hSX1FsdXB1MG4?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Euronews.com",
-      "headlineJa": "エボラ出血熱の流行が6番目のコンゴ民主共和国州に拡大、アフリカCDCが発表 - Euronews.com"
-    },
-    {
-      "articleId": "gnews_37531db3690aadff",
-      "headline": "Congo’s fastest-growing Ebola outbreak reaches a sixth province - KTSM 9 News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T18:24:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSnRYRm42LXJSLVFrdmowYnpDZzBORGFPMld0dVRyOGxyZVJfMHhBaTg3cHJjNzRRV3hLdjcybXo0d3FqZ1ZRZER2d2NKUHpsOTBMMlhod3R3MlRVU0ZuUE5iam5pVGNuVThITGlCS0RRd3V1UWJLT3pDUGI1ZWpyYWc5enMxQTZYbWV1RTlmMzl2amdKV1RFTkt2WnhONEZ5NzBMZnVGVndOVjU2TG1sZFUtWkZxR0NzaERGM1QtZ0J5S3JMRTJrSkEzRdIB0AFBVV95cUxQY1dfOXRIU2Q4WjU1VVUyRmk2NkYtSkxMZ1lXS3QzOXdZaGswemxQWGI4by02RlRWSWpIdFRWQzJxT0YwOE9oNFhhNVphY3RnRmdjdXl3anJyRk1rLUhTWGxCZzU1bC1WdkhKMm9RLUFPNkdFVHQ0MjhEMk10Wk5TYnpxVXVSak83RExVM2c0TlRhYjlBUEtSR3dmWl9yRFBHSzZFb3lnNVlGUms1V1k1THljU2IyeWVMR05DdEhueXczMHBuVDRDdnU0Y2x4TjdH?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "KTSM 9 News",
-      "headlineJa": "コンゴで急速に拡大するエボラ出血熱の流行が6番目の州に到達 - KTSM 9ニュース"
-    },
-    {
-      "articleId": "gnews_a661e616f169486a",
-      "headline": "Ebola et conflits, la double peine dans l'est de la RDC - dw.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T17:53:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmhzQ0tQVlRWV1U3enFpV3RfaE1ERWhubUI5d2RYNWFZakk4U3UwMlU4OVVjNTRmeWNJc3F6aHBjdGJoWGRCa0M1YjJhY0tWU3lQNV9pSFZQSUJOYXFyODVINzNWNjZzZkdFSnQxYTkyNlJqSGo1NzFEbDcxRGRTcHNDa1M0dFFMMkhWT0piNFDSAZABQVVfeXFMT3BxWm9fcktIeVRQYUY5czBFaFVPSzNwYjZLQXVhWFRmZzA0dTdNaG9qUjlVUDA3emtOcEhjb2lSdE56Yi1Gam1oM3E3Wk5EVUs3SHRsZEZybUFRaHd1YXg4NXIxekZ3aHo4SEVhTEFXMGxhVm1JN3pfOXdjME5kOTN4UTJTTWcwT1B3VUxQWjh1?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
+        "Tuberculosis",
         "Ebola"
       ],
       "locations": [],
@@ -937,7 +1235,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "dw.com"
+      "sourceName": "Centers for Disease Control and Prevention | CDC (.gov)",
+      "headlineJa": "エボラ出血熱の流行: 現状 - 疾病管理予防センター | CDC (.gov)"
     },
     {
       "articleId": "gnews_a2d1702054ccff4e",
@@ -949,15 +1248,16 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeVhybEM3VmZMeGdhSFlyQ0ZLc2tqWk5lMXVOd3puNHdWS1N0a3dQUzJ4amJNZThtQmFEY0dsLUpVUzdyQlZxbXNjd1BPYjROODFNOENKWDZ3bkVNb1pnQ0YzWXV2Umoxa2xZZXV6RUpsUUxSaUxZMXhiTFd0Q1NaNlJVYURkUXFRZkRqRm5XZDFxQQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı"
+      "sourceName": "Anadolu Ajansı",
+      "headlineJa": "エボラ出血熱の流行、コンゴ第6州に拡大－アナドル・アジャンス"
     },
     {
       "articleId": "gnews_e9471a7a3469f8ec",
@@ -969,8 +1269,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX0tCblk3VmRDWXFkd0p3Y0t4c2RJNHBYTVZaaFJ5Qk5oSDlWR0tTaWN4NTRMX1NiQmZZN3V4dHQ2ZkEwb3l4SFl0VmJRWTZFbUxCbllhU3ZHUk1OZFQ5TEJTQ08ybXRWRGhoWGM1VUIyZ0w0bEYzWVZ6Znl6SjFnWXQ5dzkzQUZ6UjBMZ3B6dmJtcE5uMzdn0gGcAUFVX3lxTE5VWFd5WGdhYXdXX3prdlpqTnRaUmlNVFZRSUp6eVBfblVXZTN1SjVfMWxIaDhrcnJLZ3ZyOHoxbF9uSjE1TXVTaXhFckJBMnlqaGRWSVp4OTNrbnU5bnRFblg1Sm9RclN0QXZ6MDl0bG9VYUQzVnhkbE9ab0NsSjI3NTBLZ3RVNTBpTHZVdFpDdzBDMkI5RFJTVFJBeA?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1001,29 +1301,9 @@
       "headlineJa": "健康。コンゴ民主共和国でエボラ熱流行の加速が続く：国内で6番目の州が影響を受ける - Dna.fr"
     },
     {
-      "articleId": "gnews_9de1f74797e12f57",
-      "headline": "Santé. L'accélération de l'épidémie d'Ebola se poursuit en RDC : une sixième province du pays touchée - Le Progrès",
-      "headlineTranslated": "Health. The acceleration of the Ebola epidemic continues in the DRC: a sixth province of the country affected - Le Progrès",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T17:07:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeF9RWERucjU3UkhaaC1aRXg2MEFfbXVhSTVvNUxXbHM2VU5fM3lNY1RrTHNONmxPamM1OVBaUWtSYnpBRHpqZzg3X2VJOExzRXljY1BTNG00Tk03cWFyNVdQMFZkQVdRX2pRRDdsMmYwampfajhaMC1NN0JrRDZfODc0dXRIakJldzJvdEthLW1WT2NIaVlKMHRfNFZUQmdSaFU2UkRNTl9kX1d5eUt6UmpRVXhlM0ZabjdqN3FpRFNTUXBzQ3RCa1pLdkFFbUU?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Le Progrès",
-      "headlineJa": "健康。コンゴ民主共和国でエボラ熱流行の加速が続く：国内で6番目の州が影響を受ける - ル・プログレ"
-    },
-    {
-      "articleId": "gnews_11c90affb76e570b",
-      "headline": "Ebola en RDC : l’épidémie s’étend à une sixième province et menace le Soudan du Sud - lemonde.fr",
-      "headlineTranslated": "Ebola in the DRC: the epidemic spreads to a sixth province and threatens South Sudan - lemonde.fr",
+      "articleId": "gnews_d879382322ff9836",
+      "headline": "Ebola en RDC : l’épidémie s’étend à une sixième province et menace le Soudan du Sud - Le Monde.fr",
+      "headlineTranslated": "Ebola in the DRC: the epidemic spreads to a sixth province and threatens South Sudan - Le Monde.fr",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T16:50:40+00:00",
@@ -1037,7 +1317,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "lemonde.fr"
+      "sourceName": "Le Monde.fr",
+      "headlineJa": "DRCのエボラ出血熱：流行は6番目の州に広がり、南スーダンを脅かす - Le Monde.fr"
     },
     {
       "articleId": "gnews_345e3162f1304790",
@@ -1069,8 +1350,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZzBiVDdmWk92XzV6aGx3QVQ3bmxfNUl2TmhLM1V5ZFhHNEU5dEc4TG4zaDMtQU9QSUNuUE96Q1daVldCRDlMeExVSnBfeUpiOUhxbXpiTzhxQVp6VHhtWXlWTC0wWlE3Yjk4blhJdDdFODBhZW1sM21jWm5HdHhES3c5QTVlbzAtSEU1bW1sb3paNXFCN2xmN3VOOGhIcWU2LXN5VG9NU3hQMkRnWVRGX2liSDl5dVFmaWpFUQ?oc=5",
       "originalLanguage": "FRENCH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1081,9 +1362,9 @@
       "headlineJa": "エボラ出血熱：コンゴ民主共和国の6番目の州に流行が拡大 - RTBF"
     },
     {
-      "articleId": "gnews_9c93c432a87c56ba",
-      "headline": "OMS : 4 449 cas confirmés et 2 061 décès ont été signalés dans le cadre de l'épidémie d'Ebola en RDC - Anadolu Ajansı",
-      "headlineTranslated": "WHO: 4,449 confirmed cases and 2,061 deaths reported in DRC Ebola outbreak - Anadolu Ajansı",
+      "articleId": "gnews_b89da9dafad9724e",
+      "headline": "OMS : 4 449 cas confirmés et 2 061 décès ont été signalés dans le cadre de l'épidémie d'Ebola en RDC - aa.com.tr",
+      "headlineTranslated": "WHO: 4,449 confirmed cases and 2,061 deaths reported in DRC Ebola outbreak - aa.com.tr",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T16:22:27+00:00",
@@ -1097,13 +1378,13 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı",
-      "headlineJa": "WHO：コンゴ民主共和国のエボラ出血熱流行で感染者4,449人、死亡者2,061人が報告 - アナドル・アジャンス"
+      "sourceName": "aa.com.tr",
+      "headlineJa": "WHO：コンゴ民主共和国のエボラ出血熱流行で感染者4,449人、死亡者2,061人が報告 - aa.com.tr"
     },
     {
-      "articleId": "gnews_d7371aafb08ce84b",
-      "headline": "Plus de 2 100 morts en 3 mois : l’épidémie d’Ebola qui ravage la République démocratique du Congo en passe de devenir \"la plus grande\" de l’histoire - Midi Libre",
-      "headlineTranslated": "More than 2,100 deaths in 3 months: the Ebola epidemic ravaging the Democratic Republic of Congo on the verge of becoming \"the largest\" in history - Midi Libre",
+      "articleId": "gnews_27d155a329563220",
+      "headline": "Plus de 2 100 morts en 3 mois : l’épidémie d’Ebola qui ravage la République démocratique du Congo en passe de devenir \"la plus grande\" de l’histoire - midilibre.fr",
+      "headlineTranslated": "More than 2,100 deaths in 3 months: the Ebola epidemic ravaging the Democratic Republic of Congo on the verge of becoming \"the largest\" in history - midilibre.fr",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T15:52:00+00:00",
@@ -1117,8 +1398,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Midi Libre",
-      "headlineJa": "3か月で2,100人以上が死亡：コンゴ民主共和国を襲うエボラ出血熱の流行は史上「最大」になる寸前 - ミディ・リブレ"
+      "sourceName": "midilibre.fr",
+      "headlineJa": "3か月で2,100人以上死亡：コンゴ民主共和国を襲うエボラ出血熱、史上「最大」に迫る - midilibre.fr"
     },
     {
       "articleId": "gnews_af0a8ff3ee663c20",
@@ -1130,8 +1411,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSTMzZUFaeklJQ05rX1Y1Qnp6RXg1VFdZSVlESk9jdHdSeEpoV25QemR2MGt1ejNCcHNkbm1YeWlkNE9Md3g1ODdNTG1ETkt1OEx3OVB4SWhOcG9SMHFFZjBpTk13bkR0M19XNnFEUWRQZUVRQ1hsVUJGWFZHdUZxUzFDMHF4UnpUd1RxWjlfTVFuZ0RQTklZWExYNHpEUElNQTF6NzUyQ29MTXJtYXZSaHBXakx6eVR3a2RZMFBEaGs5MG9ERVhnWUUtVWxTSm84aXhtOHhvcVppbjVrQU5IMg?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1151,47 +1432,7 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSFpOeEhrT3ZXZjBIRDE0SXJXWjRpYUd1clNTNHV5cklGOENEZ0xFTmgzVkQxeHVxR1FmVEtwbWc1eG1yekdmdzJnYmxaeFJIVTFqdUYzR1Fua3NYeTE1b2VmYWdsSm16TnBpMEtfdnVTWVRwOWw1V09oWUNKSnRVREwzWEJOTG15eS05MUN4dWdENFE4UnFYQnpnSzBPWUd0?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sky News"
-    },
-    {
-      "articleId": "gnews_f89d45e83043a5ce",
-      "headline": "U.S. restricts travel from Congo as Ebola outbreak continues to spread - 95.5 WSB",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T15:41:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb2t6RTdpVEJheHNyT1g0RUxyNC05aDJ2dUpqTVVEX01PSU85NlZyeEpiUjFRM1dfcnI5QTBpdk40aWprNldzVGd1UFBkOEg5OU9hQkh4ZVBsMmg1Y09aU3k2bjR4TThmUEJCdGlkLXBhRWgwTTRDMWsyeFFYSm9kanY2eFZpUTNJclpjNjVxd1ZiY1VtWXVDeWU4MnU0Tk9ldmFaQWFULTl4ZTExT1FWbjB3QnVoTWxFY3dDVlZR0gHSAUFVX3lxTFB3MFhxVFEyanVkNURQN2xELVpLS3Q1aTM1ZW5Id2NlYmJVM1VsZVN1RFBINGkwX1BRSWRYMUhxeXFYbXptdjBzLWdreWJjam5kN3dlWFVBZ1hwYW1ybFNtaUVSYjYzUlRrMUNqMzdPdEVUMS1tR3BNR3BveExaOGNvUVNxVHUtcU4xeHM4RDdoX2ZQVjV6LXpkX3J1MXNUd2x0bmpBUmotQ0RRSjZkWVMxYWptdTFmbWxfSmZ3ckpQNW9DZVhTSE5GY1oxblJxZ3lTUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "95.5 WSB",
-      "headlineJa": "エボラ出血熱の感染拡大が続く中、米国、コンゴからの渡航を制限 - 95.5 WSB"
-    },
-    {
-      "articleId": "gnews_7d4c977b345cdd79",
-      "headline": "Ebola : la RDC face à une épidémie hors de contrôle ? - Lebrief",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T14:52:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDh0NnZHYmpoX2hxQnZhZFc3ZDY0T0pEYzM2aUlSMThTYUg3R1NBWENTOHNBOFc0STQtS01GTXBaZGdvYlExcGZ0WVlxTVhoMGVubk1PX3FBNk0wOEJ6SWt4SDZEMVhITHNVSzhqOXZobE9Lc1pNV0JmVUNvS0lFWVI3c0t1QWtBNGJMVzQzYlBtNnlEaUE?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
+        "Tuberculosis",
         "Ebola"
       ],
       "locations": [],
@@ -1199,8 +1440,29 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Lebrief",
-      "headlineJa": "エボラ出血熱：コンゴ民主共和国は制御不能な流行に直面している？ - ルブリーフ"
+      "sourceName": "Sky News",
+      "headlineJa": "コンゴ民主共和国で急速に拡大するエボラ出血熱流行、6番目の州に到達 - スカイニュース"
+    },
+    {
+      "articleId": "gnews_14af3a4edbbc7ab3",
+      "headline": "Ebola outbreak caused by new ‘animal transmission’: What that means - Al Jazeera",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-13T14:30:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUExzVXFVZkFvamhRU0JlMlU0VjBsZ3M1TmlRQzJPWmJRbUF2UHJBYW5LcVhMWDdBekl2cnRhclpZUVZNcEZzNVRyN29OVDdHdmhJSEhjSlR4TjZqejN4dzFBcUdSa0FEYmk0ZEtRTVFLaVlFV0Z4MUpjOFhkazZvZ2Exa09FVVEwLTA2YkVVcmtFbG5uTW5DSkhtRXRRSzNEQ3h4TFZKUDHSAa4BQVVfeXFMTzhpekVSR3pnMUMtdFNCa202Y3dSb1M3cHhuMzU3T2NxdjV1UVVieE9sWGpkWHZwQU53WFNRZ1hiZFZhay1ibzU0MlJHVFYxWmZTNmZvQTI1RHl6SHpWX0dwRVo3eFZiR1V1ZjJ4dkFaXzJ5M1VuTDZCOXJURGlxSUtaWklKekpaY0VWSW5odmZjSUN1ZVBhVXpleHBxLTQyUDhfNGY0cGQyQWRjckZ3?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Al Jazeera",
+      "headlineJa": "エボラ出血熱の流行は新たな「動物伝染」によって引き起こされる：それが意味するもの - アルジャジーラ"
     },
     {
       "articleId": "gnews_ecaaca105f5154fd",
@@ -1212,8 +1474,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMDBZYnVPUlJPdW9Va3hTWG80eWtnS3dDZFB6UHl2c0Y4YlB5WTlXTERRazRVbFZ6RUprakQ1YXJEVkUxZ2RmVmhBNUN2WklSb1ZIQ0ZVbDFBc0FOUl9Sei01VEtXNHlielBsWDlRYVdJSFNuZUxVb3hhOXg1SE5MOUR3c2JTeHpvQUFWZ21pdDhTalZ5d29RdkhzMklWQm1sUjRnYUxfTGI1MEY5c1NfSTNlUdIBuAFBVV95cUxOX0phVGI3WlZjeDZBOGpCSzdNaU1zbl9IM0pjeDNPcHVqZXdjNnROSEV6Nk9xUUF6dmRneDJDNEUwSmw5ZFRsaENIWU1uNks0UUVDZVp4anBDUUlNeHVJSm02VzMxODNSTERwZFVlRWc0d2Nma2ZzNmV6Q1BQVm81aGEwZE5QU21pdFdTLUxwY3Y5cVdKOVZ6R3oydFZudFpSM1I2NFFYV2V2Tk05emdsUlY3amltSXE3?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1233,8 +1495,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSnA1UldmOWFRUUkzNkptNEFZZ0sxNEI3d3JDM0dtTEU5bXFGTjJxangyZUxiaWZCcVJFR3U1SXYya1NWTkpZN2hWV1BBR0ExQmZOTFZKR2hxUDJQSjVqVHRiWmg3dTRkZ3lwUGVDR09sLVFrQ05XLVNzV0JBRHRVWEp5Y2hudXhQQ0xEWVdoVGJncG56aHFBTldUbUhWTlJZdDBfTDJLdXZYV28?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1254,8 +1516,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdVJxLWw4R1RMWFUzR2dPWjRIMHhjVHg5MFBUVE1vUGYxMUkybDdxLTNxUjVERWdHR1VYeFlxVXY5QXhjTm9pNkRxdHBnWTZNU0FqMDVmbkx0MDNSTHZlZTdpTHNRQklXc3lPTHdRVDhWQXFwVVJjX2REX2MyUXpCSGVOelRJUWdBcWRRM19iYUJZUWdFdkhkeVVSSjg2TWVMYl9XVUhKTDdCb3RpSzUtU1N2Yw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1264,27 +1526,6 @@
       "dataSource": "Google News",
       "sourceName": "Bloomberg.com",
       "headlineJa": "エボラ流行、アフリカ第6コンゴ州に拡大 CDCが発表 - Bloomberg.com"
-    },
-    {
-      "articleId": "gnews_40cdcdfd5929a2e8",
-      "headline": "The Ebola outbreak has spread to a new province in Congo, the head of Africa CDC says - WKYC",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T13:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNUFuN1BtazMtaUYtVHFCRnBNMmIzRGNRNkZKQm92Z05rNnBiSVZISnVBdndoUFZ5OGZqY0hXOFZEYWpsSUtULVZPOGxJLUhpNVN5cU9fbVViaTBWbWtMM0F2ZHBQVHQ1ZFFJRnNtaWZrSkpBY3ZtMGx1MjRnYnRYT0pBamJuZGlWNWN3WUxiUDVhNmRrUnZqSEU4QW9mOTZyanhIY3Vvc1NldnY5YS1ZZkNlalBqalk3NWwtRXdNUUg4eTJPVzFZQkptaTVwRzV1bFB1SVhrMUF1WEotR1p0WkZSdWtIdXRYdFZINVB0ZlBNM0hXVDNTVXg4SW5nTjM4LWh0ZlhmelRrcmhLeFo4?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "WKYC",
-      "headlineJa": "エボラ出血熱の流行がコンゴの新たな州に拡大、アフリカCDC所長が発言 - WKYC"
     },
     {
       "articleId": "gnews_ba6ffb0aa8b52921",
@@ -1307,26 +1548,6 @@
       "headlineJa": "コンゴ民主共和国のコレラ：1月以来700人近い死亡者を記録 - Ouragan.cd"
     },
     {
-      "articleId": "gnews_6efc1166135893ec",
-      "headline": "Congo reports Ebola death in new province, official says - Reuters",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T13:11:43+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0lKMkNkQzI1X2NLOHR5SkJtUGJwZGhvZWNSaWdYN3hGeUFiMUFidXZMM2h6cDQwQ1h5X2Z5dWctUjhhRUtRVmRrakVsN2tOY2QzZERQMmFLZWczRlY0RjhTM3p3LWUydGdKMklkcm8yaTNYSzMxNFNWV093LUo4SEtFM2RtLU1VZk80ajR6Yml6S3N5RGN1QXZOUTBkZGxvSlJfSGpOTEMzMUt0NGhManltMUVobG4xeEhxcVZMOWc3Zw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Reuters",
-      "headlineJa": "コンゴ、新たな州でエボラ出血熱死亡報告、当局者発表 - ロイター"
-    },
-    {
       "articleId": "gnews_24a6e585c1a325cd",
       "headline": "Ebola outbreak in Congo could be deadliest ever, global health chief warns - CBS News",
       "headlineTranslated": "",
@@ -1336,8 +1557,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc0JBU190RFJ5YmoySm5iTnc4YmFDZWxGM01KVjFtUTNrYkxkTmR6eU9tZlNFWFJtei1zSkNUamFVUFZsd2lxZGRNSzlUVmlPcW9tcmd5RkdhNk44SjI2eFRBanY3ZXd4ajZuM3A0cVRKT2phTTBmdndUcWl1dEYxbTVDQWZvSW80MW5LcklBSWFHbGRidWQtdUVmV0h0bVZfYl9kWmFUVQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1408,8 +1629,8 @@
       "headlineJa": "コンゴ民主共和国で広がるエボラ出血熱の流行が史上最大規模になりつつある理由 - franceinfo"
     },
     {
-      "articleId": "gnews_6bcc2ebc6442d39a",
-      "headline": "A Patient’s Final Breath in a Congolese Ebola Ward - The New York Times",
+      "articleId": "gnews_e1b282cbadf370c5",
+      "headline": "A Patient’s Final Breath in a Congolese Ebola Ward - nytimes.com",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -1424,8 +1645,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The New York Times",
-      "headlineJa": "コンゴのエボラ病棟で患者が息を引き取る - ニューヨーク・タイムズ"
+      "sourceName": "nytimes.com",
+      "headlineJa": "コンゴのエボラ病棟で患者が息を引き取る - nytimes.com"
     },
     {
       "articleId": "gnews_421683ae97e66eac",
@@ -1448,35 +1669,14 @@
       "headlineJa": "エボラ熱と RDC : l’OMS veut inverser la tendance en trois mois - lecourrier.vn"
     },
     {
-      "articleId": "gnews_e5315a642314c4d4",
-      "headline": "WHO aims to turn tide of Ebola outbreak in DR Congo within three months - سانا",
-      "headlineTranslated": "",
+      "articleId": "gnews_05062a950acb274f",
+      "headline": "Ebola : lutter contre le virus, la mission empêchée de la RDC - Radio France",
+      "headlineTranslated": "Ebola: fighting the virus, the DRC's mission prevented - Radio France",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T07:58:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1BVXpoYjhqV25pV1FIRVdUVFRQa1RNNDlzXzRmeXdOWGhCb0t0Nkp5b0Y5bWN5QUZiOXBidm1CVWxjMzJ0VUhRZ0Vn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "سانا",
-      "headlineJa": "WHO、コンゴ民主共和国でのエボラ出血熱流行の潮流を3カ月以内に変えることを目指す"
-    },
-    {
-      "articleId": "gnews_bb4d6372ca9baadb",
-      "headline": "Ebola Is Driving Up Maternal Deaths as Pregnant Women in Congo Avoid Hospitals - Bloomberg.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T07:51:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUVd1ODAzM2M3UFNpSHp1Z3VwVFhRdHZiMFVJazhwNUJGSmlVRWl5b0lLT1kyR1kwY2dVYVoxNmxpMTBMbHRxNGV2SDlmQWFOSG9GTVF2dkdrMlBJcWEzV0tXbVlOQ3pWYlUwLVR4N0wzR2F3ajRWVFJyZ2RKbmZkQU1rSmtqVUJRVlZBOGFRY0FQbXN2NG1oNjAwbzF3SndVMDROd1p3ZERrZndWb09MSnZIckhxNmdYMTVGZUJVM1FLbVpTYXc?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-08-13T05:33:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM2ZobFFuUEZaMVJOWEg1N2dWVUc3MXh3Mmo5S2ZJOTJkQW5odHc2Zmo3VzRMcjFmTm1FdGJscXF4LVlmR1lXRHlzMlJLZTJRUFowdHhJLXRnYWo3cnBvRlR2N3JaRm9oWkNXWXc0UVZ5QXZfYndSRGFlRmZrQnRCRy12VmF2c0ZfakVXUTEyTlIzY042LW1sRnhOQVFKWDBWMHBJaFNRWmZWS2NOT2Y2UkNMcC0ybEs1OFAyWUp3azh2ZDBUelAwcWdFT0RMZ0VIM2xvcF9iYzJHS210Tk1vY2NfR25ZYVJ2YjMyNA?oc=5",
+      "originalLanguage": "FRENCH",
       "diseases": [
         "Ebola"
       ],
@@ -1485,8 +1685,8 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Bloomberg.com",
-      "headlineJa": "コンゴの妊婦が病院を避け、エボラ出血熱で妊産婦死亡が増加 - Bloomberg.com"
+      "sourceName": "Radio France",
+      "headlineJa": "エボラ出血熱：ウイルスとの戦い、コンゴ民主共和国の使命は阻止 - ラジオ・フランス"
     },
     {
       "articleId": "gnews_486a828d10849992",
@@ -1511,7 +1711,7 @@
     {
       "articleId": "gnews_9f555fd1b120903d",
       "headline": "RD Congo. L'accélération de l'épidémie d'Ebola se poursuit : une sixième province du pays touchée - Le Dauphiné Libéré",
-      "headlineTranslated": "",
+      "headlineTranslated": "DR Congo. The acceleration of the Ebola epidemic continues: a sixth province of the country affected - Le Dauphiné Libéré",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-08-13T05:07:32+00:00",
@@ -1538,8 +1738,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ2lxZ3Ytdjhnb2RBelFWWVhCWmgwb3pVZDBDd3hpckdINzZoeUwyM0xQdERhaUlGWU5KdkdYUVBBaVRQZFRlWnVIcURzdEhVeVRzdUZVeUd4bnlTVzBKMUZSci1laHZTZFBiU21vcGZuNGpLU1RqSk1GVFlLRWgxZVhEcl93aGd2WklVX2FqUGxMRDQ2Wi04S2tkTE5vOU9xaEljQVFuUjQ0Qy1wUkhhNUVkaw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1548,27 +1748,6 @@
       "dataSource": "Google News",
       "sourceName": "Euronews.com",
       "headlineJa": "コンゴのエボラ出血熱流行、史上最悪の死者数を上回る勢いで推移、WHO事務局長が発言 - Euronews.com"
-    },
-    {
-      "articleId": "gnews_a9c4d2f9c57f3555",
-      "headline": "Ebola Bundibugyo virus disease outbreak: Democratic Republic of the Congo | Uganda Weekly External Situation Report 13, Data as of 09 August 2026 - ReliefWeb",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-13T01:15:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQTXQzb3JDQ0xOTWIyWXpQMVlJbWhCcll6VGtBVWN4UVV5aDh6QktQV0JWVGJiQWViYnVUbG1uWGlnTjAzbFN4THdQd2RubGxsbVBwR0c5clpLTHZhTGpSYlVabmhvdl91SmllZk5UaE5lR3FSU1g0NGg5SUk3RmtxWjhCUmIxd3VlZUpRbUZFU1RvSGxCWkxYZlZLV0xwLWx5c3hXdGtRWTQ5R2NCa2k0Z1RnLVFpdEhKNW96YTVra3JDWE9iVnI3eHUwWXBkZGktdUdnZnEwN04ydnluSGZKQWhjR0Z3NTlsU01ubnV0dWRldHlKdV9iZTNEYUY4MnhqM0lQNlY1bUdQVDVMMDAxQQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ReliefWeb",
-      "headlineJa": "エボラ出血熱ブンディブギョウイルス感染症の発生：コンゴ民主共和国 |ウガンダ週間対外情勢報告書 13、2026 年 8 月 9 日現在のデータ - ReliefWeb"
     },
     {
       "articleId": "gnews_6ae5758eda82a0a5",
@@ -1580,8 +1759,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDdnVDB4RC1kNkxXOGpzVkdhYzJ6RmpXNkJoZkl0eTR0UEpyVUw2RUdtX3U3NjVuRVRiRTV1c2tUazRyYllGdlFQY25jNThSTzlzallkY0VibUdYM01OcE5qNFdXR3NoR25Ra0hBUFZqTE5uSC1EOVVOTlFQWEVraUQyTmlHbGtIa3dhVmNVXzltN181bGk0NXNZd0lCc1VmREUwSmIzUG5yeVR4SVFJOE9YMmjSAcgBQVVfeXFMUHYwY2UzaG80US0yVUpycFIzektDVEhjU3JjdGg2MGVpeDg5blZnOVFGaUhJM3lKU1g1RFEzOVkzc25aREVIZWZlYjFoMDBVUDQxbEFMWS1JUVB4Mm0wY2EzUjVHeG1QRjJ0THlvTVFEYW9UMU5iSmVoTUZma1VVQlFqcktUVjVWQ09US282OHJCalpJb0J3NkE1OWJfblRSc2JJX1Z0T3dkUFhGVDE0dXl3Z1NmYkNxUFJIcFEycXRlaVgxd3pOdFo?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Ebola",
-        "Tuberculosis"
+        "Tuberculosis",
+        "Ebola"
       ],
       "locations": [],
       "states": [
@@ -1589,491 +1768,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "AL.com",
-      "headlineJa": "コンゴのエボラ出血熱流行、史上最悪の死者数を上回る勢いで推移、WHO事務局長が発言 - AL.com"
-    },
-    {
-      "articleId": "gnews_659396e0d67253bb",
-      "headline": "Congo families mourn as Ebola outbreak accelerates, in photos - Union-Bulletin",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T21:11:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbGotYUV0QzFCLVBzQk5kRVliZUdYb25qTXhaMUkzUERoMkwwTUFzQ2FYdGg4V05qYjUzRlJwMXpBdHF4eVotNThxRHRDQm9WNEwwcTlJRERkQnM0REgtRXNMNWFWRFBZNzZSclNZeEZRSFJBaDVGMks4MHY1QmdNT0NVVTRQNkl3TkQ5clBadldYckZaWUhfbVBQNy1CR3kxTDhjUVJiTGRxUUhxdG1pdTZxUXRQTmlpRXl1ckhxcGZpc3RKa1o1cEFLMng5WjlyQ2V0dVVZNFotdjN5X283UmdvSV9mUDNiT0Q0?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Union-Bulletin",
-      "headlineJa": "エボラ出血熱の流行が加速し、コンゴの家族が悲しむ写真 - Union-Bulletin"
-    },
-    {
-      "articleId": "gnews_a2cbfeb12eee33da",
-      "headline": "Congo families mourn as Ebola outbreak accelerates, in photos - apnews.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T21:11:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQk1ueEtwX1haTWdWbGRyWHdpZEVlcG9ORUM4anpIMFh2el92ZTJEa2hGTFRSdGlodTlKN0phUnRBb3d1ZVNIbkVCZWptWVJWaFk5clA1Z0JrY1ZlbHBlYnVCeldVTXhqZkZISkFEaVVQanAwa1pqUUhNeHBVMzI0TDBfM1ltMnp0X0d4bjRZYzNSdkN0Yml4dlFsNnVlUHhOMEZtb20yM2lfZzhqN01KUXE5c3I5Tmd3UEszNw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "apnews.com",
-      "headlineJa": "エボラ出血熱の流行が加速し、コンゴの家族が嘆く、写真で - apnews.com"
-    },
-    {
-      "articleId": "gnews_68584618a506a070",
-      "headline": "Congo’s Ebola outbreak is on track to surpass the deadliest one in history, WHO chief says - apnews.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T19:49:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeW0xX1RTYWRIeE94MURSaFhhN3VPeDBfY2Q1YXUtQkp2YXE5eVhPYTRuVmFISjhhQ2t1SFVGcUs0QjhMQmJLSjBDbjVmVEU5eDN4Z0g0Q1lCVkYyX3dfTzliQVBkLW5RWWYtYmQ1UHB4WmxPNDB6UmRpdHFPZVdKNVJIWmd2MmlvRmMxLWhEVHVmRnNfUWc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "apnews.com",
-      "headlineJa": "コンゴのエボラ出血熱流行は史上最悪の死者数を超える勢いであるとWHO事務局長が発言 - apnews.com"
-    },
-    {
-      "articleId": "gnews_6cd35716a95f0397",
-      "headline": "RDC : l’épidémie d’Ebola pourrait dépasser le bilan record de 2014-2016 - fr.africanews.com",
-      "headlineTranslated": "DRC: the Ebola epidemic could exceed the record toll of 2014-2016 - fr.africanews.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T18:45:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeHA3eURwZ3EzOGFRcE0xc3NINHN0UDd4V2c2VVZ0ZEQtMkRkTl9xOXZ0OV8wb3VpUkpUYkRLMnhodEFZZ284MDduenB5bEs5Q25aSXBPM0VYWkdwb0ZCWjhuUS1ScVdlSG9OM3RhRlhKbnN4bXljNExDcWJsNU9sakVsbzRGb01jdXlPTEpfUzIwYU1TQjB0SFpvb3UxZXNCa3VfTG12U2TSAa4BQVVfeXFMTVJWMnRYWWFhUk80bHlsenhzRnVVbVdtaXV5UThuMk1yWUNNM2xEdXBycHhaOV9IWk9GT3FxYk5EVHVhUG1fSzdCY2pJVUM5azlWc1VKX2VHbjBHMFRaNVpqZFBDS2hMcl9XQ2ttZjhwM3dMSFBmQ0w2NUl4eEZibklTc3l4UGxiUUlNY0t0ZndDOXo0cnJOWFU0cjRMMFhxVHEtR1c0VFI5QXAxampB?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "fr.africanews.com",
-      "headlineJa": "コンゴ民主共和国：エボラ熱の流行は2014年から2016年の記録的な死者数を超える可能性がある - fr.africanews.com"
-    },
-    {
-      "articleId": "gnews_c3ffa76826e1cf8d",
-      "headline": "DR Congo Ebola outbreak set to become deadliest on record, WHO warns - Al Jazeera",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T18:26:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcHg0cHJ2eFRkYlUwM09qbG9GVndtQjVPbTUzNWliUmdJUzdCbWZFRUlaNGZRSjg1akNXYzhYOXlnUlFidHNtOTlwQ2tyeTB0d2VndV9lQ1dxRzJLZWdmdndaTTBIeWxGVTRiSE9OSEYzdzYwTkVaY0hGZm0zdVFoNENfWEN6blU2TGZCU1Z2ZFRucHhmRW00VFZtTmwwd2FKUjh5S3VVa0tFcC1j0gGyAUFVX3lxTE9VZmNka3pfYUxIeU9DUHZUMV9lNlVIdWtmVHBMZGVtOEliaUVkQzIzUzRVTnpkSWxVVUhaRkc3U1ptTGFiQk1CckgwV2tOb2RMUjNYRklobGJPeFd2OExkU190MG1iWjNTeWhiSW5jdFYxTTVQMnVRQ2VKU2tXVVppS1hDTEQ3cjd4UEdLbDBNWHNUVUpmNGI2SmIxTWpSUEhlQnJfQ0dkQlZWN2hDemhyOVE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Al Jazeera",
-      "headlineJa": "コンゴ民主共和国のエボラ出血熱流行は史上最悪の死者数になる見通し、WHOが警告 - アルジャジーラ"
-    },
-    {
-      "articleId": "gnews_7dc9d0df8ca848f6",
-      "headline": "RDC : l’épidémie d’Ebola franchit le cap des 2 000 morts - lequotidien.lu",
-      "headlineTranslated": "DRC: the Ebola epidemic crosses the milestone of 2,000 deaths - lequotidien.lu",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T17:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZFY4NVdSbmdJQlN0ZEF0N3NzSS10clRoZ28ydlFIZGxVM2NZTTBwRU04M1d3SDhLRUd2SnFCTFJuQVV3NWUzNzkydWhETEw4clN3aEZWMFdLZWIzTjlaekN3STk4WHloR3JMMkMwQVo5RG9QeG1TNzRoTnBmNlh5YXFPcjdjY3pxV1E?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "lequotidien.lu",
-      "headlineJa": "コンゴ民主共和国：エボラ出血熱の流行で死者数2,000人の節目を超える - lequotidien.lu"
-    },
-    {
-      "articleId": "gnews_f16a413165d61b91",
-      "headline": "Ebola en RDC : le cap des 2000 morts franchi - France 24",
-      "headlineTranslated": "Ebola in the DRC: milestone of 2,000 deaths reached - France 24",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T17:03:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdDBjbjJza094Y2pwTkRORXVJZWx0LWtOR09Ib2xiUnBKelZscUdTSVVlQVdubmNNdlpOa1JremJKdlcyTkFUQ184VDlSWlM2TGVaRzNRaVNIMVVPS0JJSW9pNDZTaFJYd190U1hvc0dsX2E2blJGbmtyQURUY1BWWUZtUkxNcTBrbzFBc2pBbFc4YlFN?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "France 24",
-      "headlineJa": "コンゴ民主共和国におけるエボラ出血熱：死者数2,000人の節目に到達－フランス24"
-    },
-    {
-      "articleId": "gnews_05b9980790690b55",
-      "headline": "L'épidémie d'Ebola en RDC en passe de devenir la plus meurtrière de l'histoire - Yahoo Actualités",
-      "headlineTranslated": "DRC Ebola outbreak set to become deadliest in history - Yahoo News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T16:56:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQc2ZSX2cyV0RJNkRmY2hnQUxwdkhRZ0NLMXByU2k2VDA1WEFsTlNOdUxoNDB6RVdLZXVtcHVSOEhOWnl2VHQ1UmN0ZFJZZklyWW1IOXlTRTNudGhvalVfRXhUWFhhdlVTa25xMUI2UGRIQ0tadkFuZ2RqcXBxcjhEQzRjaTJQTGxGVURNd1hR?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo Actualités",
-      "headlineJa": "コンゴ民主共和国のエボラ出血熱流行、史上最悪の死者数に - Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_69451bd4fea76676",
-      "headline": "WHO says Congo’s Ebola outbreak is on track to surpass the deadliest one in history - ABC News - Breaking News, Latest News and Videos",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T16:25:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZWNXekFFMU9LN2pNeTlVZ0RGTXZlTnRCQndJLXc5ZjJEVkpFWHptM3hhV3UxUXhvQWxKMW1ncFJhMzJWS2N6WTNfMFQ1VXRIWFAxMHAzSzdXNlRDaTVzUFo3bmQtTC12S1g2V25fVEJOXzhHWFg1QTl5VDNYcnlSUWxxak05YnhZT05OcW1Pd3JvZDFpdmdNbUZmQWtJT3h1YXfSAacBQVVfeXFMTzh2OUdWSnBpRTU2RTI0WWpxTGpzcklmUDUxVkNoYkVwUUhEak02ZmtHR0dzUVNDbHZBM2Z4UUxjYXhIWUZydnJSMThCSDEyRV9kbDdNY2lFbHIzOUlRQ25oYnJyVE1FbHIyT1JFWGRmeGl2YWRwc3Vvdnl1cW54U2ZyeVhISDdyRGVEdE5NZjlFdnJzb3l1N2huUE9PVngyOWNxNlM4ZWs?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABC News - Breaking News, Latest News and Videos",
-      "headlineJa": "コンゴのエボラ出血熱流行は史上最悪の死者数を上回る勢いで推移しているとWHOが発表 - ABCニュース - 速報ニュース、最新ニュースと動画"
-    },
-    {
-      "articleId": "gnews_4e95d6800b65a641",
-      "headline": "OMS: L’épidémie d’Ebola en RDC en passe de dépasser celle de 2014-2016 en Afrique de l’Ouest - Anadolu Ajansı",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T16:06:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObTBhbjQ2dG9rcHBZVnlmWGVpTUh1QXVXVzZKdFdvb3R2NkV5Y1hPWVFmaGRjZm1mWmZvLXlfVjhLZkR2ZFZKbEVmeWIyYmppZDBrUTl6UGNvWE5QdzlIakRhZ3hRMkRrZXZmU0VpSzFNMkw4VHJEUmVLa0NpWEp3TDlRdWlqaHl4cEdXSVhsNzVUeUZfcm1CVzdmMVhQeVlOLUlUeVRCNGFPNGdxTG5SZ1AwWWl6MUh0WE5fOV9LTTlkeEduSi1tekw0c29TbVVTeE1qdlB1cWgwMVp2T0E?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı",
-      "headlineJa": "WHO：コンゴ民主共和国におけるエボラ出血熱の流行は、2014年から2016年の西アフリカの流行を上回る勢いで進行中 - アナドル・アジャンス"
-    },
-    {
-      "articleId": "gnews_dd50b99efa1442cd",
-      "headline": "Ebola en RDC : l’épidémie est en passe de devenir la plus importante jamais enregistrée - UN News",
-      "headlineTranslated": "Ebola in DRC: outbreak set to become largest on record - UN News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T15:19:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xUDdHQmZ2R1RDZGFvZnhnajNEU3pFb04zUlBZZlBzdVE0YUxTSDVHcTdYV1l2UkExWjFMMFRvNVlsUlY5UXlBTFNVbkRORnBKc0toR2pyTQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "UN News",
-      "headlineJa": "コンゴ民主共和国におけるエボラ出血熱：記録上最大規模の流行となる - 国連ニュース"
-    },
-    {
-      "articleId": "gnews_4140be983562e577",
-      "headline": "RDC: derrière la défiance face à Ebola, ce que les communautés disent de la riposte sanitaire - rfi.fr",
-      "headlineTranslated": "DRC: behind the distrust in the face of Ebola, what communities say about the health response - rfi.fr",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T14:06:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZTNQMnVYNVEtc21URVFzTDNuYzBWOGxHcGNsVEppemlPVlVSeTNCOFkwSDV3LTVHTmF0Y0FRYnc0RU5JeldqSkV2WVdPV1QxTU5QMl9VeW12TGM4QjJnNnowX0Q1c2kzbTFoZXN1OEdvbm45VVNiVWFyazgxTFFpOVRJM1Nrd0dnS3JxeTJrcjVJZFl4aHh2V0NXbzZXQkZ3VVVYTk9HX3FJZkFoVG0zdVM0SDhiZTBTWTk1cmx5UzZsRXdMNmJMOG9fbERGTUU1YmxKUnBQTWN6NUVadUloekVCU3U?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "rfi.fr",
-      "headlineJa": "コンゴ民主共和国：エボラ出血熱に対する不信感の裏にある、健康への対応について地域社会は何と言っているか - rfi.fr"
-    },
-    {
-      "articleId": "gnews_da576046718cb74d",
-      "headline": "Alors que le choléra se propage au-delà des frontières, Gilles Fagninou, Directeur régional de l’UNICEF pour l’Afrique de l’Ouest et du Centre, appelle à une action urgente pour protéger des millions d’enfants - unicef.org",
-      "headlineTranslated": "As cholera spreads across borders, Gilles Fagninou, UNICEF Regional Director for West and Central Africa, calls for urgent action to protect millions of children - unicef.org",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T13:59:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0ZfdnJaYjNyeXQ5WUdVQmxEeVdSZVRUd25Gd2pCU2o2RFdsVkp6Qi15cnFsZzVndExEQ21HY2VhVTc5ejlENU9nOS1ldVlWaWY2b0RqNmVEU2VSQllMX0RiSnBpSGN1RmxiaUMxNW13R1pEZFNiSXpWTEpwdHFDTWJoZTdZcTB6bE4zMWZEMWlzbWs1WmNxSm83bGhEbVAz?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Cholera"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "unicef.org",
-      "headlineJa": "コレラが国境を越えて蔓延するなか、ユニセフ西・中央アフリカ地域局長ジル・ファニヌー氏は、数百万人の子どもたちを守るための緊急行動を呼びかける - unicef.org"
-    },
-    {
-      "articleId": "gnews_a7c32241dbdc65a5",
-      "headline": "RDC : à Bunia, Ebola frappe aussi l’économie locale - fr.africanews.com",
-      "headlineTranslated": "DRC: in Bunia, Ebola also hits the local economy - fr.africanews.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T13:17:51+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTkRQRnc2MlBNejZZWm1hOTNEMy1tZXBXVzhnOVlwcVZVNG5jXzBFemhuSmRDczdOdm5VdG16VDFiYlljNlBKQTlyWUlmSWNMOTcxVTVnR1FBVHkxTEp2UDRPVDhHZXI4SWxSRV9yVFgzMnVJNGdtQ2dZY1dkVFZGcG5YbV9iUWdwREpNT3BrQUY0b2fSAZMBQVVfeXFMTk5EUEZ3NjJQTXo2WVptYTkzRDMtbWVwV1c4ZzlZcHFWVTRuY18wRXpobkpkQ3M3TnZuVXRtelQxYmJZYzZQSkE5cllJZkljTDk3MVU1Z0dRQVR5MUxKdlA0T1Q4R2VyOElsUkVfclRYMzJ1STRnbUNnWWNXZFRWRnBuWG1fYlFncERKTU9wa0FGNG9n?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Ituri"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "fr.africanews.com",
-      "headlineJa": "コンゴ民主共和国：ブニアでもエボラ出血熱が地元経済に打撃 - fr.africanews.com"
-    },
-    {
-      "articleId": "gnews_1584062ffa53c1fc",
-      "headline": "Kinshasa prête à faire face à d'éventuels cas d'Ebola - dw.com",
-      "headlineTranslated": "Kinshasa ready to face possible Ebola cases - dw.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T11:35:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QQUxFRC1rYjY3M1VUbHFWblJWSlVsOEtYQmlzUktQZmhSYzlKdGNhbkMydHZfZ3JGdDZudFB2YWVPWFppeDZ3ck91RG9ZX2Q3aWc4OWlnaUFSUlh5M1pYSkUtc2JicXBEM1BPUEtla2tGVkxkME1v0gF3QVVfeXFMUGFYYWg5SFJsM1F1eHEyVTMwaFUxYUY4eTRDNTFJSUdnRDNub043U0VLWUIxaUx1M3laWXoxdGlDdllMME1CLUF3eEttaWlCTU13LUYyczlTNGNHd1gzMUVaaFFwS2NzVVpuZmsxOUUzeF9wT0IyUDg?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Kinshasa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "dw.com",
-      "headlineJa": "キンシャサ、エボラ出血熱感染の可能性に直面する準備ができている - dw.com"
-    },
-    {
-      "articleId": "gnews_1a2ccc73becd7af3",
-      "headline": "Ebola : 2 061 morts depuis le début de l’épidémie en République démocratique du Congo - سانا",
-      "headlineTranslated": "Ebola: 2,061 deaths since the start of the epidemic in the Democratic Republic of Congo - سانا",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T11:05:32+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aZTJRR0Zid1dtTnhKR3pVQUM5VUdLRVhXZDdZNlNLQlRDM1RieWpMVmlpWllPeFhpNV9GM2liQmpKRVJtSWZkcmI2S0VCdXY5cmpv?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "سانا",
-      "headlineJa": "エボラ出血熱：コンゴ民主共和国での流行開始以来、2,061人が死亡 - ニュース"
-    },
-    {
-      "articleId": "gnews_f2cb1a0a42f20c45",
-      "headline": "Sud-Kivu : fin de l’épidémie d’Ebola après plus de 42 jours sans nouveau cas confirmé - Actualite.cd",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T10:51:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVHFQd2dDYm5FeUtjUENaVWhQcUhadXowdHZIeGV6a2hUaWhZRWdlcjVXM253aW5fWmtIY2xISDM2bXhQZWVZdC1vTkh6U2x2U0FYMWtBbjBHVmlJbmhfLW93eUVCQU9heEVVUnY4V0llVnNTM1BEbTVxZUxkUmpBWXBMOTMtU0djYWJKSWpGaEJ3eVl2NGZ5RWlqNGJfWk1uVmQtaHkydC1LSHdOWmJEVHNVTQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Sud-Kivu"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Actualite.cd",
-      "headlineJa": "南キブ：42日以上新たな感染者が出ずエボラ流行終息 - Actualite.cd"
-    },
-    {
-      "articleId": "gnews_8b308747379a3217",
-      "headline": "RD CONGO: Ebola-banakisɛ bɛ ka taa ɲɛ halisa RDC jamana kɔrɔnyanfan na - rfi.fr",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T10:18:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZU9PcXF4Q1JYYXpLN3h4bnVDVVFXY194c2RrRExJbWtWUzhsUmxWSjZIV3R5dU9Ucnd4akJ1M0I5WmxidHM4NzZyOHp0cmNjYWhBWTZEa2JFMzJNY28xYWpXLXprLXpseUhZcnhRei1lbXRzX05FbHFDa3B6bjJRX2xudnVtSHRyaGNjeTlydm93LVR2eDY3LVdoOXBoREZXeXczSFZnRGt1SURLNldBZGMxckdKMk1GN1pFMDk5akVkSk95Sk4wVGg4OGhWdXgwVFdzRUlRUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "rfi.fr"
-    },
-    {
-      "articleId": "gnews_cd6e2b96a5b603a6",
-      "headline": "Congo-Kinshasa: L'épidémie d'Ebola franchit le cap des 2000 morts - allAfrica.fr",
-      "headlineTranslated": "Congo-Kinshasa: The Ebola epidemic crosses the milestone of 2,000 deaths - allAfrica.fr",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T09:17:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4ycFRqRGcwVUtVbHB5TnBHdGd4TmNsaEN2S1pmTnhTV1VpaXdwYlVMOG9KNFVhMXBPeUlLRzR4WmZvTU1UTGpQOERUSzViNVp1YzktMFJISTBOX2tZNHd3?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Kinshasa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "allAfrica.fr",
-      "headlineJa": "コンゴ・キンシャサ：エボラ出血熱の流行で死者数2,000人の節目を超える - allAfrica.fr"
-    },
-    {
-      "articleId": "gnews_fff3bcd8f4753f24",
-      "headline": "Ebola : 2 061 morts depuis le début de l’épidémie en République démocratique du Congo (RDC) - Anadolu Ajansı",
-      "headlineTranslated": "Ebola: 2,061 deaths since the start of the epidemic in the Democratic Republic of Congo (DRC) - Anadolu Ajansı",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T09:03:20+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeF9OMmJLQmM1b092T01jZ3N1UVkyRGhlY2xfTDl3S0g2SmxxUlZKZ21jSDA5c0hfRXZlOFVLM09icGhpMnM3aE5hbnJNUW9GODlIVHZ5akNjOFFvY21MdlBSQ3lnTGhEV3VVNkJkQ2JCelNYR0tQX1BFSVBBZGZsVTdGSTY0OEZHQ0t5T0JfUkhLajZJNzRyRkpueURySW1JaWhfVUowWGxZSVRMcmZyQU1lTjNnTHZKTEh5ajVSMnU5cjdQY2tKQ1pzSGUxVFduRkVnLVdpMlBtSTEwN3k1S0hwYzZxd0h3?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı",
-      "headlineJa": "エボラ出血熱：コンゴ民主共和国（DRC）での流行開始以来2,061人が死亡 - アナドル・アジャンス"
-    },
-    {
-      "articleId": "gnews_6e51b158a3fa8aaf",
-      "headline": "Congo-Kinshasa: L'épidémie d'Ebola fait plus de 2 000 morts au pays - allAfrica.fr",
-      "headlineTranslated": "Congo-Kinshasa: The Ebola epidemic kills more than 2,000 people in the country - allAfrica.fr",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T08:42:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PWkpQX2cxaEZDeWtYeE9HYi1zRFpKTGRsMzVwQ0t0Y0RWZGpXS28yVndiQ3BkemFNU3VNYzBraFVJVEZZQ1EzN2xiX25OYktlREhxUko0d3ZTOFBFT1E0?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Kinshasa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "allAfrica.fr",
-      "headlineJa": "コンゴ・キンシャサ：エボラ出血熱の流行により国内で2,000人以上が死亡 - allAfrica.fr"
-    },
-    {
-      "articleId": "gnews_49e0744f3a97253e",
-      "headline": "Assurance Maladie Obligatoire : le FSS et les syndicats avancent vers un protocole d'accord à Kinshasa - Congoquotidien.com",
-      "headlineTranslated": "Compulsory Health Insurance: the FSS and the unions are moving towards a memorandum of understanding in Kinshasa - Congoquotidien.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T08:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVWFpbS02Z3hBblVvM3VtTW43cjZPNmJGZHk1TmQtRW04ODVvUTRfWWFxNzUwRER0dWFuSk5aQjF3cVVvUWtKQkhvZnJmcTF4dnFTWjZaMEJlR05aRFpnc3hPVFZSMFJlbzhkUzlXU0V3MEtJTERZODdwc0k3Nk5FVy1FaUMyNkNOeGZmdlVoRE5IZw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Kinshasa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Congoquotidien.com",
-      "headlineJa": "強制健康保険：FSSと労働組合はキンシャサでの覚書締結に向けて動いている -Congoquotidien.com"
-    },
-    {
-      "articleId": "gnews_b9ea6daea01a1845",
-      "headline": "Ebola Outbreak: Current Situation - Centers for Disease Control and Prevention | CDC (.gov)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Xb2M3MTlzZjZoNFc5QlFXTkhpcDIxTFBQc050QnBtQkQwczJnM2daRUZGQzFfcl80RmZGYy1qLXRXeUF0Y1hmejlfemVQVk5uNldZclZscUpiQ1hSX1FsdXB1MG4?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Centers for Disease Control and Prevention | CDC (.gov)"
-    },
-    {
-      "articleId": "gnews_89f140f09c202f34",
-      "headline": "Information for Travelers Returning from Ebola-Affected Areas - Centers for Disease Control and Prevention | CDC (.gov)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-12T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iWWh1cnAzdVpkcUh0OXI5eTlmMnZRMHJrdnY2WnNMVDZwX1d3enJoMkQxTDdnbXQ4Qm03MXQtaXd0TDFWbzgxZWVfUWE4RUhESE5wWW1PUXFRWDJlV2ZVb1pHc3BnX3pINTNiNVdRUUdCX0JabXdR?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Centers for Disease Control and Prevention | CDC (.gov)",
-      "headlineJa": "エボラ流行地域から帰国した旅行者向けの情報 - アメリカ疾病予防管理センター | CDC (.gov)"
+      "headlineJa": "コンゴのエボラ出血熱流行、史上最悪の死者数を超える勢い、WHO事務局長発言 - AL.com"
     }
   ]
 }
