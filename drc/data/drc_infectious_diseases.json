@@ -1,25 +1,954 @@
 {
-  "generated_at": "2026-08-23T21:40:47.929568+00:00",
+  "generated_at": "2026-08-24T21:46:51.415340+00:00",
   "date_range": {
-    "start": "2026-08-20T21:40:47.929568+00:00",
-    "end": "2026-08-23T21:40:47.929568+00:00"
+    "start": "2026-08-21T21:46:51.415340+00:00",
+    "end": "2026-08-24T21:46:51.415340+00:00"
   },
-  "total_articles": 90,
+  "total_articles": 70,
   "state_summary": {
-    "RDC (province non identifiée)": 84,
-    "Kwango": 1,
-    "Kinshasa": 3,
-    "Nord-Kivu": 1,
-    "Ituri": 1
+    "RDC (province non identifiée)": 62,
+    "Nord-Kivu": 2,
+    "Kinshasa": 5,
+    "Kwango": 1
   },
   "disease_summary": {
-    "Ebola": 88,
-    "Tuberculosis": 35,
-    "Cholera": 1,
-    "Polio": 1,
-    "Measles": 1
+    "Ebola": 66,
+    "Tuberculosis": 21,
+    "COVID-19": 1,
+    "Cholera": 4,
+    "Infectious disease (unspecified)": 2,
+    "Measles": 1,
+    "Polio": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_876411ddbb5e3790",
+      "headline": "Ebola: l'OMS appelle la RDC à prendre des mesures sur les rassemblements et les déplacements - Le Journal de Montréal",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T21:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVDBRdUpORS1GbnY5d0t1NlJHb3ZKaURlR3EzSFR4anktcjBpWTRVaHNCaFFTdk5nY3hmOHMzN3Z5Z05jQklfMkxhZ2VCTGstTnZZY3hwZ2t0MmRGV2l4MDMtYVd6bm91YjFKWVpiYzVadEtoM3kxQklWUzhLdnFOTzFRdFJUNEtVVnZCQldvYzZZRFVtWVBTY2tqWW1xenNfQmVBUzRZQkQxREJIRVZHblAyNEVNaGRORVViRzNlaFhqOWpHMDVLbXdMWDJhWkYx?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Le Journal de Montréal"
+    },
+    {
+      "articleId": "gnews_f87b311c623c4785",
+      "headline": "Journal de l'Afrique - Ebola en RDC : la riposte sur le fleuve Congo - France 24",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T20:46:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWmliQjdxSmZPcVIzdnd2TTZFVWRWYXhCRUJ0TzFFcF9ld21rcV9DeWxNZlhGTnVSOVpBMW9Kc2dZU1RIeWdBVmxsa2h0aVplZGtiQ0JEa2RUNjRMMUZkU0dERmhhaE5yaTRrVEFwQ0tiTmkxSkpqWDFYbzYxTm41UHZJX042M042UnZNMm1Hc0xEb1ZQcXRId1hDdUJxR09sTWRuYzZEQS0yUFB0WHQ0LWljaTRmMkk?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "France 24"
+    },
+    {
+      "articleId": "gnews_8066981202a3a93e",
+      "headline": "Ebola en RDC : la riposte sur le fleuve Congo - Boursorama",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T20:46:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON0Y5ZVhJQ3hPUENvMFhfZWFIcGdCcnpsaDRHTHlZRzBraHZIY1hQdWtmZ1BrcG84MDlrc0pmZUdLY0FkMUcyYy1jcHBGZlhGNE5jTFl2TVlIM0JxaGw2b2JFOEM1N1gxdElWQkdjSDl1cVJGeW9PbE53Vnc1QUd3TG5seEplUEVUSnJQWTF6Y3ItWnpmSmJiOE5KYnhqWGY5SkFmVE4wRUgwaDhoTEJXWGJOdEtvRExDSDktRmZ30gHDAUFVX3lxTFAxSWZuMHZKckZ0NzdZSlBlRUZyTFM0Ny1nRDJPSHVYckFrYjVsV09OalAya2hVRDhmeGlRTjdXdm9KZjhTdnExQk1CUnNyVWlzM0JqbElMVWZmLWZNekpTcnRuRXdhclFoMmM0TkJNY1E5c0VjeGJaQXhpQmJRbmJhM0ROc0xoSXgta3RzZmk0T2VFVEZPNTh2QkZwSW9uRFRYTlA3bVRxN2lJeVAyQlE4SldfRVU0bFdacTh6Y2FGbHROaw?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Boursorama"
+    },
+    {
+      "articleId": "gnews_b5b14f304e748322",
+      "headline": "As DR Congo Ebola outbreak tops 5,500 cases, calls for more resources intensify - CIDRAP",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T20:38:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZUpxMFFUeEwxaUNQZlV1SGxXMG0ybDRvNlFQNlRTMmZfYUl1ZDU3S3VJelpYZC1DbVgzQzhuNG1RaExkTlMwZ2pyWUhWQVp2T0JfSzRtWmlpano0VDltNWdaLUs0MGwzSHNQdnNyQ2lGdTFzNkJGN2hUS0l5Q3N3aGJfMmZBNVdwS2NLX29TUHQ5eEJzYWswbG5GNHdGd0ZDdmhHT0ln?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CIDRAP"
+    },
+    {
+      "articleId": "gnews_130276fee1fcb506",
+      "headline": "Ebola Crisis in DR Congo “eerily” Evokes COVID Pandemic Memories: Irish Catholic Agency - ACI Africa",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T20:20:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjFBVUtMNl9XTHVPS3VwelJzb0kxbWJSME5VTXFSZGIwVXNKbWNZOG53N0I3SG9oWlN1MUpaZWd3V2d4V3RJdC1WWXdlMi1PNWxnY3NPRHdqUkViWWFUd21NeUZKaUNlVi1UNnY2OE5XS0dveVdMV2lYUm16TW5vUDk0N1ZYZjFzN2lKUUlLV3pQN2szWHVoNHVxV3U1TkpCRzltUGRXeDJjTnJpZTVxby1VVEdkdFZrdGwtQmdR0gHDAUFVX3lxTFBsSzRLZVJUcGc5NURhbU1mdmR4RTRqUXkwbWtxNVZZUS1PZHE2bkt1Vmh3Q0VxeEZjaVNyNVBCVTBNTC11aWFQa2tCSDYxZHVmM1p2YVpfV01NdFJJNGVHbE1VQ3NyUGEzMTkta3RWb2VVODI3TmFTMDJEWC1keXRXaEtrQ3lPQzNrcUdTdm1YVFhlVVEzMXFCSmZZRzNrMkFXQmJ0QWJtb2lMVlRLOWFsZGdlUUtiT3FUYllkbHBjV2FPRQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "COVID-19",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ACI Africa"
+    },
+    {
+      "articleId": "gnews_ba80a85633b2baac",
+      "headline": "Ebola: l'OMS appelle la RDC à prendre des mesures - 7sur7.be",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T19:56:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd0JwTzB0cU1VMjBsN2tJWDVJY2hnSjBKSTJkTl93cWZRWFk2MEhvdTgxOU9yMUw4MGdidDR2MzU0aHNrNFFrQVQ3aEs2M2dCaFNYbVBzbnBaMVRHMEhZNnBwdlE1eFd1VHRPY05uVTY1OElfVUpPUmFoT3Q3aVpuRmlRNnpXa1poUnNKcmpB?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "7sur7.be"
+    },
+    {
+      "articleId": "gnews_e23707b5e11f865f",
+      "headline": "Focus RDC : fonds Ebola et réalités du terrain - DW.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T18:47:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLXNmQXExcWJkQU9vbGtyY1ltUl9RNFZacll4Skt4VmNMU2IxMmg1eUZJbFY0d3RVaEU2RjlrakIybkQ2ZW8yRTRZOFNaZlE3OG1QUUlDczF3dWR4TUgwak0zSmJwVElGR20tWlBlSUxzMFhfb0lNTXFDcFJtYVJESlNQYm1rRWRlZkNvNVJpM0xuaFg1RXFCclJEMlk4RVNSRDctQUR3T1dicHdu0gGsAUFVX3lxTE81bHY2NmpjUmNaVm5Tc1lRZm9XZ1Z4U2xqTFpLdDRZRVhuWVJHVVhFSHFGaU9relVHY2pZTURjVF9MZFVEeFlfV3ZZbk0xZmpKRTNNUUhIc0dBTkk5TWljNkNfclRvSWRGTkVLMEotc0YtNkc1WDVIN0Y4WmpoeVRMWW1Gb2p3SG41OGVVWlRaejZmeEJwMjNBWEpvNFlLZlZxb2g0RGx2Q3lkOHA?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "DW.com"
+    },
+    {
+      "articleId": "gnews_6a2294f23e364884",
+      "headline": "Ebola disease outbreak in the Democratic Republic of the Congo and Uganda - European Centre for Disease Prevention and Control (ECDC)",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T18:10:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcjUwMFo1WUtEN0t1RFpuaUh5N0c5UGFOSW1oVGZZbDZFLXYzbUI2MFJmdS0wM294ZDliYXo5dEU1Nk9rOHpOMlJITWpBQmRRV2pJczFTSVg2SmRyNU8tTVZrMGlhcFZuTXhpNW82ZHlzVjZ6SGlCRFpVNmdkdnotUU83dDU0S0pq?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "European Centre for Disease Prevention and Control (ECDC)"
+    },
+    {
+      "articleId": "gnews_7d605283154bbb9d",
+      "headline": "Second meeting of the IHR Emergency Committee on the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo – Temporary recommendations - World Health Organization (WHO)",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T17:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOWmI1ZHpDZGc0cHduWDQzM2hWVE5CVVVyOXFmdmg4WGYwdHZXX0NoOWxPOW9WRVQ3ZzBaZ3pDWUh3czJjeDNtZ2szVDhuN0tjSWlYc3JDb0M2M255N0MwcDJqdHRvTkZtYkN5Y0R1Y0FiMTUweG9JV05RMTFOZGxsa1lXQnlOejBLU2dxWkZrQm05dlBBY1RkZmZhbXVNWGx4XzRTc3JScjYyUURwWUZheDJyT0NzUzdSaEFBZ3J5TEtVZy1yUUVTTmpocmg4NS03YnUtSU5tTFlpcmhfNWMtUURzS0JzaC1MMGdKMWN5Y0FkS0JOMXFNVjRYNUw2WWpSQWZreEhLYWpfZ0xMUmFESjh6Ykg3cU9hcGZzUnJ3OW5uam9oZHlKVGd3?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "World Health Organization (WHO)"
+    },
+    {
+      "articleId": "gnews_9481e290a2e8df2b",
+      "headline": "Nearly one in two Ebola patients dying in DR Congo outbreak - Al Jazeera",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T17:01:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMkx2Q3BjNXNGajJjM2lydHl3dnp4bHpvWFVlMENQdHktYXp0TDBaNXBraF9NZmVGZGdtZnVvOWFJNkxUNExfODIxbk9kVU03aWM2UTlRa2VBdzhWYnJKSzdDSy1YRjZVOGdheEo4Y005X2FocTRMcEtQaHFTYVBsMWY4TTVnRTU1bXp5a0RmWS1TRHo4SUQtZFJpLXNuVG80UkZ4M042LTdjRldidmFF0gG0AUFVX3lxTE1JcHVwMU9fTmRBSmxrU0FJY21na0hSVWZ2b3NpQTZPcUgydVJ0T2NXM0FXTklpUzlYSk5RNi1WeHR6bmZaZEJrZ3o3dldUdWhnR0hHdGZJUG5XTU53Vmt5TWhVdF9zR2xGT2ZJaXpBZHIwMFZiTWwxSnQwR3dyMk9CYnJWRVNObUhQemFTaXBWdVZjSkc3bnl6ODl5cWFsYVBrMVlSOVhlU21wV282bS1WMC1qVw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Al Jazeera"
+    },
+    {
+      "articleId": "gnews_11e4aeb92c01b81f",
+      "headline": "100 jours d’Ebola Bundibugyo en RDC : la course pour enrayer la transmission - UN News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T16:36:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtMi1mNVhaTFNQTW5TZjBHN2dTUFpIeE5wd1dLSE5sZU9iN1NrYXpvSmpaektoNWZEZTJJSEZtSTFfMk9zN2ZLV0t5V3VBZHNRTV8wS2NQOA?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "UN News"
+    },
+    {
+      "articleId": "gnews_7af80a3375778e63",
+      "headline": "Violence Against Ebola Responders Mounts In DRC As Red Cross Condemns Attacks - Health Policy Watch",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T16:14:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWGkzSnZ5c3k1Q042SmxEVnJnWVM3RHlJRDU0Z3dOYkgxRmNYRklrTmhRa2ZObXJJV0FSQXBjWF9YUXJkdmM4eGREdDl0QXRKeVlvekt5ZUpMaUtIaTNrYVFuYlduemZHWmVoYkpNRDZzQ1pNajRydlNHZGF3cVZDN0J2T2c1emxGbm1BV2RESnRjWnd6UHlRZm5YY1ZzeVRCMDhIMVhKRWdqSHJ6V0Y1cUROXzY?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Health Policy Watch"
+    },
+    {
+      "articleId": "gnews_9b270b34066d2963",
+      "headline": "Ebola outbreak still not under control in DR Congo - Evangelical Focus",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T16:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVXFtcmM4RWxRM1hhV1hWUVRKNlZ3eFlsc25kRl9oeEstZmlrZlEzOVZPbDc2djN2YVMzX0xaQnlMNUhBZ3pYTlNrcmFROXJmbjV5UGh1OVVnTGhVVGV1QTdia3RQbUp1SHRUc0Y0V3h1MWJBM3AyODF5QUdiODhwTGdXVjEzbjVZcTNaZkZkTEFTZ1NoUkluT2pUN3JNQzFZSGNLWFpJclB1S3docWlucE1uY2RTM2ZqeGc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Evangelical Focus"
+    },
+    {
+      "articleId": "gnews_33433ddb26fdfe0c",
+      "headline": "RD Congo : 100 jours après, l'épidémie d'Ebola reste difficile à contenir - France 24",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T15:33:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLUI3TmVqMlFIdmpVXzM5VFhtc19ERnloVEluclJJQW8wZ212UlhvYzdpVDJ1aUhfWnlxNEUxcTZDWUpad0wzLXpKY2MzZEw4ZUZ6QnF3ZXVmaG5uUGhtdXBZLXJfTWNVUWh3ejNrRldmXzJlZmJHTWI3QlVzbUdMVEtObk9HbVhJT3RUZ256SGs1OVVEWGx0cDRhb3JuSWRYY3FUWnpOb2ZFR1VsZmRpTWt3UG9jN0xxeFFDQklqY08xLVlvcGRzWXpkLWd3WE1QbGdyQg?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "France 24"
+    },
+    {
+      "articleId": "gnews_03c85868238f2e61",
+      "headline": "RDC : le choléra reste une urgence sanitaire majeure pendant la riposte à Ebola - Benin Web TV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T15:32:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTzZoSkhFcndHamN6MldIb2VMZ1ZoU2JoWU5vNWNVNzVKOGsyQ1gwSmlZR0pYZjk2MktxalZ0NWJRdkpBWi1WVndIWlZUcDIzdDVtQ1k1cVFnRG9ucE5FN2piazdCclVtSU9ocG9OcFBsOC1fNGNSSzB5YkpPZ1FOdldwcWtDaUxoV0VVMzNHSklXMDAwWE9fMHZvbmVxeU92cWc?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola",
+        "Cholera"
+      ],
+      "locations": [],
+      "states": [
+        "Nord-Kivu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Benin Web TV"
+    },
+    {
+      "articleId": "gnews_9b39b00f237982a0",
+      "headline": "Ebola : les attaques contre les humanitaires se multiplient en RDC et font six blessés de la Croix-Rouge en une semaine - L'Humanité",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T15:29:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeDkxUGVkLUZCakhNNkhkUVZEbVJGMjdabGhlcXA4Uks3OVRKbWZNQW9yWjZkX0FaVzlQNlhmTkVZaG80M2NxM21DNnBrMUVYSklMdUlIeUpvWW9Kdk9VUEdYajlfMWVlUHBBdDNrXzZtSEphSldMUkt1X21FUzN0Mk0yOVR3dG1uMndfcWRaTzNBWlVrTmJMY3lPNmJhaS1sTHM1bWF6eDFoRXNfc01SMWZieERCaFRwbm94ZTRBR3lYQkQ5QWlXcTNRbDVJQ2JDVHB5NmlGR3M2NnRwbUhHMGhIazdhYW5RWWdPSlJwcnc?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "L'Humanité"
+    },
+    {
+      "articleId": "gnews_68abebf88d2a12d9",
+      "headline": "Ebola en RD Congo : quel bilan 100 jours après le début de l’épidémie ? - tv5monde",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T14:35:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSElQdDJwTWpQZFZvQWNDWmxYckhlQ2QxeXJJQzZnTm5LRDl1UGFjcGJ5N3h6ZmtfTWNOX3piZGh2MHhkUlgtY2ZEUWZhY2dRblNWM3pDWUVoUWwtcGhZNWpmOGk2WFNZdm9WS21lYUpCa0x5czNPOHV6ejRtRzFValNPOGhGUUFaaXlfeDhrb21NM0N0YzlMQkx1TDR6SU5TbkpxdkpqM1dkS0M0LTJaVWc1RUZPZw?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "tv5monde"
+    },
+    {
+      "articleId": "gnews_5e68f409e912c3b6",
+      "headline": "Red Cross societies condemn attacks on volunteers in DR Congo amid Ebola response - Anadolu Ajansı",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T14:14:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN285QjNjZ3VfOFlHWjFfd2poX2lhaEtmR2RsY0FoQVRVamYxSHpTQ19uUTVKcHk1eF85NGdlZmthWUZiMXl2ZG1hZHZDTjU0c09zbmNaQ0Zpa19tbl9SalhSU0dWOTRPaHgxamo1NXdXdjRmbDBHLUpScmxORUpSSE1Nc2NGX1ZMdXVFX25DOFlwcEQxcVkxa012WUs1QWRXdjMwNkFjM1cxN0hVRGZybWN1TjVfVTZCMlVWR2N3?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Anadolu Ajansı"
+    },
+    {
+      "articleId": "gnews_880814f73d7bef0b",
+      "headline": "RDC: dans l’ombre d’Ebola, la flambée des cas de choléra inquiète l'OMS - Yahoo Actualités",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:55:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PZEpYSHNHU2xUVGprSFdBd0lBcWpfQkwxdElsQ0tNck96RmNLTU5QbmRrWVVXcmZYRmY1UTdyVlROSlk3X0tJUUpzc0VsVFVpQ3dPbFlldVM5Z0w0bEYzS01Id19LOGxaY1BSTw?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola",
+        "Cholera"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo Actualités"
+    },
+    {
+      "articleId": "gnews_23cded5e743a8ea0",
+      "headline": "RDC: dans l’ombre d’Ebola, la flambée des cas de choléra inquiète l'OMS - RFI",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:55:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdmdMUmJHZlB0VkdRbWpxY3JucDlPelA4RklyV3N1M0VGLTNJcWpnRmlzOFRORmJhYmhPV3RHZnhTUThWaG1iYm1KbDhNR3hNeGdjcFJBQjVrSVVPODdXN0tTLVB5WnlERDBUQmd0UlRWWVg2Z1pRWEtpRDZkSFJlaWc1V1NlY2dZUE1yQ0VubXhoa3dhcm1JVHYzdjBCN2hMVkhFTTlGQ2VuNEpPamtFdXhLVktmZFRfbDBYMXI3a0w?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola",
+        "Cholera"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RFI"
+    },
+    {
+      "articleId": "gnews_421d71243036b3b1",
+      "headline": "Congo's Ebola outbreak records one of its highest weekly death tolls yet - ABC News - Breaking News, Latest News and Videos",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:38:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdU9pVTYteGV1dndjVEJqUEh3cUdtNGhsZllrVEoySkV6WUtXOTdrSzZjZEo2a3hiQVJTUHhjLXhWOU10N2JoREdpRV9TcTh5RWdKcmYtb1h1QXJqdDFJWkQ4ejNEZG1wMHpQMUVqTS1tUUY2NHhkbmppWlhVakk5MkFYVnhzQTNFa0JueDBwNnF0aXlEXzJaSWRwUUJwcjFVZlJqZ0ZkakRhVlhIY1RR0gG0AUFVX3lxTE9CdmdhbVhpb01wdnZlWndSWW04ZV96RTdZY0taTU83RXFyR2RWT2N3bkQtckhMSHdMcGowaEk2VFVDM0QtQ19tNFAzS1p6OHNnVUNqM29PWlBsOE1GQ2ExQTRNYWRwaHphQlQ5RkF2Qm5wdnZtYVBjdllHM2RLSmxYZVdKWVh1RTVFZ2VEVk9ybjNkamplOENBZnUyby1SSmYyWGFEZDBVLWU3VldQeDY2UjgyTA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "articleId": "gnews_3f3d9eb460054777",
+      "headline": "Ebola : six membres de la Croix-Rouge blessés la semaine dernière dans des attaques en République démocratique du Congo - Le Monde.fr",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:24:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQcGR1dnFBME5QeFdLcUtzOVp0N3kycTlwZi1mTUc5WE9PNEhQUk9FNzFKOG9xS0tBQzIxT3hjLUljQno5Y3U5bW9pdjhlemlvdVl6aE1GeDVaYlV1VktEbmU3eFM1S1BTaTFMelFzSVFPOXlVbTdVb3d6VDgtLTh4VlluLWxOTnVFRGZGR3ZQRHVxd0Jjek1YX3JScjdBSHZLR3U0VWpDcW9iZG12TU4yVEhBdFNVRHFCSWF2MURKU1lKRUFsUUluZmF5YVNKbjA1eWxfUmIyalpLeUxsUGtIY1NpSFlNejZXQ20zWmE4UEh1ZTZvWDNneXZCdWpDMEV3RXhLZ29WYWt1MGJjdHZTaTUwbw?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Le Monde.fr"
+    },
+    {
+      "articleId": "gnews_bd5178522bb12a03",
+      "headline": "RDC : les attaques contre les soignants compliquent la lutte contre Ebola, selon la Croix-Rouge - Yahoo Actualités",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:16:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeHRRUDZ1RFRTdnBNUzJQVm5Qc29rVHVRcUdpc1pndGlhLUsyeW1HZlNSeC0zZVhmNVhTTVpyck44VkE0a2lLRU1JU2lEVjFNUGNyb3h1bUpSaDQ1Zkc0UDg1N2xxbDdQaS1VanN5U0dnV3lKaDdNSmJUempqTGRJUWQ2NUNhdnZHTVE?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo Actualités"
+    },
+    {
+      "articleId": "gnews_5f22adae99df12c6",
+      "headline": "Congo’s Ebola outbreak records one of its highest weekly death tolls yet - The Seattle Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:10:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLWxfRlF2Smh0N0NOczJzT1VMVzE1THN2Q2ItRW1PbXQ4dV90dlc1dXlzQWJzNTRyQlFxbEJxb1NqU2FmWEt0eFN6NVVhNVFXZDVWekgxM0NDSVNtX1BwOEFicEUwekFqUHhNZXdqc29uQll6d2dXZ0J4dEcySzNHS0pudGFJbUtGVXdlenBPVE1lRmEwdHpLdVU5ZF9BdGtWWGozelVZU280c3N2R3ZuNEE2dkZMT0xMNmxIZFRB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Seattle Times"
+    },
+    {
+      "articleId": "gnews_44280aab52f587c8",
+      "headline": "Congo's Ebola outbreak records one of its highest weekly death tolls yet - Ottumwa Courier",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:09:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNdlM2RkZJMU4ybGl1ZXlleGVmMlZBSHlvVEFSMUQxTTFkSW12VTNWeTk2VnVmN0E3RkE0Tkw4SnBhZDlERFlqT1NjckpEc01wNmRsSjlIZ2N4Y1ZUX0pjektrdmhNZ01WY2Qtc2V6bXIxQXdHWUJxTDB6WGZuMENNQjk3QlNzQnhad2pSM2NFcThmTWV2bHF0OFdZb0s2QmJYUDN2NVVyY2RNZE80d1N0bGtja0NSb2lFWlhWXzIyaHd3bk52SmNmTmtUQ1hpVzlnZDNTUHV0enc3cUFWblBlV3lZeC00ZTBhNzF3U1p6Zm8tR2xLN0FfQzhUd2ZDMlVM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ottumwa Courier"
+    },
+    {
+      "articleId": "gnews_f4fc0b37860233a9",
+      "headline": "Congo's Ebola outbreak records one of its highest weekly death tolls yet - Traverse City Record-Eagle",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:09:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQLU5TNDRTemQxcHdyVjZ2SHROeGdTOGRINU5Ia216M1RHSTR4R2IxZEdrNC1VRXpSMEhrUHBPdUpPck9BbllZWUk2eFlzY0VwME50b1h2ak9HTTlROGc2UjVQZlNJaDlBZmJBQ2NWV21kcEdDemJMUGNTRm0ydTJmOHo0U3JrYXllWVVUUVV6NWlKYWs3VG9TaHVkSTZUdE5KTExlYWZxMGpmTG9HR3FGR3ptT0l0T1RFVFliaFJTSjdrbzVLQ212Ry1feTBrd3JFdlItZGpSVlNmU3BhSzRnNU1lSVp1dnlmN19nckt2b1FMU3FaMS0yUXU2MA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Traverse City Record-Eagle"
+    },
+    {
+      "articleId": "gnews_480412854b694891",
+      "headline": "Congo's Ebola outbreak records one of its highest weekly death tolls yet - Temple Daily Telegram",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:09:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ2VsRlk5VWcwVVRXUTJYaFI0WDY4SEZ4V3kyMHNXQjlTVmk0WlhJUTBtZTVVUVRlV1pfNVItTTRkd1dHQ0ZxZ21HOV9vODBMWVVrd29wYUZnM3NFa3poTkZqanBUVGRjaXd4OHFYV1Raci0wa2liNC1RelhhZ211UGhlQjVSSFBSTnlfUUQ5dTR2NWNxdkE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Temple Daily Telegram"
+    },
+    {
+      "articleId": "gnews_f59850393990cb1f",
+      "headline": "DR Congo: Humanitarian Key Figures (as of 31 July 2026) - ReliefWeb",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:09:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaGxDSlVEWVRvcXpHcTVjWVp2LXEwMlVhSnctN1hFaWlCZXkxTXd6Szl3c2o5X016X3dwQlVOVER5VzluS0hQZ2ZuS081WUdId0RoX1NqVVFuMmVhSXVYVFptbG5KaVpKdlRsRE45d3J5SmQ4STVNRmZaTjFwU0IyYTdSb0VKdUtNVW8wbFA1N0ZDVF9VU2RsdDEtekc0bm5iYmJJ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ReliefWeb"
+    },
+    {
+      "articleId": "gnews_e3f8f4b1f4d7d15d",
+      "headline": "Congo's Ebola outbreak records one of its highest weekly death tolls yet - The Independent",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:09:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcG5CdTdZd0JodkRWejBIb0Z0dGhoN1JtTWM2ZFE2TkI5TWhxTThqaHVQVDdZVl9EdEdVdVZIbUd5SUZJd05jSkVaWmNVOTREN1FJSVBBRU05OVpscVdVaWtYNE55aUZvVXljSkVUWWVSSVVjOFJ2NHlZUVFQd1NWOEZVUDNIRktTWGM2clRNTVBnRExWT0lnRXl3aGlZYklLVnZIaTlYdlZlZXp6bmc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Independent"
+    },
+    {
+      "articleId": "gnews_78dcf1ffe3af1ae3",
+      "headline": "RDC : la Croix-Rouge dénonce des attaques contre ses volontaires engagés dans la riposte à Ebola - Anadolu Ajansı",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T13:08:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSkNkd21uaV9TdHY3Z0N3VDd4c2l0dFdVQVBhczBIRmtKSjduV0tzVkp2cE1fZFZZQUp1S1FMQlhBZlhoZG04LXFzQ1N3bDNqYmlTS0tEcGs4VW1BTFZzeF9DMzlMRzdZMTBfQ2FwMENXQWJlREV5cUFHNE02Z25FRXZpYU00d2FMMHFjT0VfTlBNRXRObkhYMlJUMnl3cGNfZkcxYmFubmltaGwweThuOTFwSlplRllMZi11QWZoblBEYlFFMGRSUkFhaTgwMnd6d2xKSHZ3RFA1X2V2blRZeWxn?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Anadolu Ajansı"
+    },
+    {
+      "articleId": "gnews_199ed437ea59df3c",
+      "headline": "L’OMS fournit 70 000 doses de vaccin contre Ebola à la RDC - L'Humanité",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T12:11:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlBNYXZMVTRlZDRhc2UwSHlEcjY3MUlQUHYxY1lzQ3BwNjZqblVCUzkzY3J1NEl6Mk1Wblp4dUd2LWdFVmJtM012U1BwamV4NDVBOVI0OHNJLXo0TzYzM1R4MU41dTlqaDhiOWxsanY2dFFYNWpleWNNZHBFcEJBNGpqUWtrOTd3bHhQZWRjcFJvM18xNzl1Vg?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "L'Humanité"
+    },
+    {
+      "articleId": "gnews_f6ea9f3a7caf5aa0",
+      "headline": "Ebola en RDC : six membres de la Croix-Rouge blessés la semaine dernière dans des attaques - Le Figaro",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T11:57:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU0pENmxvMUZpcE5xT3BoZllPbVU4QmJuODZ6dkNJRmw2WUY1SnJfdHh1UDFHVm9JTmc0eXRSYmdnN1Q1NGVmR213S0dsMTYxeFE2VzR4cERCMEZXTW9KUGtyakkwZFhvZDVvMVdrUzZPYWFWWHBRYVV2SHlVNWx5NlhGY29teWZuUU10Yjk0ZjJtaFBMRWpnVDJNamVqR0dZbDFLblZSLTF5c0RtR1BCa3czZ0tZeTlzSEFOQUlZOFU1YXc2SzA1UE01ZklWU0to?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Le Figaro"
+    },
+    {
+      "articleId": "gnews_37ca83d1e21d2895",
+      "headline": "Ebola in DR Congo: What you need to know - nrc.no",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T11:54:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xNjhSb2FRNExhQTBJTmFORXBoRFNvRURiRVltQUhZb2xfRHdkYnltU1BBTHoxZV92bkhrSXRYWDlWdE5SX3FsYzFXRi1GWlppUWZSSWs0SWNHdjRJ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "nrc.no"
+    },
+    {
+      "articleId": "gnews_336e61b284f17723",
+      "headline": "Ebola en RDC : plus de 2500 morts sur 5375 cas enregistrés en 100 jours - France 24",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T11:28:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUXo5dFc2TWgxVEw4THNsU2VOcVlVZElveVJ2QzNNd2pmQ3JadmFLTmFKUE9ZYVRGZUhiWUVyVmxQRzI5Sl9US05MVTlOQjN4US01S2ZfcWhaakJhdGpiRHJ3U0x2NE5IM3lDU2M3VFoxdlVzR3JKY0R5ZkR2T0I1N1U4MFRaTmI2UE9FR0RndS1Wc0RaYlNRZ2k0ekp4NGZBX0pUNmE0YndadlYtUl9DMGNFZ2tQSzRJVnNJcFNBUQ?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "France 24"
+    },
+    {
+      "articleId": "gnews_13229d35401bf52b",
+      "headline": "Machete Attacks Disrupt Congo Ebola Response as Outbreak Spreads - Bloomberg.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T11:21:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdGhXT3EzY1R0VDBQZWhJeFdENFlNbXRsY0RsR3E3bF9QMDZiZVVmaXhmbjBwV2FBMWJ5V2luVEhPdlFyRi0zNTNLdkowUTg4Zl81YVhuYS1EV0xPdzF0UVc2dWZ0OW91dFE2R0RQR25abko2c0tkcDE5XzFqUnVMZ285Uk56TEN5Tllpb0xCVVpPdWhSLTkydzZpLWh1Z1lZbVl5S2dhUG5jX0FEUThuQXNaakxlSnh4b0Jhbw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bloomberg.com"
+    },
+    {
+      "articleId": "gnews_02134c65f4f01874",
+      "headline": "Ebola : plus de 5.500 cas confirmés en RD Congo - lecourrier.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T10:49:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaTA4ZTBCSU1tQkxrZEI4dGZWNE1aVFM5Tk9kcUQ5bWdXX3BTUlpRVVVUb2dPdl9HMnhaN3dnclpwNjIwSkdxZjQ4Q2lSQlg2RlpDQWNqYU5JU01aTUNFYnpsenRNM0IwaXpEWEk4TWxxWVdWOVZLM1hNV21XVUxHZ2p0OFk5QQ?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "lecourrier.vn"
+    },
+    {
+      "articleId": "gnews_13d00ed29af00530",
+      "headline": "Ebola en RDC : une épidémie devenue hors de contrôle ? - Le Point",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T10:27:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzdsNzJRRFh2dDVQUkFUVnpGUHNtaHkycjZCd3ZfZU16Z2M0VlVhb3c5aXZyR2dqZW5tTmNPaDQ4eXhxb0V0bnhkcnQzMHhmc24xV0E1R1VFNnRhNlBDem55ZGxDOVY4MGJ5TEZkdmlra0RFaWRUT2FUOF9kT3BJT3I4YXk2VG1NbVVKQ3FhbE5mRXdWZEtfQjlqaXZFclV4dUtVVWdySjhydE1BZGc?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Le Point"
+    },
+    {
+      "articleId": "gnews_5d3b57df16e267ab",
+      "headline": "RDC : ce bouclier sanitaire sur le fleuve Congo suffira-t-il à empêcher Ebola d’atteindre Kinshasa et l’ouest du pays ? - Homéophyto",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T10:12:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOSS1QS1NVZU5MZTZKeDRQTUdybEVrSDEyQU8xZWxwemhvTGlCaWZuX0VEU2lzQ2x2S1JsakdQQkRsM3A4V29UdHo5OWd1T0wtTTlKN3Y5X083alcwYTZjWFVRRWJadWJqNmplVEFjb1VERkVjVnExUnQ3Y280RDFiMzd0LTk3TWNSZHZobXh5NDlBTXQtQ0lQVkdmcjRDZFo2eWJMU25Ya3J3UDFaaHFqVTRia3d6aGhzcW1UUGtoNzZyZzVlM3I0bGlIUEFmUVpPZFpYekQ1V19KWnVxZmJsWjNLYVZpNHM0U3ltVW16b1R5N3duRElaSUJvMk9nNXg5SlI2aUNYVlJZVGlLaXEwbDhn?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Kinshasa"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Homéophyto"
+    },
+    {
+      "articleId": "gnews_4c8177f1561836a0",
+      "headline": "L'OMS et Africa CDC appellent à relever le défi Ebola en RDC - allAfrica.fr",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T10:12:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nYU1ObUluR0RyZDZaazZZMDdqQTMzSjk2REtSOWlJa05WbElYOEtQVEFya3VLcURkRlhKVXZGeF9tNm5RRzg1Uy1HdUotekF3NFU5OXlBZGZBQUJwVTBualFZSWIySUh1UFc0cFRkaw?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "allAfrica.fr"
+    },
+    {
+      "articleId": "gnews_12cdf1c0542ca922",
+      "headline": "Violence against healthcare workers in DRC hampers Ebola response - RFI",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T10:08:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSnNINTlXNmJncTFWZGYyZG4yVnJtSXo3TDVwUTRJV1JsMUNoZ3VNeW5PRFJweXVsUFZ6Zlg0N1I4UnBRTnllWktUSFhqeHh5OUNXT0kxVi1zc0ZNQ2pWT1IzNkJaVnp2SHJkU0VDTlBscDdfenNaVTlGa1EzT3AyZnBwQTVQd0xpeWpZMUQxY3VHUGg1VVZyal9IU1pNQTU4WkptYktB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RFI"
+    },
+    {
+      "articleId": "gnews_269c35c023ed8d3d",
+      "headline": "Ebola en RDC : plus de 5 200 cas recensés en 100 jours - Anadolu Ajansı",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T09:56:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGlybXhnMFlRdWl0al9IbTZSdTJQNjNIbUt4YzVqMjJrdEQ4dngyQTlkTzVuNVIwV29uRHhiTVBzM1Y2Q1hHNndNR2x6WlVaTTBVM1hHZ04ydlhneF8zZng2dFUzN2FkRkgxMEVFRkxzQS1PVFVkaFdLckhBRERsc2laRnlJbUM1cjFOYmRBSUQ5aWE4bDFXOTNHVHM?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Anadolu Ajansı"
+    },
+    {
+      "articleId": "gnews_0d7ec9fb38ab95a4",
+      "headline": "Ebola en RDC: comment va se dérouler la rentrée scolaire dans les zones touchées - RFI",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T09:22:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWDNrS0RkTHVteGpMNlNud2xvTzVwVW50aHAxT19jV0xGR0JHLXczd3FfWlUwU0JvTkRVekg5QjFVT044cVNOLTBjYWpxeVhITkhZZVBJMTk0YUF6YUFKWHNVQnNlalo5NFNMQllsbTJLMWVYOUozbU90dXRjbTcxRFlHZUNheGVpZEFmMWhVM3A1VW10b0Q2TldwdHRPb1NlNTBfekt0azFobm1uWHRwSXl2cENjZWhzdU5vc19JVkJlVE1IOWVn?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RFI"
+    },
+    {
+      "articleId": "gnews_0b45036f39a4e1fa",
+      "headline": "Congo-Kinshasa: L'épidémie meurtrière d'Ebola à Bundibugyo peut être enrayée - allAfrica.fr",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T09:17:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54TTRLVHEwb3dPaUNObTBGQWJZajNZMjVUVFVReDNSZ3FlaDZaQ0xaRjNKRnp0d0RCODByU3F1dUg3d2VnNDZGU3VZSlo5UjZLT0VZbjk2azZmbjdESjZj?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Kinshasa"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "allAfrica.fr"
+    },
+    {
+      "articleId": "gnews_c063313caf0792cb",
+      "headline": "Congo-Kinshasa: 17e épidémie d'Ébola - 100 jours après l'alerte, tous les voyants sont au rouge - allAfrica.fr",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T08:47:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xMWJoMmc4SGlxZHM5LURqNFhjeEVOTFkySC1qMEtnR3kwMHdVaXhyMWJyUndEaFBfYUtSU3FnRTFzdFVFTnlaN05wcjRNSnF1MFVoTXd6NW9wSGhCd0Jj?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Kinshasa"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "allAfrica.fr"
+    },
+    {
+      "articleId": "gnews_bb1b8c62c12791b6",
+      "headline": "Ebola outbreak in DR Congo 'out of control', warns MSF - RTE.ie",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T07:49:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvcVdLNnRUNm50TmpmQTBpb0lISzVfdjE4c1R3a0VGS0xvc3ZhWGlqMlU0S2JpME8yM2pudkQwdDlYa2ZINWRDYm1nTXRPcm80bVMwVGI1eGxvbEt6QWkySy1DTXBkNkNmUDhKOUt0ZUM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RTE.ie"
+    },
+    {
+      "articleId": "gnews_b4543232fada19a7",
+      "headline": "Le pape appelle à redoubler d'efforts contre l'épidémie d'Ebola en RDC - Actualités chrétiennes",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T07:44:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQndNUm5UZ0cxbmN6Z2RrSFE1V0JZS0l5MTBMZ1ZmZkNRRm5hQmFQdFJUZm9HWGJjdUZ5WHZkbURDWkRsTjlwRFlYY2V4ekNqVHJCRHM5dE9rbFRXR3NBY1J3RWc3STZJamJwU3R4OXdPNnFBTDNWVnpOXzNKdUl3VThDckp6cHh4VDRFNEFTYmlya3FpM2xrellzdmVMY3RpNG1vNkItc2hfbTdy?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Actualités chrétiennes"
+    },
+    {
+      "articleId": "gnews_5aed5418778d580c",
+      "headline": "Plus de 5 200 cas enregistrés alors que la République démocratique du Congo franchit le cap des 100 jours depuis la déclaration de l’épidémie d’Ebola | OMS | Bureau régional pour l'Afrique - WHO | Regional Office for Africa",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T03:58:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNeW5UNEVGcEF1TWFCSFhrYnYtOXNBUlRMRjVibGM2MkJfMHBRVXBSUjljc0IwUmJrUXlERWRGMGh5aGZkMUVBNlh5MkFKWnBwZldZLTBiWHJINloyZm01b2pBbXV4WWJXMWRzbV9uZUR0YnJmS3JJaGl4WEpNRFlwdU96clNfdTBKeEVLNGQtcTEtU2hnZGZleHl6SkstN1ZGaEZfLTA2OGlwQWFCb0ptU1pfdFg3YUhMeU1QVDl1UWtuX053TFJHVHFEWmxOZmgybXZ6VVlQblJ0azlrUThWT0J6Rkw2UFh3V3RHYXRBRTdfOWVPNHM5dXZWZjBOSnN1?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "WHO | Regional Office for Africa"
+    },
+    {
+      "articleId": "gnews_85f9dfe9d21bf5ca",
+      "headline": "Ebola en RDC: la Croix-Rouge s'inquiète d'une multiplication des attaques contre ses volontaires - RFI",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-24T03:07:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOWVJVnpfb1pkTk00a2gzRXJGVFFqeml4MHBFRVJNc051LVgyajhzdUpxSWY5dmlMb2tSd1pLZ2o4ekZEWXZzak85NEdDamUxZWNVTHlkQzBqTWJoZ1MyUkJqYVd4VDNfRU82bmpBbW5La3RPMnJzUkctYXdhSkVrS3MtX2c2QVJfdXZuU2tlODVOeTRpRUtOX3BndW5RSmxQeWY0dTV3OGY3MkZmak1ZOERVc1lEbFA4UjZYV1JlaVFuOTV4V0Z5MUt1LUpRQVI0U2dJM1ln?oc=5",
+      "originalLanguage": "FRENCH",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RFI"
+    },
     {
       "articleId": "gnews_942a0ed985962d86",
       "headline": "Ebola en RDC : cent jours d’une épidémie hors de contrôle - Libération",
@@ -60,46 +989,6 @@
       "sourceName": "upi.com"
     },
     {
-      "articleId": "gnews_9a5b225ee30cd331",
-      "headline": "Ebola Outbreak in DR Congo Is Spreading Exponentially as Death Toll Tops 2,500 - ColombiaOne.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T17:10:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTUFqUG8tVUpreTV1R091RHBPaDNZTHl4b2xCNjJEZkZZMGlfN0tDTkJrcGhkYWdzNlhHSW95dUJQSzMtc1FGeVFxa2VlY1pQazYyQ1FpRVFrT044cHlqU1ZzZWdUYVd5WkxrMlowcDZvRkVTU01ISmtmMW1MVE1hTVJNZlQtdjROZTBVaW1JejVxX3JKdElCTjBEZFZXU3pod3BGdUhqOA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ColombiaOne.com"
-    },
-    {
-      "articleId": "gnews_90dc85278d6a4d60",
-      "headline": "Congo to receive 70,000 Ebola vaccine doses as record outbreak worsens - AnewZ",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T16:35:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OSUlMd1c0dnFnQ3RHU2EtcnVrQ2ZJUEhJakgzRTVpam1tUDhFSmdKbHQyeUx5d0lxdzBELW01TW1jeW9kTWFrUnAzQ1hEYWU2MGFHdkFYcTg4S2FVaFBpaDR3cmNVOGxyaFpSZXVYbnRpSUE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "AnewZ"
-    },
-    {
       "articleId": "gnews_2f79c2e1169d032c",
       "headline": "Congo's Ebola Outbreak Could Be Three Times Its Confirmed Size as Vaccine Doses Finally Arrive - Global Biodefense",
       "headlineTranslated": "",
@@ -120,31 +1009,12 @@
       "sourceName": "Global Biodefense"
     },
     {
-      "articleId": "gnews_bbaf56a2da47bc8f",
-      "headline": "DR Congo: Ebola survivors fight misinformation - DW.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T15:58:27+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQclhNMWR6RUNWRUhBek0xaUxla0ZVc21oa3A5bGdoUl9qeDR0ekdvTWJKRWtoUlA1Mk00cVh0NmRoQnZ0bTlZY0djZF82Ykw4WnJkYllsWXBwQ0J4eldNWjJmLUM5X2xncVZyclpmUzFyWVZ2YVJTV21zQ0tzUVBpcmhzUUhOQ3RGcjZxcnpXZG8?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DW.com"
-    },
-    {
       "articleId": "gnews_1570a8d0b0c1f7f8",
       "headline": "100 jours d’épidémie Ebola en république démocratique du Congo : comment expliquer la flambée des cas - RTBF",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T15:43:01+00:00",
+      "publishedTimestamp": "2026-08-23T15:48:10+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM2ktZmJfMEUtaU9DQWFtWU5MYjJpOEpLcjBmUjdwRnhpNkhUMU5vbFFkV0VkZjJBWW9zRFFhOEdwVWxHSUxhNy1JdXN0VmZ5WFZSTW5OWVowMmR5eDB2cDZrWldxOTBwYlNkaXUxVFdJb0VvTHpsYnNYd2FhX0hvUkkxak41UVJZcFh5OTkxNlRNQkVPZnllWFk1Qm9MNjZrSHpqSG9lakdmUFh6cTlabnNXYzAyOWo4bmY4STBpMzkxM3pmUWxnUjliM0pLX1JFbnc?oc=5",
       "originalLanguage": "FRENCH",
       "diseases": [
@@ -159,13 +1029,13 @@
       "sourceName": "RTBF"
     },
     {
-      "articleId": "gnews_5fed702487af64c9",
-      "headline": "Pope Leo urges global action to confront Congo’s Ebola outbreak - 93.3 The Drive",
+      "articleId": "gnews_7c576a805ed3c18f",
+      "headline": "Ebola day 100: why this outbreak could become the deadliest in history – video explainer - The Guardian",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T14:50:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbWxuWFBiLWV6Yk9tYlYydU1qTzNydGRUa1JFWFhHRUFyMlRwdzdKNnJURDR1dlpKYjRYNDBCTmdoWHoxTVRHWXNXdVJVNWZsZ0VfRWVrQUwwX1dHN3ZMajgwZ0x2RFhqYTI4eU5maWxPb3dZMXdZOV9fdVZWbkxITEUzT29LaFJNQjB5TWNrdzdyZjlCeGxLQjNmQ3d2VEpkdVJtUQ?oc=5",
+      "publishedTimestamp": "2026-08-23T12:31:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMU1uOVhTUlBmSXBEOTFBMU51YzZMd1hSaFFiREU1cHBmeVBVSFlVUmVxS0JSanVYUUhJNzkyUkhyUF9LVHpJeWJ6V2VYQlNzRlhncmtaMlJEYzhDczBxQU4ySThRRktDdnVsU2xUUTNLRHN3WXYzaVI4WnFrZ1dLYzNCRC1uX0JPRnM0N2ZLZ3hjVjRmOWk3RnJHYzVWY2FmQ242TmppYnJHRjY2S05vWUZPWG5NdU80WEJzS2YxOXU2bG9MZmc?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Tuberculosis",
@@ -176,65 +1046,7 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "93.3 The Drive"
-    },
-    {
-      "articleId": "gnews_8f3ff183b50bd5ad",
-      "headline": "The desperate race to contain Ebola in DR Congo as deadly outbreak reaches 100 days - The Independent",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T12:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2F3aV9iWVQxZEtreFZfcU14V3hleFdlc1Y1Q0RpTkdBcWpDYXpMTVNoZHlkWU02SWowSU5zdFZjMkRkTjZieVVCODlyZkxvaU5jOU5BOFZhM3RuQnYwbzFBbzdfU3RpRTRaVXFQWkxocnBQeG9Fb1oxMkV5TWhBUWNVbTgwY2gydVR2SnM4cGRHRmV2a1Q2OWpOajJpQQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Independent"
-    },
-    {
-      "articleId": "gnews_3aacb7cd113338b1",
-      "headline": "Le pape appelle à redoubler d'efforts contre l'épidémie d'Ebola en RDCongo - Ici Beyrouth",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T12:28:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUl95VlFzLUJvWDRMUm9DQmRsRG9JS0FYeU5HaXFsWkVWNUNHOFYtN0ZPbk42bEZxdDFEdHpzdVExOVVzbDFFR3JvOUZ1ZDF1dGhjY0dXYlZWaGN4ckQtWGk5bUhTUVp1VURMRGhlNXk0U05EVXNXMHEwYU43Wjc2b0paOVBHLUw1YU54aUNaQXAyUVdjb2tZYlJ0NUVCZTB6aHVMRlpHU1J4bXpPMS14U3l1ajJPZw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Ici Beyrouth"
-    },
-    {
-      "articleId": "gnews_1feb155e5732d402",
-      "headline": "Le pape Léon XIV appelle à redoubler d'efforts contre l'épidémie d'Ebola en République démocratique du Congo - franceinfo",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T11:58:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNTlaNUVKNmJ0QlRNVnR4ODExVWJLUk5UeVdqZFlTRmdva2FLRW1rUm5xOGZnQzNvRzFLQ093VjlKWjhRY05vbVFkNkZ0ajN0X05ZVlhnX0RFWm10MDJXdDZPNXliZ29oZ2Rfd1RlbkwxYkpSSENtSEM3R1RTUGpTS010cFNOMVYxbEpPb1phZ1I1eDBMRjZUTGdvYW5WZVNFbnZULWdhU2owXzJSQV9DdzdTZ1NjaGxtTS1INmVXcE9qV3VySnQ1UWw4TUt3SEFaNHhNMFV1Y052Szg?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "franceinfo"
+      "sourceName": "The Guardian"
     },
     {
       "articleId": "gnews_b2f21ee2795518c7",
@@ -257,14 +1069,14 @@
       "sourceName": "Outbreak News Today"
     },
     {
-      "articleId": "gnews_2988799e69a91926",
-      "headline": "Pope calls for more efforts to stop Ebola in DR Congo - The Hindu",
+      "articleId": "gnews_1a27bbbc9ed3b97d",
+      "headline": "Ebola en RD Congo: l'épidémie fait un mort toutes les 30 minutes, l'ONU appelle à la 'solidarité' - tv5monde",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T11:36:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkwyNXJzdkM1T3E3bktzMHd5MkNfcHFhVGdDaUl4VTRkQXRCa1hULWhEM0hPR0l1ald5UjJUbXVOdlZEeFo1ZmJkWk1GdjlfeXg0MWZfR2JWQUFHanM1d3FRbS11WmFrTEFpQzhZTmU5Q3g1X29ORUhJUWM3YXF3VDZiLUJKeHBDQzZveTdDOGROT3pLS0pkWUhUak1ZOFFfZFFzdS1oYUZvUGRkY1dqNDgtNTFsaDZX0gG_AUFVX3lxTE5hNjdFaXZfby02RWNCdzhxVUJYQVF3eDhSbG9OdGJXWlNHYU8wQ1hRaE9DN29WTjg0VHNjUFJ2b2dRemNUbTRYdmEwak0xYXQtRDVJRDhnNzF6T19LMHRqb19IdU1XUGpMME5ITDZsOTZMUFpHQTk0N1JOaTlaY3RxaEk4dHdfSUlkd2VFdjJyYjFrdUJ6N0tEZE5rMm5SZkFYelRCVVpXYTZVSFA2XzdjQ3BtRWdCX0lUbEdnQ0tB?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-08-23T11:22:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcHFaLUNmVktnNVE2ZXNHQjh6U3QtSGhvNVY3R0dRN25ZYWhWUFhBM09iMXNZYUJkc0h3XzdfcWpWY2VFY05XMTRBMTM5Zk1CR0I1b2ZPQXVkeUlsYTYtTXpKMV9EZjFhbVczdUR0MWR2NTBvRUwteUVoZ2tFdW9ya19CMWdVMmp4Z21Rako3YnNOcnRuWnhoM3dPVFVnX1VNNDQtM2FvdWduY21XS1FyM2RxV2EyT2xaOEhoOXNMM0ZVYVZoWmROeF92N1ZYcndnUlpleg?oc=5",
+      "originalLanguage": "FRENCH",
       "diseases": [
         "Ebola"
       ],
@@ -273,7 +1085,7 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Hindu"
+      "sourceName": "tv5monde"
     },
     {
       "articleId": "gnews_c9741972fe610c26",
@@ -296,26 +1108,6 @@
       "sourceName": "Reuters"
     },
     {
-      "articleId": "gnews_cc49bed0b38e00dc",
-      "headline": "Pope Leo urges global action to confront Congo's Ebola outbreak - TradingView",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T11:09:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeWI4bTc2X3FrMThDVkp2QlEzcklhOFpHSDJVc1B3UzllZnVVR1J1d3ozNWpIMGVGT3NsN3d2Zzc3MHY4RWM4S2NRM1hNUFZORG8xM0twTk1fbloyVzUwMXNBTWxYbmJWRWdxZWRMUExldnF4X2pIUG1ONGZ6aHVCWVAyQmd2RG53RG5JX19pRlJRRkx4dHBBcWRCcEdQaFkwQWhfWGt4X0Uwc3NQaS1icWpHUWttOUZBa0xrdzdUVFFjMGZIWVo2TkItSGJ6dw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TradingView"
-    },
-    {
       "articleId": "gnews_08073e244fb3b3e2",
       "headline": "Pope appeals for international aid for Ebola victims in DRC - Vatican News",
       "headlineTranslated": "",
@@ -335,15 +1127,16 @@
       "sourceName": "Vatican News"
     },
     {
-      "articleId": "gnews_f459b25f1dc8eeb9",
-      "headline": "Congo says 160 Ebola cases reported among medical workers, with dozens dead - Jefferson City News Tribune",
+      "articleId": "gnews_05d3930cec9af580",
+      "headline": "Ebola frontline workers missing wages as outbreak spreads ‘exponentially’ - The Guardian",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T09:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRVRVQ09tNGZpbnVZNmFXY2d0WjNpc2VOSk1pb1RnVGZ2SWZIczVHczdqUnNmNXIxa0VKSWNpdzMzMmpnZjdUN2ZEenBpelJTUTJLV2x6OE10dEROTWpzQ2VMSTZOYUY5b3VZTzRLUTkxSTJrT244X3c5MHJ5eTB3NWVROVdkVzQwTGlLM0piRUxRNVY0QWhoRHFXYw?oc=5",
+      "publishedTimestamp": "2026-08-23T07:54:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM1lLdWp4dG93OVY4OS1CZG5aU0pCNXYzaXFTMVpfVVkyY2dWRXFydG15YkE3RHhmSEFHdVVQZ2cxSVMtNVFRX19STzhUYUc1OGRPY2Z5SGxMRlBNeHN3OTk4V2JWRHFoQUlDUFFUNzR5bld1VTI2RmNnck1DMjNCVXRIOHB1SVRkSXRKRDZnVzczcEZUeS02NGZ0QVBqNXhMYzFSN1lyMmJUQTdQX1E?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
+        "Tuberculosis",
         "Ebola"
       ],
       "locations": [],
@@ -351,64 +1144,7 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Jefferson City News Tribune"
-    },
-    {
-      "articleId": "gnews_8a7fb3f198f04964",
-      "headline": "Ebola Variant in Democratic Republic of Congo Kills Over 2,300 in 100 Days - 동아사이언스",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T09:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00WmdyRHdQbkZUTERlSURoeEhxSURPaklSSWc1VVJveGJyRlYtdFYyYlNwWXFtUldZX3RpRHFEdUhJaXNoT3U0eldteUlJNlJKd1BXSA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "동아사이언스"
-    },
-    {
-      "articleId": "gnews_5236bf29bcd7f33f",
-      "headline": "Ebola en RDC: lourd bilan après cent jours d'une épidémie toujours pas maîtrisée - RFI",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T07:27:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWnBZUWxxTGpHN1p3YWF4em0tMTRTMkxCSnRTeWZfVE9uTHl4VUh5dDF3YjFDbnBISHVRdVRxbktxSG92SGFySTNLVGtfY0p6c3ZtM3NFcmxobnRSMzdaa19nQVp5YldvSHZYUkoxcjk4cDc3TUFaVGNtdlhGRkdFTGdFQjY5YWNjeGJkcjNYaVNvRzhBRjZwOFVCYW91cnNuT0tJV29zNTd5bm96RnpRRDRmUG5LZDJJYi1tSy1nYlIzclhucHc3WjJZaldIZ0lBV0RnTU1rdjRIcmM?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RFI"
-    },
-    {
-      "articleId": "gnews_1a27bbbc9ed3b97d",
-      "headline": "Ebola en RD Congo: l'épidémie fait un mort toutes les 30 minutes, l'ONU appelle à la 'solidarité' - tv5monde",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T07:11:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcHFaLUNmVktnNVE2ZXNHQjh6U3QtSGhvNVY3R0dRN25ZYWhWUFhBM09iMXNZYUJkc0h3XzdfcWpWY2VFY05XMTRBMTM5Zk1CR0I1b2ZPQXVkeUlsYTYtTXpKMV9EZjFhbVczdUR0MWR2NTBvRUwteUVoZ2tFdW9ya19CMWdVMmp4Z21Rako3YnNOcnRuWnhoM3dPVFVnX1VNNDQtM2FvdWduY21XS1FyM2RxV2EyT2xaOEhoOXNMM0ZVYVZoWmROeF92N1ZYcndnUlpleg?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "tv5monde"
+      "sourceName": "The Guardian"
     },
     {
       "articleId": "gnews_99c977a2948f1384",
@@ -449,35 +1185,15 @@
       "sourceName": "tv5monde"
     },
     {
-      "articleId": "gnews_2719bee16a9f29d6",
-      "headline": "Ebola en RDC : pourquoi le fleuve Congo inquiète? - Medi1 News",
+      "articleId": "gnews_7ee51a9b7984749f",
+      "headline": "More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DR Congo - Al Jazeera",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T04:51:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1laTMzTFpvc0g4dWFxMDBsdXM0d2w3cjNsQ1Q4SGlPX3hGa0hUSnhWZXRRR1doSXVSZTJjWkpGOXU2eU4zbHNPU1IzMzktZEQxTjFYdDAxdmVJdDdZ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Medi1 News"
-    },
-    {
-      "articleId": "gnews_cd43a774303ff3b3",
-      "headline": "Congo received more than 16,000 doses of vaccine amid the fastest Ebola outbreak in history - Українські Національні Новини (УНН)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-23T01:37:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTkFJNGRYeE04SEEyQWRwMDlOZ0ZiLTRTWmhLTlF6SHdKMy0xMVNUVUNQUER1cVpxVURLYUd1dkFGWmJBelE4VkJ3SUdHSVJCaWd5cWZyYkF0ZW1JWmNsNlZfd1JYMTU5R193ZzVMVzB5ZTkwdU5ZZm9EdE4xZzk1Ym42cjU2Zmw3S0x6cG5haHRCbkFBdk00aGZzU05Ma2wyMmJ3TklCbU1QSTdXNVNLaHhTd9IBsgFBVV95cUxPdzNJT1RWSEtFYnFkY2xIbm1yXzI0X3pRVm5MbGJabC1GbDF1S2ZWS3ktdGVSSl9hQXJlQ2xJeS0wSzh0THp5TVJfeGVxNVI4cmJieGtINm13c21FWHVXX0NqMmNkZTNpM1VueUhyRUhxczhpYXFZWnlOaEcyeVhiUGo3NDBNVWVpZjdkQmdnZnJvZ3lyT25LVHk3WnVmVUlScjlGbS15TXMtVDlKc3FQQXdR?oc=5",
+      "publishedTimestamp": "2026-08-22T19:47:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPXzlnRC1Qb2g1M1I2TmlKMS00cklEb0R0dGhSVVdiSFRTLXBHaHRhTVQ1YWFUR2F3bkF2YnpaZWE3dDQzZDhOdTFvclNTdk1zc2JzbUk5d0h5TzZSQUJMQWlfN2pqeS1YRjFGcnVkekp1ZUxucEt6NG5qRnNpc3J0dDJfbUdQNWFJV0FlQzJuN096d0wyUmlTVVVjRzBhU2hCX3JVb1oyUmVVVGt4Y0HSAbMBQVVfeXFMTXI3cnZZZUI4UE9Yc0ZRN1c2ZzZISEkwV0lhREdOcnBhZUlpS1d6QVBUazRzNDB2clVoZ3pKUUFPdHczQTcxSlZHV3Awc2Fzb3pPbWZGcjdleDZ2TmgzRVRTZjZhc2VWVzN1bm95MDUxMUx5dF9qX1FjM3lReTRkOUpPVEFMcE1NRmtnR3RSYjFiX2RZdHhzU0ktNDBITDlpNHlpeFpLdmVaVHMwcW9QQ0VYRE0?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Tuberculosis",
         "Ebola"
       ],
       "locations": [],
@@ -485,86 +1201,7 @@
         "RDC (province non identifiée)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Українські Національні Новини (УНН)"
-    },
-    {
-      "articleId": "gnews_425d125550375549",
-      "headline": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak - Los Angeles Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T22:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaDZYYV9QRXBFcGVpVVlVdHNBYjRwc094WjNlWnBPbDlsMEU3Ry1qV1dhUjlsTFN0MkZCTTlBX2s0OEttTHgydlBSVUNqU2ZaZ2xQTnNORXJMSU5LdHBieDE1NXY1UjhHdG1Na0NMV214VXBvSVRIbF9jVmVtMTdWbENRb25HTnRrMmVfeXFuSGY4Zno3VGtpZlFGdEl3U01xMF9Nbk5FeDh3eWpt?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Los Angeles Times"
-    },
-    {
-      "articleId": "gnews_ec40e5c7a52d2503",
-      "headline": "American doctor tests positive for Ebola in Democratic Republic of Congo outbreak - ABC News - Breaking News, Latest News and Videos",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T20:52:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeXR1TnZvNUVIVVYzTnJXSW9vYlFkbG4yOExvSVJTLUVoZ09qVlFrb1RnN1pTUUJYeExwbVF4Wi1XTGxabUxxSzNabFRHTzJKNU1MQ1NuZl9aV3ZKdkllX0l1RFRobWVjNngzRWZlUS1ZUDJpUk1ZOFFXWTZ3OVlIYUpmWUxHajhRVlRQUkhSUnFFNEhaa1RLMnA4b1M0cTVWNFJCck9XRE9qZ1VZ0gGyAUFVX3lxTFBZWEVENWx1NDRTOXktZUstTlpnSk9nWXNNUnQ3bGVlUFppTG13amFaQjZGUk9NQVNLQ3FreTNmTXQ2WlBfTHJNaWlFbzM0NzNZOUVVaDFnOERoVmJNbUpSbXRUZ3FSSTdKb0JzRTMtOHBFVDBfVGZKZW1GREl3UmVDWENfdFNlekZCNHNfWU5rOWJiV1F5UkhBQWRORDN4VGJxSDI4aU5jLVZKU2ROZXdoQVE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-      "articleId": "gnews_e2d9c4ad7b8ef947",
-      "headline": "RDC : l'épidémie d'Ebola dépasse les 2 500 morts, l'ONU redoute une pénurie de financements dans les prochaines semaines - La Presse de Tunisie",
-      "headlineTranslated": "DRC: Ebola epidemic exceeds 2,500 deaths, UN fears a shortage of funding in the coming weeks - La Presse de Tunisie",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T17:39:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSUJ4ekZCa0Z1YmRDbnZCanp1bld3dGdwQzdTTUNOYjJsSXFVbWFYUElyanBlckJmQ29JR3BpcXFVZWI5RHlVV1hhOHVLZ2w0bk8tRUlvc1dULXFSenM3dW9YVkUwQThSd25KcGZZYzI0SjB1VXUtVEdYNVRQTkZ3ZTRJNWJiZC13WTZLclpCT01Sa3dJSktfbDhWN0QtX0xMalN5TE5uV0UweGdFQm9KODYwblZFeDh5MnRjc3MxU093REVaUEdFel90LWFHVF90WjVKYXdtbEhSNmZNQlpMUVBUeEU?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "La Presse de Tunisie"
-    },
-    {
-      "articleId": "gnews_f85f5df58c536805",
-      "headline": "DW News. . The Democratic Republic of Congo has received more than 16,000 doses of the Ervebo Ebola vaccine as authorities intensify efforts to contain the country's largest-ever Ebola outbreak. Since the outbreak was declared in May, more than 5,000 pe - facebook.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T17:38:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNR3lsS2M0M2pUeXRyUHRVeUs3M0d4cnhoQnZWZEN5T01uQUdDV0VqLTNKeUwzc1ZkMjRTQmNpcHZCRFlLanV0QTR6NWxkSUI5UFN1cmI1Y2tUZHhiNW14aHdVQjJsaG05azFscl9JdXdvZzZtNEF4dld0aEdXd0dfUk1ieWllekZxTGhqWWxjbzBSOTg2M3FwdFozQm4zUU5laURGbFpMNzM2UXFoQm5fNG1oRVY3NnpscENCcFBNOE5FdFY4ZElCUGlOUDZSOGhNNG9yX25uc3Itbjl2bTJBT1hB?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "facebook.com"
+      "sourceName": "Al Jazeera"
     },
     {
       "articleId": "gnews_07cc449ce92ed239",
@@ -605,23 +1242,23 @@
       "sourceName": "Ici Beyrouth"
     },
     {
-      "articleId": "gnews_d63fd486b7e1adde",
-      "headline": "Ebola en RDC: l'épidémie passe la barre des 5.000 cas confirmés - L'Echo",
+      "articleId": "gnews_b49a73e6200041fb",
+      "headline": "Aux abords de Kinshasa, stopper Ebola sur le fleuve Congo - La Provence",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T14:55:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZXBTcVl5YlYxN3VpWUh6M0F3c3VzekUxVjllR0ZReHdXSjF4dktqRjM3clptV0ExeldubFU2RnZBTFU4bFFMdjY4YS05Z2ItMGFlbkZ5djhYMXBHQnBrbWtLenZaUUdHSVBsLUpNcC01OFU4MUtQY0Nkcm9pUFBvcWxlNWlhRGliLXI4YUxYb1RwUE1fSEFYQkY5WVVxMmZWamtjSW1weHhsdExYWUFFVjlzRW14Z3l6ZjJTNHZjU3JPcFNwTng0MkVxbVhZMzJBVEtlMA?oc=5",
+      "publishedTimestamp": "2026-08-22T13:37:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUy1TVG51elcyTEVGd0Q4UnFjcklSUElfektzNV9FQ2lyMkZkbm9xTktrSEtPN2hjem10UlBwSHBLNk45bVpGaEZwdW9hdk9oNkNRZ1FMUXd1LWxmWC1HYTJkTDV5b3lQc1liRDczeXI0dDlTRXRNcVhvcHYzRUUyOHFkc1BOT09jNnFMTFQ2WFZsRk1HTFJjMnZIS2RHZ1ppR2RaZUpqbzNyc1lCcDhjb0RxNmZPVktqejdSQU9n?oc=5",
       "originalLanguage": "FRENCH",
       "diseases": [
         "Ebola"
       ],
       "locations": [],
       "states": [
-        "RDC (province non identifiée)"
+        "Kinshasa"
       ],
       "dataSource": "Google News",
-      "sourceName": "L'Echo"
+      "sourceName": "La Provence"
     },
     {
       "articleId": "gnews_fb35c6b45dc9544f",
@@ -643,106 +1280,6 @@
       "sourceName": "Boursorama"
     },
     {
-      "articleId": "gnews_32beced9f8381f3b",
-      "headline": "Data Show How Congo's Ebola Outbreak Is on Track to Surpass History's Largest - MedPage Today",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T12:00:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wU3ZGb0pMS2N1bWtmRDhYdVFRTFBkTkxwYkNnNzlEeWFFUVdsU1dmV1VaLWlNQ2p5M1VNeTJkM1lPYXlQYnVMLWdoalpVZm80VVlkckxlNHJEZWdCZkJpZE1sZkRuaGZNSkJUVVRuNlVWd2l1c3c?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "MedPage Today"
-    },
-    {
-      "articleId": "gnews_d8e780bf7c6c700f",
-      "headline": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak - AP News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T11:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdFh4LXA1WTJxUFB0SFF2UE0wNjRjTldBNjIwMlFWUC11VlZyQXpyYnh5WTFkSjFCMjBUbElJUnNTYjdTa3JBVjZDRGdlR0FZSTlhd2dUZGVWTTBtRDFTYlYwel8wZHVuelB0aW9hZ05oSHhyVEJJN0VoZlNLWm42Y1hLT2pZZw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "AP News"
-    },
-    {
-      "articleId": "gnews_c92ae108e6452c1b",
-      "headline": "Ebola epidemic in DR Congo is spreading 18 times faster than deadliest outbreak on record - France 24",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T09:48:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeWpEa2FVemJueFRuVy1XRnQwTUtIRHQwNDJfdUR2T1hqaEZKUllxVE1TcHNWYU5PWUpYYU9qaTF3M24zdVhsd0hTNGRpVGNoak9MMWdrcUJ3OFRzTHpIemZyUW51S0pfcVdiSWpLUHBMdlllZVY5aXZSZUVtclBvRVYyVUg4c3F3TE5CZ0ZxeTlRbXFyTVlITzdjUlNRbkgzOWc3QlcyNFhrb1pjZzE4Ml9Yc3hSRTJJ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "France 24"
-    },
-    {
-      "articleId": "gnews_05d3930cec9af580",
-      "headline": "Ebola frontline workers missing wages as outbreak spreads ‘exponentially’ - The Guardian",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T09:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM1lLdWp4dG93OVY4OS1CZG5aU0pCNXYzaXFTMVpfVVkyY2dWRXFydG15YkE3RHhmSEFHdVVQZ2cxSVMtNVFRX19STzhUYUc1OGRPY2Z5SGxMRlBNeHN3OTk4V2JWRHFoQUlDUFFUNzR5bld1VTI2RmNnck1DMjNCVXRIOHB1SVRkSXRKRDZnVzczcEZUeS02NGZ0QVBqNXhMYzFSN1lyMmJUQTdQX1E?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Guardian"
-    },
-    {
-      "articleId": "gnews_2ad745b83fb9109a",
-      "headline": "DR Congo receives 1st batch of vaccines to contain Ebola outbreak - Anadolu Ajansı",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T08:27:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWE5oemZXNjFUejRVY083SmZVTl9aUUlEaDR0UWFrUnM1cTRvUy1aa3dGNjR0UElzeDNscmlUWHBxQVBsamJ4S3dWNzJ4NnNwNHFDNzEzcHZwRUptQnBNZklabWRYc3BuSVJDVDczbXBlOUZuT3ZtNmF5Wlp4WDJEWW9WWkozWGp3cGRtMFhMNGRMSVlvZ3ZYZkhPbXpYX21rSGh2ei1TTkw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı"
-    },
-    {
       "articleId": "gnews_dc9238b8a76a95ad",
       "headline": "Ebola : plus de 16 000 doses de vaccin Ervebo livrées pour lutter contre l’épidémie au Congo - Sud Ouest",
       "headlineTranslated": "",
@@ -760,26 +1297,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Sud Ouest"
-    },
-    {
-      "articleId": "gnews_2fee328598594c45",
-      "headline": "This news segment investigates the rapid spread of a new Ebola outbreak in the Democratic Republic of Congo. Experts Trish Newport and Marcella Kraay from Doctors Without Borders, along with Thierno Baldé from the WHO, explain that this outbreak involv - facebook.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-22T06:31:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQek0wVGhzVjBWQWpKYmxXUnB3TTBZYjNpLUNEaWliOVR0WjBUcGxwbzhqTDd0dE03VnYxcEgwM19XOTVhbU51elRfbjRtWlhGU2I0ZnNuRFFIY2xUTHlVWkUyTWpBenNQVVpaQ2RNS0ZheVppeVRpN2hKengzaWR6V1RLS3gwa19qT0ZtaVA0Qzh3bnpMWV9URWtOUzFoYy0yLVRSRmF1SHg4Y2p1LW83OV9QT19KWkpnOExJYXZ3X0JrZnRHdjhhbm9MbXc1TUxmRFFnYzBMVjNYVjExX1FyRWhR?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "facebook.com"
     },
     {
       "articleId": "gnews_1539123061b36cd6",
@@ -801,6 +1318,26 @@
       "sourceName": "UN News"
     },
     {
+      "articleId": "gnews_f874d17a7da0774f",
+      "headline": "Here’s data showing Congo’s Ebola outbreak is on track to surpass history’s largest - AP News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-08-22T00:06:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc0tYdWx3R0s3QUFTSWlLNXlMb1pjSWd5bEN0Zm5oTEZQbTBqY1k2RjBNVXNfYWx3bjFPa1d0M2RrQkxoVE5EbUttQUNjT0x1cnM3Y25WeWFTaXUtVGxIU0FYUXl2NXZ1a0ZrZmhsRmhXVUpvRWNpQnhYdkNHMlJuYm5La1drSV94NlE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis",
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "RDC (province non identifiée)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AP News"
+    },
+    {
       "articleId": "gnews_fdfb1297ed9dc94b",
       "headline": "Nord-Kivu : plus de 5 millions d’enfants ciblés par la vaccination contre rougeole et polio - Congoquotidien.com",
       "headlineTranslated": "",
@@ -810,8 +1347,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3JLWlEwMkJWYWxqRm0wdWh1OVZrcHNqR3FIb19hUDM5bTY1ZVJLWG9KYjg2d1dOMTU1b29CU3ZGaFFYUnpRN2hIOTBSWkd5ckRFTDBsS21uc2I3Sk1UTWkxSnpNT29iMDBlMm5GTE1mWU9IOGJyd3M3aFQ0eXIzSXowVk1hYUxz?oc=5",
       "originalLanguage": "FRENCH",
       "diseases": [
-        "Polio",
-        "Measles"
+        "Measles",
+        "Polio"
       ],
       "locations": [],
       "states": [
@@ -839,933 +1376,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Doctors Without Borders"
-    },
-    {
-      "articleId": "gnews_1c0e580869eec7b9",
-      "headline": "RDC : près de deux enfants orphelins chaque jour depuis le début de l’épidémie d’Ebola - Anadolu Ajansı",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T20:21:46+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVGd4ZHdfY2Z2aUFaX18ybzZCcXItQW5KYzJkUkRPR0V1Z29UVFpkYWVVQ29yeDdta0tseFFFTjRaMW15Q3RQOUdqazNMTmdFMld3V0lZTUp3TUZXTmVwb1dtU3RXSU9mT0tQQTZHam1YYkdvcHo4dGhPMHh5WmRvRzJSZlBsQzI0bjFYY2FnNDQzZjhQZnNiUDVwWmc1Q1EwS201TEVlOFVVN3dRSTBPY3JWZnhMV3lhQXp0TXFnOXJrUmNIT0s1VjgxdmJoTkdjM2RpZzc4NXFMNFE?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı"
-    },
-    {
-      "articleId": "gnews_480e1b30d0f9ee15",
-      "headline": "Ituri : à l’approche de la rentrée scolaire, la peur d’Ebola freine les préparatifs à Bunia - Actualite.cd",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T17:32:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWTNqSGVDNHVxb0RISGROQVk4dW9VRTlaZlQ4MTc1ZEtES1dmRnk0S2lTcEpqTGo5WGNQNmpQU0Vad1pMTzNacU9uQ3JzbWhFV3pnaXJSc3dvb0dydUpWVDhGNDNBYTVtbWpZZVVOMkdHT2xab0pUWEhjM1N2S2ZxMTRPQ2ZUZDBJQXhPN0xiSk81eWZsbTBSb1gyX3p6TGVuUWp4MlVrV1lNandWVjdtd1RpR0w?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Ituri"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Actualite.cd"
-    },
-    {
-      "articleId": "gnews_6600a3a12823829a",
-      "headline": "Congo's Ebola Outbreak 'Growing Exponentially,' Warns UN Official - Common Dreams",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T17:20:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JTDFOcUczc3VTNjNHVTItTk9pRzRMSWJQeVd1SmNkd2Fyd1A2VG92azliX08xdThTRTZBMm9abTRnVzhnOVhzLW85VktpNU5FQ1k1Nmh3XzFWaWYyQ1cyNmxVckU?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Common Dreams"
-    },
-    {
-      "articleId": "gnews_5799194189ac32ea",
-      "headline": "2,500 dead and rising — UN says DR Congo Ebola outbreak 'growing exponentially' - Courthouse News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T17:19:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORmhtaVc3MGx4YUFNT1FvSHFGTHg4NXF6TE03bklmTUFvWTlfMGtpZF9uWEwxVXNubUJyZU5DakFBQmVtTWQwOS1wMnlsTE5mWWZZWjNTVEV1clVvVmtycWUyYUdyOURnMVJPQWxSNVlLTEh3TmdWUGxiTXNMWG01VGV2ZE9hMW03Wk01ajRoNDlJZnhXRjR1cnBwc0J5bWREbHoteA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Courthouse News"
-    },
-    {
-      "articleId": "gnews_e26c2dbd8477b995",
-      "headline": "République démocratique du Congo : l'épidémie d'Ebola \"croît de façon exponentielle\", alerte l'ONU - Euronews.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T17:04:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQU1ZUcHY5V0F5V1RuYmVheFA3b1NzUW1DUm5RZlUzR3czMzMtZjRQdkVEZEJiUzRGQUpSZkxjWWhka0gzVWIwV19INW5NcW1rYUI0STc0cUV0Y3BoLXBYUUhYX2U4UEpKVmhLZkV4djVBVkR6YjloR1IwYjdxS2RmdXdGRUIzam9BWFZRTTNwTkVxVGpLOEIxS3lvX2tiVTQtcDRSSW4tRzh6SEo0aTJwVFRtdlNydjdsajFuUnAwbEI4Ync?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Euronews.com"
-    },
-    {
-      "articleId": "gnews_9215a1813826dcf5",
-      "headline": "République démocratique du Congo : l'épidémie d'Ebola \"croît de façon exponentielle\", alerte l'ONU - Yahoo Actualités",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T17:04:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSGdYcDNQZi1rRVNGR2Q5VmlrcWd0V1l0WUswN2UzbGJvYVQ3b3lBQ28xZFVKelpuZlZITk81T2s5dS16OHBNelF6Y1ZMV2syX2Jvc2tsbFFkaVpDb0E3RFhNMlpYMmpOSld2blpUT2RWbmRyMHJ2SmRtX0I4X016TklnZHFuVXBSei1HeFVfaUw3ZVNUZ0dSaDBXdmZCY0l1U2FlMlRxQVRRVEk?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo Actualités"
-    },
-    {
-      "articleId": "gnews_b86c9955afbe9ab4",
-      "headline": "République démocratique du Congo : l'épidémie d'Ebola \"croît de façon exponentielle\", alerte l'ONU - Yahoo Actualités",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T17:04:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHBtMGJTbm5BU2NWVUpyZGdtVkNvQ3h4MnU1LXE5S2R4Zkhoa0V6LS1CVHVhZ1I0LW9GN3ViNXBzVVhMZ0lhRWdBY1dmakdVdzBKa1k5MUk3RkQzbUZlcFJZTHZDUnY3akxXa0VQdkU5UnB0NUZCNmIza2ZRMFdPVmNyc1lvSkg2M2p3WGxrVVoybFpNZk81RXd4eVZuY0V5V1FBaDhzUElodTVKN0Z0VUZRQQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo Actualités"
-    },
-    {
-      "articleId": "gnews_6115f3498cd6383d",
-      "headline": "Epidémie d’Ebola: les guérisseurs congolais veulent rejoindre la lutte - - La Baule.maville.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T15:49:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRGdzOUEtXzd0VkxaV1BPWVE0T2xMdnRYcGtWWHpFVTdJOGtBYl8walZGazZxZlFXdEFZRVJmb2ZWVjBXcGFLYWR0RFdwczFBMnNha2RNLVM4VGUwVGQwd3l2WTF5Mk9rMjVUNWF0MnYtYXpFWDJBTm1oRFFaeEI4RGhZakhzaWFTYWk5MW12elBWMm9iQTlFc3BpQkZrXzc5MkZwdmlIVWdnOVhzSlJPQlpmdDlqYmw2V2pCX2xYenhQT0NJWGFjOVVnSVFENUk?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "- La Baule.maville.com"
-    },
-    {
-      "articleId": "gnews_3945699a8280ecb3",
-      "headline": "Ebola-Le virus se propage de \"de façon exponentielle en RDC, le nombre de morts dépasse les 2.500 - Onu - Boursorama",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T15:43:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOSzdQdUR6YnBFOFdLVFlOX0lhb2NqblpGOHY1NVRvc2k3UVpfS29UaFE1ZWFwbTFDeDhJd2dGbmhEOWUtR0hvbDBCUzRsUzJsczcyNkpNN3pzMnFkZkxXMnB2Y3VpRFVtOVFtWXFLY25DRWJ5Tlo4RUl0bG9nSF90bHV3aFE5SjE5ekMzcWl0R052R1hrR3FVZ0xmTWszNDVuNWpkREVzLUtZMk94dFpEUWNxcXJBUnVMdU0xT0VUa1M1OXlyQlJGcF9xM3Z3YUM0WEFydHE2WjJSbDl1UUNRcTFmclhyMEpMcF9SVzQ0aVVsREVPTUsyUWZ2eVZXLWY4NmRsUGhRLWZaampNWGQyeFJrSDMzUXl4LTc3RzZ4V27SAaACQVVfeXFMTks3UHVEemJwRThXS1RZTl9JYW9jam5aRjh2NTVUb3NpN1FaX0tvVGhRNWVhcG0xQ3g4SXdnRm5oRDllLUdIb2wwQlM0bFMybHM3MjZKTTd6czJxZGZMVzJwdmN1aURVbTlRbVlxS2NuQ0VieU5aOEVJdGxvZ0hfdGx1d2hROUoxOXpDM3FpdEdOdkdYa0dxVWdMZk1rMzQ1bjVqZERFcy1LWTJPeHRaRFFjcXFyQVJ1THVNMU9FVGtTNTl5ckJSRnBfcTN2d2FDNFhBcnRxNloyUmw5dVFDUXExZnJYcjBKTHBfUlc0NGlVbERFT01LMlFmdnlWVy1mODZkbFBoUS1mWmpqTVhkMnhSa0gzM1F5eC03N0c2eFdu?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Boursorama"
-    },
-    {
-      "articleId": "gnews_b38d6c9d02d91bbb",
-      "headline": "Ebola en RDC : la surveillance des bateaux renforcée sur le fleuve Congo - France 24",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T15:29:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVk9KSnhDUHEzb2lJRHc5Y3c1MnVkQUtaU0dKQkhUVTdBQTZFeW9tUkRkYjJPSEtmb0d1ZUZoM3hhQ0h5bjJqdnNNSnNmcmJ5RVdDTG8wSHpMZGRqSWRPNlFWZmZ1SkJ3SV9acFRwU3htYXhWcHpYZlhWeHljV1A2bFV2SW5XUG0zV0xmRXpMZTRqNWYta2tPLS1tVWEyWlY3M3RoN2dNaU1ySkFYWFh1YUFUdEp4d1BTbzZwcHB6MlA?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "France 24"
-    },
-    {
-      "articleId": "gnews_f23745383b3510fc",
-      "headline": "\"Si un seul cas arrive à Kinshasa, ce sera catastrophique\" : en RDC, des équipes médicales inspectent des bateaux pour tenter de freiner l'épidémie d'Ebola - franceinfo",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T15:19:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOaDRLX1FKbXhKVS1jRXo1UFRrckwzcUtOendvV28zVnFfY2FNcElBQVF6UFdMNUNGeHBEYVVDeGpVMzYtTjFEbjhRd3JRSzU5QURKcFZGMnVDUURfMXdhT2pYcDAzS3ptc09lejBIeXBMc0RINUFfbHVOLXo0cmJ4ZDlHc3B5c212anRfclh0NzVDYi1yem9HQ0NYU0NNTTE4UEgwcGZjcUZaa0ZSMm53VWlkSTExMlItbkxldGk0UXFuaW8zdV9VMTNlRXlfa2pLdU9NdTAyNHA5SjJ1TXQyYWd0SmNIZGs3WXFZQW1YMExpLWNJVWtoZVM1Z2dvc3hFelNjRzBZQjUzY0I0ckQza0ZRU25SSG5sLVYwVHZCYlQ3eHAyTE83UFRCN1dfcjZubTFGeGhFZWJpQmFpcENN?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Kinshasa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "franceinfo"
-    },
-    {
-      "articleId": "gnews_7bca16d3ac3bc6df",
-      "headline": "Ebola en RD Congo: le bilan franchit les 2500 morts, une progression 'exponentielle' alerte l'ONU - tv5monde",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T15:13:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWjNwZHFUUTladng3Q0JSNVM3LXctYkRCR2RyNVRFUkJGZUR1dHZQeno3dTBVcHJEX2pMUEpVUHFBOVNORDlYZ1lORWtjWHQzVHZON08xOHpHWlQ2WFBOdmpQdFJaWkJ3ZTB3cDlDdWwxRTkwTllJOFNLTmhpVlVmSGdaTVc3YW02OW5wS1FaMmVMODU0Z29OdkJmQkdOOEhFTUtXdTFwYmRvRGdXLXgzU24zUHBMZ3NvTlZwblRFenBRbENxY1dnbXhLQ1pfZVNrY3p5dkVfQ20?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "tv5monde"
-    },
-    {
-      "articleId": "gnews_5b29714c41bf0a50",
-      "headline": "Ebola en RDC: avec plus de 2 500 morts, l'épidémie «progresse de façon exponentielle» alerte l'ONU - RFI",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T15:08:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOczE3VEdhNjVfRmp2RmU4aEI5aFhfUmtUSXNRS0RnbDFJUmNGM0hmWkJsZ0ZDM3RmNkwyYWw0V1FUWngtbThnVFprQ1FLaHVZSkM0OFNOREtQRmJaQlJWTzhmaktTLWFCYmE2RFoxaUFBUUhZRlBmVmRqMENmRnJ6MkRxcHkxSV9zSHo0TWtYUkJUUWlLQmNEN0pIVWxVUU44dENfaVYwWUFSOXZ0Q19XN1hUTk52TEhEWWFSQTNFaU92ajBiYm5DS2hGWVBkcDNNU0Q0U3pSUC01SGFqV3BDMkdn?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RFI"
-    },
-    {
-      "articleId": "gnews_6721d5080599f761",
-      "headline": "Epidémie d’Ebola: les guérisseurs congolais veulent rejoindre la lutte - Ouest-France",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T14:49:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbmVzc3BTNDUxTElEV0ltWEZMMUZBR2VKUWk1NHpJeEs1OUtDU0RKMnI2Tm1PVGt2d2dCS1ZWT1BOLVptSEpEcUgxZ1JlZzFJQUNPakdncWcyRnI0ck44b1ByWGNIRnJDelRFekVaalBKRXpJTDE3S2tNQUltR2x3enhlR0xSTmxIUGlqYXFrVEtYUVMzSHpPWGRHbXFjTk5lM1djSjE2V2hyTVdlVkQxM2E4c0wxa2ZzZTI3aXJmVE5CQXhobnNIRnZsVXhUeU4wdGlLTVpYdkdQaUNlXzVXMmhWaEhyZw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Ouest-France"
-    },
-    {
-      "articleId": "gnews_b7a891b3fc9aaf06",
-      "headline": "Cutar Ebola na yaɗuwa cikin sauri fiye da ƙima a Congo - MDD - RFI",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T14:40:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMG50WGNSTVdWQWdpZjFLQWxDaTRSNERHc0V1cGJpdkc3RENDeTY3RERQY3FadC1qYzVYWWxHVjNJOG52TmZJSWxOOXgzeU1EZlR0alUxOXhDcG5uYS1zREFWRFFJOWtlVE04SjhCb0MzTGh3RlNoTG44RWhDS0tXY2dpSUFHcS1kUTRrcTB5TlFjR2hBN29SWUlaVUl6Z0J6X1JyYTl6NGh1dw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RFI"
-    },
-    {
-      "articleId": "gnews_df5299576a348c08",
-      "headline": "UN warns Ebola outbreak in DR Congo ‘growing exponentially’ - Anadolu Ajansı",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T14:34:23+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3c1NnRwT3hUcHB5WkR6ckZHM1VMcnNDV3pSYjdKODZWM3Y3SzBtcC1iNGh4dDNzcnFETnRfaFVTQnpGS1JOMHVKUVVnSlhlbjB2NlJwTWhXSi1GTjBqZFcxNmpOc0dZRElNVTU3dTNZbDVpZjNtRkpqX1doY1hyUHVjcUNjUnVwWWgwLXNDZ3ZHbXk3MHBXcnZNUWM2Y28?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı"
-    },
-    {
-      "articleId": "gnews_27623c8e4ba5f7c9",
-      "headline": "L'épidémie d'Ebola en RDC \"progresse de façon exponentielle\", alerte l'ONU - Yahoo Actualités",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T14:25:47+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeGE5cXFyLVlWd0I4d3RtOV9aZFM4V0h3b3E5WE91U2NDcHpFLXk1SS1ObWFYZkNZVS0yTWtYbFlLUkJyT2FMZ0g2b0IxUFNQa0t3WTNYNlhUbzhsOXRwNzZra2tPbkdkTEl5d3ZNbUh4TUt2bnNFWHJCR2pneVcwM3ZXUWhXLUVpMGJVYlVuRWEyWTBOb3FxRXAzd19GY28?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo Actualités"
-    },
-    {
-      "articleId": "gnews_2e9d9f9af496870e",
-      "headline": "Ebola : 2 500 morts en RDC et 5 000 cas recensés… La situation continue d’empirer - Ouest-France",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T14:24:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNFF2R2tIcEZZdlZva0txbUh0WlgwSjN6eXBJRW8yanBEdFk5OGdDTTZ2WXFHUjZ2c1p0a3FXWTlmSkVMVU0xUDhTZUxJcEZJVzJXSXhDajRFYmxQa01zWnJreVRKVlZSTFBaZUpqRFpuUHd4TXRubzFQVDRmNkVkU2poVU0xZXRaLVpBUHJHSWpISGdVd1pldlJWdGxqSDRBbHMtcFBrUmhDek1mNFRCTlZEM1otQWZZSm16VWhqQ1ZmT3RQRnhfUncwQm5ieHdremZGa0o0RjNPVFJqZ3hnNUw5RkdFbXBGX0pMYTdyZ0Vodw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Ouest-France"
-    },
-    {
-      "articleId": "gnews_4fe681730d631859",
-      "headline": "Ebola en RDC : l’épidémie progresse « de façon exponentielle » - UN News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T14:22:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGV05ZeTVkc0RCY1Y3dmFtajJnd0g5VWEtTE1RcnYyeGQ2aFhWUWRlaGhPLXhCdU9kMEFiNms0VkxRT3NPX2l3Y1dQT1dFVGxYZEN2VW1jTQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "UN News"
-    },
-    {
-      "articleId": "gnews_d089e39034f17032",
-      "headline": "Ebola outbreak: Ervebo vaccine allocated for the DRC - Outbreak News Today",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T14:20:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUXdBRjZld19XbjdGOTA1SGd4Q2hMZk5jTmVXZmx6V0hncTZ1bEZaRXpXd3VxYXNIcE1scVhvNldmdlpRY0FmWVNGdDJBM0t4YllMNFFXQmFkMVFaYWUxaHBMOV9sVXdsV04teXBod0N6RVRKa0c5Zm1OX2xKcFVOZjBDZFNhWE0?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Outbreak News Today"
-    },
-    {
-      "articleId": "gnews_a1abe703540b7b87",
-      "headline": "DR Congo’s Ebola Epidemic Grows Exponentially - teleSUR English",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T13:50:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeW5ZTGpHNGZsNkpQb0h2V3VTcVJOanR5azd5S09vaEQ3aGVnSVRzbUE5MjFNeWpiaXVacUVUTEpoaEEybWJNOWwwNDBVS19wNlVkOFp6YjZwNDhGaUNsRW9KUmc0SXZtbXMyWThzajRreTdyeHJuU3ZjVkxsS1hENXNjSDZZU3RkNHJod1dmcFNrU1JBMUcyaUFNbU9jWi1yVzRBLXpoZ1BBT0VONGZKTFl1NTFYNlloS3JV?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "teleSUR English"
-    },
-    {
-      "articleId": "gnews_b8fb250487d22b75",
-      "headline": "Ebola outbreak ‘growing faster, ⁠⁠wider’ as DRC death toll passes 2,500: UN - Al Jazeera",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T13:45:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdGlzWmZGUUs1X1M5QzZfSktWcDVPWS1HX3lhRVhkaHlFeDUycU9PTlhnMkRzX1NJY19tNFhBSENhSzdlTHBUN2w2Ukx4QXdBejVpSWsxRk1Id3NGaUlGTmZfQ2Q5b2k3NnZ3bEpKZk1MNWgzbXppdll4TEV6a2lQM2hTLWp4VURhdC1WUlF5TXN5eElOSWlVVW9oRlJzc01RclJ0MHpFaTNuWG1ab1g5SktvUzE0SVZjVUpqQU9GZ0k4WmVGeHfSAcsBQVVfeXFMTzAxd1VXdzNtVUVhRGVoNVN4cmM3c2R1WXdkSkFKOEVmY0FxMXg1Qkt2SXFUclpmYVF6aEZyM3hGa3RqQk93bkdGX0hGd2JXeUp2RXpJQzk2LXgzMnJkZE9oU0dBcmROQkw4VkZ0Sk9zZ1hYUmNMWlF6LS1QeEZJTkF2SFVjZzZEY0Q4cDU1Mmg2cHBWSTlWSlVyaGZBMWR5cy1TZEdXYlJ2eWdreDJwQm1EOHJxcURzS1BuWFQzeG9VUFZ4YlhMSTBtTVU?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Al Jazeera"
-    },
-    {
-      "articleId": "gnews_cf67264622449300",
-      "headline": "RD Congo : la vitesse de propagation d'Ebola inquiète - France 24",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T13:21:16+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOXzlaRDFFSjN1OUEyd3ZvTU1FbmpseDNRcUpna0EwRzBnUlJnQVVwbGtvQWtEQmZUZEU3eEZKRGF5MEtGWHhfRi1FY29xTlBLWVdRV29zOGs4TEFwamk3S2x0QVFUUlFyVTZzbDVqY2M4VzZVdThvb1prN25HTDFqc1paWUxjZ1dleGo1OTJXQ0FuTTItRU0zT3FPTlZOdkRVb2hxVGw0aw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "France 24"
-    },
-    {
-      "articleId": "gnews_c72a0a8e71d2f95f",
-      "headline": "Ebola. L'épidémie \"progresse de façon exponentielle\" en RDC, alerte l'ONU - africaradio.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T13:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWVFXY1RERXY1bXVjQkdyaW5Uc1lxX2ZNYWpKaHBSZWdSTk1LYmJIWEpIeF9SQnQxYU5Tb3JWRUU2ckt3SGRfR2loU3JNUFBuWmtoVkluaWo4NlRXM2dxLWluQXpNbTlIS1U5LWpLY0h2d05kOFJEbTJRZjlXand6WjZtVGh1TnJ0eGxPREpwUUZCclBuR011OS05Um53SWVOWVMwMXBOaDV5bmFQMl9yNWJmZmw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "africaradio.com"
-    },
-    {
-      "articleId": "gnews_f01051fe7dd4a277",
-      "headline": "Ebola spreading exponentially in Congo as death toll tops 2,500, UN says - Reuters",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T12:56:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVFlxeFAyUWRzRllpVGluQjZlYlUwZjROV2w1TFphQmN4MjFISnNyZTBPaDlzYk15Y25XWUViOG1ZcU0yNHRTa2NydHlVWS1NSnVUTEJ3LTJOX2I2VmpfMDJ3ejhKR2tNV3g2MWR2OEZuVWdQbWIweko4dEc2cVAtUURQUlNad0tJNzdsQjZ0eUVuWEJ1MFdPMEtrWGlhYVZxNmVHemRmQ2xNYXdOTE1fNG91Q0htUUYyRTE1TElhVEpsdWtveXVIcVBQMTJCUnUwdlVWUVA4ZUtwNkVKNnc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Reuters"
-    },
-    {
-      "articleId": "gnews_eca1f62f7c22a99b",
-      "headline": "Ebola outbreak in DR Congo growing 'exponentially' as death toll passes 2,500 - France 24",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T12:55:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbGEyaDkycl94XzlrV29yT3pqMmt0NnlXMWQ1a3FqWGlmbjVuRlhOblVqM2hrTUNDczYwSnhyMmtCWHFMeEstbTlsT0JibkpLVlZtRnhLTERIVUY4ZnVjU2lPNzlpaVJqVGVfMDQ0YW1PaktWeDRQYzllYm9CM1k2amw3bXozU3dLeXI5dzNvVGcxRG5XUTBZdmNGNjVCWUNJczZrZGlGQWl1Yi0yZmVrNENpaHBOQ0pCMTRF?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "France 24"
-    },
-    {
-      "articleId": "gnews_0a9041e9004de06c",
-      "headline": "RDC : le bilan de l’épidémie d’Ebola s’alourdit à 2 516 morts - Anadolu Ajansı",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T12:33:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEJGcWl2aXAycVhjZWJsRGhhQ1d1NHhWa0FHR1BFMU43TjRfdmM3M0gtaW9ucTZlcndweFRMYUR1VkR4eDkzNGJBZ0MzcGw2Tlc1UVUyc0g2OVJLbVBBbi01d2o0QUVKY0RhOFpkaDdsWFZkLTZYaDlOcWZLY1RuMzJxVVN1dWpZTUhqeGFuZmxWZG5jemhxZ2UyZUxrMXkwaG85LWprVFc0N0RnOGtubm5iZw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Anadolu Ajansı"
-    },
-    {
-      "articleId": "gnews_dce061279448f698",
-      "headline": "Ebola : l'épidémie en RD Congo \"progresse de façon exponentielle\", alerte l'ONU - France 24",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T12:14:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcVlPLS12MlhqU3J1VTlsT2pqNHZNQm1TQnRhSHZxYUV5NzdUOFRLZG5zN2pPU2p6d2FoRlJNMFFpam9oM0FYMTF0TGs3YnVhb0I1X0M4ek00YU1JNUwyTERHS01USVRjLThScVRuVjBOR2k4MDlmQ2JsWWtrRWRHZTlrcXBSMVRNVU5JZnFOMHhCaEZHRFNET25OZmRLRG1ab0c4SEtTRDdQa2ZZNFZIMmI0MA?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "France 24"
-    },
-    {
-      "articleId": "gnews_972b6a58320d9a8c",
-      "headline": "DR Congo Ebola outbreak spreading exponentially, UN responders warn - Welcome to the United Nations",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T12:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMGdILXNTUHhhSG5FejJtQlgwNnF1eG9kNi0tSXdkQS1ZWmFLX1lFZXlGUEZxZ25JNjROTHg2amltelBjQmJVelE5X1huNlJQNlp0bHZyU0g0REdxVk9CSmx6OWpBUHpDTzhuX1AzY0sxWjl1RUVOTHcyamdpODdTWG9qNnhuTGdtNGJiV3FvY29oN0pFZHNtMzBiSEtUTEpXQk1SVUoxYi1pS2cxaDBMa2Y1SjFEVWtMNXpNX1o3cw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Welcome to the United Nations"
-    },
-    {
-      "articleId": "gnews_e34e186dfa18d8ef",
-      "headline": "DR Congo Ebola outbreak 'growing exponentially,' UN warns - Euronews.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:37:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYnQ2U2ZiWnlqeDZhS1A2U0xoRDJzSmFQaHJ5bTNGal9FN2d0S0k2RWVXaWY4YmQwU29KdjNjbmdEZERpRVlzNHhVOEpDZHNCZjltdVZjRk5wTEJIRlFrZUhhWXZRZmx2alpzdGhneW9DcUlYaWJSMjBNRjJ5S2UxN3ZHMDdoQTZOek9aYXdUMEdKWlRLS0FMUEZHdkktbGZMbVNjWUxHa3FGdEhla2VGMjRPSTU0dG1k?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Euronews.com"
-    },
-    {
-      "articleId": "gnews_551ed7bdca096acf",
-      "headline": "Video. DR Congo Ebola outbreak 'growing exponentially,' UN warns - Euronews.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:37:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjU0UFd1OTB3dW9CYmZFcGFFWEd6QTJxZjNxTXJHMEw1SmpJRW90YUlpZllzMXloRURVUVRiVktKTHlndVZua0M1LTNDZlp2U1FDUV9aYVpWZUFSQUlhQi1jUEg1a3JtcWIzLUVwbndubWZyUDFObHdQajlmMFhCWDhpLUd4OG1MMjBUYm9vVWwxXzI2MGdZR2I4dEhXV1FYRHNnWVl6LVFWVHZkYkNyOXpGMkhuSVlvZVpVN1pkRTk?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Euronews.com"
-    },
-    {
-      "articleId": "gnews_7b3953ccf8438b38",
-      "headline": "DR Congo Ebola outbreak 'growing exponentially' with more than 2,500 dead - RFI",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:36:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeE1UM0llekkyUkN3QW5EbTNUc0JWVHg2MVNyc1Fsalp4UVJUb2NoNFRfMHdCVnIzWS1KSmtLWUl5THJEXzhqbnFiVWVIaGttZTFONWJtbG44cEQ2eVE1S2VkYVY4UlVMRXR0ZjJ5V1c3VU0zSWhsNGZRMnRiZzRBXy1aRnVBaE9wU0lUdXJPdjVnZHNCSHljXzRqUUQwQ2o0cXVZMzVlOFBCVU1HbXc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RFI"
-    },
-    {
-      "articleId": "gnews_e6a81f6a3c9c38b7",
-      "headline": "L'épidémie d'Ebola en RDC \"progresse de façon exponentielle\", alerte l'ONU - Boursorama",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:32:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV25IeFBKQXJLaVlIc18wUVZrT2R1RWcwNkQ3NlA5VGFUYWQ2MlBWcXRXN3JFVFJtcENfUjgzM1o3d2F1ZmdjcExUTUNKTkdMV1hIc21MSF9LQjlBd2dPV3VkVzlIUE0wM1F2R1ZBLXlQLVM1Q3pIT19TbHJDeEdiOUw1eHZYM1V2bW5SVE4yeFRNR3FqUk5SS2htamRCdVlscXR4XzJWd1M4OE5OaW9TRUpWWVJKVmNZNGUxLUF4YTFMREd5WjZMNDZHeWptUnVhSjlFX3Z4OGpZMGYyUUJRazI3T3BwdjYwbGpVUkJWVkYxWjMwMTVkODNyQdIB-wFBVV95cUxQV25IeFBKQXJLaVlIc18wUVZrT2R1RWcwNkQ3NlA5VGFUYWQ2MlBWcXRXN3JFVFJtcENfUjgzM1o3d2F1ZmdjcExUTUNKTkdMV1hIc21MSF9LQjlBd2dPV3VkVzlIUE0wM1F2R1ZBLXlQLVM1Q3pIT19TbHJDeEdiOUw1eHZYM1V2bW5SVE4yeFRNR3FqUk5SS2htamRCdVlscXR4XzJWd1M4OE5OaW9TRUpWWVJKVmNZNGUxLUF4YTFMREd5WjZMNDZHeWptUnVhSjlFX3Z4OGpZMGYyUUJRazI3T3BwdjYwbGpVUkJWVkYxWjMwMTVkODNyQQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Boursorama"
-    },
-    {
-      "articleId": "gnews_65bd2c08e8a9675d",
-      "headline": "100 days of Ebola disease outbreak: Faster and more flexible response needed to curb deadly spread in DRC - MSF - Médecins Sans Frontières",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:16:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOE5oc3FZSHJBbkdaeWFLaGVGVzdadVJXdDdGeUl0NGtqSDJHN3FsaEZyYmkzU1AxTGlaWlczRDhSd0dGbmFRN05OWTJVZENqR2U0TW40dXV5ZnU5X1Z5MVJDMFJ0RlU0ZWpUSlYtMXE5YVdrWFc1WEQ5MEVRM0JmVm5jZTlYVVU?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "MSF - Médecins Sans Frontières"
-    },
-    {
-      "articleId": "gnews_c8d212d811989968",
-      "headline": "Ebola en RDC : l’épidémie progresse « de façon exponentielle » et dépasse 2 500 morts, alerte l’ONU - Le Monde.fr",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:16:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTUNqNnFVUUkzZW9qRTcwd2o5NXZHckdoZThyUF9oczN6MHBCTmZVRXhsSlNlV1JYWW9STHBqOWtrS1c4QzFOWEhSdUVtNFFLdjN2WmE3UlVJaE9Vb3FJTnZldkI1TXhPV2s0bGRTdnQ2TjVrQXNxdnJPX2RCSjdqSzRhT1JYSi1yS3BIaHNOUHlwOVdWdFc2U1dVMENyQk9hMnJHSzBaYnFjakVmNHgzQ1lXM3A4Y2lPbE1QOVVnUFZ0M3JSU1lTczhfUzQtblZQNUt1R3NkbVlmVlZjbzBLQXpvU0xjaEFFQnhua2JJRDlhQQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Le Monde.fr"
-    },
-    {
-      "articleId": "gnews_81d6cd6317325cdb",
-      "headline": "DRC Ebola outbreak 'growing exponentially,' UN says - DW.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:13:10+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MV2lHX3IwbjVBZWZiR0FTbEpuOEJTdFo0SThSbC1XZm5oSEc4RHhIaFJvaU8zVF9Ma2FhQ28tNjRkdzVaQkR6OWZiRkJzTXN6QnpsaXVhR3QzN240RG1KeWhIb3dDeGdXM1Rv0gFrQVVfeXFMTmJlSVlWaDE2elVYbEttRXN4V3RKbVNYSVY2WlctMjA2VGlzUGp3QzNSeHc5VnBCYlo3alJZc0VtcWR6bG1yb1BMd2lKTVc2WEFTai1IOWRpajhkX25VWUtjWUlXdWxLNERKTW8?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DW.com"
-    },
-    {
-      "articleId": "gnews_03e86b4036def1c2",
-      "headline": "Ebola en RDC : face à l’épidémie, l’OMS déploie 70 000 doses du vaccin Ervebo - Regards protestants",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T11:01:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeVpPMlVha3pha24xRU5IZnlKbkVSYlgyemw0N1c3a2drOE85ZEJLYTJ5bUdVdDFkMkZLZ1dTbFNjaG9XWHR0V1pGVXFVX0VUcURxQUFibWVlNDFLYnF5b0xneUFyZnFaZlJ5b1djVDVNYV81djRVVDVld3d0cm9UM0pTQUd0LUloUzBwOWgxNzZBR2NmY0taYzdWNllUbl9uLUtJNnRrWjlscVF5VXI4X194VGlMTzJETkdYbWQybzBMUExuU0dKYTdRVEZpZw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Regards protestants"
-    },
-    {
-      "articleId": "gnews_af0cdd0c17d1ce39",
-      "headline": "Ebola en RDC : l'épidémie progresse de manière \"exponentielle\" alerte l'ONU - Africanews",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T10:37:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa0Y5WUhMMEt3VVZPa3NYcE1PdVZIaE54cGF3T2ltR1F6eHJiMUxpcjZveFl4a01hU29UUHZlUU41OUhUV1JnN3lXVnkzVHJ5aHpqcEVPQnhHVGVLSXlrWGU1T0xrMXc5THZ2T2FkTG5DNUxOUEdtYVF4cGY2V2U2Umt2bzJvS0ZCOXhLeFRCZVBGUmlxek9SVm82QjRVSzlDR0hWcjZRblppMVnSAbABQVVfeXFMTVB4aG5abWNVdXZYMmROVm5RTmFCOVFESG1XeTVyU0MtTTFsQzVMbkZTcXZlZmcybnFYX0hOQmVWd1UtSEF3UExndW5wOUM0TVVER0hsOVhrY0FqUTd0Mjhpam1mUkxHUHNwQVpjQ1ZSXzhSa18tYW5lbVRENkNtU3ZOX0E2Q0NOdmxDM3g3RnNySE5LejVjeExxRHlfNDJNSEpybXREczM2Vk9xUVVjdXQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Africanews"
-    },
-    {
-      "articleId": "gnews_0c953237b4cc1432",
-      "headline": "République démocratique du Congo | L’épidémie d’Ebola « progresse de façon exponentielle », alerte l’ONU - La Presse",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T10:25:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVUlPbU9UTXhocFo3NGU0aTJJR19TRlpIbVBEdW15UXprSVVOZ3FtRV8xeklid2tTWnBRTWpLdHB3RlBLMDJDQ2FWUFJobnVDTnRZZngzc0N0bVhUSFllNnZLZkJHeGx1U2NmajNET2RUd3NaaHZlRV9TSmxHTHVScGdzdVQtbWtYU3g0eTNrM1E1dlFPenlsbGFfZXRuQUVJaWpjRmhUNDdVdXRxNVB5dXhPNFhqcWNMNHFjZE4wdzBfdkpHd1NnWGVTOWMwUlA3X0VienFHQjJOanY2cWZnYURPLXZfUVdWLXNlMmd5bw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "La Presse"
-    },
-    {
-      "articleId": "gnews_6a1f40f0f376a459",
-      "headline": "Ebola : face à une épidémie hors de contrôle, le besoin urgent d'intégrer les communautés - Médecins sans frontières",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T10:18:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNVNRUV9mWTJyZXlWQXBVMjZ5a2pIa0tlWHRRb2VQa2ZZZWtsOXBGSUliYkMza3Uwa19vSUN3Zk4tVXhSZlVaaGlRUl8zeWFLWmVUZEpyT3pMRVhfZDYwLVBBNjhlajJmU3lFZDNfM0hHY193VUFJazlsbXYxekhGWGR2QVkySWdtWEJWSTNuN0VuQVlGYnpZdU12VEpCeXVPMzQ3WUJvZGRINjRXdndsMW1Ua1Npb2VndkZYNDdGLW1Tdw?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Médecins sans frontières"
-    },
-    {
-      "articleId": "gnews_6ff8692b133e85a0",
-      "headline": "L'épidémie d'Ebola en République démocratique du Congo \"progresse de façon exponentielle\", alerte l'ONU - franceinfo",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T10:00:16+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZmR0cnFLdnNMSDVfUEdLbW5tZmc2amw1MEdRMTFXaTQtSUlzSUozZVV2WFRncktYVGNaTzczVjFjTFIyQ25wdW10aDJ1X2o5YVcxSll4S0NGM1ZfUmtCZlpXdnc4TnI3OTltUmluZlAtZElfbzQyeUZCa3ZkOVhvMFdHdldiM2o3VHpPcWIwc1g0dmV0VG91QWt5Yy11NXAxanhzaDhyQ1R5U01IZW9lWmRDbWc0N3B3bUdDZlRNOGJLMTBwUExfWGMxa3l0T1MtWFpPemJmS2phYnRHTmw3aUtJUWtodDlUV1lkeXl3elpOcGI4blQ1MjAxM3MwYkRvdm1NNVA1SzdhTEpFOXpIY243a0Y?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "franceinfo"
-    },
-    {
-      "articleId": "gnews_64fca175bfb4401a",
-      "headline": "Angélique Kidjo à Hollywood, Paul Biya de retour au Cameroun, Ebola en RD Congo : l'hebdo afrique - France 24",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T09:11:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWXN2bUNrUEJHeHVCUDdrN0k5OFV4SUFjenVhbUxKeklfVlpuYzB5MXUzQTdiNnlOQ2xYdUVtRkJvdndxV3h2dTRaQk5iQ25oQmR6VklfLUZuVURpZzZ4eWVXdXQ5NUFGdDViY3lPRjNGTVdsNmh2RW9vdVpLUXdDZ3Q2YTJqOEp3MGJFbEhBTW04ZjZlbVJGMmpfM3FEbG1uOExyOG16OXJ6N3ZwdWhOZkUxWXJIWWhvSTdlS3VUMWpDVlhhMThkemV6b2VYWFFQTGVTemRkMFdGNXNrS09nYlJSX2ZfUFF3akE3ODVPUjc?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "France 24"
-    },
-    {
-      "articleId": "gnews_4175b3c3e8b434af",
-      "headline": "L'épidémie d'Ebola en RDC «progresse de façon exponentielle» avec plus de 2500 morts, alerte l'ONU - RFI",
-      "headlineTranslated": "The Ebola epidemic in the DRC is “progressing exponentially” with more than 2,500 deaths, warns the UN - RFI",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T09:11:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRzVxNldqWTZJcWI2NnIwbVlFTC1EYk0wQnM0WVhlMTVLMEJZUzFDR3BzUWpTMWUxMFh2c1RwejZSVEM3MDRzaU5nUmN3WFZTaWVaQm5meTQtYzJrZ19oSEJ0S09pTXAyRXIxN2xjNzg3RmdLOEthbko2TTdLUHA4bDBRRUx5UVR2QUlWTjJpSUZUYVNfQUtZbFR1d0R6cTdEOUdTZ09tY3pRQ3N6T0QtSkZ5NjZBVE81aV9JNHVLdFNMOWc?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RFI",
-      "headlineJa": "コンゴ民主共和国におけるエボラ出血熱の流行は「急激に進行」しており、死者数は2,500人を超えていると国連が警告 - RFI"
-    },
-    {
-      "articleId": "gnews_9a335e2a35e5c1ef",
-      "headline": "Ebola outbreak: five big questions - The Guardian",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T09:02:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWkZCc25UdHJuVTlEZF9ZeTJkMUxBRVFiVkVDZmlndmVpQ1dYSVFhVHpmM0F3TS1vUGU3OG1oM3ktQmhqQUQ1OUN5WldBdzVTNVR5dzM2dDF6Y3NjdmZSd2VpbGZxYlExYXRyTjdjUk5kWDQ3QVl4WjlZRnRCb3YzaUVtd0FMRTRCS0VOcDNLZUEtem5JSnlJ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Guardian"
-    },
-    {
-      "articleId": "gnews_6a2294f23e364884",
-      "headline": "Ebola disease outbreak in the Democratic Republic of the Congo and Uganda - European Centre for Disease Prevention and Control (ECDC)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcjUwMFo1WUtEN0t1RFpuaUh5N0c5UGFOSW1oVGZZbDZFLXYzbUI2MFJmdS0wM294ZDliYXo5dEU1Nk9rOHpOMlJITWpBQmRRV2pJczFTSVg2SmRyNU8tTVZrMGlhcFZuTXhpNW82ZHlzVjZ6SGlCRFpVNmdkdnotUU83dDU0S0pq?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis",
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "European Centre for Disease Prevention and Control (ECDC)"
-    },
-    {
-      "articleId": "gnews_9845e2cdc418c1bc",
-      "headline": "Ebola:l’OMS déploie 70 000 vaccins « hors-label » pour tenter d’endiguer la pire épidémie de l’histoire - Journal de Kinshasa",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T04:13:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOG83LWZiX2lONE1Ya0czMU12dW5uM3A3a25ZZUJGNG45ZWtNWDJDRFBQbHN2X0U5RF9XMFBteC1BLTlqS3VLenhZeVpHcS11dHFGRjlBOW9teWowU2g4RHZZeGxZZ3dxdkR0bnVPRVJPWWR4eUhBWjgxeXZVcjdoLUM3MDJ4aGNaUHVrYTZQXzdQNkRGRV9MWVN6bHRkUzhWV0QxT1lfWUFFb2VfeXFxbFlKRVhBZFZEcUhndUpwVk9DbjNVZi1iZ3pR?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "Kinshasa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Journal de Kinshasa"
-    },
-    {
-      "articleId": "gnews_8e997415d36d081c",
-      "headline": "(Multimédia) RDC/Ebola: l'épidémie pourrait être jusqu'à trois fois plus importante que le bilan officiel - 新华网",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T01:55:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yelZSeDhnWWREOEVsdVFaZkJqQXVmSmJuSG9saGdaS3Nsd2xYUnZQWDQtVllzcmR2UUpWSzhvQi1pM1paSC1wM04yZF9JbmtIVEhIX0Zld3FmcEF5aDEtYzJpWndvMHR2RmU1WFhwY1NGMkhSMGRBOXhlRQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "新华网"
-    },
-    {
-      "articleId": "gnews_4fd0d2b0121a15d2",
-      "headline": "L’épidémie d’Ebola en République démocratique du Congo \"progresse de façon exponentielle\", alerte l’ONU - La Provence",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-08-21T00:09:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeTNFR1RTLVByZkxwQ21qQ2l2ZnpONks5Wi1hTTYyeW9obWFoZUxkczFvelNmckhVN1N5Y2dZSlVRVHk5bEZaTUlWWVF0SWQxMnVxZWc2ZVh5SUdtWENSRGEyaXVoWHVMZmFBc1lfZHlSTklrQldHUnJIYk5lMDhKUGk4ZkNBTkUzM2FvVl9xMm1pNk9jTkFDLVh5ZlE5NTcwSmhHNlVneGQ2czhaU2FqTWlOM3UtM3dIVXY2WUZtRlE3Ums5c2o2UW9wV1lxR3lGWHRtdXlIYWl0QVpvSjQtZE9BU3FLaFN1VVJVSQ?oc=5",
-      "originalLanguage": "FRENCH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "RDC (province non identifiée)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "La Provence"
     }
   ]
 }
