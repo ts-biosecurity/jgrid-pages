@@ -98,6 +98,26 @@ body {
   color: var(--muted);
   line-height: 1.6;
 }
+/* 更新を終了した特設ダッシュボード：半透明にして区別する。
+   ホバー／キーボードフォーカス時は不透明に戻し、可読性を確保する。 */
+.card-ended {
+  opacity: 0.55;
+  transition: box-shadow 0.2s, border-color 0.2s, opacity 0.2s;
+}
+.card-ended:hover,
+.card-ended:focus-visible {
+  opacity: 1;
+}
+.card-ended-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-bottom: 8px;
+}
 .country-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -161,7 +181,7 @@ body {
       <div class="card-title">コンゴ民主共和国およびウガンダにおけるブンデブギョウイルスによるエボラ出血熱アウトブレイク</div>
       <div class="card-desc">現在発生中の流行に関する特設ダッシュボードです。最新の状況をまとめて表示します。</div>
     </a>
-    <a class="card" href="https://ts-biosecurity.github.io/hanta2026-webcrawl/">
+    <a class="card card-ended" href="https://ts-biosecurity.github.io/hanta2026-webcrawl/">
       <div class="card-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-label="クルーズ船">
           <!-- 煙突 -->
@@ -187,6 +207,7 @@ body {
                 stroke="#90caf9" stroke-width="1" fill="none" opacity="0.6"/>
         </svg>
       </div>
+      <div class="card-ended-badge">更新を終了しました</div>
       <div class="card-title">ハンタウイルス感染症公式情報ダッシュボード</div>
       <div class="card-desc">世界各地のハンタウイルス感染症に関する公式情報を収集・表示する特設ダッシュボードです。</div>
     </a>
