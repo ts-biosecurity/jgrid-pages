@@ -16,6 +16,17 @@ https://ts-biosecurity.github.io/jgrid-pages/
 | Signal Triage (Clustered) | `dashboard.cluster.html` | クラスタリング表示 |
 | About Us | `aboutus.html` | サイト説明・情報の取り扱い |
 
+### 特設ダッシュボード（別リポジトリ）
+
+トップページ `index.html` の「現在の流行に関する特設ダッシュボード」からリンクしている、進行中の流行に特化したダッシュボード。いずれも**本リポジトリ外**で公開しているため、更新は各リポジトリ側で行う。
+
+| ダッシュボード | URL | 状態 |
+|---|---|---|
+| コンゴ民主共和国・ウガンダにおけるブンデブギョウイルスによるエボラ出血熱アウトブレイク | https://ts-biosecurity.github.io/evd2026/ | 更新中 |
+| ハンタウイルス感染症 公式情報ダッシュボード | https://ts-biosecurity.github.io/hanta2026-webcrawl/ | 更新終了 |
+
+更新を終了したダッシュボードは、カードを削除せず `card-ended` クラスを付与して半透明化し、「更新を終了しました」バッジを表示する（過去の記録として参照できるようにするため）。
+
 ### Country Dashboards
 
 | 国 | パス | テーマ |
@@ -43,6 +54,21 @@ https://ts-biosecurity.github.io/jgrid-pages/
 - フィルター（疾患・州/管区・データソース・キーワード）
 - 地図（Leaflet + TopoJSON）と記事リスト（左右分割）
 
+ただし **Japan ページのみ構成が異なる**。国内が対象のため WHO Disease Outbreak News セクションと国別基本情報（CDC / 外務省）を持たず、代わりに以下を備える：
+
+- IDWR 感染症発生動向調査週報カード
+- ARI（急性呼吸器感染症）サーベイランス週報カード
+- 「各種用途別ダッシュボード」— 外部ダッシュボードへのリンク4件（下表）
+
+| # | リンク | URL |
+|---|---|---|
+| 1 | グラフで見る感染症流行状況（15疾患） | https://www.jihs.go.jp/content10/030/Dashboard.html |
+| 2 | 感染症発生動向調査 Tableau ダッシュボード | https://public.tableau.com/app/profile/.41268756/vizzes |
+| 3 | インフルエンザ国内発生状況モニタリング | https://ts-biosecurity.github.io/flujp2026/ |
+| 4 | 麻しん（はしか）に関するプレスリリース一覧 | https://ts-biosecurity.github.io/measlespr/dashboard.html |
+
+①の疾患数は JIHS 側の対象疾患が増減すると変わる。疾患名と並び順は同ダッシュボードのデータソース `https://www.jihs.go.jp/content10/030/020/diseases.csv`（Shift_JIS）が正本。
+
 ## データソース
 
 各国の `*_infectious_diseases.json` は **Google News RSS** の疾患キーワード × 国コードクエリで取得した記事を集約したもの（共通仕様）。`who_don.json` は WHO 公式 Disease Outbreak News（過去2週間分、全国共通）。
@@ -53,7 +79,7 @@ https://ts-biosecurity.github.io/jgrid-pages/
 |---|---|---|---|
 | Myanmar | Google News, WHO DON | **GNLM**（国営紙 Global New Light Of Myanmar の RSS）<br>**Eleven Myanmar**（民間紙 Eleven Media Group の Drupal サイト検索 `/search/node/<keyword>`）<br>**Myanmar Now**（独立紙 myanmar-now.org の WP REST API 経由でキーワード検索）<br>**RFA / BBC / VOA / Mizzima Burmese**（ビルマ語ニュース 4 媒体の RSS、過去 168 時間ウィンドウ。VOA は USAGM 予算削減で 2025-03 以降停止中だがサービス再開時に自動復旧する設計）<br>**WHO Myanmar / SEARO ニュース**（who.int/myanmar 系を HTML スクレイプ）<br>**WHO SEARO Epidemiological Bulletin**（隔週 PDF 速報、最新1号は PDF からミャンマー個別記述をセクション/ページ単位で抽出し EN→JA 翻訳） | `myanmar_infectious_diseases.json`<br>`myanmar_gnlm.json`<br>`myanmar_eleven.json`<br>`myanmar_now.json`<br>`myanmar_intl_burmese.json`<br>`myanmar_who.json`<br>`who_searo_epi.json`<br>`who_don.json` |
 | Brazil | Google News, WHO DON | **InfoDengue**（FIOCRUZ のデング熱可視化サービスから地図画像と Pernambuco 州詳細を取得） | `brazil_infectious_diseases.json`<br>`pernambuco_news.json`<br>`infodengue_brazil_map.png`<br>`infodengue_pe_detail.png`<br>`who_don.json` |
-| Japan | — | **IDWR 感染症発生動向調査週報（疫学情報）**<br>**ARI（急性呼吸器感染症）サマリ** | `japan_infectious_diseases.json`<br>`japan_idwr_souran.json`<br>`japan_ari_summary.json` |
+| Japan | Google News のみ<br>（国内が対象のため WHO DON なし） | **IDWR 感染症発生動向調査週報（疫学情報）**<br>**ARI（急性呼吸器感染症）サマリ** | `japan_infectious_diseases.json`<br>`japan_idwr_souran.json`<br>`japan_ari_summary.json` |
 | Vietnam | Google News, WHO DON | 省境界 GeoJSON（地図描画用） | `vietnam_infectious_diseases.json`<br>`vietnam_provinces.geojson`<br>`who_don.json` |
 | その他 | Google News, WHO DON | — | `<country>_infectious_diseases.json`<br>`who_don.json` |
 
@@ -65,6 +91,22 @@ https://ts-biosecurity.github.io/jgrid-pages/
 - `dashboard.daily.html` / `dashboard.cluster.html` — 同様に自動生成（`github-actions[bot]` がpush）
 - 各国ダッシュボード — `jgrid-fetch` リポジトリの GitHub Actions（cron 約 JST 06:22 daily）が各種ソースからデータを取得し、本リポジトリの `{country}/data/` に push
 - 各国 `index.html`（HTML本体）は自動再生成の対象外。デザインや構成変更はこのリポジトリで直接編集する
+
+### 手編集してよいファイル
+
+本リポジトリは3つのパイプラインの **CI が自動で書き込む公開リポジトリ**。下表の「自動生成」に該当するファイルをここで手編集しても、次回実行で上書きされて消える。
+
+| ファイル | 手編集 | UI を変えたい場合の編集先 |
+|---|---|---|
+| `index.html` / `aboutus.html` | ✅ 可 | このリポジトリ |
+| 各国 `<country>/index.html` | ✅ 可 | このリポジトリ |
+| `dashboard.html` | ❌ 自動生成 | **jgrid**（private）の `scripts/generate_dashboard.py` 内テンプレート |
+| `dashboard.daily.html` / `dashboard.cluster.html` | ❌ 自動生成 | **jgrid-auto**（private）の `docs/` |
+| `<country>/data/*.json` / `data/latest*.{json,csv}` | ❌ 自動生成 | **jgrid-fetch**（private）／**jgrid-auto**（private） |
+
+`dashboard.daily.html` はデータを `data/latest.json` から fetch して描画するため、データが日々更新されても HTML 自体は滅多に変わらない。
+
+なお本リポジトリは **public** のため、`.gitignore` で `.DS_Store` / `CLAUDE.md`（ローカル専用のプロジェクト指示）/ `__pycache__/` を除外している。
 
 ## デザインのカスタマイズ
 
