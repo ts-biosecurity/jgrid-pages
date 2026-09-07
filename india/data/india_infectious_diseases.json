@@ -1,23 +1,220 @@
 {
-  "generated_at": "2026-09-06T22:57:04.773174+00:00",
+  "generated_at": "2026-09-07T23:36:58.846293+00:00",
   "date_range": {
-    "start": "2026-09-03T22:57:04.773174+00:00",
-    "end": "2026-09-06T22:57:04.773174+00:00"
+    "start": "2026-09-04T23:36:58.846293+00:00",
+    "end": "2026-09-07T23:36:58.846293+00:00"
   },
-  "total_articles": 18,
+  "total_articles": 25,
   "state_summary": {
-    "India (state not identified)": 13,
-    "West Bengal": 2,
-    "Madhya Pradesh": 3
+    "Punjab": 1,
+    "West Bengal": 6,
+    "India (state not identified)": 14,
+    "Telangana": 1,
+    "Madhya Pradesh": 2,
+    "Tamil Nadu": 1
   },
   "disease_summary": {
-    "Dengue": 8,
+    "Measles": 3,
+    "Dengue": 18,
+    "Influenza": 2,
+    "Tuberculosis": 2,
     "Malaria": 2,
-    "Measles": 2,
-    "Infectious disease (unspecified)": 7,
-    "Avian Influenza": 1
+    "Infectious disease (unspecified)": 4
   },
   "articles": [
+    {
+      "articleId": "gnews_f7aba6309375935e",
+      "headline": "Measles trends, age patterns, and geographic spread in Punjab, 2022–2026 - Bioengineer.org",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T14:54:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX1MtOG11R1RlWjdYall4c1NIQkFqSUVFZDJVYVpyYUphTG03d1dNbkZFWE00MktfSnV0MGxoVk85dkNEbGtkSmYydFBRZG00TkNoZWNleS1PY2pQa2pZNXgwcWVWM2xVZFpFbXFSTnJXWmlnUGMxV2Nka2RhMmVqU0FYUHllUjg5SXI3N2FHUDRTeC11Wm16S2t3?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Punjab"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bioengineer.org"
+    },
+    {
+      "articleId": "gnews_cc62960885948710",
+      "headline": "More Than 4,500 Dengue Cases Reported In West Bengal This Year: Don't Confuse These Early Dengue Symptoms For Flu - NDTV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T14:31:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMXJndGlna0NmY2pmUldMcHhFTjY2eERGaDk5dDU1cVgzZGNlbEZtb084ZzRQUEhsUDRCOW0wTzhLNnQza0hveHZlWnlGeEFIOE1iWlRod3otV0dMT3A1b3N0UXVTbWJJRVVZek5JSUlmcFNVM0c5RXRhY3ZLcjBUNmNReTRqalhfc29RRVpjNWRxalVpYVl1TUtGcG44THNnbXkwckU5RFZuWHR3R1g5dWZFRmJFNHdlR1N3d05wR2haVnBMZUVQTThWU1NzWTZsRHVqZHo5TFl4bHFJRGRZbHpB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "West Bengal"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV"
+    },
+    {
+      "articleId": "gnews_08060f44d96b1d16",
+      "headline": "Dengue Cases Surge in Bangladesh with Record Hospitalisations - India News Network",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T07:22:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNkx0eWJmakVjU3RBN1RZeXJjWHV4eWJOT2UtbF9FSkIxMGExWnZCQnR5ZDdfQXZqVmNmWkw2NUo5VXFObTlQS1YydGpVMmx1VW9CZVZXSVBuQkpTdEJEY0dLbXdZdXMxZWxvV1UzN1E4Q0RpelY0Tm56c2Q2alR1OUZSQnNvQ3BQRHRGeEJhckI3TlduX3dDVHBZM2hVanc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India News Network"
+    },
+    {
+      "articleId": "gnews_3aeaa4a87298b531",
+      "headline": "West Bengal dengue cases cross 4,500 as over 500 new cases reported in last 7 days - Mid-Day",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T06:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVkFvUmdQU1UyWFZwTlF4VXAwdW5VSzZxR1ZmQzJDYmZ4azB2a3Rya09xY1ZIb2laQTFObUlFdU90M05DeVJremxCRlRpQlNjOERPQW9uV2VQOGl3Q3pUbGFDZjVMX3Q1VG1uUzNlaDdqODEyS0M3ZGw0c3dFTHZpaXZZNjNSTk9aeUZfNUxkWExUTW41X1dnTS1telRvaXFuWjZhZFlhU3YtWVhHYjczVklqaGVCbGl3RW1tdGNDRlBLd2JEXy1iNC1JVGJmOVVldVdzc9IB2gFBVV95cUxONEJyUGNGVUVoOWR2Y0NKNHplZ0JYTUt1UERlWnk5OXdxaFNCcFpUbzBWRENCYVIzeHNfU3Z5RFdyRHRhQnNtYW10UFZsRXF2VHdNRmtvNHdScEpORXR6X1g0VEZSS2R2dzBnZ25lT2FCMkhLblNDY2ppdXVaMnJOV19jdkFiQkw4dXhsei16b1NCNU14WUZJX1NaUnlYVVZmVDNYZEdWUnJfak5HLUV2UjFJRGRnc1NqdmhaaG8zVkwwaWdWaExfbTh2ZHl6QjVJNXNYX0YxVEJiUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "West Bengal"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Mid-Day"
+    },
+    {
+      "articleId": "gnews_3979ba985e223b85",
+      "headline": "West Bengal dengue cases cross 4,500 as over 500 new cases reported in last 7 days - Mid-Day",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T06:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONEJyUGNGVUVoOWR2Y0NKNHplZ0JYTUt1UERlWnk5OXdxaFNCcFpUbzBWRENCYVIzeHNfU3Z5RFdyRHRhQnNtYW10UFZsRXF2VHdNRmtvNHdScEpORXR6X1g0VEZSS2R2dzBnZ25lT2FCMkhLblNDY2ppdXVaMnJOV19jdkFiQkw4dXhsei16b1NCNU14WUZJX1NaUnlYVVZmVDNYZEdWUnJfak5HLUV2UjFJRGRnc1NqdmhaaG8zVkwwaWdWaExfbTh2ZHl6QjVJNXNYX0YxVEJiUdIB2gFBVV95cUxONEJyUGNGVUVoOWR2Y0NKNHplZ0JYTUt1UERlWnk5OXdxaFNCcFpUbzBWRENCYVIzeHNfU3Z5RFdyRHRhQnNtYW10UFZsRXF2VHdNRmtvNHdScEpORXR6X1g0VEZSS2R2dzBnZ25lT2FCMkhLblNDY2ppdXVaMnJOV19jdkFiQkw4dXhsei16b1NCNU14WUZJX1NaUnlYVVZmVDNYZEdWUnJfak5HLUV2UjFJRGRnc1NqdmhaaG8zVkwwaWdWaExfbTh2ZHl6QjVJNXNYX0YxVEJiUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "West Bengal"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Mid-Day"
+    },
+    {
+      "articleId": "gnews_8cd7eab4443f813a",
+      "headline": "Bangladesh dengue outbreak accelerates as hospitals come under strain - DD India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T03:57:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPckNtcG81SURzZVRtTk9MOWV4b0V4U1dCdkFHZ2Y3dm0teTNxLTFTVGpEUHI5SEtScExkZmUxN2ZTV3VJbm5TMHFKNzAweDVyaHhvNS1KdFkxRzc1ZTd1Z1p6Ynp2T3NxeEZpVmRLYkpiaktXZVFKb21JdGlVMnZNLTRfeU0xd0kyTk83aEpaRXdlNGQzbzVEVTFCVkV5S19QcVE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "DD India"
+    },
+    {
+      "articleId": "gnews_d19610cb316e1bff",
+      "headline": "Dengue Control Measures Scaled Up in Floral Units in Kovai - Deccan Chronicle",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T03:23:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaG9tVU9PTThUTFFEZ3AtRkptNDQ5d0ZmakFBMnJKNDMzelF0Z2JYVHRXcVdOOGVQV2NhOHpmOUh3S0UxTVZ3ZWI2cUJ0OG9Kb2MxN1BuejN2X212R1lmbXpHVzl2R29CS0pZcUxCQUhvOEphZUM0ZVhadWRxMDJ0aEQyQUVkTTQtNnNsNlMxM3Q2NXFxSUY2SnlBRDR0aDFFME5JRFVISFpUUk9OaUIwSGFyc2FCbDRlaEd3VnZuUkc2MUHSAcgBQVVfeXFMTmJJX0FlbFNwalpQVUlxNWxxa0tYVWwzVV9Jam5GRjdSSmhXUnpsWWhyclNXVWcxd0hyMnNqeXdBcXBYWmlyV21XMXluSndneDRjdzkwekJXb3R2UEVEck1hS1cwVDVmSVpMSlJzd3dYb2JaY19TTVNpY0lMMWVpbUpONW9mQXBGdk1MX1NXYkw5dnk3WmxtczFTMEwtR0k2V2Q4S2NXa0pWTEpoNXlXLXBmS1lvNElnbDR2V2VkcWQ0cGd1RTJUcVQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Deccan Chronicle"
+    },
+    {
+      "articleId": "gnews_fa8963e6b5db74ba",
+      "headline": "Fever spike grips Hyderabad, but dengue cases remain low - The New Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T03:22:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSl9RbFAxQzluQVNfbXczX1c0Zm40ckFuMVVmRGhwY1RVSmdyRFpUQmp1T3JIQ3BmdEVuTVRRZXNQcHVQOHMtODZ5WC1fdHNvcFRoWExVZGVSUlFndmNXWkxaQXpMdlZVNVUwQ1NXNHdTNm1KWHhDTW12a25DdXZ4c1UzYjVIRVYxYUNIYzNYdVZsLXJaR1hETmZKdWw5ZThQWFdpUDg3Ry1TdkNiMHFCby1rU1VkdU1YLWtpVGdMUE4wMlhLaVHSAcYBQVVfeXFMTUpfUWxQMUM5bkFTX213M19XNGZuNHJBbjFVZkRocGNUVUpnckRaVEJqdU9ySENwZnRFbk1UUWVzUHB1UDhzLTg2eVgtX3Rzb3BUaFhMVWRlUlJRZ3ZjV1pMWkF6THZWVTVVMENTVzR3UzZtSlh4Q01tdmtuQ3V2eHNVM2I1SEVWMWFDSGMzWHVWbC1yWkdYRE5mSnVsOWU4UFhXaVA4N0ctU3ZDYjBxQm8ta1NVZHVNWC1raVRnTFBOMDJYS2lR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Telangana"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New Indian Express"
+    },
+    {
+      "articleId": "gnews_8d7fb011a979c551",
+      "headline": "Dengue Outbreak Escalates: Bangladesh Hospitals Strained as Cases Surge - Devdiscourse",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-07T02:59:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXcxT1pYMVdOalE3M0kwUFRwRHNIcHVYNDdsVk1UWGh6TzBzZDZCV2pEcndwQ2tLMWhhWkdIVW96Vm9wZUVyY0dxcGh1TzVHYzRGcjZUSlFUMkNneWp2V3BYaFQ0NC1EWTNyd0Z0N0JoTjFIZlpQS0hrZnRFSUtneENQaUZzMlpEUlh2VWhPdi02a2llNTBjc2xqWTBrU0FVeDEwSmN0QkFGNXlPamJEQ2RmMWdXZFpYakJyV2dpbl9hcVVs0gHEAUFVX3lxTFBJdzFPWlgxV05qUTczSTBQVHBEc0hwdVg0N2xWTVRYaHpPMHNkNkJXakRyd3BDa0sxaGFaR0hVb3pWb3BlRXJjR3FwaHVPNUdjNEZyNlRKUVQyQ2d5anZXcFhoVDQ0LURZM3J3RnQ3QmhOMUhmWlBLSGtmdEVJS2d4Q1BpRnMyWkRSWHZVaE92LTZraWU1MGNzbGpZMGtTQVV4MTBKY3RCQUY1eU9qYkRDZGYxZ1dkWlhqQnJXZ2luX2FxVWw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Devdiscourse"
+    },
+    {
+      "articleId": "gnews_d66181aadc0f7611",
+      "headline": "Dengue Cases Surge in West Bengal, Cross 4,500 Mark; Kolkata Sees Rising Concern - Hindusthan Samachar English",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-06T19:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPejNNN2xhbHNLeTB5UVVVSWJ3aUpVVmV5SnBzSGMxc2RJZDctVFhZcWUwZjNGQXNtSG80VUkySnRZdmtPWTE1YnlkWnR0ZXpWY2syYTA5U2FXOFJnVi1fNGU1UXdwdm9RcUJneGNtdmxxdXRMNldLOHNFdGZjMGNQb3NjcnpoSGxCRVR4ZjRid3I?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "West Bengal"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindusthan Samachar English"
+    },
     {
       "articleId": "gnews_27f9e44486744a3b",
       "headline": "Bengal carries out mega dengue prevention drive, 1,600-plus wards targeted - The Statesman",
@@ -35,8 +232,7 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Statesman",
-      "headlineJa": "ベンガル州、大規模なデング熱予防運動を実施、1,600以上の病棟が対象 - The Statesman"
+      "sourceName": "The Statesman"
     },
     {
       "articleId": "gnews_734b91ac01280421",
@@ -55,8 +251,7 @@
         "West Bengal"
       ],
       "dataSource": "Google News",
-      "sourceName": "EdexLive",
-      "headlineJa": "西ベンガル州保健大臣、デング熱予防のため生徒に長袖服の着用を許可するよう学校に要請 - EdexLive"
+      "sourceName": "EdexLive"
     },
     {
       "articleId": "gnews_1a965e835215a62a",
@@ -75,8 +270,7 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "BioPharma APAC",
-      "headlineJa": "感染者数が20年間で11倍に急増、インドが初のデング熱ワクチンを承認 - BioPharma APAC"
+      "sourceName": "BioPharma APAC"
     },
     {
       "articleId": "gnews_eeb49796461315cf",
@@ -95,8 +289,7 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Times of India",
-      "headlineJa": "MDU - 写真 - デング熱予防活動 - The Times of India"
+      "sourceName": "The Times of India"
     },
     {
       "articleId": "gnews_7a06baafd2971621",
@@ -115,12 +308,11 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Times of India",
-      "headlineJa": "タンバラム州、モンスーンに先立ちデング熱予防対策を強化 - タイムズ・オブ・インディア"
+      "sourceName": "The Times of India"
     },
     {
-      "articleId": "gnews_ee8146abaa30ab71",
-      "headline": "Madhya Pradesh Adivasi Children Deaths: How Measles, Malaria Killed 29 Children in Balaghat - newsx.com",
+      "articleId": "gnews_d89dcf925cbe251a",
+      "headline": "Madhya Pradesh Adivasi Children Deaths: How Measles, Malaria Killed 29 Children in Balaghat - NewsX",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -128,16 +320,15 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMVdjWWs1UDdRdUN3SVBCY3dDMEM2ZGZsa09vNUN1RUtHQThVZkpLd0kzZVdvMUxPeTZHbjd0TURsa216aXFCeUo0dUhQMU85UmJfemhVMlZQNUN3UnktVkJiX0RLa0lFUkR0NHo5ZHl3NDJEaGlDLURvT2FPYlhFVXd3cDRYeDJyNTBobW9mZzBJbng0dnQwVWNUbEVJLUEtcWpGNVpYQVJYdlF6Q1VTVUR2V2t4NFBLdlgxWDY2OG9MRnYxX0JPalRyWUdhd9IBzgFBVV95cUxQMVdjWWs1UDdRdUN3SVBCY3dDMEM2ZGZsa09vNUN1RUtHQThVZkpLd0kzZVdvMUxPeTZHbjd0TURsa216aXFCeUo0dUhQMU85UmJfemhVMlZQNUN3UnktVkJiX0RLa0lFUkR0NHo5ZHl3NDJEaGlDLURvT2FPYlhFVXd3cDRYeDJyNTBobW9mZzBJbng0dnQwVWNUbEVJLUEtcWpGNVpYQVJYdlF6Q1VTVUR2V2t4NFBLdlgxWDY2OG9MRnYxX0JPalRyWUdhdw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Malaria",
-        "Measles"
+        "Measles",
+        "Malaria"
       ],
       "locations": [],
       "states": [
         "Madhya Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "newsx.com",
-      "headlineJa": "マディヤ・プラデーシュ州アディヴァシの子どもたちの死亡：麻疹とマラリアがバラガットで29人の子どもをいかに殺害したか - newsx.com"
+      "sourceName": "NewsX"
     },
     {
       "articleId": "gnews_7c834e75ffe51652",
@@ -156,8 +347,7 @@
         "Madhya Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Hindu",
-      "headlineJa": "マディヤ・プラデシュ州の部族の子供たちの死亡：センター、州は単一の病原体によるものと考えることに警告 - ザ・ヒンドゥー教"
+      "sourceName": "The Hindu"
     },
     {
       "articleId": "gnews_d8f060fb1d0596ee",
@@ -169,16 +359,15 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOTFPemhnVU9hMW1VSlZXeWgzWDVRaUc1QzFPcGZ1OXBYaFdfc3R4SUEwLXBTX2NUb3NfMHl3NS0yU3ZuVl9NSFlwZ1U3YVZiUE5qcF81UXBzRjRJeTJDMW12eElpZllVd2JUdzQ0YTZ3VjZTdFdVakJiYXRBRUc0aHhlRzVaOUN4V0dldlJzTGNyVm1EckVlRXVyZFIzTFg0dmc0RDJ3dTV0RWvSAbABQVVfeXFMTVY3QllPd1hER3NnNzhYa1dFMFItZGVEZ3VUVWdad3VYQ3c5NHlNcGhuRkYzbWtsOXFCaS1xQTJNV3RaR1pVRDVrNFozMnBhbm01UWJqYXdoTzFDMUE4QTJzbDhYY2F2dXJ2bXRsNUFLdXZVd3JKUkdIbmY2VjNyM3lzcXpoRUJBZDh2aDhqQnRiakFxNWlDdGNkdmduaVAxWXppSEttUnVHWFg2V3RoN3E?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Malaria",
-        "Measles"
+        "Measles",
+        "Malaria"
       ],
       "locations": [],
       "states": [
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Mathrubhumi English",
-      "headlineJa": "バラガット 30人の子どもが死亡：麻疹、マラリア、栄養失調が出現する危機の背後にあるもの - マトゥルブミ"
+      "sourceName": "Mathrubhumi English"
     },
     {
       "articleId": "gnews_05e41bae86ddc6e8",
@@ -197,12 +386,11 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Healthy Indian Project (THIP)",
-      "headlineJa": "ベンガル政府は感染者数を隠すのではなくデング熱撲滅を目指している：アグニミトラ・ポール大臣 - ヘルシー・インディアン・プロジェクト（THIP）"
+      "sourceName": "The Healthy Indian Project (THIP)"
     },
     {
-      "articleId": "gnews_80c1870c186422a2",
-      "headline": "‘Please do not send girls to school wearing skirts’: Bengal health minister urges schools to modify uniform... - Bhaskar English",
+      "articleId": "gnews_5230c3013cb90aa7",
+      "headline": "‘Please do not send girls to school wearing skirts’: Bengal health minister urges schools to modify uniform... - bhaskarenglish.in",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -217,8 +405,7 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Bhaskar English",
-      "headlineJa": "「女子生徒にスカートを履かせて学校に通わせないでください」：ベンガル保健大臣、学校に制服の修正を要請... - Bhaskar English"
+      "sourceName": "bhaskarenglish.in"
     },
     {
       "articleId": "gnews_8d893d89c7315677",
@@ -237,8 +424,7 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Moneycontrol.com",
-      "headlineJa": "「サルワール、ニーハイソックスを履いたスカートではない」：ベンガル保健大臣、学校に女子生徒の変更を要請... - Moneycontrol.com"
+      "sourceName": "Moneycontrol.com"
     },
     {
       "articleId": "gnews_3414776f573cc054",
@@ -257,17 +443,16 @@
         "West Bengal"
       ],
       "dataSource": "Google News",
-      "sourceName": "theweek.in",
-      "headlineJa": "「靴下やスカートではデング熱は止まらない」：西ベンガル州の学校、3カ月かけて制服規則変更へ - theweek.in"
+      "sourceName": "theweek.in"
     },
     {
-      "articleId": "gnews_d224d3f15d4ac330",
+      "articleId": "gnews_3da505041605e233",
       "headline": "Can’t ask mosquitoes not to bite: Bengal Minister’s remark sparks criticism - The Hindu",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-09-05T07:15:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYldlbU96RlNjMW9wanpCRUFCcWhKUEY0LTh4UWpCOUZNcFM2aEhBNDA1emtlT2JiOUlrREo4Y3czQ2YxSU1MNTBOQzRJWm9yWHM4TFdUSS1WOWViNEJxWjhTUi1aTkN1ZVRDNmltTGE5emc3SXo5NXFLWDV1VEgzUHFNTGxtQnJPa3ZIWUZKa3Fsa0FlZjV5eS03UlJJYWU4V1BMeU5UYkpHM2U2anBKS0tVakN3emJYSGNQaWE4d2FNWklYdnd1R3VVRjZnbzhxWFJKZVEwbVRmNHPSAeIBQVVfeXFMTmFwOVZfaFlqX3o5WGlMeERCdGVCRmYtTjBzejNKX3VTU3RNdUdrcVlmZThBT2d1c2Y1eE9hWEZhM01nOFF6UkhGWWFqS3FCNkVNTGJqSng2M2pnd2dvUC1lQVhLZm03VkotSnBPZnRFRS0weXg5eFFPWUNUMU9GWWJMbWZSdm80UE1EeVR3NEZVUnhNN04tcGNLVTliS0xQQ2FiT2RJSndaTVpIaWZLWXlGRGo5VEE0RG55NlQxVWlTOWI2VnpDdDNCdUZiS1c4Tl82YWRTdVNWWEFkZUdhOFVXUQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYXA5Vl9oWWpfejlYaUx4REJ0ZUJGZi1OMHN6M0pfdVNTdE11R2txWWZlOEFPZ3VzZjV4T2FYRmEzTWc4UXpSSEZZYWpLcUI2RU1MYmpKeDYzamd3Z29QLWVBWEtmbTdWSi1KcE9mdEVFLTB5eDl4UU9ZQ1QxT0ZZYkxtZlJ2bzRQTUR5VHc0RlVSeE03Ti1wY0tVOWJLTFBDYWJPZElKd1pNWkhpZktZeUZEajlUQTREbnk2VDFVaVM5YjZWekN0M0J1RmJLVzhOXzZhZFN1U1ZYQWRlR2E4VVdR0gHiAUFVX3lxTE5hcDlWX2hZal96OVhpTHhEQnRlQkZmLU4wc3ozSl91U1N0TXVHa3FZZmU4QU9ndXNmNXhPYVhGYTNNZzhRelJIRllhaktxQjZFTUxiakp4NjNqZ3dnb1AtZUFYS2ZtN1ZKLUpwT2Z0RUUtMHl4OXhRT1lDVDFPRlliTG1mUnZvNFBNRHlUdzRGVVJ4TTdOLXBjS1U5YktMUENhYk9kSUp3Wk1aSGlmS1l5RkRqOVRBNERueTZUMVVpUzliNlZ6Q3QzQnVGYktXOE5fNmFkU3VTVlhBZGVHYThVV1E?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -277,8 +462,7 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Hindu",
-      "headlineJa": "蚊に刺さないように頼むことはできない：ベンガル大臣の発言が批判を引き起こす - ザ・ヒンドゥー"
+      "sourceName": "The Hindu"
     },
     {
       "articleId": "gnews_812706e8e00982a7",
@@ -297,88 +481,27 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "India Today",
-      "headlineJa": "デング熱対策のため、ベンガルの大臣、学校でスカートをサルワールに交換するよう女子生徒に要請 - India Today"
+      "sourceName": "India Today"
     },
     {
-      "articleId": "gnews_7a2a3accc0d576a3",
-      "headline": "देश में लगातार बढ़ रहा है स्वाइन फ्लू, हर राज्य में मरीजो की संख्या में बढ़ोतरी, जानिए किन्हें सावधान रहने की है जरूरत - ETV Bharat",
-      "headlineTranslated": "Swine flu is continuously increasing in the country, the number of patients is increasing in every state, know who needs to be careful - ETV Bharat",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-04T14:25:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONlF6V055RDdxOGo5M1lIQThlVDRFM016LXJwUDJ2XzRWaG55TVlQa2xSNXc1RlVLZm80Wm5wT2pWX09XVF9FTDFCSWJVSVpGU3ZZM1VWY2tJQ1BBbERKUFJtc2ZDblhjRm1nTUZDb3NPMWtXVzE2bDBNNkF1VnZ3QWZLdklTMUhpaHRIVlB5QnFGeXB6SlRuR3F4ekZjUWpFZTZVMkhWSHlFREx3TEFxeXRiNGVRekIzNzlWdXVEaGRGdTNaVlhwZ25DOTNycm9jc2cyaWlmakV5RVQzYWIwWGFBYU5kWS1NcmfSAe8BQVVfeXFMUE1OQ2lrY3ExcDBvZGZaVHdkM2cwUXZnMU9NTklwaFVkUHZCVmFITktNZEFHN2h3cUw4QzhVMGZFdXM2WmxjTVFKMlJjOXR4TTlfcHVkUGgzNUhtTG9YOFZpQ3dqUTZKaDBuTFJrM1A3VkluRlVXazRjRXAtN3dKNTB4U0hLMndHLXdIUENTNjBRSEh5ZHgxR0p4Q1JXR3ZCSWFIRDJhVmh0dGMtTjNhc1JFZzlJVjRMaVJqZzJzWUFmYUM4RUFhUG51R3BEdGJidG1tMGRKc2lHZ1Vxb1lVbFZ4S09tWExEVW91c3BIczg?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat",
-      "headlineJa": "豚インフルエンザは国内で増加し続けており、各州で患者数は増加している、誰が注意する必要があるかを知っている - ETV バーラト"
-    },
-    {
-      "articleId": "gnews_2e764fc09e4c82a8",
-      "headline": "Sonipat News: शहर में महामारी की आशंका पर 20 से ज्यादा स्थानों से 500 टन कूड़ा उठाया - Amar Ujala",
-      "headlineTranslated": "Sonipat News: 500 tonnes of garbage collected from more than 20 places on fear of epidemic in the city - Amar Ujala",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-04T12:26:49+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPRlNBUElxMVRQREFUM0FuNXZYLTZKZGdYSW1HOFBhWlNxMXVOdUhlekpZaWh2cTN4QXZ0eUY1MzFCLTQ3dE5OUWpTZEZnQUVSUVREcjM5aDljTUZ3Ylk5enpZTEh6Vl9GdGw0dHhrSjFpaFpsWTlXTzBUejNuNDBTdEJNbzNESjdwSXhISHZjZ1NtLVY3Q0M2UXNyU19rQldMMFg3Um5rSXp0NlVRaEpMMUNlVXM0TDNhZDlaMFhTczRXQk9kdlcybFNxMktwVFpjSm5YLTIwUTJ0b1U3aFU5LUZwX1l0TUk3Tm1hZ3FGMzR3bFVQc3QtVGIzUTlScGh2cV9zeG9Ed3VSbmk1LXFrSHA5RlBEdzBN0gGeAkFVX3lxTE1YRkpRQWItbHdFUWNvaWdVX0NZcmdaVVFhRThWZUZyeWR2bnVzbmNIWW5ON04zS2Q2NEtNYk9wbmI2bG9RT0xIX3VGSkd6NHJyc3FueVJadDJ3b21haWhvdFUyXzFTVjdFWTlZcDhudTJRV0pRTlZTMWE1MXlUeGJWbmc0YlhsWFEwb3ViRTJqZkxsSDgyV0ZmRGdSTElZcUhsNGVmTU55b01iWlNOTFQxdnVncmFxYnpvZkhSYnlJdXA3NWxFNHFDWnRkU1NNa3Ntd0t2VFJES2UxeVIxalBWb0s1ODdXVW9yc2VKMUtNYWZRemRMQ05TOHpRYS00MFhFM05IdjN2Mm5yak5hcFpGdWRFMVVfa1ZpWUlLWmc?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Amar Ujala",
-      "headlineJa": "ソニパットニュース：市内での流行を恐れて20か所以上から500トンのゴミを収集 - アマール・ウジャラ"
-    },
-    {
-      "articleId": "gnews_2cebaac2fbd8e2b0",
-      "headline": "ऑस्ट्रेलिया में मिला एच 5 एन 1 बर्ड फ्लू का पहला मामला - News On AIR",
-      "headlineTranslated": "First case of H5N1 bird flu found in Australia - News On AIR",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-04T06:03:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HU2J5QnpycjRSWlc2YmNNX3BuX2RULVdzaVcxZXlaeUNpRlRBS1IyRlFQbXo0ZXFQRFlWTm96S3phQ0Y3eEJkeWxhaWxnVDdzU2xiZU9HTXJLMllkSmFhdUpDRFRvUjg4bWk4RVI0bmlBVUNEbGpFZ0pNVllRUzA?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News On AIR",
-      "headlineJa": "H5N1型鳥インフルエンザの初症例がオーストラリアで発見 - News On AIR"
-    },
-    {
-      "articleId": "gnews_25820ab9eb293eef",
-      "headline": "For months, Adivasi children in Madhya Pradesh kept dying. The government woke up too late - Scroll.in",
+      "articleId": "gnews_aa3817f687b15331",
+      "headline": "Dengue, swine flu cases rise sharply in Tamil Nadu | Tap to know more | Inshorts - Inshorts",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-04T01:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3RJVGRWVnkzSVNoVnZPeFFHV2NidHhnYlNkSVhuTW9sc0U3dHVtV21mNWpXdXF1QlJGT2N6OEhjMk43V2tsRmdLRG5kTW0tOVFoWmgwS3ZSYVFkZ1JWMWdQNFQ2ZVdMWXNzX0QzeEtheUhud2ZJbVJHa1JSSkZ5MGtTQnI5OFFReUN5TXA4TVZYakd2NFpIaHJUa0J2cUdrZnBTeldkUVEyWnI2eVNkWUlfTmI0MHVsajJ1d1V30gHDAUFVX3lxTE5rWXNrblRUQ1pyRVktS3pzUXZWSHowaFdhcm5KaVVrRGd1VmlzbU5vU2VmM2R4ZDdRMVZ6dUdZM0RLMWdTb0dFM1hIYVlhcm90NEcwVEhkR2poQTBsOFRmZW9LTGZDZTJXY2cyT3c0ejZQM3pyQS02TlMtYVM1ZlJ4eFNGXzdiWWh5dFpLRVE1WE85M0VjbUJuRUJzcDRSTXhmOXU2ckxXUUJqaVVNSk14c2FMaUZnSlpSbnRfUzdwNl8wZw?oc=5",
+      "publishedTimestamp": "2026-09-05T01:03:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRlNFZEt2SGZ6ZG01YTBPM1ZEZnJ6RldxZVFnVWRZVVpzZkREQnBpOWVVNmZqSTNpd0dqZVhIWGlNb2hlWHk5WlF2SmhHWXl3V1V5Um1mQmRZX0VuUW9uY29yYU1ydFFObEpQWlY5REtlTFVvNFNka2EwUXRXWktHQmI1N2xKQmx4WkRsOHVNeDRnUUU0ZzZmVkRjbi1IQdIBngFBVV95cUxPRlNFZEt2SGZ6ZG01YTBPM1ZEZnJ6RldxZVFnVWRZVVpzZkREQnBpOWVVNmZqSTNpd0dqZVhIWGlNb2hlWHk5WlF2SmhHWXl3V1V5Um1mQmRZX0VuUW9uY29yYU1ydFFObEpQWlY5REtlTFVvNFNka2EwUXRXWktHQmI1N2xKQmx4WkRsOHVNeDRnUUU0ZzZmVkRjbi1IQQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Dengue",
+        "Influenza"
       ],
       "locations": [],
       "states": [
-        "Madhya Pradesh"
+        "Tamil Nadu"
       ],
       "dataSource": "Google News",
-      "sourceName": "Scroll.in",
-      "headlineJa": "マディヤ・プラデーシュ州では数か月間、アディヴァシの子供たちが死に続けた。政府は目覚めるのが遅すぎた - Scroll.in"
+      "sourceName": "Inshorts"
     }
   ]
 }
