@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-24T23:55:05.245973+00:00",
+  "generated_at": "2026-09-25T23:59:46.247831+00:00",
   "source": "急性呼吸器感染症サーベイランス週報",
-  "source_url": "https://id-info.jihs.go.jp/surveillance/idss/target-diseases/acute-respiratory-infection/weekly-report/archive/2026/ARI_2026w36.pdf",
+  "source_url": "https://id-info.jihs.go.jp/surveillance/idss/target-diseases/acute-respiratory-infection/weekly-report/archive/2026/ARI_2026w37.pdf",
   "year": "2026",
-  "week": "36",
-  "reporting_period": "2026年8月31日～2026年9月6日",
-  "raw": "2026年第36週（8月31日～9月6日）におけるARIの定点当たり報告数は48.41（報告数179,995例）であり、前週（8月24日～8月30日）と比較して増加した。 ARIの定点当たり報告数が前週を上回った都道府県は 44件であった。インフルエンザの定点当たり報告数が10を上回った都道府県は1件であった。 各感染症の定点当たり報告数では、インフルエンザは3.29、COVID-19は2.08、A群溶血性レンサ球菌咽頭炎は1.38、RSウイルス感染症は1.02、ヘルパンギーナは0.96、咽頭結膜熱は0.26であった。年齢群別にみると、報告数が最も多かった年齢群は、インフルエンザ、COVID-19では0-9歳、RSウイルス感染症、咽頭結膜熱、ヘルパンギーナでは1-4歳、A群溶血性レンサ球菌咽頭炎では5-14歳であった。また、新規入院患者数は、インフルエンザは284例で前週と比較して71例増加した。COVID-19は286例で前週と比較して15例増加した。2026年第36週に検体が採取されて集計時点までに報告されたもののうち、インフルエンザウイルスA型は19件、SARS-CoV-2は16件、RSウイルスは4件、インフルエンザウイルスB型は0件であった。",
-  "ari_per_sentinel": 48.41,
-  "ari_total_cases": 179995,
+  "week": "37",
+  "reporting_period": "2026年9月7日～2026年9月13日",
+  "raw": "2026 年第 37 週（9 月 7 日～9 月 13 日）における ARI の定点当たり報告数は 55.87（報告数208,242 例）であり、前週（8 月 31 日～9 月 6 日）と比較して増加した。 ARI の定点当たり報告数が前週を上回った都道府県は 45 件であった。インフルエンザの定点当たり報告数が 10 を上回った都道府県は 1 件であった。 各感染症の定点当たり報告数では、インフルエンザは 5.54、COVID-19 は 2.44、A群溶血性レンサ球菌咽頭炎は 1.46、RS ウイルス感染症は 1.12、ヘルパンギーナは 1.00、咽頭結膜熱は0.24 であった。年齢群別にみると、報告数が最も多かった年齢群は、インフルエンザ、COVID-19 では0-9 歳、RS ウイルス感染症、咽頭結膜熱、ヘルパンギーナでは 1-4 歳、A 群溶血性レンサ球菌咽頭炎では5-14 歳であった。また、新規入院患者数は、インフルエンザは478 例で前週と比較して 194 例増加した。COVID-19 は 273 例で前週と比較して 13 例減少した。2026 年第 37 週に検体が採取されて集計時点までに報告されたもののうち、インフルエンザウイルスA型は 16 件、SARS-CoV-2 は 13 件、RS ウイルスは 11 件、インフルエンザウイルス B 型は 0 件であった。",
+  "ari_per_sentinel": 55.87,
+  "ari_total_cases": 208242,
   "ari_trend": "増加",
   "diseases": [
     {
       "key": "influenza",
       "name": "インフルエンザ",
-      "per_sentinel": 3.29,
-      "hospitalizations": 284,
-      "hosp_trend": "前週と比較して71例増加"
+      "per_sentinel": 5.54,
+      "hospitalizations": 478,
+      "hosp_trend": "前週と比較して 194 例増加"
     },
     {
       "key": "gas_pharyngitis",
       "name": "A群溶連菌咽頭炎",
-      "per_sentinel": 1.38
+      "per_sentinel": 1.46
     },
     {
       "key": "covid19",
       "name": "COVID-19",
-      "per_sentinel": 2.08,
-      "hospitalizations": 286,
-      "hosp_trend": "前週と比較して15例増加"
+      "per_sentinel": 2.44,
+      "hospitalizations": 273,
+      "hosp_trend": "前週と比較して 13 例減少"
     },
     {
       "key": "rsv",
       "name": "RSウイルス感染症",
-      "per_sentinel": 1.02
+      "per_sentinel": 1.12
     },
     {
       "key": "pcf",
       "name": "咽頭結膜熱",
-      "per_sentinel": 0.26
+      "per_sentinel": 0.24
     },
     {
       "key": "herpangina",
       "name": "ヘルパンギーナ",
-      "per_sentinel": 0.96
+      "per_sentinel": 1.0
     }
   ],
   "pathogens": [
     {
       "name": "インフルエンザウイルスA型",
-      "count": 19
-    },
-    {
-      "name": "SARS-CoV-2",
       "count": 16
     },
     {
+      "name": "SARS-CoV-2",
+      "count": 13
+    },
+    {
       "name": "RSウイルス",
-      "count": 4
+      "count": 11
     },
     {
       "name": "インフルエンザウイルスB型",
