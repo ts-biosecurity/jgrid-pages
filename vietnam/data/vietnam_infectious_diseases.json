@@ -1,201 +1,61 @@
 {
-  "generated_at": "2026-09-29T00:59:54.770048+00:00",
+  "generated_at": "2026-09-30T21:26:32.663596+00:00",
   "date_range": {
-    "start": "2026-09-26T00:59:54.770048+00:00",
-    "end": "2026-09-29T00:59:54.770048+00:00"
+    "start": "2026-09-27T21:26:32.663596+00:00",
+    "end": "2026-09-30T21:26:32.663596+00:00"
   },
-  "total_articles": 102,
+  "total_articles": 116,
   "state_summary": {
-    "Vietnam (province not identified)": 60,
-    "Lao Cai": 11,
-    "Quang Tri": 1,
+    "Vietnam (province not identified)": 83,
+    "Lao Cai": 8,
+    "Da Nang": 5,
     "Ha Noi": 8,
     "Thua Thien Hue": 2,
-    "Quang Ninh": 1,
-    "Gia Lai": 1,
-    "Da Nang": 4,
-    "Hai Phong": 3,
-    "Bac Ninh": 2,
-    "Hung Yen": 1,
-    "Phu Tho": 2,
-    "Dak Lak": 1,
-    "Can Tho": 1,
-    "Ha Tinh": 1,
+    "Quang Tri": 2,
+    "Dien Bien": 2,
+    "Dak Lak": 2,
+    "Thanh Hoa": 2,
     "Khanh Hoa": 1,
-    "Quang Ngai": 1,
-    "Ho Chi Minh City": 2,
-    "Tuyen Quang": 1,
-    "Cao Bang": 1
+    "Ho Chi Minh City": 1
   },
   "disease_summary": {
-    "Tuberculosis": 48,
-    "Infectious disease (unspecified)": 29,
-    "HFMD": 9,
-    "Dengue": 12,
-    "Rabies": 3,
-    "COVID-19": 1
+    "Infectious disease (unspecified)": 53,
+    "Tuberculosis": 35,
+    "Dengue": 18,
+    "Cholera": 2,
+    "Influenza": 1,
+    "HFMD": 10,
+    "COVID-19": 1,
+    "Rabies": 1
   },
   "articles": [
     {
-      "articleId": "gnews_ce3e411b5cae027a",
-      "headline": "Quan tâm chăm lo con đoàn viên, người lao động - Vietnam.vn",
+      "articleId": "gnews_9c5899e9bb3e5e23",
+      "headline": "Bảng xếp hạng huy chương nhóm Đông Nam Á ở ASIAD: Việt Nam có thêm huy chương, Lào lần đầu có danh hiệu - Tin tức 24h",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-29T00:45:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81LU1QWkY2TGlpSmM1ejBLZDdyNm9xUmZKTkxkSzB6YjhicmR6ZzczU2x6MXNhOHVQTmdra2s5bE5OQ0FBSXE4MnhtSllySFJkOUF6Vm9SNVNNa3R6SDNfVTM1MVJqRldTcDNId3A3SjRURDlyUXdZ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_0a6eacfd03234352",
-      "headline": "Lao Cai will hold a memorial service and burial for 71 fallen soldiers on September 30, 2026. - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-29T00:27:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzdHeGtMdVRlX0d0OVc0SlRWcnNqdFZmejYyYlpvdmc1UkoxR2hEQlFCOWFhdFI0UEd6TWVtdXNNX3M1VVcwMER6RmN2UEptWWlDaGx1RzhmWWRvSGQ1M1RXSEY0MFRJNlI2aUZBdktXYjVVbktDbE1yVXdadUZMTkY2MkZzTFNPZ3dxb0hIYUVKWjBtR1RoZHFKTnlDczB5cFhRcGN4dm9pQQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_e34c2553e3e51025",
-      "headline": "Quảng Trị: Dự án Kho xăng dầu Việt Lào tiếp tục tháo gỡ các tồn tại sau kết luận thanh tra - Báo Thanh tra",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-29T00:20:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUVNpXy1EZkl4eTNvN3c0T3h2N0QweHQ0OVBDWGJvc0pEYU9EUFFsYjNNVkE3TjVCeEZ0b2xQTnJwSEN3bXdUUUFLeHdWQU5QbHRULUJ1ZHJVdy13TXBmZUkzQzJuU0RSOFJrb21EOTNqbWR3LVpBSXd1czA2TmVJeVBKOHA1Y09aYnFBaVJlMmpwbnFRZHgxSlpURFFXU3p2S1kybEtPcWplelJobjNINnNSczJ6T09SZTNZQkNUZ0lTT1JHcXV6bE5PdVQ3Q1dLWGk0RW9Yeng1dHkyQS1lU3QyUFZUMGJIRE8yN3lNUQ?oc=5",
+      "publishedTimestamp": "2026-09-30T17:04:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTnh3bGdYbXdhek1RNTlWYnM0WXlnQlBjS1ZCUmowR0JPdXBDRDk3eGRDYlBMblFhcVc2NlFzVklCdXlJekZCR3NiN2JYMWRrdHNhVUo0Q0tOdDdOOEpWbnNSTWtuNk5JUExPTWZ4b3JuQVRRTWNibkllYlF4U0J3aWRMV3BhRDNaZVg3VXdaOFJTNnpUVkdDaWVoRk00SWMxWnl0eEtlSnBsWGliclVfM0UwU1hBaXdGVjVRQWtEZGtackduWGQzQm1XV3lHYTB6X2dWYXNGWlBhOWR3RHFMZzJRbUZ1QQ?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
-        "Quang Tri"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh tra"
-    },
-    {
-      "articleId": "gnews_2b41a0b41c266ac0",
-      "headline": "Tuyển lao động Việt Nam, doanh nghiệp nước ngoài phải công khai trên Sàn giao dịch việc làm quốc gia - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T23:55:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3pQeGNTSWozblR3VERnM1FqcHg3cXJsNmZISTczSm9BblZSNUhRLW52aGJBOHVJWXl0M2F6YlhHRVh0ZHVtTnBkTXJiUnFJcWJ0b1JTcmE2aG1yTVNkMFhKdXViYXhfT0tDYnE0Rk5xUjJubUxEQ0dLWnVUcll6eDVKZXBDTVJDUDRBLUdxekdhNHpWMWZxdGk5T2kxbncwbGcxRkdfeUxrVDlFblJYaWRiY3loWExBWl9NQmdOUQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
+      "sourceName": "Tin tức 24h"
     },
     {
-      "articleId": "gnews_a461b16182dbd56c",
-      "headline": "Từ lớp học đến dây chuyền sản xuất ở vùng cao Lào Cai - Laodong.vn",
+      "articleId": "gnews_fe98d83f52fbad26",
+      "headline": "Nam thần nổi tiếng lao đao ở tuổi 46, kinh doanh đổ bể, hôn nhân tan vỡ - nguoiquansat.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T23:25:34+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2N6T1hxUUh1VnFtTmV2SHprc21RM2lpQkV6UWx2MWJFb2tJZ0g3bERLbEJ6YXZQX2xQRXM3b0JHWjEyWFN2aVJZTkFobzJ0cXVEU0w4WDFCbjJ2SGdkZTZ5dVJDb2dBVmZMUjk5V0tNYUI0c09kYVhKakhJN1FYcmtlemF4UWdBNXhfTVVSRjUySllMaHc?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_a36555ae1b118ab8",
-      "headline": "Quy định mới về tuyển dụng, quản lý người lao động - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T22:14:27+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOdDNjTjJMRDRkMEVPVWFieDNoWGc5ZGJrOWV2Z2dkUWh5Nk9Tek1vMGM2bXdMRUhkTTUxbnBtWHdraEVfN1hVUXg3UVlDejRGel9XQkFDZHhpT3A1dTBwa2x3OEh1RXhJNUxJbkdRVmNRbGZQS0FMaWVVa0Q?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_c83867a281c27c18",
-      "headline": "Ðể người lao động tìm đến Công đoàn - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T22:14:27+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51cmdFcU5MSEZuUVFEWnNHSXRVUFkwY1huVGVjd29kRVB5Sk1mc0dubEtOOUJTWFRSSmxFaEVWYUJBUnoxNkVTQkhmTEtZY3JxQTQ3eW05aFlMR2dCNmZwR2hqQ19kMTk2?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_855535f18f622ffa",
-      "headline": "'Dũng trọc Hà Đông' và những lần vướng vòng lao lý - Báo VietNamNet",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T22:01:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeV9udWthclpuR3hISXlERktUU0YyTWVEcGMxeDNJTXFQYkVSX2dkMjlZRG45dFZpdDZKMWlTVUhxLTI3QzlvaDFDM3Q1cUU5dk5tVEsyUUM4UzRYSmx2eURlN0F1bWkxQzBmUkJTQ25ZZXA3bWF0QUZFQkc4TzEtQlM2TVM3NUxLOEJV?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo VietNamNet"
-    },
-    {
-      "articleId": "gnews_201b50bca6faa2bb",
-      "headline": "Trước 31/10, 100% người lao động phải được khám sức khỏe định kỳ: Cụ thể ra sao, áp dụng địa phương nào? - nguoiquansat.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T21:50:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlNJbW1uRTZ5Y2lQeGtwazEwZWljOElCUGRXV3cyYmc4SFJUZ3ZYSlJNN2h3TGEtN2tqWXktbFl5YkpFZ01aOXBQTXdlaXIxV0o2X2U4R2ZzNGJPeGMyRk1CV3JnNTA5NVNsRXROb3Q3anpkdFFaallMaVBMWlNyeXVnVnJJM3dObTZjU2tteHZiVjl3U3piaFR1THZuYl84V05nRTNTSVNpVjI0N1VsbmtqdHlYa2VxSml5MW5HTzNzSWtoeFEtWWZ1bXgzVlNN?oc=5",
+      "publishedTimestamp": "2026-09-30T16:54:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0FOZ2FYYzhZcWtQLXVoN0hlejFxMUpONUZ2cTZyQ3Njb241MkZQaVNZdzhYZlp2NkJ1LUFEZWlHQ1RSQ1dXLXBsbXVhbWVyV3A5ZXI4NXRtUkJ2QU1LSkVWbGpGc0NsWVVOZXVKNUZIbGlTQm9pai1CWGdVMWxqUzlZeEcyZjBzSmdHdncyd21TYmNFT1E3cnB0VDQtdmdIMU5OVG5WQ1g?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Tuberculosis"
@@ -208,13 +68,13 @@
       "sourceName": "nguoiquansat.vn"
     },
     {
-      "articleId": "gnews_1db6eef06338b097",
-      "headline": "Giá vàng hôm nay (29/9): Lao dốc không phanh - Vietnam.vn",
+      "articleId": "gnews_cb8ae976762ce38f",
+      "headline": "Máy bay tác chiến điện tử EA-18G lao xuống biển khi hạ cánh trên tàu sân bay Mỹ - Vietnam.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T21:46:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCdXFGY0ctNTVqQWx1MFhPLXE0Z3hTUXpEdzVHdGZ6UmlOMWtmVGtIQUtjMzM2bUJ0dzFwZjVFU1lZY0V4NVZJS0NBRk9Ud1ZDMzVQSk9mMGdjbU5zcndZUWktcmUwT1Jzb3pONE9ibV9vdw?oc=5",
+      "publishedTimestamp": "2026-09-30T16:47:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRm9mTVZObl9HN19xMDBHQTRIdGhKZk5xU3cxLUVhNHJKenU0elhNa3BiX1F3MXBMM2dhNUVSeXNoSmFibjhFTWZDQ3dGUnpQREFkQk1nbUlkYkRnOU8yVE9iNjBBdnFCWnBOVEl6VTJFc3JjYlZOWGVMZzh3QzFCdFg3YXNOcmxOVlR1WTJ1UXdiTHE5S1Zla3c0QlR1QTZPYWJaeg?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Tuberculosis"
@@ -227,35 +87,73 @@
       "sourceName": "Vietnam.vn"
     },
     {
-      "articleId": "gnews_285076e293154aa4",
-      "headline": "GDP Iran lao dốc hơn 10%, ảnh hưởng lan ra kinh tế toàn cầu - Vietnam.vn",
+      "articleId": "gnews_9c3fc17b2c406c24",
+      "headline": "Minister Trinh Viet Hung meets with voters in Lao Cai. - Vietnam.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T17:46:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNzZRaUNucTNsdDhxMzdUdVZwU3hZbDRRVDBzR09QU2IyY0R2RkI3WEpwVzhqdE4zRXVsTlpRNkt3bTlIVlp5a0kxZk9zdm9VMmU2aTF1RkdrblhrU1NlR0w5ejY4STJadC1JZXhpYWJ6bzYzUmlVdV9QOUcyakNSMktya015SXM?oc=5",
-      "originalLanguage": "VIETNAMESE",
+      "publishedTimestamp": "2026-09-30T16:28:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObjhaUDF3SDFaMFBfemFPdDdiX0Y3VTA3blg0ZWtsVzlsRDFPZ2tXeEE4MlR5S3VjRnc5TjJGOWJtcEE1clBMZndGM2VyeFVDVmJOWXR2U01KdFNsUU9YOFpNTVJwUjlGdTBVQ3J0VmM0SC1PMFRIeWJ0b1VmUUdFd25MRndpZw?oc=5",
+      "originalLanguage": "ENGLISH",
       "diseases": [
         "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_dc44797c66954c1c",
+      "headline": "Người mắc bệnh thận mạn, đái tháo đường cần lưu ý nguy cơ bệnh truyền nhiễm - VTV.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T16:28:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRzI1eEVUOVVpbk15ajNWYmkyNDlMN0NGMjJBSF9NNF9pY3RWNkxUYjhfdE5KdGhaaDVlU2o5X2Jtcjc0dVZEc3c0eGlwbDV6SGRGRllBWGZHRER1RjNvUUNnbkdjNU5oN3hkRC1DbmIzb1AzSzUwQ0xfT1ZSd3Rod0dxUkFXX1I0WW4xV2RDbkZjMmRXaG1jY2pSX0JGcVJGTkZleDJrN292TFVRWjlhcmpB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
+      "sourceName": "VTV.vn"
     },
     {
-      "articleId": "gnews_4faeb70509308f7a",
-      "headline": "Hà Nội đặt mục tiêu giảm tỷ lệ lao động trẻ em xuống dưới 1,1% vào năm 2030 - Vietnam.vn",
+      "articleId": "gnews_c072d3ec4ae4f591",
+      "headline": "Đà Nẵng: Số ca sốt xuất huyết tăng gần 10 lần, bệnh viện kê thêm giường ở hành lang - Kenh14.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T17:11:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclR5a1RwMnhyUDJ3QXVkTjVZaG5tSVJiWVppZTlCZXdibFJ6d1J6S3M2NXNLb2xQRWVjRzhGNDB3NnE3YnVhdHk4NmlnT3JWeXlJRnRtSlFiX203Sl9tX2xJU043RURyZEJyMjF3VHoyb0F1Y0cwN0RTVy1EZzBEb2piNkF6c0NqbG1OMzBRZWNYRzVrWm1xczVRRzF6VndEdUE?oc=5",
+      "publishedTimestamp": "2026-09-30T16:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTdzZzBIQzdZQ2VoR0k2OFpuUktwdUNaUUNNRmRnaXFmN2pKWEVGQko0U09ldlBpclpnMm1xRVl3cVZETWZKa29BeHg0OWZtbjBBZjNCcDB3YjZyQlBjN1lOU1BENm04Nm5mTXJ1LTNnbUFkWEZidE42ZmU3VUdsR2psM1RMVFdGdUpmeUdnWTRXTndvQ0U4VE8tLTRxUVBHemloSGFUTFNER2tpbnFZYTdJZ3RNNkxaM2FIVjg4VQ?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
-        "Tuberculosis"
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Da Nang"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Kenh14.vn"
+    },
+    {
+      "articleId": "gnews_0c25734892abb2fb",
+      "headline": "Tuần lễ sản phẩm Việt - Lào tại Hà Nội - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T15:42:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6eGZGX3BqOGVWb3htejlyRjRtRFFDQ3NFX0ZIbk5tWS1iLTJ1cURScFliSnhaWnlkWjd2U0d4RmllNVhPSEtlSWt4aGpVYmJVNEpiSmdPbXRra2xjMEtWb29sejZaTzJTYW9ES3dyWQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
@@ -265,13 +163,1329 @@
       "sourceName": "Vietnam.vn"
     },
     {
-      "articleId": "gnews_b896cddb3ddc1c9e",
-      "headline": "Vắc-xin phòng tay chân miệng được nhiều phụ huynh quan tâm - Vietnam.vn",
+      "articleId": "gnews_096cedba83aea77e",
+      "headline": "Bộ trưởng Trịnh Việt Hùng tiếp xúc cử tri tại Lào Cai - Vietnam.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T16:28:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjBKUnhkMGxMMDJ4cHZNRVJCSHc0ZE9JQ2RDeXZaU0R1UTRlZ1pVV2Fhem03NG9vQml0dE11VWo5R0s3Szg2RFpuWGdwRHJCdEQzNWdLZTctNWtzTTNOdnhyYWNRV2pTUkNxclMzT25LM1dVbW94a3k3T3NvdHVxekJHaDhMSWgx?oc=5",
+      "publishedTimestamp": "2026-09-30T15:33:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMlJpbF9Vc2xBTk56QmdVdmFhTE9wOGYwc0oxYUN2dUlQR0pPem5TV01hYUtmN1lzY1M4YS1iM09KMDB5cE5MX3hBR01VTzhuZ2sxVkdrNHZfNi1CWFJKY3UyczhxRkZ3bmM1Z09keWVhd09uaktZNGtSSExTRW1qQ1pB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_7d23fae64b48dbb9",
+      "headline": "Chiếc Mercedes-Benz lao vào khu nhà dân, đâm xe bán tải gây hư hỏng nặng - Báo VietNamNet",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T15:33:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZGRqaFE3NDIyUjJqTTBhTFRsOWFXLWo5VkZtZEd4bWlCd29XckVPM0I3ZEVzRjlzY1dUME5BYlhlanRfVko1MlE5SkUzMnpLS0g3TEIwNjNuR3I1amlzOFR3ZGxGR3BFS2JPODl0bFFSZUxjX2JwRzllNTJVR3VJRDJ6ckFtUkhyYURFR21CNWNmMW42MWw5dVp5em15aXFUR1NjQTJ0SU1wZw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Cholera",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo VietNamNet"
+    },
+    {
+      "articleId": "gnews_7062c3ec4e434f50",
+      "headline": "Tuần lễ sản phẩm Việt - Lào tại Hà Nội - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T15:13:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JdnhWQW1xekFkenVvaXBrSEhJbXgtNkt0RjV5U0UyZ2xtRWRHU2VwanVlNFhhNEFsT1pFY3kyZktVMEVoeE5lOEdIN2pPNFBEa3BvZXhhUERENXJVbTd5dENVR1lWbHlkcXNR?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Ha Noi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_2ca0e3ff5df59e07",
+      "headline": "Tuần lễ sản phẩm Việt - Lào tại Hà Nội - Báo Hànộimới",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T14:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xYWpxX2hFZTItWkZHeGlTbDJlbWZoOGVOTmtkTjJCNk1NYmI4VmpqVUMyZndneXhPa1RQYXpZM2RWbUFleVJpcVFQNlFXcEg0MjJEWG9GNThwTGpSMzlhdDFlQVo2QjZKMHZ0UENsdUV4U2RBSS1Ubg?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Ha Noi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Hànộimới"
+    },
+    {
+      "articleId": "gnews_660e24ba707aabf0",
+      "headline": "Lào Cai phấn đấu tỷ lệ người dân đọc sách thường xuyên đạt 80% - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T14:18:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLUxBTGV4dDJOanFobHdzMEZScDdaYTFWeDBoTVZWX1R2aTBWeUxKblhvNW82c1NpSVBJTGNOd05JekMyaUhCREhuYm1EMV8tVlRuemhpNWNTcmVMc1dfNV9qZUJaNEFfMGlYVkdERzk5YmFqeF9tTVgwSi1mN3REamRsN1RSdjNzZEJBWQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_751a0b68ad32cf56",
+      "headline": "Hết thời hút vốn FDI chỉ dựa vào lao động giá rẻ, ưu đãi thuế - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T14:01:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVngtQ2todHp2aEM3NVpWSm96MFpuREJKR0tqWF9yazR4c1AzSFkzX01OQjkzN1FhcDFiM0pEUm9UYXdEUzNUb3FmZkUzRWZWYlRwTm92ZmkwUy1Ta0M5aWRobVhJWk14UTFaQlpQZGlzU2pJYlM1TGR2LXY3OWlBRVZCcTJ3eUo5YTNB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Thua Thien Hue"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_50df45790ed62d25",
+      "headline": "15 cán bộ Công đoàn Lào tham gia khóa đào tạo tại Việt Nam - Giáo dục Thủ đô",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T13:12:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkN5M2NWc2JXWlpLMFR3VTNRSWJUbWZjWjFRTzJILUIweTVmOTA2NGJoNVltTVduOGtELWtBRXRLcnFoeUQ2V0ExcWlsdC13VFNDQkVtVWFtY19PQ2NmWHJiYUhSYTlCaU9Ec2FYTmUwem1OS2ZXbVd0OUpQSWFaR21rNkpHclNfLTQyNFRkaEh1SjhhaFBwYzc2YkwwdFBCTV96V0NSMzNINGpUc2c?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Giáo dục Thủ đô"
+    },
+    {
+      "articleId": "gnews_ea510129557abbb8",
+      "headline": "Fifteen Lao trade union officials participate in a training course in Vietnam. - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T13:01:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQWVJUmZKaHF3eEJjSXh1d0p1eXI4bnFWNTgtWGdNbUNXWkJVd19SUGpZMThMRERIUno2QU9jRlVLdFc1X0o4cTdUSHlFMm40U2lqLWs4Q3pVdDRuRGxGZUtrNnVpODNyV280MFhTSm5saGkyTDhjME51UDJjbWhGWGNlVFdVZkpzc1VFSQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_579b8a24359dd6d2",
+      "headline": "Mở rộng diện bao phủ bảo hiểm xã hội với lao động nền tảng số - Báo Nhân Dân điện tử",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:56:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFBjVDBveUpoRnNqVlpqOVZrZk9DeEx0b2R6TVFWOEVLbDlqTGFMcVlobWJuSFZoT2VfNzA5NVE0ZEdERURLandhX2pNOEtMM2hlREV4N01MU2Z3WVZhemg2al83blFadkViMXBUMUczS1NBWlhEb1dTcllaSExwZF9KNjMwUDFVMHI4ajh1MFB2MW5vOTg2MHQ4X0w?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Cholera",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Nhân Dân điện tử"
+    },
+    {
+      "articleId": "gnews_9d7fd4d3b68f1a3b",
+      "headline": "Phó Bí thư Thường trực Tỉnh ủy Hồ Xuân Trường tiếp Đoàn đại biểu Ban Tuyên huấn Trung ương Đảng Nhân dân Cách mạng Lào - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:52:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZkFxYlQyTGpTQktScnBaQlFIdUwyWktLSUw4ejlCYXdJaXB0bWRzMnRld29ZOTdEN0hrcm1zeDFGb2dLTTh6dDdfQ0VNb3ViemNIb2VTcTRhX2loR0dIQ1dMSjM5MVQxeTJBQ0Zka3c4OUV6UjlDeEo1N0JLRXRKY0VRYkFMX2Q4TXYzOFR3TW1lckVTMGtJU0stdVlxSlNzTWZKLUpNdEJTZEZsZ09ab2RUZy1KbXBhTjA3THVmWTFwQmJqa3dyTVUzZTZxMXZEWUpSbkV0cko?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_913cb1724e369d03",
+      "headline": "Người mắc bệnh thận mạn, đái tháo đường cần lưu ý nguy cơ bệnh truyền nhiễm - Tiin.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:51:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORVc0VHQzeTlGSTVDd0dlSUtWdndZQjRnWW9BaGVtZ1AtcXg0N09JaFBMQXpnZWthMURSVE5QNDJFRXQ5MnQ5OGhOcXNCUi1RNl9pSXpNYjZWQVU1anc0Wkhzc3NJcDhweFA4TGxQd0ZMSy1meDEtWU1pdEc5WEVXVUF6Vmdrb21Eckl5ekZrc1l1andKU1JtMi1kbzBNdFJSLWZUOEpZSm10Y05QZVlWdXRmeW0?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Tiin.vn"
+    },
+    {
+      "articleId": "gnews_4bb40123e0e20929",
+      "headline": "Đà Nẵng: Ca sốt xuất huyết tăng gần 10 lần, bệnh viện kê thêm giường ở hành lang - Báo Tiền Phong",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:40:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcHozTWVtYXVEdlRpYU9HVzA2LTJEMzl3dGUtd3ZDU0pVdnNqN3FLak5oaEhZYkZXTEdUVWJwRngzbXU1U3pKQzh5NGN1RThGdWFoM0ZoX0pNWDY1OEQzUW9lVTRPUjE2YUxINnBaSU05MGJHSm41MW91dHduSG9CSW05YzczSHdCQng4OUhxTnotdzVJM2Z3RllpVWdESzFSa0hQak5NcjcyVDJUQWk1OWRMeGdvQQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Da Nang"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Tiền Phong"
+    },
+    {
+      "articleId": "gnews_d5d0491580fa8591",
+      "headline": "Voliči v provincii Lao Cai navrhují úpravu funkce předsedy Asociace seniorů. - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:28:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZGtlLWtTYkJrNS1yVjRVVkhKbEJfazVlSWRvbFAwbXBfazZscERESHM3SWNUbGdyc0ZGM0t2MzdoOG1fT3dPVGZsNVlGcndGV19GYlFQaVo2U3NjbzhsdlgzZnE0ZVpTRXRLV3A0ZzFYZ2VqVWlUcW9BMUxYTnVoSWJ4YVIzUkd0b2EzSEtRdnhDTFE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_a742e13e414dfd62",
+      "headline": "Đề nghị xây dựng mô hình điểm “Lao động giỏi, năng suất cao, thu nhập tốt” - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:25:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTWsySW5MQmFJMEJBNEUwN1dTS09VMVRRT29UN2k5am1lY2dKV2pKbnl3ZzFTLUdWalhyNUdmOVhYYldHMV9sLW8wbzlmWmExeGpsa2xGNlA4YjBCWEZTZjlfMTVCeGRzRFNhTTNqclFFM0VaTGQ1U3dKNm9tLS1lMWhlNHlMWWdpZkJjT3kwOVdET2p6WXU1Vg?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_800c4e8adaf18fd0",
+      "headline": "Người mắc bệnh thận mạn, đái tháo đường cần lưu ý nguy cơ bệnh truyền nhiễm - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:15:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUsxYXk3S2Q4dW1uRjkxWWZyeGRCcUEyQ2I0cmhRY3BDY1Z4WU5UN1BCUlNaQnBCN1M1Qy1PRi1lNnpRbkFsbnJhUTlzUi04OXFhLU5FX0VSRmlQalVtU0tzTUkzYktFRnFMY2lObU1QanVCT3ZrY3BYYUpJNG5BdzlzY1l0RjlFQzdwT014enpJd19DamVBUWVVU2R0UQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_ea4f33c6f013a572",
+      "headline": "Vượt Lào, Thái Lan, Qatar, Việt Nam vừa đứng thứ 2 thế giới về mức độ cải thiện một chỉ số - CafeF",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T12:01:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMkZPT0szRWZBZUhUTXhRdDNTRTNfMTlHU0VVcEgtVzg1TU1SczN0YTZiRy1XV2xWMkpBc3ZOc050ZEtLM25Sak50RXN6dHFDcFJVMzNWT25nVWJIdEN5VTNROWY2bUR4MW1wYkhrUFFST1ktZVVtX1EyVDlVVi14LWZUaVJwZjZ6X2tMWTFBSXNoT05DTTNsaTl1V1Q3NnRLeW9OMElTb0lzNnExdy1FbGQyNE1aY0xiZGlpalN2aEhQTE1ocVE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CafeF"
+    },
+    {
+      "articleId": "gnews_6828cd178916c35a",
+      "headline": "Bảo đảm hậu cần, kỹ thuật phục vụ diễn tập chung - Báo Quân đội nhân dân",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T11:49:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaWNXTVlhcl8zdmJqdWlxaTBaX0hRWFFDTkFUX0dZX0c0VWQ0U0FsSEo1TDc0d25tMEpnTmlhcjl4eGJzSVJuaTVMYy1UdUtQWDN1V0owU3hqVzlfQWNUWEM0RnJ2MGhBQmZibGdBdjJ5LTlrNWFqTERxcTV1ZnNWbHE3eHA0UlZJb3QxaF9jdlhhUE9vMzR0d0M4V2VlakZJZ0tOdmhlN0hCMmxNSXhUM1I4elVzZzVQaE5UMkhqYW04VTVETkN3ZldtY1BqNER6aHU0cDF6YVQxdEp2ekVlc3lOYXdJdnRUcjdYX1owNUZVSVAtc3FNQWg1ZjdrcWNrc05LMWxBSQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Quân đội nhân dân"
+    },
+    {
+      "articleId": "gnews_bf82bfd1e06e95bf",
+      "headline": "Công an Lào Cai phối hợp bắt giữ đối tượng truy nã quốc tế tại Campuchia - thuonghieucongluan.com.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T11:32:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcHNlX19hdlNnUzM0QlJ0ZFhIdks3dVZzZm5MNzFMc3Nrc2FWZWhOT1BJM3JqeEh3dktlNW1USE1GQ1pFTkRDTk5aVkgyajFzQVpTOUpVN0tkU0ZTMTBWOVFOcno0MC1JaGhKc2dXU05uUFI4dW5haDg2S3FkdWtueWI0cm1yZk1JaWpHS0wyeWdvdlRheVB2U3FycVJlb1FzaV9QN2x6dFdWM2ktU3FaX1pVeXduVEJ2d0xn?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thuonghieucongluan.com.vn"
+    },
+    {
+      "articleId": "gnews_01de6453faca9a60",
+      "headline": "Trường Đại học Công đoàn khai giảng lớp đào tạo cán bộ Trung ương Liên hiệp Công đoàn Lào - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T11:21:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd0FhVU10MVR3S2lCMjVxbEZwX3FKWFdhR09lRWJkYlpLUTBaWG5RRjlsNmFnWWMyeHU5enJJRU41QzdjWVVwLVpReFNUakpfdDZKZjczRXc4T3J2eHhEdF9xQWRNdEgydzhZUWpQaTF4TDdBRnU3SERWelgzREwtTXZveF9QaEI0N1JrOWIyLW50Sm53eThJTEd1blVtdVRCUDJQZFhVV0U3ZUcwSE5Ockd1WF9TYWhPVDVtTDNYSGFMd1I3a25pT3Vn?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_a7c21e8f7a80be9b",
+      "headline": "TPHCM không đua lao động giá rẻ, chuyển hướng đón nhân lực tinh hoa - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T11:20:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlVKTnloRVRjNGFpZFRYeTdzajZkaUdJdGZYU1llNmQyVzZQXzVMUEotdmZydV9CbnFLU0dRUWJWNXJqV3hqd1lUN3dVdXBNcFBLVDdFUDllenN3YUo2SXR5akFzaGRyQ2xHQVp3Z3BtMjgtcmdGTVdIblJWZDg4bDlyLXlwaHk2YW5MMXA1SVJWNVZveEp5aDJjRHVFd21Ua0p6YzJuUWtqckpR?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_f7d1aa56ad062bad",
+      "headline": "Chăm lo Tết cho người lao động gắn với ổn định sản xuất sau kỳ nghỉ - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T11:12:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUZXbnZsRnl4UWNrc1Q3RHBTQThqT2wtM0lzMGw3V2k1Q3Y4aW1odUNLWExnV3dNVVU4WFpOc1JPeUlLTy1wOUVwNVoyT2YxSnhBcUZWa1FjZy1YQjRMQkpQb2Zfc1haa090Q1pTU18tV0FLV0xnM2FhZ2o1RGxuOVNiaDBiTHNGQ3J5cEpTSkVwenduQ0JLVUdJMWFSM04wUWlzZzZOVQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_edeef6b1151235aa",
+      "headline": "People living with chronic kidney disease and diabetes should be aware of infectious disease risks - Vietnam Investment Review - VIR",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T11:00:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYWdwekNfODU5MnU0NlJZdTNIUGNVbjA5a2pPcEFBZUNBVzZ5dFd4UGJuQkhEbHc4TFBtS2NHSnpXaURPZWVfbnNLR25CaHlpR3l1TVg4eExQVnpZVDJBVE1tRlRkeTc0REM1ZTFvbkx4TXRVYW1ERkFCQjFjLUNuWXRVaGJXc0l3MlhEOUVxUmZMTmRxVzVBZHZKbVFjOTRyckFtNndkYlQzZTJvcWpTelFVaFQwZ0NrTXNsUFpXM1FyZzJ0M1NXMg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam Investment Review - VIR"
+    },
+    {
+      "articleId": "gnews_01239949a3eddb5b",
+      "headline": "Công đoàn chuẩn bị chăm lo Tết 2027 cho người lao động theo cách mới - Báo Tuổi Trẻ",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T11:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSGFWb2JZUS1vUGp3X2VyN2NSdjZqWGpWZFMzOUllX0czekNYM1lneDZaZWo4TzY3djZxYjFtQmVleXRweWVZSnExd21uYlJqSEFqcnFyX3VDX3p3bkZRb3JOWHNzVEJEaW42MHluSG9Fb3dxSjVBMDczNEFfOUN1MEVQYmRIS21rWXNwSkJEOFlVR21WdjRaX3BHd3BSZGROM1BWY3NHMWcyaWNuSHJZ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Tuổi Trẻ"
+    },
+    {
+      "articleId": "gnews_d520dc1c837a88ee",
+      "headline": "Người lao động làm chủ sáng kiến, nâng cao an toàn và giảm chi phí sản xuất - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T10:37:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZEQxNEU1b3dwLUtSTS1SNHJFTEh2WEFKUGVwb1JzXzJZWW5uRlFKcGRPSXpaQTJPd2lweWoxUWhPeGphcmpEbWp1dGhoWWplODN6eW1PbnpodnFXTE9zQThYOUlSV3dxT2RwSklvQmtudEJybm9NRzhGYTBfNFY0dUhkLTlybjFQRzlqc3JfMXFEZmFnNHRscVBUOTlLMWdIcTZudUZpbm5FQUxMQnNXeE5MMmdaZw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_025be3657fd21fdc",
+      "headline": "Tổ chức nước ngoài tuyển lao động Việt Nam phải đăng tin tuyển dụng trên Sàn giao dịch việc làm quốc gia - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T09:19:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWHM5aW1qQkVJZE5kc09PM1FveG5GWDlxUDR0Sm42QjZtYkl2am9zaE94NC0xdG5rdFlycjFUdnNxS1ZycFFHdUdDOEhzYjBNSmFramd1VzJKdUpmc2VnNWg1UEZBWXhqYkpaSFlIMzJYSWF1Q0xVeFdpUXBhMVRHMmJIX295d0tZQ0RacUNpRHdVQ2V4Sk9lS0c3QUtXMG50MXYxTjBDZ0p4QkhablpTbEZ1WWgybDA0N2ZncGFtaDZjZ1doWHc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_522ae4e6e91a5e02",
+      "headline": "Tiêu chuẩn xét tặng Huân chương lao động hạng Nhất - xaydungchinhsach.chinhphu.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T09:17:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHNYcWRzdVFpLUZnZE5mcUJXdDUyOTNheWFWWTlUMDBLTWEtRGVHSEM3cVFIMlJKNUR3a2ZzRXFabHVEQWk2cS1YMC00NjJscmVPOFlrTTZoODBpVkJZUjlfell6Q29palV0UllKNUFFOGRtZzcwbld2NHlyalAzZTdyZV9KXzBmZkpGY2xfS19neXl5SHNYT1JRZlpYQUhtZ0Q0cTY5QWdSYXVYRGU4?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "xaydungchinhsach.chinhphu.vn"
+    },
+    {
+      "articleId": "gnews_02834ca3f19028b9",
+      "headline": "Ghi nhận 390 ca mắc sốt xuất huyết tại 86 xã, phường - thanglong.chinhphu.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T09:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQlFfVFFhejVVX25nMHpVcm8zVUtTU1Vxc21HeGRnWlNQT2lUTXgyZjMyQW9yV2F0QTAyS3hsMW16dlRxYWRYQnNmRG1jVnFneEk1VW1LRG02ODludmhxQlYzMVJEalVqZERKd0xMTGpiSGkxRGVwMlpzSnpXWE1LdVlCTm0wWkl2aktUMjRaMUItUzk1N1pxcS00R1g1cDQ3VDNOWmtR?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thanglong.chinhphu.vn"
+    },
+    {
+      "articleId": "gnews_df08564045269993",
+      "headline": "Bí thư Tỉnh ủy Lê Đức Thái tiếp và làm việc với Tư lệnh Bộ đội Biên phòng Lào - baothanhhoa.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T09:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUTEwOG84WTNfaUhzUzJkemRwMGhoekFuaU91QUlfb3FqdTdCRnNWMlpiRmc1d2VpUTh6QllMTTJ4T1YxRXNfanVOX0QyVVpjYnN2RnFBTF9BNDhXZktZejNYcFZtN2I0SXBZV3pqVC1udnU1OWs4QllTYTJiQlRJWXdLUjhYMmZqX2NTUnlmbTJTMFBsdGc2d0tIbzQwZ0JnMVYyNFM5c2hvcGtfN0Q4WA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "baothanhhoa.vn"
+    },
+    {
+      "articleId": "gnews_a1449d42da905446",
+      "headline": "Lan tỏa hành trình tiêm chủng vì một Việt Nam khỏe mạnh - Báo Sức khỏe & Đời sống",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T08:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbEs0MHdzSGhVRFJQb2VxZlMyZHhrWm9wVEM1WEFNUEphRXZUdGc0eGttZkdESnJKb0hHTkNKNC1oTjdwU3Z6YnpVUldLU2xVeG5XeVFQeG02VUg0NHkxZlQtTXpDSmxvQjQxclhOLV93eWkwQVU3c015eFdvekprSWJmY2s2bzJXZmpCa1MwcWRGemRJREhUaFdpQXpISjFMbVFjWE8xUQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Sức khỏe & Đời sống"
+    },
+    {
+      "articleId": "gnews_91abce2854fa5baa",
+      "headline": "Phòng cúm cho người cao tuổi khi thời tiết chuyển mùa - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T08:50:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeWp3a1NhZkZtZEhUMXB6Tk40bGdLTmxwOUVFNFd1bktwV29nTEhGaUZmYTFaYXhfamRQX1JHVkFqR0p2SW9JOWNWV1k4UmtqYlN1NVFrVWtZdVQzRW1QSjJzOTNjektqZEl1dTRWbm0xaDdGU1ZPd1FzcVFNRnotZ1lJWFNEY3VnMW9Fc0xEeWtUMHRYN3M1cQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Influenza",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_ec1682025d7cc124",
+      "headline": "Lan tỏa giá trị tiêm chủng vì một Việt Nam khỏe mạnh - Baodautu.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T08:43:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjFVOXFQX1o3LVlnRmdxLU04UFdFX1NOWTNVU196Q2gzSS1sem0tbFNYc2U1WnFBMF9LNzV2N3ptTEVTQ3paVml1bU9ralk5RnJFTm93NWc2TmNmS2EtUEpHaHo2MHdIdlpoT05QNkZmbnZJakpNM0x2S2o2V2lVUFFfNmtBSEdSWGRPQVBB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Baodautu.vn"
+    },
+    {
+      "articleId": "gnews_070d301150654923",
+      "headline": "Tập huấn cho cán bộ, kiểm toán viên Kiểm toán nhà nước Lào - Kiểm toán nhà nước",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T08:25:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV2E4Q2FGR2wzS2ViQnVrMzF0ZVdSOVE5bmM0ejFKbEdrelUzZW5ydkRCTmhtWHo5MXJaMzJiaGNaZ0RvalpZTjZITGYtXzRpSFN4NmVXMzNNY2NiaXF2Z0tOeFYyV3V6NUNsbWlaQm1MSlRiWkRjeVNYZVNuY25ES0Z4Mnd4MW9nZUlGQkVpa2lNdGs?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Kiểm toán nhà nước"
+    },
+    {
+      "articleId": "gnews_ce00ad0f6465add5",
+      "headline": "Trao 500 suất quà hỗ trợ đồng bào nghèo ở biên giới Việt - Lào - Cổng thông tin điện tử tỉnh Quảng Trị",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T07:31:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPXzU1XzhlUmUxUnJicXdLbjhPNF8yVzVmN3daaEk4am1yTGtIeS12M0ZmZlRYV2puNmRsWUJIX3BMUW9yRmoxN1M3S0VldVl3cW1GbTU3a1M3bmlJemNmMWFvVl9QdVl0S1E4MmxaLXFBUmZISXR0emNyWnZjNnNBc0wxZ1dDd0JlTHhNYUEzS1htMkFGTXhsNGUxQ3o?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Quang Tri"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Cổng thông tin điện tử tỉnh Quảng Trị"
+    },
+    {
+      "articleId": "gnews_71ce320bf0c27e9e",
+      "headline": "Lào Cai: Truy điệu và an táng 71 hài cốt liệt sĩ - Dân tộc và Phát triển",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T07:28:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcTRvYzQwc0I0QW5vZ0NIbzNtbDdQRWxRZHl4VTR6UUgzdkMwTGo5bWYxQzdONldVYzlGUlZ0MjRUeHhHTUVRdUwtN193Q09JTDFGeWQ4Z1BsS1pKSDZqMlFWX21FT0NVTWM1YVJxU2NmOTd2ci1yRzNudElGTktOcy1wc0FEMkFEUEdaSEQwVkVhSnpiYjBRZHVKUkg?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dân tộc và Phát triển"
+    },
+    {
+      "articleId": "gnews_f3c537d977e3aa52",
+      "headline": "Phối hợp vận hành hiệu quả Trường Hữu nghị Lào - Việt tỉnh Salavan - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T07:21:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU0s4UGlFQ0NMRjU1bk45MTZWQ1M3N2l3Ym1BMW94QU9leGt6NFk5RUo3cXF5T3k3RkwxT281Sk13bVMxUlFuNHdjV2pPR1B4SWtsOWk4SlpUbW15eWNveXdUZUhmZ2dndmJKa2ZWWW5tN3hZdXBLX0VicXcteE1uS0JzXzdVaXZ2WkhFbm9HSHc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_fc474df4db04e0d6",
+      "headline": "Đổi mới hoạt động Công đoàn, chăm lo thiết thực hơn cho người lao động - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T07:13:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNFVWTHR5Yk5RYnNMSEZMYXpwTFV6WW9wd3Nvc1plMXpSblozN05IeS0xYVNIZXZRWHdiLVFEcFFlNGgzU001X3o1dUQyYmRXUWJNcjBpVWVDVUJiRzBoeVFBaWU5bjFqNTdpem4xVWZUelF0dzktNzhrajVvTDV4YVI0Q2F0bjV6ZktYeldoQkRnVm1WR0J3amxhd20xd2NOS3c3UHMzUEpaVG5KVElN?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_b477283c561cf9c9",
+      "headline": "Phát động cuộc thi ảnh về chương trình Tiêm chủng mở rộng - cand.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T07:10:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU0V6Sjd0V3BQWHdLbEMxX1cyRVpiS2kwZ2d6V0JHcGJTZ3RwRjB6Szh5OXBQakY0cEtNWF9kSkNmS09QT1VobXA0V3V4cUZxSjJyaFJRUTAycHB4d0xkVy0xNXRPYmxLZ0RkWGFaT0dYZkNiWG9tSm1OeENqTWZKbllxNUY2ZlV4X0FDZG5VU0hQSk0?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "cand.vn"
+    },
+    {
+      "articleId": "gnews_8a4c06c66db7537c",
+      "headline": "Hà Nội xuất hiện 18 ổ dịch sốt xuất huyết mới trong một tuần - AloBacsi",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T07:10:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNXZiWGNoYjBuVUVucURENmtGQ0wtZHRZQkUySVotNVF4NENqa282dnMyejhpX2xQdjA5T01DT2x0STJUbG4wLWJtdDdObUpDSkE0QXBCLUtYTFVCNUxPTk1HRk42ZmRVQkFpSlc3SEE5U0J1RU5NakNjbWQ4LVNIbHJYemFFVU00M2p3bW5ITQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Ha Noi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AloBacsi"
+    },
+    {
+      "articleId": "gnews_c87459b90a5a4691",
+      "headline": "Trao 500 suất quà hỗ trợ đồng bào ở biên giới Việt-Lào - Báo và phát thanh, truyền hình Quảng Trị",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T07:07:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa3Y3MEQ0RFhIVzY4V3hXbkRaU1NDRkpLZmpPTXBOMjcwM3VzWHBpYTkxN2dvYkVJaFU2MlJWdWNnQjgtYU1GOTVJUDFmQkRNVko3NXZFZG9hdnJkUS1uR0JDZTdlaU9ZRGN6a0JzRnZzaGRTcUo1c2l6VnBfeVQtZFd6TEdJNW9nZTRocEc5VS1yUDJPQmJIb2VkcnY0bTdSVFE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Quang Tri"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo và phát thanh, truyền hình Quảng Trị"
+    },
+    {
+      "articleId": "gnews_ba87e60a5793ae51",
+      "headline": "20 học viên nữ Lào tham gia khóa bồi dưỡng cán bộ Hội tại Việt Nam - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T06:41:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ29mall2VS1vNUlrbVZOajIwdEZaTGIzTDBqOW1oS1ozXzRIWTYzVEdscXFBODRISE5qcXJJQWdTNVNzQ3paYVBuMFBFY2lpb1hhWEt5cjBZQVpMeW5ub0lsMWZJVGJiQ1pycXJNM2hfRXVIQXV4ODNzREhhNmdpS0dOYnBFaDVZN202eEtXdzRqV1E?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_b06050040751606f",
+      "headline": "Điện Biên và Luangprabang thống nhất nâng cấp cặp cửa khẩu chính Huổi Puốc (Việt Nam)-Na Son (Lào) thành cửa khẩu quốc tế - Báo Nhân Dân điện tử",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T06:39:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPelk4OEgxNUEyTkl2aF9SUG41dmwwUF9kb0xWVElFOUoxMjFNUjNxXzRndk9QLWtoR1VfVGtZVk1mUkVTY3hxYnhSbzZKbklqcENSVkt5WkhicjNUUjhxM0VLN0JBUkFJUDBiSE5QRnBzZTViVFVWT1lLM1RKRzNUYUplekhRVmN3TEUtMThTY1dydDl4WDBheExRUlZFZjZJSXZXOTVGeE9kNU1NY0lTekJleng5R3lVTXI0T0Y2Y0t2bHZQMlRrWm05X2lhLUNhN3F4LUJqc3hnVVhzaDZBVTNTS3FPUU0?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Dien Bien"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Nhân Dân điện tử"
+    },
+    {
+      "articleId": "gnews_b01da5a7d722d20f",
+      "headline": "Chi phí người lao động Việt Nam đi làm việc ở nước ngoài giảm đáng kể - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T05:34:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamJvcjZmRkFMYmhDdGdvRVNiX0tGVkJOaFZEd2M5eTdtQ2s3NVJNcFhwODlUY2lxR0dQWnlFV2F5UTlqYUNWYVR2Q25OTkhDdURfVGlFZDJ1Rk5DU2JuRGJRRFZLcXZoX0poUHVacnFKVFlid2Zsa3FfNF9tSUNicXdSek9KSEc4d2lXNzV4elA2WmhsWEtF?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_258614ff66e0082f",
+      "headline": "Trẻ bị sốt xuất huyết, bác sĩ mách những thực phẩm nên hạn chế - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T05:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYWhJejQ3QmlXZ1ZyUFM1alg2cXFmcDRubXNBUzhMREgwRUlRTzJqM3A1b1EtbDRHNmhYR2QxOUx4dkVUWnk0bDcxdW5NZ0l3Wi16ek9lcVdSQ1BJbXJ1ck41bU1xNW1UTHBEX1VCOVFSOEhMbkotbDU2MTFYLTFqZ1VvYkotNzNFcHNxRXRqd09qMmg4VldrU1RrcEpsT1VEWXpid00tTlM?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_9699f7a27132148c",
+      "headline": "Người dân được thụ hưởng dịch vụ tốt hơn ngay ở địa phương - chinhsachcuocsong.vnanet.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T04:48:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaWxXZWZ2N3ZyenpkcU5yak5TM015MHQ1RUJPLTBQX2FaenltSGNVeGZ1aHJTdlZBUTBVNHdOdUJhbmM1alFEeXlEbXNfSzF5NjNRdndJOUpTa3paaEQ4blg0d0MzUDdoa21LRndMYUp1RHZGaTJIU0NGbmlVNHFFaXB1SDF4WkVsN2hONG5MWDMyNFFfeVV6d0N5MGdnU1pPTWpvQjhJYXU?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "chinhsachcuocsong.vnanet.vn"
+    },
+    {
+      "articleId": "gnews_3ca4df24e0d44955",
+      "headline": "Đắk Lắk đã có 3 người chết vì sốt xuất huyết - Báo Tuổi Trẻ",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T04:04:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdTdzTDZpNTJPdFB6bDdnb0NaTlFwZ3ZMYXI4cVNFbTFueUZVbFhGSUNmVnZtNlYxd3VINVp2Zk5mTWxwRnkwR2FXaU9nN3c2M1NLcHJEV21KTnBfekZaWlRUMmQ3bXdDaE0wbWdWZHl0RXYyQUpmcXFWcFRwRzhzbEhROG9NaGJKTVppLWh3?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Dak Lak"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Tuổi Trẻ"
+    },
+    {
+      "articleId": "gnews_4993ef07951c1d39",
+      "headline": "Người dân được thụ hưởng dịch vụ tốt hơn ngay ở địa phương - Vietnam+ (VietnamPlus)",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T04:03:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX29Qc2xhUUQxTlp5WjE2aC1ZZEFld2Z6THU5dGVldTR4cVNZVFBwOVhVUVVURC12QV9WVE1fUHNhNlp4Q2d3QVlDZ2YtTFp6SFV6UjRoWWtraG5YMDJqcUpvajVSaGZOc0lDX2dWOU5TWEpoYnBrNEpzY0t4V0l2WGc1YzRmVVEwdGNSbEZoaEkxd2dodmNKejAwMGx4c2J3T3Vj?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam+ (VietnamPlus)"
+    },
+    {
+      "articleId": "gnews_68d78841cb2f6073",
+      "headline": "Bầu bổ sung các ủy viên Ban Chấp hành và Ban Thường vụ Tổng LĐLĐVN khóa XIV - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T03:58:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZmVsQjEzRVljcHA3bUs0VVFIc05DWERfZFlxRVk5U2xaZ29JWFdYS1gydzZDNXZTQUtTRDljZllud1RrWVJnc2t4QzRXcllnNFQxVWd0aWpCeDhoaTBCdU1oeUJmQkFwbm01VVI5b0RNVVlJT05seTBXRVRxM2t5V1FNZ192UU1LejFMcVdudm9JZ2NWUTdETXc2S2JZa3RBblhnQ2Rfd0JQWS10V050clg3RTRnWnM?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_c6ecf3cb0c08a7fb",
+      "headline": "Tâm thư bệnh nhân Kazakhstan gửi bác sĩ Việt: \"Cảm ơn đã cứu cuộc đời tôi\" - Báo Dân trí",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T03:41:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMlZfTWVocl9XSjBfMDdyVGFPek5HMl9Pb0VlaWptWFBEaU5WVG1WaTFxbGRxdU9qQUk4TUZoX2IwNGNocGRQVWM2QUxiU3dvT01TQzFTUDMxbFpaOFFrVTB5RFZZNXpnYkhWZFNQNjA3ZVRsbDdkSmxOVjU5ZEJvOHF5X2xncEtsYWFXZGxOY056Z2NXZzJaVDdKX0syY205U1RGRnlXSWpCMHNwS28tVjJjWmVrRzRMeG84SXRwMFI2Zw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Dân trí"
+    },
+    {
+      "articleId": "gnews_8bcd888d19a90d71",
+      "headline": "Lào Cai trọng thể tổ chức Lễ viếng, truy điệu và an táng 71 hài cốt liệt sĩ - Báo Lào Cai điện tử",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T03:38:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVnRmenhDUGt4RFRoUVk5Z0RXLWJiT0dhV3pNSXFpZXJkSUMzNjVJemRGZEVRXzdrOFB2MmxaelAzck51OFFub2FGMU1GdDhIY0t3aXlYeGdmMDYyOFQ0a0ZtcVVUZUU0Zm95T0JBT2pSVnAzX2llMmU0dzZwazJpZi10LWI0bTNVSU9aUEVDc1NHOEk1dW9TbERYYmtwcDZUQmpOMmhuRFM5azRVeDlzUw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Lào Cai điện tử"
+    },
+    {
+      "articleId": "gnews_5d79eeb453c4953e",
+      "headline": "Hưởng ứng Ngày Kỹ năng lao động Việt Nam 2026 - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T03:13:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSkhXMzc4c3gzZC1IdG5YU2xibUQ4WnhsTjMyckpaUDVfczk3QXMxY3JmMVJLVEhKSzZpVWlRUlhIOFBpUU8xWVdHMVhwRktsTUx2aFk2cE9zNFo3LU5xcUVqaGxEenkyZU1jallMSUpyUS1aVkg1dGRWZ2ZlSU15OXJ0ZEpBOHFYWnBj?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_aaacbe0065b145ef",
+      "headline": "Huế: Tưởng niệm 5 năm ngày Trưởng lão Hòa thượng Thích Huệ Ấn - Thành viên Hội đồng Chứng minh viên tịch - Giác Ngộ Online",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T03:05:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdGY2R3d2Z2RTcUF0TEszck5Gd0J4RGw0bkpjdXVFREFfa29waTc3a09nbzhJbHJQR1U1UEs0WXNoT1F3NVdCUFVPMF92RklrbV9oR2xxYi1KWDkteEQ2dTYyRHFEbWRGcUdya0puRVdUcEczSlRqY3NENnBvaTVDUkVKVGI0YUdIY0dEUmkxZGRGQmJHM1FCcWtkNjBLaEF2eU56T3RHQTJVLUxNQUlkY1Rhbl9QeTV2NVUydmJmYlhCZzR0ZjZ2bmtUOGdydzNz?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Thua Thien Hue"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Giác Ngộ Online"
+    },
+    {
+      "articleId": "gnews_f18e06afffe68447",
+      "headline": "Bé trai 11 tuổi ở Đắk Lắk tử vong do sốt xuất huyết - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T03:03:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX0FKQ3U2WmNObW8tOGdzOG91dDRhWFdNVVFUNXhFUVllU29NVVU1dmRLeTNLUlc3Q3MtNF9SY05hVndoWGd4d09zRUhhN09NOERYVEp2RnBRUzdvWXdfQ3BsMjhscVc4SGxEeU1PUlJXRHhtdWY3ekZMbHlrXzlieThSTDY3Vy1xRENjY2NJc2JSdWoyVEE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Dak Lak"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_82a43206a9cf83f6",
+      "headline": "Người lao động là chủ thể của đổi mới sáng tạo - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T02:51:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOUJEd2lVcjRGdDlmMFZ4V1NLZVU4bkRzSERBV0FOWXVzSEluckxsQkgtUU91NUljY0VkNGpRclRkbDdCTXk3TmNwVmxIZm5GT3dhUVZjQVBoTUw4LV9hbi1BS29CTHk1X0ZWakotMUxXRzdZWGxUdWU0czhZZzctaEtHbEVTQksxWldKT3N0SFI?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_b32dd53becbe2de6",
+      "headline": "Đổi mới công tác đại diện, chăm lo, bảo vệ người lao động - thanhtra.com.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T02:14:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS0xvNkhvUzM0d1FndjQycWFrLU4yMUJiZmFpR2dJdnJsRTgtWjRpMWJRNmJTT2Jadjg3bFZ0MXU5Y0dhQ3VnOWk1c1hxMWJ2OUtub2h5cWdKQkxhbURacDZ5U2p4QlZZemZya3VCX1doaFNDRjFCVFphM19PVUQzZGVpX0JhbDRsY0RrY2sxeHF2Z0c0cGpzck5saHdXRS1FVnVXcG85TndHTEs4TW1qcnZB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "thanhtra.com.vn"
+    },
+    {
+      "articleId": "gnews_d716545800789eda",
+      "headline": "Việt Úc đưa công nghệ gen, giống tôm Việt Nam đối thoại tại Responsible Seafood Summit - Tạp chí Thủy sản Việt Nam",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T02:08:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQW9VNmU4V2tlUUdwMmd5QTRlN2JmSW10ZjJ0VzBHN0YwYU52cTFZVHFWdjZCN3Z6SXdsbWV5MmFxTEN4NWlYekJLZjZPU2JiVjlwR1ZrY3hfdkp4azM5X1ZETHJ4Z0ZXeV9oQUF2VTVfNUJkWXE3SVhUUGl1bVV5OGJldFkxVmtuSzhFRGVEUDZDR2dxWXpvYW1KOWlLdUh4OU02cGNXdm80NTR5c3EtSU8zcXRuRnc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Tạp chí Thủy sản Việt Nam"
+    },
+    {
+      "articleId": "gnews_a23c63c3a63299e7",
+      "headline": "Công nhân Công ty Ivory Việt Nam Thanh Hóa thi tài, nâng cao tay nghề - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T01:48:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZnpRNi12djJzZjJMeWRTVDFZR09zWlBidldjMDJfbDcwcnAxTms2THpTaHEwZzZ6WnNNZDZhbDNubktfRFdZT2gtMDZzeWdfbDU4STdOeDNXZnlmM1lVLXdpYTJ5ZHVtb0Q3eWhQUlVuVUdKcmtMTjRGSHJJMUJRekgtRHZ3b0c1NEdnbWgyZDRGajAtOW9BT20waVJMYXAyVGd2LXdPbjBWNks4VUE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Thanh Hoa"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_6454be805cc26e17",
+      "headline": "Giải bóng đá nam - nữ gắn kết đoàn viên, người lao động ở Thanh Hóa - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T01:48:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQWRDSE1lLVoxSlhRM3ZESHkwekZWOUxEdm9heHNEQ0lIckhWclZCUjFuZEotTHNyWjRUUDlSUmlKeE8tZjA3T3pNQ3ZMSXRZRGxJbGxjRDNMdEtTQ0RjNFNNRFlJMmptRmZ5R3BZLTZFQ2gzbEFrUEc4SVVEU3ZSaFk3RDN3OWsxWmEwclRTZDBiSFcteElyTldtYmNldTY5empQVDRxQ1R6RFdldHp3?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Thanh Hoa"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_94570bebe5d40d91",
+      "headline": "Công ty Giầy Akalia Việt Nam tổ chức thi tay nghề, chăm lo công nhân khó khăn - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T01:46:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOalZRVEpudE5XZWFYaTVhM0c3eXNIR29RSEpFeXZJczZ2dmJNUG51M1RkLUVpWV9NTllHVk9HOFFGdGlTZUQzd0RFbDR0Sm0zU18yRnNWZF9zd0pLbnRqaTFQaHoya19kd1JfMXNoTFktNk81S0xESU1yVkN2QVlHU1pwa09iS1RIMDUxRERSMmIyM1BWTUpuZVRqRFI2S0hqMzNUVGhQaVZCUDliamxvRDBNSmppLW1o?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_b5bfd6f42c41e37a",
+      "headline": "Tổ chức các hoạt động hưởng ứng Ngày Kỹ năng lao động Việt Nam năm 2026 - Báo Khánh Hòa",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T00:55:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ1M2MEZsRF9mbl9kZkI4WTk1OEpfbWpmcEZDZlpBalAxYklCQVBXdHltbzJDbGIzM25YQkx5cHllNW16YWp1VWJhemJCY1BUaHR3Y29XWmlXRlhxZVBGMTYwamNKMXl2X1otTmtkV08zN1ZkX0pfSW0wS1Y0dXNDNEprMzlsSVppd1kzNU1Vd1JIaFRkNGtHSXZoWDJqUjJtZnRQVWV6aG84aEtmaWRtdFRFcUcwN0sw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Khanh Hoa"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Khánh Hòa"
+    },
+    {
+      "articleId": "gnews_83ffca61822f88fc",
+      "headline": "Chuẩn bị tổ chức Diễn tập chung về phòng thủ dân sự giữa quân đội ba nước Việt Nam - Lào - Campuchia năm 2026 - Báo Hải quân Việt Nam",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T00:41:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTnE2ZWlGUWpPMmdfZHBCU3IxRlJXTnVqOHh0Z055eGxKanl3M2VXWk1rWlhpM0RINFN4NUY0N1J4VG45Mnk0cGtWWDFtY3g2WDZ6dDFoSnJ6MGR5MWpBdzNZTEZNMExVai1XdEF1M0EwVGZJc1VZcE5jTnZGY0JBLTJpNHNvOVlqT0RhLXNneGxUV0ZXZ3daM25sUDBLS2ZKd0hEaDRMMmR1U2lyWEE0dVQ3cEJLX3l0NjBiQjMxeGVEaC1QWVpfLUtiWFRwaF9RWTZHbVRIM2lyUQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Hải quân Việt Nam"
+    },
+    {
+      "articleId": "gnews_4a59aa8442051f37",
+      "headline": "Thời tiết và sức khỏe ngày 15/9/2026 | Nguy cơ mắc các bệnh về tiêu hóa khi trời mưa nhiều - vtvgo.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-30T00:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE52S1p2UXdtNFJmR1UxN2M3bUFVQVIzUlR6bWFsLUl1U0JmR2JSc2pIYXNGOHozR0Exb25qaFNhU0c?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "vtvgo.vn"
+    },
+    {
+      "articleId": "gnews_f1ef9f15030101d5",
+      "headline": "Điện Biên và Luangprabang thống nhất nâng cấp cặp cửa khẩu chính Huổi Puốc (Việt Nam) - Na Son (Lào) thành cửa khẩu quốc tế - Báo Biên phòng",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T20:14:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPc3MzcmlONlVEQ3ZvN0x6U0ppbUZGcVhxOFpIV2lIcnVwQlpnT0lWbTBTXzNqS3V3Vm5HTEZzREtaVTI2ZXRNMzI1S2Q0WE85M2NyS1I4Y2k2eXBzdWoxbzVJMUk4X3dPb2tONmd1Um5QYnR2cEtWYzg5WXBKekw5cEFuUWlIbjhwWDBERDN6c0pvNkpVN0FfbGpkRHhYMnNNOXNmZVY0d3ZEdHFyRTJXUVc4akJJUWxuN2xIdnJITkRhdmpMdWxCRUdjSUdjaHBHSG1KVHU5NlZ3TkRVTW9zWVptaGxQYmxBd0pVU25vRUYyeVI3?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Dien Bien"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Biên phòng"
+    },
+    {
+      "articleId": "gnews_686a98558ca4216f",
+      "headline": "Lào Cai đang lưu giữ hơn 14 triệu tấn carbon trong rừng - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T13:10:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSm0xUmZnaDlIS0dmSlRUTVU3TmM0cUhUbU9mRkFteVFWSHR0Y2FCdmp2cUZDS1NVS1ZvS2RjY29lMnl5QUNFU19yejlhd0ZqeXdOT0E2bVdIU1FISmFWZTQ3TFl6Zzh4dzFxZGVHX0U0OHlibndGUWFOWlhISXl3NE1wQkJIRk9RQWNxNlRzYTZ1MFlkUHZGRA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Lao Cai"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_7e87933ef1be6dd3",
+      "headline": "Trưởng Ban Tuyên giáo Trung ương: Việt Nam-Lào tăng cường phối hợp trong công tác tư tưởng - vov.gov.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T12:48:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaC1Na001aGpjQ3FXa2RNOUJDQTdyVUN5RDRtZTVpTE16bXJXVDVxUjg1cTFHa1VfTUpfaGZUUWFsNUdwUGlQcDcyRGlGY01CMWRMWnF4ckZ6MVNnbnhkaFhlcEJjekFYcFk3aEp0aFJhdmU1Mms3bE1teDBCb29LeDVTTUFaQ29ENFA4RHZwdTZqdURvd0FQcW42Q3pxVU9ZRWU0czY5eFFVUjNmNGVYX1VTalhMNy0tV3c?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "vov.gov.vn"
+    },
+    {
+      "articleId": "gnews_01942bbe40055fa9",
+      "headline": "Bộ đội Biên phòng Việt Nam và Bộ đội Biên phòng Lào thúc đẩy hợp tác sâu rộng, thực chất - Báo Quân đội nhân dân",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T12:27:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaFowak9rRVk3SGcwci1KOWxBUi1wNHNFaUZSVUEwRnJjSzFrdWRvR0ZSX2JlZWs1N1JtaE5jQW8wYnhfRTRqR2I1RUhiV3A1UlRjYmstWUZqQzFZZWZ2MnE3cWQwTnFxX3ZmVHZZbmVrSHZuWUJtVEdwbjFhUjFabW1kVWh4aDcxc0ZrTXdWOFlMVjBrb1RJdzN6M1M2N3JRRnZMVHRUdUkzNHNrdDE2b3ZKX2JHMDN0M1ZmaDJ0Z1FtS2N5WDlzZGdvNUUycVNIWF83U2c5aUIzYXRM?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Quân đội nhân dân"
+    },
+    {
+      "articleId": "gnews_2c6cb4d3a35f8571",
+      "headline": "Sốt xuất huyết: Nhận biết giai đoạn nguy hiểm và xử trí đúng cách - AloBacsi",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T12:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaW95VW4yUkx0MXd5MUNVeGJPNHRRcFAwT0hIOUhqekJMdGFzV3p5NENkem5ad3k5bTlZTUxjc2lteTViM1R6aVd5NjlPUUVoMGsxVGJFTHV6clBGRkNuTGxENWRsVTE3SDBMMFI1enRiYmVCa2pLWHUwUGl0UzF3MEc0OFFKWnNsSmZodlRWbkItc1NB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AloBacsi"
+    },
+    {
+      "articleId": "gnews_2038a9f735d4868f",
+      "headline": "Lần theo lời nhân chứng, tìm thấy 2 hài cốt liệt sĩ Việt Nam trong hang đá ở Lào - Tin tức 24h",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T12:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPajdTOWxoNEVZRlB4MWlZMjdVWXp5T2RIbkMtc2NMbEFkZy1qZkMzaHQySndyY3E1b2dfN1NjdzVwTDUyRWFSSnNkZ29oMFpkeTNkZUZMcXgzdUFvamd4OWM5NGNuNVlwQmduZEY0WVZoc1Ezc2FyUWR2UnZwdUZ5RGdqQmhiamZ4TjE1VEdTZHc0MFhneXpIbGc4dU9fNjBVejJPZHcyRjZLNldxNldyX3BmU0NNSHdMeEk1Z0RTbS1CS19QcFR1Rk1pSlp6ZUdlRGE0SQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Tin tức 24h"
+    },
+    {
+      "articleId": "gnews_292ab173baf30771",
+      "headline": "Việt Nam - Lào chia sẻ kinh nghiệm công tác tư tưởng, tuyên truyền trong môi trường số - Báo Thế giới và Việt Nam",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T11:35:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQUx4WVktUEk0aUhhRlluVFpKU01oSHJPNmtVWTd0R2pmLTdTN0lid0N3UGVOVmkwWXM5WThKWnVuYnNOVkRLcUhFbUU2NXdiR3hXOWw5cVU5cVhXZTZVeWRnNDVaZURHNWxhSWFka2lBV2RJSHBSNjlnb0RDc0xlZmpRSXVuQVJkeUFiVWVUZXZXSTIweXVOUldxbTI3amxzQmZYYkxNdWtBZ3BvUXhmVUtTM2plR1k?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Thế giới và Việt Nam"
+    },
+    {
+      "articleId": "gnews_cfffbdda1fefc3f9",
+      "headline": "Việt Nam - Lào tăng cường công tác tư tưởng trên cả môi trường thực và môi trường số - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T11:27:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORlViX0VJVU8tX2dEaEVjTkdlTkVLbEpzamx4Z2lhb3J1cERMczQzVjdXQnlsQkx4Z0paZmFsc3hBNnk2NUlFajVRSF80UkNHS1dPbGNZSFpZSGdyQ2IzdU5uTTgzWEdKUVNvSFhkX2N4clZFclNqZWdlMVVoOXdFcnFmN0pYakxLcko5WEJRNEJoWWlHczc5c0dIa0VpZENlOVl5UHlvT2JtZ0dDX0F5eExCWGVoczEzYUIwbFpB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_89bcced827c31cf6",
+      "headline": "25.000 trẻ được tiêm vắc xin tay chân miệng tại VNVC trong 5 ngày đầu ra mắt - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T11:08:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEJpX1RPa1hnV3VjUEhjYm9xQ3ExSnlSTmN4UUFXenRLZFREeS1pYWhrQ0I4dE9JQnFobkZrYTVkUjNBekZNSzcwZHJUcWg3ajdrU2pEckRkSlE4anE0Ums1clY5bWkyYy1ubnQtODJFazF0cllyWjIwamtOXzRsRUIwOE9MOE41N1hFbnJzTExfOThWbS1mUWF6RkFYbDNp?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "HFMD"
@@ -284,13 +1498,51 @@
       "sourceName": "Vietnam.vn"
     },
     {
-      "articleId": "gnews_4dd4fb946e1e4ca6",
-      "headline": "Doanh nghiệp cao-su trên hành trình tăng trưởng xanh, bền vững - Báo Nhân Dân điện tử",
+      "articleId": "gnews_f0e3b64df0f9c11f",
+      "headline": "Lao động Việt Nam ở nước ngoài phần lớn làm công việc giản đơn khi về nước - Laodong.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T15:59:04+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTjVMcmd5OUhMWU9QTXJOVXRJbXhkeGJOUFkwLWU4TWE1cXk1c0hjZ2RsZG1Ld1NJOFlpaTlrOFl1Z3NsWlM2VDVYdHl2c2VuYjYwY1J1a1o2WFh4bDliNWNJOGJYQ09rUThvTFhkeENpUkpuN2g3N0k2T1hyblNwVENCR1p0YnVRZnFwUk9PQWFXRmV5VVBwVmhfRkk?oc=5",
+      "publishedTimestamp": "2026-09-29T10:55:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSklEMUhNM0JoalNKTkJoRmFTc2ZZTkVyMDNPd2dHdFFDRDkyT2dCMjJtMnFqdDhJemJqbm9wTFRyY0xUVDJVZUtRMTVUcjVRbnJKMW5aYVFHUUhxMTJicndqRXJIbDVvWnhoSUVxQk5yckRWVGR5cHVJZTF0ZDc2SkNnOUJ6ODMzVVZlY0xkQXpEREl5bDRsVTVYMm5mcmdxUzZaekdwbWF2b3FNdE5iUWp1ZVZQRVY2?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_13be1139771f54b0",
+      "headline": "Phối hợp, tăng cường giám sát ca bệnh sốt xuất huyết - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T10:44:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iSEZPeFA3dDNua0hzVmhjQkhDZnhtYm9yc2JtRkxCbDRVNUppeVZlNDFQc3lvTGttLUdiRTVvNUlYcVlUN1lybms0aXdETlRieWlLaTlwZXVkSEZ3UEtwWGdXdWFnSTFQZ295SUhTRU9HTkR0cmtOOGZtZ2N0QVk?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_d98ad968e412cdb0",
+      "headline": "Việt Nam - Lào tăng cường phối hợp chống tin giả, xuyên tạc trên môi trường số - Báo Quân đội nhân dân",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T10:25:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWjBFOHBLOHM4NzhSSGpyOWtMZGtDNWI1aThjRWN0TmxoU1hnTDBxcmVST0dYODJtdWtIb0VzeE9vZzNYLVhxWkpZMFFDN0xDMXVhN0VDd19xSjhWbzd4VV84MnlZZ0xfUXZtc3hQeUFSUzk0YVVSc0dSVFZCNUo2a21SSlJsaXdqMEhORHpPc3M4QWNicDZYUVRsbkFDbjRNZ1NPTFk4X0VfcnlGZS1XQkNXdXhLZzFTazBLS3B3?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -300,26 +1552,463 @@
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Báo Nhân Dân điện tử"
+      "sourceName": "Báo Quân đội nhân dân"
     },
     {
-      "articleId": "gnews_4e2c76db235ad520",
-      "headline": "Tiếng Lào được dạy thí điểm tại các trường biên giới ở Huế - Vietnam.vn",
+      "articleId": "gnews_2fe7ce12b5cbdb95",
+      "headline": "Vaccine tay chân miệng ‘nóng’, gần 25.000 mũi tiêm sau 5 ngày tại VNVC - Vietnam.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T15:31:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmllZkRzQkJ5M3Jra3Z4ZE1hX1BWWkFmaW9zN0ZmaUEzUmtnTDh3em5VeWswZkNhVXU5Z2VYNTZGMGF1UGdJR0pjRG1qYkk5b0FOM2pNQmR3ODFJazJMQTQ2dE5RTml6MjFyam9vODROb3hidnJFOXJjb1NQSzBodzB6dHlPejFC?oc=5",
+      "publishedTimestamp": "2026-09-29T10:05:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQThoS1NHT1NKcHFUZmxkUWlGUkNiaHpYYlF1MWRnaXhOZkZWbTR1Yzlvc3h0akd5Q29zUll5RXdTYUpUaG8yNmoxbkxyTjFxOVJjQUFLQWdDdHRKaEo1WldyeWZJUUdpRXJuY2txWVU4am9qdWdleWtRZkJEMWVsMUduYjFEbG16M1o4TFNHTGRoVXE4?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_20ed7806aaad3015",
+      "headline": "Phối hợp, tăng cường giám sát ca bệnh sốt xuất huyết trong cao điểm mùa mưa - chinhsachcuocsong.vnanet.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T09:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSFlzN3g4c3ByellUaUYzamJGZDVfdk12aDFFc1AwekdDdVR2RDBsYVFHWVN6dXkzT0VJcUJrNXNEekhfRkw1ZGpkaXNTckFCWE8zeUw3RWV3RlZjVkhVVnlnZEpVYzhuNUVvMWUtbEoxWkpSWXdsRjM2ZEVBS090cGVqWnFuSDcwejhTVE92cm1ZLWRCTHVzem92d2tSbGk5cnd5dlNzTVgtczJ4aEloRllUUEE0TUJ2clVBdVZB?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "chinhsachcuocsong.vnanet.vn"
+    },
+    {
+      "articleId": "gnews_bcddff434e110d13",
+      "headline": "TS.BS Nguyễn Văn Vĩnh Châu: Một đời nghề gắn với những dịch bệnh chưa bao giờ đứng yên - AloBacsi",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T09:10:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdVJtQjBHTE5pWU1JaEplS3dkY2pKWGpVdHluVFdqV181c0xXc0M1aGJvbXpadGpCbDhlTWtRUDFVbVZwek5PeE1NSlpDRVByM2JjeTVJN2VYS2t4VEV1a1UyaUFIY0hRcXNELXlOS2RidEFUUTBSOVdYZEhLRU9BNWtaNDBBY1VlZW9mYjRWYV9uTHFPQUQ5RGszY3JRZFB1M1paOGRtTzF5eF82VUJQZA?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
-        "Thua Thien Hue"
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AloBacsi"
+    },
+    {
+      "articleId": "gnews_84411e87a7e28096",
+      "headline": "Việt Nam - Lào thúc đẩy hợp tác trên lĩnh vực công tác tuyên giáo - Báo cáo viên - Ban Tuyên giáo Trung ương",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T08:48:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWlo2U0ZJbU92cWZYNlpscFNOaDFVa3JkQjhtcS1ySVRkMldjT3h1X3dNYlZOcktMcjg3TVhJMXhMZHNDSnVlNVRUWFFaZExrdmZpdl9zcDI1dzZ4bDh1RmRyQjNQUXBRNEJKcDJQRHhsenk1Zk5lMnRpM3RHNldiVi13aFRlYnRYRW10bzRfR3NSaTBWVTEyS1ctTC0?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo cáo viên - Ban Tuyên giáo Trung ương"
+    },
+    {
+      "articleId": "gnews_61be49107f41c8bb",
+      "headline": "Xã Đan Phượng siết chặt phòng dịch, không để sốt xuất huyết lan rộng - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T08:19:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeHBtOTIwbF9IaDh0Uk1sN0UtWlZyblpjMldydUFEYUoxRHF5dEFvQjZ5bVBhdUNWMnpsMDdZQlJnNGpBU3hhVUZmUndJbmgzSUEtQ3oxU1ZZWnBPb3d2RzZJeGtQZlllaFIzeHZ5Z0VaVlpENXRrNDlfNVJvNmdPcFMtbUlLcjNmLXNfSnlSN3MzVUFp?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
       "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_ae0d38697fade1e0",
+      "headline": "VNVC có vắc xin tay chân miệng tại gần 300 trung tâm toàn quốc, tiêm hơn 25.000 mũi sau 5 ngày - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T08:19:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTHB4MjQ4T2Jscm5tYzc2cnY1RkV1NmxiN0dMWHdpYXFzUHVSMjFqUXJnQUlrUFk1bzFENnh1bVdXRFU3SEdkSlRBcUVFVVNscU1aR3pBbERjNHVxTTJsTFRrVmRNT0haWDNBS1dianJTd0t2MnptUXJ5b2VVRVRabHBmMlczWXZXdnpmWHV4UmYtTlFQWUZta201T1V0amk4QUxVOFVVMm5rT3AxTlRSbVNOTmFBSkU?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_d2d739953ab8748c",
+      "headline": "Việt Nam - Lào trao đổi định hướng hợp tác tuyên giáo giai đoạn 2027-2031 - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbVlnWmxld09vN21NQTVFSjBTX2NYcmZCcGhYejVoTzFKUWE0VnA5b0pOOW5Xa05MUTJlSjJOeTNuMDRpRmFCeEItRTAySkNzdFl0cmlJbzhUU2JITHVmZE1LVTFUWWltMXVGMW82cTBTMVFpcUdGcUZWMUhoY0xSUndYNkVRbGxJN0hlY0t6WmI2ZXNHM3pjN0tR?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_3d6084e3262e235c",
+      "headline": "Việt Nam - Lào thúc đẩy hợp tác tuyên giáo, tăng cường trao đổi cán bộ - chinhsachcuocsong.vnanet.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T05:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWVRdVVXc0lYR2ctMUp0U01vUlRzTDdYSFF4R2tEbF9SUVptaE5GWUZNZEROM1pweXFXVGJQYloyVDRydElFaHBBWDI0cW1XT2RsdmdTYm9fcUI5M1ZNdnN1Wl9CRTJNZ3h5R09JYTJqYnZXODg5LXJOY1lYbjBtcHVGbnliMml5TmhBeXNhRHdxbUFUVGROQ2c1Q216Q3o4aUppTnZuZ0xJNGV0WGdxYml4RFQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "chinhsachcuocsong.vnanet.vn"
+    },
+    {
+      "articleId": "gnews_41efc562faa6a203",
+      "headline": "VNVC nỗ lực tiêm gần 25.000 liều vaccine tay chân miệng an toàn cho trẻ trên toàn quốc - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T05:13:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQmFab2lJLUZNdkt3dnR3SS1YbzZXdFBqZ1JJaG9BZGU4LWdBMGsyUmxrUjRXRk8tXzlMTnNITUpuMGxWSl81ZEZBT2VEV2VIcDFUaVRDMFMyTmtCbjA3QlA0ZVd4TlBmd2VfbDdfQTFoUlpOYlVMRi1NWExySWFKc0pNdGxodXFSbHljYjB5X3Nxb21pQ1BuaERpRnNLMjZKZ3A3TFNwZXIzYjIwUlE?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_ce4bdea02fc1e873",
+      "headline": "Sốt xuất huyết gia tăng, Hà Nội khuyến cáo người dân chủ động phòng, chống - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T05:12:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY1l4V2NOUjVWbmxQSjgzalJLSHluV0Nhenp5RVZfWDVfSjE3T1IwWVJNYlRpYjFQUHFaUFozZ25IMF9uQlNGb1dnQkVSTUFnLWttSUNvVGdGRjQ5ZHhUak1kNmR1SUxEbnlZMzV5LVp1QVplNXllV1RMNjF0WXJtMWY2d0puaW0zS21fRnVjVUtUNlNXRllxZTdQaw?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Ha Noi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_4e66de425b4c5429",
+      "headline": "Chuẩn bị tổ chức Diễn tập chung về phòng thủ dân sự giữa quân đội ba nước Việt Nam - Lào - Campuchia năm 2026 - Báo Quân đội nhân dân",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T04:52:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONnRKRUk3OUxUdTZFX1B1bXI1ZHRMejdNMzkzQVlaQ2NfVGJsSTg2Z1dJUGhQQmVKaWlhWWN6Sk9FOE0yeklIVzctdmV1LTRzYngtdFNuS2RmZ1dqakMyTE02QVh4N0FyYmUzcWdNWnZhT2NqRl93Mk5kenlPMFpVQ1hzYU53UGpqblB1emJkSXNJWXU3OEtRQWNua01Zd3FiUnMxbnF1c1MxWmZIZmhaWTgxMEpaUmNWZlZLMkplaTZQeS1GTFJLTTdSWk5ud1RXb0YzeEhEb1RNR2ZOcm56Q2k3c1JxTjFkUl9mbk9fejZNaFhq?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Quân đội nhân dân"
+    },
+    {
+      "articleId": "gnews_40e7bb5a265111b6",
+      "headline": "'Sốt' vắc xin tay chân miệng, gần 25.000 liều được tiêm tại VNVC chỉ sau 5 ngày - hangthat.thuonghieucongluan.com.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T04:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaVhXWGVaQk5HNlpIdkZXeTFHNzRzU2hILXh6dzdqUWtSZXBOUGsxV2Zsd2pLYzJ2dk9BT0RQQU1BZnAtY3ByMkVFT2NlaXBEZi1Wek1WOVBXb3dlRWNDNWlVZGliTDd2NWZscUZsWVE4Qkx6QVBRVGZUTHVpcUx1TE0xQjZ2RUNwRUV1bmxqVlZlR0FFZjZzUnljQmZueW9JSWdQRlJyVk8wb0ltRWg3MWE3QkVjZEl4djZsRkNzZHdZTTAxbE5zVE5HeDI?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "hangthat.thuonghieucongluan.com.vn"
+    },
+    {
+      "articleId": "gnews_931c3fae43a2ad0b",
+      "headline": "Gần 25.000 trẻ Việt Nam đã tiêm vắc xin phòng tay chân miệng tại VNVC - Báo Tuổi Trẻ",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T04:04:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbUVteVAtbUlpLWV6QzlNcWRfMVpRVDhWZzNBV0lqVFpsSVYyMWVPRXlqNjloWlJXd2xFc1I2RklzLUtYb3NSUTBJNjFRUVNQNjRiMUdObjhrNktfbTdOWHhTYXNHYXZPckYzX1pDSHBnMk5ZRVhOVGVEdmlvQS1DQVlUcnNkRXpFbkhYZUpwZ2l2d2gwdWZCNWRENDFrSzlDN2Y0cHp1R2VNUEtMUkNV?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Tuổi Trẻ"
+    },
+    {
+      "articleId": "gnews_b48e20d21e5b1494",
+      "headline": "VNVC đã tiêm 25.000 liều vắc xin tay chân miệng, đáp ứng nhu cầu phòng bệnh mùa cao điểm - Báo Công an Thành Phố Hồ Chí Minh",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T03:21:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd2ZxUWxjalMxX2RTVFBZVjUtRXBZUklnUlJxU0hBVDBhQW5UWnAxc1hyTXVMTzZidlZSdXdHNEtmSHRsZ3lPZTg2cjJ0d3VEc3NvU1Vlem1vOWdBZGZjZHBBR3BOWXdONVQwWXhxbzgtaGdOTGFGLS1NZkU2SlZjSk8xVEpTWVRUTnMxTDg3NjYtVmo2MG9TcW1pbWtyYXpiWTRqTFhRU05ZeXpabzdNUEZrOENSenFkWVh3a3Mzdjh5bV9BbDJoMjhZXzZYLWF6?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Ho Chi Minh City"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Công an Thành Phố Hồ Chí Minh"
+    },
+    {
+      "articleId": "gnews_80424dac49c3fef6",
+      "headline": "COVID-19 chính thức thành bệnh truyền nhiễm nhóm B từ hôm nay - hatinh.gov.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T02:48:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQmhhaWRLalBRTnlCQjM3SnZLTWVGMXNjVEF6bVRJd3UxSENPNWdfV1E5U2pzSmpXNVZyX251LXBQelUxWXQ1bmctTTFZQkVUM1pHVkhEdDJwTVB1R0k3VDl1MDNJV1VuX3NkTmk2dUFta2JsTmxoN0xTZ1hOUmx6NmNUSTc1ZkFRR2szOEp5SUY0NU5aTzJ0UlhQWQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "hatinh.gov.vn"
+    },
+    {
+      "articleId": "gnews_c40d7dfd954b10c1",
+      "headline": "Gần 25.000 trẻ em Việt Nam đầu tiên đã tiêm vắc xin phòng tay chân miệng an toàn tại Hệ thống Tiêm chủng VNVC - Vietnam.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T02:28:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORFBhQmJCZEdCcU42ZjVrX3Rqd3ByWXBjVVh3bE5wYW1DWVRlUDRjOUY4bEFGbnU1MHY1N0FsOTRtYWJqUGFmUUJMdDloX3V5Q01RTmc0dWRRM3lHalU4b09yNV96YXVYUVJlZUlUcGZZSXJmM0I3ZHJkZUpSTzc1M1c2NGpfTWYwRkxiQ2VXaW1iUXhndkVucXE1aHZwU00weFAwdVpUT2FmcjAzOFd4ZktlUnh2MllHcC1Ec0xoMjJvWXRqd3hIUkhxUlc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_b916181605b602f1",
+      "headline": "Tổ chức nước ngoài phải đăng thông tin tuyển lao động Việt Nam trên Sàn việc làm quốc gia - baothanhhoa.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T02:08:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU1JFV1ItRlYxa2U5aVdvOGlzd19wU3NQTkY2V3RMNUZkNkN6VzVYR0QzVF9wYWxveDQteEluYVBkQlRELTROckdrMTNBanUxQWVJS3llUlN3SlFHOUJWSFh3RGZpSVlKYXVqdjFFSF9mXzBCTmlQMHNlek55YS0weEFLdnNvcld3Q1FDNGdKTmxLZWliUWRkNXQ4ZDRVZ3ZPeHBmN2FNRHVFWkhianFtb2I4Y0VxejJLTEFySTNUdks?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "baothanhhoa.vn"
+    },
+    {
+      "articleId": "gnews_0d6151d3d4f174db",
+      "headline": "Việt Nam lần đầu có vắc xin tay chân miệng, gần 25.000 trẻ được tiêm sau 5 ngày - Báo Đại Đoàn Kết",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T02:02:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUERrNnNDTk12ZjFnYkVUOHFRNUJlazlEVTJ4Yzdzck5hYm5hZjZxa3dyeG9kamQzUXEzUENuREhrbWZhdkJPYXdwbWRJWHhmeC1NeWhjejB3Wll0Q0kzYzExSjJ4TVNRZG03emhuU0FlQjItcUY1eV9aakM3dXdldHEzaVFhS3h1MHcxRXh0ZVI5dVdab09DeGY2b2VLSU5may1kY3BxRzY?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Đại Đoàn Kết"
+    },
+    {
+      "articleId": "gnews_826de1e38578be38",
+      "headline": "Chủ động phòng bệnh sốt xuất huyết khi bước vào mùa mưa - quangngaitv.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T01:40:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOFdiZGxkSHRqWElPa2ltQ3BPUkhQWGd5UUJURFJpNXg4LUwwUzBZdHptMFpCM1ZZQ3ZuaTlRYW9CeURyZlFlWlRJcmRfX2thSEpzV0F6elJoQjJHbkM5WnBzOHZlanF6SF9rQXRQVVFncTZzS0xteHJ1Q2ZUUnB2d0lkZExpY3BPdTd1MlNUYjRLRVlMUWc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "quangngaitv.vn"
+    },
+    {
+      "articleId": "gnews_9ff7bed2e44d6f2e",
+      "headline": "Gần 25.000 trẻ Việt Nam đã tiêm vắc xin tay chân miệng tại VNVC - Báo Sức khỏe & Đời sống",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T01:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbUdMSUZpT2NxYURiVHk3V3JhR1hac3ZqcFdXTGVYV0VWUE9hTEdpYkNmWUxSeVNWNE9FTEc5WF8zb2dLa1h3aUVOWUdFRk9TMTFwQ2RUZURnNU13NTM2ZHlQMmNBY0pYeXVCV0lKa2tSWEhzZWg1dERNZzV1c0NuUURsa2xnWW1tMDNHWFNNWGJDYktnV3J2OHdDUm9kb1RWUGs0WFMwcUNQbXVDZGFERA?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "HFMD"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Sức khỏe & Đời sống"
+    },
+    {
+      "articleId": "gnews_cb46314471f5579f",
+      "headline": "Đào tạo kỹ năng mới, mở đường cho lao động sáng tạo - Laodong.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T01:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdFhwSWhPaWtrTWQ2T3dWM08wV1dWV3VDTlU0WlpNYjY3NmhkNzNRSXg2Y3Q1UXIxRTNORzJDTW04WkVBYU94eWpQYzk5UUQ0Y09zMUlPUVhVTW9WRExkSU9Va1I4YkJIdUQyZDZQakJEa25xZ3kySWx0REw3SjEzMVdrX0pCX1dtZEg5aE04TE5OUEdIMXc?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Laodong.vn"
+    },
+    {
+      "articleId": "gnews_f809465d3d511cc4",
+      "headline": "Bộ đội Biên phòng Việt Nam - Lào tăng cường phối hợp quản lý, bảo vệ biên giới - Báo Biên phòng",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T00:06:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOXVhbnVzQWtFblJ3cEsxenNjczIzLW5XNjdfQUlKNXV5clVWZ1FoYXBhQWR0bmpxNzNBQzNmS1llbEZkV2JJTUVZUExDdzJDcU1CYzM4V1kwOGd3ang1UEhvLUp3U0VxN2luZFIzUE81ZFVrM1BwaVZ4QWNIemw4cUc5dGpocV9WTEtFTS0yenV1UVRteTVTSDZ6MlZGRlJObmdMRmhuei1aUk9ZcElvLTdORi1UR0FGV1FrSQ?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Báo Biên phòng"
+    },
+    {
+      "articleId": "gnews_8b111ed7eeeccaa3",
+      "headline": "Quyến rũ Việt Nam | An Lão vùng du lịch xanh - vtvgo.vn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-29T00:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5SeFltZWUwV0tTR08wYVpCRWRLOUYxYlZWNl9BRElvQ3NvRlJEZVUyZEJBMVdjWmt6R0FrdVJxQjk?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "vtvgo.vn"
+    },
+    {
+      "articleId": "gnews_e418d5ca454d5898",
+      "headline": "Việt Nam - Lào tăng phối hợp chống tin giả, xuyên tạc trên môi trường số - Thông tấn xã Việt Nam (TTXVN)",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-28T22:08:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT0JBYmhCdzBJRXEyVGNuc1U0WTFiMTBwUU5ROWo0MWE4NVJmTExRdFdaZDVfUExSR1hyWEh2alpaZWZObkpOS3Q1dlhEdTFfTHRlQmZ0ZVNNMnRsbWc1Z3ZWQ2tTd2lpZHhWd2pQdXoySGxSX2ZnLW9TeFo3czRNVjNXU25jLUxNcnE4Q1FvTC12VENOM1lSbjNudmNkTk00a211eHNwTlhNRVk4YWo4WVBmYnhnOUc3bi01X3B4MjFnX0Zf?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Thông tấn xã Việt Nam (TTXVN)"
     },
     {
       "articleId": "gnews_69dfed9194da53d6",
@@ -341,44 +2030,6 @@
       "sourceName": "Báo Nhân Dân điện tử"
     },
     {
-      "articleId": "gnews_60b87a3b4b10733b",
-      "headline": "Sau tăng lương, doanh nghiệp không được cắt giảm chế độ có lợi cho người lao động - Baodautu.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T15:21:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQm1ZTXFpZ2VfWHRVRlBYOXhhcHgtS055SkY5Tm9EeWhXMlVubThYbHhsRkloWUNjV0l4emlmRGJhQUlxbm9FWXdCWU4zTGhYVGdaUzZTVFdJNjlpMXB0Y2FxZW1WOWR6UE80aGJudVlMTXhiaFE2ZlF6dE1wbUF1V0g1dDB1c2JzUno1ZERQR3F6cl85ZG9jUHA3d29XMExJaDZ1S3pveGNPVEt4WHFUNVdGdw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Baodautu.vn"
-    },
-    {
-      "articleId": "gnews_2e3147bc68e2355f",
-      "headline": "O Comitê da Frente da Pátria Vietnamita da província de Lao Cai está monitorando a implementação do Projeto 6 no distrito de Nghia Lo. - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T15:15:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRkFhMTFHRS1TNzFCeXhRVHB1Rnpud1NWLUNVaTg3eXdockxDTVRsc2FnU2tBTmEyOG5wREYxY2xna2lkYVZVU1pDTENqcjZlYU1mSExwUFBWOUZXR1BPakkxdmlCSlFkd2VsbEVEWTROTnUwOVdzaFdqNjRIRUlhNXVienBBOHRNRVhOdi0tMnJ1WEl0ZEltc25uOERSc3ZqV3FGQjNoUWpYdw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
       "articleId": "gnews_391048659f231a88",
       "headline": "Tổng Lãnh sự Việt Nam tại Savannakhet (Lào) tiếp Tổng Lãnh sự Thái Lan chào từ biệt - dangcongsan.vn",
       "headlineTranslated": "",
@@ -398,139 +2049,6 @@
       "sourceName": "dangcongsan.vn"
     },
     {
-      "articleId": "gnews_d2d595a57cbe5146",
-      "headline": "Ủy ban MTTQ Việt Nam tỉnh Lào Cai giám sát thực hiện Dự án 6 tại phường Nghĩa Lộ - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T15:06:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1JkWWdxb1N5ZUlGbWN2Q1pwcklkakxQcmZHVjhmaTBYaF9hczhUeWlJTzhwM3RtYTZDLWM0VUN6WXd6Q3VQUWRuR1V3d0paSGRaSXE1aHJqOU8wcmUtOVhKVUpjUmQxSk9OMGJxYTVaRHY3VUlIV2FINVExM0RWb1MyM1FVODdSbXZGVkFMSTZjRHF0V2VmMHBDakJpR0ZQQjFIdHNB?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_0b400f2f32001435",
-      "headline": "Việt Nam đứng sau một nước Đông Nam Á về tỷ lệ người lao động sử dụng AI - Báo VietNamNet",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T14:32:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOW9CTHRsM2luWGN5TjF5TmRYLUdJUlA3UUh3NVp3MjhtamR6MVlJejdTYjZYUWhibWJzbW1Pci05VURYdEYzbERxajQ3M2JpbVQzMm03Q3dIQklwQ1g5cC1ZNHN2eElseFBBSUw2dmRMekxsTUZMMkVGZjVtNEVMdXc5SHBQZmJ3UjNsNkdodkQwM1J4ZkxZWW5iVklxNERjS1F4OXJCNmtoZw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo VietNamNet"
-    },
-    {
-      "articleId": "gnews_bd5e8a98977bdcda",
-      "headline": "Đoàn công tác tỉnh Xay Nhạ Bu Ly (Lào) tham quan, tìm hiểu thực tế tại Nhà máy Nhiệt điện Mông Dương 1 - Báo Quảng Ninh",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T13:38:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRFZHa3o4SjlyZkxPbjZsYThOOVoyLTl2Zk9UTGY3Um9teTlUbVpna1ZXMlY0cXFkMXQ0Q2I1UUREaXR0aTVLTmdmV19NeVNabjFLU1FIWDVOU08zalpkbUVkWldZZFA5U3VaYlB3S2lSclpLU0lmeEJVNG1ZSm5rNEJvZjMxWHRySWhlZlhzelk2TWx3Q29IUVNzLWN2Z2VuVk9VM2dqWi02dUUxZnZfZGtwR0VNckdsWGFJamhVY2Zpd2hqWFBmc0NyUFAtVlJnMWE4YXNTbw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Quang Ninh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Quảng Ninh"
-    },
-    {
-      "articleId": "gnews_c40bd06785cde470",
-      "headline": "Chủ tịch UBND TP.Huế thăm Trưởng lão Hòa thượng Thích Giác Quang, Ban Trị sự GHPGVN thành phố - Giác Ngộ Online",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T13:35:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZU9MMDh3RFpiMG9IRThFN1J4ZkxGa3hjRFZLbkNrdmVsWEl1M1hTZ1AwNVpKOUpNSjYyMjBwdkpNcUh0TlhXRnNoWnE1UkdiMmZqVzNIX1QzRnF4WEE1bjdjQ1dvNHl3bHZTX1lKM2xnMU5tWUdraVpyNDBTZXE2dmxvWG1EMk1MTHJheG9ReVFiaGJnMjc1dEJGZHRkc0lDblBhN2tjZlBob1loTHNwb2ZZYTE1SExod1J6UW1oZzZRTGM?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Thua Thien Hue"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Giác Ngộ Online"
-    },
-    {
-      "articleId": "gnews_fbc5142e8ad3cd8b",
-      "headline": "Tổ chức nước ngoài phải đăng thông tin tuyển lao động Việt Nam trên Sàn việc làm quốc gia - Vietnam+ (VietnamPlus)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T13:33:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZXVmcW5OSG5DZjBfVXhSMzdiVTl3OVpsYzFfZmx5YlI1a1BZcS1vcGxmeUVGZ0dERU5iRHVpcTNjNklxNWJiSlZ4LVNmeEIwdXpBZlpCaFk3NXVQYXRya2VwM1RVQ0Z5WkgxSjJVbnFJc3VRYzRLV0ZyS042eWxKSVZ2VWtFMW1mRW5xbVo2aUE2ZEpOQ1pjeWJOR3VpLXFVVlZqQUVoeS1CX0x4YkE5QnlQeGRVc0E4cnBndG5pTFlqQkZoUTFTMFEyTnA?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam+ (VietnamPlus)"
-    },
-    {
-      "articleId": "gnews_06286cabd60ad6e2",
-      "headline": "Người lao động PETROVIETNAM và hành trình đong đầy cảm xúc nơi miền biên giới - PetroTimes",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T13:24:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa0E1MzUtUTlTbGxwT2xfRDA0V28tMHdaVUdvOUFYc0hMSkNpMzFNTTIxb3FJM3BsaHJGTlc3RWJTVExFSGszOWVZb2dHUEFmai0tekl6V3BJQ3hYdkVpSVMyZkNpV2w4Q2cyTXNVWmFydFBSRmtLdFdJdzlXbURYUFdaaWlzS2NBRldEZXVva2hLbnZPSjhVcFFzd05IWHVlbkJiVVhIWm90bFUxM2lub2lKdHNlMGNQSndKbFIyeG5uZw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "PetroTimes"
-    },
-    {
-      "articleId": "gnews_d27c4848a01bac42",
-      "headline": "Gia Lai có 11 cá nhân được tặng Bằng Lao động sáng tạo năm 2025 - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T11:57:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSVg0RThWc2gtS1pPTTVoR0hrM2dRRjNaajZYNU02Q21yZUwzQkxkLWVCaVNaTk1Wa3Jhb0c5VWxPZmlmUzYycGZXSFM3WDU3al92UnVIWEc1NmF1dTRabTNCeEkzQzFFMndUakdsbGgwWnp0bjRPYzZ6RkljWWMzWk5oUjczSU5jS2xLMEk4VQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Gia Lai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
       "articleId": "gnews_7f5eff34f5b6d0d5",
       "headline": "Sau mưa, dịch sốt xuất huyết dễ bùng phát tại Hà Nội - Báo Tin tức và Dân tộc",
       "headlineTranslated": "",
@@ -548,310 +2066,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Báo Tin tức và Dân tộc"
-    },
-    {
-      "articleId": "gnews_d51ca7e5541d76d6",
-      "headline": "Khơi thông các nguồn lực cho phát triển kinh tế Việt Nam trong kỷ nguyên mới - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T11:55:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMXZhd2JYaEFaNFg2YlBrZk9iYTRHVEVKY3hjRl9RcTJjSllVRDJtUlAySXhTd0VJWFBkcDBWeGZyVW5scHk0dGptb01tSVpMd29GaG5RMG9MeW5zS1duR05Ybm8xelFGaDFqR0pMN0s0VTVzWnZjUjE5NXcydkdlN2ZrRExJUzlXVlZYRy1TZFAtQUNkSUdiMEk4YXhGVE0tMjJGQWcyTmU1dFF3djdIb1JLRklBZw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_2f36559b85d5820e",
-      "headline": "Lào tái khẳng định cam kết đối với hệ thống hợp tác đa phương - Báo Tin tức và Dân tộc",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T11:48:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMEhra1UzN0VZOUJfa3czaTNHRHBXUzlZYS1kcDNVcFJDQl9QUXJaVU52Tk5teC1QaEJRUnNHNTF4ekVtRVFSNkZqc0pMNHkxTnB6b2cwallMaFVwU1pOdUJlZnpSVVIyMzV1SmktUGlGa250VFQ0Rjlzbi11RzNDWVQ3SGpva2VxY19WZzZfSS1qR09XNDktbVNSYzA0eFVk?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Tin tức và Dân tộc"
-    },
-    {
-      "articleId": "gnews_ff99a13695c4efcd",
-      "headline": "Ngày hội sức khỏe “Chăm sóc sớm - Bảo vệ tương lai”: Chăm lo thiết thực cho công nhân lao động - haiphong.gov.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T11:18:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX1FZTWNIcU5wc0EzQVpubi1Oa2FxMG9XalROVTVaTU92TmhSalE3Y2hfUXlVWmdVT0lBbTNTdDdnczJDTDV2MDZzN3liWHM0UHJLd3NBZjZHWXNOYkpJdlRmbDZOd0dYZnVoRmZ3Nk40Y05JNHJ0V3dXbXMxZUxqTklLakJEYk40WVI0UURaSXJ0WWtMODdWQ180WldHeWVlWFdJeUI5MGxncVVjY0Q2eGZOVTctY2owTVdKSHd3ekJXaHhwUjJxVXlzbEJNUQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "haiphong.gov.vn"
-    },
-    {
-      "articleId": "gnews_10c7baa4249c45f5",
-      "headline": "Đà Nẵng gần 4.000 ca mắc sốt xuất huyết, tăng hơn 2 lần năm trước - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T11:08:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNTNURVRQU3pkeW1CUVJZaS1GbVVYNmtWX1VsTUE0NDB1OTYyQzJ1LThxTUxrSkEwWGV4ZjZ5cjJNM2RPMy15aXNMTGwtT2c4T1Eya1dNZTh6NFN6WmgxTDdkUzFLWW1WblpNSUpTT1dNQ2hOLW5nVS1fWWl1VUh0bkJOTFdvNHljbGhRWXFPaklKQURl?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Da Nang"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_a82eea47244a5069",
-      "headline": "Tổng cục Hậu cần - Kỹ thuật chủ động chuẩn bị diễn tập chung - Báo Quân đội nhân dân",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T11:07:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQUzhNUHcyTDVfbTQxRFBhTWJBUW4yM3VyYTM2aDhqalRwOGp0RFR6U212VUdzTlVLSFVhakJGanBIZm9za3o2ZjR5Nzk2RmdxaEZrck9nMFk4ZTJDRm8xR0dCQnhMMzZQR2dMRjYteWNMT3lqdHBibFNwcTA5Qkd4ZmZFLXpHeF95eHFmc2piUVJqelpsMG12dFZVbnlJRm4yWHQ1a1dNMVByb0NCeTlkVmZDRHA5SjhrZjlEd2JDWEVYYjc0bW50SzV1YnNtTFlLSWpSM190eUF3dEN0OTJXV0xocThUZHItSk9zdkwxSHRkOGJuX2ppdkZDYnlRalh1MzhMMW9aOEpSZw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Quân đội nhân dân"
-    },
-    {
-      "articleId": "gnews_5d1a8400b8db9248",
-      "headline": "Hàng trăm nữ công nhân Hải Phòng được khám sức khỏe ngay tại doanh nghiệp - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:53:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaDhCTERXZWhDMUk0T2pqX2VyeGRkcUJJQkFpZHFDZGFVWXQteFFfcVV5Qm5CZEJsbUpTVlhkc0pqYmw3WWNMa3QzOXB5dzJNbVIxMGtFS1JPZHRFaEVBWHNHOEU4ZFlndmpZVGxMclJWcUUyOHBQYVg1ZjU4OXFyRHpWQVlOXy00eDA4LW9MWE92TFNZMUhMOWJGOGJoQXgzOERjc05rSnA4bkM3T3ZFZlMtNlU?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Hai Phong"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_437a1193f5e49b75",
-      "headline": "Ngày Thế giới phòng, chống bệnh dại (28/9): Cùng nhau mạnh hơn - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:53:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUW1TWXFmZ2ptWklYWTBfZ2NGeVFCRFNlNTF6dHM3OEs3QnpLb3NmT2syMVc1ZTFGZlJBTzU0ei05UGNSRnNuTUVzYUdIQTZqdk9xTUtTOFBaUTQtOUZCaENYQUhyS3RwY1BrNlUtdUVZMkgzUGNOTkJmRHVJU1djTkhQR0JTRnBm?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Rabies"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_63683d2e3e69763d",
-      "headline": "Công bố quyết định của Ban Bí thư về bổ nhiệm Phó Tổng Giám đốc TTXVN - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:51:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMlgyMEVjR2lxanNUcm5zc05naUx2U0pkbXFsRzFiYnl6SEdzOVBRNG90dE9tbXJIS0lvMnJaRUgzaXZyaFZUSGZWWGJPWk53LUxDRkxIN3Q4R0RmRTFEWGZoLWlLQlEtRjVteGktcm5zNUd0RG9YWjU1RTZKWUJSZ0JHdE5iRXM1Wmd1aGdvbUlJWWtHV2c1SmtsZmlteVdZU1dWVW1EWVNuODJS?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_06c1b9890e5f686c",
-      "headline": "Tuyển lao động Việt Nam, doanh nghiệp nước ngoài phải công khai trên Sàn việc làm Quốc gia - VnEconomy",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:47:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUEdlSHFJN3dORHMxNFMxWEZ3OHlVWkdPME9fMF9IWVZfN18xMVc4aUlHa2RPZk1MTkkxRlJEUXV6eGw0M01aaVpCdC1sR2NDdGdoX0dSMEMtZjlERGl2R2pzTWxiOU9CUHpSeXNrbFlGS0Z2TmtISENySFViWF9jQUpkU0FpdzBocnQtSVVKb2Y3dVVDQzB0eFZCZHJGeHNsdVB6N0o3V2ttYUF1N3ROQ0RBaDk?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "VnEconomy"
-    },
-    {
-      "articleId": "gnews_f7e022b3e60da6be",
-      "headline": "Tổ chức nước ngoài phải đăng tuyển lao động Việt Nam trên sàn việc làm quốc gia - Báo Thanh Niên",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:44:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUpaM1JtMmFZOVZTR3FhTXctYWlTQzQxaFd5YkI2QmU4VFBkS0xCeV9jXzNKWkVpbVVNM1FFdnlVbXdHLVZHSENYYWwxazVhT1NyMGIwMG5jRGl0TWgzcnhpbGZGazFYX3FXcC1EV1VCejFnOFY5clIwZWlrazNVc1FadEZrelpPLThpRXpDNGJFdmg3cXVYbVVfV3liZi1yckxtcnNLeXlxUnl0Mlk4Y3BPNkhDZ1g3a1U0WTN3Wjg?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh Niên"
-    },
-    {
-      "articleId": "gnews_7dc9078ff6a7c714",
-      "headline": "Phó Chủ tịch Tổng Liên đoàn Lao động Việt Nam Thái Thu Xương thăm, tặng quà công nhân tại Bắc Ninh - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:37:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYjhXdjd2YnBjdzFoQm5SSkN4MGxqOTV6OFFTeEU4VjNTMmhPSDhpNmtZbjJ2WmRxQnIxOFlkVE1meUFjM0Vma2NGUVdYWG1LU2lvWU9JTWhkaC1ieHlNU2xvSC1GVGZqem9COWNEMjRIMFFwenh0TTR0RzRfUzV3RnZwOHFLSzd1QUFoMXduaTFfRmI4LXBKNW5CQXpCQXBfMTFCb2dGZHFDdERKc3d0Wm1aSGpQcWRuM1dZRw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Bac Ninh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_5aace20c3aa24104",
-      "headline": "Kim ngạch xuất, nhập khẩu qua cửa khẩu quốc tế Lào Cai tăng 79% - Báo Nhân Dân điện tử",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:24:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZHQxODNvTkYxUDlNMHpXRnJzZWQ5R0Qtd3RueGdjMmVzTUp1MlRhNjU1RE5PSm1VZWRIaDkzclRhblN6eWVZWWZmMG1VV1U1WW1pVU42b0hYS3VSU3dNdlN0Vk1yNHQwMGd3V0JGZEZYWDQtS3NiVV9YY2JQMHhuaklvcGJTeVQydUVXcVhNWTQ2YWtqbWY1QzloMUc?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Nhân Dân điện tử"
-    },
-    {
-      "articleId": "gnews_e63db44c4e3c7e7a",
-      "headline": "Chăn nuôi Hưng Yên 9 tháng đầu năm 2026: Đẩy mạnh an toàn sinh học, kiểm soát chặt dịch bệnh và chất lượng - suckhoemoitruong.com.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:23:27+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR1ZpdTJBM3VobUNoNDFESmxGb3ZDblZPN015aHd1dXhMcGo5RG1CWURoQWxtWW9iM3pLa214VzRHSTZSejVaOE9KWlZiWVdKcHpFMXpfOTdqWmdCVF9oeEY4MXp5cWtxMUFvZ3NCZDFtcVN2OUFqWC1jcldzMVRJWWhpQVpXclAzRlNXSWh1RU9PZjdTc0hpaDA1UmplNzZZX2FRa0tqbFk0V3FVY2N3RlpaUXV4Uk05eHNPTm5LWWgtVGhoRHZoT09TVXFHZnFvb08xUkRnd1ZuY3FkWHY1dQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Hung Yen"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "suckhoemoitruong.com.vn"
-    },
-    {
-      "articleId": "gnews_ebd2d56bcb2322c8",
-      "headline": "Quy định mới về tuyển dụng lao động Việt Nam làm việc cho tổ chức nước ngoài - VOV.VN",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:12:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSlZHYk1BcV9xeHEtZkZYdFZoS092eVoxcThuZHZabGxzWFhEQjd3QnlyV1o3TDVZbDU1aWoyMS16cUFvZldYc2EtTjVoemNubnVidC0xdm1LZ3NMYjVxemNOdFFhSGxVZXJjcHBJYkZ3MVByOURVcENjMGhiYnFxS2w0Mm5LaE9ZaDZwbDIxUEs0V0hWaU1BWnlRWFE3STFZenVWaTZhbmVhaTVUWVlQY2hyTQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "VOV.VN"
-    },
-    {
-      "articleId": "gnews_06d1b38ab4237c1a",
-      "headline": "Bữa cơm Công đoàn” năm 2026: Hơn 222.000 người lao động cùng sẻ chia, thêm gắn kết - congdoanhaiphong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:06:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMGV3MklPcWF4UmZITjFsYy00VnhaQjBtY1BJeHZFLUh3cURPTlBGZzhXeFNYZWRHRzV4UXJCeGotR2w4RU9FUXBIZ1pZYnlxNVNCVmhUMjRWTGJscWpoY0RsQVk5NmF2VlJabUw3Z0pmckxKTmJlbWhRLU01QjYtV0pHc01VSUw3dDJKa25uWk56MExBYlY3ak9fRHBnSThWMnF6ZllPMnc0NFJhcUhTQ0RRem94TDNnbUQ0aGVmbnZlR1d5YjdJbWdDajR3ZUsxMHZYSEJtdDhRWmNXMXpiOGxsZ3hIZUVJbnNSSUZJLWlqY01hMUZZSTh1WQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "congdoanhaiphong.vn"
-    },
-    {
-      "articleId": "gnews_5b571092b4834b48",
-      "headline": "Hà Nội phát sinh 18 ổ dịch sốt xuất huyết mới - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T10:03:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUUnhGLUJpWDJIc2wtX0dlSkVZTkdXOEZJOXByY21fckIxQlFmeTRpcVd2OVI3V2M1NDVMV1VfbG9TeVFYQ1RNcUNzaXptRmFfc0kzTHRvejA0enM1SVlYNFVtRmx3TWxTQ0c0TmRZSmN3M0c5cHQw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Noi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
     },
     {
       "articleId": "gnews_a3b7cfb4bcdd18e9",
@@ -892,25 +2106,6 @@
       "sourceName": "Việt Báo"
     },
     {
-      "articleId": "gnews_cca176809349ab52",
-      "headline": "Doanh nghiệp Lào Cai với bài toán thiếu lao động - Báo Lào Cai điện tử",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T09:20:10+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc2JteHQ0NlVjZy1NZ2dsY3B1X2UyQTJNXzVZRktQbDlvQ3l6bWpzRVFDRTVOVkZWaEpQajh0dTRTOTQ5eDFldHJyMTRZYTN5QXNZZzVmQTUwbHJLWGNCWnAxWnZaRGlnLUxCMWFXUTRsT0pOdnQzMTYwMFNiaEJYazRhQS1XZG85Q0lzaUt3?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Lào Cai điện tử"
-    },
-    {
       "articleId": "gnews_1217c9bec5a44496",
       "headline": "Đà Nẵng gần 4.000 ca mắc sốt xuất huyết, tăng hơn 2 lần năm trước - Znews",
       "headlineTranslated": "",
@@ -928,82 +2123,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Znews"
-    },
-    {
-      "articleId": "gnews_3e0c9f86c6f98c7d",
-      "headline": "Quy định mới về tuyển dụng người Việt Nam làm việc cho tổ chức nước ngoài tại Việt Nam - baochinhphu.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T08:17:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcjFwajhVLWdYTU5GMDQ2NDJPMzVzYllWRW9GbGczOFJ1M2t2Ri1VREpheHhkT05ZckxlRG1teW1zQlRtdmEzaFR3OWRSMFFBWi1NME9BVGtGSG8tNU9tUWpEbHl3VUc5VlhmMWhjc3JodThPWWVuMmF0V3VZTkJfRjNzcHV1aC1zU0tXdVg1bXk3VFo4Rk9Uc3c3YUZTaktkZVIxNjRNSnl1NHpQMzQ0M09NMVVobGxPOC1aa1hFTWVqcjF4V2VJMy1NSQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "baochinhphu.vn"
-    },
-    {
-      "articleId": "gnews_add053ddc32510c5",
-      "headline": "Phú Thọ phổ biến nhiệm vụ công đoàn mới cho người lao động - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T08:08:16+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUnl2UjNET2R6dVpnR3ZQbHRqeWZXVF9OZDNRUi1DMUptTXlXTFFlempnM2NyUHJ3RzV1dGVYODBDWjN0eFVMSWtUa0xuVG9qbHN1VWNpeWVla2JzOEV5QXdYZUF4a1B2Wm1xZUtkRWdmUnVYOGJRWTBScVgxcGVOTzlHYVlQSXJQQ1ktOThWandPbE9uZzFVcHFnUGxRTHZq?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Phu Tho"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_2e4ecd2ee706da16",
-      "headline": "Tập huấn chăn nuôi lợn nái an toàn dịch bệnh dựa vào quản lý cộng đồng - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T08:02:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWlTZWtHdm5BQXNzZ3ZBYWdMdzFVUENTdTRWWEswRF9EaV96Z2swM3BFcVdWcjVLNXFCV2V2VnlFYkx0RzcyRXFrMkx6dkhxZHBkOHplQ0V1Vjh6ZjJWX2trRXRQZnlVNF92RzhIaEpRNlFRUFprUS1ERUlDa1owSE9Vcm5iQklHLUcwdkJWcE1aVW1NMEIyVQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_ebf98be817088476",
-      "headline": "Đắk Lắk hỗ trợ vốn, tạo việc làm cho hơn 16.000 lao động - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T07:57:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWM5QzdVSmNjSXFnZzJxYzBicnRUei1qcnlSRTB4dVpWc0FZVktaNkhfcWR4VGhwQmRZR3pWVVlLNHRfUEo4WFE0UUQtZE9NYlotcXQ1NVV4clFhRkdYcGJ0ZGhrei1Db19BRWlZSUh2MkVHX1ZOeGxIYkNDeGFOX1NOSkFZZGJ1MU5UT0ZsNDJPaFBSMHdF?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Dak Lak"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
     },
     {
       "articleId": "gnews_34b408c80706e7a8",
@@ -1025,13 +2144,32 @@
       "sourceName": "Vietnam.vn"
     },
     {
-      "articleId": "gnews_3843a7c7345f2369",
-      "headline": "Chung tay thực hiện thông điệp \"Vì Việt Nam không còn bệnh dại\" - Vietnam.vn",
+      "articleId": "gnews_15b9d0b596547779",
+      "headline": "Việt Nam - Lào thúc đẩy hợp tác công nghệ, hạ tầng và nguồn nhân lực - en.baochinhphu.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T07:49:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUm14Yk1qMkFsLUNtR0ZKMVpmYXN6RzVaczNIWjA2SThYQXFqakJ5RHNRdXM3UnItVk5ERkx0Q0tsc1YzQWdzdGhVX3pXTU1kZVdrX0hwZFhqZGFFX1ZEQUM0c2lZaklOVFIwUElvQ0dhZ0VwdVpwaWZCUUZjQmxFQjNHZGJqX3RRMEZIUQ?oc=5",
+      "publishedTimestamp": "2026-09-28T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbnNBODIxeUpCQXBPWVREbVhVTlFuUG1RTWJBUnppcThOa0d5bVR6TXB3RjlZSDhBM3kxVmpwWWEtaHZiWGNfWklLelhRMl9PbkhFNF9ZV0VvTWZDNC11UGRWOWJTNTBud3NvU21pYkJvWE9QR3cxaFhpazdCZnVUXzFCbTFjXzJfYnhOQ09GWGs5VXBiS2VMMGJSekdMLS11d1Fsc1A5SXRVOUZOVFE2dmJnZUZ2LVZiNGdz?oc=5",
+      "originalLanguage": "VIETNAMESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Vietnam (province not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "en.baochinhphu.vn"
+    },
+    {
+      "articleId": "gnews_b329af2fc76880e5",
+      "headline": "Chung tay thực hiện thông điệp \"Vì Việt Nam không còn bệnh dại\" - Báo Hànộimới",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-09-28T06:55:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaUVSVHctUFR1T2ZVRWRpcEQxY1A5WmtLd1VGcGo0WE5na2pITWFISlZrR0tPSWZoT3BnTHctU2tJekxUNFMtazlubmFHTGJCVVdrVDZNNGRPN1ZUTGdCcFNlVG50VFpBN0FlbkNkeWZaa0o4bnJESnJJR3RhTjVFNHNpR2s0a0FEVEVnc01LbE9aWUhyWW0wMG1B?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
         "Rabies"
@@ -1041,46 +2179,7 @@
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_3e2f6a641c1e813c",
-      "headline": "Đưa phụ nữ, trẻ em sang Trung Quốc lấy chồng, lao động, 2 phụ nữ bị phạt 35 năm tù - Báo Tuổi Trẻ",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T07:29:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUndPdVlGV3dBZmhCUzFFWmZwQkZDN0N6U1UwMmlVNmFTR0hEYzBhdTdNbG8zalQ3ZkNRZ0h0T1d0QTE1am1jMDItOGlEcXhEUlZkaWM2T3NfamVtMjBwel96Zm1SQTM1XzhsRXhZUjJuWU1EbTdsTGVFTDdwRjVjaHJmSVBfN1IwY3MyTHpzcHpabVlKdS1LRnBIcExyNHdUVWxFZWN0cUJ4NmYwbEFEeEtRRlR0eWxrUnZEcw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Tuổi Trẻ"
-    },
-    {
-      "articleId": "gnews_741d915374f579d2",
-      "headline": "Công đoàn Bắc Ninh - Cần Thơ chia sẻ cách làm, nâng cao hiệu quả chăm lo người lao động - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T07:19:18+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeUlCcm1uVDljWC1UZTRZX3hnZXNVU3poSFQwWEU3VVdDM0FrWFpzVVR6MXRWbWpMVGdlM2JENmszcXRtYmFqb2FtOVJZSEQ2VXIzcl9LODRaSnlUaHNoZjlxcXZ5Si1mdGlQSHZwel9pNmt0NnFCQ0JiX21wNVl0V2VRRjdHcjZPTkRSTUxjOGE3NWl2MHdyVmdLTk1YUGwyZ3I0RTNOeWs2alNpWVBoaDRwWTlaYXdwMmlGaTNEdERGZUk?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Can Tho",
-        "Bac Ninh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
+      "sourceName": "Báo Hànộimới"
     },
     {
       "articleId": "gnews_89ff0f350485061c",
@@ -1102,310 +2201,6 @@
       "sourceName": "Tạp chí Dân chủ và Pháp luật"
     },
     {
-      "articleId": "gnews_e6d6f995995ce75c",
-      "headline": "Những người lính quân y trở về từ Nam Sudan - Vietnam+ (VietnamPlus)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T04:27:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLU9IUFQyS3pMa2xTWG9RLTVpLU1wZks4aEpYRGtxb3JyQzBaNTlQc2gyZXpzMkNyNHJiLUtaV05UOHJKank1LW9YUHZaOUxwMzhwNE1GX3JZdms4dTRYSkRtT2ZfVXZkcmFDQlh2NVpiSEplVlg0Ty1tLU9FRGhTWXljSG15ZFdBMld4SFJpSQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam+ (VietnamPlus)"
-    },
-    {
-      "articleId": "gnews_ba6b54dab3ec5390",
-      "headline": "Giữ chân lao động kỹ thuật trước sức hút việc làm tự do - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T04:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdW5tZXlIbk5uY0UyWEZIa3hJTVl1ZHJYX3hrSWVZMzA1Sm5xMS02S2xWc1NYT2Nxc2tpUFRBN1RUb3NiQVVxNVBrdWthYWgwcU5qYXlXcWt6a001eVdXZkczaWdWMGg4NC03bjI1ak1vQTBEUzdub3pScE1hZHZDWWVsaTQyWnhKYUVrZV9uYWJCZnpEZ1ptcmE4U2E?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_df91c6eee684a783",
-      "headline": "COVID-19 chính thức thành bệnh truyền nhiễm nhóm B từ hôm nay - Cổng thông tin điện tử tỉnh Hà Tĩnh",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T03:45:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQmhhaWRLalBRTnlCQjM3SnZLTWVGMXNjVEF6bVRJd3UxSENPNWdfV1E5U2pzSmpXNVZyX251LXBQelUxWXQ1bmctTTFZQkVUM1pHVkhEdDJwTVB1R0k3VDl1MDNJV1VuX3NkTmk2dUFta2JsTmxoN0xTZ1hOUmx6NmNUSTc1ZkFRR2szOEp5SUY0NU5aTzJ0UlhQWQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Tinh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Cổng thông tin điện tử tỉnh Hà Tĩnh"
-    },
-    {
-      "articleId": "gnews_f33e0a9b7585ff12",
-      "headline": "Phóng viên Lao Động đoạt Huy chương Vàng PX3-Paris 2026 - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T03:31:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbTVXQ0FJTGxpaFlDcnBnQmdrcXRVWW16WUJDSHBRVzdLT040RVRVMDBTQ050ZDBOVEJ0a1B6eW1RUkgybjUxQVB4YkZoaFVDczMzOGQyMldvXzVYLUo5bXpyZmJ0M1RhdUxpMUFLWGhBZ1VjVnlBOGk5emRNV2lSU3ZLRFFZeVdzYkVWZ2FENVdEcVlfYmlhNnp0enM3M3JJS1I1RWxR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_9ece4b627cb664db",
-      "headline": "EVNGENCO3 tổ chức Hội nghị đại biểu người lao động năm 2026 - Báo VietNamNet",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T03:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMVhRMVFUQ3I4MHJxYlF6elRRRVhWRmFnVkdqdlN1SDBJNFNLOWJRRDE2WkxwUW9tZUUxbnV1VnlOTEpUNWVJaHZySmtIV0tWemsxTWxwbXhKenBQWi1xM3ROSlEyV2VsdDNvd2lVOUk2NWJ6T3Vjd3FYS1dYU2NWQVQ4a3dsdC1wX2hmaDB4a1NDdWRjbUhHQW9n?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo VietNamNet"
-    },
-    {
-      "articleId": "gnews_fe2278a5aac2ed81",
-      "headline": "Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam (Agribank) - Chi nhánh Khánh Hòa thông báo tuyển dụng lao động - Báo Khánh Hòa",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T03:26:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQMnhzRkt2OU9GclExR3hTTnNVd3k1X05xOURZMmdaY0R4RThmT09aengyWmw2aDhkVkREdEhudnFnMVNtV21nZk9YenJzc21xRnRVbjJzMUdNajJmMkRtR3Rpbk80NHZHY2tqSldjMGVKQ0duV2w4SlJZZEI1aWpCcTFWZlpCVEJBMEtOT2cyNkhSaWZIbDFDX3lTZGstNVR1cW9ZbWxPczZ2YnBfR01mQ3lKclFSRlprM2hkc3EySW5rWjkyVDJpc1dMRndObzVFLVVxRS13cXZnT2RvUHloa0ZsRHRGMXZBRUtCZUhTQzRmOWt3TlY3b1RWeVVuZDV1d0J4VGxZLU9PVVlRYWJR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Khanh Hoa"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Khánh Hòa"
-    },
-    {
-      "articleId": "gnews_3ce2d4b2c4ea32c3",
-      "headline": "Quyết định 3475/QĐ-UBND Lào Cai 2026 phê duyệt Chương trình xúc tiến đầu tư năm 2027 - LuatVietnam",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T03:26:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTFBWLVJKYXhxSWNJeDJ4cC1GRHJOTWFOTmtxMl82Q2c3MnptWlhkQkR6TEV5bGVnbHZUMUlPQlNTMXpvNmVwWjE2QUNycnlFMkQyZUEtVzU4em9yWUxRcTZWUVgzWWFxMTVwOVB1YlNrS2Z1bThyTWhJNHZmcVkzaHpWcXVMNkFUaFpiY0pkeGl2bU8yMFZKM0JMa20tSnRRUW9VWXQ4U0xOSUxkUm54NHFTV0JxNkYtaGptajYyOFlxblJxSzZrLQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "LuatVietnam"
-    },
-    {
-      "articleId": "gnews_78fc19db05e348d5",
-      "headline": "Chế độ thai sản đối với lao động nữ bị sảy thai, thai lưu, phá thai - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T03:06:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY0JLZFFiT1o2d3JSNDhDQVh1VERqS2ExUzNXRXVBd1o5VUU3SVlmODI4aVJaQi1jNTZvS3VrZTZIQ0xGQUd1WWRWVXJWaDRfM0RfVUE3Tk45YXItWHhzVklnMGgtVTFELUFkZlhfengyY2Y0ckREbFk4ZEhNN2IxdWN2UGhPcVFjWmk0R1FjUWVRazFFbERmZkR1cFcxQ3EwSWpqUTJGYnpJNi05MGc?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_a66b0b33e7d9e6e3",
-      "headline": "Công đoàn Lào Cai vượt nhiều chỉ tiêu, chăm lo tốt hơn cho người lao động - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T03:00:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUU1sS3VObHFiTzdaRXA3NEc3Q2NpUE1OVXlEeUJUbFZvWnd3aFFNajJackNLVUE4MkhrN3FpRUtzdVR6dkVCa0lLX25oa1lnR0Y0RUN0clgySVoycW5JbTZESUVEaDlZMGdaNUtHVmdha3NtMEJNZEkxV0RPb0NZcWoydWY2cGpZR2dIX3o2dXNPQl9zaVdwdUIxZkRqN0FFRnYxcDFmckx1MS1PaC12MU9wQQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_90d7db141bede921",
-      "headline": "Giá bạc lao dốc, bạc thỏi giảm hơn 1 triệu đồng/kg - Báo VietNamNet",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T02:59:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaml1YUFRUFdvdFFjeTg0NGdWRThtbXY4MDBQOUVhay1SazRmbmw2X1dhVHpsMDFGNUdNc2dSOHR5QVZXZjNveGM4ZFdnMkg2NmZjMklHc3VnTE81eGZ5SEJnN0xoVzhKRTZNaFEzRkVjRldWbHF2RGVkVGVGSlZ4aURLRndKb3lIUDJLSw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo VietNamNet"
-    },
-    {
-      "articleId": "gnews_725196854e86cbca",
-      "headline": "Công an tỉnh Quảng Ngãi phối hợp truy bắt đối tượng truy nã đặc biệt nguy hiểm tại Lào - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T02:49:34+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSkNLMlAyV2lreWk2aHVWS0hLTS1LSWdEQUg1NVVxSkE1bjBkeWc3c2ozS2xFY1RHZTJLbVFPcU9NZjI1ZTBoVEs3U21tVklzT0dZZWFFazFZUVpMWDhsREg5bDd0NmRNWXRTeGVZVnZ3REswRC10VUZQMFA4OFlodUw5ZFF1NzRoVzB1TXJ1TDZTWWlQcWhVOFVLeV9haHF6YWNRTEtzU3YwVzFVaElZNmsxR3pINFN4MkEtdzVzSFROV3ZtNEE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Quang Ngai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_74e95ab15813a749",
-      "headline": "Giá vàng hôm nay 28.9: Vàng miếng, vàng nhẫn lao dốc phiên đầu tuần - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T02:24:34+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzNkZGRuTVhaenU1WU44OTlHeVdKRVlhclNQT2RKZ0pRbFMtRUktNkRibHBKLWxKT0VUVjE4cUMwNGNJNjQ5ZGhKQ3RPX0tIeTdKTndvYnhvLTJTZXkxSDliaS1WS2ZLZnAzZ2QtT1RKRy1yV3dFY2F3OUl0WUtwMDJaODFHWjd2UWtMTnB5dEMzaW1IczIzZGtFYjNKdDdQX3ZFbktXSzdGUGgzbmZj?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_5232daa3206ce31f",
-      "headline": "Vắc xin tay chân miệng EV71 đã có tại Việt Nam, trẻ nào nên tiêm? - alobacsi.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T02:17:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSXFWQ0ZTY19RcnpOaUNYX2wyN00wZ19MYWcwaFFyY25wZGp4YW1Tbkh5ZjdvOFl3TXhXWXMyTGYyR2liMjNybHpETE90blloZnI2OXlLZ3lJbVVEcnRmRnJyanFmbGJrMW5QV1RxbUFBQXlHTHR0Slp1T0J0eTQ2RDBzX2d2enR3Wjd4b1U2dF80ZUE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "alobacsi.com"
-    },
-    {
-      "articleId": "gnews_e930440cb50920f1",
-      "headline": "Đã có Nghị định 371/2026/NĐ-CP về tuyển dụng người lao động Việt Nam cho tổ chức, cá nhân nước ngoài - LuatVietnam",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T02:13:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPamUwbW1hMHpmeGZUY0NRdndweVpzRVAxakgtUUNpQTR4V19rdHJwei1zVTdmOUF1MUxabUd1ZFBJeFpzd1J4enhwQy04RTY0dk5tMUdOb1hwZmRlM0pYYkU4ZG5xRXRvUDFPaXRWLVRsRE1uQ1NweThRb3k0eEMyVjg3VXVVcVUxYTF3QnlkeFZ1LUpaOHdqMDFKa3AwSmpnZFJubmFVT1Jpc1F3eXpNWjRVeUdSczZwSXFFVFhhcGNFRHZHZWpTc1AtZ0h5UHJtRHptWFFhbFlmRzM5N19DNTRCakp1U3FNQkgyaVpEY0FqUGRqTGU1eU9Samp6Wm1WcThQMU9PbWtYWjhOaWtsQ1hnRl92Y0RKWk9mcUJ2TG0?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "LuatVietnam"
-    },
-    {
-      "articleId": "gnews_ac823adabe267606",
-      "headline": "Gạo, trà, trầm hương Lào tìm thêm cơ hội tiếp cận người tiêu dùng Hà Nội - Báo Thanh tra",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T02:13:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR1pleE0tZUJUZi1ScVZTRy1GZURfVFN6NTJ5MXR4cVZ2YUh4SU9ncU9Uc1dqQ0tISVpRLU5saHhEUzhQRVFiQkluaDRneHpEZHgwY05kVHBCNjVYanhMU2NOQ0FiLUdpR3J6ZmRiakJaQllKaUZMM1NaMkFlQ2lyRzhnZFB5Z2JITDZDdUpVQU5Jb3dkN3dLNVAtTklKRkFYYzE1YWVPZ3FhN01WbHZSczFEQTRuLVJvWVJISU4xeG5GX0p3emp1OA?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Noi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh tra"
-    },
-    {
-      "articleId": "gnews_05ec30a5917b2985",
-      "headline": "Tuần lễ sản phẩm Việt - Lào sắp diễn ra tại Hà Nội - Báo Đại Đoàn Kết",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T02:09:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU09FbWVsMTlRRzdTQlU2MlRhSTc4M3RxbTQtMGo3WHM5WXFWN1lmNDZZRUN1bVV3VkZPdEZOWkhDcWIwa3hCeEplT0JkNXE1TnBwS1ViT2YzX0FMMzQ0cFNiUHdJUGVFNkExaHBqcHlDZHFOUGxKT2E4RHF0U25mSQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Noi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Đại Đoàn Kết"
-    },
-    {
       "articleId": "gnews_bd28535277b3f08c",
       "headline": "Thông tin y tế trên báo chí ngày 27/9/2026 - soyte.hanoi.gov.vn",
       "headlineTranslated": "",
@@ -1425,356 +2220,12 @@
       "sourceName": "soyte.hanoi.gov.vn"
     },
     {
-      "articleId": "gnews_90b0c0e6f7b61163",
-      "headline": "Tạo sân chơi thể thao, gắn kết công nhân Công ty Giầy Venus Việt Nam - Laodong.vn",
+      "articleId": "gnews_de5e58ae837c069a",
+      "headline": "Thời tiết và sức khoẻ ngày 16/9/2026 | Phòng dịch bệnh khi mưa lũ - vtvgo.vn",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T01:59:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTjBhbjBCM3ZXOVVhU3NyS1pUcUxzOHkwd21fdlFaU09VZXlNakNSNnZ0U0pSalFBNlVWTjV5NlZ2d3BYU3NJZ29EWVFqZ3Znd25Ec2JKMDYxTGFsaTMwT1VFYXI2bVFCRi1QeHdjaHdHNUFFYlJYZ3VkaElGVUVzY0dGOF93djJkZHZOUGlyQjZPTzNud1IyYjdDd0tfWXI2TzIwTlI1c29MLWZl?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_6964f46fc50af528",
-      "headline": "Trung Quốc, Thái Lan, Lào, Campuchia đồng loạt báo tin vui cho Việt Nam - Kenh14.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-28T01:36:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVlYwOXhleVJ3dEJ1MllaRnRLdjBGQ1lSNkZvVGphYU1NYVhENzc0Q01POVFFLUVZVjdBUTZLUjJYUy1RUlByOF9iNzJMZFVIXzFRSmRIQ1lxUS1SVlMyMkRlNmYtYkg2MkdMNUdGZHNaREFrRE9penpySlN6aFlUWFFMX0pWbkVzbDdpWVlsc1BSaUVsaEp3ZUdhYW5aTldORWJ2bzRONG93bTZDRUE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Kenh14.vn"
-    },
-    {
-      "articleId": "gnews_25029c750c882b94",
-      "headline": "Phật giáo Việt Nam – Lào: Thắp sáng giá trị tâm linh, vun đắp tình đoàn kết đặc biệt - Thông tấn xã Việt Nam (TTXVN)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T23:27:31+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGV6Skt5dkhtS0twUmRWOF85MzNJdkF4S2pSR1UtOTZXZy02a21MTWNQU3dhZzhrZmgzWS1nVmkwQXo5R2thYjFCU0lNOUc0alRUMkpGekp6Y1FqVVZ3TGJGYWxLQzlsdEhhV0JMRE5jdFphY3VLdFQ2emlfbXQ3NWdkRzBzOEh1Q0RhalFVbFk4elY4S0hmUzNSTHFpNUttLVpTOVR2Z1VYN0FKTWN3SWkwVm1uNVZyNnlHeFpyTERTRDV1RlBjZWoxT0o0dlc1R3Q3MWVnNHROajlkaGpmYQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Thông tấn xã Việt Nam (TTXVN)"
-    },
-    {
-      "articleId": "gnews_eddfb3d5fec35539",
-      "headline": "Gieo hạt mầm, chắp cánh ước mơ Việt Nam - Lào (kỳ IV) - baodienbienphu.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T22:39:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWHMwczRwV1Bhci00QlJZS0VqZnRUYW5QeFpCSXJBSGozWkJnZjJUZktqODZKRGxvTXI4ZGJJZ21pWVBHUHpNMmx2aUdKZHJNa2NhbWF3ZnVfMnZWX0t4SHZkemdQaGJaRi1JYnVhMDN4elBpNnB2cTBlQzlkZUlvWnk4RklyMlFYVGo5OUVIdHpyY1FIQ3ow?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "baodienbienphu.vn"
-    },
-    {
-      "articleId": "gnews_15938afd5207fb90",
-      "headline": "Bảng xếp hạng FIFA ASEAN Cup mới nhất: Campuchia thắng Myanmar để đứng đầu, Hồng Kông vượt mặt Lào - Báo Thanh Niên",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T12:34:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNF9NNTdkaXRYS01hX290WjZmRWZuVzlRZlFHR01oQTUzT1pkSjZybXpSb05pWUNoSFBQdUJublpTVDlYQjdSa3FnV1JKNmQyT3l3TUFvbWxCcnB6TFVGWHN3VDR3WVpsbnAyZ1RjWTFTY3AwZFVXcGJHTVNqMGVsVlR0ZFZ1aGFCaTI1NmEwN3JXNmZPaWJQdm5NV1c2YmxIR0dYUEEzYTRhMldXZ2ljRVl5bW9SX1N0blM4eWZWc0pybERFUkJDTjRYWGZqMmVycEg1X3E3UQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh Niên"
-    },
-    {
-      "articleId": "gnews_ac243936b9f50508",
-      "headline": "Bài 1: Công tác đối ngoại Đảng là then chốt - Báo Lào Cai điện tử",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T10:14:47+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNGMzTHhYdi00ci1adHNlaXAydlllUmZSNlp0RXpUZkRZZjAyd3NwR19SZml6V242OGZ3eGFBYl9KZkJ3dXZpVFpOLVNIVmxjb21kVno4VW5RWFhjcEhmbkZLYmx6Q1A4anVnb2hueEZ5d2ZiZW01c3NadlJVaHByc2hRS0d6dw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Lào Cai điện tử"
-    },
-    {
-      "articleId": "gnews_8ed633f30284878b",
-      "headline": "Lao động nam đóng BHXH từ đủ 20 đến 25 năm, lương hưu tính thế nào? - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T08:35:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQmE5aDlBNnA3MGVWcUtlY2pMVlJrUmZZZ3IxTzROS3pySWRsbWphczBGT2ZvOG1iaTFPMlUwcWVpZUNydkZwUlNpN3hKVjFsTUFNQW5VMXZJSEtnS3VwUWJlSTV3VkduUTBCQ0VmbGh3dTU4a3Nheml2MW5wVUJ4YVRNMF9hZWYzMEhCV0Rsd3lLU0VxS0dtMjFRVEhUdHBmbU5vN1VLQQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_a32ac10b2101a054",
-      "headline": "Ngày nghỉ của lao động nam khi vợ sinh từ con thứ ba - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T08:21:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY2VFMjJBMllWRUY2TEhpcWJRUk12LURvMF9fY19JcGhDZDlwSDAxUy1CdFFoSkxWUF93dV9hcV9qWEp2UVhTNXRfQkx3dnBCS0ZPcXNjNl8zSk8ybTlEZXZmRjRyRHRNS0tSMDMxUGtBZWFxdU1nbm5pZkVwbWtsVHV1d3BOcE85cXM1azVnZUFvQXB0bkE?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_e92e7b6787512443",
-      "headline": "Bệnh tay chân miệng ở TP.HCM tăng mạnh, nhiều ca chuyển nặng - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T07:10:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc2JoTUhXMjZIVWxEM2NWY2V5bGF1UE43bDdiNGEwczk0MG1IQW1wd3lXNTJabWhZNzNIc1FoYm91a1AwaWx3cm9UUzVQZzhCUlg4QlV4SkJkY1QtSzRVOFpXblBNYVkxdDJKVTdMc3BsSkpSTHhadHJkamdTY3liR0hhUGZFZk1QX3c?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Ho Chi Minh City"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_a47cffb188c991d7",
-      "headline": "Sốt xuất huyết: Hạ sốt chưa phải đã qua nguy hiểm - CafeBiz",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T06:42:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMmNvcnNZTFUtZldmOTEyNFg5TWxCSk9fd2IwdUZiY2tqaE92VDU1a2JYcW1YUXl2NEZ4X3RIeUQySWRkc2plUEtOa0dzZy1QbWR6X1BMeHA1UGNQNVBmMVdHQ24wR2RBTE16YXFWMk1ROG9QMzZjdGllbzRDcXlWWUEzVTA3YVFDbWRHVm5QQl80V3ls?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CafeBiz"
-    },
-    {
-      "articleId": "gnews_3123980770444984",
-      "headline": "Điều động, bổ nhiệm nhân sự ở Hà Nội, Phú Thọ, Lào Cai - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T06:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV2V1RVV6ZU01d2FGNHpnRjQyRkVndUxUTlEyWUF1UUoyNWJNZmFLdkQyQlhyd3h3RVFSSzlMTEdZQ0FUVk4zaUhHdzlYVlllUVFYUFFhZG9acGtQOHk1bU13NEYwODREdXA0akhlbzVFR1pDdWotY1JNQjFPdm9qNXRmQl84aGtvb1o5RW9qWm0tMzhn?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Ha Noi",
-        "Phu Tho",
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_873824dfea9e106d",
-      "headline": "Đường vào trạm thu phí cao tốc Nội Bài - Lào Cai nứt vỡ, hư hỏng - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T05:58:27+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd0RpdlY5RGhPWk1tQVkzZVdZNGpubkw1TW1LRmNLa1pXdW5yc0ZsS0xkTUhuS3ZveF9jaTZCTEJZRWhOV1ByT2lOaWdPLXo4eWpLc05jTEVHZWsyNzd1RVBFY0F3VjdlRUZtSjBSb1d4dXNWM3FXWjctZDB1QzYyZVA0WTRJaklHRURlQm9QN0ladm16ZWFoZ0xlQWtZRkdX?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Lao Cai"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_ea833af333582942",
-      "headline": "Hơn 34.000 ca sốt xuất huyết tại TP.HCM: Cảnh giác với những dấu hiệu nguy hiểm - Báo Thanh tra",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T05:41:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVkx4RXd0N3FTcFRfNzhoMDlLSnhYOS1tZTBrd0pOWnRTRTlhQ3M5X1FHTTdtcEsxanhXcFp5RnNpWFNraXJWanNIS1ZRNDFEbUxaX2JtMWpNQlVkbHBfZ19QYmtDZXFuYVVkaWNVR2ZkMmJVck5HaGRfTkE0SU5fNTVCblFvX2FITzVSSFJva0JMY0lpRm5QQ2ZUUlcyN1BFbkNTV0U4eGxZOHNsU3J4RkJzNUw2SE56OUVIRWl3SGstcGZUaXJUTUFB?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Ho Chi Minh City"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Thanh tra"
-    },
-    {
-      "articleId": "gnews_496a1ade10e51f06",
-      "headline": "Sốt xuất huyết: Hạ sốt chưa phải đã qua nguy hiểm - VTV.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T05:31:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLVNEa0ZjeENOXzVjNVZ5Q3dlNm14MGtLSlBxNlNCMnRZNF85OUNwQVVndUFvazRjSHJNUGtablA5S1dubm1EaHVubzl6S2hDRkFpZ0gzUXQ3UUQ5UkVtMGFCdG0yeUNCQ2wxbGhrazNBQUlGRGZ5OTZKcURWNmQ3c2xqbGtnUnhoWV9lN0ZCTQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "VTV.vn"
-    },
-    {
-      "articleId": "gnews_95ab966ddad2e562",
-      "headline": "Sốt xuất huyết tăng cao, cảnh giác những thuốc quen thuộc có thể làm tăng nguy cơ chảy máu - Baodautu.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T04:33:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeDRuZmZqR1VodEFSVVpibmt1UmVwS0hobWtab050eWk0d3ZNdktNT2k2SlBoWjh6Y2NLcVNXZnZNRFNLd0NXSDBETFdRb2xHMHEtQzFZTkhqLVJXc1FHMzRZR3llcmRhOHF5UGZZSXJVc1dTMkxsX2VCT3Y3N3hOelNrVDRfaEN3RWQxR2hySkREczc2RExHTklWZ3pVTGZsNEdsM3pyNDZXOFQwXzJYOEZ4ZXJYVHBwV19haFQxUQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Baodautu.vn"
-    },
-    {
-      "articleId": "gnews_09ccc1722a777584",
-      "headline": "Chốt lịch chi trả lương hưu tháng 10.2026 - Laodong.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T04:09:18+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmlqZkc5UEFvU1dqcUFDbXRGYXRGM0kwNEFWWmE5RUJqYlc1WGpLSnVxb3FpTXRWOUFXLW41SWZDQlFtdUV5STRWdmNXejNmWGtTRExBSWJFQ25HUnJpdDFSYzhJd1NFRDZOckNlTEpnV254ZUpUNEZLTEZkQW9BY2p0MGRhLV9E?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Laodong.vn"
-    },
-    {
-      "articleId": "gnews_62455320eaa57d3a",
-      "headline": "Quyết liệt chặn dịch sốt xuất huyết - Báo Tuyên Quang điện tử",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T03:15:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMl80Z3lKZkRTdEdRUkZ2cENVYlVKaVF4VWh5VFRxeG55OWtTQ2pMLWdzajRtVU9LYnZHT3kwVlBaZUk1c2VYaW5hUFk2WkVuQzlobVZGTk90aGhnRURGajFDUmgteE44LVYyRDY4aFB6YmFMdHE1NGc0bFFoVVV6a3BORXZWeXlOanlLeF9Mc0paQUZMOXA2QjBjNW5odw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Tuyen Quang"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Tuyên Quang điện tử"
-    },
-    {
-      "articleId": "gnews_1aaf17f20b8f2ef1",
-      "headline": "Hai thứ trưởng rời ghế nóng: Chuyện gì đang xảy ra ở Bộ Y tế? - BBC",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T01:15:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5EenJraFdkZDY3TlhkTWxNQXZDNUppT0NUTGlCTm1NUlZ0VEJJTUJUdkY3ZG5Db2N4TDhZWkY1TTF6RGV1R1RpbXBwV3lwTndZbHd0ZEc5YXRUUVBoSzhpVkk0MNIBaEFVX3lxTFBLaFpFMWJVLXktRUdDWGRzZUZMeWdvY3dpbUdqZHU5bTNGQ19IZGZpVkNUTGR1Z3NUSWlTWHdiQmFvMHI2ZkZmbEMwY1hyMXUyYXNEYzlqcTU2dHVCbk1XRVIyeEFjT2VS?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BBC"
-    },
-    {
-      "articleId": "gnews_1fa1b959969338b4",
-      "headline": "Thời tiết và sức khoẻ ngày 16/9/2026 | Phòng dịch bệnh khi mưa lũ - VTVgo",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-27T00:00:00+00:00",
+      "publishedTimestamp": "2026-09-28T00:00:00+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1HVU9TNW5OdFBDWi1lNE5YY2ZYRWc2NXpETTR1UjU1NnRUeXoxdGxlaURnYXRhbEVJRjV5Y3B6ek4?oc=5",
       "originalLanguage": "VIETNAMESE",
       "diseases": [
@@ -1785,197 +2236,7 @@
         "Vietnam (province not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "VTVgo"
-    },
-    {
-      "articleId": "gnews_bab6f3ab6f4e645a",
-      "headline": "Vắc xin phòng tay chân miệng lần đầu tiên có mặt tại Việt Nam - VOH",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T09:20:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNWIzQjBPS3lqbVo4M0w5djVKZTl5cmVYcXJqOWxVYlp4TTNtckNuTDh6QzFTSE5kRjk0UVRaVDhhbmlJQ3JuR0NpNTNCTEpsRlpsMzR0RUhtd2k5YjNHRzlELTJRdDdzYk80eEY1eDdURGIyUEZEN2NvUlBwN29zNG5GTzVkZnk4V2RWWU9SZk1aTVdpZ3BQR3ZoVDNGaDMtR2pN?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "VOH"
-    },
-    {
-      "articleId": "gnews_2891a2de6cc1a2a5",
-      "headline": "Việt Nam nỗ lực giảm tử vong do bệnh dại đến năm 2030 - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T09:08:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcUZSbi13ZWZEWGtaNm1LUjkwRTF4SHhFN3lmV0lKOG9GMDVDVGJ0SEtiaFc5TE5tdzV0eXJNRXZxaTVkR0hENXREbkJMSUJZbEhtcnFxVXFFZWdhOFljMkQxb0hsWlJvUURZc1EwOTF4NVRIZF9xdkptWTV6SVFzd1ZR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Rabies"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_bb3b621dbc16767a",
-      "headline": "Tin vui: Việt Nam đã có vaccine tay chân miệng cho trẻ từ 2 tháng tuổi, giới chuyên gia cùng nói 1 sự thật - Kenh14.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T08:02:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMVdhMThnU2d5MFFZQlNoRHdZekxMRE14TzhKcGFnSXQ1Ylc1NHFTMEJ2YUg1UlJza0l0dk1LU0tSRHRLYWxNLWRIRGZ4OWVlc2w2RHdBYUozclBETFFJc3RONXdZOFI4QlJFQmVrZlIzYkw4MzdjMDZrTWJneGdBQmpabHdHUDJPN0tybU9McGhjQi04RXRDX240SE9zdGJjRXJwLU5iWHBKVVo2OWtPVHRNZl82SFo1TklNMVAwVWNWYmI4X3otdkdtQnJWRUVrWVMxd01KSDVkUDM4N1E?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Kenh14.vn"
-    },
-    {
-      "articleId": "gnews_c8f80ffdbb58fdaa",
-      "headline": "Lần đầu tiên Việt Nam có vắc xin phòng tay chân miệng - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclctd3M5eWZtQ1Rrck9RT2VkU2dLckgydk9RbUxyaUVvNW1OWTc4U2t6RER3WG5KZEtiWEVCRDEydU5XM05aZ2dNTzdQak5hbWlrNl91NkpKRmVLZUZkcm92QzJXNWpJTXZhVkhLTWxkcDI4cndJdzE2RTJYa3R2dTdR?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_dce0eef80acdedf3",
-      "headline": "Vắc xin phòng tay chân miệng lần đầu tiên có mặt tại Việt Nam - htv.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T06:18:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTWtpbXhyS2VqRW5aRGVWRGdRMTRIWnhwQXlWUk95NXh3MjlKRTV2T0thSnZkeldna3R1Rk04MHIzWG1IY1BEaXkzS1VLUXNmZ0JPZjRKck5IdmJRRWlWWWNvcy1kaUtiN2lZVGRnTWRhaVdPLXVUS3dSaHhtcy1rQ3l2NmgxeTVHNGZOZzAyLTgwWElGTzZrVkVFZ0xNNWg4?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "htv.vn"
-    },
-    {
-      "articleId": "gnews_79659614f30de49b",
-      "headline": "Hội nghị trực tuyến triển khai cập nhật thông tin dịch bệnh, hướng dẫn một số nội dung về công tác phòng, chống dịch bệnh do vi rút Hanta - Báo Cao Bằng điện tử",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T05:18:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaV9hNlVwZjVMeU5ZWFlIZmpVZlkwLTFBOG10LTlOMWVBWXZxZXdGU0lNZmpGdTkxWmZoNlM1M1dQSjlwWTN3SE00TGNPcmtlTm50akpTc2hkWC00SHF2dGp0RkhObGNkSmlGaXZ3S0IzNXlKa25TWm10M1FuSU5DVS0ySWk3TWxkYzBFVGdBOVYzb2hKQUcxbTlta1JPcWpTTlZTdUFnSzFONmlyV3hMbk5FVjEzaHkwVnpNSGhYOVZIV0VQc01DSm9nWGpkVTFs?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Cao Bang"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Cao Bằng điện tử"
-    },
-    {
-      "articleId": "gnews_509ffae142a234e2",
-      "headline": "Không để dịch bệnh bùng phát, lây lan ở Hải Phòng - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T03:37:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1icmtrWjJ6TDhwNDJ4OXlOb3FWVklJMVF2OG5CYmRITjNqR0tNbU1HZ1pjVzJIMFNkQzZOUUJUek1mRlZkMC1KTEVUUFRjX2dkSDJSbjQxYXJ4Sk1LNDlEX2I2ZzRmOWxDbEJxWEpjaDhfRktQd2dURUNjdw?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Hai Phong"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_0b962d128a6b820a",
-      "headline": "Vaccine EV71 được đưa vào tiêm chủng tại Việt Nam - Báo Hải Phòng",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T02:45:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM28zNUktVU1WWEwwZmVVT1BzLUdEZ29mUy1xU0FTU2UyeEhtQzFaQ2tfU0k0T0VacklQUjNTOE84T0VXRnNYYUcyQkpVMjhRbkhBY29yR002Ty1nekp4RTlqQzNaOWhYYlRxbzFNVjJBbWxNWFZEZDVxYkpkdFVRbjNVWDl0UjlIZzh5QQ?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Hai Phong"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo Hải Phòng"
-    },
-    {
-      "articleId": "gnews_f18f6456672cf7c9",
-      "headline": "Việt Nam đã có vaccine tay chân miệng, tiêm ngay tại Hệ thống Tiêm chủng VNVC - Vietnam.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T02:43:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcUJ2b1U3bnFtY0dBTlliNWwxcUdTVmsxdzlTd0I0QjdXZWh4ZTNQTHluWm1sT2tLNEw4cXdlMW1lZkE2b1FHX0t5Vk95cEdxNHFhWlZTbjU5aVFOa0FhRzN1dEFCaUhUZ0t3ZzJkVkJCXy1VbDhjYTc4bFE0U2lYdGJkbkt5TFpJTkFfRzlqZUdCM0ZJakJJN08wZUxyZEFI?oc=5",
-      "originalLanguage": "VIETNAMESE",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_81fb94c1d3c3a9bb",
-      "headline": "Vietnam rolls out first EV71 vaccine against HFMD - news.tuoitre.vn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-09-26T01:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOXlmWkFhOWpoX2ZBVTVYQVZCR3BLeHdBWFBhNEVOeF9TcE9Ub1cyczU1UG45NFFwSEtSVUlyU05zbzlwMmpnNkx3YmxVWGl4bG50SjRrZUpDWHhkN29WY0dvQVFWY1RDWVkxeDRmUFBKT3Zta0xBeVZMSy1HWlMyWUVaNTBLeXk1eWJiNWVSSFhfWWc0ZDRIMFB5aHk?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "HFMD"
-      ],
-      "locations": [],
-      "states": [
-        "Vietnam (province not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "news.tuoitre.vn"
+      "sourceName": "vtvgo.vn"
     }
   ]
 }
