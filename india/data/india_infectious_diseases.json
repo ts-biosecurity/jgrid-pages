@@ -1,30 +1,396 @@
 {
-  "generated_at": "2026-10-04T21:41:39.438805+00:00",
+  "generated_at": "2026-10-05T21:34:12.802734+00:00",
   "date_range": {
-    "start": "2026-10-01T21:41:39.438805+00:00",
-    "end": "2026-10-04T21:41:39.438805+00:00"
+    "start": "2026-10-02T21:34:12.802734+00:00",
+    "end": "2026-10-05T21:34:12.802734+00:00"
   },
-  "total_articles": 24,
+  "total_articles": 32,
   "state_summary": {
-    "Tamil Nadu": 4,
-    "India (state not identified)": 11,
-    "Andhra Pradesh": 1,
+    "India (state not identified)": 19,
     "Uttar Pradesh": 3,
-    "Gujarat": 3,
-    "Delhi": 1,
-    "Telangana": 1,
-    "Jharkhand": 1
+    "Kerala": 1,
+    "Tamil Nadu": 6,
+    "Andhra Pradesh": 1,
+    "Gujarat": 3
   },
   "disease_summary": {
     "Dengue": 14,
-    "Infectious disease (unspecified)": 5,
-    "Avian Influenza": 1,
-    "Influenza": 1,
-    "Tuberculosis": 1,
-    "Malaria": 2,
-    "COVID-19": 3
+    "Plague": 5,
+    "Avian Influenza": 2,
+    "Influenza": 3,
+    "Tuberculosis": 4,
+    "Infectious disease (unspecified)": 7,
+    "Rabies": 1,
+    "Malaria": 1,
+    "COVID-19": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_b82c6e177f1ee592",
+      "headline": "Dengue forces curtain call for ‘Patient No. 11’ play - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T18:57:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZzB5NWpIR0lRdG94QmNYSXZ1S0pXOURxcXM4dzh3VHpkWnY5TXZDdVM1b1dqSXlHdFA3VU1iSmJpb2tPUktXRXFncGhSYXg3bjIzcHFrX21LTzU1YWFRQjVrWmZBaE5xUW5VTEl0b21SOVY0eHNoUGlqcDFPVXNLQ094eVgxdkM4V1VVOFY0bEhETDdlcWlZbnNmQW12RUpkZEcwbk5OTnV1ZmFPXzZBMXkzd185M2NrOTdIelBha9IBxAFBVV95cUxQek4zUGptRlYzM3dkN2Ewb3owSFhxeVN5QmoydC1CRnpSZE82OXBkSmlXVWRIQlByVGxFQ1VCX1dKN3hRaWV5anVybnVtRmNvWjhMZExRQzk3UWdtRl9kNC1UUllULV9xQTEzbFM5LVpBOFJJcC1hdk12NVhsOUN5Z3RSRnYxRlY4Q3NwUGtKUkYyeXYzY0g5bDZpZ3pGVzEwZWJWTFdhS1NURW5xNXhXR0tpYWFUUGpER2JGRUpSc0dZMTZC?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India"
+    },
+    {
+      "articleId": "gnews_61f832a07a6d60d4",
+      "headline": "साइबेरिया में 'किलर प्लेग' से हड़कंप: एक महिला टेक्नीशियन की मौत, क्या भारत पर भी मंडरा रहा है खतरा? - Jagran",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T18:26:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZWFNRXNpY0tCQmxCYVJueE9qQkM5dkhIWkxrSzFYbGtLSXI3YktrZ2tNc29LT3N0LWVxQWRrQWQ0alNrank3NEp4emdYTVBHV09sc1NVT05wN01GZzN3dlBLcDc5aEFscTY0WVlrbE41VkZPc3VfX05HU2pPcWM1TWlpN1ZQRjNnSmxKRDdXd3ZFTXpfMlhMYUxCNDBFMDhxVEFZMTdKNl8?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jagran"
+    },
+    {
+      "articleId": "gnews_b3c236e1d901df88",
+      "headline": "Bird flu: Anantapur outbreak raises fresh concerns in state - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T18:12:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTUZ2N0tfZ3NFYWZtSk9TS1c5Mm1ocWRqNm43aEhzWmhMcll2amhQQklzeVBKejZIXzFDYVlkenRYRHZyaTFFMm1KUmpxVEFrMFVKMDQ2d1dmdFZNVjB2TXBRUGhvOGJMdkRpeTNjUjRXTnFRRXNBOTZMWjF5bFNoWWNETllDMlRNSk1rY212d0RVNzY1cUhHMHdmbk52eFVBVXY4dWYtUmpDZ21LX3pndGtvTExFLUlzY2NCdGtKd2t4bmgxd19vTlg0OTVVTVVuTkHSAdcBQVVfeXFMTmFNUUtTcGVLYjdLMy01WEdSd3ljODJMZXpVUnptRmxMU2dycHJfaVk2a3RYTl9nZWp0WVY2cUkwcWx1ZTY1Rm5va0lSTEllZ0RwOWNiVjhKNzl2QVY3Y3oyd0FFMHdoVFEwcGNhcEx2R3hPUkkxU1dibDRtd3AwMkZKM25BNmluem5raWVMUmw4TWdja0liSzlzUm1VM0xSUGI2YVVFSGpvZ0ZBU19HM0RteURTUUZEdUJEaUp5b0VfVkpSYzk0MUxLN1BBU3JvODNULUVFT3c?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India"
+    },
+    {
+      "articleId": "gnews_c837811a6d0f755d",
+      "headline": "Tamil Nadu, Kerala lead India's dengue surge | Tap to know more | Inshorts - inshorts.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T17:03:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORUdwTlh3RjkySkVyX1R0ZWd0MDZ1YVk5YkFwSjNVY05Zakh1UkhtZ2hvQm1xWU9PM05vcExXTUY0ZF9nbTFGRFBFQ1Rlc2FIMnhRUnFCcFUzaF85ZGN4aVFWTUd2bmJtWWxkb09rVlYxQTFUUmNSSTVkMUJTWjFjOVIxZlJRWjBvNUVhZHRuN0JmM3BNS1HSAZYBQVVfeXFMTkVHcE5Yd0Y5MkpFcl9UdGVndDA2dWFZOWJBcEozVWNOWWpIdVJIbWdob0JtcVlPTzNOb3BMV01GNGRfZ20xRkRQRUNUZXNhSDJ4UVJxQnBVM2hfOWRjeGlRVk1Hdm5ibVlsZG9Pa1ZWMUExVFJjUkk1ZDFCU1oxYzlSMWZSUVowbzVFYWR0bjdCZjNwTUtR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Kerala",
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "inshorts.com"
+    },
+    {
+      "articleId": "gnews_caa258eeb1f2b930",
+      "headline": "नया वायरस फैलने से पहले ही मिल जाएगी खबर: देशभर की 22 हाई-सिक्योरिटी लैब में बड़ी तैयारी, कैसे होगी जांच? - amarujala.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T16:49:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNemFzX19WMHdPV3BObFRqdXdTRnNocnBXdG4yU3dxQlQyM0Y3YzQwbjVzZkxrdHdnVzFyUW9idTlVVjFROVkwQi1ZMDlHaFZEdmdGYzI0YlJlWnQ5THRLUTlseGx2MUEwSWtwOVItamdCRWEtZ2s2R2Z6aGlYSTYwOFUwVDlGNFNmN3hybURSRXpqaEVxUTBDWFdIMy1wdExHemlNVzRoRnA5dkg0UDVwclVJRnZpTHhFeUVseWw1ODFjaWhqQWtyMlRaVTRNWEcwdG5McHFOLVjSAd4BQVVfeXFMUDFHVndGa1RvWTVXaUJsNnByV3JxYzdoOUVxdnhtN216d1dKWU5ybE4zLTlaNlJwRDh4RlkyNVRPaGRnSGprX1ZnVW9NLWg2U1FKTzFOZkZoWkNwME5FTUkxZTlqcWpXNzd3THd4WG9LcUk1OVNwaHlsNVUzZ01QczlhbWl2R0kwdmNrZ1B0WTlsRzJzOGpyZW82UmNVOGJldktEc0RaVTVnMjZCajRRbUZwWGtLdGR6dEoyTU5TWUZITVFMalJGVGl4VFJXTjBhTXRYWmNsOS13SkUzcmln?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "amarujala.com"
+    },
+    {
+      "articleId": "gnews_840427b329de4508",
+      "headline": "भारत में इंफेक्शन से हर साल 1.9 लाख कैंसर मामले, जानिए बैक्टीरिया कैसे बनते हैं जानलेवा - Prabhat Khabar",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T16:07:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2FqdGZuaTdvek5vcndDZXVSaWhfWFhXbDdLekFDNW83d1BvS3BwVWpsajQ2cTJlYU84Vl82cGNtVERZRHNORTFSTFEwa1owSVNXYVcyN0RuUms3d3VXbmpMMUIzdkNrWFIzQ25YUkNkSFp2b296Ykh5c1J1ZkFaMVhqWjctMnd0T2ZWNFN4UmVYbHRkd1d1ZWFQR1ZoY3RhbS1CcGFOeWhhd2dWN0dRYjJxUG1kTm0z?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Prabhat Khabar"
+    },
+    {
+      "articleId": "gnews_220e23467fcfe7ff",
+      "headline": "रूस में प्लेग का खौफ, क्या भारत तक पहुंच सकता है खतरा? - The CSR Journal",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T14:04:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOem9ITHY3ZDgtVjhvdno3WVNtTmpNLXFZZUdxQkJnUUppYlh2czB6bzdweGw4ZmZKMU5MQVFacmxsbURPMmxpdDRXYmhPakRlT3dfd3dsbEpvVXExQkNpRGh5UUg0NGNRZ19ram5sVUJIQV93YjhBUzN0X3dBZ29VVU94b1o?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The CSR Journal"
+    },
+    {
+      "articleId": "gnews_5002148128ec1bc4",
+      "headline": "India’s mycetoma burden calls for One Health lens - SciDev.Net",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T13:26:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS0w1czl1Z3VqS2pEQ1dULUozMTJmTVdFbjRrRmt3RDhhX0Npbjk0Tk9kMlExcTIyaGhndnE2anVLTjdQYmdjZWM0aG5PdjY3RG55RkJOTWVlRVdEZEJkaGIwRGRYYmtVSHllbE5fTUxwaDlncW5HWjhudjM0aTJ6REZfakdndENwMnY5M29CQnJ6Zw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "SciDev.Net"
+    },
+    {
+      "articleId": "gnews_83df5ab5865f2619",
+      "headline": "Russia plague scare: India's past outbreak and concerns around latest episode - India Today",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T11:08:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT0F2RTBsRmI0bTZJTS1qQVZ6OTRlc041enZLRHRaWDdqRXJWTF9QVTNtSjBrdTBVanZXZjMzc0hCRlozWkppSDZNb25kam1xQldkd1Y5T1RLd2IydTVCWGJjdzlucVVlcEVQZGFXaUh4WmFaU19zTFJXT1RLaGVCTHBUZlZ2XzdHbmRELTlraHY1bFlZNHBDMGE0VmZ3SF81WnZFUVpyYy1oOEZBbkRhd1pVbjNtZXlLaXhLU0VGZWpjZ3dERi1KdXcxYnTSAcwBQVVfeXFMT09BdkUwbEZiNG02SU0takFWejk0ZXNONXp2S0R0Wlg3akVyVkxfUFUzbUowa3UwVWp2V2YzM3NIQkZaM1pKaUg2TW9uZGptcUJXZHdWOU9US3diMnU1QlhiY3c5bnFVZXBFUGRhV2lIeFphWlNfc0xSV09US2hlQkxwVGZWdl83R25kRC05a2h2NWxZWTRwQzBhNFZmd0hfNVp2RVFacmMtaDhGQW5EYXdaVW4zbWV5S2l4S1NFRmVqY2d3REYtSnV3MWJ0?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Plague",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India Today"
+    },
+    {
+      "articleId": "gnews_37b159b7db0c75cd",
+      "headline": "Russian pneumonic plague scare: What it means for India - The Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T10:38:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYVRTalo5R1RWWVNwb3VpdlRvNF91RmxoSF9aNURoTUVXRkdCdDExa280ZEJ1VlRPdWV5eUlNOEhpdUpjeEZaT3FZRWs3akVyakpJRDhlTlI4MFprNE5Pektwek1IV21pd2RPek9LT1M1ZEtNcnd6MlNZOURQbTUtcTVFNUI3NUZTQXNCelc1TnR3bm5wS09waEhBZnlFYXU4OXJiY3FOODgyVG9UeXgxRVkyb3Nvdm5xcExGaXdpeEhGTUx3ZkU0aXNoeGp1U1l1R1FYTDd3d2FEOHp2NFNudmhWTkxXejBqY1I1eDBsTVVzRy1sZC1jOWFrU0UtNmszdUZz0gGKAkFVX3lxTE9TU1ZmdDAtOUJsU0pwa0RyVzByY3dyeW9ici0xaGhjb0FMQ1NFaVR2Nm9PeHVvZWVEOUN5X2lMVGZQODFodGFoMjlmcEY5VFhsWmV3aW9Sam9ZcEJCTGwtMjZOMmdHU0VxZWNvR2RYdkRpdkROYmpRbDItYU9KbkxyRzF4N1lpNjFxcTZSU0pSYWJNYXIzTm1NUlYybHJQdTgzYlplUy1yczZTeE5jYmRocnpNUzJrMDAxNEFxZjZVTlhpQm9aRWRiSlZDcXAwdjRGcUJhOFIzSm9fdjJQcHNhYm5aa0Q2bU90Y0RYUDNKeGJiOUkwUjQxNlduS3VUWVBYdGFhQ1l2SEVn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Indian Express"
+    },
+    {
+      "articleId": "gnews_a1436c7ad7f0f3a7",
+      "headline": "H1N1 Found In 75% Of Positive Flu Tests, Dengue Hits 15,000+ Cases: What India Needs To Watch - news18.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T10:28:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYXdxRFZKNHpsM1NXdGpsck5ZaXNrcnphajlJQUtZWEs5M2swd1ZqMFE3N0tUdFA2RGpZXzNBOURucmhtVW1lRGtMNFdsd05UVVowdWE0dE1QSlFpa0tiOE1rVnRodGJ0UGttbWNoa2VieFdHZVB1WV9UbTdnb0pWeW8ycTc4eHI4Uzc4bDI0a09YTl9TUFFvR1NnQXQ5NTNRVXJ6SG9hM0dmS0hrdzE4U2VqVUthbWNua0RDSGloLVFBS2ZfLVZCbUhUOFp5cnU4NG9LTGNHVXhMRDluRno2ZFh2R1FVT1p4MHZxampBM0vSAfYBQVVfeXFMUF8ta2lraUEzUW9GN1YyUDdSclR2UEhSRnp2UndZODd6dlNnRHg3RmlfMjNjVW9rcGg3RkFBMU9PRTRSTk1GOEJ4YVI0bHdzN19KQ1YyV2h6RWR6c0VFSkIzWk5SYXllc05yOC1MYnliNTV2NUYzV0IwN1pnWnlfRzlmZTB0WFdwOHhXOGkzMDRVNEZPRWZXNkJENmpvOGN3eC13bk9CTU02cmx3dHBpQ2RyOUl5Sjg0QzliWWtud2tQNVlyd0kxRFVQel9LNmF2MDU4enl5X0dkb1NLOTR2ZENQa0lWdTNLQU44M1dNdGZqb3BDYm1B?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "news18.com"
+    },
+    {
+      "articleId": "gnews_479080558dd942e4",
+      "headline": "India's top killer diseases have changed, but TB and infections still won't go away - India Today",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T09:56:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWExmT25mNF9MQlB6dlY4QkJPSnNxbDVJWGNTVVBXMWgyeFdqaC1zWVl4djdCT2RmR195MXFNaTU4ODhlRno0cXdJMHZMYjZ6Z3QtLXh4N0pPSUo0djA4VFVFdlNvTmdxQkNnRkVGNlNyRFVsTjdxQzVrR1FnYmpKYzQycEYyVkZpTEVKMWZUdHZlR29WZmpUTkpZemxtc28yZVNxUTNZLVlhN1hHYmYxc09HMTFlQWtzVW1kc1pKMmdJSzVBZFhkU1cwWWZfNXNXV3loRkxVMnZDdmdyYk0tajlaWEZuTVJUNEdsQXphaHdvMmxG0gH0AUFVX3lxTFBYTGZPbmY0X0xCUHp2VjhCQk9Kc3FsNUlYY1NVUFcxaDJ4V2poLXNZWXh2N0JPZGZHX3kxcU1pNTg4OGVGejRxd0kwdkxiNnpndC0teHg3Sk9JSjR2MDhUVUV2U29OZ3FCQ2dGRUY2U3JEVWxON3FDNWtHUWdiakpjNDJwRjJWRmlMRUoxZlR0dmVHb1ZmalROSll6bG1zbzJlU3FRM1ktWWE3WEdiZjFzT0cxMWVBa3NVbWRzWkoyZ0lLNUFkWGRTVzBZZl81c1dXeWhGTFUydkN2Z3JiTS1qOVpYRm5NUlQ0R2xBemFod28ybEY?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India Today"
+    },
+    {
+      "articleId": "gnews_499d49c62099496b",
+      "headline": "Pneumonic plague case in Russia raises questions: How it spreads and what Indians should know - The Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T09:28:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVzlSOGZqNEFPeEo0ZmJOVndfdUJqbmI2MmVXOEJQNmc2b21fZGhBSkVmUXFXYjRfVDhmTk01dHpGT2hjTjl2WW9EbjhxZWZuTVpvVjAtc0ZfZnEwd1VZdWZobk4wdmJ5b19qZ3lEZVZ4SjJXT1Q4Ml9rU1JRakFxWTFtalhqUDNyTzAxY0pQUlJlQ0hlQjdvMDNsdXpUSVpZUUVtbUFWZGUxTWpON2RLZG1PYnZ2aEJYZ0pCMjRzZmt5ZTMxaTZBaklR0gHQAUFVX3lxTE83TUVoS3hLTFQzSmtWdTdpOTlldWxvNkMzR2RQVV9pX0pTUUdUWXlpT0dRT0JCcnNnUmx6WkF6ejJUSWc0WUJEVWwyMmd1SDd5ZGg4SWNJcEo3WTdGM2FxMXgtVmVIR0E0M0xZQ1NMWEZWMWhpSjlPVWlWcTRJM3FDNU5OWXF1X0JNUmc0WWJPU21QQW5fLW1DQnpoWHFPVUNWclhXd0ZaSHV1Ukc3OGdDNzJmN0NtX0pFQnVIaVZzdDhxbWl3Mzh5eEp5MFhRTkM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Indian Express"
+    },
+    {
+      "articleId": "gnews_a11864d5d4d99fda",
+      "headline": "इतने साल पाकिस्तानियों से ज्यादा जीते हैं भारतीय, WHO का बड़ा खुलासा - ETV Bharat",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T08:06:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeF9fWTFabW9PdnZtRUl5OE9TRHNLTGJlSzE0eWVmNXUyZUNiWnlLUGxIcWx0UElFYVBMR0FzeVlER1plUHZvVDdTT3dXd2FMNWFKMldfdEdZUk02bmhfZm1mUnZ2NW9jTS1KbnlnTGxrOFVvWGtkeUZMVmtwYlAwdTlnN2Z5eDdVRXFrQ05tYUdobFNadjBFbXpyNEllXzVKTHd4bmpZQWpvN2ZzNWR5emxXNGFKMldLcklOa01ZWmVCaVd0WkVxb210eGFHUEZwNG0tWHBOOFlFbktUZUp4WXJJMkLSAeoBQVVfeXFMTkdmb21sdUdwMktHdnNVM01zQkR6SnhQcjZsRWdEOTVnd2dFQkpsc2hfOVB0U0k3Sy13bnJVdVNIYWRBTFpsN1NndElIVERDNFk0eEJMZDZxMko1VGNVbVdoQ2VUdVJYTU5KWTZTYWEwMFVhZEJVaFZEVWg5QjZ1MXQ5RERkSUFpVzhOd2lvNUxvZDZ1VTctOEVMU1I0RVNsSkY5UFo0OVdXc3pSOXItOVBRVkFGb0JxTEhaeS1LWDRYMVpCdU1rUTRyMk43cmQ1RW9TVUllTXpGUXJxNXA1Nk5EM2t0dm1CVjJR?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat"
+    },
+    {
+      "articleId": "gnews_ee86ed77e7dcba33",
+      "headline": "Rabies and the missing deaths: Why do India’s official numbers differ so sharply from estimates? |Explained - The Hindu",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T06:45:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcXJpY0E3azZNMUMzMUhuMFNBQmlEa2RWS1JfWXZRM0xqSW5fSHVpLXlNckFvTExHc2lPdmt5ZlJINjZ3SlRJVVdjbnF6SFdDNVJuVUFDdENWREhFT181dnZ2TXNyT3VHM002eHd2bjRfTk10VmlOMF9paFhMSEpaaU9QUHNkU0s1b3ExZlBETU5yb2RtUFJiNUtwOTkxcmJya1BYYVNvTW8tekdqZUthSTZ4dF9XN2pNamp1ZzdGaXRidk5vUDlYWFBFR1ZHd1U5bkJpaVNEV002T2p4U1pIcEVydThiLTVHY2dweHdoN0VuMHVvdHNB0gH-AUFVX3lxTE4zdkVRMWJrLU1qQW83LVBXdldYZFEycU5KTWU3cTRKX045dEJtRkwyYTV4Skl5Xzh0YktiQUhPQWpJbGpRdnF4bTlMbzF5TW9ua1VudDl6QTg3aUNQck9ZVTRiRXVtU1BWZWlUdFBWRDQ2UGtIWFFSaTZXY294Q1RHbWVpLWJlVHhZbXpyc080eTZCZ0EydkxCYWZac1lVRFNybDBYM1RHQjg0TC0yTTJIUDBwVVlZbmtFRE40c0Jld0NvMTR4N0luOXQ2aDF2U0JvNF9HcnB1OHp2eFFiUEZKYjhLYVc3ZlBQN0lfSDBoM1hSazAteVRETU9nWnZR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Rabies"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Hindu"
+    },
+    {
+      "articleId": "gnews_8bbb29dfcec7d69c",
+      "headline": "1.3K tested +ve for dengue in Chennai in September, GCC says cases on decline - The New Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T04:09:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQjRHU0lmQkhfcUJtYTRWZjdlWE1VbEdKc2pFdmxOUzlySGJ3ZmMxdFYzVkJQVmstVzhPSjY1TnlUaUxQWWIzSll4OWt6V1pGNVRfTmFISFk3YjF4dThCb2VJdFFraHE0RmFQeFZCbm03TmVPLUhPaHd4eEpmaTAtOEJmMDlnVWRhWlFUSXdNcjhpQjZTTjhrNGRWTzFLRWFTNDZEVVZscXNvNFRwc2daRU41aVZXU182VGtwQzdObkZOWk81WlRKdkprbENWZVXSAdwBQVVfeXFMT214SHJBX0RPc1NwWFBDX1Z1UzlLM0c5eHhJU0M0TkQzM0pPZC0zQkhqS3doLXlXbWlNcHNYc1V3eVFraERzQ2lXWkVYYlQwZmQ5QU1JMWUxaC1YZlBJWDJ4VUZFVzRnQVY5TzhHRXY0dW5FMGNlbGhrUlNZQUxvVklmV3dtMUZ1dkkwVUlRRFl5WW1jVUljNllCcmZmYmQ2NW9pN2kyalV1czRQbER2MUZIU2VhX05rdDNXODFrZmZlS182eGpJX2xrZ29GLWdPWmdlVUZkNjJLamlWVA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New Indian Express"
+    },
+    {
+      "articleId": "gnews_58b39cb1734068a8",
+      "headline": "Karur Admin on War-Footing to Tackle Dengue - deccanchronicle.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T01:56:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSkV5bDVINEpxdGVCd2hUVGRZOW12TnVuekNLeE5MNFN0NnBpaFg4UmRHVU1LOWVrQ2VaSk5mTmU1QjdHMzFUUVZrYUdFOFduWlJ3MW1tWEFzclVCa19hSnFGMFlGdmV2RWMtaWVjbVZQZ1kxRDhVN2NET3pjZDZjSEJNN1Y1RFUycER3b3FrVXdETWRLbzJXRktGXzh0OFdhVFc1Z0UxclplZkUzZGlUZ0lpbU7SAbQBQVVfeXFMTUpFeWw1SDRKcXRlQndoVFRkWTltdk51bnpDS3hOTDRTdDZwaWhYOFJkR1VNSzlla0NlWkpOZk5lNUI3RzMxVFFWa2FHRThXblpSdzFtbVhBc3JVQmtfYUpxRjBZRnZldkVjLWllY21WUGdZMUQ4VTdjRE96Y2Q2Y0hCTTdWNURVMnBEd29xa1V3RE1kS28yV0ZLRl84dDhXYVRXNWdFMXJaZWZFM2RpVGdJaW1O?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "deccanchronicle.com"
+    },
+    {
+      "articleId": "gnews_7dfffed41d7490ab",
+      "headline": "Chennai Dengue Cases Cross 20,000; Health Officials Say Trend Declining - deccanchronicle.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T01:26:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUjhteE4yWGc4elNicHZTa3JlX2gwb1QtM19MM05LSnlrd2ZTR3Y1cmVuQ3JoSWdiWE9JMEN2dTB1eVBYMHFUdWpaamhGUmpub2ZqYjNfWDJrV1NlZmhTQTVsSmtGV29KUTlIMG1CakwyTXVXNmpGX2VISjF3ZlB6VE8zTUtVVVJDTWFMZUx0YTI0U2xjdFFmdW4wb1VVNnc5amY5dS1uNWdsWU9fOFRIU21ldHdkY19vSlROaUl5cTNJT29nY0tpemk3dUNsa1luUXfSAdcBQVVfeXFMTXRpR1dGNXE4YjVaWFZLc3NhVFd0MndfOUNfenhEODAzdE9SM3hlR2FwVDZIZTM4R1BNNWZWaGpKZExTTGVOcWJkSmVuSkpqTGJ3Wmh5dXltOFZyVEN2eUFsbVVtbGlMSGl4cGN1Tkt3ZWlPOXAzUDRINEI5el9nN2xPT0xTS3RaZXJxZ0hKM1U1RHNTekZZUjhHemVXTjVIYkNGYjJfSnBZR0lXaUVnZTY2RFd1NkRCSWR3VFlRSnpNejVDRjJtSDB2QTA2UFA3QzlLbngxSnM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "deccanchronicle.com"
+    },
+    {
+      "articleId": "gnews_1071402dc55b1432",
+      "headline": "Chennai Dengue Cases Cross 4,592 as Monsoon Vigil Rises - urbanacres.in",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T00:14:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeUlqQW9JUEJPNnIzenhMd24yeDlhdFRmXzlDVTFmT3Vha0JDWGNlT1JMOEpnWC1OaGJMWUZGc2hySU1wb1NmNTcxazdTcEdLZlV5MXI5YVhJeFBKdjRLWk9YZWpHeU1VTzBTVENJcHNxOWNiREVJLTZSb1M4M1dYLWhWMlhuVTJQaEV5bTl4M1VfSG5P?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "urbanacres.in"
+    },
     {
       "articleId": "gnews_e560651c0a5eb70d",
       "headline": "Dengue testing stepped up in Chennai, over 4,500 cases recorded this year - The Hindu",
@@ -45,8 +411,8 @@
       "sourceName": "The Hindu"
     },
     {
-      "articleId": "gnews_48360c8181af15ff",
-      "headline": "संचारी रोग नियंत्रण अभियान : सड़क किनारे फेंका जा रहा कूड़ा - Amar Ujala",
+      "articleId": "gnews_09dc6e4b2fe04196",
+      "headline": "संचारी रोग नियंत्रण अभियान : सड़क किनारे फेंका जा रहा कूड़ा - amarujala.com",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -61,11 +427,11 @@
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Amar Ujala"
+      "sourceName": "amarujala.com"
     },
     {
-      "articleId": "gnews_1d733b89d1ae8db9",
-      "headline": "Andhra Pradesh: Bird Flu Outbreak Triggers Alert - Deccan Chronicle",
+      "articleId": "gnews_0f17fca11fbaa67f",
+      "headline": "Andhra Pradesh: Bird Flu Outbreak Triggers Alert - deccanchronicle.com",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -82,7 +448,7 @@
         "Andhra Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "Deccan Chronicle"
+      "sourceName": "deccanchronicle.com"
     },
     {
       "articleId": "gnews_34a3d1a706c9f04c",
@@ -161,8 +527,8 @@
       "sourceName": "Bioengineer.org"
     },
     {
-      "articleId": "gnews_de22054a803661a7",
-      "headline": "कोरोना काल में पिता की नौकरी नहीं रही, लेकिन पुत्र ने हिम्मत नहीं हारी... आज भारत के नाम किया कांस्य पदक - jagran.com",
+      "articleId": "gnews_a7086d559df068d4",
+      "headline": "कोरोना काल में पिता की नौकरी नहीं रही, लेकिन पुत्र ने हिम्मत नहीं हारी... आज भारत के नाम किया कांस्य पदक - Jagran",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -177,11 +543,11 @@
         "Uttar Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "jagran.com"
+      "sourceName": "Jagran"
     },
     {
-      "articleId": "gnews_d6b08ac7008654ae",
-      "headline": "पाकिस्तानियों से ज्यादा जीते हैं भारतीय, बांग्लादेशी भी आगे; WHO की रिपोर्ट में खुलासा - jagran.com",
+      "articleId": "gnews_86c91a06a7eaa5c6",
+      "headline": "पाकिस्तानियों से ज्यादा जीते हैं भारतीय, बांग्लादेशी भी आगे; WHO की रिपोर्ट में खुलासा - Jagran",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -196,7 +562,7 @@
         "Uttar Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "jagran.com"
+      "sourceName": "Jagran"
     },
     {
       "articleId": "gnews_26bf44cb3db73092",
@@ -218,13 +584,13 @@
       "sourceName": "ETV Bharat"
     },
     {
-      "articleId": "gnews_cf36299817f4ca00",
-      "headline": "Gujarat: Dengue hits ‘Ekta Diwas’ parade contingent; 24 test positive - DT Next",
+      "articleId": "gnews_b9db17b8be9cbfd3",
+      "headline": "Gujarat: Dengue Hits 'Ekta Diwas' Parade Contingent, 24 Test Positive - NDTV",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T08:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ0gzaW84OGFmMHUxRWJMV0NtWUo0Z2ZScWFPWDZQT3l1Yy0wZm1UMHVjTDNPSFVIQ3VyX2tGOVc1SkN2bVB5cUhmUjNsZ3VBZ0ZMakRqMXlibU9DajhXNDA0TENVaE5lY1lJbDBUWnQ1UklVQl9oWXIyMU04elBoQ3pZLWdKaEhreUtBZzd2YjJhRmU2ZWtpa0R2NHcxdUFZbVVMall2QU52T0xRS2V4S9IBsAFBVV95cUxPQ0gzaW84OGFmMHUxRWJMV0NtWUo0Z2ZScWFPWDZQT3l1Yy0wZm1UMHVjTDNPSFVIQ3VyX2tGOVc1SkN2bVB5cUhmUjNsZ3VBZ0ZMakRqMXlibU9DajhXNDA0TENVaE5lY1lJbDBUWnQ1UklVQl9oWXIyMU04elBoQ3pZLWdKaEhreUtBZzd2YjJhRmU2ZWtpa0R2NHcxdUFZbVVMall2QU52T0xRS2V4Sw?oc=5",
+      "publishedTimestamp": "2026-10-03T06:18:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1pZS1huaGw1NFQ2ZmdMYUVfNmZPWUxhbl9XLVVHemdlMkNHcDZhRy1IekxHSWg1SzZRSkhURjB2c0pQak5La3AteXMzb0dtZUtsT0JWSzhWdW9SSTVjM0x3RW1OQ3pZNU5URThHSUJhN01ObGlOYTdNd1JvcmN0c0xPR2tYVnZJSEhhbi12TEgtbVVKZi1LMFJBS09QVl8yT0dYZQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Dengue"
@@ -234,7 +600,7 @@
         "Gujarat"
       ],
       "dataSource": "Google News",
-      "sourceName": "DT Next"
+      "sourceName": "NDTV"
     },
     {
       "articleId": "gnews_af49eef303ae28ea",
@@ -273,217 +639,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "NDTV"
-    },
-    {
-      "articleId": "gnews_766ee982d79712ac",
-      "headline": "Dengue, malaria cases surge in Delhi, triple since August - ET HealthWorld",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T19:06:46+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTHFwWTZUdzc2Y05UeDM2VXE3RlFTYUxrMGFuR01ySl85V1RlUndKZnVlenRKLUk5eHJFaTFUWkkzZ1Voclh0QW5UY3JEU3hiWVR6WlkwazhOeWtPQnZCck5QUHZvb205T203dDJFLW85YWMtc2h5NnFnTzZmNDBJRmRaUnJONDdNUlpHeGVGREpiRlBCQ3k1dDhEcHhQamxGYy01eXl3Vnh5TmdTcWptRmQyNFpSdzNLR252Sm5yam51bkdYaGxyejZGTmhKYUVlOVZ6N3lhZFRtWm5pa0Vic0FVZmMtRkQ0WnI3djUtNUoyUGJMNnZlSXRR0gHGAUFVX3lxTFBKT2ZwUG12cl9vcUdCaXJRb01HTUJMRFp5LVRFd3hEbVFNbjc1ME1kdFpGc0cteldvcnFubGpSSk9nMHB1emthZDR1ME95a2d2WGtlUTVzZU9zcHV4RHdWWlphWHlaRjNuSDVsMEtWekNvYmVWbUprVDFVbFdwS19qUEw5OFh0YjhnS3BSVVNyc0RzUWxrSXlEbUc4N19RY0pzRjRQQ0VmeXpVVkkwUWFkLWdYTUZ5cnp4OFhfWTRVa3pMZy1NQQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Malaria",
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Delhi"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ET HealthWorld"
-    },
-    {
-      "articleId": "gnews_fd5bed4a3493ada2",
-      "headline": "T.N. recoding around 200 dengue cases a day, numbers remain steady: DPH - The Hindu",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T16:33:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjVUaFlWMWJfNkZVRVNzdVROWFJBS0JpUkZ1QlYyZktzNS1DeEpSNDJSdGZUYlpFR0JoTHh0VndwZHpZVUpCdzNZc09CSE5iYll0c0VzekpYdzlsTGdXaHcwUU5rQ3l1akRudUM0SGk5eFMzZi1vWDVOdVlKZE5mY1hoeWpYQm15ejRPcHNCcURoeFg2WVZuYlZPTkRIOUxPOFY4V3ZmLUFnWWpjS0xyalJOQ2VMd0lYeFFXV0Y0VFNZT2t0ZGluNGJnVTbSAdMBQVVfeXFMT2F1YzBKMms3Q0JvUFpHaG15enNkTWVoYTFKcWZ6MnBocFd1aHZqWmlJNHBudzA4dFRmeVo2cmFXd0xKOWM5dmVJX0U5cF9jVWNNcjRieW9pU1YweWpPOVBQcUJtV1VrQkJnUm9LRzJNQ1N3OEpSeS15Y2VQMzZTTkFPNXgzcHJZcEhfd1hmR2FicjRnX3FSV0lYOUFzZER1ckZtMDdSUXlKSGN5N0ZQMTZ1b2hzYVVjNEVnN3hCVXhtWmkwcjVxYk81RTRDVzM4bFNJUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Hindu"
-    },
-    {
-      "articleId": "gnews_2a4e13200eb41a5e",
-      "headline": "अपनों के इंतजार में 100 से ज्यादा अस्थियां, कई कोरोनाकाल से तालों में बंद, परिजनों ने मोड़ा मुंह - ETV Bharat",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T13:09:04+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVGZ6S3hxcWVoR1U5RXVfaG1XTWdXYUIzRVplcWJLQnBYNGdza0U5bXJfcVlmeEl3WVRoaFFYOW1zbHFzUlh6SWRFVnZCR3dLVjBGcFFaTG5ydUxQTTl3SFpVb2JEQ3hSeGdOemh0OHhIdFU5YTU0SDRRVW94bVYtUWN0YzdjLUtlbXhsTURqTFRaUTVJWXFIWFZudVNhdUVtM3YzZkNyX21RT3NObU5pdWtOdlR6M3l1RG1VMWxZX0dRRkNqT0hsUGMxYjBnRkhEODllRThvSDd0ZlNrOXfSAeMBQVVfeXFMTk9qU25JcVVmd3BTVjJPR3BYLW9OV0t3by1MczdPQnliYlVBQXFDeHI5Zm5HelhUZlMydEw1V0VkTHRYQUhsN3QtdGlHMjZBVEx5OFp6Umtwd0YtZ1UtTEZiVWs0aEdaYzFTNnlvaUdZby15ZmdqSzZJaGFQaWd3dW1tSHdkc3p6cVV2Rld1Q2R6WEJaSlpMQ3ZwSjg5NzJaOUYxLVdBNmtoTnNhTkRGTUl3RHZmNkpJMC1qNHktMlA3bm9seThzb0Q1UmctZXVwOUNzSFNGVDhwUnpXcVlCaWxuUVE?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat"
-    },
-    {
-      "articleId": "gnews_62718eeb86f3cc05",
-      "headline": "क्या सच में संक्रमण से फैलता Cancer? भारत में 1.9 लाख कैंसर केस संक्रमण से जुड़े पाए गए, स्टडी में खुलासा - ETV Bharat",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T10:39:31+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdUllcExZSUV3OENfRzk0NVNIRFhURElWMmo4d3luVjYxQ3QtaEhURU9fcGFNZUd4V2F3UmxfalBpYWMzNGpiNDJBc1k2UFlHV1BhaVBLVXJNS0Y1Q2hIcTZkWGc3cmJFV2U3LWVkanloV2ZSUkwwdGNaSmRxS3l4cnA1WUxQRE5qRkJqWW9rTHZhby1ZSURncTkydHFWNmNRRXZxNVlEQ0ZSWEprZjkybTNjVzU2MEtzdUN3cTZ6SllKWVVRNjV2ZXoxanpmWmM0MlQtclFsdDNjeG5rR1ZxcHFmXzZsa1dvdF9wS2Z3OXlCWUd3NWFTQU55NnNoVXdOdkE?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat"
-    },
-    {
-      "articleId": "gnews_a54e9392621cb488",
-      "headline": "Chennai Dengue Cases Double in September Before Monsoon - urbanacres.in",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T09:13:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSUl3ZXY2QXV5WGNNdU9LaWxFdU1vbU4wNTJJOVVaeXAya1prWFMtbkd5cFVJUVRPQ2t0Mi1xNXIybmM5R3RjMUxpWmlMdHh3U1g1U2dLUnJhQmdUR3pvUGdHWVpCSVVqMXpkT2tCalI2dzRUMnJqUU5SbXZsX1hzb3I5NXd0ZVpPbV9N?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Tamil Nadu"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "urbanacres.in"
-    },
-    {
-      "articleId": "gnews_bbeda068fb2ff56b",
-      "headline": "बरसात बाद अब डेंगू का खतरा; एलाइजा टेस्ट ही पहचान का सही तरीका, ये गलती पड़ सकती है भारी - ETV Bharat",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T08:57:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVzdjLUROalJQaFJvUjQxc0JDTUx2d0dtY3RxQTU4bktYUS1Hck9CaUE0UFd4Y1FUcldDaHBlV2FhLVp0NWo0ZXhNYzUtNHFob2NxR3NTQUUzWEtqRjBhZVctLTd5ZzFUcnFTTU9xT0RxU2oyWWM2c0dxSG9oOUxya2tTZFY4am9OdGF3bmdkOU1nakxydThYMVJ0OXFLNE9zSXhSeUZZbUZHS1psd3pNck9HdHB5NGxGQzNtWWRtMktmUG1sUUxVMnBjcDI0MXpsTDV4TjVKSlpkNlZxV1N0Ykg3X1h3UdIB5gFBVV95cUxNVzdjLUROalJQaFJvUjQxc0JDTUx2d0dtY3RxQTU4bktYUS1Hck9CaUE0UFd4Y1FUcldDaHBlV2FhLVp0NWo0ZXhNYzUtNHFob2NxR3NTQUUzWEtqRjBhZVctLTd5ZzFUcnFTTU9xT0RxU2oyWWM2c0dxSG9oOUxya2tTZFY4am9OdGF3bmdkOU1nakxydThYMVJ0OXFLNE9zSXhSeUZZbUZHS1psd3pNck9HdHB5NGxGQzNtWWRtMktmUG1sUUxVMnBjcDI0MXpsTDV4TjVKSlpkNlZxV1N0Ykg3X1h3UQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ETV Bharat"
-    },
-    {
-      "articleId": "gnews_0088677d5ab24a79",
-      "headline": "डेंगू के खिलाफ श्रीलंका के साथ भारत, 500 लीटर टेक्निकल मैलाथियान की मदद - DD News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T08:42:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVTJHbS14Q2FhaUk5LUlVdmpFczRpYnNKbFZwTEREMk1MTFlSa3FwQWQyUFUzTUpfV3kzZFROX0tzSk9zUlpaRU5FUlg5NWJmel9Pb0I2YWVnazNCNFVfbER4THhfRlJLcEtXYmd6TWx3OWdOdnpGVGFNanc2RzM3aGplRE90OUNaZ2dLSkM1N3RTNTJxNjJxTlNGbVNpLXkyNlY4MllhamVTMV9mWkE?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DD News"
-    },
-    {
-      "articleId": "gnews_f684642e685aebf3",
-      "headline": "Telangana sees dengue cases cross 3,000 - Hyderabad Mail",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T06:50:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PNjhtcGdOdzBLTzhVVkVsWGpHNWVSME1rbkhTcDBNQThPYlNac2dNV21TMlVqNFZUd0lzZlFhZ21IcTdwTWxKS2xRY2tJMzF2Q3d3MjhVNzdhOWRZZTV3WkNXZlR0TUV3TWlDV0ozTVBWVVBYQTZrczN3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Telangana"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Hyderabad Mail"
-    },
-    {
-      "articleId": "gnews_702f4c8c709a8bde",
-      "headline": "Dengue cases more than double in Chennai in September - DT Next",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T02:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNjFPM2hlazVHV3RTYlItMXl0NHctTEE4cExYa2l5WTNHczNDR05TZW92blB6QnpFRnhrRlRfeGhZTmhBQTZ0N1NOaHRHUkkxeUdEcnFSZHhWWHlYY1hDM2JWeVdDX0tWb2pNb0xDbU9VNTN6VHBQQXpCbGN6N3NsTW5WY2taUUFQNzd5ZVRvVXZHbjRkSDZGYnM2WkdUM2fSAZ8BQVVfeXFMTzYxTzNoZWs1R1d0U2JSLTF5dDR3LUxBOHBMWGtpeVkzR3MzQ0dOU2Vvdm5QekJ6RUZ4a0ZUX3hoWU5oQUE2dDdTTmh0R1JJMXlHRHJxUmR4Vlh5WGNYQzNiVnlXQ19LVm9qTW9MQ21PVTUzelRwUEF6QmxjejdzbE1uVmNrWlFBUDc3eWVUb1V2R240ZEg2RmJzNlpHVDNn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Tamil Nadu"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DT Next"
-    },
-    {
-      "articleId": "gnews_a77ac659793243d6",
-      "headline": "पूर्व IAS आरएस शर्मा की अनकही कहानी: आधार से लेकर कोविड टीकाकरण और अब झारखंड में टेली आईसीयू तक का सफर - jagran.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T02:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM1FzRUFpRm93UjZxeWFSOTJqekt5aU1IODBqMnRVczYxN2FtZFhGN3ljZGNNMUtwMFI5aHFiVFNMenhCWElGdkdZaGVGdGM1MGJBUzByQlk1QnBrUjg1aWlVajZwMHAyNk1IdmVac25CMWE5Wm5BWGlxRlA3TVhkRHk3SUJOUUZZRTJnWENaZkNSbmtsbTVsZ1laN2ZTSXE2RXgtRHpyOGwtYkhIOWJRQmp2OXc1V3Bp?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "Jharkhand",
-        "Uttar Pradesh"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "jagran.com"
-    },
-    {
-      "articleId": "gnews_34b2cc0eacae1100",
-      "headline": "Call for Proposals: T Cell Based Vaccines and Biologics in Infectious Diseases, Cancer and Autoimmune Diseases (India) - fundsforNGOs",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T01:06:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQzV5TV9fRENLdmlXQzd2QU12dktvRmhwS1AxYk9SUkt6RU85Q2RzSnEzYjlISkRHb0lSM0hCOXgwQjdjN2IyV0JhRkNsSDNvb2swVURkTEN6Y1RxV01vQmhpak5MQ2s5Y1dydmxFS1NQbXVIZlFlMWhDbkdITHBvRjg4WGRJV1JDU0hka1Q1enM0TlRjOHhHcXdUbG9WSXlwUW5Qb29saTRoOUl2ME53S3FhMjRsTXJzOTU1ZnNIRVM5RERfZTFzZ3RKamhNcERRRXFkbzItNjlOQkUwTTU3djk2N2JlU2Ew0gHuAUFVX3lxTFBBTllJYTlTb2xyV3FmSWE3cTViQkNKUXFnQnJvcnFNQXhObEMzVmk4ckxZVVVIZV8wYXJEZW5qYWduUWZkZlMwN0NfVHF3a3hMeE8tVEtWdlRBLVNLM1dUMnN2bnY4V0ZjRWNNdkliV2lpZHJlUWVtcExEWTRlN29STUt6R1Z4dEJrMXpPc0x3cGk0ZGtZZThKZnc1WUt1OEY5dVNXY0x4d215c0hhLWx3SjJ2T0RrYzNEbkFIQmVocmZFazB5YkxxWVB3OGJMaTVNcDg5cDhNZWlvVlFTWVNTYjFoSjlhMUxGc2JlTGc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "fundsforNGOs"
     }
   ]
 }
