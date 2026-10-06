@@ -1,53 +1,826 @@
 {
-  "generated_at": "2026-10-05T21:27:23.985334+00:00",
+  "generated_at": "2026-10-06T21:27:32.864309+00:00",
   "date_range": {
-    "start": "2026-10-02T21:27:23.985334+00:00",
-    "end": "2026-10-05T21:27:23.985334+00:00"
+    "start": "2026-10-03T21:27:32.864309+00:00",
+    "end": "2026-10-06T21:27:32.864309+00:00"
   },
-  "total_articles": 49,
+  "total_articles": 80,
   "retrieval_status": "ok",
   "state_summary": {
-    "日本 (都道府県未特定)": 20,
+    "沖縄県": 4,
+    "日本 (都道府県未特定)": 32,
+    "山梨県": 1,
+    "愛知県": 2,
+    "秋田県": 3,
+    "福岡県": 11,
+    "山口県": 5,
+    "石川県": 3,
+    "岡山県": 6,
+    "群馬県": 1,
+    "福島県": 1,
+    "京都府": 2,
+    "静岡県": 1,
     "北海道": 2,
-    "福岡県": 6,
-    "岡山県": 3,
     "鳥取県": 2,
     "愛媛県": 1,
     "神奈川県": 1,
-    "熊本県": 2,
-    "岩手県": 1,
-    "京都府": 1,
+    "熊本県": 1,
+    "広島県": 1,
     "福井県": 1,
     "千葉県": 3,
-    "広島県": 1,
-    "秋田県": 1,
-    "沖縄県": 2,
-    "石川県": 1,
-    "青森県": 1
+    "香川県": 1
   },
   "disease_summary": {
-    "Measles": 4,
-    "Influenza": 14,
+    "感染症 (未特定)": 21,
+    "Measles": 21,
+    "Influenza": 25,
+    "COVID-19": 4,
+    "E. coli": 4,
     "Tuberculosis": 7,
+    "Legionella": 1,
+    "Avian Influenza": 2,
     "Norovirus": 1,
-    "E. coli": 2,
-    "COVID-19": 7,
-    "感染症 (未特定)": 11,
-    "HIV/AIDS": 4,
-    "Food Poisoning": 2,
-    "Avian Influenza": 1,
-    "HFMD": 2
+    "HIV/AIDS": 3
   },
   "articles": [
     {
-      "articleId": "gnews_37bda6ac45cb0d77",
+      "articleId": "gnews_c7f48d6e67babe0b",
+      "headline": "救急受け入れ制限 中部3院 病床逼迫 県内インフル流行 長引く恐れ 医師危惧 - 沖縄タイムス社",
+      "headlineTranslated": "",
+      "headlineJa": "救急受け入れ制限 中部3院 病床逼迫 県内インフル流行 長引く恐れ 医師危惧 - 沖縄タイムス社",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T19:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QaEw4Yktacm45ejcxaFBmaTY1YnRvSkFYQmtlS2Vpc1V5aF93eFBkSk1GSkVpelViTE90MS1Kc3dGLXhkd2lXNW81OEhJWUNtTURXaXlmaVVQcmRfakE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "沖縄県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "沖縄タイムス社"
+    },
+    {
+      "articleId": "gnews_e2ec993c7473ebef",
+      "headline": "NY州で緊急事態宣言 はしか増加 - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "NY州で緊急事態宣言 はしか増加 - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T13:25:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ib1d0S0tBbWg0dkV0bTQyNlNFLURWRkdYYl9reDJLUzVnekQ2T25VWUQ2cU00TUxJSjRtQ05iY0pSd1hiZ3VKdE52NUMxRDU2?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_fe854e464f869de3",
+      "headline": "今年はインフルエンザが早期流行 関文科相が対策呼び掛け - 教育新聞",
+      "headlineTranslated": "",
+      "headlineJa": "今年はインフルエンザが早期流行 関文科相が対策呼び掛け - 教育新聞",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T11:55:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5b09SNk9INnVlZDZSWkR2Nl9IYXlNT01KczRyeUY5WlVaVzg4NUNTcGtHc1lGaG5iSTE1QV9HZTRsMkJMM0tYcjdkWG1SUmp3RkdRd0NB?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "教育新聞"
+    },
+    {
+      "articleId": "gnews_4cb15ccae7fb02f1",
+      "headline": "全校生徒の3分の1が欠席 インフル流行の中学校を学校閉鎖 7日から3日間 山梨・甲府市（YBS山梨放送） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "全校生徒の3分の1が欠席 インフル流行の中学校を学校閉鎖 7日から3日間 山梨・甲府市（YBS山梨放送） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T10:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zT1lmWm4zT25lTUlCUGZQREJWZ3lRVDdLNnVJWHhPZ3dYWVdXcmRqd3JDM28yQ1J1N2FEMzRxb2JyYmtMZkRhaHhrU0NBNUhYeWw2NUp6OWwtY0V4ZlpDTGZiRl9tWTZYSmNjY0tfN3NXaXFzejNaTzRPbWNESTg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "山梨県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_cc4183057a0c883d",
+      "headline": "韓国で流行の“小顔”美容液「レモンボトル」のニセモノを販売目的で所持か 男女3人を逮捕 インターネットなどで正規品の半分の値段で販売 愛知県警（CBCテレビ） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "韓国で流行の“小顔”美容液「レモンボトル」のニセモノを販売目的で所持か 男女3人を逮捕 インターネットなどで正規品の半分の値段で販売 愛知県警（CBCテレビ） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T10:34:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqTDUyWjExd1d0Skg3dXQ5Q1BsYzlqNEZoYndUX2gzbGFVWnJtQU11RUhuVXNYZXlCVVk3dGZZLTdmdlFMekJqMVhrOFo5VDlwMTlxeTlZbkNvb1VYRVFoWXhSZkNvUjBxQndoS25seG52M3hLUEl6OFNmMmFoTnc?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_990f1c4cef13da94",
+      "headline": "【特集】国に届かぬ声 新型コロナワクチン後遺症～接種開始5年 患者の訴えと向き合う医師～（サンテレビ） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "【特集】国に届かぬ声 新型コロナワクチン後遺症～接種開始5年 患者の訴えと向き合う医師～（サンテレビ） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T10:13:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVWI2Y0hYMUE1WE1Wb2VBQnJCMkdSTERoYXJVc0ptUXU4WDhrNnlUUTNMUmVHdXlvWE04OXlXZENqdGUwWXpUdklUS3BYVmY2WTdYRDdoRTN2NlJCUUxleEt3V2stcXBscUhrRTY5aVptcmJEZTMtY0h6T05wWl96ek1jeTBvcnRx?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_e9d49004fb40acf5",
+      "headline": "秋田市の小児科は「連休あたりから急増」 インフルエンザ“例年より早い流行”に警戒（秋田朝日放送） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "秋田市の小児科は「連休あたりから急増」 インフルエンザ“例年より早い流行”に警戒（秋田朝日放送） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T10:05:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01cXNJZkItLVgzVEs2YXdfOTdMZ3dOeWtxR0V3ckc3MmQwZDdpWll2OERwdVdqV1Q5bUpaZ08ySF9UN0xDT3g2UVhoMk9BVjJzU0thRnRCdGhuWkQxb09yX2hPd1ZGYS02MkRmeVdMM1E4YThweGxBeng5enJ1N28?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "秋田県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_582d1d5f3041d243",
+      "headline": "はしかで県が注意喚起 福岡県で感染が複数報告される ワクチン接種歴の確認など呼びかけ - 日テレNEWS NNN",
+      "headlineTranslated": "",
+      "headlineJa": "はしかで県が注意喚起 福岡県で感染が複数報告される ワクチン接種歴の確認など呼びかけ - 日テレNEWS NNN",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T09:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdFRoM0RFMlMxSjlxcVBIeWJPdEdpZUx5ckU0U0VmYUxBQ2xtbjQ4SDVTTkZQeUhpWldKVngzT3diUWxEMG9WSkFPM3Rpb2pIWG9JbE15SlN5a3ZvWXNUVU4zNnd5NXItRTh0V0dXNjBSaDNCSnh4aV9UY0xjaGl0Q2VKaWo1bUE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "日テレNEWS NNN"
+    },
+    {
+      "articleId": "gnews_91924f0deba46c28",
+      "headline": "はしかで県が注意喚起 福岡県で感染が複数報告される ワクチン接種歴の確認など呼びかけ（ＫＲＹ山口放送） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "はしかで県が注意喚起 福岡県で感染が複数報告される ワクチン接種歴の確認など呼びかけ（ＫＲＹ山口放送） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T09:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WSmxuaTQ0VDJxTmJoOEFYSHFYSFZOZFhTcEpMaUdCOWMtODdHbzhYQnlDUWdLSkZUV1Znd3B0MkZmTFF0aEFNRGh3SUtMQXhfUzVpTWprSEY5cUktMC1QRHlZaVhWaGtmbzU3ZmZjWkJUcVJhRFd6SW9ZbEtDLUU?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "山口県",
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_2c0911f72545bb67",
+      "headline": "集団かぜが拡大 石川県で今シーズン最多の感染者数 7小・中学校で学級閉鎖などの措置 - au Webポータル",
+      "headlineTranslated": "",
+      "headlineJa": "集団かぜが拡大 石川県で今シーズン最多の感染者数 7小・中学校で学級閉鎖などの措置 - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T09:04:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55aFRsdkVjSU9rRGJPeUFOeml2eExoN1dxLWpCaGdnaHRpMGx2Y05Dem9RWWI2YnhOeG9vT09Nb2N2d0kxWTgwX3dBb08zSXFZeHF5TFZOaG8yOEJKejZuLU5fd2FUWEJOQ2xZOHZPSG5ZNWpMdXQ5WQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "石川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_def31b6200af14c4",
+      "headline": "集団かぜが拡大 石川県で今シーズン最多の感染者数 7小・中学校で学級閉鎖などの措置（MRO北陸放送） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "集団かぜが拡大 石川県で今シーズン最多の感染者数 7小・中学校で学級閉鎖などの措置（MRO北陸放送） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T08:56:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kSlFGWVFYQWtNMWt6UTV0S3VxbVhNczJ6SVM5ZlRBMm9fWFdjSnhUVFdidldJXy01bDBOcGxLYjNaRzZiZHh4RzBMYmpHY0d1Qmc4M3AzenduSGluVEpjRnBjSTR2cmxWcC1IZ3MxOEFzTEZnemoxblhKNERMT0E?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "石川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_29e8316aa3bd2adf",
+      "headline": "集団かぜが拡大 石川県で今シーズン最多の感染者数 7小・中学校で学級閉鎖などの措置 - ｄメニューニュース",
+      "headlineTranslated": "",
+      "headlineJa": "集団かぜが拡大 石川県で今シーズン最多の感染者数 7小・中学校で学級閉鎖などの措置 - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T08:55:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuMWJmclNnVjhscnVzQlBzU1g4Qy1TUjA1dUV3NWUyRXdrcHNzUW1MTzFZOHpIanprOWJmeUVHWGR6VnlsaHdKejRDZ2ZqX2lPdUZKcmdmZndwMTdOZEd1N0x4YWR2VW13dFlJYTAzTVFnal9J0gF0QVVfeXFMUG4xYmZyU2dWOGxydXNCUHNTWDhDLVNSMDV1RXc1ZTJFd2twc3NRbUxPMVk4ekhqems5YmZ5RUdYZHpWeWxod0p6NENnZmpfaU91RkpyZ2Zmd3AxN05kR3U3THhhZHZVbXd0WUlhMDNNUWdqX0k?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "石川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_d4e147cefef9ebc1",
+      "headline": "インフルエンザ、沖縄県で警報レベル超え - Medical Tribune",
+      "headlineTranslated": "",
+      "headlineJa": "インフルエンザ、沖縄県で警報レベル超え - Medical Tribune",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T08:45:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5TTNYMUhyWmdLV21HcjJMRW5MRzZTQmJnNUVaTTNnLS1pVWVIX2ZON0NCZmZzYjhOQkhrMmhzYWNiU3RsOWxyNVJSZ0JSM285b3cwRlM2RzIzaTYwV2RLQi1jeDd1cmFMcEl4RGE1Q3ZzbG9iN05kV1hB?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "沖縄県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Medical Tribune"
+    },
+    {
+      "articleId": "gnews_dc666f032584cef4",
+      "headline": "40代の女性が腸管出血性大腸菌（O157）に感染 岡山市（KSB瀬戸内海放送） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "40代の女性が腸管出血性大腸菌（O157）に感染 岡山市（KSB瀬戸内海放送） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T08:25:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wSUFSMUJ1N1NlOHl3QjNnUTV5enA5TmV0SXJFNndsQ2dGTld2TVQ5QkFDX3dmWVY3RXRfTldZYXBWZEktckx6emtGRF9GTUY3SFhQYWFKUE1tVFFHT0JZYzB0cTFVb1hvY1AwdEZoSm5YTUVYUF91Mnh4QkNsU0U?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "E. coli"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_57ed200d0ba5f132",
+      "headline": "40代の女性が腸管出血性大腸菌（O157）に感染 岡山市 (KSB瀬戸内海放送) - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "40代の女性が腸管出血性大腸菌（O157）に感染 岡山市 (KSB瀬戸内海放送) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T08:25:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQei1RWkhmdHRTdGpiQlpwcTFkNE1xYUt2dlhQdGJ1cGtVTU0tSDZEd3RDQko0RXB5XzBKb25JNUd2NFBKTl9lSXNNOUNaSmR4OU9tNk9oWk81OE1wWmxWOGZfdFNXSnVTdXNOOThscmhPWDZsZWhZZmQ5b240SzJTSVFTczVScTVIR18zWFR3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "E. coli"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_742a2780c40ef0eb",
+      "headline": "県内にインフルエンザの注意報を発令します（感染症・疾病対策課） - 群馬県",
+      "headlineTranslated": "",
+      "headlineJa": "県内にインフルエンザの注意報を発令します（感染症・疾病対策課） - 群馬県",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T08:25:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0dWtfMVdkdEFTWkIxaDNNcFRlaGUwWE5yWW5RVUFOQ2cxU1poeUVxdTFEQjk1LUZldkxJRVZrUi1raTF3SDFPaDA1ZkpabElIWl9neFNfSTVUUW91Z0E?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "群馬県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "群馬県"
+    },
+    {
+      "articleId": "gnews_fadc574b6876ebde",
+      "headline": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」 - au Webポータル",
+      "headlineTranslated": "",
+      "headlineJa": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」 - au Webポータル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T07:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54T09zTUNxMGx1Y2dqWEpSV0M2bThqSHJoeElScXNKRTdNUG9yOE8weFRISTJKUzNTMzdIMDNDOWFjdnE2cnpfM0laVm1GYnhBT0RzNm52ZzlKaDJXWDJnNmFlUjU0UXVjWVpKcUN3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "山口県",
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "au Webポータル"
+    },
+    {
+      "articleId": "gnews_ac46d28459b6923d",
+      "headline": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」（ｔｙｓテレビ山口） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」（ｔｙｓテレビ山口） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T07:51:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83Mm00SzMyaUJTQ2NpRm1uM3l6YTR2MDNNLWFmWTM5UjF2WFF3N1Zua05xWnY2N2Ffam4wbFJyS1d1Z1I3UVlDNmdmTl9TcTlPTXFoQ216SUlnY2xDZk1fRlVKX2J0LTRyQ2hUNFUzd083ejJHT0hMUllld3RkNVk?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "山口県",
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_ea9fc671c2fd1807",
+      "headline": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」 (ｔｙｓテレビ山口) - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」 (ｔｙｓテレビ山口) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T07:51:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY1R1aDNQQXl2dDNQZXJrajkwOEFMUy1oNGdyeE1mYTZjQUhabXV1VmY2V05zMzd4RzRBOXdzWVpjdFdHbGthT09SMmlDOEp6Vkl3MFRINjZDN1BENkp4d0FkTEo2SlI0Z1FFaTBja1B0MVE0Y1EweERxbGJrYVozWE9RNTFuanJmaDNOWHh3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "山口県",
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_933e0d0875ce77df",
+      "headline": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」 - TBS NEWS DIG",
+      "headlineTranslated": "",
+      "headlineJa": "福岡県中心に“はしか”流行 隣県・山口県ではワクチン接種呼びかけ「死ぬ可能性のある病気」 - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T07:51:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TUi1KR2ctbGxmUkF2QVpYdDlVbG5VelJMMHktTk9xVDNIODRnaXVZNFVRcGZPd2Vxc1JLb2ZTWGtCamhtQzFLR1pRMWtTUE5uYzB0WTdlbmROdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis",
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "山口県",
+        "福岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_5021c9f5dd8a6779",
+      "headline": "インフルエンザ合併症で命を落とすケースも… 「首が硬くなったり」高熱以外の“兆候”を医師が警鐘 - Sirabee",
+      "headlineTranslated": "",
+      "headlineJa": "インフルエンザ合併症で命を落とすケースも… 「首が硬くなったり」高熱以外の“兆候”を医師が警鐘 - Sirabee",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aV3NfdG1xZUhPdFR2ZWhuSjZFWmdFb1dfaXhrQWZfa0I4NllkSUpWeGVFNGVnUWpmYUJUOGZCSzhOekdFU053b0oyOXNfZzhOejc5NTN3?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Sirabee"
+    },
+    {
+      "articleId": "gnews_3226926a2727a225",
+      "headline": "早くもインフルエンザ流行⁉政府広報オンラインのポストに注目 - マイナビニュース",
+      "headlineTranslated": "",
+      "headlineJa": "早くもインフルエンザ流行⁉政府広報オンラインのポストに注目 - マイナビニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T05:46:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WQWRwQnZ0R2oyZmRrUDlIUDRBVVlDQkpBR21hbDVRS2tUc3dmdGU1UWVWMVB3Z2dTZFRNX3loWWFFckhRVjFoVlprZXZGRkhvM2JvamkzTGVWUGtp?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "マイナビニュース"
+    },
+    {
+      "articleId": "gnews_659785bad4a8ea7f",
+      "headline": "40代女性が血便の症状...ベロ毒素産生「腸管出血性大腸菌（O157）」に感染 感染源は不明 接触者について調査中（岡山市） - TBS NEWS DIG",
+      "headlineTranslated": "",
+      "headlineJa": "40代女性が血便の症状...ベロ毒素産生「腸管出血性大腸菌（O157）」に感染 感染源は不明 接触者について調査中（岡山市） - TBS NEWS DIG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T05:34:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLTW05VTd4VDFWTFFoVWJJSUM3ZHlBTy1WS3ZtREZIc09FYzdYcEdPa0t0ejFrVlBCam9CWXRDcWxROU9aVVZqaXBnREFzZ0oxWEdvaFdDMA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "E. coli",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "岡山県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TBS NEWS DIG"
+    },
+    {
+      "articleId": "gnews_1e975cd2e59d44de",
+      "headline": "ニューヨーク、麻疹感染者数の増加を受けて非常事態を宣言 - Informat.ro",
+      "headlineTranslated": "",
+      "headlineJa": "ニューヨーク、麻疹感染者数の増加を受けて非常事態を宣言 - Informat.ro",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T04:37:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdGpvZVhJNG1ZMTk4T25nNG9iR3M2ZzRWZTRxUEQ5SHlKcDRIXzBNVzdPTlFBZlVXMHZZVVdVdjRxNFpGeWw2eHdiaXdsQUZHcnBhTHlvTGNqRXBPSzZUaWZvcWNmR2lTbnJJaHc0am5FS3RHU1E1cTVwTVpJa0lyRDhPR1BJZWpTaWtCNHZCd3FDYUNTQjZOcjFMSlIzNHhmM3BaZmVFNEFJWk5E?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Informat.ro"
+    },
+    {
+      "articleId": "gnews_efc9651dbb063722",
+      "headline": "令和８年度 今冬の急性呼吸器感染症（ARI）総合対策 - 厚生労働省",
+      "headlineTranslated": "",
+      "headlineJa": "令和８年度 今冬の急性呼吸器感染症（ARI）総合対策 - 厚生労働省",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T04:27:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFUnN0T1QwWDhIRTBWN0ZJTWRKbWpWWHRSUlNVQnd0SjluRE1laXJ4UEo2MkJYX2J3NW92bnA1ZnZzYkIzSUNUOWJFckp6OTMyUjFj?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "厚生労働省"
+    },
+    {
+      "articleId": "gnews_5ef2cccfb777db8b",
+      "headline": "インフルエンザ流行に伴う対応のお知らせ - 秋田ノーザンハピネッツ",
+      "headlineTranslated": "",
+      "headlineJa": "インフルエンザ流行に伴う対応のお知らせ - 秋田ノーザンハピネッツ",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T03:04:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5MlRXdXV2QjM0MnFsRGpzM3pBMEdvSWR2cVVfOUtBRmVuck9INnB4b0JOc1NqTHRKb09IOFRXNkFVSDBOTXJXcWQ1SzBDUFRYUjlZUG1PRGNVRmFqR3RnbA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "秋田県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "秋田ノーザンハピネッツ"
+    },
+    {
+      "articleId": "gnews_dd6f95fb2be95a58",
+      "headline": "米東部、はしか感染拡大 ペンシルベニア州で千人超、ニューヨーク州は非常事態宣言 - 産経ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "米東部、はしか感染拡大 ペンシルベニア州で千人超、ニューヨーク州は非常事態宣言 - 産経ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T02:37:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1Umx1aEhLME5mZG81d0d1RG1URlBjeVVMMTBzekhDNVlnYWNONW1ZUkVsTk5YOXdFdDViRmJweFpMWXRtdU1jZ1ZJYUdhYmpKTTZRUmNEUTM0SEJod3JDUXNWbWJyUENtNFM2dk5NT1FHMlFvb2c?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "産経ニュース"
+    },
+    {
+      "articleId": "gnews_ed90f63266f763f3",
+      "headline": "ニューヨーク州、はしか拡大で災害非常事態を宣言…米国ではこの35年間で最悪の流行（中央日報日本語版） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "ニューヨーク州、はしか拡大で災害非常事態を宣言…米国ではこの35年間で最悪の流行（中央日報日本語版） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T02:05:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xdWZpalN5aFVRc3otd094bXd1ZV9DdlVfVGoxZGpsSjBsYUhHOElKLTlFYUZnLU5oajgxSzNhV2tpTG4zaFRlSWU5R1RwVzNkcy14U0dfT3pQLWxVYVhPdmtCV0EzaXJ3NGZVVXVwWGZzcnB3N05oUWRnMm1GaFE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_1ed16c8a748561f3",
+      "headline": "ニューヨーク州 はしかのアウトブレイクで非常事態宣言！予防接種は必要？ - - mikissh",
+      "headlineTranslated": "",
+      "headlineJa": "ニューヨーク州 はしかのアウトブレイクで非常事態宣言！予防接種は必要？ - - mikissh",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T01:54:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5aenczcEtGVHFQRHJ1UWdhNHJKNkNaN0lEZHBxOXJGMkpNLVpSY0FELW5nREVxWlBmUkExMUoxUWZRdUY5UzZtaUh5LXlQYzRtX3gxb2pzV2ZZRmNiUDdhQzdKRkhacU1iUHB4S0h2dTV4dFNrWFBB?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "- mikissh"
+    },
+    {
+      "articleId": "gnews_d82a571c8ee2d1df",
+      "headline": "専門家らが、ロシアで発生した肺ペストの疑い例についてコメントした。 - Vietnam.vn",
+      "headlineTranslated": "",
+      "headlineJa": "専門家らが、ロシアで発生した肺ペストの疑い例についてコメントした。 - Vietnam.vn",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T01:51:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN3FGd2RHbk9VMkVhNTdPYjJfRXNDRE1CY1RBaWF2a2REem9MT2F5Q3JqeklvVUpScE5wMXN1RGdJN2RNeTFleXZFLXhMQlZQcXlkREItaDl3VHhCVHVUNmhvY25jN3hzVFRaVlU1SEFPdXBld29wZm9JZW5kNUdmSHFYYnZ5Tl9KNGRhVlFZbw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Vietnam.vn"
+    },
+    {
+      "articleId": "gnews_821057ec75d87dab",
+      "headline": "過去最速！PayPayほけん、「インフルエンザお見舞い金」を10月5日から提供 - PayPay株式会社",
+      "headlineTranslated": "",
+      "headlineJa": "過去最速！PayPayほけん、「インフルエンザお見舞い金」を10月5日から提供 - PayPay株式会社",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T22:44:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16d0s4T0lZUjNJOGhISGlKZEdOSDNmZ0hNMlBkcGtQd2E0Z3NsWmFIQWY0NHhNYUVUVExVQkFJVXRvcEsyR2ptOVo2ZG5wMWZHSUhnNg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "PayPay株式会社"
+    },
+    {
+      "articleId": "gnews_ff978361441abbd9",
+      "headline": "ロシアのペスト研究所で研究員死亡…「ペスト感染の疑い」に米国も注視（中央日報日本語版） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "ロシアのペスト研究所で研究員死亡…「ペスト感染の疑い」に米国も注視（中央日報日本語版） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T22:37:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fUkJaTjh6N2lOQXRFS2dnUE1qOE5Sazg2eWI1Ry13NHh3SUpBUDhaY1FpSVRUUjNQaEdmc3lrQll4NkE2cU4tYmlDdndDbTBZSDZzS2MxVTNZUVhHUTNEV1h5RFNWWUU2V3hFUHZEVkxKaXFPSy1fQkp4NlE4TG8?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_ed40a483cee28606",
+      "headline": "ＮＹ州、はしかで非常事態宣言 25年の感染急増後で全米初 - ロイター",
+      "headlineTranslated": "",
+      "headlineJa": "ＮＹ州、はしかで非常事態宣言 25年の感染急増後で全米初 - ロイター",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T22:13:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LSVF3VEpZNXVGTmNDV1l1ZUhMaGRWWVd1eFhMQkdhTlZLMXNBYmtvdFh6S1JpMFpOQzFuejI0YTkxZWJHcVFvQ1FpMDVpa2dHaENmc2hCdE9QZWYxMTJTNWZVeVZPRjhQbnBYOWpjLVVqNGlDVUFadmlOWEVsZw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ロイター"
+    },
+    {
+      "articleId": "gnews_8dcc4d2f49614506",
+      "headline": "ＮＹ州、はしかで非常事態宣言 25年の感染急増後で全米初（ロイター） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "ＮＹ州、はしかで非常事態宣言 25年の感染急増後で全米初（ロイター） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T22:13:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PU0kxNEo5Tk1wZUN5cjdaQTBBS2M5Nk53akEtU0ZtNm1tNk5WV3J5emlnWmcxNTdaQWFaYUlFYm95aXA4TDRhaTRmQjdYQ1M4b0R5NjYzeTAyMjBiWHUwVFFvZU4yYXZWRzQ2ZHBwZWxFZXhaWXpyQ2M3LXJrNU0?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_e38f9a7cb39d8c77",
+      "headline": "ＮＹ州、はしかで非常事態宣言 25年の感染急増後で全米初 - ニューズウィーク日本版",
+      "headlineTranslated": "",
+      "headlineJa": "ＮＹ州、はしかで非常事態宣言 25年の感染急増後で全米初 - ニューズウィーク日本版",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T22:13:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xUGhJLVRwWEJZVWt3UWJJQ1RsZi1NV1lfSzBrNldTN1BmS2YwdXh2X3Q2LUI1OS1FUUFma1NjdmRoX0tucnpIRV9MQjhGLUNDV3dWVG9VM3Nfdw?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ニューズウィーク日本版"
+    },
+    {
+      "articleId": "gnews_bcdfacd3b40a20f4",
+      "headline": "ニューヨーク州、緊急事態を宣言-麻疹感染の急増で州知事が行政命令（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "ニューヨーク州、緊急事態を宣言-麻疹感染の急増で州知事が行政命令（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T21:32:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oSjhodWJNWkQwZm85SjIwRlJPei1GbzNSNFdzX2NHQnc4MXdiSU5XUi1YOWJPY0xJSURMRF9vVGkyVnV5cEY4R0hRUWtQTzRXTHh0dkhlaVY4cEdEdFBxY2pqdjRKNUVwMkhPdGhoSy01TE5jUE1JY3BpM3IzbUk?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis",
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_4ee5a5aaa2e894de",
+      "headline": "ニューヨーク州、緊急事態を宣言-麻疹感染の急増で州知事が行政命令 (TBS CROSS DIG with Bloomberg) - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "ニューヨーク州、緊急事態を宣言-麻疹感染の急増で州知事が行政命令 (TBS CROSS DIG with Bloomberg) - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T21:32:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWkl5U0I3cGNWTVNGaE4tMXVoUm5TR0FHcDJjRzJEbjM4RUFuMUlZOXBZQWMzNUZ2SHVnaFlZWERFQnRteUI4RlR5eWotVjkzVDhYX05kdzRVZTY2RU1nQzU5ZlRtZjYwT0NQVnl3WVNnamdQaVhuMnpCd3BhRXN0RnF6WFNCSUsxUDk0RzJR?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Tuberculosis",
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
+    },
+    {
+      "articleId": "gnews_5d7103cb98217615",
+      "headline": "ニューヨーク州、緊急事態を宣言−麻疹感染の急増で州知事が行政命令 - ｄメニューニュース",
+      "headlineTranslated": "",
+      "headlineJa": "ニューヨーク州、緊急事態を宣言−麻疹感染の急増で州知事が行政命令 - ｄメニューニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T21:12:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ncFplYmpOTE5ncEFucWJLX01FZW5ERmttWVdhU0dGY1l4M3N0RlN6eGU4bDdKTFFQTDRLV2UyMVBQc3k5UkpVRnRmUi0xY3U4UVNMUEIzY2xuU3JxaVdJSmNVRnc1WFBvUGJzRWVDU3RWWk5wdnVTQlJPakMzLXPSAX9BVV95cUxPZ3BaZWJqTkxOZ3BBbnFiS19NRWVuREZrbVlXYVNHRmNZeDNzdEZTenhlOGw3SkxRUEw0S1dlMjFQUHN5OVJKVUZ0ZlItMWN1OFFTTFBCM2NsblNycWlXSUpjVUZ3NVhQb1Bic0VlQ1N0VlpOcHZ1U0JST2pDMy1z?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "日本 (都道府県未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_deb912ace1c04118",
       "headline": "ニューヨーク州、緊急事態を宣言－麻疹感染の急増で州知事が行政命令 - Bloomberg.com",
       "headlineTranslated": "",
       "headlineJa": "ニューヨーク州、緊急事態を宣言－麻疹感染の急増で州知事が行政命令 - Bloomberg.com",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-05T21:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbDJOdjdzVFlpcXRlQ294Q2hrYjQ4QmN5YmJic0tpMGNneHRlYnpmdmVVOTFLc3o5c3FWWk4xYjNINDRnTFNXVWtQb3VDSGtwRy1DMC1kOERwZEdiZHY4Sjl4b0ZONmt3a091Z3NBRTlvZWR5UmpFcE4tUlN2NVg1dGp3WC1sZ0NDMUs0MnR3?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91ZG5OOG55RGg2cnRnZ01rVDJxUXdBR2gyZlpheUdMWnZ1a1ZWbTNteGdVZ3czSm50WHdTTk9rN1NHRkdUWFAyRVpVSERQcWNOT0FUX0pBb29YQy1pQnBuaDgzTmhrVEZGUUZnVXJBM3RKUzlDNktz?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "Measles"
@@ -58,6 +831,106 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Bloomberg.com"
+    },
+    {
+      "articleId": "gnews_b7ca1f7fd8f965e3",
+      "headline": "ロシア死亡女性、ペスト感染か - 福島民報デジタル",
+      "headlineTranslated": "",
+      "headlineJa": "ロシア死亡女性、ペスト感染か - 福島民報デジタル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T21:10:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0ySURqR2tPRVB2eWNJYy13VTRibF9HLW50TW1HbktKZGxaa1FNNXJXTGJ4NENVdVNrR2xqd3pTTzlmcHlGNlZQenNjOU9ZV1E?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "福島県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "福島民報デジタル"
+    },
+    {
+      "articleId": "gnews_4a08acaa176ce126",
+      "headline": "ロシア死亡女性、ペスト感染か - 京都新聞デジタル",
+      "headlineTranslated": "",
+      "headlineJa": "ロシア死亡女性、ペスト感染か - 京都新聞デジタル",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T21:10:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE50NlhRZkN4S2FmZU5aYjBadS1GUl9ubVhoU2xLWDlYa2FKbGE5U2h6YWstR1d0RFdXWHJMQWh0ZkxLV2N4MENzLTJSV2lVU2VZeGJiR3A4Smc?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "感染症 (未特定)"
+      ],
+      "locations": [],
+      "states": [
+        "京都府"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "京都新聞デジタル"
+    },
+    {
+      "articleId": "gnews_50958786243d337f",
+      "headline": "愛知県でインフルエンザが流行入り 統計開始以来過去2番目の早さ Serie A Tim (jkYzPBX8VS) - Unisba Media",
+      "headlineTranslated": "",
+      "headlineJa": "愛知県でインフルエンザが流行入り 統計開始以来過去2番目の早さ Serie A Tim (jkYzPBX8VS) - Unisba Media",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T21:05:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xNzF2NkJ3TjNqSjdaTzFaMTBDRnd3T01sX0o0ZzhKamF4Q29UamVzQ2czUFQwa0dZM3FuNHpNV3c2QnVIaVMzcVlWWFlocDBSV3VOR1U3X1hBdGZ3SEJBX1NNejJPZTRCLXpJ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "愛知県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Unisba Media"
+    },
+    {
+      "articleId": "gnews_d07d68f13a532288",
+      "headline": "早くもインフルエンザ流行期となった静岡県 県内医療機関の現状と感染対策は（静岡） Jake Laravia (nyn1hdguBt) - Unisba Media",
+      "headlineTranslated": "",
+      "headlineJa": "早くもインフルエンザ流行期となった静岡県 県内医療機関の現状と感染対策は（静岡） Jake Laravia (nyn1hdguBt) - Unisba Media",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T20:55:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sRVIzQ0FDS0JRb3lsUXpZQUwzZ2hBazgybFdua3IxV3YtakhwaXpWWHpiUFFZclpCazFfSW9TZjBWOXByUGlRaHVKVlhpT2NULXpvYnR5N1RGd3lheTZRT2lxa2tuSGhIZmZaOQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "静岡県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Unisba Media"
+    },
+    {
+      "articleId": "gnews_7b33be12e02f3349",
+      "headline": "レジオネラ菌で集団感染か_名寄保健所管内などで21人が体調不良を訴え_患者からレジオネラ菌検出_多くが市内の施設を利用するも感染場所はまだ特定できず_エアロゾルの吸引で感染_北海道 - UHB 北海道文化放送",
+      "headlineTranslated": "",
+      "headlineJa": "レジオネラ菌で集団感染か_名寄保健所管内などで21人が体調不良を訴え_患者からレジオネラ菌検出_多くが市内の施設を利用するも感染場所はまだ特定できず_エアロゾルの吸引で感染_北海道 - UHB 北海道文化放送",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T19:29:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1fUGNreXVWaW1TN1RPMkZJRXZQUUdPb1phSzVhaXFnMENDZzdONzRYekp2aTc2WUxLRmFLdC0zdmZ1Ymw2UjhkeVY1UXVqOHFiNExGdVJ5RQ?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Legionella"
+      ],
+      "locations": [],
+      "states": [
+        "北海道"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "UHB 北海道文化放送"
     },
     {
       "articleId": "gnews_83a20785c9d02066",
@@ -80,45 +953,46 @@
       "sourceName": "47NEWS"
     },
     {
-      "articleId": "gnews_77e869298a03b279",
-      "headline": "【Yahoo!ほけん】「LINE」から加入できる「インフルエンザお見舞い金」を早期流行に備え、10月5日より提供開始 - ニコニコニュース",
+      "articleId": "gnews_03b6183b95af541c",
+      "headline": "鶏卵高騰「エッグショック」懸念 #日本語 #聴力 #Yahoo #ニュース #勉強 #字幕 #鳥インフルエンザ #養鶏場 #鶏卵価格 #エッグショック #農水省 #殺処分 #感染拡大 #供給問題 Dahlin (YM45BgspSx) - Unisba Media",
       "headlineTranslated": "",
-      "headlineJa": "【Yahoo!ほけん】「LINE」から加入できる「インフルエンザお見舞い金」を早期流行に備え、10月5日より提供開始 - ニコニコニュース",
+      "headlineJa": "鶏卵高騰「エッグショック」懸念 #日本語 #聴力 #Yahoo #ニュース #勉強 #字幕 #鳥インフルエンザ #養鶏場 #鶏卵価格 #エッグショック #農水省 #殺処分 #感染拡大 #供給問題 Dahlin (YM45BgspSx) - Unisba Media",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T12:15:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGTWhQa0VYR3EwMVYxLUNxSUJCSUNtNzZzRWJRYXhhb1V6TnhKb1pHTUVha1hLLVpsOXNJUVNpMVUzR2hTZE1iRGlyQW5XejVYdEc1ZzZXU3puMmU1OUppZjdNWXFueFNP?oc=5",
+      "publishedTimestamp": "2026-10-05T12:54:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS1JNVWZ5YUdyYmRwWXduTmlLeWpLT2g0aGFITXRvR2t0QjZhc2MwZjhKQWF0bV9DZm9sdl9LZTBHclZqMF9yTzMzNGZIUWdfRXRVMUY4VE9hUEJjZWRmeTRWNVIzNXJDX3ZqZm1lTnVwaFlLazMxb19WM0gydEFjRlNR?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "ニコニコニュース"
+      "sourceName": "Unisba Media"
     },
     {
-      "articleId": "gnews_504daec6500adb06",
-      "headline": "札幌市の学校でインフルエンザ猛威 すでに46校で学級・学年閉鎖 過去10年で最も早い流行入り - HTB 北海道テレビ",
+      "articleId": "gnews_8fae2a30122c930e",
+      "headline": "札幌市の学校でインフルエンザ猛威 すでに46校で学級・学年閉鎖 過去10年で最も早い流行入り（HTB北海道ニュース） - Yahoo!ニュース",
       "headlineTranslated": "",
-      "headlineJa": "札幌市の学校でインフルエンザ猛威 すでに46校で学級・学年閉鎖 過去10年で最も早い流行入り - HTB 北海道テレビ",
+      "headlineJa": "札幌市の学校でインフルエンザ猛威 すでに46校で学級・学年閉鎖 過去10年で最も早い流行入り（HTB北海道ニュース） - Yahoo!ニュース",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T09:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jRUJHZHB5VVVYeEdmMHF2NjliNEZSc2ZrLXByODdjQjFqbFRRZTRLdnRSaFRWcXNrZW1QUlVUMGdBNDlVNWpUaE52aTRoOHhUWGJVM0dtZndzQQ?oc=5",
+      "publishedTimestamp": "2026-10-05T09:43:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iTzZFOFA3bnllZE9BNDJBREx3REllRENEamJTblFIZ2VjUjk1RFJyX2lwMnhpaVRleFZkYjVmT2tXRVBJYmNYSXlvVFNRdUFJbHNIMVZmbWpZMEFzeEFLU2pQTUZkXy1nSkVRaE1VbHV6VDBPWjExTndpUzdxLU0?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Tuberculosis",
-        "Influenza"
+        "Influenza",
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
         "北海道"
       ],
       "dataSource": "Google News",
-      "sourceName": "HTB 北海道テレビ"
+      "sourceName": "Yahoo!ニュース"
     },
     {
       "articleId": "gnews_9770898625b12e3b",
@@ -162,10 +1036,10 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_b6f16c5b53343047",
-      "headline": "日野郡の社会福祉施設で新型コロナなど 鳥取県内集団感染 - nnn.co.jp",
+      "articleId": "gnews_0f8be57f5aac072c",
+      "headline": "日野郡の社会福祉施設で新型コロナなど 鳥取県内集団感染 - 日本海新聞",
       "headlineTranslated": "",
-      "headlineJa": "日野郡の社会福祉施設で新型コロナなど 鳥取県内集団感染 - nnn.co.jp",
+      "headlineJa": "日野郡の社会福祉施設で新型コロナなど 鳥取県内集団感染 - 日本海新聞",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-05T08:34:00+00:00",
@@ -179,7 +1053,7 @@
         "鳥取県"
       ],
       "dataSource": "Google News",
-      "sourceName": "nnn.co.jp"
+      "sourceName": "日本海新聞"
     },
     {
       "articleId": "gnews_b3c077702a578c45",
@@ -200,46 +1074,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Vietnam.vn"
-    },
-    {
-      "articleId": "gnews_30cc14a7e3e16775",
-      "headline": "40代男性がベロ毒素産生性「腸管出血性大腸菌O26」に感染...既に感染していた小学生男児の接触者として検査し判明（岡山） - Yahoo!ニュース",
-      "headlineTranslated": "",
-      "headlineJa": "40代男性がベロ毒素産生性「腸管出血性大腸菌O26」に感染...既に感染していた小学生男児の接触者として検査し判明（岡山） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T07:25:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5VDUzWFEtVEx3aGhIWE1yV2FWSnNTV0xCX2puZlI5dEhkR2pJZE9oSXJDN0Q2OUE1a242ZzhROWdUN2tERFFDRXNaclIxX3J2SWJ6dVlER3JYNERseVRfaUhiX1ZSUGJJQlg3eTEzZWN4anB6M1lHUzBWR0phMHM?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "E. coli"
-      ],
-      "locations": [],
-      "states": [
-        "岡山県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_c5161690a2bb9112",
-      "headline": "コロナワクチン接種による被害を3件認定 - 厚労省の予防接種審査分科会（医療介護ＣＢニュース） - Yahoo!ニュース",
-      "headlineTranslated": "",
-      "headlineJa": "コロナワクチン接種による被害を3件認定 - 厚労省の予防接種審査分科会（医療介護ＣＢニュース） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T07:25:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIbUVGTTFOc1ZUcl9DRXhPYXJ5LS1mbEJQZUM5eHJKRHZNVV9WMWRQeE4yQ3dWNlB2N1JYclZzbnNGYzl6SVdwUzE4cHZMako5alJNZUNTanFQQURtaWxDXzNPUW91ZXVZYnltNFBWS0ZLa2h2TU5RX0JnODNFSUk?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
     },
     {
       "articleId": "gnews_a1bef9d490ac7ba2",
@@ -282,14 +1116,14 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_ae13f4c292550d88",
-      "headline": "HIVや性感染症の検査キットを“自宅送付” 福岡市が新たにスタート 費用は無料 検体を郵送しウェブで結果確認 - FNNプライムオンライン",
+      "articleId": "gnews_d5e3b66c89c63ad7",
+      "headline": "HIVや性感染症の検査キットを“自宅送付” 福岡市が新たにスタート 費用は無料 検体を郵送しウェブで結果確認 - 福岡TNCニュース",
       "headlineTranslated": "",
-      "headlineJa": "HIVや性感染症の検査キットを“自宅送付” 福岡市が新たにスタート 費用は無料 検体を郵送しウェブで結果確認 - FNNプライムオンライン",
+      "headlineJa": "HIVや性感染症の検査キットを“自宅送付” 福岡市が新たにスタート 費用は無料 検体を郵送しウェブで結果確認 - 福岡TNCニュース",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-05T05:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBYWFmd3BKMWRha09FNEhZVFZpYm9vYlZyaDBfWWNHbngxam9pNXMtY3BaRmt0OTlWWGduM0gtNk9EMnJPRUZKbzZNQ1lQZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UMzZfTDdqRGhyZlRfSjdxcURQTE9rcjRRN3lhMkZqVXo3R2wtOHB1b1RxTlktVTJSOF9TUjRLcW1ZMjQyRFREN0FPOFZLOEVsMG9LNDhPZ2lBNVdjN1UwNTlrVQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "HIV/AIDS"
@@ -299,17 +1133,17 @@
         "福岡県"
       ],
       "dataSource": "Google News",
-      "sourceName": "FNNプライムオンライン"
+      "sourceName": "福岡TNCニュース"
     },
     {
-      "articleId": "gnews_821057ec75d87dab",
-      "headline": "過去最速！PayPayほけん、「インフルエンザお見舞い金」を10月5日から提供 - PayPay株式会社",
+      "articleId": "gnews_57822bf4c1f43625",
+      "headline": "【Yahoo!ほけん】「LINE」から加入できる「インフルエンザお見舞い金」を早期流行に備え、10月5日より提供開始 - PR TIMES",
       "headlineTranslated": "",
-      "headlineJa": "過去最速！PayPayほけん、「インフルエンザお見舞い金」を10月5日から提供 - PayPay株式会社",
+      "headlineJa": "【Yahoo!ほけん】「LINE」から加入できる「インフルエンザお見舞い金」を早期流行に備え、10月5日より提供開始 - PR TIMES",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T04:52:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16d0s4T0lZUjNJOGhISGlKZEdOSDNmZ0hNMlBkcGtQd2E0Z3NsWmFIQWY0NHhNYUVUVExVQkFJVXRvcEsyR2ptOVo2ZG5wMWZHSUhnNg?oc=5",
+      "publishedTimestamp": "2026-10-05T04:15:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41VTJqdjhNci1Ga3BQZ3JFWXJCelhtanpmbEIwSG1NMzJfeklzVHdoY1NGQWw4ZmJkWUZrRWMwXzNWUnlzVTllYkxIRGtPY0R6NE0wNngyWDhSY0k2dy1zNEU3U040MjZIY3c?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "Influenza"
@@ -319,13 +1153,13 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "PayPay株式会社"
+      "sourceName": "PR TIMES"
     },
     {
-      "articleId": "gnews_a8c9496df7d9eeb1",
-      "headline": "将来の感染症危機時における日米連携を確認するための机上訓練を実施 - mhlw.go.jp",
+      "articleId": "gnews_0d3864b6722ddfb0",
+      "headline": "将来の感染症危機時における日米連携を確認するための机上訓練を実施 - 厚生労働省",
       "headlineTranslated": "",
-      "headlineJa": "将来の感染症危機時における日米連携を確認するための机上訓練を実施 - mhlw.go.jp",
+      "headlineJa": "将来の感染症危機時における日米連携を確認するための机上訓練を実施 - 厚生労働省",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-05T04:10:43+00:00",
@@ -339,7 +1173,7 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "mhlw.go.jp"
+      "sourceName": "厚生労働省"
     },
     {
       "articleId": "gnews_14053e5655755e9c",
@@ -362,26 +1196,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_c94f7cfbd6e941fb",
-      "headline": "BDファイター、「冷やし蟹ラーメン」こめお食中毒騒動に持論 「僻んでる雑魚がそろそろ黙れよ」 - J-CAST ニュース",
-      "headlineTranslated": "",
-      "headlineJa": "BDファイター、「冷やし蟹ラーメン」こめお食中毒騒動に持論 「僻んでる雑魚がそろそろ黙れよ」 - J-CAST ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T03:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5KUXlyczd2aG1nY0E1RV9hQzQ5OGpEbFU3OG9odzY0M3dkeXg4a0xBTk43R0U0bjlsRE1kWnVHZlVRNDM1cXVqWklNbXg0SGdmOEN1cEVLQQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Food Poisoning"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "J-CAST ニュース"
-    },
-    {
       "articleId": "gnews_d0cc8c4505ebc819",
       "headline": "神奈川県がインフルエンザの流行注意報発令。例年より早期化の傾向が顕著に〈南足柄市・大井町・松田町・山北町・開成町〉 - ｄメニューニュース",
       "headlineTranslated": "",
@@ -400,6 +1214,26 @@
       ],
       "dataSource": "Google News",
       "sourceName": "ｄメニューニュース"
+    },
+    {
+      "articleId": "gnews_6d2892a97392728c",
+      "headline": "沖縄のクリニック「連日ドタバタ。電話取れないことも」 インフルエンザ患者が急増 専門家「しばらく流行続く」 - 沖縄タイムス社",
+      "headlineTranslated": "",
+      "headlineJa": "沖縄のクリニック「連日ドタバタ。電話取れないことも」 インフルエンザ患者が急増 専門家「しばらく流行続く」 - 沖縄タイムス社",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-05T01:26:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMUjl0cFc4S21FOEFtemtxcV95dHQ3WHZpOGRFMmJHNDBFZ2VmNFQtQTNpNlU3TDVxMUZnb1ducG92Ukp3NDVZOGVNTVp1TWlrR19yZlI2X3hCdlhqblE?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "沖縄県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "沖縄タイムス社"
     },
     {
       "articleId": "gnews_e3699d76dbf0d15d",
@@ -422,10 +1256,10 @@
       "sourceName": "47NEWS"
     },
     {
-      "articleId": "gnews_5efd69a366a8f47a",
-      "headline": "コロナ定点、1.25に減 9月21～27日 | 日刊薬業 - 医薬品産業の総合情報サイト - nk.jiho.jp",
+      "articleId": "gnews_4c4e43ef340cb7b0",
+      "headline": "コロナ定点、1.25に減 9月21～27日 | 日刊薬業 - 医薬品産業の総合情報サイト - 日刊薬業",
       "headlineTranslated": "",
-      "headlineJa": "コロナ定点、1.25に減 9月21～27日 | 日刊薬業 - 医薬品産業の総合情報サイト - nk.jiho.jp",
+      "headlineJa": "コロナ定点、1.25に減 9月21～27日 | 日刊薬業 - 医薬品産業の総合情報サイト - 日刊薬業",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-05T01:11:06+00:00",
@@ -439,7 +1273,7 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "nk.jiho.jp"
+      "sourceName": "日刊薬業"
     },
     {
       "articleId": "gnews_6092f6065bc1eaab",
@@ -462,8 +1296,8 @@
       "sourceName": "47NEWS"
     },
     {
-      "articleId": "gnews_7ed5523f4f9df6eb",
-      "headline": "Flu spreads in quake-hit Kumamoto as Japan sees early outbreak - japantimes.co.jp",
+      "articleId": "gnews_546c282812ca73d1",
+      "headline": "Flu spreads in quake-hit Kumamoto as Japan sees early outbreak - The Japan Times",
       "headlineTranslated": "",
       "headlineJa": "",
       "summary": "",
@@ -472,35 +1306,55 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObmFrQ29UeXZsS2NCclpYbDc2bTdPYTdaNV9GUDZVbEdyaUF6UDBZNXlfal9UdHQzYUtGTEhnNnk3WEpCQnZyMmV6aU1zVUNBY2tiVTRrS0kyRlBKSXpERUkzcUhoSWtoWlpyU2g4Nk1GOWhSWHEtY1JPVXhBREFCWE80MVlFUU1yNXMwaDV5TTA?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Tuberculosis",
-        "Influenza"
+        "Influenza",
+        "Tuberculosis"
       ],
       "locations": [],
       "states": [
         "熊本県"
       ],
       "dataSource": "Google News",
-      "sourceName": "japantimes.co.jp"
+      "sourceName": "The Japan Times"
     },
     {
-      "articleId": "gnews_b45e1a13d151b34c",
-      "headline": "インフル注意（9月21～27日） - iwate-np.co.jp",
+      "articleId": "gnews_2e884d5445f13599",
+      "headline": "岡山・鹿田小で感染性胃腸炎 ２年生２０人が嘔吐や下痢 - 山陽新聞",
       "headlineTranslated": "",
-      "headlineJa": "インフル注意（9月21～27日） - iwate-np.co.jp",
+      "headlineJa": "岡山・鹿田小で感染性胃腸炎 ２年生２０人が嘔吐や下痢 - 山陽新聞",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T00:42:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QNlF3c1FkSy1LRExRbFJPN1hWS1lDYXdQa3UyV240Q21fMURMb194bzZmQkduSkxRUENFZ3lUM3AzNGRVNm1qQnVvdXdRZUVlbDRyMzY4ZWRZNENYVThTWA?oc=5",
+      "publishedTimestamp": "2026-10-05T00:15:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KU3RhM3FjajBoMEQ0aV9QaTljblZHWnVtWjdxWlRsNTQtSl9laTI5TWc5VXZpSi1aVWhycGlMV18yWF9ZZTFnRDlnNXBndHFoRWlJ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
         "感染症 (未特定)"
       ],
       "locations": [],
       "states": [
-        "岩手県"
+        "岡山県"
       ],
       "dataSource": "Google News",
-      "sourceName": "iwate-np.co.jp"
+      "sourceName": "山陽新聞"
+    },
+    {
+      "articleId": "gnews_0c3a93671e8432d4",
+      "headline": "感染広がるインフルエンザの注意点は？ 広島市も「流行入り」発表 Pizza Salvatoré (u5z5ktifEn) - Unisba Media",
+      "headlineTranslated": "",
+      "headlineJa": "感染広がるインフルエンザの注意点は？ 広島市も「流行入り」発表 Pizza Salvatoré (u5z5ktifEn) - Unisba Media",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-04T23:46:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYSUtuWkpCV01sZ0tra3Fvd0lUd29SNXZOTW42Rm5FM3QxdGpyallSdi1GYk41V2w0RGlmajRPeXZvTTI5bTA1Yi1tR0ZSMzB1ZHBqMW04SXFlSDBicTloNzRPTjZ3RjBmbEFrbA?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "広島県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Unisba Media"
     },
     {
       "articleId": "gnews_719d0c2a4e6fbed0",
@@ -543,24 +1397,24 @@
       "sourceName": "福井新聞社"
     },
     {
-      "articleId": "gnews_164d9ef132cde8ff",
-      "headline": "福岡市役所 - ［福岡県］HIVや性感染症 検査キット自宅へ 福岡市が送付 - 写真・画像(1/2) - 西日本新聞me",
+      "articleId": "gnews_3e4e8ec0d238b790",
+      "headline": "【相模原市中央区】インフルエンザの流行が始まっています。これからの時期に向けて感染対策を。 - 号外NET 相模原市中央区",
       "headlineTranslated": "",
-      "headlineJa": "福岡市役所 - ［福岡県］HIVや性感染症 検査キット自宅へ 福岡市が送付 - 写真・画像(1/2) - 西日本新聞me",
+      "headlineJa": "【相模原市中央区】インフルエンザの流行が始まっています。これからの時期に向けて感染対策を。 - 号外NET 相模原市中央区",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T21:42:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WRDFJaHZ5RE41Y1loemdqRTBYRGNxQUJPRkRqbkxEUEgzeXJOUm9Fcm9KTmtNc2pRcFFiUFhYd1l6R1VwYnVsOG9iWTNTRXJhVm9PaGxabw?oc=5",
+      "publishedTimestamp": "2026-10-04T22:07:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qX0FnY3hMM3BpWlVKZFJaMTFOZzRIY3QwV3k5ZTZNUVM4N3NtbFlzcUhac3FMT2tycVdXLXBkRHdHS3M5WlJCUXNLTzVMUWlrd3N3ZXU3aG1OamFJajFhVEUyeHUxa2dIT0E?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "HIV/AIDS"
+        "Influenza"
       ],
       "locations": [],
       "states": [
-        "福岡県"
+        "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "西日本新聞me"
+      "sourceName": "号外NET 相模原市中央区"
     },
     {
       "articleId": "gnews_6395f46c8fd3d393",
@@ -603,26 +1457,6 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_c56ebc8b7c4a8756",
-      "headline": "感染広がるインフルエンザの注意点は？ 広島市も「流行入り」発表 Pizza Salvatoré (5z5ktifEng) - Unisba Media",
-      "headlineTranslated": "",
-      "headlineJa": "感染広がるインフルエンザの注意点は？ 広島市も「流行入り」発表 Pizza Salvatoré (5z5ktifEng) - Unisba Media",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T11:36:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSHEyd3B3Tk1mX3NVaXNqU3M0dmxlSFFfY1JIMWRYb0tQSkxwN2hLeUJmU1R5cXdsWWg2VGNSdHJrX3FRSHd2ZDNPNnZIMWlTcTlMWXJPWDJZTVFPZWV6UTlqWUVCVkZmSGlGRm5WTHhsV1lRSFFKTDhhSDB6NTlTLWU3eXJiRW8?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "広島県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Unisba Media"
-    },
-    {
       "articleId": "gnews_c6d323ca3630a9c0",
       "headline": "インフルエンザ患者数 前週の１．４倍に 秋田県内すでに流行期に （秋田朝日放送） - Yahoo!ニュース",
       "headlineTranslated": "",
@@ -643,10 +1477,10 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_df49302f070ddd23",
-      "headline": "市川の女性はしか感染 患者と接触なし JR総武線、市内のスーパーなど利用 - article.auone.jp",
+      "articleId": "gnews_1648fde34f312c50",
+      "headline": "市川の女性はしか感染 患者と接触なし JR総武線、市内のスーパーなど利用 - au Webポータル",
       "headlineTranslated": "",
-      "headlineJa": "市川の女性はしか感染 患者と接触なし JR総武線、市内のスーパーなど利用 - article.auone.jp",
+      "headlineJa": "市川の女性はしか感染 患者と接触なし JR総武線、市内のスーパーなど利用 - au Webポータル",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-04T10:00:00+00:00",
@@ -660,28 +1494,48 @@
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "article.auone.jp"
+      "sourceName": "au Webポータル"
     },
     {
-      "articleId": "gnews_c0750621fe94d93b",
-      "headline": "流行期の冬場を前に「鳥インフルエンザ」防疫訓練 県や町村職員などが実地で対応手順確認（鳥取・日南町） - FNNプライムオンライン",
+      "articleId": "gnews_a919b88c7a42ff26",
+      "headline": "流行期の冬場を前に「鳥インフルエンザ」防疫訓練 県や町村職員などが実地で対応手順確認（鳥取・日南町）(放送局のニュース ) - tenki.jp",
       "headlineTranslated": "",
-      "headlineJa": "流行期の冬場を前に「鳥インフルエンザ」防疫訓練 県や町村職員などが実地で対応手順確認（鳥取・日南町） - FNNプライムオンライン",
+      "headlineJa": "流行期の冬場を前に「鳥インフルエンザ」防疫訓練 県や町村職員などが実地で対応手順確認（鳥取・日南町）(放送局のニュース ) - tenki.jp",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T09:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TUEEycDY5M2otTy1lOGczNngzZDdVOFF4akRIdXJrZmdRZnpuaU1LX3MwbDJ3UlhORGpFNDRoY2xHLXo2M0d6OGQwQnpYQQ?oc=5",
+      "publishedTimestamp": "2026-10-04T09:10:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84cG5TcDhuWVBGWmpsY2lXNl9vTGZKa1FKakZzeUhSRjkzNklBb3YxSEsxd2cySW5fT3FsY2lwZ25GX0hwNVV6bTVnV2pyMTh0NkZtcnFGWWRyZ2pxT1JRSzZJdTVfX0lOQTlnUmNFYzhtRWdMelE?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
         "鳥取県"
       ],
       "dataSource": "Google News",
-      "sourceName": "FNNプライムオンライン"
+      "sourceName": "tenki.jp"
+    },
+    {
+      "articleId": "gnews_7ffc1be830817cf2",
+      "headline": "香川県内のインフルエンザ患者数 1医療機関当たり「3.09人」 小豆地区では「11.50人」で全国平均大きく上回る - Yahoo!ニュース",
+      "headlineTranslated": "",
+      "headlineJa": "香川県内のインフルエンザ患者数 1医療機関当たり「3.09人」 小豆地区では「11.50人」で全国平均大きく上回る - Yahoo!ニュース",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-04T07:58:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KWTJhdl9abGRKdDg0UmZQVVhmTUcyNnBxV0tJQlZ3VXRhal90SWRqUENRVkVuS2Y5dkctcFgyelY2N25tUEl6elFaUUcwb0l0cV9veFFjeFlEX0VuRUZwcVl5TnpEVHRobTBTdEV6bmw3U2dKNll0cXprMElGNDg?oc=5",
+      "originalLanguage": "JAPANESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "香川県"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yahoo!ニュース"
     },
     {
       "articleId": "gnews_848c298f095d003c",
@@ -724,30 +1578,30 @@
       "sourceName": "Unisba Media"
     },
     {
-      "articleId": "gnews_adcbeb2f1e4eb303",
-      "headline": "インフルエンザ感染や重症化リスク減らすワクチン 専門医「検討して」 高齢者や基礎疾患もつ人や介護者 - 47NEWS",
+      "articleId": "gnews_5ea200d03aee09da",
+      "headline": "秋には、5種類のウイルスが流行しやすくなるため、その予防策をご紹介します。 - Vietnam.vn",
       "headlineTranslated": "",
-      "headlineJa": "インフルエンザ感染や重症化リスク減らすワクチン 専門医「検討して」 高齢者や基礎疾患もつ人や介護者 - 47NEWS",
+      "headlineJa": "秋には、5種類のウイルスが流行しやすくなるため、その予防策をご紹介します。 - Vietnam.vn",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T23:50:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5IQ0laTm5rWEcwVXNFRW5UbXhhVUlkWmxpbUFPSzJDM21JS05iYmg2b09CTklhTk9qUGZhMkxSejg4OEVWOHREMnprRQ?oc=5",
+      "publishedTimestamp": "2026-10-04T01:40:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY1pubWY0TW5iSEg4dkVQaEh3TUcxNHE0RVhsRjUwNC1pRWdvNUlUSmcyN3JYNFd6eTJVX04ta193a3ZBSDVyX1I1cTM0TC1pZzh1ZFpIVi1HMXdBWE83UVZ3aUdLT3hkM0JNUHBNWngzOG9OVlprWHJlcDE1N2lQaUR3?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "Influenza"
+        "感染症 (未特定)"
       ],
       "locations": [],
       "states": [
         "日本 (都道府県未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "47NEWS"
+      "sourceName": "Vietnam.vn"
     },
     {
-      "articleId": "gnews_9a889f7c08ecde0d",
-      "headline": "インフルエンザ感染や重症化リスク減らすワクチン 専門医「検討して」 高齢者や基礎疾患もつ人や介護者 - okinawatimes.co.jp",
+      "articleId": "gnews_9a49c60430c67246",
+      "headline": "インフルエンザ感染や重症化リスク減らすワクチン 専門医「検討して」 高齢者や基礎疾患もつ人や介護者 - 沖縄タイムス社",
       "headlineTranslated": "",
-      "headlineJa": "インフルエンザ感染や重症化リスク減らすワクチン 専門医「検討して」 高齢者や基礎疾患もつ人や介護者 - okinawatimes.co.jp",
+      "headlineJa": "インフルエンザ感染や重症化リスク減らすワクチン 専門医「検討して」 高齢者や基礎疾患もつ人や介護者 - 沖縄タイムス社",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-03T23:50:00+00:00",
@@ -761,7 +1615,7 @@
         "沖縄県"
       ],
       "dataSource": "Google News",
-      "sourceName": "okinawatimes.co.jp"
+      "sourceName": "沖縄タイムス社"
     },
     {
       "articleId": "gnews_2b3c1685aeb2e441",
@@ -784,246 +1638,24 @@
       "sourceName": "Yahoo!ニュース"
     },
     {
-      "articleId": "gnews_afa1049c64dcc549",
-      "headline": "手足口病、千葉県内でも流行 飛沫・接触感染「注意を」 - 千葉日報オンライン",
+      "articleId": "gnews_937f71bb42abe914",
+      "headline": "【千葉・九十九里】爆発や感染症のリスクも！強烈な腐敗臭…漂着した「17m巨大ナガスクジラ」現場撮 - FRIDAYデジタル",
       "headlineTranslated": "",
-      "headlineJa": "手足口病、千葉県内でも流行 飛沫・接触感染「注意を」 - 千葉日報オンライン",
+      "headlineJa": "【千葉・九十九里】爆発や感染症のリスクも！強烈な腐敗臭…漂着した「17m巨大ナガスクジラ」現場撮 - FRIDAYデジタル",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T08:12:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xMzUwcHp2cDlKMVEtckNXbVdVUUtxMFNpRThvbVZHN092OUtHY1VnclRQbTZDLTZQMkhGRjEydzg0aE5TenRiMW1FaGE4eUFyQlpzRzFYTQ?oc=5",
+      "publishedTimestamp": "2026-10-03T22:00:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBkSE1NMlZwTEc2S0NfZWxoWF9tdC1KSGg0dGhVdGdoOVZwdjhQdGFLSjV5Z1dLOExqNm9ZM21IOGhqR0pNUDd6TUJ4X2RWWkZJdjBNekRXTQ?oc=5",
       "originalLanguage": "JAPANESE",
       "diseases": [
-        "HFMD"
+        "感染症 (未特定)"
       ],
       "locations": [],
       "states": [
         "千葉県"
       ],
       "dataSource": "Google News",
-      "sourceName": "千葉日報オンライン"
-    },
-    {
-      "articleId": "gnews_a4b9fe636403601b",
-      "headline": "避難生活「早めのワクチン接種を」 インフル流行で専門家―熊本地震 - 時事ドットコム",
-      "headlineTranslated": "",
-      "headlineJa": "避難生活「早めのワクチン接種を」 インフル流行で専門家―熊本地震 - 時事ドットコム",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T05:33:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JUGRsd0g4OUdxZ2FFZ2RPWTd6MXNsUm5LLWJWcHY0UkM1T0VDS0llU2VvQVFyTVRnMlU1ZXh4T1ZYbVN1MXNCcmZZSERFVm5DVGZDYXpsOEMwT1FjUHpNZTJIWQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "熊本県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "時事ドットコム"
-    },
-    {
-      "articleId": "gnews_5d7479ac4c634756",
-      "headline": "【産業医が解説】今冬はインフルの流行入りが異例の早さ！コロナとの同時流行に今すぐ備える、冬のウイルス複合感染について関谷剛先生が解説した動画を10月1日に公開！ - valuepress",
-      "headlineTranslated": "",
-      "headlineJa": "【産業医が解説】今冬はインフルの流行入りが異例の早さ！コロナとの同時流行に今すぐ備える、冬のウイルス複合感染について関谷剛先生が解説した動画を10月1日に公開！ - valuepress",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T04:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KWFR6b194WEVVNFgyM20zaTJwZThZcUNSNktHUkMwX0JtNTVPdC1jNnVINURUTTV3RmFhWE9kLXYybC1sLVlNMlB6WmlpV2gxVVcxVEl1eDhnNTg?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "valuepress"
-    },
-    {
-      "articleId": "gnews_6f5c89264cdecccc",
-      "headline": "結核「集団感染」発生、５０代男性が感染・搬送した消防と医療機関の６人も…府内では昨年１１７２人診断受ける - Yahoo!ニュース",
-      "headlineTranslated": "",
-      "headlineJa": "結核「集団感染」発生、５０代男性が感染・搬送した消防と医療機関の６人も…府内では昨年１１７２人診断受ける - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T03:45:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZzRmNlNmazZMT0Q3cUpVYTVrLXYzcm10TFRGQkNmcTBsTGpucHpFdFRsVGxsX1RtWUxLZ0RvTlFhWlpoVFNrcXM4WkRjOEdna1c5QU9pcGZFUVlaay1UUlBDWW1QYy10cW9IemxROUhtVjR5dHRhek5VUnhYamY0ME1zQkR3WTZzeHA0RVhn?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_54f6ab7a22c388f5",
-      "headline": "結核「集団感染」発生、５０代男性が感染・搬送した消防と医療機関の６人も…府内では昨年１１７２人診断受ける - 読売新聞",
-      "headlineTranslated": "",
-      "headlineJa": "結核「集団感染」発生、５０代男性が感染・搬送した消防と医療機関の６人も…府内では昨年１１７２人診断受ける - 読売新聞",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T03:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EVWt5aU9PbHoyV3p1ejdQLXYxTVdtaVRqZkNrbkhTVFAtWWw2TDhjbU5CdnNJc3Y5eC1zSk8xMUtfS1dfckxheTAtLTlhU1JkYzVROXZwRkt2MHhVVGhBaGg0WExtaUFxRnZwZFJqY2h1QQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "読売新聞"
-    },
-    {
-      "articleId": "gnews_5fd14afdc903bbc1",
-      "headline": "「BreakingDown」出演の料理人こめお、朝倉未来と設立した食品メーカー役員を退任 集団食中毒の「割烹こめを」は閉店 - Yahoo!ニュース",
-      "headlineTranslated": "",
-      "headlineJa": "「BreakingDown」出演の料理人こめお、朝倉未来と設立した食品メーカー役員を退任 集団食中毒の「割烹こめを」は閉店 - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-03T01:10:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wMk1IR1VqMndWLTNvQ0pQT1Q4SUVUVTF6T2VkZGwzRk93SnZRYTlJd1ZfMnU3ZFl1YmdqT1BLaXVibG1FZ0VSUVFWUHo1MVowb0hfVUJsdzhaTWFhdnBUZ24xWC0weDhZNTExMERneXV5OGV3Rkx3R3hvQUxJS0U?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Food Poisoning"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_e9c4724fb0e18c1f",
-      "headline": "オリックス 石川亮が国内FA権取得 現在登録抹消中も感染症特例と慶弔休暇特例が適用されるため（スポニチアネックス） - Yahoo!ニュース",
-      "headlineTranslated": "",
-      "headlineJa": "オリックス 石川亮が国内FA権取得 現在登録抹消中も感染症特例と慶弔休暇特例が適用されるため（スポニチアネックス） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T23:39:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUXhWQ0QxU19nczBFVl9RY3ZDZFBsczhlUW5wblRNN3k1RGtaTXUzSFUyUm94OGxBcFFNZnI0YkpZTHB1QXRpeDh5TWhkWDhCWlkyWUFidVh4bmxmZUFqSU9FdXVGUE82WGpldER3clVOVnMwYUFaa0s1TENSY1k?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "石川県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_82e83d7cdb990cab",
-      "headline": "北海道内でインフルエンザ感染拡大今年はB型が流行人流増える1月末から患者数が徐々に増加 Personal Injury Attorneys (Ssp2pVSM2W) - Unisba Media",
-      "headlineTranslated": "",
-      "headlineJa": "北海道内でインフルエンザ感染拡大今年はB型が流行人流増える1月末から患者数が徐々に増加 Personal Injury Attorneys (Ssp2pVSM2W) - Unisba Media",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T22:51:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeDRuMXZPek1UamlPWEEyNEx4LTRfdGg5X0VQNkVHRkVTQ1VWamJNZHBlWlZETWxsVkI0RVg3VHRodWlXX1NEa3lWWXZGT29RZUhNWVdHOVN3SDBfbXROamtkLXdmcFBibGExN3RIUEZwUl9NblVQemQxZi1FR1l6VU5pR0JmYXBKdXc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "北海道"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Unisba Media"
-    },
-    {
-      "articleId": "gnews_b5cfae30a086b7ad",
-      "headline": "新型コロナワクチン接種後 全身に痛みが “体内に電流流す機械”埋め込み痛み緩和 国は救済申請を「否認」（CBCテレビ） - Yahoo!ニュース",
-      "headlineTranslated": "",
-      "headlineJa": "新型コロナワクチン接種後 全身に痛みが “体内に電流流す機械”埋め込み痛み緩和 国は救済申請を「否認」（CBCテレビ） - Yahoo!ニュース",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T22:45:31+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1faGQxem13X2ViQjBCM3F3ZWdoTzZmdnUtVjJNWi1ObVJDNmd1YUUya0U0OHJMTVpOTUpRbkw0MXAwLXZmOWlOc1ZHNEhDTC0xcGphWVBWNjdhazZpV1QwbEpjby1KcllpVmx4eG1XbFNUT1IyM1dYRjU1ZmNpdjg?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yahoo!ニュース"
-    },
-    {
-      "articleId": "gnews_f3ff99a1b7d80b88",
-      "headline": "新型コロナワクチン接種後 全身に痛みが “体内に電流流す機械”埋め込み痛み緩和 国は救済申請を｢否認｣ - TBS NEWS DIG",
-      "headlineTranslated": "",
-      "headlineJa": "新型コロナワクチン接種後 全身に痛みが “体内に電流流す機械”埋め込み痛み緩和 国は救済申請を｢否認｣ - TBS NEWS DIG",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T22:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2S0dmdW9CLXcwZUNDajRtQU5OM1pkSVpYLTJsUXNrbXptUi1ocWVyejhSV1JQd2VKa1J5NlRtczhTWk9hS3JTazdUM3M4SUpkUFVBcDRkZU1NckxEeWpwRQ?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "COVID-19",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "日本 (都道府県未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TBS NEWS DIG"
-    },
-    {
-      "articleId": "gnews_bca646f663438344",
-      "headline": "【詳報】全国で流行する「手足口病」 青森県が三八地域に警報発表 すべての地域で患者増加 患者の増加は2週連続 こまめな手洗いや排せつ物の適切な処理の心がけを - TBS NEWS DIG",
-      "headlineTranslated": "",
-      "headlineJa": "【詳報】全国で流行する「手足口病」 青森県が三八地域に警報発表 すべての地域で患者増加 患者の増加は2週連続 こまめな手洗いや排せつ物の適切な処理の心がけを - TBS NEWS DIG",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T22:05:31+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xNmJPdUpveHl6Q0JjMDduczMycnA3Y3hqbVhVZXVkZ3BYZXBUSVhSeWdEZzdQTFE4VG85TVZxQjRxMVhEMEh6NHRUV1hjYmlSN3V0dWN6ZXJaVHNoU2U0?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "HFMD",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "青森県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TBS NEWS DIG"
-    },
-    {
-      "articleId": "gnews_d81997128555da5b",
-      "headline": "ピーマンへの感染は国内初 「ToCV」ウイルス、沖縄本島南部で確認 県が防除呼びかけ - okinawatimes.co.jp",
-      "headlineTranslated": "",
-      "headlineJa": "ピーマンへの感染は国内初 「ToCV」ウイルス、沖縄本島南部で確認 県が防除呼びかけ - okinawatimes.co.jp",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-02T21:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLRTQyWjlXQWRQV01ZZ0xMMmNadXJkWEJfTnNFUmlRQkx3RXcxclAwc21XOW5FUlN1OUphd3FoWDhGd0lFVjM0UkIwOGh0VTl6bThQWkt4SUVvQmQzZmc?oc=5",
-      "originalLanguage": "JAPANESE",
-      "diseases": [
-        "感染症 (未特定)"
-      ],
-      "locations": [],
-      "states": [
-        "沖縄県"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "okinawatimes.co.jp"
+      "sourceName": "FRIDAYデジタル"
     }
   ]
 }
