@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-06T21:21:48.940741+00:00",
+  "generated_at": "2026-10-07T21:22:53.295423+00:00",
   "date_range": {
-    "start": "2026-10-03T21:21:48.940741+00:00",
-    "end": "2026-10-06T21:21:48.940741+00:00"
+    "start": "2026-10-04T21:22:53.295423+00:00",
+    "end": "2026-10-07T21:22:53.295423+00:00"
   },
-  "total_articles": 78,
+  "total_articles": 93,
   "retrieval_status": "ok",
   "retrieval_queries": {
     "requested": 37,
@@ -12,29 +12,91 @@
     "failed": 0
   },
   "state_summary": {
-    "中国 (省未特定)": 69,
-    "香港特别行政区": 2,
-    "台湾省": 3,
-    "安徽省": 1,
+    "中国 (省未特定)": 83,
+    "北京市": 3,
+    "澳门特别行政区": 2,
+    "内蒙古自治区": 1,
+    "福建省": 1,
+    "香港特别行政区": 1,
     "新疆维吾尔自治区": 1,
-    "北京市": 1,
     "西藏自治区": 1
   },
   "disease_summary": {
-    "Infectious disease (unspecified)": 69,
-    "Plague": 7,
+    "Infectious disease (unspecified)": 66,
+    "Ebola": 1,
+    "Plague": 20,
+    "Rabies": 1,
+    "Influenza": 1,
     "MERS": 1,
+    "Measles": 2,
     "Brucellosis": 1
   },
   "articles": [
     {
-      "articleId": "gnews_b0bcf9f2de715970",
-      "headline": "Brunei players compete in China tournament - Borneo Bulletin",
+      "articleId": "gnews_4fd6489b2aa74ecc",
+      "headline": "俄現「不明肺炎」 中國民眾恐慌 各種推測滿天飛 - 新唐人電視台",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T20:03:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZWTRiZ3ZWZE5QWnRaY09QdWZKSDZOaWc1MFdTUVhoZ29BR1RPMW5mNjkxT3hQWGUzcnNLR3F3ZVVPcTd6bTBqbFdSNW9JVncyY3RqRExSUTRQRXJtenQ4dTZBaWRPMXRodXNKZEVFWlVlV05BQjFCU2FITVVPdw?oc=5",
+      "publishedTimestamp": "2026-10-07T21:10:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CV1d3ZHZLOHdMT2JEb3hIX0FkQXlQRDltVm9pU3lSXzRuVWpWdkp2MUZYR2l2TElkcGdFR2JfX0dFODJsYXVjRzZrSEIydndjZnpvaHMzNnFRbkh1X0RKadIBZkFVX3lxTE9VR0s5QUdKZjRnR1BZQjU2TEY2YVkwbjRqb2VHS09HYjQtYjB0VkJyYXpySlJaUzZnUmlMdlZCakdIeUY3aklkWk5uMTJxbGhicVhaVVUwWE00SlpUbF8xZnJWS2c0Zw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新唐人電視台"
+    },
+    {
+      "articleId": "gnews_948c13499d6b6639",
+      "headline": "中国拟推人参选世卫秘书长 填补美退出后影响空窗 - 文学城",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T19:58:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xSjNzY3NqSkVEbTNQc1JidHVvcjVMbUdPampUWWc1TzlZblVOVjZodDJHb2tuc1hUbUlZTmFZV1kxYlhRRVlWWjRXMzY1TFZDaDAya0FkdUtjdkxhZVUzSTJXTFZUYU8t?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "文学城"
+    },
+    {
+      "articleId": "gnews_96ee0c04a82d1989",
+      "headline": "我驻肯尼亚大使馆提醒在肯中国公民关注埃博拉输入性疫情 - ThePaper.cn",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T19:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XU0hEOHVJcm1IM3FrcDQxOEk0dlZ1djR5LUJpUmNxWW5vYWVhMlRUOW1rX1cwSWJGTzlCUVNPOFU2aHlBU2VMYzI2WTNmQUJzQWo0VHFEOWV6elZxdGpCYw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ThePaper.cn"
+    },
+    {
+      "articleId": "gnews_1e912ec79c0d84ff",
+      "headline": "Rockets Have Plenty to Gain From Two Preseason Games in China - Sports Illustrated",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T19:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTjRxV25ZTzhQQU9pWENaUEdTclFSTVZGSk9vVkR1T2tza1RTNVcyRThnUVRvU284ZTRCQWhGMmFNRkYyOFZZSF9kaHJ0cEJjRFlQQVBNbGNhc1BPNHRLOWlxOE82NmlNaHI4MV9vUUlNTlktZWhmMGdKczRFM2JKM3JSZllPTkRteXlrN2ZlcDA2dVlXNE9aX0EtYnd6SExMZmZpZ085VEVPWnh2OEc0?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -44,7 +106,881 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Borneo Bulletin"
+      "sourceName": "Sports Illustrated"
+    },
+    {
+      "articleId": "gnews_df9bc6f5bcd55d4e",
+      "headline": "【禁聞】中俄鼠疫演練後兩官員未露面 武漢疫情重演？ - 新唐人電視台",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T18:27:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lMW1rNlFGa00wQmwyYlR6Z2FQQzl1US02bEM2LTQ0VEo2Rm90M21DYzlMdjh2bW5VZkJMQU5kd2U4Y2Vlb1RQMGpvNmgyZHNiSE8xa1gwbG5taVc3LXk5WNIBZkFVX3lxTE1kaVNEOXJhZUdjVm5LWWZIakktVEJySnlWTl84VWpoV3loREJnSGQ2TUVyS09ocFBqd1lGTWtOWVNOdzZDRG8wdU5sQ2dsWFViS1FVNU5oSTBuTHl3dWozWmJLQUZMQQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新唐人電視台"
+    },
+    {
+      "articleId": "gnews_504950da9b4eec04",
+      "headline": "中国据报将提名候选人竞争世卫总干事 分析人士担心中国候选人优先推进北京利益 - 美国之音",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T17:33:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOG1MekpRSmJWRndCRXc4R1EzRGRwUW1pQTczeURqMlNaeWk3YnpiVzR6RDc5aTJnSm9TRDNXQi1FMHJSUkpCX1V0VlRVd0VRcFppWENDSE9WUWRlZ1Z4bXIwaHJyWWExLUdySlVLUVVNOHJmMjJwQVpmLUJsMGtRV2VnUlltcTJvMUNGSFN0WGhFUzQtUDFJSDZ0ZHhSSVXSAaIBQVVfeXFMTWRiaTIzUFBtSU4tWW4xX1E0ekltaDQxS09EMFBPcVMwQTVEUTlXME5HN2hjWlpITy12TUt6NFpYVVY0aW9Zby1XODhjdWJZeUVSanNBMXhEOFVXa2lBVzBvTlo4RnpmREdneVplTngwQWNBRXNJbWFBTXpneGx4VlowUFl6Nm9nbHBtSmQxSlpYOEo4anp4QW5qTElBQ1RKMTln?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "北京市"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "美国之音"
+    },
+    {
+      "articleId": "gnews_7148df91e6531afd",
+      "headline": "Ascend AI chips surpass Nvidia in China as Huawei weans off American tech - Notebookcheck",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T17:17:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR3VmMm56RFNNYnRhYUtRVVp4ZEFpR2tTMklfN0JIZnNGUktKZjFUdGk2dnVYUndCbGI2RGpIbVhQOUpvcktBd1lpclNsQ2xlclNFSE9PTEhXOVJvYkhQbGN3WnVSUGNEVWlnbU5jaU9ucjNDQWdxeUlDRFRtR2J3NmxDcl93UU5zb1M3SXZGajF0MzJvbjFuemV3VDFSRUFKNTVYUWlfUVRQYlNUZkVZR1c0Vy15VFpzS1E?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Notebookcheck"
+    },
+    {
+      "articleId": "gnews_7587cc41e84bbccf",
+      "headline": "Why does the Kyrie Irving connection in China run so deep?: 'It's about paying it forward' - Dallas News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T16:22:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLW1sOEFJcUZGVU1LMlR1Nm1pWHFjZnRzX3ZaUlBKb2FXaTBkVDZWQ25ISmZxOXVvZEE0U2xVQVc3bmZIMU9SNFVBcEpIWUdVOGJNWDE3UGV2emR5WkhYaW5lZm1ONU5KQ1hLd3RWX1RaSzdNQi04Y1hmQ2MtN3Jwc1pPWXFVSFpvZDdqVUE2VzZqeGkwVi1PT3F4WU5sS2FwTVllOUVB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dallas News"
+    },
+    {
+      "articleId": "gnews_5a56020da6d0ddea",
+      "headline": "Elise Mertens upsets Coco Gauff in China Open quarterfinals - Sportsnet.ca",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T15:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeVFGVTBXMFQyZXhyNTBwMDBEWVNYY0JzWEpmUDNNb1Zfamx4LTRoRFFnalBtLWdKTnZRRVhNaUNuNV9pemJFek9SNERZaHo4RTFEQVY5bS1rMmhaMUdvbC1naGhGRWVBbVltVUQzSGNBRHU5M3E2MDQ1SEhDUkRTTk5hN2NIRm1OVXAtX3I0Q3p4UTdOakcwNGh2VjRPUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Sportsnet.ca"
+    },
+    {
+      "articleId": "gnews_f14c238bef66b693",
+      "headline": "Llangollen teen cyclist back home after HGV horror crash in China - Wrexham and Flintshire News, Sport, Events | The Leader",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T15:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONVl5dmJya2xwM0YwOGxuVG1xWHU0QlljNHlERXVuUVI0UWJiTzFFdldNUWJYZ0E5VFNBSkd5aXVtbEJNWkxrZUVRYi1rTjF2UVJ3U3pvVURYbzZzX3AtSkFkUl9YV0JJUjNGZFQyS2pkWmNCMUt1d0gzcEhqVVV0N0ROSE5wS3FhY3hNVHJ0QkMwUi1ISEFv?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Wrexham and Flintshire News, Sport, Events | The Leader"
+    },
+    {
+      "articleId": "gnews_f243c4b8b55460fe",
+      "headline": "俄罗斯疑爆肺鼠疫死亡病例 中国外交部回应了 - 焦点新闻",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T15:55:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1paWt2Sl9kb0FockM4Z0dBSnZoMjl3VVB6QkhzMWxaRFlmeWYxbzRHOUJyNkRELWdFekUyQVg1dGNqaGRnOHdBb0RONTktUDJERHRpTVJpd0ZBcHdkM251WGFqY29mdw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "焦点新闻"
+    },
+    {
+      "articleId": "gnews_dee1a6725d102d24",
+      "headline": "俄总统助理将到访 北京:中俄密切合作传染病防控 - 文学城",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T15:52:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DZWNDTG9IUjBQMTNjellHclZFN1E1Rjh2UnVMcXUwQ1F4THpvQzIxLThzQlh6dHlqOGhXaFU0OHNVOEdyREJORUxyU2hROU1iX2pBWlJya1B6YmNKRGxiYVFLZ0hIR0lfOFFiYkZ4X3hwYlNFbk9VZA?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "北京市"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "文学城"
+    },
+    {
+      "articleId": "gnews_6b90eb2f02fb2d27",
+      "headline": "In China, Italian mosaic conquers Canton - italiani.it",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T15:33:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KOV9TRVdLSXNmRG1wMFdXdWNnc2M5TmI5RUpFYWVpMDY3S21Sc3BWRWJKM2lGaU54LTBPUTJWeFlOeFFIVjU2Sk5nbVVjR2NZZVVnMFZzT3FVcV9Sdk5HdE90SlNnZVc4aXRXV05IeDZnZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "italiani.it"
+    },
+    {
+      "articleId": "gnews_9dfc790d239d762c",
+      "headline": "Fossil of 'platypus-like' animal from dinosaur era unearthed in China - ABC News & Headlines – Australian Broadcasting Corporation",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T14:58:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGgxME1iSnlDVHBndUtpakFlaTYxVldBUnVUSW54NEVJVm0xVWZqSmdWWC05MGstVDc4NldZcGVXUTJ6UEx1U09ZMEdZWExBM1ZqN09lR0tVdnQyeW1VVDlHb0hmb3BRcGFHaDAydkhuSmE4bG9YbWRuTGl0SmZFT2haZURBOFh3YXI1QWNyUTBvMnJpdzNYMWN1R0VQU2x1a1lBSkJSLWFrZmttb1FJbw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation"
+    },
+    {
+      "articleId": "gnews_2e85db64e9ab672c",
+      "headline": "Bond Yields Are Surging Around the World—but Not in China - WSJ",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T14:09:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNmFYTDB5NmE1WXNqZzdrYnZ5cmxQMnd3LU1oYnR1QXNrQlVfeHcyVmxsek5oQk9vQzU4OHNHclViTkxGakNQa0RMdTJPTy13N2lhSnI3anZ0cTlFc0NhaVJZVlZSeHhfREI2WDlRUDBZSnh6VjI5SHRESGxaRHhLRmdQWDk2b29SeFVEX3lXVmV3TTFWLWJHWFVEcWFxQzJZN0EwcHVR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "WSJ"
+    },
+    {
+      "articleId": "gnews_3b3ab2b500cd9a49",
+      "headline": "Lego’s ‘Heartlake the Musical’ Heads to Peacock in the U.S., Tencent in China Amid Global Sales (EXCLUSIVE) - Variety",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T14:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMy0zS3hWZi1YUEgwUkJ0ME8zQ0VLMjQxdGNsWVpBd1pQNDRJb2xFdEFnN3J4ck1sUktiV1NMVEJaMlBLUjNuZGNaUnlrOGQyQ0lSTy1LX3dKc3U1RlN3UVBDTzdFdFhobzZ0NXBWUm5yd3JIUE9JUTJEQXlPUHBMaVh1ZWhDcmEyZVhxWDE2MjR0ZzM3T2c?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Variety"
+    },
+    {
+      "articleId": "gnews_d6af393b0ff30ffb",
+      "headline": "俄羅斯疑出現肺鼠疫感染死亡 中外交部回應了 - 世界新聞網",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T13:51:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWY2hxNVYyYWJjb2VTeGxhcDBFekdScjNta0UtWUdZZ1BlMkJpYU1LeTVpNkNrWmxZS295dzJJY19tQlZiVmhGNjRucXdCcDF3YkFRVlZvSlN3UUVwVkRLN0d2bXE1ZTc5eUHSAWdBVV95cUxOcFlhOHgtejM5eWxNdXN4bXZoODdMcVBDaEhIQnNwUmNLcGpNUC1sOWUwQ1BMVlhMR1Z0VTdBRmFuSkNUd09CVkNmWGdWbTF0dDlJVUg1VC1mbUp6bzZRczN2aXhVM2pF?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "世界新聞網"
+    },
+    {
+      "articleId": "gnews_7f585cfbc081ae89",
+      "headline": "China says it maintains cooperation with Russia on infectious diseases, including plague - Anadolu Ajansı",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T13:00:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUFp1b3NMOVlkLS1Jcm1LVk1JNmlZR3R3NjNza0dEaS1YWmVlRGRXaGJVZmNCSUx2NjFvTktkM0FMMkNoS3FuVWFnUWZudVdjdzhWdUx3SC1jZFNsMWw3V256dU85MF8zVW52M1U4R1IyMDZEVk5FZ0phcWdKNzF1LUlxQWJPUWRCUDBZTXJhbjdlUUliQTR6Yk54bnpWZ2dYUFY4VVhNZ1J1VmR2TEd6bjA1WFJ3b3JRenVmdjNvU0xvbFhrb2pLSGJHbTFrQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Anadolu Ajansı"
+    },
+    {
+      "articleId": "gnews_666a26c2f9905c59",
+      "headline": "Mercedes-Benz Q3 car sales fall 8% as China demand weakness persists, EV sales rise 52% - Reuters",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T12:42:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRTNOUWM4ai0xdGZ3djV2bzdlVlFjWl9HUWhJeDZyc0doeFpqS2pZMklvdnA3c1hoOHcweVNEa3RFbnpvQjZiT0R2SF80UGFBOEV3RlhoTFBMQ2cwRHdBeE0tU3hWRl9rWFBpWTBNT09oNWk5MFdhWDkteHptS05RRzgwbGwyOVRaa2ZLeWZYdFpTbFhMT2JOTWo1cDFSb0FOQ2czSUhGZE5lRno3YWQ4Um4ya0IwZDhhRlplZTAzZmhDaHlj?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Reuters"
+    },
+    {
+      "articleId": "gnews_13573fcf8e044ad1",
+      "headline": "Dairy cooperatives | Retaliatory tariffs weaken US dairy position in China - https://en.edairynews.com/",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T12:34:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWEdtSTFZdmNfVHJ5T0Nfa3FGTmo3X1JTYm5va2RrcmFnQlBfeGdTMnhVR1BoOGQwTkpnQ3ZKLVAyN3ZUU2hMaGxFdDJ6TUpkWE9LQ1pVdTkxNlBLTGlvUjhwUnZvQV9BM05DR19SNnRtRVpTcjFoRllvSlJnT1hJa2hxMkxMMk0?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "https://en.edairynews.com/"
+    },
+    {
+      "articleId": "gnews_2b31c1c29b100547",
+      "headline": "俄鼠疫研究員猝死罩疑雲 中方僅簡短表態 - 大紀元",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T12:08:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EMldkM2dsSEkyNFpIbWFqaXF2OG16cmFiY2xVSUtGMEVtMGFtcGZwR2tldllwODNmQnQ3emZYOHVyOUxQSWhvZWZNQ1ZlNHRURFN4aHRQVlNLY3hGRDJFQdIBZkFVX3lxTE1TUWkxSDM5amNTYUtzbmVmYkFraFZEckFPTUJPWUF0ZkEwSlRmQThZSDdmWUh0N1pGa3F6RGtWWVZFaHdPc2RtTFhDZWU0TTZ0cWVMUkFLbkFocjlpWnJvdlRBbS1YQQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "大紀元"
+    },
+    {
+      "articleId": "gnews_1ce2adbbeedb486d",
+      "headline": "Mavs in Macao: Dallas taking in unique experience 8,100 miles from home - Dallas News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T11:57:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMmQzQ2tKOHYwV3BFTl9sUTF4OUxyUnJRbDEtQmJ5cE1PMzlxSDZNZG9CaElVdmlfc3p1Q0dDLVBVZDRRYklaaV9SdFcyNGt0emdIQjIxVkxZSTZOcmV1bWc2by15U0RRWkRxRER0Wk5vWWZKSEpGUk52anRNMU1QME92TXRrSy0xSEV1NjJGOU5ocWpWRS1QODY4cU92a1BRUTRtNEQ2TQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "澳门特别行政区"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dallas News"
+    },
+    {
+      "articleId": "gnews_207bc60290b72933",
+      "headline": "完全梳理：俄罗斯真的暴发鼠疫？究竟发生了什么？ - 观察者网",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T11:31:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xY2dUMXhtSXBXcWNtcXR5RDZaSmhDZElJN2RSVVhwNnlCb1pyVjNTaVQ2bGxZQmtuaGM3UXZ4R0lJWmdLaER1NW9qYzkwdHBpT1hjX1ozS1VhTmF0bW1DZnVJQTROSlh4bWt5M2l1S3QtQ1U?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "观察者网"
+    },
+    {
+      "articleId": "gnews_7d31987bc546d6de",
+      "headline": "Like father, like son: Chinese duo build mini national engineering marvels in home lab - South China Morning Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T10:14:28+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOLUhZTEpVNDJXbElHbFRmOTc3UDFCSlhYZnBqNFp1a0M5eVZ5NjZRbWVZUDNScUtQYTlzU0dRSng5V05Ka25fNXIxNWdLdUFfQk42ZXMybmt3YVlMNnNHYURoWjBLdFNUeXlQNGxMNzVoQWNRV1dVaTZ6ZE9VQWpkYUQzM0NMRC1Mc1RkdmRtV3NoUzVONENSRERCR21teHpTb3c5dTRCV19ER2ZRWEJkbWNZbFpXM0VhcEZoSElpVGxFUmRGRGoxUDNyOHcxenl0M2lmRE1idzJpQkXSAdsBQVVfeXFMUGJITnBxRUNaT3pjVWJRa1JfamFCT2xVWWJTZ0xpcE45SlpLRC00NTJpMDdKYzI5cFBFa0hrZGlhbTVFQnhzUGVVT1ZidUQ2Vm95bk9TX3g0UGU2blg5d0wyZEt6UzgwWEFQMXVtUmF3TUZhUk9sQTRvT3lranQ2U21qZWtSclJiTjJHUUVqUWZYMVI5b2tJamRmSUw3VlBtYXFiSENpbmxYb0JUTE1GZGYtTXI1TDBNMTdpUEJNRG10dW5HQ3NoSm9Lb2FDSHZWUWxyVWdYZWRqYzFF?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "South China Morning Post"
+    },
+    {
+      "articleId": "gnews_91e6c14fb2734f09",
+      "headline": "俄总统助理帕特鲁舍夫周四访华 北京：中俄在传染病防控领域保持密切交流合作 - RFI",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T09:20:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxOazZvcE1CdU5KLTk0Y2oxb2xlMWRNSm5ndHB5X0tqdWdvck92ZXJMTmtQaWJtZlFoMC1hTjRLSG8wNWcxdnBYTmN6bkVpZWdtSVQwVGlrcGJ2UzFkTkQ3LU92THdtVHdJVmlNdktQZG9UR3FiWEJwN1VIVC1UZloxUmZKdmRQbF9TMGpXa2QzYUNlRzd0Z0JRWkRRWU9ZRHNqejdTSUVXVWV0WEdhcEJZc1gwZkUxOHBvbmhVYUoteWk3dXZiMlpydFpFR0IxSFZxbk84UWxFVFF4N0J3WFE3ZlI1UFJndk1WLS1XcW9WRTBqSzJTUUwtQUM0NVlXc3o4Z01KVy04LXVsVUVoQlctYm5hNXJ4OHNJbHpsR3hyMDcwbExyX0lZYXFMejdycHJVOURkajZzcGZ3eTZaT1gtTmVOWjEtNVdGMXQ0N3p0TVl1M1V4MWxDWG5UR0R5a2Flc3oxTzBLYlJvbmRrbzJhZ1I4UEs1cWNRY0pncWhYQ0E1ekpOaFUxZ3UtNThaODZnYVA1Z3ZSSzFRNW5aXzhheUZMN09yb2Z4WGNLcXN2bDFMQ1hubDJaNVUxUkdWMVZ3N1JhT0hoRFpXZnlkcVdMY1Y2WGwyVWFqRmsxaUoxdVVXdkhpLXE3Q1R6LVJKNDM0VXVDeGppOWRIUQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "北京市"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RFI"
+    },
+    {
+      "articleId": "gnews_842449dfee6fa5c4",
+      "headline": "Flash explosion aboard vessel kills one and leaves two missing in China - safety4sea",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T08:45:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUDJTRkRTWk1PN2s2MjVOVWpZaXBkMmgteVlvNTk1d0NrSGJnYnMwVV8wV044OF9qek01ZTdLNGdLVFExRS1DNWRKUW5LQWJWLXRzcEFsbWZLaVFfZ0s2NTRVM01OeDdpZFI4OUNpdEM5RW9rQkV3dEl0RG5XaDZNMnNPM21UcFFyUDh3bGJxaFdlUnB3azZRLVpVdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "safety4sea"
+    },
+    {
+      "articleId": "gnews_5e6e4c84d1f72e80",
+      "headline": "I chose to study in China over a US college. Here's how I stayed plugged into Silicon Valley. - Business Insider",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T08:21:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbnZJWXJNZFhsM3lQVFRkREZuN3BqX2o2WWd5ZURoXzdxcWU0aEJOUllpX0V5emJ1cWpFYm44ODlRUXljUmpHUTFwX3JoLVlhMFlUdWJxcEhvM0lKMXFNdzdid2dzWnlfQ0RaYmdXeFJicVlpRjVvT0w2QU01dXBRSGVnc0FhMFpuWDZYZHlvZGk5RHpkLWNwWTRDWTJjNWItS0h6OVhPTDgzcnZtVTZYRmZZLVJPN2VWZGtpX3p6MA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Business Insider"
+    },
+    {
+      "articleId": "gnews_a2a3c215951ab5a8",
+      "headline": "BYD's Flagship Da Han Lands in China as Paris Stage Awaits Blade Battery Sequel - AD HOC NEWS",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T08:20:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdUhFVERPakw4WEp6R0R3ZFdUN0ptTTRuOXhvMzlSZDJpVTdja1VVSFp6R21oc29ZV1k2eVRLLVRQTXhBY3BSemFteGZjdHlzX2k3M0xVdnhDZEtfRTVrNGpCLVNoakdCX2xSazlocUgyZG1QMlk0U3FYMllwcl80YU9uTTNoMF9HbGluZFZCbktaN3lNdFpDQTdJOWhYUXF5akwtSHFac2N0N0kzY2VuZ3p3VXBRcTJEbExpQzRrdVhKWHRlbkRYZm9sVkZHbTFHMFB4VkVncVVVWVFK?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AD HOC NEWS"
+    },
+    {
+      "articleId": "gnews_546cc000fa1f18db",
+      "headline": "Rural Inner Mongolia takes centre stage in China’s data centre boom - South China Morning Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T08:05:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQzd2R0dUTllnSW1VT0NISEdBOUR6RWxMTmxCUlhpSUNvNU14aFRsOG95UWtRdnVXMzdxZldzemo4MzkyNXEyN0NBT0xCeFBlVFJkeUIzbDFhV0M2U3FiT0dTWUpic2hVWGhKV0t1T3lNWjhET1lfd0hFcHZ3TTdJTU13Q0xYZmdqTHhJS1BrZjhPQ1RKMGlOOE40MklHOFlTaW0xUENaWQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "内蒙古自治区"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "South China Morning Post"
+    },
+    {
+      "articleId": "gnews_237ec68780d9235c",
+      "headline": "De Minaur retires with injury in China Open final - SMH.com.au",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T08:04:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRUtWSnVMQzQ2ZGhZWC12MnhvaXJYLUlmbzE2aldtMTY2N2dOZXpuVTk5TjN1SmREenplM1BOeENDUUZsSjBsY3BrQXhVZ2p2dnlZZ0NRTThEYTZRMGV3RXZEQklGY2JpQ2JvRUtfZWQxaEtzZUQyZUNiTUM4YThlV3VLYkxuMDJmc0xjcUZlMVFDZXQwOXp3M0Y5aXliMWUxR1JrQnJiZnJSdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "SMH.com.au"
+    },
+    {
+      "articleId": "gnews_68ed3f4d3de537fa",
+      "headline": "“中国拟推候选人角逐世卫总干事” - 腾讯新闻",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T06:06:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wRzBvUGRCX3d1ZC11NGIzUU5RRGQ2S2xvNzBaYVZEdzFPYUgzaS1kYlE2Y0Y2Tk1mZE5OVTlGYXlKZGdJT1E3eHhDdDF0MmhTV1dPSURFckZOMUlfM1VXc2VmTVRHd3Z4MDY2Uw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "腾讯新闻"
+    },
+    {
+      "articleId": "gnews_e44a8e4f87c538e3",
+      "headline": "【時事金掃描】「肺鼠疫」爆發中國三市最危險 巴西大選大翻天 - 新唐人電視台",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T05:39:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSR29JWDhKemlZOUs3YWE5S0RuOVpCNzJaVWxPRC1XUU1TeFVHeWpRMDlVT05KdXdwM1hHaG1tckoxdjEyN1l3Q1lNZWJHMlNxNzhGdE1ENURPVHd1SUNlNNIBZkFVX3lxTE9qMGUzdVlzRENidTZNVE95dlBPRDBXMENTaHBTeGxTdWtrR0g3eXRmdDZuV0pTdV9vLW5CMGxBV0hIb1dJRWxKUURubmllUjY2NjhhTHhYcllXMEpxQXVXN1B6aWxTZw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新唐人電視台"
+    },
+    {
+      "articleId": "gnews_f455df2c58e60da5",
+      "headline": "China says it’s talking to Russia on suspected plague case - The Straits Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T05:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSmJXcU5oWFRSYmJjcDdlaTA0S2xRdnNyRUhIc1VKU0gyd0ZxM2xmWjd1SzZScDZyMHRUZnpldGlhLUVSdXRlYUFuMk9WNXFObzRqdVRxSmUwUmdXOXRvQWhFelNaZm1DOUdPNzhTQklDREhwWTJkcGpuc1o3MTBndHJKZTgwWkhibWViUFhObmd3RTRkdVlmUlNyUXlGd2tMSXdj?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Straits Times"
+    },
+    {
+      "articleId": "gnews_60cffeceb675431b",
+      "headline": "Flying on two Wings: Ypsomed’s Dual-Engine Strategy for Success in China - Pharmaceutical Technology",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T05:03:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQM2RkVnM2T0xkZUFRV0FLZElJa3ZtUUE1V0tOaVQyQWthNEhNeGkwd1Q4azdHY1gyS1U0OWtiWTVDWDdJOWdjQXdQMzlEMC1tNU1adVhyVHhXd050NHlVc2hkVVU5TGZmNWFuVUI2bWEyVWlKVTV4NHpxbE56cmk5Vl9aZjlxaGJsbGl4OURPRnFMdzl5TDdiMnFkaGF0eTJ4TDBxVEJESHZ3cVlMXzZoMGNUazM1dk9mbDRyaFFpVWRkM1ZfTy11ZWNJZ0hBaWRQX0tvOVZfX0taeWc1UDU5QnJqQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Pharmaceutical Technology"
+    },
+    {
+      "articleId": "gnews_899b51376283c74f",
+      "headline": "俄罗斯女研究员之死：鼠疫疑云笼罩世界，希望只是虚惊一场 - 凤凰网",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T04:46:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE44S3ZsSGVERG5JcG9GNC15OV9URDZ0YVVGQWFoTVBPNzVIZWp0bTFZVTRzWWJDdVI0ZVJlMnlXMTA3NnR4blphWFo3WW8?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "凤凰网"
+    },
+    {
+      "articleId": "gnews_9d8a2019bff71297",
+      "headline": "遭狗咬为省钱不打狂犬病疫苗男约1个半月后病发逝世| 世界万象| 東方網馬來西亞東方日報 - 马来西亚东方日报",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T04:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tMUxUZmc3SE1MZjd2Y2MwMTREekxNRnZKNC02VFNPVTd3cmNEMEh4Z2FxYzF1RE5EQlVlVWVvRlBlTEdsSm8wUFV1WDFDVVpsUi1KV2dvMnUwNm5IeFowT1FZMHJEV2pCbnB3bA?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Rabies"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "马来西亚东方日报"
+    },
+    {
+      "articleId": "gnews_732819458f3c8c8c",
+      "headline": "Djokovic lands title No. 102 as De Minaur retires injured in China Open final - Malay Mail",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T04:16:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2F0ZDJia3V3NTA0cmVreVNiR0ppaFllQ3ByQ3ZnUGpQLS1uSnA1Y1JibHdndTE0SHFtbEoyOVdneUJ2alJGY2k1aEhIOXBPaWw4NXBkbHppM3kxbnBmOHZXMFY2V3oxS2tWeHA1QjE2VHQtNHdBQWRING9VYVk2cHNFWWxUQzV5bWJCai03Tlp3X0V6T01QRmlfdXBySmdPNFdmTUtjMTlScWE3WEp3MzBRUEVaWHU1aVlLOG1OeVRQWkV2Z3hQRzZjaGbSAdIBQVVfeXFMUGlMdFd1anZqVjduLTdVal9ic3dJX2RfamlZY1Z2TEZ0dzl2czBLRlpXU1VtN0oyUFlnZkdzc0Y3dFQ4UnI5N1BZeG1XMURMN1FrYlJMMHlQMC1UT0xXVF92T1hzR29UZ0NsV0NaQU9aOHN4RmM5Q1VWdXNIRERjVURpVWJpaGJEcmVMOHY4OTZ1TGxLXzlldm9ETlZQUWJsb3Y0alFTRm1RWDdDV1ZNNmkydnhUT1k1ZU9OSW1QOHF2dGJ2MWpFck56OUNNQldpanFB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Malay Mail"
+    },
+    {
+      "articleId": "gnews_f61a752d6a3bd52a",
+      "headline": "疫情驚人擴散中共封鎖 醫師、藥企吐露細節 - 新唐人電視台",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T04:15:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OZmdFbWJDV1BHc1lDRy1FdFNYYVljN2JMWm4yZzRmVGtfaS16dFJUTzJTZU5XWUlfZVp0aTA4TjkyVko1bmwtbVd5TzhTZ0Vpb3g2OUREdXBzN2lUMDBQT9IBZkFVX3lxTFBzNUR5cWNaaG5PbXNteGxVTjNId18wcGwwR3lwMW0zdHU4dk9MRlFkWGtNR0UyZUxCRDU5UTczdmVoakREUXFXY0dYb1Jod3EyVXJSN0lmckRfaHljY3NfYXY1cVhNdw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新唐人電視台"
+    },
+    {
+      "articleId": "gnews_3aaae8b10ec3434d",
+      "headline": "Hybrid Forecasting Model Sharpens Predictions of Seasonal Influenza Waves in China - Bioengineer.org",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T04:00:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM3ZQV1RDSHByakgwSGR6MWItUmNNZkVMNFdxME0tazl0bDBDR2QyXzZTZzhaOURNb1lmVXM5VVdGNVh6aW1SNXNxemQ1aTVlX3ZkSjhaTy13V1FMaktqRnFENnRhbnJrcC1oUVBWalhOSlpYd1hEaFVHMWhLX3BkQW1HRFkteVlnaHhFWW1DNWV1OS1pYUhoNlhOc2sxaTZyWGxTc21zVWJMYms?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bioengineer.org"
+    },
+    {
+      "articleId": "gnews_3421263f2ca7156b",
+      "headline": "俄罗斯传鼠疫案例 中方：中俄就传染病防控保持密切合作 - 联合早报",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T03:55:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aMmx5bFlmOV9oaWw3blRZcWk0UVA2YU9FdExZdndnYlNta1I5bjFydFRWWkgtYjlsamJxWVdfZ1U4MWxsazJZVnNIQnhLWXdmcGhVbDNnMTh0ZkVZbkQ1RU0zUnlWQXgzaVE?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "联合早报"
+    },
+    {
+      "articleId": "gnews_ac89cc36f3b630f3",
+      "headline": "K11 opens wetland-focused retail and cultural hub in China's Xiamen - Retail Asia",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T02:02:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFNzRkxESVNQMzdyM1JtcFRMYUV5a1Fsc0NPclpwN0NQVkJaNGE1M09iblE4R0dpT040UGtpc0ttTmJzOVE2NGRnUkdmc0pVeDltQjdnWTltYVlQTV9YRGoxQWU2SXlpdG9ESUV0RXBkUy1DOFQ5TUcyRTY0TV8tcm9jdE0wbkRsWjAycnlkSDhFUWVBQUV6ZlpR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "福建省"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Retail Asia"
+    },
+    {
+      "articleId": "gnews_be7906e249e611b8",
+      "headline": "A Spanish envoy's lifelong journey in China - China Daily Global Edition",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T01:40:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMjIyeGJXcGtpYmRGTThIV2l3QlpMY1VEZ0ExMEUyeWRBRnZrQVRDYXVRTUJoMTRoMGVKZnE1VjgzZnJjTUN2ODZvSVd3SWJiZU45WGstQkhoV24xaXotWXd1TE5VSDFzMzRkYXZRZDE1a0xkelZoMlNiOVR0NktFSm1R?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "China Daily Global Edition"
+    },
+    {
+      "articleId": "gnews_dd2a25e564b3c9b6",
+      "headline": "Cowboys prep for Bucs, Mavs practice in China | Free4All+ - FOX 4 News Dallas-Fort Worth",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T00:58:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oWVAxQW5PMUtaeFdOVEVFbC11QnNTVDJIRlo5ODBLVk5qSVV1YXg2djFwcGtTdzNUSzUyS3FLSmwzNGw5UUx3UDlOaXJBU0d2UjBqa2FvazZuQ1NMczBYTdIBZkFVX3lxTE5PVmVHcEtHLWd4RzRiQ0VmekJleVczOGUzbmJkajQ3ZFZMM21RYWNtbVlDV1BrVDJwMlI5TDlqRTUzRnptMUpjVUZLYy01ajlBeXFsNVpvVVc5ZWFFZENGSUI3V1Z0dw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "FOX 4 News Dallas-Fort Worth"
+    },
+    {
+      "articleId": "gnews_e134d92d9fe8df40",
+      "headline": "俄罗斯鼠疫疑云 伊尔库次克居民不以为意 - SWI swissinfo.ch",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T00:50:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZUFKblhwdnI5d0N6Z0dBdWJOd1V2ekpmV2JNM2lINlQxRl9sVFRQXzJxS3ViaTNGYXN2QWtyS21lVWlyRGFaWDZrTVlDZTRGM0doWkxjdjVBQUJrRDh6UEg0Z25fS3B2MVVXX2FlWGtFcW1uSTNiLVloVVRieHlDRmZBVkMzbTJ4MnQtMDVaaHFyNDFodktTR1lFWWxmR2hrc3N4S2gtcTBfX05XNy1VN0RxdE5kaUMzNHRJLWhpaEFsR2ZfODItTUNfNmFtUGRYaEd1WEMyekV0czV2V1QyUFp3REZ2V1FSRG1hRzl4SlAzbXpVckZVeUxxMG5rTWZXVm1fMGdBd2FOejdoWi1yTXB3eXdCd1VkSElRaDVrSGFHaEJrdGJrRE5MMlM4eEZDM0pV?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "SWI swissinfo.ch"
+    },
+    {
+      "articleId": "gnews_1e5465dec474f5bd",
+      "headline": "俄罗斯鼠疫实验室员工死亡：目前已知信息汇总 - 华尔街日报中文版",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T00:07:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQdXVmaFNNY19HejE2NXZPWDVFd3pxbU5IVkt1TEIxYzEwLS1paG1zMXdaZHQtalpzWkxINFZlMWdMaWVrUDZqWFpLbU01QXRHTFQwS3lLZE42OHBXeDFtRXJ5NTRIVDVza0FyT3AyNW5IOTlHZDJ6VkR6cDNtZzdiR2h0TTNOcnV4d3J0ZW80R21tODZLbmM4UngxclliY3BCNEN0dk5KcHJBbWxRU2JfMkc3VFZGaVhqZ0hXRUlDUllYb2s1T1BXQmRLUkxETXM5Z3AwMWhIRjh1bTJmeGY5QlBNdFpSV2pMeDJ2OXIxQ3FWWDRYaVJjOS1VNDFmSUp3Y3J6V2tMQjVSV1VzeUpxQzdjT3l5cHpQYW90N2hzSkNrU2pnQnVLN0FrV1ZwcWJpdmxqX2paNzBrd1hwdEtv?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "华尔街日报中文版"
+    },
+    {
+      "articleId": "gnews_27cb165dfd46878f",
+      "headline": "“中国拟推候选人角逐世卫总干事” - 观察者网",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T00:04:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kRXB2RFZHWmI1alJzVnppUURCNkpyYlRjaXJpQVQ1aDhhS1lhYlhPQkJZakVmUnlROEdLRnZNbFRKN1FoWnVSTElnY2QyRDRHY2dKNGs0LXZMLUdjRTJ1Um00UV9fS1VYU0pKNWhVVkR2OFE?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "观察者网"
+    },
+    {
+      "articleId": "gnews_092c210d77f2d8ed",
+      "headline": "疫情驚人擴散中共封鎖 醫師、藥企吐露細節 - 新唐人電視台",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T23:23:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iNmVxMXQ0Qk9tRk5abGhINUZqSzFyN1laeFo0RldPWV9TYlQwSWxnSGlkSnBVcnRRbUwyNkpYZmhqOWtDU1VQSkMxalV0Q0o2MXRwR3IyV21BblJxOW8zQdIBZkFVX3lxTE52SDh6ZWVYSHVhR21VMU1MLUVQeG1VU0dyck1PU0NOX1dvNVdQcW1pa1pOcktKNHZBOUpHRUhxUmlPOW1BeTR5YVpid3I2b2taOExhU05yV2k1ZnFEdUh6bnVES2FGZw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新唐人電視台"
+    },
+    {
+      "articleId": "gnews_8329f7f684d376a5",
+      "headline": "Neonatal Heart Failure in China: Burden Rises as Mortality Clues Stay Elusive - Bioengineer.org",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T22:00:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPazAwSWpMd2lyWlVZOWNFRVh6aHlMd2ZjMW5TRU0wNGp1R2IyYmNTbG15RnItT190LVJnYWsyeldXLWZsRXVPZkxRc0lMbUR0ZmJwbWNoSjZRRGxienN0aUpBejB1UTRqdGh1bVowQV9EZEFLZmo3cjJaeXZLNU41NW1KdDZXZTZLU0lSeVJsSnBUR3JyZWdpNFBBMFJyTVplV1hr?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bioengineer.org"
+    },
+    {
+      "articleId": "gnews_5eccfcb7298fe77c",
+      "headline": "US seeks US$100 million bail for Chinese-born couple in surrogacy abuse case - South China Morning Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T21:59:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdGlZdnhka3lWZ1V2RHJHQ3dFNmlUNEU1WmhQNnVYQmJIR0EzSVdpNU5MOFZnai1wUFBMNTZXaE1kZ1hqb1RsaG1xX3FneWpOY0UtUnN5VWcwOGh0ejc5aHdYQW9MaUxuNUkxV2tJVFhQMDJ5WlF4ZnkwYlpodnh1bFBudFZURFVuZ2syRlhJd2xDRmVNb19ZX1AtYUtfX2dvWTJPaHhEaDVDMDRza0xNVGVZMVUyd3lTRnk2UU5saVRGZ9IBwgFBVV95cUxQcWNYazJzT3FJUzJ3YmYwRk1KdGNTMUlkaTdrVkRPOVcybjBiV0ZfVGY2Q1BPQmxFQzFqNm54MUZJUlJRcGJIZ3M1MF9WaWFfeWs0QkkwUnUyMWtMZ2p3SDRjc2lHMTlFeXlCVjN3WDRiZEk0Q0J6bTU1ZGhYRTBoY2tSNDVxNi1fei16V1gxbDA0V3c4b25IVmNDRkJNQmJONGdKZm5DcUF2SVdmLWw3LTRyNVJFYzJ5dzFlNzJwcUFwZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "South China Morning Post"
+    },
+    {
+      "articleId": "gnews_669eac2c30e21970",
+      "headline": "Popularity of AI-Generated, Inexpensive Short Dramas Surging in China - The Japan News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T21:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80aG9fYmhxVFhpNHBUVTBEbXg3bnc2ZmNiWVFIN1NyV1hFbXVlY3c1VUpQY0JIUmk2MmFobWtVZHJwWnQteHRuc092cTdEb0lUaGQ2VDdXa0JueG5qVGpSQVRjVTJ6eEJ5NEhIeVJ6STltM2hvNXc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Japan News"
     },
     {
       "articleId": "gnews_890112b7855d4a6e",
@@ -52,7 +988,7 @@
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T19:48:00+00:00",
+      "publishedTimestamp": "2026-10-06T19:46:00+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObVNrekxIZzN2azA4NHgxaS1zTXpxZ252QzB5X2o2NHc1MlJQLXljRUlGQWNxNXRTRzh0NFYyMXExQkRUWGNVaTJ6Y1B4QnhTWjQ3VTduVWtuaUJCcDF2M3VHQUZ2QWZuWlhfd2huTFZ2Tmt3bXZ6OHJkSlpHbWdxTXk4cGxkMkpFdUdUcDRtWHZYcVVwaWlNQjNsWklYaGJuTTJxdWJJY3hCWkRGRjFtMENvT25OVGVCeGk3eG5neUdZWG9IeWlN0gHMAUFVX3lxTE9ua1c0dUdRMVREUlZucGlhcjZhZ2lqUWk2N2lBcmw5VUhrdzI2SXlTUm1sTFhCUEsyWEQzV0VsRWRyU05VeW1fT2d4V1RyeFdJUzRDR0tCTjc0enBSNnBjNmRrX0VXR0UwSmVDM1MwQ0lyTmhNWHdhQzY5VlhmVnh6d3BZTTN3em10c0tZdXRzSE8yY2tPNVk4YUdib0YwS3dsUHFYWUVwbGpqOXFBSmo4Snpuc205NVItZWI5OXg0WDNlVjlpZks3VEtzQg?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
@@ -104,13 +1040,13 @@
       "sourceName": "Electrek"
     },
     {
-      "articleId": "gnews_a074f718cb797db9",
-      "headline": "Ghana takes step toward reducing dollar dependence in China trade - GBC Ghana Online",
+      "articleId": "gnews_3f7ae73246bf71bc",
+      "headline": "All-New Range Rover Aping Lincoln SUV Launches In China Early Next Year - Ford Authority",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T18:41:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcGRuNVlkX0RLeDBWemxGamQtLWE4LVYzZTRlbnpxYmtvelNFSVVOaktGUkhqdDF6OU9QRzRlT0VpUExhVFBvRGxFMjdsZWgyRkNzaWxtTVVESDB1R0hxdDJlX1lwcDBhTFV0b1hvWjNuZUdZSmdNS185WnY5eHh1cHhuWUdicWl2d2xudUl6TkowSkVmSVBPLU94Qy02c08xWWNET3pEX1ZqZ2duZkxrQ2dMdEVFUQ?oc=5",
+      "publishedTimestamp": "2026-10-06T18:32:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYXY0UXlUaUhyUmR4S1JUVFdTSm5oTTlQcGNsN3NiVjJ0aGxEOWNSMnZ0WTIxNC1CQlhjMXllVlJrN1ppeHMwQjh6Wk02NHlhS2tkVlZoNm5HTmZmZ1FfTFowbGJLb2NCRUc5UHE4X2NhRUdIM3pCd1pDbld6TlNBbVNhTkk3YnJ0dUEtV2E0ZW9XSERlNk9jeExuTTdNSk1Udm96NUp6a0Z6dw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -120,16 +1056,16 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "GBC Ghana Online"
+      "sourceName": "Ford Authority"
     },
     {
-      "articleId": "gnews_e8f068482fa74b33",
-      "headline": "In Race With U.S., China Struggles to Recruit Foreign A.I. Researchers - The New York Times",
+      "articleId": "gnews_3548c095e4a05f8a",
+      "headline": "Made-in-China Mazda CX-6e EV could outsell CX-5 as it rivals BYD Sealion 7, Tesla Model Y, Zeekr 7X - Chasing Cars",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T17:00:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMndMQmVXUHJBaDRXSDkzYTN6QVZVQWhCUVRINHA1R0tFSlFnaDNYc241WkVjV3dGSWZ6Z3U4ODdmT3h4LXV2X2YyM0FYZDlScTY2RDJTQjVDXzB1Wlp0UVJ2bk5NM1BqaVFKVDg3c2hqY2dBTDBhbVB1cGViVEllOERzaw?oc=5",
+      "publishedTimestamp": "2026-10-06T18:00:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRmpPTi1CUDBiNlBDNmhHTmNUN1g1STJ6ZUJybl91dDZrS0FPQ3A4NTZudXpQVlVMUWZleUhJMjZrRHZMVTM1b2UxdnhJaVJYV3ZtRHZlTG5hUjNYNjl1ZnVRdDJVVDhSbUxMcDNXMGdJSk5iVzhYZldYMThLN2hZMzZZa2dlNUpjYUU1U2FmQlhpbWI1OVBKSDh6emw0V084bTZQUVZHd1NDdTNobXVBYk03MEs5UnJ6VmxKVV9RNGZNUXAtSkNPM2F0akthQXBoUzJndFNZYnVXX194dGdkNw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -139,7 +1075,26 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The New York Times"
+      "sourceName": "Chasing Cars"
+    },
+    {
+      "articleId": "gnews_62ce7192836fabc1",
+      "headline": "Checklists, masks and mystery: What we know about the plague scare in Russia - CNN",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T17:32:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTXJWbllycW45ZjRWMGs2UEV0NVBpcnBJTjZjMVluZ0o5UWh2MThzVDhiRzlWVjNWQlhiYnJCU1dwSXdfV3lObEJ1dmxZczROb093SjF0dG9JNWdma0otcWgtdVJqNkt6OFRIQ1Y5dDlRTTF2eXVFajhQMHc5d3RZSHhVeHY?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN"
     },
     {
       "articleId": "gnews_596b17a5c6a18667",
@@ -161,14 +1116,14 @@
       "sourceName": "BBC"
     },
     {
-      "articleId": "gnews_f61a752d6a3bd52a",
-      "headline": "疫情驚人擴散中共封鎖 醫師、藥企吐露細節 - 新唐人電視台",
+      "articleId": "gnews_c48aa5fe735c4701",
+      "headline": "Congress Enacts First Law Restricting U.S. Investment in China - Legis1",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T16:20:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OZmdFbWJDV1BHc1lDRy1FdFNYYVljN2JMWm4yZzRmVGtfaS16dFJUTzJTZU5XWUlfZVp0aTA4TjkyVko1bmwtbVd5TzhTZ0Vpb3g2OUREdXBzN2lUMDBQT9IBZkFVX3lxTFBzNUR5cWNaaG5PbXNteGxVTjNId18wcGwwR3lwMW0zdHU4dk9MRlFkWGtNR0UyZUxCRDU5UTczdmVoakREUXFXY0dYb1Jod3EyVXJSN0lmckRfaHljY3NfYXY1cVhNdw?oc=5",
-      "originalLanguage": "CHINESE",
+      "publishedTimestamp": "2026-10-06T16:05:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84amJXN2FZM3RFODBMMzkyZ29mYVpWSTVNUFQ3c19QRXhHbDAzYjVUeVVqREF1Nk9qMXY5NmhTTVEtNUJ4djZWZlVOV19iZ1pLOEJmR2RqS2MtT0ZFY3FIQXhnV1JfUXdXdlRjaUN6NjhsVFJZM3d6TA?oc=5",
+      "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
@@ -177,7 +1132,45 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "新唐人電視台"
+      "sourceName": "Legis1"
+    },
+    {
+      "articleId": "gnews_094fc6ef6c009efb",
+      "headline": "EXCLUSIVE: China plans late entry into WHO leadership race, sources say - Reuters",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T15:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSkRieWJvclpiRUFlZFdteTRvYWJYRS13aHQ4NHp5QnpGbDBmV2x1MkJPWEZmclJrdnVyczVIakxaRTRKbDhjU0NTaERGVW42YjVSendveEMwd01KTEFORUNPd0w2VHE5MnoyaF9oTkljbzRyeTdQMXpwb0YwcU1YNi0tV2wzWV9qdEw5MUhPaExWZ3c4NkVldHNlSGFYZy1sd210U1BSN2xqQnhoY2psQ3VLUmNwZzN5bnA1UXpJR09zaEdWRUY0aWRDQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Reuters"
+    },
+    {
+      "articleId": "gnews_7b995f56111fd5e6",
+      "headline": "Has Gucci proved Made in China has a long way to go? - Jing Daily",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T15:35:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZVduSFI5QS1vYzRiV2lUUnFfR3JEZy1FVENGUkp5NmxyelZCTTBPc1ZuOV82N1ctUHVBaWhwdENBM2ZaelpZSkdWNFNPRmtrN1lYZk5zSXJKMjZiLWdWVTVCcnpfYVExSnNQb3hQUmNwbC1QNS1qME9OMDl3b2xZbWdaM0ZyUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jing Daily"
     },
     {
       "articleId": "gnews_462d787fd1c2ea78",
@@ -197,6 +1190,25 @@
       ],
       "dataSource": "Google News",
       "sourceName": "RFI"
+    },
+    {
+      "articleId": "gnews_6bf14633b8f8f5f5",
+      "headline": "外交部：反对借战事关联抹黑中国|美国国务院|肺鼠疫|郭嘉昆|中方|伊尔库茨克 - 新浪财经",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T14:05:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9EMk9QdmltWlFqY2kwV3Fac1hBTVBBZjhoaDRacHJzelYySEZDMFZGVmItRlR1RTdfN3lEUkxhRUdtZ3J5WHpFV3czMmVRek80dEV3aWlLNmRrZ1FhX1R2TnNQZXNXWUw4Uy0xaFJxR0hNeTBPSkNnbg?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新浪财经"
     },
     {
       "articleId": "gnews_0fe340c087234bf8",
@@ -294,25 +1306,6 @@
       "sourceName": "CGTN"
     },
     {
-      "articleId": "gnews_87bbbf14125d7ff8",
-      "headline": "Port congestion in China delays Peruvian fruit shipments by up to two weeks - Fresh Plaza",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T12:19:31+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSU9kbV9zelZlRGFwSGFyVlpNNEs0U3hzY0Q1MWE4OXNSUGJyMEIzNDVBZlFzWnFhaVFTNnU3b25HS0ZZYWNHSmJjbnM2TWlQRWpJdjl1MFFibnhiQkQ4Wk00X2RWMHR5QktEVm5GVHR3TVU2Y2t1VXRLekYtQUFUVXVubmJ5V1pmc1VxYTY5aDdvSXdZaGczWFRwWGZkZU03OU83cWFrcUZYSzhHaDRJa0RBakZlZkljZW5hZmtpVlotcHk5TjJEREVqcWQ4UQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Fresh Plaza"
-    },
-    {
       "articleId": "gnews_4f396b6f5c4fe2a1",
       "headline": "The PRC and Russia Deepen Biosecurity Integration - The Jamestown Foundation",
       "headlineTranslated": "",
@@ -332,25 +1325,6 @@
       "sourceName": "The Jamestown Foundation"
     },
     {
-      "articleId": "gnews_f66c3b23492b0cd0",
-      "headline": "俄罗斯伊尔库茨克地区一人疑似感染肺鼠疫后身亡，俄政府是否同中国政府和专家建立联系，外交部：中俄在传染病防控领域保持密切交流合作 - Sohu",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T12:05:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkdjdjhkaFAtbmt6N29mdzBrdzl2dDNtRzJOb0xOVjVMMmhxeUphaXFkbmZ6YnNhNU5vNU9YWXhEUURUUVpEZkFZZllXYU1nQXh2V3FfRUxkVnJRRDhEZFhndnZ4c291VnJEWFNLd3Q3ZHBzYmhyOHRLQ2lOdTBMcExMd0E5dzRi?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Plague"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sohu"
-    },
-    {
       "articleId": "gnews_e7a25a0c04096ffc",
       "headline": "China’s Burned-Out Young Are Finding Something Unexpected in Mao - WSJ",
       "headlineTranslated": "",
@@ -368,44 +1342,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "WSJ"
-    },
-    {
-      "articleId": "gnews_234afe0fa7e6a4a7",
-      "headline": "At least 126 Taiwanese targeted in China’s transnational repression - Taipei Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T10:22:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11WkxXQ2VEb1JSY1hsaUE1cmJsTHBGZHhiTFF3V3RwUVh0LTNWTmdvY1NQRDZmQTd0bU1mZUlOUEhIYmd1dnYwTnlmRl9yLUFlaEUwbE1fS1V3MEtlUERJM0tObi1pWWRUNGFDNHE2amlySk9aWFZzWEh3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "台湾省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Taipei Times"
-    },
-    {
-      "articleId": "gnews_4412ec3c23f76875",
-      "headline": "Indian Man Spots Narrow Lanes, Garbage Piles, Wall With Ads In China, Questions ‘Why Is Only India Called D - News18",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T10:15:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTHo1Zk9Nd1EzUkYtZGc5MjlCQjRoSDY4ZkhVX29pQzRVZ2JRb0trRmc4M0liUWE3Uk84c05qWE9JQkNOaEFaRHlRVXQ1eGdYcmIwVUE5elc1OFMteEtsSnF2N0JDRkdNZE5OUFBJV3psVko2ckhzWkxYajFtakpacV80NFR3b3hHTkIyNjhLUWM3X1hudkhPQl9Sb0ZieUVWbmxCUXBFVWxMb2JSeTE1TVJFRnVtRnlWQnJtWG41dS1KS1l0aG8zcWZfa09KMXlzalZoSVR2NEd6UG9vTk9XNWtPT3JKQm0tUy1F0gHwAUFVX3lxTE1TMEl5QXh4WGdxVk5HLVV6Tk0tWHp5dnNZREhlNENmWFQwV210M3JHb3NKbjZ1UUxNbi1obnYtdWlSQzRHTVdPRXNESEUwM3RPakZBWW1Kc2ZyYk12QkRrVGMzTTJPRlNMS3lXMGw1aVFsbHlYTkxlN2x2M0xldnY5ZmFGR2s5VlRob2J0cmUzU3A2Wm9CQi1yUHFCN09qWFo0QXBHOVZXd0JyLWwwd045Uk5wQ3l4ODRubGJfSjBYcndkUUxGV29lN2pmQ3JiTkxPaGVITE9BYmZYdm5vb0k3V1hCRGRPVXdKXzFGczhoRg?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News18"
     },
     {
       "articleId": "gnews_d5ca909d930ca903",
@@ -446,6 +1382,25 @@
       "sourceName": "CBS News"
     },
     {
+      "articleId": "gnews_e8f068482fa74b33",
+      "headline": "In Race With U.S., China Struggles to Recruit Foreign A.I. Researchers - The New York Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T09:03:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMndMQmVXUHJBaDRXSDkzYTN6QVZVQWhCUVRINHA1R0tFSlFnaDNYc241WkVjV3dGSWZ6Z3U4ODdmT3h4LXV2X2YyM0FYZDlScTY2RDJTQjVDXzB1Wlp0UVJ2bk5NM1BqaVFKVDg3c2hqY2dBTDBhbVB1cGViVEllOERzaw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New York Times"
+    },
+    {
       "articleId": "gnews_74b95bba40835df6",
       "headline": "Tradition comes alive in China's ancient towns on National Day holiday - CGTN",
       "headlineTranslated": "",
@@ -463,44 +1418,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "CGTN"
-    },
-    {
-      "articleId": "gnews_d33bf924754019ad",
-      "headline": "Cebuana singer-songwriter Jolianne reflects on unexpected rise in China: 'I don’t think I’ll ever fully understand how it happened' - ABS-CBN",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T07:32:47+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTGFDc0Nua0tWOE5hMFY0bUEzOFVhaWhEWHF4X3dUZE5nQWdCMUNyYkNSSm0yS2xIYmdzSDNMYVl1SnpzYnI4OHdXcklMNjFIVXpFeU1SYjdaWG1qdVpqdXFCZGZZMDlRQ1V2QVBXcFJKVjRPZnhReGxrS19wVjJ3cnB1TUFOM0gyd3FuTVhLRmhrVUhBVlNEdWtoMEN3VVBrdTlhVkp1ZGdCX0tSWUtDRWhDMHNsV2l0dEdvb2tFQ2JxRGZzQ3BWQk1hc2lzelM0UjhJR2pEX0dkUWZT?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABS-CBN"
-    },
-    {
-      "articleId": "gnews_8f126ad0c0de6f71",
-      "headline": "Wanying Zhang: OC real estate agent appears in court, accused of spying on Taiwanese president's family for China - ABC7 Los Angeles",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T07:18:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORmJlZUs0b01yQ3FnSVdmenB4SFVObVBNM0hnRktWdWJ2MHo1ZTRGdGFDTG9uRm1rcE5wb1Y2czUxUDhxUU1UbWktbVRfbWZSSjhmckRBX0NYRjFLUHVXRlZtS0lVX0pocHhlOWpnNkNxcC1HUzRfenE2Q29ZRjdna0tfMVZ5bnoyY2ZUZzcwRGtMYUx3WmpkdzdrTkc4NXhVV292QUtwSnJ4a2ZyUFNnRGw0TWt4VFhoUjdmNGJBVXdyZ2t5MFdiZtIBzgFBVV95cUxNM2dUQmZmMUU0T2NRNjVPeEdvODJtdUQ4SzRBelVwRFBfUGo5NlZFUENlMWlZV09WQTlxckp0S2VwNXJyY2puUjJQLVZrQm1qLUs1RFJUam9tM1pjbklGYUxpbTUtV0RDR25sdkNncHdNLWlaUk9GUllIUDVzYU5UMVBlVWZ5a0VLSjVxSV9ja0ZGZVNiNEZ6YVdoVEhLRW15WGJLRFBvRzkxam1VWndPOE94bzdhSEVzX01iTFltXzJVNTI0QUJDUXZVNEVqUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "台湾省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABC7 Los Angeles"
     },
     {
       "articleId": "gnews_e1612ff6f481c6ed",
@@ -541,25 +1458,6 @@
       "sourceName": "新唐人電視台"
     },
     {
-      "articleId": "gnews_544d028181f7ab77",
-      "headline": "Exoskeletons power new hiking experience in scenic areas in E China's Anhui - People's Daily Online",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T05:09:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94cnhYdk1PRHY5WXJ3d3FBbXM3dFZFbEdTRUt1VV9EUEV5LThxeTVYSC1aWjJKTE1QM2pZQzR0MWpfQ241QzZVYXdWMHhmc1EtcmVHeGk2aE4tdDJ5bE9BR0xDeW8?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "安徽省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "People's Daily Online"
-    },
-    {
       "articleId": "gnews_e25356fcfa1d4b79",
       "headline": "What happens to unregistered agents in China - Real Estate",
       "headlineTranslated": "",
@@ -577,6 +1475,44 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Real Estate"
+    },
+    {
+      "articleId": "gnews_0ae359ccfd89d909",
+      "headline": "特朗普密切关注俄罗斯鼠疫疫情报告_中国澳门_新闻 - 华人头条",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T04:56:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRU3E3WDlJNndNc2ZvMzlzbU1SYVBvc05lYVVESmRHcGFyRFdzVmJiajlvSi1CQ0J0cVpFYWRkX213d3VUNXJ3TUhFRElraGM2YWR4NWxVX3cwTlRXWUE?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Plague"
+      ],
+      "locations": [],
+      "states": [
+        "澳门特别行政区"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "华人头条"
+    },
+    {
+      "articleId": "gnews_0edc392b602bc8a3",
+      "headline": "我国原创！全球首张处方，落地 - 新浪财经",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-06T04:50:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AlBVV95cUxQazI2UFpLc3o4M05aeHo1cEZqSWRPX3NtbE5rdDY1VjdRUUFOeFRFWnhjdTl1bVNxRUl6U2NWVnZQd2NRbWw0aE5NTU5YTTZSSlVkU0d6OWJIQnV2R3ZOWHB0V29zZWw3SEpuQTRqS3E1S3VsVGdEc002MHZaQ0NVNUVxLWdxTHN6QnhrYnlzdXZvZmJacm4telh3NnkyMWJBcmMzSlRzVkpFRUMtQ20wWGNRcmNpMUtVUWJ2REdrN0dITTBRc0M3M0JxZWJMaG1HUE1tQTNmbWpfVDdsMGh6aWpzdW9iTmpWVURLV0lGa2hSeDFOZlF4dC1xNVQ2YlNGelVWSm40Rl9lRG8tWEptWkpnWlQwLTc0UDRaUGlaeVRMb3hhWERUYkZSY1hGa01HUGZhT2lIaFhpNTZVaFBFOC1HVTlvb1kzUVBONzlTRm5LYWFjX01DOFNRaTZ0aDYxRl8tTW1xUEI2emdvazc0OXJaOVY3RjRoejM1d1lIS2hla28tSmxVTzBCOFZqblZQN2NWd0tWSHhfN2NCWjItSkxyckhnR1R5Z0tMY1g4RkdRcnhPQjduWEsxQXVoRUJadVg2ajg1WlhXOF9ubmJ6amUwZmZKWldJNDhKZFl2Skt1UEpqOFZJQkIxMWdUN09GcGd0dC16ZXZFaW41OGEtakFmU3ZiZzJRcW1PZEVBWWNLYmtVN1ZLREY0MnJIRHh3WHF6WGJXRXZGRUtqMFlFMmdWQ0FFSk9XZEZOS2hkRXJtR3NsSFZWMXRZZFpTdjJUMTZBdkJuV05ER05jTjR0cm9DT2E5Szhfb0w0eG0yZ0kydnhMYXNqd1dvN0NiZUl2dmFVOWduQlN3VmpmOGFIM2UxZWlOc1BwY1dBNVJXTUtoU3lCYlZxQm5DX1haZUFEV0dFay1jTFB5UjVpV3JneTRiZk1SUXhIM0c5ejlKc0YxeVBrRDR4U3JsOGU4cC1UeVFhbC1hNl8zaG9zOXFBSUVTcEI2V2xRdHN0Ym0zaTBTbnhGQlBOdTNXMFdwUVM5NG1lUmhLaER6Z2djVndYUmJyTWNhSy1WTDJsT3pJaFNDaC1PczBiSGFLUDY1dXpvLWxZU21Ic29WNV9BQWJWV04xRzZNcl9VX1NTNnlhdDdrcUF3V1FyWTVGWWhGbFRYOWZhdjFWR2VnZm51dkNsOGFzVmhLRGIxTGhmR1ZMeXlFQW1md2VGamhnNDFqY2VPbVI4cXhQcGhSRHFYcTZ4NzVfRDAza3V3cnoyajlzcDc4bmVxWVhQZENxeU5CLUQwbVJ3dE0zZWJKVElaa3QwdGkxalNZdUE0Zm9PUmdneEltSndjbVdHRzZzUUluUHZRb0dadHZUX0VVZHNqNTl6eWRZU2d6SDVQTkRnSHZvZmJMTGtlS3gxM1JFekIxOXBuZkFjLUNYRXJ1RVVYMjBVQnBEbkYyX0t0Z1hYWDQ5bW1OeXJJNGhJOWRsOWRheDNVT2FoSzgwTG9id3p4Q2JSdTNEVXlVeEZrUjQtUTBkSi16YTYtSWRJZDFkdG9FVW0yN1hvSHJOTkV1MTZqTXRZVVVjT0JvdmxYZWdHc0IzeXRDdGpfZk5QZWFDRE9wVkZic01zbWM0cVNxU1NpTy1oMWRjSVBfMnBTMThDelRKdlJYTEoyaTA4dW9zY1hQQW42N2owYnFvMWU?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "新浪财经"
     },
     {
       "articleId": "gnews_576a3023e9528b80",
@@ -598,80 +1534,23 @@
       "sourceName": "BBC"
     },
     {
-      "articleId": "gnews_e75a924a8d2cb8aa",
-      "headline": "Irvine woman charged in China spy op - Hey SoCal. Change is our intention.",
+      "articleId": "gnews_11f2a118a7543f87",
+      "headline": "美国纽约州因麻疹疫情进入灾难紧急状态 - 中国新闻网",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T03:42:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTamhKWHl6MlJSLVZvdnJFalVXQkFrTlM2Nkxuc0IxNDkxbHB3WG1LTWp3ZWNTOXdqZmtzY0RsNkJidFBQcEM2M3E1bF9IUkoxUlVyeVFhcmlUaEpUTFA0LW9rdTVNSGN6ZXR1V2dQZnNTTDY5Z2h2VQ?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-10-06T03:11:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PRTk2aWVrNjRtOTExWk1TS2lHY3VwZkNjVXktUTRFVVFFWk5JRlJjeG9BVFRNMUdHYVdDczBuMjQyZ2ktdTVxUmZNcjlsTXFnYXd5RFFKQ0dLSV9RS0xpSmhQdmpMLTcw?oc=5",
+      "originalLanguage": "CHINESE",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Measles"
       ],
       "locations": [],
       "states": [
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Hey SoCal. Change is our intention."
-    },
-    {
-      "articleId": "gnews_bbc42c1f0cf72fd9",
-      "headline": "Deeper dives — The rise of podcasts in China - Asia News Network",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T03:11:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80bF9NbVpJSXBRbnZRazhzalhJX095bWhEMGJTdGxwaVJMRDdCR28zc3g4czdNOWdHOWh2VkhJd2poZnhTY1pHWjhwaXFIdk1mYUM4LUNBZDM3THM5MFlVOXhDd0VQNlMwU1RFOE11Wk5vM3ltbTQ4?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Asia News Network"
-    },
-    {
-      "articleId": "gnews_8043a293b1dd8e48",
-      "headline": "Coco Gauff Calls Out Racist Messages, Explains Controversial Point in China Open - Bleacher Report",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T02:53:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX3BObTRfYVhvcWs2RUZsUW56eWhNQVpDWVg2YUtNNFdYOElmbkJ4Rkx3UVdTZ1N1RHNUVXhkUGFjSDFBLUI1VFBRTGVRbFREQ2ZsdjBidFNqS3gxQnVKdmJGQ2c3STVEUlFEOWZaS25uSEd6UmdpbmRWaE1sc1pUT3FfU3FRRGNRRnY5eWJIbUNMMTFJSThkUy11Y2JFUkpmd0tjUW1VRTBpUVZjNWIyTkRXclVjTlJ2aXJwUHNn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bleacher Report"
-    },
-    {
-      "articleId": "gnews_ae0d0282a2f5ce9e",
-      "headline": "Coco Gauff calls out racist abuse after following rules to stop play in China Open win - Los Angeles Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T02:03:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMUdyZEpHX2pJcnR4SVd1N0djUGpoT0RibEdhRmludUVYcl9qcnk5ajl1aktFSnhGM3BVOXdkNkw4c1BJV2VOSjJOTE16U3k5UWVGVkQ0OU16b0VVZ2J1VjUxTmZmWk9qR2xDZllDb0VpRU1qQXNtV21HYk80dkkzcFNfQzlhYU94Z2JsbFJrYlBaWmRzQjZuRm1GSk4xRWJnUW1nOFZQMXRBYWZK?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Los Angeles Times"
+      "sourceName": "中国新闻网"
     },
     {
       "articleId": "gnews_bc3e8ff28627bd50",
@@ -693,23 +1572,23 @@
       "sourceName": "证券之星"
     },
     {
-      "articleId": "gnews_229ceacde0af3e86",
-      "headline": "\"Flying traffic lights\" take to skies in China - Xinhua",
+      "articleId": "gnews_ef4a71c08478b20c",
+      "headline": "因麻疹疫情 美国纽约州宣布进入灾难紧急状态 - 中国新闻网",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T01:45:16+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmcG1nc3FtX2lQT0xmTTJOSjlqS3pLVEZvdmpEbU1Cd2xXM0NPSTdrVG9neGZfTEFhMmp0X1JLUURNdzdaeHcyYWx6RE1Sb041Z2VQMnNibmhyRWZfQ015aExQY0ZfOVE2TmJ5OE9yYTI3WURGRUY3djN3NGg?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-10-06T01:42:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93TXEzcFJqYlBuMjZBaWFPZWtTQ0tvOUtFMmR4eGFlX2cyZGVyb2dLR0k0cGRTVWJoUGMwelNRZHJab0RONTBmQ0NEWThzVFVTVzltR2RJSXRfZHBWZHFfRTNzOWdLaU9f?oc=5",
+      "originalLanguage": "CHINESE",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Measles"
       ],
       "locations": [],
       "states": [
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Xinhua"
+      "sourceName": "中国新闻网"
     },
     {
       "articleId": "gnews_dae3ccc73b5280c9",
@@ -729,44 +1608,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "生物通"
-    },
-    {
-      "articleId": "gnews_1ae6649e4ba4425e",
-      "headline": "Coffee majors rewriting playbook in China - China Daily",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T00:46:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vR2thVnl1QXdCMzZXVTVwemRNOVIzZjR2MXVLdVRRN2kzQlNqdnhqN0lzcEhvNnpfU0EzQ3oyVklDTXZrdk1leE1BYkx3cHVLWmpaLW9kQl9mSUVfcVJJVUZrLUxUSXk5WHh5c21fMHdVUXFnOUZLd085V0NXZw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "China Daily"
-    },
-    {
-      "articleId": "gnews_a5b2a5d2eadae3d6",
-      "headline": "俄罗斯调查一名鼠疫防治研究所女员工之死 - 华尔街日报中文版",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T00:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSk1FWC0ybml6QXZENDVaSHlHa01aZEZsUGNvdDA3MFkwRFd3bkR1SnZtelNfeEF4OXdRemxmYXhZeURHMzRSbE9jNjJKME5FTVRsN2VSc3R3OV8wUzNSX3lqWEJnWU93QTNELUd0NzROQ0lGbW5vbFM1NWpUM3p1TzN6UC1FWlBYaHJpakR1WGt0aFkzUlJ3S0dnemxEcS1OczJJ?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Plague"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "华尔街日报中文版"
     },
     {
       "articleId": "gnews_6e4e112ce3c6c5e8",
@@ -807,120 +1648,6 @@
       "sourceName": "RFI"
     },
     {
-      "articleId": "gnews_4ea081c35596d769",
-      "headline": "US seeks to revoke citizenship of 2 China-born men convicted in Beijing-linked cases - South China Morning Post",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T22:40:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM09xTFlSUExSWVVoYjZkUmFHZFhpb3NzbUs3MnhhZDUwek9ibl9PeVNSeUJmMXpkbk1ITmI2bU8wNExFTE9hYU9ucEFpUHBKNjRwT2lRcWhJS2U3enFHeVZIUUFDRUlSN0k3dlNTSWJ2Tm9wMUd3YXFYalAtc2tjb0EwWVJaREkxMlloa1RNNzh0M0lueHZGclozdkpldTV6N2hORkpDUGw4NEhWQW0xdGhFQXJhNVBCVTVOLUdRY0FRRndHbXR2Z2NBS0lyQXl30gHQAUFVX3lxTE5jd2ZLS3NSaDBreFFOeWV5RlUtNFUxMG5WenJPb3dPR3diV0pNc3R5dVZCQ1RkNVkzN1pLaWVkRTJOQmVPdXVQcGloeFhabGVaby1qSDdUZGttWnNFQmFWckZwanJGX2o4Y1VtbHBSOHM4X1pOSjFNay1NQkl3cGhraXRMTnBCb1JRWDkyYVlLNE9TWklOMnFyT0JxdFlXTjVESFZRckxIWmNJU0hRMlNYUjRJLTIzWlRYUDc4aUhIUVVnRG5pTkhTMVc2ZS1veXU?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "北京市"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "South China Morning Post"
-    },
-    {
-      "articleId": "gnews_c13126d7208897f2",
-      "headline": "Djokovic in China Open final as Medvedev disqualified - 香港電台新聞網",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T22:32:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rNjU3YUxXaVg4azFxS2dWaXR3UUhNSXVaZTgzSUdJUzBfcC15MVEyT0VjcHBFWkxjNVRIdnBpM0pMdHJ1Sk0wczkwTlpRWkdQWW9UV2dXRWJ5VnRUTjZaRk0yOEx0Z3JpRDNEdmhMMA?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "香港特别行政区"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "香港電台新聞網"
-    },
-    {
-      "articleId": "gnews_397a09f9caec1277",
-      "headline": "US accuses mainland China of targeting Taiwan leader’s family for surveillance - South China Morning Post",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T22:16:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVmtZWXFjVVZZX2c3T3NtQWNncHNhQlNnamRyYTlXSUgwdVVnOGVJckczd21HMzdTbDhRS0hfUjdDVEt1T3B5LVZEVHQ2ajhYc3R2LW5XWC1CN3JOUGtyVWlpNW5jV1dQRlJFcTZ2QVBqazNrSlFBV09FMGxDRWE3TGJCUm9EdllqRHhjMUtHYWR2bUVheWsyS3daQjBXbkZkNTZmNDUxWGZvOG5uQ2N1TTVvT3M3TU5VNktLd2FOSFVKeDBxU0RXSEN30gHKAUFVX3lxTE5jT3F5SFo2d2Z3V3dZODdzV0ZhcmR1Q01BZU1iSlJKY3RMQXlEWE16RmZoSUVpbjl6R0NTTkV1LXl1N3NOY2NYWURDWFlhVTFJV0FZUElFbTVnVkVFM0V0QWptYTFNQ3FncWgwd0FCVjEzODg5alJScDBOU1RULVA1WUhfY3dST2dENEo3U3lheVRob1o0dUZYNFVjLXA4QTdray12LTBRcGZ3d1hxWkRaWUhzV0YxU1d5VzhjdjM1UjRHTUpQQ3l2NXc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "台湾省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "South China Morning Post"
-    },
-    {
-      "articleId": "gnews_60144451f2776e9d",
-      "headline": "Rio Tinto Commissions Carbon Capture Trial At Steel Plant In China - Carbon Herald",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T22:15:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNkdWaGRXTFF4U2pSZTZvdjNfNEM4ZWxYVjJVNGotS0d6RWE4YUNWbWh5ZnhwaVA1aXBidjN3V2U5ei12YnlwTWZydjZLbVJQRy1OeEVxOEszQmhveHhPU3Uyb3Jyc3VCdFFoNW1QWVRLMVh0dmFla3cyZkhUZWYzWkdrN0lMVGZLeUlmNjZSUERESkNTUzJj?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Carbon Herald"
-    },
-    {
-      "articleId": "gnews_fc1ba5a109f54736",
-      "headline": "Coco Gauff reports online racial abuse after incident in her win over Chinese teen in China Open - Irish Independent",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T21:48:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMDFHV2pBNGJaRklKSWE5RldXWHZJWmZUelo0eHY5Y3FKMF9ldDVrMHJKZ1NWR3F2TWhIdDFvM0I5b2JUMXoyeFNwX0lmTzZLUDVybWRaUU1NS2IzWHVNdzYzdjI1VThzLUxrWm8yNmFFUEpvajZ5SjlteUpib0R2alJrOHRFVHFsSHEtS01mVVdXMGZhYWkwX2JtNFdIckdPV2ROZ2dQc2N3TWVoTjBlOVlXUHo1N09lc1MwMi1XZXpBZVVNR01rX2hRb1RNRmZhd29LS2lsSllQb00zQzJBM2d4cjd6WURpYUhtN2dyR3ZDVXh1MHNpU0hR?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Irish Independent"
-    },
-    {
-      "articleId": "gnews_68108497e8aa51c5",
-      "headline": "California realtor arrested at LAX in China spy case - The American Bazaar",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T20:51:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY3FVSGxfd2x5Tk5kWVVmMHcwS0ZNbXZmNW1xc200SVZ3NlNuLXB2RXlSaWo2eTRQS0lfcDFYY1lFeXR3ZFVPTlB3YW9lMTF2QUVKdHU2bzNBVVhYWFVRbnItRTV4OFRLMko3ZnpyUVpRSVgwa1dWcE5IVldhejkyMHZ2RHhZRkRJRk45NlZYS2xBRWEydTFuRTRwX09qRTRFU3c1YUdHTQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The American Bazaar"
-    },
-    {
       "articleId": "gnews_3fee95d11a322649",
       "headline": "How Christina Zhu turned Sam’s Club into Walmart’s unlikely growth engine in China - Fortune",
       "headlineTranslated": "",
@@ -959,44 +1686,6 @@
       "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation"
     },
     {
-      "articleId": "gnews_0f890a3d40d275d5",
-      "headline": "Oppo K15s and K15x Arrive in China Running on Familiar Hardware - Gadget Review",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T19:08:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjBvMV9FeFFzeHhjb2NDMGpJY2hUaVJGS2tLVDBDSVQ5cVZSYWNHSWRMWXZJVllhVFQyYTFHY3FDU3U5QVdGeE85UmZzQUJIbndHblhVSzI3VHJjSHJMTjFWdE5xVHd1RGVKZGFHeFYtdGR3bmNBSnZDRU5IRjZUN3AxNGpWd05UdTdtWnh6MWZVQkd3VDg4?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Gadget Review"
-    },
-    {
-      "articleId": "gnews_a2146dfaaed83b7b",
-      "headline": "Adenovirus Types 3 and 7 Drive Winter Pneumonia Surge in Hospitalized Chinese Children - Bioengineer.org",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T18:59:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY2FteXJfNkhaeUJrdUVFS0VIVWxxWC1Cd0Q5R3d5LUhyQlJ5RWdLV3V0OFY0QTVmN0lkNGxnZ2s0TmNJQTRlRDRXakxOazM3R1ZsUURjNG1GTGNrOTdjYjZEWkJKdW80bmo3a1plakFqZEE2NEFqN21SWGdlaEVoQmJVMFVrdFdVM2oyakZsTnZTd0d0XzNEM1hXUHVLYzBTd1FsZW8wN3g0STFJMjBjdw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bioengineer.org"
-    },
-    {
       "articleId": "gnews_018c64679bb21f7c",
       "headline": "Gig workers in China earn just $45 for 28 deliveries in one day - ABC News & Headlines – Australian Broadcasting Corporation",
       "headlineTranslated": "",
@@ -1014,82 +1703,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation"
-    },
-    {
-      "articleId": "gnews_8a9f6d76857428fe",
-      "headline": "Coco Gauff takes on junior US Open champion Sun Xinran in China - The Palm Beach Post",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T16:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSmQ0d09wTVlVUFFfbXlqOEU1ekNCSG9ZTnY5Q1VJbU5Gb1VieEZlZXIxX2RBTHdJZWlhanM5OHNPWjNKRlVXdWY4UDMzRXFMVzR2dUtHSEpjOFRpMjRGR2gwcmlfM09pRWJLY0dWeDQ0cl9NNlpvTEVjam9RYTNFdXM4c2p5bzVfR3VKSE05bEpHQ2RHSnM3YVg3NUFLTzJwNUdTZU1rQmJ6UjZCeW1lbzlEcDNSUVBO?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Palm Beach Post"
-    },
-    {
-      "articleId": "gnews_61004e20b7d1cfaf",
-      "headline": "Demon faces Djokovic in China final after Medvedev DQ'd - The Canberra Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T16:29:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTUxNRFBEVjVaY2UtdUhORjhfRk5yZFd1UzYwaGJ6MDNZTld0cGNZUS04LUZSZFVZMklKWTcyR2VUQ3pLY3NmY0pMMjNKelYwZTlKUXRuQjhmNXlJV2lRM29uQlFveUpUeFQyb3hnUk9KWHNLeVd3ME44Si1MdGlwR1Mza0FkZU9rdTB2WDVoN25kZGFVbDQ1QWJrcGJiQXoxQlJiYw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Canberra Times"
-    },
-    {
-      "articleId": "gnews_a8abfa38e1ac9f33",
-      "headline": "U-Ming doubles down in China with six-ship bulker spend - Splash 24/7",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T16:01:04+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNnA2NFZaODBjbU5tTklPY0tvdnlOTzJidWc3anF5d1g0VUx5UW95b3E3U3BGMzZkRC1VbHZ2amZJdU9uX3NCTFhsbzNTREE2OTYxTkxwdWFOSWY1X2xhalhUcW8xZ0lFWVM4TEd5QjNlZEZKVUNPTUV0OHdGRWxNdjhjNWk?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Splash 24/7"
-    },
-    {
-      "articleId": "gnews_19758d661e55812d",
-      "headline": "Police arrest pastor in China for ‘illegal religious activities’ - WORLD News Group",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T16:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRS1CWnR0VWxjMXdpQThxZ0hIek9nWHdJQ29WRHdlRi1wQmtUS0d0ZF9tMTMzSmpKaTFwbHJZZnhtczg2V1VuT2Y5d0E4WGdxcXMxNE9kX2FCMm1lNEZ4Z2xfRWt5eXpXZFFFMTJrTTFqN3o4N0xlZkpJSEx0OG1UMnJzTUcyLThWb3FzZi04bkJZX2dTMGJ0ZHlB?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "WORLD News Group"
     },
     {
       "articleId": "gnews_8ecba956a99b4cec",
@@ -1130,25 +1743,6 @@
       "sourceName": "South China Morning Post"
     },
     {
-      "articleId": "gnews_01bf72d1471f90f3",
-      "headline": "AI agents found in China, likely on Tencent infrastructure — TechCrunch - UA.NEWS",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T14:57:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUTFBaG81cnAwek1aS1JxY1ZYS3ZjYjZWVlVfVTM4UlpNVHhLUGVlOGpEYjNWaG9hMFpwTkowUkNJY0VwYjRtUW9nQ3dWTnZfZzZRMnBnZ1JoSXdkWDZ2X3dsczdMcjRxTFZNd2JndkVZczBZVXRVUTRmTVRQY0NRSGcxRlZ6c0dKSDlpWUNmemI3cEtkVlJjdWduRnp0MkNKSy04MjdPYUd3Sjg?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "UA.NEWS"
-    },
-    {
       "articleId": "gnews_a76f3c5d2f2fae6c",
       "headline": "俄罗斯疑似鼠疫 研究所女子碰破损试管后死亡 俄方淡化 美国“密切关注” - RFI",
       "headlineTranslated": "",
@@ -1166,82 +1760,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "RFI"
-    },
-    {
-      "articleId": "gnews_509a0fde6df5c749",
-      "headline": "Duterte-linked Cale88 received P319.3M in China remittances — AMLC exec - The Manila Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T13:28:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUGhIUGduc2c4WFp4TmpmelpKQ1RwWUhUNXNMWjlONmxpcDdMZE5qQWh3TGxMN1ZXdjk3dEVaN3c0bGxIZUV4SGJJeFpWbWI5TE1vX1pMUzJITWRYVklMekJNVlJiMEgwMTZyYlMwbjhyeEwwZk1mVW50QnlId3Z4eEtsOEpHUlBaaVFZa2pfVmtkeU9aUVowSkFUbmYtQzBiSWgtVXozZEZCNHpGamo0SjhNNGdyRG40U3QxLdIBwgFBVV95cUxOSXUwZmJadVVwenZxMy1rYnpDaFNkSHRuQ0Rha21aQTc5d1NXWEwyUG1KdkxpTkNVeWF3N0pPbkVqSUZJa3FtVVZWb25mcUZUanhhVGtZRFQ0R1N5Y3lCaERwYUlLNTBaLWh6OWNVajhkcXo1NzlaQUE0UUFJYi0wRWpCb3ZqTEdYVnI1bnhudWgtTXU0Y2FRTVItNkZhQ3lqY01fcHpiNnJtMTdNTjJBVnJNeTFKRWo0VkhmVjRfamo5QQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Manila Times"
-    },
-    {
-      "articleId": "gnews_ccc108dabb09c0ea",
-      "headline": "AI-powered firms: 'One-person companies' gain momentum in China amid new era for jobs - CNA",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T12:50:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcnB1VUxPQ29PX2FYQnhhYVVLNUI2b1lONk11bUJmcXdXcXBlWTcyOHkyUG4yQ1lkN1dmd2N6V0tHMnhjNEdmazB6elZzX3JWV1pfWkFKbXoxaXNrUGJreXhNS3VVSUZEUVlocEVFdnFTVnZaTDE0Y0FOS2VBdE4tNDNJNjJKa3JHM0QyYmtnOEFiekhTVmxPdWJYOWEzbW9WNG5ITWhud2xZWExvaVowVTB3RlZGVU85Um9DRXBlblUydw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNA"
-    },
-    {
-      "articleId": "gnews_acbd68f5bbe6a81e",
-      "headline": "Behind the layoffs in China’s solar industry - Eco-Business",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T12:47:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVWZTeXJabXR0WnR3T3JweHJueGlyVkk2MEFYRmlkU2tCXzQ2aDhEMVBBMlhlUnZHZ3J5ZkFrdWp3anpSSld1dHcxeHhDYXZaOGlCdm9zRkk2S1Jzb1oxX3JlLVczOXNUVE1KQWRLNXVxa2h5b0QxVVFackplME5UTUx2cUM?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Eco-Business"
-    },
-    {
-      "articleId": "gnews_59f0066392188374",
-      "headline": "Swiatek, Zheng survive three-set tests in China Open third round - Dawn",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T12:04:23+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NVDFPblNXQ0dsclJ2U2JFSi1YY3N4MFJ4RlUwUFBCR1pZcl9sQ0xPZ25qd1NxaFM0VDRwa0NLVzJqR0NUWnI3ZA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Dawn"
     },
     {
       "articleId": "gnews_4c24e8fab15459df",
@@ -1263,82 +1781,6 @@
       "sourceName": "TSN"
     },
     {
-      "articleId": "gnews_2a07884c08bd01db",
-      "headline": "The Pentagon Bet $400 Million That One U.S. Company Could Break China's Rare Earth Monopoly. MP Materials Is About To Deliver GM's First Rare Earth Magnets Not Made In China - 24/7 Wall St.",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T10:26:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQUWM4Z0VJUDdJblFXUHdTb3FmS1BoYkRQdTdXdmlKeW1hVkVzZW5xc1Y5WWdJcHZvWS1idGc1Rl9BRnpQQ3lkby1xOHRsRmhodlZCaUZ4Y2Y3NlpReHVILVZHMTZUY1VHZjlXUHAxaGI5dHRhU2wyN25XSnNTS2FIcEZFOHh6SURlaE83eFRzd2hfV1kycXlDQnc2RndhTjZER1d4UUVzMVlNTmdWUmpqdHIzYUgtZUdMdnV1U0VlSTV5dFZITTFRVDltU24yWW9BaWJjQ0ZISmYwWTc3UlczcFNFeDk3VnFFb0FnRllIQUtEMWFJcjNFSDRqRjJHVTl6WXVtdlgtV3dxSjUzMkl0MzRWenFIU3hJbkxFbV9xa2dBWExlMl9qcHZmTHp6NlVVZDRDdGJGaw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "24/7 Wall St."
-    },
-    {
-      "articleId": "gnews_b1c8e7e888f1b079",
-      "headline": "Digital Science appoints Charlesworth as strategic sales partner in China - Research Information",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T09:00:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV2VJd2E3elVlWTdZQ29OM0pPbjdiMHFKQTVPZEs1SHh3ZWowZWgxQ0xia3VTYWR3MDBycjFXbTBDV3BfakR6NkxGbzJaZ2RCMExNY2VUbmlDUER1cEtTNi1HMlZJT1F1MFN1dGNXaGllWjQxN01YYVZaeExZQ0tLdkZZODBuODZzZE91YUZMbzgxQnhHU1NtaG1pRzJoV0M5eGtnNU1vYmxfandWNzYzRkZrY3BYeU0?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Research Information"
-    },
-    {
-      "articleId": "gnews_432270b411ff3d3d",
-      "headline": "官方明确：发现全球或我国首次发生的重大传染病疫情，每人奖励1万元 - https://chyyyygl.com/",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T07:14:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UVHk2eEdKbG5LekpsbUVoanR3MFZYY0dtQ04yWm9NTjk3eGp0V3RWZWdNYXRRbHd2VFMzTlRyQlZTczlOcWdJTm15a3FzSE56Sk0wcw?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "https://chyyyygl.com/"
-    },
-    {
-      "articleId": "gnews_327ed419129f021c",
-      "headline": "Video: Why Passengers Need Oxygen On This Train Journey In China - NDTV",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-05T06:23:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbHRvdDhzX2JZdGF3T0hFTUZYbTVpVHczZzRsaTVXWW1HMi0xazZDaUxaU09OV1NvdXd3clhKOVNCbHJxMVJhNERTaTR1X0FNSG9GWDNJVUVaSlRzYXVRU0ZsU0JWMGZrMXpaQ243eWxpTm56YVZTSUdlRGQ1V1hWMFRJOHdSRmRvdi1zUzNvRnhYLXk3RnpabEhQRzY5WjlQaVHSAaoBQVVfeXFMUHJxeW1YOUU0M0I2M21raWZfNnlhWDJHdWpJZllSTUtOcU01VlR6YlkzVHdiMHFmMEpvaUFHYXdRQ2RJN0lTcHk3aFJ2SThPMnROQW5zeHhaSW80ZHNQYzhjWTh4MWhUSEJVc3h3V3JrWU9Ya1Q1dUVIYWdudXAtcXZTQWVBV19FVVhFZ1JVcU00ZWxpUVZsNVlqWGdKeUxONURUelpEWEZIRmc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "NDTV"
-    },
-    {
       "articleId": "gnews_e29838503e4ddc74",
       "headline": "‘Unwelcome and unsafe’: Why Japanese companies are retreating from China at a historic rate - CNBC",
       "headlineTranslated": "",
@@ -1356,158 +1798,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "CNBC"
-    },
-    {
-      "articleId": "gnews_f53710b5eae3bdbf",
-      "headline": "Battling Djokovic stuns top seed Zverev in China Open; Sabalenka swept - Philstar.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T22:17:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTnBvcHMwZDdxSy0tN1dKNDZHSFl0elVlNUJ1TlBoZm0zeU9VZ2ZRaDc4R2FHeGM4N3JvYzJKdzJ3LXZjYUNzRENKb29HZ2RlWGZxZmlDRWpQdFFBMGdzeDN6b3BLUWEwakRhd0g1aGswNklWZ0pPVWQ0Q1Z5RmJ1a2w4T0sxQm9JNTV0OWlPN2dqVnRZN0ZQSWVfNmtTb3B4b2RWWXktaDVqMl9aZ3N4U0UwOE5wREdu0gG_AUFVX3lxTE5GajZEdG8wREdrRy1COTBzY0RFN3lfVzcxSFRlMWY4QUQ1WXg2RzI1SkFfVnA1TG43M1V3MEtkNHNZTTNmTDhseWgxdUthTE96eFhpb21ZZEhHaTBaazkxcnZfVWhfNlAtWGRNSFhVM1BWV25HY2lOeXh5WW9WOHNpTzB6dUN2cG1sYTZ4akl4MHQ5LUg1QmdvTkxUbHVGTDNqRHY2cFNOeC1Dc2U5S2VhLXpGOTJvNTd6Skk5RW9Z?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Philstar.com"
-    },
-    {
-      "articleId": "gnews_4a7b5515d3561dcb",
-      "headline": "De Minaur fights back to reach China Open semis - ABC News & Headlines – Australian Broadcasting Corporation",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T19:24:59+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYzRKUmxQVi03UHhnbjF2UjI3czRucFlGM3F1MG03STU2MFFWRll3NHgzdkh1cEZrS3JqY3FiY2dXWHNSQktyNWRvQlR1SjdHbFdhNUhvVlpERTR1eVl4UmM0eC1MVWNEdURCcTU0dEtGa0FhNWwtOWwzZEd3RU1MbXBxbjdsTGQ1cmltbDk2ZS0xYUlfTlJvZ0UxbEM?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ABC News & Headlines – Australian Broadcasting Corporation"
-    },
-    {
-      "articleId": "gnews_0a44cecb3ec22a7a",
-      "headline": "World's largest offshore converter station settled into place in China - CGTN",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T13:20:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYmhhNjgydHdVTHpxNXlvbm5RdnF4YTZQdU5Cb0l4WmNKcU1rNC04cVlyd2lxODRDT0ZIR243VGU5cWJmaGM4NVEyZWpWQVZxX2cxTWZabVYzSVhWZ01UWWpRcHRqZUdtR2FPemt5VmNRQ2RtY2Flc2xKOXRBTThZdVI1ZTBmanNDNE5yRXdLRHJMaksyMGVOaFpVUXZVTHo5Zk0yUlN2UmhXc0UyY1k5ZlJXWklCQ2ZfTUQxQ2lWZFNlUFRLZnc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CGTN"
-    },
-    {
-      "articleId": "gnews_38db0640d1cba6a3",
-      "headline": "A broken test tube in Siberia killed one person. Then came the silence. - Vocal",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T09:51:16+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON2paMmdDN2Y5X2IxUjNRVFNLQnhfN3RzX21ObWxXU2VZQXBQbXFUTUVwN3BUbDZSZGJyYzVPMjRXUEVCNFJiN2dyUDQ2emI5WnJuNHlHYktxbEdGZUJUSWdlZk5XNjJBaE1iOHFyTWpsNHpIUWhISXNGbVhLWWVRQm03c0lwOWNPc0xvajhZTzQtTHJsRDZaSXhrSlhKMGc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vocal"
-    },
-    {
-      "articleId": "gnews_882e21abf7e146de",
-      "headline": "Djokovic rolls back years to beat Zverev as Sabalenka swept out in China Open - The Guardian",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T09:34:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT2tkVk5QMjA5RzNNSlFQUVR3QWZsM3lxU203YUw3c256X0VVcU0xa3I2aF9UczdxQjVzTFpERHlqc1pQcUlSc1BLVjBQd0xidE1iYTVZRWRkcllNNmxhZTNNdWx2Zzg5ck5TV2wxbGFxRWdvaWdCTFF0OGVXbnN0QlM5ei1DU3hBRF9nNkhVU2ZmOUVhT2YxN21sSXlDSHlpRDhBOFlLbGdXNjVuN1BKZ2xYcU9JcjZGTHJjREJIaS1VeHM?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Guardian"
-    },
-    {
-      "articleId": "gnews_4a49ec14d4ae2fe0",
-      "headline": "International expeditions in China unlock secrets of Asia’s longest cave - The Star",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T09:20:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTjdySTUwMENKaGRtZFdneHpDUENBQl9vcm9Mc05QV2t5OXlmS2RWUTJEcXdXMllqRjlpQlhuRlVNdGJUcjVhNktYVW5JODN6dXczMlgtWTdjMngwSFFYNE41SE5XdE1PdmJUM1kyaDJKUU1xZ3ZZV28xSlZpWkRhUWs0N1EyanRMMUVFQkVQdkRoTXJ3TXFGU01YVjl3QWlyLS04cVFpSHo4eW5FX3R4S3g5ODNsNDBCRmduOXNTYTdRU292ZS1aUlZ4UFAwUGs?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Star"
-    },
-    {
-      "articleId": "gnews_93ff72b282ee3a49",
-      "headline": "1.5 Million Buick LaCrosse Sedans Have Been Built So Far In China - GM Authority",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T09:09:49+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcWFYbGh0TC1jQVRNbXl0czlyQ2pOemNxc0hnR1NzV1k3eXZTb0VEQlhHQVpGLVd4bkVUMy1EWHJuS01WTFBtNWM4RUMzcHZxbUFGYkJvaE1NeUFKelNZc21nYjFuU09KY0phOE9HQWQ5ZC0zT3kyN0lUVlFLSzNNM1hUbjRyeXpSNF9USDVuMHlEQWhWc1JUT21JN2RBX0ZUY2dWRDJ3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "GM Authority"
-    },
-    {
-      "articleId": "gnews_19d7de7ac9dac153",
-      "headline": "CT university’s partnership in China is a U.S. national ‘security’ risk, congressman says. He wants it ended. - Hartford Courant",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-04T09:02:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMk9icTVtV3ZldHRKUWFsOUZFSWNLYmJVeWphSzlUQ1loQXFNQ1FCMTJYTloxSVhiQ25zZmZzSEUtS0dBM1AyYUJDby1hVnlrOXI3eURtRXFEQmFpck8xbHMtdUlLRHJ1aFowakRJUUU5WFR5cG9QQlRjRTVNcEFZV2hYOGhPY0JaRkhHOXNpNWUxanlERTh6bnJKdXFhVUhNeHNxSzNYUUN4cjFqUGZsZXg0MXdPZEhtZmJ6Z2hXcnc2amJ0azg2QVdIVURLR3JBRVNfT1Rn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Hartford Courant"
     }
   ]
 }
