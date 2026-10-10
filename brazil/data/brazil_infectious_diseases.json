@@ -1,46 +1,296 @@
 {
-  "generated_at": "2026-10-09T21:27:51.345162+00:00",
+  "generated_at": "2026-10-10T21:25:39.817296+00:00",
   "date_range": {
-    "start": "2026-10-06T21:27:51.345162+00:00",
-    "end": "2026-10-09T21:27:51.345162+00:00"
+    "start": "2026-10-07T21:25:39.817296+00:00",
+    "end": "2026-10-10T21:25:39.817296+00:00"
   },
-  "total_articles": 209,
+  "total_articles": 133,
   "state_summary": {
-    "Brasil (estado não identificado)": 94,
-    "Amazonas": 11,
-    "Mato Grosso do Sul": 11,
-    "Mato Grosso": 10,
-    "Bahia": 5,
-    "Pará": 50,
+    "Brasil (estado não identificado)": 45,
+    "Pará": 38,
+    "Bahia": 4,
+    "Piauí": 4,
+    "Alagoas": 1,
+    "Acre": 25,
+    "Rondônia": 1,
+    "Amazonas": 9,
+    "Mato Grosso": 5,
+    "Mato Grosso do Sul": 6,
     "Minas Gerais": 2,
-    "Piauí": 3,
-    "Acre": 21,
     "Roraima": 2,
     "Rio Grande do Sul": 1,
-    "Goiás": 7,
-    "Tocantins": 2,
+    "Goiás": 5,
+    "Tocantins": 1,
     "Espírito Santo": 1,
-    "Paraíba": 1,
-    "São Paulo": 4,
-    "Paraná": 2,
-    "Pernambuco": 3,
-    "Ceará": 2,
-    "Rio Grande do Norte": 1,
-    "Distrito Federal": 2,
-    "Sergipe": 1,
-    "Alagoas": 1
+    "São Paulo": 2,
+    "Paraná": 1,
+    "Pernambuco": 1
   },
   "disease_summary": {
-    "Dengue": 31,
-    "Measles": 117,
-    "Chikungunya": 5,
+    "Malaria": 3,
+    "Measles": 71,
     "Zika": 2,
-    "Doença infecciosa (não especificada)": 34,
-    "Meningitis": 7,
-    "Influenza": 22,
-    "Avian Influenza": 22
+    "Chikungunya": 4,
+    "Dengue": 23,
+    "Doença infecciosa (não especificada)": 19,
+    "Avian Influenza": 12,
+    "Influenza": 12,
+    "Meningitis": 6
   },
   "articles": [
+    {
+      "articleId": "gnews_516368d254ec8dde",
+      "headline": "Malária: Anvisa autoriza teste em humanos de vacina 100% brasileira - TC Online",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T20:33:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMGFlV0RXTVI4dG9ra0lOa0VueXlYSUc1ZDRIMEQ0WWkwUUJ1bFhodFZGaE5kM2hqNmVPQkZMRHVVcVVUcUh4c0pUa0k0c1lMWVpVejhhcnJ5UXZldmYwN2llTXJ2VzZnckc0ZWVwazNaakFaQkRIek5mcXZ2UEJ5ZzIyZ1QtUk9iUDR4bF9FV051ZmZL?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TC Online"
+    },
+    {
+      "articleId": "gnews_dcfcfbd12429b88d",
+      "headline": "Anvisa aprova testes de vacina brasileira contra malária em humanos - Metrô News Jornal",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T20:01:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZGpGYVZNWjJKelBsaXRfVHB3dGFPbTlkNXFQMi1mbFFWUERuVXlFS1R0elBtUGZqbGZYRmpCNG1VZFEwY1dBT2UyWjljQnVadmRuTlN2b0dOellEM0xfY3Fya1ZXRVlLMlBGN0pNLWZvMU40TmdXcnZLV2wwTzB0alNzNDB1N2haR1VjMU05WThfUlBjLUI1Qw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Metrô News Jornal"
+    },
+    {
+      "articleId": "gnews_2d818cb8e20458fd",
+      "headline": "Bahia reforça vigilância e vacinação para evitar a reintrodução do sarampo - Achei Sudoeste",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T17:33:53+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN3RVSkxYclpsLUJBRmNZVVIwR2xXTkd0ZDRYSVNBbHAxNFc3ZHBVR0swam5jeWdjNE9sNkxwcnhka0JTRUVvay1hT1dLUUNKUFhnTTVBbGdNU1UycXF4WlQ1SDBPYnVnLTBHZVlDX25wQWNDcXVzYVQyYjdhRnpNSEl2LWhDa3FvaEdHbkc5a1hIUWVmMUowTk5tbnlmRFp3YnE2UkptM29OZWJQdUYtc2g5a2RkQkVFNnNmTjlvQQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará",
+        "Bahia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Achei Sudoeste"
+    },
+    {
+      "articleId": "gnews_409e9c3d58057423",
+      "headline": "Teresina reforça vacinação contra o sarampo após registro de casos no Brasil em 2026 - Portal R10",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T16:13:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX0pvbmNsS1pubndESm0zeGlRcWM3LWZZVUFCTXVISTQ0YkQ2RndwdnFvRG5UZ1BsOHhxcEJSWmhPZzJJR0IwOXRZMmVRel96VnJpVjE3YnE2dXhoeEMwMzhhNEM4X2ZjZExVU2FsYmcwMzZPYUNmckJta0w3OTA0RkhEcUh3QzMyeG1wY3ViVFJjUHNPZ2o5bmNwMUFnWWdzQ1NHTGJxWTNiQ1VhSkJHXzVPYVN5d1pqUUQwanUyOGkxTUpISXhwTkR5V0F1SzhEdC03VNIB1AFBVV95cUxPX0pvbmNsS1pubndESm0zeGlRcWM3LWZZVUFCTXVISTQ0YkQ2RndwdnFvRG5UZ1BsOHhxcEJSWmhPZzJJR0IwOXRZMmVRel96VnJpVjE3YnE2dXhoeEMwMzhhNEM4X2ZjZExVU2FsYmcwMzZPYUNmckJta0w3OTA0RkhEcUh3QzMyeG1wY3ViVFJjUHNPZ2o5bmNwMUFnWWdzQ1NHTGJxWTNiQ1VhSkJHXzVPYVN5d1pqUUQwanUyOGkxTUpISXhwTkR5V0F1SzhEdC03VA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Piauí"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal R10"
+    },
+    {
+      "articleId": "gnews_77ef1babdaac1659",
+      "headline": "Sarampo: Brasil registra 52 casos em 2026, todos importados - Jornal Extra Alagoas",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T14:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMmNRU1ExWV9hb1pSeDV5d1NlSERUVmg0UHhoYzF5V2tiMTNtOFJUY1NULVhHVGFmeHR4ZERvZkRRRHgwVGUxRVpWODlBdTg1d1pxS3ZoVUt0SjRHeFdCNlFZdGNNWVhYWFZBTVg1NTNfc3F6TV9jc29MOUt6cGJLR3FTZnE0a2pVMWk1ejNvVFF1N3VndDFxdC1YR1NzOS1LY0RpcWRDall3UGZ5NzhfNmtMMF83alk?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Alagoas"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jornal Extra Alagoas"
+    },
+    {
+      "articleId": "gnews_c1606b0ba896d393",
+      "headline": "Tecpar concede Selo de Inovação à plataforma que monitora dengue, chikungunya e zika - Coluna do Meio",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T14:14:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUzlOdlVxSldTRzM0RU1xT1VfN1NDMHI5T1d1Y3lkRDdnSmRiUl9ZRmlUOFZaWWRvV2Qzd2JGLWo4YktRRUJuRW9KMDk4aEhFbUxoRElrZUdwaF9Pd0hwSk1SNmh4V0M1OTlkenBrQ0phSGFISWlqOW44VFdlTzFERXVNVHR4b01lRDFLZ0pZaE1yLUhuVmppUDZJNWx0MGhNbzB6a25QV0Y1M1dzVmZEaUl3Z244SjF6Y1hucUF4OTI?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Zika",
+        "Chikungunya",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Coluna do Meio"
+    },
+    {
+      "articleId": "gnews_d51adfdd97f17cde",
+      "headline": "FMS reforça vacinação contra o sarampo após registro de casos no Brasil em 2026 - CidadeVerde.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T12:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVVFTWmFHVGh1WEhOcGhNb1pDNHBiSjIwQ3pQWTNrTWZURGo0NEFob3hWWmtWRnQwbXl6NFRucDNLdTNfZDJrWWN2cVVXRzRqYVYtVkZzd0JRX09rNVVsZ3VfZll3eDFHUDdMQnd4VHlfU3pLUW84MEpWV19ScEpFcmg1ZDdhZi1ta3BzNkd6NVRFSzd6b3BjSkNJOXJ0RnZsOUpXRUZIYjdsQWNjX3RUcDlVcm9Gd3M?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CidadeVerde.com"
+    },
+    {
+      "articleId": "gnews_8042f6e0edecf594",
+      "headline": "Human Mobility Undermines Brazil’s Push to Eliminate Amazonian Malaria - Bioengineer.org",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T11:08:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWjBXNUhDV24zTnlfX1J3NUVqVXJyU0FOcDBBdW1PalZDQ0ZiTGZPcm9ieGVxUWZ0ZmFhMmtobTBuSTlhdDdWUUhHRmJ6b0JPVy1GMXh0X3JZTDN3UG9aYjRSWnlhdnRxa0pnSXV0T2xBY1huOEl0bUg2Z0VBT3FtTHp5RVR6SjhiaE9tZzlMcUlSckN6NDV2aVhR?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bioengineer.org"
+    },
+    {
+      "articleId": "gnews_a346143ed9cd142b",
+      "headline": "Quase metade dos municípios está em alerta ou risco para presença do Aedes aegypti - Brasil 61",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGctRzJJYmRsZHhjMFFxUlVudlVFNE42ZFdidklfSURuSU9YVUxhUERhZjZfSTBqZmFsRnI4eGJNa29YYXVNNG1rRjZMd1lZZFZnaUJXR19yRWxzenpRaXFtdjE4a3c2WE1pYi1LNnpnS181Q1JSMmNsOVR3a21tUy1XbHlocVRUTk96Q3plZHJQWGI4R2pVaTlvTkFDaVhSZ3NEM1o0Nmg5WndIYl9DbjQwckZFSHFI0gG-AUFVX3lxTE85a0RGVWxkeERpT3hMSnJvTlpsNUpwYVZMX2hpSXpSelFVckJuSTFKZVdTdWphMWc5TWNfN0ttN1BjWWczMzJwVUcybExEZ01jQkY0a3RNVHdrMzBmemh4MnJycjExMVp6aVlDNjRkdW84Vy1ISndCNEM2U0pibEJfV2ZWVHhRLW5SZi1rek5QVzNBdUdYNFJjakQ4YkR1bFFFRTZ3RFE4UjBjQmRiQmFPaS1iTExDTGx3c1R3ckE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Brasil 61"
+    },
+    {
+      "articleId": "gnews_d6c1ade05e7a89b0",
+      "headline": "Bahia intensifica trabalhos da vigilância epidemiológica e vacinação para prevenir a reintrodução do sarampo - REDE BRASIL DE TELEVISÃO",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-10T00:33:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUUQ2Q1BhTkloUFd5WFVpNVJUcnVkRnZQZ2gtSkh2cmFxOWp0ak45NFYtMFlwRVlJSGxkdDA4UlZWOXBGcXlKbUFscnZhS20yR1lDN2s4WkZZTEFCQWpBOG9ZV0JLS0RFY0VERUlOdkxpNzdCUkJVLVFaQnlMd3poZlJNbWNWaERVWlRmTzdVWkZCRU1xWWVBbUk5bnpTeTBzMDU2WjU3YjdxbVVyUllaSlE0RVNFVFlXWXkyNG1jcnpienNCM09VdEdmdG1xT09YZFhsYkFiM2JfUDExZGlr?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará",
+        "Bahia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "REDE BRASIL DE TELEVISÃO"
+    },
+    {
+      "articleId": "gnews_872d396448da534d",
+      "headline": "Sarampo confirmado no Acre: médica orienta pacientes sobre vacinação - ContilNet",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-09T22:28:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaGM1ZXlncjJUSms3QkVXS3ZiUnF1STlIYzRLTlRSWXdVQkpXbDJEbDVUYnVpWkpVX3VkcEdSemVDWHptVDBPSVFldExldDI5NXlBazVWMEEtRXIwREw0SzA3SGhLdmttbnJoX3diQnVIU010S3JHRmVlSGpiNHJGNTQ4RUNONzFuTm9lQ0FiQ0w4YVZsNnhyczdWdEQ3S0prT0VWNnkxZjhab0lUd1E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Acre"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ContilNet"
+    },
+    {
+      "articleId": "gnews_ff520746587a7afc",
+      "headline": "JP1: Sarampo : infectologista alerta para importância da vacinação - sampi.net.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-09T22:20:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdHlvTnFqblNRNjVCWXpKSEFES0RONTNEOFE5SV9Xbm85S0twbHoyZkFyS3VNZkJwTnZNdFYtMkNBVy04NFZjOHZ0LTlGSlZyaDAyZzFTZWpjaU1ld0xHVC1YQ29nVXhFcV9qN1M4UXhINkd6NEVyamtQLW5pSUxycVNJZ1JkV0tpTEdYWERGNUp1SFNFc1p0SzNYeTRkcUh2S2FtSDl5ajd6ZHppSm5RV0hpbVhMb2pST0luVjB2M3h3QQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "sampi.net.br"
+    },
+    {
+      "articleId": "gnews_6b8528ba47e175cd",
+      "headline": "ALERTA: Casos de sarampo no Acre reforçam para vacinação e vigilância em Porto Velho - Na Hora Online",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-09T20:31:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbU0yTGNYemdUT2sxa0NGaW1rUVgycG5HZ0ptVjRKcG5hU1lnYk4tc2lVc1FfNjVuNVhqNnNkQk1QRk5WcE55OGVZdmdyQjlLc1pFSmVJVUJlVjVNc21vbk9VbEFxX1piMTE3OVVWd2laZlh1S2s4Z092cWVvYjh5cXRSanhGSlF0dU1uRFVhRzhkUmdXX21NZGV6WHpDYnJ5YlEyU3c5MzFIWW1YaVV1OWRKVW1KMUlMTURtZHlQWDdSWFoyNFZTS1Foa1p4RGQ1TXZWUjRn0gHbAUFVX3lxTE4wSDdIQ2hIWkVZMmFYSHlfUi1Pa0R0ZGw1VGtwS25Lc29QRFRQdWdHaWZmX1JoZ3lPTWNyN1dBQWpYTzZHdnRncWdXMzJzTllDS1BwR2N0R1hTcGVOV05fLXZHOVhWWE81bHYxZDYwTWFFbWxDVDRaYXVSYko4aG1BNi16aVF5SzRzd0RkVGw5X3J6NVY1UVpwZ3NNS1dHNXpwaVFFdUd2Z0dHMzRpSUU5V04zTHduZHgzc1VIYzBLUE9HQkJIV0JCbE14bFZNWElMbmxkVk4wRDdhNA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará",
+        "Acre",
+        "Rondônia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Na Hora Online"
+    },
     {
       "articleId": "gnews_f7f56fb295f9d50d",
       "headline": "Dengue: diversos municípios brasileiros entram em alerta; veja como se prevenir - Terra",
@@ -59,6 +309,47 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Terra"
+    },
+    {
+      "articleId": "gnews_05b57e250205952b",
+      "headline": "Gripe aviária em Selbach: 70 propriedades vistoriadas em menos de 24 horas, sem novas suspeitas - avinews.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-09T19:59:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXOE1mR296SXBDZDd0YTRVRF9lWGg3MDBhMkhhc3IteG41dVF3ZUlxcnN6MjFiX1hWb0M1MmpoSmRoWGRDc3BxNTdlR0ZQc3hpNVp6ZTBqSjRaQVVpU2pvQTJ1X3RQUG5ZOFJ0Y3B2YUJrd283cHVabnZBMDhRZw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "avinews.com"
+    },
+    {
+      "articleId": "gnews_087090e3d72e907c",
+      "headline": "Arapiraca se prepara para soltura dos Wolbitos no combate à dengue, zika e chikungunya - al1.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-09T19:27:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdkZmSUZ5a0ZMV19TRS1UaVpibFFyOWFuV2VvcjlkXzNzV1ZUNGh0ZFJjdFhUMDIxRkJBMXBRNEhWTG52c3JrQVFXWUMtcnBvZTl2OVhqVkdPRlhNcURBV0Eyc3RLbWVObDdCZUZVSy1qdzRGOEdXUGpNbFg2Ui1pQ1QzMC1xUzFqWGdiRFZ5QTlfNTl2VmUxYkxENmpOc2hxc201RC1ZMnlUcVQ4SXBZaEhyU2Z2T0VxMHJvdkZweGpZSnlTaGlEQg?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Zika",
+        "Chikungunya",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "al1.com.br"
     },
     {
       "articleId": "gnews_d1da50f6e55e5153",
@@ -99,8 +390,8 @@
       "sourceName": "Jornal Panorama Minas"
     },
     {
-      "articleId": "gnews_ceb88b04db4da56c",
-      "headline": "Mato Grosso do Sul reforça alerta contra dengue após avanço de infestação no Brasil - www.capitalnews.com.br",
+      "articleId": "gnews_4417a72e636772ac",
+      "headline": "Mato Grosso do Sul reforça alerta contra dengue após avanço de infestação no Brasil - Capital News",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -112,51 +403,11 @@
       ],
       "locations": [],
       "states": [
-        "Mato Grosso do Sul",
-        "Mato Grosso"
+        "Mato Grosso",
+        "Mato Grosso do Sul"
       ],
       "dataSource": "Google News",
-      "sourceName": "www.capitalnews.com.br"
-    },
-    {
-      "articleId": "gnews_e1d88f246b2fa14c",
-      "headline": "Tecpar concede Selo de Inovação à plataforma que monitora dengue, chikungunya e zika - Arena de Notícias",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T18:33:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWVhQazVseWd0bmdzczVEZUtfSDdrT093TmNhZG5WWGV2SEZUWGxnRW9jXzRpZnJlTkNYMG5LS0Eyd3FmUTRGQzUxeW5HM25QM2xtS3Vqd3dhNXplMjB1WXlXSEZUelFlRUhmUHdrVEFxdmZPQkN5QTJVU2h3VzdNYXB4U25GNHFXd2NTanowTEkyeXYyX2EwNzlpbnc3bEFGTlNaVGsyaVV3aGViaWpUMW51OWtEOXI3dW1WS08ybnBhZlRVZkxwVA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya",
-        "Zika",
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Arena de Notícias"
-    },
-    {
-      "articleId": "gnews_9dca4098db41446d",
-      "headline": "Eusébio inicia nova etapa de combate à dengue com método Wolbachia - CN7",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T18:23:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUjg2NEt5M0hnMGFEcnFBOVJlMFBvR0l0TEwyZy1JQ2U3aUE0MW03SVJEQVVKenE1Zk1zQktlSGNwa1ZqMlF4NS1yZzdxVEI5ZWcxT1Z5UlRFc2lYeWhSSjZManJFMjFhUzVjNlVwSEwwcWNNNEFCNTRJVmNmTWhINWJlUlNLd1VGWS1iU3Vkaw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CN7"
+      "sourceName": "Capital News"
     },
     {
       "articleId": "gnews_805f2df7aee28ff2",
@@ -172,8 +423,8 @@
       ],
       "locations": [],
       "states": [
-        "Bahia",
-        "Pará"
+        "Pará",
+        "Bahia"
       ],
       "dataSource": "Google News",
       "sourceName": "Sociedade ON"
@@ -192,11 +443,30 @@
       ],
       "locations": [],
       "states": [
-        "Bahia",
-        "Pará"
+        "Pará",
+        "Bahia"
       ],
       "dataSource": "Google News",
       "sourceName": "- Bahia Economica"
+    },
+    {
+      "articleId": "gnews_965448fc8bb128c7",
+      "headline": "JD1TV: Especialista diz que mudanças climáticas favorecem dengue e outras doenças - JD1 Notícias",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-09T17:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWh3eVpFTGd0ejR6RlRmVmJXb3N4eW1kZzQwOFBPbEE3ZXc4VXdIUWdxWGEwb25CRW1aRUI1UHdkSDNhVFdPSXZ3Uk9HRkw2TVVSMjVIVFdCdExUdUVETTlNNXQwSkRGaDR1YTByTGQzcGJWQ2hhelRTcmhwZFpCY1NBRVl6b0NtUXVXakVNQWF1c0dsR2dGazNYVUZEMVNsNnVTNTJzalpGYmlzUWYxVzdNVGhvNldjOVNERThBd2hMVDlYSHV3NFRn?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "JD1 Notícias"
     },
     {
       "articleId": "gnews_5aaa9f767294f39d",
@@ -219,13 +489,13 @@
       "sourceName": "Jornal Panorama Minas"
     },
     {
-      "articleId": "gnews_37bc0a580d54e58c",
+      "articleId": "gnews_6b954824154b2be6",
       "headline": "Teresina registra cobertura vacinal contra sarampo abaixo da meta de 95%; veja onde se vacinar - Portal O Dia",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-09T16:35:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTm9CN2lvQ241TkZjYUJwcTAxejE3bTdsNFhIZk9vakJNNFdFWHJxWUNLWkR5Z2ZiS2dzTEFKY1ctM0xXUmN0RUU4QS1BRlJOT3QzTFZxNXN6Q3ZiR1I3QUVrc1FFU19TcTB2M0xmRElmYWk5QWdKRGQ4dFZGSWxxaFp5WHJkZi1KeXB4SHRhQXd2MEp0VWpoaE5NMjNpRGUtSVlaMGZ4dzllamoxN29WSzN0U0V1a2pjTjYtVVFUNU5yXzFIc090R3g3WHJyczJZVUgwWkdIa1prRUJYSkHSAeMBQVVfeXFMTVYtRE1WcEQ2M3BrdHZZcXdDcU9uTFNxa3B3X3hhdWRka2JBWHc0MTJQelNQZExRb3lmbWdDYkN6TmU0NjZLZnd4TE45eDFpbTZPN2tyOGJOMVhkTlIydHVWS0ZJemVSdWRhV1U0cFYxam5JV2RUQ1BBelFkbzR1ZTMwU3VCanBMeVRCa2lIbUFkTUE5SjhoVTA3QlFSdjYwMS02clB3UEd5MWxYMURaMUpJTGRybzZtaGpqVlFNRFB1UzJiUHY5aVJwWllDRHBiUE9zXzRuOFROWElnVF9WUlEzUHM?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT1V0UUMxbnpnS2RJQldBalAwbXJScm5wV0ZKejRTZ2xlc2VaLWtSOGJjR2lxWTdIODRjS2xoaUk1bHJVejI3dUJfSmpBZF9hWUZRbVR2WUZYWmVXdW9wZFBTNElDTkZEQnRkaVBpdmQxZXgtQktCWm90aW5GMVY4LWNscGNwb21ZWVVHS0FsREtuSDBFVF9qdGtYNGRfZ3hmb2Fqc0gxU1JzUU53WUdSMzltNFVrN01RRS1XTE1uRHBqUXZtZTZ4azhSMHViVnFSTmp1M0pUbFdaUdIB4wFBVV95cUxNVi1ETVZwRDYzcGt0dllxd0NxT25MU3FrcHdfeGF1ZGRrYkFYdzQxMlB6U1BkTFFveWZtZ0NiQ3pOZTQ2Nktmd3hMTjl4MWltNk83a3I4Yk4xWGROUjJ0dVZLRkl6ZVJ1ZGFXVTRwVjFqbklXZFRDUEF6UWRvNHVlMzBTdUJqcEx5VEJraUhtQWRNQTlKOGhVMDdCUVJ2NjAxLTZyUHdQR3kxbFgxRFoxSklMZHJvNm1oampWUU1EUHVTMmJQdjlpUnBaWUNEcGJQT3NfNG44VE5YSWdUX1ZSUTNQcw?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Measles"
@@ -257,27 +527,6 @@
       "sourceName": "ncnews.com.br"
     },
     {
-      "articleId": "gnews_84c75be7656ea6ae",
-      "headline": "Contrato para emissão da Carteira de Identidade Nacional em Mato Grosso do Sul sobe para R$ 16,3 milhões - Capital News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T15:56:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNTl94M19oMGotLVJPdy1oMEpWdEdpR0VoSXRIQ3J0RDVPOVVmU0dFazFIM3V4RWJTSTlOX2p6bENXOF9sTzMwYnBEZnFUUTZkeHZHMEFzUGF0Ty11c2NoMWV0aEJGblNCZ0Q1ZmxCVDN0ald4bzZoem9jMHp2TWN5cU5lejdsak9WNlIzUl9nSllGQlY2cHhFOEY2UU92LW4td3M1OU9rOVl0c2pTZndiTndTWFJVV2d2SW51UmIzS05McG51cFNQX1d6MWI4OHUxdzN5YVpkZTRIX2ZUUWRla280YmRnMXdQWWpwS2l4UHh6MkdMWmFDb1VvTQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Pará",
-        "Mato Grosso do Sul",
-        "Mato Grosso"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Capital News"
-    },
-    {
       "articleId": "gnews_7c46e24ffb4f4df3",
       "headline": "Mato Grosso do Sul investiga três casos suspeitos de sarampo após alerta nacional - Capital News",
       "headlineTranslated": "",
@@ -291,8 +540,8 @@
       ],
       "locations": [],
       "states": [
-        "Mato Grosso do Sul",
-        "Mato Grosso"
+        "Mato Grosso",
+        "Mato Grosso do Sul"
       ],
       "dataSource": "Google News",
       "sourceName": "Capital News"
@@ -315,26 +564,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Notícias ao Minuto Brasil"
-    },
-    {
-      "articleId": "gnews_8d4a79d2e8c68457",
-      "headline": "Concurso da Educação em Mato Grosso do Sul terá 2 mil vagas e salários de até R$ 13,5 mil - Capital News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T14:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNDJMZmpuU2pVd0RPVmd5cVJNS0FoSUZfZTJYSGllQUFVLUxvbnVBNTNFRW5HZ01adlUwWm5lNTdCaTlhTUN0RHhGR1p5Zy1ENWZNb1Zxb01vQTluOGw2ZlhuV2U5eWpaVnNoeXJzb0U3cE16RDF0b0dRS0psQ0pRd0JyeUFxVm9rNVFlOE9mcDdqdGlwcVZoMnpudW5kTFBzeklYaXlCeGhGUFIwZnJKdDhselp3Y09CclFobDZHTy13OVREVGZJVkdpa3lRZHRTMjdBY0sxc0pkUEJyRWJWUnZR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Mato Grosso do Sul",
-        "Mato Grosso"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Capital News"
     },
     {
       "articleId": "gnews_d6c837237cef123b",
@@ -380,12 +609,12 @@
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T14:21:37+00:00",
+      "publishedTimestamp": "2026-10-09T14:27:21+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUnRtSjZSQzRoUHBJRzdYTm1YN1V3MUpqVm1ySE5MS0NhSFZRNXNJTGxHWUQ2bmNvb21RSXY2YnJRczNEdXJDR3VkODFoZ0VSWTU2aFdNbm9WcGFTY1dNSlQxT3ZLdlpzZzFVVXIwei03MkIwOG9rbU9RT2tRck9iVXlYRTk?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -423,8 +652,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ1NObjRleWNFcnA2RURmZDMxRXpPS1BSdmlRX25uZ1FlQ1JfZlMzQUp0d3ZfQWlPUkxTYlFXem9McTQtTzU3NENHeUcyYTRFbk1KZmxjeFdzTzFQNzdDSlZNV1puN3JiRkZFaW5EOGF3cVdOaThSNlotV1NiRWhNNGhLWlhkY3JyU2xaU25pcTktRTQ1bWxYYTUxc182YUo2TXE4V3hnX3lIWnhla2dDejZ0bHNaSEJy?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -432,27 +661,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Grupo Ceres de Comunicação"
-    },
-    {
-      "articleId": "gnews_a89bcb6ecebcb3a9",
-      "headline": "Após perder espaço nas urnas, PSDB de Mato Grosso do Sul prepara estratégia para recuperar força política - Capital News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T13:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdmJjUmpld3ZRWmExVHhYOGlvUl9iNjk0X1JLTEZUTlNJXzJ4OHRoM1doYTJGakVwc09aZ1RfdmhLb2wzc2VfVTlMaFl1cUJHRkVYSXNNS3VySDRHdVBMZTJyYnpMeG5wRGVWR3llbjNPUDNTYWNDQ0xoUVhlZ3FHTUdwMUp0Z1BXVTg2TlF2OW9BZWNVZW90VTg3ZTNtVWY4enczeXRrRFFMV3g0RjJKVHhycy1jWi1mbFo0czhFd2RsWUlIQk1oQTNfUUhoeUQ2dnB6TU5pbHU2VVNSX1cyemlwa09WYU1EeWJhSTJWcFpfS3NmY21GYXUyRGo?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Pará",
-        "Mato Grosso do Sul",
-        "Mato Grosso"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Capital News"
     },
     {
       "articleId": "gnews_5a6988ccae6abd4f",
@@ -472,87 +680,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "jornaluniao.com.br"
-    },
-    {
-      "articleId": "gnews_293183d61b193bd2",
-      "headline": "Gripe aviária em Selbach: 70 propriedades vistoriadas em menos de 24 horas, sem novas suspeitas - avinews.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T12:48:10+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXJScmx4NWxpYmtQX2lidEd6M1BtaENEMzdVVnI4NkxGd1ZYVDZwWGItcFQxaVdIT0hRakhaMTl3TV9wWnhxZlIwaTB5WHFlbFpNbzVwYXg2Q1lOeF9IejNFSWR2UVhHLVMzb3JHU3UzR2thbW5qem16LXlhRHR6OVBaYw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "avinews.com"
-    },
-    {
-      "articleId": "gnews_74fbcff7cee00243",
-      "headline": "TSE barra candidatura de Jerson Domingos após eleição em Mato Grosso do Sul - Capital News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T12:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMUx4Ykw3UnNaM3hybEt5NWRReWhUUjQ0dUR4M0VCbm02VzA2R2VvdWhyQWFEZDJOT0labmg5Wktvdkp6MENUNDJhZks3VmVLNUFvcUVlUTBrRkFhWENfSU0wd3pPX2ZSSmpPTFhCZlJWcGh4cGgxWEJpZWc2cGNEOW5SQkZmV1lMNVc4a0N2YVp3SGJrcEZBbmNYTWVHbjNPYzRQamZKdVAzOHhENEVrUUVpUVFrTWlCZlZjT08zMl85X3U5S19VUEdSRm5HTUhnRG9sb1Vkbmc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Mato Grosso do Sul",
-        "Mato Grosso"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Capital News"
-    },
-    {
-      "articleId": "gnews_3c4951dd0d69a2bd",
-      "headline": "Propriedades de Mato Grosso do Sul vencem prêmio nacional de sustentabilidade no campo - Capital News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T12:25:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWGxRNEl4aXNfMC1XZjlHMmlKTU1xeTBLVDdUblVGOWVIN2VhdERYMDJJTnpiUUlpRHBnWmh5NGlaMFo3dVc2cjBIYmdZa0lBdUNtdWxxQnF2dHhEY1FubC11Yzd6dGp3QVhRZE5ZYmtMWG1VZ0FMYXVDalBSY3JEMm9xX1puTnpIMTNzcTFlTTh3b1B2SG1yOEdiOV9PS3U5YU9XR3JrUXZxanl5N3ZaQkhjVDVwR0ZWS0drZnk1RVI4NG5FSm1vM3l3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Mato Grosso do Sul",
-        "Mato Grosso"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Capital News"
-    },
-    {
-      "articleId": "gnews_00bf34e6588da390",
-      "headline": "Arapiraca se prepara para soltura dos Wolbitos no combate à dengue, zika e chikungunya - Tribuna do Sertão",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T12:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTkFsc3l0U295anEzbHJ5UkJ4QVZNcmttT1pXQk5LWVE3U05YTGlvb3J1MUhCcXdCZE1KZVFLdkF6bGVNbnJFRXRoYkx6VTFJYUhPcm1BTndyWUo1WUptX2k4VFZibU9GZDJoemIzYWNZRW45THpsdnRhaDQ3Sk9McnBYa2RXUWZpbm8yVzNxaFRtakxVUDlTaklzWm9TUmFUQ0ViWnNqdnNsTHFGM3I4bExJdG1yaDllRG9jUnFWTTdPNnlZSTM3aF92YzZ3eHRqdWt0ZVRGdDRYWldy?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya",
-        "Zika",
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Tribuna do Sertão"
     },
     {
       "articleId": "gnews_c9ae40b1f17a40b4",
@@ -621,8 +748,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWXd3YmZzQUlFdmJieXFyRVhENWNVVUsxVEQzNDRZTmxVTk16XzI2N3ZCemNSMGZxVUpfd2F6OEM5MEY1bThfRzlHdTBlWDBDd3B0T3Z6LXNyY2FjdWZRTHdRZWJwMzhXOEt6cjV5OXZJM2stZlRkcFpSTzNrQ1JXRDRNNzk1Q3VGcVg3TlZrNklRNl9jNWtiT0JpbkJpdkdTSG9CZEtDTnlJU2RETVJfVWFFSGFwM3BxcGozVlc0dklnc25KajhYWVFkc0JfSFo4VlZuRw?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -645,30 +772,11 @@
       ],
       "locations": [],
       "states": [
-        "Amazonas",
-        "Pará"
+        "Pará",
+        "Amazonas"
       ],
       "dataSource": "Google News",
       "sourceName": "Rádio Rio Mar"
-    },
-    {
-      "articleId": "gnews_c43d4215ce77f553",
-      "headline": "Peste pneumônica: entenda a transmissão e por que o diagnóstico em poucas horas é decisivo e vital - O TEMPO",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T09:00:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTGpQU2lxSjhjRnpualI2RFVOUHl6Z20ydUFWQnhZUnhFUXk4eFp6cEpDMElSWXdJalpCVnVpN2JzOHY0TTZCaXoyQVAyQllrVFNvejVnVHJwSjVIOHE2a3dMUGVxLUtMTkloSllrZ3dSUG02eWhxUU42T2hLV0psRUlZVHkxOU51U19wY0J6Q3hjam1IcUs3Rm5UZ1pvWUpnOTBobFNqcTRzZldWc1dNck0zc3NJQTktSmI2WUZtNVpVeHVMMnh2Q2pjeUF1Q3MzMG85UkFuZGV1UGxnNnM0MF9hQUhyQQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O TEMPO"
     },
     {
       "articleId": "gnews_fe733f97002fa8c6",
@@ -684,30 +792,11 @@
       ],
       "locations": [],
       "states": [
-        "Mato Grosso do Sul",
-        "Mato Grosso"
+        "Mato Grosso",
+        "Mato Grosso do Sul"
       ],
       "dataSource": "Google News",
       "sourceName": "Capital News"
-    },
-    {
-      "articleId": "gnews_5498a35fcd6a378b",
-      "headline": "Estações do Metrô de SP terão vacinação contra sarampo, caxumba e rubéola - CNN Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T07:56:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdGxQZjhMZGFoMXM3TGVWZ1phRGJ5RmZOamVkekg0MGZldWZXTG9LbU9yb1Q1dmxwV1pUYmNJMlBPUGNtc3BxMzdyd0Nlek9UZ2J3YXE3dkVFczJJMWYtVXpwUnVlVWZSMlBBZ3NkV011VThOcGVGWFliQmhaYXktb3ZqOUdkeHJMOGtYU1VIQU40LXRWR0VRVDhQUXZJNnZFVE5wMk04NjJHazdv?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNN Brasil"
     },
     {
       "articleId": "gnews_e72e76e797c65b29",
@@ -757,8 +846,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDJpX0RvdFV5SGRrZC1nZmxoS1o4UFB5SlJNczNtS0IxR3ltN3RicXNIMTJKbTMzSzZQdWZDbjBadjFDSzdtMng2dDg2SUEtLVlhRTdiNm4yUXdCR0ZLOXg1QV9qSHpMdTZQSHU4Z3ZCbnJqa3FSaXVtYnY1dElnN1hiUzlodnh4OTBwZ0poUlI3VklkOU5wemZ4YnZEZGtQbmtUYlU5ZWIxanp00gGyAUFVX3lxTE1LbWxZenlnelVGU1ZUTmU3UmVPZ2FwM1paWDF6bDBLUXktWW9iY1dHZmNXWGtfT0pNc181OXpsa3VMM3NTWXRwUG10LTMzbGpHRUZjYUxOS1Bwb1h3NVdIT0xOUnJfN0x6Ry1jZmlnWExmN19pTEhqYkEwU1BkUFJfSnRENldKd0U2WjNxanRGNE93ZmV2VXdCeW1ha3AzTzJBUWVBNmN6MnVBNDIzWTJ6REE?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -766,25 +855,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Jornal O Sul"
-    },
-    {
-      "articleId": "gnews_6dbff6e55d5e3479",
-      "headline": "Projeto de estudantes de Salgueiro para combater mosquito do dengue é semifinalista em prêmio - Folha PE",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T00:39:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQS2pOTnVNaGZ3VkZKQ2c4VDRJTzJESUYwZmpmZ1hrLUxXQUJCV1JHeVhyRnpMallzVTlncExRNVpSWmk0TGZjVGVULTVXSm90TDhWY0NwZGdQYmd2b205X3JnWnVIVFNHNkZ1eWluMXRHa2Mwb0FicjJPZ2xtc1RjNDBXU05HN0xjdVFYbTdlWldianhJUXN4WF9TY3FtU0dOS1NMRFUzMEZQS3BjYlp0UEFIeGxzN1ktYl9ncGtxQlV6bVJDaGJxQl92cmowci1EQjF2QThfV0ZUX0hONGtiLV9fMkx6ckdXVkhleDZR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha PE"
     },
     {
       "articleId": "gnews_1a3e7edb0b638d83",
@@ -800,30 +870,11 @@
       ],
       "locations": [],
       "states": [
-        "Tocantins",
-        "Pará"
+        "Pará",
+        "Tocantins"
       ],
       "dataSource": "Google News",
       "sourceName": "G1"
-    },
-    {
-      "articleId": "gnews_a31590d8ac1b0417",
-      "headline": "Rio oferece vacinação contra meningite para pessoas de até 24 anos - tmc.com.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T23:59:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNDJ6cDAyRFBKb21STTcyc2thMVR4LW16Zm85U2Q1YUptZEMtM283bjhKOVhnbU96aUJ2djFqVGUwdlMyVUtUYkFnZHlFd2JtSFlSSmxMUkRmSE0yWnJtdDl1SVNLUTNCUjNCSWt6bnI4TWNxbXJ2b1U0dnh5S0xHOWw5clNsS3ptWVFyQ2k3Mmx5Z0t3anVpSg?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Meningitis"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "tmc.com.br"
     },
     {
       "articleId": "gnews_6da9826ab8231606",
@@ -883,13 +934,13 @@
       "sourceName": "CidadeVerde.com"
     },
     {
-      "articleId": "gnews_671870846e61f6b4",
-      "headline": "Lagoa Santa confirma 178 casos de sarna em meio à suspensão de aulas - G1",
+      "articleId": "gnews_88326f7f36164bcc",
+      "headline": "Sarna em Lagoa Santa: casos confirmados chegam a 178 - G1",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-08T22:54:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbHVUaXFpT2lVZ1h5dU1tZWFIVktMU1hXVFN2b19qMGhhcTdVRjdOb2RYM1ZLcVJrNGI0S3BJQkZlbkIwUXRvcjVpbllSTjRmZkZ0enZNOFYtRWoxMGtHejJkYmxDdTUxWk5fZUhYOHBjOGZ3cm90TVZYVE1BU2gyeFAwZnJuNU9PaWhsbmFiWHRRRGZTRk5EeV9USkU4REJvTHVxS2p3VG0yQmp1dll4eHBTMjB5OFh1dGczano4RktVMTZ5QkQ2bWdIRmdvX3RHSWlNNnF4bG5UYUJHaWhtYlhIdlY?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbHVUaXFpT2lVZ1h5dU1tZWFIVktMU1hXVFN2b19qMGhhcTdVRjdOb2RYM1ZLcVJrNGI0S3BJQkZlbkIwUXRvcjVpbllSTjRmZkZ0enZNOFYtRWoxMGtHejJkYmxDdTUxWk5fZUhYOHBjOGZ3cm90TVZYVE1BU2gyeFAwZnJuNU9PaWhsbmFiWHRRRGZTRk5EeV9USkU4REJvTHVxS2p3VG0yQmp1dll4eHBTMjB5OFh1dGczano4RktVMTZ5QkQ2bWdIRmdvX3RHSWlNNnF4bG5UYUJHaWhtYlhIdlbSAfMBQVVfeXFMTWYxckNhYnlORXhlaVAyXzlJcHRZRjdoR01yVm5sbEJYZnp3ZVktWlItakJvNWoya0JFZUFubi03ZVVBQ1hnck9lNHA5WnRMTGFZdU1LN0h5S2FFYjVLY0dzMWYwUDRYTUhWX29fM2ppTDBXX1FFeWtZazlYX1E4OXd6cGZrVkRqOVJiWFZTN051ams5QUo1MUhvbFd5LXpqdXlweUIyZk5jMXpBS252UGl1S2t3NFZvWWFWclhXTDhVdjlMaDUxdmNWbEhjVTVoZTNjVl9tTUZnNmJVa24tdmFWaWVlbEZDdnVTUmVQRHJuR2Fn?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Doença infecciosa (não especificada)"
@@ -900,25 +951,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "G1"
-    },
-    {
-      "articleId": "gnews_357aaf77317108e2",
-      "headline": "Corumbá e Ladário respondem por quase três em cada dez casos prováveis de dengue em MS - Folha MS",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T22:15:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORmItSV9YajRJVExpN3U1Z1pqNDR3NnUyMDFINTZzc1h5YllSbjRFNmV3R1NSeGdiTFZXOG45ZVB1NDBJUlpNeEFsYjBnV3NrczNwYWM4MGJSajE2RnU2UTdYVjFROV9OaVdQVnExbWF3SmFMVUtBU0VRTzNyV0RwOUdpX0U?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha MS"
     },
     {
       "articleId": "gnews_cb731f3e29dfdb25",
@@ -1065,8 +1097,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOFhtdzIzc2hUdDNxamY3MzFVaGtjQ0NyUUxJT3FGM0hVbXBmcGRtUzB6TEFyZUx3dEI4eExveFV4WnRLckozM08yVzhrNFM4ZElieU4tUU9GVnBHSUxFd0E4bnZQSTg5elF0Q1BLMTgzdlN5OUQ0NElSeFB5VG5mRnhKdldMNTNveXZLZ1BrREhUMnVScmEtQUJuZnN1b19SczQ2OWNrNE44QncxVG1MR2ZDaTAtWEZ5YVJfNXBmX2prcGQyT3VwSzJJd2hqNTg?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Measles",
-        "Meningitis"
+        "Meningitis",
+        "Measles"
       ],
       "locations": [],
       "states": [
@@ -1104,8 +1136,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNXN1MmIwSG83WTRudDRqWmhjNHJ0OXkzQXhTOEhldVFic1dPbkdnS1ZNMTRUOXc5OGY3WDU0Vk9rY0p0N0lvZXFrYld5X0o2LU9ONW5uamt2QlJPZTg5TEkteG1iWUhFcWZFR1p0X3hTRXhJV1dZdUltdGEzaHFhU0lGOS1oZEo2cEFNLXJ4enJVQl9xSEIyRnZHY1VnbHQ4bHhzT3dRNENYUQ?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -1143,8 +1175,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQQnFZU0hJdnlMbzRUQkFoRjdpUmRxYll1SWRnN2hTZlg3Yk1aOTUzM2FaMC1hLU9BUWN6amlsV1pDUFJ5QW9nbExCXzdrWmhsX0NPdEdtTTgxOV9ZVzZqc2J5VGUyOWJtMk5qQk1lTC1odjZ3dnlWOEY3bXRnbmNoa1M3eENNS1hkdE5VVDZqSUFkRnMzQTVqVlRkVkg0cUNqcy15WmF2WXBWRnVsdURnZENPZ3BuaERhNFdjdXd2YzhEd3BwLWY2VXlSQzRPNU5mdXdCU3JFUWt2Z0p6VlhpWWZXSEJpNk9aaUNSNWNoaDBCNFU0NEc0WW15Y3ZiWXRqYkVuZTBB?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -1306,25 +1338,6 @@
       "sourceName": "bra1.com.br"
     },
     {
-      "articleId": "gnews_04843b0cdcca3892",
-      "headline": "Brasil: 49% dos municípios estão em alerta para o mosquito da dengue - bra1.com.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T18:40:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQelEzYnRRNWdnY09BRDV1NGVXdEYtRm5VWUVuYzBSS0I5Q1dfQjRRVy1ucTR4NEd5RWw2WDN6eVR3QXZoWmhGeEJQeklWbEFraTM0S2ZmVFJ4d1VuUWFYeXpoamdFMHMzTjJab25KWGN4TVNzTnRYMHhGTGIwMzdfWWpJNk1PVkNVV0E1N3RaYVotR1d2akVWd0tCWHBFZ3dOekliSVo0NUpRRnk3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "bra1.com.br"
-    },
-    {
       "articleId": "gnews_818a37e2962d49cc",
       "headline": "Fiocruz confirma dois casos de sarampo em pacientes do Peru atendidos no Acre - Juruá 24 horas",
       "headlineTranslated": "",
@@ -1401,25 +1414,6 @@
       "sourceName": "Aqui Notícias"
     },
     {
-      "articleId": "gnews_2be46c60c3a9b0da",
-      "headline": "Quase metade das cidades brasileiras está com risco de dengue, mas casos caem 70% - bra1.com.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T18:12:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa29lZ3FTYjB4U3lqSkZQOHBNc2NVVmozYmdQVjhvZHBPZFJFZHphcTZpTW03VWZGVFJoa0llV3JORWs5ZVh3OU5wVWU5SDkzdnE2YS04YzlfNFozM2xOQVh6NWx2QUNqWUFGRGkyTmRjWk9kQ2hvXzNsWC15ajItME9GampHVk80czRqZktnbG80LXh6NGRNcUdBWXdJX1RfajJBdlZ6R3ZEbk9MREtSVmNlX2xiZGJOUWl1a01B?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "bra1.com.br"
-    },
-    {
       "articleId": "gnews_da47466fe78d9e71",
       "headline": "Risco de dengue acende alerta em quase metade das cidades do Brasil - Primeira Página",
       "headlineTranslated": "",
@@ -1439,23 +1433,23 @@
       "sourceName": "Primeira Página"
     },
     {
-      "articleId": "gnews_4911917878ab13ec",
-      "headline": "Quase metade dos municípios brasileiros está em alerta para infestação do Aedes aegypti - Francês News",
+      "articleId": "gnews_bb2a4e01c8e80595",
+      "headline": "Fiocruz confirma casos de sarampo em bebê e mulher atendidos no Acre - Ecos da Notícia",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T18:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb1M3WGdrQlZtYmpQcE02aXVFMXo4TVdyb3A3X3ZWbFR3M1NVWjRUMDVSdjZRVHI0MnZpT196a29zZy1wRjg2eXJraUNNQVlfRGpRMVpHRTROMVBya0JDaW1IdEFYTGYyRG9GbkVFVGhyS2ZHTmcxNll4cUczV3pabDlobkpGYWFKajk5enY0ODNDbEdYZ2RiZlRLWkV3NlgweXdzRzQ0WEpscXg3eWxWOHFNZVlweWxUOFRibjcwVThieVllYmN1UGw2Q251STE0aWc?oc=5",
+      "publishedTimestamp": "2026-10-08T18:02:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaEIxc2dPQWV0aU1QVjVQMnlQa3dCeXlFYUhUWktIVmJNYVZPQ0NaUEVXQm5jRXo5TEVzNFl6eVNwYVhxWThoOENUSXh1cEtBdXpkenlDT21CSHpVZUJaVlhJQkc1NHV2Y0FaZGg3R2ZINjB3b1REMXljMEhXc0hCV2I2T1FNOXIwNGU2MnFZczNaYzlzWWhpLWszUFZMX3VFTHAxR0lB?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Doença infecciosa (não especificada)"
+        "Measles"
       ],
       "locations": [],
       "states": [
-        "Pará"
+        "Acre"
       ],
       "dataSource": "Google News",
-      "sourceName": "Francês News"
+      "sourceName": "Ecos da Notícia"
     },
     {
       "articleId": "gnews_84b7fef72c718228",
@@ -1472,8 +1466,8 @@
       "locations": [],
       "states": [
         "Pará",
-        "Mato Grosso do Sul",
-        "Mato Grosso"
+        "Mato Grosso",
+        "Mato Grosso do Sul"
       ],
       "dataSource": "Google News",
       "sourceName": "Capital News"
@@ -1526,8 +1520,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeTRVVjhuWC16N1d6Tmxhd094dFlUVTdBVWh3SDZWNFlpUGc1OWxUNmRrMlQ4Q1FMcnBuZXNMVXByRWdtWTR4T3hLVnZsLWZQbHM4LUZMMlJ3UkozdElXblRlR0kwYUFFUU9KaTVfMzdkX2ZFZ3lULWZTbE1vRTFHLVJNTHJEd2pOV0NPaUNmN3VwSmVmR1NGNzQyby12NGxBSkpGLXZfNHpQMEZ6UGc?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -1535,6 +1529,25 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Rádio Alto Uruguai – 92.5 FM"
+    },
+    {
+      "articleId": "gnews_b7da5936303a2360",
+      "headline": "Acre confirma dois casos de sarampo em pacientes do Peru atendidos em Rio Branco - Grupo Jota Sidney",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-08T17:45:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQUWRLRmlMNWhfcVhKb2VKNzE5RnRmTGt6THJjdDVyZ0xLeERLeVRuNXU0WFJVX1ZXNGZjS1FhYmRod1M5S3A1WVQwc1NLSzdtaXp4ckJweW5rY28xWnhZM1B5YmwwSUQ5cENUblc2dm5IYXdyQXl4by1aeDJNUDZVcGtyQmZQaHhjdnF4eTVadGhmV2locGtjMDM5UnhFUjc0b25vanJuU2pocl9NZmQ5UjZ1WjM1bjloOEJUMFZETGRteTZJZ2x1OUhTd01vVVJ5RExIQl8wY3VvT0tpa2xoNzQ4Qk9KWlNVTEdSSFlVMzhfNWxPZlHSAfsBQVVfeXFMUE9IWjgyN3RsZ3czb0hkT0hIMG1sODZZNTZ0c0lubTkybExXQU1fb3BzTUJXT0hvd0tpekdoTjJGYl9DQ1NVVHlqQjFsaEI5eU56NXdJN3BMWmZEVDJITGMxNEo3ZE8tY2JtQl9jbFh0VTZ6ZW9RQ3hGaThCNnBEaU02dVM3UExhVDM4ZkhfN2hmdFJOWXZlVHJHSzJJdlNSSkxZbFRRbGNNSGQzeXBDdU1ZMGFWM2FzU1FEM2ZvUV9naUtlczZLazI5ZVlUM2Z6X3M4bjN5dldpTTVtNi1fQzV0UmJnYm0zZGJkV2N0VEh1SDNqY0xKd3NwSGM?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Acre"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Grupo Jota Sidney"
     },
     {
       "articleId": "gnews_0e13336d0d1a28b4",
@@ -1550,8 +1563,8 @@
       ],
       "locations": [],
       "states": [
-        "Mato Grosso do Sul",
-        "Mato Grosso"
+        "Mato Grosso",
+        "Mato Grosso do Sul"
       ],
       "dataSource": "Google News",
       "sourceName": "Capital News"
@@ -1595,13 +1608,13 @@
       "sourceName": "Acre Agora"
     },
     {
-      "articleId": "gnews_791c478d3dc3dba0",
+      "articleId": "gnews_1f7d10dfb154cdd5",
       "headline": "Acre confirma dois casos de sarampo em pacientes do Peru atendidos em Rio Branco - G1",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-08T17:26:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNXzA1WW84WmpRS2lvQlJPUUdtWmtlY2VubWxVOVlRSG1odlpwMHpacWtrTGFEZXgyQS1hNWxqUXluamFsS2xvclNFM1cyaXhaYVB6T2ZHQTRpNVFodi12Y1c4YllCMU5nRHh6U2Q1UXZUVldUYjJIWjJyRC1RbnEySWdvbmd3TTlyaGxsci1DYXFmVEtDWmtRVl9aOGNnM0tSVE41Y1NzVHlrSlJCWWlmWjVYTWtrd0V6YUhBUWlzZHF6YlBaa2Q4TjNqd1k4OG8?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNXzA1WW84WmpRS2lvQlJPUUdtWmtlY2VubWxVOVlRSG1odlpwMHpacWtrTGFEZXgyQS1hNWxqUXluamFsS2xvclNFM1cyaXhaYVB6T2ZHQTRpNVFodi12Y1c4YllCMU5nRHh6U2Q1UXZUVldUYjJIWjJyRC1RbnEySWdvbmd3TTlyaGxsci1DYXFmVEtDWmtRVl9aOGNnM0tSVE41Y1NzVHlrSlJCWWlmWjVYTWtrd0V6YUhBUWlzZHF6YlBaa2Q4TjNqd1k4OG_SAd4BQVVfeXFMTzU1OGZ0RlNNT2Vsa3JtVFVEMUFUd0ZWQy1OZVhLb0VwT2I2ZHRrMjhhNlRpZGx4SHhzRDhqY040ekU0VlNoYkF6a081blB0bDdmRUh0OFhlUGN2M2RmSTB5X1BWNGgtQTAtMnRaYnYwbkM1RXNoeG41LTU2M01sSlNHTVRzMURfaVJlMEJlbGJhREc2YkNBNlhQS004UVVnejF5b2Q4UmRwRlBQV3UyMzFPbFZuOG9oRjFyVW1meWtINl9xeWlMNlFuQWoxUHdGYklRdWxrNGpQM2ZVeEtR?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Measles"
@@ -1652,27 +1665,6 @@
       "sourceName": "o rio branco"
     },
     {
-      "articleId": "gnews_9d7ffb0be9ee902b",
-      "headline": "Saúde intensifica ações de vacinação na PB e promove Dia D com foco no sarampo e meningite - Paraíba Já",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T17:09:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQi1QdGV1TmdMc3UwbW1tMS05MHN6TGJfSVZ5SUs4Z2gxNEROZFpWcXNaN014cjVlcjRaN2Y0MmUyb0hoUEgwQXdxbHZsRjRsTS1HTG5sZHFWbUFrR1R6RC1GbDlQOGlFeGV5ZVVEZXBMM2J4MnBsaHRpTVQ3U3hhZ3B1TTlSSjdnUzVQUUJVYndleEhPLVdjempDZzFFN0toU1ZDaHVoQS1RRHFQQmszQ2JmOWFEZmM?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles",
-        "Meningitis"
-      ],
-      "locations": [],
-      "states": [
-        "Paraíba",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Paraíba Já"
-    },
-    {
       "articleId": "gnews_51197ba46daca2c6",
       "headline": "URGENTE: Fiocruz confirma casos de sarampo em pacientes atendidos no Acre - ContilNet",
       "headlineTranslated": "",
@@ -1692,25 +1684,6 @@
       "sourceName": "ContilNet"
     },
     {
-      "articleId": "gnews_b567d4fb8cd53e76",
-      "headline": "Aedes aegypti: quase metade dos municípios está em alerta ou risco - TC Online",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T17:04:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR2lFQVhNUnRGX1JwWjVKdVc1XzhyM1pVM25VZGpfaWNxMWY5LWUtZGlXV2JyeUxYaUdEQnlESlI4cFU1aFdzakZJZUpWdXBlYkMtdTZWMEpuTGdOX3h0dVZZblptMFM5ZE5Sb0I4Z3FaNEQ3aFYzSmFieWFzVFA4OXh0M2Y0RVJSVXRscUpfTy03ZE42?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TC Online"
-    },
-    {
       "articleId": "gnews_fc9967cc667fc98b",
       "headline": "URGENTE: Fiocruz confirma dois casos de sarampo em pacientes atendidos no Acre - A Gazeta do Acre",
       "headlineTranslated": "",
@@ -1728,25 +1701,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "A Gazeta do Acre"
-    },
-    {
-      "articleId": "gnews_75f095aea6cbbfc8",
-      "headline": "Quase metade das cidades brasileiras está em alerta para a dengue - Agora Litoral",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T16:21:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTnQwTUtadjhMV3RTOXZqSkF1RENEZW9STjU2SkxuVkdqRFhQeXN4QWVSS1dnR2huUWp2MzhlRlJTbmI2cmlNLUowcmVodXRxa2tuNmhCd0RJY0VaUHlRdjNQQklmMno2eVFnbDVfVlpfZGlTWU85QXZKZnRDVU1uS1VIc29GV3pRdVl2WnNvem9tSXl1QzJMWHl2MmI3VG85LTQ0bjE4Wmo?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Agora Litoral"
     },
     {
       "articleId": "gnews_6e5892bcfd684d93",
@@ -1819,8 +1773,8 @@
       ],
       "locations": [],
       "states": [
-        "Piauí",
-        "Pará"
+        "Pará",
+        "Piauí"
       ],
       "dataSource": "Google News",
       "sourceName": "Portal Piauí Hoje"
@@ -1858,8 +1812,8 @@
       ],
       "locations": [],
       "states": [
-        "Acre",
-        "Pará"
+        "Pará",
+        "Acre"
       ],
       "dataSource": "Google News",
       "sourceName": "ContilNet"
@@ -2045,8 +1999,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcGx3d2ptaERDeDFNLXJzSUoxS2xpNXZJMklneC01X25jMjVkV2t3X3U4blVxTmlnZktScXk0UVRtQlZDZzdERjVkRndDUEw4QmdsU0ZXcVQ0cEdCRktiZElCRGF4U1k3d09TZkxPTUJLTVVLVjZyWDE0TWwyNnB1WE81N1NCUEp6ZnIxQy12R3pMRTlsQVdXa005bGIwNk1zdDNMVHlzMDZmV0FWQ3I3V1R2SUZvTVl2Z0lNVFJLOEx4RjjSAdIBQVVfeXFMTVpKMTVmeURmazQ5Nm5jLWlsWFlHcXBuUVNvRVZYNVpOM3lQVE1HZ0Rla0lyWjNQTHo5NXhKa216V2gyd0h5R1A3aFdUaHo4eEQ1YkplMG1WODd3MWhhbEFYOXREOWxickhIRUNxZm1KRXFUSmJ5ZnFLemdPSFQ2blpZZFVWdFJqRFgyTVVGODlYX2ZseU1fTnlRVDZKaUZ6MTRmQWs3YXcxMHViZE5mTlBNODlnbGpoY0RXSVNwb1VMZ3c3YmRucFVCdjQ2eTBFVDd3?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -2056,8 +2010,8 @@
       "sourceName": "Globo Rural"
     },
     {
-      "articleId": "gnews_a756eabbc8533997",
-      "headline": "Aeroporto de Belém tem vacinação contra sarampo durante o Círio de Nazaré; veja como se vacinar - G1",
+      "articleId": "gnews_2210155b380b519c",
+      "headline": "Aeroporto de Belém tem vacinação contra sarampo durante o Círio de Nazaré - G1",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -2153,25 +2107,6 @@
       "sourceName": "Diário da Manhã"
     },
     {
-      "articleId": "gnews_94e768efa99cff5b",
-      "headline": "‘É o vírus que mais transmite entre seres humanos’: Padilha faz alerta após novos casos de sarampo em São Paulo - Diário do Litoral",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T13:35:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbVJ0S2gzWWJ1dFVmRzh2eHZncXhFVEc0WUdnMGlaUlJpWUZZbmN0a01LQUpYanVPNE9jdkFkdk85YVF6NWdhU1k1R28wNFFuNmxDeWdTUVpDaVRWWmJlVFI2X3VZZTQxbnNwRzU0ekhpS1hET0M4N0ItT3lCM1M3b19FSHY0SXM0LUs0emw3SndBTjVETXZfaUtqb0o5dElacE1CcFJxWlZydVJRYlRWTF8tRjBCbDRyMnRfc1M2Tk1OaUpKMktQdHY5aTVYcDBlRXBGV2R3NDVhRE5iOEx3VHBydVFJQWhjZkxsb2hVd0lrZGc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "São Paulo"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Diário do Litoral"
-    },
-    {
       "articleId": "gnews_a88c59da64d64520",
       "headline": "Brasil registra 52 casos importados de sarampo: 10 deles registrados no AM - G1",
       "headlineTranslated": "",
@@ -2191,8 +2126,8 @@
       "sourceName": "G1"
     },
     {
-      "articleId": "gnews_1b0aa7caf9baaac2",
-      "headline": "Vistoria no foco de gripe aviária em ave de subsistência no RS é finalizada - Globo",
+      "articleId": "gnews_19d0e1716bbcca72",
+      "headline": "Vistoria no foco de gripe aviária em ave de subsistência no RS é finalizada - Globo Rural",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -2200,15 +2135,15 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa3NscHUyUzhSRV9Kclo1SHlWM2dmbE43b0dmMXMyVEpDQ2JVVmhZR3huNnZ6ZnZlRS1SYWVtTnBqbmJyVmd3QnR6amdVS01mZWdpOE5fNE4wX3ZKZEpJUTNsQzlvcjIzRzg4YUVISnd2Vjd6WWhuRFl6bWJPd01XOTZzMkNMVjNSSHlzVWphdmppdVpBRTBmSHdjWVRmODhKRnBPREhabG9hYjh4bVc2WnhEVTdpYUdKY2tqSHhILWt4V2NZWi1IOU80SzhwVWplTkRzOXpuSdIB5gFBVV95cUxNRmN4dmQ4WkZWWV9fYmVWTUc2R0VRbE9ENC1PMF9jQUdiSF9tRWdfcVZLOVRYaDBQODBmbzgzdXowaGR1dEd2U3FTSEd1a3pqQnBTY093WHFwb3JZZUZlTWFTVGZsRUlvWHNtaDZnejQxLXY1amdVb0ZSWllzdnNBV0JUeWFCWHJyVzlaTlpxRzZ4ZmxGeGxSeHYwUWlMb29SQkFJTlVqX2xLTk01MWdyRFQ3bkxPaGhMQTJIU2g4UDBjX3ZtMmNsYkZya3VPaU4zUTJFSFo3UTJEYTBueDV1elZKemxYdw?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Globo"
+      "sourceName": "Globo Rural"
     },
     {
       "articleId": "gnews_0905ed762dc68195",
@@ -2281,8 +2216,8 @@
       ],
       "locations": [],
       "states": [
-        "São Paulo",
-        "Pará"
+        "Pará",
+        "São Paulo"
       ],
       "dataSource": "Google News",
       "sourceName": "Click Guarulhos"
@@ -2345,44 +2280,6 @@
       "sourceName": "Agência Brasil"
     },
     {
-      "articleId": "gnews_a092a306018921ce",
-      "headline": "Ministério da Saúde reforça alerta para sarampo após avanço de casos nas Américas - Rádio Mirador",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T11:36:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcVpIeVZKX2hwVWVvS1dQNUNZbl9ELTIxOUlJQ2Y5VlJsTW4wQnU0T3JWMlQyUThhT0E5cW85bEcydXpUUkZlb2N1VkpSZmtsRnBDZWFKYkZfbTFra3dILWtvdENSQmFvSVJ3N0o1RVBna1ZpS0RDV25zem5qVUdFd0hmTW42dTY2SUVzODdNY3NISWdQLXRacjBuUjljcFB2TktHWG1LckpPNEljUEFN?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rádio Mirador"
-    },
-    {
-      "articleId": "gnews_815196b8f9c830ce",
-      "headline": "Casos de sarampo preocupam autoridades de saúde em todo o Brasil - Notícia da Manhã | CV Play - CidadeVerde.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T11:33:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeDJ0amJpWmhXVDVBSzFHVkdVREhPT3NKRjB0aGRuY2x0MHN6YlBSSHliaEVrTGtLYkRHYmtyTC1JY3J2dmxoZ0UzRFFrbHFUc0VKRThHWWRMQXoxM0xiYlFScThvUERwRFNOMTdyUW5rOXBVRERvRUUtMGVHUG9XRnRhTTdMcUdNblE3Y2xFc2Z4cDBZMUZXNVk3bkwzTjg1RWJwUXZQaw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CidadeVerde.com"
-    },
-    {
       "articleId": "gnews_aa524e183737a15e",
       "headline": "Foco de gripe aviária é encerrado após inspeção em 70 propriedades no RS - CompreRural",
       "headlineTranslated": "",
@@ -2392,8 +2289,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGh4b1g3eDNlMTJmdWRCWkZsbU5uYW5iZzhudzNabjVaNFRPZ0UyY21xOXM2UU8zel8tcmlRUEMtRUhBc2RSRzJMWXp6SWRZU3lCZDlYcmkwdnkxMk95THJYUzdJajBtR3g1TzUtNm4zU2FqUXRtTkd2U1ZGZTlYNldCZEUyN0dDNjQ0RW41eGlMQ0FwbVFMOFBXczZIbGhHWjhF?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -2401,25 +2298,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "CompreRural"
-    },
-    {
-      "articleId": "gnews_c784d51bbebe81ed",
-      "headline": "Sarampo: Brasil intensifica ações face a avanço nos EUA e nas Américas - Barbacena Online",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-08T11:05:16+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSWM5LVlUb2NRSEI4RnVkdHZNeW40clpiYVhKTnoyNWxDem1uMkJVeUZPeUF4cDZ0X2ZVME5ES3lTY3BmQ0NhY2dvaE9jSU0xazcyRW4yRXhYUktKbmwwMWRNT29uQURiTVlLbXEwSmluWldwOE0weWdockgtcTZldVNOYlA2Q0dtWmp4Z2JVZnFoZzZydDZMUmtaYjAxeVk0Wk82ZE16Z0tkYzFmQzNmRldqUXRyUkVEOTlRaA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Barbacena Online"
     },
     {
       "articleId": "gnews_b70e6ec7cc16977c",
@@ -2440,6 +2318,25 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Paranaíba Mais"
+    },
+    {
+      "articleId": "gnews_5498a35fcd6a378b",
+      "headline": "Estações do Metrô de SP terão vacinação contra sarampo, caxumba e rubéola - CNN Brasil",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-08T07:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdGxQZjhMZGFoMXM3TGVWZ1phRGJ5RmZOamVkekg0MGZldWZXTG9LbU9yb1Q1dmxwV1pUYmNJMlBPUGNtc3BxMzdyd0Nlek9UZ2J3YXE3dkVFczJJMWYtVXpwUnVlVWZSMlBBZ3NkV011VThOcGVGWFliQmhaYXktb3ZqOUdkeHJMOGtYU1VIQU40LXRWR0VRVDhQUXZJNnZFVE5wMk04NjJHazdv?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN Brasil"
     },
     {
       "articleId": "gnews_56d21409f80e9d4c",
@@ -2499,6 +2396,25 @@
       "sourceName": "ND Mais"
     },
     {
+      "articleId": "gnews_c224c0cb24023caa",
+      "headline": "Três cidades goianas recebem método Wolbachia contra a dengue - Daqui",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-08T00:34:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWpQbHNRbXVzYzNhbUp6bE01QzZsQ212RnRxX2JGcnk2ZXBqRnQya1VieW9PeEtyc1NpaEhnV052MjJPZUZKVFJDVExTYmVLWU5xc01Cb0RlaWVxbHRIUUxrMFlVbUtkdllqX3k0cExDbzgwTUxoU0gxRXJkcmUxeFlidG9BQThKVERsakM3ZWNXTkxBRTByWDJXMWZTVTZlRnh6cHpCeWhFeUU?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Daqui"
+    },
+    {
       "articleId": "gnews_f6b5437d4905e99c",
       "headline": "Lagoa Santa suspende aulas em toda a rede municipal após surto de sarna - G1",
       "headlineTranslated": "",
@@ -2535,6 +2451,25 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Portal - Rios de Notícias"
+    },
+    {
+      "articleId": "gnews_0729a6bb700c5da8",
+      "headline": "Meningite viral em crianças leva cidade de MT a suspender aulas nas escolas - G1",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-07T23:32:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOX2x5QWVKOFozZzZpOWNqX3NKWjItQ3k2Wk92dVdpRjduaENKbTZqZjB0NXR4WWhVb1BaWUlWUGczeFhIU19Ta00yWWJUb2h1eXJPTFRUc2s1WC1DNkdfY2QwUkdobld6b0NLS2Q0ajY0Z2JNYnc3VU9hc2Q5ODVZNmhBanAzdkUzbUo2V2RITHo1U1JycnBVelo0R3lDM3QyR01xY1U2Rmo5U09GUVN5SnV4UFV3bFhsdml5Mkd1dlZxSjdqOVBLQ01pM20ta1ZUb0HSAeABQVVfeXFMTzFSNzRiZHdraWdkMDJtSENCclltNzBjcmlkanQ0WmktV0Rkb0NwdnVLV0JMNEdxS2dWU3pWY0lBbFgwQXdSaFNxOUlrV0JRN0pTMUt6M1JaM0VTVS1BcmVTckMwc2hkdWtUTE95UHpaVlYyVEoxODdEbFcwcHFjai1vbmJsa0tITTBiRFhEZ2ZlbVN0dE9PUFcyRUwzWV81QjZxa2dyeXBrV2xUZ01yOXh0TjFuOG9GWlAyNzQzZ2J5NWhydTc4MXN0bS1kbm9OQndOZkJjWTdkZ0hQM2hnTlE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1"
     },
     {
       "articleId": "gnews_23d22696dc95c1ec",
@@ -2575,13 +2510,13 @@
       "sourceName": "D24AM"
     },
     {
-      "articleId": "gnews_c6adca11727972de",
+      "articleId": "gnews_c1c8f321721a46ae",
       "headline": "Pernambuco registra mais de 50 mil casos suspeitos de dengue; alta é de 34,6% - Tribuna Online",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-07T23:05:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLTNuTGY2VFBRMEtmOHBPeG9iR2dQc2J5ek50c1VMaVZYdWZESmR6MlNDQWFRR0NCNXBmU1dQWEo4VGM3cWJoN05BVVRkaHUtcUtpRUJnN2ZDY2dHN240UUVsYkFEeGhmb3pwZGxRc0V6WXhrWUNQemVZMFc5WnJtTm90YnJUS3VfQWtUcURheUlUbzBMcWFoN2FEMTlJM0RBdFZTbXc0VmRZQVVDeXFCa21rZ18tY3N6S2p2RU9OY1pERGszSFdSbVF6OGdoZ9IBzgFBVV95cUxPLTNuTGY2VFBRMEtmOHBPeG9iR2dQc2J5ek50c1VMaVZYdWZESmR6MlNDQWFRR0NCNXBmU1dQWEo4VGM3cWJoN05BVVRkaHUtcUtpRUJnN2ZDY2dHN240UUVsYkFEeGhmb3pwZGxRc0V6WXhrWUNQemVZMFc5WnJtTm90YnJUS3VfQWtUcURheUlUbzBMcWFoN2FEMTlJM0RBdFZTbXc0VmRZQVVDeXFCa21rZ18tY3N6S2p2RU9OY1pERGszSFdSbVF6OGdoZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUlKTEFORFJMeXphajBaRVVwQ3pTVFdUSHF2eWNZYUVBMUdIdkNUOVNRYWM3V09JZGdRR0ItRU42aWRMT0pSZ0gwX1ROb05LWmlaWUd5TC1DWG9od3NMS0doMEYwcVJfVmRsOFVpUHVrMnVGekREdHFVbHk2WnpUQklfN1FtSURERDd2dGN4d1I1NEpiOV9DbUxfMzAyRGYwN0drRmNoRlBnMjgwRzRRa0pHeTdMSldXOHV1d3h2WVAyWFYxd0HSAc4BQVVfeXFMTy0zbkxmNlRQUTBLZjhwT3hvYkdnUHNieXpOdHNVTGlWWHVmREpkejJTQ0FhUUdDQjVwZlNXUFhKOFRjN3FiaDdOQVVUZGh1LXFLaUVCZzdmQ2NnRzduNFFFbGJBRHhoZm96cGRsUXNFell4a1lDUHplWTBXOVpybU5vdGJyVEt1X0FrVHFEYXlJVG8wTHFhaDdhRDE5STNEQXRWU213NFZkWUFVQ3lxQmtta2dfLWNzektqdkVPTmNaRERrM0hXUm1RejhnaGc?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Dengue"
@@ -2660,8 +2595,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTzRTT25RWXkwZldQVFROZERJVWd4REdrVUQ5aGM4WlRlNEJfMThvNkM4TXhoRnVuV19ySy12dmVNbkVFUGFmOXJrUmVZUEFPWVdwYUFQam5YVVBQSUs5TEZhdFdtMFlhbjZZUHd0cG9pREpFUjdHQThwWFY3bm5vMG0zX0g0THJuR3c0N3JsaE9yS0YwSUVPZ3BYbzdCUHdSRUZFZk81Nlp3YzhkY3FCMg?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -2669,1407 +2604,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Canal Rural"
-    },
-    {
-      "articleId": "gnews_16ab195ebd51a6bb",
-      "headline": "Amazonas tem dez casos confirmados de sarampo na fronteira com Peru e Colômbia - G1",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T21:21:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZFYxQkh4TkVoQ2tXaDMxMHJJM3NVM3JOS09PUlhIdVlBVlh3NUloOUtrQnloREtLMEVxd0JGaVEyVUhWLUpXb25qT0dFaUI4TVZWT0pKVDJvU0JTLUtFYnk2MDVfbjNqbTh4VV9od212aGo5c3MwRjVjdFJJZEtOTnRxSldoVjJEcWJ3aDBpVGVBdWZXNlBpLThuTGZVREZyOHVQN1BBWUoxdE9yTnVFZ2VFX3hmbGFOZF9MUGJQNUExZ01ra24xcVpDeTBVd3NBSkHSAeABQVVfeXFMT1F4NlFUNUVwRGFTMHFaeW5mYi0wT1JFeXF6bVZZQi0wOEdqUnNYVjRuRmNvaVoxUkFLQS10MkhGRGZIUWtzWDVyZ1FvT080V3hseF9ieVpMQXlJSWVGN2ZzSnp6YmoybUd6cVNlaGZwTDFnTDlnd3N3ZnBrTEpzdDRlUUF5UHVHaHpzRkFzOGVyMk5jWHlRa3ROSFUzZW0tdEdleHl2cHFzNEM4VU5rbWFYaGp6el9OOWU2bUxnYzNjZF9hdnJjdlliUFBvNnBCUm1GWGp0SjVVOVRoZGpBZng?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Amazonas"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "G1"
-    },
-    {
-      "articleId": "gnews_393c79acc1e6fc73",
-      "headline": "Sarampo avança nas Américas e Ministério da Saúde amplia vigilância no Brasil - A Notícia do Ceará",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T21:01:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRU8tWlF1RmpYdXBCcUtvRkxPRHAwbm9BV3BNVF9id0R1MEVWQWp5aE5MeFRYa1p4MXN2SlZCR0RaMGFfdlhHUXBOQzR1ZWxyaVk3VkdJczNvaTE1OW5KUXZXWko4dzBzdzdmSDNyNEYyWHFURVhwM1lScm9QaHNkdGRJSGtFS0hJZXFiUW8tNDBBVzdyMzljVkVQZW1jNkNSVkFVbTByMWJ2SEVTVkE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Ceará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "A Notícia do Ceará"
-    },
-    {
-      "articleId": "gnews_12ebfd2a7c1452ef",
-      "headline": "Lagoa Santa tem surto de sarna com 241 casos; aulas da rede municipal são suspensas - BHAZ",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T20:53:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQckItMFltSGNMemp6NGVKYl9sMUU5cElQWkdEbDRKRU1wUUlPSXdqSFk3ZFRMbFF4MTBFN3JkWWdNMWZ3MUZuU21Rb3hMVWQ5SHVnN0lIemJfcVdJRmxlOHFXdlp2YjJOVzlRa3FnbTF6TUhSU0xBQnNoZkk5TFQ4V1Zn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BHAZ"
-    },
-    {
-      "articleId": "gnews_216a9e6390f170bb",
-      "headline": "Brasil intensifica ações contra sarampo após doença avançar nos EUA e nas Américas - Grupo Chiru",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T20:49:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLWpqcG5jN0VpTDFYV3FPdjNOa1JwS2FRYXNXdFhGSFFRSUUwMlpzWUNKOFlaLXRuUkNRZExBU0VwM1JOZGFZN0lmR0w4cHAxVFNaOGxlQ0piMG5KMWZPWHN5Q3V3cEdDXzdiVjU1cHRvM3NObGo0b3RmWGk4NHFGRjNoOG5TYW9tMFRHeklrUXAzTndQZUdOaVNjelVWZGY0V2h2Zlo3R3FQVGZNUWh1SmFpTFBBUk5DRkhv?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Grupo Chiru"
-    },
-    {
-      "articleId": "gnews_c6e8eba0e1be3a09",
-      "headline": "Sarampo avança nas Américas e Ministério da Saúde alerta para risco de reintrodução no Brasil - Fala Você Notícias",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T20:45:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPU0hueVA3VUxmRUxOeTZaQUo0SElXam15NWlHZVZ0eDBUcFdJNl9jWFhvUXBwQnNITU00eVhaQk44NE43akRJLVktOFRESGw1eXJHb2FTNFpvUnJkUm1OU0hXZmZtTVhXU1d0SmZKVmFhOUJaRFNEYzRFeGNxbzF1VXl0T29IalF1SHlBdDJJYTlILWxkU1BEdU9pTHJ5TVhyc2JMSEUxQWdsUDg0STNuc3Z2Wk5VVnRUUXdpNVlNVzY4ZjNjNnNmZmVBUk9lQklSSDZ0cEdXVm9IVm5yVFV5Sg?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Fala Você Notícias"
-    },
-    {
-      "articleId": "gnews_fc6ddf894bbe2eaf",
-      "headline": "Gripe aviária é confirmada em aves de subsistência em Selbach - Grupo Pilau",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T20:26:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmJrX2VxWEVTUXhmdzd2ZzVERmFvUUZnY3JyMDdNbmFYMXRSV2ZvakpmM0g2NGRCUk1LQjVCRGxvb2docEhha0w5Y2lmTjd2LWY3RXA4QnI0dndXUmlvOV9DTkZEalUzOWtqLUpheVM4RkVNX0FmV1Q5WVlPSVh2cmp2bzJyZEE5SFZjSnJ4LTVZMEtRQXY2eVpXSmNGUE5nWTJZUmFMVGQyR28?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Grupo Pilau"
-    },
-    {
-      "articleId": "gnews_5aa45793b1a3c0d2",
-      "headline": "Avanço do sarampo nos Estados Unidos acende alerta no Brasil - Costazul FM",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T20:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONzdjNjI2d2RxMmJuQlRVa0xObnlDZVlJQXVCejU0UTVZekZpbV9oV0RFNk9YZ2xJM0hjdXZPLXlqbENqMm01T2I3YWdsZWdoT0d3VkR2Mzd2Uk1jNG1nc2l3NFVQdUJnVVFReXl1NWtKTEp5QThrOG1lcXR3TW83c2FEQmRXWXgt?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Costazul FM"
-    },
-    {
-      "articleId": "gnews_129cabb9e1af2a64",
-      "headline": "Brasil intensifica enfrentamento diante de surto de Sarampo nos EUA e avanço nas Américas - G1",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T19:49:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNNUgyYzVFaHM2TGdERkFCQ1BPYWRvTFFBTzY0QUdZSVVtTjRvNF91eE4tOHhrZVpxQnJMa19ObUJxUzNjR2dLMHhDR0pYM2ZUWkZXOUFmNGROcWJWZzFWOVM5SVV2MDNlZFdkLVc3Mmx0ek1ZWEJNRHBXVS1OcXRTX2lXd20xNGpuM292eU4tSWIxNzVXNGlOeF9keWJCX3p1bDRwMjVNYmJMbXR4aGtMWEYyamxiNlVlX1JmVGxlQmtoSWJzU3lzNE9kVjk0a29Fd1M4SzdRcERfaGlKcDNaZFVnVlRudDdSQ1BPVXFDSGJsaGpwOC1sckE4cGRXbUYtc0HSAZACQVVfeXFMT0NtbE9QNnJmeC0xOWE5Si0xVmR0SVBKeGZuaXQyWEwwbFN0eS1yT2ZzUWJQcE5LQWJVVjQ0aVpDQzV0VVlqT2ZjVHdtQWtOb0VHLWd5WDUzd2loVnhGRmxOczJyZXBkR0Y1YllpMDdoQnJRdm9tY2FpZDVVWi1ZaUJfNTF6bDRoaUQ4c1cxMTdhbzloeE1OcVZ3dlZzbFpraUdhdGxfVTRfTnRuX2VVTmxEM3JZOHFYYWlOTFBEVEx2dWJ3UHhZZnZoWjhrYUg0NXhfX3VWdWhTOXljNUo0WTVxUlZRa1p6SFB2S0ZEcUJ5Qy1uc2QyYUQwTVgxTXRfZm90LUZpVFVYQ1M2QThVMmk?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "G1"
-    },
-    {
-      "articleId": "gnews_c224c0cb24023caa",
-      "headline": "Três cidades goianas recebem método Wolbachia contra a dengue - Daqui",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T19:47:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWpQbHNRbXVzYzNhbUp6bE01QzZsQ212RnRxX2JGcnk2ZXBqRnQya1VieW9PeEtyc1NpaEhnV052MjJPZUZKVFJDVExTYmVLWU5xc01Cb0RlaWVxbHRIUUxrMFlVbUtkdllqX3k0cExDbzgwTUxoU0gxRXJkcmUxeFlidG9BQThKVERsakM3ZWNXTkxBRTByWDJXMWZTVTZlRnh6cHpCeWhFeUU?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Daqui"
-    },
-    {
-      "articleId": "gnews_0fbfd5135eb5f965",
-      "headline": "Ministério da Saúde reforça alerta sobre sarampo no Brasil após surto da doença nos EUA - Midiamax",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T18:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmdwbmMta3N2WXJBRDZqWFdXdHV4S01QOFpZTkpLWFBLSjF6eDlzMk5iUFVrc3luYlY2SFZmVWJ6TGZTa3JfTnpIYy1TNFE4UDR5TFgyS1hjRmdSZW9iQ0F4eVdabWl4XzJfV3Zxa1VsS0VHMTg4V3R5ZFNfSXVpUTVuV0FwSktfaDI4aDdtRUhlQk94enR1cVd4YWxqLVNTMTBTU1JrclY?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Midiamax"
-    },
-    {
-      "articleId": "gnews_6152687009001a4b",
-      "headline": "Brasil reforça vacinação contra o sarampo diante do avanço da doença nas Américas - Mais FM Iguatu",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T18:32:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSWxqLWg3aXlJRXZmRUxiNENaWWd4WHMzaWNoeGg1UXdXZVVqVGtUcEp4M1VndDlZREFjTGRTY1drVzhDUWR2ckFQc1BkNXdRTFB3UDdBNmlIbDlGclJ4NE1QdXlvZE9yOXRtT3NwcnpDaXBsNDNhS3hnWXBLOWc5MEVsTzFxVzlxaXZVNnNwLXVGVFA3YnduWWFSUTc4cTNjVk9J?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Mais FM Iguatu"
-    },
-    {
-      "articleId": "gnews_1ffd3c8e69474a90",
-      "headline": "Casos de dengue aumentam 34,6% em Pernambuco - CBN Recife",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T18:24:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWktzbzNPTmxMWGF6czQzTWtZTDVoNENOOHBFaXBDRkNhYzVXZUdEckhxT3d5VFJLR095WnFPa2lscDZsYnZfdkloYnM1MUpVV216TVRFZ2luanRxb1lwaHAtZ0xzaXdLUlBYT2NKSmZaMElLTWNvSHJjMEo3R1JtSUU5LW5JRFk?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Pernambuco"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CBN Recife"
-    },
-    {
-      "articleId": "gnews_319d40bcaf12bc11",
-      "headline": "JP1: Sarampo avança nas Américas e acende alerta no Brasil - sampi.net.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T18:23:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUZ4NkZQTzctNE1qSEJkUXlyMmd5NDJPODlFSFJQSV9SNkVYeGl6UVFiRXdycTFfQWVvQ2tUeXBEWG1zRTVLZ1Axem51MUJqSFdNT2JNMExrOXIwVXMzREJEck0zbG0wTENXVVk5dnQyN2tIYldfd0dCck5HN1hNNzdVMy1EeFBaSzA3bDZ4eG5nWmdUdDUtUTUyeTJmcHNSVmZCcElrc3B6MVRyMUxsUVBXMGhyaUVp?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "sampi.net.br"
-    },
-    {
-      "articleId": "gnews_69c8f3cd072d1add",
-      "headline": "Imprimir - Avanço do sarampo nas Américas faz Brasil reforçar vigilância - Sudoeste Bahia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T18:19:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYU1welpsS1dYb1N1SlZxZTcyRDhrVkp6NnBYLUVKWjJpZnpWQkprcm9vLVkyaWdhakJaU0NFbmM0emlWZERRS3BxS0NVNm1BVFJZTmJmWUV5NDE1QUN4b0hId3ctXzRVdXBXc1dDMlJFRGdGd3RxUjYzanJxQk00SFp2bU5fbzg1V2g5VzcxNWRNeWVMb0l3MmJPSFJuY2VlU0hNX1dzWF9IN2NkdE44d0J2R1lRV3M?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sudoeste Bahia"
-    },
-    {
-      "articleId": "gnews_80084d9f31c62683",
-      "headline": "Brasil intensifica ações face a avanço nos EUA e nas Américas - sampi.net.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T18:12:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaUh4Z2RjSEx2UXp1UGRrNHdOWnRZdUZiVHEtRkFGQ09tZXNkRmNNQ1VnS092T0xfWmpMUE9wMWZhSjhlNGY2dC01azRnSUFhRmpvTEtnYXhpVG53SXQtOHJ6dXBUSUNDSzBJQXFINVFKM3VURjNES3NaajNOVVZuaTYzRFJuOEdhVXpnVm5HYWJhMVhMXzY1alhNcG10eTAzN0VYZ29TZ1ZxeVBpVDF0TTdLV0FHQjE4TjNPSlEwdmNFcVpHOFdqcmYwaw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "sampi.net.br"
-    },
-    {
-      "articleId": "gnews_f78ff06639b465f0",
-      "headline": "Amazonas é o segundo Estado do Brasil com maior número de casos de sarampo este ano no Brasil, aponta Ministério da Saúde - 18 Horas | Rádio Mix Manaus",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T17:41:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQVFySXU4Mmp6dG5xQkFPSExGRWY2Zkw5ZUFkUGc5WkVBV2pCSVVwQjltdVJ5SFBqM1lwRE9iVG5PbXI3NTY5WnJ6aGxkMk1zMmNSVFRUNFBOUGVqOVVqb2RFWkl6NkNxZ3VLaGJTU2RIU3lfNTVudHNoUElJT1JMRGViaXhjLUdleFRweGhiblJ1TG83NXFyZGRMUXJDcmE5Vy1RaVZwWFA1c0hZYmV3djZTOXBfWnpjZ29aWmVCcXlHaWZzbGxhZ0NHQ012WUd6aXl1VFpKWnZvdGY1c3Z0OUo1QWVYMFRy?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Amazonas"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "18 Horas | Rádio Mix Manaus"
-    },
-    {
-      "articleId": "gnews_7bebdd927fdf46df",
-      "headline": "O que é a peste pneumônica e como ela se espalha? - BBC",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T17:37:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HRnZ6YWxWTThfbFhoeGcxTkwxeVNWQVZjaTlsSnZ1TWd4NmRrbi1fVTNtTV9fYnpBdXR3c2Z1MnBhQ0tVVHEyN2RfejUyVWs1WEgzR1Y0Y19BbXRaWDJYcGZSZ9IBaEFVX3lxTE1MSG1BWWloNlcyRUFINm5PWWwzYVB4eG9USXJXRUFBNzdnVGtHOWNlMF9ETVk2QWJpNm0xRkNQRDRGdUk2T2xCVmUxU3o3NXBHajBER2FKQzdaMkxYcDlMRlNaWmdHeC1D?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BBC"
-    },
-    {
-      "articleId": "gnews_8785c2ca3e3eb5c8",
-      "headline": "Brasil reforça ações contra sarampo após avanço da doença nos EUA - Portal UAI",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T17:30:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZU9aSV93dGtoeVB5cHNiMEhlOWhJSzVkOWx6ckFqdUNyNzJmS2hyUW1GQUVxQTRTLTE3RzhsX0VRT3RjWHNPM2RpRVd4eC1iUXFXSkxSZVJ5cThjaFJUMnF5dXdLRERqMmJEX2tUMXkzcHJLTklJZGZsemowemYxbHM4bnJRRWw1TFcySjd1ejJ0ZVNKaUhUVHZCcGzSAaIBQVVfeXFMUEQ3THBBZTlNNnlZSjh5b3FhQWZRelVQZnlfYUh4dzRTVkQ3Q1FWdXZjNE1iV3J3eFhDbGZsU0JmNm04c1VHdWozRlZqVEJtMnlxWWtfd043dEs5YTBsNFRkTUNRVlNhODRaQ0FrbDEtVGY2eU9nT2tHWGFYdkJXWnJlS1VjdFB6MXNBTi1HUjNhWmZtUmJHWlFnYkRRM0UyMVNn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal UAI"
-    },
-    {
-      "articleId": "gnews_0817b35f9e808dbc",
-      "headline": "Sarampo avança nos EUA e Brasil registra 52 casos importados em 2026 - Portal O Dia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T17:23:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU2sxZlBrVWJKampBcmR3WDF0Y3NUUzVOdzR1bjFKMkY0Yi1BUEV2YU5XSTBKcGpUeWhhRVp1OUh3ZXZ3UFBWVmg1RmFpTEFuUzZOU3lHZUpQTmw1TE1JMXc0MHZQN2NKZGVZVVkwNWJ2V0NZTThNdERJZ2VvLWhwZ3h6STVMMi10eHFYdkRXeks2ckR2SzkyTlBfbVNmWWY0ZHBtdXBIajFFTWpvTTF3OTg0WkZ1VXB4Wmhv0gHAAUFVX3lxTE52eXAyUFdJVDFmUGpPM01teHpHUk9EckEzMU00Z1hUUmdoRG9yVnN2UkpfT3F5UHVSeGhCUzl4RVhqUVVqbEZRNVA2NWoteEk0aU1ua1NmMFF5eTNjWnEtLUdpODdubklwcFk2MlFiZXRGMVhsZWo1ekZKZjA1ajljYnROZ2JPV0pfcXBhRlprYlY4cWU3QUloVnhsQnhtT0FoTEt2bkVTV0htVEZLT3pUY1l6RGFld1NRVWdZWUQyVA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal O Dia"
-    },
-    {
-      "articleId": "gnews_c3e771cf6fdc9586",
-      "headline": "Sarampo volta a preocupar em 2026: SP já soma 41 casos; veja monitoramento da Secretaria de Estado da Saúde - Gazeta SP",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T17:10:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMlU3RHR5NEJaN2pJcnpPbVNZMTJWSTA3ckM1UXhIdzZvek1SSE9IR3pULTF0TlhxMEI3eFJ2ekNXNkZFMlRrYVMyeF9WdE1fbGdhUmhvNmhEOFh4QUw1bU4xeGFBUWEzenhwRGlqRlU5YlVyMVdWYlR0NldYczBSXzR0N1MwLVZ2T2VhaFFEVnZVMDJiZ2gzYmtIZU9EbU9wR0dNcGFpQ21lMXBFaEpldE80X18wTFc4MG9YTzdQeVZmUnQ0UzZ4LWxsclVlTjRzVGdzSG9yWQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Gazeta SP"
-    },
-    {
-      "articleId": "gnews_23ed1108d8ef3fa9",
-      "headline": "Alerta de sarampo: Ministério da Saúde monitora casos importados após alta da doença no continente - ACidade ON",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T16:54:10+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVG1fcFVWQVREbVRGamlRaUhHcmRnLUpEZzl0TTY4RU1QV1p3el9KWWQyekd4eHFOVUExMXNtWHlVdXhVVmdmdDlqWWRJbzAwYkpfNlRFOWtDV19OSGVUQVNsRHloRkZ0UHlPTDJqWllleXhNcVFBQlY2a19kV05KaUV2NHo4YTFCbk1TYi1VTnQ0VGpKN05kWWRzRWQwYkV1eEtucUpKNUppNHZMdWpfZnZnR2g1S3poVUJwQXhBN2x1emZQWjZDOFZLdThBWjJlcWhiSWtncS02aVcxS1FsVWdR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ACidade ON"
-    },
-    {
-      "articleId": "gnews_87fdd42581839643",
-      "headline": "Brasil reforça vacinação contra sarampo após avanço de casos nos EUA e nas Américas - Portal 98 FM Natal",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T16:50:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaW1Va250Ym4xaHNtMEFKZTZjV1ZqV0loTlFPdElOSVVRX3ZnejB6SHFJU1N2UkRyaENHXzdCa2pRVkRPSjk4amx5eVBlX0lDUk1tUUVKY084VnVBRzN1Nk95Qk5vZFZCUjVJcDJnU1UySTRQMlQyWnl0OEtiZmFicVBjRUc0Z1dNSS1za0xJLURkYzBFREM3SWp3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Rio Grande do Norte"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal 98 FM Natal"
-    },
-    {
-      "articleId": "gnews_bbe8aaec90afe275",
-      "headline": "Novo foco de gripe aviária é confirmado no RS e 68 propriedades entram em vigilância - CompreRural",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T16:24:52+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT3NESlIzSm5jM2dyZDlFQ0tPZG9FZFN1RWJwak0xQWg5UHpxT2d0el9md1VKRGN4SjlzY2ZUQW9TM2U5OS1mb1A1dDJwNjJDQUtta2tOQnV2SmU4QlBlQzFRdW1JeXdhaWpvMUJjeV84NEpkVVJwbVdNNU5CRk5VNzN1ZFdCQlFkUGRVZ21VamJUVm5YdzVrY252UFVoR0E3UE14Vlc1YWlGT2xZczk3eFcyQQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CompreRural"
-    },
-    {
-      "articleId": "gnews_9fdffac263f4100e",
-      "headline": "Brasil intensifica ações contra o sarampo diante de surto nos EUA e avanço nas Américas - acorda df",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T16:23:47+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeXJLZ3NsMlhRR3IxaVp0VDZwNjg2UU9rOWM0ZC1xVmZ2b3FTT2hYWHBsRkQ2cFY3QlFsNzVwRUxFcUhEck12X0d5N1pINDk0eU90ZG9zOGh5R2ZJQW8wSTg3eTladFZwTmhDLU1ZMVZfUk1mek8wYWhzSXg3THJaSUF6NlRncjNwT2pwYjNCQmNURmZnX0pQajBmbjRpeUtfQ0lDOXJDdmhNYVdPZmNIYUxhWmpnd0NvQWdvaWRsbmYzZS1CSkUw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Distrito Federal"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "acorda df"
-    },
-    {
-      "articleId": "gnews_e8e5949b201d72fd",
-      "headline": "Brasil reforça vigilância contra sarampo após aumento de casos nas Américas - Sociedade ON",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T16:17:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYkl3dm0zOUlVeWpDcDF6cWZvRW9pMnFIY3NkdVdId0puYXFQalA1QURHUDVPZVAtVVRleU5oeS1RYWt4eEprVkpCLWJtMDdCcnZhRnREWDVEUEhlUDFvU1RmcEREdDYyYmdYUXdpRWRZQVdjN1pTMC0xLUpJa3FkNWd0T0YyOEVRVFUyaEJHZkRaQlR3VElTSXY4eGQ1VEdCREcwSA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sociedade ON"
-    },
-    {
-      "articleId": "gnews_fdee64e5124a4650",
-      "headline": "O que é a peste pneumônica e qual o seu grau de perigo? - CNN Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T16:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbkRLR3NMUE9XRG9LOE5TREkyWlVLaXZSY3d6dmw2YTF2SS1EWFlSSHVCaHJBMmQxel9TZUxuY0tZNjM2eVlyLUd1b3M1QnRhWDZGWkNjLU02ZzlVbW1GNE5tbjg5endoVkZkaW1RZDJJbXg1b0ttYVlERk1kTi1FY2JRSklsTjBQeEtLZTBFZlkyZHRLeHlmdUhfZkhOUkRpNVNjbld5RzdpeWltbUEzLQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNN Brasil"
-    },
-    {
-      "articleId": "gnews_02da68eba724c6a5",
-      "headline": "Sarampo volta a preocupar Brasil após avanço de casos nas Américas; veja quem deve se vacinar - Rádio Itatiaia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T15:43:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb1hBLU1aN3NPcGlSZTlqUmc4a29NcnZScEJRbFV6QWJqUHVyQmptUktEYng5Z1k5UEhvOGxzVXF3VFJGbHAtR0tFMndKeE4xLUlXU3d5M09kckdtbm44Q0pjTWUySDJzRlkxOGFfeEs4blFZenFSelpQdnRNbWZ6NktUZHpqNnlWbXhYYmVjeWlPM2RjQUZXVlh4UGVLUEhFQ2tGVDg0OFpBcnlWY0d6N1J4VE91NlBZYVFWdlJha0lXVk5XSVE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rádio Itatiaia"
-    },
-    {
-      "articleId": "gnews_e317de31f34197e7",
-      "headline": "Estudantes de Salgueiro (PE) são semifinalistas do Solve for Tomorrow com projeto de combate ao Aedes aegypti - Samsung Global Newsroom",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T15:28:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeF9BaEhEYmhaUzVzRGxwNElmTVZBTS1RbjFHcEdYYkZ1WndMY1lXUXBaQ3NXMF9mZDBTRDc1Y3YyYWxSeFhrRWZlakk0ellNdHJZNXd0eVVCS3V5UEpXa1dNSXg0T0FKQ1pvVjN2MGtjSjZSV1RkelUweEgyU3hTc0VLcFhjOUtMNnlNV3ZpeF9MdjV2LTJKTEhqMllDNVFBQllNaWFYbTN4eTVfU0tMMUUwMHd0WFFPaUlRQzdjbjFHYUtxM1NqRXdZVDk1R3Jj?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Samsung Global Newsroom"
-    },
-    {
-      "articleId": "gnews_647944b351a5dabc",
-      "headline": "Sarampo: Brasil intensifica ações diante do avanço de casos nos EUA e nas Américas - O GLOBO",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T15:20:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMFBnUTYzUmpCZHpkU3VRWFJtM0FQME1FaXE3R2xwMGdqc1Jhd2pUUEdmaG1LcmFPcVVvaFh1N0NRVDBCamp5M09lRDhXZUFnS2dsLUZfZm5ibU0tNkVEMkdiQkxvVFZIQ0pGdXFjYmhHWEIwSkNxcjBFQ3R5TkFsdnpRRHJQN1ZQLWx0enZCSU5sV1lwc21HU1Q5Zm5HTGR6RXl6c2FoclE5ZXZ6WVpuMFdfRlRkd1Z2bEpsMmp3MHFRaFRwM3YxSDAxcW1ES3FGZmNz0gHiAUFVX3lxTE15Q2ptam81dHRQV0VPZzhBcUhTV3M5N2ZaWUcxOEEzbmZ5S3Vqa196ajJKOVZsdGJqZDZBUi05ejhsYlpxbnFsZDVoTkJVY3Y4OXdja3AtaHVzWURvOTFNNndGZDBGc281a1hJdEsyQTl3RDc0UFhOTXVFakZTR3RlZXhLRzdIWmpsR3diWWp6aFFSeHVnb20yLTlWN3VnVDhnV0FmT3FoRTkxME1yWnF0WS1HTHR3S1ozQlFsbGhHeEoxVkxYMmpFSzZyRnJLX3Z0TndJcS00VkIyVlpvTXhaQlE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "O GLOBO"
-    },
-    {
-      "articleId": "gnews_579217f668d7279d",
-      "headline": "“Não há restrição de consumo ou impacto de mercado”, diz secretário sobre caso de gripe aviária no RS - GZH",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T15:08:09+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOMUd3d3p0bUxwODBBU3pOLUlWd3p1U0wxSkRQc1VCSzBXaXAzTy1tY0hZQ2U3ZWI4UF91N1c4RkxkdE5iLVBfeHJKSzRKdG0yaUNqZ0VvdU5WVWh6U0FmV1RrYmowbTAxcTJPMHFwb3BodGRTOVVFMlJuNFE2eF9lOEtRcS11eTc4eDQxXzlkaGlpUXJFcXlZOWM4amxWTlU4UHVPVXlCekE1dW1zSHctWkRGaUdDWUxOLW9TZUNDaTBRZU9yZDkwcXFaa3l6cmRRZWsxeGVHbGZBRGt5RUg5ZC1BWUM1Tk1BQ2U4N0pqYUd4cEF4T0dlVkpQX0lFV3FlTm02QXpWODRzZ1BKSTZHQTdsNXNqOGpXLTN6LUJfWWdLR3ppUURJenA0dzc?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "GZH"
-    },
-    {
-      "articleId": "gnews_6bf948489fff24f5",
-      "headline": "Gripe aviária: RS confirma novo caso e amplia vigilância em 68 propriedades - Canal Rural",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:45:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSWdjUUx2Q1g3ZzNxWDZnRndkMkF3Y0huWjltT3NweGk5eDdES2hLUHcwOGJwRHdzRVdrYlJJLXQtUTZmelFKdkJmZVUxTmFjY2lXbDJBNDNRRHV4ZUlvN211ZmxGeXNiSmRpZURuSVNiUjV5VDh2OVZoMy1JT2NlaXVrWGFNSGFTTzR0aFJ6WEpsUHhLOVh2TEdmZmlWNFlWUTBCU1RYQWtWQW1ub1lURVFiN3Y?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Canal Rural"
-    },
-    {
-      "articleId": "gnews_ce645d7d0758afb9",
-      "headline": "Vírus nunca relatado no Brasil pode estar por trás de surto em lavouras de melancia em Goiás - CompreRural",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:39:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaGhoU2hPQk10cWVUWDAxd3hTOVpsSXdrUGctQk4weWhHazQ4Y1pVN2c3TWJHdDl6LUQ3ODRteGZrM29MaHlGUFQ3VWx4NEh2QUxDeUVGQXVxZkl1M2NHeUVwYVU3V3VMOUkxN1RyYTFYLXJ0Ukh3NF9ORUhscmtyNWdNMzgwb2k0Njk1eTUwejFTaW1qYlJ6VGcxNVd1Q05vN2RtX24xM3gwU0FPY2pOb0h5endDMk5uek04eWdn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Goiás"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CompreRural"
-    },
-    {
-      "articleId": "gnews_0c0269c93765639e",
-      "headline": "Brasil reforça vigilância contra o sarampo após aumento de casos nas Américas - Blog Antenado",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:35:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcHQxQTAxTnF0NXBQb1V6aTVpa2dVOUlOelY5WEdEWWY1Wl9wQktkWS0ySk1HTVBpd0lSeS1SU2duVllzdUFkaGxiQXJ6Z3VRVVkzNmhzeUpDVXZISXd0d3BNU0RYSXhwQzVLSE9NQUtqNUc1MGhHUzFyOHhHbGhSMVpLazNDLUNVa0xKX2RlWjlPNDkxSWZBZ1VLeFY3dkRDeVBXaDZR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Blog Antenado"
-    },
-    {
-      "articleId": "gnews_ce3254aa2e82e338",
-      "headline": "Ministério Da Saúde Reforça Alerta Sobre Risco De Sarampo No Brasil - Taktá No AR",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:32:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSVZWSk55cFUyXzkzVlRXT3lGd3M4Wk9XdU9jOGhISnI3YVlmZmtQNTRHb0NTcTFYQVNXc3p2YnNzTkx0X0Y2NTFYblhDdHJ5cUViR1BDZ090ZjVta1UzbDJwT1RHdnFOX2x0VGVOVl93YkNadFlnWTVzbWFCeUxrRzFxN21qTk9ZcFp2QzRNN20wdUNHVEw0elRVUUo?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Taktá No AR"
-    },
-    {
-      "articleId": "gnews_274a2c306b5f81e3",
-      "headline": "Ministério da Saúde reforça alerta para risco de sarampo no Brasil - Francês News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:15:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb2V1R0JWUGMzYTg1U2hoWW51VGNvZktIZEl4eHJMWHpJdlRSMVhxNXh0U09uRFkxTzNUNVFNZVZ1RkhJZU8zY050SlluVVN5bl85bGVrM09hamUzX3RMa1BJZFF6XzRrc252bEM3d2xwbVZmMXp0ZE5yUGtpOGlFSHVPZ2ZzeGNReFB5VTRYOVJmdVlSaHF6aHZ4Q0RST1R3dGI4SUNQWGsyc0kyX2FQNVZ3dGJTUQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Francês News"
-    },
-    {
-      "articleId": "gnews_f1dc5a143484476e",
-      "headline": "Brasil intensifica ações de vigilância e vacinação diante do avanço do sarampo nas Américas - Litorânea",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:11:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZzNqc3I0RDd5T3ZPR1BqUWZMdkN1R1VndWN5VlQ5UmRzbTNjdlo1RnR5UXpSaWVPMW94YVF1d01wS25GRUxaVlh0QlVySmNiMWVDQWs5bHplLTMyS1E1eUVwZDFVWU9tbHFEclluak9hdGg1SkRuZmFQNnhDQTJrNzhsYlZySjBNWEtsVWRaaWNkZUdxT1Vjb3U1Mk5EZ1Y1em1kZWlHeTVxWWtIeUxVRnpGZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Litorânea"
-    },
-    {
-      "articleId": "gnews_bad707d47e51d1e4",
-      "headline": "Brasil reforça vigilância contra avanço do sarampo - Portal Terra da Luz",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:01:43+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWkNGd2dHbXVwRXBOME0xaklBazR4eHJTMnJKamFGT0JqWC1ieTJoYkIxWkxLREpkeHVPbXlobXFnMXlqUllucE0xUEwwREFTZktaRHpldzB4bk0wQXByY01CV0RuX09Sd1l1R2tmZzBiZTRwb2d2ZlM3VjItcUplYkpORDI5RjlSeU9JVzV0WVFBS0ZVb1IyM3pPZkdwbFc3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Portal Terra da Luz"
-    },
-    {
-      "articleId": "gnews_a3c0ab74a13cd6c6",
-      "headline": "Brasil reforça vigilância contra sarampo após avanço de casos nas Américas - Folha do ES",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:01:03+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc0t2ZXppV05JaDZqQldFMTQxd3NGNDlPZFJfTVMtT1pGVldISjRvX0VBV3VvZmJVbmo3LXJrbnhyUWV2Zk1vZjh0S29vZkVpZmU5STJ2a1FpM2R5UktSTXp3Y0FvVHJrWFlVblRfbUV1SnVBX1MzS0ZWaGg5c25EMW54SHBscWFQWHEyblJ4NE44ZktTVm1Ea0hLZGtiZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha do ES"
-    },
-    {
-      "articleId": "gnews_386a8a6fd920418b",
-      "headline": "Novo caso de gripe aviária é confirmado em aves de subsistência no RS - Rádio Rural",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T14:01:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkJVQ2llRTNWejBDV0RnSjI4VDN1eHVFRFJCc0czaFpfZ1RBbXRES09XN1NndTM4ZzJwUWpTT1E2ODhlX2dHYk95MlIyMjJmYlNMWHZkbDlMaFRfMkdnWTZvRVR2dVZuc3N1Mm9fOExyT3F2dDFzNURhckN5YXdKa0w3RGUza2hSU010OWV0WFQzcTJwNHZ3WElyRmlNdkhhTUNiMXhJTkRyMnMtVlhUZG5XbHE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rádio Rural"
-    },
-    {
-      "articleId": "gnews_fc8f8515874e61a1",
-      "headline": "Ministério da Saúde alerta para risco de sarampo após avanço nas Américas - Gazeta do Paraná",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:55:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1BtdGhaaHpXZk9JYzh0Rk5FOUpyMUNMT2cyYXc1NXkyVWxSMHlMa0x4VW9HbzVrdnhWY2xJZk9YeW5IZXhaNkhZakxLSzJLUVN5RjQ2WUlMRm1XcHF2bG94cDlkVEtBWnJ2TXNrcld5N0d4WU5SVWNsY2ZiUHllVXJLZEVsQWdqclAyYjFnOGJCSXY0NkVFMVkteG80bm5STFpoTW13VEExZjMzNmdubA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Paraná",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Gazeta do Paraná"
-    },
-    {
-      "articleId": "gnews_276ff4bb69176055",
-      "headline": "Novo caso de gripe aviária é confirmado em aves de subsistência no RS - BelosF7",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:52:30+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb3ZETXgxZks1SGgzTzV1cHRMSmc4V0Z4M1B1MzVsdnVidEhlMXJkZXFsdHQ0VDdvNU5wWEZHSGtiYXA3Qm16ZFM3UG1jNTZlWWtUU24xR0JYamNhMk9HUnhfWkJ3bUFnY3B1ekh0UGZzNUxDVWx4UTBrMXNvLWFCQ0NqOTRieHVvZlVBS3BNRmpnVmlRcE05UA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "BelosF7"
-    },
-    {
-      "articleId": "gnews_3276a4c0ed6f816e",
-      "headline": "Brasil reforça monitoramento do sarampo após avanço da doença nos EUA - Rádio Metrópole",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:49:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY1Q0VV9jNFdwLWJhMkNkVzhZa21zWlY3bFFfc0I3SUUxVVBqcWpKMjRlX1pjNlBralF2XzF0YmFXS3l2ZFZNWUdiNnZXNTFCajNaaUJFRjNKbld2THJtMEVxMDNsLW9mcjY2TGZELXA3TUdCV01yVVRZT1FyaHBwbXZiaGFtVU5VZTNtdjJNUFQ5Mlp3RENmTDhXcDZUdnZfQWFJeEZPZkxlaEdBdkJNQjBCRHMtY3NP?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rádio Metrópole"
-    },
-    {
-      "articleId": "gnews_b52c0baac9bb23d9",
-      "headline": "Sarampo: Brasil intensifica ações face a avanço nos EUA e nas Américas - Aracaju Magazine",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:46:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZklNdDlSRzhNOTdNUDJDbnhYUjJ2QUNrQzQtdXZ1NGRjU01LUk1sNU1ZY2tHdkhWSy1YMDRMRHJfNWJHdE5kVVNHNEZNSnZqSjNsYXg4cHBJQmRFTzZTbHVCem9Jc2hxdER3YTFWcXVyWngtV0lneU1XbUJ6bV82aHhtNjJaeHFzekE1NUZ4Y083R2JRMVVvLWNxbE5wc0FlVzhj?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Sergipe"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Aracaju Magazine"
-    },
-    {
-      "articleId": "gnews_3b3fc3b12bd50e9b",
-      "headline": "Brasil intensifica ações contra o sarampo diante de surto nos EUA e avanço nas Américas - Ceará Agora",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:40:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGxzOXhNQjdSeFlBY2N5b040ZlFIVDRXXzVzckx3dm1yQ1hkejBvSU1XSkJILU9uOTRuQzBCdUxsMzZsTXpKdjFtTUpvV3RxeGlpVnFnTjdNdkRmbFVYYk9LVmIyV3JSUlRUNEZqaGhSU0tMeWtJQmZmVDNDdTFlU0hKUzdhQmFFenkwcENhVGp1Y2U2LWh5aHpydGRlb0FHd1RoZ2ZDVWMxZ0dkSl9NNEZDNm8?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Ceará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Ceará Agora"
-    },
-    {
-      "articleId": "gnews_595294ada306e3d5",
-      "headline": "Avanço do sarampo nas Américas faz Brasil reforçar vigilância - Sudoeste Bahia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVFFmeU5IU2NKMEgwUEoyMjJwVDVwb1o4dkY5ZXhWS1lfT3M3eE1JeU1pWWI3R1IxRkhZd3FVT2RqMGIxY2xmeE0tWkpYNHF2ckxRZ09lcEtUenEtcVl6Z2ZqcXc2VzJFeWNLMkMzRTYwZUF0cnJtNzdMTm5zVS1iWTQ5WmxVM0VtU3VsZ2JhMHhYVTMtRm9CTkI5Q2lNOXZDb0NQZTB2T25UZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sudoeste Bahia"
-    },
-    {
-      "articleId": "gnews_ee03ba2b0ccefa5c",
-      "headline": "Sarampo: Brasil intensifica ações face a avanço nos EUA e nas Américas - Blog do Toninho",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlhjRlkwVEpZdTNjMTFVX3dBbUdVLWhfd2ZlOHhwUjVFUXo3Z3YyUGVkcFZuY1NkamxwUDYzZnpqMDdRTlJLT2pXNTZ5OWhGZnJCV1RnMWgzRi1xUUUtRzZJOERwME56VUs4ejFZejFrOWFRUWdYd1hXNkhzQkFRM3V2LXVreERfMGhNSzFVSWZZenJvUndSWlZpTkNEWklDZkZvcHZn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Blog do Toninho"
-    },
-    {
-      "articleId": "gnews_d0f951d15fe29ebd",
-      "headline": "Vacinação é principal estratégia para conter avanço do sarampo e evitar novos casos no Brasil - Folha BV",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:14:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQnB3ZG1ERDgzUE5HOG5CTmVzR3lRMkVCYWdpMEEydXp2VFA0Z19yckNubFhMRExHaEZiQ2czSzBfeUFmTV8zMEhlTF96Y0gtSWkwUFkycEkzY29Yb19GQThnY1l6WDlWeTBlMGFYTEdFZ3JoLUZlSlRIRlZkcF9oYTd2SjdmUFBuLXExWkQyV3lNTDlILXRTT1dRSGxQYktuZHdNR0U4RWNmU096MnM3Y0I0MDRKTTR0eFdXWDYzUTR5NkxjQWNEelduYkRwWGhVYy03QnBn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Folha BV"
-    },
-    {
-      "articleId": "gnews_53559f6200465884",
-      "headline": "Ministério da Saúde alerta para risco de reintrodução do Sarampo no Brasil - dbtv.com.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:07:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmtFQlRhTnZMc3BHNUozeWQxLXVzUVppbFJVcHVzeGo4ZTdpekh6WjVGeTZsUDlXVGR3VUFON0cxNmRSc3BNQ2I0SUw1aWh2VWV0Q0xLdTJzcWdRNlZwS3ZiMUJsX2lBajdqLWVjeTE2THVhVHFsOVU5N3AwRHJ3b2VTbTFrZ3J6VjZuSkNpenZ4MjVOYUNSbFRVRQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "dbtv.com.br"
-    },
-    {
-      "articleId": "gnews_32615761f54b7699",
-      "headline": "Com avanço do sarampo nos EUA e Américas, Brasil intensifica ações de monitoramento - Diario de Pernambuco",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:03:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNEFWUVg0elBUWXM2OXdlLVAzUndMeTJBVkFSeXdqWXZYeWNtUC0wVml6eUMta1RpUFMxa1M3aFhBRnEtakNpazZ5dVpwRzhBSXRNRFZJbDRNck9RTGpaRHpOREZ3REpoYTRSZm92TXRHWERydUJxcW1SNVlkZzFQNlVzajBOTVlRRlA0eE5xRFFOTk1tQ21EOEZSd2dtUUgxRlQwd1NSMGRQR2gwRmNPRVlHTDR2UjNHVTFHcVV0QVlmYTlsRDVGMVFjVUdXTnV3UF8tTTJEX0Z5QXlhZzVCUEE1Y3lzU2NK?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pernambuco"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Diario de Pernambuco"
-    },
-    {
-      "articleId": "gnews_dd34e11bef0ef518",
-      "headline": "Brasil reforça vigilância contra sarampo após avanço da doença nas Américas - Jornal do Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:03:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWFpqamN5SjhlV0o3UjlKVFBySFlaanVzSFBQN3dVTlV0MTZqN3dFbC16WV9DS2o1SkpiaS13bGd1a21ZUFNJRkl5X0xCdzE3SHNpaDBCN0xWS0o1ekJPQ3ZhN3NZRVBXVjB2MmVfdXRuWkVCT0h6cFNwc2h3TUN3VFduMEFqZlBFMGZqaXl2NG5xSUhFYkRMbmpvTTdybTNPbzRHMmtzSFFMeWxRVDBBVXRTaTBEcWRMVVNYUXJoanVRc0nSAcgBQVVfeXFMTjNwd0ZKSldlTllNaDdoWnVpcTFidHlNbFBIRXl3SEdNaUlwN2M1NVktMmVaTVBvYXRZd1o1bjZwZU9DNHJVLS0wZ3Y4NnlhYk1Dc05fLXVVbEFnRDNPTFh3eG1UQy02NUhTOHJ2NFlCWllkYzZ1bkNxUTBKVTFzcmNLbTB0N19IWWRHcXAzU01oWHMxWEF3QlBIYzUzb1liaFFMUXlObFo5S0NIN3Iwa0hxaGYxaFpNRzZvT1JXMWJnTDE5akQ3RHg?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jornal do Brasil"
-    },
-    {
-      "articleId": "gnews_87101c8119265700",
-      "headline": "Avanço do sarampo nas Américas faz Ministério da Saúde reforçar vigilância no Brasil - Click Guarulhos",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T13:00:53+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcHV6cDZ5anJnQVNlbTZGQVAyT3FmLUgwUHgxd01iVTZ6a1J5Mm5Ea0hlaDBPQ2ZjRzFPTVNiNEt4cy01S1RVWC1pMGE3ZmxsVEZYUnVfMzZGUkhJNmYxSFRuLWt0RmdDQnpmcjZVNEt5OXpPMC1PcHZfSFNkZ2gtMDZZOXZfQmc2YUJSaEVfRTY4bG5sNjZuNnA5eDZzWGdfVmxpYkRfUE10bURkeU9Qa0VERGozTlRDWlVLWlJ6enhObDA3dWgyWjhR?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "São Paulo"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Click Guarulhos"
-    },
-    {
-      "articleId": "gnews_8ce5d82a5b13043d",
-      "headline": "Brasil intensifica ações de vigilância diante do avanço do sarampo nos EUA e nas Américas - Agenda Capital",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:42:04+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX3BKNm1IZEJILXltWmVBR2JGdTdZYmRmNnFMaEkwajFaRWdyX2dQSkR5TUxqOUNJTXNfSXV5VUMyT0gwSUFhRW1hMGI4ellJd0VxOVJkNEhFWWpNVi1fU2F2QTZ1ZG5jbm5pS0kzX3ItQWVnV2FIVGtoT2NMLXZfSUdjUHExWXNZWWZxa3J3V3FyMjhYUE1CY2pNRWxudWpGelhjV2s1bVZQMVBCZ3JqWTV3cDBxWmRxRTdn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Agenda Capital"
-    },
-    {
-      "articleId": "gnews_d5d8edd89249b7f4",
-      "headline": "RS confirma novo caso de gripe aviária em aves de criação doméstica em Selbach - Terra",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:41:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPcW5RMHFscUZfYXFwaXptMlNBaVVkc3dCMFFkUG1uczV2WnktMWZXclQtT1ZKdEM2eVl1SXVYdU1zWXhQc0xBZTB2cU1pOUt2ZWUtMER4azU2TW1zbERuck56RUdRTnB0Nk5KN3RoUGU1WnBfWGZqcExpVE1nVk53cXRnVnBOQzdrMjhIRklOYkpGcHFrSHhKVDBPMHY3RHVBc091dEtkdEhQaEZiV244ZVZybUViTVNtWWhacnZWa3FMaElmZG5oM1YwUUI0LWM3bndkNWJKS2VOdVI1VTU2VUxsWkRibklOVlJkYW1rMDZCY1MyUURWUA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Terra"
-    },
-    {
-      "articleId": "gnews_7b03d98645b1892d",
-      "headline": "Ministério da Saúde reforça monitoramento contra sarampo após incremento de casos em Estados Unidos e outros países da região - PDNews",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:37:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdkRCREFoRUhHZ1M2bVJkMF9QblZVUkhqUlVhQ0lJbE9rTmlRWkM3bk5XcTl2TE5iVkVLWmxVVVRsZkxkRnk5S05WWkJJWmN2aHk3ZUx5WGo5YXR0UlhjRWxQUnVqREpsTW95cmt0eWJ2LWVfbzNPVG5mcGp6T0J3RXI0VURPaEN2NjMzd0JsZ2tnVlRRRmY1ZUcxUEJCSXdEeXJxSjRPdEQyWDTSAbABQVVfeXFMTy1rc1FLbXFIcExZMEUwN0ViMzFsZHFFb2dNNXFReGUwOFhtSzJmekpZT1AxZXJUSkp6TndCWE0zMUdhUmNXeENZSExfWFpZU0dVYkhCQ3dzbVM5akl1UkVzT1kzLWp1QUcxWHh0VXV0R1A1SFE0Z2EwUkZiOThYbmc0UThiS3RlWGxXRWxYWGlHZ1JNUGpmTDhLdFJKeld3UC1DYl9aeFQ5MGhGODZ3S0o?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "PDNews"
-    },
-    {
-      "articleId": "gnews_b2bbe18f802ecdca",
-      "headline": "Sarampo: Brasil reforça vacinação e vigilância após avanço de casos nas Américas - Impactto News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:31:23+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS1pJa2U0X3c1N3lwckVsS2xTZGFsRVBxcFZReHhOU0dvRFhrckRkc0VTLUtsNER6bWY0anlXN0xJQ2F4aF9FSlNoWENvdHVQVlZfYy1nX1A3U1JHR0FHcDhjdjZYQzZFTWt0c3diT0hiVXNiSFkzZ1p2dV9kS1ZJLTA2WHdoclJva1Fadm5ablVYbUFDc21OdUQtVnNvTno3ZnFBZE9fNERKbW0zWlRaX2x0NHRUbjNfbDBRVUE5N0c?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Impactto News"
-    },
-    {
-      "articleId": "gnews_be0e1425be7633d5",
-      "headline": "Sarampo: Brasil intensifica ações face a avanço nos EUA e nas Américas - Alagoas 24 Horas",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:16:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFFBQlNXOW54UTZqX1FIcUFNWmtRamt5OC1GRXJmeXh2UEF6Y1E3WktoQllPM05XWW9MV1FRQy1LVm12MHFxYkRZbXJZYU9WdG5FRWJMdHBTM1FlVXdGYVB1azJCa3FBUW9hX3F0OG5ENHlIV1dmZjkwVkZIbTNrU2tzdkctSVNkbkxPanh5OEMtTWVzT1BqWkNRRV9pZjdKaEV5VlNmU0FGYzF4RFRycVppZW81RWfSAbcBQVVfeXFMUHhRQUJTVzlueFE2al9RSHFBTVprUWpreTgtRkVyZnl4dlBBemNRN1pLaEJZTzNOV1lvTFdRUUMtS1ZtdjBxcWJEWW1yWWFPVnRuRUViTHRwUzNRZVV3RmFQdWsyQmtxQVFvYV9xdDhuRDR5SFdXZmY5MFZGSG0za1Nrc3ZHLUlTZG5MT2p4eThDLU1lc09QalpDUUVfaWY3SmhFeVZTZlNBRmMxeERUcnFaaWVvNUVn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Alagoas"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Alagoas 24 Horas"
-    },
-    {
-      "articleId": "gnews_9f84f8f07abe395b",
-      "headline": "Brasil intensifica ações contra o sarampo diante de surto nos EUA e avanço da doença nas Américas - Fan F1",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:09:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTkI1OTJpOEU3eUpfV2FoTmRVandPME1ndWloeElSdnhxTDFZQkJPOFRUbFRNNWJRT2RtLUV4bnJ3QU04UVVIYVhFTVJtSnNmaE9GV0dWNS1FUTdPSFZtRGJlaFVDSTFSOFRBVldSNTFfZC0wNnFwOVp5ZWxmeWpYTzFWNjNxWG5yVHR5SWdGYmpsUUFTUG50LVotSENncHFRd1BMSHhOYnloaVZCYk9XZEN1RjV4dnJiVlJ3bUpfNjZvSkFDb3FzbVFn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Fan F1"
-    },
-    {
-      "articleId": "gnews_a6465af0c429bbb4",
-      "headline": "Brasil intensifica combate ao sarampo diante do avanço nas Américas - noticiasdoplanalto.com.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:02:14+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQelhjaFBQd1hKU0xpRUdBMldVZlplODhLMDZra0J6YndkTmJBR3pVejR5NkF2ZjBrV3l4VFYwZVAzX3lUMmJGVzJMN0dKOEpUSzcwTklLNnlCNFM3YkMxX2t2U19SRDFmaXh1TVBRMEhGLXc3V2ZTT2taRXItWDV6bVdINHVXcGZqLVpxbUlYY3lRQVhuVTczN3d1eEh5ZnNOSFNzNw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "noticiasdoplanalto.com.br"
-    },
-    {
-      "articleId": "gnews_6e117a25722680ed",
-      "headline": "Brasil reforça vigilância contra avanço do sarampo nas Américas - Jornal de Brasília",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T12:00:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdDN0ZlItVnpjTklqcmJnMDlNb01SOVJnU2pVRDlMVmpIRjEzeEFPSzZ3aHBndkJQYmt6N0VUTm5BMGsyVmZwTFl5LWNTZTlRVWxtNzkzVER1Uld4SERRSDd5ZlIxMlQ5bjUxZDhTVThZWjBLMHdiQWNrOVRTWW1aLVNENTFaYTdtc3FhRWtjU21ER0JLWXpESWtQdEJ2bkRCNXhJQTg4QzZSaXFhTHl3cQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Distrito Federal"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jornal de Brasília"
-    },
-    {
-      "articleId": "gnews_44907e85da20533c",
-      "headline": "SARAMPO VOLTA A AMEAÇAR O BRASIL E ACENDE ALERTA PARA A VACINAÇÃO - Jornal A Gazeta",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T11:29:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWi1EeFVlUThpWVItcHlPM3ZVNTBfNXhoOFlFS0xDaWNVUzVBOEZxakpETW10VnZleU9hM1ZKck82ZVZqelNkX2E3N2x6YzluZHhORUhLZkROQjFrZHFteWZrWUhpZ1R4UEE3dVpGZFU4Y2dBZ0pidzlVQktnVmNfZmd5Mnd4VWgtU3dlR0drY19iVDRENWw0aU0tOA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jornal A Gazeta"
-    },
-    {
-      "articleId": "gnews_a7dc351ccc8f7898",
-      "headline": "Sarampo volta ao alerta nacional após surto no Tocantins em 2025; veja os cuidados - Diário Tocantinense",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T11:15:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSUUyZjNWQU5tanZFckk3UldvN3pHV0dzZG10TXVwdDNPd1doNUhacjZrZFFDSUs2SHFSQUlaNDhjZ3EyWTZIaUlXNm1hRVR0bnd6a0dkM3hxQXd2RC1STDRfdGVjMWVFNW93aTVpVUVtMlViejM3Rk5SdExOTy1DbFhlUkVsemlsenRrR21zMjJtbTVERXV4RWxwa1BkSTY3VTZWd1hjbHpzVEdxeHFuOHBCaUFKZ2pyOE9LME9hS3VyTjJsdkE?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Tocantins"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Diário Tocantinense"
-    },
-    {
-      "articleId": "gnews_cc8b6634d8e7c94a",
-      "headline": "Peste pneumônica: entenda a doença que causou alerta na Rússia e qual o risco de uma nova epidemia - Rádio Guaíba",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T11:10:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbmdETzZqY3lBMkpXdW5SbzRkU2Y5Ulg2MFlkUEcyb1JWbXhXLU1QT0VzcGZncE9XeWJhTzVlZFpxWGtKX1puQmRvNmcwWmQxT2YxNUdITENuZ0ZZX1lXSVBSSUlGdTk5a2lrSE5QdmNPNkc5ZVNIcXhpazZjSDEySjViRllwcEpJdkxlRDNBMWY4UVJHSHl1M2R6V3JXdUl1VEpVTGxBUnJlWmE0MVNZUGZHellGZ21hQUZiUg?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Rádio Guaíba"
-    },
-    {
-      "articleId": "gnews_9cea42f4766684e5",
-      "headline": "Brasil reforça alerta contra o sarampo - Hojemais.com.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T10:53:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2JLR3Y3clU0QUVGU2FvaDd1aXVLd1NEXy1vcVEyODFYZnRpS25kN285djZ4a05fMnZSWVNhMG95LUYwT2NZNG1BTi0tYW5NcF91d2RhNjFrcEpsM2ozd2xKTjJGTUt3R0ZXMGhISkFsTWU3ZEt5Y1ZPZ0pzM19rOVNweThwUzNlc0x3OU85N0dISm9XcXd3?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Hojemais.com.br"
-    },
-    {
-      "articleId": "gnews_01c193906d8b3806",
-      "headline": "Pesquisadora em laboratório russo de pragas morre de infecção desconhecida - CNN Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVzFTeFoxc24wd0FNZG1Sa193WXNNNUo2UUMzVmVsWEptM1VtOUtNc3NRdUZNTVRXYk9WU20zcDI4NFM1UTBMTVNHNDEwZ0ZjaUpjcUgzaWpLRGNyZWhQeVBaT3lzMzlhWFBhTVluTXRiT0wtUlBRb1lPN2FhbEtmTDdmcEFyOXhSb2lfY1JVSlM4QWdlRWZMV2Qyd2x5TnhHN3ZHWGJESVRRMlJETDZDUXFsS0Q2b0l1?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNN Brasil"
-    },
-    {
-      "articleId": "gnews_5cee3b282a4d367b",
-      "headline": "Por que a chikungunya dispara na Bahia enquanto a dengue recua - TV Sim Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T06:18:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ1ladHNvTjdnbmExdkNaMjFiV1Y0SjljQkpEaElrWnRBbHUteV9VLVBTMndhdkZQZmpKOVN0NXdzMjR6RWZGNTNJd2JicmREMlVvdTVMeVJyRUxLWUhmbVEyWGNRLXFTaDdkbS12Sk14UmVLczBLY2lOVUY0M0VsWkpRMm4zRFhVcTVINGdtSkxGNlpLVk0zWkFkTHJjRlN5VkxJYTFwMlpDZw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Chikungunya",
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TV Sim Brasil"
-    },
-    {
-      "articleId": "gnews_a546ca84356a9e5c",
-      "headline": "Caso de gripe aviária é confirmado em município do Norte gaúcho - Jornal O Sul",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T01:18:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcF9nTFJuLW9xaHRSM1dla05maW5XMmpzdWg4TnQwNTNndGRZN0ZBbDl6c0c2aGpWQV8zWkgxMkIyX0VNRzNiTTlySWVmUzIteFVvZ2hIT2RsQmFJdG1ad05GQm9CbU12aURsaVBnVG9oMFZfbDhZSDQ5VDI0LXhKSmg4RC1qak1Md3JrM000bFJEUdIBlwFBVV95cUxQRlNqdVkwSGlIWDNRQmxnODNLUW1rVmRYMU9XN2xPa01CZm1JdkdjTG1XTTRaRE5EQ0VjMXN2dFNncW9pOFJtRmxLRFlQQlZnSWFPcmJZN3FtVlUyVmlBOGNsOFZ2QnNEcHNTeFhkYVE4VC1DZTFuUkI0dDFacGx4M01JZ012SVBpUl8tTndxcTNnNEU2Z3dn?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Jornal O Sul"
-    },
-    {
-      "articleId": "gnews_8f84ac49e4294e4e",
-      "headline": "SP confirma 41 casos de sarampo; 75% dos infectados não se vacinaram - CNN Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-07T01:06:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcnNJQVZDNFY1RmVXekJvcWpibENPX3ltb25ZYnFDWEx4RXJXazJhVGwybEZnd05hYUZtZzVLQzI2LTFKOTJxSEJKUXJ0RE5uQW9UVVk1NWFkcm5VbG9sWW1HVVRiV1ZOdlI5blhuVUtUUlZrb3VzQmd0aW5zaEhjMVl3X2NycmNveVRXaEU0bV9qcFJjdlotRnFyaU1DeFBTNlBlZDBtVTRCcTdGVWlzbE82cndySkU?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNN Brasil"
-    },
-    {
-      "articleId": "gnews_50fad63f9aa04fbb",
-      "headline": "Gripe aviária é confirmada em aves de subsistência no RS - Agrolink",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T22:48:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdHA4SldzYmpwbXA0SWhjRnU3M0FBZTg3R1lCSlVmaEZSZklYczdjaG5oRGF2Njc5Qk96WjZvRkl1U1JMUy1nR2JWVEpuMG5tSzJMd05MSHVldTA3Zm90bEpXUnJJT0F5dF9OMndSTElhcDFMN1ZjaEZ4TE9iSmF6QkptT3JWdjVZS2VCRlE1ckVFaVZDcFM2V0ZjcFE3TFpYRTVZb1FWNVEyT1dBVlVhcUVpVjA4V3pvS2hocS16Q21tWXlkdFoxU2JB?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Agrolink"
-    },
-    {
-      "articleId": "gnews_371f5a7f2cf7d5c1",
-      "headline": "Surto de sarampo coloca Nova Iorque em estado de emergência - Agência Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T22:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVGZ4ODBZRWgyV0hNcnRBMVpHYzFra3FnUjF3ZGE0bklkQjY4cDNLbDd3Y0Z2TlhESmhKdW5KTUVGaDA0LTI5RTRlWjVsQUpiTWxoeHlsYkxxZFluSE1jYVR4YTNNWXliOFdZeU1Idy1TamtJdkZjWUxhcWU5elBuekoxNVdNN0Q5RWNJcDg5ak9sZDF5SzRUdHgzdmc4ZENkZzh5eGpMZmJjVTNDeVk3OHhueVl0Yi1ib1U5S1JuR3phYThuTUhXcHJYNWNqNjV1dUo2ZGcybWxZQQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Agência Brasil"
-    },
-    {
-      "articleId": "gnews_50045ee634617247",
-      "headline": "Anápolis vai espalhar ovos de Aedes pela cidade para combater a dengue; entenda a estratégia - Mais Goiás",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T22:11:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNODlhd0tlRWozRFhCdEVTOVdNM0lpRW5tSERrbVU1SjQ0bkNpNlZBc0I2SEtvMVhkYU1MM2ZyOTUtVE9KSkZRREVQX0FHbFpRSkt4MDBWaG0wX2pGdU1pRW1NcWhRc042Y2laNnMxOEtvQUd3d2RlSUtoeHhGdGRsQWc3WkpGSEl3NmtOb1o2WjdEdnVDN0lhNVNoNGlybUs1M2p5RUlwUUNyRml3SXRiNklNYTM4aFdXblVWREhMYTJKNnFEYTNuYy1uN2cxMm9TVVZQRw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Goiás",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Mais Goiás"
-    },
-    {
-      "articleId": "gnews_5ac311c5ff1a3ed1",
-      "headline": "Brasil intensifica ações contra o sarampo diante de surto nos EUA e avanço da doença nas Américas - Governo Federal",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T21:56:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcEduMElvYzN3TXEwSWNxTDkwX3hxSWF5RUZQTlpiRUY5QUpRelRyU0RnOVNZRjJyVDFGQXNOZVhqelg2OHdqR1dXaE1JamhHOXVRWjY1Y3paUnpITHFZOEdENlJ2VGdRUlBYT2FLQUxWY1JrSndjLWNFZFh4Yy04MnlCT2VXWll0UUg3b0c3Uk5hejRBU0NTWjdxRko2UzlnZllQMHlULU90dTNaQnBmQUdEQ0pKLTBUaldGVC16ZFN6T1Q0TWswSnptODlFV3lROWwyQ1dvOWVpRVJ3NnRsQl9WT1Y5N3A2dVhXSWZoVmVudmJv?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Governo Federal"
-    },
-    {
-      "articleId": "gnews_29f1e9e729fb9468",
-      "headline": "vacina sarampo.jpeg — Ministério da Saúde - www.gov.br",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T21:54:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUUVMSUM3NE9SNVUwdzVMSzZOSTU3VFIyWDhvQy1mMU9kS0E3eExxTmIwMktDNHBNeUF2WDJsX2pGamFiQ2tJc2U4RXExOFNMRGFTVnlzNzJKVXZra1Bwa3h4Q0VZb0dTTEtLbktsRkxDakZkMjk0NThheGxzbGg1WENybXZDQUlFMU9xRlBFbHNoZkUxdU9nZF9RZXFvZ2lvUUJOa0FYYkRERVlITTJYOXFvNVppT2FkeWRSR0lBYkdMVW1uVzNQTGRPRTE2dmQ5YVRlRXdIN2kyM2hXUHhRaTVWLXlQcWdYTzE2WlpWLVpvNjZBQ1ZGNDNqNWc3V1M3ODJoUld3OTk4Y2Z3SHpLbmUyV05RUQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "www.gov.br"
-    },
-    {
-      "articleId": "gnews_6bec9dc8440de055",
-      "headline": "Gripe aviária: RS confirma novo foco e reforça medidas de prevenção - abc+",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-06T21:27:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcUl5MGJLNzBaY3E2LUpiTGtDU3hxdm1TaUVfTlRyVWMtVVNzMWQzYlBTR0hFb0szSXdhVWR4NWVnNGlzbHVNTzgta0ZvU2s0VjBESkNacF9sMEg1enlwam9hNW83SjNCVnBtTFNKcXdFd1RQVEtsRC11aUt3QjB1SFQyMTFGT0xXaUx3S0JId1MteEs0ZzlITE01ZE1mbHpuZXJjbmthQno1MU5XRS1TVXcxZlFBNzA?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Influenza",
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "abc+"
     }
   ]
 }
