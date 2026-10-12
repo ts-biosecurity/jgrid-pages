@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-10-11T21:47:06.823419+00:00",
+  "generated_at": "2026-10-12T21:47:24.149636+00:00",
   "date_range": {
-    "start": "2026-10-08T21:47:06.823419+00:00",
-    "end": "2026-10-11T21:47:06.823419+00:00"
+    "start": "2026-10-09T21:47:24.149636+00:00",
+    "end": "2026-10-12T21:47:24.149636+00:00"
   },
-  "total_articles": 12,
+  "total_articles": 5,
   "retrieval_status": "ok",
   "state_summary": {
-    "Ghana (region not identified)": 6,
-    "Upper West": 6
+    "Upper West": 2,
+    "Greater Accra": 1,
+    "Ghana (region not identified)": 2
   },
   "disease_summary": {
-    "Yellow Fever": 9,
-    "Tuberculosis": 10,
-    "Ebola": 1,
-    "Measles": 1
+    "Yellow Fever": 3,
+    "Tuberculosis": 3,
+    "Infectious disease (unspecified)": 1,
+    "Malaria": 1
   },
   "articles": [
     {
-      "articleId": "gnews_5842969655336953",
-      "headline": "Ghana declares yellow fever outbreak as three die from infections - The Eastleigh Voice",
+      "articleId": "gnews_f664e1e42a0ad009",
+      "headline": "Ministry of Health declares Yellow Fever outbreak in Upper West Region - Ghana Fact",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-11T14:02:43+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR1BsYlhtc1Y2WkJkNjZ4dzJya25tVThwVUJuUUxobmFwRXUxbHdSemRCcWNJV195MzBqLUwxMTdnMFpOdGRqV3loUk1OYkhlSU4wUVRsT3hSdDBUdzFmOW5fY2VUZU9wajFidDFOdF80ZmdRb1gxWmdTaGg2Z0lFbnJGZWlqOG9IQjA1WWxWSzRSZWstYTRWbTdvUDZqSEw2ME1LekVqTmNOdXc?oc=5",
+      "publishedTimestamp": "2026-10-12T18:22:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQW82VnJGc0FUdHZXa0p4RkIwZlVSUnlBcXlfYWhWYlJrV3JvYlpDSXlQLXQ5dm5LaTVVcWxrWFhhcGdYVGM0V05kXzNRYmJOU1BDN1lEWnpkY3NvSE81T0tVMUZRUWY5Vm9OazVqbHgxYWFSeVdySDVvdFhDUkdpZGk1d3NXM3FJSWpkUUdmX2FSTU1aelpQaA?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Yellow Fever",
@@ -32,10 +33,48 @@
       ],
       "locations": [],
       "states": [
+        "Upper West"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ghana Fact"
+    },
+    {
+      "articleId": "gnews_0831ab3e3c6ca0a2",
+      "headline": "African epidemiologists to explore technology-driven disease surveillance in Accra - GhanaWeb",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-12T16:38:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV2U1MWtGRmNCQTN5Rm5kdU85aGU1T1FaRVhfaVoyOVNiLVpDZFByOWl4NFZKaXB2cm5BM2NTVjJwTkpNUnhDTUEwSEc0MDladEhpTFlORHdRQ2F5NFhGekdGb1J5T1JMM2cxUW8tTEllNTNuTXFxV2hfWFJIMlgxUFgwVHp5NVBVWVBsWkVuWTZ3ZHBseVBnaV9xeG1GelR3OW9OWDRDano4ZG5SckRkek5sTnV6TnY2RktIejRHdXVPb0thZUNEbjZBQ3BMR08wZ1E?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Greater Accra"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "GhanaWeb"
+    },
+    {
+      "articleId": "gnews_7072ccfef17cc56a",
+      "headline": "MPs, CSOs push for dedicated budget line for malaria - MyJoyOnline",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-12T14:47:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWDd5MzF2cGZGRG96UlZ0QVNJNTFmMTFqV0JqZlBWQ0RkVXdqZjExMTlYWHdqN3ZzSEJPcENmb0JDbEUtMDAtOGxUTGxxSVk2bGJkUi1jME9LNW1nQU5zajg4RXNMdlBpaTZmODdqRzJLcE5vWGx6QzF2cUFqdi16dXZUSlFVbnM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
         "Ghana (region not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Eastleigh Voice"
+      "sourceName": "MyJoyOnline"
     },
     {
       "articleId": "gnews_e8604139e8b8d067",
@@ -58,90 +97,13 @@
       "sourceName": "GBC Ghana Online"
     },
     {
-      "articleId": "gnews_ada52597c004163e",
-      "headline": "Ghana declares yellow fever outbreak after three deaths in Upper West - News Ghana",
+      "articleId": "gnews_5842969655336953",
+      "headline": "Ghana declares yellow fever outbreak as three die from infections - The Eastleigh Voice",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T20:59:04+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ1d3NVJ3RVlGc3lPN2tfcVJHZC1jZk5MaWJQR1FrVGMxZ1NqWFZGMzE0UWZYY3IwTkg4Y1BFcnFYYkhSajBaREZuQ3poN2ZCTXVKNF9nWmx1cVlKcnpDTVk3RERkRkZManlTSnkzTFZqWGliOHNZem1GbWpZOG1vOTBzdWtseF9GOHE1VEUzSzE5dHNaY0VfM0xHSQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Yellow Fever",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Upper West"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News Ghana"
-    },
-    {
-      "articleId": "gnews_9d3fd4d377e96d7f",
-      "headline": "Analysis: Ghana’s yellow fever numbers reveal a gap between vaccination and protection - MyJoyOnline",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T19:22:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaGoyLTlVcVRjYTVQNUFzUXMyLWFaSTByUGxneC1YZlVOZ2g0cGhidDRyclBvY1F2dThmd2JUVHU4TGVQZHFWbVdYNWRxdVA2ZE9jci1raUFidXRjRnBHUjBUOFVONm0wOGx3QjhZUFI5MDBNNnVOQWtVeE1nbGZpcXJld3RHQjktTGR4WnBTUUlXLUhZS2JGbDZtQWJhVXhBN1otWWN5bm5ZdUc2LXJpT1RRUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "Ghana (region not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "MyJoyOnline"
-    },
-    {
-      "articleId": "gnews_fcfbe2b777c5ff0d",
-      "headline": "Health Minister confirms three yellow fever cases in Upper West - Ghana News Agency",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T14:27:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRzFfWTR0NVFMekNXdTlMSG1tbjYyWVVSQkFZb3p0TW9GYzE2WVJyZzdUei1QTjVLd0RvU2hPczBQbTRRd2hQX1BnUEJYdWJrNlAwZXBxY1dNQkV4U3EtUE1GN3NwWmV6RG83bFo1OTRnQVNkWDBGMzZpekJpWGFhU1M1cGJIc1JfQ1VGVUEzNDVkMnJqX3c?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Yellow Fever"
-      ],
-      "locations": [],
-      "states": [
-        "Upper West"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Ghana News Agency"
-    },
-    {
-      "articleId": "gnews_a39f35158b2290cc",
-      "headline": "Ghana officialy declares outbreak of dangerous disease after recent deaths - Yen News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T11:29:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX0FKcmhqU1R1Tmw5N0UxNXRLR3A1azNKWW5NTmc5eFdPM0EyS3dzLVloMVJJVE9HaGFmUDZ4WUZvUzUxOUNsV1FZTzBwenhxX2FaZFRBU2JjZ0wxdmtfb3lCSFZkY21UbURaZGVFMFl3dVlEenFJeEo5bWZ3cDlyYUpicERSZXVOOHVmYTB3VlVOUzJrcHJ6UlVEZkk?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Ghana (region not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Yen News"
-    },
-    {
-      "articleId": "gnews_8f54409dbd0e017b",
-      "headline": "Yellow Fever Outbreak: Are Ghana's Health Authorities Doing Enough to Stop the Spread? - Modern Ghana",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T11:20:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jeHI3VXlfdUFveVItR3dVSi1WOE1rSEJJSDlqcFhEVVdMcFF1MVJSZGVIQzB3WFVmREFlb1p2R1RIU0h3Q2l4SFFTRzJYaWh1Vmc1ODU1empTdGQyR3Z2SWRjOELSAVxBVV95cUxQamt4dUh3d1E5ck1IcTg0anpiZFhOTEx0bk12S0JsN0thMllzNEVIWXA1N3dkdjhZdUQwLTVCWXNoY3I3N0t6WDdtRmZISGlDd0VMcjdnUUxscFFkZA?oc=5",
+      "publishedTimestamp": "2026-10-10T07:38:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR1BsYlhtc1Y2WkJkNjZ4dzJya25tVThwVUJuUUxobmFwRXUxbHdSemRCcWNJV195MzBqLUwxMTdnMFpOdGRqV3loUk1OYkhlSU4wUVRsT3hSdDBUdzFmOW5fY2VUZU9wajFidDFOdF80ZmdRb1gxWmdTaGg2Z0lFbnJGZWlqOG9IQjA1WWxWSzRSZWstYTRWbTdvUDZqSEw2ME1LekVqTmNOdXc?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Yellow Fever",
@@ -152,107 +114,7 @@
         "Ghana (region not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Modern Ghana"
-    },
-    {
-      "articleId": "gnews_a46444909f9285f7",
-      "headline": "Health Ministry declares Yellow Fever outbreak in Upper West Region - Graphic Online",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T11:08:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTVFzWmVYa3FJNEVsVGZVQVgwMDJ1YUowelRkZDNrYzBIZ0J5Q1Z1YVM3UjJrNnJrNXJQUGJjUlNzcVAxOU5sR3FxeHhNT0s2emFkQm8wVDZMd1VPVlhqc3g5dnFMcGd1bFppVEZWdG5kemJsY181T01qWC1EVnc4RjZubENkbDdwaXZLTnVOaW9Bbl96dld2ckpROGNfZ3Y1dFR2eDRidWFfNEVwelRNbQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Yellow Fever",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Upper West"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Graphic Online"
-    },
-    {
-      "articleId": "gnews_d9056fae295889da",
-      "headline": "Ghana declares yellow fever outbreak in Upper West Region - Modern Ghana",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T10:57:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLTBfekpETXVwaVpib0VuX0h3R0hzT190M0V5V2J2Rkl5U3c4b2Yzenp0VTROQS1vTFNZR2tIZGFuSXlrSzI0UjJWUFdDS0tyMTlwT196SjFpM0pXaVBva3pEbktvSXFyQVhoNUd3T2sxT3h5dmNyNnZEcUFNc0FyT1RyWEI4elBJbmszUU5FOXluS0MtU3l5MlY3aVHSAZsBQVVfeXFMT1ZhRllqWndzRXF1WGthWEJtVEQzbVVwbU5PVmVndTc1WkFMbEZHd2taQkJ4ZGZadUhTNFVERTFDS0Itc2llWGsxcUF1T3Y4TFd6LTh2TWwxdmZPcUs1OUtyVl9DSkhmc0ttU0RBWVY4RU16VTAzc3lzNmo3bTRLSEk2TWZLcDFGajU0aFFuREdUX0l2ajU1bktYNGM?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Yellow Fever",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Upper West"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Modern Ghana"
-    },
-    {
-      "articleId": "gnews_3fbe39379a364b33",
-      "headline": "Gov’t declares Yellow fever outbreak in Upper West after 3 confirmed dead; Here's what you need to know - Pulse Ghana",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T10:45:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWk9TRlBUanNRTWhhWHZpNnVJSmFodzlud3hPamdKN1BsVGd4TGk1cWEtRTc2N0Fwem9FT0U3ODBwMFAzNlBRSm5SUUlRZ1lmMDJjNFhuWU9NNnRUa21Sb3pNemVpYXBkeElNcVc1VUdCNE5Pd2NqY2xjTmo2Q3dfeVpiYlZzMHpXbU5hZ1FPRmF3QVE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Yellow Fever",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Upper West"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Pulse Ghana"
-    },
-    {
-      "articleId": "gnews_b9ea6daea01a1845",
-      "headline": "Ebola Outbreak: Current Situation - Centers for Disease Control and Prevention | CDC (.gov)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Xb2M3MTlzZjZoNFc5QlFXTkhpcDIxTFBQc050QnBtQkQwczJnM2daRUZGQzFfcl80RmZGYy1qLXRXeUF0Y1hmejlfemVQVk5uNldZclZscUpiQ1hSX1FsdXB1MG4?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Ghana (region not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Centers for Disease Control and Prevention | CDC (.gov)"
-    },
-    {
-      "articleId": "gnews_9459efc5b71fe4fb",
-      "headline": "Measles Cases and Outbreaks - Centers for Disease Control and Prevention | CDC (.gov)",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-09T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kU2puTzAxZ3ktbE1vNzU0RU9xZTlMYzIyb3JRaENuSnJJdnllQUJDeWs3TElwZmJmYU84dkFsc1ZKaEw0N2dTUHFVSlktVE91ejM0TG10YkRVellCcXo2X3VR?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Measles",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "Ghana (region not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Centers for Disease Control and Prevention | CDC (.gov)"
+      "sourceName": "The Eastleigh Voice"
     }
   ]
 }
