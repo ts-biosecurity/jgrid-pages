@@ -1,27 +1,336 @@
 {
-  "generated_at": "2026-10-21T21:34:31.928532+00:00",
+  "generated_at": "2026-10-22T21:32:50.067416+00:00",
   "date_range": {
-    "start": "2026-10-18T21:34:31.928532+00:00",
-    "end": "2026-10-21T21:34:31.928532+00:00"
+    "start": "2026-10-19T21:32:50.067416+00:00",
+    "end": "2026-10-22T21:32:50.067416+00:00"
   },
-  "total_articles": 20,
+  "total_articles": 26,
   "state_summary": {
     "India (state not identified)": 12,
-    "Tamil Nadu": 3,
-    "Gujarat": 3,
-    "Uttar Pradesh": 1,
-    "Chandigarh": 1,
-    "Maharashtra": 1
+    "Uttar Pradesh": 2,
+    "Tamil Nadu": 8,
+    "Maharashtra": 1,
+    "Delhi": 1,
+    "Gujarat": 2
   },
   "disease_summary": {
-    "Influenza": 2,
-    "Avian Influenza": 3,
-    "Infectious disease (unspecified)": 4,
-    "Dengue": 12,
-    "Malaria": 1,
-    "COVID-19": 1
+    "COVID-19": 3,
+    "Dengue": 13,
+    "Tuberculosis": 1,
+    "Avian Influenza": 7,
+    "Influenza": 6,
+    "Infectious disease (unspecified)": 2,
+    "Malaria": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_4910e1f9c8c87cac",
+      "headline": "Video | PM Modi Speech: Covid-19 का जिक्र कर PM मोदी ने बताई भारत की ताकत! कही ये बातें - NDTV India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T15:27:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGRXOGZJVUlidlRZZUZMcWV0VDNnWVh2X1ZYYkZrY0FKX3hBdVFXN1RJcFZrSnBmUXBJWmdfNF9pdGxfNE41bkE1dnZuOUNYSF93MjlpMkJVakZpN0pvU2JLMlBfOFJGNlo1NG9pZHNWRzZjNnVpNjJwTngydDhYT2lRYThTRXJsYWVoVEFWLXQzZHZnNjN4Y0M3X3lhMWpNSXo2LXJWN1p0Qmh0ZXVCWVNxZ0hPZGlTTUZJdQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV India"
+    },
+    {
+      "articleId": "gnews_5b7611f134ab9cd9",
+      "headline": "लखनऊ में मौसम बदलने के साथ डेंगू का प्रकोप: 22 नए मरीज मिले, जानिए लक्षण और बचाव के उपाय - ETV Bharat",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T14:56:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONkRuUkVmWV9BY1pCUFhXMXM0bnJEX05wS3JWRDFaQ1hUeTJuUDZlRDA1bW1LdXBla2t4NnNiMmw2WTZTazR2WW1ZTWFwMU5uR095QnVOWDhvc2h3OXUwLWZnbUZNVFdQbzFKWFlOU2hub1ZlTmZQWHZ4RE91TXpRSzRpLWY0Q2lGTE45dWctNG0xTEQ3aXFLZnQtLTVCTEtzbkUxM3pDVWNQVkNmZXdHSW9vOGYtQVHSAbcBQVVfeXFMTjZEblJFZllfQWNaQlBYVzFzNG5yRF9OcEtyVkQxWkNYVHkyblA2ZUQwNW1tS3VwZWtreDZzYjJsNlk2U2s0dlltWU1hcDFObkdPeUJ1Tlg4b3Nodzl1MC1mZ21GTVRXUG8xSlhZTlNobm9WZU5mUFh2eERPdU16UUs0aS1mNENpRkxOOXVnLTRtMUxEN2lxS2Z0LS01QkxLc25FMTN6Q1VjUFZDZmV3R0lvbzhmLUFR?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat"
+    },
+    {
+      "articleId": "gnews_b802d604930a809c",
+      "headline": "TN conducting India's first dengue vaccine pilot study, says Minister Arunraj - Udayavani",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T13:30:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZmtfQkw2S0J2aDFGU3JHQmRGVnFfTVh4VUpkaGRHcEV0WkRpX1NvR2ZsTVJSaURsUVRmZUxDTmFYVDY4ZElaMjFFMUUtUXp6NkIyQmpLQ01ocUNuM0ZCUW5qRFFYRlV1REpNTmZ0WGxHVEVFdzRER1lucVBpWVpqcDNyeWVueTVJaFYySW1OYm9Pc2duZWQyR2tZeTlHZU1ZNjViOWs1c1I2Zw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Udayavani"
+    },
+    {
+      "articleId": "gnews_690978f256ded680",
+      "headline": "कोविड का टीका भारत में लगा या विदेश में, देना होगा जवाब - Hindustan",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T12:42:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONmMtRTJ6SG9HZ1QzMFJGeUc1dzQzZkgyZTIzNU1WRUtiWjQ0alFoRVJOUVRaamR3eElLOWp0cWRBZkl0YTJHV2huci0tS3Y4Z2R4blZTemhGRmhOT3cxN19NbDl0U0JFRXhhbmlWbE1RUkhub3VEb1N0VmRXX0xTQUJkVmxDdkhwTk1VUFJ0akdNVUlEUFlweXFvVXBTZlVTNHRWc1hGVkVhVkMzeUZmZzVsOFF4YTQ2UVEzM2JYSXY0NG5RRGpSQ19jdTBpazFKRjhCVHRZUjJBVnNtRlHSAeMBQVVfeXFMUDBJT0ZoY05ZQzRIdnlWMXhYdHhDQWwwN2Y0NWE0WmpnS0pLVHNFZ1RHRkZLMGFxMnZCTXkxVlZNZXcwY0JnWTZwTVBocHJKSnBaSWJRcVR1TkhodUJXQk5WX2VQa3gzeFlQNkVKb3BPdURuQ0lpTzNWbDhtRWlJU1lLcFRxUjNwZlA4NFFFcFJjR2FzcUp0RlQ3Uzh6TktwcFNBWnFSWktMb2xYOFVrb1hRVkpnMlhWd3JkQk5sc29CMVRDY2xaZHZDQ0FxdzBqYzZiVmw3ZE9YZTVIZFVGM1M3QnM?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindustan"
+    },
+    {
+      "articleId": "gnews_0446cfa10cdea0b6",
+      "headline": "Tamil Nadu Launches India's First Dengue Vaccine Study - OC Academy",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T12:23:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzcnAwS2t2VFZFb3pyTkN1LTRibVNZcTl3aXlDNDFGbUhzQndzVGxWU1l6YzVxZDZhYkhUNFhTcVpQX280Umd3OVB3a0lKQll3MkNCV2xVTVlYMENVSTgyNURGc3FTOXBzRk1CZnNQdlBsZHVjY1JJ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "OC Academy"
+    },
+    {
+      "articleId": "gnews_fb36bbbe20f2d9da",
+      "headline": "तमिलनाडु में भारत का पहला डेंगू टीका अध्ययन किया जा रहा : मंत्री अरुणराज - ThePrint Hindi",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T12:19:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVU9aUHBFdnJwMnp5Qzg3dnlEWHhKeVV4NjVJTnpWdDFHdEdEclVfN3VIeFZpd0ZENFVNcVNwSW83QkZUb1A2OVRlRXM1U0ZMelF0SUVfNW8xWXJoZFlLWVhUR3RHRk1XX1pNY2NwZzhrQjJ6NUJoRUZqTHhTX2RzT2k0MWM2RzFiUTNMZHdJcnd3dkJJdFpFUkFQZG5YdW9VVVZuMkNlb2dxR0ZoRE9tVVZfXzYyNGFFb0Q4TU9n0gHDAUFVX3lxTE14aFF3czh5NXlJSHA2YlR3dVprNWdmSVZERVZaQnBQZlFnZ056UWhTTVpvVjVITXVjR09Qdy1YM1AyZG5UWXNGVFZDM0V3Rk81amdiR0x4WlVncDN1elBIN2pmTzJkdlQ0eHROTGN6UDhucThFVHdGZkJCd0g1TW5NR0lBTGRSRWFjR1d4dUlBRWFVM25zQlM5bTF2Y1RUel9zNFpPbDNNVjR5OTdpQU1UaDA0NXN3SjdrenlIRU4zVTFJVQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ThePrint Hindi"
+    },
+    {
+      "articleId": "gnews_aba7979f4ebd72c2",
+      "headline": "TN conducting India's first dengue vaccine pilot study, says Minister Arunraj - ET HealthWorld",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T11:27:39+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSlBjZ29NRklnUnBWQXpObVFDQXBJb1JUQnhhU1B1TjBBUUd6WEpVUUdJNzVQTlpiSHZEOWdfeTRoRkU2V1ZRMlN5OW9aN3JkTThfd3B6RzJWYmltTnRZTG11dk9UazAySS01Z0hrdS1KTnBWQWktN0Q3elA2VGJRczJnUUZYdVdMRlMzblpQWUtDV1dRVTBmRHhteW03S29OYU56b3BoWV9PQUJIZWxvQ29JMEJfTUFwMF9PY3lrbDlvNDlwVTRjUWFvYWV1ODV3MEhTMHlfbTXSAd4BQVVfeXFMTWw5YUZzSUFYVW5objRKQkJ5LVRJUTV4QzZrS3BQdUloX2NGeUg5Nm85eVpVR0V5ZTI5MWtCNEdKTHNXRmF1eDJ2NWtxT29OZ21YZTF4RFFoZDNDZU9qNE8zd1Bvbzg1emt1Vk1yZ0RyZVR2cVBHTTljczBqSXBROG5US3lWREVOUmQ0cGdzOGhQNU42V2NKX1Jjd3FyNWd1TWd4MDFxSjV4LVpzLWJnUm1uMWRSTlVQVkZHSTVwRkIxQ0ZKcm9wb0dzU2xyWTczU0FpSGF4SnRhNkp5Qnh3?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ET HealthWorld"
+    },
+    {
+      "articleId": "gnews_7445356d5a059679",
+      "headline": "Pune GBS Outbreak: What the NIV Study Reveals - Urban Acres",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T11:25:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWHNmMGd5akJyUzJqMUdLLWd0S3ZndnMteFZJQ1BZSVlaM1JaLXJIUUtiZE10dmhIS0FMdEo0bERCUmlDaks0Y2hPcTBaY2VmYXh2enp0V3hiUUJoVVl3NElnaFpYTDJvVVdmc3NvQ0VNLThQYzk3azhoZWJlQkJmZVZ6NnJjUDZ5dDRydWJn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Maharashtra"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Urban Acres"
+    },
+    {
+      "articleId": "gnews_4c26bee1d6e79a23",
+      "headline": "तमिलनाडु में भारत का पहला डेंगू वैक्सीन अध्ययन हो रहा: मंत्री - Hindustan",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T10:39:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNV8yWUtVZ0Z2Zm9lcjRqU1VjQ3dpTWEtTnRhMTBvZ1ZjZ01JM0c4VkVDQ0VkM0U3WDVwNVotaUFoQ014ei0yeENVYmUwc1BDYlB4dGpOU1JWNklOdGp6T2tmQ0RpRVBxZlh2b3hhWFZSdXgzNG5vZWpXeFdweE5sUHRDMDJfWmQwQ3I1ZURlallDb21mdFNFajZ2VXF3OEFWYVhYblZRWVFaaVAxN2htNnE1OHZDTXBxNGRQLUZqYnF6SzVlcl9seDJSdzJPNFFULXfSAdIBQVVfeXFMTzVfMllLVWdGdmZvZXI0alNVY0N3aU1hLU50YTEwb2dWY2dNSTNHOFZFQ0NFZDNFN1g1cDVaLWlBaENNeHotMnhDVWJlMHNQQ2JQeHRqTlNSVjZJTnRqek9rZkNEaUVQcWZYdm94YVhWUnV4MzRub2VqV3hXcHhObFB0QzAyX1pkMENyNWVEZWpZQ29tZnRTRWo2dlVxdzhBVmFYWG5WUVlRWmlQMTdobTZxNTh2Q01wcTRkUC1GamJxeks1ZXJfbHgyUncyTzRRVC13?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hindustan"
+    },
+    {
+      "articleId": "gnews_94601e0fc5fa033d",
+      "headline": "H5N1 bird flu confirmed in Chennai: Vandalur Zoo shut, sanitisation underway - India Today",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T09:47:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLU1VMUpSZHFfMUd1NmtWTlBXSWNITnJ2YVYtMHJWcWM1ZHhxNnR0VkdBMG15UUFTRUVqS0JLRHB3Y3VlbWhXRk9tX1pwXzhScXdfMGlGRWpkV19taWdkdm9tRkR6UVlOeUR2VF9zVkZ2UF9qcUpNdkNiZi1zV3pqVVJ2MW5NMzBudzZDUGFDamx2N0REWjhQdVVNZl80V01KR0JVMl91SVdvOTAwV0lSWTNB0gG3AUFVX3lxTE45bTZac3RHZHZUQWptdXlhVUZDcmxGSGJxcHpuSzlwbE9RVERMWmZtWjJaLURlalhpdkxYSndpS3FWdVd2Z0Q3ZGltQzhrbVBuR0V3dWFNZEV1ZEhGTjhualNvWmd0U3FXR2VQQmtiOXFKQy1aaW9sdUEwaE1xZFEzekZyeHpOUkptLWVnQm5oTVh2SGxRcEs3UlBXS19SY19yVTZDWm42MEZTcU1KcjYwaTF5aG1wVQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "India Today"
+    },
+    {
+      "articleId": "gnews_41d531c2c110146e",
+      "headline": "इस बड़े चिड़ियाघर में बर्ड फ्लू का कहर, 2 दिन के लिए किया गया बंद - NewsBytes",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T09:13:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOXlobHo0bVJERGNrMHlwbHZDSHUtVTZieENOeDJPUlhiZlpRcnJ2ZzBBc0EyWVl5azA0T2tMT1dlbWhZRlYzQzk2cGVkR09wOE1pUTlOOFdjSW5ZMTF4dVZLOHJaTEQtYl8zbkU1NFM5WnF6bVg0YzBWNUI3X0lrS3cwTnZPS1UtQXVWczdCdDVsb3hQdzVLRDJrWmI4RFd2aWhuNUVzS0VVS0NtNWNxcHdGY0ZmTHRubDZOVHgyUllqZl8wZUJCcy15eW1EQTRWWDNZ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NewsBytes"
+    },
+    {
+      "articleId": "gnews_e28510ac25f99640",
+      "headline": "Vandalur Zoo closes due to bird flu spread threat - CNBC TV18",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T08:47:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU2I5VnlDbkdNQTJ5ZDRJeC1hTld5UVU1SElpU1JmXzdXX1hWY21qT2ZWZDRBVWtDMFE3Q1prTW81TmtwZ3pNckpXei1OdDEzdDBKQllCRGM1VWJPYUpUQmUxbUlHVFYtcmluaTV1aHFPTTVHS2RlcFc3WEsyYURiQ2ZiV1FDdEZCSTE5Zkg5YjFfbVlranpyWtIBngFBVV95cUxNNjZBcUdpdVlsa1NVLVhIUTM1RVJEMjcwOXpqZ1U2QVlITDBsNWVsa0VfUWcwbzJrWTBhRU1OVmRnd1VUOVlNbTZHVlgxZ0V5QjFxTHNTT1BXOS1mbFdzOFFVbm9FUzNHNENPNmZtamJzVWdHcndnQVYzVHYyQVNqUTNhR0JoM3ZOX1ZMNEczNHU1Z3EzU05RRlYwMmZ6QQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNBC TV18"
+    },
+    {
+      "articleId": "gnews_69007ceac5fad593",
+      "headline": "Vandalur Zoo closes due to bird flu spread threat - Daily Pioneer",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T08:05:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUl9NWXdSY1pyV2I4bU9YRVBseUtJdk9GSWphbXg3c2JBREp3aTFyeWhwZktOOGZFTVBSMHBKbWtfTVRHUGVoeUtVeXZRWGJrQXNVOFg0M1U0eno1dnozbm11NDZZQ05QYkg5bWVyc0JOb2wwdjg4OHRWcm5oSkdPX1pnVHBPS2wyaDhrakNVZUNQQjBY0gGUAUFVX3lxTE1SX01Zd1JjWnJXYjhtT1hFUGx5S0l2T0ZJamFteDdzYkFESndpMXJ5aHBmS044ZkVNUFIwcEpta19NVEdQZWh5S1V5dlFYYmtBc1U4WDQzVTR6ejV2ejNubXU0NllDTlBiSDltZXJzQk5vbDB2ODg4dFZybmhKR09fWmdUcE9LbDJoOGtqQ1VlQ1BCMFg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Daily Pioneer"
+    },
+    {
+      "articleId": "gnews_09de65749e6a4931",
+      "headline": "Vandalur Zoo Bird Flu: चेन्नई के वंडालूर चिड़ियाघर में बर्ड फ्लू की पुष्टि; जलीय पक्षियों में मिला H5N1 वायरस, - LatestLY",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T04:08:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWG1xb0tkbmVUWFhVTVJEQUttUnRpVGFseXd4TzczNXJRcVJqNU1qaWFEQzRqMHhuSnZTcVJ4VGhOR2d1c0FFUEZhNjhOUHFDT1ZLMXhGTURyS3BQNzNEeFVBam9HaExFa1lJNnk5TVdPY0hBVFhDNHRLU1RrTlhTakhndjIyNzJSSzdSbnNneE95VHBTbGE2NDlOamRtVDVCV1lsVVZhc19HaWNYMnFvd2JGZzI5VkxTSXJfaDVTN3MyeUpTQzE3Z2JjV09GVlVUUnBtc0ZDU3NzN1F6ZXlZVmFIVzXSAeQBQVVfeXFMUFhtcW9LZG5lVFhYVU1SREFLbVJ0aVRhbHl3eE83MzVyUXFSajVNamlhREM0ajB4bkp2U3FSeFRoTkdndXNBRVBGYTY4TlBxQ09WSzF4Rk1EcktwUDczRHhVQWpvR2hMRWtZSTZ5OU1XT2NIQVRYQzR0S1NUa05YU2pIZ3YyMjcyUks3Um5zZ3hPeVRwU2xhNjQ5TmpkbVQ1QldZbFVWYXNfR2ljWDJxb3diRmcyOVZMU0lyX2g1UzdzMnlKU0MxN2diY1dPRlZVVFJwbXNGQ1NzczdRemV5WVZhSFc1?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza",
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "LatestLY"
+    },
+    {
+      "articleId": "gnews_7056dbb1fa3610e7",
+      "headline": "Tamil Nadu: Dengue-positive man dies within hours of admission at Tambaram govt hospital - The New Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-22T02:44:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdGtWenFHa3hYU294Q2dVQzJDdllqNzVIOTFyb0hZaVNNaWRjZ3NhejlwZUNFWEJnVVpfVXdsZTZKRzNlY0MtX2FiRWJiaDJzUVZrTVo2QVZIYmdVQ3VJRFlBc3cyUDZlZzdzZ2dRM3NiN1FNcWlGRi16Ml9iSGNnenBQTi0wV0xadzA3QTZEOEtyRjJtWUVrYmlpZ0lIX2d1c3cwazllNXNmWXRNMHJEZk5zRVk0TVZPQkpwMHFDUVVFRFI5Tk9Oem44S0VSM3B6T3VkT1dmYndvdVNKTnRnZzdpMFXSAfIBQVVfeXFMTVhneFhPUk94OXY0WWFLWUJfeF9PemRUNFd6NDFZbFN3dEV5bUZmOF9FWjdmVHUxRFJWenlPS01lUW1CVzBsT1hvVjBQLVVRZTZXVlQ1VEZOZEtwald3OTRqaEtzWElDdEhTNmZncVlKTmRvWUFxMjlsZ3dueDNqakE5dmJsaHdfZXdVYUwtRUN1QTZQd0I1U1hBZHFNaDlZN2RZLUNfaFdqMXdPU3gwMTdZbEtEMkF5eDFxSmVEZ3VDYjlfZ0tEbEZ2cEZTQ3ZJU014aHk5cTVrZXV1U3JJMlplaEhRY3VLY25uWGxzS3g4aXc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New Indian Express"
+    },
+    {
+      "articleId": "gnews_2f7854a411363ee7",
+      "headline": "Cong slams BJP, MCD as dengue cases rise in Delhi - The Tribune",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-21T23:37:11+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbnpLQmIyeEFJRzUyWVNKZXdwODNhcVVjTEtKRDZNd2JfaXZmcnlPRHZwdjJaZXQzc21tc0NjSFFOTFBOQUJCTnE1aE44ODFoWXpyLWxZM1VLQjFLQ25aV1FrdzhaMkV2TG1rNTFDVzJ2bFVoUWg3UlExZEozRmlkWk0zRzZ2aW5uQUJscm1tRHNsR3pvbUEzTHhyNkhiRjBGRXY4dWJGUVVHcWV2djNtQ0xSd9IBswFBVV95cUxNbnpLQmIyeEFJRzUyWVNKZXdwODNhcVVjTEtKRDZNd2JfaXZmcnlPRHZwdjJaZXQzc21tc0NjSFFOTFBOQUJCTnE1aE44ODFoWXpyLWxZM1VLQjFLQ25aV1FrdzhaMkV2TG1rNTFDVzJ2bFVoUWg3UlExZEozRmlkWk0zRzZ2aW5uQUJscm1tRHNsR3pvbUEzTHhyNkhiRjBGRXY4dWJGUVVHcWV2djNtQ0xSdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Delhi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Tribune"
+    },
     {
       "articleId": "gnews_3ee0d2f80be80bfe",
       "headline": "Vandalur zoo closes for two days after bird flu deaths - The Times of India",
@@ -32,8 +341,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdDQyRzJtVV9TUDVUUWxuUUs2ZXpOSWFBdE15NlFaTkNVRXpxdy1ibEJ1aWFkMnJsSVFJR0tOYTJDU1lCOVhBcFhpZEJXNDY5YTJ1TGR5djlZaU1FajVHbnE2bE1zTjVxeVVvQ2dUNTNKS3pFVzJHVnR4dWVvcWdvdkRuSlFueUFGV2F1YmM3OHdtWTBsR2V6R2MxQUVBU2U2d0ZybF9MUzZmdUNpdWU0WVloY3JkTC1ETEhVZjhWWkptdDdLU0ExQtIBzgFBVV95cUxPREtfcTNoV0xLVkYxdEhlYjlHNHFhay1RYUFmMUdyWmU4RlMxaEhZN2oyVWNnN0g1em93MU41MDhMNmtjSklmaFJGcFF0Y0c4ZHRMdTZYRnpFRzdmRlJ2alVRYksxa2g0eDVFT29ZUDVMN3BFbXBOVjJlR1F2VGYxMnBBOTItOXFqaDg1ZGhNMk01eTJLQ0Z1TGs5aU4yM2tjMUIxUVRMSkNYZzVCeXRodUxLQWNHY0pveXZPenlUYlZJYTk4RGdrLVVkMEdaUQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -71,8 +380,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZWVWZDVMVjlNVWYzUjdhbEhZX0hLbnRFYXE1WUtuOHppVk5SdHI5NXhORkpUT1V0aTV0TlgtYUdFUUJIdTdBY0gxZUJWYzBLMDFzYTRMaFoyZnl2dndHekFjeFhFVFZJRHFnQThsTlRaYjhwOFdqVHljTXQ0UWVJVUpubFRvYkEyQW5Fcms0cEZ1ZTVkSXhnQXJFeFN2Y0lzMGhLeGI0MkNrWGltMTZ4ckFGb195WUtuZ2tqSzdIWGwtaWdxMmRwMWhscFFwWUtfYlJ4czRn0gHbAUFVX3lxTE9YbFBreG5VUF9YTml5QV9ubXQ4dlN1YklmT19LM184U2ppV1NCSEhzZzk0UEFtZ1hwdnVxM2V5Y1hUV0N2QVFlcG1mNkhFS0trbVhLQWNBU0NVb0dZNHlWYzZzam9NZnU4eU9PQ2R6NEx4RFZpOTBDcFd5TTQzWkc4eTdJVHZFNWVOMVYwejJaR2pMYy1XdXRsa3F0ZUxxSzVNVFJacjA2TUdLa190ZWdVODBPYnVsWnkybzIxT292UV9nZ3hxS2ZWbm1zSlA2OEQxTzZNMGo3RnNYcw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Influenza",
-        "Avian Influenza"
+        "Avian Influenza",
+        "Influenza"
       ],
       "locations": [],
       "states": [
@@ -129,8 +438,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWXRHWEhqVUw5YU9zS2hySEJBZ0ZyemJ1WFY0SDBoYjZxQUN6OERQTmx6WXBLemNaOE1hbmFKZ3BxNzBQZFlON19xOGlNTVRXYjdDVGx3clowMVNWUThXOVhsc2JWQjN1OXpELTZONjZRUjdHbVA3QVJMN1lBY0FFQ05GbEJXcUFUNHkxUkVjR0pEdUpwSjZLSllLNDBjMnR1cF9mSFRTWG11S1YtZ3B1eTN0WlhRNjdiTXNIcV80VWNWT2RoOHp5b0o1ZmlXUGJRUkFtV0VsMFhlR1hSSnNWY0tNWkpkX2JoZ3VMYtIB7AFBVV95cUxOWXRHWEhqVUw5YU9zS2hySEJBZ0ZyemJ1WFY0SDBoYjZxQUN6OERQTmx6WXBLemNaOE1hbmFKZ3BxNzBQZFlON19xOGlNTVRXYjdDVGx3clowMVNWUThXOVhsc2JWQjN1OXpELTZONjZRUjdHbVA3QVJMN1lBY0FFQ05GbEJXcUFUNHkxUkVjR0pEdUpwSjZLSllLNDBjMnR1cF9mSFRTWG11S1YtZ3B1eTN0WlhRNjdiTXNIcV80VWNWT2RoOHp5b0o1ZmlXUGJRUkFtV0VsMFhlR1hSSnNWY0tNWkpkX2JoZ3VMYg?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
-        "Malaria",
-        "Dengue"
+        "Dengue",
+        "Malaria"
       ],
       "locations": [],
       "states": [
@@ -214,197 +523,6 @@
       ],
       "dataSource": "Google News",
       "sourceName": "AajTak"
-    },
-    {
-      "articleId": "gnews_6d92bf810a9b28f5",
-      "headline": "Dengue Cases Surge In Pune, Nagpur; Chandigarh Reports Five-Year Low - News Mobile",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-20T05:53:50+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkNLMzhteEtVVW8zVERkYUdmUFY5OXlvQm96dC1WR1I5cDJ5aVZJRWVBNVQzTjNoYWNCYzRSMWFyN2tTV3RFWmtRenVRQzNKNm5CaUhpZTZ4WjQ5M1E5bW5SeTFqXzBjNTYzMTlNdmFpWHlmNzBRUFdJbTZKN0ItbUZTWVJPcmNnNlllTXlNNENjUFcyTDV5cHVsaWZPYlNBeWc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Chandigarh",
-        "Maharashtra"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News Mobile"
-    },
-    {
-      "articleId": "gnews_197b560deea4d56c",
-      "headline": "India में डेंगू के खिलाफ वैक्सीनेशन ड्राइव शुरू, दो डोज से 80% सुरक्षा का दावा - The CSR Journal",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T20:26:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSVFCbTdXbGNRSVdBeVpLaHZrNDhSYm1yWTJWQVVOc0p3MXVTXzNkOFpKcFRoMExJWWVYWWxGX1k3NC0wRTJCcC1ZeDdKc3htNlZTOVhFeVdvNXRXQmp0b29TVExOYmFwSEJyV3JkRXJkby1rVU9xTE9PYm5LbkRjcER1UDhZZ0pFRkZialdSTXc?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The CSR Journal"
-    },
-    {
-      "articleId": "gnews_ac6847862c8c5b87",
-      "headline": "H5N1 वायरस का इंसानों में बढ़ा खौफ, क्या कच्चा दूध पीने से फैल सकता है बर्ड फ्लू? जानें एक्सपर्ट की राय - News18 Hindi",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T17:52:58+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOcEpxQzBmbnRYWHYxcmtxdTZLaDBUVGkxZk9nd21TOVE1VDJvaDl4OU5NVDBKNHNJX0hUYU84SGZHT2diMXFzZ0RzUThkMjdEeVVLTzMxT1VnWWtFTDA2VVdRWTZKQkJBYndSakIxM2NIcnN5T2ZnaGhBTmtKSjdmQzZKNHRCdXFiWUZCR09SbEY2SlZqOFhjTWpleV9LUWgzNzhHOElnWEpkNjU3dmE1a0J5cVdmcmQ2OVR6blhKdzEwMjhpeGg0dDZtZHVCLW16SV9acEsycVd3VVNtanEzT2hQc0NJb2F3NGl3YlFOTENSdEVsVXdTZDh3R0Q1a0RoUGVoQXktV2QtSWJn0gGMAkFVX3lxTE5wSnFDMGZudFhYdjFya3F1NktoMFRUaTFmT2d3bVM5UTVUMm9oOXg5Tk1UMEo0c0lfSFRhTzhIZkdPZ2IxcXNnRHNROGQyN0R5VUtPMzFPVWdZa0VMMDZVV1FZNkpCQkFid1JqQjEzY0hyc3lPZmdoaEFOa0pKN2ZDNko0dEJ1cWJZRkJHT1JsRjZKVmo4WGNNamV5X0tRaDM3OEc4SWdYSmQ2NTd2YTVrQnlxV2ZyZDY5VHpuWEp3MTAyOGl4aDR0Nm1kdUItbXpJX1pwSzJxV3dVU21qcTNPaFBzQ0lvYXc0aXdiUU5MQ1J0RWxVd1NkOHdHRDVrRGhQZWhBeS1XZC1JYmc?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News18 Hindi"
-    },
-    {
-      "articleId": "gnews_c001a9d08db8c599",
-      "headline": "Dengue scare triggers village cleanup, tests later rule out infection - The Times of India",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T17:08:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQejRNSDNaMEpteHhibFIxTzRqRGxXM1d5VDhrcG5mdzdmVy1CZ3czWXZaVnFyX0V2VzJWaHRGcTJPRDBIU1poUUlkbFYwSkMwWlZRTTNLMGxOc1R0SEtUMFFDSzRCaEd4WHZCUEdUaUpsbVJTWTl2azJiVXlsMkVhWnhCUndCbFBoRGVLSzhxb2k1dEZrc2tmcjFzWFVTQ0pIY2t6eDJ3dUJZQ2lDQW9ZRmQ2a3U4V0d5XzR5OW41ZVZBNUE3b0tHR0QtY2hGNHk1dXFQZnZtc1dCWWJEY0HSAeMBQVVfeXFMTlNhaVBpREtLMHQtUk9Hc0FOLXZ5eWw1UFY1TWRtX1hUQ2FmSFhkZ1dYd1BjdkxGbTg5VVZhV3dJR3ZVWkt1dUc0VHRLWWRlbkRPbHcwSWhyQk1iN2ZFdVhfc1lqN2hhUG9oWERvRjdPQkFrRHJpVUZUZDhtNDU4a3B0cnF6REdrYkl2dGNMeFplUWROb0dPMENJcHhEVTlTbVN4T18wM0hfQTNEdTBKZjVqZE9VZkZiYkUxZGRTSGRmam5HOWxSaXNtRHV3ekY5Mkx4WGROUHIzZlpQSHp5dVNIWGs?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Times of India"
-    },
-    {
-      "articleId": "gnews_fa17139e19a8a6a0",
-      "headline": "India at growing risk of infectious diseases due to climate change effects - Scroll.in",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T14:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNjNpZ1VQMC1aWmNnZk1EbWh2eXlMQzBTOW40aDlpTFZhQzBnTjRsLW4wUk8xYUJKMGdtXzdIOGdOd2VfNXgyZ3Y5VG9CNzQ5ZlV2aTJqdDJDRG5zM3dQWnV4OXRzMWUtdEtvVDRkNDBTZjBQd3N1bF9MM3NqY00tSXUzWkU2VUdxYm9sd1c5Z2czTlp2MUVUZ2lmSEd3Uy0wVThaMjVDWG1JWGZi0gGyAUFVX3lxTFBqWTFlUHNIbGdacS1vZWNpQXlxMi0zZVYyaHF3dEFTQzRuS2tSNzhIUmZ2cm44QTVkUHVYV0VOSkMzaE5WZ0ZvNVotTjRFTWRqQm9YT01YdWJFdFdlUGczT1Iza0tlOVp4TVZhbE5wSlVteHBnbnhNdGF2Umc5dkNzQXk1UHFtbXB5VW1WdWZPRGI0cGpQV3R3Y3BpZXhSNGxOVDE1WnlYUFotYzBpREhYUUE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Scroll.in"
-    },
-    {
-      "articleId": "gnews_8c954ccdf7311a9b",
-      "headline": "RRB Paramedical Exam Date 2026 Out, Check Exam Date and Schedule - Adda247",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ESjhfbVIwczJWcXRHTG5LWFR4SUlHSHlNMHBseFEtNDFtWXhNUUZwWmlXbm5hdUFhbWJIU3ZhWTR0VGJOekFtekMyOEFmU2V6cHJIMHlNNDNteEl2LWxHMGJDanhhOG00T1Fkd1E3QWhVaWFu?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Adda247"
-    },
-    {
-      "articleId": "gnews_7a05dc8b18fc6688",
-      "headline": "Dengue Triggers Rare, Deadly Immune Attack in 14-Year-Old: How Doctors at Hospital in Ahmedabad Saved Her Life - GujaratSamachar English",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSGRwbUItR0JIbXVxV2VpZThUekY4anhJY2xzV0luanFjWENhV3ZjS1Y1QW52SkhzUjdyZlpZam1qSnMyTEFWdW5fbTFSaC1YX0ZiMG1SOHE2LXRpejVkZTlaWXBMNk9ib1VOQUVqRExzaFZVUG9XUC1mV1IzQnN3Mm85blJuakUxQ0FuaWM3ZTRuSDFybl9kRXAzV2pBVkU?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Gujarat"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "GujaratSamachar English"
-    },
-    {
-      "articleId": "gnews_cd98afff44ade7f1",
-      "headline": "Tamil Nadu To Study Qdenga Dengue Vaccine Effectiveness In Town With Heavy Burden - NDTV",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T06:36:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdW9mVVNacEpTU2dXX210YWJpOXo1czFPWXVicTlKODV4ZDdsSnBQSlRaY0VVb1FQX3RCQ3hwaE54RHhmR0lJVy1xb04zVWNkUW9BTXhHMkg4dlBXdElBN3FzejE3MWhqUWxQODYzbmw1algzSXZrT0dVaG8zNlN1eUlvMUtWSUdqbmhKb3M3d0JHSlFPUnVlMExNSHhKcW5naHRNVHVmOS1TNC1BdmJReGE1eWlwYkExanc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Tamil Nadu"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "NDTV"
-    },
-    {
-      "articleId": "gnews_2dd46ae930ed4e98",
-      "headline": "भारत में पहली बार डेंगू वैक्सीन से टीकाकरण शुरू, दो डोज से 80% सुरक्षा का दावा; - AajTak",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T06:24:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNmxNNUs4bXp5OHl4dnU2Vl8zc2hndE50SmdtTko5Ry1RWDF2WkdjY1B0TkxZUVItMk5MdkhJWlRHcWlVYmd6X2ZrZmVfN0FlUVJvc3gzMkdkNEYyZWFCMWdDcWZSUHlNUHZwaHM1akpWT2tzU1p3Y05pRlpybWk0V1RzZmxSa1RSaXRXRnVKTmhVODhySU8yTThHT0lkNGRXd1Naa1NnVXBudEtidWZ3emMzOEF2RE93MG5JadIBwgFBVV95cUxNY3ZLWHJ4MlFWSnJYZk0xbldlUENWZ0VUNzc5V0RKcndXOEtDZlljekl4Q3U3QkwweFp6bGg4OEoxSEZFZUZoVnJJMF9PVzFjM2tlNGxDLWNqTG1XdkhLazJ2bFc3U0J4S1VjQjgxNmlkQmtWbjVFNWFTbnhLZmdncW1UY2FNdTQ0U1Z4XzBDZHdEQzNzZ0FSRFpBalVyX09ZaVR0ME5JY1FkUmZjUFV4bDlRTkZJV3l6VjBRWnNiLUttUQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "AajTak"
-    },
-    {
-      "articleId": "gnews_95623bcbb2d196df",
-      "headline": "India’s first dengue vaccination drive begins in Tenkasi - The New Indian Express",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-19T01:06:28+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY2lJLWQxZWtKN3ZmOVBjZU5ieEZaWGw0TTk3ZlZaN19jYnh0ZkxXT0pxS3Q3anU4YkJ0Uzk3WGF1YmNkZ3BkbFVoX096OVNEclNwVG5ObVV1d0s3QWFqWE1GOV90X3UyOFdISjJSTmM4Q3RGVXpSbldRYmt5cm13SGxXVXo2dEI3NnROcmV4eVhWb1JyLUVkM1JraWE5aXVrZWJiQlJsbmt1dXl3Q2tYTnh4ZmozYWJFMnfSAccBQVVfeXFMTUlYMnA4OC1GQzVBQ2x3d21nYXNhakxjS19QR1hOMW14MFdUZzFKQkJqU0JSOWstQ0oycTR5cWh3cVY3bEZUcTF0a2JQVHgyWEVvN1lsQkJvOHhUVmVlYVdLUTBqcjEtWFJNNzlxakZNOGZ4WFZvZWRJV0VCNDNGaGFRQm9XV2ZVTUlIcTVQTlJfUG9Eek1mSGh4TzloS0NPT1JUMWZrRHo1LXI0UkE2cVphdFBLT3E5MHhMLWFJWm04TldaT3REZw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The New Indian Express"
     }
   ]
 }
