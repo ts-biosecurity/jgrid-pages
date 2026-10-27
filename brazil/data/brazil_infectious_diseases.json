@@ -1,55 +1,1380 @@
 {
-  "generated_at": "2026-10-26T21:25:01.303195+00:00",
+  "generated_at": "2026-10-27T21:18:36.204590+00:00",
   "date_range": {
-    "start": "2026-10-23T21:25:01.303195+00:00",
-    "end": "2026-10-26T21:25:01.303195+00:00"
+    "start": "2026-10-24T21:18:36.204590+00:00",
+    "end": "2026-10-27T21:18:36.204590+00:00"
   },
-  "total_articles": 56,
+  "total_articles": 117,
   "state_summary": {
-    "Ceará": 1,
-    "Brasil (estado não identificado)": 37,
+    "Bahia": 4,
+    "Pará": 17,
+    "Brasil (estado não identificado)": 73,
+    "Rio Grande do Norte": 3,
+    "Pernambuco": 3,
     "Goiás": 2,
-    "Pará": 10,
-    "Bahia": 2,
-    "Rio Grande do Sul": 1,
-    "Paraíba": 1,
-    "Acre": 1,
-    "Mato Grosso do Sul": 1,
-    "São Paulo": 1,
-    "Mato Grosso": 1,
+    "Alagoas": 1,
+    "Santa Catarina": 1,
     "Rondônia": 1,
-    "Alagoas": 1
+    "Mato Grosso do Sul": 4,
+    "Mato Grosso": 3,
+    "Acre": 2,
+    "Maranhão": 1,
+    "Amazonas": 1,
+    "Roraima": 1,
+    "São Paulo": 2,
+    "Sergipe": 1,
+    "Espírito Santo": 1,
+    "Rio Grande do Sul": 1,
+    "Paraíba": 1
   },
   "disease_summary": {
-    "Dengue": 16,
-    "Chikungunya": 2,
-    "Doença infecciosa (não especificada)": 26,
-    "Oropouche": 2,
-    "Yellow Fever": 1,
-    "Malaria": 1,
-    "Leptospirosis": 1,
-    "Measles": 9,
-    "COVID-19": 2
+    "Dengue": 64,
+    "Measles": 10,
+    "Doença infecciosa (não especificada)": 27,
+    "Meningitis": 2,
+    "COVID-19": 2,
+    "Chikungunya": 8,
+    "Influenza": 2,
+    "Avian Influenza": 2,
+    "Oropouche": 3,
+    "Leptospirosis": 2,
+    "Yellow Fever": 2,
+    "Malaria": 1
   },
   "articles": [
     {
-      "articleId": "gnews_b43c76b93a625f4a",
-      "headline": "Ondas de calor aceleram ciclo do mosquito da dengue e ampliam risco de transmissão - Ceará Agora",
+      "articleId": "gnews_703a185008f1baba",
+      "headline": "Mais de 3 milhões de adolescentes estão com vacinação da dengue incompleta - Folha do Estado da Bahia",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T19:47:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0JaQUhhZVJQb1R5V2NVSGVWRGFFeU1xQVNGSE1uaWF1MUlWVmFQMHNtc2VxOWZYd3QtOTF6ZFRVQ3lxcUFSS2NXS25HX19ZLXNWbDU3d01pelNnazRJYnJOa292c0U0SGtkQWFBSG5lWVVuWWRLcWRsTHV2QjNvWTY4VE1QTURsQkItZXd2bHNvTWc4UkFVMGNJOExxUDlsUmZOa09QNEJvb1BmUlE?oc=5",
+      "publishedTimestamp": "2026-10-27T21:03:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWlJJSC1PWmtzd1UwOU14ejJoWGpqUmF6bnd1TmltMGx1aGZtcU5WcjFqNm02SmY1N05hcjRXS2pXazVUbkpTYmtQS0dITk1SZ3VuT2ZUREY4MlZfM0xzS2YyR3RObk1ncS1Pb1ZoclJBNzI0UUZ5TXprYWtiMEpKT2h2cHcwYTNCbWlaYVlZazdJcFpTcm5ZVTNZSlBGdGF4R2QxdW9DQXg5STZwV2FnSkNuRDVTNll5?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Dengue"
       ],
       "locations": [],
       "states": [
-        "Ceará"
+        "Bahia"
       ],
       "dataSource": "Google News",
-      "sourceName": "Ceará Agora"
+      "sourceName": "Folha do Estado da Bahia"
+    },
+    {
+      "articleId": "gnews_379f8387b8d40001",
+      "headline": "Cobertura vacinal contra o sarampo avança no Pará e Sespa reforça importância do esquema vacinal - Correio de Carajás",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T20:05:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTGt5eW9KMFZheEN6THhKMkNWMzcxU0xNUlpnZVVaTHJIV2QxWTdXc3JsNThROVFpQ2tSZGRiNG1zVHYyR0NESjdocUJndXFOTWJGWnJXWXFhdEtsRUd2VmRUaDJKY3VsQTdJVDNtTmdiWWYzSkVoUndpcExYb1lic2dQcW1HQWJzT24xdnVZUEtpV0JPc1hxTndBY2pfRy1qN3ZlaHdoQ0RpNjFZUFNlUkdjeWg5MDZHRGFoZk5DMk1rQ3AySzZQUw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Correio de Carajás"
+    },
+    {
+      "articleId": "gnews_cbdc1c1fbc421482",
+      "headline": "Mais de 3 milhões de adolescentes têm vacina contra dengue incompleta - ND Mais",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T19:44:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVGR0clFqajFMb0RSTnhNWEZnTi1aU0tvdWY0S0s3V3Y5QWhfNGljOFpIc2JmMGVRUkdQTTUza2F5WUFtRndIc1paclpYVHVfV1Nob1JQamxvVHFwZS1WZjFFejJhRmlmdXE5TnFZVWtDbXNUS08yWWcwYXFWSVJFNTluVGEtX193VzhkRll5ck04SWdTVi1uSHRpSFdESTA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ND Mais"
+    },
+    {
+      "articleId": "gnews_793dde33fbed24ac",
+      "headline": "Sintomas de sarampo: primeiros sinais, manchas e diferenças - iFood",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T19:22:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FZFlwV1U1MnBVRHJMNTk5MHdHYXFJVTB1U1pkRklKa0NFWFl4cXRlNXdlSVV0dW56RVF2aS11d3hRLTF0dTBpaTF4QmlGR1hWcGhLNmkyYmdrdVlQNDFSaGp6VzFwUnlRRnl0SWVMdVhRQQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "iFood"
+    },
+    {
+      "articleId": "gnews_8dccf2d06cace7ae",
+      "headline": "El Niño e altas temperaturas acendem alerta para casos de dengue em Belém - Coluna Olavo Dutra",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T19:01:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYlgwa1dWZEpFalc5WDFvNU11VTQyd3RyWG8zLU0xaFYyS1ZWaldacDNkVTdfdnliRVpKREc3V2w4dUhZYzI5eldwTmpYbzhYMFVqUGRoV3hCYWtJNy1MY3hZLXplZlNKZ0YzZFB4NkpCWHUwSnBHaUE0cFpsNTRhZTlVR3VfN1Y2cDdaNTIzZTk2a3JyQWVVRVNKNDFCQ0lRTnRDbV9YQkhMd2ZPQ3JrYkgtQVg2QkFiUVE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Coluna Olavo Dutra"
+    },
+    {
+      "articleId": "gnews_1e6e45d47c5c7190",
+      "headline": "Quase 4 milhões de doses da vacina contra a dengue ficam paradas enquanto 3 milhões de adolescentes estão desprotegidos - www.bra1.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T18:22:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaXNWZEFQU2JjcGpwdGpMdkJnc2pvVWRPTnZ2QVQyQzZRbS1ibHdpYUg0UkdlU3VTbWsxSld3anJCV1ZOSThoVDZodW9UcVVqZFBKRTRtX2o0VzBFRkdvajBjNGl5YlVkamM0dzNVb09OdzBQUW5tdm9TQnI0T2hzOTFET214ajNhSmJjR3NLY0ZhWHdnbDJRNHVLeTZTVmtpVzBodDdzVkplODdVQW1ESDdtWEYtaVp3and0UkNodzdSNW5lSmRrczM0MWJHMFQ0dlhtZGRqemxiQjEtTXMtZGxKR1VIVVNmcThaVkpEcWc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "www.bra1.com.br"
+    },
+    {
+      "articleId": "gnews_35044b86573280ed",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Bahia Na Política",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T18:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZDBkMU9hR3RXOTFodGxwM0N6QzdTRzl1RDBUM3hxSkVmVFNnZHJRT2dMT2Vacjk4Tlk4ZlJrTFByYnpnX1c4bkVFazI4djhUUS1Ybk5tNUdQMHRob3JJYzJGMlF4cDRjY1B5Z240aEZnSF9jTnpLWWoxVldPbUVDbWtkU3ZVOUZ2Mk5TdXlsN2hrMkI3U29wM0UtNA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Bahia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bahia Na Política"
+    },
+    {
+      "articleId": "gnews_5468e567b8f9fabd",
+      "headline": "Mais de 3 milhões de adolescentes estão com vacinação da dengue incompleta - CNN Brasil",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T18:18:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZDdtdXZJZGViV2NpZVRpeW84TkZ1TDZuRUlRanpxaENHVDBLN3U1OVlBMXQ3V19CZnMycGk2emNlWXhZR3FPZ0FpMGxLaC1KdzJJV3pMRHhjeWxKS0c4T0VwdXhfWlU5OEVtQVpRR1hPUTU3QmJFU1M0UHFMaDVOZmFmeHhndFlGeXZabGRtMmEtTHQxX0lYcEN4UzdIb2NKX09ZVklxQUlIM1F4RUtB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN Brasil"
+    },
+    {
+      "articleId": "gnews_244ea2cf65885729",
+      "headline": "ÁUDIO: Governador convoca população a aderir ao mutirão do combate à dengue - Agência Minas",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T18:17:34+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRllvbGx3WHVuNFFJeHowM21KSlduYnZXTERxeEdFaTdFWmZNLWtMRVRfVjkzVHdJS1I2NmpRZGQ3LWxKdmRLYUt3NU5DYVk0Z2R5RGl2NnZmR3JXd2JvaHF1d3hUeEVWSXAyQ1dzNmZLVTBJY2Jmb3IzZHlwaWdjZTljek84dzFfczJpVGo4M29PdHhIbDBFVmVodnllQXdIMDRnVnlXbnVvcVE4cXpiMmtaNGtuYnhyNV9zZUZZUXBNVjZ2SEFhdW1ubng?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Agência Minas"
+    },
+    {
+      "articleId": "gnews_551f88111c5db0da",
+      "headline": "Sarampo: cobertura da segunda dose é de 81,79% em MS, e SES pede que a população confira a caderneta - HoraMS",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T18:00:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUE1lOWFnUjNzbzZWVGE5TE5GNnpScjA3WG1Ib0VkQWNraFFaekFkLTU5b0MwRmxWS1JiZHRJTzBXU2Q2RzJlS1JraEozaUVabHJIMnlqT3BVQVJMbm1yNXloNktmWkdKT0N1dzdfWUtReXJxQzk3Uzg1ald0WVFHMUtMTmxVYXU1Rkw4?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "HoraMS"
+    },
+    {
+      "articleId": "gnews_84efb5f78b7645ce",
+      "headline": "Quase 4 milhões de doses enviadas aos municípios permanecem sem uso nos postos de saúde para aplicação de segunda etapa - PDNews",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T17:47:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTWNYdkxLUWdQZ2czcndqNzVXTVFHOVVZZGVmX0xTaUdzZXJ4b19UYXR4Rk13Y2UxeGRjTlhtR3ZMdzltemFDRG5DclgwQjhINWQxT21FSjBaeVRKVWUzNzRPdlRneVpCeERISFdOZGtzY0ZrSWp0UDZPTkhOenRBMFJvbHg0R2xEQXcwakRjQ0JXeHJjbUxaUFhPOU40RHp4Z1FTQ01GVFkyYWRMMkpTWEZoWXQ0SUFk0gG-AUFVX3lxTE1KcGNRcG9FajNaQTJXSEVWMGdJeVJUSzFKVThWZU9xa0N1RmtkLUotdk9uSkJBYUVUZUMtN1NfQ1I1OWZlTkJkZk9fZmw2ZlgzdlA2WG95NVRYd3F0eV9MX1oxMVZxZlE3Z0cwbWszMjh6RUNhenFsYl9PTThTSXhNM093SXhEVUd0RnpqYTI5OURsTFRMZUo3M3hqNllndDlVX2MzNVlhMV9faDdiMkxzcVFJVDdxd0FEVzB5R1E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "PDNews"
+    },
+    {
+      "articleId": "gnews_8bd1d0e98e16177e",
+      "headline": "DENGUE: 3 MILHÕES DE ADOLESCENTES ESTÃO COM VACINAÇÃO INCOMPLETA - Bahia Econômica",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T17:12:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQVI5cThKMTJIbkcySkx4cndVUFhJOGt4OWFicl9wTm1tWVNXMWxENFVfNWNzTWY3XzdzWGxJLTY4M1VEdm95bWs4U3puMzNUSmdtRzFRNWpNSXVoM1dyTHREbWY3YzhZNGdpY1lXOHdxemJIWFh5SEhyOEM0UlQ4YlpETmhuVzBaT3NOVVY0OE95T09hRTFxOUlOWEJMTGkweG9TNFBRTmprMzh5SkFtYk5jOTU0QQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Bahia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bahia Econômica"
+    },
+    {
+      "articleId": "gnews_db65d5d9a8e21ffc",
+      "headline": "Dengue: mais de 3 milhões de adolescentes precisam completar a vacinação - Aqui Notícias",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T17:03:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdUpTQVZnclkwR25CQk1rZkJXd3dMUmJuX2FHbWxDeDVzc3RBMllIR3g2NXJsRHRQei1nVHhqUVpzZzAzYVNLS0lGMy1YNnB4aGhrZnVNT2o0NUhSZ1RKRklMQUlZblZVaEVSZGl3STlKUzJYQjcwcTJXVF9nTTZsTWVISlhkbV8waHdkOWdINjV5U0hoUHNMNjRyYVdObjhTWG91SmYzNXJhcTVIbXNqOEZQcjdvUnVuc2JJQVE4aktQMWs?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Aqui Notícias"
+    },
+    {
+      "articleId": "gnews_a830a86103378102",
+      "headline": "Baixa procura por vacina da dengue em Natal - G1",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T16:52:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcV9NLTd2Q04yV0NnTE5LRXdORDV0SVdVcTBVTGw2YnZ2emI0TWRXbG96b05BdUM0T1c2cmNEcWI1VXZseW5UQ253S1RxZ1RDMWdaQzd0a1pqRFgtc0Q4djRFMjM0clpPc1JPWUMtUUxFN0tJeDNpWElmUUpvUGM0N3ZWcnduWW42TGE2Q2hjMHVBZFZlZTB3a1VpWDg1Q3gxNkxuZ3NFX0U3aFhYODY3SXBYMWxxVTBXOExYRHMwM1hFd0JRcGIybNIB1wFBVV95cUxNQ2JQYlU2RnFtc0dnZFVDT2NNSWJUb0E0MG9YNVZ0WDE1TEJfS0pVTFQyblhHRXV2ekVoV3RTZFg4QmRpQk9LMXRvTmNyZkxDWXdlVjJNMzdpRXRhaFNiY2d5ajhXTEJPQ19IYXh1MHlTd1l0ZjZfVC05MGJUWUp2LUJzNkFidTI0WDFDek1SdFR3aER2Q0xaY0h2MHIwRk1rcFY3RzZnd0kxRnMtZk40NUlMXzE4M01uOXFnOUY4eEtTd2FsR3prRkZyZFROdVlwUVNCZm5ITQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Rio Grande do Norte"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1"
+    },
+    {
+      "articleId": "gnews_2e4f2210d3d71a43",
+      "headline": "Paciente em surto sai da UPA e é encontrado com bolsa de soro na rua em Pará de Minas - DiviNews",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T16:46:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEVZTF8zYk5vWmtNTkNiTGVURWtENmhwY2VZdkh6MDl0elBXZUFBYURYUWJzampsZWlxeEVfYS0yNVpDdU1nc21pWnRIaHVnQnU0ZHJ5WUxMM0t0NGtGdVdOZlJYc0ZWSFBPUHgtSEtPMzlWSEFYOGlJSUR6dWcydllWNnBfQUd3b3Nyc2ltN2RXYWJnYXZvd2g2R19aTktHcW5jdGg2YktRYy1GaDBQWnhnTXNzZGZoQUE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "DiviNews"
+    },
+    {
+      "articleId": "gnews_ce691d931df58e2d",
+      "headline": "Alerta em Belém: calor extremo acelera ciclo do Aedes aegypti e casos de dengue sobem - A Província do Pará",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T14:48:54+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVy1iRTBZWGExbjkxbEtKLURRZXh5cVluM3J6UF9FeWVNczVLUm4xSF9IM2Njb0cyVUNSY0d1U2pfU3JyemtVa1I5dUx6WjZ4WEhHRzFYRFdydWt5M0s0c2wyS1ZqeFgweHFCaGZWcHhZT0tTWWV6S0g3Y2w5SlpUb1ZTVFJUYWpkVDlqZmZTWU5kUzVuSW5QYng2ODhZcFJlVlVfdFBoWXEtbXRPN0RIa0o3bG1kRUFf?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "A Província do Pará"
+    },
+    {
+      "articleId": "gnews_04f8aa329287072c",
+      "headline": "Alerta Vermelho: Crescimento de 31,8% nos Casos de Dengue Acende Sinal de Alerta em Pernambuco - Taís Paranhos",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T14:47:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOelVPTE1WcWpmX01CYXNBRlpoVU5EYXJjZzJwX1VvWWE5aEVSdmJ2emZyRVpQTVNwUVJMR01VV3JfT2Q4QUFwNWFmLWp0cVZTekoyYlB0YklmX0Q4NVdTWVlRQ3ctazUzV1hJVWtUVVFJcS1FTWZaU0JaN3VSN25vRkR1NG1hSW9nUHlr?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pernambuco",
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Taís Paranhos"
+    },
+    {
+      "articleId": "gnews_50fae97c2b5d67bb",
+      "headline": "Dengue: 3 milhões de adolescentes ainda precisam completar vacinação no Brasil - IstoÉ",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T14:31:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JQURoV1lPSGstNlh6V0JpOVIxRHpqSUJVQTNSQTAyTkZRREZKdEJRdE1rUjAwaXJPSF8tZ2JTenBKeUpCTmJ4amNQRnJCSEdmc3VhMjd1WTRySk9hckhueUhMbmFFd1NNQ2sxZTU0MHFza1o4Vm1j?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "IstoÉ"
+    },
+    {
+      "articleId": "gnews_76b50f24d249a783",
+      "headline": "Notificações de dengue crescem 31,8% em Pernambuco e ultrapassam 52 mil registros - Blog do Alberto Alves",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T14:30:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOckNMZE9UbGM0ZVFubzNKRWdTMVgxbktPWHh1UExDdjdnclFUOVdsZ3lWMEdTYkZwUGV2aUxwV2haUjFvWjc4Z3ZzS0xwejd3SjNUNjlEU0ktSnk2d2EzWXZBd3JjSDBqRmNJM2hnOHk2WTFDUmFseU5GdU05c0dheXNxZFBRZENGRUhzNkNOQnJBTmQ0cWt1Tlk1d0RnSjNRNVRYZV9hQlA3UnhWeGRLaDhBUE93RGc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pernambuco"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Blog do Alberto Alves"
+    },
+    {
+      "articleId": "gnews_c828f8d0f28b1656",
+      "headline": "Alerta de saúde: Casos de meningite bacteriana quadruplicam em um ano e já somam 3 mortes no AC - Ecos da Notícia",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T14:22:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbGVLdjFXMWdrbHl1MDNOVzNKYWhVNVprOFctTGNtQ0IwZ1h3TlZYQko4VlJadlI5dUlRUjlDOHNuRE5LNk9sR09KS2tCNHZuYTNfNHQ0WmVYQUQwemNUODlwMl8wWnAxTEZkbVdPQVVIY1BJS0o1QXFkcDdJWXdITmFVOHVkTjkyTVBTdW1uNTk4VGZkZ2VkbWtjV1J5bWU5YjJRcnRLdi1BMnVCR2VqSXNCeXk1R2U4aDkwQVJYai1rZ2FVNXdjRkhSYmRDRmM?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Meningitis"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ecos da Notícia"
+    },
+    {
+      "articleId": "gnews_0686be9a45ac7695",
+      "headline": "Surto de Covid-19 atinge 108 detentos na Casa de Prisão Provisória de Rio Verde - Goiás 246",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T14:17:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZjBMSk1YNlZSZFJOSFB6blQtS0xkRlZSRkIyemJvTjBBRDJJWlN3WkVNb0k0Vk1zTkJDTGJFVTVKZDdCQ2xpY2s2ZjlBZmNxdTBidkxiVWp1UThYQTFVVGVFaFhZelgwV2p1THFiZ1NMSnlXdHpuMHdkTHpmQWlxZncxNWRuWElxcTAxZ0NHWmR4UWRLWHlkMzN2WlhKYm5Ka0x3emZDWjVQZGd5WHZPcjdEZDBXaWlRbFpqUWxmRk9MZ1VFdW1PRk1SM1VmcDA?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "Goiás"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Goiás 246"
+    },
+    {
+      "articleId": "gnews_5ef89eada56e7e3d",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Folha de Alagoas",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:38:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUG1MMFJTU09Od05GTnVZLVlfaEVQb3E2N3E3SlhBWU1fRjdmcGtNQ0stUk5ONGJCajNwV2hjRlkydUFwRFJtLXNSaU9rWUdZMjhkbF9udEI3cWtsVVBfSWxZMDg5OVBKZTBmYnBKMW00RnplUXI3U2FNdXR6Q2FjRnVzcFl2YWdJb2hrX3RqQjVUVTVRQmlCVU9aaF9qNk9IRUhEZUJYemnSAa4BQVVfeXFMTTJleDROdUtKLURzY0FTOFpGbFpwdnFSa2N2cVQ1bUQxOTM5dXJOc3FMUHJZaHRQT0YxUGQ3dkZhMzhSa0ZpbExJMjdTZUFhOE5UMjJodUI4UEw5dmg0VURPWDFtTHJEZWJWeFQ5QkxQQlJvNHlMZGRtanVSdDZoTzJBd0pWbmpRczJseVExU09DdGo4N3VLNnlyTkpRUXBFTnBnNnZGLXdxUEFBOW1R?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Alagoas"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Folha de Alagoas"
+    },
+    {
+      "articleId": "gnews_0125f753d360a615",
+      "headline": "Mais de 3 milhões de adolescentes que tomaram a primeira dose da vacina contra a dengue ainda precisam voltar aos postos de saúde para completar o esquema vacinal. Como a vacina é aplicada em duas doses, a proteção completa só é adquirida após - Instagram",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:36:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aWW4xTTh3Rk9UZjEwNVFZdnRZekptWEtKa0hHOGxRNFpWTUZsTVVEcVQ5Zk1md1M0TVdDTGJYQ0ZTMDN6NFFTNUFmZUNrcVRaTkE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Instagram"
+    },
+    {
+      "articleId": "gnews_e2d4dc2b7101c614",
+      "headline": "Santa Catarina registra baixa adesão à segunda dose da vacina contra a dengue; Jaraguá do Sul já aplicou mais de 45 mil doses desde 2025 - Portal RBN FM",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:35:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObXVkR1o0cm5yTHBlV1AyTHBYU1paeU5lWG1tZWhaWkNENS03TGtNYW1VSHBNeS0wY2U2N3FRQ3drc2luZW5yQXFoUTBiLTh4Y1YydTJLUmJTN3p5ZnBYR293X0VoZHZoZ05oMlY2YVNoSDFTTmc1ckdLZE1UUDVkd0U5NnRLU1h4ZmNFRDYzZlBqR0lZNDk2bmtRZmFNdG9OYkJ5WFRoSVBXOGYteWdjdnNPTHhhZEdNSUtGWkgyOC1aeV93OEdxNDA0MUpOLVhlZHpCLW9fN3JHRFlzSm1HZmRHYmVuRlM3ZUw3WjRxZkg2RU1PS3FB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Santa Catarina"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal RBN FM"
+    },
+    {
+      "articleId": "gnews_ca46d164114511d7",
+      "headline": "Mais de 3 milhões de adolescentes precisam completar vacinação contra a dengue - Impactto News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSnZzb0JtUDNBRVVHS1c5c21URGloYXZQMnN6QTFiX04zUjNnTjZzd1dyek55LWU5NGhPTDhkd3ZKdXhKejgzX08zSS1BbVYzZ2tCdG1tYlFLRGVjY045UzdSa2lqZldmY1B3V1hOSnB2anRZdVpmQWJSRklVZzF0dS1PLTg0a181cHhYeU5kTjVkMjNEUV9uWG45ZUZMbW16cXBaTWFDd29SMDlUaUlDU2tSdU9GMVVJUWlzTlY3Zw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Impactto News"
+    },
+    {
+      "articleId": "gnews_3fdf229174da7003",
+      "headline": "Mais de 3 milhões de adolescentes precisam da 2ª dose contra dengue - Repórter PB",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:26:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWGNMd0hMUVhuTHhYalVwTnQwQVU3ZlRUejBUWTUyR1pVQ1BVYnN0a1czaXlpX3FoZUptakVGcmlOZWg0cl9IZktob3k4ZjcwUHFQZ0lZcGUtUnJHanNvU2xQWlFkTzhhOG9ZTnF1M3RHS3BXcDFBZ0pUbHdUbnZQTldDdU91ZnY3aFJidUE1NEJNTmVLN1hNQlN0Y3hYVC02U05BVlBCUHZVeDhUSy1XeG1ERkFmamN6TDdUS0FfR0JHV21DNVp0Y1o5UW1kZjg?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Repórter PB"
+    },
+    {
+      "articleId": "gnews_4b310357db393042",
+      "headline": "Apenas segunda dose garantirá proteção completa contra Dengue em crianças amazoneses; onde imunizar - Portal Você Online",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:21:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS05KUkcwRUVsQmZMYzJYeURQdDBtN1Q2blNfUlpMSEpGeHRrWXhnazVTQ1dueEx4b3ctZ0JiSmNQLWdJS0UxVTRCR1F6Tjk1UVppYjZHZWc5Zm1kV0VSblRQSG0zbVJIQTJUM1NqV2FXM1JIVDhLcENaZGs5NmotSkFMbmFpTDhWaDQxR200bFZJU1IwdE11bnN1UTVnbVh1bG1wQTJXM0xZTXpsZUp4VlZTeWlfZy1hc2VVN3ZuRQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal Você Online"
+    },
+    {
+      "articleId": "gnews_721c1f6b84e430b5",
+      "headline": "Cerca de 3 milhões de adolescentes estão com vacinação da dengue incompleta - Portal Contexto",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:19:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOczNIdHhha1g5eXBuRFpYU0dScERjQ1lMUV83NzdPY0Q5Y1JwcDdNdDlnVXpzVW02UVBaRXAzOUJfMnpNQ0dnb2RpX0tWOHZmOTZDM0NyZ0NjMC1QbkJPREM2NWladDZldS1pWVlBc0lhZ1hsTThXNlNUN01EcTU2SzNSeUhzc0dCWkp2TExaa1NqRXg5Tko5ckxucEt3NHZxT2xEM1dn?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal Contexto"
+    },
+    {
+      "articleId": "gnews_38f6af2858835734",
+      "headline": "El Niño e altas temperaturas acendem alerta para casos de dengue - CNA7",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:08:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWlELUM1OUU0NE9WM1JjMUhTSWZDSU56NlpKb0Jvamw4UlBicWc1c3FfVi1pYXhNYVh5M1NrOGlfWXFBMUJtNGktY2FKRjEyQXc5dHU4R082MVdDVG5NdTZpWjRLSEVVYzBnT0dzdnozNXQtQ283R2k3TVg0eHY1WERtRWRVWVZteGZmZFo0OEpUSFhyVFNvVjAwdVVvYVVHSzgxVg?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNA7"
+    },
+    {
+      "articleId": "gnews_fd88327e54f71920",
+      "headline": "Mais de 3 milhões de adolescentes estão com vacinação contra dengue incompleta no Brasil - ClicRDC",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T13:05:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbDdWUk8tc0tOUDFobm5MbmFOWFEyUDI1c0dTdHpac1czVzRmRzRoUDQzRW1WMW5MRzJUUVVCVkhEVl9NamVfNTcxZS03X2JVa0dtWVJlX0JYUVpETTRVOWRnR0YyVUF3OTdnZnJGZTA0V0NMQ1IzSXlfUDhjMHJLTTdKTnR5MHVYRV9WRE9ZZW5nT3UzcHJxaFdVWU9kdUtGU2pnQ2U2VmMwVkJ0MHlmUmRCLVhkQ3hDTWc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ClicRDC"
+    },
+    {
+      "articleId": "gnews_8897682a55a14072",
+      "headline": "BDRO faz giro sobre casos de dengue em Rondônia - G1",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T12:41:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa2wxRjVNMXg5bmN2YUlCY1o2RUdqQldkUmI3N3VzbmdmdHBPWFBJODVfUkxZeXNwU2pXLW83YWpydG5BVWg2WVZCY0ZzZDhFX3pEQ3o4X2tPdEhONTJMTVJsS0Y3Xy1pRFlRLUE4Vm1tdy1GVGM0aGpqWVd2dzIxX2dHZkYyTHJuV2ZGWHQ5Y2ZDZkJkUG9qdmdRU2FsTEtHbXZzWUw3amFLUHVUdnVFd0dDVjI5NjllVDYyM2hybXNkQ0QwUzRn0gHWAUFVX3lxTE9vZVVOTzNOSTU0cFR6QXhaVm92Wk1DTVFvQVdFcWM5bFdubFJDNjJjdmZMQjhFdVVvR244THJsOG55MU9vbzR5Tll6SDRfSk1aOFN1dkJUMkRxNS1XM0xVZXdGQlBMdWxwZjJfUXhrbWVtRW9zaTVmOXAxNmgtWmxEOWFXZVZzYTItN1FOQ1BSdEcweVR2MVhZRU1QMFRKOVdWWG1GRV9YX210VWNTdnMxMXhoV1FSaC1zZmxlVDViZXFnZUZ3Y0wyTXdQRWhVck9LWTNQQnc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Rondônia"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "G1"
+    },
+    {
+      "articleId": "gnews_4662507745780daa",
+      "headline": "Mais de 3 milhões de adolescentes ainda não completaram vacinação contra a dengue no Brasil - Portal RBN FM",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T12:06:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUxSM1hCUEswOTlVa0paWGZ5dXhfRVpxdTFGZVJNcmV5Yjd5ZnVNakt6X01wMGhKSk5RUm95Si1xWUZCVXZRWWRQZzc5UzdZZlh3VjNOWlpHYXl4WVhrRFVUUmFBcW1jeHR3WVhMMVV3eVdLNTVUWG9wVU9wamM2R24wSC02eF9sS1NIS1BYVWpJbFhUZG5QXzNqMnVUVDdkZ2dwY0NzLVJhaERQNHhMemFJZU9QNVd3VkNSNQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal RBN FM"
+    },
+    {
+      "articleId": "gnews_993de02d9e55dc16",
+      "headline": "Mato Grosso do Sul registra 31 mortes por chikungunya e mais de 12 mil casos prováveis - RCN 67",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T12:04:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaTEzcEZEX0E1QWF1Tk5HSWV5S1RqdDUzR19USk05NGRGQllZcE40MzdBVEE4c21DQlZQaDJyRVdQc2kzRE5KYmpDcFhWSW9fVF9yWFIzcmN5N3FlSTRMeFpxbVNXd0xqd2FLOEMwN05ValBLRkwwY3E1djd1NE1zN0YxS204TEZZdHB1MS1TODRtc29OMXBKZElYT1V1V2RVYzI1cEd6NEdXcVp6T1d6dlZoRG8zemVnWl9LUWRuQmNLcEE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Mato Grosso do Sul",
+        "Mato Grosso"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RCN 67"
+    },
+    {
+      "articleId": "gnews_0715ce5cbef251e6",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Portal Acre",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T12:02:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT3F4ajhjcDBKNnducWdRWDZETHBNclcwcExRU0hkeTRIVGNsTVJGbFE5WmZXOVpfbnN1WkhYVXBPaHdQek9rUkViXzFEWTlFMHpsbkQ1cVRPaXl4bjJtR2pFaXZSa1E4b05DdmR1LWdScVFtdkF4Y1JTbEloRVI4N2JKSkF2MmR1OWl3R0ZMN1p5Z0xmUEtjYW52emk4TVU?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Acre"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal Acre"
+    },
+    {
+      "articleId": "gnews_2362e2a65d65efe6",
+      "headline": "Campanha de Vacinação Contra o Sarampo é prorrogada até 31 de agosto - Conselho Regional de Enfermagem do Maranhão",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T12:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYkh5dVBYeldaUVh3UlJ0VHVyUXRQbW11RHJfd3d3dnRITHV3UzNTaUUwYTF4MkxqVHd4cXNTMm5OZUM0UGhkRXhlOUhjUGlPYXRaaHhuTjlOSnM3R19aelJkeHd5eEZfcE4tVGFDNTZUZFMxZjRjNmM2VDQwODZib3MxTlBhNWcxX2gxajBmQ3VDLTV6UGgw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Maranhão"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Conselho Regional de Enfermagem do Maranhão"
+    },
+    {
+      "articleId": "gnews_5d998a6cd6b4e0d7",
+      "headline": "MS registra 10,8 mil casos confirmados de chikungunya e 31 mortes em 2026 - Folha MS",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T12:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uY1JiQVNTVlExOUJwZF9PR3UxcVBOaVdTWGhwQXJiNG5oYkhLdU5lblkyYlk3QWlUa1Nwc3RvQVpoSURMMDdpbjgzbWc2NmFfa3NPZDZRSEctWU1aVG9ldWFLR2dyZGYzZ2RFVDBQS05uVzVxRmlpSEVxdUxQWkU?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Folha MS"
+    },
+    {
+      "articleId": "gnews_727664e254309659",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Amazonas Hoje",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T11:09:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaDRwS2pHeGFUQzRtUENsaXpSeGczeTViWVNSWjNVRXg2d3ZTcnhOTUNZblpETG1QblRHQnNmdzJ0dkdOTjk4MkVxRzA1UnA2VmZMS25XQlVhZFAyTGxISndhc0QtMktHeTVjczY0Yi1YUmxVTEVPUlBKSlRqb3UtUUkxeXhjQmwwVFVyQXVGa0FCbEF1X012bG9TTXVjMHR2SG9GYg?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Amazonas"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amazonas Hoje"
+    },
+    {
+      "articleId": "gnews_cca65384e723903b",
+      "headline": "Dengue: mais de 3 milhões de adolescentes ainda precisam completar a vacinação no Brasil - Jornal Boa Vista",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T11:03:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVEFBNjN3N0JjT2xJREdaSmo5UFNONkdpQ1ZpMDNlZHJFakxWMnNmRVNkTHFpejVCTVYzX0NzeElCWnlpTU9XTy00anNzVHJJZnc5U1hjZHRWQ2N3d2l4Tk1xMXEyWkZoZ1VRNFhnVk9zV3kyaXEtNktybE5fSHZDeHpQUDhiLVk2eU1nREtNMGU0R2JuNVhRS0pmdmpBRC1ndGpGcHhEVTJfRkN6UC1vengwdWlUQUpFd1E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Roraima"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jornal Boa Vista"
+    },
+    {
+      "articleId": "gnews_2d429988b36c8162",
+      "headline": "Mais de 3 milhões ainda precisam da 2ª dose da dengue - Hojemais.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T11:01:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVGlvdmR5Y2tBQjNGaG5JNnNyTXlWa1Z0SHZILTdhRHV6MC1QX3U0Tm1WYk5wVzZ1czlNbnVlYnNNNno3NDE5OXlZVGdtZC0zdWQ1X1NOQ1lZaXhqX0VIcDJrM3Vnd0FhM19Dc3BVT2dhcENaVURMZDBGdUF5elVuS014RmdSTGQxZm80VVFuMEhOVVFydTE2cnAxNUpZd1VkR1VvbTd4STItUQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hojemais.com.br"
+    },
+    {
+      "articleId": "gnews_1932d8040c6e3bed",
+      "headline": "Goiás registra mais de 5,4 mil internações por dengue; estudo aponta maior risco de morte em UTIs do SUS - Jornal Opção",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T11:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVzcxa3VfXzVrMVNqVHhKaE9uMmhyd1lYS2IwS2dteTdHUmRyZ0hsRkNIWnVORVlXNVRnUDZKUXNwdHF5OVdick9MeWV6Z25EeUZLaHQ2MmhjYnlOeHBad010SXlhS1ZTZ2FOQXFsRjRmVEF2YU9mREpNc1hXTzBEVTVLQmI2Y1Y0WlJKLVgybWZoZDh0bzl6NGN5VmljVU42OE02UnZXeEJpT09sQzFfS3ZINE1UTmpwVmFyVnc5QU9NZTg2bVFIV1ZUY3h1QUNhNl9laVBtZElXcVlzMXdvNnVVOGpwbUhNWGlxeXF2RQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Goiás"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Jornal Opção"
+    },
+    {
+      "articleId": "gnews_034440d77631e6ba",
+      "headline": "Folha da Região: 3 milhões de adolescentes estão com vacinação incompleta - sampi.net.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T10:45:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYklsMVJrUTM4RWFrNE03VnhrVGROU0d4cE5qbEpkT3hIYkx0VmdQeElhZlh0cUNETmc0OGVJRnJVRGFNZHVKWlZIcHp0aGNnRTlZN0VSeUZvLXlCUG4xQ1FNV2FTVU9DRUFpQVZWQlprYUJSV2EtQURMSzNiYmtzelVkbGRxUkd6cTU2VTBjSEQ3RDBJUXJWTnFBUC1pSnctc1VTUTBzc2FTd0pDREpPOFM3bEJzZnk3bnhr?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "sampi.net.br"
+    },
+    {
+      "articleId": "gnews_cf01f90d89a657f4",
+      "headline": "Mudanças climáticas já causam aumento de doenças infecciosas no país - feebpr.org.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T10:42:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR1lfTkNWcE9ZYTZpMWQ1d0pCU3RrTU1YenNfbTNRQjR5V1VrQ0ZJSG56cmE1ekFhVmZISlZLcHlzd3pBSWloMXQ2UWFsb3htTjNEbDhieGVXWWtzTnlTTGRrMDJFUTE5YVVETmVpbXNiWHU5T0dxT19LekVBS0NXVjBBTzlzSHV0LWg4RnlqS3BXNUVIX2t4TjQ2TjhWTEpNbV8tZkdn?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "feebpr.org.br"
+    },
+    {
+      "articleId": "gnews_8c036a7fd92c697d",
+      "headline": "Mato Grosso do Sul registra 31 mortes por chikungunya em 2026 - Capital News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T10:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTjlvakJtSTIzUlNxbTR6ejh4d2d1aWNna3BaaTBYS3RUdmdQZ1h5MVZhcVpwdDVOaUV0VGRzX0RBVDZMNGxObGR2QmJwTGJDcVpoZmJ0NU5Hd1FocHE5RXJnSUE1ZVFSUjJCa1M4Q1lpWm1zRy11OEpuOEluVnM2NnhBS2dheTlBTGlxSU1mQXRhUkxSYnRZWFhFRFRoTm54UE5FZFJyUTdMV3NYNTE0ZUx2eTBpOWhHdXNLT3ZzTm13d1lwbnc?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Mato Grosso do Sul",
+        "Mato Grosso"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Capital News"
+    },
+    {
+      "articleId": "gnews_3885bd39a28759d4",
+      "headline": "Dengue: mais de 3 milhões de adolescentes estão com vacinação incompleta - TopElegance",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T09:29:53+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS0htXzZSVzkxTGR5b1o4MnFTVkRjMnJOV0h3Y0lKdHF2ckl5MUVGMWVQbDg4aU00VlFJbG84WWtvR1FNeS1EdkREb21YMlJyWktZT21PcTJHcWdUMkdtRXFKanVZVU1BdGc0MTFNU1ZhX1JXYkp6WC1CSXBXZndVYnhnMWdtR09FaFlVQTZQa0JBcjhUQ2l0VEFSR2hCdFlybklabjd3Z2pMdTV4VTc5enR4cUxmV1Y5X3lzMGF0TzlGQQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TopElegance"
+    },
+    {
+      "articleId": "gnews_118dc7bea3129d49",
+      "headline": "El Niño e altas temperaturas acendem alerta para dengue em Belém; veja como se prevenir e onde se vacinar - Cidade 091",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T08:49:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVIyZXNNdW9JanprcEkwZGNIWng4UkhqRmlqcWN3ZEU3RjdSd2hvNWlaUHVCcXFwdHpmNVZONG9SWDhtNi00azBjZUNrSWwyanRsQjZHVzhHYk1vMEhVTDJGRDJjaXg4STl0ajRlQkRiRHVhOGZxZ0xSLTVaTFNES1BDXzdoTy1mMkVnUDRtOUJETnZmTzlWSHNBUmRhS1k4TDV1MDlub1ZkLU1hY1BoTXJ3aEZ5Wm9ubUxqUUg0QUJCeXgwYXZfdmdzUHluRnFSUXB1Zg?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pará"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Cidade 091"
+    },
+    {
+      "articleId": "gnews_a0ff14b47c833b32",
+      "headline": "Vacinação contra a dengue: milhões de adolescentes ainda precisam da segunda dose - Rádio Centro Oeste",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T07:36:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUlpLMUp6a2xrZ2h0UWotZnBsUlBaNVB2MWtNeEdKWkQtWUx2ZHFfZWgyUGRVZUFtZFdQb2FxeU0yM0ZkSjZyWkZKYVM2VWlsOTJUVFFFbTBnLTRGNndVQy1WbWhOaWdFaERUNU1udDkzcWZTZmU3cUhwbFJGVnN2OWxkRm9LNTMxSDFBaUI5Zm9jNnVQdjJ1WkRlVG85X3lUTnlUcjZncGZXX25jR0FGM3VndzQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rádio Centro Oeste"
+    },
+    {
+      "articleId": "gnews_6c9297f1c0c2e6c0",
+      "headline": "Hantavirose: São Paulo registra quatro casos e uma morte em 2026 - Brasil 61",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T07:25:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM2NFdFBmQTJJcDZwWXRibjVHbFdGRTZtWlNtd0tybWlrVEZwcWlLSXdqQ19uWWVtVXJrWURpQ2xBd2Vha1VoSjlfM2lFUkRFT3V2djFZd2FGUlpyOW1iZU5DaFYtaHdTcDhXSUQwVmxCUXdhNEVRSVlpdkFvNGoyUjdSNE14bG53NVY3OXIxR3U3Yjg3MUpfazRHMWFvbEXSAaQBQVVfeXFMTk1XX3ZDWFctdFQzRlJuMUdpbE5KX3FsVXpEQkpVbkZPbE5wU0R0MWZzazM4TnM0eHhhZzRWaldzOG5HMEVfckh5ZUJiaUlrWnFvUm9WNVVyYVY3OHVDTjVYUUJIUFNta3Q1d04zb29rNElMNXF1RkNZNlBoN2xKaVJEcVhOSG0yYkdlck90R1gwYkttQlRXT0JycEhOQ09ibnJ5dzg?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "São Paulo"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Brasil 61"
+    },
+    {
+      "articleId": "gnews_d6a30f2c479dc6fe",
+      "headline": "Dengue: 3 milhões de adolescentes ainda precisam completar vacinação no Brasil - Rádio Itatiaia",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T06:05:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMGJ0dmlJTGpFOHpvbWZkNmhzWXVoNVI1TU5qQ0JlT2k3V3NlYVN3ZEFkemJlNl9ZMUlURUN1clR4azlxQWx6b3NoQzNadm1TcjV6R0EtNmdkb1dHdDZWZ3RVRmFnODk3MEk5Qmg5bEI0S0FNa1lFZ3pRN3pJcXEyUFdMTWRDakhKSFhiTldEZi1jcWxEeEhPdFJaalpLR09iRXkyT3pxTXhMVzgyUWN0NmpB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rádio Itatiaia"
+    },
+    {
+      "articleId": "gnews_6bdf9d30fd76fac4",
+      "headline": "Vacina contra dengue: 3 milhões de adolescentes ainda não tomaram a segunda dose - Ururau Notícias",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T03:21:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYklESUZGb181TnBVNXV3NVZxQTRxQUQtWThxcEtiTlo0S2pjbkpvM3JQbjZhdHFjakZuc2RBQnhwQUctcll1QmdpVUc0SUk4SWtsLUxqbndaaVpyRmpveW9LeVR0ZVZTVTUwbkUyRk1jYnN2MlZKOFgxeFpDNzVRZEtCU2ZQWEdMenVReWpkM3M1ZEdMeHAzeEtJampZWjN0WVNiWTRfTlJZVWhhajI1d2UtRXAxNzYwTl9GUi1CR2h3b2NqZEE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ururau Notícias"
+    },
+    {
+      "articleId": "gnews_998129952179c01e",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Colatina em Ação",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T01:34:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZFE1bmUydHpDQmJIakRCZE02dXVKX1hCSXBNRThZMFc3MFVFUHZjaUR0NVBFV1dRMHBOeVFPa05kNmNfZHRsNzhoNldvak5kRklhUjFIdzA2SDh4QnNGRDl3YkZHbGN2NnVBMXBCaWRIUnl5VVhFMkd6bUhMc2xORjhfTlRTVTM2YUsyT2xnQmgzby0wM3dsY2NMbEZZVGdoMTNvNXV0dUU?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Colatina em Ação"
+    },
+    {
+      "articleId": "gnews_49ae706ee1e2e5fb",
+      "headline": "Mais de três milhões de adolescentes estão com esquema vacinal incompleto contra a dengue - Taktá No AR",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T01:32:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUzBiWmZYaEs2SW5DWm5NZlp4MGZoVWo2THRFWS01ZFlqQ0ZWSE9GUkJiR2ZqZk90cFlVc3lBNFJTd1BMS2JuRV90MDJTOHktMVhPTGF0X0k5NUlJbXB3Y1VyaEZrYlp1WDl3dDRjRThZd0loM2ljU29GenhxaWhabjZGMXNJX2RDUkhIUGVJbFh2cUVEel9uQTY4TUhBLUJEakR6VTJvMGZ2azdsQk9oMjhiRXZCWG1heVE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Taktá No AR"
+    },
+    {
+      "articleId": "gnews_b9cdc4e346d16961",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Aracaju Magazine",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T01:23:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeG5VdnVFeTFJeHFOYWdDaDltNDhkUjN3TjlxalFSTndCRDY0WUNfU1FCQ0VMRFRNZWMzdDVVZElvN1FMU0NHeE1UdUNRTFg5RFpXTEgzNkEzNkRLT3ZEZ1BQWlhjUEdoWFFkc2tVT0c2SFhEVjVpbHJ0X2pUUnBFN3Iyd0k4MTlpQzJKRllwMERxVUNkNE5YMURvbw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Sergipe"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Aracaju Magazine"
+    },
+    {
+      "articleId": "gnews_a6b98fa22ae63a84",
+      "headline": "Mais de 3 milhões de adolescentes não completaram vacinação contra dengue no Brasil - Primeira Página",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-27T00:45:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWHRLLWV2aDA4THE4RGZqOGo0MkFjQ1hCSi1HbFdXNDJOdTZDa2VvUU5GMTk4TG54ZzFQUDRZc2dVLVRNTlFWT3ViRU1BSTFucEJ4UEdMSHFaeGptX2dBQ05LMzBkSUEzWFBqd2w1NlBNOEk2M2VHMG9qVkpsemVKYWRnbWxiZnQ4clZOcUJTdkZhZUN6YXVncWZYUmVBT25EZzUyVjRjN1JtVDdXUDZ6dVduU3JBVnRIa1lUSTR3?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Primeira Página"
+    },
+    {
+      "articleId": "gnews_594fb3cd3c531c54",
+      "headline": "Vacina da dengue incompleta em 3 milhões de jovens - noticiasdoplanalto.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T23:00:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY0dNa0NqRE9WUmtyMXBBYkRDVUt2TXo4RHlvY0F2MEFvb1RXeHVyNEw1clBhNUV5SHJ4aWx1RGVYTWxBX1VvQ210eVpqTkdaQU90bjd3NW9VOFM4R3ZqdUVIWDBLeEJJNGQ0dkNVZlhyOVIzbW85MWhzUXFhTG5TNlZxU2hCWlZUUHBIUnpn?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "noticiasdoplanalto.com.br"
+    },
+    {
+      "articleId": "gnews_919e9b1bde618d7d",
+      "headline": "Mais de 3 milhões de jovens não completaram a vacina contra a dengue - RCWTV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T22:29:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRkR4V0RGSkpYMDVNX1ZmcGJlZmdsaVp4S0ZIOVlWNWFPWmh4czdYSjJTNmdqTUZ2Y1lYMXR2eE80RDAxdjZETWxnM1lqQU40eXIzakctbkpfak9veVJtU3docFFoTllLMDhacEFUMnhKU2FCZndjaU5YSk9qbmdkTWczLVA1eC1vU0lrOFEteWozcU9qa1ZFV0tVNUkwcUJEZEJ3?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RCWTV"
+    },
+    {
+      "articleId": "gnews_e015fd4064244baa",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Folha PE",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T22:28:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRVZkZWNpNFpWSVFCaGhXbnp3QUNMV3Q1S0lxd3RaREZ6T3JCQTZFUXN3UjNDMm54WGQ0WmpkbWhaM09Tb3ZnQks0VW5yMnRTQkwyelhsRUwyQUFXVDIyYktCbTZwQk04TWc0WDRtdUZ5RUVMMU5sQkhPN0w0aFRESUwybDgtaFowOHVMZ0N1clRxQ2MyODUxN0lGcXZjY0luQ1lkcTJ4UUxUWG_SAa8BQVVfeXFMT0lIX04ybF83RFgzMTRYdHJYQmswbEZDLUxpUGduRW5pUnBtcFY4V1FNTlAwRnZiQUxvY0MtaHU4b0dJTlJncHZzWDlsaEdmVDBFNG9PeEFvd1I2NUZyc3FSLTVCczVCOF96Vk5JcXF1cWpLUnk2dFU2dVVPV0lGV3VxUFUyWWdMUUxVeHFkNnJEaWpqZTMwRkttd0xIa014UVFhRmI5SVBQZTF5OEpsRQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Folha PE"
+    },
+    {
+      "articleId": "gnews_bca5f529deff5315",
+      "headline": "Rompimento de barreiras climáticas favorece avanço de doenças infecciosas pelo Brasil - TVBV ONLINE",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T22:26:25+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeXFhSDU5R0FMWkRMZ1JSQlIzNlRjd2QzT2xCLUt1SHNhTjBlXzh6RFctcjNGdjBkVEVuY01kRm1WV3d0aldKUWw1UTM5bm9JakNGbVpMVFpVQWtnOWV4TkxkcERBbVZ1Q2Exd2o0SzJaWGRFcmptRzJRNVlWMFExTDBnM01mWDY2MHEtOC1kQ3dZeGFaSnlEV2wzdm9JX2o2SHg5YjBmN0l5bWV3Sy1V?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TVBV ONLINE"
+    },
+    {
+      "articleId": "gnews_988f267543527a4b",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Tá No Site",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T22:15:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWi1qdXloLWlCQU1OX3JwcUhFMWFZalJEZmNxS01felhBT1cyU1ptdDhXMXh0dE13WDVwc0FoWDNZNDVwd2ZHYnRpUHJZVmx4SjZhek1IS3d3VDZGNURkSDdCNWZKcWhTSDYyMzB3aW85RVJxeTI5N3ljTTR6akRLV012dDUwdmtWbXNVYmRtRW9OUzI1UEpnbUd4R1VNRy1PanFJanh4SlpNbF9tYlE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Tá No Site"
+    },
+    {
+      "articleId": "gnews_36937561909fdc51",
+      "headline": "Mais de 3 milhões de adolescentes ainda não completaram vacinação contra dengue - Metrô News Jornal",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T22:03:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQjdIaWw3SlBha3phVjJlWGtQNE8yUnFOR3EwZG1JMVRYSUtiV3RQbEFyQ1U0cUJCYkRJS0NWZEVldGo3b2hlWFM2cjhkc3Z0cjJ1MUx2X3JQaEl2YkFKT2R2RFF2V2tLY2JxLXltSXFlWnMyV3dsQmY3S0RKVWNLSzhuME5UQXJsemNyZk93LWw4SUJCaEZHRVQzVHhuNW96M1l5RHR3Q18?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Metrô News Jornal"
+    },
+    {
+      "articleId": "gnews_6a12c44a8c9b794e",
+      "headline": "Uma pessoa com sarampo pode infectar outras 18\"; alerta coordenadora de imunização da prefeitura - Rádio Metrópole",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T22:02:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOX3ZrWFp6MFRtWDY5dmNEeDVmb2hkQ2xoREp5YU15T0xiVGVYOF9kYlVlYlhIdlV0bzJyd01jM2NIWFVFeWd6X2VYcjRmV1RhVzNXUVhwaVlYbnY1Ym9ENDdQZUpxQm5jd3J4enZBZ0YybnBkLS1oR2F4MXluRUQ1QnFPclVDZ2UtQmRGcy1sTlp3N01OWjZ2eGxuQ1VjbVp6ZEVjMWFCMWZYejd6bkxHOXRtcWt2aVE5dGV0TTVuUEpoUlM1MERWRXhXNHAzVGVvVHFlT3Y4RXJjdWU4U2FCS2xBV19LbUE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rádio Metrópole"
+    },
+    {
+      "articleId": "gnews_bbacb61d7c32c3cf",
+      "headline": "Novo boletim: MS já registrou 10.817 casos confirmados de chikungunya neste ano - REDE BRASIL DE TELEVISÃO",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTVBWN29ERlJBa2o1aHZHRU1NUG1xa052SDl5ZXZwNDV5bHM1SndBS043aU1ndDNPdndOVHJuQzRLZnRuemlTWmVhci1sVVRlU1FrSWlXME1NMjl3a2ZEdXJaa09TNHB6S3ZZdG5HcV91SWlYUk9yZ2pka3U3NGs1NWRKd015NmZ0bElyeU9Xekd5ODdQRlNISFhCQmNFVVo5UVhiUnNtM09FU0otMGJxNktlZnl5RFE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "REDE BRASIL DE TELEVISÃO"
+    },
+    {
+      "articleId": "gnews_286b5177eb8125a0",
+      "headline": "Brasil tem mais de três milhões de adolescentes com vacinação contra dengue incompleta - Portal 98 FM Natal",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:49:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTHJ4dGlYZFNWVHM1eUFOaUkyNmV5MHc4UzBRNkNMVVFaQThHSDE1ZUFZNHJfX0VuUG9CYy1EUkVJTVRIX1hWUkFtMHdUUFh6QmFaR2xCRjVMOTVlZEhfTGEyMGNhY1I0eGtJODFqSWxqRmk0cWE4OERJeTlwSmZRcnlfcWIybkFmNElxbEtZU1lqSm9RVzJtdw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Rio Grande do Norte"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Portal 98 FM Natal"
+    },
+    {
+      "articleId": "gnews_73b87e09749612de",
+      "headline": "Mais de 3 milhões de adolescentes precisam completar vacinação contra dengue - TV Guararapes",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:41:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVTljZU9iQ3VVYWxZSFNHWWRKTkJod3otdTFmZ1FVMk1oU1hqbzc0X2NIQ2lQYTQ2VElvaVo2YkgzZHRucXVBMGItSDBLWkMxRUFZNWJ1cVAtZVVUTlp4YkxPWnVuQUNhN2ZtclFWTndhWTA2SjN5R1NSOUFFUER2TUFiaUphY2xnclV4VXpoVk5GajNSZDVyYmJ4SlRGZ00xWmVqRnZ4RUJ5SmdjY25fTzNuWXRQX0RDeXVpQ2FUaU9mOFBpWEdfNEt3?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TV Guararapes"
+    },
+    {
+      "articleId": "gnews_cb3dd07970a35d9f",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - panoramagocomunicacao.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:37:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSDZlUGROM3Q0LWZZdlB5clRLQVJsWHk2RzA2ZEpVMkZKOUprUklVcHB5a0w2el9zZEMxMUVLTzVfNkhTdDBROTdLV3Z1TWdlV1ZyWDZxVkJjWWpLOWFwUERydGVYVVNwdDFrYTdZQ2JiTnd1LWptUGtMSFNLUHJEY1IzVVBJZzZOZF9NcEZ2Nk9UcTdFSnNlQUprNGxDR2ZsQWFz?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "panoramagocomunicacao.com.br"
+    },
+    {
+      "articleId": "gnews_0d10301697fabe58",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Agência Brasil",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:34:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORkNMVjU3eHpxcWc3NXdnMFoxY1ZINE50VG0zYVQ2VE52VG9NZkJFTEJxRUdpQ0lSSFFJZlFCWktmeE4xeHpsUklWeHZOanZ1YW5hNWwzYk9VOEZidHo2NDNUbnl5MXl1ZDMtV2FNRmxkSDFXSjBmbXhaN1I3dXhPc1dIUDVEQjlPNW8yNERXTHJlS2lIVFdnMFU2alV6X2hubE10UXpKRmQ5UFZmVnR5cG1qWGNXSGM5M3c?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Agência Brasil"
+    },
+    {
+      "articleId": "gnews_f6c3b470e46cf431",
+      "headline": "Surto de gripe aviária em fazenda de visons em Utah gera alerta; até onde se sabe, os humanos não conseguem transmiti-la - CNN Brasil",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:23:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTFJacFZhY3NKdHg2V1d2NkV1ZXd0WEJBZTdBcjIwVGNZOWhlcUtwWlZlZV8wc1I4MHBvek5WdmRxcDlkVHh6a1ROb2JWZzdSc2EteHlWM0NaRXRnWWl4eXZjTk9FNThyNENTeV9xZm5NM1dNYW40MTdWcUpZMWZ3aWZBWHFhRWNRLXU0SWpqVVpYXy1qMzFDa2QtZkVjOTFzRUQtTmNuWE5QX3U4WlRqVjZlQ3EyeEV6ZEZTeUJrdk5lYlhwYkp0bk1NTE40UXhycmU1TVotbFh3cHIxeHh4c2ZTZDZ0ZXQ1LXZWQg?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNN Brasil"
+    },
+    {
+      "articleId": "gnews_d5e6493dffc2a6ac",
+      "headline": "Dengue: 3 milhões de adolescentes estão com vacinação incompleta - Rio Verde News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:09:24+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUVqM2p2ZzlFOEtyZ1l1VjdKbDlEUDk3bEd0UWprbTJxcUduVi03Q3Z5S2NZRUtqNXpiOVFUOGo3aGVPaV9PbVRKaVdrY0FheG1uc2pGM0tzZGhKUEluR0FTWTdsX3dsaVFaTjNDaDAzNWNUcFhhQmxXREYyd3lHQ19uR01MSE9qWUJHQVEzdi1YQzB1Tl9LQjI1azlZY0JsZVJ6WkRXRndrZw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rio Verde News"
+    },
+    {
+      "articleId": "gnews_88cc3dafc5c0def4",
+      "headline": "MS registra mais uma morte por chikungunya e ultrapassa 10 mil casos confirmados - Midiamax",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T21:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSzc0VlYtTUQydnVBTjRjVnRPNlFvVlJoeEIwRHVGRXBHWEliX0g5alZRemFfY0dGbmJSSGM5cjdOaTZOMUVadnRxWXB0cy1LdkwwTzFiNldBbC1kZGxDNUVRMXAyZ0NhQmVZSkxtaDFYZTc3ZndhYThpdTQ3S0FZRHg1LWZQblJVTTlITTYzck85VGRwWlFSLUVTZ3d2cXBsODczN01fcWtMcUdxTG9N?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Midiamax"
+    },
+    {
+      "articleId": "gnews_559bc136b6c9d429",
+      "headline": "MS tem 31 mortes por chikungunya em 2026; Dourados lidera casos - Campo Grande News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T20:55:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM3BCQUMySy1mWW13akwtTTBIOWpvd3hWREpJQUJsWTVfRWh3WnIzTk5rbDlhd09JMWZNZW9QSmkxOWkyWnJMWWZ5aldIS2FJRzRJdWhEQk9lMVZub0xlQTRkUGVEWW4wOWJsQU04YlNRSENKZHFkVFNXdVJJZG9aTVEzdm9tUTk2Y09MSWhGQnVVOUF1MXlneXRxT0Nsb1E1QUI5Z05pT2ppNzhuVE5obkRMWlF5d1pfTTI3ZlV5NnFvWEtx0gHEAUFVX3lxTFAzcEJBQzJLLWZZbXdqTC1NMEg5am93eFZESklBQmxZNV9FaHdacjNOTmtsOWF3T0kxZk1lb1BKaTE5aTJackxZZnlqV0hLYUlHNEl1aERCT2UxVm5vTGVBNGRQZURZbjA5YmxBTThiU1FIQ0pkcWRUU1d1Uklkb1pNUTN2b21ROTZjT0xJaEZCdVU5QXUxeWd5dHFPQ2xvUTVBQjlnTmlPamk3OG5UTmhuRExaUXl3Wl9NMjdmVXk2cW9YS3E?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Chikungunya"
+      ],
+      "locations": [],
+      "states": [
+        "Mato Grosso do Sul"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Campo Grande News"
+    },
+    {
+      "articleId": "gnews_530f6fe08672ff42",
+      "headline": "Mudanças climáticas já causam aumento de doenças infecciosas no país - Folha do ES",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T19:42:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUThjMWdnSHFrbGRFU3Awc0N1QmxjcmhfNE5LcTRVczhiMzlUbUppalNkM0s5QWxXdG56UkxRVTVRZzdjWlgyX1ZaTEhYc2UtZVY1MGtyMjR1eVJSN3ZpRFoybXJTZTYyanNQajZfNnhfOU1fLXhwN1lFUXJJVXI0Q1VTUkFNUlhuME9vS2hwSnJaQ3ZRU2c?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Folha do ES"
     },
     {
       "articleId": "gnews_bc37c87449e09f39",
@@ -71,23 +1396,23 @@
       "sourceName": "Hojemais.com.br"
     },
     {
-      "articleId": "gnews_530f6fe08672ff42",
-      "headline": "Mudanças climáticas já causam aumento de doenças infecciosas no país - Folha do ES",
+      "articleId": "gnews_6bb6c5254e9bbd53",
+      "headline": "Mudanças climáticas já causam aumento de doenças infecciosas no país - Folha Vitória",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T19:33:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUThjMWdnSHFrbGRFU3Awc0N1QmxjcmhfNE5LcTRVczhiMzlUbUppalNkM0s5QWxXdG56UkxRVTVRZzdjWlgyX1ZaTEhYc2UtZVY1MGtyMjR1eVJSN3ZpRFoybXJTZTYyanNQajZfNnhfOU1fLXhwN1lFUXJJVXI0Q1VTUkFNUlhuME9vS2hwSnJaQ3ZRU2c?oc=5",
+      "publishedTimestamp": "2026-10-26T19:21:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTnNhQkZtNEZnQ2hBMmNObExnRzZidHppa1RlVGRpUjF5RGdUNGR4REVtVWZVZ1pkeGpFU19TdXhxeVJaRGcyUktXTjRuNWFxcjQ2T1dEa3dyY2tFTm51bGMzdDZ5cEZjd3VUdmdMZ25CMFlPblZGMkdEYUtMYkpRMU9YUzZiREJlTnZsYXMxS2xYMUp4MXUwT0JOVDlsYjVvdFczSFo0bndkd0E?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Doença infecciosa (não especificada)"
       ],
       "locations": [],
       "states": [
-        "Brasil (estado não identificado)"
+        "Espírito Santo"
       ],
       "dataSource": "Google News",
-      "sourceName": "Folha do ES"
+      "sourceName": "Folha Vitória"
     },
     {
       "articleId": "gnews_57aec19b7ab10760",
@@ -95,12 +1420,12 @@
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T19:01:01+00:00",
+      "publishedTimestamp": "2026-10-26T19:00:26+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OY3lVZmNvN25KR091VS1NQXUyOVNrVEtNR3A3WjF0VXNKRWNRNUVDVGp3cnd1UDNsdzVoTTFLVy1IVVYzaXlYNDN1dXpDbE4wZE5wWVktcDZsRHFuSEdpZGJmZ1draWdIeFNkT2xETVFVdHlDdWFmZTJ3?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Dengue",
-        "Oropouche"
+        "Oropouche",
+        "Dengue"
       ],
       "locations": [],
       "states": [
@@ -129,13 +1454,13 @@
       "sourceName": "Por Dentro de Tudo"
     },
     {
-      "articleId": "gnews_de5e5cfd3ad2e02c",
-      "headline": "A vacina contra a dengue que está incorporada ao calendário de vacinação do SUS - Diário da Guanabara",
+      "articleId": "gnews_30330581f15647e2",
+      "headline": "Calor favorece avanço da dengue e de outras doenças infecciosas no Brasil - Folha BV",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T18:12:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSnE3b3lQMUpUUFJoaHlhY2szN2t4R1IwaHBYTFFiYkFlUHVENXFVMkg0ajZWcGdxMHVJREY1eTFGZUk2MW9kWGsxS3UzR0h5NGZucnZmWVQ2cDZvcmhUc0pZZDJ4Z2h1ekJpZnR3eHV3V0VlOFljRFNRVTBja0hEbndsYkYtTHYwWm9mM1FuZXhfXy1EVUZGbVJuTHJzZi1tYWN4MV9sbw?oc=5",
+      "publishedTimestamp": "2026-10-26T18:35:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZTE1d3ZRbWlKZlNEdks3ajJLUjNXSUktTEQ3R3pHUWpGWDd1c3R5cmtWazRXOEwtVURrSUI5WUMtXy1YNGNFR2w0MTFrOElUY3M0Z0haZWtLU3liMy10VW5lNnBpSi1vc0ZSNHpuaWN2Q0w1eUFGVUQyUThWUU5ZY1lveVhzeUxqN2hDZERsTEpMbW1jSmxITkJ1VTlia0hydlN0QlVjUFJCZmpDbTE0MVhPRUJlb1BXY1d3?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Dengue"
@@ -145,7 +1470,7 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Diário da Guanabara"
+      "sourceName": "Folha BV"
     },
     {
       "articleId": "gnews_3b20a76985447536",
@@ -167,13 +1492,13 @@
       "sourceName": "Idest"
     },
     {
-      "articleId": "gnews_bca5f529deff5315",
-      "headline": "Rompimento de barreiras climáticas favorece avanço de doenças infecciosas pelo Brasil - TVBV ONLINE",
+      "articleId": "gnews_52fc47af0142c2e0",
+      "headline": "Mudanças climáticas ampliam o risco de doenças infecciosas no Brasil - Aqui Notícias",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T16:43:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeXFhSDU5R0FMWkRMZ1JSQlIzNlRjd2QzT2xCLUt1SHNhTjBlXzh6RFctcjNGdjBkVEVuY01kRm1WV3d0aldKUWw1UTM5bm9JakNGbVpMVFpVQWtnOWV4TkxkcERBbVZ1Q2Exd2o0SzJaWGRFcmptRzJRNVlWMFExTDBnM01mWDY2MHEtOC1kQ3dZeGFaSnlEV2wzdm9JX2o2SHg5YjBmN0l5bWV3Sy1V?oc=5",
+      "publishedTimestamp": "2026-10-26T16:49:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVmVkaXFKa0dXaXRHalZCVFVmRXRkaWZURUw5OEQ3VEhrM3ByVGprbVBDVXRycklJQ2llaU83UGhRVUZ5N1M1MnotZ2loX2lLV3RfdzQyc3VTTGpEeTZGYkNCd3J4enFPS0djQlZRb3Y3bmZ1enJtN3daeDJRd2Z0LWxFUXhGZF9XSDJlWW00SEdwelp0NkgtZVBtYmpUMmgtRFpZdEVKNnJ5bUl6VnY2OGhKaHFCWE9ncWw1Y3ZvVQ?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Doença infecciosa (não especificada)"
@@ -183,7 +1508,26 @@
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "TVBV ONLINE"
+      "sourceName": "Aqui Notícias"
+    },
+    {
+      "articleId": "gnews_7bb0cb6314572158",
+      "headline": "Como as mudanças climáticas favorecem doenças infecciosas no Brasil - Olhar Digital",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T16:17:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTW5ETzY3Z0hVRk5jRmFwZjVLMm1aUHBaeDRQclZDT0tTWmpqMWxxMXFTNm1HM3pqamF1NlRoMDZhUkNsaUZpZUgydlcyYl8wb3hXbWlJWE1LYTQzeEFLZW1fYXVtRHE1d05BX1dhNHVlbEk4MzBwb1FkcW5NRFlaejd1WXlwbm5UQmRTWkVfOG9KSFM1QjFvT1ZsM3dMbTNfdm5tODBCX25mQmRaSmZ4T3cyQ05lNTVMSVFWWFBjTzB0UEZqSjBUS0hB?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Olhar Digital"
     },
     {
       "articleId": "gnews_2aeea245fd781a58",
@@ -205,23 +1549,24 @@
       "sourceName": "CNN Brasil"
     },
     {
-      "articleId": "gnews_a44e19399eeb091e",
-      "headline": "Goiás intensifica combate à dengue e reforça prevenção ao Aedes aegypti - Arroz de Fyesta",
+      "articleId": "gnews_24f81e20c7a962ac",
+      "headline": "Gripe aviária atinge fazenda e veterinária descobre que não existe vacina aprovada para os animais - CompreRural",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T14:39:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQUR3clZ5VmRsbFhHLTdHTzlWazVjMlM5Mlp0T2JBaDBNZ3M5WmNMNTFJalJXOThjZlhBcHNINlRoQ21HOXZqQThvaC1uRG51MEFjblVrY2dlQW9iZEJGNE1ueWhSa1pOZjBEWVVxRVpNMVJDUEgwTG51aDdrYXNzYXdBY3dmcjFURFJ6SlRIX1pjalpFYy04ejAyXy1RN0IyWFhYQ1k4aHhEMEJY?oc=5",
+      "publishedTimestamp": "2026-10-26T14:43:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV0dyVWtPQklCWXIxSmNKMnFyWFVSdmVNcjIzTUZ3TDJMa05EZ193aUltWHRBUF9jMXpfb2oxaGZ4SHp3UG9SSUd1dERld01pLUJZRHd5NlRJVl9yQkFUQ2czcS10NGhGREhpc1hRUFhCdFRuWkFIQVI3azdNWEJVY0NiRFljN25qazc3MVU5STRhNlZBX0FoNFNKR0xqSktkcUhaSmZGZ2ZOS1piYVhpUnJzUWJ1YnYxRVJEXzhHdXBIY19sOXUyVXEta0s1QjQ?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Dengue"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
-        "Goiás"
+        "Pará"
       ],
       "dataSource": "Google News",
-      "sourceName": "Arroz de Fyesta"
+      "sourceName": "CompreRural"
     },
     {
       "articleId": "gnews_94837d8457049b7b",
@@ -241,6 +1586,27 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Revista Amazônia"
+    },
+    {
+      "articleId": "gnews_ccd8bc355627efe4",
+      "headline": "Dengue, Oropouche e leptospirose estão entre doenças favorecidas por mudanças climáticas - noveen.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-26T13:41:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRktxRjVIUG0zUk9OeVRmc2pmZU1aSUlQWTZzNFBYVXliX05LeW1XbDluaFJFWmxOMXBsOUtuVGROaklES1UwcFhUN0ZYZXBCSVlRUVlOQ3JkUjYyMTdpa1hyTEpSeW5vVWhHc0dieU80TnV0WkJXTmZIU3dQTUhqbzB6WWs3WTN2UHI2ZVBTNzhqM1Z5MlR4eTc3eXVocWtIV0ExZ1QxeUM4UTcxdldyTkhXY054WnNFcVZWdEY4ZktQSmZk?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Oropouche",
+        "Leptospirosis",
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "noveen.com.br"
     },
     {
       "articleId": "gnews_d1fd8483b6b387ef",
@@ -281,23 +1647,23 @@
       "sourceName": "Impactto News"
     },
     {
-      "articleId": "gnews_0bce28c888fc37a4",
-      "headline": "Mudanças climáticas e doenças infecciosas no Brasil - newslab.com.br",
+      "articleId": "gnews_971e6aca198a1f7e",
+      "headline": "Morte por meningite em Rio Pardo reforça alerta sobre vacina - Gazeta de Vargem Grande",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T10:00:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DcERKcDNXdTBCZGJLTGtUVGV0MVJ2SWlEOTN0X2d4dEd6eG9pSDF0NmtxbWhjeHpJUl9zWENRc0dTemVFc2QwdVJxNEFHZDdOdnRJZ2s2aFdQT3l4TTJzNnhCV0FUbUpicDV4aFB6eC0?oc=5",
+      "publishedTimestamp": "2026-10-26T12:21:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdGNyLVhQUEpIcWxyR1oyWVJDMnJVZDgyZm5zWFJ3ZVZrWVpwYVBFaGFEQUFsYlZxOGczbkUxaGFqVmhRMHI5T0cxa0J3emJqTHNGUVJtT18wUk1LVGxhZ280OWsyX1F3S29tWjlyUE9iN0ZKWHNSRjFFQ1BGaHpULVhzU2JqbVVDRzB2UTQyZkNjUkZBTVg4ZHBURURsLVB4X2c?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Doença infecciosa (não especificada)"
+        "Meningitis"
       ],
       "locations": [],
       "states": [
         "Brasil (estado não identificado)"
       ],
       "dataSource": "Google News",
-      "sourceName": "newslab.com.br"
+      "sourceName": "Gazeta de Vargem Grande"
     },
     {
       "articleId": "gnews_4ef7a153b70ed1fd",
@@ -338,25 +1704,6 @@
       "sourceName": "Região Noroeste"
     },
     {
-      "articleId": "gnews_46b6e38fd1799933",
-      "headline": "Brazil Poultry Exports Hit as Five Countries Restrict Imports Over Newcastle Disease - Global Agriculture",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T07:56:07+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMkZNM0Y5MzhveHZzTEpvLTNLbXJIUDZFY05uQ1A0V1J2eWZYMmdyLVVGS0tmeE44dGFiQ1pxeHYzYXBGbExLZWk3Y3Z0V2dXRThIQ0tmYVVRU0JJQnRCNmx5U2hKdlduMmEtSWlNVEplUWhuVDhXMmhsRzdRdWZveXo5M1cxc0hzVWd4S1FxcW5pRjcwY05DUlhTa2x4S2Z3Y1Q1b0dTeHFfTXpUVDVveWJDYllSSzBMcEh0dUYwd0pZUWlBLWt0cllMMVRKejlJajBoaGNWRTdNdw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Global Agriculture"
-    },
-    {
       "articleId": "gnews_aea469f540ca87bd",
       "headline": "Bahia registra 24 mil casos de dengue em 2026 e entra em alerta para 2027 - Tribuna da Bahia",
       "headlineTranslated": "",
@@ -377,18 +1724,18 @@
       "sourceName": "Tribuna da Bahia"
     },
     {
-      "articleId": "gnews_b266cb95d9bb5d00",
+      "articleId": "gnews_32ab82b63acb5158",
       "headline": "Dengue, leptospirose e Oropouche: como o clima influencia a expansão de doenças - Rádio Itatiaia",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-10-26T07:04:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRzJGNEFNX1UteWkweFZyVGl1TUtxRXR3VDNPRXhpQ0JUcC1oSnFvdEkweXZ1eUR4Q0xnMDNpU1ZiMWhxbkVLQnlHdjR6WWR4NFkzbG94M0N5WFQ0ajVqUzh5Y0xMLXUyUkJkdEd0TUdDT0k3Y3M5dEgwMDlqeU9JWUZ6cGJyVDM1eFVRQkc5ODBJWmlVQnFLRkxaU2s2dGxPbnIySjQ5T0NwSF9uOWI3QzkyTklfd0p4NXJwWFdGTHZfZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT05CNEN1LTMwazNIU3dTQTdpNS1UNjVRaUdxcEluMWlGNGFsRjZ2cEhJNDJIMVVYZU5wc1JFY083b0VWZE9GZ2o1NnBJbC13WUp0VFF6LURSc19DZ0dsZU0wTmZQRndVYjNGQmNXWE1zckZXeHpxeVpTaUl1eEQ0X05aRER5QXA3elBmT2xQV1RFUEhUVm1UVkI3c0tzcl9JMngzSkUxWFpOaXp1Umk5dlBB?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
-        "Dengue",
+        "Oropouche",
         "Leptospirosis",
-        "Oropouche"
+        "Dengue"
       ],
       "locations": [],
       "states": [
@@ -398,23 +1745,23 @@
       "sourceName": "Rádio Itatiaia"
     },
     {
-      "articleId": "gnews_742b01e3b4964fc9",
-      "headline": "Brazil Re-Elects Lula for Historic Fourth Term, Bolsonaro Refuses to Concede - Time Magazine",
+      "articleId": "gnews_57a491768cb16f8b",
+      "headline": "Rio Grande do Norte elege Cadu de Lula governador do estado - ICL Notícias",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-26T01:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa2xzU3NNMHNVNi1BSGRoRjNJRHF2RHpKR1BoRHpRT0NSd213bFMtVGk5a0lVZlh5SWVEcnBWMnZkR1hvTGlNcnhQUEVMVG5VX1g3TF91Y0hOQi1RQlB6VEQ2bVdmM3MyX0twSTAtS2pMVG4xY1h6amI5TlFvWHBWT2s0OXAyMHpqbTR3MFZ2QQ?oc=5",
+      "publishedTimestamp": "2026-10-26T00:46:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56Q2dqX1V3d1NEdUpRZXhrYWJCYTJ6Z1F0SXNLa0pfSzU5RV9KREtJSXA5djY4N01tcm9ScWJVSW5xUElHSFdOeUN6QzNaWnhTODJKaS1saXNXMDFlNjJIMVd5NU5LSlh2UWVTUHgwcy12QWU2?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Doença infecciosa (não especificada)"
       ],
       "locations": [],
       "states": [
-        "Brasil (estado não identificado)"
+        "Rio Grande do Norte"
       ],
       "dataSource": "Google News",
-      "sourceName": "Time Magazine"
+      "sourceName": "ICL Notícias"
     },
     {
       "articleId": "gnews_fe5fa21cb81e49a1",
@@ -436,6 +1783,25 @@
       "sourceName": "Правда.Ру"
     },
     {
+      "articleId": "gnews_94ef25014813ce68",
+      "headline": "Mudanças climáticas impulsionam avanço de doenças infecciosas no Brasil - Agora Litoral",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-25T23:04:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHNVYl9PM2M2Q05wcFA1NU5lelRhOVB6dWRZb1JmSndGSy1mcDZVQmctYTYwOTl2WWdwQjZMM1JxQ2xHblRmaE12LXRYQmRWYWVZTzEyZWg3VUc3R2QyRnJsaWlZN0NnZDdVLS1pVDV0aTBYVEdUVmxhdC1OUGRPVUhPYWZTeTNKbWFqa0ZmeV85NDd2TTQtLWs3NmpKZmtqOUFfVzk4bDVLRVFDY2hJTQ?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Doença infecciosa (não especificada)"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Agora Litoral"
+    },
+    {
       "articleId": "gnews_90916373bea43d58",
       "headline": "Mudanças climáticas aumentam casos de doenças infecciosas no Brasil, aponta estudo - Portal do Zacarias",
       "headlineTranslated": "",
@@ -453,6 +1819,25 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Portal do Zacarias"
+    },
+    {
+      "articleId": "gnews_0ca5b527a4f67c3d",
+      "headline": "Cobertura vacinal abaixo da meta mantém risco de surto de sarampo no Brasil - n3news.com.br",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-25T20:06:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42RGk0ZUJ5d3U1VUdaOXgwUVg5R2tpemgzWFlkeGxYOERFOFFEZU8waUVLZGpxbTFBbEI5TGRPdDFpS2dJYldUQXZRbmkzVWdmcHZINzNhcTJyaUhSUXJBbkRQNHpaMHA1aFJkaS1KaFZHOE9UYXU5X1dMQkxBdw?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Measles"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "n3news.com.br"
     },
     {
       "articleId": "gnews_cccea3166a22b813",
@@ -493,6 +1878,25 @@
       "sourceName": "OpiniãoCE"
     },
     {
+      "articleId": "gnews_ba0fcf02dec7bc32",
+      "headline": "Americana toma vacina de febre amarela pelo SUS e diz ter poupado US$ 400 - Metrópoles",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-25T18:28:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ0Z0amY2MFYxX0dzQUtQRS1BYWhoYXpPSTlYaWpYdG9NUGdqSTdmS0NaanJjSC0ybFdHbTkwWEtCWGtGeDdXc1hIdG4xRHBNU25SN0p3aHB0NWVsTHdmN0p0TEI0b0tra2syd0lxSnBkRWhfdmhwYmVSdHdTNlZ6X19OYk0yemZLRXNxeVVZZUN4bW5tVnRIM2ZfUmZ0b1I0SjNKTEhmclI?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Yellow Fever"
+      ],
+      "locations": [],
+      "states": [
+        "Brasil (estado não identificado)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Metrópoles"
+    },
+    {
       "articleId": "gnews_0ccf43c18829be81",
       "headline": "Porto Alegre: Campanha de vacinação contra o sarampo segue até 29 de outubro - Agora RS",
       "headlineTranslated": "",
@@ -512,13 +1916,13 @@
       "sourceName": "Agora RS"
     },
     {
-      "articleId": "gnews_dcbfe235d2d3566e",
+      "articleId": "gnews_9174fb6d6f28f0af",
       "headline": "Prefeitura de João Pessoa chama atenção para importância da prevenção contra o sarampo - REDE BRASIL DE TELEVISÃO",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-25T17:11:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMmNQRjN0X3ZzOVVCNUJCaFo1OHpqUzlORUZlSkgzVEc2V1pQdG1oZ3IyMGxiTlZHS201QV84RkFpSHZwV1NDU3RXNlNPbWxVci1VMkpPS3pnMDhROXJUV3NtbkNZMWhLUVlTa01UVHVnSWhfQ2lXME5pQ1NWSTNsR3N1UTZmTXpfMFA3Rmd3b0VIZmE4aGhSb0NiVlNSVTlTT0V2ODJhSjNQZ1Z2VkU0VGtWS2NtbHpKZXphaFpTTjJCdw?oc=5",
+      "publishedTimestamp": "2026-10-25T17:11:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa25rSkVWTmMxVGs4VnNHWWhfSnJMODBTU292Z3BZN1cxNFFTSlFETEk1aVlQUlo5SXo4MGQtYnBYckVTek8zSWFBQzZTYk9zVTZ6ZF8ybEJXUU1mdUp3ZjVVaWxVb2ZGRnJ1ODlUSDRZMDFtS05NV2lvd0xJSHNWcm9fY1FxYXRaUHVNSkhWaHlqa2FHMjdpNTdla0VqS3ZXTTRkM2JrSmZ0Z0F6dnVwazFMLXBWejdGMjY1LQ?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Measles"
@@ -665,6 +2069,25 @@
       "sourceName": "Hojemais.com.br"
     },
     {
+      "articleId": "gnews_131f24064e02c746",
+      "headline": "Mudanças climáticas ampliam avanço da dengue no Brasil e doença já atinge mais da metade das regiões do país - Pernambuco Notícias",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-10-25T13:36:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWnAwcmdfcGN4MHljLVl6eVpWT0tMSzM2cjhoSmhfazJ5MTNMYUNHb3c0a1BQYUFWZzlxTFFycEtabUd5WW04ODVwcUZJNVphcmhhRkVJdFlUNGFOQVJxQlhwazZvM0VvLXFaczRKQ1BMY204SXlUUTlVaGhzRUUyMTlwWUlydmMwMnN4cFYwdG5XajQtNkp4QjN5VE9yalZ1Xy1JUzJ1MEJtUlJjRktlLXF5aFBRVWRnRHdfSXE1TFFIQVBYbnpVTFRXNjBSVDN6amxQaEZMVFlEOEE?oc=5",
+      "originalLanguage": "PORTUGUESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Pernambuco"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Pernambuco Notícias"
+    },
+    {
       "articleId": "gnews_c8fde43c909cf11a",
       "headline": "Mudanças climáticas já causam aumento de doenças infecciosas no país - Portal 24 Horas",
       "headlineTranslated": "",
@@ -760,25 +2183,6 @@
       "sourceName": "Agência Brasil"
     },
     {
-      "articleId": "gnews_6d9c99e270e5c53c",
-      "headline": "Indian American physician Navin Shah commits $525,000 to infectious disease program in Pune - The Times of India",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-25T12:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcDBrZGN4QlB5QVN6YXgyQk1Oc0hBRndUdVdkUTNyVF9BQU10OVRzZ205VU5fb2dZazFLemxGWW93NWhDY0hNRjQ2TEJmcGUwSUVDNEhZcjJCMmgtMmNDLWR4SWh5Yk11clg5V2lyeUU5dktBSGRtVHBMQnJWX1BCdi0zUC1tYzNlRV8zNUt2TFdIX3pOR1FVMEx1RU9rWXFsOHVEbWZlNXVGVFhzbV9fZXRZemhfdFdMNE1zWmJZc2VKbWRhS2Z4X2doTm94LTdIc0d1ckE4YmR1eWdESGhHSkhOUUhiYWF2THpRbEpB0gHzAUFVX3lxTE4xUk1YRC1XUUZnZVNKT0tWdWdpa0pYZlZJT1owcS1YMXBpVWVZRkhFRzdTVWxybWRhZUtLTF83TzhUMDRRLWp1U3R1RWZkQlVVaDhFalRfS0RjZ0ZyNzNWVXB0UHhwdHZzWHZPTU80YUFQV2RwS3NvcE1BdWlOSUo2VEZhN3pObUtWWmFjTkh2MzRpVE5SYTlZaTRuem5WMUlfdm5RUHJNVmwta0J1NW0zd25kZTNHMmtuSFNFU1kxaVA0VlhpRnJFa3NWejZBa0VPYjNhMEMzLUJYRUJVVWZWU1hhcERHMjlBYWxPMnNqOUJCVQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Times of India"
-    },
-    {
       "articleId": "gnews_cfdccef78e0aa598",
       "headline": "Mudanças climáticas já causam aumento de doenças infecciosas no país - Nativa News",
       "headlineTranslated": "",
@@ -857,252 +2261,23 @@
       "sourceName": "O Mato Grosso"
     },
     {
-      "articleId": "gnews_49e4fece5b19887f",
-      "headline": "EUA registram 4,5 mil casos de sarampo em 2026 e dobram número de registros de 2025 - Bahia Notícias",
+      "articleId": "gnews_d1dc56f9300dc4d7",
+      "headline": "De 7 mil para 12 casos: o recuo da dengue em Balneário Camboriú - Gazeta do Povo",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T19:20:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcGdfbkFvQ2NqSHlnSlotOFpoOU9NY3V2ems0aE5XTzlXWEstMHZlRF9rMnc5MHpvWVN4ZUdMVWc3VmVYdVRPZUduUzhBMkJObTh4by10SFJENC1wanZVcWd3MzJ1VGZTNkZaZFhsc3hCUmZYOUZtMEdEWmFBbm5QZ19LMGRDOW5JRGt4bFljSGNIX2puamZPSFZWcG1iX0FqRVVublJhb2Z4WEVLci02S3VHcDQxMFdzaXVfQkdmSWpKTmp2YjNKMlZiZko0RGpF?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Bahia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bahia Notícias"
-    },
-    {
-      "articleId": "gnews_2a44c28c4cdee86c",
-      "headline": "Surto de Covid-19 atinge 108 detentos na CPP de Rio Verde - Mais Goiás",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T18:18:20+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNDdqSGloZmt3a2w0cmJtX3NRWFBEcHRadG5reTlfUWM0bEpmdk1VTm5KWmNGMHdRXzg3bFY1VlBvajBaQzNVZUh4RTRMdWpFMWNpaGx2QXFjTUxLZGxVakplY1AzS3VfaElJNTFaZmxaMHE2Z1dRWlhuM19LRTdDOXZRNUoyTlVMNkVpVjN2RmFMbWs5YmxHX01POHlNOC1CUHU0UFQzQWs?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "Goiás"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Mais Goiás"
-    },
-    {
-      "articleId": "gnews_bbde925d7e311384",
-      "headline": "EUA registram mais 178 casos de sarampo em uma semana e já somam 4,5 mil infecções - Francês News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T17:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVEtPaDE2WkZlSmY0MmtsZWVERGRBd01PRXAtaXNWQkpNS0hfMmRiQ0xwRGMzX180a1FoVnhtVjlTZXVSM0dnLVZ0eTFXd1kzN3B0OERNby1SUUNnQjZ0djI2Q0QzUXpoTjVQZnZHemtFblN6SFE5NEVYeUpyVlNDYzZuRzBqclBicHlGb2lTa09KdEQ5bkhNZ3duZmdSNjg3VmFCMXh0YXI1ZVo3Q2lFVC1ERWtBZkowaWpuV0dqMmJUQWktY0tGdVRB?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Francês News"
-    },
-    {
-      "articleId": "gnews_fdce8a108db99be0",
-      "headline": "Dengue cai em 2026, mas combate ao mosquito continua - Tudo Rondônia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T13:24:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQkl5dm1qYVZsOE9zSTRQSFo4Ylo2RXAxLS12cUlScm5rdnk3VklXQUxJX3htLUdKMDBSR0ZvNjc3VE9wazYtbHhtNGZzS25mSmc1NHQ3d2I5a3VSZ24tMGdEeFF0VVBZVFFMZDlxcG9ub0Nmb0xVYl91SHZ4VWlsVkV6aXpzY2RralFVX005eEhpU2NndG1pTHUycEhTM2hybHM0Rw?oc=5",
+      "publishedTimestamp": "2026-10-24T21:32:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbjZWLWFaenBMc3FGbHZ3cVJPdC1tYTNYNDVUV0d2bjBSSXAtdmlCbWI3dE5aM0I4c2dBNTJRVXBUQ0E1RmlvNThDZ1lCOHoyZTlDRGtydWhUTTV2dmpLZEt5cnVySUxueDR2cV9wRmMycjRudkpIYkdSTzFZc1RwVTMwZzExZHVCZGtrNXJ3?oc=5",
       "originalLanguage": "PORTUGUESE",
       "diseases": [
         "Dengue"
       ],
       "locations": [],
       "states": [
-        "Rondônia"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Tudo Rondônia"
-    },
-    {
-      "articleId": "gnews_2e2891f25eff67e9",
-      "headline": "Baixa vacinação deixa Brasil em alerta para novos surtos de sarampo - Rádio Itatiaia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T12:25:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTDhSa3RUdkVBek82VGJXaWVuNC1teS14WWhkSE5vRGo1bkJxSGltT043akoxRjhsMEstWExrRlFZaUJNcmpYaEUzbXcwT1EweWowbVdzTzgzWUdVUmZoYkx6SzY0alFKMzBZc1FLaUZzMWk5UlZSSEk2eEdVbV93RFZnR1B6al9aS3NWNmRvcWdWM1YtYnZOZjdqTFBZczVCanVDQg?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
         "Pará"
       ],
       "dataSource": "Google News",
-      "sourceName": "Rádio Itatiaia"
-    },
-    {
-      "articleId": "gnews_5909beb99c076dc1",
-      "headline": "Espanha e Brasil usam mosquitos com bactéria para combater doenças - Fala Você Notícias",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T12:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQXzhMTDlDdXFjdW1MampKYzd2eXJ1X25GbFZUWE1jbXlydk80allzRUM2UWwySDRqcUx0NVVDWFY4VDVrUEphSkJZLVVuVURjeE9EWnc0QlcyZTJPRzRWOW9zMmJZeWt5SGtQNlAxdzZiZGtGQml5ZC00M2N0LTdJTldjUWlycHJVX2VRWlZmRHptWk9PajJ1dmRmQlQyLWJSODBUQVczTE5Bc0lFejJsdnk2SlRsLW52eWpQYQ?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Fala Você Notícias"
-    },
-    {
-      "articleId": "gnews_1189d80edf5cdcda",
-      "headline": "Dia Mundial de Combate à Poliomielite: SP celebra 38 anos livre da doença - CNN Brasil",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T10:00:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc0lmck94ZmlvUXA0NXcxcGpOclBXeDEwczVIZkRVTzlsQXZQMjZIUWdlSlZJSVNGMmpYT0hKYmtkc29JOGh1TzBMVF9aOGVmam15OXFMa0duMTI5R21iVzRYdVl4RmdzTUpvczBoRXY0WGw5dlRvcDRGMGdzenN3cHlFOXotcUc0eWhNNmw0STEwenh5Y2pLOXlOTlpZTWNpNWJKdUc5cVdndGlB?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CNN Brasil"
-    },
-    {
-      "articleId": "gnews_24a7f6907daf526b",
-      "headline": "Alagoas instala armadilhas para monitorar mosquito da dengue em São Miguel dos Campos - 082noticias.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T08:20:57+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbXZpUGpDSkVGRVdxRzJ0ZHV4TGFWY0JudVhFaHlBamoxWWxaVUkyU1ZOTjY3OWxJRjUyNG1KT2lwVWc0akkwd085N0tmUVFDYWxnOWkwcXh4eGpyUE04aExwRGRiTGh6M0xhMnFjTUtEdUFPSjhzTy1UQ2hwRmd6am92T0F1aHNLRjNnR0o0SEFmSTNCSUkzX3FySWJHbXNDYS1vYkZKa0h3c2xXd1ltUEhURzVSS080OHYw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "Alagoas",
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "082noticias.com"
-    },
-    {
-      "articleId": "gnews_29ee647fef7de470",
-      "headline": "Filho contesta surto em ataque com garrafa a professora da UFG - Daqui",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T07:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQWJqck9YelFCTnNJbDBxdzU0d1ZHMTVOWVN0YzBaSE02Vk5yMjJJSTMxbWVuWWtvNVFZZ0V3ckJDZTYxOExtN3p4TVFaZk5yT1BySDN0cWNyaUpWR2VFU3NPVi1NbThOWDhUeWtsSk9iOVI2T0RDY195SG5NdVN0bk5BMDVjSGV5LUVCWVF4R0w4QU50LXpqcm1vRnBvbU5TVkVLa0tiNmFSdkNh?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Daqui"
-    },
-    {
-      "articleId": "gnews_2cbc73fff86de612",
-      "headline": "Baixa cobertura vacinal mantém Brasil em alerta para o sarampo - Correio Braziliense",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T06:32:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVhHcFpHT1EtMXJEV0VxcE1XZ0tNWFd4RjFRMUQ0cW9GRkoyTk1PSWswdGZFY0N3OTFZc25EaTRSVWNQV2c1aWpaQk1tU212MndMQWpuYkhfVFBCb0tiaUkxSTlGMUtickhxQXZLT3lSQjFES0x6bzcxSm1SQUZkR0hkcGZTMnFUWEJIM1FJc0FWcEpxNVU1cG12dU1EcFNNc0l0T3JjMmg4VGVBS2x0MUFWNDNDR3ljX20xTUR2cVFVOW9lMk840gHMAUFVX3lxTE5ZemxRTzRDWDVWMlFHc01vUmNaWVFQYTVKV3RNM0ROZUN3R1JseGQyMFdWVWlkQVVBeFNkeWlHTlFycTU1UG1sZXdyeWI5Q3doQTVYLVJtUEpFNEZ6TDJDcTRFSFVFR05KejEtc3dQTFlid3d2Ry1GUzBweG9nUGZYbnFyTkJXcy1vdUk0TUk3V0JLaHFjZmpmcUpoS05vWktmSTVFZHNsYWFWcVViem5MRjMxZUxYeWhnV2ZMdWhmTnRteFlOam9LRHZ2ag?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Correio Braziliense"
-    },
-    {
-      "articleId": "gnews_3e643e8fa7846dcb",
-      "headline": "Liberação de milhões de mosquitos com bactéria na Espanha e no Brasil atrai atenção; entenda o plano - A TARDE",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-24T00:47:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTF9yOG9Vc04zTHdmdDliT0tjcEp4VFhXNVhZcFdFMmlzVEc0SFBsMF84Z3UzRHBuTWVlRFFtUEZtRWNwYXoyaUhlQlNlaHFFaEI4TWFpZDdCVmwtWEhIV0UxRTJ0Rmh5dnBhZGR4QVYya2ZzZ1pYZ1RqM0RUWWNNZTRXblhPd3o4OTBvRUFoTHhaeUhJWlg3S2xQZ1Vkb09DbkQ2Vi01MGNKOFBpcmdCaGl6Tmk0RW5jSVFPR0NZTVZuX0tqLXZXSGJ0ZHJlVG8t0gHYAUFVX3lxTE5IRTNiSUJTVjFGWmwwQXZ3c0lKM3llYUFIUkZvY3JnN0ZjdnNGcXdVOWwtSUhSRUZzamNZVGFna25lNTNuS0V2WnFORFpOd2NFTWJHQUNaX04zVm1JeWwtemI1Mm5NQ2JWRnZ0UWJ3NDdXVS1WZUp6bTUwZzFkLV9wUFIwcE9oWU5BNlA3dVNaQ1dOb29nWmFrakROc0ZGelZBa1VGYTk0anNuWVpHMDZKdkkyTVBjT1F6Tm5kanNlaC1LTUFDTTFGWGM5OVFJZDVkZjM4bG5YNw?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "A TARDE"
-    },
-    {
-      "articleId": "gnews_981f52f1ef2ef64b",
-      "headline": "Campanha para intensificar vacinação contra sarampo segue até 29 de outubro - Terra",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-23T22:37:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUUlxeVEya0gxLUNhMTlRRHJaTU1ac2FqWWlyX1UyREkwa1dZNnlUelBEUjJnNTN3aVMyQ1NTYlo1ejJoUV8wOHk2VW5HMjhKQjdVVmR0b0otUGY1SDljWGN5TGdXY0d6aTBQcFJRejY5RURaZTZZeDJUR0MxeHhuSGFoMzJkTVBZOHVXalhiVk4ybEczdzh3QzZtRllyeTVlQXVtOEVyN1ptVzhzYnBVckJLQU5GMDNfd1QtcUlnaHdMT2ZJLXlPTk8zYlUyd2FLYzN3RGhPdUpBSTh5M3lRSVBfSEstMkJaU3AwUDRtVzNURXJl?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Measles"
-      ],
-      "locations": [],
-      "states": [
-        "Pará"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Terra"
-    },
-    {
-      "articleId": "gnews_34920a5d735498d2",
-      "headline": "Identificado homem em surto morto pela PM ao tentar entrar em creche com faca - Guararema News",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-10-23T21:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVHpseTZ4UzRDOHFXZFAyME1rN1RQVHRGbmkwZjBmY2JxdVVaYlU1Y0FqbnhxR0N6Z1hnUG9KUHIyMFVVbWxZUHJjN2R3bVR1NGE0YXVKeHM1aUN0cDRPWHBxc3hva0x4dGVGUlBqRVZDN0xKSTV2bDhmWFpHeWlvSi1Gc1ZmWXBxcUhyQ3hjekpJOHAzVWVUMGt2ZmRCWlQyQmtudHRjWUx1dTFpMmJrOE9WLUlKZmVH?oc=5",
-      "originalLanguage": "PORTUGUESE",
-      "diseases": [
-        "Doença infecciosa (não especificada)"
-      ],
-      "locations": [],
-      "states": [
-        "Brasil (estado não identificado)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Guararema News"
+      "sourceName": "Gazeta do Povo"
     }
   ]
 }
