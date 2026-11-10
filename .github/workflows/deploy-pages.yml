@@ -27,10 +27,42 @@ jobs:
           mkdir _site
           git archive HEAD | tar -x -C _site
           rm -rf _site/.github _site/scripts
+      - name: Prepare Myanmar documentation for Jekyll
+        run: python3 scripts/prepare_myanmar_document.py _docs
+      - name: Render Myanmar documentation
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./_docs
+          destination: ./_rendered
+      - name: Add rendered documentation to complete site
+        run: |
+          test -s _rendered/myanmar/data_pipeline.html
+          cp _rendered/myanmar/data_pipeline.html _site/myanmar/data_pipeline.html
       - name: Generate restricted public Basemaps configuration
         env:
           CARTO_BASEMAPS_KEY: ${{ secrets.CARTO_BASEMAPS_KEY }}
-        run: python3 scripts/build_carto_config.py _site/zambia/carto-config.json
+        run: |
+          python3 scripts/build_carto_config.py _site/carto-config.json
+          # Keep the previous path available to cached Zambia pages.
+          cp _site/carto-config.json _site/zambia/carto-config.json
+      - name: Check complete artifact
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          countries = "brazil china drc ghana india indonesia japan myanmar thailand vietnam zambia".split()
+          for country in countries:
+              target = Path("_site") / country / "index.html"
+              assert target.is_file(), str(target)
+              assert "../assets/jgrid-basemap.js" in target.read_text(), str(target)
+          assert Path("_site/assets/jgrid-basemap.js").is_file()
+          assert Path("_site/myanmar/data_pipeline.html").stat().st_size > 0
+          assert Path("_site/myanmar/data_pipeline.md").is_file()
+          for source in Path(".").glob("*/data/*"):
+              if source.is_file() and not source.parts[0].startswith("_"):
+                  assert (Path("_site") / source).read_bytes() == source.read_bytes(), str(source)
+          for name in ("index.html", "aboutus.html", "dashboard.html", "dashboard.daily.html", "dashboard.cluster.html"):
+              assert (Path("_site") / name).read_bytes() == Path(name).read_bytes(), name
+          PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
