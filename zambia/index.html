@@ -589,15 +589,36 @@ async function init() {
 function initMap() {
   map = L.map("map", {
     zoomControl: true,
-    attributionControl: false,
+    attributionControl: true,
     minZoom: 4,
     maxZoom: 10,
   }).setView([-13.5, 28.3], 6);
 
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
-    subdomains: "abcd",
-    opacity: 0.4,
-  }).addTo(map);
+  // Generated into the deployment artifact, never committed to the repository.
+  fetch("carto-config.json", { cache: "no-store" })
+    .then(response => {
+      if (!response.ok) throw new Error("Basemap configuration unavailable");
+      return response.json();
+    })
+    .then(config => {
+      if (typeof config.basemapsKey !== "string" || !config.basemapsKey.trim()) {
+        throw new Error("Basemap configuration unavailable");
+      }
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png?key=" + encodeURIComponent(config.basemapsKey), {
+        subdomains: "abcd",
+        opacity: 0.4,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attribution/">CARTO</a>',
+      }).addTo(map);
+    })
+    .catch(() => {
+      const notice = L.control({ position: "bottomleft" });
+      notice.onAdd = function () {
+        const node = L.DomUtil.create("div", "info-box");
+        node.textContent = "Basemap unavailable / 背景地図を読み込めません";
+        return node;
+      };
+      notice.addTo(map);
+    });
 
   infoControl = L.control({ position: "topright" });
   infoControl.onAdd = function () {
@@ -830,3 +851,4 @@ init();
 <div style="text-align:center;font-size:12px;color:#888;padding:16px 24px;margin-top:24px;border-top:1px solid #ddd;">本ウェブサイトはAMED新興・再興感染症研究基盤創成事業（海外拠点研究領域）ネットワークコア拠点の設置にかかる研究開発及び支援機能（研究代表者：国土典弘）の分担研究「モニタリング体制の拡充」（研究分担者：齋藤智也）により試験運用されています。</div>
 </body>
 </html>
+
