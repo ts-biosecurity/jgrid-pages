@@ -92,6 +92,24 @@ https://ts-biosecurity.github.io/jgrid-pages/
 - 各国ダッシュボード — `jgrid-fetch` リポジトリの GitHub Actions（cron 約 JST 06:22 daily）が各種ソースからデータを取得し、本リポジトリの `{country}/data/` に push
 - 各国 `index.html`（HTML本体）は自動再生成の対象外。デザインや構成変更はこのリポジトリで直接編集する
 
+### 公開（GitHub Actions）
+
+公開は `.github/workflows/deploy-pages.yml`（「Deploy complete J-GRID Pages site」）が行う。Settings > Pages の公開元は **GitHub Actions**。main への push で、次の順に成果物を組み立てて公開する。
+
+1. `git archive HEAD` でサイト全体を `_site/` に複製（`.github` と `scripts` は除外）
+2. `scripts/prepare_myanmar_document.py` と Jekyll で `myanmar/data_pipeline.md` を `myanmar/data_pipeline.html` に変換（`.md` 本文は変更しない）
+3. `scripts/build_carto_config.py` で `carto-config.json` を生成（旧ザンビアページのキャッシュ対策として `zambia/carto-config.json` にも複製）
+4. 全11国ページ・共通JS・各国データ・主要HTML・文書HTMLの存在と保全を検査してから公開
+
+Repository Secret **`CARTO_BASEMAPS_KEY`** が無い場合は、安全のため公開を停止する。
+
+### 地図の背景（CARTO Basemaps）
+
+全11国の地図は共通の `assets/jgrid-basemap.js`（`addJGridBasemap(map, style, opacity)`）で CARTO Basemaps を読み込む。キーはソース・JSON・コミットに書かず、公開時に `carto-config.json` として生成される。
+
+- このキーは**公開サイト上で閲覧可能**になる設計のため、CARTO 側で Basemaps 権限のみに絞り、全対象ページの Referer を許可する（特定国のパスだけの許可では他国の地図が表示されない）
+- 設定の取得失敗・タイル読み込み失敗時は、地図左下に「Basemap unavailable / 背景地図を読み込めません」を表示する
+
 ### 手編集してよいファイル
 
 本リポジトリは3つのパイプラインの **CI が自動で書き込む公開リポジトリ**。下表の「自動生成」に該当するファイルをここで手編集しても、次回実行で上書きされて消える。
@@ -127,7 +145,7 @@ https://ts-biosecurity.github.io/jgrid-pages/
 加えて：
 
 - ヘッダー背景（`linear-gradient(...)`）
-- マップタイル（`L.tileLayer(... dark_nolabels / light_nolabels ...)`）
+- マップタイル（各国 `index.html` 内の `addJGridBasemap(map, 'dark_nolabels' など, 透明度)` の style・透明度。`L.tileLayer` を直接書かない）
 - ヒートマップ階調 `const HEAT = [...]`（5段階）
 - マップ州境界の `color`（GeoJSON style／mouseover）
 - 病名タグ `.disease-tag.*` の bg/color
@@ -138,4 +156,4 @@ https://ts-biosecurity.github.io/jgrid-pages/
 
 ## 国別補足ドキュメント
 
-- [`myanmar/data_pipeline.md`](myanmar/data_pipeline.md) — Myanmar のデータパイプライン詳細（収集経路・Cloudflare 回避・WHO Myanmar / SEARO Epi 統合の経緯・jgrid-fetch 投入手順）
+- [`myanmar/data_pipeline.md`](myanmar/data_pipeline.md) — Myanmar のデータパイプライン詳細（収集経路・Cloudflare 回避・WHO Myanmar / SEARO Epi 統合の経緯・jgrid-fetch 投入手順）。公開時に `myanmar/data_pipeline.html` へ変換される
