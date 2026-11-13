@@ -654,7 +654,7 @@ let infoControl = null;
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
     fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/VNM/ADM1/geoBoundaries-VNM-ADM1.geojson"),
-    fetch("data/vietnam_infectious_diseases.json"),
+    fetch(`data/vietnam_infectious_diseases.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" }),
   ]);
 
   if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
