@@ -574,7 +574,8 @@ async function init() {
     }
   }
 
-  const dataResp = await fetch("data/zambia_infectious_diseases.json");
+  // Avoid serving pre-translation JSON from a stale browser/CDN cache.
+  const dataResp = await fetch(`data/zambia_infectious_diseases.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" });
 
   if (!geoResp || !geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
   if (!dataResp.ok) { document.getElementById("map").textContent = "Error loading data"; return; }
