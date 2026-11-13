@@ -481,7 +481,7 @@ applyI18nStatic();
 // ============================================================
 let donData = null;
 function fetchDON() {
-  fetch("data/who_don.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(json => {
+  fetch(`data/who_don.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(json => {
     donData = json.articles || [];
     renderDON();
   }).catch(() => {
