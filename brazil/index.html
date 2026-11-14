@@ -690,7 +690,7 @@ let infoControl = null;
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
     fetch("https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson"),
-    fetch("data/brazil_infectious_diseases.json"),
+    fetch(`data/brazil_infectious_diseases.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" }),
   ]);
 
   if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
