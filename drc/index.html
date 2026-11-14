@@ -609,7 +609,7 @@ let infoControl = null;
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
     fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/COD/ADM1/geoBoundaries-COD-ADM1.geojson"),
-    fetch("data/drc_infectious_diseases.json"),
+    fetch(`data/drc_infectious_diseases.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" }),
   ]);
 
   if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
