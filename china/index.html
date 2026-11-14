@@ -617,7 +617,7 @@ let infoControl = null;
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
     fetch("https://raw.githubusercontent.com/longwosion/geojson-map-china/master/china.json"),
-    fetch("data/china_infectious_diseases.json"),
+    fetch(`data/china_infectious_diseases.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" }),
   ]);
 
   if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
