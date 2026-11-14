@@ -561,7 +561,7 @@ let infoControl = null;
 async function init() {
   const [geoResp, dataResp] = await Promise.all([
     fetch("https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/gbOpen/GHA/ADM1/geoBoundaries-GHA-ADM1.geojson"),
-    fetch("data/ghana_infectious_diseases.json"),
+    fetch(`data/ghana_infectious_diseases.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" }),
   ]);
 
   if (!geoResp.ok) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
