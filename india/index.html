@@ -642,7 +642,7 @@ async function init() {
     } catch (e) { console.warn("GeoJSON fetch failed:", url, e); }
   }
 
-  const dataResp = await fetch("data/india_infectious_diseases.json");
+  const dataResp = await fetch(`data/india_infectious_diseases.json?v=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" });
 
   if (!geoResp) { document.getElementById("map").textContent = "Error loading GeoJSON"; return; }
   if (!dataResp.ok) { document.getElementById("map").textContent = "Error loading data"; return; }
