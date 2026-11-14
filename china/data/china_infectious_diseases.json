@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T01:34:09.044979+00:00",
+  "generated_at": "2026-11-14T21:16:15.191357+00:00",
   "date_range": {
-    "start": "2026-11-11T01:34:09.044979+00:00",
-    "end": "2026-11-14T01:34:09.044979+00:00"
+    "start": "2026-11-11T21:16:15.191357+00:00",
+    "end": "2026-11-14T21:16:15.191357+00:00"
   },
-  "total_articles": 129,
+  "total_articles": 155,
   "retrieval_status": "ok",
   "retrieval_queries": {
     "requested": 37,
@@ -12,36 +12,1591 @@
     "failed": 0
   },
   "state_summary": {
-    "中国 (省未特定)": 102,
+    "中国 (省未特定)": 131,
+    "山东省": 3,
+    "云南省": 1,
+    "北京市": 2,
+    "澳门特别行政区": 3,
+    "湖北省": 8,
     "山西省": 1,
-    "澳门特别行政区": 1,
-    "湖北省": 10,
     "香港特别行政区": 2,
-    "山东省": 2,
-    "河南省": 1,
     "陕西省": 1,
     "天津市": 1,
-    "福建省": 1,
-    "云南省": 1,
-    "浙江省": 2,
-    "四川省": 1,
-    "广东省": 1,
-    "北京市": 3,
-    "西藏自治区": 1,
-    "新疆维吾尔自治区": 1
+    "浙江省": 1,
+    "河南省": 1,
+    "福建省": 1
   },
   "disease_summary": {
-    "Infectious disease (unspecified)": 96,
-    "Hepatitis": 2,
+    "Infectious disease (unspecified)": 133,
+    "Influenza": 15,
+    "COVID-19": 3,
     "Dengue": 1,
-    "Influenza": 21,
-    "COVID-19": 7,
-    "Avian Influenza": 10,
-    "Brucellosis": 1,
-    "HIV/AIDS": 1,
+    "Hepatitis": 1,
+    "Avian Influenza": 5,
+    "Mpox": 1,
     "Measles": 1
   },
   "articles": [
+    {
+      "articleId": "gnews_6847d3c44de58dc1",
+      "headline": "Trump to Meet With Putin and Xi in China, With Nuclear Proliferation on the Agenda - The New York Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T18:36:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaWlZUDZrQV9aZ2RzMS04ZERzWXlNWHp4THBtR1pyZ3NBbjZkcm1PMF9PLUhuTzJzZzRZT2Nlb1p5NVJ3Ul9EaWVVTHQtb1Ytb1loSHRvYkU2ajBBZ3hPdW1YdTY1Smd5WDRRdWNFMl85cVBVRGJBbl9fRTAtZ0lBUFctdFZXVWlYdGdPb2paa3piNzRwbHVrQ2RR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New York Times",
+      "headlineJa": "トランプ大統領、中国でプーチン大統領、習国家主席と会談へ　核拡散問題が議題に - ニューヨーク・タイムズ"
+    },
+    {
+      "articleId": "gnews_07f9b81fb3c9c4f6",
+      "headline": "王忠林落马 王全璋评山东官场与人权黑幕 - 大紀元",
+      "headlineTranslated": "Wang Zhonglin's downfall: Wang Quanzhang's commentary on the dark side of Shandong's officialdom and human rights - The Epoch Times",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T17:48:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuSnlmQURrN1EwX195Y0pZSUxrX2dYNnBjangxNlhsd1lCZERiY1J5MTZ6RUpPSnI0MDBpRWg0ZzEwb0RyU0pManBEdmRueTAzamVpXzI3T09IMnNnMjByNjRR?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "山东省"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "大紀元",
+      "headlineJa": "王忠林の失脚：王全璋による山東省官僚機構と人権の暗部に関する論評 - エポックタイムズ"
+    },
+    {
+      "articleId": "gnews_654a3a65967174b2",
+      "headline": "Xi, Trump, Putin set for historic trilateral meeting in China - Rediff",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T16:59:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWjdLajg5bm1ZOFZNTlJ4UjY0NGFqcmcyOUU2U082eWFmWnYxYnIwdFRZTkhFcVNIUXdqNmRDYTIyblcwYXZLWjNIbGp0VHJDLU5HS0N0amUzc3praWNzaG9uRldWQ1NHSHg0RmhXZTd1N2tKVjUyQUJ5aUNDcm9jZWlraUNuYWJDdnR1VDREd2ZnZVpwaUFkVDFMcDloazlzNTJFdXJBcEZ4X2RvSDRQbTNtMGVPT0RNLWFERERabmZiMHBXUnl4WXhRZkp2ckRNRWptc0RUU0RLY0U?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Rediff",
+      "headlineJa": "習、トランプ、プーチンが中国で歴史的な三者会談へ - Rediff"
+    },
+    {
+      "articleId": "gnews_8651329e6865962b",
+      "headline": "云南省海外联谊会代表团莅访缅甸中华总商会 - 缅华网",
+      "headlineTranslated": "A delegation from the Yunnan Provincial Overseas Friendship Association visited the Myanmar Chinese Chamber of Commerce - Myanmar Chinese Network",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T16:37:01+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pUEZrSkc4aF9pTTlqRElvU1BROTVGeUg4cG8wNVZPWHZpeWxrYVlvMHduQ0lqQ0FkUzJhMF80LXVrZXhhdEZFdXY1VWRJNDB1TF85WWxwTQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "云南省"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "缅华网",
+      "headlineJa": "雲南省海外友好協会の代表団がミャンマー華人商工会議所（ミャンマー華人ネットワーク）を訪問した。"
+    },
+    {
+      "articleId": "gnews_d5ecddf1219704f3",
+      "headline": "北京不敢再谈抗疫 - 万维读者网",
+      "headlineTranslated": "Beijing dares not talk about fighting the epidemic anymore - World Wide Web Readers",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T16:10:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90QU55MDNoRzc0Qno2WUdwTTZyZzhjV0tKSUpKUmY3WHlfNGJYR2VaVnpGc212RjBRWHVBUVMtNnJCQlhpUzJHU01pdkJ2UU5GS3l0YmlITzI0WWtGcjFLNmtVTmxqQQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "北京市"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "万维读者网",
+      "headlineJa": "北京はもはや感染症対策について語る勇気がない ― ワールドワイドウェブ読者"
+    },
+    {
+      "articleId": "gnews_52e7064be1c876f8",
+      "headline": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says - BBC",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T15:53:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42UEI2dkxFV01OSy1NQkZLQmhkc01KaWFqcEwySVJNYUZOeDNSdko2T0JodkN1RU9LdFBMeGJ2SWhhZXdxMHVxNy1idnhqZ3FIODhKMlFlYUVCYWs?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BBC",
+      "headlineJa": "ホワイトハウスによると、トランプ大統領、プーチン大統領、習国家主席は来週中国で歴史的な合同会談を行う予定だ。 - BBC"
+    },
+    {
+      "articleId": "gnews_2603580224efead5",
+      "headline": "王忠林被从严治党棍 朋友圈揭秘命运闭环 - 万维读者网",
+      "headlineTranslated": "Wang Zhonglin was severely punished as a Party hack; his WeChat Moments reveal the closed loop of his fate - Wanwei Readers Network",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T15:50:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wR1c0Nk9YRVVZTmVUWU5obE1GZGlWRExiQkdqS1FhdW5RRGxJZDUyR1NQOVlhWXhkODctSHM0UkYtYkp3VmxHNmJ2VkoxTTVOcnJWZ2lyeGxUcGp6cnFxN3hncnlKUQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "万维读者网",
+      "headlineJa": "王忠林は党工作員として厳しく処罰された。彼のWeChatモーメンツは、彼の運命の閉ざされたループを明らかにしている ― 万微読者ネットワーク"
+    },
+    {
+      "articleId": "gnews_65356f5c0dd29fb4",
+      "headline": "White House confirms Trump-Xi-Putin trilateral summit in China, Iran and nuclear arms on agenda - The Jerusalem Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T15:20:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41bFJSQnNWSjBBbjlmSVh4YWtsTlBqVEVNUFBLdHlDejgwM0NWVHZCZXRscjc2NG9ycjA4bnlibXdnQ2VLOHlkdUFHWHlxdm9kZlVzRXFfUFppNG02SVEw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Jerusalem Post",
+      "headlineJa": "ホワイトハウス、中国でのトランプ・習近平・プーチン三者会談を確認、イランと核兵器が議題に - エルサレム・ポスト"
+    },
+    {
+      "articleId": "gnews_aa86ba469ba850a9",
+      "headline": "Years of Yore: Flu, smallpox make headlines - Mesabi Tribune",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T15:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYjRWUmo5ZUJjcHZjNnpMWUhkb3kzNFVTVUpoMkI2YldOSGQxNElOc1g3MTdlYkY2V0RRUDJGM2ZQSzVLM0IzbzVJRDNrdEZCa3Y1ZENXU2pZTGFzWkhlSWk4R0xJM3Q3SDNleEEzS3ZzT2g2cVVOM0JEeS1RV0lSUzA2ZWRSeDdyNnNwTG9kVDhSOTBaaldFRmRoMGU4T2EzSTBjcFRCb1FKYzRaQkVGX2c3YnNnd3pYUG9ESXluNXBLeWNreUlkbm5SRTM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Mesabi Tribune",
+      "headlineJa": "昔の時代：インフルエンザと天然痘がニュースの見出しを飾る - メサビ・トリビューン"
+    },
+    {
+      "articleId": "gnews_6b685007a9087abc",
+      "headline": "\"Laowai\" in China | Vietnamese volunteer's special connection to APEC meeting - Xinhua",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T14:26:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KLUY5SFZQUEh2YUE1Q1BzSmRRSE5ROG5BV3hqOXN5R3A5V2ZVd04zanN0WThJTTIzYWozcEMwR3kzSFRFakhTMld1dEJGRVBtcGJYdWRwa2wwbTBzQVdMcWlvcXl1OGMwSENqdDZUS2lWWHVYdlp6a3ZxcDk?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Xinhua",
+      "headlineJa": "中国における「ラオワイ」｜APEC会議と特別なつながりを持つベトナム人ボランティア - 新華社"
+    },
+    {
+      "articleId": "gnews_892ce687c2ed85d7",
+      "headline": "World's largest unmanned cargo aircraft makes maiden flight in China - CGTN",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T14:23:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdmJqR2c1RlR2Qm9iUUtYa2RmWUNxbEhPcVNWeS00clNmTWItYzFJUTNaUGRLUFlRMzVQVDhxMU1Id3A2aDhHY1Z1V1VsUzZnTWpFaW1hWF9hRDFPb2I0V3gxRmEwZGVYX2JZTEc4M3dkc0JVZFM2eXJ6czdGa1ZESHJPNUJQZ21KaGRsRXlNbWVsaklaNDdYR1V1WWN6NU1MV3lCT2dqYjdhUGw5SFZFaUZ1TXc4Wjl2V1I2YWtRX2pacWs?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CGTN",
+      "headlineJa": "世界最大の無人貨物機が中国で初飛行を実施 - CGTN"
+    },
+    {
+      "articleId": "gnews_e3fe97fbdfe60e39",
+      "headline": "AJOVY® Formally Included in China’s National Reimbursement Drug List 2026 - Macau Business",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T14:20:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVppenNBNzA0MFROdHpITHhqM0NJQVZBRFBTRk5RdkM3Y1dzbFF5X2I3ZEdYM2htZEVmam5SbVJnejlucVBsdkVULUtQV2VKeHhLTUNRcDBzbUI0eXFROTFTSkRjVjdkV2lLWXAzRUxJWGtBZ3dNSVFiUWo5SzNWeThVS1VJUGxoUk55SGNkZ0NXWHhFUmNpalB6S2JsekU?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "澳门特别行政区"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Macau Business",
+      "headlineJa": "AJOVY®が2026年中国国家医療保険償還対象医薬品リストに正式に収載 - マカオビジネス"
+    },
+    {
+      "articleId": "gnews_c9cc31f5948a8a7e",
+      "headline": "PODCAST: FAA restores flights, Trump plans nuclear talks in China and SS United States' final voyage - Reuters",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T14:06:37+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcUdVM0xpU1lDOWpfYVNHVlRVOTBGTzZNVGdwenljck5OdkRsNTNkOHUxV3l5LUpON0ZuZzFheEstSlU2VHhNcXQ5SFBZN0RYVzNleGU2bk5KM21sQzd5ZVRqZ3hKckZQUWsybzNMWlJlZFpaZ1N1c0djVjhBWnNPWndyODJMbnZqTzQ0VUktRHNjT1VPNk1uVmZha3czTURzQnhzV3ctZjlKUmtZQUVtYjdvd0JsRjlBQW1iRA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Reuters",
+      "headlineJa": "ポッドキャスト：FAAが運航再開、トランプ大統領が中国で核協議を計画、SSユナイテッド・ステーツ号の最後の航海へ - ロイター"
+    },
+    {
+      "articleId": "gnews_b01b71d41c219ed9",
+      "headline": "Archaeological discoveries in China shed new light on the history of the Church of the East along the Silk Road - SyriacPress",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T13:18:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQjY1OUdWVGw0dG4xVEItbkFmZVZTZm1XRms4R0dtdXJjVkFwVWh4RDViTjJseTNrTEhocnEtZFJBT1BhdHJBc2JzYlNvaUJqdDdpM2pUQkpmT0V6OC1saG1abFhGUTZ2NUFuOGhrRjBfR3Z2NUVMN0VjdXZZbFhDZzk3bEQwaVVyc1B0cDc4RzFyVk5LdVVPZGVaUDhPaUVOOF9FV0diZlc2SzdUenpoemZVU3Fid2FCRnZFakVoUnFvS1NXb19YMDcxNm5hVmRBOHBySEV6bXJ0NU55YkZMN1ZDMVhXbzA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "SyriacPress",
+      "headlineJa": "中国での考古学的発見が、シルクロード沿いの東方教会の歴史に新たな光を当てる - シリアックプレス"
+    },
+    {
+      "articleId": "gnews_6c433c8cd1d01d43",
+      "headline": "US confirms first Putin-Trump-Xi summit in China, with Ukraine off trilateral agenda - IntelliNews",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T13:16:45+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZWkxUW13V0YyQ3o4YVg4SXRyVTEtMjFRNS1iajNKRXJMV2RMd3RXWS1tUHZZMk54NDV1MHRtbkxmSW1CME9nUU9HRnEySXQyRnlDdkhwTmplVHU0YVlONkt5S2NnTy1qZDg4d18tMFhIOFVRb2txOGNqd1ZWY2Zfc0VrRjZiMDJoYXNWYlZFMVZ0S1Bwa19rcWNwR2pkUWM0VWxyUkh0REpLS2owM2tWdXgtQTcyRWx0aHNR?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "IntelliNews",
+      "headlineJa": "米国、プーチン・トランプ・習三国首脳会談が中国で初開催、ウクライナは三国間協議の議題から外れる - IntelliNews"
+    },
+    {
+      "articleId": "gnews_8866ed418b323a46",
+      "headline": "Trump to hold trilateral summit with Xi, Putin in China next week – media - Interfax-Ukraine",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T13:11:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95M0NCdHVsY0o0T3p5VU9tRWdUTDVqX0YzYkRQVmRyTENod0o1VFlRcWtha0Y0UUdUU251NUUzRWZnVUc2TUJ6WWhzTW5QbG5UeEtwUDZVcGc0YTJBUUFVTnd30gFnQVVfeXFMTlFfZGkzZElHbkxTNnhZNHltTjFBN0ZfVDR2OE9aa1JES1ZVcWphLVFzU3Z5RnhMNVpJX3FoUTgtSEFxVUhMcjFZTmxyUFlkaE5qX1g1dlNhalB6d0t6ZkFXOHdiRDdHWQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Interfax-Ukraine",
+      "headlineJa": "トランプ大統領、来週中国で習近平国家主席、プーチン大統領と三者会談へ – メディア報道 – インターファクス通信（ウクライナ）"
+    },
+    {
+      "articleId": "gnews_03f19b8daaa1408c",
+      "headline": "Act to Action: South Korean on growing up in China, building cross-cultural connections - Modern Ghana",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T13:10:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6cVRGTWZITUhPN2xWcUJfTmlQQUdmYlBHM2FvZjBUSGkzd2h1VTN5SDNOY3NNb2FPc29PU3p5bGFUb1E2WF81Q0R0NnItUGxVb1UwWnBNT0RNNHNjV3l0Y9IBXEFVX3lxTE9TOXRDYWNqcVZoOF8wZnhWMkVvX0JHVmdSMGpPZHJXaW16R2tQT0l4dlNsRFM0MWFXNU9mdGtlSnZXTnNTMmdEU3A0MWhMNFVXLWduMjhkdEFjWDhu?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Modern Ghana",
+      "headlineJa": "行動を起こす：中国で育った韓国人女性が語る異文化交流の構築 - モダン・ガーナ"
+    },
+    {
+      "articleId": "gnews_19ede3f3bf1c71f6",
+      "headline": "第三届中国呼吸健康大会开幕 钟南山发布年度十大进展 - Sohu",
+      "headlineTranslated": "The Third China Respiratory Health Conference Opens; Zhong Nanshan Releases Top Ten Progresses of the Year - Sohu",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T13:00:16+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOEMwMGdtb25fODhMQ0NIYTk4OF9YWTlqQVdVYWRLUnYtN3g3RklBYXp1RU11WGhTUTM1MGl0TUJhSTR5bGJoYjZhRktPLTZ3RnF6ZVNQRExEc3FpNndDOFljUFBfQmlFb0t4LTFSakc3cGJhYVprUENSMWxuWkJNeFFHclNvZDVt?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Sohu",
+      "headlineJa": "第3回中国呼吸器健康会議が開幕。鍾南山病院が今年のトップ10の成果を発表 - Sohu"
+    },
+    {
+      "articleId": "gnews_af7734b6b6dc2aa2",
+      "headline": "5 Big Questions as C.E.O.s Meet in China - The New York Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T13:00:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa3lvRzhHTW9lVGxwdE10ZVFXdV90cnQtSmg2X2pYb2ZqZkxmRjlfU2ZiRk1Cc3JHa3V4MTg0TG5POXV2OE84d1A2cklybmxSR09rNjBZelFuVWZ2dXp0NjVrSlJialpnWEVGWVFyYnowdlM1R3hwZEFnS1NEWHVCSVYzNERWUU1UaWtyOGdZX2ExUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New York Times",
+      "headlineJa": "中国でCEO会合が開かれるにあたり、5つの大きな疑問が浮上 - ニューヨーク・タイムズ"
+    },
+    {
+      "articleId": "gnews_0dcaea241313bf58",
+      "headline": "What to expect from the historic three-power summit in China? - The Business Standard",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T12:42:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZW94QnpGQ01acDY3Z2ZEOWJkR3p1MEFlbWYxV2Z3R2JWNFVYbExSTVVvMk14TkNYSlhTLXBwUGk0MnhKSjVUaFBGTjV4OXQ3VXJEN1pyd3g1bGR0YmtxT2t5OUtPaXFrOWt3M280YWwwd2RFZWExeUM5Ui1xN2ZtSFdPSjF3SERWcUlwTGNwbjZPSUZqTjhfNUJB?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Business Standard",
+      "headlineJa": "中国で開催される歴史的な三国首脳会談に期待できることとは？ - ザ・ビジネス・スタンダード"
+    },
+    {
+      "articleId": "gnews_c053300b082c30fe",
+      "headline": "Trump to meet Xi and Putin at APEC Summit in China next week - ThePrint",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T12:24:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU1M4MzRNblBJYnRrUm1VQlVUNjd5T1N6bmVtNkh5OWVzSmJpTHItNkpGcXVfLUxfSk5zWW1hMzRYMGpxVkx0QnAyR09YblBpQXFNd09BclZHTFVPTy14c2xHRXZrOWdLTGU2NHp3bDA5MHNadHFnQmFzVkkzanphS1B1endLdmtIVTFpYjF3dGpLTm1vTXdMcDhmONIBoAFBVV95cUxPQm5jT29XbkpRb0hiMHhFa0dDOGY5TTNXZURFd1FLaXpCaUVqZU9TVWNobzVLUGFVWlpGQk05RWZsaU5UUV9mSUk4dWxDc1VtNlhaMVRxc0pKeXVxWlhwT0RSOWxsNk5xTUdUcTNacjFmQ05EMzliMkh0dy1QQTFHS3k2Rjl2VkVnT0lTNFgtSnlJUjNjOGZDenJUdjVzdDJG?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ThePrint",
+      "headlineJa": "トランプ大統領、来週中国で開催されるAPEC首脳会議で習国家主席とプーチン大統領と会談へ - ThePrint"
+    },
+    {
+      "articleId": "gnews_c55b079171f3880b",
+      "headline": "蔡慎坤：王忠林官宣落马! 美女视频牵出山东帮惊天内幕 敲山震虎剑指曾庆红（20261115第1377期） 直播精选 - 禁闻网",
+      "headlineTranslated": "Cai Shenkun: Wang Zhonglin's downfall officially announced! A video featuring a beautiful woman exposes shocking inside stories of the Shandong gang, a warning shot aimed at Zeng Qinghong (November 15, 2026, Episode 1377) - Selected Live Broadcasts - Forbidden News Network",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T12:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PcXpTTlI3bjdtRzlmUk54REhuTjFMZkpCZmlpUlk5TS1YMTYyUnJIaC1VR1lsQm4ybmZiYkd6TXdDMzZBVHFUd2tmRHVNS3ZUandZSVRHLUdibk8tSGlfUlp6ZE9xRFlpSThHeWdzSdIBdEFVX3lxTE5pdGZJYmNzVG9UelBVY3YzT2stU190OGJ6b0t6Zm5pRFItSkJKaHZVVzJIOWpsX0ZBMlZzZDBjWFBJd0pOTVRSV19PejF3RjViWk05Z09JbmVLSV9EMHQ2OE45Q1NUYWt3RERoZ2JzZjFMNFNv?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "山东省"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "禁闻网",
+      "headlineJa": "蔡申坤：王忠林の失脚が正式に発表されました！美女が登場する動画が山東ギャングの衝撃的な内幕を暴露、曽慶紅への警告（2026年11月15日、第1377話） - 厳選ライブ放送 - 禁断ニュースネットワーク"
+    },
+    {
+      "articleId": "gnews_107e84df766c8b25",
+      "headline": "微言微语 - 刘德华《白衣逆行者》积压六年上映前夕悄然撤档 中国为何不敢再谈抗疫？ - RFI",
+      "headlineTranslated": "Micro-comments - Andy Lau's \"White-Clad Heroes\" Quietly Pulled from Release After Six Years of Shelving: Why Does China Dares Not Talk About Fighting the Epidemic Anymore? - RFI",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T12:03:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilARBVV95cUxQOHp5NTFHSzBhU19hNjd4UkhINXpqUWpzUi1DLXlDNHRXLTU5bXdzeTd4TmhMNVhNVk5wZlU3cHozOFJMTy1kTlFaVnFHQmNiUmF1S2NYdGVDa2oycjZxMENuRV8wRGhUNVUtOWlFYnBoYmd0SXVQaFhLdW9vSmFLckM1c255MTdZM0dLM1Q5VDRYQjV1X2x0V09Tel9iYVhIWnFmLWxjOENWS2VVVFd3Ny1lSnRDX1doRHU0WTYtWnRBZHdUUWp0V3o4WG1nOXlQbnZ6ODhiNmhiYWNIWVB4M01IRE9UNHdLdGdqR05iWnVVRHFwN19WeF9GRkFVaFl3SXU4Zkx1NGlVWFZieUZ1MVlmYkpHTVZnLTNwR3N6cllOWmtjNnRFTG51aE5DNlgzTW1oNWVsQ204R3Rfdi1oQmhtZTR6aGxtWXJDdGozTEZON0Rnc2xCS25adVV6STA4QTZrUEkxejBNNXBOa1dQYkIxOXQ4dWl3WTR6TzV1NnBFVzkteU5VU3l3a3FuUjhpS0tOV3R3YkVnczh5XzVqYlEzTFo5cDRwR0RsS1NJcGJGSXBnOF9IWFlITU8yVmJubXZRZTRjTUUzNFhrWkFqR05pd3RKMG5wZjR5ZTFYeElXMkRTYXo2U2QteFN0WDB1OGRiZ3FiXzFPV21udVd2T2NvMnBwWGdibmxGb1M4dV9oLVJU?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RFI",
+      "headlineJa": "マイクロコメント - アンディ・ラウ主演の「白装の英雄」、6年間の公開延期を経てひっそりと公開中止：中国はなぜもはや感染症対策について語ろうとしないのか？ - RFI"
+    },
+    {
+      "articleId": "gnews_e3e8a7930a29e6d4",
+      "headline": "The China Shock in the AI Era - Time Magazine",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T12:00:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kVHNxLWdkakZXWEpaa2tHUkwxTnhOYVFqUEgzT0N5cWxzUjZTclZ5N2NHX3pDOGpBOWNYQkNWV3RlaFktOHZNNG1UVHUtRDRmMmI1NjktcTBSalp4NHN3M1JvNEtsWWd2UW5iMTlIblI1azN2?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Time Magazine",
+      "headlineJa": "AI時代の中国ショック - タイム誌"
+    },
+    {
+      "articleId": "gnews_d35b17e6eb3cf6e1",
+      "headline": "What Surprises Foreign CEOs About Doing Business in China - Bloomberg.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T12:00:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXVzSmVac3F4MDlSbXhpZ2Z4TG9WX3FHM0Rld2JzU2VMNEJxLVZrbXpWWmNieTFhSUQ5bFJ3Y1l5dU9RVEdnX3Y3WU5ENXZkbGtpelB2c01lZ1p4WXJrXzdCWVJYeWEycWVKdmtuM0NWUEVBOHI0Wk5EdFp6WVZ4UWg4YzVQWTdWd0Y2WmFmN0tzVXdyU2N5bDhzT1M3S1Vfd2lFUy1DVjMyU3ZlSFlScjdoSnVOem5h?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bloomberg.com",
+      "headlineJa": "外国人CEOが中国でのビジネスで驚くこと - Bloomberg.com"
+    },
+    {
+      "articleId": "gnews_af0f8d21599f27be",
+      "headline": "Former Lakers star, NBA lottery pick top foreign salary lists in China and Japan - BasketNews.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T11:48:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOWpoSk5aaURjdEY3aEE5eHBlV2NGTE12bjJZbmVrcXRnQjJKMEN1WkR0UmFIWVhoc2xJQkwyMnp6SGV1X24xTjdFRVhDX0RZMG12VS1tbWQzM3hGVDhSR3hDdG9abXo1b2JTV240d2lyM1FmWDlRd3lyTHh3dDJQd1ZacXQtYlVJcnJFQUIyNEdCSXd2Uy00SEhwTFJVaDVsd29UMktBRHhYc1NhR3pTNzdzUG8xS1QxdTMw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "BasketNews.com",
+      "headlineJa": "元レイカーズのスター選手とNBAドラフト上位指名選手が中国と日本の外国人年俸ランキングでトップに - BasketNews.com"
+    },
+    {
+      "articleId": "gnews_6c298f6910c961c6",
+      "headline": "“上医‘治未病’”何以传承？何纳与学子共话“医防协同” - 复旦大学Fudan University",
+      "headlineTranslated": "How can the traditional Chinese medicine principle of \"treating disease before it occurs\" be passed down? He Na discusses \"medical-prevention collaboration\" with students - Fudan University",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T11:28:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44TjJhcE1mLUJnN0dvMEVtM2dtNDlCMUVVRDdEX0t1c1FGRnZDZnJxYmFNQWhiTDNpc0EyY3BIbVVJRlNPUnF1bnVfdmdURTloalZERnlmRnEyRHRnMm91ZmxNak1INVVf?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "复旦大学Fudan University",
+      "headlineJa": "「病気になる前に治療する」という伝統的な中国医学の原則は、どのように後世に伝えられるのか？ 復旦大学の何娜氏が学生たちと「医療予防連携」について議論する。"
+    },
+    {
+      "articleId": "gnews_a0e16e279168832c",
+      "headline": "Trump to meet Putin and Xi in China next week for historic meeting, White House confirms - The Independent",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T11:24:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR1FzN09qRC03dzcxbC1xMkNWWHRFMEV3RDBpWDltWW00aXdyeVg5OWdITDdjb3ZWc25KbGpUc19VcUVucnNUNmt5YS1kbkRQT1paQUJ5RjRvY0hQUTZWdlJBV3N4UFpTWXMtUkxQWXAxaW9zTUtwYzF1dnhINktyekF1YWNOR0xfNnBiZ3lPVzNBdDVsSy1lRzlZUTNRRG9WSWpVQkZUc2hXeWxUUVo4?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Independent",
+      "headlineJa": "トランプ大統領、来週中国でプーチン大統領、習国家主席と歴史的な会談へ - インディペンデント紙"
+    },
+    {
+      "articleId": "gnews_1bc305f76c30cc22",
+      "headline": "【天眼问法】暖心短视频实为摆拍剧本，消费善意博流量触碰哪些法律红线？ - Sohu",
+      "headlineTranslated": "[Legal Insight] Heartwarming short videos are actually staged and scripted; which legal red lines are crossed by exploiting goodwill for traffic? - Sohu",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T11:03:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcEFtR2xib0tJenZyTXdXLVdqMGszM3U1aGE1SjNINnJCTXB0cjU3dEpKQzJKOFhvUWV5UHlDYUQxbXdlSGk1OW5VYjRCYmllT2I3UE40cjBBb2RGbXQ3cndQaDJzc2ZnSlp1dXpGNlRaMzU1WklBOGQwSHR4d25EREsxanVBeWc0UDFsLQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Sohu",
+      "headlineJa": "【法的考察】心温まるショート動画は実は演出と脚本に基づいている。集客のために善意を利用することで、どのような法的一線を越えることになるのか？ - Sohu"
+    },
+    {
+      "articleId": "gnews_c5240fcce5efe631",
+      "headline": "Weekend reads: China fires researchers after death during trial; Critics question ‘baffling’ disease data; Retractions of old papers on the rise - Retraction Watch",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T11:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOaVhYdGNBWlpVN05XMEdmdkh2VkI4Uk55Mk4wZTRLYkdsTHlIaXA3dHVGaTFnMjJDbVhHbWI2a2ZRV1ltMFVDNGVUWjY1dGlMcWU3b2M0SEh2NUFBMU5yMHZMQWw1NDdNQlZFRDVPM2NFQ0JEelY4LXA3VzhXQWpZN1o1MWZPU2JydWlhT2t2ZWE4X0p1bzFJU1ZHbnlJU1d2MzAxNHZFQzhMNGVmTUlESm1GME5uM25iTFczVzF6VFZna1RwUVJ1UWtXRnBiRko5aVJ6N1FiUURXajVqQlB5alQxSW1Za1BSN0JhdFBja2VaQU4ybUd2XzM2Y2NadG5hZ2VmaGhTRms2d1k?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Retraction Watch",
+      "headlineJa": "週末の注目記事：中国、治験中の死亡事故を受け研究者を解雇。批評家らが「不可解な」疾病データに疑問を呈する。古い論文の撤回が増加中 - Retraction Watch"
+    },
+    {
+      "articleId": "gnews_1d46eef70bd7e6c9",
+      "headline": "Why Japan must speed up destruction of its ACWs in China - CGTN",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:59:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbmRqSy1MQVRVUXZVcmw0Y2NkYTJIbzFCQk9BbnlKS3V5d05RcHlMYmNUQnpnejU5ZVpxcENVSi1jWmZwRHNWWWw0ekNwd1piRnM5MENZNmNnMEctZGF5Z0szVnZmS21oWkRfUk1tNTRCN3RYZG9lNDlNQjdwSkRrbVQ5bFhGWC1jZGVzeGpoRFFnT0RZZW0xTmFLc1M1dGkzbElHTkhUTlEwS1J5WnRKMy1aMA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CGTN",
+      "headlineJa": "日本が中国にある航空戦力の廃棄を加速させるべき理由 - CGTN"
+    },
+    {
+      "articleId": "gnews_86b397a58effd003",
+      "headline": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say - CBS News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdHZwdDRwcjhOU2d0Z3Iwa3hzOENQN0VFMDZDbGtaSmU5LUtqYURrdUJuMkFBRWJsekdpaGIxWmxuX1h5dzRadUt1TnFOVXUtdWFfZVoxTjJtd0ZrdE9feGtFUUZzb3gwUGxTR19iZWVWcU4xUjM3eFRDU1NZQjAwMXh4M1RlaWxSU0E?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CBS News",
+      "headlineJa": "トランプ、プーチン、習近平の3カ国首脳会談が史上初となる見込みだと関係者が語る - CBSニュース"
+    },
+    {
+      "articleId": "gnews_ecbff406be894c4a",
+      "headline": "Trump, Putin and Xi to hold historic summit meeting in China next week - Saudi Gazette",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:53:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdlI0aG1FNTI5TWlzTENuamc1azFldWR6TzkzOXNHeTVsbnZZT0JHUU5FdHVkeUFHODJ2Znl3VlhfQ3c2Q2pORnFVNTZoQ09Wc3RQaE1IRGNwV2JUU3M0LUExbHAxVEhGQ3ZZU1VZeXhLUF9HU0stNE1hbVdqNjhDZWc1WHduWjJVWlpraURwdTRoQlV6TzBuNm1xcDVzTVF1czB5Qnk5dUhLZERLbVU2NU9seHFtRlBsclE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Saudi Gazette",
+      "headlineJa": "トランプ、プーチン、習が来週中国で歴史的な首脳会談を開催へ - サウジ・ガゼット"
+    },
+    {
+      "articleId": "gnews_736d9e3f52c6996f",
+      "headline": "王忠林落马 新冠期间空降武汉“一把手” - DW.com",
+      "headlineTranslated": "Wang Zhonglin Falls from Grace: Appointed Top Official in Wuhan During the COVID-19 Pandemic - DW.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:34:31+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNdnV5VURsR0wtWlY0c2FrVGVWdVJhT0RZbFNBRFZVSENvX0dwUDQxdGVtWHQxbXhIRHJqcUdYcGRoZWZMSlE2dG9rRUI3bndHV0NtNk9YUi1iSzRIdUdraU9HREgzeXVJbTdEckNjUHBFT093ZkoyWGVoQlA3RkU2dzA2NFZpSl91azg5N0d4RVRwV1Q2bGgxRkdOc05fQnFEbHBxNl90X2FlNlFFNDBtbDhWVG1aRHluaW9zZlF0WUVzT0ExRmJzT19XOW1yeVdNSFV3Q1k2aUhfdmhiQXpabnNLbV92cTVYelVDRGIwTF9GV055ckR1aTk5b2tqZ2VHMUpSQXhuX0tuTFN1N0tQcDdLTV8wLXdOdVdqdWo2N2VhN2E4RkRRbVRJaWw0VnJwc0piZ1ZGdDI2UdIBugJBVV95cUxPYnZFamNXRHNMdUF6dzZ4WXREUzViY1FiNzh2bGUtZ0p4UjI0c1dlX2NRcTVOVUFNYlBMNG5XWi1WalRFOEFLY3ZOdV8zcC0zWDMwRWxrUkpqUUVHWUxmeHI2bG1wUDRtUTh6Wk9uNGRWZEFFNGQ4ZHpBQTNzZ0w3US1VX2FxWlAxQkdJZ1Q4MVMtNEF5UUkwbUdETHZZUkJKbUpFdEszRmFKNEJSS3NlQmV2SnpoS1JmZ1UtdEJmbzhEWHNGR0dfV3AzejcwOEM4WXJBLXlmbm5lN1NMeDJpX2RPbWxGTDVnVkx6bi1VVG83NUotQTdfaTk4LUtJbHlweWp3TWQ4aW02amVxQl9OMFFURGxRYjVEQ29KWkFaZHc5MEtSaFg5eU12MTJyR3Vjc0Y0Q0lIOGVrUQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "湖北省"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "DW.com",
+      "headlineJa": "王忠林氏失脚：新型コロナウイルス感染症流行中に武漢の最高責任者に任命 - DW.com"
+    },
+    {
+      "articleId": "gnews_4daff3f777548876",
+      "headline": "South Korean on growing up in China, building cultural connections - CGTN",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:28:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY2hvZ1BzRm5iYllCN19KWnlEc0FxdjFzektjWnBXU0lIc0E2SHdlTkpvRXVjUUsxT2VIR3FfdjdtMUlheE5lTUhTMUxfREh1TmZFZGdjdm8tVFluUmZiR2o0cGFhRXBTZjVqaHJoU3M1SndXVFFoR2Fzckp5ZjV5TkZtYThFWWRhWmVPa2dreFlteDFjYldxWnlnNHJzaVB3Y0l4R3NkdXVndUZHa3N6LUtrclR4UGFTMl9FM0stNA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CGTN",
+      "headlineJa": "中国で育った韓国人、文化的なつながりを築くことについて語る - CGTN"
+    },
+    {
+      "articleId": "gnews_6eaf7cda9126b837",
+      "headline": "【新 · 动态】聚焦AASLD前沿，共筑临床治愈基石 - ByDrug",
+      "headlineTranslated": "[New Developments] Focusing on the forefront of AASLD, jointly building the cornerstone of clinical cure - ByDrug",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:08:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12ZVBDa0RTUWs4cE5HZUdzYW1vOEN3SnZfUUZRVHlvTGhtZDFNZ29NeFk2M0UtekV6OFlEWDRZem9MR0huTjJTVU5UbFV3eUhjaURaeXc2NTc1S0RqV2RoclM0al9QQllDdElkODVwVFFELXYzSkp5VTNqeG9TZw?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ByDrug",
+      "headlineJa": "【新展開】AASLDの最前線に注力し、臨床治癒の礎を共同で構築 - ByDrug"
+    },
+    {
+      "articleId": "gnews_2016bb40684d23bc",
+      "headline": "Iran war, nuclear arms to top Trump-Putin-Xi talks in China - سانا",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:05:50+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QRG1lMUV0MFBrNENLSV9wVDlhMlJnV3BkVlJfZ3IzM2FqbklnR25YTkJMOFRGa2NfOW82SXcwdjZ5YTlKUVI2Y1lpUWdUYWFLa2Rn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "سانا",
+      "headlineJa": "イラン戦争と核兵器が、中国で開催されるトランプ・プーチン・習会談の主要議題となる見込み - サーナ"
+    },
+    {
+      "articleId": "gnews_a49825bd5e9ba98a",
+      "headline": "He Was China’s Man in Panama. Then He Became a Wanted Man. - The New York Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:00:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54eUQxZ1lIZEdRa2JQTk9sS2xoRXNEb3hWYXczakxpX2R1U1Y4TEFybWJBdlVjdHRuVno2WjFDOHljUGtnZDVFLUpjcGtHdXkxSGJIZ215VjNldXcxR29uTThLcHBlUHNFQkR6eThrcjQtSDgyMzFQZm5RVENDQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New York Times",
+      "headlineJa": "彼はパナマにおける中国の代理人だった。そして、指名手配犯となった。―ニューヨーク・タイムズ"
+    },
+    {
+      "articleId": "gnews_0ba2586b51e8f30f",
+      "headline": "Wearing briefs boosts erectile dysfunction risk, 26,000-man study in China finds - South China Morning Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T10:00:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOR2VRQVZiWXFUcnBkRW9SSG1wbHpram5JdVdTLVRfS3QxckpmZmNuNFYxelo3aXlVbUIwTkxPd3E3SVNJTXhuSDEtbzlkOHNsalEzb2pWQ2E5ZnVySjFFZDZFNWZLaFhkQ1RXWFRuZS1aYnRKeWxPcUVQbi14d3BRZ2dETnYtdXllX3hKUDhVNnRzSnFjNUIwSzdFY015d1NsYVRNQnZsOW4zN2pOcjlCMURwcUpOREZhVWhjMjEycUVJdU56MnhCc1M0TdIBywFBVV95cUxOcTU4czRJSjFhQ0lKNFh6WjJEOU9RZzhldWV3b3h1c2JkWjNMSmVaXzBLenJMZlpBRXhCYThXODQzdm5qVWxHY0FDWWltajQyRVlvcTltdG94VjVpUHpWbnhtUTNkMk5TbDFwNkpEc2tRRG5oSVZDeGlQeHpNSlZLaWNhUVV0dmdZc0wybFotMUpta19YdEJZdjV6VVE3M2kzNjR2N2JITkhHcVg1UE5XZVJhSU15OG0tN1RzUllqdDI4WGlzeDNEMzNFSQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "South China Morning Post",
+      "headlineJa": "中国で行われた2万6000人を対象とした研究で、ブリーフ着用が勃起不全のリスクを高めることが判明 - サウスチャイナ・モーニング・ポスト"
+    },
+    {
+      "articleId": "gnews_4bd7440e75429522",
+      "headline": "Trump, Xi, Putin to hold historic three-way meeting in China - Blueprint Newspapers",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T09:03:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMUg4RGh1X1g0dmVVdjQwZUxXSlpVWHMweVRPMDBuTVh4TmNZVHk2ZlhOLTBCWDc1blktTldDNFBldllfQW00RFdZLXRhVnZKNGJzb0pTdjBsOHpFLVZXNUpaSkIwSWhzVzRmbFBaazdGSkhURUFsZF9pZFVXY0dwamNyVnVCZ0U?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Blueprint Newspapers",
+      "headlineJa": "トランプ、習、プーチン、中国で歴史的な三者会談へ - ブループリント・ニュースペーパーズ"
+    },
+    {
+      "articleId": "gnews_7dedf76d071436e2",
+      "headline": "Trump, Xi and Putin to meet in China, White House says - Euronews.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T09:00:58+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeHprMDZOSFVJbjlUVk9oYVl0czEzcHk0eHFpR3NBUGhRMWpDU1BvdTlQLVFTdE9EOXdYRVpWT1hfVzg4dkljS2NLYmVOUm9vcWs0QVRiRTVQdkttOFZXT0xPUFZwazJmQzhVWEpzZzdrX2kydUF4T2owbDIyU0trMnlmV1EzbXJJY21HSWdKS3Vhdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Euronews.com",
+      "headlineJa": "トランプ大統領、習国家主席、プーチン大統領が中国で会談へ、とホワイトハウスが発表 - Euronews.com"
+    },
+    {
+      "articleId": "gnews_278963a576c3fec5",
+      "headline": "Trump to meet Putin and Xi Jinping at trilateral summit in China - AzerNews",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T08:32:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VQ2hGekZjb2RIeWpVa1FCOXkyR3VDc3pYUlhpVV9YQTNkZzl0enAydm9LRnpjZ3g1a1VHaHdVekFrenhMdnJaVEtLN0hBZVdWX2lnRA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "AzerNews",
+      "headlineJa": "トランプ大統領、中国でプーチン大統領、習近平国家主席と三者会談へ - アゼルニュース"
+    },
+    {
+      "articleId": "gnews_a14e45dbcb1cc2a8",
+      "headline": "Chinese entities sign deals with Oman in Middle East investment pivot - South China Morning Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T07:48:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdnNGTzNGY0VCazBXcE03NjRsZXpCMXYzM0YyMnpmSXBiQ2hEN2x3Q2VLVnZsNGRJeTdKa1pNa0FrY3p5ZEw0aDc5WWhCRGd5MUs0OTBJaEJOVldyaEM0UWE5Nm5QcE92NTlETnNhT0NxalhLRUh5UDQ3TzhNb2NxaTNfa0JrNkwyS3ZhTEJQUWUydXF0TDhLNXZzOWczc1JmczcxVmlNWkhaM3l5d0pZZUxsU190MUM0TXIwLTAtWnFHZVpraFRvT2dPTFhocnNzcjVzOUQ1Y9IB1wFBVV95cUxQWS1XVG11TGxLX1Zkb0NWNVBSRmt0RFJDVjhZRnA2aFlDQndSU3JuRWFHc0xkcVVBOHY1LU1yWjlGT1Iwd1FDdjN5VVFrNmQ5WURGLVU3WlY0bUVyb2V2Q1RydG12N2hWbEZHb3o0UlZQLTcyamgxdF9SREhMY1V5SE4tUnlEcURERWszN0NmSlBZZTlXMEhhVTZuOUNnSkpsVEpQUGdrb0JOdWVtdGpsS21MRmZLUkJibEdvb3RTdjAxQ2p2aUgwZV9naGEtLXEwRjRuYXFRaw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "South China Morning Post",
+      "headlineJa": "中国企業が中東への投資軸転換の一環としてオマーンと協定を締結 - サウスチャイナ・モーニング・ポスト"
+    },
+    {
+      "articleId": "gnews_bc7dbff7b3513011",
+      "headline": "Trump to hold unprecedented trilateral meeting with Xi, Putin in China - Japan Wire by Kyodo News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T07:43:06+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84YTZTVlVPbElONF9RRXVuSDEzNTloOGhWR0k2a2tVVU1jdHBSZDllQTY2d0ZnUEp6VWktX2NaNnYxVkUwUEFIOEZfcU4wU1NSTTViZllqVV8wUQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Japan Wire by Kyodo News",
+      "headlineJa": "トランプ大統領、中国で習、プーチン大統領と前例のない三者会談を開催へ - 共同通信社ジャパンワイヤー"
+    },
+    {
+      "articleId": "gnews_5a6fcfaddb470b17",
+      "headline": "【国家级康复专家坐诊预告】11月17日（周二）上午中国康复研究中心（北京博爱医院）专家杨祖福到德州市第七人民医院坐诊查房- 德州频道 - 鲁网",
+      "headlineTranslated": "[Announcement of National-Level Rehabilitation Expert's Consultation] On the morning of November 17th (Tuesday), Yang Zufeng, an expert from the China Rehabilitation Research Center (Beijing Bo'ai Hospital), will be conducting consultations and ward rounds at the Seventh People's Hospital of Dezhou City. - Dezhou Channel - Luwang",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T07:37:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2eGtJUVZUVHFrc3JVWHY0ZmY2NFlxajdpREtuang3NVdoNnloRnRiOTA4SGRuZ18weUV3c3dQREtwVVhRTDdaeEpkWUx2V2RRRm1lTVVYOFN6bUl1OU1yYUFUMFVGNUdmNzkwRXhB?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "北京市"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "鲁网",
+      "headlineJa": "【国家級リハビリテーション専門家による診察のお知らせ】11月17日（火）午前、中国リハビリテーション研究センター（北京博愛病院）の専門家である楊祖峰氏が、徳州市第七人民病院で診察と病棟回診を行います。 - 徳州チャンネル - 盧王"
+    },
+    {
+      "articleId": "gnews_314c5299a8b08951",
+      "headline": "除了彭丽媛 王忠林后台另有其人 落马7看点 - 万维读者网",
+      "headlineTranslated": "Besides Peng Liyuan, Wang Zhonglin had another powerful backer; 7 key points regarding his downfall - Wanwei Readers Network",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T07:23:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OUTZiYnNaUUF6Zkw3QU5LSTZyTU42RGt0bThaT2ZtcHZXUzhnNmFHVmJ2YWZLdTZmV3pFMGtDdC1ua3NDWllaXzNUSlluRHUxenQ2WGFDaWV0VVpRdnRjVTZKZkdRQQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "万维读者网",
+      "headlineJa": "彭麗媛の他に、王忠林にはもう一人強力な後ろ盾がいた。彼の失脚に関する7つの重要なポイント - 万威読者ネットワーク"
+    },
+    {
+      "articleId": "gnews_8c43df085fd01c63",
+      "headline": "MSI 2027 heads to Valencia as Riot reshapes Split 1 with First Stand: All In in China - Esports Insider",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T07:19:51+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSVdNY2NPcTFlMkUtb0F6UUwxNXh4aWtESzNCd0ZkNU5TMGExRHR2c3ViSkRmcmRNa0x6akkxOGEyUEpJTVV5bnkxeEtSNDhGaGxremxxbjZUY3RTeTRyODNXV0ZlZmdMczdfVEdVLS1TWktSNEE3S1FkSlZ5aTBnZ0pEZTJYdnh2UlpiOTk1eWdMOHNnVXFpQ1NLbU5OMEdsQzUwSjVZZUFJNjEyUEk4bWpZdkNNdnQ2cjJZ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Esports Insider",
+      "headlineJa": "MSI 2027がバレンシアへ、Riot Gamesは中国でのFirst Stand: All Inでスプリット1を再編成 - Esports Insider"
+    },
+    {
+      "articleId": "gnews_a770e35071b529c0",
+      "headline": "Trump, Putin and Xi to hold trilateral talks in China, White House says - The Peninsula Qatar",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T07:00:17+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRkZ1N2FwOFdwWXI0dTdmSGJtSEpSS1NhbUhNSWhaa19aTVl3MFZzY0U2ZWVZakhCM0owaW1uVVFaX1ZYSTF3MjliSG9INjJraGEzVEUwNnd0SzctclRJZzhaVEVIME9DRUlIY01SMDdrQ0kyYnNKZGxSbDBTM1Utc2gwQ29HVnVONTdrSFV2OU5RdGsxSkJzSF9HcHUteXRxSU56Yjh4S0xjRGxCOEdTNW5DdWpXN0RQdlE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Peninsula Qatar",
+      "headlineJa": "トランプ大統領、プーチン大統領、習国家主席が中国で三者会談を行うとホワイトハウスが発表 - ザ・ペニンシュラ・カタール"
+    },
+    {
+      "articleId": "gnews_e1a550702850095b",
+      "headline": "How tourism is creating new livelihoods in China's rural villages - CGTN",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T06:41:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOalc0YTlka0lUcXpjVG55UXlQa0NLeEJac2xSY01uVlhISnlBU0RfUHVsT1RuSlVLODZHbkJBZ0lCdHZyUnlNNWlNcFZkanBrZ2trd2pybnlZVkU4REdkRGFVM0dPMzU2RTMzUDF4Ujh6YndXbktHVW1GeEtBdzJFdEp4UTQtX1AtOUFsdHlhaVFQWjQ1UjBzSGN6WENCLWFOOXR6dDdFS2swQmE0ZG1WTW8wb3hsVjBZS3VRcXh2aw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CGTN",
+      "headlineJa": "観光業が中国の農村部で新たな生計手段を生み出している方法 - CGTN"
+    },
+    {
+      "articleId": "gnews_962a94f3ea58c271",
+      "headline": "Trump, Xi and Putin Plan First-Ever Three-Way Summit in China - Around Prague",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T06:38:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHZydUlILVotVUNCUmsyYWRsaEdLRGsybkpCVEdGcjg5ZGE5R0dUR0hBSENHSG9mUGhDWnItVWs3d3RxNkJJd3RRdUxtSG0yRmQ1ZlhuakpTLTdJSFBzVFdMbEd5RXN0eXdEWklXN2RSWGNocmFUX2I0b1YzSkt5YTQyLThOLTBVaWdiZXE4Z0tuaVliTjJtc2pKQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Around Prague",
+      "headlineJa": "トランプ、習、プーチンが中国で史上初の3カ国首脳会談を計画 - プラハ周辺"
+    },
+    {
+      "articleId": "gnews_37ef0193408fba3d",
+      "headline": "Trump, Xi, Putin to hold historic meeting in China: White House - Arab News",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T06:36:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOU5VcUlzV2Z2dWRXQzBMYnVQMnBWUEwzbXR2dktwaEZ5dUYxUXBvSmdEZjVZTmJDek5GQUIxdFBTNVprcHpFNE9WTC1taF9iZnp6aWNpN2YxbmplX1NOS0hBN0UwYnp3T3pGeXpYOEdMMDFzYkd5d2x2X05nSWZjOTNpLTJURnhSLTJoVzdkaVFsZk5Rb0hrVUtvYThmVmRL?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Arab News",
+      "headlineJa": "トランプ大統領、習国家主席、プーチン大統領が中国で歴史的な会談を開催へ：ホワイトハウス - アラブニュース"
+    },
+    {
+      "articleId": "gnews_cef0109a503b617b",
+      "headline": "Chinese scientists fired after child dies in first brain gene-editing attempt - South China Morning Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T06:23:22+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbXltRXkyU3hwQlFjR1dVM3M0YnlYQm8zWER5NUh1N0IwdUJHdjZvM29meTlXYlVnOWJGem5sQ0t4MldIcW02ZXl3Vm9PVXBYNWhwZ1VxTkFaeXdZVXBNUHlYN043WDM5cHBGTWVqNnRfWE5jdFJ6ZU5ranBmRVpZaGFOYVQtbjZNRUVZYUFuQVpJTnZEUGxjWmFEMU1hYjRtcmY4dHN1Y2M4ZVNYbkNBVzd6ZTEyaVBQd04tSEVxQUxsOW85VGZvT1VZSUx4bUJ5cmdN0gHTAUFVX3lxTE1SaVRBQ2lEQXZRWWRRZWk2ZW1oQnBaUm9RSnBYdEhITFRxM1pLVjlxVTNUVWRfSXJuZ25rRlU2ZU1RQ2FicV9XZ19RMFRMR3BZMmlBNG5uVHRyR2lxc1llelpoYVAyLXR6cmpmTzJrMDZqdU05U2ZUYmYtSVA0Ul9zODdhLTJfdkprcDhwRFUwS2JBVWlzMmRUSUdSa1pNX1FzbVBFa2pqTGNnM19VVno5OEp3TzQ4RFplV3VJYVRlU29YdzF0TmhWbjhLcmtvWWVEejg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "South China Morning Post",
+      "headlineJa": "初の脳遺伝子編集実験で子供が死亡、中国人科学者らが解雇される - サウスチャイナ・モーニング・ポスト"
+    },
+    {
+      "articleId": "gnews_cab616cd82c6f04f",
+      "headline": "Zai Lab Announces First-Time Inclusion of KarXT and VYVGART Hytrulo® in China's 2026 National Reimbursement Drug List, Expanding Access to Key Growth Products - Macau Business",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T06:17:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdWxXNG5lSm9qQV95dlRLN3p2dXBpcklFTlZab2xpVEU1YWVWa3FvdkJrYlh0YktNWXE5SnJ1U1duYkFSWFZoMVJqLW4xd0hDLUwyMTFucmNCaHZrVUNVbHV4Z1lsb2R4aTJERk1ISFZObTZHbExXMVlJeENhRE96TXRVWE9tVjFnNXd1ZTlBcmVSVFRtUGwtMURFMnRiVElheEhfdFNkMXdwcDhoWUt1RjgtZW9KUHdmMVFMRjdxWFdhczZ1andUcGRMdjNQMTJNbXJQbm5Vcm8tTjlHRzlyXy11MTJITFMtVDlVNVBrNVQtWmRiRUpvMzYtM1FSbGo1RzB5eE5rclVpaW5McVpj?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "澳门特别行政区"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Macau Business",
+      "headlineJa": "Zai Lab社、KarXTとVYVGART Hytrulo®が中国の2026年国家医療保険償還対象医薬品リストに初めて掲載されることを発表、主要成長製品へのアクセスを拡大 - マカオビジネス"
+    },
+    {
+      "articleId": "gnews_9a49d6e405b3c1a5",
+      "headline": "White House Announces First Trump-Xi-Putin Summit in China - Kurdistan24",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T05:24:08+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3RHODVMTWpXTUNqaVM3dlhOblBzd0RzVzRtVGlvV19HUjdMX2xuWmY2bGVkWEl2U2h5UFdfR2hyU3pxTmZFVWdMVTM3b3ZMNDg2RjVvTHRYR1A1VWs4MS1nc2p6YzdjNm5kSnZSQkpDSzN3clhFOFpwTVUwZmFWZDBPZUtFTkhzaDV0dnRzX3NCc1ptQTVKNmIwcDcwTXdLZ1pRcw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Kurdistan24",
+      "headlineJa": "ホワイトハウス、中国で初のトランプ・習・プーチン首脳会談開催を発表 - Kurdistan24"
+    },
+    {
+      "articleId": "gnews_93493ca7637880e9",
+      "headline": "Trump, Xi and Putin to hold first three-way summit in China - Al Jazeera",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T04:58:26+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRmk0ejVORmZqQnA3RktiXzIxcmh3TTc1NE5CY3gtUVpQTkZ3dVNXencwMHRfX3BqVmN4Z1dtRGlzWWxkV0llVkY4VTB5Wnl5TlA3SWM4OHVuTm5BeEVkMVVQeUV2U0dFRDRFRTJmc05uWjBYOGxLREZDVXRHeFhpX2NNdVhlNVN0UlFYUXMwa2tkWlNad1FnM2xqUVhRSlZVZ0HSAacBQVVfeXFMUDhyd0hGVV9iWXZGcWRVVFktak5Cb2lES0U5eGY3UTdObG1pamVxYkwxbW4yVW1oUXN6d2RzS2d1Q1I4S21VelFjODZnZUZNS0RrOTY1NEJFWG9JTHZRWXY3SDJRUVNqQzF4QWVIOEFHRTNUaUVPTUNJb3dwOU9Tam1rN0dFRW5sMTBaYlVBTkpwZy14bjJVc0xmWTgzZ2E2czVRMUd5bEE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Al Jazeera",
+      "headlineJa": "トランプ、習、プーチンが中国で初の3者会談を開催へ - アルジャジーラ"
+    },
+    {
+      "articleId": "gnews_c34212eb36febac2",
+      "headline": "7岁娃读绘本献爱心，这场公益嘉年华有点暖 - 京报网",
+      "headlineTranslated": "A 7-year-old reads picture books to raise funds for charity; this heartwarming charity carnival - Beijing News Network",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T04:41:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE14czFSTE15enk0S01TZEZ3dVVYU0cya3hUSVZfS2lKaXBRbGNuWUpnU1hyVm91dVJ0d1BNTURJaHRReGNXbVYtdWw2WFM1V0ZsVzRzdUhZVlYwb09zajJZVWRLWGxLbk8wLUtjMFQ2MTRsUQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "京报网",
+      "headlineJa": "7歳の少女が絵本を読んで慈善活動のための資金を集める。心温まるチャリティーカーニバル - 北京ニュースネットワーク"
+    },
+    {
+      "articleId": "gnews_bccda69218029125",
+      "headline": "Collaborative Governance Drives Low-Carbon Farm Machinery Adoption in China Simulation Study - Bioengineer.org",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T04:13:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUzlpY0swVTNDX0QyUkx5QnN4eEtxWG9rVG1zRENvNWZKWkNmQ1ZlUzhURTlBd3ltYnlLR2FzZ05ZVVo0b21XUzk5dDc4ckxpV3NRRlJLclBCQ0pBejNyRU00Qm5BUExORW5iSjhfdW5BNjlmM2hsRGtvSERibUVRak5fMzF5eVRaekhKdnVDS0t4ZlIzX1ZEZDJYTTNMbkVHQ3NkdzBOV0ZmSkpTX2RMMlRPQXd0SENO?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bioengineer.org",
+      "headlineJa": "協調的ガバナンスが中国における低炭素農業機械の導入を促進するシミュレーション研究 - Bioengineer.org"
+    },
+    {
+      "articleId": "gnews_8ce5cd1f8f6a7811",
+      "headline": "Trump to meet with Putin and Xi in China, with nuclear proliferation on the agenda - Deccan Herald",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T04:10:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHNxY2R4M3BsWkZhUnptSWthaDZGd0hHNnZSa0hWbFAzY0JVYUhsQnViMjQ1UFhBLWl2Qk0yOC1uNFhvTDRyeFdocURwMXdZZkQwTnplLVFnXzJvUzV4X0s1elh2WGR5MkRwSFB5ZTc1eU9ucG1zMTI3ZklDbkNES1AzblotaWdYX0hKN2lvYnItRVg4MjN4VEdLQ2RLc2xyVEZ1QjhyeDNUUHZXVmFnWlpBTGtsb1FtUktmVWdybGF6dw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Deccan Herald",
+      "headlineJa": "トランプ大統領、中国でプーチン大統領、習国家主席と会談へ　核拡散問題が議題に - デカン・ヘラルド"
+    },
+    {
+      "articleId": "gnews_fdaf4aaf005ef34c",
+      "headline": "Trump to meet with Putin and Xi in China next week, US officials say - ABC News - Breaking News, Latest News and Videos",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T04:01:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNm15SWM2empiOXZGQ3B2dzhqclI5dHNFNU1iSnpKa2dwRkJnLTlTMHZmWHlWQnJCeWtBYnYxLU9pNmNRSzhHR0hSMFZfYzUzOS1oQ0V5eXdUQWUwRFBFMkoxeUY4VnJxSlJNN2tKc2VRbDVsMEJ1UEYxWFhmbnQwUVpqVXlVcGM1a1Qzc1dobUM5SWdNeHfSAZsBQVVfeXFMUG9rMFdQa0lNWHV2MkVISlBWbktMZURzRjZfRl90MXBNTHduS0ZHemtvWl9qdjFUYWhEeXpoSlJpZGlMZXRJbTZxdmdUd0h4YlZnTy1jOFpJeU1LTmNHNmdBMUFJSEJrakhVTTNyNERfdVF5S0NzU3NxQkhqUVZ6WjFSR1ByZmxtY2Zvdkh1dFNUNzJTb3BnemxHUWM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ABC News - Breaking News, Latest News and Videos",
+      "headlineJa": "トランプ大統領、来週中国でプーチン大統領と習国家主席と会談へ、米当局者発表 - ABCニュース - 速報、最新ニュース、動画"
+    },
+    {
+      "articleId": "gnews_e66165e198219a7b",
+      "headline": "Three men, three agendas: Trump, Putin and Xi will meet in China - Los Angeles Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T03:51:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanN5X2o4SWhhMnE1dVlwQVhXLVhrN1poS3dscUR2Um1EaWZqWW9KU1ZDNEtnVGRhMUZmMG5wQndoeFBlNXlPSW5jSWZXekhyclpURW1iLVM3ajhBWkZGQUJ4STBIMEdYbHdaXzZ4em16NDBkbGxZSTlhbHdyTExNaVZITGc5T0xVMXNleXFwdlhHY1dRTEdMSU13VXRRbV9oQk8xdTFMTzQ5Rm5SbEdYcmZ1cFA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Los Angeles Times",
+      "headlineJa": "3人の男、3つの議題：トランプ、プーチン、習が中国で会談へ - ロサンゼルス・タイムズ"
+    },
+    {
+      "articleId": "gnews_c98b41d10ffc48f0",
+      "headline": "Trump to Meet Putin and Xi in China, But Won’t Discuss Russia’s War in Ukraine, White House Says - Kyiv Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T03:31:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzOTAzRmdMbjRoLUJ2LTJmRUIyblJyVUtfMWdQMHVqbjVUdFA4bEZQLUxlSjQtUmdJald6c1k1NmJmQ0NaQ1IwLVUzWQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Kyiv Post",
+      "headlineJa": "トランプ大統領、中国でプーチン大統領と習国家主席と会談へ、しかしロシアのウクライナ侵攻については協議しない見込み - キエフ・ポスト"
+    },
+    {
+      "articleId": "gnews_b4131f9e134c1294",
+      "headline": "登革热、气候与极端天气研究的全球失衡：基于文献计量学的疾病负担与气候驱动媒介适生性对齐分析 - 生物通",
+      "headlineTranslated": "Global Imbalance in Dengue Fever, Climate, and Extreme Weather Research: A Bibliometric Alignment Analysis of Disease Burden and Climate-Driven Vector Adaptability - Bioon",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T03:29:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwNnc3T2E5a2NOemlEdUZweXVYRVo2c0xvN0hLeXV1WkxEZndQLU9fT2FRYXJZZWYyWG9VV1FSSHVxay1zNnVBSUJ0MWRxWndyZk5nYVV1bmJjenNOZmk4RFN3QWtfNWJRZlRWRTJ3?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "生物通",
+      "headlineJa": "デング熱、気候、異常気象研究における世界的な不均衡：疾病負担と気候変動による媒介生物の適応性に関する書誌計量学的分析 - Bioon"
+    },
+    {
+      "articleId": "gnews_fc164b0a700e0cfe",
+      "headline": "中国2023–2025年乙型肝炎病毒母婴传播阻断效果及其相关因素：一项全国性横断面研究 - 生物通",
+      "headlineTranslated": "The Effectiveness of Mother-to-Child Transmission Intervention of Hepatitis B Virus in China, 2023–2025 and Related Factors: A Nationwide Cross-sectional Study - Bioon",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T03:29:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ObWhoSks4TUJoSWZXZlhONzR3RU1KN18yeXU1QWhPSUFVYTdmMFFPWmZJWElpeWh2MnhjQzBURFdkVUo4RHhSRXZKeGxmSTlEMndTQngzdUU0amNhV0hMSDEwRE5GNUtoQmc0TWhB?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Hepatitis"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "生物通",
+      "headlineJa": "中国におけるB型肝炎ウイルスの母子感染対策の効果、2023年～2025年および関連要因：全国横断研究 - Bioon"
+    },
+    {
+      "articleId": "gnews_5e1f221264766c2c",
+      "headline": "后疫情时代澳门流感传播机制与人群易感性及环境驱动因素研究 - 生物通",
+      "headlineTranslated": "A Study on Influenza Transmission Mechanisms, Population Susceptibility, and Environmental Driving Factors in Macao in the Post-Pandemic Era - Bioon",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T03:29:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMeFI5cUVXYWFzSUJwRm9ZT19NeDh4dXJ1UFllX2RuT3lEUjZsZWtHbnJhZWRpUnljc1VocjBxUlUyOEVIRW1zZHVpNnBXR0tKZDlraVRNclE3eGp3LVVKTi1UVUxvSnZMOFdCYURn?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "澳门特别行政区"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "生物通",
+      "headlineJa": "パンデミック後のマカオにおけるインフルエンザの伝播メカニズム、人口感受性、および環境要因に関する研究 - Bioon"
+    },
+    {
+      "articleId": "gnews_7b21fc199a53830f",
+      "headline": "Trump, Putin, Xi to Hold Historic Trilateral Meeting in China - Ratopati",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T03:27:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRk9vTzhDWURSYlM5cDQ3OGM0NUN4aVY1ejNIRy1mWENadGlPdUgxaG1ZanhLbzdKTkFDYm9KTDMwemJMdVNvS3BHVlMzRl9FUHgxdks5bnN3S3BmSE5XNV9uZjRoMUJfUXMzUUhqcDJmQi1yUDBnYVZLYkxXeEpyYVFTcW1rVnVtbFZZU2c0UUxiSGZkLWIxSzVlaVAzNlB1ZEhoeVVEOTRrZGxrOFQzc3VsU1piT3MxX0dxU2xWSklNSFl2czQ2TnNyd1FTRUJWNWc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Ratopati",
+      "headlineJa": "トランプ、プーチン、習が中国で歴史的な三者会談を開催へ - ラトパティ"
+    },
+    {
+      "articleId": "gnews_ede3b66ed08c45b8",
+      "headline": "Trump to hold unprecedented trilateral meeting with Xi, Putin in China - 毎日新聞",
+      "headlineTranslated": "Trump to hold unprecedented trilateral meeting with Xi, Putin in China - Daily News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T03:01:09+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hZzFnRkRiTERlYjFja2NiNzVNeUZKYmZjRDNvUUVjallGb1JJVjViSy1ja2UxeUIwdTZ6amhhaFByRWdGYTNXQ1RZWVNSZ3BLS1U0cGtOeW12UElkS0hHcV9xcWRCcmJsX3VMQm05LUVuTXM?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "毎日新聞",
+      "headlineJa": "トランプ大統領、中国で習近平国家主席、プーチン大統領と前例のない三者会談を開催へ - デイリーニュース"
+    },
+    {
+      "articleId": "gnews_5dc55291ef04a089",
+      "headline": "Trump to meet with Xi, Putin November 19 in China for talks - Moneycontrol.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T02:58:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRkpfXzV3YlduVzhzTHBtb0ZmR3hBY3hBTnNRZGY2UWQ5TXczXzBlZ2FVbnJlb0R4UEhTNmhsSUdTZUtfX0ZrNmlRdVNVNS1NSUZISFVpdEgyQTNRS014dU1QMzczVkROZUVBSE1fS2FERnJsc2dFeU5BN0NmbFVnQ3NUc1NQWW1wQml1MERmZmptcnNUWDZDWlZMSnJ1TmlBYmlhbUpLd2l3djB1dVlRTzhpN2FqZ9IBuwFBVV95cUxNZlJGdjRvVnBHMTExeUtUYXVadDBsMkdwRU5sQjdjZGU4a3RIV2Q2eXZTX3NyUVpfNzBLQWc1Z3VfTXhHYXlWNDFXQkZOVWx4cGVaWmtzeFBXTGY4bEU3cmdHNXF1V3hQcEhITHppODFwWkVZV2VOSXEtREdLOEF3Q1BZbnVaUmlOamtTcGQ3Z0RqZGwwcGhHcE5NcnptOEFqRFVtd1NTTVlmN1hHZWtfSnQ5SS0tZzB3dWxr?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Moneycontrol.com",
+      "headlineJa": "トランプ大統領、11月19日に中国で習近平国家主席、プーチン大統領と会談へ - Moneycontrol.com"
+    },
+    {
+      "articleId": "gnews_651eda1716e187c3",
+      "headline": "My China Story | Being a content creator in China as a foreigner - CGTN",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T02:50:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc2JCaWhrWVlTa29QanVtVWRvUFg0aWpMOVpIYlVoRkx3RkstQkdTMXM5Ykw5UHU0SVRDRXJid1JnSkplV21qaWJmYWphMkNpLXR2SHpBTlB0OXRMbS1FMGEyZnk1a3pQYWNudFRxTnRBcGtzbTJTMkNGakpOTS1BdkdYSkRCSEwwd2NxREh4XzFrNDdQRmpsck5zc2dsdjd6a2hjMTRtSU8wNVRNNTFNU2NHMHJFNnNKNG4w?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CGTN",
+      "headlineJa": "私の中国体験記｜外国人として中国でコンテンツクリエイターとして活動する - CGTN"
+    },
+    {
+      "articleId": "gnews_f2cecbe3f61e032c",
+      "headline": "Industry Report Reveals Top Ten Flight Case Manufacturers in China - Carroll County Mirror-Democrat",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T02:40:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWkYxcldVOExzYTY5R183MnRJc01naFdWY2ZpYTBKUXQ2RWcyMDdwQmxTc1doS2NCX29rMi1DcTY5S0dsLVBHazEtakllM3JRcS02MVZvbUlrZjFoOXBhRG00OGN0X2lCclBYWDdyYVNMVHJ6UlIzUXZSLVdILWEtNDh3RW43eEgzSmlxdnFvR1dCclk5ek4yOGJLbVlZb01FRUlmY1dVUEFNSlBaSkpmNkxPNFBWYm8?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Carroll County Mirror-Democrat",
+      "headlineJa": "業界レポートが中国のフライトケースメーカー上位10社を明らかに - キャロル郡ミラー・デモクラット紙"
+    },
+    {
+      "articleId": "gnews_27789fce795123bd",
+      "headline": "日本政府拟大幅增加防卫费引批评：扩军备武换不来安全 - 中国新闻网",
+      "headlineTranslated": "Japan's proposed significant increase in defense spending draws criticism: Armed forces cannot buy security - China News Network",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T02:33:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LX0I2cThlcEhxYmRidWhnUXBJZXpBUnR0c2plQWhHbHc1MHlBbWl2b2RIczRNVUd3cHVwaFV4UzNvak5lcGhwTVhnSGI0d1B1NEVyT2hMNmZRVHV1QTYtMThJUnhveDdj?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "中国新闻网",
+      "headlineJa": "日本の防衛費の大幅増額案に批判の声：軍隊は安全保障を買えない ― 中国新聞網"
+    },
+    {
+      "articleId": "gnews_2bade5c41a6e08a5",
+      "headline": "PM asks lawmakers to advance Nepal’s interest in China ties - The Kathmandu Post",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T01:47:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRUJfRWJBeF9OQTRIMmlPNkdPbjZfUlJjVm5WUTd2aE4tZXk0SmE2NDd3UVlnRTJUeDR3TFJiVXFhTTFPYkxwV2pNdkt6ZU8xOUpWeEZiMEk0ZFE2SEZQdk1zM2F2WXRMVU5WZFF5UFRDbV9uUkx2cjZwaWI0ZXBvN2hPSWlFX0JPX0tRTVR3cEUwclRkWlpha0g1S2c1R2QtNGxPY01YTTc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Kathmandu Post",
+      "headlineJa": "首相、中国との関係強化を通じてネパールの国益を促進するよう議員らに要請 - カトマンズ・ポスト"
+    },
+    {
+      "articleId": "gnews_d570aa72ab4ab15b",
+      "headline": "Trump, Xi and Putin plan unprecedented joint meeting on sidelines of APEC in China: officials - The Hindu",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T01:47:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWEQ5Q1VoVkdRb01adXJnWXVmNG5oaFl4SjJobDdyVVFaUV9YN1NXSEE3RlhvV3FnMGU4SDR4cllQTEpBM3FUX1pqNUZUOHJOOVBVTWhDQzJUUkk3VllqdG5NVUlQeVB6VU9rT3FaSDRud2xFMUNpRjZSdHR1bUJPWDFPd3NXMmlWOUtyVVlmQWk2eTZueThxNGZ6OWZRTWR5TUx0b3NfcFhwVVduaHRoZWR6bk9uYlp6YzNkX19iOHBwMGhvcVJlTW1pT3VQc3lsNFHSAdgBQVVfeXFMUG5mTEtnOGtRVjBKZGhucERSQmdvdFVxd1hQR1JMVjlXd1lsN0gzdEhnbkdTTjExQVhpZUpQYkFxRkt6aWFkS051V2h3ZkFqMktidTAtTWQ0Z3lqWVF3d3gxZ25xZVZfcEZLbXp0VHZnaktNUWZoVGRlUnd6djhEOTMteW9sU2ZYY0tFeTl6TlRnV3VkUjU3b1A1S0hVVUtZTUxIMnM5OXJxLUl1UWRXRDZXMktOZlc4b05ON1RoVHVyWHQxRk4tSGNQUEo1aWVBd3dOcF9DUVEz?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Hindu",
+      "headlineJa": "トランプ、習、プーチンが中国で開催されるAPECの傍らで前例のない合同会談を計画：関係者情報 - ザ・ヒンドゥー紙"
+    },
+    {
+      "articleId": "gnews_8dcaceb6d6e206eb",
+      "headline": "Trump, Xi, Putin to hold first ever three-way meeting in China - TRT World",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T01:44:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HaTlTRzRPLWd4Q1JBWW1lRnVYLXhrYXJMYzExdHNLSHowUTl2b3JhVFljVTAwamlQeVlrazNWZzhTWUY3bUNiajZNM3JRZzdkTEdielV5ZHQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TRT World",
+      "headlineJa": "トランプ、習、プーチン、中国で史上初の3者会談へ - TRTワールド"
+    },
+    {
+      "articleId": "gnews_fb6f59533431b78f",
+      "headline": "Trump, Xi and Putin to meet in China next week - RTE.ie",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T01:42:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlZkZhb1VuNmRmT2ZQZ3BZR1NxcHZNRl9xRzkwQmhJdkt0cy1JYVowbjBuTllrQTFHMFJZWWtCWE03d3BnUUNTOHpMemZUazRtZkRwWXVJQjgyNWFscEp3TUxvVmZtSzRLRW05M3VmcVk?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RTE.ie",
+      "headlineJa": "トランプ氏、習氏、プーチン氏が来週中国で会談へ - RTE.ie"
+    },
+    {
+      "articleId": "gnews_647acc1137f514e7",
+      "headline": "(LEAD) Trump to meet Xi, Putin in China next week; no plans for N. Korea engagement: reports - Yonhap News Agency",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T01:30:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jRGE3Zzh3aTlhSE1lM1M2cEJJdXJEbk16eGRxLWE1TmtTQjUwcmMyc3I5WjNGYXpaYnltbDNKb2c3VlozaUZERFhndE5DM0xLZlN6MGp4dFdQdw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Yonhap News Agency",
+      "headlineJa": "（速報）トランプ大統領、来週中国で習国家主席、プーチン大統領と会談へ。北朝鮮との会談予定なし：報道 - 聯合ニュース"
+    },
+    {
+      "articleId": "gnews_0b7d7e821b425bb5",
+      "headline": "Trump to Meet With Xi, Putin Nov. 19 in China, White House Says - Bloomberg.com",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T01:19:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREM3N2pHRGZ1V1lCTk9qVDVjaURLQTNKaEFsUEtUVEFpOGUzd1BKaXJxbzZOaVVVN1pkOUdLWnVhMmZRR0N2UUFJYU5SNFRWUWRsbm5SQWlEU0E0Q0lhWmJ5R3A5c3VBVnNmeW9CNzlmYkI5Vzlza2Q2Wk1ybVBXWUcwU2ZoSmhBY0sxTTFMcmhrM2RoT2g2N3dmV3V4OXU2bE1TcUY3S0VuWm9FbGh2Vw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bloomberg.com",
+      "headlineJa": "トランプ大統領、11月19日に中国で習近平国家主席、プーチン大統領と会談へ - ブルームバーグ"
+    },
+    {
+      "articleId": "gnews_6c017fcc1f37bfe6",
+      "headline": "Trump, Xi, Putin to hold historic meeting in China: White House - CNA",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T01:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMjNNcU54dTROa2dtaG5fVGZwa2JoNTB0Tk41ckFTUDlCUzI1YncxZFFzVHBjVkpsMzVlSlUteGJWb19EN20yeUowNENOQzNLTVZwMXF1X0RwUm02TF8xdHRmenF3ZTBXdTh5VHctVHNQTGhERU9NZkpGY2J5aW9Kd2JFam1sM29Qdk8xTGZpOWM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "CNA",
+      "headlineJa": "トランプ大統領、習国家主席、プーチン大統領が中国で歴史的な会談を開催へ：ホワイトハウス - CNA"
+    },
+    {
+      "articleId": "gnews_444525b9294b4886",
+      "headline": "Trump to meet with Xi, Putin on Nov 19 in China for talks - The Business Times",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T00:59:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOFMwbHNFSEIwbzB2MGNZS1RiVkl1OXA4Tlh4MmQtNVRrRFdpTUxzc2w1aEhMSTgzV3BVYlFrbmVpMU9XUWlGSzZFa3BRZHZObUk1SmVsVnN4NzZfYXBORlFKeEVlOUZDV3dGYTdGR3NvcjNEY09DN29ZUW5ZQ2wtc3Flc2FmMm9hcV9FYVRn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Business Times",
+      "headlineJa": "トランプ大統領、11月19日に中国で習近平国家主席、プーチン大統領と会談へ - ザ・ビジネス・タイムズ"
+    },
     {
       "articleId": "gnews_bc4ec095f38c31a4",
       "headline": "Exclusive | Trump will have historic meeting with Xi, Putin in China to talk nuclear arms control - New York Post",
@@ -63,13 +1618,13 @@
       "headlineJa": "独占記事｜トランプ大統領、中国で習近平国家主席、プーチン大統領と歴史的な会談を行い、核軍備管理について協議へ - ニューヨーク・ポスト"
     },
     {
-      "articleId": "gnews_0993be52c4093fd2",
-      "headline": "Trump, Xi, Putin to hold historic meeting in China: White House - The Daily Star",
+      "articleId": "gnews_e16ef3c69cf7dffc",
+      "headline": "Trump to meet Xi, Putin in China next week; no plans for N. Korea engagement: reports - Yonhap News Agency",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:51:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVXdVaV9rTWtVb0psTUxlN1ZjaHh3TmpobzlfaFV5azB4UjhOcTRtLUViclR3VmxwTE51V1VBN3ZwNzd4VFVyUVZEQXZORXpfXzY5VzNJVXJaZUl3WS1PNlRUMTE1OXZhUTA5dkd5NS1tOW45M3ItVWxFOXZkNFdjbEhsa1cwRUpXb2c4eFh0bUpvUlhybEE3QW1Jd2ZXdEpTUkFjVlJWc2R6SDA?oc=5",
+      "publishedTimestamp": "2026-11-14T00:50:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53a0ZLanNXaWd3SnQyR1pTdWZLV281bXZFdmI2UjljTG9hazZ4MXZNd3VoeFNqa09LQ1VGSk9nckJfc1lZcm5fRmFRckd1a2JWem9LeXM0N0xxUQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -79,28 +1634,8 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Daily Star",
-      "headlineJa": "トランプ大統領、習国家主席、プーチン大統領が中国で歴史的な会談を開催へ：ホワイトハウス発表 - ザ・デイリー・スター"
-    },
-    {
-      "articleId": "gnews_5b851f105e7faf2f",
-      "headline": "Autism Caregivers in China Experience Uneven Growth Alongside Persistent Worries - Bioengineer.org",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:47:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTno3S2NmYkZ3YlpyVG9PaDJVVjNodkRrcWFJV0NuYXMyNko1VThGRHlXaDY2VjJuUFVrWlJWQ3IwSEtzT250ZHV4UzZoNXItTGx3TDRhWno2LVV4d28tOVNZdVlGUlJGQTBLTE1FTXd6YTBUSDl3UkVKWlJtZEVtb3FOTUEtSHpic2ZMbzVLUmkyX3JHM1RHVDBkNGVwSUExOFYwZ0Y2cVM?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bioengineer.org",
-      "headlineJa": "中国の自閉症介護者は、成長の不均衡と根強い不安を経験する - Bioengineer.org"
+      "sourceName": "Yonhap News Agency",
+      "headlineJa": "トランプ大統領、来週中国で習国家主席、プーチン大統領と会談へ。北朝鮮との協議は予定なしとの報道 - 聯合ニュース"
     },
     {
       "articleId": "gnews_6a2373c26cbfccc0",
@@ -123,32 +1658,12 @@
       "headlineJa": "トランプ大統領、中国で習国家主席とプーチン大統領と会談へ - ザ・テレグラフ"
     },
     {
-      "articleId": "gnews_3b410c3b3deb144b",
-      "headline": "Trump, Xi, Putin Set For Historic Meet in China, Nuclear Arms and Iran On Agenda - Times Now",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:38:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGpFbkFNenBZN1VCbFhUcTlZem9HTGZrRmxNMnBwWjdkTjdRSWQ0ZTRkOFBkbTdGenVBSWJ6VzRGbzZTaVFjQ1V1VmJQUFJRc19QZTA4bjlpTlFwbVFQNnI0NGo2Yzl6RWhDWGhoSHlCSGQ1dE4zMk9wdWRaM0NNUUI3N1AyVGlRVUZpQUN6ZkpzWE1rZXo0WXp4TE9zUmlwRmotakxWaHFsNkNvekxLZHhaLXZHVElPYU5tUVZDS0JQUnJCdU1LOXV30gHPAUFVX3lxTE9yMTlKUXllcFFYY1R2MUlXWFVKWVN1cFRPTmpNRkU0ZmNxb0dZMW9tclQ1ellQYVpvSmtwUjJBT2Z2QWRaRl9RNTlwdVVVblk0RThSV1d2cmlvSFJDaGRxUVpFeERjaTZwaEFYZ1Q5VjV1WHFuSWtMLWdpN2NtV0lUb1RETXBEZlh4dUlrR0dGa2ZzMDJXOTdYdC1pa0NxOHI1T3JJQ0Fmc2pTc1BkWUYyeUVmT0p1Q2QwRjN0R3Vubnd4X1dyS2hYSlB2R21wSQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Times Now",
-      "headlineJa": "トランプ、習、プーチンが中国で歴史的な会談へ、核兵器とイラン問題が議題に - タイムズ・ナウ"
-    },
-    {
       "articleId": "gnews_5bb1cb279649dd97",
       "headline": "Trump to hold trilateral talks with Xi, Putin in China next week: White House - Anadolu Ajansı",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:33:45+00:00",
+      "publishedTimestamp": "2026-11-14T00:34:38+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbnJ1LTB6VU5Dak9qWFZUMmVPemh3ckZFQWsyZ0xzSjBMaW02bEFOaFFaQzBvQkNLQ3hwd2k1aWZKQXhuZmhoSGhiMmxnUlItX0F6WXAteG82U0ZoVmhNWTdyczRtRGJrNWR4T01PSHBJQ0h3MTV4ejkyRDVqM09RNU9SY3UwUktKMjA1TW1iMkItOGZtd1pvRHJBUGdIdm5EUWpmdnJqdVdxdEVMREhJNUQ5WnRXTGdP?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
@@ -161,6 +1676,26 @@
       "dataSource": "Google News",
       "sourceName": "Anadolu Ajansı",
       "headlineJa": "トランプ大統領、来週中国で習、プーチン大統領と三者会談へ：ホワイトハウス - アナドル通信"
+    },
+    {
+      "articleId": "gnews_d960f91183765332",
+      "headline": "Investing In China? Not All China Funds Give You The Same Exposure - DollarsAndSense.sg",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-14T00:32:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUHhha21hTVBRak9wTGV2T19qZURjNGJucHJxVWdodzdOOFBleF9VZkVOall0b2gtU0NVLTZJTnk1QkFsTjFRbndUQ284VnZUZkV5OS1jYXpyNFpfYUhZV24yT3NncVhGamJyZ2NOUUQyYXBVbUYwM3VwSkRVeWRuOHBzRDFlUlF1NUtMUEhNYlNFZG02NnVzRQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "DollarsAndSense.sg",
+      "headlineJa": "中国への投資をお考えですか？すべての中国ファンドが同じ投資機会を提供するわけではありません - DollarsAndSense.sg"
     },
     {
       "articleId": "gnews_63b203709ff8aad4",
@@ -180,7 +1715,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "阿波罗新闻网",
-      "headlineJa": "犯罪を助長！妻と義母を負傷させた山西省の男、逮捕されず釈放後に妻を絞殺 - アポロニュースネットワーク"
+      "headlineJa": "犯罪を助長！妻と義母に怪我を負わせた山西省の男、逮捕されず釈放後に妻を絞殺 - アポロニュースネットワーク"
     },
     {
       "articleId": "gnews_cd023e31e0ff2f77",
@@ -203,8 +1738,8 @@
       "headlineJa": "トランプ、習、プーチンが中国で前例のない三者会談へ - タイムズ・オブ・インディア"
     },
     {
-      "articleId": "gnews_394941e7bf34efe0",
-      "headline": "Trump to meet Putin and Xi in China, White House says - Reuters",
+      "articleId": "gnews_e6fd726527e6c58e",
+      "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
@@ -220,16 +1755,16 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Reuters",
-      "headlineJa": "トランプ大統領、中国でプーチン大統領と習国家主席と会談へ - ホワイトハウス発表 - ロイター"
+      "headlineJa": "ホワイトハウスによると、トランプ大統領は木曜日にプーチン大統領と習近平国家主席と会談し、核兵器削減問題を議題に挙げる予定だ。"
     },
     {
-      "articleId": "gnews_92e0d3d8d87095c5",
-      "headline": "Trump doesn’t plan to discuss Ukraine with Xi and Putin in China but will talk about Iran war, US official says - Arab News",
+      "articleId": "gnews_e15264d3de409c13",
+      "headline": "Trump, Putin and Xi will meet in China to discuss nuclear arms control – NYP - Українська правда",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:16:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT2lVby1sUDgxNXZXcm0zc29WUTBzNWlLaXFEZ0NZenp3Ml9xTmVvOXJsVzJ4aTdZejBSeU1PcHhMNlZrU09hMUF0dlB2aVFtYWNoNFpqVkM3YU51SWp0dmM4ZlN1NGY2cjNoOWNtcVVybU1hRkduMklRekFzcURvWlZGdGd5VHEtRGFmbHFiMGRGN2JQWVJ0RmhKZGVVNUI1Y3QtWE9IMTJsRTZ5eG1malc4czQ2andCMklBRWNhTExBeWtyajI1Z1hnM0N3WS1teXNqdlUydzliUndUeDdBZjFn?oc=5",
+      "publishedTimestamp": "2026-11-14T00:20:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KQ3lMOE51R3ZpdW12cG5fU3F0REYzMjdpWnpZdy1HQ21UTkJhVVllWElXUGZzc0FQRnltMVVIMWxnY1RjUGZ2dkxfUHpyeVlYWXVveVdKT1NURDFDbkZXRVM1dGHSAXBBVV95cUxPdW1kSzBHTHlTV3RpRnowb3U3V3NKdEVmU0N6cDNRNWdoazNYN0tkNmptTF9zMFBLOUJqTm5qdWhUY2JCNUxIS2d3alB6ZmVyODBvSXA2ekVRczJ4RGJxOURKRHNWTnViTTItY0RGOXRP?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -239,77 +1774,17 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Arab News",
-      "headlineJa": "トランプ大統領は中国で習国家主席やプーチン大統領とウクライナ問題について話し合う予定はないが、イラン戦争については話し合う予定だと米当局者が語る - アラブニュース"
+      "sourceName": "Українська правда",
+      "headlineJa": "トランプ、プーチン、習主席、核軍備管理協議のため中国で会談へ – NYP – Українська правда"
     },
     {
-      "articleId": "gnews_fc164b0a700e0cfe",
-      "headline": "中国2023–2025年乙型肝炎病毒母婴传播阻断效果及其相关因素：一项全国性横断面研究 - 生物通",
-      "headlineTranslated": "The Effectiveness of Mother-to-Child Transmission Intervention of Hepatitis B Virus in China, 2023–2025 and Related Factors: A Nationwide Cross-sectional Study - Bioon",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:11:19+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ObWhoSks4TUJoSWZXZlhONzR3RU1KN18yeXU1QWhPSUFVYTdmMFFPWmZJWElpeWh2MnhjQzBURFdkVUo4RHhSRXZKeGxmSTlEMndTQngzdUU0amNhV0hMSDEwRE5GNUtoQmc0TWhB?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Hepatitis"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "生物通",
-      "headlineJa": "中国におけるB型肝炎ウイルスの母子感染対策の効果、2023年～2025年および関連要因：全国横断研究 - Bioon"
-    },
-    {
-      "articleId": "gnews_b4131f9e134c1294",
-      "headline": "登革热、气候与极端天气研究的全球失衡：基于文献计量学的疾病负担与气候驱动媒介适生性对齐分析 - 生物通",
-      "headlineTranslated": "Global Imbalance in Dengue Fever, Climate, and Extreme Weather Research: A Bibliometric Alignment Analysis of Disease Burden and Climate-Driven Vector Adaptability - Bioon",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:07:46+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwNnc3T2E5a2NOemlEdUZweXVYRVo2c0xvN0hLeXV1WkxEZndQLU9fT2FRYXJZZWYyWG9VV1FSSHVxay1zNnVBSUJ0MWRxWndyZk5nYVV1bmJjenNOZmk4RFN3QWtfNWJRZlRWRTJ3?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "生物通",
-      "headlineJa": "デング熱、気候、異常気象研究における世界的な不均衡：疾病負担と気候変動による媒介生物の適応性に関する書誌計量学的分析 - Bioon"
-    },
-    {
-      "articleId": "gnews_5e1f221264766c2c",
-      "headline": "后疫情时代澳门流感传播机制与人群易感性及环境驱动因素研究 - 生物通",
-      "headlineTranslated": "A Study on Influenza Transmission Mechanisms, Population Susceptibility, and Environmental Driving Factors in Macao in the Post-Pandemic Era - Bioon",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-14T00:07:45+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMeFI5cUVXYWFzSUJwRm9ZT19NeDh4dXJ1UFllX2RuT3lEUjZsZWtHbnJhZWRpUnljc1VocjBxUlUyOEVIRW1zZHVpNnBXR0tKZDlraVRNclE3eGp3LVVKTi1UVUxvSnZMOFdCYURn?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "澳门特别行政区"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "生物通",
-      "headlineJa": "パンデミック後のマカオにおけるインフルエンザの伝播メカニズム、人口感受性、および環境要因に関する研究 - Bioon"
-    },
-    {
-      "articleId": "gnews_98479a5b15fc537a",
-      "headline": "BYD opens pre-orders in China for Tang from 225,000 yuan — Electrek - UA.NEWS",
+      "articleId": "gnews_25194d3f366d37ca",
+      "headline": "Trump to attend trilateral meeting with Xi, Putin in China, White House confirms - Washington Times",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T22:43:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLVA1TVk5ci1ZUzBkaDF1c3FNd3BsaHJNcUt6OVBjTTE2Tzl4c0RHNEY2V1RjUVdVVWxxZkRBa0xTZXJFeHFRb2ZsZ0xVR1UzVEtZQ1RMQ1k2ZkpkbDBnSEpGblRkSjl2NUJrZTJydFg4UWFIRnZ6YkFqRDdJakQ3cmVxQWthWmVUV2ZCRGVCTV9lbjVoejh5dHcwYlhrYWVlMUY5TXdzcDBHWUxDSC0w?oc=5",
+      "publishedTimestamp": "2026-11-14T00:11:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObXowdk1abmVZY0VDNnBtRkN6dWVjLVBWX21zZGQ0ZGFTLTh0QWZRbUY3SmRsMXBYWGIyQ182eUZ3X0xVaV9RY1BnYUwtRWpfRV9MOHFEbHoyZ0lQWDdGWUZqZVQtUklTaFo2QVNQaTZJb2h6Um92RG5hdlhRWWhpYUdPSUxyQVlucmVDN2ZUNy1LWGN3blcxeXpBY0FaUHBtZ2FPMHI1LXpDXzJPdzJYV3YyUEhndVAy?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -319,28 +1794,88 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "UA.NEWS",
-      "headlineJa": "BYD、中国でTangの予約販売を開始（価格22万5000元～）— Electrek - UA.NEWS"
+      "sourceName": "Washington Times",
+      "headlineJa": "トランプ大統領、中国で習、プーチンとの三者会談に出席へ、ホワイトハウスが確認 - ワシントン・タイムズ"
     },
     {
-      "articleId": "gnews_0d15b8063379f826",
-      "headline": "湖北前省委书记王忠林被查！新冠期间空降武汉任“一把手” - 新西兰中文先驱网",
-      "headlineTranslated": "Former Hubei Provincial Party Secretary Wang Zhonglin under investigation! Appointed as top official in Wuhan during the COVID-19 pandemic - New Zealand Chinese Herald",
+      "articleId": "gnews_16cf84ad279d7b33",
+      "headline": "BREAKING NEWS: Trump to attend trilateral meeting in China with Xi, Putin: U.S. official - Japan Wire by Kyodo News",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T22:32:43+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tMGVFSWF5NFZPMXNabGduSDk0bVZxVWlJTGlQXzRSVmlTV0tLV2lxRm5lUEQwU1dsTkt2X0ZMbmFhY05yYnRyNTR6ZVY4YklGYzM1anRzNFhTeDVubzVwTmM3YUZ4SXZjQ0ZaR25aeVViSzZJYlo0N2dwSmFWUQ?oc=5",
-      "originalLanguage": "CHINESE",
+      "publishedTimestamp": "2026-11-13T23:57:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2OEZqZlhHbXBKMnhpd1g0Rm1RVHlWeERzVkRIMjluRkE1MkotWHFtSlp5M2JGUEtUYUMwRFdNOTFXZVFmenhRYXdyeUhNWnFIWEtNOE5tN2ZqUQ?oc=5",
+      "originalLanguage": "ENGLISH",
       "diseases": [
-        "COVID-19"
+        "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
-        "湖北省"
+        "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "新西兰中文先驱网",
-      "headlineJa": "湖北省元党委員会書記の王忠林氏が捜査対象に！新型コロナウイルス感染症流行中に武漢市の最高責任者に任命されていた - ニュージーランド・チャイニーズ・ヘラルド"
+      "sourceName": "Japan Wire by Kyodo News",
+      "headlineJa": "速報：トランプ大統領、習、プーチンとの三者会談に出席へ：米当局者 - 共同通信ジャパンワイヤー"
+    },
+    {
+      "articleId": "gnews_fbb530f3922adc68",
+      "headline": "Trump, Xi, Putin To Hold Historic Meeting In China Next Week - NDTV",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-13T23:52:40+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU2tpVU9FRHhSU1JjcDJuckRUTUFIWnBPTHRlUUlwTGdyMDlpX2V6YnZid2taUnAwa3dzak9MNGhod2ppQU9fYWtzSVpLVVFkY000eGROU0pGX21NQnNURGw5YzNKclRuVEJoUWZ2U2x2RmVJSWJSS09VZ1VheFFibTF0TGhCMlQtZXRlRmlIdS1CWnN0QVFDWFk2Vi1CbUxOSDdvQWE5a0xvd3JETW1yVkYxWkMtUG42LUt2Y0hR0gHGAUFVX3lxTFB0ZUM5ejdQeGl3RFJ0R25WWXBrdFlCeklRcGJmbWFkeGpYLTVRazZ2WHVoai1tSXZfLUpXSHpnMnFqQ2JMRFJzUEZGdWQzanpPS0lJa1hjZ0tJMkVYdWRwYWs4VmhxM2lWYXhZdVdZQmU3cmZ4QWtOZ3BjQWdxTEllM0ZEUGxEZkhpcGtrUEF5bEc3YUpWQ2pvS2YyeHZwRXJiTzlIdTdxcVlJRU5KQnIyeGg2aVk5TGdfamV6Um5xTkN5djNwZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NDTV",
+      "headlineJa": "トランプ、習、プーチンが来週中国で歴史的な会談を開催へ - NDTV"
+    },
+    {
+      "articleId": "gnews_25796543c6da97ee",
+      "headline": "Drone coffee delivery takes off in China - WKOW",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-13T23:18:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd1hvQndONGotWDQxbndfLWlnaW1FclV3TzJuTjRyUVBNeVpNbXRsUlN4SUVnSkJoNlNjd2VSWXhEcFozLTUxYXctSDZ2SFVXUXBJcU5kX2pVTDJ5TFhOTzRtVFA0eU9ueUpURVNTdW1hZVRpTlJYNldqS2RqNTVtZmJmc2dSeGQ5b3ZGSEt2QndGMWdvTnREOVpkZlZ4MzRxZTNYQWxIQk1yckNlWU9HMlF0bDdMXzQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "WKOW",
+      "headlineJa": "中国でドローンによるコーヒー配達が本格化 - WKOW"
+    },
+    {
+      "articleId": "gnews_b2e998d49912b59c",
+      "headline": "李燕銘：王忠林落馬內幕解析 七大看點 - 大紀元",
+      "headlineTranslated": "Li Yanming: Analysis of the Inside Story of Wang Zhonglin's Downfall - Seven Key Points - The Epoch Times",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-13T23:17:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rRi1rQU1na2QtLU9abG1sNzdnajJlODd2R1JxN0ZTbmxKRG92RUh5eEJrTEdoOHJ3UzZleUdaUmdpckY0X1Z0YzhUeE84TXNqM0ZXaDlOTDhDSE5pa291SVJR0gFnQVVfeXFMTzREd1FCNWIyN3h1S3F3OFJBQjZLemZNWkc0TDJpTURKU2RyU3Uzbm42MGlBaTA5dndJYUQ0dnp4OW52VG9JWEEzYXJiWkxMYUxXRGZ0TnZ5R3R3eWZZOWctcE1pdDVXQQ?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "大紀元",
+      "headlineJa": "李延明：王忠林失脚の内幕分析―7つの重要ポイント―エポックタイムズ"
     },
     {
       "articleId": "gnews_451535e4270eb99b",
@@ -363,34 +1898,14 @@
       "headlineJa": "パンデミック発生時に最高責任者として武漢に派遣された元湖北省知事の王忠林氏が捜査を受けている。 - https://haiwaiwai.com/"
     },
     {
-      "articleId": "gnews_f30cd84f503ff9bd",
-      "headline": "前湖北书记王忠林落马 传多名家人被带走 - Blogger.com",
-      "headlineTranslated": "Former Hubei Party Secretary Wang Zhonglin falls from grace; reports indicate several family members have been taken away - Blogger.com",
+      "articleId": "gnews_b9cd777e936163c4",
+      "headline": "王忠林突然落马！女儿被爆习明泽贴身警卫 - 万维读者网",
+      "headlineTranslated": "Wang Zhonglin's sudden downfall! His daughter revealed to be Xi Jinping's personal bodyguard - Wanwei Readers Network",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T21:26:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40MC1XVWVEMWtKWk96aHc5YkdmQy1wMWRPd2pRWUtpLU5lYld1YjU2dEw4WlBKTEJibC1HLVNSZGVjSGgtVzFOMlY3SGc0M1FmV0pqVDFneDdrNDBpU19DcmZYaTdDSEV6WU1FZ0ZsQkc?oc=5",
+      "publishedTimestamp": "2026-11-13T20:52:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PRWtmdElyYThJVXFDQzUzOGRCOFdLRnJqYzd4blZFUEJteG9qSjlnR01YRDlCaUhwY05TQ1pFWHVnYUNjWG52WEwtckFvOUpmWGc?oc=5",
       "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "湖北省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Blogger.com",
-      "headlineJa": "湖北省元党書記の王忠林氏が失脚。家族数名が連行されたとの報道 - Blogger.com"
-    },
-    {
-      "articleId": "gnews_2573fcea77c4467b",
-      "headline": "Chemiluminescence Immunoassay Kits Market in China: Size, Trends and Forecast to 2035 - IndexBox",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T20:57:46+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeHZsbkVNak01OXJ4Z25oMDdvbU53ckE2aTNQS1hXYUhIZlhKMkNyNktpdXNNd0p1N3FxTmpyaXhUbkh1M2tDYUlHUDk1MXNnMFVWRHFHaUdvaHBQYnQ0R0ljRXBIRnVCWE90V2FBQUI2T2toejlTQ1M1Smt1Mm5iNnZlU2VzNTZSRnh6bE4xVmMzX1lRT01GcVcxYUtfa01CRkUyR0tLb2w3cUNKbjA3Qzl4WnJRRC15T2Q4SDBn?oc=5",
-      "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
@@ -399,28 +1914,8 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "IndexBox",
-      "headlineJa": "中国における化学発光免疫測定キット市場：規模、動向、2035年までの予測 - IndexBox"
-    },
-    {
-      "articleId": "gnews_6864cf9463693a61",
-      "headline": "新冠疫情 : 王忠林被查 新冠期间空降武汉任\"一把手\" - 加西网",
-      "headlineTranslated": "COVID-19 Pandemic: Wang Zhonglin Under Investigation; Appointed Top Official in Wuhan During the Pandemic - Westca.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T20:39:39+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPTklCT2VGQ1VkWjlVMUlkc1J5VTlEbXFxVFJPUGs2ZlE4OE5TendZckt2MFVGRzJUakx0Nk9zcjBfY2tfVm9qY0xYNDdsbHBtM1lub2txcWtBZHpzTHhXYXZPcWEtUzk5YURlUEZQcjRRcDdkNWxzTWhOVWVoZ1BPZUlCQkp2YW1TdTdWQ0gyMVlTcjdiSGt6d0oyOVAzLVlnSWo1YnJNdnpvYW9ibGVBaFB5VU05eVVQdGUzS3hCNlM4ekV4R0RsQ3pIWUd2ckRkTlZTVnEtOEVUdGRodXZhSWw3Q1pXeUNXVEJkczVadm1QQ1JQdk93bHo3SjJsOTktWF8tT04yWnJvYk5HcUlybEFyME8xWHJPMHozcmZLOV9fV1JJT1YzYnhkd2xWaVkzb1VRVmhNUGR5UTR3OW9ZWTZ1SQ?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "湖北省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "加西网",
-      "headlineJa": "新型コロナウイルス感染症パンデミック：王忠林氏が捜査対象に。パンデミック発生時に武漢市の最高責任者に任命されていた - Westca.com"
+      "sourceName": "万维读者网",
+      "headlineJa": "王忠林の突然の失脚！彼の娘が習近平の個人ボディーガードだったことが判明 - 万威読者ネットワーク"
     },
     {
       "articleId": "gnews_b36e3b9071adbcaa",
@@ -440,27 +1935,27 @@
       ],
       "dataSource": "Google News",
       "sourceName": "文学城",
-      "headlineJa": "パンデミック発生時に武漢に派遣され、最高責任者を務めた王忠林氏は、調査を受けた後、解任された。 - 文学都市"
+      "headlineJa": "パンデミック発生時に「最高指導者」として武漢に派遣された王忠林氏は、調査の結果、解任された。―文学都市"
     },
     {
-      "articleId": "gnews_c21f37fc13f0b11e",
-      "headline": "一、王忠林突然落马！ 女儿被爆习明泽贴身警卫 - 万维视频",
-      "headlineTranslated": "I. Wang Zhonglin's Sudden Fall from Grace! His Daughter Reportedly Xi Jinping's Personal Bodyguard - Wanwei Video",
+      "articleId": "gnews_0e0ea1c7e4acc4e9",
+      "headline": "Hong Kong's nature reserve tests positive for highly pathogenic H5 avian flu virus - Anadolu Ajansı",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T19:53:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CZ2tIdlRLWVRpR09XclYxNHJ3YTRxMTVKVzRLQlI4ZVR5bFAyQkgwV09zR2wzTXhVWExkUDNzMVBPU0FDRmtBcURtQkF6M0hnU1hzNUVUbC1mSndjVWFz?oc=5",
-      "originalLanguage": "CHINESE",
+      "publishedTimestamp": "2026-11-13T18:53:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ1pDWUdtQ1oyWFloTk96WTMzMDdIRU5Fb2VjRFl5bVdmdjJMR3Rha0loRnJRWDVxSXFNanI4TUd3U3NnSkF3Sklia2RMSVBPZ1VkUmk4N2k4VmlldE5HbGxCTHdZMWJoWmY0QTVZeUh4UFJEWDQ1YVR3bkhHYXlIYjFyN2Z0eTNDWFZZWDZGRHZ6VUEzZXVKbDA3MXhRbFUtdkt4UkVtekY4Q3JLbjVWS0w4MTRPZGdaUXdkdnZpLVdGY1h2UFE?oc=5",
+      "originalLanguage": "ENGLISH",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Influenza"
       ],
       "locations": [],
       "states": [
-        "中国 (省未特定)"
+        "香港特别行政区"
       ],
       "dataSource": "Google News",
-      "sourceName": "万维视频",
-      "headlineJa": "I. 王忠林の失脚！彼の娘は習近平の個人ボディーガードだったと報じられている - 万衛動画"
+      "sourceName": "Anadolu Ajansı",
+      "headlineJa": "香港の自然保護区で高病原性H5型鳥インフルエンザウイルスが陽性反応 - アナドル通信"
     },
     {
       "articleId": "gnews_244de2fead0176e2",
@@ -481,26 +1976,6 @@
       "dataSource": "Google News",
       "sourceName": "Benzinga",
       "headlineJa": "NVIDIA製チップを搭載したDell製サーバーが中国に渡った経緯とは？ - Benzinga"
-    },
-    {
-      "articleId": "gnews_74951fa024411c66",
-      "headline": "The Weeknd And Faye Wong Make History In China With “Hong Kong” - That Eric Alper",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T18:02:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbWtzalRGaEtFNU5TelJhemZ4OVZTZkRVUnBteUpoTy1mNm1kMVV2RDI4NXdPajVKaGVaNm1fbHJ2dnVOU3lZYmFxdFo3WV92cFllTWZXaVZTUHMwckgyUmd1S05Nb25XNmtXU3lWWmJoTEhnOXNPYk1wTzlzQ2ZaTUFqcTAyOVNiRXN6Vk9yTk9FNF9jRFhnTUpCWGI2S0xwYU10UVJ3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "香港特别行政区"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "That Eric Alper",
-      "headlineJa": "ザ・ウィークエンドとフェイ・ウォンが「香港」で中国で歴史を刻む - エリック・アルパー"
     },
     {
       "articleId": "gnews_58aa6aa4cc95cf31",
@@ -580,7 +2055,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "Yahoo Finance",
-      "headlineJa": "ジェンセン・フアンは、中国向け半導体販売75億ドルについてどれほど知っていたのか？ - Yahoo Finance"
+      "headlineJa": "ジェンセン・フアンは、中国向け75億ドル相当の半導体販売について、どれほど知っていたのか？ - Yahoo Finance"
     },
     {
       "articleId": "gnews_51800cf3f19d64a0",
@@ -603,6 +2078,26 @@
       "headlineJa": "独占記事：黄氏の退任と米国の監視強化により、Nvidiaに依存する30億ドル規模の中国AIプロジェクトが危機に瀕する - ロイター"
     },
     {
+      "articleId": "gnews_79ed2254eec5ad7f",
+      "headline": "Same metric, still a mess: The geoeconomics of youth unemployment in China - Atlantic Council",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-13T16:34:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN2lVM0xtZmZBcU9xZUZRWWxoZzJod0phQVIyVHlYdFpLYmFnY0JGNFUtLUJVVGduMlRGNEw5ZDNYbE92amlqRmFVZExYcGdPSWRZVGRxaGNKSzhrQ0ZTQ0h3ZWZpQ3MtbVlHRWVpLVJxWlZlUGhOMGdTUURKMnJYZHVreUJVUk5pb0x0N1RFUl80eWdWRElWSk9ZcElCRloyNlE5VWdqVWtiT0dheFFibThCVDh6V0JuOUN3cG9FaDBXaGM?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "中国 (省未特定)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Atlantic Council",
+      "headlineJa": "同じ指標でも依然として混乱状態：中国における若年失業の地政経済学 - アトランティック・カウンシル"
+    },
+    {
       "articleId": "gnews_eb7e0d02362ba52d",
       "headline": "VELOCIFERO Takes Action Against Counterfeiting in China - Business Wire",
       "headlineTranslated": "",
@@ -623,13 +2118,13 @@
       "headlineJa": "VELOCIFERO社、中国における偽造品対策に乗り出す - ビジネスワイヤ"
     },
     {
-      "articleId": "gnews_8e2a64dadc1ada91",
-      "headline": "Montrezl Harrell hated playing basketball in China - TalkBasket.net",
+      "articleId": "gnews_d3b9166545e11437",
+      "headline": "Robert R. Redfield: The FDA needs stable leadership - Antigo Daily Journal",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T16:27:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVGNENVFhOF9seE80dllEUERfejBDWWZ2MEdmaFNXcWQzcS1wTXZTemJjVjktMkt5WDBLcXJyOU9DalVrN2RIdDc3M0ZKR3FDOURqMnR0MXF4d0QzTTYzZkdwbjFxeWtjVXdvR0lwd3c4UVI1MnVYY3VJN0FKc1RxUUZuNUU5c2lRcmZFRg?oc=5",
+      "publishedTimestamp": "2026-11-13T16:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMENfakR5STRpdFl0TzBvNVg0S09mZHhiV1lsLVYyREN2UnpRWFAtQm1KRWFMWXIzakZRMS1MVFMzR2VqejNTMnFHOHU5b05fcGhRTi1WdUo2Mno2LWlhOGlrdGQ5MjRyV3Q5ZHctejlKaFJ0dWdJcTdsd2ZNWnB4YkVwd2hNQUp5VkoweXBBOWZGYlpwZmJScUJ2R1ZUdXZmVWNkeFd2UXA3TnhrRjl5Sldud1dPS0RDN1Q5UGJQSnRfTEtkSUVxRkxfb1pfNVhUUjhj?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -639,57 +2134,17 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "TalkBasket.net",
-      "headlineJa": "モントレズル・ハレルは中国でバスケットボールをプレーするのが大嫌いだった - TalkBasket.net"
+      "sourceName": "Antigo Daily Journal",
+      "headlineJa": "ロバート・R・レッドフィールド氏：FDAには安定したリーダーシップが必要だ - アンティゴ・デイリー・ジャーナル"
     },
     {
-      "articleId": "gnews_fdbacd5aaa648e55",
-      "headline": "Largest cruise ship built in China completes first trial voyage - Nation Thailand",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T16:26:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyUzdzenVaRENiWHAyMUFFNWxxLW5XQzJ0bWl2MDRFUWVrSTdwNlBYSTRTVXNrakNBUVlQeWJ0QkU4WEFHQ0JDelBxVnJIaDZQSEZWU2JNLTRxbUJtNWx3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Nation Thailand",
-      "headlineJa": "中国で建造された最大級のクルーズ船が初の試験航海を完了 - ネーション・タイランド"
-    },
-    {
-      "articleId": "gnews_736d9e3f52c6996f",
-      "headline": "王忠林落马 新冠期间空降武汉“一把手” - DW.com",
-      "headlineTranslated": "Wang Zhonglin Falls from Grace: Appointed Top Official in Wuhan During the COVID-19 Pandemic - DW.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T16:22:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNdnV5VURsR0wtWlY0c2FrVGVWdVJhT0RZbFNBRFZVSENvX0dwUDQxdGVtWHQxbXhIRHJqcUdYcGRoZWZMSlE2dG9rRUI3bndHV0NtNk9YUi1iSzRIdUdraU9HREgzeXVJbTdEckNjUHBFT093ZkoyWGVoQlA3RkU2dzA2NFZpSl91azg5N0d4RVRwV1Q2bGgxRkdOc05fQnFEbHBxNl90X2FlNlFFNDBtbDhWVG1aRHluaW9zZlF0WUVzT0ExRmJzT19XOW1yeVdNSFV3Q1k2aUhfdmhiQXpabnNLbV92cTVYelVDRGIwTF9GV055ckR1aTk5b2tqZ2VHMUpSQXhuX0tuTFN1N0tQcDdLTV8wLXdOdVdqdWo2N2VhN2E4RkRRbVRJaWw0VnJwc0piZ1ZGdDI2UdIBugJBVV95cUxPYnZFamNXRHNMdUF6dzZ4WXREUzViY1FiNzh2bGUtZ0p4UjI0c1dlX2NRcTVOVUFNYlBMNG5XWi1WalRFOEFLY3ZOdV8zcC0zWDMwRWxrUkpqUUVHWUxmeHI2bG1wUDRtUTh6Wk9uNGRWZEFFNGQ4ZHpBQTNzZ0w3US1VX2FxWlAxQkdJZ1Q4MVMtNEF5UUkwbUdETHZZUkJKbUpFdEszRmFKNEJSS3NlQmV2SnpoS1JmZ1UtdEJmbzhEWHNGR0dfV3AzejcwOEM4WXJBLXlmbm5lN1NMeDJpX2RPbWxGTDVnVkx6bi1VVG83NUotQTdfaTk4LUtJbHlweWp3TWQ4aW02amVxQl9OMFFURGxRYjVEQ29KWkFaZHc5MEtSaFg5eU12MTJyR3Vjc0Y0Q0lIOGVrUQ?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "湖北省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DW.com",
-      "headlineJa": "王忠林氏失脚：新型コロナウイルス感染症流行中に武漢の最高責任者に任命 - DW.com"
-    },
-    {
-      "articleId": "gnews_18f9d1cd524de644",
+      "articleId": "gnews_3baa7afe63814e2c",
       "headline": "官宣：原湖北书记王忠林落马 多住所被查抄 - 万维读者网",
       "headlineTranslated": "Official Announcement: Former Hubei Party Secretary Wang Zhonglin Falls from Grace; Multiple Residences Searched - Wanwei Readers Network",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T15:40:13+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kTVJpSGhha185UVJyOEJvNGhiWkJadlAwVF9zblRDZkZRTnAzUTVBNlFyS3FWckw5TVU5Slk5OUYyeDVleExKSmtHangya0haVW0yZUM5S0tWRVZfRkJzbGdveTNIdw?oc=5",
+      "publishedTimestamp": "2026-11-13T15:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QaWowTDhiVkI2Q2Y3MElfMmVZY3dMOEtFMzYtWkNDRVNZS2hTZ3lYLXF6MUh1NERCekY0UjhoaXdBcS1vSWRMQ0hIbmxySXRIQlE?oc=5",
       "originalLanguage": "CHINESE",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -743,26 +2198,6 @@
       "headlineJa": "抗ウイルス薬耐性が出現。感染患者の生存が困難になることを研究者らが懸念 - アポロニュースネットワーク"
     },
     {
-      "articleId": "gnews_783d56fc8ce22064",
-      "headline": "Aion i60 debuts in Indonesia after 100,000 sales in China - Automotive World",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T13:43:49+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdjJDbTFSQWRSN1gyRURRa0xZVGJIZUoyTmxJc3VneWRUOFktcW9KRlFxdDV5M2c1eWNldmhqYXVEMS1vNTVVcW5vZldsa0h4eG9tUTZHNDNYVEFZMThDZ1JsQ0hkcm9QcDJkUHlrczRNMVlDeFhSUGI1UnEwY3dPUmdLakZTTTBWQnBkaTNhZHdNOU5sTHltTXBR?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Automotive World",
-      "headlineJa": "Aion i60、中国での販売台数10万台を突破しインドネシアでデビュー - Automotive World"
-    },
-    {
       "articleId": "gnews_43915d71832161ba",
       "headline": "日本出现本禽流感季第二起高致病性禽流感疫情 - 中国新闻网",
       "headlineTranslated": "Japan reports second outbreak of highly pathogenic avian influenza this season - China News Network",
@@ -772,8 +2207,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hTnFJNk9xT0pBU1NVUzByalNLQ2NkM3J5dDhreVJQNlc2WDMxUzRUS1AtekFnZkgtNnJXblM5MFZqM3hCWDNCWUgtVkQ3d2xlMXMxWlB1dHhOYno5YWFoVWstMXBSN0Nh?oc=5",
       "originalLanguage": "CHINESE",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -784,24 +2219,24 @@
       "headlineJa": "日本で今シーズン2度目の高病原性鳥インフルエンザの発生が報告される - 中国新聞網"
     },
     {
-      "articleId": "gnews_b01542bef25b5892",
-      "headline": "Kenyan Entrepreneurs Eye Big Gains in China’s Emerging Markets - Business Today Kenya",
-      "headlineTranslated": "",
+      "articleId": "gnews_ca2ce5b02417b4ab",
+      "headline": "原湖北书记王忠林落马 传妻儿、前女婿都被带走(图) - 官吏 - (移动版) - 看中国网",
+      "headlineTranslated": "Former Hubei Party Secretary Wang Zhonglin Falls from Grace; Rumors Circulate that Wife, Children, and Former Son-in-Law Were Taken Away (Photo) - Officials - (Mobile Version) - Vision Times",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T13:30:54+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYnNpRVg2QXNXNktaNWVXV0pWX1VWU1lIUFpONENwS0tOYmlpNXVZRHE1OTR6YVBzVUczSnpRXzFFLU5iSmpKamRiaF9JdzFlVW0taWtjX1lrMGc4cUtTSk9Nak1rLWx1NzRkX1pNMGJ1WnZiZ1MzeVZBeVRjSHd3R0sxM0dJMFFRbldmZXRmZG9BZnc5?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-11-13T13:39:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1aLW1wSnNFQUhZbmJIaHhITGVUVENnNVVLaHMwUVg1aUN3VDg3MG56SkVuTTlnM0hmT1JyQ3J0RmhlXzlGRU9TY2hGWnB5OUJBT2I3NEc1QmctREZRY3Q3UVZpWGkwc0JQWWZ3?oc=5",
+      "originalLanguage": "CHINESE",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
-        "中国 (省未特定)"
+        "湖北省"
       ],
       "dataSource": "Google News",
-      "sourceName": "Business Today Kenya",
-      "headlineJa": "ケニアの起業家たちが中国の新興市場で大きな利益を狙う - ビジネス・トゥデイ・ケニア"
+      "sourceName": "看中国网",
+      "headlineJa": "湖北省元党書記の王忠林氏が失脚。妻、子供、元婿が連れ去られたとの噂が流れる（写真） - 当局 - （モバイル版） - Vision Times"
     },
     {
       "articleId": "gnews_4b9afac0327ba5a5",
@@ -824,25 +2259,24 @@
       "headlineJa": "複数のウイルスが中国で同時発生。当局は複雑な株の存在を認める。高リスクグループは注意が必要 - NTDテレビ"
     },
     {
-      "articleId": "gnews_1b2292a39762ee65",
-      "headline": "Nature reserve samples test positive for ‘highly pathogenic’ bird flu virus - South China Morning Post",
+      "articleId": "gnews_e6770d5ef3fbfa50",
+      "headline": "Animal cafes and exotic pet trade bring wildlife disease risks into public spaces - news - Mongabay",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T13:21:51+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTmNiQWtiQ21CQTFlM094SkQ1d1ZCZnVnSVF1U2dOSUU4Tm8teHRyNnk5c0IwcGVLMF9UcjdqX2pVYkh2Q2g1RmNPcmVlUFVyRHNfVklaTlpYVFNwUXlqc3N4bWYtaE1jN0lzSVRSazhuWmVoY1VBWWd0dy1VcnRrbU4yUm5NWlctTTFGckM5c0Jpcl9VaTF2SUh4NEZpQ3p3ZllUQzlMcHJOREV6TEJoQ2ZtZHgwemZCdlcyTS1DYk5ta2xiSEVkRjYtc0dYbWZVbjdFenc1Yl9lbDYxSUNkYy15bFDSAeQBQVVfeXFMTlJ5MWJQSjY0Z0dJMUNJZjVoNU5DbzkxWmp5b2t1ZGVvczE1UFhqeHpJNWFxeVlOWUk0UEtrZXg4cUIydGdGdlVkWVNzZWlzLXUyVzFMT0lBWEN2enRlbWpQNjVETzJ1bVQxRWtUY3hCY0MtcTFVSjd2MnhfV3dDNUtRME9ZTE5FTFZhUVM2NUNvSjRaZFNaLThkSkVKYzRtMGpJYnZLQmpDeW1uLWhCWkRUZUFSeTdzUGxrT2VQWHBCYUZ1UVpGdWNqZjVOSEIwWTNCVmFKTjNpYUJqczRteDFpay1j?oc=5",
+      "publishedTimestamp": "2026-11-13T13:15:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcmpJZ2RLemRJV19xU2h0dTB2V2FFSVExVnZCRG5IMHVPZ1ZpTmswbmxtNk9tdzBteDAtbjl4cGRpWnVMWHJPc05QSEhBVWRacWdpVU9lTS1mRGJ3eVJiZHNWUE5aenEwSU1IWm1QUmx5aHRvSHVOSEFWWkl0R3prdWhkX0NtZEo3b09QVFlySHd5S0lGZ3RLeVpqcnY5UDllSkNnNWRXZXQ3MzNZREtRbXRmN3ZEcGPSAbwBQVVfeXFMTXRET1poVzlYcUFCU05waXhoZ2JiZGxEaFRzaVgxWmpQYVczWDVYcHRfYllyR3dvN284UWFZYWZZU05meG56Y3hhbTlselBWYVk0UFBWOGNiOEZqaXBfaUFmUEhUcFJxWHRPZjVLbWplV1RpVkhwaW9KQlZEalpoaHo0SzZOMDlQSmlPb0JoV0ZRTS1pRGlSQ2RVNTMzaHNjY1dxNUJBcHVBRDBneVZ5QjVWeEhvWFh5LXlJTHQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "South China Morning Post",
-      "headlineJa": "自然保護区のサンプルから「高病原性」鳥インフルエンザウイルスが陽性反応 - サウスチャイナ・モーニング・ポスト"
+      "sourceName": "news - Mongabay",
+      "headlineJa": "動物カフェやエキゾチックペット取引が野生動物の疾病リスクを公共空間にもたらす - ニュース - Mongabay"
     },
     {
       "articleId": "gnews_5a14726598ac0cae",
@@ -854,8 +2288,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR0MzTjdMaHFfekstSHphMGRScXgwVVhkcFNfQ0lsX0xvenk5S3lvNU84ZUZRcVp2b1pvRHpDLUZzMW9HdkI5LW1QVXJBcExBVkZyNUtMc3J6NDZPdXpTYmo0eHhMSjBWY3VNODhkeUVndlBDMzFRTTZQVXdXVE9zSFVjaEZISWFCNWZVN2pGZ3NUbkhZNHE1emgzVHNCVDRLTmthSDQ5cGxUcVNOTU56V0lsYkZOelcyNlRWQmZhdlo?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -864,26 +2298,6 @@
       "dataSource": "Google News",
       "sourceName": "The Standard (HK)",
       "headlineJa": "香港、鳥インフルエンザ発生を受け京都府産家禽の輸入を停止 - ザ・スタンダード（香港）"
-    },
-    {
-      "articleId": "gnews_c317fad08ec63062",
-      "headline": "Nissan opens pre-sales for NX7, fourth N-series model in China, as it speeds up NEV roll-out - CnEVPost",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T12:25:06+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BU0pDalhoWmF3RXRsSWMzaDFBcjFNT0JhcUE3X0xwMkFiRFo4OERNaDhOcFJmbVl0aEY0S1FjTUpUTXhKazVwMmkxUURJaU9meXVVYTVIYTFGRE1qdDhaaWtrdWR0dHhxMEhSVlEyYXgydzA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CnEVPost",
-      "headlineJa": "日産、中国でNシリーズ4番目のモデルとなるNX7の先行販売を開始、新エネルギー車の展開を加速 - CnEVPost"
     },
     {
       "articleId": "gnews_fec4e1aeef0528c1",
@@ -926,13 +2340,13 @@
       "headlineJa": "元省党委員会書記の王忠林氏が捜査対象に。同氏は新型コロナウイルス感染症パンデミック初期に武漢の責任者を務めていた。- on.cc EastNet"
     },
     {
-      "articleId": "gnews_afcf31c97fe5fb97",
-      "headline": "Nissan opens pre-sales for NX7 PHEV in China with 320 km EV range and 1,666 km combined - CarNewsChina.com",
+      "articleId": "gnews_9c566096f91d877c",
+      "headline": "LEO Pharma announces NMPA-approval of Anzupgo® (delgocitinib) cream for patients with moderate to severe chronic hand eczema (CHE) in China - BioSpace",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T11:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNVZzZk5GVWVMcHhsZkJQdzlQLXd1b0tKYUN0bEZGOTNOMHh4c29wWmtaUHJGMVV4RlpRZ0FiTVhYbVlwbjViSU1oZ1ZTYWF1NVFwdmxuOXpFa19Ed3h5d25vYld6cU9wQVB4RFFXQ2V6eWdoQTJIeWFMLW9JeGtDMGtWcDNIUWxrQWlHUnNjejc5T1h4dW5ZRzJidDd4RHNmcjZIRGJ3VXBMc3hCMW9JcElYTUJYbGZPTjM4?oc=5",
+      "publishedTimestamp": "2026-11-13T11:55:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYS1BZTUzYWQzVHk2cjE4RWhaQzhHYkJXcDZJTHdJUHRsSmJfWGVfTWJDcUNWa3h3TlZsZkQxV0RycEFRMmxmd3BfUEV5VjFzZnFkNkNEQnM2MTNLeU9Kb3dSQkdRZ1k1NjFlRk5fUzZBdzFIY09ac3Y3UWhJNExiTlF2cmxSWlBlNmdDQjNoRldNVzJWbkZsdE00S3p5SXg3Yy1xLXc5UURIdXYwWXAzN2ZjX09SMVByM0ZhWVZVTjBlWGU4ci1HQWlBcXppNXlYMFNSUFBGZEI5NUxIcElIdVV3cWJCcVJMNHlka0g5UzVOMkozRjUwLVJfTW5YeXlOUmFHZA?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
@@ -942,8 +2356,8 @@
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "CarNewsChina.com",
-      "headlineJa": "日産、中国でNX7 PHEVの先行販売を開始。EV走行距離320km、複合走行距離1,666km - CarNewsChina.com"
+      "sourceName": "BioSpace",
+      "headlineJa": "LEO Pharma社、中等度から重度の慢性手湿疹（CHE）患者向けクリーム「Anzupgo®（デルゴシチニブ）」の中国におけるNMPA承認を発表 - BioSpace"
     },
     {
       "articleId": "gnews_40cf8f7012e097dc",
@@ -986,26 +2400,6 @@
       "headlineJa": "インフルエンザシーズン到来！国家衛生健康委員会は毎年インフルエンザワクチンの接種を推奨。抗ウイルス薬はワクチンに代わるものではない。 - Sohu"
     },
     {
-      "articleId": "gnews_7f727d97ca3381d4",
-      "headline": "Post-Pandemic Immunity Debt Reshaped Urban Influenza Transmission Dynamics, Study Finds - Bioengineer.org",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T10:35:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUpBR3Z3eFF6aXhWdjc1b2dLdjBOWmltTnVDQmcyNmlnQ1NlTG9Ycy1SRXNmWWp0VVZnZkw1cnVvYXdLNzZRSm5VazZIb0pCaGtKUnAwYmQtcVB0NDJPekFIWDU0SUhjTGVBMU1teTlsY1VFdzFUcUNKUVNwc1dSMjZkaUJwaXpBQl9uUmdwUEFzYjBoT2Z2Y0VjalNCUkdvcjAwYm03blExbUJuTEVQTQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bioengineer.org",
-      "headlineJa": "パンデミック後の免疫負債が都市部におけるインフルエンザ感染動態を変化させた、と研究で判明 - Bioengineer.org"
-    },
-    {
       "articleId": "gnews_b12db96afcefb634",
       "headline": "中国公民尽快撤离！我使馆重要提醒 - 上观新闻",
       "headlineTranslated": "Chinese citizens, evacuate immediately! Important reminder from our embassy - Shangguan News",
@@ -1024,46 +2418,6 @@
       "dataSource": "Google News",
       "sourceName": "上观新闻",
       "headlineJa": "中国国民の皆様、直ちに避難してください！大使館からの重要なお知らせ - 上官ニュース"
-    },
-    {
-      "articleId": "gnews_edf4fd927aa323e2",
-      "headline": "中国疾病预防控制中心研究员：流感抗病毒药物须遵医嘱规范使用，不能自行服药预防 - Sohu",
-      "headlineTranslated": "Researcher at the Chinese Center for Disease Control and Prevention: Antiviral drugs for influenza must be used according to a doctor's prescription; self-medication for prevention is not recommended. - Sohu",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T10:17:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUFnbUlpZlhHRWRQc2RIc0dQVmlUck5QTTFoUi1uem9aUlB4UnZLSnR5Vl9pcW1qWlZmUDBvUVIxa0N2aGhPWXdxdkVsRjNTRklaUTdZOEpfQ2F1OTZpVjdJUUJ5SUwySTlocmFlRWtnbTBHcWZLVi1yNHhaRi1xVEVGZ2VnXzJpa05FQktDcw?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sohu",
-      "headlineJa": "中国疾病予防管理センターの研究員：インフルエンザの抗ウイルス薬は医師の処方箋に従って使用しなければならず、予防のための自己投薬は推奨されない。 - Sohu"
-    },
-    {
-      "articleId": "gnews_364025065e5f9152",
-      "headline": "Jensen Huang scandal: Alice Huang-founded firm obtained restricted Nvidia chips in China - Nairametrics",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T10:13:22+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSU5XdzhnRVFBMnMwa1dTTFhLZnBwR2ZZLUh4elJTSWtsRlRTeTlrSEhieVFlamNYWFd3bHk1UnJzT19rMzQ0X3NTUUhISlQxU3Y3SDNWakE2TWkxRU5Jb2JjR2lVZG93TFhBWG5oRWdNREFMakdOWGJXZHdRQU9yUHl2NkVqNnhlZ2cwMFFja09kN3RJZlJnX2IzeGFuak13RldJakVjUnpCdU1YeW45YXZTRjJsSFdSMExpZXdLZWVLUQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Nairametrics",
-      "headlineJa": "ジェンセン・フアンのスキャンダル：アリス・フアンが設立した企業が中国で規制対象のNvidia製チップを入手 - Nairametrics"
     },
     {
       "articleId": "gnews_4a6a7628f1123de5",
@@ -1087,26 +2441,6 @@
       "headlineJa": "山東省の末端警察官から武漢市の「防疫担当書記」へ：湖北省元党委員会書記の王忠林氏が捜査対象に - 財新"
     },
     {
-      "articleId": "gnews_cef42789f2de8644",
-      "headline": "郑州日产这设计，像极了日本乡下路上跑着的老车|郑州日产|日本日产|Frontier|NV200_新浪新闻 - 新浪网",
-      "headlineTranslated": "Zhengzhou Nissan's design is strikingly similar to the old cars that run on rural roads in Japan | Zhengzhou Nissan | Nissan Japan | Frontier | NV200 - Sina News - Sina.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T09:11:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BWmJHOUdKS3FjN0FFSGZfQ2dxb3dHcnJfbzVMTVVMS3NCNGVNSFNUYVdObmZuT0ZXSjgtUm9TNG9HWnVxb3gxRHpQXzFjSnVoWDYwajBxRVJRWjliODBXcTBMOA?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "河南省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "新浪网",
-      "headlineJa": "鄭州日産のデザインは、日本の田舎道を走る古い車に驚くほど似ている | 鄭州日産 | 日産ジャパン | フロンティア | NV200 - Sina News - Sina.com"
-    },
-    {
       "articleId": "gnews_b62b196a50bb5794",
       "headline": "流感季如何做好防护？重点人群优先接种疫苗，外卖小哥等切勿带病上岗 - Sohu",
       "headlineTranslated": "How to protect yourself during flu season? Prioritize vaccination for key groups; delivery drivers and others should not work while sick - Sohu",
@@ -1125,46 +2459,6 @@
       "dataSource": "Google News",
       "sourceName": "Sohu",
       "headlineJa": "インフルエンザ流行期に身を守るには？主要グループへのワクチン接種を優先。配達員などは体調不良の時は働かない方が良い - Sohu"
-    },
-    {
-      "articleId": "gnews_6a3ba95ac00f8639",
-      "headline": "6th Annual Symposium on Pop Culture and International Law: Between Official Narratives and Popular Imagination - International Law in China’s New Mainstream Films - Opinio Juris",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T09:04:47+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMm5jTW5SOG1DeFdMQzZxeEs5bVdkRWd5blZXUTVLN21COGpQMW9GNF9JX0RMaWZHVHhMTk1vaHJiYUNCZmJCc0M1MTBNMnhSbmlwS0hoZFFRRDVfam1JUXpWNnhEeV9aT3JCREhEUW0wc0ZrTlc0cFpLUGxYRlFPZWpYRmRQanJ2ZENFRlhXeTN0N05OczRXcjAxWUFlNjdxMWlYQzlqQ2NyQUk3YU9Da2xtWFFic1NuRzJDMzFoclhSQW13ZnB1eTZLMVBrckJtTVE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Opinio Juris",
-      "headlineJa": "第6回ポップカルチャーと国際法に関する年次シンポジウム：公式の物語と大衆の想像力の間 ― 中国の新しい主流映画における国際法 ― オピニオ・ジュリス"
-    },
-    {
-      "articleId": "gnews_ec96ea71ff24dfbc",
-      "headline": "Huang exit and US scrutiny imperil US$3b in Chinese AI projects reliant on Nvidia - The Edge Malaysia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T08:35:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KRG0zdkZFbUpKUEk3YUdaMl9ScWdPSWdicWN4cmp4RkdLSXFIVnhOZjNIZjVKejNtel9YZWFOb2dETU1WYWtOdU9FLUFoZzFK?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Edge Malaysia",
-      "headlineJa": "黄氏の退任と米国の監視強化により、Nvidiaに依存する30億ドル規模の中国AIプロジェクトが危機に瀕する - The Edge Malaysia"
     },
     {
       "articleId": "gnews_62706494433b7f8b",
@@ -1207,47 +2501,6 @@
       "headlineJa": "マスクを着用してください！マスクを着用してください！3種類のウイルス株が同時に活動しています！陝西省疾病予防管理センターからの注意喚起 → - Sohu"
     },
     {
-      "articleId": "gnews_8590176461f8ae4d",
-      "headline": "Was Jensen Huang’s ‘spy’ girlfriend connected to Nvidia’s biggest rival in China? - Firstpost",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T07:17:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcUZ4bzZiVEdMdEo0N2lYYmtVb1d3YVZuMlJzT2NBYUV4UVktd0tVbWlUMXVFNFk0LU5TdGlnMUNub1NhXzJPbENud0FTREdoNFk4NEo2VkM3UVpQdXg3elJxeEs5ZElwWVI3NHh6b2g5LTZTZ3VEZ25JU3ZKZEVNNEdMUGF3cU5GSFdySWl4THEtLUJHZWkwRmh6b3NwalIwTGN4cU5IenhkLVg2dmhaRFZKMXVqMUN3UURpT2xpa1dXR09VcUHSAcsBQVVfeXFMTm1UU2pqSFhwcFhVUWhFMnByeEVfZFd0OXhaWk5oSElaRTNuM1VyZnNrX1ZiOG1JY1NTdEJsX0U0dVZKclRUek9fZ2UtWVBza1RLWFJHaWwxY1dGVWpXeDJMenl2RjFzeXVkNjY3Rms0TmVEMHc5TjdoOXpzUzhKcGxkMFJQN1ZWb3ZzbHdZaTlYSXFDOGdtNThkRHBKMm9ibUpXRFc5NHJVaG1iOGhPZ2hDUjBIelVrQkFSTy1JS29zV3hXYkpaRlhmOUE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Firstpost",
-      "headlineJa": "ジェンセン・フアンの「スパイ」ガールフレンドは、中国におけるNvidia最大のライバル企業と関係があったのか？ - Firstpost"
-    },
-    {
-      "articleId": "gnews_ef5923c3cdb57db9",
-      "headline": "日本出现本禽流感季第二起高致病性禽流感疫情 - 京报网",
-      "headlineTranslated": "Japan reports second outbreak of highly pathogenic avian influenza this season - Beijing News Network",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T07:11:35+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QYXN5YThIWDAxdE5DN3RDanZWYmVyU1JvN0x1TG8zQUlBSG9IQ1YzQ0U3MkJzZFVDbHJZbHgxekxfNjVSWHhxNXpKUWFRY2NmbThzMFNGaDQ1cmoyemc?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "京报网",
-      "headlineJa": "日本で今シーズン2度目の高病原性鳥インフルエンザの発生を確認 - 北京ニュースネットワーク"
-    },
-    {
       "articleId": "gnews_2eaa057199cf5562",
       "headline": "王忠林落马 新冠期间空降武汉“一把手” - 茉莉花新闻网",
       "headlineTranslated": "Wang Zhonglin Falls from Grace: The Man Who Was Parachuted into Wuhan as the Top Official During the COVID-19 Pandemic - Jasmine News Network",
@@ -1266,26 +2519,6 @@
       "dataSource": "Google News",
       "sourceName": "茉莉花新闻网",
       "headlineJa": "王忠林氏の失脚：新型コロナウイルス感染症パンデミックの最中に武漢に最高責任者として送り込まれた男 - ジャスミン・ニュース・ネットワーク"
-    },
-    {
-      "articleId": "gnews_a52af05de062b880",
-      "headline": "‘End of an era’: Jensen Huang’s abrupt exit stuns Nvidia’s China staff - South China Morning Post",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T07:00:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdWJ2ekFoM1Y3V1JFU3NXOUNUck5FSmtSTTRJc09lVFF3NFpabXF3YnNxbEIwZjdJblB6MlJQNnNzcnNiMGhzdUlQM1lEaGdISlVndlJ2aGRoYmctNEc0VFgxaS1sTExSZjJfRjVHTEJiNWI4YW5lTW94cGdBX04zNDFLNnVSZzZvNV8zTFZKRmF6NlJoVTNxQzlqd0c5NkhZNjBxU0FpNy01NldUM0h3eXAzaEtGaGxTNHo0ejVjRW5SQ1hpSzlzVEJB0gHKAUFVX3lxTE9TaDh2QU93NThoeWlzNFVwcktaeW5xVEk2VFZMTUpmZFg5UTVFQXd2YVRYb2M1cGd3MFBDV2RHa1RpblBXc3pOQkJvam1NTWk1S0VfaUVhVkRuaVpOLTR1N1RYTXR3Wmx0eGJ4UjAwTUF5d2NrOERDaGVZV2tzYnY3eFltd21mM2lWNktXQzJ1cHJPd1VQZS1ER0ZKejI4WkgtcTQ0QkhnMjNiTnAwRHVTazhsRFdLVUJ1RnhxcFo1Z0RrVElEYkVCeXc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "South China Morning Post",
-      "headlineJa": "「一つの時代の終わり」：ジェンセン・フアン氏の突然の退社にNvidiaの中国スタッフは衝撃を受ける - サウスチャイナ・モーニング・ポスト"
     },
     {
       "articleId": "gnews_467a13a787283285",
@@ -1326,86 +2559,6 @@
       "dataSource": "Google News",
       "sourceName": "手机搜狐网",
       "headlineJa": "中国疾病予防管理センター：3つの株が同時に流行！天津市が最新のインフルエンザ予測を発表！ - モバイルSohu.com"
-    },
-    {
-      "articleId": "gnews_52554badbcaf4a1c",
-      "headline": "“又是山东人”刷屏背后：凡人微光，如何彼此照亮？ - 凤凰网山东",
-      "headlineTranslated": "Behind the viral \"Another Shandong native\": How do ordinary people, like small lights, illuminate each other? - Phoenix Network Shandong",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T06:00:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5TdlJGYkhmM0szUjgwdlROTmsyeFY3N3VkVVkzOG9DelJsX0Rldk5ublhfVlplVDhXcG5oR194MURUTEhNdWVWWWpn?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "山东省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "凤凰网山东",
-      "headlineJa": "話題の「もう一人の山東出身者」の裏側：小さな光のように、普通の人々はどのように互いを照らし合うのか？ - フェニックスネットワーク山東"
-    },
-    {
-      "articleId": "gnews_828b0bff9ed14be5",
-      "headline": "Vietnam's top leader to attend APEC 2026 in China, assume 2027 host role - Báo VietNamNet",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T05:52:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXRyekgzSGRxWTlLSk51ZWkzYVRNS1pvekJNcmFNZG5qdmJJRVZfSURnUXRMY2ZyaTFkRFBZeGwtSnRTRHZhTC1sWjRQT3hySHlOTjE0LVVvaElkVEpWZXU4TGJXX2FxOGJ5VDlLZ2E2Ym90ZTNGaTI0QkdzUExOZ0kyaV8yRjJpdVNvQzdGU2lXbFVGWGF2bHBubVpZcmYzX3lCcTBDdnJUOGRzNUE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Báo VietNamNet",
-      "headlineJa": "ベトナムの最高指導者が2026年のAPEC中国会議に出席、2027年の議長国に就任へ - Báo VietNamNet"
-    },
-    {
-      "articleId": "gnews_fe56dc72fa718ec3",
-      "headline": "China Locks In Export Power by Equipping the World’s Factories - Bloomberg",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T05:37:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeUt6cWEzdzlQTHJDekd5U291dzc3cVhWdmY1STNSZE13LVRIaFkxNGpyb1M2Tk45VUk4dzJtOG5lQmVMQzNaeHM2eFF4eTlKTVRWNi1PTk9iWXdCMllUelZodDVFV251M05OQW81YVF0c3RRMWF2MWt0WWRCZG5oYmt4WGdpaWRBZjB3dW9NOGdjSDJIazJoTm5SWTR5N3FVTWNUbi1tQ2FuWEViYXhZSUpybw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bloomberg",
-      "headlineJa": "中国、世界の工場に設備投資することで輸出力を確保 - ブルームバーグ"
-    },
-    {
-      "articleId": "gnews_7203135654f8904f",
-      "headline": "Toyota rewires China supply chain to fight back in EV race - Nikkei Asia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T04:33:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRjlLSFpMbEw2RFNhTFlhejQ2SlRTOHdCeEc1UWJnS1Ytd1VQWi0tXzB4UDVqN2RVcjVSOEd6YUNWLWRlaWFxaWtmNXNJUjQxX19LMHlzNFFCaU1aVnVhdUhUMGg4aVlEd3lFdE5GN3VGRndNU0RrRXNicDZkM3BRYnNWMDlZMHl2NXBydklBemZvV0w1a2VVb09LMURWdDBBOVFSU0ZB?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Nikkei Asia",
-      "headlineJa": "トヨタ、EV競争で巻き返しを図るため中国のサプライチェーンを再構築 - 日経アジア"
     },
     {
       "articleId": "gnews_9861f77ec2cf3ca0",
@@ -1468,24 +2621,24 @@
       "headlineJa": "上海交通大学、科学+1！人間の免疫システムの隠れた能力が中国の科学者によって再定義される！ - 医薬品"
     },
     {
-      "articleId": "gnews_34c25e67f4b25738",
-      "headline": "八省（区）林业有害生物联防联治工作会议在福建将乐举行 - Sohu",
-      "headlineTranslated": "A joint prevention and control conference on forestry pests from eight provinces (regions) was held in Jianle, Fujian. - Sohu",
+      "articleId": "gnews_4e54e85ad4455c52",
+      "headline": "Drones are delivering meals in the city hosting the APEC summit - Reuters",
+      "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T03:41:24+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTGJjdlZOeVJxbUxQRjg1RE9yRlB3aDlyajVjUUNYellOLTZ4b2MybXJCUThYMTFIVXBUUUdOcEtlMkpfRGx0MkdMUWZhSkt4emd6OFppd2pXa2haamRWa3JwOFlibVlwZm5fbDMyOE9nMU1YdVRybGpYUmx3Z3JOOThKeEUzMTEy?oc=5",
-      "originalLanguage": "CHINESE",
+      "publishedTimestamp": "2026-11-13T03:49:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRTlKVTE0bEZEb2s4dTJDSktzMWM1eEpXekRMYXBQXzdsaWNNYmRDV05SWEZQYVA2d25UbU5Ub0JpV2lQYnZIYU5Uc3hqWTVnTE10bUZyLTRPQzNyWnFHUlE5cTV6TW1LSkl1ODd2dDhCYmxac0pnTjZtXzljb0xoSDM2NDJvMkxvUFNKRGVwZmZEYTR5eW1RTTNnazFYaVpocE00MUFmWEtqbmREX0o5dEsxM20xY1BjYWM2OVBQelNFYU1Yay1KaWZMZ2VaOVA3YlE?oc=5",
+      "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
-        "福建省"
+        "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Sohu",
-      "headlineJa": "福建省建楽市で、8つの省（地域）による林業害虫の予防・防除に関する合同会議が開催された。 - Sohu"
+      "sourceName": "Reuters",
+      "headlineJa": "APEC首脳会議開催都市でドローンが食事を配達している - ロイター"
     },
     {
       "articleId": "gnews_6f439ad84e905a85",
@@ -1506,46 +2659,6 @@
       "dataSource": "Google News",
       "sourceName": "新浪财经_金融信息服务商",
       "headlineJa": "3種類のインフルエンザ株が流行中。ワクチン接種が最も経済的かつ効果的な選択肢です。 - Sina Finance_金融情報サービスプロバイダー"
-    },
-    {
-      "articleId": "gnews_dd294cfcf17baa9f",
-      "headline": "Top leader to attend 33rd APEC Economic Leaders' Week in China - Vietnam Economic Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T03:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd09TbW1uQnhBTEtCNV9BT0xROVhBc3FycEhkUGx3ZU5MWlMybHVjRFNFem9Fd3VpUDZoMW9qSXQzOHFsQW9qM09qR0tPdW5HdEExWEFHWGtKYUREX2IxYTZLVGpEMFJpc2RUbUFnbEZUdVBrNE92LXI2YW9JejJVUXh1OE13ZEZYcXI3WS1QZ09JOUU?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Vietnam Economic Times",
-      "headlineJa": "ベトナム経済タイムズ紙によると、世界のトップリーダーが中国で開催される第33回APEC経済首脳会議に出席予定。"
-    },
-    {
-      "articleId": "gnews_a4349e7906d3ede5",
-      "headline": "恒丰银行昆明分行：活水润云岭，稳健植根基 - Sohu",
-      "headlineTranslated": "Hengfeng Bank Kunming Branch: Nourishing Yunnan with Vitality, Rooted in Steady Development - Sohu",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T03:30:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeDFRSG9Hb3JEZDIxYkJPdFRVUnNiUU9Hc1NBbjRSc0xhSjJUbVkzQ0tYNTAwTTNMbTVxVlJBWDdqb1diR0lEWk95TG1TeXVGVWpsUHg1aVRxSGRFTUdONlpEQU1UTHo3bTNvMDNtVGo4NnRNZl9xQ291c2xvQjJCWkdkMm1EU3Vp?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "云南省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sohu",
-      "headlineJa": "恒豊銀行昆明支店：雲南省に活力を吹き込み、着実な発展を基盤とする - Sohu"
     },
     {
       "articleId": "gnews_f07af65b31fde695",
@@ -1570,7 +2683,7 @@
     {
       "articleId": "gnews_3882646bf6c22155",
       "headline": "暖冷交替流感高发，这几张图里的防护细节，转给身边人|中国天气|晚红|流感疫苗_新浪新闻 - 新浪网",
-      "headlineTranslated": "Flu outbreaks are frequent during periods of alternating warm and cold weather; share these protective measures with your friends and family. | China Weather | Evening Red | Flu Vaccine - Sina News",
+      "headlineTranslated": "Flu outbreaks are frequent during periods of alternating warm and cold weather; share these protective measures with your friends and family. | China Weather | Wan Hong | Flu Vaccine - Sina News",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-11-13T02:47:00+00:00",
@@ -1585,69 +2698,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "新浪网",
-      "headlineJa": "インフルエンザの流行は、温暖な気候と寒冷な気候が交互に訪れる時期によく発生します。これらの予防策を友人や家族と共有しましょう。| 中国の天気 | 万紅 | インフルエンザワクチン - 新浪新聞"
-    },
-    {
-      "articleId": "gnews_211bf78e6f636834",
-      "headline": "Pastoral Case Series Details HIV and Brucellosis Coinfection Management in China - Bioengineer.org",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T02:41:26+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVk9XWTZvWFdsLWhxaWJOM01LQThwQTZpUWFPWTNjNVhUOEpIX2dQUC1VYzFPN2VBUU9kbk1vMHlrWmRZcnVNZ1FjVEMwR0xETHhsd0Fwc3Y2ellTSFlFOWhRbTRlWExud3MzZFQ1dXQzRTZfRE1nOXBodGRpTG0ycVMzS0UwYXljOWJaOC1FQzdtYXRZaDBqZ3diVDEyQm5aYUhhandrUkE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Brucellosis",
-        "HIV/AIDS"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bioengineer.org",
-      "headlineJa": "中国におけるHIVとブルセラ症の重複感染管理に関する牧会症例シリーズの詳細 - Bioengineer.org"
-    },
-    {
-      "articleId": "gnews_445267401d1c10fe",
-      "headline": "再出发 95后杭州姑娘带着孩子到广元朝天帮扶 - 四川在线",
-      "headlineTranslated": "A Post-95s Hangzhou Woman Takes Her Child to Guangyuan Chaotian for Poverty Alleviation - Sichuan Online",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T02:24:15+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1renotQmFTb3pRcUhLWDRldW9IZEtvVi1JQ3Y5VVBlWnR0RUpGc05IeElmei15WEJzVXRKbEhiNzV1eXRMSXFZY2FuRUVjaGxMS29oUHpPd0lxN3ExSFFF?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "四川省",
-        "浙江省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "四川在线",
-      "headlineJa": "95年生まれの杭州出身女性が貧困対策のため子供を連れて広源朝天へ - 四川オンライン"
-    },
-    {
-      "articleId": "gnews_86d800f698fae32b",
-      "headline": "BYD third-gen Tang pre-sales open in China: up to 850 km CLTC range, starting at 33,600 USD - CarNewsChina.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T02:14:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeVZZRHNSMzVMYXFid3hFSFdmcmI0MjFCLURwaTlqV3lmU2wweWE5cUJIRkFCMWh0aGRTRzRIXzlRQ3g4eS1RRThjbEtFQUZzMUFPRFJaQUhWNlZQMDFGOEZock5rdFN5aTB6M1MxS3g5X0dVLWU0X0p2QUE1YkZiZEswTU5ldGU5dUNlMU5UYVl5VzVlMGQxeV9ZV28zQkRDbE5zN2xnXzAxaVl1Zk1wSVRqU0xlVTdUZXVCNG1sT1pBNk0?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CarNewsChina.com",
-      "headlineJa": "BYDの第3世代タンが中国で予約販売開始：最大航続距離850km、価格は33,600米ドルから - CarNewsChina.com"
+      "headlineJa": "インフルエンザの流行は、温暖な気候と寒冷な気候が交互に訪れる時期に頻繁に発生します。これらの予防策を友人や家族と共有してください。| 中国の天気 | 夕焼け | インフルエンザワクチン - Sina News"
     },
     {
       "articleId": "gnews_aaccd19af547dfa6",
@@ -1659,8 +2710,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2YnA3Tzc5UDF5NzYzWlBIdGlqRzB5Q1hWVDFhZzBTa1JKMWNFWFFsdFc0N1lEaXRldHktXy1DNFRMNi1ZNGpRTXUzMHNad3dfUy1rVTdJejJBQzlnaHZfN3c4R3lyN0RK?oc=5",
       "originalLanguage": "CHINESE",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1668,68 +2719,7 @@
       ],
       "dataSource": "Google News",
       "sourceName": "中国新闻网",
-      "headlineJa": "日本で鳥インフルエンザが発生、20万羽以上の鶏が殺処分へ - 中国新聞網"
-    },
-    {
-      "articleId": "gnews_f2d895ba1838e966",
-      "headline": "Targeted Sequencing Identifies Diverse Respiratory Pathogens in Shenzhen Patient Cohort - Bioengineer.org",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T01:32:17+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0N3RWRhellsVEZmY1M5cUEyeVJnanRCcU5PVThsa1lWaUpPRjRmaDNrV00yVXhTaG9YLXBGTnBNRWJUNHRzR3NwbXhYOWRFbS1KSUNTd1c2dGFuVmx1LUs0OE1KaWNYZjhYOEQxVUNGcVpoVWd1TzItQ2dkYWZIRk5pWm1fM1lEZURaVlpVWnlqMUZYN19IeWdHZnMzVzBhSFlkamxRZVpEMjV3SlpRbGxn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "广东省"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bioengineer.org",
-      "headlineJa": "標的シーケンス解析により、深圳の患者コホートから多様な呼吸器病原体が同定される - Bioengineer.org"
-    },
-    {
-      "articleId": "gnews_36805c04dae990c5",
-      "headline": "Meta-analysis links pegylated interferon to higher hepatitis B clearance - Bioengineer.org",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T01:12:08+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTFQ4bE8zSVpUM3hBcnZ2SGM0bWNNbTFKbXJldkszbERsWXUyUGZRYWFYcGEzVzFUSGgzZUZNVnBadUVfUHJmbnNhUE11a0ZBeWIwRVM2UV9kekdSUHNsMHlkMHlTMFhDeVBTY0gwcDZSQ0R1eGNfdDZ6aW9XcmcyR1dfZWRYZEN3Q3pmcnhCTEdvRm5NdDBuWi1jMHR1QQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Hepatitis"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bioengineer.org",
-      "headlineJa": "メタ分析により、ペグ化インターフェロンとB型肝炎ウイルス除去率の向上との関連性が示された - Bioengineer.org"
-    },
-    {
-      "articleId": "gnews_4b004d0b553f6a3b",
-      "headline": "日本确认本季第二起禽流感疫情——《日本时报》 - UA.NEWS",
-      "headlineTranslated": "Japan confirms second avian flu outbreak of the season – The Japan Times - UA.NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T01:01:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdVFFMF9zXzFWWGc4c1EwZlJvN0ZMUDBWQkpobVgwcmdlNnUzZ2czVkF1X0ZpS1dZczg3ajJJa0ZQanhWNnQ4dHMyRVFHS3FEYTZQNWtFbEVSSHNrNUxtZGtMWWF5Sk1zcnRGei1mYmxYd3lncm1ZMXJvUkFIX2szc0ZlcThDc0U4QjZjeWJqcTBHYTBOZUcxVHVJdWV1TzFrTEJUZmUtS3p1UVZ5eDhZMUtR?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "UA.NEWS",
-      "headlineJa": "日本で今シーズン2度目の鳥インフルエンザ発生を確認 – ジャパンタイムズ - UA.NEWS"
+      "headlineJa": "日本で鳥インフルエンザが相次いで発生、20万羽以上の鶏が殺処分へ - 中国新聞網"
     },
     {
       "articleId": "gnews_6f9d8da762468a1f",
@@ -1750,46 +2740,6 @@
       "dataSource": "Google News",
       "sourceName": "en.baochinhphu.vn",
       "headlineJa": "ラム氏が中国で開催される第33回APEC経済首脳会議に出席へ - en.baochinhphu.vn"
-    },
-    {
-      "articleId": "gnews_d88f97f3577e03f0",
-      "headline": "中国版流感疫苗犹豫量表信心与感知风险维度的开发及其在学龄儿童青少年家长中的信效度验证 - 生物通",
-      "headlineTranslated": "Development of the Chinese Version of the Influenza Vaccine Hesitation Scale's Confidence and Perceived Risk Dimensions and its Reliability and Validity Validation Among Parents of School-Age Children and Adolescents - Bioon",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T00:00:25+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyOWRrcnZxeTJFQlZyTk9sTThwOUZ5ZDVGSklKem5MR2o3RERGajJyZGg5TjJmLWY0bGZuMHJ2STdtbGhjaGJETVJIcEpLU1VNcmtZZnNxb3FtSTU0SFltNi1ubmYzNUVfVnlYd1Vn?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "生物通",
-      "headlineJa": "インフルエンザワクチン接種躊躇尺度の自信とリスク認識次元の中国語版の開発、および学齢期児童・青少年の保護者における信頼性と妥当性の検証 - Bioon"
-    },
-    {
-      "articleId": "gnews_0c01e3fb90d2036a",
-      "headline": "Watch Alice Huang Firm Procured Banned Nvidia Chips in China - Bloomberg",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-13T00:00:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOVlJNDZTcUtWVV9EYmEwY0hLamRhSlpDbEN5eXNsMmpCRW8yQTcxdndhSk1Kenduc1lhYUZTd0xiSmYtR1NPWDVWWllqRWlGUWQtTXhDNnhrX2x0aWZiamhvYm91cjVpYnRrTG5Mc0tLY2ZjVWhfZThUc3hnTHA1YkFCZi1SVFYtRGc5eU45MW55Y0hBOGM2dmh3YU1vYTJxUDRZSGtYZUkxc3RBMFE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bloomberg",
-      "headlineJa": "アリス・ホアン氏の会社が中国で禁止されているNvidia製チップを調達していたことが判明 - ブルームバーグ"
     },
     {
       "articleId": "gnews_ac111b0681320e6c",
@@ -1832,26 +2782,6 @@
       "headlineJa": "クリストファー・ラクソン氏、暫定代表として中国で開催されるAPEC首脳会議に出席へ - RNZ"
     },
     {
-      "articleId": "gnews_6bd060e5e3dc2c7c",
-      "headline": "Starbucks in China eyes growth through quality over quantity - Nikkei Asia",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T22:25:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmpzZjhBdnMzY085Z0U3YWl0VExqLXd0WVFpQnJ0dEJBNmpxQmVUS3dvaFRNeDFJdkdJQURTdXNvbW5HUm40bmI5cEUzYllmT0R1MFV4OEkta1BBaVpZYktoTTQ2dWlET2lmUzJ4aVRicEpYRXNSc1lDZWlQRXc3WUl1dUZSTXVwWGtqX2FBc1oxbmRmazZHSVpMcmhfRXc4SHZwODBaaTkxQ2M?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Nikkei Asia",
-      "headlineJa": "スターバックス、中国で量より質を重視した成長を目指す - 日経アジア"
-    },
-    {
       "articleId": "gnews_68a3b9f31a4ca1c5",
       "headline": "How Burberry Is Thriving in China - The Business of Fashion",
       "headlineTranslated": "",
@@ -1870,26 +2800,6 @@
       "dataSource": "Google News",
       "sourceName": "The Business of Fashion",
       "headlineJa": "バーバリーが中国で成功している理由 - ビジネス・オブ・ファッション"
-    },
-    {
-      "articleId": "gnews_5e4c993cc53e2bbf",
-      "headline": "AMD Reportedly Cuts Gaming GPU Supply in China by Up to 50% - TechPowerUp",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T21:14:49+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWFctOC1sUTN0WEctRkxTaVNUVFN4aHltcVRzVFpDbUpQZlAtTmNUMHQxajBzVzFNSjgydUJLUmpST2U1THZGdjVBaHlJVGFqR3lFQlN6a0sxeG1fNzJBbVBUbzJZZ3FiSHVZSFdNZnduQjRDZkh3OG96R0N2T09zSkpISTJJTjk1MzEzc1dDalJ4d2cxZkN1QtIBngFBVV95cUxOdXB5N1JkRkZVWEU5VVFMbkgwUll6NUtQYWcwbWVMRm1nN1Z4ZVlfMkJTMUxkemhSM0NTY0lQcWl4dEQ4RTUzdExQcFhvN205RVQyVlJITzRVcm5UYnFFRnUtN19lazlSMlNZbGY3QTRXNmwzdWo2ZVI0cFZMNGltdzNIbmd0ZHRSVEdWMGxnR3dKOHBVdTVOb3lPa2xkQQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "TechPowerUp",
-      "headlineJa": "AMD、中国でのゲーミングGPU供給を最大50%削減か - TechPowerUp"
     },
     {
       "articleId": "gnews_dcfae74eb0723391",
@@ -1952,44 +2862,24 @@
       "headlineJa": "アウディA8の生産終了、後継モデルはファーウェイのプラットフォームで中国で生産される可能性も – 報道 – CarExpert"
     },
     {
-      "articleId": "gnews_4737fbed93a7f79b",
-      "headline": "Trump, Putin to Meet at China’s APEC Summit as Kremlin Eyes Trilateral Talks With Xi - Kyiv Post",
-      "headlineTranslated": "",
+      "articleId": "gnews_ef7193a01ed1abb7",
+      "headline": "6天新增191例，今年已超千例！巴西卫生部加购疫苗应对猴痘 - 南美侨报网",
+      "headlineTranslated": "Brazil's Ministry of Health orders additional vaccines to combat monkeypox: 191 new cases in 6 days, bringing the total to over 1,000 this year. - South American Overseas Chinese News Network",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T18:42:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTQk5ybk9mdnlwMm5VTDlkUVhIdllVVzl0T3F4ZHdOS3JpU3JuUThfNUpOeFlMaG04LUZmblVoWVh6c05xSHVtdTJkNA?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-11-12T19:44:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaHZJNVJEWVFkY2NMZDFLSmtsWi1jMVNJVm40a1l1NUtqdUxtU3pRRTF0MFFoS0R1WnJzaWFVMVNrY24xQjZiYVdHLWtEdWFoaXlyd2tRSnROVHVmODN2SG5ReUQ0QWQxM0FzaXJna24tZ3V5T1VEelJZcUdMSmtkX2hYa3hfYVVzSzVrRkhB?oc=5",
+      "originalLanguage": "CHINESE",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Mpox"
       ],
       "locations": [],
       "states": [
         "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Kyiv Post",
-      "headlineJa": "トランプ氏とプーチン氏が中国のAPEC首脳会議で会談へ、クレムリンは習氏との三者会談も視野に - キエフ・ポスト"
-    },
-    {
-      "articleId": "gnews_48f468ce1e0c3d58",
-      "headline": "'We have nothing left to fear' — Chinese volunteer soldiers in Ukraine - The Kyiv Independent",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T18:16:04+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc2k2WEozdHcyLXpUeTVTTkV6aWo0YUFleE83NnJQLXlQYzU2RGtIZTlPRUxvblNZcy1TbnpMSVBvVzFZMFpwbG5yTkRMbGlGSEpsMkJwdFhXZUt1aVowSFJhSVl3MjRzdGRCb1YwT3hsNXBITXpJTnFuM0pLd0thY0RmZWE2Y1NXRVltZ1BBcmhNajRicmRtMV82SFo2UQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Kyiv Independent",
-      "headlineJa": "「もう何も恐れるものはない」―ウクライナ駐留の中国人義勇兵たち―キエフ・インディペンデント"
+      "sourceName": "南美侨报网",
+      "headlineJa": "ブラジル保健省、サル痘対策として追加ワクチンを発注：6日間で新たに191例が確認され、今年の累計感染者数は1000人を超えた。 - 南米華僑ニュースネットワーク"
     },
     {
       "articleId": "gnews_b5ed2e0c23f70acc",
@@ -2012,46 +2902,6 @@
       "headlineJa": "クレムリン、プーチン大統領とトランプ大統領が中国でウクライナ問題について協議すると発表 - Українська правда"
     },
     {
-      "articleId": "gnews_0c0eddeccec1f536",
-      "headline": "\"A poor man's Defender,\" BAIC launches Xingtan 5X with 625 km range at 18,890 USD in China - CarNewsChina.com",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T16:52:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeE5ycUE4d3lwOXlidEY5ZjIzQTM3cy1GRVJTT3dDb0xNWlM5eGlJWXZjQkRLN2pXd3NRdFhfQVExVUhnTmpKT0ZGRW14VGU3U0VQakEtV3BhdHFaZWFSWTNlVlF5YzJ3ZU42WHBhRThNeXJxRFA1RWs4RVhMQkxjWVZWV29jVFMxb09ONVc3aHlPdTA3ZVYwMzFoQk55UndQUHFBTldfcw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "CarNewsChina.com",
-      "headlineJa": "「貧乏人のディフェンダー」BAICが航続距離625kmのXingtan 5Xを18,890米ドルで中国で発売 - CarNewsChina.com"
-    },
-    {
-      "articleId": "gnews_b401039af594ccba",
-      "headline": "GT Voice: AI jitters in US raise stakes in China for S.Korea chip firms - Global Times",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T15:43:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wOVlQN05XbjFrQXVlQ3dLa3d1NlRyY1pWQlRMSktEM1Y4M1ROYlBYYU1hUUFyMm9ZT19BLTI4Zk0zZURkUkFlYUxJT1l2Q3d6cFlhdWhqWHZQUy0tYkxCUVV3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Global Times",
-      "headlineJa": "GT Voice：米国のAIへの懸念が、韓国の半導体企業にとって中国市場におけるリスクを高める - グローバル・タイムズ"
-    },
-    {
       "articleId": "gnews_56779a9c217bff37",
       "headline": "Eli Lilly becomes first drugmaker to have a GLP-1 weight-loss pill approved in China - Reuters",
       "headlineTranslated": "",
@@ -2070,26 +2920,6 @@
       "dataSource": "Google News",
       "sourceName": "Reuters",
       "headlineJa": "イーライリリー社、中国でGLP-1阻害薬の承認を取得した初の製薬会社に - ロイター"
-    },
-    {
-      "articleId": "gnews_5a7b30b2d032454f",
-      "headline": "Online and in the Real World, China’s Queer Communities Face Mounting Restrictions - The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T14:22:10+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNE9PMGE0S2d0dXozakVDTExCTGlTa1JjandYdE9FOGI4ZjVZTUhGa1pqc1NfRHZXQXV1MlI0SVFXWnRMdGNGemcyRjNuSkliaDNuNGJsdnl2WnNNOWdnWHBhWkhyTzQ3QllmX0ZPZHpEMlVXMHNUQXBDUDlsZnpYRTRDclVjR3Vadjl4RDRCcmNYbG95c1k3R0hwd1oxd0d5UnhnSy1JYXMtQ09URHJmXzZWdw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "headlineJa": "オンラインと現実世界の両方で、中国のクィアコミュニティはますます厳しい制限に直面している - ザ・ディプロマット – アジア太平洋時事問題誌"
     },
     {
       "articleId": "gnews_d818172b8f024a96",
@@ -2132,67 +2962,6 @@
       "headlineJa": "BYDの電気自動車「デンザN8」が中国で発売：最大航続距離1,003km、価格は40,300米ドルから - CarNewsChina.com"
     },
     {
-      "articleId": "gnews_e0027d46e537d507",
-      "headline": "Alice Huang, alleged spy at centre of Nvidia scandal, said to be back in China - The Independent",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T12:32:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWi13RjJ6V295Y2hVSkdNVGdudzF0dV9kdXdOZmFOeDU0dUl2SW5DdTg2Mk1VSEVuZllTT0ZMV2gtU21Ca2RTakN1ZGVKTG9hRXhzU3RtRFY3ZENFWk9vekJELWJIWTBxSEk0U2VWU3QwVkdlTFZnVHptVk9CajRlUU1SMG5SMEZrYW5rUA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Independent",
-      "headlineJa": "NVIDIAスキャンダルの中心人物とされるスパイ、アリス・ホアンが中国に帰国したと報じられる - インディペンデント紙"
-    },
-    {
-      "articleId": "gnews_6ffac93083e2e34a",
-      "headline": "守护者之光 - 北欧时报",
-      "headlineTranslated": "Guardian of Light - Nordic Times",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T12:24:56+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2tyaFljd3RjMnhRTGpJc01LeURSak5RQ0txLVBmNUx1SnA5c2pzbjNqTkgwcjZ4MUJsTUZPWFV3eHB6WmxCVmZwYm9nZi14WUE0dGh0RzlLNnZjR3lxQWZqM3RpbVZ5S2J6NTl3MXlBX1o3UGplRGZDaVdiMkEtWWd5SlVTUQ?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "北欧时报",
-      "headlineJa": "光の守護者 - ノルディック・タイムズ"
-    },
-    {
-      "articleId": "gnews_96e924470040d307",
-      "headline": "从“讲好中国故事”到“讲好中国谎言”：藏人官员谈北京如何包装西藏叙事 - ནོར་ཝེ་བོད་ཀྱི་རླུང་འཕྲིན་ཁང",
-      "headlineTranslated": "From “Telling China’s Story Well” to “Telling China’s Lies Well”: Tibetan Officials Discuss How Beijing Packages the Tibetan Narrative - ནོར་ཝེ་བོད་ཀྱི་རླུང་འཕྲིན་ཁང",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T11:16:40+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxNU0FRQ1p4blZhTDFhdWtPY1lrOTNqRFNpRFdPXy1pcGlMLV95OEFDVEREa0RibDZyVFhUUklVcTBNM2lmck9YbVJ5LWlGbUZuYTRVaUdaMFlzX19TdjR1LWVJbnJ5ekZnbWx1OHZneXF5czdhRGY3bWNpaE1ndnI4NXZFMzU4THNzTjRrbU9ZYVR2Nkk1MDRsS3o3Z3RuT3RRY3AzelhTYjBuOWFtOXZnR203Q2xocTVFWTc2eTdiYzJqZmhhandVc1FEN1o4MnRtNjA4ejBYSjU0VnllNzRSdkRjU3dEc1RiYnBPbzkxSXVnMzFuem9LQmlhd2JGTkFrRWdaYlhZV1paa3I0OHQwZTNfb0FaektRSkJDMFd3?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "北京市",
-        "西藏自治区"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "ནོར་ཝེ་བོད་ཀྱི་རླུང་འཕྲིན་ཁང",
-      "headlineJa": "「中国の物語をうまく伝える」ことから「中国の嘘をうまく伝える」ことへ：チベット当局者が北京がチベットの物語をどのようにパッケージ化しているかを議論 - ནོར་ཝེ་བོད་ཀྱི་རླུང་འཕྲིན་ཁང"
-    },
-    {
       "articleId": "gnews_eec1afb379b7c901",
       "headline": "RooMoo transforms abandoned mountain cabins into hotel in China - Dezeen",
       "headlineTranslated": "",
@@ -2211,6 +2980,26 @@
       "dataSource": "Google News",
       "sourceName": "Dezeen",
       "headlineJa": "RooMooが中国の廃墟となった山小屋をホテルに改装 - Dezeen"
+    },
+    {
+      "articleId": "gnews_5f53b050aa31515c",
+      "headline": "河南一男子患强直性脊柱炎致全身瘫痪，创业养鹅后一年能赚一万多元，将收入全给了父母：“我不再是无用之人了” - Sohu",
+      "headlineTranslated": "A man in Henan Province, paralyzed due to ankylosing spondylitis, started raising geese and earned over 10,000 yuan a year, giving all his earnings to his parents: \"I am no longer a useless person.\" - Sohu",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-12T09:36:18+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQUpZbFhIaXMwMmg4Vi1XcURJZWY0aFNzOElubGxGMHBWR0FQSUowLUlsNXAzelpzSWpNb1JxX1NBTVNkaVg2THI4VDFIbG5mbFBKeWtQNVhVX2JkNkpFeENGclNhd0w5WmwtV0RCYlR4TGVla0lXZTlhaDFiN2ZLc0VvNGpyVFdYVC1PWg?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "河南省"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Sohu",
+      "headlineJa": "河南省のある男性は、強直性脊椎炎で麻痺を患いながらもガチョウの飼育を始め、年間1万元以上を稼ぎ、その収入をすべて両親に渡している。「私はもう役立たずではない」と彼は語った。― Sohu"
     },
     {
       "articleId": "gnews_983711fe37d71512",
@@ -2233,6 +3022,26 @@
       "headlineJa": "中国のスパイ活動において、恋愛は長期戦になり得る ― ニューヨーク・タイムズ"
     },
     {
+      "articleId": "gnews_50fcbb4110cde142",
+      "headline": "官宣！福建又一医疗集团正式成立 - 凤凰网",
+      "headlineTranslated": "Official Announcement! Another Medical Group Established in Fujian - Phoenix News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-12T08:00:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NNGcwV1hEX3N0VTBpWFRtUzVrWG5tOTluVzZjLUJBOVZNS045RUoyNEo4TmU5X2tQX3dDOVBYYnFSSzY1Nl9OMU5neUk?oc=5",
+      "originalLanguage": "CHINESE",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "福建省"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "凤凰网",
+      "headlineJa": "公式発表！福建省に新たな医療グループが設立される - フェニックスニュース"
+    },
+    {
       "articleId": "gnews_23cce225736dfbad",
       "headline": "日本报告本季首起禽流感疫情 - 中国新闻网",
       "headlineTranslated": "Japan reports first avian flu outbreak of the season - China News Network",
@@ -2242,8 +3051,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Hb0pwM1hncXdJal9aVERjcFMyUGxjZXpUY216QlFDSEhHbGd3bkVkdkRTWldLTnhTdjBhbDAwU3Brd0JUcmdxdU45Y3AzcFdCTFZUb3Z4Ri1MbTBmOVg2UXI3WExYWEVH?oc=5",
       "originalLanguage": "CHINESE",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -2254,24 +3063,24 @@
       "headlineJa": "日本で今シーズン初の鳥インフルエンザ発生が報告される - 中国新聞網"
     },
     {
-      "articleId": "gnews_c5d350091fd06636",
-      "headline": "Alice Huang, Alleged Chinese Spy at Center of Nvidia Firestorm, Is in Beijing - Bloomberg",
+      "articleId": "gnews_8e9ccf0ec65e852f",
+      "headline": "World Pneumonia Day: China's multi-pronged approach to respiratory health protection - CGTN",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T07:03:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNUlsOXQyblE2RHpUVDdFYkhQR0hsbWt6V1ViYVUwNG5XWGNqY2pJcjN1Mkl1Nm1PWXIzTWo3Q1o5Z1ZLazJVejhlWkZhQjlnRGxkb2JvazZpT2tUU0h1Mk12MkNjeE82QVRyN2VRWDBTRDZiRDhrbFVpVlRoRFJ6R1pfWGJFUWZiaC1UX3FweFJGOEhwMW84Zmx5NjIyMHU0c25vbHNEUjRwczZjSzEzamZvVHg?oc=5",
+      "publishedTimestamp": "2026-11-12T07:11:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONVNjeEstUEhvUWJveHYwV0pUazI3WnJWanVXTFFGejBwNkx0MlhiOE5ZZC1XS2F6SW8tbHRjd0FybE9rSTZWT1ZudVRXQktMSVdEa0tKQS03ZjhUUFR2aW9zSXNtM3pQYUVDZXNxWnE5bWtnVkRITEViNUhPYjh6amR1RFJKV3lZMklqZ2Myd1Q4eExaUU94YUJMWWc3UHlsSzdNRnpXT0tueEVDeEs4Y3QtWWhnV0t4OFh2cg?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
         "Infectious disease (unspecified)"
       ],
       "locations": [],
       "states": [
-        "北京市"
+        "中国 (省未特定)"
       ],
       "dataSource": "Google News",
-      "sourceName": "Bloomberg",
-      "headlineJa": "NVIDIA騒動の中心人物とされる中国のスパイ、アリス・ホアンは北京にいる - ブルームバーグ"
+      "sourceName": "CGTN",
+      "headlineJa": "世界肺炎デー：呼吸器疾患予防に向けた中国の多角的アプローチ - CGTN"
     },
     {
       "articleId": "gnews_4c44b4d5d4db8c61",
@@ -2314,26 +3123,6 @@
       "headlineJa": "秋と冬を「予見」：健康を守る｜秋と冬の感染症予防・対策のヒント（6） - Phoenix.com"
     },
     {
-      "articleId": "gnews_c036402646ecf48a",
-      "headline": "Infections Drove Hospital Admissions and All In-Hospital Deaths in Kidney Transplant Cohort - Bioengineer.org",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T02:42:55+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLXo3X1FnWW1rRDROTjRROV8xV1ZqVG9KeVBMYVoyTXBxSUFVUFVETFNBTGJNVkZybmJUaWpaLUZZQ0dhZTBYQkNEM2h4WkVEQ1NxY1FZRDJqVkRTTzJBbXhkX1V2UFp2cWE2bU9uRGFGZEhPWGJ4eDhRUnB6bmlDM2V6MjJRWG5ub1dxMXBvRHZkRlJHWXQ3Z3lmWUdXM2dGSDdVT0ZGbXQ4YjRXVTVyck00cEt5STA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Bioengineer.org",
-      "headlineJa": "腎臓移植患者群における入院および院内死亡の主要因は感染症であった - Bioengineer.org"
-    },
-    {
       "articleId": "gnews_10a52c6ceb3e1ba7",
       "headline": "荷兰禽流感疫情蔓延 近8万只家禽被扑杀 - 中国新闻网",
       "headlineTranslated": "Avian flu outbreak in the Netherlands leads to the culling of nearly 80,000 poultry - China News Network",
@@ -2343,8 +3132,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6LTJpUF9xMUtCd3ZZd09HWDZyLVI1aldZSWs4ZmVMLUJ1dzRBZ1VRZzlJVE9wMUhPQU1mVUNKbE0wbmRrR3pFVkF4T01sc2xJWGVVX1F3ck1zMlEwMWxqR3E4aThoUkRJ?oc=5",
       "originalLanguage": "CHINESE",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -2353,288 +3142,6 @@
       "dataSource": "Google News",
       "sourceName": "中国新闻网",
       "headlineJa": "オランダで鳥インフルエンザが発生し、約8万羽の家禽が殺処分される - 中国新聞網"
-    },
-    {
-      "articleId": "gnews_c47953ea93196b56",
-      "headline": "新疆阿勒泰：安全教育进校园 - 人民法治网",
-      "headlineTranslated": "Altay, Xinjiang: Safety Education Enters Schools - People's Rule of Law Network",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T01:51:20+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsamtubHJ1cUJtYUZzR2JjQWFHMUlqYmNvalZ1ckJYQWFpZGpkLU0tOGd5ZXNmUVE1Q2NUT3NZcTZNYXpYSUpycUlEVVNpbU5RbG93?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "新疆维吾尔自治区"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "人民法治网",
-      "headlineJa": "新疆ウイグル自治区アルタイ：安全教育が学校に導入される - 人民法治ネットワーク"
-    },
-    {
-      "articleId": "gnews_b8b4a74ed24d0948",
-      "headline": "39岁明星经纪人感染新冠 1个月后成白肺去世 - China Press",
-      "headlineTranslated": "39-year-old celebrity agent dies after contracting COVID-19 and developing white lung disease a month later - China Press",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T01:26:42+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeEE1QjhVdEZLd0I3TUk5dE1lbExCYlViN2FoQ0F6b1ZURTQwZ1hxZjlUZ1F2WWJGdVJDbmhpZlAxc1g2NktlNjh4YUNUUjJRQWx1Z0pMdlZ4WHlVSlN1TEc3TUFCN2lHQjhWSEtDTzFCTjFJYXNmWGU3UTVFa214cUVIOHRVY08tMnFyQVpxdnNLRnJPTmZGY3NmZ196ZHpUcS10MndrWDVqWXJBMS1hNlA2VTg1OXNTMmlLcFQwbUljUFlmdHVLdTVtTjBlOFVlU29VZ2NuZ3NWaW12ZXRzOFkwS05aeDVmRTIzbmg4YVJWR2l6UzVVd3d0NmwzeldYRllWNXZCM3BQQTFPT3F6TnhYbEtKUTZmNzNxeHFuTUpnYWpIMjROaFh5M3MyeDQ?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "China Press",
-      "headlineJa": "39歳の芸能人エージェントが新型コロナウイルスに感染し、1か月後に白肺病を発症して死亡 - 中国報道"
-    },
-    {
-      "articleId": "gnews_85846087f7e643b4",
-      "headline": "京都府养鸡场发生禽流感 为日本本季首例 - 共同网",
-      "headlineTranslated": "A poultry farm in Kyoto Prefecture has reported its first case of avian influenza this season. - Kyodo News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T01:19:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5IY0VsNjFZOHNsZFA3Z21ZZk5Cc1A4Vk5DUmJ3bHFRWVZ0aHFmRXZzQjF4OHFvWTZBYy1wVXlleFhYc3ptSWhucm5UYVRfVzFDVDNJR0pvcw?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "共同网",
-      "headlineJa": "京都府の養鶏場で、今シーズン初の鳥インフルエンザ感染例が確認された。－共同通信"
-    },
-    {
-      "articleId": "gnews_fba78fe08ebf0381",
-      "headline": "South Korea's President Lee to visit Philippines, attend APEC summit in China - Reuters",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T01:04:46+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR2lhT211dkxSNVF6WHRhd3VfeERHZUZBV2tIeEtGUkljTVZubmwycktQSjNZOTRGT1FidU9WUEt5d0lKMWNSZWdyRk9GcURGeDRBNWVEY2NxUnZ6VzVrS0poSEtpUVBjQkNYT2NqbUtETTl0eTVtM1NJV0NRb3J3Ny0wbUtxY0wyMnhDME9fOWdjQlRMcmVMSElQb0J4blppdk9pNWMzdGlyN2xqRGJnN2ZnckNRZ2Uz?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Reuters",
-      "headlineJa": "韓国の李大統領、フィリピンを訪問し、中国で開催されるAPEC首脳会議に出席へ - ロイター"
-    },
-    {
-      "articleId": "gnews_fee639719f261aec",
-      "headline": "中共隱瞞疫情 年輕人疏於防範猝死增多 - 新唐人電視台",
-      "headlineTranslated": "The CCP's cover-up of the pandemic has led to a rise in sudden deaths among young people due to a lack of preventative measures - NTD Television",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-12T00:42:44+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yem81dUVaajNQMVlfSWEwbUUwRjdINzVxRXdYcFNqSVVCWlNrOVRhekRhTDJtY0I4YVdXVl9nX19VTFB5Z19ZdkU5UThaRnpQc1MtUDFucFRmOGRDdm1oRdIBZkFVX3lxTFBRWlVhUVRtUXRfM09MajUzaGhKVkQ4LUozV3BEVXA2WWJQdkc1T2lES01oc2pNRHJ2cG9sVzJ0NkctUXMwLVMtZ0p5aTRCaUp0ay1lLWNYRmRGUEc4anp0bS05UHdvZw?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "新唐人電視台",
-      "headlineJa": "中国共産党によるパンデミック隠蔽工作は、予防措置の欠如により若者の突然死の増加を招いた - NTDテレビ"
-    },
-    {
-      "articleId": "gnews_91ae7f9054f7dbc6",
-      "headline": "日本因禽流感扑杀2万只鸡——《日本时报》 - UA.NEWS",
-      "headlineTranslated": "Japan culles 20,000 chickens due to avian influenza – The Japan Times - UA.NEWS",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T22:35:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU1o2WEU0cU1PblZHbHo1UWZQUkhucGxneVBldEZQUmtGazYzeHRvdldUWTVvZFZqY3NOSm9qdGNKZm56XzBFNnlSY0taek1EcUU0U2FBSlJ4eHNDcF9uYmxVU05McVlkT2x1ek90S0I0LVBpUWpmaTR2MG9ZTWtoZWZHRjBVM2lvbXN2U3JIRE9SUFRFcWU5dXRTZDQ4Mk00NzhaaWg3aFNCbHR3dTdB?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "UA.NEWS",
-      "headlineJa": "鳥インフルエンザのため、日本は鶏2万羽を殺処分 – ジャパンタイムズ - UA.NEWS"
-    },
-    {
-      "articleId": "gnews_20f228ced23b3251",
-      "headline": "Hurricane-force winds knock students off their feet in China - The Weather Channel",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T19:35:05+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWElEemRDU3lTRDVxWWJpWUlZQlVRX09iWnJNbGM4VWdCMXBIcW5OWjlrMHNkMmZBNDlSMlV2dTJ1Zjg2dEZpS1lUem5ZbE5KSnVPZ0ZhWjR2VXAxTHBwbVVfOVVTOHp1TkNZVG5RVW5mLUpQVFc5UGhrVHdlTk44V09yZmJIUm9sV2FUak51SGdETC1hYVE?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Weather Channel",
-      "headlineJa": "中国でハリケーン並みの強風により学生たちが吹き飛ばされる - ウェザーチャンネル"
-    },
-    {
-      "articleId": "gnews_f22bd79ebb925f67",
-      "headline": "Bureaucratic incentives shaped effectiveness of the one-child policy in China - Nature",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T18:10:48+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIN3luaEZDYmo4OWx2R1FCa1FhRzZoclJ4eFRhMmdESHpxOVlwQVZqX0dOYnRWblU0NHYxMUg3b3VuZEpPUjN2SjZaeng0V0JqQzFDQ0NPeTZqNlBQUHZn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Nature",
-      "headlineJa": "官僚的なインセンティブが中国の一人っ子政策の有効性を左右した - Nature"
-    },
-    {
-      "articleId": "gnews_dd31d78877eba9a2",
-      "headline": "北京39岁名星经纪人感染新冠 拖成白肺去世(组图) - 社会百态 - (移动版) - 看中国网",
-      "headlineTranslated": "39-year-old Beijing celebrity agent dies after contracting COVID-19 and developing white lung disease (Photos) - Social Issues - (Mobile Version) - Vision Times",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T16:27:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EU3JjbjZsd1U0ZFlicTJLNnhDTTJKaS1mNFFZcUNyZ1RBRlRGTzhPYjNZdU9hcEQzZUZGZVRLUkRGSk5oaVN2b0UzTTFmeUpmbDVQdFJ4RTBQUkNQa1AzYlRUVGhEMU1BRldj?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "COVID-19"
-      ],
-      "locations": [],
-      "states": [
-        "北京市"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "看中国网",
-      "headlineJa": "北京の39歳の芸能エージェントが新型コロナウイルスに感染し、白肺症を発症して死亡（写真あり） - 社会問題 - （モバイル版） - Vision Times"
-    },
-    {
-      "articleId": "gnews_add7d8899ff15965",
-      "headline": "中国疫情上升快速 年轻人梗栓风险提高 - 阿波罗新闻网",
-      "headlineTranslated": "Rapid Rise of COVID-19 in China Increases Risk of Stroke in Young People - Apollo News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T12:55:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50WDA1djVPdEEzMzJpM1NtVEdkZkM5UjExMEtFNmpOa0JsUTFDWEdFa3dOSjZpbFZLcnlTVlBpZHRHQl9pU2VGc2I2dUxNSmNJYWN3a1Rtd004NDVEa0E?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "阿波罗新闻网",
-      "headlineJa": "中国における新型コロナウイルス感染症の急速な拡大は、若年層の脳卒中リスクを高める - アポロニュース"
-    },
-    {
-      "articleId": "gnews_00094cbd9dd0ced3",
-      "headline": "African Medicines Agency calls for regulatory harmonisation to accelerate access to medical products during health emergencies - Tech Review Africa",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T12:47:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSF9UTzhFLWJ0cTQ3bkdwbEF4VEVsWFlJOE01dEd6YUkxbFZvcXVLWnMyOTR4c1VXLVBkOFRmNXhZNVpEX1ZoZkpuVS1LNGNhWU5xWGs1ZTA0ZGRsc0gyS2xMaDFxUkFzanlBdjlxMHczbmd2aXo1cjRVUktLVDk3b0prS3Z2NjdDMFJTZ3BvcUlMNHdUalUxek5vcnJGQVR6RnNvTUcyYWFnTTVpZ1QzT0lVcjVmRExka2YxOFdUM2xHX3V4SUhCczI4T21aaGJTUFEwV1dMRENzRzduc2VrcTlCMVc2cF9zVkh4eGJYSTk0YVZKRGp0VA?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Tech Review Africa",
-      "headlineJa": "アフリカ医薬品庁、健康危機時の医療製品へのアクセスを加速するため規制の調和を呼びかけ - テックレビューアフリカ"
-    },
-    {
-      "articleId": "gnews_828513007125b22d",
-      "headline": "中国已与超150国及30多个组织签署\"一带一路\"合作文件 - www.hkcna.hk",
-      "headlineTranslated": "China has signed Belt and Road cooperation documents with more than 150 countries and over 30 organizations - www.hkcna.hk",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T08:18:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aQ0oxSW40OWdJTlFlTEZxT3JHZkMwbHcwRFJwb2pwTGFneTVhQnVkYXl6bzM1UEh1MUNRNktzc0gyeldHOEJoUTJOOWhKeGZoMS11aTBkT290dU05ck5CRlpFN1FwQkkxa3JjUURTMA?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "www.hkcna.hk",
-      "headlineJa": "中国は150カ国以上、30以上の組織と「一帯一路」協力に関する文書に署名した - www.hkcna.hk"
-    },
-    {
-      "articleId": "gnews_a50c6e01a16299af",
-      "headline": "中國疫情上升快速 年輕人梗栓風險提高 - 新唐人電視台",
-      "headlineTranslated": "Rapid Rise of COVID-19 in China Increases Risk of Thrombosis Among Young People - NTD Television",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T06:05:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPSC1iVFhySXYzTHFWLUVuS0lrUzlQUHg1LTZLc0pJY3JTV0luZmdTUS1pbFNpWFdScXJqYUYzemtKYWlLQmlFRUVmQVFzSU8xbkJOMzVzUTJRTHpId3BzVNIBZkFVX3lxTE0xOXVBbWIycC1odjk4UTEzY1BvOUpIcnVCS3BLMXU2N05wTjkyYUZMczdSek04ZGNreFF2YUU0Q0RzUFFka2ZGVnRFOXQ3MllMUWlNdEZuZ1VUWDFoT3dyNGNvWVZoUQ?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "新唐人電視台",
-      "headlineJa": "中国における新型コロナウイルス感染症の急速な拡大は、若年層の血栓症リスクを高める - NTDテレビ"
-    },
-    {
-      "articleId": "gnews_56989aebcceb0302",
-      "headline": "王伟中包钢会见国家卫生健康委党组书记、主任雷海潮 - Sohu",
-      "headlineTranslated": "Wang Weizhong and Bao Gang met with Lei Haichao, Secretary of the Party Leadership Group and Director of the National Health Commission - Sohu",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-11T02:06:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaXdiWTR3RjFGbW91N0l1NXJkbnExOVBCWFdET3JUb0dncmwtNVlrQnBIaUtLbEx3dW9DTjVDb1VucGZCdV8xTm1WbmdCdk5URDRUSWdUSWVabGQzcWItZFF5M1hYNWRtTTBrX2dlci1sQklUaHpmcnNweTM3MTVabkNkbE1rRXZodUs4Wg?oc=5",
-      "originalLanguage": "CHINESE",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "中国 (省未特定)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Sohu",
-      "headlineJa": "王維忠氏と包剛氏は、党指導部書記兼国家衛生健康委員会主任の雷海超氏と会談した。（Sohuより）"
     }
   ]
 }
