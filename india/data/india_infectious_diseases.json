@@ -1,54 +1,967 @@
 {
-  "generated_at": "2026-11-18T21:30:41.617989+00:00",
+  "generated_at": "2026-11-19T21:30:28.501590+00:00",
   "date_range": {
-    "start": "2026-11-15T21:30:41.617989+00:00",
-    "end": "2026-11-18T21:30:41.617989+00:00"
+    "start": "2026-11-16T21:30:28.501590+00:00",
+    "end": "2026-11-19T21:30:28.501590+00:00"
   },
-  "total_articles": 106,
+  "total_articles": 159,
   "state_summary": {
-    "Madhya Pradesh": 12,
-    "Kerala": 2,
-    "Maharashtra": 3,
-    "India (state not identified)": 85,
-    "Tamil Nadu": 3,
+    "India (state not identified)": 119,
+    "Uttar Pradesh": 4,
+    "Kerala": 3,
+    "Telangana": 1,
+    "Karnataka": 1,
+    "Madhya Pradesh": 27,
+    "Jammu and Kashmir": 1,
+    "Uttarakhand": 1,
+    "Tamil Nadu": 1,
     "Dadra and Nagar Haveli and Daman and Diu": 1,
     "Odisha": 1,
-    "Uttar Pradesh": 1
+    "Delhi": 1
   },
   "disease_summary": {
-    "Avian Influenza": 76,
-    "Influenza": 31,
-    "HIV/AIDS": 8,
     "Tuberculosis": 7,
-    "Nipah": 1,
-    "Dengue": 4,
-    "Malaria": 9,
-    "Infectious disease (unspecified)": 10,
+    "Dengue": 7,
+    "Infectious disease (unspecified)": 15,
+    "Influenza": 42,
+    "Avian Influenza": 113,
+    "Malaria": 17,
     "COVID-19": 1,
-    "Ebola": 1
+    "Ebola": 1,
+    "HIV/AIDS": 7
   },
   "articles": [
     {
-      "articleId": "gnews_994c7e01b875593f",
-      "headline": "Bhopal develops indigenous bird flu vaccine for poultry, Shivraj Singh Chouhan to dedicate to nation on Nov 20 - India Tribune - Chicago",
+      "articleId": "gnews_205fc2546f245479",
+      "headline": "India Maps Regional Viral Outbreak Priorities to Guide Zonal Pandemic Preparedness - Bioengineer.org",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T19:26:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOemZGTm9JMUI5c3NYNTdCVDI0RDhzc3FEZWl5aTI5bTA1VXY2M3ZFbXo3S2l2cjhuUmN4cDM1MEpNOWdBUG9RRWxUT3FqbUxpRU5DNUQzSEh6TFpmelAxZGNnT2F0eG13ZHBOTndXdlcwS3JkRnU1endkR2EtYmNoNXVnM0U3Nnkzdl9BbERiRUFIWmgwX2hvWllOYkZCRmk0QWQzbUxocV9pbG41dEJnS1U5TktrYUdhZGszVldUSkl2RjJyQXhRRHZ4dUlMd0dCRTJ2dA?oc=5",
+      "publishedTimestamp": "2026-11-19T19:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjM2NUZORzE2V1pkY1NTZ1ZjeVpvNlFCaFpWakFEMlVfcHVDekRrcUZnSVNCQ2x5T1lrcnlEZUxJOE9vcjNWamlYWlN4SDFQLUJkVUc1Wkp4MmFVcXJXR1VYOFVaZ0tmdkhKUXRDeGNuNlU0ei1MZVloNE1ZOXk5U1hNcDBPeE9teWFaTlZ0YVctVmx4aWgzQzhSbzAwNVg3ZlFyRW55SGx0LTg?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bioengineer.org",
+      "headlineJa": "インド、地域ごとのウイルス感染拡大の優先順位を策定し、地域ごとのパンデミック対策を策定 - Bioengineer.org"
+    },
+    {
+      "articleId": "gnews_d588d14fa927b0b4",
+      "headline": "Dengue, fever cases up as mosquito menace worsens - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T19:09:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLVZXcmI3RzZJazRwcUxWYmd0dlBOV0xLQWN5amNjMWk1MlFQTFFKenVVLWluMmFYc3RJSkJnSTJjbUpUcC1iMVVnZHFfZjFucE5tV2RDWTE4cXNYdTlBcFpKVW5XZGlzVzA4bjBrbExUMVJEX0hNVm1wYUE0VkpiSFlWUjE0UmdKTlcyZzNYYjdDN09Ja3lHNVZGbVZSMl8xNkpQcFV6QTdrV1dwWjh2UGxZTHJrYzNGaERRRml6WGjSAcYBQVVfeXFMTjhPN2ktMURpcHdDS2RLTGw3T0RXVFJDTlVNank0WEpGd2VsMmtzNFJJam9fcWphR3RTZnoxaF91QWFtOFJxeE1RZ1hSZlo2T0xVTjZJMUhSNnBITWZMVHE4Q1pkTzExbGpnSEphakNqenpNZjFXbDUzQjlaZHBKdjVTbENRemlqU3RfU0NhbFY1QlR2dWdQQjJPbmZLUHFiMlR6Y3VnYW85N0JJalJBQUI0Q0I0VlZ4QVozZGRRS09sRUhVYXVn?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India",
+      "headlineJa": "蚊の脅威が悪化するにつれ、デング熱や発熱の症例が増加 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_22d4ac6f024e89fb",
+      "headline": "Major Government Events on November 20 - Dainik Jagran MP CG",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T18:31:20+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRHlvaVN6ZUZocllGbGswT1pPVlN4cDRUanlaSEVnRVp0dXZpd0h0VWE5TWFvMjNLc3Q3b3hFWWE3cDU0M0J1S1JwY2dsT1hCUmd2Z2xURHFBWFZwbFUxemdCaTRwLVRsLUJ4blVQVVp0SHFYVjk2Y0xUV0Z6Tm9STFdQdjd6bmZOOUp2R0tDaFRUZzl3VzhON1JkNnFMVEpqd21mQ1VYaWN2U25ySHRlUzhfYw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Jagran MP CG",
+      "headlineJa": "11月20日の主要政府行事 - Dainik Jagran MP CG"
+    },
+    {
+      "articleId": "gnews_f264b96f7d39e6f5",
+      "headline": "Dengue Outbreak Closes Kerala University Campus - Urban Acres",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T17:26:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTEJYQUtRejFuMlFRdmJHMk1sWF9KWUlodGNYQUt0MklLZmhqTEZTYjlIVGNWZHlCclY1Nk1OekhqMzhPZzhTeFQySFdhUVZ0VGE2WExobkYwaFBIWjZicWFNcEc3ZFdRZWNCbWRwWVRTZjNSanh1eXRkYzZ2NFdmY3g2SW1QNG5uUXZHRFdBNWphQVJzS1F0NDhvUHNZQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue",
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "Kerala"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Urban Acres",
+      "headlineJa": "デング熱の流行によりケララ大学のキャンパスが閉鎖 - Urban Acres"
+    },
+    {
+      "articleId": "gnews_25dbf8796750ae67",
+      "headline": "स्वदेशी Vaccine करेगी Bird Flu का खात्मा, जानें कैस... - Bharat Express",
+      "headlineTranslated": "Indigenous Vaccine Will Eliminate Bird Flu, Learn How... - Bharat Express",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T17:12:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQjg2YTBYTDA3SGoyY2pHQzJsQ3lidUt2WWluLTNfUV9YQVg2a0lTT2xlTG1lUlEzU2Fza1pkaWtfVWxQWmVVRm96Vkc1X0gwUTNiYnowV0RoN0o3T19jaVBuLU1TQzdtdkM2TGk5T3VZMUVveEJXNXJhY1BZUm9TRnZncE9ybjJnak1ZeW90bEl2S3VFUjdNRm5WaG0tZWNnUVBpaUhua2p0cVhfendxZTFUZ9IBswFBVV95cUxOQjg2YTBYTDA3SGoyY2pHQzJsQ3lidUt2WWluLTNfUV9YQVg2a0lTT2xlTG1lUlEzU2Fza1pkaWtfVWxQWmVVRm96Vkc1X0gwUTNiYnowV0RoN0o3T19jaVBuLU1TQzdtdkM2TGk5T3VZMUVveEJXNXJhY1BZUm9TRnZncE9ybjJnak1ZeW90bEl2S3VFUjdNRm5WaG0tZWNnUVBpaUhua2p0cVhfendxZTFUZw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
         "Influenza",
-        "HIV/AIDS"
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bharat Express",
+      "headlineJa": "国産ワクチンで鳥インフルエンザを撲滅！その方法とは… - Bharat Express"
+    },
+    {
+      "articleId": "gnews_591327fc89e9c50c",
+      "headline": "CSIR-CCMB Hyderabad helps shape India’s wastewater surveillance guidelines - Hyderabad Mail",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T16:12:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNW9iSFE3LXhJN3BKd3JGNFRCdE1LSkEyQ1V1Sm5UZHJkNENzUzhqUmlQbC1PMFROZlBGMzRfaU1wYmhXLUVHRHJZaDhQWUpzSlYweGpuSGN5QmVUTnBGVl9Hb0FqR241VU54bEdmaC01MkRiV3hCQU5fR2k3V3p3b1NYaEp2RHQ1ZDZ5SkZGZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Telangana"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Hyderabad Mail",
+      "headlineJa": "CSIR-CCMBハイデラバードがインドの廃水監視ガイドライン策定に貢献 - ハイデラバード・メール"
+    },
+    {
+      "articleId": "gnews_7fc2168f682605c3",
+      "headline": "Dengue cases reported at Udupi City Police Station; inspector affected - News Karnataka",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:55:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTnBwekFvd2laLTJWNXRDMW5nckZFcVpTSnhMSy1mRkxHV3U2VXRHam11a0VLVTIxblNfbGNUcmhLWUVueDA2QWZWWVZ5Uk9rUFZhemIwQ0hwUnB2MkRtUWIxOWNJWFNSbFhPRl9POVoyZUNydmw1eEQ4Tm9pTnhaSDQtZGx2NzZDTzNhZDQyaDlIR3FGLVV4Y3hnV3pFNHRtdWlSeHRoSXZ2di1XOUdMeg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Karnataka"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "News Karnataka",
+      "headlineJa": "ウディピ市警察署でデング熱の症例が報告される。警官1名が感染 - ニュース・カルナータカ"
+    },
+    {
+      "articleId": "gnews_a9a81b7c0ee5fb51",
+      "headline": "Bird Flu: 100% तक मृत्यु दर वाले बर्ड फ्लू VIRUS का टीका तैयार, विदेशी वैक्सीन पर निर्भरता होगी कम - GaonJunction",
+      "headlineTranslated": "Bird Flu: Vaccine ready for bird flu virus with up to 100% mortality rate, reducing dependence on foreign vaccines - Gaon Junction",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:43:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQmU4QkJiRGFOUlpTRVhkWUVOYzh4Q194dkpBY3FieXZtMDg1VlQ1WFdSS0VxNjFtZk9sYjZSSi0wYjNSTldWLXZGUGxReUsySHNBTUwyN3hBUVBXdmdDdnFvRy12NkVNNnJ6WFVhZUw3eUJrWVcyTDRuWmRlQ2puY1dFaXZ4bk1GcVk1MUhybnRJY25RdzI2Vmw1RHJ3NDh2T3lvWWhhNjFlMHEtMFFuU2JfZU1hRjBHNGlBNU12MmRWWUpSSklIcXBxUzk1R2VxRXN2UzNSclRkX3ZEbHVkSk1sVkVUaW5hLWNDanNBNA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "GaonJunction",
+      "headlineJa": "鳥インフルエンザ：致死率最大100％の鳥インフルエンザウイルスに対するワクチンが準備完了、海外製ワクチンへの依存度を低減 - Gaon Junction"
+    },
+    {
+      "articleId": "gnews_45556b5d73280f3c",
+      "headline": "देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन तैयार, शिवराज सिंह चौहान कल करेंगे राष्ट्र को समर्पित - TV9 Hindi",
+      "headlineTranslated": "Country's first indigenous bird flu vaccine ready, Shivraj Singh Chouhan to dedicate it to the nation tomorrow - TV9 Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:37:59+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTHFXZ2dVMlFTdGpHQUNaNWFTRGVFYlRwUDlTc2FhYk5IOFVaTFlHSDE0OHBhNFpmb2ZKNGV2NWpnWDA5ZVdockJzYkFXM3FVd0ZaWkNzd2hEQlhER0RXcF9BdUlHMTQ4VTEtcHBhOFEwTFR5ckRtSkh1YTBpNEJKYkdGSWFYNF82Z3FTbThKN0pMZ0xrREUzRlhTRWx5SUJ3ZUlsWU4ya2tVZG9FUkJRcTJNNFdaNEZscmZ1emVzODMwS0FsMzVWb3RLY0xHQzFuWWw2bHpGbDlqTXFpUndHTFdsa0FfQU13NzlmMDlxLVNVR28?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TV9 Hindi",
+      "headlineJa": "国内初の国産鳥インフルエンザワクチンが完成、シヴラージ・シン・チョウハン首相が明日、国民に捧げる予定 - TV9 Hindi"
+    },
+    {
+      "articleId": "gnews_2cb3ec3c1fb01fba",
+      "headline": "Dengue prevention drive at Karyavattom Campus - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:34:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT0NDU0tzOTlOMmN3enQwYXIxUHBiZkItdGVLV0dEOGYyVmNwS2gxYXYxYXNxVmlxX2NGUE01R0dTemNfU2txbVRXVnV1UzczVEhhZ1QxaTRlR1BVaUx3el9ZaTN1OUZKejdFMEJzdFVFMGgxMU8xQmJ6Vi1hcXlxcW9nQUEzcDhxVHAxVDVzdG1Vdk1BTmRIQXBqak1INGJkMlpqX0h6LVZVcVhab1hWSjVkTE5aQkZMSnQyM2E3WkkySzZZNEx3ZjJCa9IB0AFBVV95cUxNOWFWZ0NfX19qOU1aSXBHTWViRlpDZmNFdTRjRk5fNHRvYkRPdTRlLXNEOGo5VzhITHNoZUQ1dFZzbm14OU9KTWs2cEJxMkxRVFB6el9NaWpvaDRoN0NSX1JGVmlpSHBabF9ib2M3RVZJd0hRTkhwR2ZOVWNTNkRHaGNTRU9nZEk5V3ZIN0ZHc1YtcWd3UEZZRXdqTmh2aUpjc0F1U09nMGZvZWJ3dHFRa1RtNUpWQVVDV1hlczdTS3VhN3ZfS2lwckJ2MHBnUUJ5?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India",
+      "headlineJa": "カリヤヴァットム・キャンパスでデング熱予防キャンペーン実施 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_c21c29f42da2df12",
+      "headline": "Bhopal scientists develop indigenous bird flu vax, hope to protect poultry farmers from heavy losses - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:26:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQS25idEc4elBwMTNkQzhMeFRlU09rZGVWOUpTVVpoeEdSU0Y1SFVzOFNUc2FCM3RjT0xwajJ2Ynp0aGdVMGNNbTRkS0JDN2pia2hPZ3NoeHpnSk9TNzk0a3R6aWdLWjk0MDh5U3ExTHdVVnp6cXUtLTZFWU5ZYWpob0NIeTRrdzVoWHJhMVhSdUFOdG0xSVZQVGlVaGFFMi0xMXU4dFkwdElQZE5ZbEhGRThjbVFQeWJydUNjVjZsQ2FvNlBZbm90ME9qQVVOQng5Z1BLVVF3anp0dGR2eHZ4SFBDYU1YQ3lZaHpUdVp6MFg4NjZRbllNcEZqVHBxdXhZZXNn0gGIAkFVX3lxTE9ieU9xUDBlQ0R3a2hLM2hPVEZuMXdMR0Z3aC02TjRYcFhjQW0zbGdKNGtGcWJzWmNCTTVuRWF0a1N3SE8wNE9rTnZmb1JRWXdNYXFIajBRRjRFUUlZR1VZZUdXRlBxRU1aaHpLZUJzbXpZZG8zR3FaRm1QMjBSbDNJVW8zVU5abWxac081NGtLam9Vdmh3M0JQaGRvUUVkbVVVTlR0RDBkLXZsUXA2dUJvTE5Kdkhsa3ZqSUQ1R01yVlZ4QTdYbjJxdXVWSmZmNHVzMnpLczZkVnR1NS1vX3lfLTByS3h4WEVVV0NvVlBFRTBkbk1qdEtFZHZ1MTJjWlhOZ3JOcUhMNA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
         "Madhya Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "India Tribune - Chicago",
-      "headlineJa": "ボパールで家禽用鳥インフルエンザワクチンが開発、シヴラージ・シン・チョウハン氏が11月20日に国家に献呈へ - インディア・トリビューン - シカゴ"
+      "sourceName": "The Times of India",
+      "headlineJa": "ボパールの科学者たちが国産の鳥インフルエンザワクチンを開発、養鶏農家の甚大な損失を防ぐことを期待 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_a7fa54effba46965",
+      "headline": "बर्ड फ्लू को हराएगी स्वदेशी वैक्सीन, साइंटिस्ट एस नागराजन से एक्सक्लूसिव बातचीत - ETV Bharat",
+      "headlineTranslated": "Indigenous vaccine will defeat bird flu, exclusive conversation with scientist S Nagarajan - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:23:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVDdxNnAyaUpQMGNXUWQ2bG1LelV1dmVVR2hBUDVaWUliYzhmbFo1VXNuZ0k1cUlmNDVJbEJabE5zSVRWN3BIeFJENE9Kay1mQTNaTmJtdGFkVWgzRXJBejNRUjR1Z3NwUlRYamM4UV9RbWxhSWdRZ2JJYlJvVFZkNUlNTmdBblY3UWcyeFFScnVvUXdDREdYN3hBYW4wYThRcWMxbE81Z3kzQW53UWtIeFhDemZLeDJKX3hBQUp0RDRfb0xRM0hqM2lIWnE2b3prSGdvZ3BIdDFLTVd30gHiAUFVX3lxTFB0dUoxdEhfV1Jjd19DeF8wb2xjOXdxTDc1REpaRnkzTmp4VGpxQnRBcnAtZWRQRmFpYTh4OVM0LXU0ZXoxOWxRVnhfZ0NvRm5sY3ozTDdabkNXX1JNU1BiOFkxa1Q0M3lZeDFLU2JENWxwQWtmQUp2MTVkRHkwY1FKSkRQVGd2U0Vudl9XcWVOcjZ5QnlRNF9YMXpZbTAweDhabkRzT19Tcms2OHQtRlk5a3VIMXItVUZGMmY1SnNMSFBHdVZiQnJOR29CN3hPaWdxMkdpUGxHSTlpTDRfRkhGYkE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "国産ワクチンが鳥インフルエンザを撃退する、科学者S・ナガラジャン氏との独占インタビュー - ETV Bharat"
+    },
+    {
+      "articleId": "gnews_96d2833a4e2f9c09",
+      "headline": "Bird Flu Vaccine: 'आत्मनिर्भर भारत' की बड़ी छलांग: बर्ड फ्लू से लड़ने के लिए देश में बनी पहली स्वदेशी H5N1 वैक्सीन, मुर्गी पालन उद्योग को मिलेगी नई ताकत - Moneycontrol Hindi",
+      "headlineTranslated": "Bird Flu Vaccine: A big leap for 'Atmanirbhar Bharat': India's first indigenous H5N1 vaccine to combat bird flu, boosting poultry industry - Moneycontrol.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:12:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaVRDeVZwMkZqVkhYWDA0ZUtZcnpQa2x3dTY4VWpLZXJLT2dNR09uVi05YXNkbEhxTEMyWU1OOXl0SDNDV3pkUDJ4eElHeVN2d3BtVFhjWDc0bXNvbmQ3SVRjX1FEcU11cHRjdUtuYmVtMTNNUjRFQnNSaXdJR3VCMjZoMkxQOEJNbHVoRmtlN1ZlWG5ZM1oyZzVvOUZOU1ZyWEZTQWtIT1FKQlhLRU5BV2g4NUxLMUh5MXpuVXQxbGR5U2h4cjBPZzE5LV9SUW9LMmlBRGhBdzFDN0NLdWNvYWxzN3HSAeoBQVVfeXFMTTZJU3VvelM4aEpfVW1JWmhuUnAyZEdpamw0aWNkWEZwN1V0TE1KRGwyVHlnNVlKM1RPN3NmYkRpWkpwYS1Va00wNldQYUxZdkdxTUdOVVFJY2hucW9YSjA3eFR5N1ZrZUN4WGdBSkxIVkdlUnh3WF9KU0MzQmw5M211MWwwOXFmeERtdXpBLUFwckdqb05XelZHR3Rkb2VPMlFNeF9hWTV6dDVFWGttMEx4Z05SazhPLVFZalR1QUpUeG1wY3EwMnc2SUtuQnNmNWtCR0ZuUXZvX0RsTlJmWU8zSmJ0aHNRTlRn?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Moneycontrol Hindi",
+      "headlineJa": "鳥インフルエンザワクチン：「アトマニルバル・バーラト」への大きな一歩：インド初の国産H5N1ワクチンが鳥インフルエンザ対策に登場、養鶏産業を活性化 - Moneycontrol.com"
+    },
+    {
+      "articleId": "gnews_bbfc6fc7daa68398",
+      "headline": "भारत की राष्ट्रपति श्रीमती द्रौपदी मुर्मु का ICMR, राष्ट्रीय मलेरिया अनुसंधान संस्थान के स्वर्ण जयंती समारोह के शुभारंभ के अवसर पर संबोधन(HINDI) - presidentofindia.gov.in",
+      "headlineTranslated": "Address by the President of India, Smt. Draupadi Murmu at the launch of the Golden Jubilee Celebrations of ICMR, National Institute of Malaria Research (HINDI) - presidentofindia.gov.in",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T15:08:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUUhjUV9OQkdnb0xYRHpMd0luU3RSbGJxYWhvdTRzSTEteFVCN2Zsd3RJSXFJcFhGM0ZHSjluQVYwRWMwdG1POXJHdS1UaFdQVnVBMXBRSWpseGFXSzE5YWdFTDZpQTFuZFU0RkNjYjJUZTJuQnNabzY1Wm9laDVybDhkRjM3LWVHQV9JazdSUFlKX2tWTzR0U2ktSGdwLXQ1a01JMjk5amFiSGp5RGk2NDV1X2pHMmRVbEItMk9QOUJLWWs?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "presidentofindia.gov.in",
+      "headlineJa": "インド大統領の演説、SMT.国立マラリア研究所（HINDI）、ICMR ゴールデンジュビリー祝典の立ち上げに出席したドラウパディ・ムルム - Presidentofindia.gov.in"
+    },
+    {
+      "articleId": "gnews_94b407d860456262",
+      "headline": "India To Track 4 Infectious Disease Syndromes Across 70 Labs For Early Outbreak Warnings: How It Will Work - Health and Me",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T13:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOd2pHVEdsOHBhVGJDaDE1X0w1OGwzWGdiQW54UzFYWjhiNEN2MlNkaEFxTGdSUnZnQU0zZmJwUDlTUkNtb1dvQnVtVERNeTd4eW5lWVR5X0lMclFPLU5DcWdLME81VlFNUUVCYXRyZkt0SHNpOUlocHhZcEh1bkhYN19ZUzFTSF9rWkwzLXFHWXlpUTdFR1NBRDc0bVNKV1BhcmtvQi10UVN0WXRaa1ZvSlBuZ0RVd2VmQU1seXctZjFFU2l3bmluSVNvanlqdS04RmR2cDU5d0RtenFMNWZ2MWxmWGxlNzBOYTg0TXB4X0ticUNDN0E?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Tuberculosis"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Health and Me",
+      "headlineJa": "インド、70の研究所で4つの感染症症候群を追跡し、早期発生警報を発令へ：その仕組み - Health and Me"
+    },
+    {
+      "articleId": "gnews_c46f4f8fe2886183",
+      "headline": "भारत की पहली स्वदेशी चिकन एच5एन1 वैक्सीन का शिवराज सिंह कल करेंगे लोकार्पण - Dailyhunt",
+      "headlineTranslated": "Shivraj Singh Chouhan to launch India's first indigenous chicken H5N1 vaccine tomorrow - Dailyhunt",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T13:13:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQdkoybjdDamJBMEF6UEpvUG53dXNheVNkelk4M0lVTnBpbUppNFpiYnZsa2pCZjFYVjFVZW1HMzdPVkh5eHpqV0ZwWVhocmluallKMTY2TEVyZHhOb1FSdVVlcl85dXo0RDlMeTBmUnA4a0ZNdHNiSEdndVJlMnc1SXR1VmIyam01ZTJjV3JNZDRvY3QzUHptVmYzUVRHZlpQcDVlVktPRHFrS0ZwSVdRZkpjaUd5dklOWlNFQTFERnpVQ1B6WEhPcWRSTlRwSkhDTHpQNkNiU3d5S0dDX0NkYmt2UW9ORXZSRk1YUHZBemMzSTk3V2JvYlRNQ1NSdk5yMVZHeUQ0N3FSTVJiWkhudDBrRQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dailyhunt",
+      "headlineJa": "シヴラージ・シン・チョウハン首相、インド初の国産鶏由来H5N1ワクチンを明日発表へ - Dailyhunt"
+    },
+    {
+      "articleId": "gnews_791a8acdb9e1291d",
+      "headline": "भोपाल में 20 नवंबर को देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन राष्ट्र को करेंगे समर्पित केंद्रीय कृषि मंत्री शिवराज सिंह चौहान - Mediawala",
+      "headlineTranslated": "Union Agriculture Minister Shivraj Singh Chouhan will dedicate the country's first indigenous bird flu vaccine to the nation on November 20 in Bhopal.",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T12:56:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFMkJZRUZWaVRlQURDUjR2OVFOZFphZ3c3cXpXYVhMRXpCT3llVTlqSHZkZTk1N1BFcWJ3d0FNcE5XUnUzZ1hmTzU5YllWRkNSd0EtMXFtRUQ2aEFPQzhoV0twOUNOSkk3dG1NVlVKNA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Mediawala",
+      "headlineJa": "インドのシヴラージ・シン・チョウハン農業大臣は、11月20日にボパールで、国内初の国産鳥インフルエンザワクチンを国民に捧げる式典を行う予定だ。"
+    },
+    {
+      "articleId": "gnews_2cf602bd760b62ab",
+      "headline": "India Set to Launch First Indigenous H5N1 Bird Flu Vaccine for Chickens on November 20 - Medical Dialogues",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T12:39:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd01sVkpMT3ZfZm9mWjhzalVVQ2hVWmpNZDAwOW5sbUx2OWlyQXh6Z2duVExJaldWZERIblRvVEFSNllzRnZxQzRaa1JYQzBxRWZjdEd0U192ZDJ5Mmt3ajRlRFpsRHloZ05NREFqNlZlaVU0NWd5UXRNZ04tNHhjbklpeGFnQUZZTFZISW9VY3dDZmJCeEt1a2NtMWFjRjI2dXAxUXMxQkozSlRIeWtETWlEUW5hc1RYZWIxQVBrd010cldWVlJlVXB1bWxfODFNN0hJTHpn0gHbAUFVX3lxTE1BZjI5UG9zeWVqeGZnNHkxVnoxSHh1ODR5eHg3WmFka0JEYkFJSVdETUctNGk1X1p4Z3RFcVY1ekVXVlNZNk5aV1A5UTVJUTlRSUIzRE8zanBtVC1LWkEtanZ2WEllWDBTSjJFaDZmZmhhOXlMT2lIQmtrYmExUHlPLVlvdU9yOHlYVTYxWUt3T1Mta0laS2dsa3h6VjRPZ1FzMVYxd016SDEzbzJKQ3dkaXdHQzZiV0FBakFCVDBINmN4MmZ1QWVkQjFkUmJkVlVfLWlWX2VOenpyQQ?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Medical Dialogues",
+      "headlineJa": "インド、11月20日に初の国産H5N1型鳥インフルエンザワクチン（鶏用）を発売へ - メディカル・ダイアログズ"
+    },
+    {
+      "articleId": "gnews_bab76ce0b1aa61ed",
+      "headline": "Dengue cases rise as admissions in Bhopal hosps reveal gaps in reporting - The Times of India",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T12:03:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZmpHSGFvUnpCYVl6Wm95eTVISGVRZmFkRFgzM3dKNXFSTzhUNXJOQlZGckFrR2lhT2t0YTRReUdOZjdfNXZDM1BRSTJpckVHdXNaMUVua3ZVNEFpaXVOSmRnMElhaFVCQzVqdk1XSWNsMklRRUN0bzA3ZTNINm5ESzVNU0RaM2NPU0owVTdfV3hrYmcyWTlhYXRXUmZzSzQwWHUzckYycTRWRFpDUlZVUXpPVmZ5Qk1iODR0T2NaSW96RkVvdk5CYWFlV2dpU1AzVDk4ZzZUalMzVW5QZDRv0gHkAUFVX3lxTE5IeDZSV19NLXFRTW5SS0dtc211Zzd6TDc3bV9lSjdvRTlPUnpjNDNRUDFaSGJmRktmSV80Y0Fla3VvWkw3SDZpbG9WWC1lVDliZnNvandnNkpabEd3UjB2cFJGOW95WEhNcFJXMUlxTlJ6ZnFqSUQ5NTdTQVgxTjJ1ZTZ6b190WFduQlRFX1lVTlF2WERaQmxlY2o4Vm82NWwzZlBUNWU4YlVWd2JTeWtWRVNxdFlBWElJV0RoZ2FTSFdlcnh4eHlNMERtZXZid1BwS1prUVJGUHFkdUd6LXVGZ01ROA?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Dengue"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Times of India",
+      "headlineJa": "ボパール病院での入院患者数の増加により、報告の不備が明らかになり、デング熱の症例が増加 - タイムズ・オブ・インディア"
+    },
+    {
+      "articleId": "gnews_e19243b1b81da4b3",
+      "headline": "भारत का पहला स्वदेशी H5N1 बर्ड फ्लू वैक्सीन 20 नवंबर को होगा लॉन्च - Krishak Jagat",
+      "headlineTranslated": "India's first indigenous H5N1 bird flu vaccine to be launched on November 20 - Krishak Jagat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T11:51:36+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2lxSVR1aVZyaHFfOTF6V21DYklXazlidDdpRkJEV1FleFVkeDVYWHZQLTRnSXFDZDk3d1NJTmttMV81QVVJdm5fWGs3MUdKQTFxNnU1UHEtWlF1MVllM2hzcHNRaGVlM01XcnBOUV9KcDhPZW0tQktwZENjamhsUDEyaFVsLXBrNGk5ZThpdjc0WDBDbGZmZFVFT055ZjZSdHdTLWZUQVF4RXQ3ZWdpMEVzM2ZXbnJXVE5ZQVFn?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Krishak Jagat",
+      "headlineJa": "インド初の国産H5N1鳥インフルエンザワクチンが11月20日に発売へ - クリシャク・ジャガット"
+    },
+    {
+      "articleId": "gnews_71f5b3c3d58a1c01",
+      "headline": "कोविड काल में रखे गए अस्थायी कर्मचारियों का मांगा हिसाब, एनएचएम ने जारी किया आदेशतीन दिन में देना - yashbharat.co.in",
+      "headlineTranslated": "NHM issues order for details of temporary employees hired during COVID-19 to be reported within three days",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T11:45:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNcnRjWUF4aldhcEVuVjZ2eVc3LXBWTUFvNmhqQ05kZDFrSi05dTdzZmdES2U5c3pnTWNaT0JBaTV0Q2ZNWVREU1BoMU90TjNZYjRuUlM4cDBrZkpBa0xTWWN4SzBHa0dleXpCSm1SSl9udFFfWW5aeHZPWXFhY3c2d3RmNmt6VC1kQkpJNzBXZ1NaNmxidF9rdUVwdlFPVlE3SFM3WnA4TTBXZWZraUc2SV8tcDZKN3NpVjRTbjd0dGxlS0pEbE1FMU4xdS14VFpqelcxOUFacl9CUDJtQ0hVSmNlRm1WVmRSLVFZd2w4ZWxDMG5BU3RZN3hLMnpuR0N6R1o0Z3F4eFN0VHZVNFRsSThEZ3B3NkVjdjdvaHB4RzU5SHZMWklSN2IzdURESGFBaFlXT0dOVGVRNUVsUmxBdA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "COVID-19"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "yashbharat.co.in",
+      "headlineJa": "NHMは、COVID-19流行期間中に雇用された臨時従業員の詳細を3日以内に報告するよう命令を出した。"
+    },
+    {
+      "articleId": "gnews_0ffe2f429b7a439d",
+      "headline": "भोपाल में 20 नवंबर को देश को समर्पित होगी स्वदेशी बर्ड फ्लू वैक्सीन, केंद्रीय मंत्री शिवराज सिंह चौहान करेंगे लॉन्च - Krishak Jagat",
+      "headlineTranslated": "Indigenous bird flu vaccine to be dedicated to the nation on November 20 in Bhopal; Union Minister Shivraj Singh Chouhan to launch it - Krishak Jagat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T11:41:30+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNaWN3RFFvV0xiVDdaajRELWhiOVRzam83RDdGNkhUbWpSRWdjWXIxWTdqdzdVRUsydEpRMG9ua2dwUVV2MTF5RWctU1dwaXlBNndaQ0lzVjM0X280ZDh0b2g2bGpKZ3JBTWxDUlN2Q1lZcGRHekg2bHRZWnBqb0oxU3JFN3hKTDdDTDB5RDVYRi04VWp5ZWl6VF9GRzdrVXZXTEtwbzc0T0kzRTJicWd0M1hoZFBqWTFlZW5qWS1qLTlUWWl6WTh3QW1DN2tody1pdGU1SG01TXZQUU1LR04wQXdjWnFONno3TG4xRDFkdkJScGhLQmNka09paTUzVmJqMmtuSG5IZmNsQjZRMFpjcw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Krishak Jagat",
+      "headlineJa": "国産鳥インフルエンザワクチンが11月20日にボパールで国に捧げられる予定。連邦大臣シヴラージ・シン・チョウハン氏が発表会に出席予定 - クリシャク・ジャガット"
+    },
+    {
+      "articleId": "gnews_aadd557742306faf",
+      "headline": "Vaccination and Surveillance Must Go Hand in Hand to Keep India Polio-Free - TheWire.in",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T11:08:10+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYy1Pb1ZyZnRZS0lldUVRclVhRm9xNlphRmlpT0RSREVESlZiMkFERDBBR3Uxb2dMV2MweXZ5VXIwQ2dGaGM5Mnl4a0FVdWo5eUNUN2lJdjZUSS1ITW92blMxQ3RKRTFEcFlBYWpoUmVmRVE3cWhzQ2hDQ1lnX1dPdmFWVEE5VzFMY1VYM2JMdjRjejJva1BuTWNiSVlHNk5YRU5wNXpZRHJXVFBjUzBOd2g3NDVmMlM50gG4AUFVX3lxTE9jLU9vVnJmdFlLSWV1RVFyVWFGb3E2WmFGaWlPRFJERURKVmIyQUREMEFHdTFvZ0xXYzB5dnlVcjBDZ0ZoYzkyeXhrQVV1ajl5Q1Q3aUl2NlRJLUhNb3ZuUzFDdEpFMURwWUFhamhSZWZFUTdxaHNDaENDWWdfV092YVZUQTlXMUxjVVgzYkx2NGN6Mm9rUG5NY2JJWUc2TlhFTnA1ellEcldUUGNTME53aDc0NWYyUzk?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TheWire.in",
+      "headlineJa": "インドをポリオのない国に保つためには、ワクチン接種と監視体制を連携させる必要がある - TheWire.in"
+    },
+    {
+      "articleId": "gnews_47e7e6694b7872ca",
+      "headline": "India Unveils First Indigenous H5N1 Poultry Vaccine - PoultryMed",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T11:02:52+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YYnpoTzJYSGgtMm5xUkZxZ0M4OVU4VGQwRDFndzVUMnlBYVR2dzJVM0UxdXJITGNUVjBSUjdIMWJmRDJqWDI2UmZ6RmZ5T3hhcjBMTGZTcVc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "PoultryMed",
+      "headlineJa": "インドが初の国産H5N1型家禽ワクチンを発表 - PoultryMed"
+    },
+    {
+      "articleId": "gnews_f1f767996ebf8d99",
+      "headline": "What Will It Take to Keep India Polio-Free? A Question to Reflect on This World Polio Day - TheWire.in",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T11:00:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdVJRYnJSeGVFV192S0NISlNxNUhrVjloTjN4VXZ6TVVyYjJDbHRqbk5FQ3hkQ3NVSFFYVkZWdzBsYUx1UWJmS3BkU0pfbjdWY0FaV3dOcGZEclhrOUJieXdnelU2QWZydmh6RGxCazg1MmVLb09hdWdMT29qX05UTGlTbmpCZ09oMHdYdkJkcWYtczFmMjRHNG44SDNmeVgtTzZZQTJOd1B1XzEtanFXWUM0S25MRXgzQ2cwX052aS13d0RIWVHSAcsBQVVfeXFMTnBzUVRrNG9VQ1lvOEZKVUhEaG83YXNYdndHelUzNUV5UGdNR0c1Yzhrdl90a0ZpbXBwQ2NheW12SEgtSDNmS1RmZEwyWFFMRkFsNm9nNlB1Qmc3UDJnWU1zZW9fNXVwRTRvR0pwX0lhczFsd2QwRTNYdnp6S0RWVE1TeG9xa3pQem8wRDYxenlzM0h4Y1NFX1I4RDBuMkNWVFAzUUU3LU5vSUZzdHVaRmxIM3ZjdkRrZlMzMFJDd0lKNm1oaE5kSXUxdHc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TheWire.in",
+      "headlineJa": "インドをポリオのない国に保つには何が必要か？世界ポリオデーに考えるべき問い - TheWire.in"
+    },
+    {
+      "articleId": "gnews_6f1c050e6d20a8d1",
+      "headline": "India Develops Bird Flu Vaccine - https://www.tabla.com.sg/",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T10:52:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BN21VclZZbVhoVXJfakZGNm1feUlNWHpZQkVMT2RZZ2NPM1o0LVp3aGRqakVvVDdGankyVzZkVjZsTUV1WUZRNWNVRGtyaTVxVmlSZ0FmQ0NWMmoyLW5KSTJfcmhyMmVjeERNemFFZW1CSEdjdmc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "https://www.tabla.com.sg/",
+      "headlineJa": "インドが鳥インフルエンザワクチンを開発 - https://www.tabla.com.sg/"
+    },
+    {
+      "articleId": "gnews_8f1f3f72f2a3df16",
+      "headline": "देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन तैयार, लॉन्च करेंगे शिवराज सिंह चौहान - - Kisan Tak",
+      "headlineTranslated": "The country's first indigenous bird flu vaccine is ready, Shivraj Singh Chouhan will launch it - - Kisan Tak",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T10:40:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMW4wQUxhWUVoR3VhdlZVR2x5eVpiZXhtSGF1MkwxLS1fNnhOR3d1Z2JRblhWMVFTOVBiWHZoUllQbXQ3bHcyQkZLQnhlMHAtdGVaamVsSzE5ZVVBU2NNbHNuQWlvbHRLM2VNWmFGQ1JSWktoZFhCQUkwSU90VUxGNnpCdHlCUVZMMUhrZDlnY1gzS3NXX2U4aDdsNlpCNXVmbE9iaEx2ZTNwdnk2a0dWNXNrNVYwWldDbnQ4eWg0ZVplMXh4RUtNTjY4QzZGdw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Kisan Tak",
+      "headlineJa": "国内初の国産鳥インフルエンザワクチンが完成、シヴラージ・シン・チョウハン首相が発表へ - キサン・タク"
+    },
+    {
+      "articleId": "gnews_9ebd8a99706d1ceb",
+      "headline": "India to Launch First Indigenous H5N1 Bird Flu Vaccine on 20 November - Global Agriculture",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T10:21:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTRFWkxLdmowd1ZfQ19Sa0ZQWEZfaDZDc1lBTU5ZVTJyeWtnTUN3VjVKME5CbzhnT1BzVXBsWDdrMjJPQ1FLTV8waGxqdDJXS3d5OUVmSTRBUk5BUzJjLTRmVGgwemJmN1Iya0xldy01TEJ2a1dvN1VDck5iVkZjaHpKVE5PcFZ4SUxCbUZkMlRoRUJtTExnbkxjVkZrZDBiOS16cm1qVVhMdzhmSEdDcGRfUFFXaDhoZFE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Global Agriculture",
+      "headlineJa": "インド、初の国産H5N1型鳥インフルエンザワクチンを11月20日に発売へ - グローバル・アグリカルチャー"
+    },
+    {
+      "articleId": "gnews_82ffe430a6a8627a",
+      "headline": "India’s First Indigenous Inactivated H5N1 (Clade 2.3.2.1a) Vaccine - INSIGHTS IAS",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T10:20:57+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMTJrWS12MHlQTWREeUNpUjc5TkZoSGZiMjRfNWVXLVFqekVvQnh1N2V3dkxlLUx2ZlBNNnFnVERERy1jQmltYUUtbTZ2ZUNmLXlRVmJMUTN6QWxoS3NTeldNeGZJSzhNeW9wR19lTVkzX0FpOTdYYV81T0JxZVMzYnRvWGUyQk1QQnpubGZENEFkZjkzd0dXOWlpX0dDTVRVWi1wYUdSWHFLLXc?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "INSIGHTS IAS",
+      "headlineJa": "インド初の国産不活化H5N1（クレード2.3.2.1a）ワクチン - INSIGHTS IAS"
+    },
+    {
+      "articleId": "gnews_94efdd462d38e308",
+      "headline": "India Develops First Indigenous H5N1 Vaccine for Poultry, Launch Tomorrow - Dainik Jagran MP CG",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T09:54:19+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOGFwYngxaGZjY0RPTUMxY09kSlBTaUdQamVIN3JkQ3BmQUp5UmxaSDd3Nmx2MTJyTWc2ckYwU3RKVUJXbGR6bjByMXlrWXktTFZZVUJNVnpIMGw1dWxmLUdEMmozblRiVnZUQ0xNY3NVMGNtUUNvbEgzcmM0SWNBTDNvYk1zZW1jTlAtNkM0QWV3MVVrS3VvdjhTazkwcElJb2VPdVNmdkZ4d0E2aWdMOTRrVDkySGQ3SUhIa0poeDJzczhWZmxCVGw2UF9aN2FRbUtr?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Jagran MP CG",
+      "headlineJa": "インド、家禽向け初の国産H5N1ワクチンを開発、明日発売へ - Dainik Jagran MP CG"
+    },
+    {
+      "articleId": "gnews_b74fcb8b4cae7bc4",
+      "headline": "India to launch first indigenous H5N1 Bird Flu vaccine on November 20 - Daijiworld",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T09:18:32+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zZ2tjNWVISllZQmpraUJUX0kwUkRvZVJPQTJ2OURqNDNJVkZDb2ZqSFUwS3phNFZnTWtpQWxfZDMwSHNDZ2VMZnZwdHB3cUJBbkd5VGlUaVZyd1NuVWVRVDVLWnhYelhhTk1lSUZMT0dRTEY5SjVr?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Daijiworld",
+      "headlineJa": "インド、初の国産H5N1型鳥インフルエンザワクチンを11月20日に発売へ - Daijiworld"
+    },
+    {
+      "articleId": "gnews_299e65cbd8d4acce",
+      "headline": "बर्ड फ्लू पर भारत का बड़ा कदम, पहली स्वदेशी वैक्सीन तैयार - 4PM News",
+      "headlineTranslated": "India takes a big step against bird flu, first indigenous vaccine ready - 4PM News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T09:16:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQUJqOVpScHU0MEpaZ3M3am1hNXp4OTdhcTc4c0RvODg4Z1Y0M1FjS1BVUVdvbGlJeU9NSUd6b19zSldRMlhvSjlLejNRVkJVZEdCNkRBempWRl9lNjFTS3VNSFRUb1RvTDVCd2I3VWRhOHVjNlpvRkJ1LVh1Z1d2QkR3ZmVuNm1HQURycnRobkFxTVYyanU4MmFCQlNGR3hQaWZj?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "4PM News",
+      "headlineJa": "インド、鳥インフルエンザ対策で大きな一歩を踏み出す。初の国産ワクチンが完成 - 午後4時のニュース"
+    },
+    {
+      "articleId": "gnews_2394b2336f40d570",
+      "headline": "India To Roll Out Its First Homegrown Vaccine Against Bird Flu - News18",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T08:31:38+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd3hMNGpEUml0NXJvdGpCZjJoaUxzY1g4emdDdTRfNk9LeWVoRG9kQ0FVQmR6eW41cVVnWFRSWk5fcEZWVGJnNDJXbUFFVTlkS3VzaUFjcFc0eWhLaC1Bb2FkaEk1b2p0dG9FcHZVejNUQTdJSmJvb285UF96bThhT1pCMTJHMVo5b0xiUzRUQ2NuN1lGQ05id1g2UkRHZE5SV1gwN3l4UnpYM1JFaWJlTFd0OUtZUWxmMnE5QUR1MzlVSGhvbmpBTHR0S2TSAcwBQVVfeXFMTnd4TDRqRFJpdDVyb3RqQmYyaGlMc2NYOHpnQ3U0XzZPS3llaERvZENBVUJkenluNXFVZ1hUUlpOX3BGVlRiZzQyV21BRVU5ZEt1c2lBY3BXNHloS2gtQW9hZGhJNW9qdHRvRXB2VXozVEE3SUpib29vOVBfem04YU9aQjEyRzFaOW9MYlM0VENjbjdZRkNOYndYNlJER2ROUldYMDd5eFJ6WDNSRWliZUxXdDlLWVFsZjJxOUFEdTM5VUhob25qQUx0dEtk?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "News18",
+      "headlineJa": "インド、初の国産鳥インフルエンザワクチンを実用化へ - News18"
+    },
+    {
+      "articleId": "gnews_f0f798cee53cd197",
+      "headline": "PMJAY: आयुष्मान भारत में जुड़ सकते हैं 89 नए हेल्थ पैकेज, ये बीमारियां होंगी कवर - ABP News",
+      "headlineTranslated": "PMJAY: 89 new health packages can be added to Ayushman Bharat, these diseases will be covered - ABP News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T08:23:48+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLVdBTmItM3MxMVlWSnZMMi1WVUZrTF9hV09nQUk1SGhLb09ZTTJ4aVpOU01GX3pSb0M2dWFVZ0w3c2d5RWlOMVpKUmM2Q3VkMGJseGd3cTEzVXgxY0owR3JReGR6RTU0N3cxNlJEOW1WX1I5YjI5MVU4NTdkMHA5RFFGT2VoN0NFUE9ZaUhUOTdNR21hN0VvOXRJUmFNM2tVTkNZQ2Q0UTIydzlzNnBON3FR0gG3AUFVX3lxTE1jNDhOcWR0TGI2U1FVRjVOYUxwWi1xTFFMQ2k2Q1pFYXBZR29NRVoxWnI5RXJnMm1lU0V5MHlZMFpUN2lZS3RteXVhRmJLS2JnQURpZkxqZEVVZW9uX0FwbHRyRUxmU3ZtbUJmOEs3QVRWaXFtU3R2dERKSUJoOFZhUWpJOE1CTXNUUExPZm55VDd1SzhPWEhrV0hOQS1aTGIyaWNxdlhueVlGWmFUMXlKLVJPUXpGOA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ABP News",
+      "headlineJa": "PMJAY：アユシュマン・バーラトに89の新たな医療パッケージが追加される可能性があり、これらの疾患が対象となる - ABPニュース"
+    },
+    {
+      "articleId": "gnews_5c330c029c000ce0",
+      "headline": "बड़ा सवाल: मलेरिया के खिलाफ भारत को मिली बड़ी सफलता, क्या अगले चार साल में बीमारी से मुक्त हो पाएगा देश? - Amar Ujala",
+      "headlineTranslated": "The big question: India has achieved significant success against malaria. Will the country be free of the disease in the next four years? - Amar Ujala",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T08:06:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWXRWd3lPdVdWSHFzNG9RdzhZLUpaMG1fekVvNnVodUdzei1nd2JvV2JHRXM1VFBrZmlkNGFxWnZvS1hjYm9LR2NweThvTktONERqcVFSX21Zb1BQUjN3aG5vZG8yRzJmUi1qa1hpbkdnekZlcnN3UzA3Q0N2Vk5QQ0NVRl9HVDlZV1pfV3BCZnJfRjU3bjBpbENXYzJJRzRYQkg3Qk5qSjc2Z0trc2RpY3hORkhndTV5SjMzeERSdGFnUlRfcUxQZHRydU8ySTTSAdQBQVVfeXFMTW0xRkR1SXlIeVBlZVBPYmkwQ3JuMmFHR1hBdGlHbzAzVnlBZW9XWnlxLTJaSl91ek1ydGNXd0Z4Qm9idWJNQnhUTjdCVTNDbXFrak1OcEtEakNXTHRWQWhoeWlrRkZrMzBzUFVZX1pvVmF5eF9zQkVTU0tieFJPWHBVSkVObmNXbnNrbm56em5YeHZtV1hOb1E0WkZNYlg0MjRKM21pVFZ6azhHV1hOeEZMUzY4NVFET1Z1dHhyX0EyVWNjaGFpZkhrRXBVSkJzYzBEQzE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amar Ujala",
+      "headlineJa": "大きな疑問：インドはマラリア対策で大きな成功を収めた。今後4年以内にマラリアを根絶できるだろうか？ - アマル・ウジャラ"
+    },
+    {
+      "articleId": "gnews_dadb8bb6591fddf2",
+      "headline": "Single-Dose PCV20 Vaccination Proves Cost-Effective for Vulnerable Adults in India - Bioengineer.org",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T07:57:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZjM5cEdZYkNITXBwLTI2Q25KekY0WTI0QjhfZmk4dFRubkEzQ2dQQ3FhTWt4ZGE5ODdET05Pa1MzVDZ6X01BMUFmN1FzYjZzR05yUTZwQzhGQUJPRFN1b1ZKQ2hXaVc1TVoydDBkQ0JsVzBGNVB4OWlCMFZ4NXBMTldJdFJvUWgwVUNYZl9Kbl83QUxnREVpUXhnYTZ2MUFnanV0dUFrT3prblE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Bioengineer.org",
+      "headlineJa": "インドの脆弱な成人に対する単回投与PCV20ワクチン接種は費用対効果が高いことが証明された - Bioengineer.org"
+    },
+    {
+      "articleId": "gnews_aa4a9fcdcc231dae",
+      "headline": "Indian scientists develop first locally made H5N1 poultry vaccine - Free Press Kashmir",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T07:14:35+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeDBiZG5qX1VCbFZTdmlsZ0dCVnV6TWhSb1hOUmlpaC1OWEliWlV1Tk15Rnp3OWdYYWhDUGpjelRQZDJZUUlmQmpIRy1sZlJmaUtmU212aTdoRkdfR2lTbE9qRzNjYTFza0xKNXRIZUxPNnlkc2FLRUdIWUlwbHFqenJVRXYyTWdwS2VYOVNDOFotWUxkMmhRN3hLY0lhcXg1ZTdIQkh2U19qeG_SAbABQVVfeXFMUGg4V1pIMHZ0eUJXcWJSdGs0Y2xiV2QybWtkUVhzTHRPVjF2eGtVbGJFbVNqMnJWU3lwcmE1SUxCdlpuUzZ4ai1obGhQTG4zbGRxM2pMWUFTQ09uWUNPNS1sT3dUQWtMRk1fSkp2Vnp4cEZYR3BSM09kUmhWalJ6NnVtMWllNk0tVmNacW1Jc080aEU3bTYwQmtrSDc5eDVTNGFHTld4WTU5S093dEFXSUE?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Free Press Kashmir",
+      "headlineJa": "インドの科学者が初の国産H5N1型家禽ワクチンを開発 - フリープレス・カシミール"
+    },
+    {
+      "articleId": "gnews_f9a80b0242c7afe8",
+      "headline": "भारत की पहली स्वदेशी फुट एंड माउथ वैक्सीन लॉन्च होगी, पशुधन को मिलेगी सुरक्षा - Dainik Jagran MP CG",
+      "headlineTranslated": "India's first indigenous foot and mouth vaccine will be launched, livestock will get protection - Dainik Jagran MP CG",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T07:13:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV3kyNk83TTJ0WnpSVzNaTUpGR28wakVpQ0JnRHZlamRDengzX3Rjdi1YTTVGb0RHY1ZCU1hrUy0zWXMweFdaZ2k2V25TRUJMQV96bGY3T3lWWVpFVlE1RFJhUmFOUGpONVppSHZoNEk5aXBTanI1THZndGVpY093Q05iR3hFSlBJdmVQelJpNi1KTnNPR3ZiUEtmYUZ6RVYtQ1VqUHF4OURvQmVlaFU5S0M1OGluWkxOczV2c25OMXBaMnZaWGpsOGVvQk9ZZVdvOHRESw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Jagran MP CG",
+      "headlineJa": "インド初の国産口蹄疫ワクチンが発売され、家畜が保護される - Dainik Jagran MP CG"
+    },
+    {
+      "articleId": "gnews_ad7451964b25d526",
+      "headline": "मलेरिया के खिलाफ आधी सदी का संघर्ष, अब उन्मूलन की बारी - Dainik Navajyoti",
+      "headlineTranslated": "Half a century of struggle against malaria, now it's time for eradication - Dainik Navajyoti",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T05:19:13+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaTNfR1ZJWndiSWdrRGFVNmpxY1lIalJycGFDZTZBMm04MzVDX1JUcDlKdk5BYURkbWdRa2NwczFsTlZsdmV4b3lMYWUyTXlWeEdGeDh2ejFsdmt0Y1FRcm1lVzgtN0tCbUJ4eG1PMVJVanlIbmdIVC1JUVhPVlFzYWlXeWNLdEk2VEotN3NkYk40NUI5X0dzaF9wSENVYm5GRjZDdnJGN1d2a01MelRjSW9TWGw3UQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Navajyoti",
+      "headlineJa": "マラリアとの闘いは半世紀に渡り、今こそ根絶の時だ ― Dainik Navajyoti"
+    },
+    {
+      "articleId": "gnews_0aa2a1cad58d06a4",
+      "headline": "Malaria Cases in India: भारत में मलेरिया में 80% गिरावट, पर जलवायु परिवर्तन बना नया खतरा - ABP News",
+      "headlineTranslated": "Malaria Cases in India: 80% decline in malaria in India, but climate change poses new threat - ABP News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T05:06:47+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVpGMGE0czVQNU1lWWtGWlNDS0UxdlVvekpYVkxEcEtITUVRTW0ySHZCQmRka2lsRlVhRDgxd1gwQmw0Zmp5cEluSmhtRDdITFBMajUyaVA1SGFKdHRkaUJuRjhfT1VCWTltRXFmc3cxcnNDVDlzSUVvREdqTXh4Q3ZHdGp2bUFxS3BtWmxpQ0tjcUlrc1RIalNWTElFQmczNjdqZzR30gGrAUFVX3lxTE9OLWMzSHl2ZjJreWhhc0Fnb1AwRXNfOHVILVBrYU9qYjNpdEZjaEN0eldIWEhodDZOdHhOeFJoOHF3VUlKZ3dka1poUGp0UDlNRDZ5cGNrWUgyMlMxVzE3VDBJUEg4QVFRUll5aG1MWEVycHBEOGJDQ1U2aDA1dWFfMEk5VjhPNm1jbkI1WmxWend2YWNRX1dmTnBHUVNhV3FUMllPNHlESWVCMA?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ABP News",
+      "headlineJa": "インドにおけるマラリア症例：インドではマラリアが80％減少したが、気候変動が新たな脅威となっている - ABPニュース"
+    },
+    {
+      "articleId": "gnews_9a290b6e791020bc",
+      "headline": "भोपाल में बनी देश की पहली स्वदेशी H5N1 बर्ड फ्लू वैक्सीन, 20 नवंबर को शिवराज सिंह चौहान करेंगे राष्ट्र को समर्पित - People's Update",
+      "headlineTranslated": "The country's first indigenous H5N1 bird flu vaccine was made in Bhopal, Shivraj Singh Chouhan will dedicate it to the nation on November 20 - People's Update",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T05:02:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTlhCd2FYdXdQMUNWQUJjWEtTWXVoZmdDSUxmOHhTRFd4Z1lpX0lHRnpwc1VKR1d6ek9EUnZCY3ZvXzZUcUJUQUFyWFFvYUhGTmVGOC1sWmg0UGE3akdxbnluWTctZ1NYOW9KS0xSOUlSb01IdXlIMzg0VGNONkdkY3FrZmgyOWpLU0Nhd1Nzd1Q3QW94NnBhdmZyUHN1VkRjSUZJZGhyUmVxQmdpMnBkalhleGxabEtEZGc?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "People's Update",
+      "headlineJa": "インド初の国産H5N1鳥インフルエンザワクチンがボパールで製造され、シヴラージ・シン・チョウハン首相が11月20日に国民に捧げる予定 - ピープルズ・アップデート"
+    },
+    {
+      "articleId": "gnews_65ae0184c81cb6e4",
+      "headline": "Breakthrough: India’s first home-grown shield against deadly bird flu - The Hitavada",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T04:59:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSk5KQ00zLUF1Q2gtOGZWY2UzNkkydHA5UGluZ0NzNzRiOS1tYjB2dGVIRHlWVWZZS05ENnpmUm1IUWJEcC02NjhScUdKSENORmxYSlpURnZGcEE3OUNGRFpUNkVrbkNlTXRkT2FrMUViX2E3anFuR3lVUHVIUU9BeUlieHJ5UnJhTjNyc1k4T2lCRGVFaVZOcEZadWQwZzVCbURJRXVyaE5PX1cxZjhqRXZHbUhnYmhV?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Hitavada",
+      "headlineJa": "画期的な成果：インド初の国産鳥インフルエンザ対策ワクチン開発 - ザ・ヒタヴァダ"
+    },
+    {
+      "articleId": "gnews_a155baad2046e94d",
+      "headline": "ये हैं इबोला वायरस संक्रमण के लक्षण, उत्तराखंड के डॉक्टरों ने दी सावधानी बरतने की सलाह, बचाव के तरीके सुझाए - ETV Bharat",
+      "headlineTranslated": "These are the symptoms of Ebola virus infection, Uttarakhand doctors advised caution and suggested ways to prevent it - ETV Bharat",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T03:15:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWEkteS1FZlBteWFjZHVTeWYzZHdSdFRPWl9rME5CYmdqcUhOZWQzeXBuV0NaNWQ4cTRzX0U0eVU5amRkRTVwOUhqOTdlc0NmRi1aODh2bEFnNzczTGhVZG5kaGo0bU5VWFNWRkJ3RENNWHpzOUJaVHVUTkFzXzNzLUdBRnFiN3U2VE5LbVE0dUp1SVlTa3Y5cjRSdXRTYXNRWi1TY1E5UXZEMUl1VWN6Zm1EMUt3M05obGkzdDNIbVlIbWpFOEUtVVJCYWZGanNYbEFvdjFYM0llNTBw0gHiAUFVX3lxTE1Tcy1MakFhSjNrSERKb0ZSOW11TmNUZDVRYTVxVnlxVU54SzNBbmNnRDYtSGFsOHh4bGFTTHV6b001c01QUGpCWGVORzRyRjRfQWsyaHlLOWIycFotdTRwbmIxRGc0VndfRnkweEw5QjU0UWFzTHdsYUF1aGZIUmZPWTA2Z2FYYU5zSDJjSW1xYU1XMF9oU0ZYR2tOb2pJU24wajhweURHZFBXUDZPM2I3UUxvVjJJYVIzSDNjN183dmg3ajBybV9FcFFPcU9sQmgzMVFQa0JLeU1ObmlXU3BSRVE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Ebola"
+      ],
+      "locations": [],
+      "states": [
+        "Uttarakhand"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "ETV Bharat",
+      "headlineJa": "これらはエボラウイルス感染症の症状です。ウッタラカンド州の医師らは注意を促し、予防策を提案しました - ETV Bharat"
+    },
+    {
+      "articleId": "gnews_254e7737aa32066b",
+      "headline": "India develops first home-grown H5N1 bird flu vaccine for chickens - The New Indian Express",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T02:16:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdG5pOVRwdDlWUWJtbW9PRUs1Sk9QUHdmQllkWmNISmdBZ0F0eDFYXzZERmxkOE1teGl6VENQdE41M1JZYTRJUWFSRzdHcHNkRlpleVZ4Z1hpcnFVb0FHR05jdERnQVNfOTZPaTRFeEFjRml4UHJaTXYxUHExai1GZ3dKbTUwRWVkQXpKNE9rd1JSYnlncDJFR3B3VFllRHI3eE9TeVQtVTktRDYtNjZ6RXIyWFRRUUJ40gHGAUFVX3lxTFB4NlNVSE1VRzZJZUhrcXAyNmdQQlluWUhWS3BraWttY3dIdmRBcENZMVNCZHpYanVyMmd3Y3hLMjNTY2gxeFlSczRhSC1peUpocDV1cktBSGZwelpWRWlONzhsb2x3VHZjR0ZyMXRtTnVHUThtdUNic0Z2cGRSdS1qYUtQbkRaUTVwbHJlVC01MzJNR1FnamRQVkpqZmE1UTMxUGptajJsS20zMXFBYkt3TndxQTlPMXdlemR4cVVNQjRWTEVFZw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The New Indian Express",
+      "headlineJa": "インド、鶏用の初の国産H5N1型鳥インフルエンザワクチンを開発 - ニュー・インディアン・エクスプレス"
+    },
+    {
+      "articleId": "gnews_9742f9b5077102cc",
+      "headline": "भारत की बड़ी उपलब्धि! तैयार हुई पहली स्वदेशी बर्ड फ्लू वैक्सीन, 20 नवंबर को भोपाल में लॉन्चिंग - Media24 News",
+      "headlineTranslated": "India's major achievement! First indigenous bird flu vaccine ready, launching in Bhopal on November 20th - Media24 News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-19T01:30:05+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBicUprMzdkRkxibTBXX1JjY3Vqa1pQdXBXd3JkQkYxOEhrdDFtLUNWR09FUkdoLVZSemVBekY3TGIxOTh2YlNj?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Media24 News",
+      "headlineJa": "インドの大きな成果！初の国産鳥インフルエンザワクチンが完成、11月20日にボパールで発売開始 - Media24ニュース"
+    },
+    {
+      "articleId": "gnews_b49536c3df73cd42",
+      "headline": "शिवराज सिंह चौहान 20 नवंबर को देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन लॉन्च करेंगे! - NewsDanka",
+      "headlineTranslated": "Shivraj Singh Chouhan will launch the country's first indigenous bird flu vaccine on November 20! - NewsDanka",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T18:30:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVEhPckpmTWpZTTJVTkt2SWhGR1FmU2hWTG54ZUp4aUc5VXhiTE1odGpEWS1TV0VxUERkLUxKSVEyU0FjTmV3d1VRWUU1eW5ELXdkSllRai1aZHlUQW00bkRFUDhGcFJDR256U2pDYUN0UWQxWHZlN3F0ODU4TjdLSE9VUXMtMFRoQ0VTS0RKWktlX2NDZTdCNF9Xd054azZob1RIcmNod092d2R3YlJPZ3Q4THpnbDJFMHBMMG5VZ0tWYjk4d053VGhxM3FmemVPVlZ6ZUpVTdIB3AFBVV95cUxNeWZxcTR5Z3RSWHYzS1Z6OVVzZlJObmxMck9XSjVHUjNuU0xURWp4UjQ0OFBONWtlRGlSc0hQeDZOeDlKWHUxQzhHVVRuendpNHhiN1AzZGNZamx6VE1KNl9fTmg1YTM0blNNYVExZDkwa1RWV2NGR3NKSWZzYlpHVWxJaTlSd01iaUN5MS16Q2hKZ3VjVW1iV3M0MTFrQ21zaXZpbktiZFhHLWJUXzNUNklmcXZZdVZWWm12WFFtSS12b0thRC1SUldYdlQ1M3J0Vml3eHF6a0pYZE9O?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "NewsDanka",
+      "headlineJa": "シヴラージ・シン・チョウハン首相が11月20日に国内初の国産鳥インフルエンザワクチンを発表！ - NewsDanka"
     },
     {
       "articleId": "gnews_f278490b3b6b6a1e",
@@ -60,8 +973,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMUwyU3g4MG45emplWUNmUURqWmZLNUtKcWJyOEFOZzVuVHgyQ2lVTWFwWDJxZnF1Z1cxTkx0aVJRZUNsWnBDZGFTX2ZKUHVuZzdZQV91Mm1JQm5qMklOLW1SVFd4UjM0aG1MMTk0VjZabnNWNkdMYWpTLXc0R1B3Qy1Pa3Rabm5YVUI2WmFELTVXQnJERC1XTzg0enQxVWttd0hRckN3MUktSkVwV2pvZ0Z5ODdvSEJuM0l0WnRIVXFGUzZPM3B1YTAwMDdCV01IbmJIR3Z4cElDQdIB3wFBVV95cUxOam1FV2VIUWtVVlNNeVB6djkwREt4SkkwUEFKS1A3NFJ2NFNPb1VnQUlnbHRuVVJHdWNlS1pGR1cwZ2RNckJZWm1KaUNSc2RTcmUzZHNlWWxpRjZPMVhraHc4SGM1RzIyTERJekwza3dGc1h3enZsRTllR2dSWG9DR1BEYTVuMjdHUkdYdmltUGpYRXdSbHBaX25oWmh0a2JXWEYwYjQzQmp4ejV4VTRXa2hGMGZfRjRvUGxOY0lqRWlzLWNlZi0tajIyOXRwMC1CRFBFbm10b3ZuNDF0OGJj?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
         "Influenza",
+        "Avian Influenza",
         "Tuberculosis"
       ],
       "locations": [],
@@ -78,7 +991,7 @@
       "headlineTranslated": "India's first indigenous H5N1 chicken vaccine to be launched in Bhopal; Shivraj Singh Chouhan to dedicate it to the nation",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T17:06:05+00:00",
+      "publishedTimestamp": "2026-11-18T17:15:07+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOExiemZudG53ajNmek9Ia25WRHB2SG5YREdJU3h6S29GSjhoZUNsc0VJdWpRSVJjdlExcWNRNlBJMzZaY1dYT0ZuNEtUb0ZCM2F6T3VBbWdILTZfRVpOY29QdEFWd0RHX0lHWG9FY0NfczRxVHhRUFdnQVJmQWJSMHc0MDBIX1I1Z1ZPTmJieGp0MUN5OU1FT21CLUM?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
@@ -93,24 +1006,24 @@
       "headlineJa": "インド初の国産H5N1鶏ワクチンがボパールで発売へ。シヴラージ・シン・チョウハン首相が国民に捧げる予定。"
     },
     {
-      "articleId": "gnews_eb39d5956f3cbe91",
-      "headline": "WHO Says India Is Handling Nipah Well, No Need to Stop Travel or Trade - PUNE PULSE",
+      "articleId": "gnews_2b0fc2c2a7a230a4",
+      "headline": "India to launch its first domestically developed H5N1 chicken vaccine on 20 November 2026 - Dairynews.today",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T17:02:12+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNVFkNzdNcF96ak90N1RVOVJfZ0hFLWNuaFF5MDNwTjhNeXhxdE1rTEtkaUhlSWROS0hJbUYxbE1WeEJhbmlUWFBUYlRCb1A0LURwYy16ZFVja0dnaVM2Y01RV1ZPLXg2a2xsRlN3Y3hUcjZLbjVjc2xueDktdHczaDVsZmtDVmVhREwwRmNScC03c0UxRHRIUnZn?oc=5",
+      "publishedTimestamp": "2026-11-18T16:58:07+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQlJnd3IybWlGLWx3Z3RnbHZEVVRWeGJ6cTM0d1VfRDhmUHNSdHdGd0VldWhCQnNxS2RWejZFeUZNaDZMSHZOazgyell5WXdEUG1jZ2VsN0xvUklNcFRRNkxheHdOV3VCQmFBZDJmUWc1ejBuNWVVQTdaUHM0elBZSllrVGMzYWFDQl9MMVRRYS1hdHRrTTVkMllSZ2dJS1gxYnR2c1pibmtRSGJqRVF4bDl3WjJhb2hqWUswamhXTTl6eGEtUGFVOEdIZUdqQzlsZlE5Ug?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Nipah"
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
-        "Maharashtra"
+        "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "PUNE PULSE",
-      "headlineJa": "WHOはインドがニパウイルス感染症に適切に対処しており、旅行や貿易を停止する必要はないと述べている - プネ・パルス"
+      "sourceName": "Dairynews.today",
+      "headlineJa": "インド、初の国産H5N1型鶏インフルエンザワクチンを2026年11月20日に発売へ - Dairynews.today"
     },
     {
       "articleId": "gnews_679a7667b5e65ba8",
@@ -133,33 +1046,12 @@
       "headlineJa": "Venky's Indiaが注目される：インドは2026年11月20日に初のH5N1ワクチンを導入予定 - Sahi"
     },
     {
-      "articleId": "gnews_f0a892066c0b7d60",
-      "headline": "India to launch its first homegrown bird flu vaccine on November 20 - Madhyamam",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T15:57:41+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUFZQYlF0clJoMVZmV2ZCdFd4OTBKVi1ERU5sbkpBM3ByYldDZExHUTljZE5xcDhRRGZSNnM5RDlQOW1iYWpRUDlna0hwaERSQ25aMWZrT1hsUnJubzBvb3Z6Rlg4Y0gzRXBhM3BaQjljMzZ3U016dTY4UU51OWU4SHBQRGUyNm52MFdhLXoybFl2M3JKQXQ3Y2tHT2ZYay1CajhHSzdwNWlZV0ZMTkHSAbMBQVVfeXFMTWZwYVVSb3FpZ1pDbFQ4U2NTWE0wTHFDeFFOM3MzbS1KeUV4R3IzZG1mRURBRWJzT2JHSWVmVFNZZWREN3RRdUowVVFfbVN1RUJpNkRpRlpqaVlpdGNybG1IbFJkbmgxY01remNCd1JSdDFqNUIwdGI3SWtoVTVEUWNQaGNkcmdPMVQtNFZwNmY2OHo0VEQtNHJYZkltOXVWV29yUzAyVTRyd05Hajc1bUNsYTg?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Madhyamam",
-      "headlineJa": "インド、11月20日に初の国産鳥インフルエンザワクチンを発売へ - マディヤマン"
-    },
-    {
       "articleId": "gnews_8a6a27b9e73c864f",
       "headline": "Bhopal : देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन 20 नवंबर को होगी लॉन्च - India Ground Report",
       "headlineTranslated": "Bhopal: The country's first indigenous bird flu vaccine will be launched on November 20 - India Ground Report",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T15:56:11+00:00",
+      "publishedTimestamp": "2026-11-18T15:58:37+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOXzNuSGppU25OTmFqRzB3ZndPSjlVX3VycW9Qbi1sMGl5ZjVpcU5RM0pheWpKYXppdVdSZHVhYkh6OTU3N0hzSEJ4OFl2eWZhcXRhLTY5aUVqY2FXbkQ0a2FiTkZBdHVOeTJhQ3JlX2U4eVFjbkU3VnhfN1ZoUmtIRHJyT2U0RlI2ZVdvWWtnOUl5SmJ1ci1ETWdURkItcmN1U0g0dGdnay1qUnp5R1NN?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
@@ -174,6 +1066,48 @@
       "headlineJa": "ボパール：インド初の国産鳥インフルエンザワクチンが11月20日に発売される - インド現地レポート"
     },
     {
+      "articleId": "gnews_f0a892066c0b7d60",
+      "headline": "India to launch its first homegrown bird flu vaccine on November 20 - Madhyamam",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T15:57:41+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUFZQYlF0clJoMVZmV2ZCdFd4OTBKVi1ERU5sbkpBM3ByYldDZExHUTljZE5xcDhRRGZSNnM5RDlQOW1iYWpRUDlna0hwaERSQ25aMWZrT1hsUnJubzBvb3Z6Rlg4Y0gzRXBhM3BaQjljMzZ3U016dTY4UU51OWU4SHBQRGUyNm52MFdhLXoybFl2M3JKQXQ3Y2tHT2ZYay1CajhHSzdwNWlZV0ZMTkHSAbMBQVVfeXFMTWZwYVVSb3FpZ1pDbFQ4U2NTWE0wTHFDeFFOM3MzbS1KeUV4R3IzZG1mRURBRWJzT2JHSWVmVFNZZWREN3RRdUowVVFfbVN1RUJpNkRpRlpqaVlpdGNybG1IbFJkbmgxY01remNCd1JSdDFqNUIwdGI3SWtoVTVEUWNQaGNkcmdPMVQtNFZwNmY2OHo0VEQtNHJYZkltOXVWV29yUzAyVTRyd05Hajc1bUNsYTg?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Madhyamam",
+      "headlineJa": "インド、11月20日に初の国産鳥インフルエンザワクチンを発売へ - マディヤマン"
+    },
+    {
+      "articleId": "gnews_154373bc27f3f5dc",
+      "headline": "India Develops First Indigenous H5N1 Vaccine to Strengthen Bird Flu Prevention - Voice of Healthcare",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T15:11:15+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSXNNaUNLV01kVEtjWi1tSUh2Z0ZmRjlkT2xwQm5KUjBMSS1UNzN2aEFCX01KNmQwYU02b3NpYXdhcGFkaTdaNUxCcjFzU0dfMWFNUXRiQzBLT0U0U3NTTzVJcHQxcTFhRENELXNZY0JZR0VQZWVoS1Y1YWx4R1k4RXpOVmFEcGtacVlRSXB3a0tYUzhIdl9rWmJRaGhBcUlpaGFPc2xSaUc5XzFSVmxXVXF2bw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Voice of Healthcare",
+      "headlineJa": "インドが鳥インフルエンザ予防強化のため初の国産H5N1ワクチンを開発 - Voice of Healthcare"
+    },
+    {
       "articleId": "gnews_c5145b6ff7c36db6",
       "headline": "India to launch first indigenous H5N1 bird flu vaccine for chickens tomorrow - The Tribune",
       "headlineTranslated": "",
@@ -183,8 +1117,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS2MxZDJ2XzlfODFkeFFIYjN6YXFjeWk4NGRnSzZ5bWh2YmZDOVh5NjNaMHcxaENaSjNXNVVFSVdNcFdvWUZ0RXRYVVd4OXNOY1RJellhT2JjZzJHZHJBSUZBRmh2a0F3cDhWamVseU84Vl85MEd5OGR1bkZzOVRjQ2FlYWUyWVVPejFJemZRTDZPSzlrYWlFUWdVeGw2QnBEYVZUd3RNM1lVR2U0SFNkVmJyNGI5MFBuU2fSAb4BQVVfeXFMTlZ6ejdWZC1TN1RZU0NabzBDZVB2azBsUEVWUnZXTlRuS29DLXliNk94d3dDV3Z2OFJBMUtIN2Jvc1JUV01CUEVxMnJnQm9CelNlMG1qZExuZThobjZ0LS03eU05bVpxcjQ0N3pCQURVUnZEWXp5R1F1MFJzamllcVducEtoOVBkWnZrZmZVc1NtMEtkbDIwYWlqOU1XcEJKVzJ4a0x3YVRIZ1RDa0VMRGdraVNaMVBJMHg3TXhpUQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -193,6 +1127,28 @@
       "dataSource": "Google News",
       "sourceName": "The Tribune",
       "headlineJa": "インド、明日、鶏用初の国産H5N1型鳥インフルエンザワクチンを発売へ - ザ・トリビューン"
+    },
+    {
+      "articleId": "gnews_8683ddb58cbce0bd",
+      "headline": "Shivraj Singh chouhan 20 नवंबर को लॉन्च करेंगे देश की पहली Bird Flu Vaccine - zeebharat.com",
+      "headlineTranslated": "Shivraj Singh Chouhan will launch the country's first Bird Flu Vaccine on November 20 - zeebharat.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T14:58:46+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHZsajlqYW1fRkhzUjdnZlBIY3NtVkY0VnV3MXdUcUJfWXVDSG9HY3BKb0RhX1kwWGpGLWNENHgwVDBUZFZXdFVrTU4xU0o5dGtFS2xvWkhXS0RibElGanFRbDI2ZzJwdVlzVTdJTzJUci0wSnMtNldzbGllcWZvX0pjQV8xM1FMR3pXZGZXdG8wQnc2c05TUFk4WjB3NjRPN2hUOGVQRmlsa3FpcHh6RQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Influenza",
+        "HIV/AIDS",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "zeebharat.com",
+      "headlineJa": "シヴラージ・シン・チョウハン首相は11月20日に国内初の鳥インフルエンザワクチンを発売する予定 - zeebharat.com"
     },
     {
       "articleId": "gnews_c300355e782622f0",
@@ -204,9 +1160,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc3VMbjJsbzhoRGVCaHhSTEY0UDNvZ1pJV2lwM0ZxanZkU2V5Umsxck01TFpKZ05iWXNUTExTLUdUWnBWbHMwTDRTS3hLMjJVVDNkdzFUOGwzSGoxMjdkMDVZMmo2Ylp5d0hFZDQ1WWRhdjg2c1MzX3laaHFXcmVuRV9Qbk02X25lWnlJb2NVSjJjcVZXMlFDMDhWaGNnUXlPRXRhdmkxQmxEeEVsRFlXOEJtNVJVcUFHdHRQYUduM2RSYmVuclNsZmhMUmpHY2ttdW45R1VKLWdSY1d3aWwzMHZBLV91UnVOdXhuWkN1STQxTWJyQXh6Y2M1cHl6T3k3RlE?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
-        "Avian Influenza",
         "Influenza",
-        "HIV/AIDS"
+        "HIV/AIDS",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -215,6 +1171,26 @@
       "dataSource": "Google News",
       "sourceName": "bhaskarhindi.com",
       "headlineJa": "ボパールで開発された国内初の国産鳥インフルエンザワクチンを、シヴラージ・シン・チョウハン氏が11月20日に国民に捧げる予定だ - bhaskarhindi.com"
+    },
+    {
+      "articleId": "gnews_0b3b3efd6ca94f1c",
+      "headline": "भोपाल में विकसित हुआ देश का पहला स्वदेशी बर्ड फ्लू टीका, 20 नवंबर को शिवराज सिंह चौहान करेंगे राष्ट्र को समर्पित - Dainik Hawk",
+      "headlineTranslated": "Country's first indigenous bird flu vaccine developed in Bhopal, Shivraj Singh Chouhan to dedicate to the nation on November 20 - Dainik Hawk",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T14:25:14+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZy0ybUt1LU5MemFQSDF2bW1JcUtkNWdLR3p1ZjV2QThoQzhBM1NfOFdTUHJNQkRYMVdQWU1HTllDLU5nY1pXRnB4WUNFMDlOOFZ3ZnBGa29hb3l4dXBJOFJSRWxobXdScS1taHdPUFFiUWtoRGx5MFBNY3ZOSGp3MGZuVk5wVDJvc1BIWXNpdkJYMUtPSjA2aldqcmdFMWZIRFNCdGZKTjdpa2dLTy1TbXNRQQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Hawk",
+      "headlineJa": "インド初の国産鳥インフルエンザワクチンがボパールで開発され、シヴラージ・シン・チョウハン氏が11月20日に国民に捧げる予定 - Dainik Hawk"
     },
     {
       "articleId": "gnews_473ecad30875baa0",
@@ -235,6 +1211,26 @@
       "dataSource": "Google News",
       "sourceName": "Urban Acres",
       "headlineJa": "タミル・ナードゥ州のデング熱感染者数が3万人近くに達、と報道 - Urban Acres"
+    },
+    {
+      "articleId": "gnews_305b44d8eef2a8ae",
+      "headline": "भोपाल में विकसित हुआ देश का पहला स्वदेशी बर्ड फ्लू टीका, 20 नवंबर को शिवराज सिंह चौहान करेंगे राष्ट्र को समर्पित - Samacharnama",
+      "headlineTranslated": "The country's first indigenous bird flu vaccine has been developed in Bhopal; Shivraj Singh Chouhan will dedicate it to the nation on November 20.",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T14:23:23+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1NnUE5NdE5MY2FxVW8wTW1LQ3F5alBEbFZralJsX0FHVGVfSHhfUGZ6S3RabVFOSFdMcGxpbGs0UE1EWXl0T29zdXp5VG0wSGlJeThlTFRyVzVPdk54NGxPQWZTdWxVZU9rd09SQTN0QThCM2ZENHNaVnFpUVV0dFhjbTMzczI1R2VDYU1tZmRQTFNTbDZWQ2c3YzNwY2Y4MFpJdnUwZw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Samacharnama",
+      "headlineJa": "インド初の国産鳥インフルエンザワクチンがボパールで開発され、シヴラージ・シン・チョウハン首相が11月20日に国民に捧げる予定だ。"
     },
     {
       "articleId": "gnews_6e28d7dab3a3d7ef",
@@ -306,8 +1302,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRE9yTUxqVk5CRmpfb1U5eHQ3MHdrazhFNE1WMjhUVzJiUlZfVUhoLVlYZDR0SGw3aVJpSi1hdVduUVRoeUgxajhjMVVrSDNGT2U1OXpOa0dRejFUV1RHaHJBbWRfUTgxODVjejdwNWtzSktPcUl5TjlzcVNCU0hpNzVVWUVlQ0x4bWNJVVdjcmJxUkhTWlhEV2RiSWFpWFFLZmE5Y1NxX2RCMzFJR2hoM3dhTk1YcS1XMEttaVRpa1VreHpJYXl0UUFKZlNwemtTd1FpZE9NakJuamZ1Uk5zclJzYXNkOV82QzdpNEpJZks?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "HIV/AIDS"
+        "HIV/AIDS",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -327,8 +1323,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUmZkZmFNMEtMbG9CU3EyNFExWE1MeFQxTHJiNjh5c1BiWTNqUjNUbjdtVkxKeGNFbTlyRVlqTW5zSExWZzJobGhaRldmaEhBLXhGanUtOFQwa2tLdzBFSVV4eXJTTmNKdUs3YXQyMTJnR2RvdEczdDZ4NXdUdFVwaTllMDBYQmtkaVZxaFBydGZHS1hZQVJYbzBTZG5IdFJhbXhRbkJITV9pM0ZNcjVnWlZSUHdOaXRBcVhEVk1FVnl2OTBxQThmYnVyNjZMZGdDV19FTThYMk4zelpTbjN0Vzh5U3ZycnQwdm9Qaw?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -359,28 +1355,6 @@
       "headlineJa": "マラリア撲滅には地域社会の参加が不可欠：ドラウパディ・ムルム大統領 - アグニバン"
     },
     {
-      "articleId": "gnews_8683ddb58cbce0bd",
-      "headline": "Shivraj Singh chouhan 20 नवंबर को लॉन्च करेंगे देश की पहली Bird Flu Vaccine - zeebharat.com",
-      "headlineTranslated": "Shivraj Singh Chouhan will launch the country's first Bird Flu Vaccine on November 20 - zeebharat.com",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T13:02:46+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHZsajlqYW1fRkhzUjdnZlBIY3NtVkY0VnV3MXdUcUJfWXVDSG9HY3BKb0RhX1kwWGpGLWNENHgwVDBUZFZXdFVrTU4xU0o5dGtFS2xvWkhXS0RibElGanFRbDI2ZzJwdVlzVTdJTzJUci0wSnMtNldzbGllcWZvX0pjQV8xM1FMR3pXZGZXdG8wQnc2c05TUFk4WjB3NjRPN2hUOGVQRmlsa3FpcHh6RQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza",
-        "HIV/AIDS"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "zeebharat.com",
-      "headlineJa": "シヴラージ・シン・チョウハン首相は11月20日に国内初の鳥インフルエンザワクチンを発売する予定 - zeebharat.com"
-    },
-    {
       "articleId": "gnews_3871317d841ef876",
       "headline": "बड़ी खबर: बर्ड फ्लू के खिलाफ भारत का बड़ा स्वदेशी हथियार, पोल्ट्री फार्मों को बचाने के लिए देश की पहली... - NPG News",
       "headlineTranslated": "Big news: India's first indigenous weapon against bird flu, to save poultry farms - NPG News",
@@ -399,6 +1373,26 @@
       "dataSource": "Google News",
       "sourceName": "NPG News",
       "headlineJa": "ビッグニュース：インド初の国産鳥インフルエンザ対策兵器、養鶏場を救う - NPGニュース"
+    },
+    {
+      "articleId": "gnews_8af697c84647aa7a",
+      "headline": "H5N1 Vaccine: भोपाल में बनी भारत की पहली देसी वैक्सीन - Dainik Rajeev Times",
+      "headlineTranslated": "H5N1 Vaccine: India's first indigenous vaccine made in Bhopal - Dainik Rajeev Times",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T12:57:27+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15VnpOQ0ZjNmdLYm5ueG8yVG95NjREa3VRWTBKQXo4aDc0RkFHN1VUV3hVZ0hEVUk4bFhHbFBEcmpiREEyU2UwSTlXWmJuYXdlWWFLdmFZc2hjdG1DUERTd0VDWTJuVHFB?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Dainik Rajeev Times",
+      "headlineJa": "H5N1ワクチン：インド初の国産ワクチンがボパールで製造される - Dainik Rajeev Times"
     },
     {
       "articleId": "gnews_b2af3324b7e7187b",
@@ -441,44 +1435,67 @@
       "headlineJa": "シヴラージ・シン・チャウハン氏が11月20日に国内初の鳥インフルエンザワクチン接種プログラムを開始する - The Bharat Now - ヒンディー語ニュース、ヒンディー語ニュース、ヒンディー語サマチャール、ヒンディー語最新ニュース、ヒンディー語速報 - The Bharat Now"
     },
     {
-      "articleId": "gnews_0cbe3dcb9c054c0d",
-      "headline": "दुनियाभर में कोरोना के नए वैरिएंट PJ.2.1 की दस्तक, कितना खतरनाक और भारत के लिए कितनी चिंता? - Sanjeevni Today",
-      "headlineTranslated": "A new variant of the coronavirus, PJ.2.1, has emerged worldwide. How dangerous is it and how concerning is it for India? - Sanjeevni Today",
+      "articleId": "gnews_e12526ddb5c0cd88",
+      "headline": "भोपाल में बनी देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन, 20 नवंबर को होगी राष्ट्र को समर्पित - Lokmat News Hindi",
+      "headlineTranslated": "The country's first indigenous bird flu vaccine, made in Bhopal, will be dedicated to the nation on November 20 - Lokmat News Hindi",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T11:37:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9GUFVvakQ5N0VKSk8ta0xlODlQNXJoYVdPZEZ0T2lDcDVZRkRydVd6eFBtSDRueWpKeDQ2QWZjemJrVmtka0VrUA?oc=5",
+      "publishedTimestamp": "2026-11-18T12:11:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEVEX05CWFNiaExfM3ZneEVvUTRkQUhNN2FZaGhqZGRjWkJ1czVxMUotWDNIcHozQzlDdU5MTUppeU1KVkcxVm81alI0UEJkMEE0TUVqdWQ2bXl6Mi0wQWdIc0FBZE1mcXQ2WHRoV2tmTlppdlhKQmRvYmlQWUNaSmZZdF9xdGhvU0JmYTNJb2xOSnNYSDdncTZDeExNNUFWQXRLaU80TTNaQ0o2R1pNQjNhd2txTXZxaDBsTTV4NVXSAcYBQVVfeXFMTXNORlZZaVdPSnhySzNMT1d4bkEzRjJHODhEUTdQUjYtWTB5ZEEzaUltVE9SRExGUWRJc2lON01OX3MxeVRxQlNsNHBBMHFfWldlSVlQZkxOTDQydHR5bkkxR3RxVjlkSUZGbm1BOU9CeEFFYUZvT0ZQSFFOQUU5bzFlaEhMdVVFbmhhbjFad2lYV0Nlb0VCcUNfN2l1NVBRUjl4Qkx6eF9CcHVpQzlYdkJQLTh3WklqMHpDV1Z2TDJjRDRLZWZR?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
-        "COVID-19"
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
-        "India (state not identified)"
+        "Madhya Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "Sanjeevni Today",
-      "headlineJa": "新型コロナウイルスの新たな変異株、PJ.2.1が世界中で出現しました。その危険性はどの程度で、インドにとってどれほど懸念されるのでしょうか？ - Sanjeevni Today"
+      "sourceName": "Lokmat News Hindi",
+      "headlineJa": "ボパールで製造された同国初の国産鳥インフルエンザワクチンが、11月20日に国に献納される予定 - ロクマート・ニュース・ヒンディー語"
     },
     {
-      "articleId": "gnews_f5e2eaf8605566e6",
-      "headline": "Rural Pune Surveillance Links Pandemic Mortality Surge to Age, Isolation, and Widowhood - Bioengineer.org",
+      "articleId": "gnews_a84bff681f4345f1",
+      "headline": "Bhopal develops indigenous bird flu vaccine for poultry, Shivraj Singh Chouhan to dedicate to nation on Nov 20 - The Healthy Indian Project (THIP)",
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T11:25:33+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV21TdThBeFVIN0F4U3R5TmtycHpQc0dCS1VyTVVyUnQ4M21BZFlUX3BsVzRFRjZkbklOdzFmNG9NaFZKY3NDS0ZEV1RiUzV1NGtWLU1MTGF3eWVpZlN3QmdrMVh0YUctVHY5aXlUY0hLSTZLZ3FHMVBLODktenJ5RGxHMmVDSEhxdEV3MFYzVFUzVzZTSjFoYThOQnlxeW1MN3FicGdHOG53LXc1M3BN?oc=5",
+      "publishedTimestamp": "2026-11-18T12:09:12+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdlI1MzFyaU1HY0VzaWFzNXVSX1V3MVpBa0d5MnBWcWtLRjZuMkVRVlBTZFhWVkNWSnY2ektxaTM1ZDFTWng2aHRHUDRzMFphQmlFVVpQcTN2NVgzb2R6cm5MNTNqQlY1WGFfLXhZdjR0R1JvMTFST2xSZWx5S3NkVmFRUnZxQVZNdlZieXQwVE85eUJQRGxQZW9NUF9Tb3cxMWhCRDRzMm1QTkExSklwVmljY0t0YzBHLTczSWVYWFQ2SGVIYTVzUzQyOUxaSURIbmh2QXl3c1lkZjBoLWc?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Influenza",
+        "HIV/AIDS",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
-        "Maharashtra"
+        "Madhya Pradesh"
       ],
       "dataSource": "Google News",
-      "sourceName": "Bioengineer.org",
-      "headlineJa": "プネー郊外の監視調査により、パンデミックによる死亡率の急増は高齢、孤立、寡婦状態と関連していることが判明 - Bioengineer.org"
+      "sourceName": "The Healthy Indian Project (THIP)",
+      "headlineJa": "ボパールで家禽用鳥インフルエンザワクチンが開発、シヴラージ・シン・チョウハン氏が11月20日に国家に献呈へ - ヘルシー・インディアン・プロジェクト（THIP）"
+    },
+    {
+      "articleId": "gnews_7bcf75be338d3b09",
+      "headline": "Bird Flu Vaccine India: भोपाल के वैज्ञानिकों ने बनाई देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन, एक डोज से मुर्गियों को 6 महीने तक सुरक्षा, 20 नवंबर को लॉन्चिंग - The Naradmuni",
+      "headlineTranslated": "Bird Flu Vaccine India: Bhopal scientists have developed the country's first indigenous bird flu vaccine, a single dose provides protection to chickens for six months, launching on November 20 - The Naradmuni",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T11:24:03+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdFdfd0dXc3EwSXFOT0lJQzFDTjVNemZObjUyRU50eXpadHJ5eWwxRGlEXzZMQjBHVzJXUGZYeFpueGlIVnhuRUduRXNxUVNJVlNQeFlQckx3QVBoWjZQaHBQZUNmVnlxM2ZNb0diTjVRM2h6YzFXZ2ViOGJLU1c0MTRrdFlza3dWUVd6c0g2VzJYaEViQ0FyZG1mbXpwMzl2WnZ0VW84bFZiTFJxck0zLWVza05peWkzTlhlc0JtTUxidw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Naradmuni",
+      "headlineJa": "インドの鳥インフルエンザワクチン：ボパールの科学者たちが、国内初の国産鳥インフルエンザワクチンを開発。1回の接種で鶏を6ヶ月間保護し、11月20日に発売予定 - ナラドムニ"
     },
     {
       "articleId": "gnews_accc493e372c94ce",
@@ -501,24 +1518,44 @@
       "headlineJa": "インドが初の国産H5N1型鶏ワクチンを開発。11月20日に国家的な発表会が予定されている - www.nationpathindia.com"
     },
     {
-      "articleId": "gnews_24723264b9944684",
-      "headline": "PU plans biosafety lab to boost infectious disease research - The Times of India",
-      "headlineTranslated": "",
+      "articleId": "gnews_f11ffcc6cd356703",
+      "headline": "बर्ड फ्लू के खिलाफ भारत की पहली देसी वैक्सीन लॉन्च करने की तैयारी, चिकन व अंडा कारोबार को मिली संजीवनी - The Printlines",
+      "headlineTranslated": "India's first indigenous bird flu vaccine is set to be launched, giving a boost to the chicken and egg trade - The Printlines",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T11:16:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRWZBREE3am05Um5hcFdkOWNVb01MajFEbTFFQ29QQXZPUmtvRm1URGpfcGJqbDVyckxsZlIzU2R2TWJFT05sM1cxdXVMcnhDRDZjbWxzLUM0WllHTzBlSXUzVldTTzJGbjhRTWx4dW05eXc0eXZhSElvUVdmelZ1dnV1YngwOGxVVDRPcWhwc0JaOUI5bHY4VjJycFFCZE9JR3hlUXo1WGdfUzJuZGpPRklJdi1rREJLWVFneHhGZFBwLUpHc2tIbnF2cmjSAdIBQVVfeXFMTXFzY3lTNHlQd05VeHZZWWRHaXZybWZ5andvWkJEMF9CclZ6N0lUTGU2NGRFT0ZEWG1SYmlVelQ3dS1xLWhCLWZ5bjV4TXY2N2dEdHY4ak9vVUlPSlkxVFZaRzhUX3FpdWdUZ3AtWG1lSzltYy1xRnBvVDVCZnZTOTJ4Ni10YlhneVN1NUk0QVZvZWZQc2ZaMmN3MzUwT3p3V1RuR2FyVUp4bDFlQ1g1YlRkZk8xZUpDQldMeENTcUN5Wk9mTzl6S0lkR012dHNVZ3NB?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-11-18T11:16:02+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxNblF0RW9DTC11T2stVTNTck45ZjZOeXpZc2cydDdPc0R6LXVHTDc0UWxMUW80Z1pHYjU1cWJQU21mdVpjWkp3ZDB4WS1YWk5USHVZaU1IWDZ1SzVHaWNCdG9FczkxMXhxVl91LXc1dl83THhUeFVDVEdnUGxkR1oxZ2RHUi01MlhzTVBsMU5wRGNtTmxoMVhEMmlJZU0zNDJ0S1c4bG96TnhkR1VhOVNEOU5sY1RKTnREa2J0blJCeGhFQ3B5b25MQkM1T1NTLU5CVkhlc3pMa0pmZm9DNFNqWmQ4S0lfY1c0MjUybHhPdThteEh1aGpKRk9MNGNma3pUc3ZrQjNsY2N0TEhvN0tLNTZqMEFsaXhnZVhiWHR30gGjAkFVX3lxTE9nWWpOSkdxNndpZ3dQRXAzd3RwVWFIZ2NfWUUwOWlvY05IRC1fMm1QV292WVBHTnJsNTF1SHFLc3lsM2t2TUYtSlp6Y25HREZkM1BqZ21Ma3ozUnMwaUlUTF9zVmFwUDFkcGxFSHpwRUZ4RHMwbGVmRHZISURUYm9HU01uSUszTGxxVmNiMm43a015TkhrbjlsYUZDcGVYWlFYbVEtaVNPcm5yQ1BNX1hpb05lWVQxQTl2Q1lSMk9EQlVFd3BEcWo3MzJpelpwN2lPek1UNGdqNzZ6VFIwVi1zbnRacUp4Nl8wSVI5RHBQVE9sLXN6T0h4Q2xDS3hvdHJlbXVQQ2NQdDlwNlZraV9uel9iNW04cjExc3RiaU01RmtEaw?oc=5",
+      "originalLanguage": "HINDI",
       "diseases": [
-        "Infectious disease (unspecified)"
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "The Times of India",
-      "headlineJa": "パンジャブ大学、感染症研究強化のためバイオセーフティラボを計画 - タイムズ・オブ・インディア"
+      "sourceName": "The Printlines",
+      "headlineJa": "インド初の国産鳥インフルエンザワクチンが発売される予定で、鶏肉と卵の取引に追い風となる見込みだ。"
+    },
+    {
+      "articleId": "gnews_9283458c28bdf87d",
+      "headline": "बर्ड फ्लू से लड़ने का हथियार देगा मध्य प्रदेश, भोपाल में बनी देश की पहली स्वदेशी H5N1 वैक्सीन - The Sootr",
+      "headlineTranslated": "Madhya Pradesh will provide a weapon to fight bird flu, the country's first indigenous H5N1 vaccine is made in Bhopal - The Sootr",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T11:15:42+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTFZUTDZ3dWZtMHZDbmhNa3hWWGlGVTRHcXp3VTU1bzI3aUlaeHhlMUVncy1TM0pxMklOYjl1RmtPUWdULVVqSkg2VmNTZGRtd2NLQmo2YlRUVC1fZXRNcVZlbVRUTUFIRWl1c1IwR0luSmxYazBQa1pBeWNPSlRESWM3MjVtYjZ1dlQyN3lKS2J2bHk2Q0ZUM21Pc1A4VnFWaFFqVlNB0gGrAUFVX3lxTFBQQnpLNFZVSl9RbDFacmdxSEJ3Mm95czJueFNSRDhNUTVuNnltS25mcDZlMUtpc1dtOXNGNzJnMlRPdmxoNEFqSTRneFIxRUViNWZpVkdzc21EWF9rbEd5MG5taXZ2bk9WQ1YzZWxHNGVQWUMxNGlqcDBUWTlfYnFBbEctQXBWTENoeHAzQlhURldsbFZGMkNKUlJGRmZXbmxvMi01dzZfRXlSaw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Sootr",
+      "headlineJa": "マディヤ・プラデーシュ州が鳥インフルエンザ対策の武器を提供へ、国内初の国産H5N1ワクチンがボパールで製造される - The Sootr"
     },
     {
       "articleId": "gnews_b1eab8a508616bbf",
@@ -539,6 +1576,26 @@
       "dataSource": "Google News",
       "sourceName": "palpalindia",
       "headlineJa": "インドが初の国産鳥インフルエンザワクチンを開発、シヴラージ・シン・チョウハン氏が国家に捧げる"
+    },
+    {
+      "articleId": "gnews_63a871e65d415ed7",
+      "headline": "भारत में बर्ड फ्लू के H5N1 वायरस के खिलाफ पहली स्वदेशी वैक्सीन तैयार, 20 नवंबर को राष्ट्र को समर्पित करेंगे शिवराज सिंह चौहान - RuralVoice",
+      "headlineTranslated": "India's first indigenous vaccine against the H5N1 bird flu virus is ready; Shivraj Singh Chouhan will dedicate it to the nation on November 20 - RuralVoice",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T10:42:43+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOUkpLc2xjbjUzNkNVLXQwY0x5Z0pQNFBKM2VheEhRZjlvX0h6d0d0TU9CTU1pb0FzS25DZHdfT1BsM25lYzNsdzlMZ3V1cU9zQUJPSEduUXdaR1MzX1NhSmc4Y3NJNlplMFlQTzZMdzJkRldqUUdzVW5FR0Nad2RTWXk4QzlsVDI0SWhQRi12RE12di1pXzhRTnFGNmdUZjh1VGVFQU0tcHl6RjlVUm1ZRnZKS3BaVUp6Z1hkYUVIMDNoU09GalFSTDFmcVFjcVh6VHZsSGZLdjNYYkJxSUc1ZEpfWUctLVY1bXRES3B0VlB2dU1YenR1Q0NsUk9iTTYzTHJ1UWFUdG43ZmV3WnMyVdIBkAJBVV95cUxOUkpLc2xjbjUzNkNVLXQwY0x5Z0pQNFBKM2VheEhRZjlvX0h6d0d0TU9CTU1pb0FzS25DZHdfT1BsM25lYzNsdzlMZ3V1cU9zQUJPSEduUXdaR1MzX1NhSmc4Y3NJNlplMFlQTzZMdzJkRldqUUdzVW5FR0Nad2RTWXk4QzlsVDI0SWhQRi12RE12di1pXzhRTnFGNmdUZjh1VGVFQU0tcHl6RjlVUm1ZRnZKS3BaVUp6Z1hkYUVIMDNoU09GalFSTDFmcVFjcVh6VHZsSGZLdjNYYkJxSUc1ZEpfWUctLVY1bXRES3B0VlB2dU1YenR1Q0NsUk9iTTYzTHJ1UWFUdG43ZmV3WnMyVQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "RuralVoice",
+      "headlineJa": "インド初の国産H5N1型鳥インフルエンザワクチンが完成。シヴラージ・シン・チョウハン首相が11月20日に国民に捧げる予定 - RuralVoice"
     },
     {
       "articleId": "gnews_4a1f7483b6fe2612",
@@ -610,8 +1667,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMWw2YVZIMXZOVFpQOUtsNExVUm5aZ2FGMWkyRjB3TjBDUkdWZ0EzLVZHU0NtU21RbkdCU21MNW1COVdOUjk4S3B6cVMzdkJYY2dJRUJFNDVmdDhHUE9BY0RrZEVOWjdXd2dDVzdHTGNCWTdYcGpFcXB1Z0JPYTQ0RV81R2RMdk1iajV5a3U0ZWd1SUU4RklVZ3E0ME52ZmhKbGc2c3V4RE5aNm91UFU4Q1BSSWEwVEE?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -662,26 +1719,6 @@
       "headlineJa": "H5N1ウイルス：インド初の国産ワクチンが鳥インフルエンザを撲滅し、鶏卵ビジネスに救いの手を差し伸べる - News18 Hindi"
     },
     {
-      "articleId": "gnews_23d0b8552a2475c1",
-      "headline": "भारत में बर्ड फ्लू के H5N1 वायरस के खिलाफ पहली स्वदेशी वैक्सीन तैयार, 20 नवंबर को राष्ट्र को समर्पित करेंगे शिवराज सिंह चौहान - RuralVoice",
-      "headlineTranslated": "India's first indigenous vaccine against the H5N1 bird flu virus is ready; Shivraj Singh Chouhan will dedicate it to the nation on November 20 - RuralVoice",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T09:59:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQmkzUW9FZ0dWRzZaNnFNZHh2eERVVVM5SDdsWTVZYW9LRkRVTVZwQ3p2OUZwc3NQS0txSERqc3RGcmlrSEhGNXVlLUw4eWczaVpGaWYzelJMZk42V2ZLeXFxMGo0NmJ6X2htQ0EyLXZEWUNYTERwVTBUQkxGMHpNRVEyaXJSdXJyVXUtdG14ZC1abXI3amhxdUdtZWRMcEs2d3lUcHNSdWRaeTV4QXlhcFlydEdnTDJVeHNEV09lcGtWOU0zRzV3NXR5RnJaZTEyOU5oUkkwemRRTTAtZmdGVnZUZVRkOUU2Tm05bXlPa3NZa0FaQXVkc2FUSTQwVG92eTV3M0pURk9fTmPSAZACQVVfeXFMTlJKS3NsY241MzZDVS10MGNMeWdKUDRQSjNlYXhIUWY5b19IendHdE1PQk1NaW9Bc0tuQ2R3X09QbDNuZWMzbHc5TGd1dXFPc0FCT0hHblF3WkdTM19TYUpnOGNzSTZaZTBZUE82THcyZEZXalFHc1VuRUdDWndkU1l5OEM5bFQyNEloUEYtdkRNdnYtaV84UU5xRjZnVGY4dVRlRUFNLXB5ekY5VVJtWUZ2SktwWlVKemdYZGFFSDAzaFNPRmpRUkwxZnFRY3FYelR2bEhmS3YzWGJCcUlHNWRKX1lHLS1WNW10REtwdFZQdnVNWHp0dUNDbFJPYk02M0xydVFhVHRuN2Zld1pzMlU?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "RuralVoice",
-      "headlineJa": "インド初の国産H5N1型鳥インフルエンザワクチンが完成。シヴラージ・シン・チョウハン首相が11月20日に国民に捧げる予定 - RuralVoice"
-    },
-    {
       "articleId": "gnews_9981e1b802ee9bd8",
       "headline": "Bird Flu Vaccine: बर्ड फ्लू से अब मिलेगी बड़ी सुरक्षा! भोपाल में तैयार हुई पहली स्वदेशी वैक्सीन, लॉन्चिंग इस दिन - The Rural Press",
       "headlineTranslated": "Bird Flu Vaccine: Great protection against bird flu now! First indigenous vaccine prepared in Bhopal, launching on this day - The Rural Press",
@@ -691,8 +1728,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSExMZmZZZ1NSWG9oMzlCYzhNSTFWekdNWUt0cmloRkgzSTBRYVdTR1R5VW1kUW5jZEVicmIzX0p1MHBKdTZjWF9QR0xQcUo0NHp6SUk3eHJ6UEFZZ1AtRjMzLWVDRHhPd01mUEV1MTFpd2dSaEhtRXRKLUx3YjZIVzRiUzBZS01CbG5yUEtZa3FjV3RmLUNrSHVTMjBlN2thd3V3akxYbjctS3ZXY2xnUTBPWTNCdFdzc3ZJSGRGczR6dU5p?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -712,8 +1749,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMVdCV003TVh0SVY5RHFma0FBVS1jcFNxdXpSVGxoZlV6UnRBSkdsX1F4QXZyeTVMVnZ5TWNUd0pNSHJObk53ZUhWaGpZdEVFREhBWFd4TG9yVDN5T3FEYU1Pa0IyY2RmVjlVeWxocnNGSGNvekxpeDlfZFNzWllOUTAzaU9jWFdTM2czWmkwVUl4OVdCS29jOXhvSEtNZFBmV2dLejJGVUpROVBUQlMyNXVDczloUllZdzBhQkpDcnhNQ2kzT1huUkNyVFprUDl2LS1wVW4wbmg0VW0zRnc?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -724,13 +1761,13 @@
       "headlineJa": "速報｜インド初の鳥インフルエンザワクチンが登場：養鶏農家にとっての意味とは？知っておくべき7つのこと - Open Magazine"
     },
     {
-      "articleId": "gnews_27170c8dea835661",
+      "articleId": "gnews_6b501ade13b4476b",
       "headline": "भारत ने बनाई बर्ड फ्लू के लिए पहली घरेलू H5N1 वैक्सीन, 20 नवंबर को होगी लॉन्च - News24 Hindi",
       "headlineTranslated": "India develops first indigenous H5N1 bird flu vaccine, to be launched on November 20 - News24 Hindi",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-11-18T09:03:43+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPRURnNTNqdDRaT1FwTWZEMFFMTGUwR0hBdzdIY3R1dEE4LVdKRjY4cDJqQ0tORWdITEVkd3pRMnRFbjVydXhOQzFiSUlKQkl0bExFTHNnQ2dpZlVXTUJoOE1tS1JpckYzQlVRTVY1MEhJSWZJREFTTnJ5elpiNHdDclRGRm0zVDcyUk9Yc29OblJhTHM1cjAzcjlHMkpyZjZrdnU2ODducFFzYlNEYWZ1V3JmLXJxZG5MbVUwQUlEX0h0WHJjQ1lnMUNmSGNuVC1FVkFqVloyaDdIYXd1VHM4OUxzX20zSnJDTWI4Y2ZCUVhmb0nSAfcBQVVfeXFMT1QzNl9BXzdUNkhVYl9TWldXWGJ6M0JQVnhHZzVxS1JMaktFWmVjNXhsV2F6Qk1VcXZ0MjJ1SllwZFVGLTY0M1FXcDNBUzZkTEJwOWR0QjZxNjgzT25wLUdISHFqNHdLRWIwaW9DLU5kUkJJcUE1LTFpNjU1RUd1ZGlXV1RtUVRDZnVaWkNkN2JrLW1HRGJpZW5QMmptTHYydVFSWVVoNC0taDJBYUdzMUhjd2xiYmFaRVVRTTB3RXgtUkRrU1FFY0dPSm1HcnZhWjB5UDNXeVJXd2VpYkU1Mmh5XzRfU0hkdER4SlVoUFZvM2NqOWNRVQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVDM2X0FfN1Q2SFViX1NaV1dYYnozQlBWeEdnNXFLUkxqS0VaZWM1eGxXYXpCTVVxdnQyMnVKWXBkVUYtNjQzUVdwM0FTNmRMQnA5ZHRCNnE2ODNPbnAtR0hIcWo0d0tFYjBpb0MtTmRSQklxQTUtMWk2NTVFR3VkaVdXVG1RVENmdVpaQ2Q3YmstbUdEYmllblAyam1MdjJ1UVJZVWg0LS1oMkFhR3MxSGN3bGJiYVpFVVFNMHdFeC1SRGtTUUVjR09KbUdydmFaMHlQM1d5Uld3ZWliRTUyaHlfNF9TSGR0RHhKVWhQVm8zY2o5Y1FV0gH3AUFVX3lxTE9UMzZfQV83VDZIVWJfU1pXV1hiejNCUFZ4R2c1cUtSTGpLRVplYzV4bFdhekJNVXF2dDIydUpZcGRVRi02NDNRV3AzQVM2ZExCcDlkdEI2cTY4M09ucC1HSEhxajR3S0ViMGlvQy1OZFJCSXFBNS0xaTY1NUVHdWRpV1dUbVFUQ2Z1WlpDZDdiay1tR0RiaWVuUDJqbUx2MnVRUllVaDQtLWgyQWFHczFIY3dsYmJhWkVVUU0wd0V4LVJEa1NRRWNHT0ptR3J2YVoweVAzV3lSV3dlaWJFNTJoeV80X1NIZHREeEpVaFBWbzNjajljUVU?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
         "Avian Influenza"
@@ -773,8 +1810,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa2xSUVF0Sjc1bmF2N0FoRjhkRUowRk5nMXVXUkhZRThLem0yM2ZNOUQ2VHNIcFVOOGljMnlUX20yd3hNT1BJeTBONFd0bGJRbFdDSzBvM3hOTlhwcWRjODNKbmRiMTdVRm5oS0JIcGQ4ZDhBWlNkcWlRclNlOE53RnU5ajU0V2NVT2lYazR1SHRrUlQ3c20tYVdZQkNFTUVTLS1JWEEzTWhxQjFtMjFaVmZqVmNfamtYUUhaTjBR?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -794,8 +1831,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQc3Q2TzIzNThKS1VRUzdUdWFUWEQ2THVqYW1Sa3JxRkVKWDQwZkNseVhfT2ctdjNrZi1FZ2hIVXJWSzdBeWFuakxLVlZNQzM5TGpXYXhOR09DOFhMcFQ1Wm9CaU0zWnlTWDEtTktIMEhHNzhQa0prTzI4RkpsOE5KZTJTUDM4VlhYNFlCa09wcF9XVUw0TE1ocFphQTROTFUxaWw3ODd2NTlxSUNOaTBIRy1xZmdmVUh5cDhEQ0tRRFZQczFQWUJlRF9CemQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -875,8 +1912,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTGFybXd1YnNtSUkwVzVwc0F3a2luVExmQ1J5NU9CZjBmYXVxRTZFX3p3MndOa1dDZnJYUGR2b2xmclVNS0kzYlNBc1RVSzQtWGJrNG93dERZZ3BRUXN2WVlfUk92RGFfYzNuWmZNWTB2aWlPb2JzZ2VPUnpNX0otcWlwaHotdnQ5eHMxc3VsYUttcDJSellid2liVlRCbTFGY2YtcWlnaXdxNlE1WEszc3lZbmhWRmdFZ29N?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -907,13 +1944,13 @@
       "headlineJa": "インド、11月20日にボパールでH5N1型鶏インフルエンザワクチンを発売へ - NewsBytes"
     },
     {
-      "articleId": "gnews_5781cb9bfc0e7853",
+      "articleId": "gnews_bd3e948bca55c769",
       "headline": "आप आराम से खा सकेंगे चिकन, बर्ड फ्लू से निपटने बनी वैक्सीन, भोपाल में शिवराज सिंह करेंगे लॉन्च - ETV Bharat",
       "headlineTranslated": "You can eat chicken comfortably, a vaccine has been developed to combat bird flu, Shivraj Singh will launch it in Bhopal - ETV Bharat",
       "summary": "",
       "summaryOriginal": "",
       "publishedTimestamp": "2026-11-18T07:53:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVXlkemhvcDVWM3BtMUJCMDZZb18zUTBfSVV6NXp4eXpwbVhvSEFqd2pmLUpsY010NmlsS3JZNHo5VWVHbDhWVEpyaTVFSFlFaHFNVlA5YUxYZ3VmVFA4alZCbVB3bmlXbUdCeC05VkZQc0FIWklLWmMtMTFxOG5wWXM2ckR1SGpGNXA1eXVPYkxpXy1JdEhJN0dlZkpNaG5zM3FBb2RGWE1udTI3aWR4bVlXWkJxdGUwQVZtM1ByQnQ1R0ZLeERFd9IBzgFBVV95cUxQOTZhcGlqalBtdE1NZlJaLWZXYlZ6cWJQMERNbW9ySDRMQkhBN2kwbHVrbVBKZWdjV2lXaHhFaFpSMThCQ0x5SjRsZHRBM1Etd0J0WnFvOC1VUVBIVXFEZzBOTGIwaFp5MExJdGNONmdxM1BrZjk1ZzQtaGFhNGZyemM2bGktYnBKalZKSks3Nm9xMHpHZ29GSXNRZjVDbjU2dXkxV3JWOHpVWnJxemtia2VwbTRsUXF5NmZ3bFo1OXN6bmtjVkpabkVxMFY4Zw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOTZhcGlqalBtdE1NZlJaLWZXYlZ6cWJQMERNbW9ySDRMQkhBN2kwbHVrbVBKZWdjV2lXaHhFaFpSMThCQ0x5SjRsZHRBM1Etd0J0WnFvOC1VUVBIVXFEZzBOTGIwaFp5MExJdGNONmdxM1BrZjk1ZzQtaGFhNGZyemM2bGktYnBKalZKSks3Nm9xMHpHZ29GSXNRZjVDbjU2dXkxV3JWOHpVWnJxemtia2VwbTRsUXF5NmZ3bFo1OXN6bmtjVkpabkVxMFY4Z9IBzgFBVV95cUxQOTZhcGlqalBtdE1NZlJaLWZXYlZ6cWJQMERNbW9ySDRMQkhBN2kwbHVrbVBKZWdjV2lXaHhFaFpSMThCQ0x5SjRsZHRBM1Etd0J0WnFvOC1VUVBIVXFEZzBOTGIwaFp5MExJdGNONmdxM1BrZjk1ZzQtaGFhNGZyemM2bGktYnBKalZKSks3Nm9xMHpHZ29GSXNRZjVDbjU2dXkxV3JWOHpVWnJxemtia2VwbTRsUXF5NmZ3bFo1OXN6bmtjVkpabkVxMFY4Zw?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
         "Avian Influenza"
@@ -925,26 +1962,6 @@
       "dataSource": "Google News",
       "sourceName": "ETV Bharat",
       "headlineJa": "安心して鶏肉を食べられます。鳥インフルエンザ対策ワクチンが開発され、シヴラージ・シン氏がボパールで発表します - ETV Bharat"
-    },
-    {
-      "articleId": "gnews_3c34802b2c129db5",
-      "headline": "India Launches First Indigenous H5N1 Chicken Vaccine on Nov 20 - Utkarsh Classes",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T07:40:38+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR2JfdjRlVDduRXZiVVlMZ0p6QXBwS3ZueVpfY2RWZ2pJcm5WeGdCdkdhZGY4Wm1RSXVvVzI3S1F3VS1vTER2QUFPajEzaXd6NEpsd3pGaEJoN1hLajNVT1E2TjRnNDNfTU81U2Q0NV8ya2xGTEpPQ2M4T0pMZUZvdWtLdGozV0pYUUZJOTRoNmE3ZG9GQy1pcW40Q2tvdTh5U0RYaFVOd3FiS2JGX1VZM09YekxkWVJCMERuQ0F6ZXlaRUJRazY2V3BOQQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Utkarsh Classes",
-      "headlineJa": "インド、11月20日に初の国産H5N1型鶏ワクチンを発売 - ウトカルシュ・クラス"
     },
     {
       "articleId": "gnews_362be9a008bb96a2",
@@ -976,8 +1993,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd3psdUZyOWNSVkNOYVJPLUIwU0JGc2dvQXhaa3hsVGZPVDBlZjVBUjVnSkFXZjk2cXN6LXhEbERZUllVRjlTd3lHSk1DWGpkN2wwVU03b3R5ZWt5TkpnOFBtVTNPYkM4WC1qeEpzVWtKTXFONjZWSnd2NVYwOTFqeEFKVGRiMmVSSDBLNUhqek83RTg?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -997,8 +2014,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVjhVRkNTOXlmdWNjSmRMa3QyLVN4YTdVakt0V25wT3Y4TG1sMGZMMEp5dnRSaE9Yd1BZcVd6Y1lIYTZSYzBkM3JrdDI2NXlNaEIxUHI0TmFScTU1ajQ2a3p4a3l3T1FVNGZpZGQ2d05VYlVqdnhjMXloajU4dmhlWEtQZjJIcFZLdnRjOG1GRV9wUjFGY1FHcjRka3JrSWVjUnRuRm9kcEhqUHAxOG9QQ2hhaW1pWG5OU0plWTRiY3BjMkdHWDN6V3p1THVERDF4TlI0cdIB2gFBVV95cUxNQkkzRHdQaFhBb0lVZGNpU3dpVzJGbDFoVWVXSENvWHZhM1hjcUZpVExNOTNBdzRxbUd3c3dWc3hFYlBkbVA1cnV2eEdtRjREUG9iMEppcVozeXYtbzVKUmlMQ2FtdnJjV0U5MGhReDd0SVlmTE9XTUdzRWQ3SkNvNC1rRHM2RzU5NHE0TWJwREMzaXpyNXROVlMyRnpVcmt2UnBJOUdMTmRsSW1paXk5dHp1ZzRBYy1hNTl6TWo2WHhCU2NXQVl4WkI1Zjduc2ptN0pBNDViTU1PQQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1018,8 +2035,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWVZaVlNYalJpcmk0VU9NUEN2Wno3WkJGeWVyaWpjVlJIbzBkQWFGN200NVk4cG5KWnpta2ZUNUtqNkhnNzZ3a19FR3dBbzV0YldzZHZseGZVWjJ3Y09WSWNTWGNYSVNpSjZ4TjZQeGVWSEVycDM4T1UwQ1hpOXFHRzI1anItMmZ0NWhFWTJOQkNseE5TSTNkT1BxVUVRWmJsR193TXhqX2ljSWZ1NnpkVkFDTWZjdGJMYXNZX2pFRXQyc21wc3BEaEZCcXc?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1028,6 +2045,26 @@
       "dataSource": "Google News",
       "sourceName": "NDTV Profit",
       "headlineJa": "鳥インフルエンザはインドに3000億ルピーの損失をもたらす可能性があるが、今や「インド製」の解決策が存在する - NDTV Profit"
+    },
+    {
+      "articleId": "gnews_c0d7ad629daa9631",
+      "headline": "बर्ड फ्लू से मुर्गियों की मौत पर लगेगा ब्रेक? भारत ने बना ली पहली देसी वैक्सीन | News Track in Hindi - Newstrack",
+      "headlineTranslated": "Will bird flu deaths stop? India has developed its first indigenous vaccine. News Track in Hindi - Newstrack",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T07:28:33+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOTJxd0U1aExiTXJ4dW02VGgyWktQczIzVTZFMWNZSmNIRERYTEFLN1JLd1RLN2w0eHJZMmlSZ1hEdGNHUms5cGlOTHJVUzJBR0k1YWJJQ2FyZkVRQWFRMlVuLVFsaW1ZMk9BOVJub01tbjVIWEhoUjVkN2VjTklTczJyY2p6QS10WUJVUjg2amg0Vjg2Y3k2S9IBngFBVV95cUxOVHhUd3Rob3d4eTF5X3ZoOFh5SVZwQ3IyenAyTWFYd2ZWOXRqYURxZlpvUi05S3hENGplZmR2Uk1GMGJ6VWRESHJZbnpRNFFnNVRMSnVrNlo1SjJWZ3dNY0x0eGtWTVBGN3JsaG9MVVl4THdvZmRqanJabWFNLVBiTEVuNmNPb25yYU1hRWlhanhPYjh4M19NeWdtOWx1QQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Newstrack",
+      "headlineJa": "鳥インフルエンザによる死亡は止まるのか？インドが初の国産ワクチンを開発。ニューストラック（ヒンディー語） - Newstrack"
     },
     {
       "articleId": "gnews_318ef264eb655be9",
@@ -1039,8 +2076,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTk5Nb2RqbWZrbThXRWNxR0RfRDRVVE1SN0I4XzBtNzNtUlhzN21TanRhelA0Wnl5QmJnVkNmb0RLZFJpcDJMc2ZJOHY5ZENQR2MzOVliODBnZTd2eXlFU2tGRTZINTlOMjRpdktjckNuZFFiQkIzZWZmR0dpdm16aWtYN2xZbnlsSXUyd3QzbnBLX054OVdTSzJsdEtrWlRMZ2d5U01RbzQtUQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
         "Influenza",
+        "Avian Influenza",
         "Tuberculosis"
       ],
       "locations": [],
@@ -1050,6 +2087,26 @@
       "dataSource": "Google News",
       "sourceName": "The Federal",
       "headlineJa": "インド、新たな鳥インフルエンザ発生の中、独自のH5N1ワクチンを開発 - 連邦"
+    },
+    {
+      "articleId": "gnews_d26f44a788c386db",
+      "headline": "20 नवंबर को पहली स्वदेशी एच5एन1 वैक्सीन, बर्ड फ्लू के खिलाफ भारत की बड़ी छलांग - Lokmat News Hindi",
+      "headlineTranslated": "First indigenous H5N1 vaccine on November 20, India's big leap against bird flu - Lokmat News",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T07:22:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYzFMVmY1bkMtaHRzY1BoM2FiUGg5ai1MOENZUExVRGRnMjFTRVhlS3lINW9vLWVrY3RyR25hRTd3YlU2RTgyNUtKUkhJUVh6UGQ2RnNLTkVLdV9xZE4zOS1na2NUZ1NyUm0yMWtnOTZnaUQ2c19GTmxodmtUSktISmcxN0JzZTBYbmJ0Rko2TXZZWGt1UnVvcjViME1QdUhOSm9tTDNlMkh0c0RLcUwwc3pxVzdZQV9tTExNUFVn0gHDAUFVX3lxTE5SZmxvS0hGMnlyWUdqbVBuWVUzRGx4bHVrMUFWRGtldHkxQmxWLV9SRExLcG14aGFFRTRRZFJKNUdqaTdBLUNOclNkS3N0WTFob0hWN3RPcDFqSEgtZlhOMmh4Z1NvQzlISUxpcWtabDNsTmhpOXJHYm9TVml4bnViQVlkSUxpU0dubURjYVZYUHNSallFTk96VGRVcXVfUTQzSUQ2NWdHM3dMVEpvNmZsdDBoclBBeVFMQ0hMNXZnTFI5WQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Lokmat News Hindi",
+      "headlineJa": "インド初の国産H5N1ワクチンが11月20日に登場、鳥インフルエンザ対策におけるインドの大きな一歩 - ロクマートニュース"
     },
     {
       "articleId": "gnews_bd9ca6eaa73c5113",
@@ -1101,8 +2158,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdmNLN2QyTTc4bElidmEwMlBsdUtiRTZzUlZLaDhkdnlxSUpqWWVtTXd4STdqdzkwVVRjam1OaUJ0YmdUZzBQTTBHR2IyeWN5cXA0cVlON1drMTV0R3Z6dnlIUFZ2VFlMZnhsUGxRVG5CRk55djdRdW9VTjN2TWZxRVFxTlI4bkh0R195M2ZqTHU1S3U2anhfQVFxTWdmbnZnNmtuSFRPbWhwaWtpX1JLQ3R3aHpQNUlPZlE?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1111,6 +2168,26 @@
       "dataSource": "Google News",
       "sourceName": "The South First",
       "headlineJa": "インド、ニワトリ向けH5N1型鳥インフルエンザに対する初の国産ワクチンを発売へ - ザ・サウス・ファースト"
+    },
+    {
+      "articleId": "gnews_efb82764fe680c45",
+      "headline": "देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन तैयार, शिवराज सिंह चौहान 20 नवंबर को भोपाल में करेंगे लॉन्च - Kisan Tak",
+      "headlineTranslated": "The country's first indigenous bird flu vaccine is ready, Shivraj Singh Chouhan will launch it in Bhopal on November 20 - Kisan Tak",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T07:02:55+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUGdsN3NUZ2ZrelhxelhMeEVhcGJOYmNZMWpGcXdjenNoMzF1aE5zTHE4YVJnQUhrdjVyS3hkNUNLV3JMZ2EtcExXVEh6YjhmQnlkTGxHV3llWFBNTVdDWk44TDdxcTJhZDh1QVhEYVpNOUd2bVdDdHB0ZW5BYl9wWHRLLU1nZ05sa0RnZmdsRnZiU0tsaFBBeE9BbnNEbkFwMUFXMHZBT1U5OVU5bEhfUHZUMkxXeVBYeVZjbXhoNkp6LVc5SHUxVjItclloMnhCVWJZbUJZSURucXZyNFFXQzl2aGgtOGJNX1A1bdIB8gFBVV95cUxQXzZ4NjVHMHRXcFZHNUZjcVZMb2c3SnlQdG91WDlzSGV4NFFLQ0xhT0RzaHdMbEZ1QTFKbC1kbVlnMm1HNkliX29uMUdiajJJaEEtZDhvZEQ3WGRwV3VEOXZRTnJtUVZYZk9tT1BlNkxFczZKam5xQ3J4SWNOWkVEX0JBTEgtcE5JLWhuZllDWDBwcUhwY1A0SlRFWURvWWd1dUVPbjdDeXg2UmF2UzBKOTZfTzFxWHEtS0ZDTWdhRy0tN2p6aVIwdHpiQWxTcWk5WWRBUXJqR1l5YU1iM2JxLVBiRFRJR2stSEoybkhHeG9VUQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Kisan Tak",
+      "headlineJa": "国内初の国産鳥インフルエンザワクチンが完成、シヴラージ・シン・チョウハン首相が11月20日にボパールで発表予定 - Kisan Tak"
     },
     {
       "articleId": "gnews_9d3a5eeab2b58b99",
@@ -1202,9 +2279,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeWZ1VzJyNi1aZW5hcjJFVUhFTzR0ak9feXFHaERuajNDX2NUNlZodkhDdUVPYURLQ3h6VkI2cEhEdWNOTmlDeGdxckNmSWpsNkNwWGhBQjZ1aUU2OXBBUVlUYjlFU0prQkFuelRteWdnWVZ2UkhldlQzZVpCa0tKZ3QwQVNMMDlfM2JnemJWY0VKSEN3cGsxMUJlTEU2SWhOZVZMYjV5MHdKeDYwS0N5MnVEeUFRR1lD?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
         "Influenza",
-        "HIV/AIDS"
+        "HIV/AIDS",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1235,27 +2312,6 @@
       "headlineJa": "インドが初の国産鳥インフルエンザワクチンを開発、シヴラージ・シン・チョウハン氏が11月20日に国家に捧げる"
     },
     {
-      "articleId": "gnews_9d0e6de5ccd1effa",
-      "headline": "Shivraj Singh Chouhan to Dedicate India’s First Indigenous H5N1 Chicken Vaccine on November 20 - Singrauli Mirror",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T06:29:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZVpqQVdMaE0tSW41eG4tcDhZVkpyRU5IaGdZaHcya3lZcml1aFk1WHdTSTR2Vk9xNXdfcUN0VERxdFA2bWZkemtoVjlpUkFyektQSXFfZlgzYndMY1RRMzNQMndXUFZHbzJBdmJIVjJxbHVmX01LaE5sX2kybnQ3UExLMjZuMzZ0VWMtbnhqOXptaGZBM2U5YzhEdTlpWFBiTE5lZU9XRXVLcVp1TWd4cExFVi1YYTBEMk83SHBQN3EwOFc3?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Avian Influenza",
-        "HIV/AIDS"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Singrauli Mirror",
-      "headlineJa": "シヴラージ・シン・チョウハン氏、11月20日にインド初の国産H5N1鶏ワクチンを献呈へ - シングラウリ・ミラー"
-    },
-    {
       "articleId": "gnews_0f390c742831aaf0",
       "headline": "Bhopal Scientists Develop India’s First Indigenous H5N1 Bird Flu Vaccine - OdishaBytes",
       "headlineTranslated": "",
@@ -1265,8 +2321,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS3BFcXlVSngzZHFZVk1naVFFbGx3RTNGRjdzSUUyUlMzb3Z3RTZjNHNjQmNodVBpSkw2RTRhakZKR1VvU2ZGd2xYTl85dkFkdThsMFZHcHNiZ2ZQVEQ3OVZZZ0dBT2ctOVl3ZXVNaE40SmQxUmxpY0JLYnQxUjd6Z3pYeXBsN1lBcXNkTjNLeHRyTGJ6Q1N0Nm1HT0PSAaIBQVVfeXFMT1ZRakVxUTlSZEdSMkk1dlJuNWJoRV9JV0NPNHlLVkhiRGdvQmNmdm83R0hrVjZ1RUJNZkVUN05jSkcxbGUybTRJWFMya2VmVHBKZElFS1dTWU5hUklBekJkaEVuRlg2dTNBanFuaUM2bTlMdUZYdTdCb3kxOGlqempFSHZLeUF4Sk9mVk45b1VKbmNMUFlXd0ZoRnZnMTJNWG9R?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1287,8 +2343,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcEZBd2VPSnFwWXlrRmI3MW4xOUhzSzZ2ZGpMaTBoZTBjMHdMOE9pYkJvd3ZpRXlrY1A0NEpVbGJiUEIxRng4NE4zX1RHUG95UVB2WVV1MnJncHpGYzJQRWpKaVVvRlVMdjJYTzNacmlkSGx1bzF6aGhOYWpzRGNyeFpZbmxDeU5QRUxlcGlKaXJxRXVUMXdfWXdwNXk3NHlldV9McW1KSER1eHJoZVRjLTZtNlU5aE5ReHpRa3RmeWtUMTB4d2FRSTVBVjhzeUI3N1HSAdcBQVVfeXFMTllSQlUxdWM1VGRUSFczMlZBQ3c3QXN3TGNiSG4yT2pMeTFhV01QaHVzUU5tNENoSlNMOUZaSG9DT2hmdmc1YjNwWTRRdVNSdTRLaEwwZ3p3bUZmREhUd0owa01wRU5vZUFZa1ZYR2YwOTBTUlZwaFkwSlp2ZENXTmVFUUtjRExfUEVlZ0lUb21Ebzg3Tktqc09GU0VhbDNOODdMaGpiUWFKclJzWXlsMXpDQS1yZTUxVVhPNGp6Q2owNjFSb3llZ29Md3gySHBVWlJMTFNrUjQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1304,12 +2360,12 @@
       "headlineTranslated": "",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T05:55:52+00:00",
+      "publishedTimestamp": "2026-11-18T05:55:00+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLV9pWTNWU1JhZGRUOURfRktKSXlqU00tM05UMURhS3MyV3BLanlPVVJyQUlmSFVBaG5fVVEtQUFVNkVwTUtObGk2VGRPbUdWRE9CdjlIY19WblNiMlBZQV9FU1ZQYm1uMnhvRmN5b0xZUElUTHQyQ3d3Rnh4c3NGamVfN0ozeFFtQUZtemE1aVVvR0dFQzV2a1RTSEZycTFIeFl1V1phZk80XzVSZ201YXdLcV9OQ3ZvR0dv?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "HIV/AIDS"
+        "HIV/AIDS",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1340,6 +2396,26 @@
       "headlineJa": "インド、初の国産鳥インフルエンザワクチンを開発、11月20日に国民に披露へ | 鳥インフルエンザの大流行はインドのGDP成長に影響を与える可能性も… | Inshorts - Inshorts"
     },
     {
+      "articleId": "gnews_a72c62c72756cb67",
+      "headline": "भारत ने तैयार की बर्ड फ्लू की पहली स्वदेशी वैक्सीन, 20 को देश को करेंगे समर्पित मंत्री शिवराज चौहान - uttamhindu.com",
+      "headlineTranslated": "India has developed its first indigenous bird flu vaccine, and Minister Shivraj Chauhan will dedicate it to the nation on the 20th.",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T05:49:21+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNY1F5ZHI3eDhMaXdGVVlscThuVDVQcWh6WF9QOFBIbktjSnZXdjdYSDdiMUYyQno5VnI1cWVYbl9iWmNSNldZb0dGZ0dCY09EWUtVbWVGb1ltTHpLSllMU19QcFRBUnFLOU03Q2JuODlfY1FxWG5SUDhDODFPQlVWdE9RYlo0WnU1X0lVQzF6djlHczNIQnpGY2xhajdzQ1d5a1N5bzA0eUVaV1FycER5U0REYmxaa0dVOUZYaXN2VFJSMDc3LUt1VjdEQzNiX3NrMWxzZTFBdWRiNkZ6Q2UzQkU0ZFZxNFVw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "uttamhindu.com",
+      "headlineJa": "インドは初の国産鳥インフルエンザワクチンを開発し、シヴラージ・チャウハン大臣が20日に国民に捧げる予定だ。"
+    },
+    {
       "articleId": "gnews_0c672cb756e75649",
       "headline": "भारत ने बनाया बर्ड फ्लू का पहला स्वदेशी टीका, 20 नवंबर को राष्ट्र को होगा समर्पित - NewsBytes",
       "headlineTranslated": "India develops first indigenous bird flu vaccine, to be dedicated to the nation on November 20 - NewsBytes",
@@ -1358,6 +2434,26 @@
       "dataSource": "Google News",
       "sourceName": "NewsBytes",
       "headlineJa": "インドが初の国産鳥インフルエンザワクチンを開発、11月20日に国民に捧げる予定 - NewsBytes"
+    },
+    {
+      "articleId": "gnews_0e1406f23b18c38d",
+      "headline": "एच5एन1 वायरस: देश को मिलने वाली है पहली स्वदेशी बर्ड फ्लू वैक्सीन, 20 नवंबर को लॉन्च करेंगे मंत्री शिवराज सिंह - Amar Ujala",
+      "headlineTranslated": "H5N1 virus: India to receive its first indigenous bird flu vaccine, to be launched by Minister Shivraj Singh Chouhan on November 20",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T05:47:56+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdUJhd1d6ZnZFc1hkRkduc1YwUHdvYmlOb2hxY3JETkU0bDhVN3pOeWhmTkNOYmZJX013UzVPM3p6Uzh1dlNOYk11RTNlVGNUaC1QUk1oMHNSNUQ3WmVEb2gyYXVUdTRxZlpMSnpsN3hRclhUcVY4elMyR2Y2LVU4Rzc5UnVyczA5UFRkT01uZVVuMVVFdEsxc0JlZnVvQ0VZNjJlUHBxaUdsdkctX3REZk9tejdnbGRYOHJMajhBY2l4QTJCdTBBaVZWa2VrQ2JLYVdkN1MwNWdkLXZB0gHiAUFVX3lxTE00UWRWdjZVVGdmZU1lZ25rNXJRWWgzTkx4ZXlMb1JhdDAzcXRSTU15bFFsRHJuT0d2VkhGaTAwQUU3dzhWb1g3ai1UazRKTjlRTkpKeGFJWkhnUm55d1RvdVcwMkhJMXFzRlpkeUxMcDZZZFc5TnhzWTI2SEttRVA4SjZCbExMTGU4RmxtS0VhdWFXTXRPeWR3TTZuaV9KdVV4RTdJWTRKREdqUmpTYkxibzVEanNyNHptN0hXTmx2UFdrclZ1Y2stbVRsZmowRGxJcFdGemdubHl5UVR1eWlxREE?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amar Ujala",
+      "headlineJa": "H5N1ウイルス：インドは初の国産鳥インフルエンザワクチンを受け取る予定。11月20日にシヴラージ・シン・チョウハン大臣によって発表される。"
     },
     {
       "articleId": "gnews_5a6f77fecb4e6b70",
@@ -1418,6 +2514,47 @@
       "dataSource": "Google News",
       "sourceName": "mahamedianews",
       "headlineJa": "鳥インフルエンザに対する国産ワクチンが完成"
+    },
+    {
+      "articleId": "gnews_e9cc088da09c64bb",
+      "headline": "India Unveils First Indigenous H5N1 Bird Flu Vaccine for Poultry Use - Asianet Newsable",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T05:30:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0FSRlVDT2RfN1BiU3hXQzdqMFZKYVJhbzRvdnNpQ3Z2azlab3VjcGZRS0QwU2lWX2VwVmQ5dm9NUU4wTFgxVzVrbXJtNHFIa29aU1FLVUxLVmlZU0UtY09Lc3llVDVyVmhDaDExdlBPWEtSRlA5MklkWWJyN083Z2JvWFN5cXlEaXBMYUZ6SmVlVEJpS1B4WS1WTjZBU1VDY2FQYmJWMU1PQk5OUTFJZzFiLVAyUDd1M200aG9ZRGVPNjFiM3fSAcsBQVVfeXFMTzd4bzZYQ19OUW5OQWktR1ZqX1VhRVEwWnZwOTkzUW5CbDEwS3lyWC16ZEQzLURETGlXMFJCOTlBY2R0WnJjWFFMcGtESXVBVjVZVFFvNzFtYTIzekIxZ2hjYmRqNkt6Y3Y4S1A3dno0ZVdjMWhwM2xFeHg0RnRDd05LTjluNzkxcnFQZktnTmdERjJJSkFUbTcyTWp0R1hIMlAweHVRN2V2aGR6YW5zRnNNMDV4THJGSWdmX3NDMWE5d0N1V2hYX2xuNlk?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Asianet Newsable",
+      "headlineJa": "インド、家禽用初の国産H5N1鳥インフルエンザワクチンを発表 - Asianet Newsable"
+    },
+    {
+      "articleId": "gnews_e4e0309f3e2c3415",
+      "headline": "भोपाल: बनी देश की पहली स्वदेशी बर्ड फ्लू वैक्सीन, 20 नवंबर को केंद्रीय मंत्री शिवराज सिंह चौहान करेंगे राष्ट्र को समर्पित - Haribhoomi",
+      "headlineTranslated": "Bhopal: India's first indigenous bird flu vaccine developed; Union Minister Shivraj Singh Chouhan to dedicate it to the nation on November 20",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T05:30:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUFVXdm8yeEh0TDlFSHNxdUczRzlZY1UwTWdncElSWVlWN1pUTUN5dEF4NVBWUlowNXFpRjhQdnJncjB5cXVPaERGWldleFhTYlZ2NDY1WVpzQ1AtT2xQZkh4TUtaZ0NnR2V6WWN1TXpxcE5wazFmWjhLQzJwQlYyTkJRSUd3Y2NTdWR4YzdoRlVGTy1qOVAxMzdIYlpNTkhUczR5YzVpdGtDTU1SamlGUGxnNUttMk9HWXJQYy1iTTNWVVFzLXZ1Wkw2RnpzcmdOcUtZ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Haribhoomi",
+      "headlineJa": "ボパール：インド初の国産鳥インフルエンザワクチンが開発される。シヴラージ・シン・チョウハン連邦大臣が11月20日に国家に捧げる予定。"
     },
     {
       "articleId": "gnews_15703a6fcc4d64a8",
@@ -1489,8 +2626,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONDJyMnkyanlVZEZDeERrc1dtMzRGWlNsUXU4TG9zdERwNmhta1V6ZWUyTjdzV0RPXzJkZktRcnh1emd1cVMyNGpuT0sxclFra3lRYmdwX09uRnRWb3NmeDFfb0dqWDVHQ0hRVmpGUnRocy1sMUpVZWxuajh6Z2M2elNFTERPZGxhVllpOEFkN1RsXzliemY1RURpUzMzaG5RSmxlN3NR0gGrAUFVX3lxTE5PWDdaV0x4YkhIaG9tc3V6TWNxOGxESi05bUtGaWNaN2lvclZWWDNNOHVzdEZScTVxRWpxbDZQVmtDUndWZ29nemhmeXZwVEJyNGs3S0MtOGZYMUVpMkkxcHFKM0RnSE9zRFNZTVpaQmhvWHMtbEQ1Mnd5TWU0dHpqTzZmWFE0UHRMai1WcDZrY2s5U0JUZUdndGZmby1LaXdBMkkyX0dJei1XTQ?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1510,8 +2647,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRW9VckY3TWtWWFRMdGhzQmNXaThEN2NrZ3B0cm5vb2EyUFNLSE85c25yaTVsMDB6aFhMV1lMcG5URHJyRzNnTmFtNU80M3RrMVNWbUtweTFxZGlvVTRsMWFlQ2hiMTJ5V1BhZWhJZVpEYnd4SFZDN0ExRjY3XzhOUmllSENyMFIya2g4NHVmM3h2bWxmbV9vcE05RzJZZEpnSEhKeXA4MVZYY2dXUXdGWXRB?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "HIV/AIDS"
+        "HIV/AIDS",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1520,6 +2657,27 @@
       "dataSource": "Google News",
       "sourceName": "Awaz The Voice",
       "headlineJa": "シヴラージ・チョウハン氏がインド初の国産H5N1ワクチンを発表へ - Awaz The Voice"
+    },
+    {
+      "articleId": "gnews_b1add3d4f5083622",
+      "headline": "Bird Flu Vaccine India : अब बर्ड फ्लू से नहीं मरेगी मुर्गियां? भारत ने तैयार की पहली स्वदेशी वैक्सीन, जानिए कब होगी लॉन्च - Aaj Ki Jandhara",
+      "headlineTranslated": "Bird Flu Vaccine India: Will bird flu no longer kill chickens? India has developed its first indigenous vaccine, learn when it will be launched - Aaj Ki Jandhara",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T05:05:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vTnhtTHZvbE8tb09VTzZrd2duS1cyVWg5TXJZRzQtNFNoRW9qSDhyTVJUWkZsN2doUUZLWFdtWGstMlloaUN0RnB0VzY1MUR6cncxYzJzN3RINlRrZXBHeUJWbElJUQ?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Influenza",
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Aaj Ki Jandhara",
+      "headlineJa": "インドにおける鳥インフルエンザワクチン：鳥インフルエンザはもはや鶏を死に至らしめないのか？インドは初の国産ワクチンを開発、発売時期は？ - Aaj Ki Jandhara"
     },
     {
       "articleId": "gnews_b890135803b286c0",
@@ -1551,8 +2709,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX3dkWFRubVZfTmxETm1TeVlBZTRDUTlxcEpsY1JYNkFqaTRhVnNxYWVrNFdZTUtKbWpWY3lzWndfTEJtUU9HT1dNLWxvVXVOM0RXcTdPUnhIWW10Ql9wRGg2UmZjc1JJaDRjSENjRUx5dHFBLUs0R09OZDVFWmRxTmFpcTRsTi1kZDlxWg?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1563,26 +2721,44 @@
       "headlineJa": "インド初の国産鳥インフルエンザワクチンが11月20日に発表へ - Sarkaritel.com"
     },
     {
-      "articleId": "gnews_82188bdbdece12b6",
-      "headline": "India Develops First Homegrown H5N1 Vaccine As Bird Flu Outbreaks Return, To Be Launched On November 20 - NDTV",
-      "headlineTranslated": "",
+      "articleId": "gnews_cd9657cb8d118ab0",
+      "headline": "शिवराज सिंह चौहान करेंगे भारत के पहले स्वदेशी बर्ड फ्लू टीके का अनावरण - Lokmat News Hindi",
+      "headlineTranslated": "Shivraj Singh Chouhan to unveil India's first indigenous bird flu vaccine - Lokmat News Hindi",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T04:48:37+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYkQ1M0t2cE1ubU16WXZTSHdsWVU2UFFjUzBGRkYxLXVuczd6TlVQTENuZWR5RHJaMUlsVDRONl9RdUlaWHg4Mk9vcW4tUGQwNmRLWXY1eHZGTlRETHdmUUFVTUVDMmNNQkRnaUNzQmtPU1hkakYxN0s0NnBwZUZlZEhCU1dGd1F5ZWd0dGpaN2JVOC1iaDI3eUxtTDhZTWpMWUh2UWpMWnVHaEpPWm5LX2ktRkRaTm13OWppcDdYQXhsQm00R2c4cTRTM3NKT1NERUFYY1VB?oc=5",
-      "originalLanguage": "ENGLISH",
+      "publishedTimestamp": "2026-11-18T04:51:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3lnUlVZSVVoVjlvcjdvSzA0NkRvRDRiVHA3ZlVHTUh6UjlaVjlJWHRKbC12OHBRNldBQ01WRVA5TERMWXhhTDRqU21fVjU5TDR6bnpIWlotb0Z6LUhSZG1oVzJ5dlVvVUhLdDM4ZmNiQ1FTdVlLZmt0eHFyUXA5LUlZWjh5Ung5X3NBa2U2ajZwbVhnb21wSXFMSUdKMVhVTTlhazVpZkNhWU5TWEhUaGVIbDEzOS1y0gG-AUFVX3lxTE1HQTdrRE9LVTdhUThQb2hkUTlvenkzMDFjQmlQT19WU1YySHNacTZSTm0wRjhab2ZVZ3MyMTAyQXVSYjQyNkYxRHN4MmNBSml6TndPTzlmazRocC1JUXF6T2ZycWRLVmZtS0F0b2JWOFZ0RWw4empNTFR2ZlhPTGJBVFBSNDRSSk5pT0tYVzRCYUpWVWtaa1lac0FrOFdybXRyZGJEbk5YN3R1enVoSk9yclhjRXVSU3U4eTgzR1E?oc=5",
+      "originalLanguage": "HINDI",
       "diseases": [
-        "Avian Influenza",
-        "Influenza",
-        "Tuberculosis"
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
         "India (state not identified)"
       ],
       "dataSource": "Google News",
-      "sourceName": "NDTV",
-      "headlineJa": "インド、鳥インフルエンザの再流行を受け初の国産H5N1ワクチンを開発、11月20日に発売予定 - NDTV"
+      "sourceName": "Lokmat News Hindi",
+      "headlineJa": "シヴラージ・シン・チョウハン首相、インド初の国産鳥インフルエンザワクチンを発表へ - ロクマート・ニュース（ヒンディー語）"
+    },
+    {
+      "articleId": "gnews_6f978a92f9ca1fba",
+      "headline": "भारत को मिली पहली स्वदेशी बर्ड फ्लू वैक्सीन, 20 नवंबर को भोपाल में होगा लोकार्पण - Lokmat News Hindi",
+      "headlineTranslated": "India receives its first indigenous bird flu vaccine, to be launched in Bhopal on November 20 - Lokmat News Hindi",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T04:40:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZEl5ZnlpYU5HR0dJNDlaa0dwbzdReGFyZHdVeXZ5cmV3RE44d0ZUUEZvd2ktRzNTZ1E2UkszS0hRQmp5c3FFUkxsb21KcDFMWlo4dnBiOG5VUVItUnJSZjJzdzItLXFRVEtKZGo3cHRnRl9fRjhmYlo1TmtXd0NiZURORXBLOUhSclZ2dzlKSmxDU1NuX2MtX3BQRDlfRm5jRmNmaHlKaDBuUXV2SG53RDBkWnhUd9IBuwFBVV95cUxNTEM3UEtPc0RPT3pmMDJZWDdMeWhWaUEtY28yZzVsWHdqU0UtbE16MlNQcnhyZUVaVUhCVUZlOHB4clhIdHcycVJUMXZpZXhsS0tWVU9MMGxpYjJ2SVViZXBxdXF5UjVGdWJHN0cwclRtdmhTekZ3QlMzZjN1T2ViZ2lIQjU3V19Ud1dOYzYydXdXdEtlQjJaRFh6Q25TaF9TZjJtR0VYcTh2d2pOdG9Laktsak00WDRWU0Vr?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Avian Influenza"
+      ],
+      "locations": [],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Lokmat News Hindi",
+      "headlineJa": "インド、初の国産鳥インフルエンザワクチンを入手、11月20日にボパールで発売へ - ロクマート・ニュース（ヒンディー語）"
     },
     {
       "articleId": "gnews_7812c9655c451ffc",
@@ -1594,8 +2770,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOR0tZQ25JQUlUZFRvT0VaSWNZbG9tekFpVW9xVlRUMEsyVlF2b2lxd2Y1a3BBcV8ycWcwa1lORFZaTHY1b1ZXMWExRVF1YkhLVnFLQ0ZaS3hJa2FfTGlRenVwUE1QRG9mQ1pFS0hvdmJHNmM2N05jMjlhN2F0WG51RVotdzVyZGF2NktyeWRuYmNjYWV0ZDk1NU50SlRTNmZsSmV5MU11aWM0elpScU8xNkF5T3ZmWDdCR0FCWGE4elcyQUEzbWFRZWRuWEdRVk1pUU1taXI0X2xsMjdHN2pxdW9NVUI0RU9BNnhUSEZkWnVCcmtFYUtn?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1631,7 +2807,7 @@
       "headlineTranslated": "Indigenous vaccine to protect chickens from bird flu in Bhopal: Launch on November 20 - The CSR Journal",
       "summary": "",
       "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-18T04:25:16+00:00",
+      "publishedTimestamp": "2026-11-18T04:25:09+00:00",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbkQ0MDBkX0dNNXNnejR1VFpJOWFkR2NMcmRvU1BFa2NuQkhzNWJ6TGJVYmNRVEhmdkxwd29RcWI5SUNRZ1BuVS1fbkpSY3lBUW1JbzRTS0ZBVnlyLWg0QmdvZHl2MEFFcXNJazh3ME1TNWJaWDJ6OFplYWw0U3BEY3Z5SENPUFgz?oc=5",
       "originalLanguage": "HINDI",
       "diseases": [
@@ -1644,6 +2820,26 @@
       "dataSource": "Google News",
       "sourceName": "The CSR Journal",
       "headlineJa": "ボパールで鶏を鳥インフルエンザから守る国産ワクチンが11月20日に発売開始 - CSRジャーナル"
+    },
+    {
+      "articleId": "gnews_1d51d01b54542878",
+      "headline": "Malaria Deaths in India: भारत में मलेरिया के मामलों और मौतों में 80% की गिरावट, राष्ट्रपति मुर्मु ने बताई बड़ी उपलब्धि - Amrit Vichar",
+      "headlineTranslated": "Malaria Deaths in India: 80% drop in malaria cases and deaths in India, President Murmu calls it a major achievement - Amrit Vichar",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-18T04:12:44+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVRGVy1rak1sOEZIb0hXY1NCSE5scVlqQWNKWXRJUEsyTmNHYUE5VFlQVlhKSnllcHpTTmlnNFdNbDUxcEhmRGFCSVFTVzV1blp4dGt6QkE5M2Z3ckpIcHN6MGllcUNXSEtDTDBNd3VHTUktdWtrcnpJNWxfQ2RsNk1YUmF6M29FQ0h3MlNTX1ZVZ0dHVlhvenVRS01VY3JkTXhWcmpXaXVCSlF3a3pGSUtIODNnMkQ3Mk1SStIBxwFBVV95cUxOeHRWWXVIRUlJVWNNVlRoUWNST05RS0hjLTl3Rmp4a1pJeGFqbkJvd1JyWjJ1c3RXVkR6NjFjUFdXMmVkZlpoOG9UOWpLanBYXy1jVElCX3NPZkx1VWZPUjhrYkUtRll6YWZ2dnVZd1ROZ09zWGRUOVNGRVZYbm1RQ0c1dVlfN1BWdTJPOEx0QmxqZHZzWlJHZmh5cFc1eU1US0VMQkpnelZDZnkyYmpFOTZ2elpDanNHVXdOcGNQVnVkY2RSWHYw?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Amrit Vichar",
+      "headlineJa": "インドにおけるマラリアによる死亡者数：インドでマラリアの症例数と死亡者数が80％減少、ムルム大統領はこれを大きな成果と称賛 - アムリット・ヴィチャール"
     },
     {
       "articleId": "gnews_a3e7c2eb0446de3f",
@@ -1687,6 +2883,26 @@
       "headlineJa": "インド初の国産鳥インフルエンザワクチンがボパールで開発され、シヴラージ・シン・チョウハン首相が11月20日に発表する予定だ。"
     },
     {
+      "articleId": "gnews_83ca0b5db9d592b3",
+      "headline": "मलेरिया से मौतें 80% घटीं, 160 जिलों में कोई मामला नहीं : राष्ट्रपति द्रौपदी मुर्मू - Head Topics",
+      "headlineTranslated": "Malaria deaths down 80%, no cases in 160 districts: President Draupadi Murmu - Head Topics",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-17T17:27:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4UnVWN1l3UHg2bG1lYUJuZHY4VWZZTjVOMHRqZXFtNGg4U2Nwbmt2RzFYbm45WHlDeFhIU0Jyc2RlWXpQS0RydnRJUUdpdHh5MlRZVnJnUmpRZHNuUzRSQVBHdVJpdEY2MTh4Rg?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Head Topics",
+      "headlineJa": "マラリアによる死亡者数が80％減少、160地区で症例ゼロ：大統領　ドラウパディ・ムルム - 主要トピック"
+    },
+    {
       "articleId": "gnews_195a9d8fe6f2ed07",
       "headline": "मलेरिया से मौतें 80% घटीं, 160 जिलों में कोई मामला नहीं : राष्ट्रपति द्रौपदी मुर्मू - Navbharat Times",
       "headlineTranslated": "Malaria deaths down 80%, no cases in 160 districts: President Draupadi Murmu",
@@ -1707,6 +2923,26 @@
       "headlineJa": "マラリアによる死亡者数が80％減少、160地区で症例ゼロ：ドラウパディ・ムルム大統領"
     },
     {
+      "articleId": "gnews_556bb892ca970880",
+      "headline": "भारत में मलेरिया के मामलों और मौतों में 80% की कमी, 2030 तक उन्मूलन का लक्ष्य: राष्ट्रपति मुर्मु - Khaskhabar.com",
+      "headlineTranslated": "India has reduced malaria cases and deaths by 80%, aiming for elimination by 2030: President Murmu",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-17T17:16:00+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQeTQ5c05fVXYwOWV3bFJIRnJIei02aGI4UkZqYzgtZWQwUUIyc1RrS1dDVEFWc05tR0E1a2xBTGlnZzdtU2FHREdwSy1HZlZqNG9TZ3ZacEZFb0U5aEJUdzdnRnRZS3pkLVF2WmJSN2pHNVE3ZEYyVkpKclVXTWJNbHpBUDR3RFVXV1Z4dXpCUlh5YjFTaXE2bVVFa3hmWVVPY0YtWE5CLW51dTJkQ2tma0RMQmp3Mnh6VUxNS21uMzVISnFndU82dXhaRXNKVldfVXd5WFRURjczNzd2MTdfeXF1VUtqWXg1TmV5a0traURsTk5NQWU1UFln?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "Khaskhabar.com",
+      "headlineJa": "インドはマラリアの症例数と死亡者数を80％削減し、2030年までに撲滅を目指している：ムルム大統領"
+    },
+    {
       "articleId": "gnews_5b524ed1ad6e145e",
       "headline": "राष्ट्रपति मुर्मू, स्वास्थ्य मंत्री नड्डा ने ICMR-NIMR की स्वर्ण जयंती मनाई, मलेरिया उन्मूलन पर जोर - Lokmat News Hindi",
       "headlineTranslated": "President Murmu, Health Minister Nadda celebrate ICMR-NIMR's golden jubilee, emphasize on malaria elimination - Lokmat News",
@@ -1725,6 +2961,46 @@
       "dataSource": "Google News",
       "sourceName": "Lokmat News Hindi",
       "headlineJa": "ムルム大統領とナッダ保健相がICMR-NIMRの創立50周年を祝い、マラリア撲滅を強調 - ロクマート・ニュース"
+    },
+    {
+      "articleId": "gnews_ef895397ffbf5117",
+      "headline": "राष्ट्रपति ने आईसीएमआर-एनआईएमआर के स्वर्ण जयंती समारोह का किया उद्घाटन, मलेरिया के मामलों में 80 प्रतिशत कमी पर जताई खुशी | New Delhi: ICMR-NIMR Golden Jubilee Celebrations - bhaskarhindi.com",
+      "headlineTranslated": "President inaugurates ICMR-NIMR's Golden Jubilee Celebrations, expresses happiness over 80 percent reduction in malaria cases New Delhi: ICMR-NIMR Golden Jubilee Celebrations - bhaskarhindi.com",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-17T16:19:04+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObGd4UnVhVy00VHZtc3VWX2YwSFpyNEZnTUwwYnhuc2Qxc2F0emZlb3VvUlIxOXp5TDh6Y3RDNGVHTXhpR1dVS0lsc3NRbDdEMW56cnljV2cxUmt0TExHMFVEbUxBUTZ0NlZIMGMyRzRuNFNsd1RPQ2p3Wkh0cFZXMDRNRDZMSWVhdDdsUFR3bzZIVkY2d1BUdDlRV3VqN2VkX21DNjRyRDdKUmlsM1ZSZlJyTUlJUnRYdzZTUG5BNDhUaWJnaGcyb0tNcFVIMWtsdzVjWHJ1Wm1zUXVzX0Rtajc2U3NOS1E?oc=5",
+      "originalLanguage": "HINDI",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "Delhi"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "bhaskarhindi.com",
+      "headlineJa": "大統領、ICMR-NIMR創立50周年記念式典を開幕、マラリア症例80％減少に喜びを表明　ニューデリー：ICMR-NIMR創立50周年記念式典 - bhaskarhindi.com"
+    },
+    {
+      "articleId": "gnews_36dfac197ec21967",
+      "headline": "India records nearly 80% decline in malaria cases and deaths from 2015 to 2025: President - The Hindu",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-17T15:47:29+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdEpHaGRpQjJocW9tb3VGSnRHYThWcW1aN0dhYk5Uc3IxeUF3ZlZhWHAzUVh6Z1ZuUmJxSnpvVHR4MHotZnJmQjdld3hiaXk5bkV1NmJPVWtiVmFrekZtVWdRLUs5Qi1tT3FiZ1E4TTM2c0V2WWNOQ0cwbzhZd0oxeVNXQnJSQTVlaHlxNHNCcW1KRkRJc0tUR2pCSUptM2IyZjV5VHh3TzJJWWk5eF9TVEZXUG1iZlItZjA3VERNSndtSkluQlRzVVlFVHBIZEozZFlNVDU2LV9SNEhndlYw?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Malaria"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "The Hindu",
+      "headlineJa": "インド大統領、2015年から2025年にかけてマラリアの症例数と死亡者数が約80％減少すると発表 - ザ・ヒンドゥー紙"
     },
     {
       "articleId": "gnews_6d3035294c73486f",
@@ -1816,8 +3092,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd2tOQzJHLUttZjhkeWpwMi1EZFJZMWxJcWwtNzhoalZvUWhEMzNyU1pYcHN6RkQzZXk3ZXpZdDJRRUVlUHIzNHhTRk5TSXhvNFRJbFlUcWstTXZrZ2lnUGU3X1JGUGhVMTlxd0lHUlQ2ZUxxSFRLN3YzVzNLajMyTkJYTzBUWERkNzByd3BPMnJqd0kxdDllMjFLSE1NUVhIbjVtZFZIdEVDSzJoNnd1cGFhMWU?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -1826,6 +3102,26 @@
       "dataSource": "Google News",
       "sourceName": "Anadolu Ajansı",
       "headlineJa": "南インドの州、鳥インフルエンザ発生を受け数千羽の鳥を殺処分へ - アナドル通信"
+    },
+    {
+      "articleId": "gnews_3bb48d2f158b46e3",
+      "headline": "Continued vigilance is essential to protect India’s polio-free status - TheWire.in",
+      "headlineTranslated": "",
+      "summary": "",
+      "summaryOriginal": "",
+      "publishedTimestamp": "2026-11-17T10:22:49+00:00",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYm1tNUdjMTd3dHhtVVRzWGZ6QWFrajlEb1VWMGJVX3RPbGZZUk42R3dpSE1fMU0tS0VDV2xWdFVWRzY3a1dxeENqemYzTXpNNG1mQUdhRWFEN084cTNWRHppRzRFLUdJZnQ2LVJMbVdVVVBqVEI1QzZ5Sk1qWV9yeFNyQkNOTndvU2hyUTV3MktkMVpUTTRMa2ZkODh4VGI0SFVoUmJ4Z1ItMjjSAbABQVVfeXFMTVBGdXYxeDBmbC1NelotaHVja25VWkpUb2NwbThsV05oOUl5VU5UekpESGY4SENQRHdoelRxT2YzdHdUMGxVMzY1VnRIMjRtVEJGZjNZbTk2SXZRcjhQdnRzeThOVHJFOEFRZS01VFJHRlJIdnhMTnZjUXRLa3Z0LWNaNGhRSXgtcFc0Vkp0ZXlzWnFKRVBONXZ3TDJiRVplcWlkeFQwX3F0QV9oeHlYNHo?oc=5",
+      "originalLanguage": "ENGLISH",
+      "diseases": [
+        "Infectious disease (unspecified)"
+      ],
+      "locations": [],
+      "states": [
+        "India (state not identified)"
+      ],
+      "dataSource": "Google News",
+      "sourceName": "TheWire.in",
+      "headlineJa": "インドのポリオ撲滅状態を守るためには、継続的な警戒が不可欠である - TheWire.in"
     },
     {
       "articleId": "gnews_64078c11c7257225",
@@ -1866,26 +3162,6 @@
       "dataSource": "Google News",
       "sourceName": "Navbharat Times",
       "headlineJa": "小児の肺炎球菌感染症：保護者のための重要なガイドライン - Navbharat Times"
-    },
-    {
-      "articleId": "gnews_bbfc6fc7daa68398",
-      "headline": "भारत की राष्ट्रपति श्रीमती द्रौपदी मुर्मु का ICMR, राष्ट्रीय मलेरिया अनुसंधान संस्थान के स्वर्ण जयंती समारोह के शुभारंभ के अवसर पर संबोधन(HINDI) - presidentofindia.gov.in",
-      "headlineTranslated": "Address by the President of India, Smt. Draupadi Murmu at the launch of the Golden Jubilee Celebrations of ICMR, National Institute of Malaria Research (HINDI) - presidentofindia.gov.in",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-17T09:59:21+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUUhjUV9OQkdnb0xYRHpMd0luU3RSbGJxYWhvdTRzSTEteFVCN2Zsd3RJSXFJcFhGM0ZHSjluQVYwRWMwdG1POXJHdS1UaFdQVnVBMXBRSWpseGFXSzE5YWdFTDZpQTFuZFU0RkNjYjJUZTJuQnNabzY1Wm9laDVybDhkRjM3LWVHQV9JazdSUFlKX2tWTzR0U2ktSGdwLXQ1a01JMjk5amFiSGp5RGk2NDV1X2pHMmRVbEItMk9QOUJLWWs?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Malaria"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "presidentofindia.gov.in",
-      "headlineJa": "インド大統領の演説、SMT.国立マラリア研究所（HINDI）、ICMR ゴールデンジュビリー祝典の立ち上げに出席したドラウパディ・ムルム - Presidentofindia.gov.in"
     },
     {
       "articleId": "gnews_cdfaa3ceb6b99995",
@@ -1948,26 +3224,6 @@
       "headlineJa": "ティルヴァナンタプラムでデング熱が急増：KUのカリヤヴァットムキャンパスとクリフハウスの敷地がホットスポットに浮上 - ザ・ヒンドゥー"
     },
     {
-      "articleId": "gnews_2e51f2c9795e2a23",
-      "headline": "भारत को मिली पहली डेंगू वैक्सीन, 4 से 60 साल तक के लोगों के लिए मंजूरी - DD News",
-      "headlineTranslated": "India gets its first dengue vaccine, approved for people aged 4 to 60 - DD News",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-17T08:28:02+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcFhxY3hRVWI3bXlZQ1ZMTHI5bTJQVlZ1NS14UUNVNEMwV1JGTkdZZ0NyRS1zZGo3aTNVR1E5MnUwMTM1QVVhNXMtOTBQM05TU0NnZlZKWFFmenBtWW1DOVNyS3NPVU41T2RFczNOTDljUDhXMmdrQzgyM29WM0JfRlRjTUVkbVNEdms3NHd5VzJsZE92c0E?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "DD News",
-      "headlineJa": "インドで初のデング熱ワクチンが承認、対象年齢は4歳から60歳まで - DDニュース"
-    },
-    {
       "articleId": "gnews_53c65cd0ab829633",
       "headline": "बर्ड फ्लू का कहर: अलाप्पुझा में 26,000 पक्षियों को मारने का फैसला - NewsBytes",
       "headlineTranslated": "Bird flu outbreak: Alappuzha decides to cull 26,000 birds - NewsBytes",
@@ -1997,8 +3253,8 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTFsNkJEekJRMTVlekRuNHdzYmI2YmJyM2doLVlIdlBfSm1MREZpRnREb2Y5aEk2eWpJQmNMS2dKY0hGRG5GbDNxd1RFZk9mRjY1ZXZpM291TkYtcUNkeWYtT0RpZzJIZGw2LUp2SFZsU1NZcldzZGF0UFc1a083aDdrZ1kzeGR2VEZqdVpVLWNLNzBRRk9TMWFta1dldUVIeGZ5cUZpSjdmYTRXSjRXYlZQRXQzVnljUU1GNHZpWjl4NFV2S3lldklIc9IB0AFBVV95cUxQSXdjVWZCN0E4eGxFT3pxcWVBdnVKVW5OVzh1QndBa1hqblVWSmV1ODQ2cl9zYkZONTd6WUJFQUw2Y01QT1pyNHdDN0p4dHZMal9UMWxuU1hDb2U1Uml4ZnBJMzRLUWwxODVrQ2MwYzFXVjVCZ21PektXajYyS3FWVkNZRDVYYmhneFRITVZQOHlBdlhJMjBuTEt2QV9SOVhnNHAtR2hxRVJDYkdWbjVxN2xmOFBZd0RYNnJUc0NWcFM1WjVvamlUQmt0dGhvZVM2?oc=5",
       "originalLanguage": "ENGLISH",
       "diseases": [
-        "Avian Influenza",
-        "Influenza"
+        "Influenza",
+        "Avian Influenza"
       ],
       "locations": [],
       "states": [
@@ -2007,190 +3263,6 @@
       "dataSource": "Google News",
       "sourceName": "Business Standard",
       "headlineJa": "アラップーザの2つの農場で鳥インフルエンザが検出、2万6000羽が殺処分へ - ビジネススタンダード"
-    },
-    {
-      "articleId": "gnews_feb9948f50d26148",
-      "headline": "राष्ट्रपति द्रौपदी मुर्मु ने कहा | आकाशवाणी न्यूज़ - News On AIR",
-      "headlineTranslated": "President Draupadi Murmu said | All India Radio News - News On AIR",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T20:36:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzB5YThiSDRpUmxJcTl6NjljaC1iUGlxbjNJUUc5UXRKZkZoeksySkQ3NmZYdEV0N1h6aHZVNnd0bVNDRG5ZYnB2amVZbzBXWVVGQnRvS1BQZE9fMU5POU80MDNuSHpoSExXWTk1a3BkUERYVkoyWVUxS2tiYkNfUkR6OGlMNVByZWxGTndabm5Hbk9WMjVFRmVHNFhaeW5JZUxNQ2E3RDU2d21YMlp4X1BZV1c0YURtWmdmQ2FsUHNqQQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "News On AIR",
-      "headlineJa": "ドラウパディ・ムルム大統領はこう述べた｜全インド放送ニュース - オンエアニュース"
-    },
-    {
-      "articleId": "gnews_fa0c46740da29861",
-      "headline": "Indian Institute of Science researchers find antibiotic combination to reverse TB drug resistance - The Times of India",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T15:54:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNa0FYSTVXQWRVeE91RC1nZ1VQMVBZMmtTR2p1dE1fSDNRZTlpektEdkJXZEp1ZE43cENNTU1wb3AxdTk0TmJsTGZCRjFGb1dIWTltOHh4UExCN1VMbDduOG1oUFpYN05tNUhrM1NBY1VFa0ZzZEo1bWVLSVE3bXZMd0JHRVh3VFM0Q2xFTzdCVnlMdlFqcUVFWHlJSFVWY0dZYmZpalMwYkxJakszZEQwRXViZGlGd3FrQ01NSDZwTU1IV05wWlVVdzdHNHhGWExCRVNIOFBBU2Q4c3MzMVRMc2daejQxNFAtZVVKSzNyNnhqVU1rUGhVNnBpTmo4bGNpTTNoTtIBigJBVV95cUxPYklTd09YbGZuZTYyMkxFZGxVYmxpNmpGTDhuaGl6Qi1YdzhyNldmU2UtNDluNGVnbUV2bHpIal8wUXRfZFh4bGNSRE1oUjRMWUp6ZVNDTDg3bDlBSldMb2djNS14WEIxUzJaejd1ajBBNzZIbWhaM2pHQk5WU0E0ckM2T2lITFlvcjVQSkIxUkdObG5JTC1HQ0oySjI0U1hBWXQ1cV9Cc0RHSmRUMzNuQldhc0pxM2xrSVBnYURlWGYweXhjeEk2eEFzUEZxV0ZUTGdXbXBLZXlSX2hJSXVrRkZyOXNHX0hRbVNuUmtKZnRydk9rOVFuTXRubW01RDVsMmdqcVpOdlNmQQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Times of India",
-      "headlineJa": "インド科学研究所の研究者らが、結核の薬剤耐性を逆転させる抗生物質の組み合わせを発見 - タイムズ・オブ・インディア"
-    },
-    {
-      "articleId": "gnews_f27ec5aad583b178",
-      "headline": "भारत के तमिलनाडु में बर्ड फ्लू की पुष्टि, निगरानी बढ़ाई गई - Ratopati Hindi",
-      "headlineTranslated": "Bird flu confirmed in Tamil Nadu, India; surveillance stepped up",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T14:36:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR29fZzZSbTJfdFVzNkVIUmlpbWJiWXBueWoyeW9neHFBN2VsZDYwLXZPWkdFRzVQNnhacXV1TnBIYVo5TDNhNHYtMEJsaVdvZTlteklEelJNYXJtUGtMU2gyRWFxdVdybGtKU3VCWFd3SXdfdk1hVk9PTmpoU2NPSW9qY2l2N2xNbHF5cUVPQnJwRUFPZkRoOHNuNmVfdERrSVFOQzRHUlJXQQ?oc=5",
-      "originalLanguage": "HINDI",
-      "diseases": [
-        "Avian Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Tamil Nadu"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Ratopati Hindi",
-      "headlineJa": "インドのタミル・ナードゥ州で鳥インフルエンザが確認され、監視体制が強化された。"
-    },
-    {
-      "articleId": "gnews_22019a82b3ca8737",
-      "headline": "India's Tamil Nadu steps up bird flu surveillance after cases of H5N1 infection - The Star",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T13:51:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmZNMXZqdnRRZmpyMXh6SkplbkxLOW52U2c0MWN6YzJRVUFmVFNLeTF6T2YwN3ZKUjRsMURwS3RFVVhQa0FiWGdHREtSWHlZeldRSHRVLWtLcWY5MHl6Nzd6ZlRJaTlscFluLWdDTC1CVVhXalNkSm1GSWZycXRRNXhGcnVVX3BVRWkzZ0NYSnVTRWR0bl94ZU9tanltYmxtVEJpSGFqdlBtX1NTcW05RDR4ZnlleDJQVExuUENJM1Z1TTk2QUlrNGdxeUUzRVNIR1lucGo3YlZzWVAx?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "Tamil Nadu"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Star",
-      "headlineJa": "インドのタミル・ナードゥ州、H5N1型鳥インフルエンザ感染例を受け監視体制を強化 - ザ・スター"
-    },
-    {
-      "articleId": "gnews_447481acb8e30196",
-      "headline": "Hong Kong Suspends Poultry Imports from India, UK, and Japan Due to Avian Influenza Outbreaks - 巴士的報",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T12:04:29+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbGFsRlZCZ2ZMM2dPVDVKTGlkSjN4Q3ZNZlhxODdVYVBPVjZxcFBhb0xmNzZ6YVRMN3RxYzRXck1aQWk5VURGa1lYTG1MQ1EyWi1tb1pyUFFJblhUaTNndWVyTk1SeWNiQ29IN2Y4ckpGalBCS0IxRWotVzk1c2JzSkVFQjZnTHJrdkROQkJwZ2wzUl9Ed3RzbDdCdVRsVWU0SVZUVVBMazh2WFVvUTZhT0I2Xzh2ekxlbVh0Q1BXeUJlVVQ5NTlaS0VpLXppVDVKUUN0ekR1MEZ1M0E?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza",
-        "Tuberculosis"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "巴士的報",
-      "headlineJa": "香港、鳥インフルエンザ発生でインド、英国、日本からの家禽輸入を一時停止 - 巴士的報"
-    },
-    {
-      "articleId": "gnews_9f4892710a5aaf28",
-      "headline": "No respite from dengue as winter approaches - The Daily Star",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T10:26:01+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX1pab014SmpVRjFFdjI2eVg3eEk1cUo5VUFhOElvdUYyR2R3Y2RERmpUNlNCcDByNGR2QTFTVDRuVlJ4Y2RnaVVlM2hqVk52X3M5ZzRmT0ZZQUZHNUo3NnM5dE9NeUJhRGRiZ2tSWE1tWFd5c05UOHM5a1YzTlptMU9DOGJ4eVJaTWl1U1Y1SFdpcUZNUUlKZQ?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Dengue"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Daily Star",
-      "headlineJa": "冬の到来もデング熱の脅威は収まらない - デイリー・スター紙"
-    },
-    {
-      "articleId": "gnews_0368fc06f64e8d3c",
-      "headline": "Out of Maharashtra’s drought emerge a host of other crises - The Indian Express",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T08:18:11+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRm1LQWR0SEtsaXVrVFJwRFZiTXFPYWlkOERUeDZXZm1BcGFMa1JIMS1pMDZHUDhqbWdEV0ZTOXdBRGtLTDF5aFFLZzNfa3c5Zng3VnZBZ2x2SkRmT0t2NmFlbGp5Rk1uVzVYZVpYakFFOGVSS0ttSFdjNTdFaTE3eGJhaDljZC1Ia1NyN3Z6aWdBc0tTV1NjR3I4UEFZYnMzWHVUUUxGUmJOWDlLRmcyRzMyUkk5RmI2OWRYZjNvd9IBxgFBVV95cUxQSG1KbnMwR1JOREZFRzFJQTFqWGZjSVBUMzdtN0haQ3pJczk2dVRNdENEWlc2YzU0Ql9GVks4c2JkbVh5b3lpeExKbXJYejhIZS1yNVhUMzBSOE4td2xDMVkzZXMxRkpraV9pRlU0bEJMc3lLRmNaVkJkOEF0STYyQ3QyS2Jpei05WEVPU2FBd1JPYkZNcXZaeS1CY1MtaHI1RUU1UmJVdXZHQWI1TlFSOFVhZnBYMTZOUlgzaTNEQWVDSkVjZmc?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Infectious disease (unspecified)"
-      ],
-      "locations": [],
-      "states": [
-        "Maharashtra"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Indian Express",
-      "headlineJa": "マハラシュトラ州の干ばつから、数々の危機が生まれている ― インディアン・エクスプレス"
-    },
-    {
-      "articleId": "gnews_28bd6180063f7333",
-      "headline": "Africa CDC warns of immense challenges over fragile Ebola gains - Mid-Day",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T04:13:00+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN3JYMXQ1MXZHZU9MX2lqeWhqS1VCcWZiTURjT0ZSTkZRT2Y5WjkwU1Q4emVVR2xfbkNGYTdPU3FVN0ljWHN4TlB3eFp3RHo2T19qTk5UdE9MWVA1aVBvbUU5RUFIYmhXUWNJck5OVnVudzJmN1A5MVE3NnhIVXNjTWtrQkh3RU00ajlDUEVOOXY0Y3ZXQmEweFVEUHBuV21oZ3RidjFDcU80VWJGN0hDa05sVXBGTk1DU05GUXNMV1VITzFqdW9ISl83ZUQ0WmxnRkF0bHpn?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Ebola"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "Mid-Day",
-      "headlineJa": "アフリカ疾病予防管理センター、脆弱なエボラ対策の成果をめぐる大きな課題を警告 - ミッドデイ"
-    },
-    {
-      "articleId": "gnews_bb6e8a28f9aa2324",
-      "headline": "TN steps up bird flu surveillance; 40,000 chickens culled in Cuddalore - The Hawk",
-      "headlineTranslated": "",
-      "summary": "",
-      "summaryOriginal": "",
-      "publishedTimestamp": "2026-11-16T03:47:36+00:00",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdGJ5RFNJN182ZEVEYmIxeDBBT1JWbS1Nb1lnd0xmYThlOTlZRElnVWxfR3p1dXp4LUJUVml2M2s0NmJjWnY0RXVCMTlLbTktRHRpR1VBNXlrNHBYTzRKWUs0NHdjZUQ3NDJlSHV4YkhyXzlHVjdtcWYyZHI1VTA5UVNEX1ZDX3B1NHBBcEx0akdnRWVCVXpwOFRsR3JGZVpyREpfaWQyM3I1S29xMC1xSjMyMFIxdG52ejV4Qm95cw?oc=5",
-      "originalLanguage": "ENGLISH",
-      "diseases": [
-        "Avian Influenza",
-        "Influenza"
-      ],
-      "locations": [],
-      "states": [
-        "India (state not identified)"
-      ],
-      "dataSource": "Google News",
-      "sourceName": "The Hawk",
-      "headlineJa": "タミル・ナードゥ州、鳥インフルエンザ監視を強化。クダロールで4万羽の鶏が殺処分される - ザ・ホーク"
     }
   ]
 }
